@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            kiwan_topic!
+longtitle:        kiwan_topic!
+author:           rldhkstopic
+email:            rldhks6899@hanyang.ac.kr
 description: >
-  Build Jekyll site with the GitBook style.
+  A Jekyll-based blog by rldhkstopic.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://rldhkstopic.github.io'
+baseurl:          ''
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
@@ -72,3 +72,17 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+
+# Language and Timezone
+lang: ko-KR
+timezone: Asia/Seoul
+
+# Social Links
+social:
+  email: rldhks6899@hanyang.ac.kr
+  github: rldhkstopic
+
+# Avatar
+avatar: https://github.com/rldhkstopic.png
+
+google_site_verification: fKkgmvt-4haQllyBJ1Yn53qtpzX2KA2k5hUp8LGoJRg
