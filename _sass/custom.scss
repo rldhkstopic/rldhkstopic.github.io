@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #007bff; /* Blue */
+    --secondary-color: #6c757d; /* Gray */
+    --text-color: #343a40; /* Dark Gray */
+    --background-color: #f8f9fa; /* Light Gray */
+    --card-background-color: #ffffff; /* White */
+    --border-color: #dee2e6; /* Light Border */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+    &:hover {
+        color: darken(var(--primary-color), 10%);
+    }
+}
+
+.book-summary {
+    background-color: var(--card-background-color);
+    border-right: 1px solid var(--border-color);
+
+    .profile-container {
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 1px solid var(--border-color);
+        margin-bottom: 20px;
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid var(--primary-color);
+        }
+
+        .profile-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+    }
+
+    .custom-nav-link {
+        color: var(--text-color);
+        font-weight: bold;
+        padding: 10px 15px;
+        display: block;
+
+        &:hover {
+            background-color: var(--primary-color);
+            color: var(--card-background-color);
+        }
+    }
+}
+
+.book-body .body-inner {
+    background-color: var(--background-color);
+}
+
+.markdown-section {
+    background-color: var(--card-background-color);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
