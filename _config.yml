@@ -9,12 +9,8 @@ baseurl: ""  # 리포지토리 이름이 baseurl인 경우 여기에 입력
 # Social links
 github: "https://github.com/rldhkstopic"
 youtube: ""  # YouTube 채널 URL 추가
-bio: "MS of HYU\n내가 살아가는 이야기"
-
-# Statistics
-total_visitors: 1548
-today_visitors: 0
-yesterday_visitors: 4
+subtitle: "MS of HYU"
+bio: "내가 살아가는 이야기"
 
 # Build settings
 # theme: minima  # 커스텀 레이아웃 사용으로 주석 처리
