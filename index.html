@@ -132,7 +132,12 @@ layout: default
     <div class="content-section">
       <div class="section-header">
         <h2 class="section-title">📖 Study</h2>
-        <a href="#" class="section-more">더보기 →</a>
+        <a href="#" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
       </div>
       <div class="post-list">
         {% assign study_posts = site.posts | where_exp: "post", "post.category == 'study' or post.tags contains '학습' or post.tags contains '알고리즘' or post.tags contains 'CS' or post.tags contains '네트워크' or post.tags contains '프로그래밍'" | limit: 5 %}
@@ -158,7 +163,12 @@ layout: default
     <div class="content-section">
       <div class="section-header">
         <h2 class="section-title">💻 Dev</h2>
-        <a href="#" class="section-more">더보기 →</a>
+        <a href="#" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
       </div>
       <div class="post-list">
         {% assign dev_posts = site.posts | where_exp: "post", "post.category == 'dev' or post.tags contains '개발'" | limit: 5 %}
@@ -184,7 +194,12 @@ layout: default
     <div class="content-section">
       <div class="section-header">
         <h2 class="section-title">👋 Daily</h2>
-        <a href="#" class="section-more">더보기 →</a>
+        <a href="#" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
       </div>
       <div class="post-list">
         {% assign daily_posts = site.posts | where_exp: "post", "post.category == 'daily' or post.tags contains '일상'" | limit: 5 %}

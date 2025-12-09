@@ -321,14 +321,26 @@ body.home-page .page-content {
 }
 
 .section-more {
-  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
   color: var(--text-secondary);
   text-decoration: none;
-  transition: color 0.2s;
+  transition: all 0.2s;
+  border-radius: 4px;
 }
 
 .section-more:hover {
   color: var(--accent-color);
+  background-color: var(--bg-secondary);
+  transform: rotate(90deg);
+}
+
+.section-more svg {
+  width: 16px;
+  height: 16px;
 }
 
 /* 티스토리 스타일 게시판 리스트 */
