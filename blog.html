@@ -9,7 +9,7 @@ title: 블로그
   {% if site.posts.size > 0 %}
     <ul class="post-list">
       {% for post in site.posts %}
-        <li>
+        <li class="post-card" onclick="window.location.href='{{ post.url | relative_url }}'">
           <span class="post-meta">{{ post.date | date: "%Y년 %m월 %d일" }}</span>
           <h2>
             <a class="post-link" href="{{ post.url | relative_url }}">
@@ -17,7 +17,7 @@ title: 블로그
             </a>
           </h2>
           {% if post.excerpt %}
-            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
           {% endif %}
           {% if post.tags.size > 0 %}
             <div class="post-tags">
@@ -30,7 +30,9 @@ title: 블로그
       {% endfor %}
     </ul>
   {% else %}
-    <p>아직 포스트가 없습니다.</p>
+    <div class="post-card" style="text-align: center; padding: 3rem;">
+      <p style="color: var(--text-secondary); font-size: 1.1rem;">아직 포스트가 없습니다. 첫 번째 포스트를 작성해보세요! ✨</p>
+    </div>
   {% endif %}
 </div>
 

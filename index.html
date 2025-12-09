@@ -9,12 +9,10 @@ layout: default
   </div>
 
   <div class="posts-section">
-    <h2>최근 포스트</h2>
-    
     {% if site.posts.size > 0 %}
       <ul class="post-list">
-        {% for post in site.posts limit: 5 %}
-          <li>
+        {% for post in site.posts limit: 10 %}
+          <li class="post-card" onclick="window.location.href='{{ post.url | relative_url }}'">
             <span class="post-meta">{{ post.date | date: "%Y년 %m월 %d일" }}</span>
             <h3>
               <a class="post-link" href="{{ post.url | relative_url }}">
@@ -22,7 +20,7 @@ layout: default
               </a>
             </h3>
             {% if post.excerpt %}
-              <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+              <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
             {% endif %}
             {% if post.tags.size > 0 %}
               <div class="post-tags">
@@ -35,11 +33,15 @@ layout: default
         {% endfor %}
       </ul>
       
-      <div class="more-posts">
-        <a href="/blog/" class="btn">모든 포스트 보기</a>
-      </div>
+      {% if site.posts.size > 10 %}
+        <div class="more-posts">
+          <a href="/blog/" class="btn">모든 포스트 보기 →</a>
+        </div>
+      {% endif %}
     {% else %}
-      <p>아직 포스트가 없습니다. 첫 번째 포스트를 작성해보세요!</p>
+      <div class="post-card" style="text-align: center; padding: 3rem;">
+        <p style="color: var(--text-secondary); font-size: 1.1rem;">아직 포스트가 없습니다. 첫 번째 포스트를 작성해보세요! ✨</p>
+      </div>
     {% endif %}
   </div>
 </div>
