@@ -17,7 +17,7 @@ layout: default
           <span class="stat-label">포스트</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">12</span>
+          <span class="stat-number">3</span>
           <span class="stat-label">카테고리</span>
         </div>
       </div>
@@ -35,26 +35,20 @@ layout: default
         </li>
         <li class="category-item">
           <a href="#" class="category-link">
-            <span>개발</span>
-            <span class="category-count">8</span>
+            <span>최근에 쓴글</span>
+            <span class="category-count">{% assign recent_posts = site.posts | limit: 5 %}{{ recent_posts.size }}</span>
           </a>
         </li>
         <li class="category-item">
           <a href="#" class="category-link">
-            <span>학습</span>
-            <span class="category-count">5</span>
+            <span>스터디</span>
+            <span class="category-count">{% assign study_posts = site.posts | where_exp: "post", "post.category == 'study' or post.tags contains '학습' or post.tags contains '알고리즘' or post.tags contains 'CS' or post.tags contains '네트워크'" %}{{ study_posts.size }}</span>
           </a>
         </li>
         <li class="category-item">
           <a href="#" class="category-link">
             <span>일상</span>
-            <span class="category-count">3</span>
-          </a>
-        </li>
-        <li class="category-item">
-          <a href="#" class="category-link">
-            <span>리뷰</span>
-            <span class="category-count">2</span>
+            <span class="category-count">{% assign daily_posts = site.posts | where_exp: "post", "post.category == 'daily' or post.tags contains '일상'" %}{{ daily_posts.size }}</span>
           </a>
         </li>
       </ul>
@@ -63,37 +57,67 @@ layout: default
 
   <!-- 메인 콘텐츠 영역 -->
   <main class="main-content">
-    <!-- 게시판 섹션 -->
+    <!-- 최근에 쓴글 -->
     <div class="content-section">
-      <div class="section-label">게시판 목록</div>
-      <div class="post-board">
-        {% if site.posts.size > 0 %}
-          {% for post in site.posts %}
-            <div class="post-item" onclick="window.location.href='{{ post.url | relative_url }}'">
-              <div class="post-header">
-                <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title | escape }}</a>
-                <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
-              </div>
-              {% if post.excerpt %}
-                <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</div>
-              {% endif %}
-              <div class="post-footer">
-                {% if post.tags.size > 0 %}
-                  <div class="post-tags">
-                    {% for tag in post.tags limit: 3 %}
-                      <span class="tag">{{ tag }}</span>
-                    {% endfor %}
-                  </div>
-                {% endif %}
-                <div class="post-meta-info">
-                  <span>조회 0</span>
-                </div>
-              </div>
+      <div class="section-header">
+        <h2 class="section-title">최근에 쓴글</h2>
+      </div>
+      <div class="post-list">
+        {% assign recent_posts = site.posts | limit: 5 %}
+        {% if recent_posts.size > 0 %}
+          {% for post in recent_posts %}
+            <div class="post-list-item">
+              <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
+              <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
             </div>
           {% endfor %}
         {% else %}
-          <div class="post-item" style="text-align: center; padding: 3rem;">
-            <p style="color: var(--text-secondary);">아직 포스트가 없습니다.</p>
+          <div class="post-list-item empty">
+            <span>아직 포스트가 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- 스터디 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">스터디</h2>
+      </div>
+      <div class="post-list">
+        {% assign study_posts = site.posts | where_exp: "post", "post.category == 'study' or post.tags contains '학습' or post.tags contains '알고리즘' or post.tags contains 'CS' or post.tags contains '네트워크' or post.tags contains '프로그래밍'" | limit: 5 %}
+        {% if study_posts.size > 0 %}
+          {% for post in study_posts %}
+            <div class="post-list-item">
+              <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
+              <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+            </div>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>아직 포스트가 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- 일상 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">일상</h2>
+      </div>
+      <div class="post-list">
+        {% assign daily_posts = site.posts | where_exp: "post", "post.category == 'daily' or post.tags contains '일상'" | limit: 5 %}
+        {% if daily_posts.size > 0 %}
+          {% for post in daily_posts %}
+            <div class="post-list-item">
+              <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
+              <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+            </div>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>아직 포스트가 없습니다.</span>
           </div>
         {% endif %}
       </div>
