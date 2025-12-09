@@ -11,9 +11,17 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
     {% seo %}
+    
+    <script>
+      // 메인 페이지인지 확인하여 body에 클래스 추가
+      if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+        document.documentElement.classList.add('home-page');
+      }
+    </script>
   </head>
-  <body>
-    <header class="site-header glass">
+  <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
+    {% unless page.url == '/' or page.url == '/index.html' %}
+    <header class="site-header">
       <div class="wrapper">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
@@ -25,6 +33,7 @@
         </nav>
       </div>
     </header>
+    {% endunless %}
 
     <main class="page-content">
       <div class="wrapper">
@@ -32,12 +41,13 @@
       </div>
     </main>
 
-    <footer class="site-footer glass">
+    {% unless page.url == '/' or page.url == '/index.html' %}
+    <footer class="site-footer">
       <div class="wrapper">
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
         <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">GitHub Pages</a></p>
       </div>
     </footer>
+    {% endunless %}
   </body>
 </html>
-
