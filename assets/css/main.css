@@ -28,12 +28,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Layout - 메인화면에서만 헤더/푸터 숨김 */
-body.home-page .site-header,
-body.home-page .site-footer {
-  display: none;
-}
-
+/* Layout - 메인화면에서도 헤더 표시 */
 body.home-page .page-content {
   padding-top: 0;
   padding-bottom: 0;
@@ -159,6 +154,33 @@ body.home-page .page-content {
   font-size: 0.875rem;
   color: var(--text-secondary);
   margin-bottom: 1rem;
+  white-space: pre-line;
+  line-height: 1.6;
+}
+
+.profile-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.social-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.social-link:hover {
+  color: var(--accent-color);
+  transform: scale(1.1);
 }
 
 .profile-stats {
@@ -219,6 +241,58 @@ body.home-page .page-content {
   border-radius: 12px;
 }
 
+.category-toggle {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-left: auto;
+}
+
+.sub-category-list {
+  list-style: none;
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  display: none;
+}
+
+.category-item:hover .sub-category-list {
+  display: block;
+}
+
+.sub-category-item {
+  padding: 0.5rem 0;
+}
+
+.sub-category-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.sub-category-link:hover {
+  color: var(--accent-color);
+}
+
+/* 방문자 통계 */
+.visitor-stats {
+  text-align: center;
+}
+
+.visitor-total {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.visitor-daily {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
 /* Main Content Area - 게시판 */
 .main-content {
   min-height: 600px;
@@ -233,6 +307,9 @@ body.home-page .page-content {
 }
 
 .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 0.75rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--border-color);
@@ -243,6 +320,17 @@ body.home-page .page-content {
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
+}
+
+.section-more {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.section-more:hover {
+  color: var(--accent-color);
 }
 
 /* 티스토리 스타일 게시판 리스트 */
@@ -297,8 +385,20 @@ body.home-page .page-content {
   font-size: 0.8125rem;
   color: var(--text-secondary);
   white-space: nowrap;
-  margin-left: 1rem;
   font-weight: 400;
+}
+
+.post-list-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+}
+
+.post-list-views {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 /* Footer - 다른 페이지에서만 표시 */

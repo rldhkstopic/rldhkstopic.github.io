@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "minima", "~> 2.5"
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-seo-tag", "~> 2.8"
+# gem "minima", "~> 2.5"  # 커스텀 레이아웃 사용으로 주석 처리
+# gem "jekyll-feed", "~> 0.12"  # 플러그인 주석 처리
+# gem "jekyll-seo-tag", "~> 2.8"  # 플러그인 주석 처리
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
