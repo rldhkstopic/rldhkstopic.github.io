@@ -1,0 +1,41 @@
+# Site settings
+title: "AI 대화 기록 블로그"
+description: "AI와의 대화를 정리하고 지식을 보존하는 블로그"
+author: "kiwanPark"
+email: "rldhks6899@hanyang.ac.kr"
+url: "https://rldhkstopic.github.io"  # GitHub Pages URL
+baseurl: ""  # 리포지토리 이름이 baseurl인 경우 여기에 입력
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: 홈
+    url: /
+  - title: 블로그
+    url: /blog/
+  - title: 소개
+    url: /about/
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
