@@ -243,10 +243,17 @@ body.home-page .page-content {
   align-items: center;
   transition: color 0.2s;
   line-height: 1.4;
+  cursor: pointer;
+  user-select: none;
 }
 
 .category-link:hover {
   color: var(--accent-color);
+}
+
+.category-item.active .category-link {
+  color: var(--accent-color);
+  font-weight: 600;
 }
 
 .category-count {
@@ -260,13 +267,23 @@ body.home-page .page-content {
 
 .sub-category-list {
   list-style: none;
-  margin-top: 0.5rem;
+  margin-top: 0;
   padding-left: 1.5rem;
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              margin-top 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              padding-top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 0;
 }
 
-.category-item:hover .sub-category-list {
-  display: block;
+.category-item.active .sub-category-list {
+  max-height: 500px;
+  opacity: 1;
+  margin-top: 0.5rem;
+  padding-top: 0.25rem;
 }
 
 .sub-category-item {

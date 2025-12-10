@@ -17,6 +17,26 @@
       if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
         document.documentElement.classList.add('home-page');
       }
+
+      // 카테고리 토글 함수
+      function toggleCategory(link) {
+        const categoryItem = link.closest('.category-item');
+        const isActive = categoryItem.classList.contains('active');
+        
+        // 다른 카테고리 닫기 (선택사항 - 원하면 주석 처리)
+        // document.querySelectorAll('.category-item').forEach(item => {
+        //   if (item !== categoryItem) {
+        //     item.classList.remove('active');
+        //   }
+        // });
+        
+        // 현재 카테고리 토글
+        if (isActive) {
+          categoryItem.classList.remove('active');
+        } else {
+          categoryItem.classList.add('active');
+        }
+      }
     </script>
   </head>
   <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
