@@ -405,6 +405,8 @@ body.home-page .page-content {
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .post-list-item:last-child {
@@ -442,10 +444,6 @@ body.home-page .page-content {
   text-overflow: ellipsis;
   margin-bottom: 0.125rem;
   font-weight: 500;
-}
-
-.post-list-title:hover {
-  color: var(--text-primary);
 }
 
 .post-list-date {

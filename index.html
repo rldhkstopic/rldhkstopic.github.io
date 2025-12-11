@@ -132,10 +132,10 @@ layout: default
       <div class="post-list">
         {% assign recent_posts = site.posts | limit: 5 %}
         {% for post in recent_posts %}
-          <div class="post-list-item">
-            <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
+          <a href="{{ post.url | relative_url }}" class="post-list-item">
+            <span class="post-list-title">{{ post.title | escape }}</span>
             <div class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</div>
-          </div>
+          </a>
         {% endfor %}
       </div>
     </div>
@@ -158,13 +158,13 @@ layout: default
         {% assign study_posts = site.posts | where: "category", "study" | limit: 5 %}
         {% if study_posts.size > 0 %}
           {% for post in study_posts %}
-            <div class="post-list-item">
-              <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
+            <a href="{{ post.url | relative_url }}" class="post-list-item">
+              <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
                 <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                 <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
               </div>
-            </div>
+            </a>
           {% endfor %}
         {% else %}
           <div class="post-list-item empty">
@@ -189,13 +189,13 @@ layout: default
         {% assign dev_posts = site.posts | where: "category", "dev" | limit: 5 %}
         {% if dev_posts.size > 0 %}
           {% for post in dev_posts %}
-            <div class="post-list-item">
-              <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
+            <a href="{{ post.url | relative_url }}" class="post-list-item">
+              <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
                 <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                 <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
               </div>
-            </div>
+            </a>
           {% endfor %}
         {% else %}
           <div class="post-list-item empty">
@@ -220,13 +220,13 @@ layout: default
         {% assign daily_posts = site.posts | where: "category", "daily" | limit: 5 %}
         {% if daily_posts.size > 0 %}
           {% for post in daily_posts %}
-            <div class="post-list-item">
-              <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
+            <a href="{{ post.url | relative_url }}" class="post-list-item">
+              <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
                 <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                 <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
               </div>
-            </div>
+            </a>
           {% endfor %}
         {% else %}
           <div class="post-list-item empty">
