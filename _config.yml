@@ -12,6 +12,9 @@ youtube: ""  # YouTube 채널 URL 추가
 subtitle: "MS of HYU"
 bio: "내가 살아가는 이야기"
 
+# Google Analytics 4 (GA4)
+google_analytics: "G-LY54J8KM1X"
+
 # Build settings
 # theme 설정 없음 - 커스텀 레이아웃 사용
 # plugins는 GitHub Pages가 자동으로 관리
