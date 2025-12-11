@@ -152,51 +152,46 @@
         const codeBlocks = document.querySelectorAll('.post-content pre');
         
         codeBlocks.forEach(pre => {
-          // line-numbers 적용
           pre.classList.add('line-numbers');
-          
-          // tabindex와 outline 제거
           pre.removeAttribute('tabindex');
           pre.style.outline = 'none';
           
           const code = pre.querySelector('code');
           if (!code) return;
-          code.classList.add('line-numbers');
-          
-          const originalText = code.textContent || code.innerText;
-          const lines = originalText.split('\n');
 
-          // 코드가 길면 확장 가능하게 만들기
+          // 언어 추출 및 data-lang 표시
+          const langMatch = code.className.match(/language-([\w-]+)/);
+          const lang = langMatch ? langMatch[1] : 'code';
+          pre.setAttribute('data-lang', lang);
+
+          // 라인넘버 플러그인용 클래스는 pre에만 유지
+          code.classList.remove('line-numbers');
+
+          // 긴 코드일 때만 확장 가능 표시
+          const lines = (code.textContent || code.innerText || '').split('\n');
           if (lines.length > 15) {
             pre.classList.add('code-expandable');
-            
-            if (!pre.hasAttribute('data-listener-added')) {
-              pre.setAttribute('data-listener-added', 'true');
-              
-              // "전체 코드 보기" 버튼 클릭 시 팝업 열기
-              const afterElement = pre;
-              afterElement.addEventListener('click', function(e) {
-                // ::after 요소 클릭 확인
-                if (e.target === afterElement || e.target.closest('pre') === afterElement) {
-                  const rect = afterElement.getBoundingClientRect();
-                  const clickY = e.clientY - rect.top;
-                  const height = rect.height;
-                  
-                  // 하단 60px 영역 클릭 시 팝업 열기
-                  if (clickY > height - 60) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    openCodeModal(pre);
-                  }
-                }
-              });
-            }
+          } else {
+            pre.classList.remove('code-expandable');
+          }
+
+          // 상단 우측 + 버튼 생성 (중복 방지)
+          if (!pre.querySelector('.code-expand-btn')) {
+            const btn = document.createElement('button');
+            btn.className = 'code-expand-btn';
+            btn.innerHTML = '+';
+            btn.setAttribute('aria-label', '전체 코드 보기');
+            btn.addEventListener('click', function(e) {
+              e.stopPropagation();
+              openCodeModal(pre, lang);
+            });
+            pre.appendChild(btn);
           }
         });
       }
       
       // 코드 팝업 모달 열기
-      function openCodeModal(preElement) {
+      function openCodeModal(preElement, langOverride) {
         // 모달이 이미 있으면 제거
         const existingModal = document.getElementById('code-modal');
         if (existingModal) {
@@ -212,8 +207,8 @@
         const codeClone = code.cloneNode(true);
         
         // 언어 클래스 가져오기
-        const language = code.className.match(/language-(\w+)/);
-        const langClass = language ? language[0] : '';
+        const language = code.className.match(/language-([\w-]+)/);
+        const langClass = langOverride ? `language-${langOverride}` : (language ? language[0] : '');
         
         modal.innerHTML = `
           <div class="code-modal-content">
