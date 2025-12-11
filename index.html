@@ -65,7 +65,10 @@ layout: default
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span>💻 Dev</span>
-            <span class="category-count">{% assign dev_posts = site.posts | where_exp: "post", "post.category == 'dev' or post.tags contains '개발' or post.tags contains '프로그래밍'" %}{{ dev_posts.size }}</span>
+            <span class="category-count">
+              {% assign dev_posts = site.posts | where_exp: "post", "post.category == 'dev' or post.tags contains '개발' or post.tags contains '프로그래밍'" %}
+              {{ dev_posts.size }}
+            </span>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
@@ -76,7 +79,10 @@ layout: default
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span>📑 Document</span>
-            <span class="category-count">{% assign doc_posts = site.posts | where_exp: "post", "post.category == 'document'" %}{{ doc_posts.size }}</span>
+            <span class="category-count">
+              {% assign doc_posts = site.posts | where_exp: "post", "post.category == 'document'" %}
+              {{ doc_posts.size }}
+            </span>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
@@ -90,7 +96,10 @@ layout: default
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span>📖 Study</span>
-            <span class="category-count">{% assign study_posts = site.posts | where_exp: "post", "post.category == 'study' or post.tags contains '학습'" %}{{ study_posts.size }}</span>
+            <span class="category-count">
+              {% assign study_posts = site.posts | where_exp: "post", "post.category == 'study' or post.tags contains '학습'" %}
+              {{ study_posts.size }}
+            </span>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
