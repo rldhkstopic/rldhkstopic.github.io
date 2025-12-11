@@ -343,32 +343,6 @@
         }
       })();
       
-      // GA4 방문자 통계 (GA4는 서버 사이드 API가 필요하므로 현재는 연결 상태만 확인)
-      (function() {
-        const totalVisitorsEl = document.getElementById('total-visitors');
-        const todayVisitorsEl = document.getElementById('today-visitors');
-        const yesterdayVisitorsEl = document.getElementById('yesterday-visitors');
-        
-        if (totalVisitorsEl && todayVisitorsEl && yesterdayVisitorsEl) {
-          // GA4가 로드되었는지 확인
-          if (typeof gtag !== 'undefined') {
-            // GA4가 작동 중임을 표시
-            totalVisitorsEl.textContent = '추적 중';
-            todayVisitorsEl.textContent = '추적 중';
-            yesterdayVisitorsEl.textContent = '추적 중';
-            
-            // 실제 데이터는 Google Analytics Reporting API가 필요합니다
-            // 서버 사이드 API 연동 시 여기에 데이터를 표시할 수 있습니다
-            totalVisitorsEl.title = 'Google Analytics 대시보드에서 전체 통계를 확인하세요';
-            todayVisitorsEl.title = 'Google Analytics 대시보드에서 오늘 통계를 확인하세요';
-            yesterdayVisitorsEl.title = 'Google Analytics 대시보드에서 어제 통계를 확인하세요';
-          } else {
-            totalVisitorsEl.textContent = '연결 중...';
-            todayVisitorsEl.textContent = '연결 중...';
-            yesterdayVisitorsEl.textContent = '연결 중...';
-          }
-        }
-      })();
     </script>
   </body>
 </html>
