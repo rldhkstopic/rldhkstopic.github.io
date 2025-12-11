@@ -10,6 +10,23 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
+    <!-- Prism.js for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    
+    <!-- MathJax for LaTeX -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
     {% comment %}{% seo %}{% endcomment %}
     
     <script>
@@ -37,6 +54,32 @@
           categoryItem.classList.add('active');
         }
       }
+
+      // 코드 블록 확장 기능
+      document.addEventListener('DOMContentLoaded', function() {
+        const codeBlocks = document.querySelectorAll('.post-content pre');
+        
+        codeBlocks.forEach(pre => {
+          const code = pre.querySelector('code');
+          if (!code) return;
+          
+          // 코드가 길면 확장 가능하게 만들기
+          const lineCount = code.textContent.split('\n').length;
+          if (lineCount > 15) {
+            pre.classList.add('code-expandable');
+            
+            pre.addEventListener('click', function() {
+              if (pre.classList.contains('code-expanded')) {
+                pre.classList.remove('code-expanded');
+                pre.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              } else {
+                pre.classList.add('code-expanded');
+                pre.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              }
+            });
+          }
+        });
+      });
     </script>
   </head>
   <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
