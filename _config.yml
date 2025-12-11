@@ -13,8 +13,8 @@ subtitle: "MS of HYU"
 bio: "내가 살아가는 이야기"
 
 # Build settings
-theme: ""  # 테마 비활성화 - 커스텀 레이아웃 사용
-plugins: []  # 플러그인 비활성화 (GitHub Pages가 자동으로 필요한 플러그인은 로드함)
+# theme 설정 없음 - 커스텀 레이아웃 사용
+# plugins는 GitHub Pages가 자동으로 관리
 
 # Navigation
 navigation:
