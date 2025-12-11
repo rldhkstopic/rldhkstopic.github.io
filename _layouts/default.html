@@ -12,8 +12,6 @@
     
     <!-- Prism.js for syntax highlighting -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
     
     <!-- MathJax for LaTeX -->
     <script>
@@ -28,6 +26,39 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     {% comment %}{% seo %}{% endcomment %}
+  </head>
+  <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            {% for item in site.navigation %}
+              <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endfor %}
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% unless page.url == '/' or page.url == '/index.html' %}
+    <footer class="site-footer">
+      <div class="wrapper">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
+        <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">GitHub Pages</a></p>
+      </div>
+    </footer>
+    {% endunless %}
+    
+    <!-- Prism.js for syntax highlighting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
     
     <script>
       // 메인 페이지인지 확인하여 body에 클래스 추가
@@ -81,34 +112,5 @@
         });
       });
     </script>
-  </head>
-  <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
-    <header class="site-header">
-      <div class="wrapper">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <nav class="site-nav">
-          <div class="trigger">
-            {% for item in site.navigation %}
-              <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endfor %}
-          </div>
-        </nav>
-      </div>
-    </header>
-
-    <main class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {% unless page.url == '/' or page.url == '/index.html' %}
-    <footer class="site-footer">
-      <div class="wrapper">
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
-        <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">GitHub Pages</a></p>
-      </div>
-    </footer>
-    {% endunless %}
   </body>
 </html>

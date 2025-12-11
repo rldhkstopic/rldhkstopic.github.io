@@ -13,10 +13,8 @@ subtitle: "MS of HYU"
 bio: "내가 살아가는 이야기"
 
 # Build settings
-# theme: minima  # 커스텀 레이아웃 사용으로 주석 처리
-# plugins:
-#   - jekyll-feed
-#   - jekyll-seo-tag
+theme: null  # 커스텀 레이아웃 사용
+plugins: []  # 플러그인 비활성화
 
 # Navigation
 navigation:
