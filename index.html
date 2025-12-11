@@ -80,7 +80,7 @@ layout: default
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span>📑 Document</span>
             <span class="category-count">
-              {% assign doc_posts = site.posts | where_exp: "post", "post.category == 'document'" %}
+              {% assign doc_posts = site.posts | where: "category", "document" %}
               {{ doc_posts.size }}
             </span>
           </a>
@@ -130,24 +130,13 @@ layout: default
     <div class="sidebar-section">
       <div class="sidebar-section-title">인기글</div>
       <div class="post-list">
-        {% assign posts_with_views = site.posts | where_exp: "post", "post.views != nil and post.views > 0" %}
-        {% assign popular_posts = posts_with_views | sort: "views" | reverse | limit: 5 %}
-        {% if popular_posts.size > 0 %}
-          {% for post in popular_posts %}
-            <div class="post-list-item">
-              <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
-              <div class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</div>
-            </div>
-          {% endfor %}
-        {% else %}
-          {% assign recent_posts = site.posts | limit: 5 %}
-          {% for post in recent_posts %}
-            <div class="post-list-item">
-              <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
-              <div class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</div>
-            </div>
-          {% endfor %}
-        {% endif %}
+        {% assign recent_posts = site.posts | limit: 5 %}
+        {% for post in recent_posts %}
+          <div class="post-list-item">
+            <a href="{{ post.url | relative_url }}" class="post-list-title">{{ post.title | escape }}</a>
+            <div class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</div>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </aside>
