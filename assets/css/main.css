@@ -662,7 +662,7 @@ body.home-page .page-content {
   position: relative;
   min-height: 220px;
   max-height: 380px;
-  overflow-y: hidden;
+  overflow-y: auto;
   outline: none;
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
 }
@@ -678,7 +678,6 @@ body.home-page .page-content {
 }
 
 .post-content pre code {
-  counter-reset: line-number;
   display: block;
   padding: 1rem 1.25rem;
   background: transparent;
@@ -686,31 +685,6 @@ body.home-page .page-content {
   font-size: 0.875rem;
   line-height: 1.6;
   overflow-x: auto;
-}
-
-.post-content pre code .line {
-  counter-increment: line-number;
-  display: block;
-  padding-left: 3.5rem;
-  position: relative;
-  min-height: 1.6em;
-  white-space: pre;
-}
-
-.post-content pre code .line::before {
-  content: counter(line-number);
-  position: absolute;
-  left: 0;
-  width: 3rem;
-  text-align: right;
-  padding-right: 0.75rem;
-  color: #6E7681;
-  font-size: 0.8125rem;
-  font-weight: 400;
-  user-select: none;
-  border-right: 1px solid #21262D;
-  margin-right: 0.75rem;
-  line-height: 1.6em;
 }
 
 .post-content pre::-webkit-scrollbar {
@@ -858,36 +832,10 @@ body.home-page .page-content {
 .code-modal-body pre code {
   padding: 1rem 1.25rem;
   display: block;
-  counter-reset: line-number;
   color: #C9D1D9;
   font-size: 0.9rem;
   line-height: 1.6;
   white-space: pre;
-}
-
-.code-modal-body pre code .line {
-  counter-increment: line-number;
-  display: block;
-  padding-left: 3.5rem;
-  position: relative;
-  min-height: 1.6em;
-  white-space: pre;
-}
-
-.code-modal-body pre code .line::before {
-  content: counter(line-number);
-  position: absolute;
-  left: 0;
-  width: 3rem;
-  text-align: right;
-  padding-right: 0.75rem;
-  color: #6E7681;
-  font-size: 0.8125rem;
-  font-weight: 400;
-  user-select: none;
-  border-right: 1px solid #21262D;
-  margin-right: 0.75rem;
-  line-height: 1.6em;
 }
 
 .post-content pre:not(.highlight) code {

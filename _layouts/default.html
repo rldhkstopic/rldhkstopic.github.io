@@ -86,7 +86,7 @@
         }
       }
 
-      // 코드 블록 확장 기능 및 줄 번호 추가, 팝업 모달
+      // 코드 블록 확장 기능 및 팝업 모달
       function processCodeBlocks() {
         const codeBlocks = document.querySelectorAll('.post-content pre');
         
@@ -98,23 +98,9 @@
           const code = pre.querySelector('code');
           if (!code) return;
           
-          // Prism.js가 이미 하이라이팅한 경우를 고려하여 줄 번호 추가
           const originalText = code.textContent || code.innerText;
           const lines = originalText.split('\n');
-          
-          if (lines.length > 1 && !code.querySelector('.line')) {
-            // 줄 번호가 아직 추가되지 않은 경우
-            const lineElements = lines.map((line, index) => {
-              const lineSpan = document.createElement('span');
-              lineSpan.className = 'line';
-              lineSpan.textContent = line || ' ';
-              return lineSpan;
-            });
-            
-            code.innerHTML = '';
-            lineElements.forEach(span => code.appendChild(span));
-          }
-          
+
           // 코드가 길면 확장 가능하게 만들기
           if (lines.length > 15) {
             pre.classList.add('code-expandable');
@@ -183,16 +169,7 @@
           const modalCode = modal.querySelector('code');
           if (modalCode) {
             window.Prism.highlightElement(modalCode);
-            // 줄 번호 추가
-            setTimeout(() => {
-              addLineNumbers(modalCode);
-            }, 100);
           }
-        } else {
-          // Prism.js가 없으면 줄 번호만 추가
-          setTimeout(() => {
-            addLineNumbers(modal.querySelector('code'));
-          }, 100);
         }
         
         // 애니메이션을 위해 약간의 지연 후 active 클래스 추가
@@ -223,25 +200,6 @@
         document.addEventListener('keydown', escHandler);
       }
       
-      // 줄 번호 추가 함수
-      function addLineNumbers(codeElement) {
-        if (!codeElement || codeElement.querySelector('.line')) return;
-        
-        const text = codeElement.textContent || codeElement.innerText;
-        const lines = text.split('\n');
-        
-        if (lines.length > 1) {
-          const lineElements = lines.map((line) => {
-            const lineSpan = document.createElement('span');
-            lineSpan.className = 'line';
-            lineSpan.textContent = line || ' ';
-            return lineSpan;
-          });
-          
-          codeElement.innerHTML = '';
-          lineElements.forEach(span => codeElement.appendChild(span));
-        }
-      }
       
       // 코드 팝업 모달 닫기
       function closeCodeModal(modal) {
