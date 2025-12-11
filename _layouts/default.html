@@ -343,6 +343,34 @@
         }
       })();
       
+      // GA4 방문자 통계 데이터 로드
+      (function() {
+        const totalEl = document.getElementById('total-visitors');
+        const todayEl = document.getElementById('today-visitors');
+        const yesterdayEl = document.getElementById('yesterday-visitors');
+        
+        if (totalEl && todayEl && yesterdayEl) {
+          // _data/analytics.json 파일에서 데이터 로드
+          fetch('{{ "/_data/analytics.json" | relative_url }}')
+            .then(response => response.json())
+            .then(data => {
+              if (data.total !== undefined) {
+                totalEl.textContent = data.total.toLocaleString();
+              }
+              if (data.today !== undefined) {
+                todayEl.textContent = data.today.toLocaleString();
+              }
+              if (data.yesterday !== undefined) {
+                yesterdayEl.textContent = data.yesterday.toLocaleString();
+              }
+            })
+            .catch(error => {
+              console.log('Analytics 데이터를 불러올 수 없습니다:', error);
+              // 오류 시 기본값 유지
+            });
+        }
+      })();
+      
     </script>
   </body>
 </html>

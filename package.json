@@ -1,0 +1,12 @@
+{
+  "name": "rldhkstopic-blog",
+  "version": "1.0.0",
+  "description": "Personal blog with GA4 integration",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^3.0.0"
+  }
+}
+
