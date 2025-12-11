@@ -11,7 +11,8 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
     <!-- Prism.js for syntax highlighting -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" id="prism-theme-light">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" id="prism-theme-dark" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css">
     
     <!-- MathJax for LaTeX -->
@@ -37,6 +38,10 @@
             {% for item in site.navigation %}
               <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
             {% endfor %}
+            <!-- 라이트/다크 모드 토글 버튼 -->
+            <button class="theme-toggle" id="themeToggle" aria-label="테마 전환">
+              <span class="theme-toggle-icon">🌙</span>
+            </button>
           </div>
         </nav>
       </div>
@@ -231,6 +236,50 @@
           setTimeout(processCodeBlocks, 100);
         };
       }
+      
+      // 테마 전환 기능
+      (function() {
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        const prismLight = document.getElementById('prism-theme-light');
+        const prismDark = document.getElementById('prism-theme-dark');
+        
+        // 저장된 테마 불러오기
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', savedTheme);
+        updatePrismTheme(savedTheme);
+        
+        // Prism 테마 업데이트 함수
+        function updatePrismTheme(theme) {
+          if (prismLight && prismDark) {
+            if (theme === 'dark') {
+              prismLight.disabled = true;
+              prismDark.disabled = false;
+            } else {
+              prismLight.disabled = false;
+              prismDark.disabled = true;
+            }
+          }
+        }
+        
+        // 테마 토글 버튼 클릭 이벤트
+        if (themeToggle) {
+          themeToggle.addEventListener('click', function() {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updatePrismTheme(newTheme);
+            
+            // Prism.js 재하이라이팅
+            if (window.Prism) {
+              document.querySelectorAll('pre code').forEach(function(block) {
+                Prism.highlightElement(block);
+              });
+            }
+          });
+        }
+      })();
     </script>
   </body>
 </html>
