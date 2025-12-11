@@ -361,26 +361,56 @@
         const todayEl = document.getElementById('today-visitors');
         const yesterdayEl = document.getElementById('yesterday-visitors');
         
-        if (totalEl && todayEl && yesterdayEl) {
-          // _data/analytics.json 파일에서 데이터 로드
-          fetch('{{ "/_data/analytics.json" | relative_url }}')
-            .then(response => response.json())
+        if (!totalEl || !todayEl || !yesterdayEl) {
+          console.log('방문자 통계 요소를 찾을 수 없습니다.');
+          return;
+        }
+        
+        // 여러 경로 시도 (Jekyll 빌드 환경에 따라 다를 수 있음)
+        const possiblePaths = [
+          '{{ "/_data/analytics.json" | relative_url }}',
+          '/_data/analytics.json',
+          '{{ site.baseurl }}/_data/analytics.json'
+        ];
+        
+        let fetchAttempted = false;
+        
+        function tryFetch(path) {
+          if (fetchAttempted) return;
+          fetchAttempted = true;
+          
+          fetch(path)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+              }
+              return response.json();
+            })
             .then(data => {
-              if (data.total !== undefined) {
+              console.log('Analytics 데이터 로드 성공:', data);
+              if (data.total !== undefined && data.total !== null) {
                 totalEl.textContent = data.total.toLocaleString();
               }
-              if (data.today !== undefined) {
+              if (data.today !== undefined && data.today !== null) {
                 todayEl.textContent = data.today.toLocaleString();
               }
-              if (data.yesterday !== undefined) {
+              if (data.yesterday !== undefined && data.yesterday !== null) {
                 yesterdayEl.textContent = data.yesterday.toLocaleString();
               }
             })
             .catch(error => {
-              console.log('Analytics 데이터를 불러올 수 없습니다:', error);
-              // 오류 시 기본값 유지
+              console.log('Analytics 데이터 로드 실패:', path, error);
+              // 다른 경로 시도
+              const nextPath = possiblePaths.find(p => p !== path);
+              if (nextPath && possiblePaths.indexOf(path) < possiblePaths.length - 1) {
+                fetchAttempted = false;
+                setTimeout(() => tryFetch(nextPath), 100);
+              }
             });
         }
+        
+        // 첫 번째 경로로 시도
+        tryFetch(possiblePaths[0]);
       })();
       
     </script>
