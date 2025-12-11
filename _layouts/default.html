@@ -86,7 +86,7 @@
         }
       }
 
-      // 코드 블록 확장 기능 및 줄 번호 추가
+      // 코드 블록 확장 기능 및 줄 번호 추가, 팝업 모달
       function processCodeBlocks() {
         const codeBlocks = document.querySelectorAll('.post-content pre');
         
@@ -121,18 +121,134 @@
             
             if (!pre.hasAttribute('data-listener-added')) {
               pre.setAttribute('data-listener-added', 'true');
-              pre.addEventListener('click', function() {
-                if (pre.classList.contains('code-expanded')) {
-                  pre.classList.remove('code-expanded');
-                  pre.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-                } else {
-                  pre.classList.add('code-expanded');
-                  pre.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              
+              // "전체 코드 보기" 버튼 클릭 시 팝업 열기
+              const afterElement = pre;
+              afterElement.addEventListener('click', function(e) {
+                // ::after 요소 클릭 확인
+                if (e.target === afterElement || e.target.closest('pre') === afterElement) {
+                  const rect = afterElement.getBoundingClientRect();
+                  const clickY = e.clientY - rect.top;
+                  const height = rect.height;
+                  
+                  // 하단 60px 영역 클릭 시 팝업 열기
+                  if (clickY > height - 60) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    openCodeModal(pre);
+                  }
                 }
               });
             }
           }
         });
+      }
+      
+      // 코드 팝업 모달 열기
+      function openCodeModal(preElement) {
+        // 모달이 이미 있으면 제거
+        const existingModal = document.getElementById('code-modal');
+        if (existingModal) {
+          existingModal.remove();
+        }
+        
+        // 모달 생성
+        const modal = document.createElement('div');
+        modal.id = 'code-modal';
+        modal.className = 'code-modal';
+        
+        const code = preElement.querySelector('code');
+        const codeClone = code.cloneNode(true);
+        
+        // 언어 클래스 가져오기
+        const language = code.className.match(/language-(\w+)/);
+        const langClass = language ? language[0] : '';
+        
+        modal.innerHTML = `
+          <div class="code-modal-content">
+            <div class="code-modal-header">
+              <h3 class="code-modal-title">전체 코드${langClass ? ' (' + langClass.replace('language-', '') + ')' : ''}</h3>
+              <button class="code-modal-close">닫기</button>
+            </div>
+            <div class="code-modal-body">
+              <pre class="highlight ${langClass}"><code class="${langClass}">${codeClone.innerHTML}</code></pre>
+            </div>
+          </div>
+        `;
+        
+        document.body.appendChild(modal);
+        
+        // Prism.js로 하이라이팅 (있는 경우)
+        if (window.Prism && window.Prism.highlightElement) {
+          const modalCode = modal.querySelector('code');
+          if (modalCode) {
+            window.Prism.highlightElement(modalCode);
+            // 줄 번호 추가
+            setTimeout(() => {
+              addLineNumbers(modalCode);
+            }, 100);
+          }
+        } else {
+          // Prism.js가 없으면 줄 번호만 추가
+          setTimeout(() => {
+            addLineNumbers(modal.querySelector('code'));
+          }, 100);
+        }
+        
+        // 애니메이션을 위해 약간의 지연 후 active 클래스 추가
+        setTimeout(() => {
+          modal.classList.add('active');
+        }, 10);
+        
+        // 닫기 버튼 이벤트
+        const closeBtn = modal.querySelector('.code-modal-close');
+        closeBtn.addEventListener('click', () => {
+          closeCodeModal(modal);
+        });
+        
+        // 배경 클릭 시 닫기
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) {
+            closeCodeModal(modal);
+          }
+        });
+        
+        // ESC 키로 닫기
+        const escHandler = function(e) {
+          if (e.key === 'Escape') {
+            closeCodeModal(modal);
+            document.removeEventListener('keydown', escHandler);
+          }
+        };
+        document.addEventListener('keydown', escHandler);
+      }
+      
+      // 줄 번호 추가 함수
+      function addLineNumbers(codeElement) {
+        if (!codeElement || codeElement.querySelector('.line')) return;
+        
+        const text = codeElement.textContent || codeElement.innerText;
+        const lines = text.split('\n');
+        
+        if (lines.length > 1) {
+          const lineElements = lines.map((line) => {
+            const lineSpan = document.createElement('span');
+            lineSpan.className = 'line';
+            lineSpan.textContent = line || ' ';
+            return lineSpan;
+          });
+          
+          codeElement.innerHTML = '';
+          lineElements.forEach(span => codeElement.appendChild(span));
+        }
+      }
+      
+      // 코드 팝업 모달 닫기
+      function closeCodeModal(modal) {
+        modal.classList.remove('active');
+        setTimeout(() => {
+          modal.remove();
+        }, 300);
       }
       
       // DOMContentLoaded와 Prism.js 로드 후 실행

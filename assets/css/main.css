@@ -660,7 +660,8 @@ body.home-page .page-content {
   border: 1px solid #30363D;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   position: relative;
-  max-height: 420px;
+  min-height: 200px;
+  max-height: 400px;
   overflow-y: auto;
   outline: none;
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
@@ -733,7 +734,7 @@ body.home-page .page-content {
 }
 
 .post-content pre.code-expandable {
-  max-height: 240px;
+  max-height: 300px;
   cursor: pointer;
   transition: max-height 0.3s ease;
 }
@@ -754,10 +755,12 @@ body.home-page .page-content {
   color: #58A6FF;
   font-size: 0.8125rem;
   font-weight: 500;
-  pointer-events: none;
+  pointer-events: auto;
+  cursor: pointer;
   backdrop-filter: blur(8px);
   border-top: 1px solid #30363D;
   transition: all 0.3s ease;
+  z-index: 10;
 }
 
 .post-content pre.code-expandable:hover::after {
@@ -765,12 +768,89 @@ body.home-page .page-content {
   color: #79C0FF;
 }
 
-.post-content pre.code-expanded {
-  max-height: none;
+/* 코드 팝업 모달 */
+.code-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10000;
+  padding: 2rem;
+  overflow-y: auto;
+  backdrop-filter: blur(4px);
 }
 
-.post-content pre.code-expanded::after {
-  display: none;
+.code-modal.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-modal-content {
+  background: #0D1117;
+  border-radius: 12px;
+  border: 1px solid #30363D;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  max-width: 90%;
+  max-height: 90vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.code-modal-header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #30363D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161B22;
+  border-radius: 12px 12px 0 0;
+}
+
+.code-modal-title {
+  color: #C9D1D9;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.code-modal-close {
+  background: transparent;
+  border: 1px solid #30363D;
+  color: #C9D1D9;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.code-modal-close:hover {
+  background: #21262D;
+  border-color: #484F58;
+  color: #FFFFFF;
+}
+
+.code-modal-body {
+  padding: 1.5rem;
+  overflow: auto;
+  flex: 1;
+}
+
+.code-modal-body pre {
+  margin: 0;
+  max-height: none;
+  min-height: auto;
+  background: #0D1117;
+}
+
+.code-modal-body pre code {
+  padding: 1rem 1.25rem;
 }
 
 .post-content pre:not(.highlight) code {
