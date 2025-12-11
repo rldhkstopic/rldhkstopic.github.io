@@ -9,9 +9,11 @@ on:
 jobs:
   update-analytics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -37,7 +39,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add _data/analytics.json
           git diff --staged --quiet || git commit -m "Update analytics data [skip ci]"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push origin HEAD:main
 
