@@ -97,8 +97,13 @@ async function fetchAnalyticsData() {
       lastUpdated: new Date().toISOString()
     };
 
-    const outputPath = path.join(__dirname, '../../_data/analytics.json');
-    fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
+    // _data 폴더에 저장 (Jekyll 데이터용)
+    const dataPath = path.join(__dirname, '../../_data/analytics.json');
+    fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
+    
+    // assets 폴더에도 저장 (직접 접근용)
+    const assetsPath = path.join(__dirname, '../../assets/analytics.json');
+    fs.writeFileSync(assetsPath, JSON.stringify(data, null, 2));
     
     console.log('Analytics 데이터 업데이트 완료:', data);
   } catch (error) {

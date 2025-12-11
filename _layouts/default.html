@@ -35,7 +35,6 @@
         }
       };
     </script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     {% comment %}{% seo %}{% endcomment %}
@@ -366,11 +365,12 @@
           return;
         }
         
-        // 여러 경로 시도 (Jekyll 빌드 환경에 따라 다를 수 있음)
+        // 여러 경로 시도 (assets 폴더가 가장 안정적)
         const possiblePaths = [
-          '{{ "/_data/analytics.json" | relative_url }}',
-          '/_data/analytics.json',
-          '{{ site.baseurl }}/_data/analytics.json'
+          '{{ "/assets/analytics.json" | relative_url }}',
+          '/assets/analytics.json',
+          '{{ site.baseurl }}/assets/analytics.json',
+          '{{ "/_data/analytics.json" | relative_url }}'
         ];
         
         let fetchAttempted = false;
