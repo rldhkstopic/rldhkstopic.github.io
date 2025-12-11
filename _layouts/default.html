@@ -86,31 +86,71 @@
         }
       }
 
-      // 코드 블록 확장 기능
-      document.addEventListener('DOMContentLoaded', function() {
+      // 코드 블록 확장 기능 및 줄 번호 추가
+      function processCodeBlocks() {
         const codeBlocks = document.querySelectorAll('.post-content pre');
         
         codeBlocks.forEach(pre => {
+          // tabindex와 outline 제거
+          pre.removeAttribute('tabindex');
+          pre.style.outline = 'none';
+          
           const code = pre.querySelector('code');
           if (!code) return;
           
+          // Prism.js가 이미 하이라이팅한 경우를 고려하여 줄 번호 추가
+          const originalText = code.textContent || code.innerText;
+          const lines = originalText.split('\n');
+          
+          if (lines.length > 1 && !code.querySelector('.line')) {
+            // 줄 번호가 아직 추가되지 않은 경우
+            const lineElements = lines.map((line, index) => {
+              const lineSpan = document.createElement('span');
+              lineSpan.className = 'line';
+              lineSpan.textContent = line || ' ';
+              return lineSpan;
+            });
+            
+            code.innerHTML = '';
+            lineElements.forEach(span => code.appendChild(span));
+          }
+          
           // 코드가 길면 확장 가능하게 만들기
-          const lineCount = code.textContent.split('\n').length;
-          if (lineCount > 15) {
+          if (lines.length > 15) {
             pre.classList.add('code-expandable');
             
-            pre.addEventListener('click', function() {
-              if (pre.classList.contains('code-expanded')) {
-                pre.classList.remove('code-expanded');
-                pre.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-              } else {
-                pre.classList.add('code-expanded');
-                pre.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-              }
-            });
+            if (!pre.hasAttribute('data-listener-added')) {
+              pre.setAttribute('data-listener-added', 'true');
+              pre.addEventListener('click', function() {
+                if (pre.classList.contains('code-expanded')) {
+                  pre.classList.remove('code-expanded');
+                  pre.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                } else {
+                  pre.classList.add('code-expanded');
+                  pre.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+              });
+            }
           }
         });
+      }
+      
+      // DOMContentLoaded와 Prism.js 로드 후 실행
+      document.addEventListener('DOMContentLoaded', function() {
+        processCodeBlocks();
+        
+        // Prism.js가 로드된 후에도 실행
+        if (window.Prism) {
+          setTimeout(processCodeBlocks, 100);
+        }
       });
+      
+      // Prism.js autoloader가 완료된 후 실행
+      if (window.Prism && window.Prism.plugins && window.Prism.plugins.autoloader) {
+        window.Prism.plugins.autoloader.onload = function() {
+          setTimeout(processCodeBlocks, 100);
+        };
+      }
     </script>
   </body>
 </html>

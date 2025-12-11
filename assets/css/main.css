@@ -653,7 +653,7 @@ body.home-page .page-content {
 
 .post-content pre {
   background: #1E1E1E;
-  padding: 1.5rem;
+  padding: 0;
   border-radius: 12px;
   overflow-x: auto;
   margin-bottom: 2rem;
@@ -662,6 +662,44 @@ body.home-page .page-content {
   position: relative;
   max-height: 400px;
   overflow-y: auto;
+  outline: none;
+}
+
+.post-content pre:focus {
+  outline: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.post-content pre.highlight {
+  padding: 0;
+}
+
+.post-content pre code {
+  counter-reset: line-number;
+}
+
+.post-content pre code .line {
+  counter-increment: line-number;
+  display: block;
+  padding-left: 4rem;
+  position: relative;
+  min-height: 1.5em;
+}
+
+.post-content pre code .line::before {
+  content: counter(line-number);
+  position: absolute;
+  left: 0;
+  width: 3.5rem;
+  text-align: right;
+  padding-right: 1rem;
+  color: #6A6A6A;
+  font-size: 0.85rem;
+  font-weight: 400;
+  user-select: none;
+  border-right: 1px solid #2D2D2D;
+  margin-right: 0.5rem;
+  line-height: 1.5em;
 }
 
 .post-content pre::-webkit-scrollbar {
@@ -694,17 +732,26 @@ body.home-page .page-content {
 }
 
 .post-content pre.code-expandable::after {
-  content: '전체 코드 보기';
+  content: '전체 코드 보기 ▼';
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(30, 30, 30, 0.95), transparent);
-  padding: 1rem;
+  background: linear-gradient(to top, rgba(30, 30, 30, 0.98), rgba(30, 30, 30, 0.7));
+  padding: 1.25rem;
   text-align: center;
-  color: #A0A0A0;
+  color: #FFFFFF;
   font-size: 0.875rem;
+  font-weight: 500;
   pointer-events: none;
+  backdrop-filter: blur(4px);
+  border-radius: 0 0 12px 12px;
+  transition: all 0.3s ease;
+}
+
+.post-content pre.code-expandable:hover::after {
+  background: linear-gradient(to top, rgba(139, 92, 246, 0.3), rgba(30, 30, 30, 0.7));
+  color: #DDD6FE;
 }
 
 .post-content pre.code-expanded {
@@ -715,13 +762,14 @@ body.home-page .page-content {
   display: none;
 }
 
-.post-content pre code {
+.post-content pre:not(.highlight) code {
   background: transparent;
-  padding: 0;
+  padding: 1.5rem;
   color: #D4D4D4;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 1.6;
+  display: block;
 }
 
 /* Code syntax highlighting colors */
@@ -843,29 +891,54 @@ body.home-page .page-content {
   color: var(--accent-color);
   text-decoration: none;
   font-weight: 500;
-  padding: 0.75rem 1.25rem;
-  background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent-pastel) 100%);
-  border-radius: 8px;
-  transition: all 0.2s ease;
-  flex: 1;
-  min-width: 200px;
-  border: 1px solid rgba(139, 92, 246, 0.2);
+  padding: 0.875rem 1.5rem;
+  background: #FAFAFA;
+  border-radius: 10px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1.5px solid #E5E7EB;
+  flex: 0 1 auto;
+  max-width: calc(50% - 0.5rem);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.post-navigation a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.post-navigation a:hover::before {
+  left: 100%;
 }
 
 .post-navigation a:hover {
-  background: linear-gradient(135deg, var(--accent-pastel) 0%, var(--accent-color) 100%);
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.25);
+  background: var(--accent-light);
   border-color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.2);
+  color: var(--accent-color);
 }
 
 .post-navigation .prev-post {
   text-align: left;
+  margin-right: auto;
 }
 
 .post-navigation .next-post {
   text-align: right;
+  margin-left: auto;
+}
+
+.post-navigation a:only-child {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 /* Responsive */
