@@ -12,6 +12,7 @@
     
     <!-- Prism.js for syntax highlighting -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css">
     
     <!-- MathJax for LaTeX -->
     <script>
@@ -59,6 +60,7 @@
     <!-- Prism.js for syntax highlighting -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
     
     <script>
       // 메인 페이지인지 확인하여 body에 클래스 추가
@@ -91,12 +93,16 @@
         const codeBlocks = document.querySelectorAll('.post-content pre');
         
         codeBlocks.forEach(pre => {
+          // line-numbers 적용
+          pre.classList.add('line-numbers');
+          
           // tabindex와 outline 제거
           pre.removeAttribute('tabindex');
           pre.style.outline = 'none';
           
           const code = pre.querySelector('code');
           if (!code) return;
+          code.classList.add('line-numbers');
           
           const originalText = code.textContent || code.innerText;
           const lines = originalText.split('\n');

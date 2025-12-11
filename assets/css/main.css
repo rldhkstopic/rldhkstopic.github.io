@@ -651,20 +651,80 @@ body.home-page .page-content {
   border: 1px solid #E5E7EB;
 }
 
+.post-content pre code {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
 .post-content pre {
   background: #0D1117;
   padding: 0;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   margin-bottom: 2rem;
   border: 1px solid #30363D;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
   position: relative;
   min-height: 220px;
   max-height: 380px;
   overflow-y: auto;
   outline: none;
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-content pre:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+.post-content pre.line-numbers {
+  padding-top: 2.2rem;
+  padding-left: 0;
+}
+
+.post-content pre::before {
+  content: attr(data-lang);
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #30363D;
+  border-radius: 999px;
+  color: #C9D1D9;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+}
+
+.post-content pre .code-expand-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #30363D;
+  background: #161B22;
+  color: #C9D1D9;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  z-index: 5;
+}
+
+.post-content pre .code-expand-btn:hover {
+  background: #21262D;
+  border-color: #484F58;
+  color: #58A6FF;
+  box-shadow: 0 8px 20px rgba(88, 166, 255, 0.25);
 }
 
 .post-content pre:focus {
@@ -685,6 +745,7 @@ body.home-page .page-content {
   font-size: 0.875rem;
   line-height: 1.6;
   overflow-x: auto;
+  counter-reset: line-number;
 }
 
 .post-content pre::-webkit-scrollbar {
