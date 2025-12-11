@@ -312,6 +312,14 @@
         }
         updatePrismTheme(savedTheme);
         
+        // 테마 전환 안개 효과
+        function addThemeFog() {
+          document.documentElement.classList.add('theme-fade');
+          setTimeout(() => {
+            document.documentElement.classList.remove('theme-fade');
+          }, 500);
+        }
+        
         // Prism 테마 업데이트 함수
         function updatePrismTheme(theme) {
           if (prismLight && prismDark) {
@@ -332,6 +340,7 @@
             html.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
             updatePrismTheme(newTheme);
+            addThemeFog();
             
             // Prism.js 재하이라이팅
             if (window.Prism) {
@@ -341,6 +350,9 @@
             }
           });
         }
+
+        // 초기 로드 시도에도 부드러운 전환 효과 (테마 복원 시)
+        addThemeFog();
       })();
       
       // GA4 방문자 통계 데이터 로드

@@ -64,6 +64,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 테마 전환 시 안개 효과 */
+html.theme-fade::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.15), transparent 45%),
+              radial-gradient(circle at 70% 60%, rgba(0,0,0,0.12), transparent 40%),
+              var(--bg-primary);
+  mix-blend-mode: screen;
+  filter: blur(6px);
+  animation: fogFade 0.45s ease forwards;
+}
+
+@keyframes fogFade {
+  0% { opacity: 0.45; }
+  100% { opacity: 0; }
+}
+
 /* Layout - 메인화면에서도 헤더 표시 */
 body.home-page .page-content {
   padding-top: 0;
