@@ -660,9 +660,9 @@ body.home-page .page-content {
   border: 1px solid #30363D;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   position: relative;
-  min-height: 200px;
-  max-height: 400px;
-  overflow-y: auto;
+  min-height: 220px;
+  max-height: 380px;
+  overflow-y: hidden;
   outline: none;
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
 }
@@ -734,9 +734,10 @@ body.home-page .page-content {
 }
 
 .post-content pre.code-expandable {
-  max-height: 300px;
+  max-height: 320px;
   cursor: pointer;
   transition: max-height 0.3s ease;
+  overflow-y: hidden;
 }
 
 .post-content pre.code-expandable:hover {
@@ -766,6 +767,11 @@ body.home-page .page-content {
 .post-content pre.code-expandable:hover::after {
   background: linear-gradient(to top, rgba(13, 17, 23, 0.98), rgba(88, 166, 255, 0.1));
   color: #79C0FF;
+}
+
+.post-content pre.code-expanded {
+  max-height: none;
+  overflow-y: auto;
 }
 
 /* 코드 팝업 모달 */
@@ -851,6 +857,37 @@ body.home-page .page-content {
 
 .code-modal-body pre code {
   padding: 1rem 1.25rem;
+  display: block;
+  counter-reset: line-number;
+  color: #C9D1D9;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  white-space: pre;
+}
+
+.code-modal-body pre code .line {
+  counter-increment: line-number;
+  display: block;
+  padding-left: 3.5rem;
+  position: relative;
+  min-height: 1.6em;
+  white-space: pre;
+}
+
+.code-modal-body pre code .line::before {
+  content: counter(line-number);
+  position: absolute;
+  left: 0;
+  width: 3rem;
+  text-align: right;
+  padding-right: 0.75rem;
+  color: #6E7681;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  user-select: none;
+  border-right: 1px solid #21262D;
+  margin-right: 0.75rem;
+  line-height: 1.6em;
 }
 
 .post-content pre:not(.highlight) code {
