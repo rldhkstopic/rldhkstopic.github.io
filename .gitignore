@@ -9,4 +9,11 @@ node_modules/
 .DS_Store
 *.log
 
+# 임시 파일
+*.tmp
+convert-json.js
+*-credentials*.txt
+temp_*.json
+*_updated.json
+
 
