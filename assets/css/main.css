@@ -487,13 +487,56 @@ body.home-page .page-content {
 
 /* 방문자 통계 */
 .visitor-stats {
-  text-align: center;
   padding: 0.5rem 0;
 }
 
-.visitor-stats img {
-  display: block;
-  margin: 0 auto;
+.visitor-stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.visitor-stat-item:last-child {
+  border-bottom: none;
+}
+
+.visitor-stat-label {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.visitor-stat-value {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.ga-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.ga-link:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  background: var(--bg-secondary);
+}
+
+.ga-link svg {
+  width: 16px;
+  height: 16px;
 }
 
 /* Main Content Area - 게시판 */
@@ -827,23 +870,18 @@ body.home-page .page-content {
   overflow: hidden;
   margin-bottom: 2rem;
   border: 1px solid var(--code-border);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
   position: relative;
   min-height: 220px;
   max-height: 380px;
   overflow-y: auto;
   outline: none;
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease, border-color 0.3s ease;
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 [data-theme="dark"] .post-content pre {
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
-}
-
-.post-content pre:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
 }
 
 .post-content pre.line-numbers {
@@ -894,6 +932,30 @@ body.home-page .page-content {
   box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
+.post-content pre .code-expand-btn::after {
+  content: '전체 코드 보기';
+  position: absolute;
+  top: 38px;
+  right: 0;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+}
+
+.post-content pre .code-expand-btn:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .post-content pre:focus {
   outline: none;
   border-color: #58A6FF;
@@ -909,11 +971,10 @@ body.home-page .page-content {
   padding: 1rem 1.25rem;
   background: transparent;
   color: var(--code-text);
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   overflow-x: auto;
-  counter-reset: line-number;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 .post-content pre::-webkit-scrollbar {
@@ -939,37 +1000,8 @@ body.home-page .page-content {
 .post-content pre.code-expandable {
   max-height: 320px;
   cursor: pointer;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.25s ease;
   overflow-y: hidden;
-}
-
-.post-content pre.code-expandable:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-}
-
-.post-content pre.code-expandable::after {
-  content: '전체 코드 보기 ▼';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to top, var(--code-bg), var(--code-bg));
-  padding: 1rem 1.25rem;
-  text-align: center;
-  color: var(--accent-color);
-  font-size: 0.8125rem;
-  font-weight: 500;
-  pointer-events: auto;
-  cursor: pointer;
-  backdrop-filter: blur(8px);
-  border-top: 1px solid var(--code-border);
-  transition: all 0.3s ease;
-  z-index: 10;
-}
-
-.post-content pre.code-expandable:hover::after {
-  background: linear-gradient(to top, rgba(13, 17, 23, 0.98), rgba(88, 166, 255, 0.1));
-  color: #79C0FF;
 }
 
 .post-content pre.code-expanded {
@@ -1002,14 +1034,20 @@ body.home-page .page-content {
   background: var(--code-bg);
   border-radius: 12px;
   border: 1px solid var(--code-border);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-  max-width: 90%;
-  max-height: 90vh;
-  width: 100%;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  width: min(960px, 92vw);
+  max-height: 80vh;
   position: relative;
   display: flex;
   flex-direction: column;
-  transition: background 0.3s ease, border-color 0.3s ease;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+  transform: scale(0.97);
+  opacity: 0;
+}
+
+.code-modal.active .code-modal-content {
+  transform: scale(1);
+  opacity: 1;
 }
 
 .code-modal-header {

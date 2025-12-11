@@ -118,10 +118,27 @@ layout: default
 
     <!-- 방문자 통계 -->
     <div class="sidebar-section">
-      <div class="sidebar-section-title">전체 방문자</div>
+      <div class="sidebar-section-title">방문자 통계</div>
       <div class="visitor-stats">
-        <a href="https://hits.seeyoufarm.com" target="_blank">
-          <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url={{ site.url | url_encode }}&count_bg=%23FFFFFF&title_bg=%23FFFFFF&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false" alt="방문자 수" style="height: 20px;"/>
+        <div class="visitor-stat-item">
+          <div class="visitor-stat-label">전체 방문자</div>
+          <div class="visitor-stat-value" id="total-visitors">-</div>
+        </div>
+        <div class="visitor-stat-item">
+          <div class="visitor-stat-label">오늘 방문자</div>
+          <div class="visitor-stat-value" id="today-visitors">-</div>
+        </div>
+        <div class="visitor-stat-item">
+          <div class="visitor-stat-label">어제 방문자</div>
+          <div class="visitor-stat-value" id="yesterday-visitors">-</div>
+        </div>
+        <a href="https://analytics.google.com" target="_blank" class="ga-link" title="Google Analytics에서 자세한 통계 보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          Analytics 보기
         </a>
       </div>
     </div>
