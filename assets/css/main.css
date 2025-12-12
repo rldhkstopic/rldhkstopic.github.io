@@ -1327,10 +1327,11 @@ body.home-page .page-content {
 
 .post-reference-item {
   counter-increment: reference-counter;
-  padding: 0.5rem 0;
-  padding-left: 1.5rem;
+  padding: 0.625rem 0;
+  padding-left: 2rem;
   position: relative;
-  line-height: 1.6;
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
 }
 
 .post-reference-item::before {
@@ -1340,16 +1341,18 @@ body.home-page .page-content {
   color: var(--accent-color);
   font-weight: 600;
   font-size: 0.875rem;
+  top: 0.625rem;
 }
 
 .post-reference-link {
-  color: var(--accent-color);
+  color: var(--text-primary);
   text-decoration: none;
   transition: color 0.2s ease;
+  font-weight: 400;
 }
 
 .post-reference-link:hover {
-  color: var(--text-primary);
+  color: var(--accent-color);
   text-decoration: underline;
 }
 

@@ -456,6 +456,83 @@
             }
           }
         }
+
+        // 본문에서 "참고 자료" 섹션 추출하여 하단 컨테이너로 이동
+        const postContent = document.getElementById('post-content');
+        if (!postContent) return;
+
+        // "참고 자료" 제목 찾기
+        const referencesHeading = Array.from(postContent.querySelectorAll('h2')).find(h2 => {
+          return h2.textContent.trim() === '참고 자료' || h2.id === '참고-자료';
+        });
+
+        if (referencesHeading) {
+          // 참고 자료 섹션 전체 찾기 (h2부터 다음 h2나 끝까지)
+          let referencesSection = referencesHeading;
+          let current = referencesHeading.nextElementSibling;
+          const referencesList = [];
+
+          // 다음 h2나 article 끝까지 수집
+          while (current && current.tagName !== 'H2' && current.tagName !== 'H1') {
+            if (current.tagName === 'UL' || current.tagName === 'OL') {
+              // 리스트에서 링크 추출
+              const links = current.querySelectorAll('a');
+              links.forEach(link => {
+                referencesList.push({
+                  title: link.textContent.trim(),
+                  url: link.href
+                });
+              });
+            } else if (current.tagName === 'P') {
+              // 단락에서 링크 추출
+              const links = current.querySelectorAll('a');
+              links.forEach(link => {
+                referencesList.push({
+                  title: link.textContent.trim(),
+                  url: link.href
+                });
+              });
+            }
+            current = current.nextElementSibling;
+          }
+
+          // 참고 자료 섹션 제거
+          let toRemove = referencesHeading;
+          while (toRemove && toRemove !== current) {
+            const next = toRemove.nextElementSibling;
+            toRemove.remove();
+            toRemove = next;
+          }
+
+          // 하단 컨테이너에 참고 자료 추가
+          if (referencesList.length > 0) {
+            const footerInfo = document.querySelector('.post-footer-info');
+            if (footerInfo) {
+              const referencesSection = document.createElement('div');
+              referencesSection.className = 'post-references-section';
+              referencesSection.innerHTML = `
+                <h3 class="post-footer-title">참고 자료</h3>
+                <ol class="post-references">
+                  ${referencesList.map((ref, index) => `
+                    <li class="post-reference-item">
+                      <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
+                        ${ref.title}
+                      </a>
+                    </li>
+                  `).join('')}
+                </ol>
+              `;
+              
+              // 태그 섹션 다음에 삽입
+              const tagsSection = footerInfo.querySelector('.post-tags-section');
+              if (tagsSection) {
+                tagsSection.insertAdjacentElement('afterend', referencesSection);
+              } else {
+                footerInfo.insertBefore(referencesSection, footerInfo.querySelector('.post-actions'));
+              }
+            }
+          }
+        }
       });
       
     </script>
