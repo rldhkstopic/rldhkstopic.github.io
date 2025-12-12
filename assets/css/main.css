@@ -462,7 +462,9 @@ body.home-page .page-content {
 .category-count {
   font-size: 0.8125rem;
   color: var(--text-secondary);
-  padding: 0 0.25rem;
+  padding: 0;
+  background: none;
+  margin-left: auto;
 }
 
 
