@@ -1,0 +1,28 @@
+---
+layout: default
+title: Study
+---
+
+<div class="category-page">
+  <h1 class="category-page-title">📖 Study</h1>
+  
+  {% assign study_posts = site.posts | where: "category", "study" %}
+  {% if study_posts.size > 0 %}
+    <div class="post-list">
+      {% for post in study_posts %}
+        <a href="{{ post.url | relative_url }}" class="post-list-item">
+          <span class="post-list-title">{{ post.title | escape }}</span>
+          <div class="post-list-meta">
+            <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+            <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="post-list-item empty">
+      <span>아직 포스트가 없습니다.</span>
+    </div>
+  {% endif %}
+</div>
+

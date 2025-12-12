@@ -54,62 +54,91 @@ layout: default
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span>👋 Hello</span>
-            <span class="category-count">{{ site.posts.size }}</span>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
-              <a href="#" class="sub-category-link">Daily</a>
+              <a href="/daily/" class="sub-category-link">
+                Daily
+                <span class="category-count">
+                  {% assign daily_posts = site.posts | where: "category", "daily" %}
+                  {{ daily_posts.size }}
+                </span>
+              </a>
             </li>
           </ul>
         </li>
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span>💻 Dev</span>
-            <span class="category-count">
-              {% assign dev_posts = site.posts | where: "category", "dev" %}
-              {{ dev_posts.size }}
-            </span>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
-              <a href="#" class="sub-category-link">VHDL FPGA</a>
+              <a href="/dev/" class="sub-category-link">
+                VHDL FPGA
+                <span class="category-count">
+                  {% assign dev_posts = site.posts | where: "category", "dev" %}
+                  {{ dev_posts.size }}
+                </span>
+              </a>
             </li>
           </ul>
         </li>
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span>📑 Document</span>
-            <span class="category-count">
-              {% assign doc_posts = site.posts | where: "category", "document" %}
-              {{ doc_posts.size }}
-            </span>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
-              <a href="#" class="sub-category-link">U.S. Stock News</a>
+              <a href="/document/" class="sub-category-link">
+                U.S. Stock News
+                <span class="category-count">
+                  {% assign doc_posts = site.posts | where: "category", "document" %}
+                  {{ doc_posts.size }}
+                </span>
+              </a>
             </li>
             <li class="sub-category-item">
-              <a href="#" class="sub-category-link">My Stocks</a>
+              <a href="/document/" class="sub-category-link">
+                My Stocks
+                <span class="category-count">
+                  {% assign doc_posts = site.posts | where: "category", "document" %}
+                  {{ doc_posts.size }}
+                </span>
+              </a>
             </li>
           </ul>
         </li>
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span>📖 Study</span>
-            <span class="category-count">
-              {% assign study_posts = site.posts | where: "category", "study" %}
-              {{ study_posts.size }}
-            </span>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
-              <a href="#" class="sub-category-link">VHDL</a>
+              <a href="/study/" class="sub-category-link">
+                VHDL
+                <span class="category-count">
+                  {% assign study_posts = site.posts | where: "category", "study" %}
+                  {{ study_posts.size }}
+                </span>
+              </a>
             </li>
             <li class="sub-category-item">
-              <a href="#" class="sub-category-link">Pytorch</a>
+              <a href="/study/" class="sub-category-link">
+                Pytorch
+                <span class="category-count">
+                  {% assign study_posts = site.posts | where: "category", "study" %}
+                  {{ study_posts.size }}
+                </span>
+              </a>
             </li>
             <li class="sub-category-item">
-              <a href="#" class="sub-category-link">모르는 개념</a>
+              <a href="/study/" class="sub-category-link">
+                모르는 개념
+                <span class="category-count">
+                  {% assign study_posts = site.posts | where: "category", "study" %}
+                  {{ study_posts.size }}
+                </span>
+              </a>
             </li>
           </ul>
         </li>
@@ -151,7 +180,7 @@ layout: default
     <div class="content-section">
       <div class="section-header">
         <h2 class="section-title">📖 Study</h2>
-        <a href="#" class="section-more" title="더보기">
+        <a href="/study/" class="section-more" title="더보기">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -182,7 +211,7 @@ layout: default
     <div class="content-section">
       <div class="section-header">
         <h2 class="section-title">💻 Dev</h2>
-        <a href="#" class="section-more" title="더보기">
+        <a href="/dev/" class="section-more" title="더보기">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -213,7 +242,7 @@ layout: default
     <div class="content-section">
       <div class="section-header">
         <h2 class="section-title">👋 Daily</h2>
-        <a href="#" class="section-more" title="더보기">
+        <a href="/daily/" class="section-more" title="더보기">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
