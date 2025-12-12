@@ -457,25 +457,37 @@
           }
         }
 
-        // 본문에서 "참고 자료" 섹션 추출하여 하단 컨테이너로 이동
+        // 본문에서 "참고 자료" 또는 "레퍼런스" 섹션 추출하여 하단 컨테이너로 이동
         const postContent = document.getElementById('post-content');
         if (!postContent) return;
 
-        // "참고 자료" 제목 찾기
-        const referencesHeading = Array.from(postContent.querySelectorAll('h2')).find(h2 => {
-          return h2.textContent.trim() === '참고 자료' || h2.id === '참고-자료';
-        });
+        // "참고 자료" 또는 "레퍼런스" 제목 찾기
+        const allHeadings = postContent.querySelectorAll('h2, h3');
+        let referencesHeading = null;
+        
+        for (let heading of allHeadings) {
+          const text = heading.textContent.trim();
+          if (text === '참고 자료' || text === '레퍼런스' || text === 'References' || heading.id === '참고-자료' || heading.id === '레퍼런스') {
+            referencesHeading = heading;
+            break;
+          }
+        }
 
         if (referencesHeading) {
-          // 참고 자료 섹션 전체 찾기 (h2부터 다음 h2나 끝까지)
-          let referencesSection = referencesHeading;
-          let current = referencesHeading.nextElementSibling;
           const referencesList = [];
+          let current = referencesHeading.nextElementSibling;
 
-          // 다음 h2나 article 끝까지 수집
-          while (current && current.tagName !== 'H2' && current.tagName !== 'H1') {
-            if (current.tagName === 'UL' || current.tagName === 'OL') {
-              // 리스트에서 링크 추출
+          // 다음 h2, h3, h1 또는 article 끝까지 수집
+          while (current) {
+            const tagName = current.tagName;
+            
+            // 다음 주요 제목을 만나면 중단
+            if (tagName === 'H2' || tagName === 'H3' || tagName === 'H1') {
+              break;
+            }
+
+            // 리스트에서 링크 추출
+            if (tagName === 'UL' || tagName === 'OL') {
               const links = current.querySelectorAll('a');
               links.forEach(link => {
                 referencesList.push({
@@ -483,8 +495,9 @@
                   url: link.href
                 });
               });
-            } else if (current.tagName === 'P') {
-              // 단락에서 링크 추출
+            } 
+            // 단락에서 링크 추출
+            else if (tagName === 'P') {
               const links = current.querySelectorAll('a');
               links.forEach(link => {
                 referencesList.push({
@@ -493,12 +506,15 @@
                 });
               });
             }
+
             current = current.nextElementSibling;
           }
 
           // 참고 자료 섹션 제거
           let toRemove = referencesHeading;
-          while (toRemove && toRemove !== current) {
+          const stopAt = current; // 다음 제목 또는 null
+          
+          while (toRemove && toRemove !== stopAt) {
             const next = toRemove.nextElementSibling;
             toRemove.remove();
             toRemove = next;
@@ -508,27 +524,57 @@
           if (referencesList.length > 0) {
             const footerInfo = document.querySelector('.post-footer-info');
             if (footerInfo) {
-              const referencesSection = document.createElement('div');
-              referencesSection.className = 'post-references-section';
-              referencesSection.innerHTML = `
-                <h3 class="post-footer-title">참고 자료</h3>
-                <ol class="post-references">
-                  ${referencesList.map((ref, index) => `
+              // 이미 참고 자료 섹션이 있는지 확인
+              let existingRefSection = footerInfo.querySelector('.post-references-section');
+              
+              if (!existingRefSection) {
+                const referencesSection = document.createElement('div');
+                referencesSection.className = 'post-references-section';
+                
+                const referencesHTML = referencesList.map((ref, index) => {
+                  return `
                     <li class="post-reference-item">
                       <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
                         ${ref.title}
                       </a>
                     </li>
-                  `).join('')}
-                </ol>
-              `;
-              
-              // 태그 섹션 다음에 삽입
-              const tagsSection = footerInfo.querySelector('.post-tags-section');
-              if (tagsSection) {
-                tagsSection.insertAdjacentElement('afterend', referencesSection);
+                  `;
+                }).join('');
+                
+                referencesSection.innerHTML = `
+                  <h3 class="post-footer-title">레퍼런스</h3>
+                  <ol class="post-references">
+                    ${referencesHTML}
+                  </ol>
+                `;
+                
+                // 태그 섹션 다음에 삽입
+                const tagsSection = footerInfo.querySelector('.post-tags-section');
+                if (tagsSection) {
+                  tagsSection.insertAdjacentElement('afterend', referencesSection);
+                } else {
+                  const actionsSection = footerInfo.querySelector('.post-actions');
+                  if (actionsSection) {
+                    actionsSection.insertAdjacentElement('beforebegin', referencesSection);
+                  } else {
+                    footerInfo.appendChild(referencesSection);
+                  }
+                }
               } else {
-                footerInfo.insertBefore(referencesSection, footerInfo.querySelector('.post-actions'));
+                // 기존 섹션이 있으면 링크만 추가
+                const existingList = existingRefSection.querySelector('.post-references');
+                if (existingList) {
+                  referencesList.forEach(ref => {
+                    const li = document.createElement('li');
+                    li.className = 'post-reference-item';
+                    li.innerHTML = `
+                      <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
+                        ${ref.title}
+                      </a>
+                    `;
+                    existingList.appendChild(li);
+                  });
+                }
               }
             }
           }
