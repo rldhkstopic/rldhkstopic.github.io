@@ -1327,11 +1327,11 @@ body.home-page .page-content {
 
 .post-reference-item {
   counter-increment: reference-counter;
-  padding: 0.625rem 0;
+  padding: 0.25rem 0;
   padding-left: 2rem;
   position: relative;
-  line-height: 1.7;
-  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  margin-bottom: 0.25rem;
 }
 
 .post-reference-item::before {
@@ -1345,7 +1345,7 @@ body.home-page .page-content {
 }
 
 .post-reference-link {
-  color: var(--text-primary);
+  color: var(--accent-color);
   text-decoration: none;
   transition: color 0.2s ease;
   font-weight: 400;
@@ -1358,6 +1358,7 @@ body.home-page .page-content {
 
 .post-reference-text {
   color: var(--text-primary);
+  font-size: 0.9375rem;
 }
 
 .post-reference-author {
@@ -1369,9 +1370,14 @@ body.home-page .page-content {
 }
 
 .post-actions {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border-color);
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 0;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .post-like-btn {

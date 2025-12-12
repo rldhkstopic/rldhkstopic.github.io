@@ -531,15 +531,41 @@
                 const referencesSection = document.createElement('div');
                 referencesSection.className = 'post-references-section';
                 
-                const referencesHTML = referencesList.map((ref, index) => {
-                  return `
-                    <li class="post-reference-item">
-                      <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
-                        ${ref.title}
-                      </a>
-                    </li>
-                  `;
-                }).join('');
+                // IEEE 논문 레퍼런스 형식으로 변환
+                const formatIEEEReference = (ref, index) => {
+                  try {
+                    const url = new URL(ref.url);
+                    const domain = url.hostname.replace('www.', '');
+                    const domainName = domain.split('.')[0];
+                    const currentDate = new Date();
+                    const year = currentDate.getFullYear();
+                    const month = currentDate.toLocaleString('ko-KR', { month: 'long' });
+                    const day = currentDate.getDate();
+                    
+                    // IEEE 웹사이트 레퍼런스 형식: [1] "Title," Website Name, Year. [Online]. Available: URL. Accessed: Date.
+                    return `
+                      <li class="post-reference-item">
+                        <span class="post-reference-text">
+                          "${ref.title}," ${domainName.charAt(0).toUpperCase() + domainName.slice(1)}, ${year}. [Online]. Available: 
+                          <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">${ref.url}</a>. 
+                          Accessed: ${year} ${month} ${day}.
+                        </span>
+                      </li>
+                    `;
+                  } catch (e) {
+                    // URL 파싱 실패 시 기본 형식
+                    return `
+                      <li class="post-reference-item">
+                        <span class="post-reference-text">
+                          "${ref.title}," [Online]. Available: 
+                          <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">${ref.url}</a>.
+                        </span>
+                      </li>
+                    `;
+                  }
+                };
+                
+                const referencesHTML = referencesList.map((ref, index) => formatIEEEReference(ref, index)).join('');
                 
                 referencesSection.innerHTML = `
                   <h3 class="post-footer-title">레퍼런스</h3>
@@ -555,7 +581,7 @@
                 } else {
                   const actionsSection = footerInfo.querySelector('.post-actions');
                   if (actionsSection) {
-                    actionsSection.insertAdjacentElement('beforebegin', referencesSection);
+                    actionsSection.insertAdjacentElement('afterend', referencesSection);
                   } else {
                     footerInfo.appendChild(referencesSection);
                   }
@@ -564,14 +590,42 @@
                 // 기존 섹션이 있으면 링크만 추가
                 const existingList = existingRefSection.querySelector('.post-references');
                 if (existingList) {
-                  referencesList.forEach(ref => {
+                  const formatIEEEReference = (ref, index) => {
+                    try {
+                      const url = new URL(ref.url);
+                      const domain = url.hostname.replace('www.', '');
+                      const domainName = domain.split('.')[0];
+                      const currentDate = new Date();
+                      const year = currentDate.getFullYear();
+                      const month = currentDate.toLocaleString('ko-KR', { month: 'long' });
+                      const day = currentDate.getDate();
+                      
+                      return `
+                        <li class="post-reference-item">
+                          <span class="post-reference-text">
+                            "${ref.title}," ${domainName.charAt(0).toUpperCase() + domainName.slice(1)}, ${year}. [Online]. Available: 
+                            <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">${ref.url}</a>. 
+                            Accessed: ${year} ${month} ${day}.
+                          </span>
+                        </li>
+                      `;
+                    } catch (e) {
+                      return `
+                        <li class="post-reference-item">
+                          <span class="post-reference-text">
+                            "${ref.title}," [Online]. Available: 
+                            <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">${ref.url}</a>.
+                          </span>
+                        </li>
+                      `;
+                    }
+                  };
+                  
+                  referencesList.forEach((ref, index) => {
                     const li = document.createElement('li');
                     li.className = 'post-reference-item';
-                    li.innerHTML = `
-                      <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
-                        ${ref.title}
-                      </a>
-                    `;
+                    const currentCount = existingList.querySelectorAll('.post-reference-item').length;
+                    li.innerHTML = formatIEEEReference(ref, currentCount).trim();
                     existingList.appendChild(li);
                   });
                 }
