@@ -771,14 +771,30 @@ body.home-page .page-content {
   align-items: center;
 }
 
+/* 포스트 하단 정보 컨테이너 */
+.post-footer-info {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.post-footer-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.post-tags-section {
+  margin-bottom: 2rem;
+}
+
 .post-tags {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border-color);
 }
 
 .post-tags .tag {
@@ -838,7 +854,7 @@ body.home-page .page-content {
 }
 
 .post-content p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.875rem;
   color: var(--text-primary);
 }
 
@@ -1221,30 +1237,184 @@ body.home-page .page-content {
 
 .post-content table {
   width: 100%;
-  border-collapse: collapse;
-  margin: 2rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.5rem 0;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  background: var(--bg-primary);
 }
 
 .post-content table th {
-  background: var(--accent-light);
-  color: var(--accent-color);
-  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  padding: 0.875rem 1rem;
   text-align: left;
   font-weight: 600;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-color);
   font-size: 0.9375rem;
-  border-bottom: 2px solid var(--border-color);
+}
+
+.post-content table th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.post-content table th:last-child {
+  border-top-right-radius: 8px;
 }
 
 .post-content table td {
-  padding: 0.75rem 1rem;
+  padding: 0.875rem 1rem;
   border-bottom: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+  line-height: 1.6;
 }
 
 .post-content table tr:last-child td {
   border-bottom: none;
+}
+
+.post-content table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.post-content table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.post-content table tr:hover {
+  background: var(--bg-secondary);
+}
+
+/* 포스트 하단 정보 컨테이너 */
+.post-footer-info {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.post-footer-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.post-tags-section {
+  margin-bottom: 2rem;
+}
+
+.post-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.post-references-section {
+  margin-bottom: 2rem;
+}
+
+.post-references {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: reference-counter;
+}
+
+.post-reference-item {
+  counter-increment: reference-counter;
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.post-reference-item::before {
+  content: "[" counter(reference-counter) "]";
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.post-reference-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.post-reference-link:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
+}
+
+.post-reference-text {
+  color: var(--text-primary);
+}
+
+.post-reference-author {
+  display: block;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+.post-actions {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.post-like-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.post-like-btn:hover {
+  background: var(--accent-pastel);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  transform: translateY(-1px);
+}
+
+.post-like-btn svg {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s ease;
+}
+
+.post-like-btn:hover svg {
+  transform: scale(1.1);
+}
+
+.post-like-btn.liked {
+  background: var(--accent-pastel);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.post-like-btn.liked svg {
+  fill: currentColor;
+}
+
+.post-like-count {
+  font-weight: 600;
 }
 
 .post-navigation {

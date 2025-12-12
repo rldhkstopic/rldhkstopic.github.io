@@ -412,6 +412,51 @@
         // 첫 번째 경로로 시도
         tryFetch(possiblePaths[0]);
       })();
+
+      // 좋아요 기능
+      function toggleLike() {
+        const btn = document.querySelector('.post-like-btn');
+        const countEl = document.getElementById('like-count');
+        if (!btn || !countEl) return;
+
+        const postUrl = window.location.pathname;
+        const storageKey = `like_${postUrl}`;
+        const isLiked = localStorage.getItem(storageKey) === 'true';
+        let currentCount = parseInt(countEl.textContent) || 0;
+
+        if (isLiked) {
+          // 좋아요 취소
+          btn.classList.remove('liked');
+          currentCount = Math.max(0, currentCount - 1);
+          localStorage.removeItem(storageKey);
+        } else {
+          // 좋아요 추가
+          btn.classList.add('liked');
+          currentCount += 1;
+          localStorage.setItem(storageKey, 'true');
+        }
+
+        countEl.textContent = currentCount;
+      }
+
+      // 페이지 로드 시 좋아요 상태 복원
+      document.addEventListener('DOMContentLoaded', function() {
+        const btn = document.querySelector('.post-like-btn');
+        const countEl = document.getElementById('like-count');
+        if (btn && countEl) {
+          const postUrl = window.location.pathname;
+          const storageKey = `like_${postUrl}`;
+          const isLiked = localStorage.getItem(storageKey) === 'true';
+          
+          if (isLiked) {
+            btn.classList.add('liked');
+            const currentCount = parseInt(countEl.textContent) || 0;
+            if (currentCount === 0) {
+              countEl.textContent = '1';
+            }
+          }
+        }
+      });
       
     </script>
   </body>
