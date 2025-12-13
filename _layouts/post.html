@@ -2,43 +2,81 @@
 layout: default
 ---
 
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-    <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: "%Y년 %m월 %d일" }}
-      </time>
-      {% if page.author %}
-        <span class="author">작성자: {{ page.author }}</span>
+<div class="post-container">
+  <article class="post">
+    <header class="post-header">
+      {% if page.category %}
+        <nav class="post-breadcrumb">
+          <a href="{{ '/' | relative_url }}">홈</a>
+          <span class="breadcrumb-separator">›</span>
+          {% assign category_names = 'study:📖 Study,dev:💻 Dev,daily:👋 Daily,document:📑 Document' | split: ',' %}
+          {% for cat_pair in category_names %}
+            {% assign cat_data = cat_pair | split: ':' %}
+            {% if cat_data[0] == page.category %}
+              <a href="{{ page.category | prepend: '/' | append: '/' | relative_url }}">{{ cat_data[1] }}</a>
+            {% endif %}
+          {% endfor %}
+        </nav>
       {% endif %}
-    </div>
-  </header>
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%Y년 %m월 %d일" }}
+        </time>
+        {% if page.last_modified_at %}
+          <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="last-modified">
+            (수정: {{ page.last_modified_at | date: "%Y년 %m월 %d일" }})
+          </time>
+        {% endif %}
+        {% if page.author %}
+          <span class="author">작성자: {{ page.author }}</span>
+        {% endif %}
+      </div>
+    </header>
 
-  <div class="post-content" id="post-content">
-    {{ content }}
-  </div>
+    <div class="post-content" id="post-content">
+      {{ content }}
+    </div>
 
   <div class="post-footer-info">
-    <div class="post-actions">
-      <button class="post-like-btn" onclick="toggleLike()" aria-label="좋아요">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-        </svg>
-        <span class="post-like-count" id="like-count">0</span>
-      </button>
-    </div>
-
     {% if page.tags.size > 0 %}
       <div class="post-tags-section">
         <h3 class="post-footer-title">태그</h3>
         <div class="post-tags">
           {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
+            <span class="tag">#{{ tag }}</span>
           {% endfor %}
         </div>
       </div>
     {% endif %}
+
+    <!-- 좋아요 및 공유 버튼 -->
+    <div class="post-actions">
+      <button class="post-like-btn" onclick="toggleLike()" aria-label="좋아요">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+        </svg>
+        <span class="post-like-count" id="like-count">0</span>
+      </button>
+      <div class="share-buttons">
+        <button class="share-btn" onclick="shareToTwitter()" aria-label="트위터 공유">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+          </svg>
+        </button>
+        <button class="share-btn" onclick="shareToFacebook()" aria-label="페이스북 공유">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+          </svg>
+        </button>
+        <button class="share-btn" onclick="copyLink()" aria-label="링크 복사">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
 
     {% if page.references or page.references.size > 0 %}
       <div class="post-references-section">
@@ -53,9 +91,6 @@ layout: default
               {% else %}
                 <span class="post-reference-text">{{ ref.title | default: ref }}</span>
               {% endif %}
-              {% if ref.author %}
-                <span class="post-reference-author">{{ ref.author }}</span>
-              {% endif %}
             </li>
           {% endfor %}
         </ol>
@@ -63,17 +98,62 @@ layout: default
     {% endif %}
   </div>
 
-  <div class="post-navigation">
-    {% if page.previous %}
-      <a href="{{ page.previous.url | relative_url }}" class="prev-post">
-        ← 이전 포스트: {{ page.previous.title }}
-      </a>
-    {% endif %}
-    {% if page.next %}
-      <a href="{{ page.next.url | relative_url }}" class="next-post">
-        다음 포스트: {{ page.next.title }} →
-      </a>
-    {% endif %}
+  <!-- 댓글 -->
+  <div class="post-comments">
+    <script src="https://utterances.dev/client.js"
+            repo="rldhkstopic/rldhkstopic.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <script>
+      // Utterances 다크 모드 지원
+      document.addEventListener('DOMContentLoaded', function() {
+        const updateUtterancesTheme = () => {
+          const theme = document.documentElement.getAttribute('data-theme');
+          const utterancesFrame = document.querySelector('.utterances-frame');
+          if (utterancesFrame) {
+            utterancesFrame.contentWindow.postMessage({
+              type: 'set-theme',
+              theme: theme === 'dark' ? 'github-dark' : 'github-light'
+            }, 'https://utterances.dev');
+          }
+        };
+        
+        // 초기 테마 설정
+        setTimeout(updateUtterancesTheme, 1000);
+        
+        // 테마 변경 감지
+        const observer = new MutationObserver(updateUtterancesTheme);
+        observer.observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ['data-theme']
+        });
+      });
+    </script>
   </div>
-</article>
+
+    <div class="post-navigation">
+      {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}" class="prev-post">
+          ← 이전 포스트: {{ page.previous.title }}
+        </a>
+      {% endif %}
+      {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}" class="next-post">
+          다음 포스트: {{ page.next.title }} →
+        </a>
+      {% endif %}
+    </div>
+  </article>
+
+  <!-- 목차 -->
+  <nav class="post-toc" id="postTOC">
+    <div class="toc-header">
+      <h3 class="toc-title">INDEX</h3>
+    </div>
+    <ul class="toc-list" id="tocList"></ul>
+  </nav>
+</div>
 

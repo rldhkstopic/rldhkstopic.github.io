@@ -48,6 +48,20 @@
             {% for item in site.navigation %}
               <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
             {% endfor %}
+            <!-- RSS 피드 -->
+            <a class="page-link" href="{{ '/feed.xml' | relative_url }}" aria-label="RSS 피드" title="RSS 피드">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4.5C8.5 4.5 12.5 8.5 12.5 13M4 4.5c0 0 0 0 0 0M4 4.5C3 4.5 2 5 2 5.5v13c0 .5.5 1 1 1h13c.5 0 1-.5 1-1 0-1 0-1 0-1"/>
+                <circle cx="5" cy="19" r="1" fill="currentColor"/>
+              </svg>
+            </a>
+            <!-- 검색 버튼 -->
+            <button class="search-toggle" id="searchToggle" aria-label="검색">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+            </button>
             <!-- 라이트/다크 모드 토글 (Uiverse RiccardoRapelli jolly-chicken-91) -->
             <label class="switch theme-toggle" aria-label="테마 전환">
               <input id="themeToggleInput" type="checkbox" />
@@ -111,6 +125,17 @@
       </div>
     </header>
 
+    <!-- 검색 모달 -->
+    <div class="search-modal" id="searchModal">
+      <div class="search-modal-content">
+        <div class="search-header">
+          <input type="text" id="searchInput" class="search-input" placeholder="포스트 검색..." autocomplete="off">
+          <button class="search-close" id="searchClose" aria-label="닫기">✕</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+      </div>
+    </div>
+
     <main class="page-content">
       <div class="wrapper">
         {{ content }}
@@ -149,7 +174,7 @@
         //   }
         // });
         
-        // 현재 카테고리 토글
+        // 현재 카테고리 토글 (CSS transform으로 처리되므로 JavaScript에서 텍스트 변경 불필요)
         if (isActive) {
           categoryItem.classList.remove('active');
         } else {
@@ -457,24 +482,54 @@
           }
         }
 
-        // 본문에서 "참고 자료" 또는 "레퍼런스" 섹션 추출하여 하단 컨테이너로 이동
+        // 본문에서 각주(footnotes) 또는 "참고 자료" 섹션 추출하여 하단 컨테이너로 이동
         const postContent = document.getElementById('post-content');
         if (!postContent) return;
 
-        // "참고 자료" 또는 "레퍼런스" 제목 찾기
+        const referencesList = [];
+        
+        // 방법 1: 각주(footnotes) 섹션 찾기 (Jekyll/Kramdown이 렌더링한 형태)
+        const footnotesSection = postContent.querySelector('section.footnotes, div.footnotes, ol.footnotes');
+        if (footnotesSection) {
+          const footnoteItems = footnotesSection.querySelectorAll('li[id^="fn"], li[class*="footnote"]');
+          footnoteItems.forEach(item => {
+            const link = item.querySelector('a[href^="#"]');
+            const text = item.textContent.trim();
+            // 각주 내용에서 링크 추출
+            const contentLinks = item.querySelectorAll('a[href^="http"]');
+            if (contentLinks.length > 0) {
+              contentLinks.forEach(link => {
+                referencesList.push({
+                  title: link.textContent.trim() || text.split(' - ')[0] || text,
+                  url: link.href
+                });
+              });
+            } else if (text) {
+              // 링크가 없어도 텍스트만이라도 추가
+              const match = text.match(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/);
+              if (match) {
+                referencesList.push({
+                  title: match[1],
+                  url: match[2]
+                });
+              }
+            }
+          });
+        }
+
+        // 방법 2: "참고 자료" 또는 "레퍼런스" 제목 찾기
         const allHeadings = postContent.querySelectorAll('h2, h3');
         let referencesHeading = null;
         
         for (let heading of allHeadings) {
           const text = heading.textContent.trim();
-          if (text === '참고 자료' || text === '레퍼런스' || text === 'References' || heading.id === '참고-자료' || heading.id === '레퍼런스') {
+          if (text === '참고 자료' || text === '레퍼런스' || text === 'References' || heading.id === '참고-자료' || heading.id === '레퍼런스' || heading.id === 'references') {
             referencesHeading = heading;
             break;
           }
         }
 
         if (referencesHeading) {
-          const referencesList = [];
           let current = referencesHeading.nextElementSibling;
 
           // 다음 h2, h3, h1 또는 article 끝까지 수집
@@ -488,7 +543,7 @@
 
             // 리스트에서 링크 추출
             if (tagName === 'UL' || tagName === 'OL') {
-              const links = current.querySelectorAll('a');
+              const links = current.querySelectorAll('a[href^="http"]');
               links.forEach(link => {
                 referencesList.push({
                   title: link.textContent.trim(),
@@ -498,13 +553,26 @@
             } 
             // 단락에서 링크 추출
             else if (tagName === 'P') {
-              const links = current.querySelectorAll('a');
+              const links = current.querySelectorAll('a[href^="http"]');
               links.forEach(link => {
                 referencesList.push({
                   title: link.textContent.trim(),
                   url: link.href
                 });
               });
+            }
+            // 각주 형식 파싱: [^1]: [제목](URL) 형식
+            else if (tagName === 'P' || tagName === 'DIV') {
+              const text = current.textContent.trim();
+              // [^1]: [제목](URL) - 설명 형식 매칭
+              const footnoteRegex = /\[\^\d+\]:\s*\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g;
+              let match;
+              while ((match = footnoteRegex.exec(text)) !== null) {
+                referencesList.push({
+                  title: match[1],
+                  url: match[2]
+                });
+              }
             }
 
             current = current.nextElementSibling;
@@ -519,121 +587,375 @@
             toRemove.remove();
             toRemove = next;
           }
+        }
 
-          // 하단 컨테이너에 참고 자료 추가
-          if (referencesList.length > 0) {
-            const footerInfo = document.querySelector('.post-footer-info');
-            if (footerInfo) {
-              // 이미 참고 자료 섹션이 있는지 확인
-              let existingRefSection = footerInfo.querySelector('.post-references-section');
+        // 방법 3: 본문 전체에서 각주 링크 찾기 (마크다운 각주 형식)
+        if (referencesList.length === 0) {
+          // 각주 정의 찾기: [^1]: 형식
+          const allParagraphs = postContent.querySelectorAll('p');
+          allParagraphs.forEach(p => {
+            const text = p.textContent.trim();
+            // [^1]: [제목](URL) - 설명 형식
+            const footnoteRegex = /\[\^\d+\]:\s*\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g;
+            let match;
+            while ((match = footnoteRegex.exec(text)) !== null) {
+              referencesList.push({
+                title: match[1],
+                url: match[2]
+              });
+            }
+          });
+        }
+
+        // 하단 컨테이너에 참고 자료 추가
+        if (referencesList.length > 0) {
+          const footerInfo = document.querySelector('.post-footer-info');
+          if (footerInfo) {
+            // 이미 참고 자료 섹션이 있는지 확인
+            let existingRefSection = footerInfo.querySelector('.post-references-section');
+            
+            if (!existingRefSection) {
+              const referencesSection = document.createElement('div');
+              referencesSection.className = 'post-references-section';
               
-              if (!existingRefSection) {
-                const referencesSection = document.createElement('div');
-                referencesSection.className = 'post-references-section';
-                
-                // IEEE 논문 레퍼런스 형식으로 변환
-                const formatIEEEReference = (ref, index) => {
-                  try {
-                    const url = new URL(ref.url);
-                    const domain = url.hostname.replace('www.', '');
-                    const domainName = domain.split('.')[0];
-                    const currentDate = new Date();
-                    const year = currentDate.getFullYear();
-                    const month = currentDate.toLocaleString('ko-KR', { month: 'long' });
-                    const day = currentDate.getDate();
-                    
-                    // IEEE 웹사이트 레퍼런스 형식: [1] "Title," Website Name, Year. [Online]. Available: URL. Accessed: Date.
-                    return `
-                      <li class="post-reference-item">
-                        <span class="post-reference-text">
-                          "${ref.title}," ${domainName.charAt(0).toUpperCase() + domainName.slice(1)}, ${year}. [Online]. Available: 
-                          <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">${ref.url}</a>. 
-                          Accessed: ${year} ${month} ${day}.
-                        </span>
-                      </li>
-                    `;
-                  } catch (e) {
-                    // URL 파싱 실패 시 기본 형식
-                    return `
-                      <li class="post-reference-item">
-                        <span class="post-reference-text">
-                          "${ref.title}," [Online]. Available: 
-                          <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">${ref.url}</a>.
-                        </span>
-                      </li>
-                    `;
-                  }
-                };
-                
-                const referencesHTML = referencesList.map((ref, index) => formatIEEEReference(ref, index)).join('');
-                
-                referencesSection.innerHTML = `
-                  <h3 class="post-footer-title">레퍼런스</h3>
-                  <ol class="post-references">
-                    ${referencesHTML}
-                  </ol>
+              // 제목만 링크로 표시
+              const formatIEEEReference = (ref, index) => {
+                return `
+                  <li class="post-reference-item">
+                    <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
+                      ${ref.title}
+                    </a>
+                  </li>
                 `;
-                
-                // 태그 섹션 다음에 삽입
+              };
+              
+              const referencesHTML = referencesList.map((ref, index) => formatIEEEReference(ref, index)).join('');
+              
+              referencesSection.innerHTML = `
+                <h3 class="post-footer-title">레퍼런스</h3>
+                <ol class="post-references">
+                  ${referencesHTML}
+                </ol>
+              `;
+              
+              // post-actions 다음에 삽입 (태그 섹션 다음, 참고 자료 섹션 앞)
+              const actionsSection = footerInfo.querySelector('.post-actions');
+              if (actionsSection) {
+                actionsSection.insertAdjacentElement('afterend', referencesSection);
+              } else {
                 const tagsSection = footerInfo.querySelector('.post-tags-section');
                 if (tagsSection) {
                   tagsSection.insertAdjacentElement('afterend', referencesSection);
                 } else {
-                  const actionsSection = footerInfo.querySelector('.post-actions');
-                  if (actionsSection) {
-                    actionsSection.insertAdjacentElement('afterend', referencesSection);
-                  } else {
-                    footerInfo.appendChild(referencesSection);
-                  }
+                  footerInfo.appendChild(referencesSection);
                 }
-              } else {
-                // 기존 섹션이 있으면 링크만 추가
-                const existingList = existingRefSection.querySelector('.post-references');
-                if (existingList) {
-                  const formatIEEEReference = (ref, index) => {
-                    try {
-                      const url = new URL(ref.url);
-                      const domain = url.hostname.replace('www.', '');
-                      const domainName = domain.split('.')[0];
-                      const currentDate = new Date();
-                      const year = currentDate.getFullYear();
-                      const month = currentDate.toLocaleString('ko-KR', { month: 'long' });
-                      const day = currentDate.getDate();
-                      
-                      return `
-                        <li class="post-reference-item">
-                          <span class="post-reference-text">
-                            "${ref.title}," ${domainName.charAt(0).toUpperCase() + domainName.slice(1)}, ${year}. [Online]. Available: 
-                            <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">${ref.url}</a>. 
-                            Accessed: ${year} ${month} ${day}.
-                          </span>
-                        </li>
-                      `;
-                    } catch (e) {
-                      return `
-                        <li class="post-reference-item">
-                          <span class="post-reference-text">
-                            "${ref.title}," [Online]. Available: 
-                            <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">${ref.url}</a>.
-                          </span>
-                        </li>
-                      `;
-                    }
-                  };
-                  
-                  referencesList.forEach((ref, index) => {
-                    const li = document.createElement('li');
-                    li.className = 'post-reference-item';
-                    const currentCount = existingList.querySelectorAll('.post-reference-item').length;
-                    li.innerHTML = formatIEEEReference(ref, currentCount).trim();
-                    existingList.appendChild(li);
-                  });
-                }
+              }
+            } else {
+              // 기존 섹션이 있으면 링크만 추가
+              const existingList = existingRefSection.querySelector('.post-references');
+              if (existingList) {
+                const formatIEEEReference = (ref, index) => {
+                  return `
+                    <li class="post-reference-item">
+                      <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
+                        ${ref.title}
+                      </a>
+                    </li>
+                  `;
+                };
+                
+                referencesList.forEach((ref, index) => {
+                  const li = document.createElement('li');
+                  li.className = 'post-reference-item';
+                  const currentCount = existingList.querySelectorAll('.post-reference-item').length;
+                  li.innerHTML = formatIEEEReference(ref, currentCount).trim();
+                  existingList.appendChild(li);
+                });
               }
             }
           }
         }
       });
+
+      // 검색 기능
+      (function() {
+        const searchToggle = document.getElementById('searchToggle');
+        const searchModal = document.getElementById('searchModal');
+        const searchClose = document.getElementById('searchClose');
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+        
+        // 포스트 데이터 로드
+        let postsData = [];
+        
+        function loadPostsData() {
+          {% for post in site.posts %}
+          postsData.push({
+            title: {{ post.title | jsonify }},
+            url: {{ post.url | relative_url | jsonify }},
+            excerpt: {{ post.excerpt | strip_html | truncatewords: 50 | jsonify }},
+            date: {{ post.date | date: "%Y년 %m월 %d일" | jsonify }},
+            category: {{ post.category | jsonify }},
+            tags: {{ post.tags | jsonify }}
+          });
+          {% endfor %}
+        }
+        
+        function searchPosts(query) {
+          if (!query.trim()) {
+            searchResults.innerHTML = '';
+            return;
+          }
+          
+          const lowerQuery = query.toLowerCase();
+          const results = postsData.filter(post => {
+            const titleMatch = post.title.toLowerCase().includes(lowerQuery);
+            const excerptMatch = post.excerpt.toLowerCase().includes(lowerQuery);
+            const tagMatch = post.tags.some(tag => tag.toLowerCase().includes(lowerQuery));
+            return titleMatch || excerptMatch || tagMatch;
+          });
+          
+          if (results.length === 0) {
+            searchResults.innerHTML = '<div class="search-no-results">검색 결과가 없습니다.</div>';
+            return;
+          }
+          
+          searchResults.innerHTML = results.map(post => `
+            <div class="search-result-item" onclick="window.location.href='${post.url}'">
+              <div class="search-result-title">${post.title}</div>
+              <div class="search-result-excerpt">${post.excerpt}</div>
+              <div class="search-result-meta">${post.date} • ${post.category || '기타'}</div>
+            </div>
+          `).join('');
+        }
+        
+        searchToggle?.addEventListener('click', () => {
+          searchModal.classList.add('active');
+          setTimeout(() => searchInput.focus(), 100);
+          loadPostsData();
+        });
+        
+        searchClose?.addEventListener('click', () => {
+          searchModal.classList.remove('active');
+          searchInput.value = '';
+          searchResults.innerHTML = '';
+        });
+        
+        searchInput?.addEventListener('input', (e) => {
+          searchPosts(e.target.value);
+        });
+        
+        searchModal?.addEventListener('click', (e) => {
+          if (e.target === searchModal) {
+            searchModal.classList.remove('active');
+            searchInput.value = '';
+            searchResults.innerHTML = '';
+          }
+        });
+        
+        document.addEventListener('keydown', (e) => {
+          if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+            e.preventDefault();
+            searchModal.classList.add('active');
+            setTimeout(() => searchInput.focus(), 100);
+            loadPostsData();
+          }
+          if (e.key === 'Escape' && searchModal.classList.contains('active')) {
+            searchModal.classList.remove('active');
+            searchInput.value = '';
+            searchResults.innerHTML = '';
+          }
+        });
+      })();
+
+      // 목차(TOC) 생성 및 스크롤 하이라이트
+      (function() {
+        const postTOC = document.getElementById('postTOC');
+        const postContent = document.getElementById('post-content');
+        const tocList = document.getElementById('tocList');
+          
+        if (postContent && tocList) {
+          // 모든 헤더 찾기 (h1~h6)
+          const allHeadings = postContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
+          
+          // "참고 자료", "레퍼런스", "References" 제외
+          const filteredHeadings = Array.from(allHeadings).filter(heading => {
+            const text = heading.textContent.trim();
+            return !text.includes('참고 자료') && 
+                   !text.includes('레퍼런스') && 
+                   !text.includes('References') &&
+                   !text.includes('참고자료');
+          });
+          
+          // 가장 높은 헤더 수준 찾기
+          let minLevel = 6; // 최대값으로 시작
+          filteredHeadings.forEach(heading => {
+            const level = parseInt(heading.tagName.charAt(1));
+            if (level < minLevel) {
+              minLevel = level;
+            }
+          });
+          
+          // 가장 높은 헤더 수준만 필터링
+          const headings = filteredHeadings.filter(heading => {
+            const level = parseInt(heading.tagName.charAt(1));
+            return level === minLevel;
+          });
+          
+          function createTOCItem(heading, index, targetList) {
+            const id = `heading-${index}`;
+            // ID는 한 번만 설정
+            if (!heading.id) {
+              heading.id = id;
+            }
+            
+            const level = parseInt(heading.tagName.charAt(1));
+            const li = document.createElement('li');
+            li.className = `toc-level-${level}`;
+            
+            const a = document.createElement('a');
+            a.href = `#${id}`;
+            a.textContent = heading.textContent;
+            a.addEventListener('click', (e) => {
+              e.preventDefault();
+              const header = document.querySelector('.post-header');
+              const headerHeight = header ? header.offsetHeight + 20 : 100;
+              const elementPosition = heading.getBoundingClientRect().top + window.pageYOffset;
+              const offsetPosition = elementPosition - headerHeight;
+              
+              window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+              });
+              window.history.pushState(null, '', `#${id}`);
+            });
+            
+            li.appendChild(a);
+            targetList.appendChild(li);
+          }
+          
+          if (headings.length > 0) {
+            headings.forEach((heading, index) => {
+              if (tocList) {
+                createTOCItem(heading, index, tocList);
+              }
+            });
+            
+            // 스크롤 하이라이트
+            const header = document.querySelector('.post-header');
+            const headerHeight = header ? header.offsetHeight + 20 : 100;
+            
+            function updateActiveHeading() {
+              if (headings.length === 0) return;
+              
+              const scrollPosition = window.scrollY + headerHeight + 100;
+              let activeHeading = headings[0];
+              
+              // 현재 스크롤 위치보다 위에 있는 가장 가까운 제목 찾기
+              for (let i = headings.length - 1; i >= 0; i--) {
+                const heading = headings[i];
+                const rect = heading.getBoundingClientRect();
+                const headingTop = rect.top + window.scrollY;
+                
+                if (headingTop <= scrollPosition) {
+                  activeHeading = heading;
+                  break;
+                }
+              }
+              
+              if (tocList && activeHeading) {
+                const id = activeHeading.id;
+                tocList.querySelectorAll('a').forEach(link => {
+                  link.classList.remove('active');
+                  if (link.getAttribute('href') === `#${id}`) {
+                    link.classList.add('active');
+                  }
+                });
+              }
+            }
+            
+            // 초기 상태 업데이트
+            setTimeout(updateActiveHeading, 200);
+            
+            // 스크롤 이벤트로 활성 상태 업데이트
+            let ticking = false;
+            const handleScroll = () => {
+              if (!ticking) {
+                window.requestAnimationFrame(() => {
+                  updateActiveHeading();
+                  ticking = false;
+                });
+                ticking = true;
+              }
+            };
+            
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            
+            // IntersectionObserver로 더 정확한 감지
+            const observerOptions = {
+              root: null,
+              rootMargin: `-${headerHeight + 100}px 0px -50% 0px`,
+              threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+              // 가장 많이 보이는 제목 찾기
+              let maxVisible = 0;
+              let mostVisibleHeading = null;
+              
+              entries.forEach(entry => {
+                if (entry.isIntersecting && entry.intersectionRatio > maxVisible) {
+                  maxVisible = entry.intersectionRatio;
+                  mostVisibleHeading = entry.target;
+                }
+              });
+              
+              if (mostVisibleHeading && tocList) {
+                const id = mostVisibleHeading.id;
+                tocList.querySelectorAll('a').forEach(link => {
+                  link.classList.remove('active');
+                  if (link.getAttribute('href') === `#${id}`) {
+                    link.classList.add('active');
+                  }
+                });
+              } else {
+                // IntersectionObserver로 감지되지 않으면 스크롤 위치 기반으로 업데이트
+                updateActiveHeading();
+              }
+            }, observerOptions);
+            
+            headings.forEach(heading => observer.observe(heading));
+          } else {
+            if (postTOC) postTOC.style.display = 'none';
+          }
+        }
+      })();
+
+      // 공유 기능
+      function shareToTwitter() {
+        const url = encodeURIComponent(window.location.href);
+        const title = encodeURIComponent(document.title);
+        window.open(`https://twitter.com/intent/tweet?url=${url}&text=${title}`, '_blank', 'width=550,height=420');
+      }
+
+      function shareToFacebook() {
+        const url = encodeURIComponent(window.location.href);
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=550,height=420');
+      }
+
+      function copyLink() {
+        const url = window.location.href;
+        navigator.clipboard.writeText(url).then(() => {
+          const btn = event.target.closest('.share-btn');
+          const originalHTML = btn.innerHTML;
+          btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>';
+          btn.style.color = 'var(--accent-color)';
+          setTimeout(() => {
+            btn.innerHTML = originalHTML;
+            btn.style.color = '';
+          }, 2000);
+        });
+      }
       
     </script>
   </body>

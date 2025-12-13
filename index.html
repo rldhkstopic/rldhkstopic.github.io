@@ -53,91 +53,124 @@ layout: default
       <ul class="category-list">
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span>👋 Hello</span>
+            <span class="category-title">👋 Hello</span>
+            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
               <a href="/daily/" class="sub-category-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 Daily
-                <span class="category-count">
-                  {% assign daily_posts = site.posts | where: "category", "daily" %}
-                  {{ daily_posts.size }}
-                </span>
               </a>
             </li>
           </ul>
         </li>
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span>💻 Dev</span>
+            <span class="category-title">💻 Dev</span>
+            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
               <a href="/dev/" class="sub-category-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 VHDL FPGA
-                <span class="category-count">
-                  {% assign dev_posts = site.posts | where: "category", "dev" %}
-                  {{ dev_posts.size }}
-                </span>
               </a>
             </li>
           </ul>
         </li>
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span>📑 Document</span>
+            <span class="category-title">📑 Document</span>
+            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
               <a href="/document/" class="sub-category-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 U.S. Stock News
-                <span class="category-count">
-                  {% assign doc_posts = site.posts | where: "category", "document" %}
-                  {{ doc_posts.size }}
-                </span>
               </a>
             </li>
             <li class="sub-category-item">
               <a href="/document/" class="sub-category-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 My Stocks
-                <span class="category-count">
-                  {% assign doc_posts = site.posts | where: "category", "document" %}
-                  {{ doc_posts.size }}
-                </span>
               </a>
             </li>
           </ul>
         </li>
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span>📖 Study</span>
+            <span class="category-title">📖 Study</span>
+            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
               <a href="/study/" class="sub-category-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 VHDL
-                <span class="category-count">
-                  {% assign study_posts = site.posts | where: "category", "study" %}
-                  {{ study_posts.size }}
-                </span>
               </a>
             </li>
             <li class="sub-category-item">
               <a href="/study/" class="sub-category-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 Pytorch
-                <span class="category-count">
-                  {% assign study_posts = site.posts | where: "category", "study" %}
-                  {{ study_posts.size }}
-                </span>
               </a>
             </li>
             <li class="sub-category-item">
               <a href="/study/" class="sub-category-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
                 모르는 개념
-                <span class="category-count">
-                  {% assign study_posts = site.posts | where: "category", "study" %}
-                  {{ study_posts.size }}
-                </span>
               </a>
             </li>
           </ul>
@@ -253,6 +286,37 @@ layout: default
         {% assign daily_posts = site.posts | where: "category", "daily" | limit: 5 %}
         {% if daily_posts.size > 0 %}
           {% for post in daily_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item">
+              <span class="post-list-title">{{ post.title | escape }}</span>
+              <div class="post-list-meta">
+                <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>아직 포스트가 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- 문서 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">📑 Document</h2>
+        <a href="/document/" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
+      </div>
+      <div class="post-list">
+        {% assign document_posts = site.posts | where: "category", "document" | limit: 5 %}
+        {% if document_posts.size > 0 %}
+          {% for post in document_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
