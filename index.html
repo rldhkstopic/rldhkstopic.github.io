@@ -24,8 +24,6 @@ layout: default
         });
       </script>
       <div class="profile-name">{{ site.title }}</div>
-      <div class="profile-subtitle">{{ site.subtitle | default: "MS of HYU" }}</div>
-      <div class="profile-bio">{{ site.bio | newline_to_br }}</div>
       <div class="profile-social">
         <a href="{{ site.github }}" target="_blank" class="social-link" title="GitHub">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -45,15 +43,35 @@ layout: default
           </svg>
         </a>
       </div>
+      <div class="profile-bio">{{ site.bio | newline_to_br }}</div>
+      <div class="profile-visitors">
+        <div class="visitor-stats-simple">
+          <div class="visitor-stats-numbers">
+            <span class="visitor-stat-value">
+              T<span id="total-visitors">0</span>
+            </span>
+            <span class="visitor-stats-separator">/</span>
+            <span class="visitor-stat-value">
+              어제 <span id="yesterday-visitors">0</span>
+            </span>
+            <span class="visitor-stats-separator">/</span>
+            <span class="visitor-stat-value">
+              오늘 <span id="today-visitors">0</span>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- 카테고리 섹션 -->
-    <div class="sidebar-section">
-      <div class="sidebar-section-title">전체보기</div>
+    <div class="sidebar-section sidebar-categories">
+      <div class="sidebar-section-header">
+        <div class="sidebar-section-title">카테고리</div>
+      </div>
       <ul class="category-list">
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">👋 Hello</span>
+            <span class="category-title">👋 Daily</span>
             <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
@@ -68,7 +86,7 @@ layout: default
                   <line x1="16" y1="17" x2="8" y2="17"></line>
                   <polyline points="10 9 9 9 8 9"></polyline>
                 </svg>
-                Daily
+                나의 일기
               </a>
             </li>
           </ul>
@@ -90,7 +108,19 @@ layout: default
                   <line x1="16" y1="17" x2="8" y2="17"></line>
                   <polyline points="10 9 9 9 8 9"></polyline>
                 </svg>
-                VHDL FPGA
+                VHDL
+              </a>
+            </li>
+            <li class="sub-category-item">
+              <a href="/dev/" class="sub-category-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                바이브 코딩
               </a>
             </li>
           </ul>
@@ -146,7 +176,7 @@ layout: default
                   <line x1="16" y1="17" x2="8" y2="17"></line>
                   <polyline points="10 9 9 9 8 9"></polyline>
                 </svg>
-                VHDL
+                FPGA
               </a>
             </li>
             <li class="sub-category-item">
@@ -158,7 +188,7 @@ layout: default
                   <line x1="16" y1="17" x2="8" y2="17"></line>
                   <polyline points="10 9 9 9 8 9"></polyline>
                 </svg>
-                Pytorch
+                바이브 코딩
               </a>
             </li>
             <li class="sub-category-item">
@@ -178,20 +208,6 @@ layout: default
       </ul>
     </div>
 
-    <!-- 방문자 통계 -->
-    <div class="sidebar-section">
-      <div class="visitor-stats-simple">
-        <div class="visitor-stats-title">방문자 통계 : 전체 / 어제 / 오늘</div>
-        <div class="visitor-stats-numbers">
-          <span class="visitor-stat-value" id="total-visitors">0</span>
-          <span class="visitor-stats-separator">/</span>
-          <span class="visitor-stat-value" id="yesterday-visitors">0</span>
-          <span class="visitor-stats-separator">/</span>
-          <span class="visitor-stat-value" id="today-visitors">0</span>
-        </div>
-      </div>
-    </div>
-
     <!-- 인기글 -->
     <div class="sidebar-section">
       <div class="sidebar-section-title">인기글</div>
@@ -209,11 +225,41 @@ layout: default
 
   <!-- 메인 콘텐츠 영역 -->
   <main class="main-content">
-    <!-- 스터디 -->
+    <!-- 전체 글 리스트 -->
+    <div class="content-section all-posts-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          📚 All Posts
+        </h2>
+      </div>
+      <div class="post-list all-posts-list">
+        {% assign all_posts = site.posts | limit: 10 %}
+        {% if all_posts.size > 0 %}
+          {% for post in all_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item">
+              <span class="post-list-title">{{ post.title | escape }}</span>
+              <div class="post-list-meta">
+                <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+                {% if post.category %}
+                <span class="post-list-category">{{ post.category }}</span>
+                {% endif %}
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>아직 포스트가 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- 일상 -->
     <div class="content-section">
       <div class="section-header">
-        <h2 class="section-title">📖 Study</h2>
-        <a href="/study/" class="section-more" title="더보기">
+        <h2 class="section-title">👋 Daily</h2>
+        <a href="/daily/" class="section-more" title="더보기">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -221,9 +267,9 @@ layout: default
         </a>
       </div>
       <div class="post-list">
-        {% assign study_posts = site.posts | where: "category", "study" | limit: 5 %}
-        {% if study_posts.size > 0 %}
-          {% for post in study_posts %}
+        {% assign daily_posts = site.posts | where: "category", "daily" | limit: 5 %}
+        {% if daily_posts.size > 0 %}
+          {% for post in daily_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
@@ -271,11 +317,11 @@ layout: default
       </div>
     </div>
 
-    <!-- 일상 -->
+    <!-- 문서 -->
     <div class="content-section">
       <div class="section-header">
-        <h2 class="section-title">👋 Daily</h2>
-        <a href="/daily/" class="section-more" title="더보기">
+        <h2 class="section-title">📑 Document</h2>
+        <a href="/document/" class="section-more" title="더보기">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -283,9 +329,9 @@ layout: default
         </a>
       </div>
       <div class="post-list">
-        {% assign daily_posts = site.posts | where: "category", "daily" | limit: 5 %}
-        {% if daily_posts.size > 0 %}
-          {% for post in daily_posts %}
+        {% assign document_posts = site.posts | where: "category", "document" | limit: 5 %}
+        {% if document_posts.size > 0 %}
+          {% for post in document_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
@@ -302,11 +348,11 @@ layout: default
       </div>
     </div>
 
-    <!-- 문서 -->
+    <!-- 스터디 -->
     <div class="content-section">
       <div class="section-header">
-        <h2 class="section-title">📑 Document</h2>
-        <a href="/document/" class="section-more" title="더보기">
+        <h2 class="section-title">📖 Study</h2>
+        <a href="/study/" class="section-more" title="더보기">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -314,9 +360,9 @@ layout: default
         </a>
       </div>
       <div class="post-list">
-        {% assign document_posts = site.posts | where: "category", "document" | limit: 5 %}
-        {% if document_posts.size > 0 %}
-          {% for post in document_posts %}
+        {% assign study_posts = site.posts | where: "category", "study" | limit: 5 %}
+        {% if study_posts.size > 0 %}
+          {% for post in study_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">

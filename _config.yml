@@ -21,12 +21,10 @@ google_analytics: "G-LY54J8KM1X"
 
 # Navigation
 navigation:
-  - title: 홈
-    url: /
-  - title: 블로그
-    url: /blog/
   - title: 소개
     url: /about/
+  - title: 버전
+    url: /versions/
 
 # Pagination
 paginate: 10

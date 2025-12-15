@@ -8,6 +8,8 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <!-- Bootstrap Icons for reference markers -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
     <!-- Google Analytics 4 (GA4) -->
@@ -45,23 +47,7 @@
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
           <div class="trigger">
-            {% for item in site.navigation %}
-              <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endfor %}
-            <!-- RSS 피드 -->
-            <a class="page-link" href="{{ '/feed.xml' | relative_url }}" aria-label="RSS 피드" title="RSS 피드">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M4 4.5C8.5 4.5 12.5 8.5 12.5 13M4 4.5c0 0 0 0 0 0M4 4.5C3 4.5 2 5 2 5.5v13c0 .5.5 1 1 1h13c.5 0 1-.5 1-1 0-1 0-1 0-1"/>
-                <circle cx="5" cy="19" r="1" fill="currentColor"/>
-              </svg>
-            </a>
-            <!-- 검색 버튼 -->
-            <button class="search-toggle" id="searchToggle" aria-label="검색">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="11" cy="11" r="8"></circle>
-                <path d="m21 21-4.35-4.35"></path>
-              </svg>
-            </button>
+            <!-- 상단 네비게이션 텍스트 링크 제거, 사이트 타이틀만 홈으로 사용 -->
             <!-- 라이트/다크 모드 토글 (Uiverse RiccardoRapelli jolly-chicken-91) -->
             <label class="switch theme-toggle" aria-label="테마 전환">
               <input id="themeToggleInput" type="checkbox" />
@@ -125,17 +111,6 @@
       </div>
     </header>
 
-    <!-- 검색 모달 -->
-    <div class="search-modal" id="searchModal">
-      <div class="search-modal-content">
-        <div class="search-header">
-          <input type="text" id="searchInput" class="search-input" placeholder="포스트 검색..." autocomplete="off">
-          <button class="search-close" id="searchClose" aria-label="닫기">✕</button>
-        </div>
-        <div class="search-results" id="searchResults"></div>
-      </div>
-    </div>
-
     <main class="page-content">
       <div class="wrapper">
         {{ content }}
@@ -146,7 +121,6 @@
     <footer class="site-footer">
       <div class="wrapper">
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
-        <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">GitHub Pages</a></p>
       </div>
     </footer>
     {% endunless %}
@@ -464,6 +438,52 @@
         countEl.textContent = currentCount;
       }
 
+      // footnotes 제거 함수 (하단 레퍼런스 섹션 생성 이후에만 사용)
+      function removeFootnotes() {
+        const selectors = [
+          'section.footnotes',
+          'div.footnotes',
+          'div[role="doc-endnotes"]',
+          '.footnote',
+          'div.footnote',
+          '#footnotes',
+          '.footnotes',
+          '#post-content > div.footnote',
+          '#post-content > div.footnotes',
+          '#post-content > section.footnotes',
+          '#post-content > div[role="doc-endnotes"]',
+          'div#post-content > div.footnote',
+          'div#post-content > div.footnotes',
+          'article .footnote',
+          'article div.footnote',
+          'article section.footnotes',
+          'article div.footnotes',
+          '[class*="footnote"]',
+          '[class*="footnotes"]'
+        ];
+        
+        selectors.forEach(selector => {
+          const elements = document.querySelectorAll(selector);
+          elements.forEach(el => {
+            try {
+              if (el.parentNode) {
+                el.parentNode.removeChild(el);
+              } else {
+                el.remove();
+              }
+            } catch (e) {
+              el.style.display = 'none';
+              el.style.visibility = 'hidden';
+              el.style.height = '0';
+              el.style.overflow = 'hidden';
+              el.style.position = 'absolute';
+              el.style.left = '-9999px';
+              el.innerHTML = '';
+            }
+          });
+        });
+      }
+      
       // 페이지 로드 시 좋아요 상태 복원
       document.addEventListener('DOMContentLoaded', function() {
         const btn = document.querySelector('.post-like-btn');
@@ -486,36 +506,232 @@
         const postContent = document.getElementById('post-content');
         if (!postContent) return;
 
+        // 본문 내 각주 링크를 귀엽고 작은 Bootstrap 아이콘으로 변환
+        const footnoteLinks = postContent.querySelectorAll('sup a.footnote[role="doc-noteref"]');
+        footnoteLinks.forEach(link => {
+          const num = (link.textContent || '').trim();
+          link.setAttribute('data-footnote-number', num);
+          link.setAttribute('title', `참고 자료 ${num}`);
+          link.innerHTML = '<i class="bi bi-bookmark-heart-fill" aria-hidden="true"></i>';
+        });
+
         const referencesList = [];
         
-        // 방법 1: 각주(footnotes) 섹션 찾기 (Jekyll/Kramdown이 렌더링한 형태)
-        const footnotesSection = postContent.querySelector('section.footnotes, div.footnotes, ol.footnotes');
-        if (footnotesSection) {
-          const footnoteItems = footnotesSection.querySelectorAll('li[id^="fn"], li[class*="footnote"]');
-          footnoteItems.forEach(item => {
-            const link = item.querySelector('a[href^="#"]');
-            const text = item.textContent.trim();
-            // 각주 내용에서 링크 추출
-            const contentLinks = item.querySelectorAll('a[href^="http"]');
-            if (contentLinks.length > 0) {
-              contentLinks.forEach(link => {
-                referencesList.push({
-                  title: link.textContent.trim() || text.split(' - ')[0] || text,
-                  url: link.href
-                });
+        // 먼저 기존 레퍼런스 섹션에서 항목들을 읽어옴 (footnotes와 병합하기 위해)
+        const footerInfo = document.querySelector('.post-footer-info');
+        if (footerInfo) {
+          const existingRefSection = footerInfo.querySelector('.post-references-section');
+          if (existingRefSection) {
+            const existingList = existingRefSection.querySelector('.post-references');
+            if (existingList) {
+              const existingItems = existingList.querySelectorAll('.post-reference-item a');
+              existingItems.forEach(link => {
+                const url = link.href;
+                const title = link.textContent.trim();
+                if (url && !referencesList.some(ref => ref.url === url)) {
+                  referencesList.push({
+                    title: title || url,
+                    url: url
+                  });
+                }
               });
-            } else if (text) {
-              // 링크가 없어도 텍스트만이라도 추가
-              const match = text.match(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/);
-              if (match) {
-                referencesList.push({
-                  title: match[1],
-                  url: match[2]
+            }
+          }
+        }
+        
+        // 방법 1: 각주(footnotes) 섹션 찾기 (Jekyll/Kramdown이 렌더링한 형태)
+        // postContent 안에서 먼저 찾고, 없으면 전체 문서에서 찾기
+        let footnotesSection = postContent.querySelector('section.footnotes, div.footnotes, div[role="doc-endnotes"]');
+        if (!footnotesSection) {
+          footnotesSection = document.querySelector('section.footnotes, div.footnotes, div[role="doc-endnotes"]');
+        }
+        if (footnotesSection) {
+          // footnotes 안의 모든 링크 찾기 (li 항목별로 처리)
+          const listItems = footnotesSection.querySelectorAll('li, p, div');
+          
+          // 각 항목 처리
+          listItems.forEach(item => {
+            // 각 항목에서 링크 찾기
+            const links = item.querySelectorAll('a[href^="http"], a[href^="https"]');
+            if (links.length > 0) {
+              links.forEach(link => {
+                const url = link.href;
+                // 항목의 전체 텍스트에서 "제목 - 설명" 형식 추출
+                const itemText = item.textContent.trim();
+                // "제목 - 설명 ↩" 또는 "제목 - 설명 - 추가설명 ↩" 형식에서 첫 번째 제목 추출
+                let title = itemText.match(/^([^-]+?)(?:\s*-\s*[^-]+?)*\s*↩/);
+                if (title) {
+                  title = title[1].trim();
+                } else {
+                  // "제목 - 설명" 형식에서 제목 추출
+                  const match = itemText.match(/^(.+?)\s*-\s*.+$/);
+                  if (match) {
+                    title = match[1].trim();
+                  } else {
+                    // 링크 텍스트 사용
+                    title = link.textContent.trim() || itemText.replace(/↩.*$/, '').trim() || url;
+                  }
+                }
+                
+                // 중복 제거 (같은 URL이 이미 있으면 스킵)
+                if (!referencesList.some(ref => ref.url === url)) {
+                  referencesList.push({
+                    title: title || url,
+                    url: url
+                  });
+                }
+              });
+            } else {
+              // 링크가 없는 경우, 텍스트에서 URL 패턴 찾기
+              const itemText = item.textContent || item.innerText;
+              const urlRegex = /(https?:\/\/[^\s\)]+)/g;
+              const matches = itemText.match(urlRegex);
+              if (matches) {
+                matches.forEach(url => {
+                  // URL 앞의 텍스트에서 제목 추출
+                  const urlIndex = itemText.indexOf(url);
+                  const beforeUrl = itemText.substring(Math.max(0, urlIndex - 200), urlIndex);
+                  // "제목 - 설명" 형식에서 제목 추출
+                  const titleMatch = beforeUrl.match(/([^\n\r]+?)\s*-\s*[^\n\r]*$/);
+                  let title = titleMatch ? titleMatch[1].trim() : itemText.replace(/↩.*$/, '').trim();
+                  // "제목 - 설명 - 추가설명" 형식에서 첫 번째 제목만 추출
+                  if (title && title.includes(' - ')) {
+                    title = title.split(' - ')[0].trim();
+                  }
+                  title = title || url;
+                  
+                  // 중복 제거
+                  if (!referencesList.some(ref => ref.url === url)) {
+                    referencesList.push({
+                      title: title,
+                      url: url
+                    });
+                  }
                 });
+              } else {
+                // URL도 없고 링크도 없는 경우, 텍스트 자체를 제목으로 사용 (URL은 나중에 찾을 수 있음)
+                const itemText = item.textContent.trim();
+                if (itemText && itemText.length > 10) {
+                  // "제목 - 설명 ↩" 형식에서 제목 추출
+                  let title = itemText.replace(/↩.*$/, '').trim();
+                  if (title.includes(' - ')) {
+                    title = title.split(' - ')[0].trim();
+                  }
+                  // URL이 없으면 일단 제목만 저장 (나중에 본문에서 찾을 수 있음)
+                  if (title && !referencesList.some(ref => ref.title === title && !ref.url)) {
+                    referencesList.push({
+                      title: title,
+                      url: '' // URL은 나중에 찾을 수 있음
+                    });
+                  }
+                }
               }
             }
           });
+          
+          // 리스트 항목이 없는 경우 전체 텍스트에서 링크 찾기
+          if (listItems.length === 0) {
+            const allLinks = footnotesSection.querySelectorAll('a[href^="http"], a[href^="https"]');
+            allLinks.forEach(link => {
+              const url = link.href;
+              let title = link.textContent.trim();
+              const parentP = link.closest('p');
+              if (parentP) {
+                const fullText = parentP.textContent.trim();
+                const match = fullText.match(/^(.+?)\s*-\s*.+$/);
+                if (match) {
+                  title = match[1].trim();
+                } else {
+                  title = link.textContent.trim();
+                }
+              }
+              
+              if (!referencesList.some(ref => ref.url === url)) {
+                referencesList.push({
+                  title: title || url,
+                  url: url
+                });
+              }
+            });
+            
+            // 링크가 없는 경우, 텍스트를 줄 단위로 파싱
+            if (allLinks.length === 0) {
+              const textContent = footnotesSection.textContent || footnotesSection.innerText;
+              
+              // 먼저 URL 패턴 찾기
+              const urlRegex = /(https?:\/\/[^\s\)]+)/g;
+              const matches = textContent.match(urlRegex);
+              if (matches) {
+                matches.forEach(url => {
+                  const urlIndex = textContent.indexOf(url);
+                  const beforeUrl = textContent.substring(Math.max(0, urlIndex - 200), urlIndex);
+                  const titleMatch = beforeUrl.match(/([^\n\r]+?)\s*-\s*[^\n\r]*$/);
+                  let title = titleMatch ? titleMatch[1].trim() : url;
+                  // "제목 - 설명 - 추가설명" 형식에서 첫 번째 제목만 추출
+                  if (title && title.includes(' - ')) {
+                    title = title.split(' - ')[0].trim();
+                  }
+                  
+                  if (!referencesList.some(ref => ref.url === url)) {
+                    referencesList.push({
+                      title: title || url,
+                      url: url
+                    });
+                  }
+                });
+              } else {
+                // URL도 없으면 텍스트를 줄 단위로 나누어 각 줄을 항목으로 처리
+                const lines = textContent.split(/\n|\r\n/).filter(line => line.trim().length > 0);
+                lines.forEach(line => {
+                  const trimmedLine = line.trim();
+                  // "제목 - 설명 ↩" 형식에서 제목 추출
+                  let title = trimmedLine.replace(/↩.*$/, '').trim();
+                  if (title.includes(' - ')) {
+                    title = title.split(' - ')[0].trim();
+                  }
+                  // 제목이 있고, 기존 레퍼런스에 같은 제목이 없으면 추가
+                  if (title && title.length > 5 && !referencesList.some(ref => ref.title === title)) {
+                    referencesList.push({
+                      title: title,
+                      url: '' // URL은 나중에 찾을 수 있음
+                    });
+                  }
+                });
+              }
+            }
+          }
+          
+          // footnotes 섹션 제거 (removeFootnotes 함수 사용)
+          removeFootnotes();
         }
+        
+        // MutationObserver로 새로 추가되는 footnotes도 제거
+        const observer = new MutationObserver((mutations) => {
+          let shouldRemove = false;
+          mutations.forEach((mutation) => {
+            mutation.addedNodes.forEach((node) => {
+              if (node.nodeType === 1) { // Element node
+                if (node.classList && (node.classList.contains('footnotes') || node.classList.contains('footnote') || node.getAttribute('role') === 'doc-endnotes')) {
+                  shouldRemove = true;
+                }
+                // 자식 요소에서도 찾기
+                const childFootnotes = node.querySelectorAll && node.querySelectorAll('section.footnotes, div.footnotes, div[role="doc-endnotes"], .footnote, div.footnote');
+                if (childFootnotes && childFootnotes.length > 0) {
+                  shouldRemove = true;
+                }
+              }
+            });
+          });
+          if (shouldRemove) {
+            removeFootnotes();
+          }
+        });
+        
+        // postContent와 document.body 모두 관찰
+        if (postContent) {
+          observer.observe(postContent, { childList: true, subtree: true });
+        }
+        observer.observe(document.body, { childList: true, subtree: true });
 
         // 방법 2: "참고 자료" 또는 "레퍼런스" 제목 찾기
         const allHeadings = postContent.querySelectorAll('h2, h3');
@@ -608,28 +824,31 @@
         }
 
         // 하단 컨테이너에 참고 자료 추가
-        if (referencesList.length > 0) {
+        // URL이 있는 항목만 필터링 (URL이 없으면 레퍼런스로 표시할 수 없음)
+        const validReferences = referencesList.filter(ref => ref.url && ref.url.trim().length > 0);
+        
+        if (validReferences.length > 0) {
           const footerInfo = document.querySelector('.post-footer-info');
           if (footerInfo) {
             // 이미 참고 자료 섹션이 있는지 확인
             let existingRefSection = footerInfo.querySelector('.post-references-section');
             
+            // 제목만 링크로 표시
+            const formatIEEEReference = (ref, index) => {
+              return `
+                <li class="post-reference-item">
+                  <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
+                    ${ref.title}
+                  </a>
+                </li>
+              `;
+            };
+            
+            const referencesHTML = validReferences.map((ref, index) => formatIEEEReference(ref, index)).join('');
+            
             if (!existingRefSection) {
               const referencesSection = document.createElement('div');
               referencesSection.className = 'post-references-section';
-              
-              // 제목만 링크로 표시
-              const formatIEEEReference = (ref, index) => {
-                return `
-                  <li class="post-reference-item">
-                    <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
-                      ${ref.title}
-                    </a>
-                  </li>
-                `;
-              };
-              
-              const referencesHTML = referencesList.map((ref, index) => formatIEEEReference(ref, index)).join('');
               
               referencesSection.innerHTML = `
                 <h3 class="post-footer-title">레퍼런스</h3>
@@ -651,122 +870,20 @@
                 }
               }
             } else {
-              // 기존 섹션이 있으면 링크만 추가
-              const existingList = existingRefSection.querySelector('.post-references');
-              if (existingList) {
-                const formatIEEEReference = (ref, index) => {
-                  return `
-                    <li class="post-reference-item">
-                      <a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="post-reference-link">
-                        ${ref.title}
-                      </a>
-                    </li>
-                  `;
-                };
-                
-                referencesList.forEach((ref, index) => {
-                  const li = document.createElement('li');
-                  li.className = 'post-reference-item';
-                  const currentCount = existingList.querySelectorAll('.post-reference-item').length;
-                  li.innerHTML = formatIEEEReference(ref, currentCount).trim();
-                  existingList.appendChild(li);
-                });
-              }
+              // 기존 섹션이 있으면 전체를 재생성 (footnotes와 병합된 완전한 리스트)
+              existingRefSection.innerHTML = `
+                <h3 class="post-footer-title">레퍼런스</h3>
+                <ol class="post-references">
+                  ${referencesHTML}
+                </ol>
+              `;
             }
           }
         }
-      });
 
-      // 검색 기능
-      (function() {
-        const searchToggle = document.getElementById('searchToggle');
-        const searchModal = document.getElementById('searchModal');
-        const searchClose = document.getElementById('searchClose');
-        const searchInput = document.getElementById('searchInput');
-        const searchResults = document.getElementById('searchResults');
-        
-        // 포스트 데이터 로드
-        let postsData = [];
-        
-        function loadPostsData() {
-          {% for post in site.posts %}
-          postsData.push({
-            title: {{ post.title | jsonify }},
-            url: {{ post.url | relative_url | jsonify }},
-            excerpt: {{ post.excerpt | strip_html | truncatewords: 50 | jsonify }},
-            date: {{ post.date | date: "%Y년 %m월 %d일" | jsonify }},
-            category: {{ post.category | jsonify }},
-            tags: {{ post.tags | jsonify }}
-          });
-          {% endfor %}
-        }
-        
-        function searchPosts(query) {
-          if (!query.trim()) {
-            searchResults.innerHTML = '';
-            return;
-          }
-          
-          const lowerQuery = query.toLowerCase();
-          const results = postsData.filter(post => {
-            const titleMatch = post.title.toLowerCase().includes(lowerQuery);
-            const excerptMatch = post.excerpt.toLowerCase().includes(lowerQuery);
-            const tagMatch = post.tags.some(tag => tag.toLowerCase().includes(lowerQuery));
-            return titleMatch || excerptMatch || tagMatch;
-          });
-          
-          if (results.length === 0) {
-            searchResults.innerHTML = '<div class="search-no-results">검색 결과가 없습니다.</div>';
-            return;
-          }
-          
-          searchResults.innerHTML = results.map(post => `
-            <div class="search-result-item" onclick="window.location.href='${post.url}'">
-              <div class="search-result-title">${post.title}</div>
-              <div class="search-result-excerpt">${post.excerpt}</div>
-              <div class="search-result-meta">${post.date} • ${post.category || '기타'}</div>
-            </div>
-          `).join('');
-        }
-        
-        searchToggle?.addEventListener('click', () => {
-          searchModal.classList.add('active');
-          setTimeout(() => searchInput.focus(), 100);
-          loadPostsData();
-        });
-        
-        searchClose?.addEventListener('click', () => {
-          searchModal.classList.remove('active');
-          searchInput.value = '';
-          searchResults.innerHTML = '';
-        });
-        
-        searchInput?.addEventListener('input', (e) => {
-          searchPosts(e.target.value);
-        });
-        
-        searchModal?.addEventListener('click', (e) => {
-          if (e.target === searchModal) {
-            searchModal.classList.remove('active');
-            searchInput.value = '';
-            searchResults.innerHTML = '';
-          }
-        });
-        
-        document.addEventListener('keydown', (e) => {
-          if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-            e.preventDefault();
-            searchModal.classList.add('active');
-            setTimeout(() => searchInput.focus(), 100);
-            loadPostsData();
-          }
-          if (e.key === 'Escape' && searchModal.classList.contains('active')) {
-            searchModal.classList.remove('active');
-            searchInput.value = '';
-            searchResults.innerHTML = '';
-          }
-        });
-      })();
+        // 레퍼런스 섹션 생성/갱신이 끝난 뒤에만 원본 footnotes를 정리
+        removeFootnotes();
+      });
 
       // 목차(TOC) 생성 및 스크롤 하이라이트
       (function() {
