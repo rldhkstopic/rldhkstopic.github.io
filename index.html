@@ -231,9 +231,17 @@ layout: default
         <h2 class="section-title">
           📚 All Posts
         </h2>
+        {% if site.posts.size > 5 %}
+        <a href="/blog/" class="section-more" title="전체 글 보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
+        {% endif %}
       </div>
       <div class="post-list all-posts-list">
-        {% assign all_posts = site.posts | limit: 10 %}
+        {% assign all_posts = site.posts | limit: 5 %}
         {% if all_posts.size > 0 %}
           {% for post in all_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item">
