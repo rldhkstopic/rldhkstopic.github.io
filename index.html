@@ -247,10 +247,21 @@ layout: default
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
-                <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
-                {% if post.category %}
-                <span class="post-list-category">{{ post.category }}</span>
+                {% assign category_names = 'daily:Daily,dev:Dev,document:Document,study:Study' | split: ',' %}
+                {% assign category_display = post.category | capitalize %}
+                {% for cat_pair in category_names %}
+                  {% assign cat_data = cat_pair | split: ':' %}
+                  {% if cat_data[0] == post.category %}
+                    {% assign category_display = cat_data[1] %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+                {% if post.tags.size > 0 %}
+                <span class="post-list-category-path">{{ category_display }} > {{ post.tags[0] }}</span>
+                {% else %}
+                <span class="post-list-category-path">{{ category_display }}</span>
                 {% endif %}
+                <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                 <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
               </div>
             </a>
@@ -281,6 +292,11 @@ layout: default
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
+                {% if post.tags.size > 0 %}
+                <span class="post-list-category-path">Daily > {{ post.tags[0] }}</span>
+                {% else %}
+                <span class="post-list-category-path">Daily</span>
+                {% endif %}
                 <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                 <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
               </div>
@@ -312,6 +328,11 @@ layout: default
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
+                {% if post.tags.size > 0 %}
+                <span class="post-list-category-path">Dev > {{ post.tags[0] }}</span>
+                {% else %}
+                <span class="post-list-category-path">Dev</span>
+                {% endif %}
                 <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                 <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
               </div>
@@ -343,6 +364,11 @@ layout: default
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
+                {% if post.tags.size > 0 %}
+                <span class="post-list-category-path">Document > {{ post.tags[0] }}</span>
+                {% else %}
+                <span class="post-list-category-path">Document</span>
+                {% endif %}
                 <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                 <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
               </div>
@@ -374,6 +400,11 @@ layout: default
             <a href="{{ post.url | relative_url }}" class="post-list-item">
               <span class="post-list-title">{{ post.title | escape }}</span>
               <div class="post-list-meta">
+                {% if post.tags.size > 0 %}
+                <span class="post-list-category-path">Study > {{ post.tags[0] }}</span>
+                {% else %}
+                <span class="post-list-category-path">Study</span>
+                {% endif %}
                 <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
                 <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
               </div>

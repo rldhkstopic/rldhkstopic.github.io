@@ -868,6 +868,13 @@ body.home-page .page-content {
   color: var(--text-secondary);
 }
 
+.post-list-category-path {
+  font-size: 0.75rem;
+  color: var(--accent-color);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 .post-list-meta {
   display: flex;
   align-items: center;
