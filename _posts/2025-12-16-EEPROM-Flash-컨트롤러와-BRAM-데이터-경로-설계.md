@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "EEPROM(Flash) 컨트롤러와 BRAM 사이의 데이터 경로 설계"
-date: 2025-12-16
+date: 2025-12-16 15:45:00 +0900
 author: rldhkstopic
 category: dev
+subcategory: "VHDL"
 tags: [FPGA, EEPROM, Flash, BRAM, VHDL, DataPath, SPI]
 views: 0
 ---
