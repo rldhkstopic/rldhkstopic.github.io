@@ -921,6 +921,67 @@ body.home-page .page-content {
   align-items: start;
 }
 
+/* 개발 글은 더 넓은 레이아웃 */
+.post-container-wide {
+  max-width: 1400px;
+  grid-template-columns: 1fr 300px;
+}
+
+.post-container-wide .post {
+  padding: 3.5rem 3rem;
+}
+
+.post-container-wide .post-content {
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+.post-container-wide .post-content h2 {
+  font-size: 1.875rem;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+}
+
+.post-container-wide .post-content h3 {
+  font-size: 1.625rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.post-container-wide .post-content h4 {
+  font-size: 1.375rem;
+  margin-top: 2rem;
+  margin-bottom: 0.875rem;
+}
+
+.post-container-wide .post-content p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.post-container-wide .post-content pre {
+  margin-bottom: 2.5rem;
+  padding: 0;
+}
+
+.post-container-wide .post-content pre code {
+  padding: 1.25rem 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.post-container-wide .post-content ul,
+.post-container-wide .post-content ol {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 0.75rem;
+}
+
+.post-container-wide .post-content li {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
 .post {
   background: var(--bg-primary);
   padding: 3rem 2.5rem;
