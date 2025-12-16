@@ -34,6 +34,9 @@ paginate_path: "/blog/page:num/"
 markdown: kramdown
 highlighter: rouge
 
+# Show future-dated posts
+future: true
+
 # Exclude from processing
 exclude:
   - Gemfile
