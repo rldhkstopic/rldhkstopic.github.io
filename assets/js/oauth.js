@@ -15,8 +15,11 @@ function generateRandomState() {
 // GitHub OAuth 로그인 시작
 function startGitHubOAuth() {
   if (!GITHUB_OAUTH_CONFIG.clientId) {
-    // OAuth App이 설정되지 않은 경우, 기존 토큰 입력 방식으로 폴백
-    window.location.href = '/admin/';
+    // OAuth App이 설정되지 않은 경우, 토큰 입력 폼 표시
+    const showTokenForm = document.getElementById('show-token-form');
+    if (showTokenForm) {
+      showTokenForm.click();
+    }
     return;
   }
 
