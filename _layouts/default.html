@@ -40,6 +40,9 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     {% comment %}{% seo %}{% endcomment %}
+    
+    <!-- OAuth 스크립트 (관리자 페이지에서만 필요하지만 전역에서 사용 가능하도록) -->
+    <script src="{{ '/assets/js/oauth.js' | relative_url }}"></script>
   </head>
   <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
     <header class="site-header">
@@ -47,6 +50,10 @@
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
           <div class="trigger">
+            <!-- 글쓰기 버튼 (아이콘만 표시) -->
+            <a href="{{ '/admin/' | relative_url }}" class="write-btn" id="write-btn" title="글쓰기" aria-label="글쓰기" style="display: none;">
+              <i class="bi bi-pencil-square"></i>
+            </a>
             <!-- 상단 네비게이션 텍스트 링크 제거, 사이트 타이틀만 홈으로 사용 -->
             <!-- 라이트/다크 모드 토글 (Uiverse RiccardoRapelli jolly-chicken-91) -->
             <label class="switch theme-toggle" aria-label="테마 전환">

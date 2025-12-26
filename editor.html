@@ -1,0 +1,128 @@
+---
+layout: default
+title: 포스트 에디터
+permalink: /editor/
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/admin.css' | relative_url }}">
+
+<div class="editor-container" id="editor-container" style="display: none;">
+  <div class="editor-header">
+    <h1 class="editor-title">포스트 작성</h1>
+    <div class="editor-actions">
+      <button id="preview-btn" class="btn btn-secondary">미리보기</button>
+      <button id="save-draft-btn" class="btn btn-secondary">임시저장</button>
+      <button id="publish-btn" class="btn btn-primary">게시</button>
+      <button id="logout-btn" class="btn btn-outline">로그아웃</button>
+    </div>
+  </div>
+  
+  <div class="editor-content">
+    <div class="editor-sidebar">
+      <div class="editor-meta">
+        <h3>포스트 정보</h3>
+        
+        <div class="form-group">
+          <label for="post-title">제목 *</label>
+          <input type="text" id="post-title" class="form-input" placeholder="포스트 제목" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="post-category">카테고리 *</label>
+          <select id="post-category" class="form-input" required>
+            <option value="">선택하세요</option>
+            <option value="daily">Daily</option>
+            <option value="dev">Dev</option>
+            <option value="document">Document</option>
+            <option value="study">Study</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="post-subcategory">하위 카테고리</label>
+          <input type="text" id="post-subcategory" class="form-input" placeholder="선택사항">
+        </div>
+        
+        <div class="form-group">
+          <label for="post-tags">태그</label>
+          <input type="text" id="post-tags" class="form-input" placeholder="태그1, 태그2, 태그3">
+          <small class="form-help">쉼표로 구분하여 입력</small>
+        </div>
+        
+        <div class="form-group">
+          <label for="post-date">날짜</label>
+          <input type="datetime-local" id="post-date" class="form-input">
+          <small class="form-help">기본값: 현재 날짜/시간</small>
+        </div>
+        
+        <div class="form-group">
+          <label for="post-filename">파일명</label>
+          <input type="text" id="post-filename" class="form-input" readonly>
+          <small class="form-help">자동 생성 (제목 기반)</small>
+        </div>
+      </div>
+    </div>
+    
+    <div class="editor-main">
+      <div class="editor-toolbar">
+        <button class="toolbar-btn" data-action="bold" title="굵게 (Ctrl+B)">
+          <strong>B</strong>
+        </button>
+        <button class="toolbar-btn" data-action="italic" title="기울임 (Ctrl+I)">
+          <em>I</em>
+        </button>
+        <button class="toolbar-btn" data-action="heading" title="제목">
+          H
+        </button>
+        <button class="toolbar-btn" data-action="link" title="링크">
+          🔗
+        </button>
+        <button class="toolbar-btn" data-action="code" title="코드 블록">
+          &lt;/&gt;
+        </button>
+        <button class="toolbar-btn" data-action="quote" title="인용">
+          "
+        </button>
+        <button class="toolbar-btn" data-action="list" title="목록">
+          • 목록
+        </button>
+        <button class="toolbar-btn" data-action="image" title="이미지">
+          🖼️
+        </button>
+      </div>
+      
+      <textarea 
+        id="post-content" 
+        class="editor-textarea" 
+        placeholder="마크다운으로 포스트를 작성하세요..."
+        spellcheck="false"
+      ></textarea>
+      
+      <div id="preview-panel" class="preview-panel" style="display: none;">
+        <div class="preview-content" id="preview-content"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="editor-status" class="editor-status"></div>
+</div>
+
+<div id="editor-login-required" class="editor-login-required">
+  <div class="login-required-box">
+    <h2>로그인이 필요합니다</h2>
+    <p>에디터를 사용하려면 먼저 로그인하세요.</p>
+    <a href="{{ '/admin/' | relative_url }}" class="btn btn-primary">로그인 페이지로 이동</a>
+  </div>
+</div>
+
+<!-- Marked.js for Markdown parsing -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  // Jekyll 설정을 JavaScript에 주입
+  window.ADMIN_CONFIG_OVERRIDE = {
+    adminPassword: {% if site.admin.admin_password %}"{{ site.admin.admin_password }}"{% else %}null{% endif %}
+  };
+</script>
+<script src="{{ '/assets/js/admin.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/editor.js' | relative_url }}"></script>
+

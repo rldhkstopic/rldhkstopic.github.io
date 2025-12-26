@@ -50,3 +50,12 @@ exclude:
   - scripts/
   - CHANGELOG.md
 
+# Admin settings
+admin:
+  enabled: true
+  # admin_password: "선택사항: 비밀번호 해시 (SHA-256)"
+  # GitHub OAuth App 설정 (선택사항)
+  github_oauth:
+    client_id: ""  # GitHub OAuth App Client ID
+    # client_secret은 서버 사이드에서만 사용하므로 여기에 저장하지 않음
+
