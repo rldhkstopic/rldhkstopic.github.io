@@ -125,6 +125,77 @@
   margin-top: 0.5rem;
 }
 
+.oauth-setup-guide {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.oauth-setup-guide h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.oauth-setup-guide ol {
+  margin-left: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  line-height: 1.8;
+}
+
+.oauth-setup-guide ol li {
+  margin-bottom: 0.75rem;
+}
+
+.oauth-setup-guide ul {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.oauth-setup-guide code {
+  background: var(--bg-secondary);
+  padding: 0.125rem 0.25rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.oauth-setup-guide pre {
+  background: var(--bg-secondary);
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  overflow-x: auto;
+}
+
+.oauth-setup-guide pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.oauth-fallback {
+  padding: 1rem;
+}
+
+.oauth-fallback h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+}
+
+.oauth-fallback ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.oauth-fallback ol li {
+  margin-bottom: 0.75rem;
+}
+
+.token-input-fallback {
+  margin-top: 1rem;
+}
+
 .oauth-divider {
   text-align: center;
   margin: 1.5rem 0;

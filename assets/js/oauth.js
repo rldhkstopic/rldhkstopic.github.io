@@ -76,55 +76,120 @@ function handleOAuthCallback() {
 }
 
 // code를 access token으로 교환
-// 주의: 이 함수는 서버 사이드에서 실행되어야 합니다.
-// GitHub Pages는 정적 사이트이므로, Netlify Functions나 Vercel Functions 같은 서버리스 함수가 필요합니다.
+// 참고: https://dev-watnu.tistory.com/58
 async function exchangeCodeForToken(code) {
-  // 서버리스 함수 엔드포인트 (예: Netlify Functions)
-  // 실제 구현 시 이 URL을 서버리스 함수 엔드포인트로 변경해야 합니다.
-  const exchangeUrl = '/.netlify/functions/github-oauth'; // 예시
+  // 서버리스 함수 엔드포인트 목록 (여러 플랫폼 지원)
+  const serverlessEndpoints = [
+    '/.netlify/functions/github-oauth',  // Netlify Functions
+    '/api/github-oauth',                  // Vercel Functions
+    '/api/oauth/github',                  // 일반적인 API 경로
+    'https://api.rldhkstopic.github.io/github-oauth' // 외부 API (예시)
+  ];
 
-  try {
-    const response = await fetch(exchangeUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ code })
-    });
+  // 각 엔드포인트를 순차적으로 시도
+  for (const endpoint of serverlessEndpoints) {
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({ code }),
+        mode: 'cors',
+        credentials: 'omit'
+      });
 
-    if (!response.ok) {
-      throw new Error('Token exchange failed');
-    }
-
-    const data = await response.json();
-    
-    if (data.access_token) {
-      // 토큰 저장 및 인증 완료
-      if (window.authManager) {
-        window.authManager.saveToken(data.access_token, true);
-        window.authManager.setAuthenticated(true, true);
-        window.location.href = '/editor/';
+      if (response.ok) {
+        const data = await response.json();
+        
+        if (data.access_token) {
+          // 토큰 저장 및 인증 완료
+          if (window.authManager) {
+            window.authManager.saveToken(data.access_token, true);
+            window.authManager.setAuthenticated(true, true);
+            window.location.href = '/editor/';
+            return; // 성공 시 종료
+          }
+        }
       }
+    } catch (error) {
+      console.log(`Endpoint ${endpoint} failed, trying next...`, error);
+      continue; // 다음 엔드포인트 시도
+    }
+  }
+
+  // 모든 서버리스 함수가 실패한 경우, 대체 방법 안내
+  showTokenExchangeFallback();
+}
+
+// 서버리스 함수가 없을 때 대체 방법 안내
+function showTokenExchangeFallback() {
+  const errorDiv = document.getElementById('login-error');
+  if (errorDiv) {
+    errorDiv.innerHTML = `
+      <div class="oauth-fallback">
+        <h3 style="margin-bottom: 1rem; color: var(--text-primary);">OAuth 인증 완료</h3>
+        <p style="margin-bottom: 1rem; color: var(--text-secondary);">
+          GitHub에서 인증은 완료되었지만, code를 access token으로 교환하려면 서버가 필요합니다.
+        </p>
+        <p style="margin-bottom: 1rem; color: var(--text-secondary);"><strong>다음 중 하나를 선택하세요:</strong></p>
+        <ol style="margin-left: 1.5rem; margin-bottom: 1rem; color: var(--text-secondary); line-height: 1.8;">
+          <li style="margin-bottom: 0.5rem;">
+            <strong>서버리스 함수 설정 (권장):</strong><br>
+            Netlify Functions나 Vercel Functions를 설정하여 자동으로 토큰을 받을 수 있습니다.<br>
+            <a href="/docs/GITHUB_OAUTH_GUIDE.md" target="_blank" style="color: var(--accent-color);">설정 가이드 보기</a>
+          </li>
+          <li>
+            <strong>Personal Access Token 사용:</strong><br>
+            <a href="https://github.com/settings/tokens/new" target="_blank" style="color: var(--accent-color);">GitHub에서 Personal Access Token 생성</a> 후 아래에 입력하세요.
+          </li>
+        </ol>
+        <div class="token-input-fallback" style="margin-top: 1rem;">
+          <input 
+            type="password" 
+            id="fallback-token-input" 
+            class="form-input" 
+            placeholder="Personal Access Token 입력 (ghp_...)"
+            style="margin-bottom: 0.5rem;"
+          />
+          <button 
+            type="button" 
+            class="btn btn-primary btn-block" 
+            onclick="window.useFallbackToken && window.useFallbackToken()"
+          >
+            토큰으로 로그인
+          </button>
+        </div>
+      </div>
+    `;
+    errorDiv.style.display = 'block';
+  }
+  
+  // URL 정리 (code 파라미터 제거)
+  window.history.replaceState({}, document.title, '/admin/');
+}
+
+// 대체 토큰 사용 함수
+async function useFallbackToken() {
+  const tokenInput = document.getElementById('fallback-token-input');
+  if (!tokenInput) return;
+  
+  const token = tokenInput.value.trim();
+  if (!token) {
+    alert('토큰을 입력하세요.');
+    return;
+  }
+
+  if (window.authManager) {
+    const validation = await window.authManager.validateToken(token);
+    if (validation.valid) {
+      window.authManager.saveToken(token, true);
+      window.authManager.setAuthenticated(true, true);
+      window.location.href = '/editor/';
     } else {
-      throw new Error('No access token in response');
+      alert(`토큰 검증 실패: ${validation.error}`);
     }
-  } catch (error) {
-    console.error('Token exchange error:', error);
-    
-    // 서버리스 함수가 없는 경우, 사용자에게 Personal Access Token 생성 안내
-    const errorDiv = document.getElementById('login-error');
-    if (errorDiv) {
-      errorDiv.innerHTML = `
-        <strong>OAuth 토큰 교환 실패</strong><br>
-        서버리스 함수가 설정되지 않았습니다.<br>
-        <a href="https://github.com/settings/tokens/new" target="_blank">GitHub에서 Personal Access Token을 생성</a>하여 직접 입력하거나,<br>
-        Netlify Functions나 Vercel Functions를 설정하여 OAuth를 완전히 자동화할 수 있습니다.
-      `;
-      errorDiv.style.display = 'block';
-    }
-    
-    // URL 정리
-    window.history.replaceState({}, document.title, '/admin/');
   }
 }
 
@@ -168,4 +233,5 @@ document.addEventListener('DOMContentLoaded', () => {
 // 전역으로 export
 window.startGitHubOAuth = startGitHubOAuth;
 window.handleOAuthCallback = handleOAuthCallback;
+window.useFallbackToken = useFallbackToken;
 

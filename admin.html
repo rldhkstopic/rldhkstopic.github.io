@@ -93,6 +93,33 @@ permalink: /admin/
     </div>
     
     <div id="login-error" class="error-message" style="display: none;"></div>
+    
+    <!-- OAuth 설정 가이드 (OAuth App이 없을 때만 표시) -->
+    {% if site.admin.github_oauth.client_id == "" %}
+    <div class="oauth-setup-guide">
+      <h3>GitHub OAuth App 설정하기</h3>
+      <ol>
+        <li><a href="https://github.com/settings/developers" target="_blank">GitHub Settings → Developer settings → OAuth Apps</a>로 이동</li>
+        <li>"New OAuth App" 클릭</li>
+        <li>설정 입력:
+          <ul>
+            <li><strong>Application name:</strong> "Blog Admin Editor"</li>
+            <li><strong>Homepage URL:</strong> <code>{{ site.url }}</code></li>
+            <li><strong>Authorization callback URL:</strong> <code>{{ site.url }}/admin/</code></li>
+          </ul>
+        </li>
+        <li>"Register application" 클릭</li>
+        <li>생성된 <strong>Client ID</strong>를 복사하여 <code>_config.yml</code>에 추가:
+          <pre><code>admin:
+  github_oauth:
+    client_id: "your_client_id_here"</code></pre>
+        </li>
+      </ol>
+      <div class="security-warning">
+        <strong>참고:</strong> 완전한 자동 로그인을 위해서는 서버리스 함수(Netlify Functions, Vercel Functions)가 필요합니다. 자세한 내용은 <a href="/docs/GITHUB_OAUTH_GUIDE.md" target="_blank">가이드</a>를 참고하세요.
+      </div>
+    </div>
+    {% endif %}
   </div>
 </div>
 
