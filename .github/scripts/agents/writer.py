@@ -88,6 +88,48 @@ class WriterAgent:
             print(f"  [ERROR] 작성 오류: {str(e)}")
             return ""
     
+    def _post_process(self, content: str) -> str:
+        """생성된 콘텐츠 후처리"""
+        import re
+        
+        # 이모지 제거
+        emoji_pattern = re.compile(
+            "["
+            "\U0001F600-\U0001F64F"  # emoticons
+            "\U0001F300-\U0001F5FF"  # symbols & pictographs
+            "\U0001F680-\U0001F6FF"  # transport & map
+            "\U0001F1E0-\U0001F1FF"  # flags
+            "\U00002702-\U000027B0"
+            "\U000024C2-\U0001F251"
+            "]+",
+            flags=re.UNICODE
+        )
+        content = emoji_pattern.sub('', content)
+        
+        # 문장 끝을 "~다."로 통일 (간단한 후처리)
+        lines = content.split('\n')
+        processed_lines = []
+        for line in lines:
+            line = line.strip()
+            if not line:
+                processed_lines.append('')
+                continue
+            
+            # 이미 "~다."로 끝나면 그대로
+            if line.endswith('다.'):
+                processed_lines.append(line)
+            # 다른 종결어미가 있으면 "~다."로 변경 (간단한 경우만)
+            elif line.endswith('요.') or line.endswith('어요.'):
+                line = line[:-3] + '다.'
+                processed_lines.append(line)
+            elif line.endswith('습니다.'):
+                line = line[:-5] + '다.'
+                processed_lines.append(line)
+            else:
+                processed_lines.append(line)
+        
+        return '\n'.join(processed_lines)
+    
     def _get_system_prompt(self) -> str:
         """시스템 프롬프트 생성"""
         return """당신은 현업 수석 엔지니어이자, 팩트와 논리를 중시하는 테크니컬 라이터입니다.
@@ -135,5 +177,6 @@ class WriterAgent:
 **출력 형식:**
 - Front Matter 없이 본문만 작성
 - Markdown 형식으로 작성
-- 최소 1200자 이상 작성"""
+- 최소 1200자 이상 작성
+- 모든 문장은 반드시 "~다."로 끝나야 함"""
 
