@@ -1234,6 +1234,16 @@
         right: 0;
         z-index: 10000;
         min-width: 280px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+        pointer-events: none;
+      }
+      
+      .login-popup.show {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
       }
       
       .login-popup-content {
@@ -1243,13 +1253,13 @@
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         padding: 1rem;
-        position: relative;
       }
       
+      /* 화살표 (위쪽, 버튼 방향) */
       .login-popup-content::before {
         content: '';
         position: absolute;
-        top: -8px;
+        bottom: 100%;
         right: 20px;
         width: 0;
         height: 0;
@@ -1261,7 +1271,7 @@
       .login-popup-content::after {
         content: '';
         position: absolute;
-        top: -9px;
+        bottom: calc(100% - 1px);
         right: 20px;
         width: 0;
         height: 0;
@@ -1364,7 +1374,7 @@
       document.addEventListener('click', function(e) {
         const loginPopup = document.getElementById('github-login-popup');
         const loginBtn = document.getElementById('login-btn');
-        if (loginPopup && loginPopup.style.display !== 'none') {
+        if (loginPopup && loginPopup.classList.contains('show')) {
           if (!loginPopup.contains(e.target) && !loginBtn.contains(e.target)) {
             closeLoginPopup();
           }
