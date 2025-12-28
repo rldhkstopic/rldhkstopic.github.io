@@ -17,7 +17,18 @@ class ContentGeneratorAgent:
     
     def __init__(self, api_key: str):
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel('gemini-1.5-flash')  # 또는 'gemini-1.5-pro'
+        # gemini-pro 모델 사용 (가장 안정적이고 널리 지원됨)
+        try:
+            self.model = genai.GenerativeModel('gemini-pro')
+            print("✅ 모델 'gemini-pro' 초기화 완료")
+        except Exception as e:
+            print(f"⚠️  모델 초기화 오류: {str(e)}")
+            # 대체 모델 시도
+            try:
+                self.model = genai.GenerativeModel('models/gemini-pro')
+                print("✅ 모델 'models/gemini-pro' 초기화 완료")
+            except Exception as e2:
+                raise Exception(f"모델 초기화 실패: {str(e2)}")
     
     def generate_content(self, topic: Dict) -> Optional[Dict]:
         """
