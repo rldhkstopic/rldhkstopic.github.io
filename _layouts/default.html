@@ -61,9 +61,9 @@
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
           <div class="trigger">
-            <!-- 로그인 버튼 (항상 표시) -->
+            <!-- 로그인 버튼 (로그인되지 않은 경우에만 표시) -->
             <button type="button" class="login-btn" id="login-btn" title="로그인" aria-label="로그인">
-              <svg class="github-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <svg class="github-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
               </svg>
               <span class="login-btn-text">로그인</span>
@@ -1334,32 +1334,105 @@
     </style>
     
     <script>
-      // 글쓰기 버튼 클릭 핸들러
+      // 로그인 버튼 및 글쓰기 버튼 관리
       document.addEventListener('DOMContentLoaded', () => {
+        const loginBtn = document.getElementById('login-btn');
         const writeBtn = document.getElementById('write-btn');
         const loginModal = document.getElementById('github-login-modal');
         const closeModalBtn = document.getElementById('close-login-modal');
         const modalOAuthBtn = document.getElementById('modal-github-oauth-btn');
         const modalOverlay = loginModal?.querySelector('.github-login-modal-overlay');
         
+        // 인증 상태에 따라 버튼 표시/숨김 업데이트
+        function updateAuthButtons() {
+          // authManager가 로드될 때까지 대기
+          if (!window.authManager) {
+            setTimeout(updateAuthButtons, 100);
+            return;
+          }
+          
+          const isAuthenticated = window.authManager.isAuthenticated();
+          
+          // 로그인 버튼: 로그인되지 않은 경우에만 표시
+          if (loginBtn) {
+            if (isAuthenticated) {
+              loginBtn.style.display = 'none';
+            } else {
+              loginBtn.style.display = 'inline-flex';
+              const loginText = loginBtn.querySelector('.login-btn-text');
+              if (loginText) loginText.textContent = '로그인';
+            }
+          }
+          
+          // 글쓰기 버튼: 로그인된 경우에만 표시
+          if (writeBtn) {
+            if (isAuthenticated) {
+              writeBtn.style.display = 'inline-flex';
+            } else {
+              writeBtn.style.display = 'none';
+            }
+          }
+        }
+        
+        // 초기 상태 업데이트 (authManager 로드 대기)
+        if (window.authManager) {
+          updateAuthButtons();
+        } else {
+          // authManager 로드 대기
+          const checkAuthManager = setInterval(() => {
+            if (window.authManager) {
+              clearInterval(checkAuthManager);
+              updateAuthButtons();
+            }
+          }, 100);
+          
+          // 최대 3초 대기
+          setTimeout(() => {
+            clearInterval(checkAuthManager);
+            updateAuthButtons();
+          }, 3000);
+        }
+        
+        // 로그인 버튼 클릭 핸들러
+        if (loginBtn) {
+          loginBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // 이미 로그인된 경우 로그아웃
+            if (window.authManager && window.authManager.isAuthenticated()) {
+              if (confirm('로그아웃하시겠습니까?')) {
+                window.authManager.clearToken();
+                updateAuthButtons();
+                window.location.reload();
+              }
+              return;
+            }
+            
+            // 로그인되지 않은 경우 모달 표시
+            if (loginModal) {
+              loginModal.style.display = 'flex';
+              document.body.style.overflow = 'hidden';
+            } else {
+              window.location.href = '/admin/';
+            }
+          });
+        }
+        
+        // 글쓰기 버튼 클릭 핸들러 (로그인된 경우에만 표시되므로 바로 이동)
         if (writeBtn) {
           writeBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            
-            // 인증 상태 확인
-            if (window.authManager && window.authManager.isAuthenticated()) {
-              // 이미 로그인된 경우 에디터로 이동
-              window.location.href = '/editor/';
-            } else {
-              // 로그인되지 않은 경우 모달 표시
+            // 로그인 상태 재확인
+            if (!window.authManager || !window.authManager.isAuthenticated()) {
+              e.preventDefault();
               if (loginModal) {
                 loginModal.style.display = 'flex';
-                document.body.style.overflow = 'hidden'; // 스크롤 방지
+                document.body.style.overflow = 'hidden';
               } else {
-                // 모달이 없으면 admin 페이지로 이동
                 window.location.href = '/admin/';
               }
             }
+            // 로그인된 경우는 기본 링크 동작 (/editor/로 이동)
           });
         }
         
@@ -1404,17 +1477,86 @@
         }
       });
       
+        // 모달 내 토큰 입력 폼 토글
+        const showModalTokenForm = document.getElementById('show-modal-token-form');
+        const modalTokenForm = document.getElementById('modal-token-form');
+        if (showModalTokenForm && modalTokenForm) {
+          showModalTokenForm.addEventListener('click', () => {
+            const isVisible = modalTokenForm.style.display !== 'none';
+            modalTokenForm.style.display = isVisible ? 'none' : 'block';
+            showModalTokenForm.textContent = isVisible 
+              ? '또는 Personal Access Token으로 로그인' 
+              : '숨기기';
+          });
+        }
+        
+        // 모달 내 토큰 제출
+        const modalTokenSubmit = document.getElementById('modal-token-submit');
+        const modalTokenInput = document.getElementById('modal-github-token');
+        const modalRememberToken = document.getElementById('modal-remember-token');
+        if (modalTokenSubmit && modalTokenInput) {
+          modalTokenSubmit.addEventListener('click', async () => {
+            const token = modalTokenInput.value.trim();
+            if (!token) {
+              alert('토큰을 입력하세요.');
+              return;
+            }
+            
+            if (window.authManager) {
+              const validation = await window.authManager.validateToken(token);
+              if (validation.valid) {
+                const remember = modalRememberToken ? modalRememberToken.checked : true;
+                window.authManager.saveToken(token, remember);
+                window.authManager.setAuthenticated(true, remember);
+                
+                // 버튼 상태 업데이트
+                updateAuthButtons();
+                
+                // 모달 닫기
+                closeModal();
+                
+                // 에디터로 이동
+                window.location.href = '/editor/';
+              } else {
+                const errorDiv = document.getElementById('modal-login-error');
+                if (errorDiv) {
+                  errorDiv.textContent = `토큰 검증 실패: ${validation.error}`;
+                  errorDiv.style.display = 'block';
+                }
+              }
+            }
+          });
+        }
+      });
+      
       // 인증 상태 변경 감지 (다른 탭에서 로그인/로그아웃 시)
       window.addEventListener('storage', (e) => {
         if (e.key === 'admin_github_token' || e.key === 'admin_authenticated') {
-          if (typeof updateAuthButtons === 'function') {
-            updateAuthButtons();
+          if (typeof window.updateAuthButtons === 'function') {
+            window.updateAuthButtons();
           }
         }
       });
       
-      // 전역으로 export
-      window.updateAuthButtons = updateAuthButtons;
+      // 전역으로 export (함수 스코프 밖에서)
+      // updateAuthButtons는 DOMContentLoaded 내부에 정의되어 있으므로
+      // 전역 함수로 별도 정의 필요
+      window.updateAuthButtons = function() {
+        const loginBtn = document.getElementById('login-btn');
+        const writeBtn = document.getElementById('write-btn');
+        
+        if (!window.authManager) return;
+        
+        const isAuthenticated = window.authManager.isAuthenticated();
+        
+        if (loginBtn) {
+          loginBtn.style.display = isAuthenticated ? 'none' : 'inline-flex';
+        }
+        
+        if (writeBtn) {
+          writeBtn.style.display = isAuthenticated ? 'inline-flex' : 'none';
+        }
+      };
     </script>
   </body>
 </html>
