@@ -1112,12 +1112,8 @@
     <!-- Vercel Speed Insights -->
     <script>
       if (typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-        (function() {
-          var script = document.createElement('script');
-          script.src = 'https://speedinsights.vercel.app/insights.js';
-          script.defer = true;
-          document.head.appendChild(script);
-        })();
+        // Speed Insights는 Vercel 대시보드에서 활성화하면 자동으로 주입됩니다
+        // 수동으로 추가하려면 @vercel/speed-insights 패키지를 사용하세요
       }
     </script>
     
@@ -1521,7 +1517,10 @@
                 updateAuthButtons();
                 
                 // 모달 닫기
-                closeModal();
+                if (loginModal) {
+                  loginModal.style.display = 'none';
+                  document.body.style.overflow = '';
+                }
                 
                 // 에디터로 이동
                 window.location.href = '/editor/';
