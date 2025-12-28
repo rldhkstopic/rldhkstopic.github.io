@@ -4,8 +4,12 @@ Google Gemini API를 사용하여 블로그 포스트 콘텐츠를 생성한다.
 """
 
 import os
+import warnings
 from typing import Dict, Optional
 import google.generativeai as genai
+
+# deprecated 경고 무시 (패키지는 여전히 작동함)
+warnings.filterwarnings('ignore', category=FutureWarning, module='google.generativeai')
 
 
 class ContentGeneratorAgent:

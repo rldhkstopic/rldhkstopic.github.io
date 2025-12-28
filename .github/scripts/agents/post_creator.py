@@ -91,12 +91,17 @@ class PostCreatorAgent:
         date_str = content.get('date', datetime.now().strftime('%Y-%m-%d'))
         time_str = datetime.now().strftime('%H:%M:%S')
         
+        # f-string 안에서 백슬래시를 사용할 수 없으므로 미리 처리
+        title = content.get('title', '').replace('"', '\\"')
+        author = content.get('author', 'rldhkstopic')
+        category = content.get('category', 'document')
+        
         front_matter = f"""---
 layout: post
-title: "{content.get('title', '').replace('"', '\\"')}"
+title: "{title}"
 date: {date_str} {time_str} +0900
-author: {content.get('author', 'rldhkstopic')}
-category: {content.get('category', 'document')}"""
+author: {author}
+category: {category}"""
         
         # 태그 추가
         tags = content.get('tags', [])
