@@ -494,6 +494,40 @@ body.home-page .site-header {
   flex-wrap: wrap;
 }
 
+/* 프로필 섹션 글쓰기 버튼 */
+.profile-write-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  background: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-write-btn:hover {
+  background: var(--accent-color-hover, var(--accent-color));
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-write-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-write-btn i {
+  font-size: 1rem;
+}
+
 .profile-name {
   font-size: 1.125rem;
   font-weight: 600;

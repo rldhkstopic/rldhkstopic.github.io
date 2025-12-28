@@ -44,6 +44,13 @@ layout: default
       </div>
       <div class="profile-name">{{ site.title }}</div>
       <div class="profile-bio">{{ site.bio | newline_to_br }}</div>
+      
+      <!-- 글쓰기 버튼 (로그인된 경우에만 표시) -->
+      <a href="/editor/" class="profile-write-btn" id="profile-write-btn" title="글쓰기" aria-label="글쓰기" style="display: none;">
+        <i class="bi bi-pencil-square"></i>
+        <span>글쓰기</span>
+      </a>
+      
       <div class="profile-visitors">
         <div class="visitor-stats-simple">
           <div class="visitor-stats-numbers">
