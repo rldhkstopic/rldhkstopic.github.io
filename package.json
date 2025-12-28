@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "Personal blog with GA4 integration",
   "scripts": {
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@google-analytics/data": "^3.0.0"
+    "@google-analytics/data": "^5.2.1",
+    "@vercel/analytics": "^1.6.1",
+    "@vercel/speed-insights": "^1.3.1"
   }
 }
-
-
-
-
-
-

@@ -1,74 +1,128 @@
-# Role
-당신은 현업 수석 엔지니어이자, 팩트와 논리를 중시하는 테크니컬 라이터입니다.
-주어지는 **[입력 데이터(Chat Log/Source)]**를 바탕으로, 웹페이지에 게시할 고품질의 기술 블로그 포스트를 Markdown 형식으로 작성하십시오.
+# Cursor Rules for rldhkstopic Blog Project
 
-# User Style & Tone (엄격 준수)
-1. **어조**: "~다."로 끝나는 건조하고 분석적인 문체. (감정 배제, 이모지 금지)
-2. **화자 태도**: "AI가 말했다"가 아니라, **"데이터를 분석해 본 결과 ~임이 확인되었다"**와 같이 내가 주도적으로 연구한 시점 유지.
-3. **흐름**: [현상/문제 인식] -> [데이터/근거 분석] -> [전문가 의견 대조] -> [인사이트 도출]
+This file contains rules and guidelines for AI agents working on this Jekyll-based blog project.
 
-# 🌟 Advanced Citation & Quote Rules (개발 연동 가이드)
+## Project Overview
 
-## 1. Reference Linking System (참조 표기)
-- 본문 내에서 외부 자료나 데이터의 출처를 언급할 때는 반드시 **대괄호 숫자 인덱스 `[^n]`**를 사용한다.
-- 글의 맨 마지막에 `## References` 섹션을 만들고, 모든 링크를 모아서 정리한다.
-- **개발 연동 요건**: 웹페이지 렌더링 시 툴팁이나 하단 링크로 변환하기 쉽도록 표준 마크다운 각주(Footnote) 형식을 따른다.
-- *형식*: `[^1]: [문서 제목/웹사이트명](URL) - 간단한 설명`
+This is a Jekyll-based static blog site deployed on GitHub Pages and Vercel. The blog publishes technical articles and analysis posts written in Markdown.
 
-## 2. Expert Quote Extraction (전문가 의견 추출)
-- 입력 데이터(채팅 로그나 링크 내용)에 **전문가, 기관, 리포트의 구체적인 발언**이 포함되어 있다면, 요약하지 말고 **"직접 인용(Direct Quote)"** 한다.
-- 인용문은 반드시 **Markdown Blockquote (`>`)** 구문을 사용하여 시각적으로 분리한다.
-- 인용문 아래에는 반드시 발언의 주체(사람/기관)를 명시한다.
+**Tech Stack:**
+- Jekyll (static site generator)
+- GitHub Pages & Vercel (hosting)
+- Liquid templating engine
+- Custom HTML/CSS layouts
+- GitHub OAuth for admin authentication
 
-*(작성 예시)*
-> "현재 시장의 연체율 11.2%는 단순한 오류가 아니라 시스템의 붕괴를 의미할 수 있다."
-> — *M.V. Cunha (Financial Analyst)*
+## Commit Message Rules
 
-## 3. Structural Formatting for Web (웹 가독성 최적화)
-- **소제목**: `###` (H3)를 사용하여 섹션을 명확히 구분한다.
-- **코드 블록**: 코드가 있다면 언어를 명시한다 (예: ```python).
-- **강조**: 핵심 키워드나 수치는 볼드체(`**...**`)로 감싼다.
+**ALWAYS use English for commit messages.**
 
-# Structural Pattern (글의 구조)
+Format: `Verb in imperative mood: brief description`
 
-## 도입부 (Intro)
-- 거창한 정의(Definition)로 시작하지 마라.
-- **패턴**: [상황/동기] -> [액션] -> [환경/제약사항]
-- *예시*: "연구실 과제로 TurtleBot3를 쓰는데 파이썬이 필요해서 rospy를 찾아보게 되었다. 나중을 위해 정리해둔다. 실습 환경은 Desktop이다."
+Examples:
+- `Add GitHub OAuth login modal to write button`
+- `Update Vercel deployment documentation`
+- `Fix security vulnerabilities in npm packages`
+- `Configure Vercel Analytics and Speed Insights`
 
-## 본문 (Body)
-- 소제목은 간결하게(명사형) 작성한다.
-- 1, 2, 3 번호 매기기 리스트보다는 **줄글(Paragraph)**을 우선한다.
-- **섹션 간 연결**: 각 섹션이 끝나기 전에 다음 섹션으로 자연스럽게 이어지는 전환 문장을 추가한다. 갑자기 새로운 주제를 시작하지 말고, 왜 이 섹션을 설명하는지, 이전 섹션과 어떤 관련이 있는지 명시한다.
-    - *예시*: "이런 연준의 정책 변화가 시장에 미치는 실제 영향을 이해하려면, 현재 시장이 어떻게 작동하고 있는지부터 봐야 한다. 시장의 레버리지 구조를 살펴보면 연준 정책의 의미가 더 명확해진다."
+## Code Style
 
-## 결말 (Outro)
-- "결론" 섹션을 따로 만들지 마라.
-- 작업이 끝난 상태나, 다음 단계에 대한 짧은 메모로 툭 던지듯 마무리한다.
+### File Structure
+- Posts: `_posts/YYYY-MM-DD-title.md`
+- Layouts: `_layouts/`
+- Assets: `assets/css/`, `assets/js/`
+- API functions: `api/` (Vercel serverless functions)
+- Documentation: `docs/`
 
-# Code Explanation Style (코드 설명 방식)
-코드가 포함될 경우, 반드시 아래 **[분할 설명 방식]**을 따른다.
-1. 먼저 전체 코드 블록을 보여준다.
-2. 그 아래에 **설명이 필요한 주요 라인만 따로 떼어내어** 다시 적고, 그 밑에 줄글로 설명을 덧붙인다.
-3. 코드 내 주석(#)보다는 본문 텍스트 설명을 선호한다.
+### Code Comments
+- Use clear, concise comments in English
+- Explain "why" not just "what"
+- Keep comments up-to-date with code changes
 
-*(작성 예시)*
-```python
-rospy.init_node('listener', anonymous=True)
+## Writing Style Guide (for blog posts)
+
+When creating or editing blog posts, follow the writing style guide in `docs/WRITING_STYLE_GUIDE.md`.
+
+### Key Rules:
+1. **Tone**: Dry, analytical style ending with "~다." (no emotions, no emojis)
+2. **Structure**: [Situation/Motivation] -> [Action] -> [Environment/Constraints]
+3. **Citations**: Use footnote format `[^n]` with `## References` section at the end
+4. **Expert Quotes**: Use blockquote format with attribution
+5. **Code Explanation**: Show full code first, then extract and explain key lines separately
+
+## Development Workflow
+
+### Local Development
+```bash
+bundle install
+bundle exec jekyll serve
 ```
-'listener'라는 노드를 초기화 생성한다. anonymous=True로 설정하면 노드 이름 뒤에 임의 숫자가 붙어 중복을 방지한다.
+- Local server runs on `http://localhost:4000`
+- Changes are reflected immediately (except `_config.yml` requires restart)
 
-# Formatting (서식)
-- **볼드체(\*\*)**: 핵심 키워드나 수치에만 제한적으로 사용한다.
-- **명령어**: 터미널 명령어는 $ 표시와 함께 코드 블록으로 감싼다.
+### Deployment
+- **GitHub Pages**: Automatic on push to `main` branch
+- **Vercel**: Automatic on push to `main` branch (connected via GitHub)
+- Local server changes do NOT automatically deploy to Vercel
+- Must push to GitHub for Vercel deployment
 
-# Input Data Processing
-- 입력된 대화 로그나 텍스트에서 **잡담, 인삿말, 불필요한 추임새는 모두 제거**한다.
-- 오직 **기술적 사실, 분석 데이터, 전문가 견해**만 추출하여 재구성한다.
+### Testing Before Commit
+1. Run `bundle exec jekyll build` to check for build errors
+2. Test locally with `bundle exec jekyll serve`
+3. Verify changes in browser
+4. Check for linting errors
 
-# 금지어
-- "안녕하세요", "반갑습니다", "오늘은 ~를 알아보겠습니다" (인사 생략)
-- "결론적으로", "요약하자면", "마지막으로" (접속사 생략)
-- "매우", "획기적인", "놀라운" (감정적 형용사 생략)
-- 이모지 사용 금지 (😊, 🚀 등 절대 금지)
+## Important Files
 
+- `_config.yml`: Jekyll configuration (requires server restart if modified)
+- `vercel.json`: Vercel deployment configuration
+- `package.json`: Node.js dependencies
+- `Gemfile`: Ruby dependencies
+- `.cursorrules`: This file (AI agent guidelines)
+
+## Security Guidelines
+
+1. **Never commit secrets**: Client secrets, API keys, tokens
+2. **Environment variables**: Use Vercel/GitHub Secrets for sensitive data
+3. **OAuth credentials**: Client ID can be in `_config.yml`, but Client Secret must be in environment variables only
+
+## Common Tasks
+
+### Adding a New Post
+1. Create file in `_posts/` with format `YYYY-MM-DD-title.md`
+2. Include required front matter (layout, title, date, author, category, tags)
+3. Follow writing style guide
+4. Update `POSTS_OVERVIEW.md` if needed
+
+### Modifying Layouts
+- `_layouts/default.html`: Main site layout
+- `_layouts/post.html`: Post page layout
+- Test changes across different page types
+
+### Adding Features
+- Check existing documentation in `docs/`
+- Follow project structure conventions
+- Update relevant documentation
+- Test locally before committing
+
+## Vercel-Specific
+
+- Serverless functions go in `api/` directory
+- Environment variables set in Vercel dashboard
+- Analytics and Speed Insights configured in Vercel dashboard
+- Custom headers defined in `vercel.json`
+
+## Git Workflow
+
+1. Always check status: `git status`
+2. Add changes: `git add .` or specific files
+3. Commit with English message: `git commit -m "Verb: description"`
+4. Pull before push: `git pull --rebase origin main`
+5. Push: `git push origin main`
+
+## Notes
+
+- This project uses both GitHub Pages and Vercel simultaneously
+- OAuth callback URLs must match exactly in GitHub OAuth App settings
+- Sensitive environment variables cannot be set for Development environment in Vercel
+- Always use English for commit messages, code comments, and technical documentation
