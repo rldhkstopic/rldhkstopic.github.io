@@ -1171,7 +1171,7 @@
         <div class="github-login-modal-body">
           {% if site.admin.github_oauth.client_id != "" %}
           <div class="oauth-login-section">
-            <button type="button" id="modal-github-oauth-btn" class="btn-github-oauth">
+            <button type="button" id="modal-github-oauth-btn" class="btn-github-oauth" onclick="handleModalGitHubOAuth(event)">
               <svg class="github-logo" width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
               </svg>
@@ -1188,39 +1188,6 @@
             </a>
           </div>
           {% endif %}
-          
-          <!-- 토큰 입력 옵션 (OAuth 실패 시 또는 직접 입력 원할 때) -->
-          <div class="token-login-section" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
-            <button type="button" id="show-modal-token-form" class="link-btn" style="width: 100%; text-align: center; margin-bottom: 1rem;">
-              또는 Personal Access Token으로 로그인
-            </button>
-            <form id="modal-token-form" class="admin-login-form" style="display: none;">
-              <div class="form-group">
-                <label for="modal-github-token">GitHub Personal Access Token</label>
-                <input 
-                  type="password" 
-                  id="modal-github-token" 
-                  class="form-input"
-                  placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
-                  autocomplete="off"
-                />
-                <small class="form-help">
-                  <a href="https://github.com/settings/tokens/new" target="_blank">GitHub에서 토큰 생성</a>
-                  <br>
-                  필요한 권한: <code>repo</code> (전체 저장소 접근)
-                </small>
-              </div>
-              <div class="form-group">
-                <label class="checkbox-label">
-                  <input type="checkbox" id="modal-remember-token" checked>
-                  <span>토큰 저장 (다음에 자동 로그인)</span>
-                </label>
-              </div>
-              <button type="button" class="btn btn-primary btn-block" id="modal-token-submit">
-                토큰으로 로그인
-              </button>
-            </form>
-          </div>
           
           <div id="modal-login-error" class="error-message" style="display: none; margin-top: 1rem;"></div>
         </div>
@@ -1474,77 +1441,12 @@
           }
         });
         
-        // 모달 내 GitHub OAuth 버튼
-        if (modalOAuthBtn) {
-          modalOAuthBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            
-            // oauth.js가 로드되었는지 확인
-            if (typeof window.startGitHubOAuth === 'function') {
-              window.startGitHubOAuth();
-            } else {
-              // oauth.js가 아직 로드되지 않았거나 Client ID가 없는 경우
-              console.warn('GitHub OAuth not available, redirecting to admin page');
-              window.location.href = '/admin/';
-            }
-          });
-        }
+        // 모달 내 GitHub OAuth 버튼은 인라인 onclick으로 처리하므로 여기서는 제거
+        console.log('Modal OAuth button found:', modalOAuthBtn);
       });
       
-        // 모달 내 토큰 입력 폼 토글
-        const showModalTokenForm = document.getElementById('show-modal-token-form');
-        const modalTokenForm = document.getElementById('modal-token-form');
-        if (showModalTokenForm && modalTokenForm) {
-          showModalTokenForm.addEventListener('click', () => {
-            const isVisible = modalTokenForm.style.display !== 'none';
-            modalTokenForm.style.display = isVisible ? 'none' : 'block';
-            showModalTokenForm.textContent = isVisible 
-              ? '또는 Personal Access Token으로 로그인' 
-              : '숨기기';
-          });
-        }
-        
-        // 모달 내 토큰 제출
-        const modalTokenSubmit = document.getElementById('modal-token-submit');
-        const modalTokenInput = document.getElementById('modal-github-token');
-        const modalRememberToken = document.getElementById('modal-remember-token');
-        if (modalTokenSubmit && modalTokenInput) {
-          modalTokenSubmit.addEventListener('click', async () => {
-            const token = modalTokenInput.value.trim();
-            if (!token) {
-              alert('토큰을 입력하세요.');
-              return;
-            }
-            
-            if (window.authManager) {
-              const validation = await window.authManager.validateToken(token);
-              if (validation.valid) {
-                const remember = modalRememberToken ? modalRememberToken.checked : true;
-                window.authManager.saveToken(token, remember);
-                window.authManager.setAuthenticated(true, remember);
-                
-                // 버튼 상태 업데이트
-                updateAuthButtons();
-                
-                // 모달 닫기
-                if (loginModal) {
-                  loginModal.style.display = 'none';
-                  document.body.style.overflow = '';
-                }
-                
-                // 에디터로 이동
-                window.location.href = '/editor/';
-              } else {
-                const errorDiv = document.getElementById('modal-login-error');
-                if (errorDiv) {
-                  errorDiv.textContent = `토큰 검증 실패: ${validation.error}`;
-                  errorDiv.style.display = 'block';
-                }
-              }
-            }
-          });
-        }
+        // 모달 내 GitHub OAuth 버튼은 인라인 onclick으로 처리하므로 여기서는 제거
+        console.log('Modal OAuth button found:', modalOAuthBtn);
       });
       
       // 인증 상태 변경 감지 (다른 탭에서 로그인/로그아웃 시)
