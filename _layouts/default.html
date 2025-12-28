@@ -68,30 +68,49 @@
         e.stopPropagation();
         console.log('Login button clicked via inline handler');
         
-        const loginModal = document.getElementById('github-login-modal');
-        
-        // 이미 로그인된 경우 로그아웃
-        if (window.authManager && window.authManager.isAuthenticated()) {
-          if (confirm('로그아웃하시겠습니까?')) {
-            window.authManager.clearToken();
-            if (typeof window.updateAuthButtons === 'function') {
-              window.updateAuthButtons();
-            }
-            window.location.reload();
-          }
+        const loginPopup = document.getElementById('github-login-popup');
+        if (!loginPopup) {
+          console.error('Login popup not found!');
           return;
         }
         
-        // 로그인되지 않은 경우 모달 표시
-        console.log('Attempting to show login modal');
-        if (loginModal) {
-          console.log('Modal element found, displaying...');
-          loginModal.style.display = 'flex';
-          document.body.style.overflow = 'hidden';
-          console.log('Modal should be visible now');
-        } else {
-          console.error('Login modal not found! Redirecting to admin page');
-          window.location.href = '/admin/';
+        // 이미 로그인된 경우 로그아웃 팝업 표시
+        if (window.authManager && window.authManager.isAuthenticated()) {
+          const notAuthDiv = document.getElementById('login-popup-not-authenticated');
+          const authDiv = document.getElementById('login-popup-authenticated');
+          if (notAuthDiv) notAuthDiv.style.display = 'none';
+          if (authDiv) authDiv.style.display = 'block';
+          loginPopup.style.display = 'block';
+          return;
+        }
+        
+        // 로그인되지 않은 경우 로그인 팝업 표시
+        console.log('Attempting to show login popup');
+        const notAuthDiv = document.getElementById('login-popup-not-authenticated');
+        const authDiv = document.getElementById('login-popup-authenticated');
+        if (notAuthDiv) notAuthDiv.style.display = 'block';
+        if (authDiv) authDiv.style.display = 'none';
+        loginPopup.style.display = 'block';
+        console.log('Popup should be visible now');
+      }
+      
+      // 로그아웃 핸들러
+      function handleLogout() {
+        if (window.authManager) {
+          window.authManager.clearToken();
+          if (typeof window.updateAuthButtons === 'function') {
+            window.updateAuthButtons();
+          }
+          closeLoginPopup();
+          window.location.reload();
+        }
+      }
+      
+      // 팝업 닫기
+      function closeLoginPopup() {
+        const loginPopup = document.getElementById('github-login-popup');
+        if (loginPopup) {
+          loginPopup.style.display = 'none';
         }
       }
       
@@ -117,7 +136,7 @@
       <div class="wrapper">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
-          <div class="trigger">
+          <div class="trigger" style="position: relative;">
             <!-- 로그인 버튼 -->
             <button type="button" class="login-btn" id="login-btn" title="로그인" aria-label="로그인" onclick="handleLoginClick(event)">
               <svg class="github-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -125,6 +144,38 @@
               </svg>
               <span class="login-btn-text">로그인</span>
             </button>
+            <!-- 로그인 말풍선 (버튼 아래 표시) -->
+            <div id="github-login-popup" class="login-popup" style="display: none;">
+              <div class="login-popup-content">
+                <button class="login-popup-close" id="close-login-popup" aria-label="닫기" onclick="closeLoginPopup()">
+                  <i class="bi bi-x-lg"></i>
+                </button>
+                <div class="login-popup-body">
+                  <!-- 로그인되지 않은 경우 -->
+                  <div id="login-popup-not-authenticated">
+                    {% if site.admin.github_oauth.client_id != "" %}
+                    <button type="button" id="popup-github-oauth-btn" class="btn-github-oauth" onclick="handleModalGitHubOAuth(event)">
+                      <svg class="github-logo" width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                      </svg>
+                      <span>GitHub로 로그인하기</span>
+                    </button>
+                    {% else %}
+                    <p style="text-align: center; color: var(--text-secondary); margin: 0;">
+                      GitHub OAuth가 설정되지 않았습니다.
+                    </p>
+                    {% endif %}
+                  </div>
+                  
+                  <!-- 로그인된 경우 -->
+                  <div id="login-popup-authenticated" style="display: none;">
+                    <button type="button" class="btn-logout" onclick="handleLogout()">
+                      <span>로그아웃하기</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- 상단 네비게이션 텍스트 링크 제거, 사이트 타이틀만 홈으로 사용 -->
             <!-- 라이트/다크 모드 토글 (Uiverse RiccardoRapelli jolly-chicken-91) -->
             <label class="switch theme-toggle" aria-label="테마 전환">
@@ -1174,98 +1225,60 @@
       }
     </script>
     
-    <!-- GitHub 로그인 모달 -->
-    <div id="github-login-modal" class="github-login-modal" style="display: none;">
-      <div class="github-login-modal-overlay"></div>
-      <div class="github-login-modal-content">
-        <div class="github-login-modal-header">
-          <h2>로그인</h2>
-          <button class="github-login-modal-close" id="close-login-modal" aria-label="닫기">
-            <i class="bi bi-x-lg"></i>
-          </button>
-        </div>
-        <div class="github-login-modal-body">
-          {% if site.admin.github_oauth.client_id != "" %}
-          <div class="oauth-login-section">
-            <button type="button" id="modal-github-oauth-btn" class="btn-github-oauth" onclick="handleModalGitHubOAuth(event)">
-              <svg class="github-logo" width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-              </svg>
-              <span>GitHub로 로그인하기</span>
-            </button>
-          </div>
-          {% else %}
-          <div class="oauth-login-section">
-            <p style="text-align: center; color: var(--text-secondary); margin-bottom: 1rem;">
-              GitHub OAuth가 설정되지 않았습니다.
-            </p>
-            <a href="{{ '/admin/' | relative_url }}" class="btn-github-oauth" style="text-decoration: none;">
-              <span>로그인 페이지로 이동</span>
-            </a>
-          </div>
-          {% endif %}
-          
-          <div id="modal-login-error" class="error-message" style="display: none; margin-top: 1rem;"></div>
-        </div>
-      </div>
-    </div>
     
     <style>
       /* GitHub 로그인 모달 스타일 */
-      .github-login-modal {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 10000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .github-login-modal-overlay {
+      /* 로그인 말풍선 스타일 */
+      .login-popup {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: calc(100% + 0.5rem);
         right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(4px);
+        z-index: 10000;
+        min-width: 280px;
       }
       
-      .github-login-modal-content {
+      .login-popup-content {
         position: relative;
         background: var(--bg-primary);
-        border-radius: 12px;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        max-width: 400px;
-        width: 90%;
-        max-height: 90vh;
-        overflow-y: auto;
-        z-index: 10001;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        padding: 1rem;
+        position: relative;
       }
       
-      .github-login-modal-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1.5rem;
-        border-bottom: 1px solid var(--border-color);
+      .login-popup-content::before {
+        content: '';
+        position: absolute;
+        top: -8px;
+        right: 20px;
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid var(--bg-primary);
       }
       
-      .github-login-modal-header h2 {
-        margin: 0;
-        font-size: 1.25rem;
-        font-weight: 600;
-        color: var(--text-primary);
+      .login-popup-content::after {
+        content: '';
+        position: absolute;
+        top: -9px;
+        right: 20px;
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid var(--border-color);
       }
       
-      .github-login-modal-close {
+      .login-popup-close {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
         background: none;
         border: none;
         color: var(--text-secondary);
-        font-size: 1.25rem;
+        font-size: 1rem;
         cursor: pointer;
         padding: 0.25rem;
         display: flex;
@@ -1273,26 +1286,20 @@
         justify-content: center;
         border-radius: 4px;
         transition: all 0.2s;
+        width: 24px;
+        height: 24px;
       }
       
-      .github-login-modal-close:hover {
+      .login-popup-close:hover {
         background: var(--bg-secondary);
         color: var(--text-primary);
       }
       
-      .github-login-modal-body {
-        padding: 1.5rem;
+      .login-popup-body {
+        padding: 0;
       }
       
-      .github-login-modal-body .oauth-login-section {
-        margin: 0;
-      }
-      
-      .github-login-modal-body .oauth-login-section {
-        margin: 0;
-      }
-      
-      .github-login-modal-body .btn-github-oauth {
+      .login-popup-body .btn-github-oauth {
         width: 100%;
         background: #24292e;
         color: white;
@@ -1313,53 +1320,63 @@
         text-decoration: none;
       }
       
-      .github-login-modal-body .btn-github-oauth:hover {
+      .login-popup-body .btn-github-oauth:hover {
         background: #1a1e22;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
         transform: translateY(-1px);
       }
       
-      .github-login-modal-body .btn-github-oauth:active {
+      .login-popup-body .btn-github-oauth:active {
         background: #0d1117;
         transform: translateY(0);
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
       }
       
-      .github-login-modal-body .github-logo {
+      .login-popup-body .github-logo {
         width: 20px;
         height: 20px;
         flex-shrink: 0;
         display: block;
       }
       
-      .github-login-modal-body .error-message {
-        background: #fee;
-        color: #c33;
-        padding: 0.75rem;
-        border-radius: 6px;
-        font-size: 0.875rem;
-        border: 1px solid #fcc;
+      .login-popup-body .btn-logout {
+        width: 100%;
+        background: var(--bg-secondary);
+        color: var(--text-primary);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        padding: 0.875rem 1rem;
+        font-size: 0.9375rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-family: inherit;
       }
       
-      @media (max-width: 480px) {
-        .github-login-modal-content {
-          width: 95%;
-          margin: 1rem;
-        }
+      .login-popup-body .btn-logout:hover {
+        background: var(--bg-tertiary);
+        border-color: var(--accent-color);
+        color: var(--accent-color);
       }
     </style>
     
     <script>
+      // 팝업 외부 클릭 시 닫기
+      document.addEventListener('click', function(e) {
+        const loginPopup = document.getElementById('github-login-popup');
+        const loginBtn = document.getElementById('login-btn');
+        if (loginPopup && loginPopup.style.display !== 'none') {
+          if (!loginPopup.contains(e.target) && !loginBtn.contains(e.target)) {
+            closeLoginPopup();
+          }
+        }
+      });
+      
       // 로그인 버튼 및 프로필 글쓰기 버튼 관리
       document.addEventListener('DOMContentLoaded', () => {
         const loginBtn = document.getElementById('login-btn');
-        const loginModal = document.getElementById('github-login-modal');
-        const closeModalBtn = document.getElementById('close-login-modal');
-        const modalOAuthBtn = document.getElementById('modal-github-oauth-btn');
-        const modalOverlay = loginModal?.querySelector('.github-login-modal-overlay');
         
         console.log('Login button found:', loginBtn);
-        console.log('Login modal found:', loginModal);
         
         // 인증 상태에 따라 버튼 표시/숨김 업데이트
         function updateAuthButtons() {
@@ -1423,9 +1440,9 @@
             // 로그인 상태 재확인
             if (!window.authManager || !window.authManager.isAuthenticated()) {
               e.preventDefault();
-              if (loginModal) {
-                loginModal.style.display = 'flex';
-                document.body.style.overflow = 'hidden';
+              const loginPopup = document.getElementById('github-login-popup');
+              if (loginPopup) {
+                handleLoginClick(e);
               } else {
                 window.location.href = '/admin/';
               }
@@ -1434,35 +1451,15 @@
           });
         }
         
-        // 모달 닫기
-        function closeModal() {
-          if (loginModal) {
-            loginModal.style.display = 'none';
-            document.body.style.overflow = ''; // 스크롤 복원
-          }
-        }
-        
-        if (closeModalBtn) {
-          closeModalBtn.addEventListener('click', closeModal);
-        }
-        
-        if (modalOverlay) {
-          modalOverlay.addEventListener('click', closeModal);
-        }
-        
-        // ESC 키로 모달 닫기
+        // ESC 키로 팝업 닫기
         document.addEventListener('keydown', (e) => {
-          if (e.key === 'Escape' && loginModal && loginModal.style.display !== 'none') {
-            closeModal();
+          if (e.key === 'Escape') {
+            const loginPopup = document.getElementById('github-login-popup');
+            if (loginPopup && loginPopup.style.display !== 'none') {
+              closeLoginPopup();
+            }
           }
         });
-        
-        // 모달 내 GitHub OAuth 버튼은 인라인 onclick으로 처리하므로 여기서는 제거
-        console.log('Modal OAuth button found:', modalOAuthBtn);
-      });
-      
-        // 모달 내 GitHub OAuth 버튼은 인라인 onclick으로 처리하므로 여기서는 제거
-        console.log('Modal OAuth button found:', modalOAuthBtn);
       });
       
       // 인증 상태 변경 감지 (다른 탭에서 로그인/로그아웃 시)
