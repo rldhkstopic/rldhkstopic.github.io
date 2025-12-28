@@ -53,6 +53,7 @@
     
     <!-- OAuth 스크립트 (관리자 페이지에서만 필요하지만 전역에서 사용 가능하도록) -->
     <script src="{{ '/assets/js/oauth.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/admin.js' | relative_url }}"></script>
   </head>
   <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
     <header class="site-header">
@@ -60,8 +61,15 @@
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
           <div class="trigger">
-            <!-- 글쓰기 버튼 (아이콘만 표시) -->
-            <a href="#" class="write-btn" id="write-btn" title="글쓰기" aria-label="글쓰기" style="display: inline-flex;">
+            <!-- 로그인 버튼 (항상 표시) -->
+            <button type="button" class="login-btn" id="login-btn" title="로그인" aria-label="로그인">
+              <svg class="github-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              <span class="login-btn-text">로그인</span>
+            </button>
+            <!-- 글쓰기 버튼 (로그인된 경우에만 표시) -->
+            <a href="/editor/" class="write-btn" id="write-btn" title="글쓰기" aria-label="글쓰기" style="display: none;">
               <i class="bi bi-pencil-square"></i>
             </a>
             <!-- 상단 네비게이션 텍스트 링크 제거, 사이트 타이틀만 홈으로 사용 -->
@@ -1147,6 +1155,40 @@
             </a>
           </div>
           {% endif %}
+          
+          <!-- 토큰 입력 옵션 (OAuth 실패 시 또는 직접 입력 원할 때) -->
+          <div class="token-login-section" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+            <button type="button" id="show-modal-token-form" class="link-btn" style="width: 100%; text-align: center; margin-bottom: 1rem;">
+              또는 Personal Access Token으로 로그인
+            </button>
+            <form id="modal-token-form" class="admin-login-form" style="display: none;">
+              <div class="form-group">
+                <label for="modal-github-token">GitHub Personal Access Token</label>
+                <input 
+                  type="password" 
+                  id="modal-github-token" 
+                  class="form-input"
+                  placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+                  autocomplete="off"
+                />
+                <small class="form-help">
+                  <a href="https://github.com/settings/tokens/new" target="_blank">GitHub에서 토큰 생성</a>
+                  <br>
+                  필요한 권한: <code>repo</code> (전체 저장소 접근)
+                </small>
+              </div>
+              <div class="form-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="modal-remember-token" checked>
+                  <span>토큰 저장 (다음에 자동 로그인)</span>
+                </label>
+              </div>
+              <button type="button" class="btn btn-primary btn-block" id="modal-token-submit">
+                토큰으로 로그인
+              </button>
+            </form>
+          </div>
+          
           <div id="modal-login-error" class="error-message" style="display: none; margin-top: 1rem;"></div>
         </div>
       </div>
@@ -1362,24 +1404,17 @@
         }
       });
       
-      // 기존 updateWriteButtonVisibility 함수 수정 (버튼은 항상 표시)
-      if (typeof updateWriteButtonVisibility !== 'undefined') {
-        const originalUpdateWriteButtonVisibility = updateWriteButtonVisibility;
-        window.updateWriteButtonVisibility = function() {
-          const writeBtn = document.getElementById('write-btn');
-          if (!writeBtn) return;
-          
-          // 버튼은 항상 표시
-          writeBtn.style.display = 'inline-flex';
-          
-          // 인증 상태에 따라 툴팁만 변경
-          if (window.authManager && window.authManager.isAuthenticated()) {
-            writeBtn.title = '글쓰기';
-          } else {
-            writeBtn.title = '로그인';
+      // 인증 상태 변경 감지 (다른 탭에서 로그인/로그아웃 시)
+      window.addEventListener('storage', (e) => {
+        if (e.key === 'admin_github_token' || e.key === 'admin_authenticated') {
+          if (typeof updateAuthButtons === 'function') {
+            updateAuthButtons();
           }
-        };
-      }
+        }
+      });
+      
+      // 전역으로 export
+      window.updateAuthButtons = updateAuthButtons;
     </script>
   </body>
 </html>

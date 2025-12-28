@@ -136,6 +136,56 @@ body.home-page .site-header {
   align-items: center;
 }
 
+/* 로그인 버튼 */
+.login-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.login-btn:hover {
+  background: var(--bg-tertiary);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  transform: translateY(-1px);
+}
+
+.login-btn:active {
+  transform: translateY(0);
+}
+
+.login-btn .github-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.login-btn-text {
+  display: inline-block;
+}
+
+@media (max-width: 480px) {
+  .login-btn-text {
+    display: none;
+  }
+  .login-btn {
+    padding: 0.5rem;
+    width: 34px;
+    height: 34px;
+  }
+}
+
 .write-btn {
   display: inline-flex;
   align-items: center;

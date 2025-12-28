@@ -106,8 +106,23 @@ async function exchangeCodeForToken(code) {
         if (data.access_token) {
           // 토큰 저장 및 인증 완료
           if (window.authManager) {
+            // localStorage에 영구 저장 (remember=true)
             window.authManager.saveToken(data.access_token, true);
             window.authManager.setAuthenticated(true, true);
+            
+            // 버튼 상태 업데이트 (모달이 열려있으면)
+            if (typeof window.updateAuthButtons === 'function') {
+              window.updateAuthButtons();
+            }
+            
+            // 모달 닫기
+            const loginModal = document.getElementById('github-login-modal');
+            if (loginModal) {
+              loginModal.style.display = 'none';
+              document.body.style.overflow = '';
+            }
+            
+            // 에디터로 이동
             window.location.href = '/editor/';
             return; // 성공 시 종료
           }
