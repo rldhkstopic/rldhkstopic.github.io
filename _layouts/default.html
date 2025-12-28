@@ -74,23 +74,31 @@
           return;
         }
         
+        // 이미 열려있으면 닫기
+        if (loginPopup.classList.contains('show')) {
+          closeLoginPopup();
+          return;
+        }
+        
         // 이미 로그인된 경우 로그아웃 팝업 표시
         if (window.authManager && window.authManager.isAuthenticated()) {
           const notAuthDiv = document.getElementById('login-popup-not-authenticated');
           const authDiv = document.getElementById('login-popup-authenticated');
           if (notAuthDiv) notAuthDiv.style.display = 'none';
           if (authDiv) authDiv.style.display = 'block';
-          loginPopup.style.display = 'block';
-          return;
+        } else {
+          // 로그인되지 않은 경우 로그인 팝업 표시
+          const notAuthDiv = document.getElementById('login-popup-not-authenticated');
+          const authDiv = document.getElementById('login-popup-authenticated');
+          if (notAuthDiv) notAuthDiv.style.display = 'block';
+          if (authDiv) authDiv.style.display = 'none';
         }
         
-        // 로그인되지 않은 경우 로그인 팝업 표시
-        console.log('Attempting to show login popup');
-        const notAuthDiv = document.getElementById('login-popup-not-authenticated');
-        const authDiv = document.getElementById('login-popup-authenticated');
-        if (notAuthDiv) notAuthDiv.style.display = 'block';
-        if (authDiv) authDiv.style.display = 'none';
+        // 애니메이션과 함께 표시
         loginPopup.style.display = 'block';
+        setTimeout(() => {
+          loginPopup.classList.add('show');
+        }, 10);
         console.log('Popup should be visible now');
       }
       
@@ -110,7 +118,10 @@
       function closeLoginPopup() {
         const loginPopup = document.getElementById('github-login-popup');
         if (loginPopup) {
-          loginPopup.style.display = 'none';
+          loginPopup.classList.remove('show');
+          setTimeout(() => {
+            loginPopup.style.display = 'none';
+          }, 200);
         }
       }
       
