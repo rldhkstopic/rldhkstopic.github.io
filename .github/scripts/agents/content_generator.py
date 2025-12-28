@@ -4,33 +4,22 @@ Google Gemini API를 사용하여 블로그 포스트 콘텐츠를 생성한다.
 """
 
 import os
-import warnings
 from typing import Dict, Optional
-import google.generativeai as genai
-
-# deprecated 경고 무시
-warnings.filterwarnings('ignore', category=FutureWarning)
+from google import genai
 
 
 class ContentGeneratorAgent:
     """콘텐츠 생성 에이전트"""
     
     def __init__(self, api_key: str):
-        genai.configure(api_key=api_key)
-        # 사용 가능한 모델 시도
-        self.model = None
-        model_names = ['gemini-pro', 'models/gemini-pro']
-        for model_name in model_names:
-            try:
-                self.model = genai.GenerativeModel(model_name)
-                print(f"✅ 모델 '{model_name}' 초기화 완료")
-                break
-            except Exception as e:
-                print(f"⚠️  모델 '{model_name}' 시도 실패: {str(e)}")
-                continue
+        if not api_key:
+            raise ValueError("GEMINI_API_KEY가 설정되지 않았습니다.")
         
-        if self.model is None:
-            raise Exception("사용 가능한 Gemini 모델을 찾을 수 없습니다.")
+        # 최신 클라이언트 초기화
+        self.client = genai.Client(api_key=api_key)
+        # 모델 설정 (gemini-1.5-flash 사용)
+        self.model_name = "gemini-1.5-flash"
+        print(f"✅ Gemini 클라이언트 초기화 완료 (모델: {self.model_name})")
     
     def generate_content(self, topic: Dict) -> Optional[Dict]:
         """
@@ -49,15 +38,10 @@ class ContentGeneratorAgent:
         full_prompt = f"{system_prompt}\n\n{user_prompt}"
         
         try:
-            # Generation config 설정
-            generation_config = {
-                'temperature': 0.7,
-                'max_output_tokens': 3000,
-            }
-            
-            response = self.model.generate_content(
-                full_prompt,
-                generation_config=generation_config
+            # 최신 API 호출 방식
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=full_prompt
             )
             
             content_text = response.text
@@ -149,4 +133,3 @@ class ContentGeneratorAgent:
             'source': topic.get('source', 'auto'),
             'source_url': topic.get('source_url', '')
         }
-
