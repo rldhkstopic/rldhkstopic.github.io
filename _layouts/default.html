@@ -43,12 +43,18 @@
     
     <!-- Jekyll 설정을 JavaScript에 주입 (OAuth용) -->
     <script>
-      window.ADMIN_CONFIG_OVERRIDE = {
-        adminPassword: {% if site.admin.admin_password %}"{{ site.admin.admin_password }}"{% else %}null{% endif %},
-        githubOAuth: {
-          clientId: {% if site.admin.github_oauth.client_id %}"{{ site.admin.github_oauth.client_id }}"{% else %}null{% endif %}
-        }
-      };
+      window.ADMIN_CONFIG_OVERRIDE = {};
+      {% if site.admin.admin_password %}
+      window.ADMIN_CONFIG_OVERRIDE.adminPassword = "{{ site.admin.admin_password | escape }}";
+      {% else %}
+      window.ADMIN_CONFIG_OVERRIDE.adminPassword = null;
+      {% endif %}
+      window.ADMIN_CONFIG_OVERRIDE.githubOAuth = {};
+      {% if site.admin.github_oauth.client_id %}
+      window.ADMIN_CONFIG_OVERRIDE.githubOAuth.clientId = "{{ site.admin.github_oauth.client_id | escape }}";
+      {% else %}
+      window.ADMIN_CONFIG_OVERRIDE.githubOAuth.clientId = null;
+      {% endif %}
     </script>
     
     <!-- OAuth 스크립트 (관리자 페이지에서만 필요하지만 전역에서 사용 가능하도록) -->
