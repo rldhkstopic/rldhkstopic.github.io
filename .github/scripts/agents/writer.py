@@ -76,6 +76,10 @@ class WriterAgent:
             )
             
             content = response.text
+            
+            # 후처리: 이모지 제거 및 문체 개선
+            content = self._post_process(content)
+            
             print(f"  [OK] 작성 완료 ({len(content)}자)")
             
             return content
@@ -126,7 +130,7 @@ class WriterAgent:
 - "안녕하세요", "반갑습니다", "오늘은 ~를 알아보겠습니다" (인사 생략)
 - "결론적으로", "요약하자면", "마지막으로" (접속사 생략)
 - "매우", "획기적인", "놀라운" (감정적 형용사 생략)
-- 이모지 사용 금지
+- 이모지 사용 금지 (절대 사용하지 마세요)
 
 **출력 형식:**
 - Front Matter 없이 본문만 작성

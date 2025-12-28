@@ -41,11 +41,9 @@ class PostCreatorAgent:
             
             # 이미 존재하는 파일인지 확인
             if filepath.exists():
-                print(f"⚠️  파일이 이미 존재합니다: {filename}")
-                # 날짜에 시간 추가하여 고유하게 만들기
-                timestamp = datetime.now().strftime('%H%M%S')
-                filename = f"{date_str}-{title_slug}-{timestamp}.md"
-                filepath = self.posts_dir / filename
+                # 같은 날짜에 같은 제목이면 스킵
+                print(f"[WARN] 파일이 이미 존재합니다: {filename}")
+                return None
             
             # Front Matter 생성
             front_matter = self._create_front_matter(content)

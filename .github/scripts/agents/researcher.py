@@ -14,9 +14,7 @@ class ResearcherAgent:
     
     def __init__(self, api_key: str):
         self.client = genai.Client(api_key=api_key)
-        # Deep Research 모델 사용
-        self.research_model = "models/deep-research-pro-preview-12-2025"
-        # 일반 조사용 모델
+        # 일반 조사용 모델 (안정적이고 빠름)
         self.search_model = "models/gemini-2.0-flash"
     
     def research_topic(self, topic: Dict) -> Dict:
@@ -67,23 +65,15 @@ class ResearcherAgent:
 """
         
         try:
-            print(f"  [연구] Deep Research 모델로 조사 중...")
-            # Deep Research 모델 사용 시도
-            try:
-                response = self.client.models.generate_content(
-                    model=self.research_model,
-                    contents=research_prompt
-                )
-                research_result = response.text
-                print(f"  [OK] Deep Research 완료")
-            except Exception as e:
-                print(f"  [WARN] Deep Research 실패, 일반 모델 사용: {str(e)[:50]}")
-                # Deep Research 실패 시 일반 모델 사용
-                response = self.client.models.generate_content(
-                    model=self.search_model,
-                    contents=research_prompt
-                )
-                research_result = response.text
+            print(f"  [연구] 조사 시작...")
+            # 일반 모델 사용 (Deep Research는 별도 API 필요)
+            # gemini-2.0-flash가 안정적이고 빠름
+            response = self.client.models.generate_content(
+                model=self.search_model,
+                contents=research_prompt
+            )
+            research_result = response.text
+            print(f"  [OK] 조사 완료")
             
             # 조사 결과 파싱
             parsed_result = self._parse_research(research_result, topic)
