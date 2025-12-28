@@ -94,6 +94,22 @@
           window.location.href = '/admin/';
         }
       }
+      
+      // 모달 내 GitHub OAuth 버튼 클릭 핸들러
+      function handleModalGitHubOAuth(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Modal GitHub OAuth button clicked');
+        
+        // oauth.js가 로드되었는지 확인
+        if (typeof window.startGitHubOAuth === 'function') {
+          console.log('Calling startGitHubOAuth');
+          window.startGitHubOAuth();
+        } else {
+          console.error('startGitHubOAuth function not found, redirecting to admin page');
+          window.location.href = '/admin/';
+        }
+      }
     </script>
   </head>
   <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
