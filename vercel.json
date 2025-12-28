@@ -3,12 +3,6 @@
   "outputDirectory": "_site",
   "installCommand": "gem install bundler && bundle install",
   "framework": null,
-  "analytics": {
-    "id": "auto"
-  },
-  "speedInsights": {
-    "id": "auto"
-  },
   "headers": [
     {
       "source": "/(.*)",
