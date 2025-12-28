@@ -4,31 +4,17 @@ Google Gemini API를 사용하여 블로그 포스트 콘텐츠를 생성한다.
 """
 
 import os
-import warnings
 from typing import Dict, Optional
-import google.generativeai as genai
-
-# deprecated 경고 무시 (패키지는 여전히 작동함)
-warnings.filterwarnings('ignore', category=FutureWarning, module='google.generativeai')
+from google import genai
 
 
 class ContentGeneratorAgent:
     """콘텐츠 생성 에이전트"""
     
     def __init__(self, api_key: str):
-        genai.configure(api_key=api_key)
-        # gemini-pro 모델 사용 (가장 안정적이고 널리 지원됨)
-        try:
-            self.model = genai.GenerativeModel('gemini-pro')
-            print("✅ 모델 'gemini-pro' 초기화 완료")
-        except Exception as e:
-            print(f"⚠️  모델 초기화 오류: {str(e)}")
-            # 대체 모델 시도
-            try:
-                self.model = genai.GenerativeModel('models/gemini-pro')
-                print("✅ 모델 'models/gemini-pro' 초기화 완료")
-            except Exception as e2:
-                raise Exception(f"모델 초기화 실패: {str(e2)}")
+        self.client = genai.Client(api_key=api_key)
+        self.model_name = "gemini-1.5-flash"  # 빠르고 비용 효율적
+        print(f"✅ Gemini 클라이언트 초기화 완료 (모델: {self.model_name})")
     
     def generate_content(self, topic: Dict) -> Optional[Dict]:
         """
@@ -47,15 +33,14 @@ class ContentGeneratorAgent:
         full_prompt = f"{system_prompt}\n\n{user_prompt}"
         
         try:
-            # Generation config 설정
-            generation_config = {
-                'temperature': 0.7,
-                'max_output_tokens': 3000,
-            }
-            
-            response = self.model.generate_content(
-                full_prompt,
-                generation_config=generation_config
+            # 새로운 SDK 사용
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=full_prompt,
+                config={
+                    'temperature': 0.7,
+                    'max_output_tokens': 3000,
+                }
             )
             
             content_text = response.text
