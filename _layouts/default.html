@@ -1245,15 +1245,16 @@
         right: 0;
         z-index: 10000;
         min-width: 280px;
+        max-width: 320px;
         opacity: 0;
-        transform: translateY(-10px);
+        transform: translateY(-10px) scale(0.95);
         transition: opacity 0.2s ease, transform 0.2s ease;
         pointer-events: none;
       }
       
       .login-popup.show {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(0) scale(1);
         pointer-events: auto;
       }
       
@@ -1264,6 +1265,7 @@
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         padding: 1rem;
+        padding-top: 1.5rem;
       }
       
       /* 화살표 (위쪽, 버튼 방향) */
@@ -1271,24 +1273,26 @@
         content: '';
         position: absolute;
         bottom: 100%;
-        right: 20px;
+        right: 24px;
         width: 0;
         height: 0;
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         border-bottom: 8px solid var(--bg-primary);
+        z-index: 1;
       }
       
       .login-popup-content::after {
         content: '';
         position: absolute;
         bottom: calc(100% - 1px);
-        right: 20px;
+        right: 24px;
         width: 0;
         height: 0;
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         border-bottom: 8px solid var(--border-color);
+        z-index: 0;
       }
       
       .login-popup-close {
