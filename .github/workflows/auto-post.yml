@@ -25,6 +25,12 @@ jobs:
       run: |
         pip install -r .github/scripts/requirements.txt
         
+    - name: Test Gemini API
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: |
+        python .github/scripts/test_gemini.py
+        
     - name: Run auto-post script
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
