@@ -49,32 +49,18 @@ class ContentGeneratorAgent:
         full_prompt = f"{system_prompt}\n\n{user_prompt}"
         
         try:
-            # 새로운 SDK 사용 - 사용 가능한 모델 시도
-            model_names = ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-pro']
-            content_text = None
-            last_error = None
+            # Generation config 설정
+            generation_config = {
+                'temperature': 0.7,
+                'max_output_tokens': 3000,
+            }
             
-            for model in model_names:
-                try:
-                    print(f"모델 '{model}' 시도 중...")
-                    response = self.client.models.generate_content(
-                        model=model,
-                        contents=full_prompt,
-                        config={
-                            'temperature': 0.7,
-                            'max_output_tokens': 3000,
-                        }
-                    )
-                    content_text = response.text
-                    print(f"✅ 모델 '{model}' 성공")
-                    break
-                except Exception as e:
-                    last_error = str(e)
-                    print(f"⚠️  모델 '{model}' 실패: {str(e)}")
-                    continue
+            response = self.model.generate_content(
+                full_prompt,
+                generation_config=generation_config
+            )
             
-            if content_text is None:
-                raise Exception(f"모든 모델 시도 실패. 마지막 오류: {last_error}")
+            content_text = response.text
             
             # 생성된 콘텐츠 파싱
             parsed_content = self._parse_content(content_text, topic)
