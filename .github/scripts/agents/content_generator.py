@@ -4,17 +4,33 @@ Google Gemini API를 사용하여 블로그 포스트 콘텐츠를 생성한다.
 """
 
 import os
+import warnings
 from typing import Dict, Optional
-from google import genai
+import google.generativeai as genai
+
+# deprecated 경고 무시
+warnings.filterwarnings('ignore', category=FutureWarning)
 
 
 class ContentGeneratorAgent:
     """콘텐츠 생성 에이전트"""
     
     def __init__(self, api_key: str):
-        self.client = genai.Client(api_key=api_key)
-        self.model_name = "gemini-1.5-flash"  # 빠르고 비용 효율적
-        print(f"✅ Gemini 클라이언트 초기화 완료 (모델: {self.model_name})")
+        genai.configure(api_key=api_key)
+        # 사용 가능한 모델 시도
+        self.model = None
+        model_names = ['gemini-pro', 'models/gemini-pro']
+        for model_name in model_names:
+            try:
+                self.model = genai.GenerativeModel(model_name)
+                print(f"✅ 모델 '{model_name}' 초기화 완료")
+                break
+            except Exception as e:
+                print(f"⚠️  모델 '{model_name}' 시도 실패: {str(e)}")
+                continue
+        
+        if self.model is None:
+            raise Exception("사용 가능한 Gemini 모델을 찾을 수 없습니다.")
     
     def generate_content(self, topic: Dict) -> Optional[Dict]:
         """
@@ -33,17 +49,32 @@ class ContentGeneratorAgent:
         full_prompt = f"{system_prompt}\n\n{user_prompt}"
         
         try:
-            # 새로운 SDK 사용
-            response = self.client.models.generate_content(
-                model=self.model_name,
-                contents=full_prompt,
-                config={
-                    'temperature': 0.7,
-                    'max_output_tokens': 3000,
-                }
-            )
+            # 새로운 SDK 사용 - 사용 가능한 모델 시도
+            model_names = ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-pro']
+            content_text = None
+            last_error = None
             
-            content_text = response.text
+            for model in model_names:
+                try:
+                    print(f"모델 '{model}' 시도 중...")
+                    response = self.client.models.generate_content(
+                        model=model,
+                        contents=full_prompt,
+                        config={
+                            'temperature': 0.7,
+                            'max_output_tokens': 3000,
+                        }
+                    )
+                    content_text = response.text
+                    print(f"✅ 모델 '{model}' 성공")
+                    break
+                except Exception as e:
+                    last_error = str(e)
+                    print(f"⚠️  모델 '{model}' 실패: {str(e)}")
+                    continue
+            
+            if content_text is None:
+                raise Exception(f"모든 모델 시도 실패. 마지막 오류: {last_error}")
             
             # 생성된 콘텐츠 파싱
             parsed_content = self._parse_content(content_text, topic)
