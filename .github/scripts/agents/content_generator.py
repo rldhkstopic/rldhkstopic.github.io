@@ -17,8 +17,9 @@ class ContentGeneratorAgent:
         
         # 최신 클라이언트 초기화
         self.client = genai.Client(api_key=api_key)
-        # 모델 설정 (gemini-1.5-flash 사용)
-        self.model_name = "gemini-1.5-flash"
+        # 모델 설정 (사용 가능한 최신 모델 사용)
+        # gemini-2.0-flash가 가장 안정적이고 빠름
+        self.model_name = "models/gemini-2.0-flash"
         print(f"✅ Gemini 클라이언트 초기화 완료 (모델: {self.model_name})")
     
     def generate_content(self, topic: Dict) -> Optional[Dict]:
