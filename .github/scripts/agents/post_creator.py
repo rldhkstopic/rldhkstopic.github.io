@@ -61,8 +61,14 @@ class PostCreatorAgent:
             # 전체 마크다운 생성
             markdown_content = front_matter + '\n\n' + body
             
-            # 파일 저장
-            filepath.write_text(markdown_content, encoding='utf-8')
+            # 파일 저장 (UTF-8 인코딩 명시)
+            try:
+                filepath.write_text(markdown_content, encoding='utf-8')
+            except Exception as e:
+                print(f"[ERROR] 파일 저장 오류: {str(e)}")
+                # 대체 방법 시도
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(markdown_content)
             
             # 상대 경로 반환 (_posts/파일명.md)
             return str(filepath.relative_to(self.posts_dir.parent))

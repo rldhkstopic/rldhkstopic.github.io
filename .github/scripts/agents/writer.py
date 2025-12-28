@@ -30,42 +30,31 @@ class WriterAgent:
         """
         system_prompt = self._get_system_prompt()
         
+        # 조사 및 분석 데이터 정리
+        research_text = research_data.get('raw_research', '')[:2000] if research_data.get('raw_research') else ''
+        analysis_text = analysis_data.get('insights', '')[:1500] if analysis_data.get('insights') else ''
+        
         writing_prompt = f"""{system_prompt}
 
-**주제 정보:**
-- 제목: {topic.get('title', '')}
-- 설명: {topic.get('description', '')}
-- 카테고리: {topic.get('category', 'document')}
-- 태그: {', '.join(topic.get('tags', []))}
+**주제:**
+제목: {topic.get('title', '')}
+설명: {topic.get('description', '')}
+카테고리: {topic.get('category', 'document')}
 
 **조사 결과:**
-{research_data.get('raw_research', '')[:1500]}
+{research_text}
 
 **분석 인사이트:**
-{analysis_data.get('insights', '')[:1000]}
+{analysis_text}
 
-**작성 요청:**
-위 정보를 바탕으로 전문적이고 깊이 있는 블로그 포스트를 작성해주세요.
-
-**구조:**
-1. 도입부: 상황/동기 → 액션 → 환경/제약사항
-2. 본문: 
-   - 핵심 사실 및 데이터 제시
-   - 전문가 의견 인용 (blockquote 형식)
-   - 분석 및 해석
-   - 사례 및 비교
-3. 마무리: 작업 완료 상태나 다음 단계 메모
-
-**참조 처리:**
-- 외부 자료 언급 시 [^n] 형식 사용
-- 글 마지막에 ## References 섹션 추가
-- 출처 링크 포함
-
-**주의사항:**
-- "~다."로 끝나는 건조한 문체
-- 감정 배제, 이모지 금지
-- 데이터와 사실 중심
-- 최소 1200자 이상 작성
+**작성 지시사항:**
+1. 위 정보를 바탕으로 완전한 문장으로 블로그 포스트를 작성하세요.
+2. 모든 문장은 반드시 "~다."로 끝나야 합니다.
+3. 한글을 완전하고 자연스럽게 사용하세요.
+4. 이모지는 절대 사용하지 마세요.
+5. 최소 1500자 이상 작성하세요.
+6. 전문가 의견은 blockquote 형식으로 인용하세요.
+7. 외부 자료는 [^n] 형식으로 참조하고, 마지막에 ## References 섹션을 추가하세요.
 """
         
         try:
@@ -77,8 +66,64 @@ class WriterAgent:
             
             content = response.text
             
+            # 응답이 비어있거나 너무 짧으면 재시도
+            if not content or len(content) < 500:
+                print(f"  [WARN] 응답이 너무 짧습니다 ({len(content)}자). 재시도...")
+                # 더 간단한 프롬프트로 재시도
+                simple_prompt = f"""다음 주제에 대해 블로그 포스트를 작성해주세요:
+
+**제목:** {topic.get('title', '')}
+**설명:** {topic.get('description', '')}
+
+조사 결과:
+{research_data.get('raw_research', '')[:1000]}
+
+분석 인사이트:
+{analysis_data.get('insights', '')[:500]}
+
+"~다."로 끝나는 건조한 문체로, 최소 1200자 이상 작성해주세요. 이모지는 절대 사용하지 마세요."""
+                
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=simple_prompt
+                )
+                content = response.text
+            
+            # 응답 검증
+            if not content or len(content.strip()) < 500:
+                print(f"  [WARN] 응답이 너무 짧습니다 ({len(content)}자). 재시도...")
+                # 더 간단한 프롬프트로 재시도
+                simple_prompt = f"""다음 주제에 대해 완전한 블로그 포스트를 작성해주세요:
+
+제목: {topic.get('title', '')}
+설명: {topic.get('description', '')}
+
+조사 결과 요약:
+{research_text[:800]}
+
+분석 요약:
+{analysis_text[:500]}
+
+**중요:**
+- 모든 문장을 완전하게 작성하세요
+- "~다."로 끝나는 문체를 사용하세요
+- 이모지는 절대 사용하지 마세요
+- 최소 1500자 이상 작성하세요
+- 한글을 자연스럽게 사용하세요"""
+                
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=simple_prompt
+                )
+                content = response.text
+            
             # 후처리: 이모지 제거 및 문체 개선
             content = self._post_process(content)
+            
+            # 내용 검증
+            if len(content.strip()) < 500:
+                print(f"  [ERROR] 최종 콘텐츠가 너무 짧습니다 ({len(content)}자)")
+                return ""
             
             print(f"  [OK] 작성 완료 ({len(content)}자)")
             
