@@ -54,6 +54,42 @@
     <!-- OAuth 스크립트 (관리자 페이지에서만 필요하지만 전역에서 사용 가능하도록) -->
     <script src="{{ '/assets/js/oauth.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/admin.js' | relative_url }}"></script>
+    
+    <!-- 전역 로그인 클릭 핸들러 (인라인 onclick에서 사용) -->
+    <script>
+      // 전역 로그인 클릭 핸들러 (인라인 onclick에서 사용)
+      function handleLoginClick(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Login button clicked via inline handler');
+        
+        const loginModal = document.getElementById('github-login-modal');
+        
+        // 이미 로그인된 경우 로그아웃
+        if (window.authManager && window.authManager.isAuthenticated()) {
+          if (confirm('로그아웃하시겠습니까?')) {
+            window.authManager.clearToken();
+            if (typeof window.updateAuthButtons === 'function') {
+              window.updateAuthButtons();
+            }
+            window.location.reload();
+          }
+          return;
+        }
+        
+        // 로그인되지 않은 경우 모달 표시
+        console.log('Attempting to show login modal');
+        if (loginModal) {
+          console.log('Modal element found, displaying...');
+          loginModal.style.display = 'flex';
+          document.body.style.overflow = 'hidden';
+          console.log('Modal should be visible now');
+        } else {
+          console.error('Login modal not found! Redirecting to admin page');
+          window.location.href = '/admin/';
+        }
+      }
+    </script>
   </head>
   <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
     <header class="site-header">
