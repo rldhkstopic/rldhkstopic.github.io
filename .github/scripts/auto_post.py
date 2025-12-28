@@ -83,7 +83,6 @@ def main():
             return
         
         # 콘텐츠 구조화
-        from datetime import datetime
         content = {
             'title': selected_topic.get('title', ''),
             'content': content_text,
