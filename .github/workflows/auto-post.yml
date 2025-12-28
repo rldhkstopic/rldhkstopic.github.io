@@ -1,0 +1,43 @@
+name: Auto Post Daily
+
+on:
+  schedule:
+    # 매일 오전 7시 (KST) 실행
+    - cron: '0 22 * * *'  # UTC 22:00 = KST 07:00 (다음날)
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  auto-post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r .github/scripts/requirements.txt
+        
+    - name: Run auto-post script
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python .github/scripts/auto_post.py
+        
+    - name: Commit and push
+      if: success()
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add _posts/*.md
+        git diff --staged --quiet || git commit -m "Add auto-generated post for $(date +'%Y-%m-%d')"
+        git push origin main
+

@@ -1,8 +1,20 @@
 // GitHub OAuth 인증 처리
 
+// redirect_uri 결정: Vercel 도메인이면 GitHub Pages 도메인 사용, 아니면 현재 도메인 사용
+function getRedirectUri() {
+  const currentOrigin = window.location.origin;
+  // Vercel 도메인인지 확인 (vercel.app 또는 커스텀 도메인)
+  if (currentOrigin.includes('vercel.app') || currentOrigin.includes('vercel.com')) {
+    // GitHub Pages 도메인 사용 (OAuth App에 등록된 도메인)
+    return 'https://rldhkstopic.github.io/admin/';
+  }
+  // GitHub Pages나 다른 도메인인 경우 현재 도메인 사용
+  return currentOrigin + '/admin/';
+}
+
 const GITHUB_OAUTH_CONFIG = {
   clientId: (window.ADMIN_CONFIG_OVERRIDE && window.ADMIN_CONFIG_OVERRIDE.githubOAuth && window.ADMIN_CONFIG_OVERRIDE.githubOAuth.clientId) || '',
-  redirectUri: window.location.origin + '/admin/',
+  redirectUri: getRedirectUri(),
   scope: 'repo',
   state: generateRandomState()
 };
@@ -134,50 +146,24 @@ async function exchangeCodeForToken(code) {
     }
   }
 
-  // 모든 서버리스 함수가 실패한 경우, 대체 방법 안내
-  showTokenExchangeFallback();
-}
-
-// 서버리스 함수가 없을 때 대체 방법 안내
-function showTokenExchangeFallback() {
+  // 모든 서버리스 함수가 실패한 경우, 저장된 토큰 확인
+  const savedToken = window.authManager ? window.authManager.getToken() : null;
+  if (savedToken) {
+    // 저장된 토큰이 있으면 자동으로 사용
+    if (window.authManager) {
+      const validation = await window.authManager.validateToken(savedToken);
+      if (validation.valid) {
+        window.authManager.setAuthenticated(true, true);
+        window.location.href = '/editor/';
+        return;
+      }
+    }
+  }
+  
+  // 저장된 토큰도 없거나 유효하지 않은 경우 간단한 에러 메시지만 표시
   const errorDiv = document.getElementById('login-error');
   if (errorDiv) {
-    errorDiv.innerHTML = `
-      <div class="oauth-fallback">
-        <h3 style="margin-bottom: 1rem; color: var(--text-primary);">OAuth 인증 완료</h3>
-        <p style="margin-bottom: 1rem; color: var(--text-secondary);">
-          GitHub에서 인증은 완료되었지만, code를 access token으로 교환하려면 서버가 필요합니다.
-        </p>
-        <p style="margin-bottom: 1rem; color: var(--text-secondary);"><strong>다음 중 하나를 선택하세요:</strong></p>
-        <ol style="margin-left: 1.5rem; margin-bottom: 1rem; color: var(--text-secondary); line-height: 1.8;">
-          <li style="margin-bottom: 0.5rem;">
-            <strong>서버리스 함수 설정 (권장):</strong><br>
-            Netlify Functions나 Vercel Functions를 설정하여 자동으로 토큰을 받을 수 있습니다.<br>
-            <a href="/docs/GITHUB_OAUTH_GUIDE.md" target="_blank" style="color: var(--accent-color);">설정 가이드 보기</a>
-          </li>
-          <li>
-            <strong>Personal Access Token 사용:</strong><br>
-            <a href="https://github.com/settings/tokens/new" target="_blank" style="color: var(--accent-color);">GitHub에서 Personal Access Token 생성</a> 후 아래에 입력하세요.
-          </li>
-        </ol>
-        <div class="token-input-fallback" style="margin-top: 1rem;">
-          <input 
-            type="password" 
-            id="fallback-token-input" 
-            class="form-input" 
-            placeholder="Personal Access Token 입력 (ghp_...)"
-            style="margin-bottom: 0.5rem;"
-          />
-          <button 
-            type="button" 
-            class="btn btn-primary btn-block" 
-            onclick="window.useFallbackToken && window.useFallbackToken()"
-          >
-            토큰으로 로그인
-          </button>
-        </div>
-      </div>
-    `;
+    errorDiv.textContent = '인증에 실패했습니다. 관리자에게 문의하세요.';
     errorDiv.style.display = 'block';
   }
   
@@ -185,28 +171,6 @@ function showTokenExchangeFallback() {
   window.history.replaceState({}, document.title, '/admin/');
 }
 
-// 대체 토큰 사용 함수
-async function useFallbackToken() {
-  const tokenInput = document.getElementById('fallback-token-input');
-  if (!tokenInput) return;
-  
-  const token = tokenInput.value.trim();
-  if (!token) {
-    alert('토큰을 입력하세요.');
-    return;
-  }
-
-  if (window.authManager) {
-    const validation = await window.authManager.validateToken(token);
-    if (validation.valid) {
-      window.authManager.saveToken(token, true);
-      window.authManager.setAuthenticated(true, true);
-      window.location.href = '/editor/';
-    } else {
-      alert(`토큰 검증 실패: ${validation.error}`);
-    }
-  }
-}
 
 // 글쓰기 버튼 표시/숨김 (인증 상태에 따라)
 function updateWriteButtonVisibility() {
@@ -248,5 +212,4 @@ document.addEventListener('DOMContentLoaded', () => {
 // 전역으로 export
 window.startGitHubOAuth = startGitHubOAuth;
 window.handleOAuthCallback = handleOAuthCallback;
-window.useFallbackToken = useFallbackToken;
 
