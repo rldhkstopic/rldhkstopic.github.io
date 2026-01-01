@@ -39,5 +39,8 @@ jobs:
         git config --local user.name "GitHub Action"
         git add _posts/*.md
         git diff --staged --quiet || git commit -m "Add auto-generated post for $(date +'%Y-%m-%d')"
-        git push origin main
+        # 다른 워크플로우(analytics 등)가 main에 커밋을 올릴 수 있어 non-fast-forward를 방지
+        git fetch origin main
+        git pull --rebase origin main
+        git push origin HEAD:main
 
