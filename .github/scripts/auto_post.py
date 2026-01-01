@@ -7,8 +7,11 @@
 import os
 import sys
 import json
+import random
+import re
 from datetime import datetime
 from pathlib import Path
+from typing import Dict, List, Set
 
 # 프로젝트 루트를 Python 경로에 추가
 project_root = Path(__file__).parent.parent.parent
@@ -20,6 +23,55 @@ from agents.analyst import AnalystAgent
 from agents.writer import WriterAgent
 from agents.validator import ValidatorAgent
 from agents.post_creator import PostCreatorAgent
+
+
+def _load_existing_post_titles(posts_dir: Path) -> Set[str]:
+    """이미 발행된 포스트의 제목(Front Matter title)을 수집한다."""
+    titles: Set[str] = set()
+    if not posts_dir.exists():
+        return titles
+
+    for post_path in posts_dir.glob("*.md"):
+        try:
+            text = post_path.read_text(encoding="utf-8", errors="replace")
+        except Exception:
+            continue
+
+        # Front Matter의 title 라인 파싱 (따옴표 유무 모두 대응)
+        m = re.search(r'(?m)^title:\s*"?(.+?)"?\s*$', text)
+        if m:
+            title = m.group(1).strip().lower()
+            if title:
+                titles.add(title)
+
+    return titles
+
+
+def _select_topic(topics: List[Dict], existing_titles: Set[str]) -> Dict:
+    """
+    반복 포스팅 방지를 위해, 이미 존재하는 제목은 우선 제외하고 주제를 선택한다.
+    - source_url이 있는(=외부 링크 기반) 주제를 우선
+    - 정적 예시(tech_news)보다 동적 소스를 우선
+    """
+    def score(topic: Dict) -> int:
+        s = 0
+        if topic.get("source_url"):
+            s += 10
+        if topic.get("source") and topic.get("source") != "tech_news":
+            s += 3
+        return s
+
+    # 같은 날에도 변동이 생기도록 약한 랜덤성 추가
+    random.shuffle(topics)
+    ranked = sorted(topics, key=score, reverse=True)
+
+    for t in ranked:
+        title = (t.get("title") or "").strip().lower()
+        if title and title not in existing_titles:
+            return t
+
+    # 전부 중복이면 최선의 후보를 그대로 사용 (단, 이후 검증/생성 단계에서 걸러질 수 있음)
+    return ranked[0]
 
 
 def main():
@@ -55,8 +107,9 @@ def main():
         for i, topic in enumerate(topics[:3], 1):
             print(f"   {i}. {topic.get('title', 'N/A')}")
         
-        # 첫 번째 주제 선택 (또는 랜덤 선택)
-        selected_topic = topics[0]
+        # 이미 발행된 글과 동일한 제목은 우선 제외하여 선택
+        existing_titles = _load_existing_post_titles(project_root / "_posts")
+        selected_topic = _select_topic(topics, existing_titles)
         print(f"\n[선택] 주제: {selected_topic.get('title', 'N/A')}")
         
         # 2. 심층 조사 (ResearcherAgent)

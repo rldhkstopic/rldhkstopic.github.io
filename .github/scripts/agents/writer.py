@@ -5,6 +5,7 @@
 """
 
 import os
+import re
 from typing import Dict, Optional
 from google import genai
 
@@ -16,6 +17,23 @@ class WriterAgent:
         self.client = genai.Client(api_key=api_key)
         self.model = "models/gemini-2.0-flash"
     
+    def _is_korean_output(self, text: str) -> bool:
+        """모델 출력이 한국어 본문으로서 최소 품질을 만족하는지 점검한다."""
+        if not text:
+            return False
+        hangul_count = len(re.findall(r'[가-힣]', text))
+        if hangul_count < 200:
+            return False
+
+        non_ws = len(re.sub(r'\s+', '', text))
+        if non_ws == 0:
+            return False
+        # 한글이 지나치게 낮으면(영문/공백 위주) 실패로 간주
+        if hangul_count / non_ws < 0.10:
+            return False
+
+        return True
+
     def write(self, topic: Dict, research_data: Dict, analysis_data: Dict) -> str:
         """
         조사 및 분석 결과를 바탕으로 블로그 포스트를 작성한다.
@@ -34,7 +52,7 @@ class WriterAgent:
         research_text = research_data.get('raw_research', '')[:2000] if research_data.get('raw_research') else ''
         analysis_text = analysis_data.get('insights', '')[:1500] if analysis_data.get('insights') else ''
         
-        writing_prompt = f"""{system_prompt}
+        base_prompt = f"""{system_prompt}
 
 **주제:**
 제목: {topic.get('title', '')}
@@ -58,18 +76,46 @@ class WriterAgent:
 """
         
         try:
-            print(f"  [작성] 블로그 포스트 작성 중...")
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=writing_prompt
-            )
-            
-            content = response.text
-            
-            # 응답이 비어있거나 너무 짧으면 재시도
+            content = ""
+
+            # 모델이 비정상 출력(영문/공백 위주)하는 케이스가 있어, 최대 3회까지 재시도한다.
+            for attempt in range(1, 4):
+                print(f"  [작성] 블로그 포스트 작성 중... (시도 {attempt}/3)")
+
+                writing_prompt = base_prompt
+                if attempt >= 2:
+                    # 한글 누락/공백 치환 방어를 위해 요구사항을 더 강하게 고정한다.
+                    writing_prompt += """
+
+**추가 제약(중요):**
+- 출력은 반드시 한국어로 작성하되, 고유명사/기술용어(예: LLM, Transformer)만 최소한으로 영어를 허용한다.
+- 본문에서 한국어가 공백으로 대체되거나, 영문/기호/공백 위주로 출력되면 실패로 간주한다.
+"""
+
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=writing_prompt
+                )
+                content = (response.text or "").strip()
+
+                # 후처리: 이모지 제거 및 문체 개선
+                content = self._post_process(content)
+
+                if len(content.strip()) < 800:
+                    continue
+                if not self._is_korean_output(content):
+                    continue
+
+                break
+
+            # 최종 실패 처리
+            if not content or len(content.strip()) < 800 or not self._is_korean_output(content):
+                print("  [ERROR] 한국어 본문 생성에 실패했습니다. (영문/공백 위주 출력 또는 길이 부족)")
+                return ""
+
+            # 응답이 비어있거나 너무 짧으면 재시도(레거시 fallback)
             if not content or len(content) < 500:
                 print(f"  [WARN] 응답이 너무 짧습니다 ({len(content)}자). 재시도...")
-                # 더 간단한 프롬프트로 재시도
                 simple_prompt = f"""다음 주제에 대해 블로그 포스트를 작성해주세요:
 
 **제목:** {topic.get('title', '')}
@@ -81,7 +127,7 @@ class WriterAgent:
 분석 인사이트:
 {analysis_data.get('insights', '')[:500]}
 
-"~다."로 끝나는 건조한 문체로, 최소 1200자 이상 작성해주세요. 이모지는 절대 사용하지 마세요."""
+"~다."로 끝나는 건조한 문체로, 최소 1200자 이상 한국어로 작성해주세요. 이모지는 절대 사용하지 마세요."""
                 
                 response = self.client.models.generate_content(
                     model=self.model,
@@ -135,8 +181,6 @@ class WriterAgent:
     
     def _post_process(self, content: str) -> str:
         """생성된 콘텐츠 후처리"""
-        import re
-        
         # 이모지 제거
         emoji_pattern = re.compile(
             "["
