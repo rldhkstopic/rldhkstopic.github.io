@@ -101,7 +101,7 @@ def main():
         topics = topic_agent.collect_topics()
         if not topics:
             print("[WARN] 수집된 주제가 없습니다. 종료합니다.")
-            return
+            return  # 주제가 없으면 정상 종료
         
         print(f"[OK] {len(topics)}개의 주제를 수집했습니다.")
         for i, topic in enumerate(topics[:3], 1):
@@ -133,7 +133,7 @@ def main():
         content_text = writer_agent.write(selected_topic, research_data, analysis_data)
         if not content_text:
             print("[ERROR] 글 작성에 실패했습니다.")
-            return
+            sys.exit(1)
         
         # 콘텐츠 구조화
         content = {
@@ -156,10 +156,9 @@ def main():
             print("[WARN] 검증 실패:")
             for error in validation_result.get('errors', []):
                 print(f"   - {error}")
-            # 경고만 있으면 계속 진행
             if validation_result.get('errors'):
                 print("[ERROR] 치명적 오류로 인해 중단합니다.")
-                return
+                sys.exit(1)
         
         if validation_result.get('warnings'):
             print("[WARN] 경고:")
@@ -173,7 +172,7 @@ def main():
         post_path = post_creator.create_post(content, selected_topic)
         if not post_path:
             print("[ERROR] 포스트 생성에 실패했습니다.")
-            return
+            sys.exit(1)
         
         print(f"[OK] 포스트 생성 완료: {post_path}")
         
