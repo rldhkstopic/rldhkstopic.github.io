@@ -37,6 +37,13 @@ class ValidatorAgent:
         
         if not content.get('content') or len(content['content']) < self.min_content_length:
             errors.append(f'본문이 너무 짧습니다 (최소 {self.min_content_length}자 필요).')
+
+        # 한글 품질/깨짐 방어: 한글이 거의 없으면(=영문/공백 위주 출력) 실패 처리
+        # - 실제 "인코딩 깨짐"이라기보다, 모델 출력이 비정상/후처리로 한글이 소실된 케이스를 잡는다.
+        content_text_raw = content.get('content', '')
+        hangul_count = len(re.findall(r'[가-힣]', content_text_raw))
+        if hangul_count < 200:
+            errors.append('본문 한글 비율이 너무 낮습니다. (생성 결과가 깨졌을 가능성)')
         
         # 카테고리 검증
         category = content.get('category', '')
