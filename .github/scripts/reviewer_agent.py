@@ -81,20 +81,54 @@ class ReviewerAgent:
         lines = content.split("\n")
         processed = []
         for line in lines:
+            original_line = line
             line = line.strip()
             if not line:
                 processed.append("")
                 continue
-            # 종결어미 정리
+            
+            # 제목/헤더는 건드리지 않음 (#으로 시작)
+            if line.startswith('#'):
+                processed.append(original_line)
+                continue
+            
+            # 리스트 항목은 건드리지 않음 (-, *, 숫자로 시작)
+            if re.match(r'^[-*•]\s+', line) or re.match(r'^\d+[.)]\s+', line):
+                processed.append(original_line)
+                continue
+            
+            # 인용문(blockquote)은 건드리지 않음
+            if line.startswith('>'):
+                processed.append(original_line)
+                continue
+            
+            # 코드 블록은 건드리지 않음
+            if line.startswith('```'):
+                processed.append(original_line)
+                continue
+            
+            # 종결어미 정리 (자연스러운 문장만)
             if line.endswith("요."):
-                line = line[:-2] + "다."
+                line = original_line[:-2] + "다."
             elif line.endswith("어요."):
-                line = line[:-3] + "다."
+                line = original_line[:-3] + "다."
             elif line.endswith("습니다."):
-                line = line[:-4] + "다."
-            elif not line.endswith("다."):
-                # 다른 종결이면 최대한 "~다."로 통일
-                line = re.sub(r"[.!?]+$", "", line) + "다."
+                line = original_line[:-4] + "다."
+            elif line.endswith("다."):
+                # 이미 "다."로 끝나면 그대로
+                line = original_line
+            else:
+                # 이미 적절한 종결어미가 있으면 그대로 유지
+                # (예: "~이다.", "~했다.", "~였다.", "~임", "~음" 등)
+                if re.search(r'[다했였임음]$', line) or line.endswith('.') or line.endswith('!'):
+                    line = original_line
+                else:
+                    # 종결어미가 없는 경우에만 "다." 추가 (하지만 너무 짧은 줄은 제외)
+                    if len(line) > 10:
+                        line = original_line + "다."
+                    else:
+                        line = original_line
+            
             # 금지 접속사 제거
             line = re.sub(r"\b(결론적으로|마지막으로)\b", "", line)
             processed.append(line)

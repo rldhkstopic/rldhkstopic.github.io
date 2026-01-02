@@ -399,31 +399,57 @@ class WriterAgent:
         emoji_pattern = re.compile(r"[\U00010000-\U0010ffff]", flags=re.UNICODE)
         content = emoji_pattern.sub("", content)
         
-        # 문장 끝을 "~다."로 통일 (간단한 후처리)
+        # 문장 끝을 "~다."로 통일 (제목/헤더/리스트는 제외)
         lines = content.split('\n')
         processed_lines = []
         for line in lines:
+            original_line = line
             line = line.strip()
             if not line:
                 processed_lines.append('')
                 continue
             
+            # 제목/헤더는 건드리지 않음 (#으로 시작)
+            if line.startswith('#'):
+                processed_lines.append(original_line)
+                continue
+            
+            # 리스트 항목은 건드리지 않음 (-, *, 숫자로 시작)
+            if re.match(r'^[-*•]\s+', line) or re.match(r'^\d+[.)]\s+', line):
+                processed_lines.append(original_line)
+                continue
+            
+            # 인용문(blockquote)은 건드리지 않음
+            if line.startswith('>'):
+                processed_lines.append(original_line)
+                continue
+            
+            # 코드 블록은 건드리지 않음
+            if line.startswith('```'):
+                processed_lines.append(original_line)
+                continue
+            
             # 이미 "~다."로 끝나면 그대로
             if line.endswith('다.'):
-                processed_lines.append(line)
+                processed_lines.append(original_line)
             # 다른 종결어미가 있으면 "~다."로 변경 (간단한 경우만)
             elif line.endswith("요."):
-                line = line[:-2] + "다."
-                processed_lines.append(line)
+                processed_lines.append(original_line[:-2] + "다.")
             elif line.endswith("어요."):
-                line = line[:-3] + "다."
-                processed_lines.append(line)
+                processed_lines.append(original_line[:-3] + "다.")
             elif line.endswith('습니다.'):
-                # '습니다.'는 4글자이므로 4글자만 제거한다.
-                line = line[:-4] + "다."
-                processed_lines.append(line)
+                processed_lines.append(original_line[:-4] + "다.")
             else:
-                processed_lines.append(line)
+                # 이미 적절한 종결어미가 있거나, 문장이 아닌 경우 그대로 유지
+                # (예: "~이다.", "~했다.", "~였다." 등은 이미 적절함)
+                if re.search(r'[다했였임음]$', line) or line.endswith('.') or line.endswith('!'):
+                    processed_lines.append(original_line)
+                else:
+                    # 종결어미가 없는 경우에만 "다." 추가 (하지만 너무 짧은 줄은 제외)
+                    if len(line) > 10:
+                        processed_lines.append(original_line + "다.")
+                    else:
+                        processed_lines.append(original_line)
         
         return '\n'.join(processed_lines)
     
