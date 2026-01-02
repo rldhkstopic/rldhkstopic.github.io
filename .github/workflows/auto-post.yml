@@ -52,17 +52,21 @@ jobs:
         git config --local user.name "GitHub Action"
         # 원격 변경사항을 먼저 가져온다
         git fetch origin main
-        # 로컬 변경사항을 임시로 저장
-        git stash push -m "auto-post-changes" || true
-        # 원격 변경사항을 가져온다
-        git pull --rebase origin main || true
-        # 저장한 변경사항을 다시 적용
-        git stash pop || true
+        # 원격 변경사항을 가져온다 (충돌 시 merge 전략 사용)
+        git pull origin main --no-rebase || {
+          # pull 실패 시 (충돌 등) 현재 버전을 우선
+          git checkout --ours _posts/*.md 2>/dev/null || true
+          git add _posts/*.md 2>/dev/null || true
+          git commit -m "Resolve merge conflict: keep auto-generated post" || true
+        }
         # 생성된 포스트와 처리된 요청 파일 등 모든 변경사항 추가
         git add _posts/*.md _auto_post_requests_processed/ _auto_post_results/ 2>/dev/null || true
+        # 변경된 파일과 삭제된 파일도 추가
+        git add -u 2>/dev/null || true
         # 변경사항이 있으면 커밋
         if ! git diff --staged --quiet; then
           git commit -m "Add auto-generated post for $(date +'%Y-%m-%d')"
-          git push origin HEAD:main
         fi
+        # push 시도
+        git push origin HEAD:main
 
