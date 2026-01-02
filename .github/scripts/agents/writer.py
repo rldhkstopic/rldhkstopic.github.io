@@ -127,16 +127,21 @@ class WriterAgent:
         Returns:
             str: 작성된 블로그 포스트 본문
         """
-        system_prompt = self._get_system_prompt()
+        category = topic.get('category', 'document')
+        system_prompt = self._get_system_prompt(category)
         
         # 조사 및 분석 데이터 정리
         research_text = research_data.get('raw_research', '')[:2000] if research_data.get('raw_research') else ''
         analysis_text = analysis_data.get('insights', '')[:1500] if analysis_data.get('insights') else ''
         
-        # 프롬프트를 더 간단하고 명확하게 구성
-        # ⚠️ 매우 중요: 프롬프트 맨 앞에 한국어 작성 지시를 명확히 배치
-        # 조사/분석 결과가 영어일 경우를 대비해 한국어로 번역 요청을 명시
-        base_prompt = f"""당신은 한국어로만 글을 쓰는 기술 블로그 작가입니다.
+        # Daily 카테고리는 별도의 프롬프트 사용
+        if category == 'daily':
+            base_prompt = self._get_daily_prompt(topic, research_text, analysis_text, system_prompt)
+        else:
+            # 프롬프트를 더 간단하고 명확하게 구성
+            # ⚠️ 매우 중요: 프롬프트 맨 앞에 한국어 작성 지시를 명확히 배치
+            # 조사/분석 결과가 영어일 경우를 대비해 한국어로 번역 요청을 명시
+            base_prompt = f"""당신은 한국어로만 글을 쓰는 기술 블로그 작가입니다.
 
 **⚠️ 매우 중요: 이 요청에 대한 모든 응답은 반드시 한국어(한글)로만 작성해야 합니다.**
 
@@ -422,8 +427,48 @@ class WriterAgent:
         
         return '\n'.join(processed_lines)
     
-    def _get_system_prompt(self) -> str:
+    def _get_daily_prompt(self, topic: Dict, research_text: str, analysis_text: str, system_prompt: str) -> str:
+        """Daily 카테고리 전용 프롬프트 생성"""
+        return f"""당신은 블로거의 개인적인 경험을 기록하는 에세이 작가입니다.
+
+**⚠️ 매우 중요: 이 요청에 대한 모든 응답은 반드시 한국어(한글)로만 작성해야 합니다.**
+
+**주제:**
+제목: {topic.get('title', '')}
+설명: {topic.get('description', '')}
+카테고리: daily (일상/회고)
+
+**참고 자료 (아래 내용을 바탕으로 개인 경험을 서술하세요):**
+{research_text[:1500]}
+
+**분석 인사이트 (참고용):**
+{analysis_text[:1000]}
+
+**작성 규칙 (Daily 카테고리 특화):**
+1. **1인칭 시점 유지:** '나', '내가', '나는', '내 생각에는' 등 개인의 관점에서 서술하세요. 3인칭 관찰자 시점("분석한다", "논한다")은 절대 사용하지 마세요.
+2. **감정 묘사 필수:** 단순히 사실만 나열하지 말고, 그때 느꼈던 감정(기쁨, 당황, 후회, 짜증, 놀라움 등)을 구체적으로 적으세요.
+3. **현장감:** 뉴스 기사 같은 말투("~했다고 한다", "~라고 전해진다")를 피하고, 일기장이나 친구에게 말하는 듯한 문체("~했다", "~였다", "~했다")를 사용하세요.
+4. **구체적인 묘사:** "대중교통 시스템 마비" 같은 추상적 표현 대신, "지하철역까지 가는 데만 30분이 걸려서 발이 퉁퉁 부었다"는 식의 구체적인 묘사를 사용하세요.
+5. **구조:** [상황(어디서 무엇을 겪었나)] -> [행동(무슨 일이 있었고 어떻게 했나)] -> [회고(무엇을 느꼈고 다음엔 어떻게 할 것인가)]
+6. **문체:** "~다."로 끝나는 문체를 사용하되, 건조하지 않고 개인적인 느낌이 드러나도록 작성하세요.
+7. **최소 1500자 이상 작성하세요.**
+8. **이모지는 사용하지 마세요.**
+
+**금지 사항:**
+- "본고는", "분석한다", "시사한다", "논한다" 같은 딱딱한 논문조 표현 절대 금지
+- 3인칭 관찰자 시점 절대 금지
+- 뉴스 기사나 보고서 같은 객관적 서술 금지
+- 감정 없이 팩트만 나열하는 것 금지
+
+{system_prompt}
+"""
+
+    def _get_system_prompt(self, category: str = 'document') -> str:
         """시스템 프롬프트 생성"""
+        if category == 'daily':
+            return """당신은 블로거의 개인적인 경험을 기록하는 에세이 작가입니다.
+일기장에 쓰는 것처럼 솔직하고 생생하게 개인의 경험을 서술하세요."""
+        
         return """당신은 현업 수석 엔지니어이자, 팩트와 논리를 중시하는 테크니컬 라이터입니다.
 주어진 조사 및 분석 결과를 바탕으로 웹페이지에 게시할 고품질의 기술 블로그 포스트를 Markdown 형식으로 작성하십시오.
 
