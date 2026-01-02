@@ -30,10 +30,12 @@ class ResearcherAgent:
         title = topic.get('title', '')
         description = topic.get('description', '')
         
-        research_prompt = f"""다음 주제에 대해 심층 조사를 수행해주세요:
+        research_prompt = f"""다음 주제에 대해 심층 조사를 수행하고, 결과를 한국어로 정리해주세요:
 
 **주제:** {title}
 **설명:** {description}
+
+⚠️ 중요: 모든 조사 결과는 반드시 한국어로 작성하세요.
 
 다음 정보를 수집하고 정리해주세요:
 

@@ -13,7 +13,7 @@ GITHUB_CLIENT_ID
 
 **Value:**
 ```
-Ov23lisMUemA9EpUyk3Q
+[GitHub OAuth App에서 발급받은 Client ID를 입력하세요]
 ```
 
 **설정:**
@@ -29,7 +29,8 @@ GITHUB_CLIENT_SECRET
 
 **Value:**
 ```
-60b0c83594ccbcb39585e0e9439be89722015cbe
+[GitHub OAuth App에서 발급받은 Client Secret을 입력하세요]
+⚠️ 보안: 이 값은 절대 공개 저장소에 커밋하지 마세요!
 ```
 
 **설정:**
@@ -41,7 +42,7 @@ GITHUB_CLIENT_SECRET
 
 1. **첫 번째 변수 추가:**
    - Key 필드에 `GITHUB_CLIENT_ID` 입력
-   - Value 필드에 `Ov23lisMUemA9EpUyk3Q` 입력
+   - Value 필드에 [GitHub OAuth App에서 발급받은 Client ID] 입력
    - Environments: All Environments 선택
    - Sensitive: Disabled (기본값)
 
@@ -49,7 +50,8 @@ GITHUB_CLIENT_SECRET
 
 3. **두 번째 변수 추가:**
    - Key 필드에 `GITHUB_CLIENT_SECRET` 입력
-   - Value 필드에 `60b0c83594ccbcb39585e0e9439be89722015cbe` 입력
+   - Value 필드에 [GitHub OAuth App에서 발급받은 Client Secret] 입력
+   - ⚠️ **보안 주의**: Client Secret은 절대 공개 저장소에 커밋하지 마세요!
    - Environments: **Production과 Preview만 선택** (Development는 선택하지 않음)
      - ⚠️ Sensitive 변수는 Development 환경에서 생성 불가
    - Sensitive: **Enabled로 토글 켜기** ⚠️

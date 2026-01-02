@@ -13,8 +13,9 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root / '.github' / 'scripts'))
 
-# API 키를 직접 설정 (테스트용)
-os.environ['GEMINI_API_KEY'] = 'AIzaSyAYXrmMz9eSCgW9JwDTkHaUKH8vFfYMKUs'
+# API 키는 환경 변수로 설정해야 함
+# 예: set GEMINI_API_KEY=your_key (Windows) 또는 export GEMINI_API_KEY=your_key (Linux/Mac)
+# ⚠️ 보안: API 키를 코드에 하드코딩하지 마세요!
 
 # 메인 스크립트 실행
 from auto_post import main

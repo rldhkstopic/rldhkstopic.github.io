@@ -11,6 +11,7 @@ on:
     # 파일 변경 커밋으로 1회성 실행을 트리거하기 위한 우회 경로다.
     paths:
       - '.github/force-auto-post-run'
+      - '_auto_post_requests/**'
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
@@ -32,10 +33,15 @@ jobs:
       run: |
         pip install -r .github/scripts/requirements.txt
         
+    - name: Install additional dependencies
+      run: |
+        pip install requests
+        
     - name: Run auto-post script
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: |
         python .github/scripts/auto_post.py
         

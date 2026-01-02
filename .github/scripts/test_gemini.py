@@ -4,18 +4,16 @@ Gemini API 테스트 스크립트
 사용 가능한 모델 목록을 확인하고 간단한 테스트를 수행한다.
 """
 
+import io
 import os
 import sys
 from google import genai
 
-# API 키 확인
-api_key = os.getenv('GEMINI_API_KEY', 'AIzaSyAYXrmMz9eSCgW9JwDTkHaUKH8vFfYMKUs')
+# API 키 확인 (보안: 기본값/하드코딩 금지)
+api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
     print("❌ GEMINI_API_KEY 환경 변수가 설정되지 않았습니다.")
     sys.exit(1)
-
-import sys
-import io
 
 # Windows 콘솔 인코딩 문제 해결
 if sys.platform == 'win32':

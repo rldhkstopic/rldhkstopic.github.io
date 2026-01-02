@@ -9,6 +9,7 @@ import sys
 import json
 import random
 import re
+import shutil
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Set
@@ -23,6 +24,17 @@ from agents.analyst import AnalystAgent
 from agents.writer import WriterAgent
 from agents.validator import ValidatorAgent
 from agents.post_creator import PostCreatorAgent
+from reviewer_agent import ReviewerAgent
+
+try:
+    from discord_notifier import notify_post_success, notify_post_failure, save_processing_result
+    DISCORD_NOTIFIER_AVAILABLE = True
+except ImportError:
+    DISCORD_NOTIFIER_AVAILABLE = False
+REQUEST_DIR = project_root / "_auto_post_requests"
+PROCESSED_DIR = project_root / "_auto_post_requests_processed"
+RESULTS_DIR = project_root / "_auto_post_results"
+
 
 
 def _load_existing_post_titles(posts_dir: Path) -> Set[str]:
@@ -74,6 +86,24 @@ def _select_topic(topics: List[Dict], existing_titles: Set[str]) -> Dict:
     return ranked[0]
 
 
+def _load_request() -> Dict:
+    """요청 큐에서 JSON 요청을 하나 불러온다."""
+    if not REQUEST_DIR.exists():
+        return {}
+    request_files = sorted(REQUEST_DIR.glob("*.json"))
+    if not request_files:
+        return {}
+
+    req_file = request_files[0]
+    try:
+        data = json.loads(req_file.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+    data["_request_file"] = req_file
+    return data
+
+
 def main():
     """메인 실행 함수"""
     print("=" * 60)
@@ -87,38 +117,77 @@ def main():
         print("[ERROR] GEMINI_API_KEY 환경 변수가 설정되지 않았습니다.")
         sys.exit(1)
     
+    # Discord 웹훅 URL (선택 사항)
+    discord_webhook = os.getenv('DISCORD_WEBHOOK_URL')
+    
     # 에이전트 초기화 (역할별)
     topic_agent = TopicCollectorAgent()
     researcher_agent = ResearcherAgent(gemini_key)
     analyst_agent = AnalystAgent(gemini_key)
     writer_agent = WriterAgent(gemini_key)
+    reviewer_agent = ReviewerAgent(gemini_key)
     validator_agent = ValidatorAgent()
     post_creator = PostCreatorAgent()
     
     try:
+        # 0. 요청 큐 우선 처리
+        request_data = _load_request()
+        request_mode = bool(request_data)
+        request_file = request_data.get("_request_file") if request_mode else None
+        request_id = request_data.get("request_id") or (request_file.stem if request_file else None) if request_mode else None
+        request_source = request_data.get("source", "discord") if request_mode else None
+
         # 1. 주제 수집
-        print("\n[1단계] 주제 수집 중...")
-        topics = topic_agent.collect_topics()
-        if not topics:
-            print("[WARN] 수집된 주제가 없습니다. 종료합니다.")
-            return  # 주제가 없으면 정상 종료
-        
-        print(f"[OK] {len(topics)}개의 주제를 수집했습니다.")
-        for i, topic in enumerate(topics[:3], 1):
-            print(f"   {i}. {topic.get('title', 'N/A')}")
-        
-        # 이미 발행된 글과 동일한 제목은 우선 제외하여 선택
-        existing_titles = _load_existing_post_titles(project_root / "_posts")
-        selected_topic = _select_topic(topics, existing_titles)
-        print(f"\n[선택] 주제: {selected_topic.get('title', 'N/A')}")
+        if request_mode:
+            print("\n[1단계] 디스코드 요청 처리 중...")
+            req_title = request_data.get("Topic") or request_data.get("title") or "Untitled"
+            req_category = (request_data.get("Category") or "document").lower()
+            req_situation = request_data.get("Situation") or ""
+            req_action = request_data.get("Action") or ""
+            req_memo = request_data.get("Memo") or ""
+            mapped_category = req_category if req_category in ["dev", "study", "daily", "document"] else "document"
+            selected_topic = {
+                "title": req_title,
+                "description": req_situation,
+                "category": mapped_category,
+                "tags": [],
+                "source": "discord",
+                "source_url": "",
+            }
+            print(f"[OK] 요청 주제: {selected_topic.get('title')}")
+        else:
+            print("\n[1단계] 주제 수집 중...")
+            topics = topic_agent.collect_topics()
+            if not topics:
+                print("[WARN] 수집된 주제가 없습니다. 종료합니다.")
+                return  # 주제가 없으면 정상 종료
+            
+            print(f"[OK] {len(topics)}개의 주제를 수집했습니다.")
+            for i, topic in enumerate(topics[:3], 1):
+                print(f"   {i}. {topic.get('title', 'N/A')}")
+            
+            # 이미 발행된 글과 동일한 제목은 우선 제외하여 선택
+            existing_titles = _load_existing_post_titles(project_root / "_posts")
+            selected_topic = _select_topic(topics, existing_titles)
+            print(f"\n[선택] 주제: {selected_topic.get('title', 'N/A')}")
         
         # 2. 심층 조사 (ResearcherAgent)
         print("\n[2단계] 심층 조사 중...")
-        research_data = researcher_agent.research_topic(selected_topic)
-        if not research_data or not research_data.get('raw_research'):
-            print("[WARN] 조사 데이터가 부족합니다. 계속 진행합니다.")
-        
-        print(f"[OK] 조사 완료 (출처: {len(research_data.get('sources', []))}개)")
+        if request_mode:
+            # 요청 기반: 메모/상황/액션을 조사 데이터로 간주
+            memo_text = f"상황: {selected_topic.get('description','')}\n" \
+                        f"액션: {request_data.get('Action','')}\n" \
+                        f"메모: {request_data.get('Memo','')}"
+            research_data = {
+                "raw_research": memo_text,
+                "sources": []
+            }
+            print("[OK] 요청 기반 조사 데이터 사용")
+        else:
+            research_data = researcher_agent.research_topic(selected_topic)
+            if not research_data or not research_data.get('raw_research'):
+                print("[WARN] 조사 데이터가 부족합니다. 계속 진행합니다.")
+            print(f"[OK] 조사 완료 (출처: {len(research_data.get('sources', []))}개)")
         
         # 3. 데이터 분석 (AnalystAgent)
         print("\n[3단계] 데이터 분석 중...")
@@ -135,10 +204,17 @@ def main():
             print("[ERROR] 글 작성에 실패했습니다.")
             sys.exit(1)
         
+        # 4-1. 작성 후 검토 (ReviewerAgent)
+        print("\n[4-1단계] 작성물 검토/교정 중...")
+        final_content_text = reviewer_agent.review(content_text, selected_topic.get("category", "document"))
+        if not final_content_text:
+            print("[ERROR] 검토 결과가 비었습니다.")
+            sys.exit(1)
+
         # 콘텐츠 구조화
         content = {
             'title': selected_topic.get('title', ''),
-            'content': content_text,
+            'content': final_content_text,
             'category': selected_topic.get('category', 'document'),
             'tags': selected_topic.get('tags', []),
             'date': datetime.now().strftime('%Y-%m-%d'),
@@ -175,15 +251,73 @@ def main():
             sys.exit(1)
         
         print(f"[OK] 포스트 생성 완료: {post_path}")
+
+        # 요청 처리 완료 시 파일 이동
+        if request_mode and request_file:
+            PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+            dest = PROCESSED_DIR / request_file.name
+            try:
+                shutil.move(str(request_file), dest)
+                print(f"[INFO] 요청 파일 이동: {request_file.name} -> {dest}")
+            except Exception as e:
+                print(f"[WARN] 요청 파일 이동 실패: {e}")
+        
+        # Discord 알림 전송 (성공)
+        if DISCORD_NOTIFIER_AVAILABLE and discord_webhook:
+            topic_title = selected_topic.get('title', 'N/A')
+            category = selected_topic.get('category', 'document')
+            notify_post_success(
+                discord_webhook,
+                topic_title,
+                category,
+                str(post_path),
+                request_source,
+            )
+        
+        # 처리 결과 저장
+        if request_id and DISCORD_NOTIFIER_AVAILABLE:
+            RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+            save_processing_result(
+                str(RESULTS_DIR),
+                request_id,
+                "success",
+                selected_topic.get('title', 'N/A'),
+                str(post_path),
+            )
         
         print("\n" + "=" * 60)
         print("[SUCCESS] 자동 포스팅 완료!")
         print("=" * 60)
         
     except Exception as e:
-        print(f"\n[ERROR] 오류 발생: {str(e)}")
+        error_msg = str(e)
+        print(f"\n[ERROR] 오류 발생: {error_msg}")
         import traceback
         traceback.print_exc()
+        
+        # Discord 알림 전송 (실패)
+        if DISCORD_NOTIFIER_AVAILABLE and discord_webhook:
+            topic_title = request_data.get('Topic', '알 수 없음') if request_data else '알 수 없음'
+            notify_post_failure(
+                discord_webhook,
+                topic_title,
+                error_msg,
+                request_source,
+            )
+        
+        # 처리 결과 저장 (실패)
+        if request_id and DISCORD_NOTIFIER_AVAILABLE:
+            RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+            topic_title = request_data.get('Topic', '알 수 없음') if request_data else '알 수 없음'
+            save_processing_result(
+                str(RESULTS_DIR),
+                request_id,
+                "failure",
+                topic_title,
+                None,
+                error_msg,
+            )
+        
         sys.exit(1)
 
 

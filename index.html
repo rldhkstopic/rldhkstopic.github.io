@@ -46,7 +46,7 @@ layout: default
       <div class="profile-bio">{{ site.bio | newline_to_br }}</div>
       
       <!-- 글쓰기 버튼 (로그인된 경우에만 표시) -->
-      <a href="/editor/" class="profile-write-btn" id="profile-write-btn" title="글쓰기" aria-label="글쓰기" style="display: none;">
+      <!-- 로그인/에디터 기반 글쓰기는 사용하지 않으므로 홈에서 제거한다. -->
         <i class="bi bi-pencil-square"></i>
         <span>글쓰기</span>
       </a>

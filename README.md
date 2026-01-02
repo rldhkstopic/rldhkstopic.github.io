@@ -1,5 +1,7 @@
 # rldhkstopic 블로그
 
+[![Auto Post Daily](https://github.com/rldhkstopic/rldhkstopic.github.io/actions/workflows/auto-post.yml/badge.svg)](https://github.com/rldhkstopic/rldhkstopic.github.io/actions/workflows/auto-post.yml)
+
 ## 사전 요구사항
 
 Jekyll을 실행하기 위해 Ruby와 Bundler가 필요합니다.

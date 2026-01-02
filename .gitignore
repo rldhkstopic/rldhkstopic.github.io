@@ -17,4 +17,22 @@ convert-json.js
 temp_*.json
 *_updated.json
 
+# API 키 및 시크릿 파일
+*.key
+*.secret
+*_api_key*
+*_secret*
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+*credentials*
+config/secrets.yml
 
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
