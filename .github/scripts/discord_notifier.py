@@ -67,9 +67,25 @@ def notify_post_success(
     request_source: Optional[str] = None,
 ) -> bool:
     """포스트 생성 성공 알림"""
+    # 파일명에서 날짜와 제목 추출
+    from pathlib import Path
+    post_file = Path(post_path)
+    post_filename = post_file.name
+    
+    # 파일명 형식: YYYY-MM-DD-title.md
+    # 블로그 URL 생성: https://rldhkstopic.github.io/blog/YYYY/MM/DD/title/
+    if post_filename.startswith("20") and len(post_filename) >= 10:
+        date_part = post_filename[:10]  # YYYY-MM-DD
+        title_part = post_filename[11:-3]  # title (확장자 제외)
+        year, month, day = date_part.split("-")
+        blog_url = f"https://rldhkstopic.github.io/blog/{year}/{month}/{day}/{title_part}/"
+    else:
+        blog_url = "https://rldhkstopic.github.io/blog/"
+    
     fields = [
         {"name": "카테고리", "value": category, "inline": True},
-        {"name": "파일 경로", "value": f"`{post_path}`", "inline": False},
+        {"name": "파일명", "value": f"`{post_filename}`", "inline": False},
+        {"name": "블로그 링크", "value": f"[글 보기]({blog_url})", "inline": False},
     ]
     
     if request_source:
@@ -78,7 +94,7 @@ def notify_post_success(
     return send_discord_notification(
         webhook_url=webhook_url,
         title="✅ 포스트 생성 완료",
-        description=f"**{topic}**\n\n블로그 포스트가 성공적으로 생성되었습니다.",
+        description=f"**{topic}**\n\n블로그 포스트가 성공적으로 생성되었습니다.\n\n[블로그에서 확인하기]({blog_url})",
         color=0x00FF00,  # Green
         fields=fields,
         footer="GitHub Actions",
