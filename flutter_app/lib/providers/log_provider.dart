@@ -16,15 +16,17 @@ class LogProvider with ChangeNotifier {
   List<DailyLog> get logs => _logs;
   bool get isLoading => _isLoading;
   String? get error => _error;
+  DateTime? _currentDate;
 
-  /// 오늘의 기록 목록 로드
-  Future<void> _loadTodayLogs() async {
+  /// 특정 날짜의 기록 목록 로드
+  Future<void> loadLogsForDate(DateTime date) async {
+    _currentDate = date;
     _isLoading = true;
     _error = null;
     notifyListeners();
 
     try {
-      _logs = await _githubService.getTodayLogs();
+      _logs = await _githubService.getLogsForDate(date);
       _error = null;
     } catch (e) {
       _error = '기록을 불러오는데 실패했습니다: $e';
@@ -35,12 +37,18 @@ class LogProvider with ChangeNotifier {
     }
   }
 
+  /// 오늘의 기록 목록 로드
+  Future<void> _loadTodayLogs() async {
+    await loadLogsForDate(DateTime.now());
+  }
+
   /// 새 기록 추가
   Future<bool> addLog(String content, {String? mood, List<String>? tags, String? location}) async {
+    final now = DateTime.now();
     final log = DailyLog(
-      id: DateTime.now().millisecondsSinceEpoch.toString(),
+      id: now.millisecondsSinceEpoch.toString(),
       content: content,
-      timestamp: DateTime.now(),
+      timestamp: now,
       mood: mood,
       tags: tags,
       location: location,
@@ -53,8 +61,16 @@ class LogProvider with ChangeNotifier {
     try {
       final success = await _githubService.saveLog(log);
       if (success) {
-        _logs.add(log);
-        _logs.sort((a, b) => a.timestamp.compareTo(b.timestamp));
+        // 오늘 날짜의 기록이면 목록에 추가
+        final today = DateTime(now.year, now.month, now.day);
+        final currentDate = _currentDate != null
+            ? DateTime(_currentDate!.year, _currentDate!.month, _currentDate!.day)
+            : null;
+        
+        if (currentDate == null || currentDate == today) {
+          _logs.add(log);
+          _logs.sort((a, b) => a.timestamp.compareTo(b.timestamp));
+        }
         _error = null;
         notifyListeners();
         return true;

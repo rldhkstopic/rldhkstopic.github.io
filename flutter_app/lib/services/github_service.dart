@@ -58,10 +58,10 @@ class GitHubService {
     }
   }
 
-  /// 당일 기록 목록 조회
-  Future<List<DailyLog>> getTodayLogs() async {
+  /// 특정 날짜의 기록 목록 조회
+  Future<List<DailyLog>> getLogsForDate(DateTime date) async {
     try {
-      final dateStr = DateFormat('yyyy-MM-dd').format(DateTime.now());
+      final dateStr = DateFormat('yyyy-MM-dd').format(date);
       final path = '$_logsDir/$dateStr';
 
       // GitHub API: 디렉토리 내용 조회
@@ -105,6 +105,11 @@ class GitHubService {
       print('[ERROR] 기록 조회 오류: $e');
       return [];
     }
+  }
+
+  /// 당일 기록 목록 조회
+  Future<List<DailyLog>> getTodayLogs() async {
+    return getLogsForDate(DateTime.now());
   }
 
   /// 기록 삭제
