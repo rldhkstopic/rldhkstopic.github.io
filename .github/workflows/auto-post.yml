@@ -52,11 +52,16 @@ jobs:
         git config --local user.name "GitHub Action"
         # 원격 변경사항을 먼저 가져온다
         git fetch origin main
-        # 원격 변경사항을 가져온다 (충돌 시 merge 전략 사용)
+        # 로컬 변경사항과 untracked 파일을 먼저 커밋
+        git add -A
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-post: stage local changes before pull" || true
+        fi
+        # 원격 변경사항을 가져온다
         git pull origin main --no-rebase || {
           # pull 실패 시 (충돌 등) 현재 버전을 우선
-          git checkout --ours _posts/*.md 2>/dev/null || true
-          git add _posts/*.md 2>/dev/null || true
+          git checkout --ours _posts/*.md _auto_post_requests_processed/* _auto_post_results/* 2>/dev/null || true
+          git add _posts/*.md _auto_post_requests_processed/* _auto_post_results/* 2>/dev/null || true
           git commit -m "Resolve merge conflict: keep auto-generated post" || true
         }
         # 생성된 포스트와 처리된 요청 파일 등 모든 변경사항 추가

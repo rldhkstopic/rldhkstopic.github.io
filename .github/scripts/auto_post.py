@@ -89,15 +89,26 @@ def _select_topic(topics: List[Dict], existing_titles: Set[str]) -> Dict:
 def _load_request() -> Dict:
     """요청 큐에서 JSON 요청을 하나 불러온다."""
     if not REQUEST_DIR.exists():
+        print("[INFO] 요청 디렉토리가 존재하지 않습니다.")
         return {}
     request_files = sorted(REQUEST_DIR.glob("*.json"))
     if not request_files:
+        print("[INFO] 대기 중인 요청이 없습니다.")
         return {}
 
+    print(f"[INFO] 발견된 요청 파일 수: {len(request_files)}")
+    for i, f in enumerate(request_files[:5], 1):  # 최대 5개만 출력
+        print(f"  {i}. {f.name}")
+
     req_file = request_files[0]
+    print(f"[INFO] 처리할 요청 파일: {req_file.name}")
     try:
         data = json.loads(req_file.read_text(encoding="utf-8"))
-    except Exception:
+        topic = data.get("Topic") or data.get("title") or "N/A"
+        category = data.get("Category") or "N/A"
+        print(f"[INFO] 요청 내용 - 주제: {topic}, 카테고리: {category}")
+    except Exception as e:
+        print(f"[ERROR] 요청 파일 파싱 실패: {e}")
         return {}
 
     data["_request_file"] = req_file
@@ -140,6 +151,7 @@ def main():
         # 1. 주제 수집
         if request_mode:
             print("\n[1단계] 디스코드 요청 처리 중...")
+            print(f"[INFO] 요청 파일: {request_file.name if request_file else 'N/A'}")
             req_title = request_data.get("Topic") or request_data.get("title") or "Untitled"
             req_category = (request_data.get("Category") or "document").lower()
             req_situation = request_data.get("Situation") or ""
@@ -155,6 +167,8 @@ def main():
                 "source_url": "",
             }
             print(f"[OK] 요청 주제: {selected_topic.get('title')}")
+            print(f"[OK] 카테고리: {mapped_category}")
+            print(f"[OK] 요청 출처: {request_source}")
         else:
             print("\n[1단계] 주제 수집 중...")
             topics = topic_agent.collect_topics()
