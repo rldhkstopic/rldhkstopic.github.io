@@ -29,7 +29,7 @@ class LogProvider with ChangeNotifier {
       _logs = await _githubService.getLogsForDate(date);
       _error = null;
     } catch (e) {
-      _error = '기록을 불러오는데 실패했습니다: $e';
+      _error = e.toString().replaceAll('Exception: ', '');
       print('[ERROR] $_error');
     } finally {
       _isLoading = false;
@@ -80,7 +80,7 @@ class LogProvider with ChangeNotifier {
         return false;
       }
     } catch (e) {
-      _error = '기록 저장 중 오류가 발생했습니다: $e';
+      _error = e.toString().replaceAll('Exception: ', '');
       notifyListeners();
       return false;
     } finally {

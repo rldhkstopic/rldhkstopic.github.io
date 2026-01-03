@@ -14,13 +14,23 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _messageController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
+  final FocusNode _focusNode = FocusNode();
   DateTime _selectedDate = DateTime.now();
   bool _isSubmitting = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _messageController.addListener(() {
+      setState(() {}); // 텍스트 변경 시 UI 업데이트
+    });
+  }
 
   @override
   void dispose() {
     _messageController.dispose();
     _scrollController.dispose();
+    _focusNode.dispose();
     super.dispose();
   }
 
@@ -42,6 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     if (success) {
       _messageController.clear();
+      _focusNode.unfocus();
       // 스크롤을 맨 아래로
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (_scrollController.hasClients) {
@@ -54,12 +65,16 @@ class _HomeScreenState extends State<HomeScreen> {
       });
     } else {
       if (mounted) {
+        final error = context.read<LogProvider>().error ?? '저장에 실패했습니다';
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text(
-              context.read<LogProvider>().error ?? '저장에 실패했습니다',
+            content: Text(error),
+            backgroundColor: Colors.red[600],
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
             ),
-            backgroundColor: Colors.red,
+            margin: const EdgeInsets.all(16),
           ),
         );
       }
@@ -76,8 +91,10 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[50],
+      backgroundColor: Colors.white,
+      resizeToAvoidBottomInset: true,
       body: SafeArea(
+        bottom: false,
         child: Column(
           children: [
             // 상단: 월 표시
@@ -85,6 +102,9 @@ class _HomeScreenState extends State<HomeScreen> {
             
             // 날짜 선택 바
             _buildDateSelector(),
+            
+            // 구분선
+            Divider(height: 1, color: Colors.grey[200]),
             
             // 컨텐츠 영역
             Expanded(
@@ -102,33 +122,26 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildMonthHeader() {
     final monthFormat = DateFormat('yyyy년 M월');
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.05),
-            blurRadius: 4,
-            offset: const Offset(0, 2),
-          ),
-        ],
-      ),
+      padding: const EdgeInsets.fromLTRB(16, 12, 8, 12),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
             monthFormat.format(_selectedDate),
             style: const TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-              color: Colors.black87,
+              fontSize: 22,
+              fontWeight: FontWeight.w600,
+              color: Colors.black,
+              letterSpacing: -0.5,
             ),
           ),
           IconButton(
-            icon: const Icon(Icons.refresh),
+            icon: Icon(Icons.refresh, size: 22, color: Colors.grey[800]),
             onPressed: () {
               context.read<LogProvider>().refresh();
             },
+            padding: EdgeInsets.zero,
+            constraints: const BoxConstraints(),
             tooltip: '새로고침',
           ),
         ],
@@ -143,7 +156,6 @@ class _HomeScreenState extends State<HomeScreen> {
     
     // 현재 월의 첫 날과 마지막 날
     final firstDay = DateTime(currentYear, currentMonth, 1);
-    final lastDay = DateTime(currentYear, currentMonth + 1, 0);
     
     // 표시할 날짜 리스트 (현재 일부터 과거로)
     final List<DateTime> dates = [];
@@ -161,18 +173,8 @@ class _HomeScreenState extends State<HomeScreen> {
     dates.sort((a, b) => b.compareTo(a));
 
     return Container(
-      height: 70,
+      height: 56,
       padding: const EdgeInsets.symmetric(vertical: 8),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.03),
-            blurRadius: 2,
-            offset: const Offset(0, 1),
-          ),
-        ],
-      ),
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -190,32 +192,29 @@ class _HomeScreenState extends State<HomeScreen> {
           return GestureDetector(
             onTap: () => _selectDate(date),
             child: Container(
-              width: 50,
-              margin: const EdgeInsets.symmetric(horizontal: 4),
+              width: 44,
+              margin: const EdgeInsets.symmetric(horizontal: 3),
               decoration: BoxDecoration(
                 color: isSelected 
-                    ? Colors.blue[600]
-                    : isToday
-                        ? Colors.blue[50]
-                        : Colors.transparent,
-                borderRadius: BorderRadius.circular(12),
-                border: isToday && !isSelected
-                    ? Border.all(color: Colors.blue[300]!, width: 2)
-                    : null,
+                    ? Colors.black
+                    : Colors.transparent,
+                borderRadius: BorderRadius.circular(22),
               ),
               child: Center(
                 child: Text(
                   '$day',
                   style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: isSelected || isToday 
-                        ? FontWeight.bold 
-                        : FontWeight.normal,
+                    fontSize: 15,
+                    fontWeight: isSelected 
+                        ? FontWeight.w600 
+                        : isToday
+                            ? FontWeight.w500
+                            : FontWeight.w400,
                     color: isSelected
                         ? Colors.white
                         : isToday
-                            ? Colors.blue[700]
-                            : Colors.black87,
+                            ? Colors.black
+                            : Colors.grey[700],
                   ),
                 ),
               ),
@@ -231,28 +230,69 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (context, provider, child) {
         if (provider.isLoading && provider.logs.isEmpty) {
           return const Center(
-            child: CircularProgressIndicator(),
+            child: CircularProgressIndicator(
+              strokeWidth: 2,
+            ),
           );
         }
 
         if (provider.error != null && provider.logs.isEmpty) {
+          final isAuthError = provider.error!.contains('401') || 
+                              provider.error!.contains('Bad credentials') ||
+                              provider.error!.contains('인증');
+          
           return Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(Icons.error_outline, size: 64, color: Colors.red[300]),
-                const SizedBox(height: 16),
-                Text(
-                  provider.error!,
-                  style: TextStyle(color: Colors.red[700]),
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 16),
-                ElevatedButton(
-                  onPressed: () => provider.refresh(),
-                  child: const Text('다시 시도'),
-                ),
-              ],
+            child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    isAuthError ? Icons.lock_outline : Icons.error_outline,
+                    size: 56,
+                    color: Colors.grey[400],
+                  ),
+                  const SizedBox(height: 16),
+                  Text(
+                    isAuthError 
+                        ? 'GitHub 인증 오류'
+                        : '오류가 발생했습니다',
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.grey[800],
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    isAuthError
+                        ? 'lib/config/config.dart 파일에서\nGitHub Token을 확인해주세요.'
+                        : provider.error!,
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.grey[600],
+                      height: 1.5,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 24),
+                  ElevatedButton(
+                    onPressed: () => provider.refresh(),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.black,
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 24,
+                        vertical: 12,
+                      ),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                    ),
+                    child: const Text('다시 시도'),
+                  ),
+                ],
+              ),
             ),
           );
         }
@@ -262,16 +302,17 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.chat_bubble_outline, size: 64, color: Colors.grey[400]),
+                Icon(Icons.edit_outlined, size: 56, color: Colors.grey[300]),
                 const SizedBox(height: 16),
                 Text(
                   '기록이 없습니다',
                   style: TextStyle(
-                    fontSize: 18,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
                     color: Colors.grey[600],
                   ),
                 ),
-                const SizedBox(height: 8),
+                const SizedBox(height: 6),
                 Text(
                   '하단 입력창에 일상을 기록해보세요',
                   style: TextStyle(
@@ -286,11 +327,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
         return ListView.builder(
           controller: _scrollController,
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           itemCount: provider.logs.length,
           itemBuilder: (context, index) {
             final log = provider.logs[index];
-            return _LogBubble(log: log);
+            return _LogCard(log: log);
           },
         );
       },
@@ -299,222 +340,287 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildChatInput() {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       decoration: BoxDecoration(
         color: Colors.white,
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.1),
-            blurRadius: 8,
-            offset: const Offset(0, -2),
-          ),
-        ],
+        border: Border(
+          top: BorderSide(color: Colors.grey[200]!, width: 0.5),
+        ),
       ),
       child: SafeArea(
-        child: Row(
-          children: [
-            Expanded(
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.grey[100],
-                  borderRadius: BorderRadius.circular(24),
+        top: false,
+        child: Padding(
+          padding: EdgeInsets.only(
+            left: 16,
+            right: 16,
+            top: 8,
+            bottom: MediaQuery.of(context).viewInsets.bottom > 0 
+                ? 8 
+                : MediaQuery.of(context).padding.bottom > 0 
+                    ? 0 
+                    : 8,
+          ),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              Expanded(
+                child: Container(
+                  constraints: const BoxConstraints(maxHeight: 100),
+                  decoration: BoxDecoration(
+                    color: Colors.grey[100],
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: TextField(
+                    controller: _messageController,
+                    focusNode: _focusNode,
+                    decoration: const InputDecoration(
+                      hintText: '일상을 기록하세요...',
+                      hintStyle: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 15,
+                      ),
+                      border: InputBorder.none,
+                      contentPadding: EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 10,
+                      ),
+                    ),
+                    style: const TextStyle(
+                      fontSize: 15,
+                      color: Colors.black87,
+                    ),
+                    maxLines: null,
+                    textInputAction: TextInputAction.send,
+                    onSubmitted: (_) => _sendMessage(),
+                  ),
                 ),
-                child: TextField(
-                  controller: _messageController,
-                  decoration: const InputDecoration(
-                    hintText: '일상을 기록하세요...',
-                    border: InputBorder.none,
-                    contentPadding: EdgeInsets.symmetric(
-                      horizontal: 20,
-                      vertical: 12,
+              ),
+              const SizedBox(width: 8),
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: _messageController.text.trim().isNotEmpty || _isSubmitting
+                      ? Colors.black
+                      : Colors.grey[300],
+                  shape: BoxShape.circle,
+                ),
+                child: Material(
+                  color: Colors.transparent,
+                  child: InkWell(
+                    borderRadius: BorderRadius.circular(20),
+                    onTap: _isSubmitting ? null : _sendMessage,
+                    child: Center(
+                      child: _isSubmitting
+                          ? const SizedBox(
+                              width: 18,
+                              height: 18,
+                              child: CircularProgressIndicator(
+                                strokeWidth: 2,
+                                valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                              ),
+                            )
+                          : Icon(
+                              Icons.send_rounded,
+                              size: 20,
+                              color: _messageController.text.trim().isNotEmpty
+                                  ? Colors.white
+                                  : Colors.grey[600],
+                            ),
                     ),
                   ),
-                  maxLines: null,
-                  textInputAction: TextInputAction.send,
-                  onSubmitted: (_) => _sendMessage(),
                 ),
               ),
-            ),
-            const SizedBox(width: 8),
-            Container(
-              decoration: BoxDecoration(
-                color: Colors.blue[600],
-                shape: BoxShape.circle,
-              ),
-              child: IconButton(
-                icon: _isSubmitting
-                    ? const SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: CircularProgressIndicator(
-                          strokeWidth: 2,
-                          valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
-                        ),
-                      )
-                    : const Icon(Icons.send, color: Colors.white),
-                onPressed: _isSubmitting ? null : _sendMessage,
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
   }
 }
 
-class _LogBubble extends StatelessWidget {
+class _LogCard extends StatelessWidget {
   final DailyLog log;
 
-  const _LogBubble({required this.log});
+  const _LogCard({required this.log});
 
   @override
   Widget build(BuildContext context) {
     final timeFormat = DateFormat('HH:mm');
-    final isToday = DateFormat('yyyy-MM-dd').format(log.timestamp) ==
-        DateFormat('yyyy-MM-dd').format(DateTime.now());
+    final dateFormat = DateFormat('yyyy-MM-dd');
+    final isToday = dateFormat.format(log.timestamp) ==
+        dateFormat.format(DateTime.now());
 
     return Container(
-      margin: const EdgeInsets.only(bottom: 12),
-      child: Row(
+      margin: const EdgeInsets.only(bottom: 16),
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // 시간 표시
-          Container(
-            width: 50,
-            padding: const EdgeInsets.only(top: 4),
-            child: Text(
-              timeFormat.format(log.timestamp),
-              style: TextStyle(
-                fontSize: 12,
-                color: Colors.grey[600],
-                fontWeight: FontWeight.w500,
-              ),
-            ),
-          ),
           // 컨텐츠 카드
-          Expanded(
-            child: Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withOpacity(0.05),
-                    blurRadius: 8,
-                    offset: const Offset(0, 2),
-                  ),
-                ],
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    log.content,
-                    style: const TextStyle(
-                      fontSize: 15,
-                      height: 1.5,
-                      color: Colors.black87,
-                    ),
-                  ),
-                  if (log.mood != null || log.location != null || log.tags != null) ...[
-                    const SizedBox(height: 12),
-                    Wrap(
-                      spacing: 6,
-                      runSpacing: 6,
-                      children: [
-                        if (log.mood != null)
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 10,
-                              vertical: 4,
-                            ),
-                            decoration: BoxDecoration(
-                              color: Colors.blue[50],
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            child: Text(
-                              '😊 ${log.mood}',
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: Colors.blue[700],
-                              ),
-                            ),
-                          ),
-                        if (log.location != null)
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 10,
-                              vertical: 4,
-                            ),
-                            decoration: BoxDecoration(
-                              color: Colors.green[50],
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            child: Text(
-                              '📍 ${log.location}',
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: Colors.green[700],
-                              ),
-                            ),
-                          ),
-                        if (log.tags != null)
-                          ...log.tags!.map((tag) => Container(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 10,
-                                  vertical: 4,
-                                ),
-                                decoration: BoxDecoration(
-                                  color: Colors.purple[50],
-                                  borderRadius: BorderRadius.circular(12),
-                                ),
-                                child: Text(
-                                  '#$tag',
-                                  style: TextStyle(
-                                    fontSize: 12,
-                                    color: Colors.purple[700],
-                                  ),
-                                ),
-                              )),
-                      ],
-                    ),
-                  ],
-                ],
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(
+                color: Colors.grey[200]!,
+                width: 0.5,
               ),
             ),
-          ),
-          // 삭제 버튼
-          IconButton(
-            icon: Icon(Icons.close, size: 18, color: Colors.grey[400]),
-            onPressed: () async {
-              final confirmed = await showDialog<bool>(
-                context: context,
-                builder: (context) => AlertDialog(
-                  title: const Text('기록 삭제'),
-                  content: const Text('이 기록을 삭제하시겠습니까?'),
-                  actions: [
-                    TextButton(
-                      onPressed: () => Navigator.pop(context, false),
-                      child: const Text('취소'),
-                    ),
-                    TextButton(
-                      onPressed: () => Navigator.pop(context, true),
-                      child: const Text('삭제', style: TextStyle(color: Colors.red)),
-                    ),
-                  ],
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  log.content,
+                  style: const TextStyle(
+                    fontSize: 15,
+                    height: 1.5,
+                    color: Colors.black87,
+                    letterSpacing: -0.2,
+                  ),
                 ),
-              );
+                if (log.mood != null || log.location != null || log.tags != null) ...[
+                  const SizedBox(height: 12),
+                  Wrap(
+                    spacing: 6,
+                    runSpacing: 6,
+                    children: [
+                      if (log.mood != null)
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 10,
+                            vertical: 5,
+                          ),
+                          decoration: BoxDecoration(
+                            color: Colors.grey[100],
+                            borderRadius: BorderRadius.circular(6),
+                          ),
+                          child: Text(
+                            log.mood!,
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.grey[700],
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ),
+                      if (log.location != null)
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 10,
+                            vertical: 5,
+                          ),
+                          decoration: BoxDecoration(
+                            color: Colors.grey[100],
+                            borderRadius: BorderRadius.circular(6),
+                          ),
+                          child: Text(
+                            log.location!,
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.grey[700],
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ),
+                      if (log.tags != null)
+                        ...log.tags!.map((tag) => Container(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 10,
+                                vertical: 5,
+                              ),
+                              decoration: BoxDecoration(
+                                color: Colors.grey[100],
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                              child: Text(
+                                '#$tag',
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.grey[700],
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                            )),
+                    ],
+                  ),
+                ],
+              ],
+            ),
+          ),
+          // 시간과 삭제 버튼
+          Padding(
+            padding: const EdgeInsets.only(top: 6, left: 4),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  timeFormat.format(log.timestamp),
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.grey[500],
+                    fontWeight: FontWeight.w400,
+                  ),
+                ),
+                GestureDetector(
+                  onTap: () async {
+                    final confirmed = await showDialog<bool>(
+                      context: context,
+                      builder: (context) => AlertDialog(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        title: const Text(
+                          '기록 삭제',
+                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+                        ),
+                        content: const Text('이 기록을 삭제하시겠습니까?'),
+                        actions: [
+                          TextButton(
+                            onPressed: () => Navigator.pop(context, false),
+                            child: Text(
+                              '취소',
+                              style: TextStyle(color: Colors.grey[700]),
+                            ),
+                          ),
+                          TextButton(
+                            onPressed: () => Navigator.pop(context, true),
+                            child: const Text(
+                              '삭제',
+                              style: TextStyle(color: Colors.red),
+                            ),
+                          ),
+                        ],
+                      ),
+                    );
 
-              if (confirmed == true && context.mounted) {
-                await context.read<LogProvider>().deleteLog(log);
-                if (context.mounted) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('기록이 삭제되었습니다')),
-                  );
-                }
-              }
-            },
+                    if (confirmed == true && context.mounted) {
+                      await context.read<LogProvider>().deleteLog(log);
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: const Text('기록이 삭제되었습니다'),
+                            behavior: SnackBarBehavior.floating,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            margin: const EdgeInsets.all(16),
+                          ),
+                        );
+                      }
+                    }
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(4),
+                    child: Icon(
+                      Icons.more_horiz,
+                      size: 18,
+                      color: Colors.grey[400],
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ],
       ),

@@ -48,9 +48,18 @@ class GitHubService {
       if (response.statusCode == 201 || response.statusCode == 200) {
         return true;
       } else {
+        final errorBody = jsonDecode(response.body);
+        final errorMessage = errorBody['message'] ?? '알 수 없는 오류';
         print('[ERROR] GitHub API 오류: ${response.statusCode}');
         print('[ERROR] 응답: ${response.body}');
-        return false;
+        
+        if (response.statusCode == 401) {
+          throw Exception('GitHub 인증 오류: Token이 유효하지 않습니다. lib/config/config.dart 파일을 확인해주세요.');
+        } else if (response.statusCode == 403) {
+          throw Exception('GitHub 권한 오류: Token에 repo 권한이 필요합니다.');
+        } else {
+          throw Exception('GitHub API 오류 ($response.statusCode): $errorMessage');
+        }
       }
     } catch (e) {
       print('[ERROR] 기록 저장 실패: $e');
@@ -98,8 +107,17 @@ class GitHubService {
         // 디렉토리가 없으면 빈 리스트 반환
         return [];
       } else {
+        final errorBody = jsonDecode(response.body);
+        final errorMessage = errorBody['message'] ?? '알 수 없는 오류';
         print('[ERROR] 기록 조회 실패: ${response.statusCode}');
-        return [];
+        
+        if (response.statusCode == 401) {
+          throw Exception('GitHub 인증 오류: Token이 유효하지 않습니다. lib/config/config.dart 파일을 확인해주세요.');
+        } else if (response.statusCode == 403) {
+          throw Exception('GitHub 권한 오류: Token에 repo 권한이 필요합니다.');
+        } else {
+          throw Exception('GitHub API 오류 ($response.statusCode): $errorMessage');
+        }
       }
     } catch (e) {
       print('[ERROR] 기록 조회 오류: $e');
