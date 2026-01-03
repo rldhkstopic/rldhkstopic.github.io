@@ -65,6 +65,7 @@ def notify_post_success(
     category: str,
     post_path: str,
     request_source: Optional[str] = None,
+    post_content: Optional[str] = None,
 ) -> bool:
     """포스트 생성 성공 알림"""
     # 파일명에서 날짜와 제목 추출
@@ -82,10 +83,35 @@ def notify_post_success(
     else:
         blog_url = "https://rldhkstopic.github.io/blog/"
     
+    # 포스트 내용 읽기 (없으면 파일에서 읽기)
+    if post_content is None:
+        try:
+            post_content = post_file.read_text(encoding="utf-8")
+        except Exception as e:
+            print(f"[WARN] 포스트 내용 읽기 실패: {e}")
+            post_content = ""
+    
+    # Front Matter 제거 (---로 시작하는 부분)
+    if post_content.startswith("---"):
+        parts = post_content.split("---", 2)
+        if len(parts) >= 3:
+            post_content = parts[2].strip()
+    
+    # 마크다운 코드 블록과 이미지 제거 (간단한 정리)
+    import re
+    post_content = re.sub(r"```[\s\S]*?```", "[코드 블록]", post_content)
+    post_content = re.sub(r"!\[.*?\]\(.*?\)", "[이미지]", post_content)
+    
+    # 글 내용 요약 (최대 1500자, Discord Embed description 제한 고려)
+    content_preview = post_content[:1500] if len(post_content) > 1500 else post_content
+    if len(post_content) > 1500:
+        content_preview += "\n\n... (전체 내용은 블로그에서 확인하세요)"
+    
     fields = [
         {"name": "카테고리", "value": category, "inline": True},
         {"name": "파일명", "value": f"`{post_filename}`", "inline": False},
         {"name": "블로그 링크", "value": f"[글 보기]({blog_url})", "inline": False},
+        {"name": "글 내용", "value": content_preview, "inline": False},
     ]
     
     if request_source:

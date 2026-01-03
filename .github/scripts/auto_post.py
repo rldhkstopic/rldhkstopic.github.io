@@ -280,12 +280,18 @@ def main():
         if DISCORD_NOTIFIER_AVAILABLE and discord_webhook:
             topic_title = selected_topic.get('title', 'N/A')
             category = selected_topic.get('category', 'document')
+            # 포스트 내용 읽기
+            try:
+                post_content = Path(post_path).read_text(encoding="utf-8")
+            except Exception:
+                post_content = content_text  # 파일 읽기 실패 시 메모리의 내용 사용
             notify_post_success(
                 discord_webhook,
                 topic_title,
                 category,
                 str(post_path),
                 request_source,
+                post_content,
             )
         
         # 처리 결과 저장
