@@ -1,0 +1,76 @@
+name: Daily Diary Generator
+
+on:
+  schedule:
+    # 매일 자정 (KST) 실행 (UTC 15:00 = KST 00:00)
+    - cron: '0 15 * * *'  # UTC 15:00 = KST 00:00 (다음날)
+  workflow_dispatch:  # 수동 실행 가능
+    inputs:
+      target_date:
+        description: '대상 날짜 (YYYY-MM-DD, 기본값: 어제)'
+        required: false
+        type: string
+
+jobs:
+  generate-diary:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r .github/scripts/requirements.txt
+        pip install requests
+        
+    - name: Run daily diary agent
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      run: |
+        if [ -n "${{ github.event.inputs.target_date }}" ]; then
+          python .github/scripts/daily_diary_agent.py "${{ github.event.inputs.target_date }}"
+        else
+          python .github/scripts/daily_diary_agent.py
+        fi
+        
+    - name: Commit and push
+      if: success()
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        # 원격 변경사항을 먼저 가져온다
+        git fetch origin main
+        # 로컬 변경사항과 untracked 파일을 먼저 커밋
+        git add -A
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-diary: stage local changes before pull" || true
+        fi
+        # 원격 변경사항을 가져온다
+        git pull origin main --no-rebase || {
+          # pull 실패 시 (충돌 등) 현재 버전을 우선
+          git checkout --ours _posts/*.md 2>/dev/null || true
+          git add _posts/*.md 2>/dev/null || true
+          git commit -m "Resolve merge conflict: keep auto-generated diary" || true
+        }
+        # 생성된 포스트와 처리된 요청 파일 등 모든 변경사항 추가
+        git add _posts/*.md 2>/dev/null || true
+        # 변경된 파일과 삭제된 파일도 추가
+        git add -u 2>/dev/null || true
+        # 변경사항이 있으면 커밋
+        if ! git diff --staged --quiet; then
+          TARGET_DATE=$(python -c "from datetime import datetime, timedelta; print((datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d'))")
+          git commit -m "Add daily diary for $TARGET_DATE"
+        fi
+        # push 시도
+        git push origin HEAD:main
+

@@ -1,0 +1,40 @@
+name: daily_logger
+description: 일상 기록 앱 - 하루 동안의 일들을 기록하고 자동으로 일기로 변환
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  cupertino_icons: ^1.0.6
+  
+  # 상태 관리
+  provider: ^6.1.1
+  
+  # HTTP 요청
+  http: ^1.1.2
+  
+  # 로컬 저장소
+  shared_preferences: ^2.2.2
+  
+  # 날짜/시간
+  intl: ^0.19.0
+  
+  # JSON 직렬화
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
