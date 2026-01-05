@@ -377,13 +377,18 @@
           '{{ site.baseurl }}/assets/analytics.json',
           '{{ "/_data/analytics.json" | relative_url }}'
         ];
-        
-        let fetchAttempted = false;
-        
-        function tryFetch(path) {
-          if (fetchAttempted) return;
-          fetchAttempted = true;
-          
+
+        // 경로를 순차적으로 재시도 (실패 시 다음 경로로 진행)
+        let currentPathIndex = 0;
+
+        function tryFetchNext() {
+          if (currentPathIndex >= possiblePaths.length) {
+            console.log('Analytics 데이터 로드 실패: 모든 경로 시도 완료');
+            return;
+          }
+
+          const path = possiblePaths[currentPathIndex++];
+
           fetch(path)
             .then(response => {
               if (!response.ok) {
@@ -405,17 +410,12 @@
             })
             .catch(error => {
               console.log('Analytics 데이터 로드 실패:', path, error);
-              // 다른 경로 시도
-              const nextPath = possiblePaths.find(p => p !== path);
-              if (nextPath && possiblePaths.indexOf(path) < possiblePaths.length - 1) {
-                fetchAttempted = false;
-                setTimeout(() => tryFetch(nextPath), 100);
-              }
+              setTimeout(tryFetchNext, 100);
             });
         }
-        
-        // 첫 번째 경로로 시도
-        tryFetch(possiblePaths[0]);
+
+        // 첫 번째 경로부터 시도
+        tryFetchNext();
       })();
 
       // 좋아요 기능
