@@ -44,6 +44,20 @@ layout: default
       </div>
       <div class="profile-name">{{ site.title }}</div>
       <div class="profile-bio">{{ site.bio | newline_to_br }}</div>
+
+      <!-- 방문자 통계 (assets/analytics.json 기반) -->
+      <div class="profile-visitors">
+        <div class="visitor-stats-simple" aria-label="방문자 통계">
+          <div class="visitor-stats-title">방문자</div>
+          <div class="visitor-stats-numbers">
+            <span class="visitor-stat-value">전체 <span id="total-visitors">-</span></span>
+            <span class="visitor-stats-separator">|</span>
+            <span class="visitor-stat-value">오늘 <span id="today-visitors">-</span></span>
+            <span class="visitor-stats-separator">|</span>
+            <span class="visitor-stat-value">어제 <span id="yesterday-visitors">-</span></span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- 카테고리 섹션 -->
