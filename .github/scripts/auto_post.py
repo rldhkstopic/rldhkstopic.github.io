@@ -67,6 +67,9 @@ def _select_topic(topics: List[Dict], existing_titles: Set[str]) -> Dict:
     """
     def score(topic: Dict) -> int:
         s = 0
+        if topic.get("source") == "bloomberg_rss":
+            # 목표 워크플로우: 전일 Bloomberg 다이제스트를 기본값으로 우선 선택한다.
+            s += 50
         if topic.get("source_url"):
             s += 10
         if topic.get("source") and topic.get("source") != "tech_news":
@@ -100,19 +103,61 @@ def _load_request() -> Dict:
     for i, f in enumerate(request_files[:5], 1):  # 최대 5개만 출력
         print(f"  {i}. {f.name}")
 
-    req_file = request_files[0]
-    print(f"[INFO] 처리할 요청 파일: {req_file.name}")
-    try:
-        data = json.loads(req_file.read_text(encoding="utf-8"))
-        topic = data.get("Topic") or data.get("title") or "N/A"
-        category = data.get("Category") or "N/A"
-        print(f"[INFO] 요청 내용 - 주제: {topic}, 카테고리: {category}")
-    except Exception as e:
-        print(f"[ERROR] 요청 파일 파싱 실패: {e}")
-        return {}
+    # 반복 포스팅 방지:
+    # - daily 카테고리 요청은 자동 포스팅(auto-post)에서 기본적으로 처리하지 않는다.
+    #   (일상 글은 daily-diary 워크플로우/일상 로그 파이프라인에서 다루는 편이 자연스럽다.)
+    # - daily 요청을 auto-post로 강제하려면 JSON에 force_auto_post: true 또는 pipeline: "auto_post"를 넣는다.
+    for req_file in request_files:
+        try:
+            data = json.loads(req_file.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"[ERROR] 요청 파일 파싱 실패: {req_file.name}: {e}")
+            continue
 
-    data["_request_file"] = req_file
-    return data
+        topic = data.get("Topic") or data.get("title") or "N/A"
+        category_raw = (data.get("Category") or data.get("category") or "").strip().lower()
+        pipeline = (data.get("pipeline") or "").strip().lower()
+        force = bool(data.get("force_auto_post"))
+
+        if category_raw == "daily" and pipeline != "auto_post" and not force:
+            # auto-post에서 처리하지 않고, 큐에 남기면 무한 반복이 되므로 "처리됨"으로 이동해 둔다.
+            PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+            dest = PROCESSED_DIR / req_file.name
+            try:
+                shutil.move(str(req_file), dest)
+                print(f"[INFO] daily 요청을 auto-post에서 스킵: {req_file.name} -> {dest}")
+            except Exception as e:
+                print(f"[WARN] 스킵 요청 이동 실패: {req_file.name}: {e}")
+
+            # 처리 결과 파일(스킵) 기록
+            try:
+                RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+                result_path = RESULTS_DIR / f"result_{req_file.stem}.json"
+                result_path.write_text(
+                    json.dumps(
+                        {
+                            "request_id": req_file.stem,
+                            "status": "skipped",
+                            "reason": "daily request is skipped by auto-post (use daily-diary pipeline or set force_auto_post)",
+                            "topic": topic,
+                            "processed_at": datetime.utcnow().isoformat() + "Z",
+                        },
+                        ensure_ascii=False,
+                        indent=2,
+                    ),
+                    encoding="utf-8",
+                )
+            except Exception:
+                pass
+            continue
+
+        print(f"[INFO] 처리할 요청 파일: {req_file.name}")
+        print(f"[INFO] 요청 내용 - 주제: {topic}, 카테고리: {category_raw or 'N/A'}")
+        data["_request_file"] = req_file
+        return data
+
+    print("[INFO] 처리 가능한 요청이 없습니다.")
+    return {}
 
 
 def main():
@@ -197,6 +242,31 @@ def main():
                 "sources": []
             }
             print("[OK] 요청 기반 조사 데이터 사용")
+        elif selected_topic.get("source") == "bloomberg_rss" and selected_topic.get("digest_items"):
+            # Bloomberg 다이제스트: RSS 제목/요약/링크를 그대로 조사 데이터로 사용한다(원문 전문 수집 금지).
+            items = selected_topic.get("digest_items", [])
+            lines = ["전일 Bloomberg RSS 수집 항목(제목/요약/링크):", ""]
+            sources = []
+            for i, it in enumerate(items, 1):
+                t = (it.get("title") or "").strip()
+                u = (it.get("link") or "").strip()
+                p = (it.get("published_at") or "").strip()
+                s = (it.get("summary") or "").strip()
+                if u:
+                    sources.append(u)
+                lines.append(f"[{i}] {t}")
+                if p:
+                    lines.append(f"- 게시시각(KST): {p}")
+                if s:
+                    lines.append(f"- 요약: {s}")
+                if u:
+                    lines.append(f"- 링크: {u}")
+                lines.append("")
+            research_data = {
+                "raw_research": "\n".join(lines),
+                "sources": sources[:50],
+            }
+            print(f"[OK] Bloomberg RSS 기반 조사 데이터 사용 (항목 {len(items)}개)")
         else:
             research_data = researcher_agent.research_topic(selected_topic)
             if not research_data or not research_data.get('raw_research'):

@@ -134,8 +134,11 @@ class WriterAgent:
         research_text = research_data.get('raw_research', '')[:2000] if research_data.get('raw_research') else ''
         analysis_text = analysis_data.get('insights', '')[:1500] if analysis_data.get('insights') else ''
         
+        # Bloomberg 다이제스트는 별도 프롬프트 사용 (카테고리보다 우선)
+        if (topic.get("source") == "bloomberg_rss") or (topic.get("type") == "bloomberg_digest"):
+            base_prompt = self._get_bloomberg_digest_prompt(topic, research_text, analysis_text, system_prompt)
         # Daily 카테고리는 별도의 프롬프트 사용
-        if category == 'daily':
+        elif category == 'daily':
             base_prompt = self._get_daily_prompt(topic, research_text, analysis_text, system_prompt)
         else:
             # 프롬프트를 더 간단하고 명확하게 구성
@@ -452,6 +455,53 @@ class WriterAgent:
                         processed_lines.append(original_line)
         
         return '\n'.join(processed_lines)
+
+    def _get_bloomberg_digest_prompt(self, topic: Dict, research_text: str, analysis_text: str, system_prompt: str) -> str:
+        """Bloomberg 전일 뉴스 다이제스트 전용 프롬프트 생성"""
+        title = topic.get("title", "")
+        desc = topic.get("description", "")
+
+        return f"""당신은 한국어 금융/시장 리서치 노트를 작성하는 애널리스트다.
+
+**⚠️ 매우 중요: 모든 출력은 반드시 한국어(한글)로만 작성해야 한다.**
+
+**주제:**
+제목: {title}
+설명: {desc}
+
+**입력 데이터(전일 Bloomberg RSS 수집 결과):**
+{research_text}
+
+**분석 인사이트(참고용, 필요 시 재구성):**
+{analysis_text}
+
+**작성 요구사항(절대 위반 금지):**
+1. 모든 문장은 "~다."로 끝나는 건조한 평서문을 사용한다.
+2. 이모지, 인사말, 과장 표현을 사용하지 않는다.
+3. RSS 제목/요약/링크를 바탕으로만 작성한다. 기사 전문을 재현하거나 장문 인용하지 않는다.
+4. "전일(한국시간 기준)" 범위의 뉴스만 다룬다.
+5. 최소 1800자 이상 작성한다.
+6. 반드시 아래 구조를 따른다.
+
+**필수 구조:**
+### 전일 이슈 개요
+- 4~8개 테마로 묶어 정리한다.
+- 각 테마마다 2~5개 항목을 불릿으로 요약한다(제목을 그대로 길게 복사하지 말고 의미 중심으로 바꿔 쓴다).
+
+### 테마별 해석(전문가 소견)
+- 각 테마마다 '영향 경로', '리스크', '관찰 포인트'를 포함한다.
+- 각 테마마다 아래 형식의 코멘트를 1개 이상 포함한다.
+  > "코멘트 문장"
+  > — *리서치 노트(작성자)*
+
+### 체크리스트(다음 거래일 관찰 포인트)
+- 5~10개 항목을 짧게 정리한다.
+
+## References
+- 입력 데이터에 포함된 링크를 `[^n]` 각주로 정리한다.
+
+{system_prompt}
+"""
     
     def _get_daily_prompt(self, topic: Dict, research_text: str, analysis_text: str, system_prompt: str) -> str:
         """Daily 카테고리 전용 프롬프트 생성"""

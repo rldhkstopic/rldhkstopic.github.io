@@ -44,6 +44,7 @@ schedule:
 - **기술 뉴스**: 기술 동향 및 최신 소식
 - **Hacker News**: 인기 기술 글 수집
 - **트렌딩 주제**: 현재 날짜 기반 주제 생성
+- **Bloomberg 전일 뉴스 다이제스트(RSS)**: 전일(한국시간) Bloomberg RSS 항목을 묶어 요약 주제 생성
 
 각 주제는 다음 정보를 포함한다:
 - `title`: 제목
@@ -51,6 +52,7 @@ schedule:
 - `category`: 카테고리 (daily/dev/document/study)
 - `tags`: 태그 배열
 - `source`: 출처
+- `digest_items`(선택): Bloomberg RSS 다이제스트 항목 리스트
 
 ### ContentGeneratorAgent (콘텐츠 생성)
 
@@ -146,6 +148,16 @@ GitHub Actions 탭에서 각 실행의 로그를 확인할 수 있다:
 - 검증 에이전트가 자동으로 필터링하므로, 다른 주제가 선택된다.
 - 계속 실패하면 주제 수집 로직을 개선한다.
 
+### 자동 포스팅이 Daily 요청만 반복되는 경우
+
+`_auto_post_requests/`에 디스코드 기반 `daily` 카테고리 요청이 쌓이면, auto-post가 그 요청을 우선 처리하면서 특정 주제만 반복될 수 있다.
+
+현재 auto-post는 다음 정책을 사용한다:
+- **기본값**: `daily` 요청은 auto-post에서 스킵하고 `_auto_post_requests_processed/`로 이동한다.
+- **강제 처리**: 요청 JSON에 `force_auto_post: true` 또는 `pipeline: "auto_post"`를 넣으면 auto-post가 처리한다.
+
+일상 글은 `Daily Diary Generator` 워크플로우(일상 로그 기반)로 생성하는 편이 안정적이다.
+
 ### 파일 중복
 
 ```
@@ -171,6 +183,13 @@ def _collect_custom_source(self) -> List[Dict]:
 ```
 
 그리고 `__init__` 메서드의 `self.sources` 리스트에 추가한다.
+
+### Bloomberg RSS 피드 변경
+
+기본 RSS는 `feeds.bloomberg.com`의 공개 피드를 사용한다. 필요하면 Actions 환경 변수로 덮어쓸 수 있다:
+
+- `BLOOMBERG_RSS_FEEDS`: 콤마(,)로 구분한 RSS URL 리스트  
+  예) `https://feeds.bloomberg.com/markets/news.rss,https://feeds.bloomberg.com/technology/news.rss`
 
 ### 스타일 가이드 수정
 

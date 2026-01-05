@@ -5,8 +5,12 @@
 
 import requests
 import random
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict
+import os
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
+from zoneinfo import ZoneInfo
 
 
 class TopicCollectorAgent:
@@ -14,6 +18,7 @@ class TopicCollectorAgent:
     
     def __init__(self):
         self.sources = [
+            self._collect_bloomberg_yesterday_digest,
             self._collect_tech_news,
             self._collect_hackernews,
             self._generate_trending_topic,
@@ -65,6 +70,107 @@ class TopicCollectorAgent:
         ]
         
         return tech_topics
+
+    def _collect_bloomberg_yesterday_digest(self) -> List[Dict]:
+        """
+        Bloomberg RSS를 사용해 전일(Asia/Seoul 기준) 뉴스 항목을 모아 다이제스트 주제로 만든다.
+
+        - RSS는 제목/요약/링크만 사용한다(원문 전문 수집 금지).
+        - 전일 범위는 KST 00:00:00 ~ 23:59:59 로 필터링한다.
+        """
+        # 사용자가 RSS 피드를 커스터마이징할 수 있도록 환경 변수로 받는다.
+        # 예: BLOOMBERG_RSS_FEEDS="https://feeds.bloomberg.com/markets/news.rss,https://feeds.bloomberg.com/technology/news.rss"
+        feeds_env = os.getenv("BLOOMBERG_RSS_FEEDS", "").strip()
+        if feeds_env:
+            feed_urls = [u.strip() for u in feeds_env.split(",") if u.strip()]
+        else:
+            # 기본값: 공개 RSS(도메인: feeds.bloomberg.com) 위주
+            feed_urls = [
+                "https://feeds.bloomberg.com/markets/news.rss",
+                "https://feeds.bloomberg.com/technology/news.rss",
+                "https://feeds.bloomberg.com/politics/news.rss",
+            ]
+
+        # 전일 범위(Asia/Seoul)
+        tz = ZoneInfo("Asia/Seoul")
+        now_kst = datetime.now(tz=tz)
+        today_start = now_kst.replace(hour=0, minute=0, second=0, microsecond=0)
+        yesterday_start = today_start - timedelta(days=1)
+        yesterday_end = yesterday_start.replace(hour=23, minute=59, second=59, microsecond=999999)
+
+        items: List[Dict] = []
+        seen_links = set()
+
+        for url in feed_urls:
+            try:
+                resp = requests.get(url, timeout=8, headers={"User-Agent": "rldhkstopic-auto-post/1.0"})
+                if resp.status_code != 200:
+                    continue
+                root = ET.fromstring(resp.text)
+
+                # RSS 2.0: rss/channel/item
+                channel = root.find("channel")
+                if channel is None:
+                    continue
+
+                for item in channel.findall("item"):
+                    title_el = item.find("title")
+                    link_el = item.find("link")
+                    pub_el = item.find("pubDate")
+                    desc_el = item.find("description")
+
+                    title = (title_el.text or "").strip() if title_el is not None else ""
+                    link = (link_el.text or "").strip() if link_el is not None else ""
+                    pub = (pub_el.text or "").strip() if pub_el is not None else ""
+                    desc = (desc_el.text or "").strip() if desc_el is not None else ""
+
+                    if not title or not link or not pub:
+                        continue
+                    if link in seen_links:
+                        continue
+
+                    try:
+                        dt = parsedate_to_datetime(pub)
+                        if dt.tzinfo is None:
+                            # tz가 없으면 UTC로 가정
+                            dt = dt.replace(tzinfo=ZoneInfo("UTC"))
+                        dt_kst = dt.astimezone(tz)
+                    except Exception:
+                        continue
+
+                    if not (yesterday_start <= dt_kst <= yesterday_end):
+                        continue
+
+                    seen_links.add(link)
+                    items.append(
+                        {
+                            "title": title,
+                            "link": link,
+                            "published_at": dt_kst.isoformat(),
+                            "summary": desc,
+                        }
+                    )
+            except Exception:
+                continue
+
+        if not items:
+            return []
+
+        # 너무 길면 상위 N개로 제한(대략 최신순)
+        items.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+        items = items[:25]
+
+        ymd = yesterday_start.strftime("%Y-%m-%d")
+        topic = {
+            "title": f"블룸버그 전일 뉴스 다이제스트 ({ymd}, KST)",
+            "description": f"블룸버그 RSS에서 전일(한국시간) 뉴스 {len(items)}건을 묶어 요약하고 관찰 포인트를 정리한다.",
+            "category": "document",
+            "tags": ["Bloomberg", "뉴스요약", "시장", "전일"],
+            "source": "bloomberg_rss",
+            "source_url": feed_urls[0] if feed_urls else "",
+            "digest_items": items,
+        }
+        return [topic]
     
     def _collect_hackernews(self) -> List[Dict]:
         """Hacker News 인기 글 수집"""
