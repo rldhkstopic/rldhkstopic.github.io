@@ -209,8 +209,8 @@ layout: default
     <div class="sidebar-section">
       <div class="sidebar-section-title">인기글</div>
       <div class="post-list">
-        {% assign recent_posts = site.posts | limit: 5 %}
-        {% for post in recent_posts %}
+        {% assign popular_posts = site.posts | sort: "views" | reverse | limit: 5 %}
+        {% for post in popular_posts %}
           <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
             <div class="post-list-title-wrapper">
               <span class="post-list-title">{{ post.title | escape }}</span>
