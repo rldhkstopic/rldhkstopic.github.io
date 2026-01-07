@@ -2566,7 +2566,8 @@ article div[role="doc-endnotes"] {
   }
 }
 
-@media (max-width: 768px) {
+/* 모바일 및 태블릿 (1024px 이하) */
+@media (max-width: 1024px) {
   .wrapper {
     padding: 0 16px;
   }
@@ -2579,17 +2580,21 @@ article div[role="doc-endnotes"] {
     padding: 2rem 1.5rem;
   }
   
-  /* 모바일에서 목차 숨기기 */
+  /* 모바일/태블릿에서 목차 숨기기 */
   .post-toc,
   #postTOC {
     display: none !important;
   }
   
-  /* 모바일에서 page-content 패딩 제거 */
+  /* 모바일/태블릿에서 page-content 패딩 제거 */
   .page-content {
     padding-top: 0;
     padding-bottom: 0;
   }
+}
+
+/* 모바일 (768px 이하) - 추가 스타일 */
+@media (max-width: 768px) {
   
   .post-item {
     padding: 1rem;
