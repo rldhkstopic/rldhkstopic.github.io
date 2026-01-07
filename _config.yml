@@ -34,8 +34,9 @@ paginate_path: "/blog/page:num/"
 
 # Permalink structure
 # 각 포스트의 front matter에서 permalink를 직접 지정하되, 
-# 기본값은 카테고리 기반으로 설정 (각 포스트의 permalink가 우선됨)
-permalink: /:category/:title/
+# 기본값은 날짜 기반으로 설정 (각 포스트의 permalink가 우선됨)
+# category가 없는 포스트를 위해 기본값은 날짜 기반 사용
+permalink: /:year/:month/:day/:title.html
 
 # Markdown settings
 markdown: kramdown

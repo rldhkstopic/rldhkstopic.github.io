@@ -135,12 +135,20 @@ layout: default
   </div>
 
     <div class="post-navigation">
-      {% if page.previous %}
+      {% if page.previous and page.previous.permalink %}
+        <a href="{{ page.previous.permalink | relative_url }}" class="prev-post">
+          ← 이전 포스트: {{ page.previous.title }}
+        </a>
+      {% elsif page.previous %}
         <a href="{{ page.previous.url | relative_url }}" class="prev-post">
           ← 이전 포스트: {{ page.previous.title }}
         </a>
       {% endif %}
-      {% if page.next %}
+      {% if page.next and page.next.permalink %}
+        <a href="{{ page.next.permalink | relative_url }}" class="next-post">
+          다음 포스트: {{ page.next.title }} →
+        </a>
+      {% elsif page.next %}
         <a href="{{ page.next.url | relative_url }}" class="next-post">
           다음 포스트: {{ page.next.title }} →
         </a>
