@@ -183,17 +183,32 @@
           // 라인넘버 플러그인용 클래스는 pre에만 유지
           code.classList.remove('line-numbers');
 
-          // 긴 코드일 때만 확장 가능 표시
-          const lines = (code.textContent || code.innerText || '').split('\n');
-          if (lines.length > 15) {
-            pre.classList.add('code-expandable');
-          } else {
-            pre.classList.remove('code-expandable');
-          }
+          // 기존(구버전) pre 내부 버튼 제거 (겹침 방지)
+          const legacyBtn = pre.querySelector('.code-expand-btn');
+          if (legacyBtn) legacyBtn.remove();
 
-          // 상단 우측 + 버튼 생성 (중복 방지)
-          if (!pre.querySelector('.code-expand-btn')) {
+          // 코드 블록을 wrapper + header로 감싸서 상단 바를 DOM으로 구성한다.
+          // (CSS background/가상요소로 억지로 그리면 겹침/디버깅 문제가 생긴다.)
+          let wrapper = pre.closest('.code-block');
+          if (!wrapper) {
+            wrapper = document.createElement('div');
+            wrapper.className = 'code-block';
+
+            const header = document.createElement('div');
+            header.className = 'code-block-header';
+
+            const dots = document.createElement('div');
+            dots.className = 'code-block-dots';
+
+            const langEl = document.createElement('div');
+            langEl.className = 'code-block-lang';
+            langEl.textContent = lang;
+
+            const actions = document.createElement('div');
+            actions.className = 'code-block-actions';
+
             const btn = document.createElement('button');
+            btn.type = 'button';
             btn.className = 'code-expand-btn';
             btn.innerHTML = '+';
             btn.setAttribute('aria-label', '전체 코드 보기');
@@ -201,7 +216,30 @@
               e.stopPropagation();
               openCodeModal(pre, lang);
             });
-            pre.appendChild(btn);
+
+            actions.appendChild(btn);
+            header.appendChild(dots);
+            header.appendChild(langEl);
+            header.appendChild(actions);
+            wrapper.appendChild(header);
+
+            pre.parentNode.insertBefore(wrapper, pre);
+            wrapper.appendChild(pre);
+          } else {
+            const langEl = wrapper.querySelector('.code-block-lang');
+            if (langEl) langEl.textContent = lang;
+          }
+
+          // 긴 코드일 때만 확장 가능 표시
+          const lines = (code.textContent || code.innerText || '').split('\n');
+          if (lines.length > 15) {
+            pre.classList.add('code-expandable');
+            const btn = wrapper.querySelector('.code-expand-btn');
+            if (btn) btn.style.display = '';
+          } else {
+            pre.classList.remove('code-expandable');
+            const btn = wrapper.querySelector('.code-expand-btn');
+            if (btn) btn.style.display = 'none';
           }
         });
       }

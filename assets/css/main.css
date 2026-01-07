@@ -1432,69 +1432,34 @@ body.home-page .site-header {
   box-shadow: none;
 }
 
-.post-content pre {
-  --code-toolbar-height: 44px;
-  background:
-    /* separator line between toolbar and code */
-    linear-gradient(to bottom, var(--code-border), var(--code-border)) 0 var(--code-toolbar-height) / 100% 1px no-repeat,
-    /* VSCode-like toolbar background + code background */
-    linear-gradient(
-      to bottom,
-      var(--code-header-bg) 0,
-      var(--code-header-bg) var(--code-toolbar-height),
-      var(--code-bg) var(--code-toolbar-height),
-      var(--code-bg) 100%
-    );
-  padding: var(--code-toolbar-height) 0 0 0;
-  border-radius: 12px;
-  overflow: hidden;
+/* Code block wrapper + header (DOM-based, avoids overlap) */
+.code-block {
   margin-bottom: 2rem;
   border: 1px solid var(--code-border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--code-bg);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  position: relative;
-  min-height: 220px;
-  max-height: 380px;
-  overflow-y: auto;
-  outline: none;
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
-  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-[data-theme="dark"] .post-content pre {
+[data-theme="dark"] .code-block {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
 }
 
-.post-content pre.line-numbers {
-  padding-top: var(--code-toolbar-height);
-  padding-left: 2.9em; /* reduce excessive left gutter */
-}
-
-.post-content pre::before {
-  content: attr(data-lang);
-  position: absolute;
-  top: 10px;
-  right: 52px; /* VSCode-like: language label near top-right */
-  padding: 4px 10px;
+.code-block-header {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 12px;
   background: var(--code-header-bg);
-  border: 1px solid var(--code-border);
-  border-radius: 999px;
-  color: var(--code-header-text);
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  pointer-events: none;
+  border-bottom: 1px solid var(--code-border);
 }
 
-/* VSCode-like window controls */
-.post-content pre::after {
-  content: '';
-  position: absolute;
-  top: 12px;
-  left: 12px;
+.code-block-dots {
   width: 44px;
   height: 12px;
-  pointer-events: none;
+  flex: 0 0 auto;
   background:
     radial-gradient(circle at 6px 6px, #ff5f56 5px, transparent 6px),
     radial-gradient(circle at 22px 6px, #ffbd2e 5px, transparent 6px),
@@ -1502,23 +1467,27 @@ body.home-page .site-header {
   opacity: 0.95;
 }
 
-/* Reduce left whitespace while keeping line numbers readable */
-.post-content pre code {
-  padding: 0.9rem 1rem 1rem 1rem;
+.code-block-lang {
+  flex: 1 1 auto;
+  text-align: center;
+  color: var(--code-header-text);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.post-content pre.line-numbers > code {
-  padding-left: 0.75rem;
+.code-block-actions {
+  width: 44px;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.post-content pre.line-numbers .line-numbers-rows {
-  width: 2.4em;
-}
-
-.post-content pre .code-expand-btn {
-  position: absolute;
-  top: 8px;
-  right: 10px;
+.code-block-header .code-expand-btn {
   width: 32px;
   height: 32px;
   border-radius: 8px;
@@ -1531,20 +1500,19 @@ body.home-page .site-header {
   cursor: pointer;
   font-size: 16px;
   transition: all 0.2s ease;
-  z-index: 5;
 }
 
-.post-content pre .code-expand-btn:hover {
+.code-block-header .code-expand-btn:hover {
   background: var(--bg-secondary);
   border-color: var(--accent-color);
   color: var(--accent-color);
   box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
-.post-content pre .code-expand-btn::after {
+.code-block-header .code-expand-btn::after {
   content: '전체 코드 보기';
   position: absolute;
-  top: 38px;
+  top: 44px;
   right: 0;
   background: var(--bg-secondary);
   color: var(--text-primary);
@@ -1560,9 +1528,45 @@ body.home-page .site-header {
   box-shadow: var(--shadow-sm);
 }
 
-.post-content pre .code-expand-btn:hover::after {
+.code-block-header .code-expand-btn:hover::after {
   opacity: 1;
   transform: translateY(0);
+}
+
+.post-content pre {
+  /* Wrapped by .code-block, so keep pre itself minimal */
+  background: transparent;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  overflow: auto;
+  margin: 0;
+  position: relative; /* line-numbers rows positioning */
+  min-height: 220px;
+  max-height: 380px;
+  overflow-y: auto;
+  outline: none;
+  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-content pre.line-numbers {
+  padding-top: 0;
+  padding-left: 2.9em; /* keep gutter reasonable */
+}
+
+/* Reduce left whitespace while keeping line numbers readable */
+.post-content pre code {
+  padding: 0.9rem 1rem 1rem 1rem;
+}
+
+.post-content pre.line-numbers > code {
+  padding-left: 0.75rem;
+}
+
+.post-content pre.line-numbers .line-numbers-rows {
+  width: 2.4em;
 }
 
 .post-content pre:focus {
