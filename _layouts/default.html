@@ -168,7 +168,6 @@
         const codeBlocks = document.querySelectorAll('.post-content pre');
         
         codeBlocks.forEach(pre => {
-          pre.classList.add('line-numbers');
           pre.removeAttribute('tabindex');
           pre.style.outline = 'none';
           
@@ -178,17 +177,19 @@
           // 언어 추출 및 data-lang 표시
           const langMatch = code.className.match(/language-([\w-]+)/);
           const lang = langMatch ? langMatch[1] : 'code';
-          pre.setAttribute('data-lang', lang);
 
-          // 라인넘버 플러그인용 클래스는 pre에만 유지
+          // 라인넘버 플러그인용 클래스 제거
           code.classList.remove('line-numbers');
+          pre.classList.remove('line-numbers');
 
+          // line-numbers-rows 찾기 (code 내부에 있을 수 있음)
+          const lineNumbersRows = pre.querySelector('.line-numbers-rows') || code.querySelector('.line-numbers-rows');
+          
           // 기존(구버전) pre 내부 버튼 제거 (겹침 방지)
           const legacyBtn = pre.querySelector('.code-expand-btn');
           if (legacyBtn) legacyBtn.remove();
 
           // 코드 블록을 wrapper + header로 감싸서 상단 바를 DOM으로 구성한다.
-          // (CSS background/가상요소로 억지로 그리면 겹침/디버깅 문제가 생긴다.)
           let wrapper = pre.closest('.code-block');
           if (!wrapper) {
             wrapper = document.createElement('div');
@@ -215,7 +216,9 @@
             btn.title = '전체 코드 보기';
             btn.addEventListener('click', function(e) {
               e.stopPropagation();
-              openCodeModal(pre, lang);
+              // contentWrapper가 있으면 그것을 사용, 없으면 pre 사용
+              const targetElement = wrapper.querySelector('.code-block-content') || pre;
+              openCodeModal(targetElement, lang);
             });
 
             actions.appendChild(btn);
@@ -234,16 +237,68 @@
             if (btn) btn.style.display = '';
           }
 
-          // 버튼은 항상 표시 (VSCode 스타일)
+          // pre를 div.code-block-content로 교체하고 구조 변경
+          let contentWrapper = wrapper.querySelector('.code-block-content');
+          if (!contentWrapper) {
+            // code-block-content div 생성
+            contentWrapper = document.createElement('div');
+            contentWrapper.className = 'code-block-content';
+            contentWrapper.setAttribute('data-lang', lang);
+            
+            // code를 contentWrapper로 이동 (clone이 아닌 실제 이동)
+            const codeToMove = code.cloneNode(true);
+            // code 내부의 line-numbers-rows 제거
+            const rowsInCode = codeToMove.querySelector('.line-numbers-rows');
+            if (rowsInCode) rowsInCode.remove();
+            contentWrapper.appendChild(codeToMove);
+            
+            // line-numbers를 별도 div로 생성
+            const lineNumbersDiv = document.createElement('div');
+            lineNumbersDiv.className = 'line-numbers';
+            
+            if (lineNumbersRows) {
+              // 기존 line-numbers-rows의 span들을 복사
+              const spans = lineNumbersRows.querySelectorAll('span');
+              spans.forEach(span => {
+                const newSpan = document.createElement('span');
+                newSpan.setAttribute('aria-hidden', 'true');
+                lineNumbersDiv.appendChild(newSpan);
+              });
+            } else {
+              // line-numbers-rows가 없으면 코드 라인 수를 계산해서 생성
+              const lines = (code.textContent || code.innerText || '').split('\n');
+              lines.forEach(() => {
+                const span = document.createElement('span');
+                span.setAttribute('aria-hidden', 'true');
+                lineNumbersDiv.appendChild(span);
+              });
+            }
+            
+            // 구조: code-block-content > code, line-numbers
+            contentWrapper.appendChild(lineNumbersDiv);
+            
+            // pre를 contentWrapper로 교체
+            pre.parentNode.replaceChild(contentWrapper, pre);
+          }
+
+          // 버튼은 항상 표시 (VSCode 스타일) 및 이벤트 리스너 업데이트
           const btn = wrapper.querySelector('.code-expand-btn');
           if (btn) {
             btn.style.display = '';
+            // 버튼 클릭 이벤트를 contentWrapper로 업데이트
+            btn.onclick = function(e) {
+              e.stopPropagation();
+              openCodeModal(contentWrapper, lang);
+            };
             // 긴 코드일 때만 확장 가능 표시
-            const lines = (code.textContent || code.innerText || '').split('\n');
-            if (lines.length > 15) {
-              pre.classList.add('code-expandable');
-            } else {
-              pre.classList.remove('code-expandable');
+            const codeElement = contentWrapper.querySelector('code');
+            if (codeElement) {
+              const lines = (codeElement.textContent || codeElement.innerText || '').split('\n');
+              if (lines.length > 15) {
+                contentWrapper.classList.add('code-expandable');
+              } else {
+                contentWrapper.classList.remove('code-expandable');
+              }
             }
           }
         });

@@ -1623,6 +1623,57 @@ body.home-page .site-header {
   height: 100%;
 }
 
+/* Code block content wrapper (replaces pre.highlight) */
+.post-content .code-block-content {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  min-height: 100px;
+  max-height: 380px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.post-content .code-block-content > code {
+  display: block;
+  padding: 0.75rem 1rem;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-left: 0;
+  background: transparent;
+  color: var(--code-text);
+  font-size: 0.875rem;
+  line-height: 25px;
+  overflow-x: auto;
+  transition: color 0.2s ease;
+  flex: 1;
+  height: fit-content;
+}
+
+.post-content .code-block-content > .line-numbers {
+  width: 2.2em;
+  padding-right: 0;
+  padding-top: 5px;
+  position: static;
+  line-height: 25px;
+  border-right-width: 0px;
+  border-right-color: transparent;
+  border-right-style: none;
+  border-image: none;
+  margin-right: 5px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-content .code-block-content > .line-numbers > span {
+  display: block;
+  height: 25px;
+}
+
 .post-content pre code {
   display: block;
   padding: 0.75rem 1rem;
@@ -1645,34 +1696,40 @@ body.home-page .site-header {
   height: fit-content;
 }
 
-.post-content pre::-webkit-scrollbar {
+.post-content pre::-webkit-scrollbar,
+.post-content .code-block-content::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
-.post-content pre::-webkit-scrollbar-track {
+.post-content pre::-webkit-scrollbar-track,
+.post-content .code-block-content::-webkit-scrollbar-track {
   background: var(--bg-secondary);
   border-radius: 0;
 }
 
-.post-content pre::-webkit-scrollbar-thumb {
+.post-content pre::-webkit-scrollbar-thumb,
+.post-content .code-block-content::-webkit-scrollbar-thumb {
   background: var(--code-border);
   border-radius: 5px;
   border: 2px solid var(--code-bg);
 }
 
-.post-content pre::-webkit-scrollbar-thumb:hover {
+.post-content pre::-webkit-scrollbar-thumb:hover,
+.post-content .code-block-content::-webkit-scrollbar-thumb:hover {
   background: var(--accent-color);
 }
 
-.post-content pre.code-expandable {
+.post-content pre.code-expandable,
+.post-content .code-block-content.code-expandable {
   max-height: 320px;
   cursor: pointer;
   transition: max-height 0.25s ease;
   overflow-y: hidden;
 }
 
-.post-content pre.code-expanded {
+.post-content pre.code-expanded,
+.post-content .code-block-content.code-expanded {
   max-height: none;
   overflow-y: auto;
 }
