@@ -26,13 +26,20 @@
 ---
 layout: post
 title: "포스트 제목"
-date: YYYY-MM-DD
+date: YYYY-MM-DD HH:MM:SS +0900
 author: rldhkstopic
 category: [daily|dev|document|study]
 tags: [태그1, 태그2, 태그3]
 views: 0
+permalink: /카테고리/번호/
 ---
 ```
+
+**중요 사항:**
+- **시간대**: `date` 필드는 반드시 `+0900` (한국 표준시, KST)을 포함해야 한다. 예: `2026-01-07 12:40:00 +0900`
+- **permalink**: URL 구조는 `/카테고리/번호/` 형식으로 설정한다. 예: `/dev/1/`, `/daily/1/`
+  - 각 카테고리별로 날짜순으로 번호를 부여한다
+  - 같은 카테고리 내에서 가장 오래된 글이 1번부터 시작한다
 
 **필수 필드 설명:**
 - `layout`: 항상 `post`로 설정
