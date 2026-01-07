@@ -1452,7 +1452,7 @@ body.home-page .site-header {
   align-items: center;
   gap: 8px;
   padding: 0 10px;
-  background: unset;
+  background-color: rgba(82, 82, 82, 1);
   border-bottom: 1px solid var(--code-border);
 }
 
@@ -1470,7 +1470,7 @@ body.home-page .site-header {
 .code-block-lang {
   flex: 1 1 auto;
   text-align: left;
-  color: var(--code-header-text);
+  color: var(--accent-light);
   font-size: 0.75rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -1487,6 +1487,7 @@ body.home-page .site-header {
   justify-content: flex-end;
   background: unset;
   border: none;
+  color: rgba(255, 255, 255, 1);
 }
 
 .code-block-header .code-expand-btn {
@@ -1495,7 +1496,7 @@ body.home-page .site-header {
   border-radius: 4px;
   border: none;
   background: none;
-  color: var(--code-text);
+  color: var(--accent-light);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1579,6 +1580,7 @@ body.home-page .site-header {
   border-right-color: transparent;
   border-right-style: none;
   border-image: none;
+  margin-right: 5px;
 }
 
 .post-content pre:focus {
@@ -1591,7 +1593,7 @@ body.home-page .site-header {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
