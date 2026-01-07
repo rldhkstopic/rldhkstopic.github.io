@@ -273,7 +273,10 @@
               lineNumbersDiv.appendChild(span);
             }
             
-            // code를 먼저 추가 (line-numbers보다 앞에)
+            // line-numbers를 먼저 추가 (code보다 앞에)
+            contentWrapper.appendChild(lineNumbersDiv);
+            
+            // code를 나중에 추가
             const codeToMove = code.cloneNode(true);
             // code 내부의 line-numbers-rows 제거
             const rowsInCode = codeToMove.querySelector('.line-numbers-rows');
@@ -282,9 +285,6 @@
             // Prism.js 하이라이팅을 위해 원본 클래스 유지
             codeToMove.className = code.className;
             contentWrapper.appendChild(codeToMove);
-            
-            // line-numbers를 나중에 추가
-            contentWrapper.appendChild(lineNumbersDiv);
             
             // Prism.js 하이라이팅 적용 (있는 경우)
             // 약간의 지연을 두어 DOM에 추가된 후 실행
