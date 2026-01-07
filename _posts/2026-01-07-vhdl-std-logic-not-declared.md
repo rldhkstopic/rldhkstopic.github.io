@@ -21,9 +21,9 @@ VHDL 컴파일에서 `std_logic` 또는 `std_logic_vector`가 “선언되지 �
 
 대표적으로 다음 상황에서 발생한다.
 
-- 파일 상단에 `library ieee; use ieee.std_logic_1164.all;`가 누락된 경우다.
-- `use`는 했는데, `library ieee;` 선언이 빠진 경우다.
-- Vivado 프로젝트에서 VHDL 파일들이 다른 라이브러리로 컴파일되면서, 기대한 패키지 참조가 꼬인 경우다.
+- 파일 상단 `library ieee; use ieee.std_logic_1164.all;` 누락
+- `use` 선언은 존재하지만 `library ieee;` 누락
+- Vivado 프로젝트에서 라이브러리/컴파일 순서 꼬임으로 패키지 참조 실패
 
 ### 재현 코드(패키지 누락)
 
