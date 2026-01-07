@@ -11,6 +11,12 @@ views: 0
 
 VHDL에서 폭 불일치 오류는 거의 모든 설계에서 한 번은 만난다. Vivado에서는 “width mismatch”, “cannot match”, “range mismatch” 같은 형태로 보이는데, 실질적으로는 **좌변과 우변의 비트 폭이 다르다**는 의미다.
 
+### 개요
+
+- 증상: `width mismatch`/`range mismatch` 류의 폭 불일치
+- 주요 원인: 슬라이스 범위 오류, 패딩/확장 누락, unconstrained array 연결 실수
+- 해결 방향: 의도에 맞는 패딩/확장/슬라이스로 폭을 명시적으로 일치
+
 ### 언제 발생하나
 
 자주 나오는 패턴은 다음과 같다.

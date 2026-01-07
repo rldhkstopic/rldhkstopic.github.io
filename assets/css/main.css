@@ -1438,7 +1438,7 @@ body.home-page .site-header {
   content: attr(data-lang);
   position: absolute;
   top: 10px;
-  left: 12px;
+  right: 52px; /* VSCode-like: language label near top-right */
   padding: 4px 10px;
   background: var(--code-header-bg);
   border: 1px solid var(--code-border);
@@ -1449,6 +1449,22 @@ body.home-page .site-header {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   pointer-events: none;
+}
+
+/* VSCode-like window controls */
+.post-content pre::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 44px;
+  height: 12px;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 6px 6px, #ff5f56 5px, transparent 6px),
+    radial-gradient(circle at 22px 6px, #ffbd2e 5px, transparent 6px),
+    radial-gradient(circle at 38px 6px, #27c93f 5px, transparent 6px);
+  opacity: 0.95;
 }
 
 .post-content pre .code-expand-btn {

@@ -11,6 +11,12 @@ views: 0
 
 VHDL에서 `wait` 문은 시뮬레이션에서는 매우 편하지만, 합성에서는 제한이 크다. Vivado 합성에서 `wait statement not supported for synthesis`류의 메시지가 나오면, 대부분 “테스트벤치용 문법을 RTL에 섞어 넣었다”는 의미다.
 
+### 개요
+
+- 증상: `wait statement not supported for synthesis` 류의 합성 불가
+- 주요 원인: RTL(합성 대상)에 `wait`/시간 지연 문법 혼입
+- 해결 방향: 테스트벤치/RTL 분리, 지연은 클럭+카운터/상태기계로 치환
+
 ### 언제 발생하나
 
 대표적인 상황은 다음과 같다.

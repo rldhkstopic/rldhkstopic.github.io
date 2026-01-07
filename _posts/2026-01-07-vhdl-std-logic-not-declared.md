@@ -11,6 +11,12 @@ views: 0
 
 VHDL 컴파일에서 `std_logic` 또는 `std_logic_vector`가 “선언되지 않았다”는 오류가 발생하는 경우가 있다. 메시지는 툴/버전에 따라 다르지만, 본질은 `std_logic` 타입 정의가 들어있는 패키지를 가져오지 않았다는 뜻이다.
 
+### 개요
+
+- 증상: `std_logic`/`std_logic_vector` 미선언(컴파일 실패)
+- 주요 원인: `ieee.std_logic_1164` 패키지 import 누락 또는 라이브러리 설정 꼬임
+- 해결 방향: `library ieee; use ieee.std_logic_1164.all;` 추가 및 컴파일 순서/라이브러리 확인
+
 ### 언제 발생하나
 
 대표적으로 다음 상황에서 발생한다.
