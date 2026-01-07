@@ -1409,8 +1409,19 @@ body.home-page .site-header {
 }
 
 .post-content pre {
-  background: var(--code-bg);
-  padding: 0;
+  --code-toolbar-height: 44px;
+  background:
+    /* separator line between toolbar and code */
+    linear-gradient(to bottom, var(--code-border), var(--code-border)) 0 var(--code-toolbar-height) / 100% 1px no-repeat,
+    /* VSCode-like toolbar background + code background */
+    linear-gradient(
+      to bottom,
+      var(--code-header-bg) 0,
+      var(--code-header-bg) var(--code-toolbar-height),
+      var(--code-bg) var(--code-toolbar-height),
+      var(--code-bg) 100%
+    );
+  padding: var(--code-toolbar-height) 0 0 0;
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 2rem;
@@ -1430,8 +1441,8 @@ body.home-page .site-header {
 }
 
 .post-content pre.line-numbers {
-  padding-top: 2.2rem;
-  padding-left: 0;
+  padding-top: var(--code-toolbar-height);
+  padding-left: 2.9em; /* reduce excessive left gutter */
 }
 
 .post-content pre::before {
@@ -1465,6 +1476,19 @@ body.home-page .site-header {
     radial-gradient(circle at 22px 6px, #ffbd2e 5px, transparent 6px),
     radial-gradient(circle at 38px 6px, #27c93f 5px, transparent 6px);
   opacity: 0.95;
+}
+
+/* Reduce left whitespace while keeping line numbers readable */
+.post-content pre code {
+  padding: 0.9rem 1rem 1rem 1rem;
+}
+
+.post-content pre.line-numbers > code {
+  padding-left: 0.75rem;
+}
+
+.post-content pre.line-numbers .line-numbers-rows {
+  width: 2.4em;
 }
 
 .post-content pre .code-expand-btn {
