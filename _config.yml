@@ -18,6 +18,8 @@ google_analytics: "G-LY54J8KM1X"
 # Build settings
 # theme 설정 없음 - 커스텀 레이아웃 사용
 # plugins는 GitHub Pages가 자동으로 관리
+plugins:
+  - jekyll-paginate
 
 # Navigation
 navigation:
@@ -30,8 +32,10 @@ navigation:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-# Permalink structure - 각 포스트에서 직접 지정
-# 기본값은 날짜 기반이지만, 각 포스트의 front matter에서 permalink를 직접 지정
+# Permalink structure
+# 각 포스트의 front matter에서 permalink를 직접 지정하되, 
+# 기본값은 카테고리 기반으로 설정 (각 포스트의 permalink가 우선됨)
+permalink: /:category/:title/
 
 # Markdown settings
 markdown: kramdown
