@@ -35,9 +35,10 @@ jobs:
 
       - name: Commit and push
         run: |
+          VERSION=$(cat VERSION 2>/dev/null || echo v0.0.0)
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add _data/analytics.json assets/analytics.json
-          git diff --staged --quiet || git commit -m "Update analytics data [skip ci]"
+          git diff --staged --quiet || git commit -m "[$VERSION] Update analytics data [skip ci]"
           git push origin HEAD:main
 

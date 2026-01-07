@@ -46,6 +46,7 @@ jobs:
     - name: Commit and push
       if: success()
       run: |
+        VERSION=$(cat VERSION 2>/dev/null || echo v0.0.0)
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         # 원격 변경사항을 먼저 가져온다
@@ -53,14 +54,14 @@ jobs:
         # 로컬 변경사항과 untracked 파일을 먼저 커밋
         git add -A
         if ! git diff --staged --quiet; then
-          git commit -m "Auto-diary: stage local changes before pull" || true
+          git commit -m "[$VERSION] Auto-diary: stage local changes before pull" || true
         fi
         # 원격 변경사항을 가져온다
         git pull origin main --no-rebase || {
           # pull 실패 시 (충돌 등) 현재 버전을 우선
           git checkout --ours _posts/*.md 2>/dev/null || true
           git add _posts/*.md 2>/dev/null || true
-          git commit -m "Resolve merge conflict: keep auto-generated diary" || true
+          git commit -m "[$VERSION] Resolve merge conflict: keep auto-generated diary" || true
         }
         # 생성된 포스트와 처리된 요청 파일 등 모든 변경사항 추가
         git add _posts/*.md 2>/dev/null || true
@@ -69,7 +70,7 @@ jobs:
         # 변경사항이 있으면 커밋
         if ! git diff --staged --quiet; then
           TARGET_DATE=$(python -c "from datetime import datetime, timedelta; print((datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d'))")
-          git commit -m "Add daily diary for $TARGET_DATE"
+          git commit -m "[$VERSION] Add daily diary for $TARGET_DATE"
         fi
         # push 시도
         git push origin HEAD:main
