@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.0"
+gem "jekyll-paginate"
 
 # Windows에서 인코딩 문제 해결
 # wdm은 Ruby 3.4.0과 호환되지 않으므로 제거
