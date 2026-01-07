@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VHDL에서 wait 문이 합성 불가로 나오는 경우"
+title: "[오류] wait statement not supported for synthesis"
 date: 2026-01-07 12:40:00 +0900
 author: rldhkstopic
 category: dev

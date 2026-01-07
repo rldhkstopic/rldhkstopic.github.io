@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VHDL에서 Width mismatch(폭 불일치)가 나는 경우: unconstrained array/슬라이스"
+title: "[오류] width mismatch"
 date: 2026-01-07 12:30:00 +0900
 author: rldhkstopic
 category: dev

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VHDL에서 std_logic가 선언되지 않았다고 나오는 경우"
+title: "[오류] std_logic is not declared"
 date: 2026-01-07 12:20:00 +0900
 author: rldhkstopic
 category: dev

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VHDL에서 Inferred Latch 경고가 나는 경우"
+title: "[오류] inferred latch"
 date: 2026-01-07 12:10:00 +0900
 author: rldhkstopic
 category: dev
