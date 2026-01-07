@@ -1644,13 +1644,22 @@ body.home-page .site-header {
   padding-bottom: 5px;
   padding-left: 0;
   background: transparent;
-  color: var(--code-text);
   font-size: 0.875rem;
   line-height: 25px;
   overflow-x: auto;
   transition: color 0.2s ease;
   flex: 1;
   height: fit-content;
+}
+
+/* Prism.js 토큰이 색상을 제어하도록 기본 색상은 토큰이 없을 때만 적용 */
+.post-content .code-block-content > code {
+  color: var(--code-text);
+}
+
+/* Prism.js 토큰이 있으면 토큰 색상 사용 */
+.post-content .code-block-content > code .token {
+  color: inherit;
 }
 
 .post-content .code-block-content > .line-numbers {
@@ -1672,6 +1681,12 @@ body.home-page .site-header {
 .post-content .code-block-content > .line-numbers > span {
   display: block;
   height: 25px;
+  overflow: hidden;
+  text-align: right;
+  padding-right: 0.5em;
+  color: var(--code-text);
+  opacity: 0.5;
+  user-select: none;
 }
 
 .post-content pre code {
@@ -1843,16 +1858,26 @@ body.home-page .site-header {
 }
 
 /* Code syntax highlighting colors - GitHub style */
-.post-content pre code .keyword { color: #FF7B72; }
-.post-content pre code .string { color: #A5D6FF; }
-.post-content pre code .function { color: #D2A8FF; }
-.post-content pre code .number { color: #79C0FF; }
-.post-content pre code .comment { color: #8B949E; }
-.post-content pre code .variable { color: #FFA657; }
-.post-content pre code .operator { color: #C9D1D9; }
-.post-content pre code .class { color: #FFA657; }
-.post-content pre code .property { color: #79C0FF; }
-.post-content pre code .tag { color: #7EE787; }
+.post-content pre code .keyword,
+.post-content .code-block-content > code .keyword { color: #FF7B72; }
+.post-content pre code .string,
+.post-content .code-block-content > code .string { color: #A5D6FF; }
+.post-content pre code .function,
+.post-content .code-block-content > code .function { color: #D2A8FF; }
+.post-content pre code .number,
+.post-content .code-block-content > code .number { color: #79C0FF; }
+.post-content pre code .comment,
+.post-content .code-block-content > code .comment { color: #8B949E; }
+.post-content pre code .variable,
+.post-content .code-block-content > code .variable { color: #FFA657; }
+.post-content pre code .operator,
+.post-content .code-block-content > code .operator { color: #C9D1D9; }
+.post-content pre code .class,
+.post-content .code-block-content > code .class { color: #FFA657; }
+.post-content pre code .property,
+.post-content .code-block-content > code .property { color: #79C0FF; }
+.post-content pre code .tag,
+.post-content .code-block-content > code .tag { color: #7EE787; }
 
 .post-content blockquote {
   border-left: 4px solid var(--accent-color);

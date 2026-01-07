@@ -245,37 +245,55 @@
             contentWrapper.className = 'code-block-content';
             contentWrapper.setAttribute('data-lang', lang);
             
+            // line-numbers를 먼저 생성 (code보다 먼저 추가)
+            const lineNumbersDiv = document.createElement('div');
+            lineNumbersDiv.className = 'line-numbers';
+            
+            // 코드 라인 수 계산
+            const codeText = code.textContent || code.innerText || '';
+            const lines = codeText.split('\n');
+            const lineCount = lines.length;
+            
+            // line-numbers-rows가 있으면 그 개수 사용, 없으면 코드 라인 수 사용
+            let spanCount = lineCount;
+            if (lineNumbersRows) {
+              const existingSpans = lineNumbersRows.querySelectorAll('span');
+              spanCount = existingSpans.length || lineCount;
+            }
+            
+            // 줄 번호 span 생성 (1부터 시작)
+            for (let i = 1; i <= spanCount; i++) {
+              const span = document.createElement('span');
+              span.setAttribute('aria-hidden', 'true');
+              span.textContent = i; // 줄 번호 텍스트 추가
+              lineNumbersDiv.appendChild(span);
+            }
+            
+            // line-numbers를 먼저 추가
+            contentWrapper.appendChild(lineNumbersDiv);
+            
             // code를 contentWrapper로 이동 (clone이 아닌 실제 이동)
             const codeToMove = code.cloneNode(true);
             // code 내부의 line-numbers-rows 제거
             const rowsInCode = codeToMove.querySelector('.line-numbers-rows');
             if (rowsInCode) rowsInCode.remove();
+            
+            // Prism.js 하이라이팅을 위해 원본 클래스 유지
+            codeToMove.className = code.className;
             contentWrapper.appendChild(codeToMove);
             
-            // line-numbers를 별도 div로 생성
-            const lineNumbersDiv = document.createElement('div');
-            lineNumbersDiv.className = 'line-numbers';
-            
-            if (lineNumbersRows) {
-              // 기존 line-numbers-rows의 span들을 복사
-              const spans = lineNumbersRows.querySelectorAll('span');
-              spans.forEach(span => {
-                const newSpan = document.createElement('span');
-                newSpan.setAttribute('aria-hidden', 'true');
-                lineNumbersDiv.appendChild(newSpan);
-              });
-            } else {
-              // line-numbers-rows가 없으면 코드 라인 수를 계산해서 생성
-              const lines = (code.textContent || code.innerText || '').split('\n');
-              lines.forEach(() => {
-                const span = document.createElement('span');
-                span.setAttribute('aria-hidden', 'true');
-                lineNumbersDiv.appendChild(span);
-              });
-            }
-            
-            // 구조: code-block-content > code, line-numbers
-            contentWrapper.appendChild(lineNumbersDiv);
+            // Prism.js 하이라이팅 적용 (있는 경우)
+            // 약간의 지연을 두어 DOM에 추가된 후 실행
+            setTimeout(() => {
+              if (window.Prism) {
+                if (window.Prism.highlightElement) {
+                  window.Prism.highlightElement(codeToMove);
+                } else if (window.Prism.highlight) {
+                  const codeText = codeToMove.textContent || codeToMove.innerText;
+                  codeToMove.innerHTML = window.Prism.highlight(codeText, window.Prism.languages[lang] || window.Prism.languages.plaintext, lang);
+                }
+              }
+            }, 50);
             
             // pre를 contentWrapper로 교체
             pre.parentNode.replaceChild(contentWrapper, pre);
