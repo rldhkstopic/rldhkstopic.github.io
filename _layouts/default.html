@@ -249,10 +249,14 @@
             const lineNumbersDiv = document.createElement('div');
             lineNumbersDiv.className = 'line-numbers';
             
-            // 코드 라인 수 계산
+            // 코드 라인 수 계산 (마지막 빈 줄 제외)
             const codeText = code.textContent || code.innerText || '';
             const lines = codeText.split('\n');
-            const lineCount = lines.length;
+            // 마지막 줄이 완전히 비어있으면 제외
+            let lineCount = lines.length;
+            if (lines.length > 0 && lines[lines.length - 1] === '') {
+              lineCount = lines.length - 1;
+            }
             
             // line-numbers-rows가 있으면 그 개수 사용, 없으면 코드 라인 수 사용
             let spanCount = lineCount;
