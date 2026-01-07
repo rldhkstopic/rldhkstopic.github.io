@@ -77,10 +77,35 @@ python discord_interface.py
    - Writer → Reviewer → Validator → PostCreator 순서로 처리
    - 최종적으로 `_posts/*.md` 파일 생성 및 커밋
 
+## ☁️ 클라우드 배포 (항상 실행)
+
+로컬에서 매번 실행하는 대신, 클라우드에 배포하여 봇을 항상 온라인 상태로 유지할 수 있습니다.
+
+**자세한 배포 가이드**: [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+### 빠른 시작 (Railway 권장)
+
+1. [Railway](https://railway.app)에 GitHub 계정으로 로그인
+2. **"New Project"** → **"Deploy from GitHub repo"** 선택
+3. 저장소 선택 후 `local_bot` 폴더를 루트로 설정
+4. **Variables** 탭에서 환경 변수 설정:
+   - `DISCORD_BOT_TOKEN`
+   - `GITHUB_TOKEN`
+   - `GITHUB_REPO`
+   - `DISCORD_GUILD_ID` (선택사항)
+5. 배포 완료 후 봇이 자동으로 실행됩니다!
+
+### 다른 배포 옵션
+
+- **Render**: 무료 티어 제공 (슬리프 모드 가능)
+- **Fly.io**: 무료 티어 제공
+- 자세한 내용은 [DEPLOYMENT.md](./DEPLOYMENT.md) 참고
+
 ## 주의사항
 
 ⚠️ **토큰은 절대 공개하지 마세요!**
 - `.env` 파일은 `.gitignore`에 추가
 - GitHub에 커밋하지 마세요
 - 다른 사람과 공유하지 마세요
+- 클라우드 배포 시 환경 변수로만 설정하세요
 
