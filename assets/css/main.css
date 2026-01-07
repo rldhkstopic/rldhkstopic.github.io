@@ -1575,6 +1575,10 @@ body.home-page .site-header {
   padding-top: 5px;
   position: static;
   line-height: 25px;
+  border-right-width: 0px;
+  border-right-color: transparent;
+  border-right-style: none;
+  border-image: none;
 }
 
 .post-content pre:focus {
@@ -1591,6 +1595,12 @@ body.home-page .site-header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  border-width: 0px;
+  border-color: transparent;
+  border-style: none;
+  border-image: none;
+  background-color: unset;
+  background: unset;
 }
 
 .post-content pre code {
@@ -1605,7 +1615,7 @@ body.home-page .site-header {
 }
 
 .post-content pre.highlight code {
-  padding-top: 5px;
+  padding-top: 4px;
   padding-bottom: 5px;
   padding-left: 0;
   line-height: 25px;
