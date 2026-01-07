@@ -407,20 +407,24 @@ body.home-page .site-header {
 /* Home Page Layout - 게시판 형식 */
 .home {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: clamp(260px, 28vw, 320px) minmax(0, 1fr);
+  grid-template-areas: "sidebar main";
   gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.5rem 20px;
   position: relative;
   z-index: 1;
+  align-items: start;
 }
 
 /* Left Sidebar - 프로필 & 카테고리 */
 .sidebar {
+  grid-area: sidebar;
   position: sticky;
   top: 2rem;
   height: fit-content;
+  min-width: 0;
 }
 
 .sidebar-section {
@@ -808,7 +812,9 @@ body.home-page .site-header {
 
 /* Main Content Area - 게시판 */
 .main-content {
+  grid-area: main;
   min-height: 600px;
+  min-width: 0;
 }
 
 .content-section {
@@ -1115,7 +1121,8 @@ body.home-page .site-header {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 280px;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-areas: "post toc";
   gap: 2rem;
   align-items: start;
 }
@@ -1123,7 +1130,24 @@ body.home-page .site-header {
 /* 개발 글은 더 넓은 레이아웃 */
 .post-container-wide {
   max-width: 1400px;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: minmax(0, 1fr) 300px;
+}
+
+.post-container > .post {
+  grid-area: post;
+  min-width: 0;
+}
+
+.post-container > .post-toc {
+  grid-area: toc;
+  min-width: 0;
+}
+
+/* Long tokens (URLs/paths) should not cause horizontal scrolling */
+.post-content,
+.post-list-title {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .post-container-wide .post {
@@ -2352,32 +2376,39 @@ article div[role="doc-endnotes"] {
 }
 
 /* Responsive */
-@media (max-width: 968px) {
+/* Narrow screens + mobile "desktop mode" (coarse pointer): stack layout */
+@media (max-width: 1100px), (pointer: coarse) {
   .home {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "main"
+      "sidebar";
+    padding: 1rem 16px;
   }
-  
+
   .sidebar {
     position: static;
+    top: auto;
   }
-  
+
   .sidebar-section {
     margin-bottom: 1rem;
   }
-}
 
-@media (max-width: 968px) {
   .post-container {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "toc"
+      "post";
   }
-  
+
   .post-container-wide {
     grid-template-columns: 1fr;
   }
-  
+
   .post-toc {
     position: static;
-    order: -1;
+    top: auto;
     margin-bottom: 2rem;
   }
 }
@@ -2411,5 +2442,14 @@ article div[role="doc-endnotes"] {
   .search-modal-content {
     width: 95vw;
     margin-top: 5vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 0 14px;
+  }
+  .home {
+    padding: 1rem 14px;
   }
 }
