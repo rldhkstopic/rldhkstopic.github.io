@@ -1434,7 +1434,8 @@ body.home-page .site-header {
 
 /* Code block wrapper + header (DOM-based, avoids overlap) */
 .code-block {
-  margin-bottom: 2rem;
+  margin-bottom: 5px;
+  height: fit-content;
   border: 1px solid var(--code-border);
   border-radius: 8px;
   overflow: hidden;
@@ -1444,6 +1445,14 @@ body.home-page .site-header {
 
 [data-theme="dark"] .code-block {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.post-content .language-vhdl {
+  height: fit-content;
+}
+
+.post-content .highlight {
+  height: fit-content;
 }
 
 .code-block-header {
@@ -1548,7 +1557,7 @@ body.home-page .site-header {
   overflow: auto;
   margin: 0;
   position: relative; /* line-numbers rows positioning */
-  min-height: 220px;
+  min-height: 100px;
   max-height: 380px;
   overflow-y: auto;
   outline: none;
@@ -1581,6 +1590,7 @@ body.home-page .site-header {
   border-right-style: none;
   border-image: none;
   margin-right: 5px;
+  height: fit-content;
 }
 
 .post-content pre:focus {
@@ -1603,6 +1613,7 @@ body.home-page .site-header {
   border-image: none;
   background-color: unset;
   background: unset;
+  height: 100%;
 }
 
 .post-content pre code {
@@ -1621,6 +1632,10 @@ body.home-page .site-header {
   padding-bottom: 5px;
   padding-left: 0;
   line-height: 25px;
+}
+
+.post-content code.language-vhdl {
+  height: fit-content;
 }
 
 .post-content pre::-webkit-scrollbar {
