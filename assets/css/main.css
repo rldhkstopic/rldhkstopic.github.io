@@ -2578,6 +2578,12 @@ article div[role="doc-endnotes"] {
     padding: 2rem 1.5rem;
   }
   
+  /* 모바일에서 목차 숨기기 */
+  .post-toc,
+  #postTOC {
+    display: none !important;
+  }
+  
   .post-item {
     padding: 1rem;
   }
