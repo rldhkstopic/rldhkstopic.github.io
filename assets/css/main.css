@@ -1436,34 +1436,34 @@ body.home-page .site-header {
 .code-block {
   margin-bottom: 2rem;
   border: 1px solid var(--code-border);
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
   background: var(--code-bg);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 [data-theme="dark"] .code-block {
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
 }
 
 .code-block-header {
-  height: 44px;
+  height: 32px;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 0 12px;
+  gap: 8px;
+  padding: 0 10px;
   background: var(--code-header-bg);
   border-bottom: 1px solid var(--code-border);
 }
 
 .code-block-dots {
-  width: 44px;
-  height: 12px;
+  width: 36px;
+  height: 10px;
   flex: 0 0 auto;
   background:
-    radial-gradient(circle at 6px 6px, #ff5f56 5px, transparent 6px),
-    radial-gradient(circle at 22px 6px, #ffbd2e 5px, transparent 6px),
-    radial-gradient(circle at 38px 6px, #27c93f 5px, transparent 6px);
+    radial-gradient(circle at 5px 5px, #ff5f56 4px, transparent 5px),
+    radial-gradient(circle at 18px 5px, #ffbd2e 4px, transparent 5px),
+    radial-gradient(circle at 31px 5px, #27c93f 4px, transparent 5px);
   opacity: 0.95;
 }
 
@@ -1471,8 +1471,8 @@ body.home-page .site-header {
   flex: 1 1 auto;
   text-align: center;
   color: var(--code-header-text);
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   overflow: hidden;
@@ -1481,16 +1481,16 @@ body.home-page .site-header {
 }
 
 .code-block-actions {
-  width: 44px;
+  width: 32px;
   flex: 0 0 auto;
   display: flex;
   justify-content: flex-end;
 }
 
 .code-block-header .code-expand-btn {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
   border: 1px solid var(--code-border);
   background: var(--code-bg);
   color: var(--code-text);
@@ -1498,34 +1498,36 @@ body.home-page .site-header {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   transition: all 0.2s ease;
+  position: relative;
 }
 
 .code-block-header .code-expand-btn:hover {
   background: var(--bg-secondary);
   border-color: var(--accent-color);
   color: var(--accent-color);
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
 }
 
 .code-block-header .code-expand-btn::after {
   content: '전체 코드 보기';
   position: absolute;
-  top: 44px;
+  top: 32px;
   right: 0;
   background: var(--bg-secondary);
   color: var(--text-primary);
   border: 1px solid var(--border-color);
-  padding: 6px 10px;
-  font-size: 12px;
-  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 4px;
   opacity: 0;
   transform: translateY(-4px);
   pointer-events: none;
   transition: all 0.2s ease;
   white-space: nowrap;
   box-shadow: var(--shadow-sm);
+  z-index: 10;
 }
 
 .code-block-header .code-expand-btn:hover::after {
@@ -1553,20 +1555,21 @@ body.home-page .site-header {
 
 .post-content pre.line-numbers {
   padding-top: 0;
-  padding-left: 2.9em; /* keep gutter reasonable */
+  padding-left: 2.5em; /* VSCode style: reduced gutter */
 }
 
-/* Reduce left whitespace while keeping line numbers readable */
+/* VSCode style: minimal padding */
 .post-content pre code {
-  padding: 0.9rem 1rem 1rem 1rem;
+  padding: 0.75rem 1rem;
 }
 
 .post-content pre.line-numbers > code {
-  padding-left: 0.75rem;
+  padding-left: 0.5rem;
 }
 
 .post-content pre.line-numbers .line-numbers-rows {
-  width: 2.4em;
+  width: 2.2em;
+  padding-right: 0.5em;
 }
 
 .post-content pre:focus {
@@ -1581,10 +1584,10 @@ body.home-page .site-header {
 
 .post-content pre code {
   display: block;
-  padding: 1rem 1.25rem;
+  padding: 0.75rem 1rem;
   background: transparent;
   color: var(--code-text);
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   line-height: 1.6;
   overflow-x: auto;
   transition: color 0.2s ease;
@@ -1645,9 +1648,9 @@ body.home-page .site-header {
 
 .code-modal-content {
   background: var(--code-bg);
-  border-radius: 12px;
+  border-radius: 8px;
   border: 1px solid var(--code-border);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   width: min(960px, 92vw);
   max-height: 80vh;
   position: relative;
@@ -1664,13 +1667,14 @@ body.home-page .site-header {
 }
 
 .code-modal-header {
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--code-border);
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: var(--bg-secondary);
-  border-radius: 12px 12px 0 0;
+  border-radius: 8px 8px 0 0;
+  min-height: 40px;
 }
 
 .code-modal-title {
@@ -1684,10 +1688,10 @@ body.home-page .site-header {
   background: transparent;
   border: 1px solid var(--code-border);
   color: var(--code-text);
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
+  padding: 0.375rem 0.75rem;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   transition: all 0.2s ease;
 }
 
@@ -1698,7 +1702,7 @@ body.home-page .site-header {
 }
 
 .code-modal-body {
-  padding: 1.5rem;
+  padding: 1rem;
   overflow: auto;
   flex: 1;
 }
@@ -1711,17 +1715,17 @@ body.home-page .site-header {
 }
 
 .code-modal-body pre code {
-  padding: 1rem 1.25rem;
+  padding: 0.75rem 1rem;
   display: block;
   color: var(--code-text);
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   line-height: 1.6;
   white-space: pre;
 }
 
 .post-content pre:not(.highlight) code {
   background: transparent;
-  padding: 1rem 1.25rem;
+  padding: 0.75rem 1rem;
   color: var(--code-text);
   font-weight: 400;
   font-size: 0.875rem;

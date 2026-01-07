@@ -210,8 +210,9 @@
             const btn = document.createElement('button');
             btn.type = 'button';
             btn.className = 'code-expand-btn';
-            btn.innerHTML = '+';
+            btn.innerHTML = '⤢';
             btn.setAttribute('aria-label', '전체 코드 보기');
+            btn.title = '전체 코드 보기';
             btn.addEventListener('click', function(e) {
               e.stopPropagation();
               openCodeModal(pre, lang);
@@ -228,18 +229,22 @@
           } else {
             const langEl = wrapper.querySelector('.code-block-lang');
             if (langEl) langEl.textContent = lang;
-          }
-
-          // 긴 코드일 때만 확장 가능 표시
-          const lines = (code.textContent || code.innerText || '').split('\n');
-          if (lines.length > 15) {
-            pre.classList.add('code-expandable');
+            // 버튼이 항상 보이도록 보장
             const btn = wrapper.querySelector('.code-expand-btn');
             if (btn) btn.style.display = '';
-          } else {
-            pre.classList.remove('code-expandable');
-            const btn = wrapper.querySelector('.code-expand-btn');
-            if (btn) btn.style.display = 'none';
+          }
+
+          // 버튼은 항상 표시 (VSCode 스타일)
+          const btn = wrapper.querySelector('.code-expand-btn');
+          if (btn) {
+            btn.style.display = '';
+            // 긴 코드일 때만 확장 가능 표시
+            const lines = (code.textContent || code.innerText || '').split('\n');
+            if (lines.length > 15) {
+              pre.classList.add('code-expandable');
+            } else {
+              pre.classList.remove('code-expandable');
+            }
           }
         });
       }
