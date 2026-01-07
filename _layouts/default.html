@@ -183,14 +183,6 @@
           // 라인넘버 플러그인용 클래스는 pre에만 유지
           code.classList.remove('line-numbers');
 
-          // line-numbers-rows를 code 밖으로 이동 (pre의 직접 자식으로)
-          const lineNumbersRows = code.querySelector('.line-numbers-rows');
-          if (lineNumbersRows) {
-            // code에서 제거하고 pre의 첫 번째 자식으로 삽입
-            lineNumbersRows.remove();
-            pre.insertBefore(lineNumbersRows, code);
-          }
-
           // 기존(구버전) pre 내부 버튼 제거 (겹침 방지)
           const legacyBtn = pre.querySelector('.code-expand-btn');
           if (legacyBtn) legacyBtn.remove();

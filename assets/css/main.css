@@ -1570,6 +1570,13 @@ body.home-page .site-header {
   padding-left: 2.5em; /* VSCode style: reduced gutter */
 }
 
+.post-content pre.highlight.line-numbers {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /* VSCode style: minimal padding */
 .post-content pre code {
   padding: 0.75rem 1rem;
