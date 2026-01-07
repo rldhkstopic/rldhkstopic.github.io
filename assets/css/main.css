@@ -65,6 +65,12 @@ body {
   position: relative;
 }
 
+/* Prevent accidental horizontal scrolling on narrow viewports */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* 홈페이지 콘텐츠가 배경 위에 표시되도록 */
 body.home-page .page-content {
   position: relative;
@@ -414,6 +420,12 @@ body.home-page .site-header {
   padding: 1.5rem 20px;
   position: relative;
   z-index: 1;
+}
+
+/* Grid children must be allowed to shrink (avoid overflow) */
+.home .sidebar,
+.home .main-content {
+  min-width: 0;
 }
 
 /* Left Sidebar - 프로필 & 카테고리 */
@@ -2366,15 +2378,37 @@ article div[role="doc-endnotes"] {
   }
 }
 
-@media (max-width: 968px) {
+/* Earlier responsive breakpoint for "desktop mode" narrow widths */
+@media (max-width: 1100px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 16px;
+  }
+
+  /* Show main content first on narrow screens */
+  .home .main-content {
+    order: 1;
+    min-width: 0;
+  }
+
+  .home .sidebar {
+    order: 2;
+    position: static;
+    top: auto;
+    width: 100%;
+    min-width: 0;
+  }
+
   .post-container {
     grid-template-columns: 1fr;
   }
-  
+
   .post-container-wide {
     grid-template-columns: 1fr;
   }
-  
+
   .post-toc {
     position: static;
     order: -1;
