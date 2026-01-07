@@ -30,6 +30,9 @@ navigation:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
+# Permalink structure - 간결한 URL 구조
+permalink: /:category/:title/
+
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
