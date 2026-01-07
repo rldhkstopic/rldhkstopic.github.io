@@ -1634,7 +1634,7 @@ body.home-page .site-header {
   background: transparent;
   min-height: 100px;
   max-height: 380px;
-  overflow-y: auto;
+  overflow: hidden;
   position: relative;
 }
 
@@ -1648,9 +1648,11 @@ body.home-page .site-header {
   font-size: 0.875rem;
   line-height: 25px;
   overflow-x: auto;
+  overflow-y: auto;
   transition: color 0.2s ease;
   flex: 1;
-  height: fit-content;
+  min-height: 0;
+  max-height: 380px;
   border-width: 0px;
   border-color: rgba(0, 0, 0, 0);
   border-style: none;
