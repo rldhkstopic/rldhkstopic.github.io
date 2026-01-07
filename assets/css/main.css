@@ -1650,6 +1650,10 @@ body.home-page .site-header {
   transition: color 0.2s ease;
   flex: 1;
   height: fit-content;
+  border-width: 0px;
+  border-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  border-image: none;
 }
 
 /* Prism.js 토큰이 색상을 제어하도록 기본 색상은 토큰이 없을 때만 적용 */
