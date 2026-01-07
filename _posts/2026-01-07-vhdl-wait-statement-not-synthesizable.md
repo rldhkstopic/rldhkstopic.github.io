@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, Vivado, Synthesis, wait, Testbench]
 views: 0
+permalink: /dev/8/
 ---
 
 VHDL에서 `wait` 문은 시뮬레이션에서는 매우 편하지만, 합성에서는 제한이 크다. Vivado 합성에서 `wait statement not supported for synthesis`류의 메시지가 나오면, 대부분 “테스트벤치용 문법을 RTL에 섞어 넣었다”는 의미다.

@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, Vivado, WidthMismatch, std_logic_vector, Array]
 views: 0
+permalink: /dev/7/
 ---
 
 VHDL에서 폭 불일치 오류는 거의 모든 설계에서 한 번은 만난다. Vivado에서는 “width mismatch”, “cannot match”, “range mismatch” 같은 형태로 보이는데, 실질적으로는 **좌변과 우변의 비트 폭이 다르다**는 의미다.

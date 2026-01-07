@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [FPGA, EEPROM, Flash, BRAM, VHDL, DataPath, SPI]
 views: 0
+permalink: /dev/2/
 ---
 
 이전에 [FPGA에서 플래시 메모리와 BRAM을 어떻게 써야 하는가](/dev/2025/12/16/FPGA-플래시-메모리와-BRAM-고찰/)와 [EEPROM 값을 BRAM/LUT로 로드하는 설계 고찰](/dev/2025/12/16/FPGA-EEPROM에서-BRAM-LUT로-설정-로드-설계/)을 정리했던 내용을 바탕으로, 이번에는 실제 구현 단계에서 필요한 **데이터 폭 변환(Data Width Conversion) 및 주소 생성(Address Generation) 로직**을 VHDL 코드와 함께 정리한다.

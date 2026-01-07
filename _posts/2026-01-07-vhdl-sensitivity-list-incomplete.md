@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, SensitivityList, Combinational, Simulation, Synthesis]
 views: 0
+permalink: /dev/10/
 ---
 
 조합 논리 프로세스에서 감지 리스트(sensitivity list)가 불완전하면 시뮬레이션과 합성 결과가 달라질 수 있다. 프로세스 내에서 읽는 모든 신호가 감지 리스트에 포함되지 않으면, 시뮬레이션에서는 해당 신호 변화를 놓칠 수 있다. 합성기는 보통 경고를 내지만, 시뮬레이션 동작 불일치의 주요 원인이 된다.

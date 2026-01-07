@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [FPGA, EEPROM, BRAM, LUT, Configuration]
 views: 0
+permalink: /dev/3/
 ---
 
 실제 보드를 다루다 보면, 외부에서 받아서 한 번만 저장해 두면 되는 설정값을 **EEPROM에 보관했다가 전원 인가 후에는 온칩 리소스(BRAM/LUT)만 바라보고 싶다**는 요구가 반복해서 나온다. 플래시에 비트스트림과 펌웨어를 두고, 모듈별 세부 파라미터는 EEPROM에 저장한 뒤, 부팅 후에는 BRAM에 올려 놓고 읽기 전용으로 사용하는 구조를 정리해 둘 필요가 있었다. 작성자: {{ site.author }}

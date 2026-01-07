@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, TypeConversion, TypeMismatch, Vivado, Synthesis]
 views: 0
+permalink: /dev/9/
 ---
 
 VHDL에서 타입 불일치 오류는 합성 단계에서 자주 발생한다. `std_logic`과 `std_logic_vector` 사이, 또는 서로 다른 크기의 벡터 간 할당 시 타입 변환이 필요하다. 명시적 변환 없이 할당하면 `type mismatch` 또는 `no feasible entries` 오류가 발생한다.

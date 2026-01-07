@@ -30,8 +30,8 @@ navigation:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-# Permalink structure - 간결한 URL 구조
-permalink: /:category/:title/
+# Permalink structure - 각 포스트에서 직접 지정
+# 기본값은 날짜 기반이지만, 각 포스트의 front matter에서 permalink를 직접 지정
 
 # Markdown settings
 markdown: kramdown

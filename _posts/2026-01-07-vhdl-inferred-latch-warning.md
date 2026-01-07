@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, Vivado, Latch, Synthesis, Combinational]
 views: 0
+permalink: /dev/5/
 ---
 
 합성 로그에서 `inferred latch` 또는 “래치가 추론되었다”는 경고를 보는 경우가 있다. 이는 조합 논리로 의도한 프로세스가 모든 입력 조합에서 값을 결정하지 못해, 합성기가 **상태를 기억해야 하는 소자(래치)**로 구현했다고 판단한 상황이다.

@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, Vivado, DRC, MDRV-1, MultipleDrivers]
 views: 0
+permalink: /dev/4/
 ---
 
 Vivado에서 합성/구현 단계로 넘어갈 때 `[DRC MDRV-1] Multiple Driver Nets`가 발생하는 경우가 있다. 이 오류는 특정 네트가 **둘 이상의 드라이버에 의해 구동**된다는 의미다. RTL 시뮬레이션에서는 의도치 않게 통과하는 경우가 있어, 빌드 단계에서 처음 드러나는 편이다.

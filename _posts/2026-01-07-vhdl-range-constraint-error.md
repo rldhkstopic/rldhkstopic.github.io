@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, RangeConstraint, IndexError, ArrayBounds, Vivado]
 views: 0
+permalink: /dev/11/
 ---
 
 VHDL에서 배열 인덱스가 범위를 벗어나면 `range constraint error` 또는 `index out of range` 오류가 발생한다. 이는 벡터 슬라이싱, 배열 접근, 루프 인덱스 등에서 자주 발생하며, 합성 단계에서 검출되는 경우가 많다.

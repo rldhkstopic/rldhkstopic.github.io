@@ -7,6 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, Vivado, IEEE, std_logic_1164, Compile]
 views: 0
+permalink: /dev/6/
 ---
 
 VHDL 컴파일에서 `std_logic` 또는 `std_logic_vector`가 “선언되지 않았다”는 오류가 발생하는 경우가 있다. 메시지는 툴/버전에 따라 다르지만, 본질은 `std_logic` 타입 정의가 들어있는 패키지를 가져오지 않았다는 뜻이다.
