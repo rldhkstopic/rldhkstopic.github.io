@@ -116,9 +116,26 @@ bundle exec jekyll serve
 
 1. Always check status: `git status`
 2. Add changes: `git add .` or specific files
-3. Commit with English message: `git commit -m "Verb: description"`
+3. Commit with English message: `git commit -m "[v0.0.0] Verb: description"`
+   - **ALWAYS include version tag in commit message**: Use format `[vX.Y.Z]` where version is read from `VERSION` file
+   - Version format: `v0.0.0` (major.minor.patch)
+   - Increment version appropriately:
+     - Patch (v0.0.1): Bug fixes, minor styling changes
+     - Minor (v0.1.0): New features, significant improvements
+     - Major (v1.0.0): Breaking changes, major refactoring
 4. Pull before push: `git pull --rebase origin main`
-5. Push: `git push origin main`
+5. **ALWAYS push changes**: `git push origin main`
+   - **CRITICAL**: After making any code changes, you MUST commit and push to GitHub
+   - Do not leave uncommitted changes
+   - Push immediately after committing unless explicitly told otherwise
+
+## Version Management
+
+- Version is stored in `VERSION` file (format: `v0.0.0`)
+- **ALWAYS read current version from `VERSION` file before committing**
+- Include version tag in every commit message: `[vX.Y.Z]`
+- Update `VERSION` file when version changes (increment patch/minor/major as appropriate)
+- Version tags help track changes and maintain project history
 
 ## Notes
 
@@ -126,3 +143,4 @@ bundle exec jekyll serve
 - OAuth callback URLs must match exactly in GitHub OAuth App settings
 - Sensitive environment variables cannot be set for Development environment in Vercel
 - Always use English for commit messages, code comments, and technical documentation
+- **ALWAYS commit and push changes immediately after making modifications**
