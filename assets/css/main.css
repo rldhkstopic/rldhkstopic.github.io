@@ -1854,7 +1854,8 @@ body.home-page .site-header {
   max-height: 320px;
   cursor: pointer;
   transition: max-height 0.25s ease;
-  overflow-y: hidden;
+  /* Keep vertical scroll enabled; line numbers should scroll together */
+  overflow-y: auto;
 }
 
 .post-content pre.code-expanded,
