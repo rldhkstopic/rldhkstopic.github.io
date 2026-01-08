@@ -21,6 +21,15 @@
 - **2025-12-16 · EEPROM(Flash) 컨트롤러와 BRAM 사이의 데이터 경로 설계**  
   **8-bit 직렬 스트림을 16-bit 병렬 워드로 변환하여 BRAM에 저장하는 파이프라인 구조**를 VHDL 코드와 함께 설명한다. SPI Controller, Data Assembler, Block RAM으로 구성된 3단계 파이프라인의 구현 방법과 타이밍 특성을 다룬다.
 
+- **2026-01-08 · VHDL 문법 정리 (1): 설계 단위와 기본 구조(entity/architecture)**  
+  `entity/architecture/package`를 **설계 단위 관점**에서 정리하고, 파일 구조/라이브러리 관리에 영향을 주는 기본 원칙을 정리한 글이다.
+
+- **2026-01-08 · VHDL 문법 정리 (2): 타입/신호/변수, 동시·순차 문장, 프로세스**  
+  `std_logic_vector`와 `unsigned/signed`의 역할을 분리하고, `signal`/`variable`의 **업데이트 시점 차이**를 시간 모델 관점에서 설명한 글이다.
+
+- **2026-01-08 · VHDL 문법 정리 (3): 클럭/리셋 템플릿, generate/generic, 구조 확장**  
+  합성 가능한 클럭/리셋 템플릿을 고정하고, `generate/generic`으로 **구조를 확장/선택**하는 패턴을 예제로 정리한 글이다.
+
 ## Document
 
 - **2025-12-13 · 연준 정책과 업스타트 홀딩스 영향 분석**  
