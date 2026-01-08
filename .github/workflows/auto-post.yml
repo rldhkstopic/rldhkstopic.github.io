@@ -21,6 +21,9 @@ jobs:
       contents: write
     
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
     - name: Notify workflow started
       if: always()
       env:
@@ -35,9 +38,6 @@ jobs:
       run: |
         pip install requests -q
         python .github/scripts/workflow_notifier.py started || true
-    
-    - name: Checkout repository
-      uses: actions/checkout@v4
       
     - name: Set up Python
       uses: actions/setup-python@v5

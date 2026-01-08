@@ -41,6 +41,21 @@ def send_workflow_notification(
     if not webhook_url:
         print("[WARN] DISCORD_WEBHOOK_URL이 설정되지 않았습니다.")
         return False
+    # Common misconfiguration: user pastes a numeric ID instead of a webhook URL
+    if webhook_url.strip().isdigit():
+        print(
+            "[WARN] DISCORD_WEBHOOK_URL 형식이 잘못되었습니다. "
+            "Discord Webhook URL 전체(https://discord.com/api/webhooks/<id>/<token>)를 설정해야 합니다."
+        )
+        return False
+    if not webhook_url.startswith("https://discord.com/api/webhooks/") and not webhook_url.startswith(
+        "https://discordapp.com/api/webhooks/"
+    ):
+        print(
+            "[WARN] DISCORD_WEBHOOK_URL 형식이 예상과 다릅니다. "
+            "Discord Webhook URL 전체를 설정했는지 확인하십시오."
+        )
+        return False
     
     # 상태에 따른 색상 및 이모지 설정
     status_config = {
