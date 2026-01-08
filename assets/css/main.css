@@ -464,9 +464,9 @@ body.home-page .site-header {
 /* Mobile/Tablet top profile bar (home only) */
 .mobile-profile-bar {
   display: none;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
   padding: 10px 12px;
   margin: 0 0 12px 0;
   background: var(--bg-secondary);
@@ -474,7 +474,16 @@ body.home-page .site-header {
   border-radius: var(--border-radius);
 }
 
-.mobile-profile-left {
+.mobile-profile-top,
+.mobile-profile-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 0;
+}
+
+.mobile-profile-top-left {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -482,9 +491,9 @@ body.home-page .site-header {
 }
 
 .mobile-profile-status {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-primary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-secondary);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -511,7 +520,17 @@ body.home-page .site-header {
   background: transparent;
 }
 
-.mobile-profile-right {
+.mobile-profile-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.mobile-profile-top-right {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -520,34 +539,18 @@ body.home-page .site-header {
 
 .mobile-profile-visitors {
   display: inline-flex;
-  align-items: baseline;
-  gap: 6px;
-  padding: 6px 8px;
-  border: 1px solid var(--border-color);
-  background: var(--bg-primary);
-  border-radius: 999px;
-  line-height: 1;
-}
-
-.mobile-profile-visitors-label {
-  font-size: 0.75rem;
+  align-items: center;
+  gap: 4px;
   color: var(--text-secondary);
-  font-weight: 600;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 .mobile-profile-visitors-value {
-  font-size: 0.9rem;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-}
-
-.mobile-profile-actions,
-.mobile-profile-right {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  flex: 0 0 auto;
 }
 
 .mobile-profile-icon {
