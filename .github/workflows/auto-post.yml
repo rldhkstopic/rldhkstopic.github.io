@@ -2,8 +2,8 @@ name: Auto Post Daily
 
 on:
   schedule:
-    # 매일 오전 7시 (KST) 실행
-    - cron: '0 22 * * *'  # UTC 22:00 = KST 07:00 (다음날)
+    # 매일 자정 (KST) 실행 - 전일 경제 뉴스 요약
+    - cron: '0 15 * * *'  # UTC 15:00 = KST 00:00 (다음날)
   push:
     branches:
       - main

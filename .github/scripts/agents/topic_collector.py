@@ -73,22 +73,32 @@ class TopicCollectorAgent:
 
     def _collect_bloomberg_yesterday_digest(self) -> List[Dict]:
         """
-        Bloomberg RSS를 사용해 전일(Asia/Seoul 기준) 뉴스 항목을 모아 다이제스트 주제로 만든다.
+        여러 경제 뉴스 소스 RSS를 사용해 전일(Asia/Seoul 기준) 뉴스 항목을 모아 다이제스트 주제로 만든다.
 
         - RSS는 제목/요약/링크만 사용한다(원문 전문 수집 금지).
         - 전일 범위는 KST 00:00:00 ~ 23:59:59 로 필터링한다.
+        - 수집 소스: 블룸버그, 다음경제, investing, 한국경제, 미국 경제뉴스 등
         """
         # 사용자가 RSS 피드를 커스터마이징할 수 있도록 환경 변수로 받는다.
-        # 예: BLOOMBERG_RSS_FEEDS="https://feeds.bloomberg.com/markets/news.rss,https://feeds.bloomberg.com/technology/news.rss"
-        feeds_env = os.getenv("BLOOMBERG_RSS_FEEDS", "").strip()
+        # 예: ECONOMIC_NEWS_RSS_FEEDS="https://feeds.bloomberg.com/markets/news.rss,https://..."
+        feeds_env = os.getenv("ECONOMIC_NEWS_RSS_FEEDS", "").strip()
         if feeds_env:
             feed_urls = [u.strip() for u in feeds_env.split(",") if u.strip()]
         else:
-            # 기본값: 공개 RSS(도메인: feeds.bloomberg.com) 위주
+            # 기본값: 여러 경제 뉴스 소스
             feed_urls = [
+                # Bloomberg
                 "https://feeds.bloomberg.com/markets/news.rss",
                 "https://feeds.bloomberg.com/technology/news.rss",
                 "https://feeds.bloomberg.com/politics/news.rss",
+                # 다음경제 (RSS URL 확인 필요)
+                # "https://news.daum.net/rss/economic",
+                # investing.com (RSS URL 확인 필요)
+                # "https://www.investing.com/rss/news.rss",
+                # 한국경제 (RSS URL 확인 필요)
+                # "https://www.hankyung.com/rss/economy",
+                # 미국 경제뉴스 (예: Reuters, WSJ 등)
+                # "https://feeds.reuters.com/reuters/businessNews",
             ]
 
         # 전일 범위(Asia/Seoul)
@@ -162,11 +172,11 @@ class TopicCollectorAgent:
 
         ymd = yesterday_start.strftime("%Y-%m-%d")
         topic = {
-            "title": f"블룸버그 전일 뉴스 다이제스트 ({ymd}, KST)",
-            "description": f"블룸버그 RSS에서 전일(한국시간) 뉴스 {len(items)}건을 묶어 요약하고 관찰 포인트를 정리한다.",
+            "title": f"경제 뉴스 전일 다이제스트 ({ymd}, KST)",
+            "description": f"여러 경제 뉴스 소스에서 전일(한국시간) 뉴스 {len(items)}건을 묶어 요약하고 관찰 포인트를 정리한다.",
             "category": "document",
-            "tags": ["Bloomberg", "뉴스요약", "시장", "전일"],
-            "source": "bloomberg_rss",
+            "tags": ["경제뉴스", "뉴스요약", "시장", "전일"],
+            "source": "bloomberg_rss",  # 기존 코드 호환성을 위해 유지
             "source_url": feed_urls[0] if feed_urls else "",
             "digest_items": items,
         }
