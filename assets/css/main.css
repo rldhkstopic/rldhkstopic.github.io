@@ -481,6 +481,16 @@ body.home-page .site-header {
   min-width: 0;
 }
 
+.mobile-profile-status {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
 .mobile-profile-avatar,
 .mobile-profile-avatar-fallback {
   width: 32px;
@@ -501,16 +511,39 @@ body.home-page .site-header {
   background: transparent;
 }
 
-.mobile-profile-title {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.mobile-profile-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
 }
 
-.mobile-profile-actions {
+.mobile-profile-visitors {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 8px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-primary);
+  border-radius: 999px;
+  line-height: 1;
+}
+
+.mobile-profile-visitors-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.mobile-profile-visitors-value {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.mobile-profile-actions,
+.mobile-profile-right {
   display: inline-flex;
   align-items: center;
   gap: 10px;

@@ -485,6 +485,7 @@
         const totalEl = document.getElementById('total-visitors');
         const todayEl = document.getElementById('today-visitors');
         const yesterdayEl = document.getElementById('yesterday-visitors');
+        const todayMobileEl = document.getElementById('today-visitors-mobile');
         
         if (!totalEl || !todayEl || !yesterdayEl) {
           console.log('방문자 통계 요소를 찾을 수 없습니다.');
@@ -524,6 +525,9 @@
               }
               if (data.today !== undefined && data.today !== null) {
                 todayEl.textContent = data.today.toLocaleString();
+                if (todayMobileEl) {
+                  todayMobileEl.textContent = data.today.toLocaleString();
+                }
               }
               if (data.yesterday !== undefined && data.yesterday !== null) {
                 yesterdayEl.textContent = data.yesterday.toLocaleString();
