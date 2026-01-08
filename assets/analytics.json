@@ -1,6 +1,18 @@
 {
-  "total": 9,
-  "today": 3,
-  "yesterday": 2,
-  "lastUpdated": "2026-01-08T13:15:04.534Z"
+  "total": 64,
+  "today": 6,
+  "yesterday": 5,
+  "totalUsers": 9,
+  "todayUsers": 3,
+  "yesterdayUsers": 2,
+  "totalSessions": 64,
+  "todaySessions": 6,
+  "yesterdaySessions": 5,
+  "totalPageViews": 613,
+  "todayPageViews": 106,
+  "yesterdayPageViews": 74,
+  "timezone": "Asia/Seoul",
+  "kstToday": "2026-01-08",
+  "kstYesterday": "2026-01-07",
+  "lastUpdated": "2026-01-08T14:03:38.670Z"
 }
