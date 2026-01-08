@@ -9,12 +9,18 @@ Discord Slash Command → GitHub 요청 커밋 파이프라인
 - GITHUB_TOKEN      : GitHub Personal Access Token (repo 권한)
 - GITHUB_REPO       : 대상 리포지토리 "owner/repo"
 - REQUEST_DIR       : 요청 파일 경로 (기본: "_auto_post_requests")
+- DAILY_LOG_CHANNEL : 일기 로그 수집 채널 이름 (기본: "일기-로그")
+- DAILY_LOGS_DIR    : 일기 로그 저장 디렉토리 (기본: "_daily_logs")
+
+기능:
+1. `/write` 명령어: 블로그 글 요청 등록
+2. 메시지 수집: `#일기-로그` 채널의 메시지를 자동으로 수집하여 GitHub에 저장
 """
 
 import json
 import os
 import asyncio
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 import discord
 from discord import app_commands
@@ -35,11 +41,89 @@ GITHUB_REPO = os.getenv("GITHUB_REPO", "rldhkstopic/rldhkstopic.github.io")
 REQUEST_DIR = os.getenv("REQUEST_DIR", "_auto_post_requests")
 PROCESSED_DIR = os.getenv("PROCESSED_DIR", "_auto_post_requests_processed")
 RESULTS_DIR = os.getenv("RESULTS_DIR", "_auto_post_results")
+DAILY_LOG_CHANNEL = os.getenv("DAILY_LOG_CHANNEL", "일기-로그")  # Discord 채널 이름
+DAILY_LOGS_DIR = os.getenv("DAILY_LOGS_DIR", "_daily_logs")
 
 if not DISCORD_TOKEN:
     raise RuntimeError("DISCORD_BOT_TOKEN이 설정되지 않았습니다.")
 if not GITHUB_TOKEN:
     raise RuntimeError("GITHUB_TOKEN이 설정되지 않았습니다.")
+
+
+def commit_daily_log_to_github(message_data: dict) -> bool:
+    """
+    일기 로그를 GitHub에 커밋한다.
+    
+    Args:
+        message_data: 메시지 데이터 딕셔너리
+        
+    Returns:
+        bool: 커밋 성공 여부
+    """
+    try:
+        auth = Auth.Token(GITHUB_TOKEN)
+        gh = Github(auth=auth)
+        repo = gh.get_repo(GITHUB_REPO)
+        
+        # 날짜 추출 (KST 기준)
+        timestamp_str = message_data.get('timestamp', '')
+        try:
+            # zoneinfo 사용 (Python 3.9+)
+            from zoneinfo import ZoneInfo
+            kst = ZoneInfo("Asia/Seoul")
+            if 'Z' in timestamp_str:
+                dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+            else:
+                dt = datetime.fromisoformat(timestamp_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            dt_kst = dt.astimezone(kst)
+        except ImportError:
+            # Python 3.8 이하: pytz 사용 또는 UTC+9 직접 계산
+            try:
+                import pytz
+                kst = pytz.timezone('Asia/Seoul')
+                if 'Z' in timestamp_str:
+                    dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+                else:
+                    dt = datetime.fromisoformat(timestamp_str)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                dt_kst = dt.astimezone(kst)
+            except ImportError:
+                # pytz도 없으면 UTC+9 직접 계산
+                if 'Z' in timestamp_str:
+                    dt = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+                else:
+                    dt = datetime.fromisoformat(timestamp_str)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                # UTC+9 = 9시간 추가
+                dt_kst = dt.replace(tzinfo=None) + timedelta(hours=9)
+        
+        date_str = dt_kst.strftime('%Y-%m-%d')
+        log_id = message_data.get('id', str(int(dt.timestamp() * 1000)))
+        filename = f"{log_id}.json"
+        path = f"{DAILY_LOGS_DIR}/{date_str}/{filename}"
+        
+        # JSON 변환
+        content = json.dumps(message_data, ensure_ascii=False, indent=2)
+        message = f"[DAILY LOG] {date_str} - {message_data.get('content', '')[:50]}"
+        
+        try:
+            # 파일 생성 (GitHub API는 경로에 디렉토리가 포함되어 있으면 자동으로 생성)
+            repo.create_file(path, message, content)
+            return True
+        except Exception as e:
+            # 파일이 이미 존재하면 업데이트하지 않고 무시
+            error_str = str(e).lower()
+            if "already exists" in error_str or "422" in error_str or "sha" in error_str:
+                print(f"[INFO] 로그 파일이 이미 존재합니다: {path}")
+                return True
+            raise
+    except Exception as e:
+        print(f"[ERROR] 일기 로그 커밋 실패: {e}")
+        return False
 
 
 def commit_request_to_github(payload: dict) -> tuple[str, str]:
@@ -392,7 +476,9 @@ class WriteModal(discord.ui.Modal, title="새 글 요청"):
 
 class DiscordBot(discord.Client):
     def __init__(self):
+        # 메시지 내용을 읽기 위해 message_content intent 필요
         intents = discord.Intents.default()
+        intents.message_content = True  # 메시지 내용 읽기 권한
         super().__init__(intents=intents)
         self.tree = app_commands.CommandTree(self)
 
@@ -400,6 +486,72 @@ class DiscordBot(discord.Client):
         print(f"봇이 준비되었습니다! (Bot is ready!)")
         print(f"로그인한 사용자: {self.user}")
         print(f"서버 수: {len(self.guilds)}")
+        print(f"[INFO] 일기 로그 수집 채널: #{DAILY_LOG_CHANNEL}")
+
+    async def on_message(self, message: discord.Message):
+        """
+        메시지 수신 시 호출되는 이벤트 핸들러
+        일기 로그 채널의 메시지를 수집하여 GitHub에 저장한다.
+        """
+        # 봇 자신의 메시지는 무시
+        if message.author == self.user:
+            return
+        
+        # 특정 채널만 처리
+        if message.channel.name != DAILY_LOG_CHANNEL:
+            return
+        
+        # 명령어는 무시 (슬래시 명령어는 별도 처리)
+        if message.content.startswith('/'):
+            return
+        
+        # 메시지 데이터 구성 (KST 변환)
+        try:
+            from zoneinfo import ZoneInfo
+            kst = ZoneInfo("Asia/Seoul")
+        except ImportError:
+            try:
+                import pytz
+                kst = pytz.timezone('Asia/Seoul')
+            except ImportError:
+                # pytz도 없으면 UTC+9 직접 계산
+                kst = None
+        
+        if kst:
+            timestamp = message.created_at.replace(tzinfo=timezone.utc).astimezone(kst)
+        else:
+            # UTC+9 직접 계산
+            timestamp = message.created_at.replace(tzinfo=timezone.utc) + timedelta(hours=9)
+        
+        message_data = {
+            'id': str(int(message.created_at.timestamp() * 1000)),
+            'content': message.content,
+            'timestamp': timestamp.isoformat(),
+            'mood': None,  # 추후 확장 가능
+            'tags': None,  # 추후 확장 가능
+            'location': None,  # 추후 확장 가능
+            'author': str(message.author),
+            'message_id': str(message.id),
+            'channel_id': str(message.channel.id),
+        }
+        
+        # 첨부 파일이 있으면 URL 추가
+        if message.attachments:
+            message_data['attachments'] = [att.url for att in message.attachments]
+        
+        # GitHub에 커밋 (비동기로 처리하여 메시지 응답 지연 방지)
+        try:
+            # 동기 함수이므로 별도 스레드에서 실행
+            import threading
+            thread = threading.Thread(
+                target=commit_daily_log_to_github,
+                args=(message_data,),
+                daemon=True
+            )
+            thread.start()
+            print(f"[INFO] 일기 로그 수집: {message_data['id']} - {message.content[:50]}")
+        except Exception as e:
+            print(f"[ERROR] 일기 로그 수집 실패: {e}")
 
     async def setup_hook(self):
         # 길드 스코프에만 명령을 등록하면 전파가 빠르다.
