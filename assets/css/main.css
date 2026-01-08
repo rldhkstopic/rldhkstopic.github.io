@@ -486,6 +486,7 @@ body.home-page .site-header {
   background: var(--bg-secondary);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
 }
 
 .mobile-category-top {
@@ -507,12 +508,14 @@ body.home-page .site-header {
   line-height: 1;
   cursor: pointer;
   white-space: nowrap;
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
 .mobile-cat-btn.is-active {
   color: var(--accent-color);
   border-color: var(--accent-color);
   background: var(--accent-light);
+  transform: translateY(-1px);
 }
 
 .mobile-category-sub {
@@ -520,10 +523,19 @@ body.home-page .site-header {
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: max-height 220ms ease, opacity 220ms ease, transform 220ms ease;
 }
 
-.mobile-category-sub[hidden] {
-  display: none !important;
+.mobile-category-sub.is-open {
+  max-height: 140px; /* 2~3줄 정도 */
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .mobile-sub-chip {
@@ -539,12 +551,14 @@ body.home-page .site-header {
   font-weight: 600;
   line-height: 1;
   white-space: nowrap;
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
 .mobile-sub-chip:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
   background: var(--accent-light);
+  transform: translateY(-1px);
 }
 
 .mobile-profile-top,

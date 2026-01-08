@@ -283,24 +283,24 @@ layout: default
         <button type="button" class="mobile-cat-btn" data-cat="study" aria-expanded="false">📖 Study</button>
       </div>
 
-      <div class="mobile-category-sub" data-cat="daily" hidden>
+      <div class="mobile-category-sub" data-cat="daily" aria-hidden="true">
         <a href="/daily/" class="mobile-sub-chip">전체</a>
         <a href="/daily/" class="mobile-sub-chip">나의 일기</a>
       </div>
 
-      <div class="mobile-category-sub" data-cat="dev" hidden>
+      <div class="mobile-category-sub" data-cat="dev" aria-hidden="true">
         <a href="/dev/" class="mobile-sub-chip">전체</a>
         <a href="/dev/vhdl/" class="mobile-sub-chip">VHDL</a>
         <a href="/dev/" class="mobile-sub-chip">바이브 코딩</a>
       </div>
 
-      <div class="mobile-category-sub" data-cat="document" hidden>
+      <div class="mobile-category-sub" data-cat="document" aria-hidden="true">
         <a href="/document/" class="mobile-sub-chip">전체</a>
         <a href="/document/" class="mobile-sub-chip">U.S. Stock News</a>
         <a href="/document/" class="mobile-sub-chip">My Stocks</a>
       </div>
 
-      <div class="mobile-category-sub" data-cat="study" hidden>
+      <div class="mobile-category-sub" data-cat="study" aria-hidden="true">
         <a href="/study/" class="mobile-sub-chip">전체</a>
         <a href="/study/" class="mobile-sub-chip">FPGA</a>
         <a href="/study/" class="mobile-sub-chip">바이브 코딩</a>
@@ -318,7 +318,10 @@ layout: default
         function closeAll() {
           btns.forEach(b => b.setAttribute('aria-expanded', 'false'));
           btns.forEach(b => b.classList.remove('is-active'));
-          subs.forEach(s => { s.hidden = true; });
+          subs.forEach(s => {
+            s.classList.remove('is-open');
+            s.setAttribute('aria-hidden', 'true');
+          });
         }
 
         btns.forEach(btn => {
@@ -330,7 +333,8 @@ layout: default
             if (!expanded && target) {
               btn.setAttribute('aria-expanded', 'true');
               btn.classList.add('is-active');
-              target.hidden = false;
+              target.classList.add('is-open');
+              target.setAttribute('aria-hidden', 'false');
             }
           });
         });
