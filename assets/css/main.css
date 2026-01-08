@@ -1732,7 +1732,9 @@ body.home-page .site-header {
   background: transparent;
   min-height: 100px;
   max-height: 380px;
-  overflow: hidden;
+  /* Scroll the wrapper so line numbers move with code */
+  overflow-y: auto;
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -1746,11 +1748,12 @@ body.home-page .site-header {
   font-size: 0.875rem;
   line-height: 25px;
   overflow-x: auto;
-  overflow-y: auto;
+  /* Vertical scroll must be on wrapper to sync with line numbers */
+  overflow-y: visible;
   transition: color 0.2s ease;
   flex: 1;
   min-height: 0;
-  max-height: 380px;
+  max-height: none;
   border-width: 0px;
   border-color: rgba(0, 0, 0, 0);
   border-style: none;
@@ -1778,12 +1781,12 @@ body.home-page .site-header {
   border-style: none;
   border-image: none;
   margin-right: 5px;
-  height: fit-content;
+  height: auto;
   display: flex;
   flex-direction: column;
   left: 0;
   top: 0;
-  z-index: 999;
+  z-index: 1;
   text-align: center;
   font-family: Consolas, 'Courier New', monospace;
   font-size: 14px;
