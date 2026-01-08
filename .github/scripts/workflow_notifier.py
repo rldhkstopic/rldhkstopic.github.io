@@ -41,6 +41,8 @@ def send_workflow_notification(
     if not webhook_url:
         print("[WARN] DISCORD_WEBHOOK_URL이 설정되지 않았습니다.")
         return False
+    # Normalize common copy/paste issues (leading/trailing spaces/newlines/quotes)
+    webhook_url = webhook_url.strip().strip('"').strip("'").strip()
     # Common misconfiguration: user pastes a numeric ID instead of a webhook URL
     if webhook_url.strip().isdigit():
         print(
@@ -48,9 +50,8 @@ def send_workflow_notification(
             "Discord Webhook URL 전체(https://discord.com/api/webhooks/<id>/<token>)를 설정해야 합니다."
         )
         return False
-    if not webhook_url.startswith("https://discord.com/api/webhooks/") and not webhook_url.startswith(
-        "https://discordapp.com/api/webhooks/"
-    ):
+    # Accept official domains and variants (discordapp.com legacy, ptb/canary)
+    if "/api/webhooks/" not in webhook_url:
         print(
             "[WARN] DISCORD_WEBHOOK_URL 형식이 예상과 다릅니다. "
             "Discord Webhook URL 전체를 설정했는지 확인하십시오."
