@@ -476,11 +476,11 @@ body.home-page .site-header {
   border-radius: var(--border-radius);
 }
 
-.mobile-category-bar {
+.mobile-category-panel {
   display: none;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   gap: 8px;
-  flex-wrap: wrap;
   padding: 10px 12px;
   margin: 0 0 14px 0;
   background: var(--bg-secondary);
@@ -488,23 +488,56 @@ body.home-page .site-header {
   border-radius: var(--border-radius);
 }
 
-.mobile-category-chip {
-  display: inline-flex;
+.mobile-category-top {
+  display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 10px;
-  border-radius: 999px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.mobile-cat-btn {
+  appearance: none;
   border: 1px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-secondary);
-  text-decoration: none;
+  border-radius: 999px;
+  padding: 7px 10px;
   font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.mobile-cat-btn.is-active {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  background: var(--accent-light);
+}
+
+.mobile-category-sub {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.mobile-sub-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.82rem;
   font-weight: 600;
   line-height: 1;
   white-space: nowrap;
 }
 
-.mobile-category-chip:hover {
+.mobile-sub-chip:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
   background: var(--accent-light);
@@ -2694,7 +2727,7 @@ article div[role="doc-endnotes"] {
     display: flex;
   }
 
-  .mobile-category-bar {
+  .mobile-category-panel {
     display: flex;
   }
 

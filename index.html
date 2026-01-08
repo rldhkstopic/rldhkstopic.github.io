@@ -274,14 +274,68 @@ layout: default
       });
     </script>
 
-    <!-- 모바일/태블릿 간단 카테고리 바 (프로필 아래) -->
-    <nav class="mobile-category-bar" aria-label="카테고리">
-      <a href="/daily/" class="mobile-category-chip">👋 Daily</a>
-      <a href="/dev/" class="mobile-category-chip">💻 Dev</a>
-      <a href="/dev/vhdl/" class="mobile-category-chip">VHDL</a>
-      <a href="/document/" class="mobile-category-chip">📑 Document</a>
-      <a href="/study/" class="mobile-category-chip">📖 Study</a>
+    <!-- 모바일/태블릿 카테고리 패널: 상위 클릭 → 하위 노출 -->
+    <nav class="mobile-category-panel" aria-label="카테고리">
+      <div class="mobile-category-top" role="tablist" aria-label="상위 카테고리">
+        <button type="button" class="mobile-cat-btn" data-cat="daily" aria-expanded="false">👋 Daily</button>
+        <button type="button" class="mobile-cat-btn" data-cat="dev" aria-expanded="false">💻 Dev</button>
+        <button type="button" class="mobile-cat-btn" data-cat="document" aria-expanded="false">📑 Document</button>
+        <button type="button" class="mobile-cat-btn" data-cat="study" aria-expanded="false">📖 Study</button>
+      </div>
+
+      <div class="mobile-category-sub" data-cat="daily" hidden>
+        <a href="/daily/" class="mobile-sub-chip">전체</a>
+        <a href="/daily/" class="mobile-sub-chip">나의 일기</a>
+      </div>
+
+      <div class="mobile-category-sub" data-cat="dev" hidden>
+        <a href="/dev/" class="mobile-sub-chip">전체</a>
+        <a href="/dev/vhdl/" class="mobile-sub-chip">VHDL</a>
+        <a href="/dev/" class="mobile-sub-chip">바이브 코딩</a>
+      </div>
+
+      <div class="mobile-category-sub" data-cat="document" hidden>
+        <a href="/document/" class="mobile-sub-chip">전체</a>
+        <a href="/document/" class="mobile-sub-chip">U.S. Stock News</a>
+        <a href="/document/" class="mobile-sub-chip">My Stocks</a>
+      </div>
+
+      <div class="mobile-category-sub" data-cat="study" hidden>
+        <a href="/study/" class="mobile-sub-chip">전체</a>
+        <a href="/study/" class="mobile-sub-chip">FPGA</a>
+        <a href="/study/" class="mobile-sub-chip">바이브 코딩</a>
+        <a href="/study/" class="mobile-sub-chip">모르는 개념</a>
+      </div>
     </nav>
+
+    <script>
+      // 모바일 카테고리: 상위 버튼 클릭 시 하위 토글
+      document.addEventListener('DOMContentLoaded', function() {
+        const btns = Array.from(document.querySelectorAll('.mobile-cat-btn'));
+        const subs = Array.from(document.querySelectorAll('.mobile-category-sub'));
+        if (btns.length === 0 || subs.length === 0) return;
+
+        function closeAll() {
+          btns.forEach(b => b.setAttribute('aria-expanded', 'false'));
+          btns.forEach(b => b.classList.remove('is-active'));
+          subs.forEach(s => { s.hidden = true; });
+        }
+
+        btns.forEach(btn => {
+          btn.addEventListener('click', function() {
+            const cat = btn.getAttribute('data-cat');
+            const target = subs.find(s => s.getAttribute('data-cat') === cat);
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
+            closeAll();
+            if (!expanded && target) {
+              btn.setAttribute('aria-expanded', 'true');
+              btn.classList.add('is-active');
+              target.hidden = false;
+            }
+          });
+        });
+      });
+    </script>
 
     <!-- 전체 글 리스트 -->
     <div class="content-section all-posts-section">
