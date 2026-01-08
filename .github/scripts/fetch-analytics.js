@@ -27,16 +27,19 @@ const analyticsDataClient = new BetaAnalyticsDataClient({
 
 async function fetchAnalyticsData() {
   try {
-    // 오늘 날짜
+    // KST(Asia/Seoul) 기준 날짜 문자열 생성 (YYYY-MM-DD)
+    const kstFormatter = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Asia/Seoul',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    });
     const today = new Date();
-    const todayStr = today.toISOString().split('T')[0];
+    const todayStr = kstFormatter.format(today);
+    const yesterday = new Date(today.getTime() - 24 * 60 * 60 * 1000);
+    const yesterdayStr = kstFormatter.format(yesterday);
     
-    // 어제 날짜
-    const yesterday = new Date(today);
-    yesterday.setDate(yesterday.getDate() - 1);
-    const yesterdayStr = yesterday.toISOString().split('T')[0];
-    
-    // 전체 방문자 수 (시작일부터 오늘까지)
+    // 전체 지표 (시작일부터 오늘까지)
     const [totalResponse] = await analyticsDataClient.runReport({
       property: `properties/${propertyId}`,
       dateRanges: [
@@ -49,10 +52,18 @@ async function fetchAnalyticsData() {
         {
           name: 'totalUsers',
         },
+        {
+          // 방문 "횟수"에 가까운 지표 (고유 사용자 합산과 달라 혼동 방지용)
+          name: 'sessions',
+        },
+        {
+          // 페이지 조회수(참고용)
+          name: 'screenPageViews',
+        },
       ],
     });
 
-    // 오늘 방문자 수
+    // 오늘 지표 (KST 날짜 기준)
     const [todayResponse] = await analyticsDataClient.runReport({
       property: `properties/${propertyId}`,
       dateRanges: [
@@ -65,10 +76,16 @@ async function fetchAnalyticsData() {
         {
           name: 'totalUsers',
         },
+        {
+          name: 'sessions',
+        },
+        {
+          name: 'screenPageViews',
+        },
       ],
     });
 
-    // 어제 방문자 수
+    // 어제 지표 (KST 날짜 기준)
     const [yesterdayResponse] = await analyticsDataClient.runReport({
       property: `properties/${propertyId}`,
       dateRanges: [
@@ -81,19 +98,49 @@ async function fetchAnalyticsData() {
         {
           name: 'totalUsers',
         },
+        {
+          name: 'sessions',
+        },
+        {
+          name: 'screenPageViews',
+        },
       ],
     });
 
     // 데이터 추출
-    const totalVisitors = totalResponse.rows?.[0]?.metricValues?.[0]?.value || '0';
-    const todayVisitors = todayResponse.rows?.[0]?.metricValues?.[0]?.value || '0';
-    const yesterdayVisitors = yesterdayResponse.rows?.[0]?.metricValues?.[0]?.value || '0';
+    const totalUsers = totalResponse.rows?.[0]?.metricValues?.[0]?.value || '0';
+    const totalSessions = totalResponse.rows?.[0]?.metricValues?.[1]?.value || '0';
+    const totalPageViews = totalResponse.rows?.[0]?.metricValues?.[2]?.value || '0';
+
+    const todayUsers = todayResponse.rows?.[0]?.metricValues?.[0]?.value || '0';
+    const todaySessions = todayResponse.rows?.[0]?.metricValues?.[1]?.value || '0';
+    const todayPageViews = todayResponse.rows?.[0]?.metricValues?.[2]?.value || '0';
+
+    const yesterdayUsers = yesterdayResponse.rows?.[0]?.metricValues?.[0]?.value || '0';
+    const yesterdaySessions = yesterdayResponse.rows?.[0]?.metricValues?.[1]?.value || '0';
+    const yesterdayPageViews = yesterdayResponse.rows?.[0]?.metricValues?.[2]?.value || '0';
 
     // JSON 파일로 저장
     const data = {
-      total: parseInt(totalVisitors),
-      today: parseInt(todayVisitors),
-      yesterday: parseInt(yesterdayVisitors),
+      // 기존 UI 호환: 직관적인 "방문(세션)" 기준으로 노출
+      total: parseInt(totalSessions),
+      today: parseInt(todaySessions),
+      yesterday: parseInt(yesterdaySessions),
+
+      // 추가 지표(정확성/확장성)
+      totalUsers: parseInt(totalUsers),
+      todayUsers: parseInt(todayUsers),
+      yesterdayUsers: parseInt(yesterdayUsers),
+      totalSessions: parseInt(totalSessions),
+      todaySessions: parseInt(todaySessions),
+      yesterdaySessions: parseInt(yesterdaySessions),
+      totalPageViews: parseInt(totalPageViews),
+      todayPageViews: parseInt(todayPageViews),
+      yesterdayPageViews: parseInt(yesterdayPageViews),
+
+      timezone: "Asia/Seoul",
+      kstToday: todayStr,
+      kstYesterday: yesterdayStr,
       lastUpdated: new Date().toISOString()
     };
 
