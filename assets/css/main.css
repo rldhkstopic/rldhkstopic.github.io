@@ -2699,8 +2699,16 @@ article div[role="doc-endnotes"] {
     padding: 1rem 16px;
   }
   
+  /* 모바일/태블릿에서 본문 폭이 너무 좁아지지 않도록 패딩을 축소 */
   .post {
-    padding: 2rem 1.5rem;
+    padding: 1.75rem 1.25rem;
+  }
+  /* dev 글은 .post-container-wide .post가 더 높은 우선순위라 별도 오버라이드 필요 */
+  .post-container-wide .post {
+    padding: 1.75rem 1.25rem;
+  }
+  .post-container {
+    gap: 1.5rem;
   }
   
   /* 모바일/태블릿에서 목차 숨기기 */
@@ -2718,6 +2726,16 @@ article div[role="doc-endnotes"] {
 
 /* 모바일 (768px 이하) - 추가 스타일 */
 @media (max-width: 768px) {
+  .wrapper {
+    padding: 0 14px;
+  }
+
+  .post {
+    padding: 1.5rem 1rem;
+  }
+  .post-container-wide .post {
+    padding: 1.5rem 1rem;
+  }
   
   .post-item {
     padding: 1rem;
@@ -2740,9 +2758,16 @@ article div[role="doc-endnotes"] {
 
 @media (max-width: 480px) {
   .wrapper {
-    padding: 0 14px;
+    padding: 0 12px;
   }
   .home {
     padding: 1rem 14px;
+  }
+
+  .post {
+    padding: 1.25rem 0.9rem;
+  }
+  .post-container-wide .post {
+    padding: 1.25rem 0.9rem;
   }
 }
