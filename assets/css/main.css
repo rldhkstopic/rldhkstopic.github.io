@@ -29,7 +29,7 @@
   --code-header-bg: rgba(0, 0, 0, 0.03);
   --code-header-text: #586069;
   /* 코드 블럭 라인 높이(라인넘버/코드 동기화용) */
-  --code-line-height: 28px;
+  --code-line-height: 32px;
 }
 
 [data-theme="dark"] {
@@ -1748,7 +1748,7 @@ body.home-page .site-header {
   padding-left: 0;
   background: transparent;
   font-size: 0.875rem;
-  line-height: var(--code-line-height);
+  line-height: var(--code-line-height) !important;
   overflow-x: auto;
   /* Vertical scroll must be on wrapper to sync with line numbers */
   overflow-y: visible;
@@ -1777,7 +1777,7 @@ body.home-page .site-header {
   padding-right: 0;
   padding-top: 5px;
   position: relative;
-  line-height: var(--code-line-height);
+  line-height: var(--code-line-height) !important;
   border-width: 0px;
   border-color: rgba(0, 0, 0, 0);
   border-style: none;
@@ -1797,6 +1797,7 @@ body.home-page .site-header {
 .post-content .code-block-content > .line-numbers > span {
   display: block;
   height: var(--code-line-height);
+  line-height: var(--code-line-height);
   overflow: hidden;
   text-align: right;
   padding-right: 0.5em;
