@@ -20,12 +20,24 @@ layout: default
       {% endif %}
       <h1 class="post-title">{{ page.title | escape }}</h1>
       <div class="post-meta">
+        {%- assign _tz = page.date | date: "%z" -%}
         <time datetime="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date: "%Y년 %m월 %d일 %H:%M" }}
+          {%- if _tz == "+0900" -%}
+            {{ page.date | date: "%Y년 %m월 %d일 %H:%M" }}
+          {%- else -%}
+            {{ page.date | date: "%s" | plus: 32400 | date: "%Y년 %m월 %d일 %H:%M" }}
+          {%- endif -%}
         </time>
         {% if page.last_modified_at %}
+          {%- assign _mtz = page.last_modified_at | date: "%z" -%}
           <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" class="last-modified">
-            (수정: {{ page.last_modified_at | date: "%Y년 %m월 %d일 %H:%M" }})
+            (수정:
+            {%- if _mtz == "+0900" -%}
+              {{ page.last_modified_at | date: "%Y년 %m월 %d일 %H:%M" }}
+            {%- else -%}
+              {{ page.last_modified_at | date: "%s" | plus: 32400 | date: "%Y년 %m월 %d일 %H:%M" }}
+            {%- endif -%}
+            )
           </time>
         {% endif %}
         {% if page.author %}
