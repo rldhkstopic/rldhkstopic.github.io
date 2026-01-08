@@ -522,6 +522,10 @@ body.home-page .site-header {
   flex-wrap: wrap;
 }
 
+.mobile-category-sub[hidden] {
+  display: none !important;
+}
+
 .mobile-sub-chip {
   display: inline-flex;
   align-items: center;
