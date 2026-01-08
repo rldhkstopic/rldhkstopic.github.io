@@ -476,6 +476,40 @@ body.home-page .site-header {
   border-radius: var(--border-radius);
 }
 
+.mobile-category-bar {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+  margin: 0 0 14px 0;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.mobile-category-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.mobile-category-chip:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  background: var(--accent-light);
+}
+
 .mobile-profile-top,
 .mobile-profile-bottom {
   display: flex;
@@ -2660,7 +2694,16 @@ article div[role="doc-endnotes"] {
     display: flex;
   }
 
+  .mobile-category-bar {
+    display: flex;
+  }
+
   .profile-section {
+    display: none;
+  }
+
+  /* Home: hide large category block to avoid duplication */
+  .sidebar-categories {
     display: none;
   }
 
