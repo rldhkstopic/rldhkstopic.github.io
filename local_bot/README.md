@@ -41,6 +41,8 @@ DISCORD_BOT_TOKEN=여기에_디스코드_봇_토큰_입력
 GITHUB_TOKEN=여기에_GitHub_PAT_입력
 GITHUB_REPO=rldhkstopic/rldhkstopic.github.io
 DISCORD_GUILD_ID=여기에_디스코드_서버_ID_입력
+# 선택사항: 일기 로그 수집 채널 이름 (기본: "일기-로그")
+DAILY_LOG_CHANNEL=일기-로그
 ```
 
 2. `.env` 파일을 `.gitignore`에 추가 (절대 커밋하지 마세요!)
@@ -58,6 +60,14 @@ load_dotenv()  # .env 파일 로드
 pip install discord.py PyGithub python-dotenv
 ```
 
+**참고**: Discord 봇이 메시지 내용을 읽으려면 Discord Developer Portal에서 **Message Content Intent**를 활성화해야 합니다.
+
+1. [Discord Developer Portal](https://discord.com/developers/applications) 접속
+2. 봇 애플리케이션 선택
+3. **Bot** 탭 → **Privileged Gateway Intents** 섹션
+4. **MESSAGE CONTENT INTENT** 체크박스 활성화
+5. 저장
+
 ## 봇 실행
 
 ```bash
@@ -66,6 +76,8 @@ python discord_interface.py
 ```
 
 ## 작동 방식
+
+### 1. 글 요청 (`/write` 명령어)
 
 1. **Discord 봇 (로컬 PC)**: 
    - `/write` 명령어로 요청 입력
@@ -76,6 +88,26 @@ python discord_interface.py
    - `auto_post.py`가 요청을 읽어서 글 생성
    - Writer → Reviewer → Validator → PostCreator 순서로 처리
    - 최종적으로 `_posts/*.md` 파일 생성 및 커밋
+
+### 2. 일기 로그 수집 (자동)
+
+1. **Discord 채널 설정**:
+   - Discord 서버에 `#일기-로그` 채널 생성 (이름은 환경 변수로 변경 가능)
+   - 봇이 해당 채널의 모든 메시지를 자동으로 수집
+
+2. **메시지 수집**:
+   - 사용자가 `#일기-로그` 채널에 메시지를 작성하면
+   - 봇이 자동으로 메시지를 감지하고 GitHub에 저장
+   - 저장 경로: `_daily_logs/YYYY-MM-DD/{timestamp}.json`
+
+3. **일기 생성 (자동)**:
+   - 매일 자정 (KST 00:00)에 `daily-diary.yml` 워크플로우 실행
+   - 전날 수집된 메시지들을 종합하여 일기 생성
+   - `_posts/YYYY-MM-DD-일기.md` 파일 생성
+
+**환경 변수 추가** (선택):
+- `DAILY_LOG_CHANNEL`: 일기 로그 수집 채널 이름 (기본: "일기-로그")
+- `DAILY_LOGS_DIR`: 일기 로그 저장 디렉토리 (기본: "_daily_logs")
 
 ## ☁️ 클라우드 배포 (항상 실행)
 
