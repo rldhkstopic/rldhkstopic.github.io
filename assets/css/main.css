@@ -1365,6 +1365,8 @@ body.home-page .site-header {
   color: var(--text-primary);
   line-height: 1.2;
   letter-spacing: -0.02em;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .post-header .post-meta {
@@ -1460,8 +1462,6 @@ body.home-page .site-header {
   color: var(--text-primary);
   line-height: 1.3;
   letter-spacing: -0.01em;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--accent-light);
 }
 
 .post-content h3 {
@@ -1472,20 +1472,6 @@ body.home-page .site-header {
   color: var(--text-primary);
   line-height: 1.35;
   letter-spacing: -0.01em;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(134, 134, 139, 1);
-  border-top-width: 0px;
-  border-top-color: rgba(0, 0, 0, 0);
-  border-top-style: none;
-  border-right-width: 0px;
-  border-right-color: rgba(0, 0, 0, 0);
-  border-right-style: none;
-  border-bottom-color: rgba(134, 134, 139, 1);
-  border-left-width: 0px;
-  border-left-color: rgba(0, 0, 0, 0);
-  border-left-style: none;
-  padding-bottom: 5px;
 }
 
 .post-content h4 {
@@ -2736,6 +2722,14 @@ article div[role="doc-endnotes"] {
   .post-container-wide .post {
     padding: 1.5rem 1rem;
   }
+
+  /* 모바일에서 제목 과대 표시 완화 + 폭에 맞춘 자연스러운 줄바꿈 */
+  .post-title {
+    font-size: 1.7rem;
+    line-height: 1.25;
+    margin-bottom: 0.9rem;
+    letter-spacing: -0.015em;
+  }
   
   .post-item {
     padding: 1rem;
@@ -2769,5 +2763,11 @@ article div[role="doc-endnotes"] {
   }
   .post-container-wide .post {
     padding: 1.25rem 0.9rem;
+  }
+
+  .post-title {
+    font-size: 1.55rem;
+    line-height: 1.25;
+    margin-bottom: 0.85rem;
   }
 }
