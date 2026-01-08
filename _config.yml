@@ -21,6 +21,9 @@ google_analytics: "G-LY54J8KM1X"
 plugins:
   - jekyll-paginate
 
+# Timezone (GitHub Pages default is UTC)
+timezone: Asia/Seoul
+
 # Navigation
 navigation:
   - title: 소개
