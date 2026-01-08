@@ -274,74 +274,31 @@ layout: default
       });
     </script>
 
-    <!-- 모바일/태블릿 카테고리 스토리(인스타 스토리 느낌): 좌우 스와이프 선택 -->
-    <nav class="mobile-category-stories" aria-label="카테고리">
-      <div class="mobile-story-row" aria-label="상위 카테고리">
-        <a class="mobile-story is-active" data-cat="daily" href="/daily/">
-          <span class="mobile-story-ring"></span>
-          <span class="mobile-story-label">Daily</span>
+    <!-- 모바일/태블릿 카테고리 슬라이더: 한 줄, 좌우 스와이프, 하위 없음 -->
+    <nav class="mobile-category-slider" aria-label="카테고리">
+      <div class="mobile-category-track">
+        <a class="mobile-category-pill" href="/daily/">
+          <span class="mobile-category-icon" aria-hidden="true">👋</span>
+          <span class="mobile-category-text">Daily</span>
         </a>
-        <a class="mobile-story" data-cat="dev" href="/dev/">
-          <span class="mobile-story-ring"></span>
-          <span class="mobile-story-label">Dev</span>
+        <a class="mobile-category-pill" href="/dev/">
+          <span class="mobile-category-icon" aria-hidden="true">💻</span>
+          <span class="mobile-category-text">Dev</span>
         </a>
-        <a class="mobile-story" data-cat="document" href="/document/">
-          <span class="mobile-story-ring"></span>
-          <span class="mobile-story-label">Document</span>
+        <a class="mobile-category-pill" href="/dev/vhdl/">
+          <span class="mobile-category-icon" aria-hidden="true">V</span>
+          <span class="mobile-category-text">VHDL</span>
         </a>
-        <a class="mobile-story" data-cat="study" href="/study/">
-          <span class="mobile-story-ring"></span>
-          <span class="mobile-story-label">Study</span>
+        <a class="mobile-category-pill" href="/document/">
+          <span class="mobile-category-icon" aria-hidden="true">📑</span>
+          <span class="mobile-category-text">Document</span>
         </a>
-      </div>
-
-      <div class="mobile-story-subrow" aria-label="하위 카테고리">
-        <div class="mobile-substories is-active" data-cat="daily">
-          <a href="/daily/" class="mobile-substory">전체</a>
-          <a href="/daily/" class="mobile-substory">나의 일기</a>
-        </div>
-        <div class="mobile-substories" data-cat="dev">
-          <a href="/dev/" class="mobile-substory">전체</a>
-          <a href="/dev/vhdl/" class="mobile-substory">VHDL</a>
-          <a href="/dev/" class="mobile-substory">바이브 코딩</a>
-        </div>
-        <div class="mobile-substories" data-cat="document">
-          <a href="/document/" class="mobile-substory">전체</a>
-          <a href="/document/" class="mobile-substory">U.S. Stock News</a>
-          <a href="/document/" class="mobile-substory">My Stocks</a>
-        </div>
-        <div class="mobile-substories" data-cat="study">
-          <a href="/study/" class="mobile-substory">전체</a>
-          <a href="/study/" class="mobile-substory">FPGA</a>
-          <a href="/study/" class="mobile-substory">바이브 코딩</a>
-          <a href="/study/" class="mobile-substory">모르는 개념</a>
-        </div>
+        <a class="mobile-category-pill" href="/study/">
+          <span class="mobile-category-icon" aria-hidden="true">📖</span>
+          <span class="mobile-category-text">Study</span>
+        </a>
       </div>
     </nav>
-
-    <script>
-      // 모바일 카테고리 스토리: 선택 시 하위 줄 갱신(상위는 링크 그대로 이동 가능)
-      document.addEventListener('DOMContentLoaded', function() {
-        const stories = Array.from(document.querySelectorAll('.mobile-category-stories .mobile-story'));
-        const subGroups = Array.from(document.querySelectorAll('.mobile-category-stories .mobile-substories'));
-        if (stories.length === 0 || subGroups.length === 0) return;
-
-        function setActive(cat) {
-          stories.forEach(s => s.classList.toggle('is-active', s.getAttribute('data-cat') === cat));
-          subGroups.forEach(g => g.classList.toggle('is-active', g.getAttribute('data-cat') === cat));
-        }
-
-        stories.forEach(s => {
-          s.addEventListener('click', function(e) {
-            // 탭 느낌으로 하위만 바꾸고 싶을 때: 짧은 탭은 하위 전환, 길게/드래그는 스크롤
-            // 기본은 링크 이동이지만, 현재 페이지에서 "선택" UX를 원하므로 탭은 전환으로 처리한다.
-            e.preventDefault();
-            const cat = s.getAttribute('data-cat');
-            if (cat) setActive(cat);
-          }, { passive: false });
-        });
-      });
-    </script>
 
     <!-- 전체 글 리스트 -->
     <div class="content-section all-posts-section">
