@@ -274,69 +274,71 @@ layout: default
       });
     </script>
 
-    <!-- 모바일/태블릿 카테고리 패널: 상위 클릭 → 하위 노출 -->
-    <nav class="mobile-category-panel" aria-label="카테고리">
-      <div class="mobile-category-top" role="tablist" aria-label="상위 카테고리">
-        <button type="button" class="mobile-cat-btn" data-cat="daily" aria-expanded="false">👋 Daily</button>
-        <button type="button" class="mobile-cat-btn" data-cat="dev" aria-expanded="false">💻 Dev</button>
-        <button type="button" class="mobile-cat-btn" data-cat="document" aria-expanded="false">📑 Document</button>
-        <button type="button" class="mobile-cat-btn" data-cat="study" aria-expanded="false">📖 Study</button>
+    <!-- 모바일/태블릿 카테고리 스토리(인스타 스토리 느낌): 좌우 스와이프 선택 -->
+    <nav class="mobile-category-stories" aria-label="카테고리">
+      <div class="mobile-story-row" aria-label="상위 카테고리">
+        <a class="mobile-story is-active" data-cat="daily" href="/daily/">
+          <span class="mobile-story-ring"></span>
+          <span class="mobile-story-label">Daily</span>
+        </a>
+        <a class="mobile-story" data-cat="dev" href="/dev/">
+          <span class="mobile-story-ring"></span>
+          <span class="mobile-story-label">Dev</span>
+        </a>
+        <a class="mobile-story" data-cat="document" href="/document/">
+          <span class="mobile-story-ring"></span>
+          <span class="mobile-story-label">Document</span>
+        </a>
+        <a class="mobile-story" data-cat="study" href="/study/">
+          <span class="mobile-story-ring"></span>
+          <span class="mobile-story-label">Study</span>
+        </a>
       </div>
 
-      <div class="mobile-category-sub" data-cat="daily" aria-hidden="true">
-        <a href="/daily/" class="mobile-sub-chip">전체</a>
-        <a href="/daily/" class="mobile-sub-chip">나의 일기</a>
-      </div>
-
-      <div class="mobile-category-sub" data-cat="dev" aria-hidden="true">
-        <a href="/dev/" class="mobile-sub-chip">전체</a>
-        <a href="/dev/vhdl/" class="mobile-sub-chip">VHDL</a>
-        <a href="/dev/" class="mobile-sub-chip">바이브 코딩</a>
-      </div>
-
-      <div class="mobile-category-sub" data-cat="document" aria-hidden="true">
-        <a href="/document/" class="mobile-sub-chip">전체</a>
-        <a href="/document/" class="mobile-sub-chip">U.S. Stock News</a>
-        <a href="/document/" class="mobile-sub-chip">My Stocks</a>
-      </div>
-
-      <div class="mobile-category-sub" data-cat="study" aria-hidden="true">
-        <a href="/study/" class="mobile-sub-chip">전체</a>
-        <a href="/study/" class="mobile-sub-chip">FPGA</a>
-        <a href="/study/" class="mobile-sub-chip">바이브 코딩</a>
-        <a href="/study/" class="mobile-sub-chip">모르는 개념</a>
+      <div class="mobile-story-subrow" aria-label="하위 카테고리">
+        <div class="mobile-substories is-active" data-cat="daily">
+          <a href="/daily/" class="mobile-substory">전체</a>
+          <a href="/daily/" class="mobile-substory">나의 일기</a>
+        </div>
+        <div class="mobile-substories" data-cat="dev">
+          <a href="/dev/" class="mobile-substory">전체</a>
+          <a href="/dev/vhdl/" class="mobile-substory">VHDL</a>
+          <a href="/dev/" class="mobile-substory">바이브 코딩</a>
+        </div>
+        <div class="mobile-substories" data-cat="document">
+          <a href="/document/" class="mobile-substory">전체</a>
+          <a href="/document/" class="mobile-substory">U.S. Stock News</a>
+          <a href="/document/" class="mobile-substory">My Stocks</a>
+        </div>
+        <div class="mobile-substories" data-cat="study">
+          <a href="/study/" class="mobile-substory">전체</a>
+          <a href="/study/" class="mobile-substory">FPGA</a>
+          <a href="/study/" class="mobile-substory">바이브 코딩</a>
+          <a href="/study/" class="mobile-substory">모르는 개념</a>
+        </div>
       </div>
     </nav>
 
     <script>
-      // 모바일 카테고리: 상위 버튼 클릭 시 하위 토글
+      // 모바일 카테고리 스토리: 선택 시 하위 줄 갱신(상위는 링크 그대로 이동 가능)
       document.addEventListener('DOMContentLoaded', function() {
-        const btns = Array.from(document.querySelectorAll('.mobile-cat-btn'));
-        const subs = Array.from(document.querySelectorAll('.mobile-category-sub'));
-        if (btns.length === 0 || subs.length === 0) return;
+        const stories = Array.from(document.querySelectorAll('.mobile-category-stories .mobile-story'));
+        const subGroups = Array.from(document.querySelectorAll('.mobile-category-stories .mobile-substories'));
+        if (stories.length === 0 || subGroups.length === 0) return;
 
-        function closeAll() {
-          btns.forEach(b => b.setAttribute('aria-expanded', 'false'));
-          btns.forEach(b => b.classList.remove('is-active'));
-          subs.forEach(s => {
-            s.classList.remove('is-open');
-            s.setAttribute('aria-hidden', 'true');
-          });
+        function setActive(cat) {
+          stories.forEach(s => s.classList.toggle('is-active', s.getAttribute('data-cat') === cat));
+          subGroups.forEach(g => g.classList.toggle('is-active', g.getAttribute('data-cat') === cat));
         }
 
-        btns.forEach(btn => {
-          btn.addEventListener('click', function() {
-            const cat = btn.getAttribute('data-cat');
-            const target = subs.find(s => s.getAttribute('data-cat') === cat);
-            const expanded = btn.getAttribute('aria-expanded') === 'true';
-            closeAll();
-            if (!expanded && target) {
-              btn.setAttribute('aria-expanded', 'true');
-              btn.classList.add('is-active');
-              target.classList.add('is-open');
-              target.setAttribute('aria-hidden', 'false');
-            }
-          });
+        stories.forEach(s => {
+          s.addEventListener('click', function(e) {
+            // 탭 느낌으로 하위만 바꾸고 싶을 때: 짧은 탭은 하위 전환, 길게/드래그는 스크롤
+            // 기본은 링크 이동이지만, 현재 페이지에서 "선택" UX를 원하므로 탭은 전환으로 처리한다.
+            e.preventDefault();
+            const cat = s.getAttribute('data-cat');
+            if (cat) setActive(cat);
+          }, { passive: false });
         });
       });
     </script>

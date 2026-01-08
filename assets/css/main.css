@@ -476,11 +476,8 @@ body.home-page .site-header {
   border-radius: var(--border-radius);
 }
 
-.mobile-category-panel {
+.mobile-category-stories {
   display: none;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 8px;
   padding: 10px 12px;
   margin: 0 0 14px 0;
   background: var(--bg-secondary);
@@ -489,72 +486,109 @@ body.home-page .site-header {
   box-shadow: var(--shadow-sm);
 }
 
-.mobile-category-top {
+.mobile-story-row {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2px 2px 8px 2px;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
 }
 
-.mobile-cat-btn {
-  appearance: none;
+.mobile-story-row::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-story {
+  scroll-snap-align: start;
+  text-decoration: none;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  width: 74px;
+}
+
+.mobile-story-ring {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff5f56, #ffbd2e, #27c93f, #2563EB);
+  padding: 3px;
+  position: relative;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.mobile-story-ring::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+}
+
+.mobile-story.is-active .mobile-story-ring {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.18);
+}
+
+.mobile-story-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mobile-story.is-active .mobile-story-label {
+  color: var(--text-primary);
+}
+
+.mobile-story-subrow {
+  border-top: 1px solid var(--border-color);
+  padding-top: 10px;
+}
+
+.mobile-substories {
+  display: none;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+}
+
+.mobile-substories.is-active {
+  display: flex;
+}
+
+.mobile-substories::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-substory {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  text-decoration: none;
+  color: var(--text-secondary);
   border: 1px solid var(--border-color);
   background: var(--bg-primary);
-  color: var(--text-secondary);
   border-radius: 999px;
-  padding: 7px 10px;
+  padding: 8px 12px;
   font-size: 0.85rem;
   font-weight: 700;
   line-height: 1;
-  cursor: pointer;
-  white-space: nowrap;
   transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
-.mobile-cat-btn.is-active {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
-  background: var(--accent-light);
-  transform: translateY(-1px);
-}
-
-.mobile-category-sub {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  overflow: hidden;
-  max-height: 0;
-  opacity: 0;
-  transform: translateY(-4px);
-  pointer-events: none;
-  transition: max-height 220ms ease, opacity 220ms ease, transform 220ms ease;
-}
-
-.mobile-category-sub.is-open {
-  max-height: 140px; /* 2~3줄 정도 */
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
-}
-
-.mobile-sub-chip {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border-radius: 999px;
-  border: 1px solid var(--border-color);
-  background: transparent;
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 0.82rem;
-  font-weight: 600;
-  line-height: 1;
-  white-space: nowrap;
-  transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
-}
-
-.mobile-sub-chip:hover {
+.mobile-substory:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
   background: var(--accent-light);
@@ -2745,8 +2779,8 @@ article div[role="doc-endnotes"] {
     display: flex;
   }
 
-  .mobile-category-panel {
-    display: flex;
+  .mobile-category-stories {
+    display: block;
   }
 
   .profile-section {
