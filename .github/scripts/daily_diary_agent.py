@@ -50,12 +50,13 @@ def load_daily_logs(target_date: str) -> List[Dict]:
     return logs
 
 
-def aggregate_logs(logs: List[Dict]) -> Dict:
+def aggregate_logs(logs: List[Dict], target_date: str) -> Dict:
     """
     기록들을 취합하여 조사 데이터 형태로 변환한다.
     
     Args:
         logs: 일상 기록 리스트
+        target_date: YYYY-MM-DD 형식의 날짜
         
     Returns:
         조사 데이터 딕셔너리
@@ -66,15 +67,30 @@ def aggregate_logs(logs: List[Dict]) -> Dict:
             'sources': []
         }
     
-    # 기록들을 시간순으로 정리
-    aggregated_text = f"오늘({datetime.now().strftime('%Y년 %m월 %d일')}) 기록된 일상:\n\n"
+    # 기록들을 시간순으로 정리 (target_date 기준)
+    try:
+        date_obj = datetime.strptime(target_date, '%Y-%m-%d')
+        date_str = date_obj.strftime('%Y년 %m월 %d일')
+    except Exception:
+        # 파싱 실패 시에도 사람이 읽기 쉬운 표기로 유지
+        date_str = target_date
+
+    aggregated_text = f"오늘({date_str}) 기록된 일상:\n\n"
     
     for i, log in enumerate(logs, 1):
         timestamp = log.get('timestamp', '')
         content = log.get('content', '')
         mood = log.get('mood')
         location = log.get('location')
-        tags = log.get('tags', [])
+        # tags가 null/문자열로 들어오는 케이스를 방어
+        raw_tags = log.get('tags')
+        if raw_tags is None:
+            tags: List[str] = []
+        elif isinstance(raw_tags, list):
+            tags = [str(t).strip() for t in raw_tags if str(t).strip()]
+        else:
+            # 단일 문자열이면 쉼표 기반으로 분해
+            tags = [t.strip() for t in str(raw_tags).split(',') if t.strip()]
         
         # 시간 파싱
         try:
@@ -112,6 +128,9 @@ def create_diary_topic(target_date: str, log_count: int) -> Dict:
     Returns:
         주제 딕셔너리
     """
+    # 허용: YYYY-MM-DD 또는 YYYYMMDD
+    if len(target_date) == 8 and target_date.isdigit():
+        target_date = f"{target_date[0:4]}-{target_date[4:6]}-{target_date[6:8]}"
     date_obj = datetime.strptime(target_date, '%Y-%m-%d')
     date_str = date_obj.strftime('%Y년 %m월 %d일')
     
@@ -147,7 +166,12 @@ def main():
     
     # 명령줄 인자로 날짜 지정 가능
     if len(sys.argv) > 1:
-        target_date = sys.argv[1]
+        raw = sys.argv[1].strip()
+        # 허용: YYYY-MM-DD 또는 YYYYMMDD
+        if len(raw) == 8 and raw.isdigit():
+            target_date = f"{raw[0:4]}-{raw[4:6]}-{raw[6:8]}"
+        else:
+            target_date = raw
     
     print(f"\n[대상 날짜] {target_date}")
     
@@ -163,7 +187,7 @@ def main():
     
     # 2. 기록 취합
     print("\n[2단계] 기록 취합 중...")
-    research_data = aggregate_logs(logs)
+    research_data = aggregate_logs(logs, target_date)
     print(f"[OK] 취합 완료 ({len(research_data['raw_research'])}자)")
     
     # 3. 일기 주제 생성

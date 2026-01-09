@@ -98,7 +98,7 @@ python discord_interface.py
 2. **메시지 수집**:
    - 사용자가 `#일기-로그` 채널에 메시지를 작성하면
    - 봇이 자동으로 메시지를 감지하고 GitHub에 저장
-   - 저장 경로: `_daily_logs/YYYY-MM-DD/{timestamp}.json`
+   - 저장 경로: `_daily_logs/YYYY-MM-DD/{message_id}.json`
 
 3. **일기 생성 (자동)**:
    - 매일 자정 (KST 00:00)에 `daily-diary.yml` 워크플로우 실행
@@ -108,6 +108,7 @@ python discord_interface.py
 **환경 변수 추가** (선택):
 - `DAILY_LOG_CHANNEL`: 일기 로그 수집 채널 이름 (기본: "일기-로그")
 - `DAILY_LOGS_DIR`: 일기 로그 저장 디렉토리 (기본: "_daily_logs")
+- `DAILY_LOG_BACKFILL_DAYS`: 봇 재시작 시 최근 N일 메시지 백필 (기본: 0 = 비활성)
 
 ## ☁️ 클라우드 배포 (항상 실행)
 
