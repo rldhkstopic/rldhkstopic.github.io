@@ -163,7 +163,7 @@ def main():
     discord_webhook = os.getenv('DISCORD_WEBHOOK_URL')
     
     # 대상 날짜 (어제 또는 오늘, 기본값: 어제)
-    # 자정에 실행되므로 어제 날짜를 사용
+    # 새벽 6시에 실행되므로 전날 날짜를 사용
     target_date = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
     
     # 명령줄 인자로 날짜 지정 가능

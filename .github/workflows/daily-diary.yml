@@ -2,8 +2,8 @@ name: Daily Diary Generator
 
 on:
   schedule:
-    # 매일 자정 (KST) 실행 (UTC 15:00 = KST 00:00)
-    - cron: '0 15 * * *'  # UTC 15:00 = KST 00:00 (다음날)
+    # 매일 새벽 6시 (KST) 실행 (UTC 21:00 = KST 06:00 다음날)
+    - cron: '0 21 * * *'  # UTC 21:00 = KST 06:00 (다음날)
   workflow_dispatch:  # 수동 실행 가능
     inputs:
       target_date:
@@ -61,6 +61,7 @@ jobs:
           fi
           echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV
         else
+          # 새벽 6시에 실행되므로 전날 날짜 사용
           TARGET_DATE=$(python -c "from datetime import datetime, timedelta, timezone; from datetime import timezone as tz; import sys; kst=tz(timedelta(hours=9)); now=datetime.now(timezone.utc).astimezone(kst); print((now.date()-timedelta(days=1)).strftime('%Y-%m-%d'))")
           echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV
         fi
