@@ -84,7 +84,11 @@ jobs:
         git add -u 2>/dev/null || true
         # 변경사항이 있으면 커밋
         if ! git diff --staged --quiet; then
-          TARGET_DATE=$(python -c "from datetime import datetime, timedelta; print((datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d'))")
+          if [ -n "${{ github.event.inputs.target_date }}" ]; then
+            TARGET_DATE="${{ github.event.inputs.target_date }}"
+          else
+            TARGET_DATE=$(python -c "from datetime import datetime, timedelta; print((datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d'))")
+          fi
           git commit -m "[$VERSION] Add daily diary for $TARGET_DATE"
         fi
         # push 시도

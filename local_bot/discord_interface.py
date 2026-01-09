@@ -43,6 +43,7 @@ PROCESSED_DIR = os.getenv("PROCESSED_DIR", "_auto_post_requests_processed")
 RESULTS_DIR = os.getenv("RESULTS_DIR", "_auto_post_results")
 DAILY_LOG_CHANNEL = os.getenv("DAILY_LOG_CHANNEL", "일기-로그")  # Discord 채널 이름
 DAILY_LOGS_DIR = os.getenv("DAILY_LOGS_DIR", "_daily_logs")
+DAILY_LOG_BACKFILL_DAYS = int(os.getenv("DAILY_LOG_BACKFILL_DAYS", "0"))  # 0이면 비활성
 
 if not DISCORD_TOKEN:
     raise RuntimeError("DISCORD_BOT_TOKEN이 설정되지 않았습니다.")
@@ -102,7 +103,12 @@ def commit_daily_log_to_github(message_data: dict) -> bool:
                 dt_kst = dt.replace(tzinfo=None) + timedelta(hours=9)
         
         date_str = dt_kst.strftime('%Y-%m-%d')
-        log_id = message_data.get('id', str(int(dt.timestamp() * 1000)))
+        # 파일명은 가능하면 Discord message_id를 사용해 중복을 피한다.
+        log_id = (
+            message_data.get('message_id')
+            or message_data.get('id')
+            or str(int(dt.timestamp() * 1000))
+        )
         filename = f"{log_id}.json"
         path = f"{DAILY_LOGS_DIR}/{date_str}/{filename}"
         
@@ -487,14 +493,17 @@ class DiscordBot(discord.Client):
         print(f"로그인한 사용자: {self.user}")
         print(f"서버 수: {len(self.guilds)}")
         print(f"[INFO] 일기 로그 수집 채널: #{DAILY_LOG_CHANNEL}")
+        if DAILY_LOG_BACKFILL_DAYS > 0:
+            print(f"[INFO] 일기 로그 백필 활성: 최근 {DAILY_LOG_BACKFILL_DAYS}일")
+            asyncio.create_task(self._backfill_daily_logs(days=DAILY_LOG_BACKFILL_DAYS))
 
     async def on_message(self, message: discord.Message):
         """
         메시지 수신 시 호출되는 이벤트 핸들러
         일기 로그 채널의 메시지를 수집하여 GitHub에 저장한다.
         """
-        # 봇 자신의 메시지는 무시
-        if message.author == self.user:
+        # 봇 메시지는 무시
+        if message.author == self.user or getattr(message.author, "bot", False):
             return
         
         # 특정 채널만 처리
@@ -520,15 +529,17 @@ class DiscordBot(discord.Client):
         if kst:
             timestamp = message.created_at.replace(tzinfo=timezone.utc).astimezone(kst)
         else:
-            # UTC+9 직접 계산
-            timestamp = message.created_at.replace(tzinfo=timezone.utc) + timedelta(hours=9)
+            # zoneinfo/pytz가 없으면 고정 오프셋(+09:00)로 변환
+            kst_fixed = timezone(timedelta(hours=9))
+            timestamp = message.created_at.replace(tzinfo=timezone.utc).astimezone(kst_fixed)
         
         message_data = {
-            'id': str(int(message.created_at.timestamp() * 1000)),
+            # 안정적인 중복 방지를 위해 Discord message_id를 기본 키로 사용
+            'id': str(message.id),
             'content': message.content,
             'timestamp': timestamp.isoformat(),
             'mood': None,  # 추후 확장 가능
-            'tags': None,  # 추후 확장 가능
+            'tags': [],  # null 대신 빈 배열로 저장
             'location': None,  # 추후 확장 가능
             'author': str(message.author),
             'message_id': str(message.id),
@@ -552,6 +563,71 @@ class DiscordBot(discord.Client):
             print(f"[INFO] 일기 로그 수집: {message_data['id']} - {message.content[:50]}")
         except Exception as e:
             print(f"[ERROR] 일기 로그 수집 실패: {e}")
+
+    async def _backfill_daily_logs(self, days: int):
+        """
+        봇이 오프라인이었던 기간의 메시지를 백필한다.
+        - GitHub에 이미 존재하는 파일은 create_file 단계에서 무시되므로 안전하다.
+        - 대량 백필은 레이트리밋에 걸릴 수 있어 기본값은 비활성(0일)이다.
+        """
+        if days <= 0:
+            return
+
+        # Discord history 조회는 UTC 기반
+        since_utc = datetime.now(timezone.utc) - timedelta(days=days)
+        total = 0
+        committed = 0
+
+        for guild in self.guilds:
+            channel = discord.utils.get(guild.text_channels, name=DAILY_LOG_CHANNEL)
+            if not channel:
+                continue
+
+            print(f"[INFO] 백필 시작: guild={guild.name} channel=#{DAILY_LOG_CHANNEL}")
+            try:
+                async for msg in channel.history(after=since_utc, oldest_first=True, limit=None):
+                    # 봇 메시지/명령어 제외
+                    if getattr(msg.author, "bot", False):
+                        continue
+                    if not msg.content or msg.content.startswith('/'):
+                        continue
+
+                    total += 1
+
+                    # timestamp를 KST로 보관
+                    try:
+                        from zoneinfo import ZoneInfo
+                        kst = ZoneInfo("Asia/Seoul")
+                        ts_kst = msg.created_at.replace(tzinfo=timezone.utc).astimezone(kst)
+                    except Exception:
+                        kst_fixed = timezone(timedelta(hours=9))
+                        ts_kst = msg.created_at.replace(tzinfo=timezone.utc).astimezone(kst_fixed)
+
+                    message_data = {
+                        'id': str(msg.id),
+                        'content': msg.content,
+                        'timestamp': ts_kst.isoformat(),
+                        'mood': None,
+                        'tags': [],
+                        'location': None,
+                        'author': str(msg.author),
+                        'message_id': str(msg.id),
+                        'channel_id': str(channel.id),
+                    }
+                    if msg.attachments:
+                        message_data['attachments'] = [att.url for att in msg.attachments]
+
+                    ok = await asyncio.to_thread(commit_daily_log_to_github, message_data)
+                    if ok:
+                        committed += 1
+
+                    # GitHub/Discord 레이트리밋 완화
+                    await asyncio.sleep(0.15)
+
+            except Exception as e:
+                print(f"[WARN] 백필 실패: guild={guild.name} err={e}")
+
+        print(f"[INFO] 백필 완료: scanned={total}, committed={committed}")
 
     async def setup_hook(self):
         # 길드 스코프에만 명령을 등록하면 전파가 빠르다.
