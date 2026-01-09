@@ -1,0 +1,502 @@
+/* Dev Wiki GitBook Style */
+.dev-wiki-container {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  min-height: calc(100vh - 200px);
+}
+
+/* 사이드바 */
+.dev-wiki-sidebar {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+}
+
+.dev-wiki-nav {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+}
+
+.dev-wiki-nav-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.dev-wiki-nav-back {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: color 0.2s;
+}
+
+.dev-wiki-nav-back:hover {
+  color: var(--accent-color);
+}
+
+.dev-wiki-nav-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.dev-wiki-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dev-wiki-nav-item {
+  margin-bottom: 0.25rem;
+}
+
+.dev-wiki-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 0.875rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-size: 0.9375rem;
+}
+
+.dev-wiki-nav-link:hover {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.dev-wiki-nav-link.active {
+  background: var(--accent-light);
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.dev-wiki-nav-icon {
+  font-size: 1rem;
+  width: 1.25rem;
+  text-align: center;
+}
+
+.dev-wiki-nav-text {
+  flex: 1;
+}
+
+/* 메인 콘텐츠 */
+.dev-wiki-main {
+  min-width: 0;
+}
+
+.dev-wiki-header {
+  margin-bottom: 3rem;
+}
+
+.dev-wiki-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.dev-wiki-breadcrumb a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.dev-wiki-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.dev-wiki-breadcrumb-separator {
+  color: var(--text-secondary);
+}
+
+.dev-wiki-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 0.75rem 0;
+  line-height: 1.2;
+}
+
+.dev-wiki-description {
+  font-size: 1.0625rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* 섹션 */
+.dev-wiki-section {
+  margin-bottom: 4rem;
+}
+
+.dev-wiki-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.dev-wiki-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.dev-wiki-section-icon {
+  font-size: 1.5rem;
+}
+
+.dev-wiki-section-count {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.dev-wiki-section-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0 0 1.5rem 0;
+}
+
+.dev-wiki-section-link {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.dev-wiki-section-link:hover {
+  color: var(--accent-color);
+}
+
+/* 카테고리 그리드 (메인 페이지) */
+.dev-wiki-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.dev-wiki-category {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+}
+
+.dev-wiki-category-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 1rem 0;
+}
+
+.dev-wiki-category-icon {
+  font-size: 1.25rem;
+}
+
+.dev-wiki-doc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dev-wiki-doc-item {
+  margin-bottom: 0.5rem;
+}
+
+.dev-wiki-doc-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.625rem 0.875rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-size: 0.9375rem;
+}
+
+.dev-wiki-doc-link:hover {
+  background: var(--bg-secondary);
+  color: var(--accent-color);
+}
+
+.dev-wiki-doc-title {
+  flex: 1;
+}
+
+.dev-wiki-doc-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.dev-wiki-doc-views {
+  white-space: nowrap;
+}
+
+.dev-wiki-doc-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: var(--accent-light);
+  color: var(--accent-color);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.dev-wiki-more-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.dev-wiki-more-link:hover {
+  background: var(--accent-light);
+}
+
+/* 문서 카드 그리드 (VHDL 페이지) */
+.dev-wiki-doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.dev-wiki-doc-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.dev-wiki-doc-card:hover {
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.dev-wiki-doc-card-link {
+  display: block;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.dev-wiki-doc-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+}
+
+.dev-wiki-doc-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-bottom: 0.75rem;
+}
+
+.dev-wiki-doc-card-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.dev-wiki-doc-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.dev-wiki-doc-card-views {
+  white-space: nowrap;
+}
+
+.dev-wiki-doc-card-date {
+  white-space: nowrap;
+}
+
+/* 문서 리스트 (VHDL 페이지) */
+.dev-wiki-doc-list-container {
+  margin-top: 1.5rem;
+}
+
+.dev-wiki-doc-item-large {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+  transition: all 0.2s;
+}
+
+.dev-wiki-doc-item-large:hover {
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-md);
+}
+
+.dev-wiki-doc-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.dev-wiki-doc-item-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.dev-wiki-doc-item-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.4;
+}
+
+.dev-wiki-doc-item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-top: 0.5rem;
+}
+
+.dev-wiki-doc-item-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.dev-wiki-doc-item-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.375rem;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  margin-left: 1.5rem;
+  white-space: nowrap;
+}
+
+.dev-wiki-doc-item-date {
+  white-space: nowrap;
+}
+
+.dev-wiki-doc-item-views {
+  white-space: nowrap;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 1024px) {
+  .dev-wiki-container {
+    grid-template-columns: 240px 1fr;
+    gap: 1.5rem;
+  }
+  
+  .dev-wiki-doc-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .dev-wiki-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .dev-wiki-sidebar {
+    position: static;
+    max-height: none;
+  }
+  
+  .dev-wiki-nav {
+    position: sticky;
+    top: 1rem;
+  }
+  
+  .dev-wiki-title {
+    font-size: 2rem;
+  }
+  
+  .dev-wiki-categories {
+    grid-template-columns: 1fr;
+  }
+  
+  .dev-wiki-doc-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .dev-wiki-doc-item-link {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .dev-wiki-doc-item-meta {
+    flex-direction: row;
+    margin-left: 0;
+    margin-top: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dev-wiki-container {
+    padding: 0.75rem;
+  }
+  
+  .dev-wiki-title {
+    font-size: 1.75rem;
+  }
+  
+  .dev-wiki-section-title {
+    font-size: 1.5rem;
+  }
+}
