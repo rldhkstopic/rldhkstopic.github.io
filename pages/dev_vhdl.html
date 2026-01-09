@@ -4,26 +4,199 @@ title: Dev / VHDL
 permalink: /dev/vhdl/
 ---
 
-<div class="category-page">
-  <h1 class="category-page-title">Dev · VHDL</h1>
-  
-  {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | sort: "date" | reverse %}
-  {% if vhdl_posts.size > 0 %}
-    <div class="post-list">
-      {% for post in vhdl_posts %}
-        <a href="{{ post.url | relative_url }}" class="post-list-item">
-          <span class="post-list-title">{{ post.title | escape }}</span>
-          <div class="post-list-meta">
-            <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
-            <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
-  {% else %}
-    <div class="post-list-item empty">
-      <span>아직 VHDL 포스트가 없습니다.</span>
-    </div>
-  {% endif %}
-</div>
+<div class="dev-wiki-container">
+  <!-- 사이드바 네비게이션 -->
+  <aside class="dev-wiki-sidebar">
+    <nav class="dev-wiki-nav">
+      <div class="dev-wiki-nav-header">
+        <a href="/dev/" class="dev-wiki-nav-back">← Dev</a>
+        <h2 class="dev-wiki-nav-title">VHDL</h2>
+      </div>
+      
+      <ul class="dev-wiki-nav-list">
+        <li class="dev-wiki-nav-item">
+          <a href="#오류-분석" class="dev-wiki-nav-link">⚠️ 오류 분석</a>
+        </li>
+        <li class="dev-wiki-nav-item">
+          <a href="#문법-레퍼런스" class="dev-wiki-nav-link">📚 문법 레퍼런스</a>
+        </li>
+        <li class="dev-wiki-nav-item">
+          <a href="#툴-사용법" class="dev-wiki-nav-link">🛠️ 툴 사용법</a>
+        </li>
+        <li class="dev-wiki-nav-item">
+          <a href="#설계-가이드" class="dev-wiki-nav-link">🏗️ 설계 가이드</a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
 
+  <!-- 메인 콘텐츠 -->
+  <main class="dev-wiki-main">
+    <div class="dev-wiki-header">
+      <nav class="dev-wiki-breadcrumb">
+        <a href="/dev/">Dev</a>
+        <span class="dev-wiki-breadcrumb-separator">/</span>
+        <span>VHDL</span>
+      </nav>
+      <h1 class="dev-wiki-title">VHDL 문서</h1>
+      <p class="dev-wiki-description">VHDL 문법, 오류 해결, Vivado 툴 사용법, 설계 가이드를 정리한 문서입니다.</p>
+    </div>
+
+    {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | sort: "date" | reverse %}
+    
+    <!-- 오류 분석 섹션 -->
+    {% assign error_posts = vhdl_posts | where_exp: "post", "post.title contains '[오류]' or post.tags contains '오류' or post.tags contains 'Error' or post.tags contains 'DRC'" %}
+    {% if error_posts.size > 0 %}
+      <section id="오류-분석" class="dev-wiki-section">
+        <div class="dev-wiki-section-header">
+          <h2 class="dev-wiki-section-title">
+            <span class="dev-wiki-section-icon">⚠️</span>
+            오류 분석
+          </h2>
+          <span class="dev-wiki-section-count">{{ error_posts.size }}개 문서</span>
+        </div>
+        <p class="dev-wiki-section-description">VHDL 개발 중 발생하는 오류와 해결 방법을 정리했습니다. 중요도와 빈도수 기준으로 정렬되어 있습니다.</p>
+        
+        <div class="dev-wiki-doc-grid">
+          {% assign sorted_errors = error_posts | sort: "views" | reverse %}
+          {% for post in sorted_errors %}
+            <article class="dev-wiki-doc-card">
+              <a href="{{ post.url | relative_url }}" class="dev-wiki-doc-card-link">
+                <h3 class="dev-wiki-doc-card-title">{{ post.title | escape }}</h3>
+                {% if post.tags.size > 0 %}
+                  <div class="dev-wiki-doc-card-tags">
+                    {% for tag in post.tags limit: 3 %}
+                      <span class="dev-wiki-doc-card-tag">{{ tag }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+                <div class="dev-wiki-doc-card-meta">
+                  <span class="dev-wiki-doc-card-views">👁 {{ post.views | default: 0 }}</span>
+                  <time class="dev-wiki-doc-card-date">{{ post.date | date: "%Y.%m.%d" }}</time>
+                </div>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 문법 레퍼런스 섹션 -->
+    {% assign syntax_posts = vhdl_posts | where_exp: "post", "post.title contains '문법' or post.tags contains '문법' or post.tags contains '레퍼런스' or post.series" %}
+    {% if syntax_posts.size > 0 %}
+      <section id="문법-레퍼런스" class="dev-wiki-section">
+        <div class="dev-wiki-section-header">
+          <h2 class="dev-wiki-section-title">
+            <span class="dev-wiki-section-icon">📚</span>
+            문법 레퍼런스
+          </h2>
+          <span class="dev-wiki-section-count">{{ syntax_posts.size }}개 문서</span>
+        </div>
+        <p class="dev-wiki-section-description">VHDL 문법과 개념을 체계적으로 정리한 레퍼런스입니다.</p>
+        
+        <div class="dev-wiki-doc-list-container">
+          {% assign sorted_syntax = syntax_posts | sort: "series_order" %}
+          {% for post in sorted_syntax %}
+            <article class="dev-wiki-doc-item-large">
+              <a href="{{ post.url | relative_url }}" class="dev-wiki-doc-item-link">
+                <div class="dev-wiki-doc-item-content">
+                  <h3 class="dev-wiki-doc-item-title">{{ post.title | escape }}</h3>
+                  {% if post.series %}
+                    <span class="dev-wiki-doc-badge">{{ post.series }}</span>
+                  {% endif %}
+                  {% if post.tags.size > 0 %}
+                    <div class="dev-wiki-doc-item-tags">
+                      {% for tag in post.tags limit: 5 %}
+                        <span class="dev-wiki-doc-item-tag">{{ tag }}</span>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+                <div class="dev-wiki-doc-item-meta">
+                  <time class="dev-wiki-doc-item-date">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  <span class="dev-wiki-doc-item-views">👁 {{ post.views | default: 0 }}</span>
+                </div>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 툴 사용법 섹션 -->
+    {% assign tool_posts = vhdl_posts | where_exp: "post", "post.tags contains 'Vivado' or post.tags contains '툴' or post.title contains 'Vivado'" %}
+    {% if tool_posts.size > 0 %}
+      <section id="툴-사용법" class="dev-wiki-section">
+        <div class="dev-wiki-section-header">
+          <h2 class="dev-wiki-section-title">
+            <span class="dev-wiki-section-icon">🛠️</span>
+            툴 사용법
+          </h2>
+          <span class="dev-wiki-section-count">{{ tool_posts.size }}개 문서</span>
+        </div>
+        <p class="dev-wiki-section-description">Vivado 등 개발 툴의 사용법과 팁을 정리했습니다.</p>
+        
+        <div class="dev-wiki-doc-list-container">
+          {% for post in tool_posts %}
+            <article class="dev-wiki-doc-item-large">
+              <a href="{{ post.url | relative_url }}" class="dev-wiki-doc-item-link">
+                <div class="dev-wiki-doc-item-content">
+                  <h3 class="dev-wiki-doc-item-title">{{ post.title | escape }}</h3>
+                  {% if post.tags.size > 0 %}
+                    <div class="dev-wiki-doc-item-tags">
+                      {% for tag in post.tags limit: 5 %}
+                        <span class="dev-wiki-doc-item-tag">{{ tag }}</span>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+                <div class="dev-wiki-doc-item-meta">
+                  <time class="dev-wiki-doc-item-date">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  <span class="dev-wiki-doc-item-views">👁 {{ post.views | default: 0 }}</span>
+                </div>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 설계 가이드 섹션 -->
+    {% assign design_posts = vhdl_posts | where_exp: "post", "post.tags contains '설계' or post.tags contains 'FPGA' or post.tags contains '아키텍처'" %}
+    {% if design_posts.size > 0 %}
+      <section id="설계-가이드" class="dev-wiki-section">
+        <div class="dev-wiki-section-header">
+          <h2 class="dev-wiki-section-title">
+            <span class="dev-wiki-section-icon">🏗️</span>
+            설계 가이드
+          </h2>
+          <span class="dev-wiki-section-count">{{ design_posts.size }}개 문서</span>
+        </div>
+        <p class="dev-wiki-section-description">FPGA 설계 프로젝트와 아키텍처 설계 가이드를 정리했습니다.</p>
+        
+        <div class="dev-wiki-doc-list-container">
+          {% for post in design_posts %}
+            <article class="dev-wiki-doc-item-large">
+              <a href="{{ post.url | relative_url }}" class="dev-wiki-doc-item-link">
+                <div class="dev-wiki-doc-item-content">
+                  <h3 class="dev-wiki-doc-item-title">{{ post.title | escape }}</h3>
+                  {% if post.tags.size > 0 %}
+                    <div class="dev-wiki-doc-item-tags">
+                      {% for tag in post.tags limit: 5 %}
+                        <span class="dev-wiki-doc-item-tag">{{ tag }}</span>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+                <div class="dev-wiki-doc-item-meta">
+                  <time class="dev-wiki-doc-item-date">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  <span class="dev-wiki-doc-item-views">👁 {{ post.views | default: 0 }}</span>
+                </div>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  </main>
+</div>

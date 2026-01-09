@@ -4,28 +4,156 @@ title: Dev
 permalink: /dev/
 ---
 
-<div class="category-page">
-  <h1 class="category-page-title">💻 Dev</h1>
-  
-  {% assign dev_posts = site.posts | where: "category", "dev" %}
-  {% if dev_posts.size > 0 %}
-    <div class="post-list">
-      {% for post in dev_posts %}
-        <a href="{{ post.url | relative_url }}" class="post-list-item">
-          <span class="post-list-title">{{ post.title | escape }}</span>
-          <div class="post-list-meta">
-            <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
-            <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-          </div>
-        </a>
-      {% endfor %}
+<div class="dev-wiki-container">
+  <!-- 사이드바 네비게이션 -->
+  <aside class="dev-wiki-sidebar">
+    <nav class="dev-wiki-nav">
+      <div class="dev-wiki-nav-header">
+        <h2 class="dev-wiki-nav-title">💻 Dev</h2>
+      </div>
+      
+      <ul class="dev-wiki-nav-list">
+        {% assign subcategories = site.posts | where: "category", "dev" | map: "subcategory" | uniq | compact | sort %}
+        {% for subcat in subcategories %}
+          <li class="dev-wiki-nav-item">
+            <a href="/dev/{{ subcat | downcase }}/" class="dev-wiki-nav-link {% if page.url contains subcat | downcase %}active{% endif %}">
+              <span class="dev-wiki-nav-icon">
+                {% if subcat == "VHDL" %}V{% else %}📦{% endif %}
+              </span>
+              <span class="dev-wiki-nav-text">{{ subcat }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- 메인 콘텐츠 -->
+  <main class="dev-wiki-main">
+    <div class="dev-wiki-header">
+      <h1 class="dev-wiki-title">💻 Dev</h1>
+      <p class="dev-wiki-description">개발 관련 기술 문서, 오류 해결, 문법 레퍼런스, 툴 사용법을 정리한 문서 위키입니다.</p>
     </div>
-  {% else %}
-    <div class="post-list-item empty">
-      <span>아직 포스트가 없습니다.</span>
-    </div>
-  {% endif %}
+
+    {% assign dev_posts = site.posts | where: "category", "dev" %}
+    
+    <!-- 하위 카테고리별 섹션 -->
+    {% assign subcategories = dev_posts | map: "subcategory" | uniq | compact | sort %}
+    {% for subcat in subcategories %}
+      {% assign subcat_posts = dev_posts | where: "subcategory", subcat %}
+      
+      <section class="dev-wiki-section">
+        <div class="dev-wiki-section-header">
+          <h2 class="dev-wiki-section-title">
+            <a href="/dev/{{ subcat | downcase }}/" class="dev-wiki-section-link">
+              {{ subcat }}
+            </a>
+          </h2>
+          <span class="dev-wiki-section-count">{{ subcat_posts.size }}개 문서</span>
+        </div>
+
+        <div class="dev-wiki-categories">
+          <!-- 오류 분석 -->
+          {% assign error_posts = subcat_posts | where_exp: "post", "post.title contains '[오류]' or post.tags contains '오류' or post.tags contains 'Error' or post.tags contains 'DRC'" %}
+          {% if error_posts.size > 0 %}
+            <div class="dev-wiki-category">
+              <h3 class="dev-wiki-category-title">
+                <span class="dev-wiki-category-icon">⚠️</span>
+                오류 분석
+              </h3>
+              <ul class="dev-wiki-doc-list">
+                {% assign sorted_errors = error_posts | sort: "views" | reverse %}
+                {% for post in sorted_errors limit: 10 %}
+                  <li class="dev-wiki-doc-item">
+                    <a href="{{ post.url | relative_url }}" class="dev-wiki-doc-link">
+                      <span class="dev-wiki-doc-title">{{ post.title | escape }}</span>
+                      <span class="dev-wiki-doc-meta">
+                        <span class="dev-wiki-doc-views">👁 {{ post.views | default: 0 }}</span>
+                      </span>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              {% if error_posts.size > 10 %}
+                <a href="/dev/{{ subcat | downcase }}/#오류-분석" class="dev-wiki-more-link">더보기 ({{ error_posts.size }}개)</a>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          <!-- 문법 레퍼런스 -->
+          {% assign syntax_posts = subcat_posts | where_exp: "post", "post.title contains '문법' or post.tags contains '문법' or post.tags contains '레퍼런스' or post.series" %}
+          {% if syntax_posts.size > 0 %}
+            <div class="dev-wiki-category">
+              <h3 class="dev-wiki-category-title">
+                <span class="dev-wiki-category-icon">📚</span>
+                문법 레퍼런스
+              </h3>
+              <ul class="dev-wiki-doc-list">
+                {% assign sorted_syntax = syntax_posts | sort: "series_order" %}
+                {% for post in sorted_syntax limit: 10 %}
+                  <li class="dev-wiki-doc-item">
+                    <a href="{{ post.url | relative_url }}" class="dev-wiki-doc-link">
+                      <span class="dev-wiki-doc-title">{{ post.title | escape }}</span>
+                      {% if post.series %}
+                        <span class="dev-wiki-doc-badge">{{ post.series }}</span>
+                      {% endif %}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              {% if syntax_posts.size > 10 %}
+                <a href="/dev/{{ subcat | downcase }}/#문법-레퍼런스" class="dev-wiki-more-link">더보기 ({{ syntax_posts.size }}개)</a>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          <!-- 툴 사용법 -->
+          {% assign tool_posts = subcat_posts | where_exp: "post", "post.tags contains 'Vivado' or post.tags contains '툴' or post.title contains 'Vivado'" %}
+          {% if tool_posts.size > 0 %}
+            <div class="dev-wiki-category">
+              <h3 class="dev-wiki-category-title">
+                <span class="dev-wiki-category-icon">🛠️</span>
+                툴 사용법
+              </h3>
+              <ul class="dev-wiki-doc-list">
+                {% for post in tool_posts limit: 10 %}
+                  <li class="dev-wiki-doc-item">
+                    <a href="{{ post.url | relative_url }}" class="dev-wiki-doc-link">
+                      <span class="dev-wiki-doc-title">{{ post.title | escape }}</span>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              {% if tool_posts.size > 10 %}
+                <a href="/dev/{{ subcat | downcase }}/#툴-사용법" class="dev-wiki-more-link">더보기 ({{ tool_posts.size }}개)</a>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          <!-- 설계 가이드 -->
+          {% assign design_posts = subcat_posts | where_exp: "post", "post.tags contains '설계' or post.tags contains 'FPGA' or post.tags contains '아키텍처'" %}
+          {% if design_posts.size > 0 %}
+            <div class="dev-wiki-category">
+              <h3 class="dev-wiki-category-title">
+                <span class="dev-wiki-category-icon">🏗️</span>
+                설계 가이드
+              </h3>
+              <ul class="dev-wiki-doc-list">
+                {% for post in design_posts limit: 10 %}
+                  <li class="dev-wiki-doc-item">
+                    <a href="{{ post.url | relative_url }}" class="dev-wiki-doc-link">
+                      <span class="dev-wiki-doc-title">{{ post.title | escape }}</span>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              {% if design_posts.size > 10 %}
+                <a href="/dev/{{ subcat | downcase }}/#설계-가이드" class="dev-wiki-more-link">더보기 ({{ design_posts.size }}개)</a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </section>
+    {% endfor %}
+  </main>
 </div>
-
-
-

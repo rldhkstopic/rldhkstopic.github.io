@@ -9,6 +9,7 @@
 **핵심 목표**: 기술 블로그를 자동화하여 지속적인 콘텐츠 생산과 유입 확보
 
 **주요 관심사**:
+
 1. **주식**: 전날/당일 뉴스 종합 및 분석
 2. **개발**: 오류 문서, 해결방법, 프로젝트 설계 (유입 유도 콘텐츠)
 3. **일기**: 하루 동안의 일상을 간편하게 기록
@@ -24,7 +25,7 @@
 **자동화 파이프라인**:
 
 ```
-[사용자] 
+[사용자]
   ↓ Discord 채널에 틈틈이 메시지 작성
 [Discord 메시지 수집]
   ↓ 자정 (KST 00:00) 실행
@@ -36,26 +37,30 @@
 ```
 
 **구현 방식**:
+
 - **Discord 메시지 수집**: 특정 채널(예: `#일기-로그`)의 메시지를 시간대별로 수집
 - **수집 시간대**: 당일 00:00 ~ 23:59 (KST)
 - **처리 시점**: 매일 새벽 6시 (KST 06:00, UTC 21:00 전날)
-- **생성 방식**: 
+- **생성 방식**:
   - 수집된 메시지들을 시간순으로 정리
   - AI가 메시지들을 종합하여 일기 형식의 글 생성
   - 1인칭 시점, 감정 묘사, 현장감 유지
 
 **Discord 채널 구조**:
+
 - `#일기-로그`: 일상 메시지 작성용
 - 메시지 형식: 자유 형식 (텍스트, 이미지, 링크 등)
 - 봇이 자동으로 메시지 수집 및 저장
 
 **기술 스택**:
+
 - Discord Bot API (메시지 수집)
 - GitHub Actions (스케줄 실행)
 - Gemini API (글 생성)
 - 기존 `daily_diary_agent.py` 확장
 
 **예상 출력**:
+
 ```markdown
 ---
 layout: post
@@ -64,7 +69,7 @@ date: 2026-01-07 00:00:00 +0900
 category: daily
 ---
 
-오전에는 프로젝트 설계를 진행했다. 
+오전에는 프로젝트 설계를 진행했다.
 오후에는 블로그 자동화 컨셉을 정리했다.
 저녁에는 디스코드 메시지를 확인했다.
 ```
@@ -80,26 +85,34 @@ category: daily
 #### 2.1 오류 문서 및 해결방법
 
 **특징**:
+
 - 검색 유입 최적화 (SEO)
 - 구체적인 오류 메시지와 해결책
 - 코드 예시 포함
 - 단계별 해결 과정
 
 **생성 방식**:
+
 - **수동 요청**: Discord `/write` 명령어로 오류 상황 입력
 - **자동 수집**: 개발 중 발생한 오류를 자동으로 감지하고 문서화
 - **패턴 기반**: 기존 오류 문서 패턴을 따라 생성
 
 **구조**:
+
 ```markdown
 ## 개요
+
 ## 언제 발생하나
+
 ## 재현 코드
+
 ## 해결 원칙
+
 ## 유사 사례
 ```
 
 **예시**: VHDL 오류 시리즈 (이미 구현됨)
+
 - `vhdl-wait-statement-not-synthesizable.md`
 - `vhdl-inferred-latch-warning.md`
 - `vhdl-std-logic-not-declared.md`
@@ -107,27 +120,35 @@ category: daily
 #### 2.2 프로젝트 설계 방식
 
 **특징**:
+
 - 아키텍처 설계 과정
 - 기술 스택 선택 이유
 - 설계 결정 근거
 - 트레이드오프 분석
 
 **생성 방식**:
+
 - **수동 요청**: Discord `/write` 명령어로 프로젝트 정보 입력
 - **프로젝트 완료 시**: 자동으로 설계 문서 생성 요청
 
 **구조**:
+
 ```markdown
 ## 프로젝트 개요
+
 ## 아키텍처 설계
+
 ## 기술 스택 선택
+
 ## 주요 설계 결정
+
 ## 트레이드오프
 ```
 
 #### 2.3 자동화 개선
 
 **향후 계획**:
+
 - GitHub Issues/PR에서 오류 패턴 자동 감지
 - 코드 리뷰 중 발견된 문제를 자동 문서화
 - 프로젝트 README 분석하여 설계 문서 생성
@@ -161,22 +182,26 @@ category: daily
 #### 3.1 뉴스 수집
 
 **소스**:
+
 - Bloomberg RSS (이미 구현됨)
 - 네이버 증권 뉴스
 - 한국경제, 매일경제 등 주요 경제지 RSS
 - Yahoo Finance API
 
 **수집 시간**:
+
 - **전날 뉴스**: 매일 오전 7시 (KST) - 전일 00:00 ~ 23:59 뉴스
 - **당일 뉴스**: 매일 오후 6시 (KST) - 당일 00:00 ~ 18:00 뉴스
 
 #### 3.2 Discord 스크랩 시스템
 
 **채널 구조**:
+
 - `#주식-스크랩`: 중요 뉴스 링크 공유용
 - 사용자가 링크를 공유하면 봇이 자동으로 수집
 
 **메시지 형식**:
+
 ```
 https://example.com/news/article-123
 또는
@@ -184,12 +209,14 @@ https://example.com/news/article-123
 ```
 
 **봇 동작**:
+
 1. 링크 메시지 감지
 2. 웹 스크래핑 또는 API로 기사 내용 추출
 3. 제목, 본문, 발행일, 출처 저장
 4. `_stock_scraps/YYYY-MM-DD/` 디렉토리에 JSON으로 저장
 
 **저장 형식**:
+
 ```json
 {
   "url": "https://example.com/news/article-123",
@@ -205,12 +232,15 @@ https://example.com/news/article-123
 #### 3.3 뉴스 종합 및 분석
 
 **처리 로직**:
+
 1. **뉴스 그룹핑**: 주제별로 뉴스 묶기
+
    - 기업별 (삼성전자, SK하이닉스 등)
    - 섹터별 (반도체, 배터리, 바이오 등)
    - 이슈별 (정책, 실적, M&A 등)
 
 2. **중요도 평가**:
+
    - 뉴스 출처 신뢰도
    - 사용자 스크랩 여부 (스크랩된 뉴스는 우선순위 높음)
    - 뉴스 조회수/공유수
@@ -222,25 +252,31 @@ https://example.com/news/article-123
    - 리스크 및 관찰 포인트
 
 **생성 구조**:
+
 ```markdown
 ## 전일/당일 이슈 개요
+
 - [테마 1] 뉴스 요약
 - [테마 2] 뉴스 요약
-...
+  ...
 
 ## 테마별 해석
+
 ### [테마 1]
+
 - 무엇이 새로웠나
 - 시장/정책/기업에 대한 영향
 - 리스크 및 관찰 포인트
 - 전문가 코멘트 (blockquote)
 
 ## 체크리스트 (다음 거래일 관찰 포인트)
+
 - 항목 1
 - 항목 2
-...
+  ...
 
 ## References
+
 - [뉴스 1](링크)
 - [뉴스 2](링크)
 ```
@@ -250,17 +286,20 @@ https://example.com/news/article-123
 **필요한 컴포넌트**:
 
 1. **Discord 봇 확장** (`local_bot/discord_interface.py`):
+
    - 링크 메시지 감지
    - 웹 스크래핑 또는 API 호출
    - JSON 저장
 
 2. **Stock News Agent** (신규, `.github/scripts/stock_news_agent.py`):
+
    - 뉴스 수집 (RSS, API)
    - Discord 스크랩 링크 수집
    - 뉴스 그룹핑 및 분석
    - AI 글 생성
 
 3. **웹 스크래핑 유틸리티** (신규, `.github/scripts/web_scraper.py`):
+
    - 기사 본문 추출
    - 메타데이터 추출 (제목, 발행일, 출처)
    - 다양한 뉴스 사이트 지원
@@ -270,6 +309,7 @@ https://example.com/news/article-123
    - 매일 오후 6시: 당일 뉴스 종합
 
 **의존성**:
+
 - `beautifulsoup4`: 웹 스크래핑
 - `feedparser`: RSS 파싱
 - `requests`: HTTP 요청
@@ -350,12 +390,12 @@ https://example.com/news/article-123
 
 ## 📅 실행 스케줄
 
-| 시간 (KST) | 워크플로우 | 카테고리 | 설명 |
-|-----------|-----------|---------|------|
-| 06:00 | `daily-diary.yml` | Daily | 전일 일기 종합 |
-| 07:00 | `stock-news.yml` | Stock | 전날 뉴스 종합 |
-| 07:00 | `auto-post.yml` | Dev/Document | 자동 포스팅 (요청 있으면) |
-| 18:00 | `stock-news.yml` | Stock | 당일 뉴스 종합 |
+| 시간 (KST) | 워크플로우        | 카테고리     | 설명                      |
+| ---------- | ----------------- | ------------ | ------------------------- |
+| 06:00      | `daily-diary.yml` | Daily        | 전일 일기 종합            |
+| 07:00      | `stock-news.yml`  | Stock        | 전날 뉴스 종합            |
+| 07:00      | `auto-post.yml`   | Dev/Document | 자동 포스팅 (요청 있으면) |
+| 18:00      | `stock-news.yml`  | Stock        | 당일 뉴스 종합            |
 
 ---
 
@@ -364,11 +404,13 @@ https://example.com/news/article-123
 ### Phase 1: Daily 일기 자동화 (현재 부분 구현됨)
 
 **현재 상태**:
+
 - ✅ `daily_diary_agent.py` 존재
 - ✅ `daily-diary.yml` 워크플로우 존재
 - ✅ Discord 메시지 수집 기능 구현됨 (GitHub Actions에서 Discord API 폴링)
 
 **필요 작업**:
+
 1. GitHub Secrets에 Discord 자격 정보 설정
    - `DISCORD_BOT_TOKEN`
    - `DISCORD_CHANNEL_ID`
@@ -383,18 +425,22 @@ https://example.com/news/article-123
 ### Phase 2: Stock 뉴스 자동화 (신규)
 
 **필요 작업**:
+
 1. **Discord 스크랩 시스템**:
+
    - 링크 메시지 감지
    - 웹 스크래핑 유틸리티 구현
    - JSON 저장
 
 2. **Stock News Agent 개발**:
+
    - 뉴스 수집 (RSS, API)
    - 스크랩 링크 수집
    - 뉴스 그룹핑 및 분석
    - AI 글 생성
 
 3. **워크플로우 생성**:
+
    - `stock-news.yml` 생성
    - 스케줄 설정 (오전 7시, 오후 6시)
 
@@ -409,11 +455,13 @@ https://example.com/news/article-123
 ### Phase 3: Dev 자동화 개선
 
 **현재 상태**:
+
 - ✅ 수동 요청 시스템 구현됨 (Discord `/write`)
 - ✅ 오류 문서 패턴 정립됨 (VHDL 시리즈)
 - ⚠️ 자동 오류 감지 미구현
 
 **개선 계획**:
+
 1. GitHub Issues/PR에서 오류 패턴 자동 감지
 2. 코드 리뷰 중 발견된 문제 자동 문서화
 3. 프로젝트 README 분석하여 설계 문서 생성
@@ -425,12 +473,14 @@ https://example.com/news/article-123
 ## 🔧 기술 스택 요약
 
 ### 기존 사용 중
+
 - **Discord Bot**: `discord.py`
 - **AI**: Google Gemini API
 - **워크플로우**: GitHub Actions
 - **블로그**: Jekyll (GitHub Pages + Vercel)
 
 ### 신규 필요
+
 - **웹 스크래핑**: `beautifulsoup4`, `newspaper3k` 또는 `readability-lxml`
 - **RSS 파싱**: `feedparser` (이미 사용 가능)
 - **HTTP 요청**: `requests` (이미 사용 중)
@@ -440,16 +490,19 @@ https://example.com/news/article-123
 ## 📝 카테고리별 프롬프트 전략
 
 ### Daily (일기)
+
 - **입력**: 수집된 Discord 메시지들
 - **프롬프트**: 시간순 정리, 1인칭 시점, 감정 묘사, 현장감
 - **출력**: 일기 형식의 글
 
 ### Stock (주식)
+
 - **입력**: 뉴스 목록 + 스크랩 링크
 - **프롬프트**: Bloomberg 다이제스트 프롬프트 확장
 - **출력**: 뉴스 종합 및 분석 글
 
 ### Dev (개발)
+
 - **입력**: 오류 상황 또는 프로젝트 정보
 - **프롬프트**: 기술 중심, 논리적 흐름, 코드 예시
 - **출력**: 오류 문서 또는 설계 문서
