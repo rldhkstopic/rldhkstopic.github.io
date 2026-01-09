@@ -134,8 +134,10 @@ def create_diary_topic(target_date: str, log_count: int) -> Dict:
     date_obj = datetime.strptime(target_date, '%Y-%m-%d')
     date_str = date_obj.strftime('%Y년 %m월 %d일')
     
+    # 제목은 AI가 생성할 때 요약 제목을 포함하도록 하므로, 여기서는 기본 형식만 제공
+    # 실제 제목은 WriterAgent가 일기 내용을 바탕으로 "[YYYY-MM-DD] 요약 제목" 형식으로 생성
     return {
-        'title': f"{date_str} 일기",
+        'title': f"[{target_date}] 일기",  # AI가 요약 제목으로 대체할 예정
         'description': f"오늘 하루 동안 기록한 {log_count}개의 일상을 정리한 일기입니다.",
         'category': 'daily',
         'tags': ['일기', '일상'],
