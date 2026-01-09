@@ -98,6 +98,16 @@ def fetch_channel_messages(
         _sleep_on_rate_limit(resp)
         resp = requests.get(url, headers=_discord_headers(token), params=params, timeout=timeout_s)
 
+    if resp.status_code == 401:
+        print("[ERROR] Discord API 인증 실패. DISCORD_BOT_TOKEN을 확인하세요.")
+        raise SystemExit(1)
+    elif resp.status_code == 403:
+        print("[ERROR] Discord 봇이 해당 채널에 접근할 수 없습니다. 봇 권한과 채널 접근 권한을 확인하세요.")
+        raise SystemExit(1)
+    elif resp.status_code == 404:
+        print(f"[ERROR] Discord 채널을 찾을 수 없습니다. DISCORD_CHANNEL_ID ({channel_id})를 확인하세요.")
+        raise SystemExit(1)
+    
     resp.raise_for_status()
     data = resp.json()
     if not isinstance(data, list):
