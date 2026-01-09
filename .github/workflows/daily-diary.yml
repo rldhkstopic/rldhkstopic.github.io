@@ -45,6 +45,23 @@ jobs:
       run: |
         pip install -r .github/scripts/requirements.txt
         pip install requests
+
+    - name: Determine target date (KST)
+      run: |
+        if [ -n "${{ github.event.inputs.target_date }}" ]; then
+          echo "TARGET_DATE=${{ github.event.inputs.target_date }}" >> $GITHUB_ENV
+        else
+          TARGET_DATE=$(python -c "from datetime import datetime, timedelta, timezone; from datetime import timezone as tz; import sys; kst=tz(timedelta(hours=9)); now=datetime.now(timezone.utc).astimezone(kst); print((now.date()-timedelta(days=1)).strftime('%Y-%m-%d'))")
+          echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV
+        fi
+
+    - name: Collect Discord daily logs (polling)
+      env:
+        DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+        DAILY_LOGS_DIR: _daily_logs
+      run: |
+        python .github/scripts/discord_daily_log_collector.py "$TARGET_DATE"
         
     - name: Run daily diary agent
       env:
@@ -52,11 +69,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: |
-        if [ -n "${{ github.event.inputs.target_date }}" ]; then
-          python .github/scripts/daily_diary_agent.py "${{ github.event.inputs.target_date }}"
-        else
-          python .github/scripts/daily_diary_agent.py
-        fi
+        python .github/scripts/daily_diary_agent.py "$TARGET_DATE"
         
     - name: Commit and push
       if: success()
@@ -84,11 +97,6 @@ jobs:
         git add -u 2>/dev/null || true
         # 변경사항이 있으면 커밋
         if ! git diff --staged --quiet; then
-          if [ -n "${{ github.event.inputs.target_date }}" ]; then
-            TARGET_DATE="${{ github.event.inputs.target_date }}"
-          else
-            TARGET_DATE=$(python -c "from datetime import datetime, timedelta; print((datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d'))")
-          fi
           git commit -m "[$VERSION] Add daily diary for $TARGET_DATE"
         fi
         # push 시도

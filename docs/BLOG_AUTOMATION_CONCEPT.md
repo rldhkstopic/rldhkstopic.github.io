@@ -366,13 +366,15 @@ https://example.com/news/article-123
 **현재 상태**:
 - ✅ `daily_diary_agent.py` 존재
 - ✅ `daily-diary.yml` 워크플로우 존재
-- ⚠️ Discord 메시지 수집 기능 미구현
+- ✅ Discord 메시지 수집 기능 구현됨 (GitHub Actions에서 Discord API 폴링)
 
 **필요 작업**:
-1. Discord 봇에 메시지 수집 기능 추가
-2. 특정 채널(`#일기-로그`)의 메시지를 시간대별로 수집
-3. 수집된 메시지를 `_daily_logs/YYYY-MM-DD/`에 JSON으로 저장
-4. `daily_diary_agent.py`가 수집된 메시지를 읽어서 종합
+1. GitHub Secrets에 Discord 자격 정보 설정
+   - `DISCORD_BOT_TOKEN`
+   - `DISCORD_CHANNEL_ID`
+2. `daily-diary.yml`이 자정(KST)에 Discord 채널 메시지를 조회(폴링)하여
+   `_daily_logs/YYYY-MM-DD/{message_id}.json`로 저장
+3. `daily_diary_agent.py`가 `_daily_logs`를 읽어 전일 일기를 생성
 
 **예상 완료**: 1주일
 
