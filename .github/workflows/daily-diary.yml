@@ -48,8 +48,18 @@ jobs:
 
     - name: Determine target date (KST)
       run: |
-        if [ -n "${{ github.event.inputs.target_date }}" ]; then
-          echo "TARGET_DATE=${{ github.event.inputs.target_date }}" >> $GITHUB_ENV
+        INPUT_DATE="${{ github.event.inputs.target_date }}"
+        if [ -n "$INPUT_DATE" ]; then
+          # 허용: YYYY-MM-DD 또는 YYYYMMDD
+          if echo "$INPUT_DATE" | grep -Eq '^[0-9]{8}$'; then
+            TARGET_DATE="${INPUT_DATE:0:4}-${INPUT_DATE:4:2}-${INPUT_DATE:6:2}"
+          elif echo "$INPUT_DATE" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
+            TARGET_DATE="$INPUT_DATE"
+          else
+            echo "::error::target_date format must be YYYY-MM-DD (or YYYYMMDD). got: $INPUT_DATE"
+            exit 1
+          fi
+          echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV
         else
           TARGET_DATE=$(python -c "from datetime import datetime, timedelta, timezone; from datetime import timezone as tz; import sys; kst=tz(timedelta(hours=9)); now=datetime.now(timezone.utc).astimezone(kst); print((now.date()-timedelta(days=1)).strftime('%Y-%m-%d'))")
           echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV

@@ -128,6 +128,9 @@ def create_diary_topic(target_date: str, log_count: int) -> Dict:
     Returns:
         주제 딕셔너리
     """
+    # 허용: YYYY-MM-DD 또는 YYYYMMDD
+    if len(target_date) == 8 and target_date.isdigit():
+        target_date = f"{target_date[0:4]}-{target_date[4:6]}-{target_date[6:8]}"
     date_obj = datetime.strptime(target_date, '%Y-%m-%d')
     date_str = date_obj.strftime('%Y년 %m월 %d일')
     
@@ -163,7 +166,12 @@ def main():
     
     # 명령줄 인자로 날짜 지정 가능
     if len(sys.argv) > 1:
-        target_date = sys.argv[1]
+        raw = sys.argv[1].strip()
+        # 허용: YYYY-MM-DD 또는 YYYYMMDD
+        if len(raw) == 8 and raw.isdigit():
+            target_date = f"{raw[0:4]}-{raw[4:6]}-{raw[6:8]}"
+        else:
+            target_date = raw
     
     print(f"\n[대상 날짜] {target_date}")
     

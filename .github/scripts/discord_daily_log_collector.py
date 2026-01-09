@@ -41,7 +41,11 @@ def _parse_target_date(argv: List[str]) -> str:
     args가 없으면 "KST 기준 어제"를 기본값으로 사용한다.
     """
     if len(argv) > 1:
-        return argv[1].strip()
+        raw = argv[1].strip()
+        # 허용: YYYY-MM-DD 또는 YYYYMMDD
+        if len(raw) == 8 and raw.isdigit():
+            return f"{raw[0:4]}-{raw[4:6]}-{raw[6:8]}"
+        return raw
 
     now_kst = datetime.now(timezone.utc).astimezone(_kst_tz())
     return (now_kst.date() - timedelta(days=1)).strftime("%Y-%m-%d")
@@ -49,6 +53,9 @@ def _parse_target_date(argv: List[str]) -> str:
 
 def _date_range_kst(target_date: str) -> Tuple[datetime, datetime]:
     tz = _kst_tz()
+    # 허용: YYYY-MM-DD 또는 YYYYMMDD
+    if len(target_date) == 8 and target_date.isdigit():
+        target_date = f"{target_date[0:4]}-{target_date[4:6]}-{target_date[6:8]}"
     start = datetime.strptime(target_date, "%Y-%m-%d").replace(tzinfo=tz)
     end = start + timedelta(days=1)
     return start, end
