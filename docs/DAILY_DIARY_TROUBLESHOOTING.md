@@ -44,8 +44,12 @@ Discord 봇이 다음 권한을 가지고 있어야 합니다:
 
 #### 필수 권한
 
-- **메시지 읽기** (Read Message History)
-- **채널 보기** (View Channels)
+- **메시지 읽기** (Read Message History) ✅
+- **채널 보기** (View Channels) ✅
+- **메시지 보내기** (Send Messages) - 선택사항
+- **메시지 관리** (Manage Messages) - 선택사항
+- **파일 첨부** (Attach Files) - 선택사항
+- **반응 추가** (Add Reactions) - 선택사항
 - **채널 접근** (해당 채널에 봇이 초대되어 있어야 함)
 
 #### 권한 설정 방법
@@ -56,8 +60,16 @@ Discord 봇이 다음 권한을 가지고 있어야 합니다:
    - MESSAGE CONTENT INTENT (메시지 내용 읽기)
 4. **OAuth2** → **URL Generator**에서:
    - Scopes: `bot`
-   - Bot Permissions: `Read Message History`, `View Channels`
+   - Bot Permissions: 
+     - `Read Message History` (필수)
+     - `View Channels` (필수)
+     - `Send Messages` (선택)
+     - `Manage Messages` (선택)
+     - `Attach Files` (선택)
+     - `Add Reactions` (선택)
 5. 생성된 URL로 봇을 서버에 초대
+6. **Privileged Gateway Intents**에서:
+   - ✅ **MESSAGE CONTENT INTENT** 활성화 (필수)
 
 ### 3. 워크플로우 실행 확인
 
