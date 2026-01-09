@@ -110,7 +110,7 @@ flutter run
 **파일**: `.github/workflows/daily-diary.yml`
 
 **실행 시점:**
-- 자동: 매일 자정 (KST 00:00, UTC 15:00)
+- 자동: 매일 새벽 6시 (KST 06:00, UTC 21:00 전날)
 - 수동: GitHub Actions UI에서 `workflow_dispatch`
 
 **수동 실행 시 날짜 지정:**

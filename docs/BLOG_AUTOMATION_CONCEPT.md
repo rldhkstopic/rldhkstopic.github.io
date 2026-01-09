@@ -352,7 +352,7 @@ https://example.com/news/article-123
 
 | 시간 (KST) | 워크플로우 | 카테고리 | 설명 |
 |-----------|-----------|---------|------|
-| 00:00 | `daily-diary.yml` | Daily | 전일 일기 종합 |
+| 06:00 | `daily-diary.yml` | Daily | 전일 일기 종합 |
 | 07:00 | `stock-news.yml` | Stock | 전날 뉴스 종합 |
 | 07:00 | `auto-post.yml` | Dev/Document | 자동 포스팅 (요청 있으면) |
 | 18:00 | `stock-news.yml` | Stock | 당일 뉴스 종합 |
