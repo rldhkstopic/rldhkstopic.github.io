@@ -1,0 +1,44 @@
+﻿2026-01-09T09:32:33.2548605Z ##[group]Run VERSION=$(cat VERSION 2>/dev/null || echo v0.0.0)
+2026-01-09T09:32:33.2549057Z [36;1mVERSION=$(cat VERSION 2>/dev/null || echo v0.0.0)[0m
+2026-01-09T09:32:33.2549413Z [36;1mgit config --local user.email "action@github.com"[0m
+2026-01-09T09:32:33.2549750Z [36;1mgit config --local user.name "GitHub Action"[0m
+2026-01-09T09:32:33.2550025Z [36;1m# 원격 변경사항을 먼저 가져온다[0m
+2026-01-09T09:32:33.2550239Z [36;1mgit fetch origin main[0m
+2026-01-09T09:32:33.2550465Z [36;1m# 로컬 변경사항과 untracked 파일을 먼저 커밋[0m
+2026-01-09T09:32:33.2550698Z [36;1mgit add -A[0m
+2026-01-09T09:32:33.2550918Z [36;1mif ! git diff --staged --quiet; then[0m
+2026-01-09T09:32:33.2551329Z [36;1m  git commit -m "[$VERSION] Auto-diary: stage local changes before pull" || true[0m
+2026-01-09T09:32:33.2551737Z [36;1mfi[0m
+2026-01-09T09:32:33.2551898Z [36;1m# 원격 변경사항을 가져온다[0m
+2026-01-09T09:32:33.2552129Z [36;1mgit pull origin main --no-rebase || {[0m
+2026-01-09T09:32:33.2552397Z [36;1m  # pull 실패 시 (충돌 등) 현재 버전을 우선[0m
+2026-01-09T09:32:33.2552723Z [36;1m  git checkout --ours _posts/*.md 2>/dev/null || true[0m
+2026-01-09T09:32:33.2553042Z [36;1m  git add _posts/*.md 2>/dev/null || true[0m
+2026-01-09T09:32:33.2553470Z [36;1m  git commit -m "[$VERSION] Resolve merge conflict: keep auto-generated diary" || true[0m
+2026-01-09T09:32:33.2553868Z [36;1m}[0m
+2026-01-09T09:32:33.2554039Z [36;1m# 생성된 포스트와 처리된 요청 파일 등 모든 변경사항 추가[0m
+2026-01-09T09:32:33.2554316Z [36;1mgit add _posts/*.md 2>/dev/null || true[0m
+2026-01-09T09:32:33.2554585Z [36;1m# 변경된 파일과 삭제된 파일도 추가[0m
+2026-01-09T09:32:33.2554805Z [36;1mgit add -u 2>/dev/null || true[0m
+2026-01-09T09:32:33.2555032Z [36;1m# 변경사항이 있으면 커밋[0m
+2026-01-09T09:32:33.2555253Z [36;1mif ! git diff --staged --quiet; then[0m
+2026-01-09T09:32:33.2556032Z [36;1m  TARGET_DATE=$(python -c "from datetime import datetime, timedelta; print((datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d'))")[0m
+2026-01-09T09:32:33.2556883Z [36;1m  git commit -m "[$VERSION] Add daily diary for $TARGET_DATE"[0m
+2026-01-09T09:32:33.2557214Z [36;1mfi[0m
+2026-01-09T09:32:33.2557400Z [36;1m# push 시도[0m
+2026-01-09T09:32:33.2557599Z [36;1mgit push origin HEAD:main[0m
+2026-01-09T09:32:33.2590992Z shell: /usr/bin/bash -e {0}
+2026-01-09T09:32:33.2591225Z env:
+2026-01-09T09:32:33.2591461Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T09:32:33.2591881Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-09T09:32:33.2592303Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T09:32:33.2592658Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T09:32:33.2593014Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T09:32:33.2593371Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-09T09:32:33.2593673Z ##[endgroup]
+2026-01-09T09:32:33.6124939Z From https://github.com/rldhkstopic/rldhkstopic.github.io
+2026-01-09T09:32:33.6125543Z  * branch            main       -> FETCH_HEAD
+2026-01-09T09:32:33.9407927Z From https://github.com/rldhkstopic/rldhkstopic.github.io
+2026-01-09T09:32:33.9408380Z  * branch            main       -> FETCH_HEAD
+2026-01-09T09:32:33.9480843Z Already up to date.
+2026-01-09T09:32:34.2159535Z Everything up-to-date

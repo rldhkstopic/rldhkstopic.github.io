@@ -1,0 +1,72 @@
+﻿2026-01-09T09:32:22.3668107Z ##[group]Run actions/checkout@v4
+2026-01-09T09:32:22.3668977Z with:
+2026-01-09T09:32:22.3669462Z   repository: rldhkstopic/rldhkstopic.github.io
+2026-01-09T09:32:22.3670230Z   token: ***
+2026-01-09T09:32:22.3670645Z   ssh-strict: true
+2026-01-09T09:32:22.3671056Z   ssh-user: git
+2026-01-09T09:32:22.3671483Z   persist-credentials: true
+2026-01-09T09:32:22.3671955Z   clean: true
+2026-01-09T09:32:22.3672377Z   sparse-checkout-cone-mode: true
+2026-01-09T09:32:22.3672892Z   fetch-depth: 1
+2026-01-09T09:32:22.3673302Z   fetch-tags: false
+2026-01-09T09:32:22.3673726Z   show-progress: true
+2026-01-09T09:32:22.3674164Z   lfs: false
+2026-01-09T09:32:22.3674549Z   submodules: false
+2026-01-09T09:32:22.3674975Z   set-safe-directory: true
+2026-01-09T09:32:22.3675643Z ##[endgroup]
+2026-01-09T09:32:22.4748122Z Syncing repository: rldhkstopic/rldhkstopic.github.io
+2026-01-09T09:32:22.4750001Z ##[group]Getting Git version info
+2026-01-09T09:32:22.4750875Z Working directory is '/home/runner/work/rldhkstopic.github.io/rldhkstopic.github.io'
+2026-01-09T09:32:22.4752163Z [command]/usr/bin/git version
+2026-01-09T09:32:22.4833317Z git version 2.52.0
+2026-01-09T09:32:22.4859761Z ##[endgroup]
+2026-01-09T09:32:22.4874462Z Temporarily overriding HOME='/home/runner/work/_temp/2ce63618-26d9-44b6-9772-83414c4dd89d' before making global git config changes
+2026-01-09T09:32:22.4875926Z Adding repository directory to the temporary git global config as a safe directory
+2026-01-09T09:32:22.4887467Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/rldhkstopic.github.io/rldhkstopic.github.io
+2026-01-09T09:32:22.4926993Z Deleting the contents of '/home/runner/work/rldhkstopic.github.io/rldhkstopic.github.io'
+2026-01-09T09:32:22.4930363Z ##[group]Initializing the repository
+2026-01-09T09:32:22.4934436Z [command]/usr/bin/git init /home/runner/work/rldhkstopic.github.io/rldhkstopic.github.io
+2026-01-09T09:32:22.5069659Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-01-09T09:32:22.5071831Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-01-09T09:32:22.5073623Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-01-09T09:32:22.5075309Z hint: call:
+2026-01-09T09:32:22.5075939Z hint:
+2026-01-09T09:32:22.5076862Z hint: 	git config --global init.defaultBranch <name>
+2026-01-09T09:32:22.5077543Z hint:
+2026-01-09T09:32:22.5078174Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-01-09T09:32:22.5079206Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-01-09T09:32:22.5080264Z hint:
+2026-01-09T09:32:22.5080832Z hint: 	git branch -m <name>
+2026-01-09T09:32:22.5081326Z hint:
+2026-01-09T09:32:22.5082015Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-01-09T09:32:22.5083398Z Initialized empty Git repository in /home/runner/work/rldhkstopic.github.io/rldhkstopic.github.io/.git/
+2026-01-09T09:32:22.5085623Z [command]/usr/bin/git remote add origin https://github.com/rldhkstopic/rldhkstopic.github.io
+2026-01-09T09:32:22.5117564Z ##[endgroup]
+2026-01-09T09:32:22.5118338Z ##[group]Disabling automatic garbage collection
+2026-01-09T09:32:22.5121398Z [command]/usr/bin/git config --local gc.auto 0
+2026-01-09T09:32:22.5148720Z ##[endgroup]
+2026-01-09T09:32:22.5149445Z ##[group]Setting up auth
+2026-01-09T09:32:22.5155158Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-01-09T09:32:22.5184517Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-01-09T09:32:22.5530259Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-01-09T09:32:22.5558981Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-01-09T09:32:22.5775130Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-01-09T09:32:22.5806890Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-01-09T09:32:22.6034180Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-01-09T09:32:22.6074344Z ##[endgroup]
+2026-01-09T09:32:22.6082334Z ##[group]Fetching the repository
+2026-01-09T09:32:22.6084770Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e43ae11c3e51d98105491eb16dd65d5f72abb40e:refs/remotes/origin/main
+2026-01-09T09:32:23.1783851Z From https://github.com/rldhkstopic/rldhkstopic.github.io
+2026-01-09T09:32:23.1784981Z  * [new ref]         e43ae11c3e51d98105491eb16dd65d5f72abb40e -> origin/main
+2026-01-09T09:32:23.1816023Z ##[endgroup]
+2026-01-09T09:32:23.1816962Z ##[group]Determining the checkout info
+2026-01-09T09:32:23.1818216Z ##[endgroup]
+2026-01-09T09:32:23.1823233Z [command]/usr/bin/git sparse-checkout disable
+2026-01-09T09:32:23.1864522Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-01-09T09:32:23.1891140Z ##[group]Checking out the ref
+2026-01-09T09:32:23.1895503Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-01-09T09:32:23.2042209Z Switched to a new branch 'main'
+2026-01-09T09:32:23.2045405Z branch 'main' set up to track 'origin/main'.
+2026-01-09T09:32:23.2052695Z ##[endgroup]
+2026-01-09T09:32:23.2085954Z [command]/usr/bin/git log -1 --format=%H
+2026-01-09T09:32:23.2107876Z e43ae11c3e51d98105491eb16dd65d5f72abb40e
