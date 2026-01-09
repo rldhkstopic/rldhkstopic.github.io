@@ -67,6 +67,20 @@ def _discord_headers(token: str) -> Dict[str, str]:
         "User-Agent": "rldhkstopic-daily-log-collector/1.0",
     }
 
+def fetch_channel_info(api_base: str, token: str, channel_id: str, *, timeout_s: int = 20) -> Dict[str, Any]:
+    """
+    채널 메타데이터를 조회해 채널 ID가 맞는지 확인한다.
+    (민감한 정보는 출력하지 않도록 일부 필드만 사용한다.)
+    """
+    url = f"{api_base}/channels/{channel_id}"
+    resp = requests.get(url, headers=_discord_headers(token), timeout=timeout_s)
+    if resp.status_code == 429:
+        _sleep_on_rate_limit(resp)
+        resp = requests.get(url, headers=_discord_headers(token), timeout=timeout_s)
+    resp.raise_for_status()
+    data = resp.json()
+    return data if isinstance(data, dict) else {}
+
 
 def _sleep_on_rate_limit(resp: requests.Response) -> None:
     if resp.status_code != 429:
@@ -187,11 +201,32 @@ def main() -> int:
     start_kst, end_kst = _date_range_kst(target_date)
     print(f"[INFO] Target date (KST): {target_date}  range={start_kst.isoformat()}..{end_kst.isoformat()}")
 
+    # 채널 정보 출력(디버깅용): 이름/타입/상위ID 정도만
+    try:
+        ch = fetch_channel_info(api_base, token, channel_id)
+        print(
+            "[INFO] Channel info: "
+            f"id={channel_id} name={ch.get('name')!r} type={ch.get('type')} "
+            f"guild_id={ch.get('guild_id')} parent_id={ch.get('parent_id')}"
+        )
+    except Exception as e:
+        print(f"[WARN] Failed to fetch channel info: {e}")
+
     # Discord API는 최신 메시지부터 반환한다.
     before: Optional[str] = None
     collected: List[Dict[str, Any]] = []
     pages = 0
     stop = False
+
+    # 디버깅 카운터/범위
+    total_api_msgs = 0
+    kept = 0
+    skipped_bot = 0
+    skipped_empty = 0
+    skipped_out_of_range_hi = 0
+    skipped_out_of_range_lo = 0
+    min_seen_kst: Optional[datetime] = None
+    max_seen_kst: Optional[datetime] = None
 
     while not stop:
         pages += 1
@@ -200,29 +235,39 @@ def main() -> int:
             break
 
         before = str(msgs[-1].get("id")) if msgs[-1].get("id") else before
+        total_api_msgs += len(msgs)
 
         for msg in msgs:
             # 시스템 메시지/봇 메시지/빈 메시지 등은 일단 건너뜀(첨부만 있는 경우는 포함)
             author = msg.get("author") or {}
             if author.get("bot") is True:
+                skipped_bot += 1
                 continue
 
             ts_utc = datetime.fromisoformat(str(msg.get("timestamp", "")).replace("Z", "+00:00"))
             ts_kst = ts_utc.astimezone(_kst_tz())
+            if min_seen_kst is None or ts_kst < min_seen_kst:
+                min_seen_kst = ts_kst
+            if max_seen_kst is None or ts_kst > max_seen_kst:
+                max_seen_kst = ts_kst
 
             # 범위 밖 필터
             if ts_kst >= end_kst:
+                skipped_out_of_range_hi += 1
                 continue
             if ts_kst < start_kst:
+                skipped_out_of_range_lo += 1
                 stop = True
                 break
 
             content = msg.get("content") or ""
             attachments = msg.get("attachments") or []
             if not content and not attachments:
+                skipped_empty += 1
                 continue
 
             collected.append(_message_to_log(msg, channel_id=channel_id))
+            kept += 1
 
         # 너무 빠르게 긁지 않도록 완화
         time.sleep(0.2)
@@ -236,6 +281,14 @@ def main() -> int:
     collected.sort(key=lambda x: x.get("timestamp", ""))
 
     written, skipped = save_logs(target_date, collected, logs_root)
+    if min_seen_kst and max_seen_kst:
+        print(f"[INFO] Seen message time range (KST): {min_seen_kst.isoformat()}..{max_seen_kst.isoformat()}")
+    print(
+        "[INFO] Stats: "
+        f"pages={pages} api_msgs={total_api_msgs} kept={kept} "
+        f"skipped_bot={skipped_bot} skipped_empty={skipped_empty} "
+        f"skipped_out_of_range_hi={skipped_out_of_range_hi} skipped_out_of_range_lo={skipped_out_of_range_lo}"
+    )
     print(f"[OK] Collected={len(collected)}  written={written}  skipped(existing/invalid)={skipped}")
     return 0
 

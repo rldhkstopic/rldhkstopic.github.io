@@ -1,0 +1,26 @@
+﻿2026-01-09T10:05:14.5145606Z ##[group]Run INPUT_DATE="20260109"
+2026-01-09T10:05:14.5145937Z [36;1mINPUT_DATE="20260109"[0m
+2026-01-09T10:05:14.5146202Z [36;1mif [ -n "$INPUT_DATE" ]; then[0m
+2026-01-09T10:05:14.5146488Z [36;1m  # 허용: YYYY-MM-DD 또는 YYYYMMDD[0m
+2026-01-09T10:05:14.5146815Z [36;1m  if echo "$INPUT_DATE" | grep -Eq '^[0-9]{8}$'; then[0m
+2026-01-09T10:05:14.5147238Z [36;1m    TARGET_DATE="${INPUT_DATE:0:4}-${INPUT_DATE:4:2}-${INPUT_DATE:6:2}"[0m
+2026-01-09T10:05:14.5147738Z [36;1m  elif echo "$INPUT_DATE" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then[0m
+2026-01-09T10:05:14.5148099Z [36;1m    TARGET_DATE="$INPUT_DATE"[0m
+2026-01-09T10:05:14.5148348Z [36;1m  else[0m
+2026-01-09T10:05:14.5148720Z [36;1m    echo "::error::target_date format must be YYYY-MM-DD (or YYYYMMDD). got: $INPUT_DATE"[0m
+2026-01-09T10:05:14.5149410Z [36;1m    exit 1[0m
+2026-01-09T10:05:14.5149618Z [36;1m  fi[0m
+2026-01-09T10:05:14.5149866Z [36;1m  echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV[0m
+2026-01-09T10:05:14.5150154Z [36;1melse[0m
+2026-01-09T10:05:14.5151108Z [36;1m  TARGET_DATE=$(python -c "from datetime import datetime, timedelta, timezone; from datetime import timezone as tz; import sys; kst=tz(timedelta(hours=9)); now=datetime.now(timezone.utc).astimezone(kst); print((now.date()-timedelta(days=1)).strftime('%Y-%m-%d'))")[0m
+2026-01-09T10:05:14.5152090Z [36;1m  echo "TARGET_DATE=$TARGET_DATE" >> $GITHUB_ENV[0m
+2026-01-09T10:05:14.5152373Z [36;1mfi[0m
+2026-01-09T10:05:14.5189498Z shell: /usr/bin/bash -e {0}
+2026-01-09T10:05:14.5189750Z env:
+2026-01-09T10:05:14.5190012Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:14.5190430Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-09T10:05:14.5190843Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:14.5191202Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:14.5191558Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:14.5191916Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-09T10:05:14.5192230Z ##[endgroup]

@@ -1,0 +1,22 @@
+﻿2026-01-09T10:05:16.7124685Z ##[group]Run pip install requests -q
+2026-01-09T10:05:16.7125012Z [36;1mpip install requests -q[0m
+2026-01-09T10:05:16.7125347Z [36;1mpython .github/scripts/workflow_notifier.py success || true[0m
+2026-01-09T10:05:16.7160754Z shell: /usr/bin/bash -e {0}
+2026-01-09T10:05:16.7161002Z env:
+2026-01-09T10:05:16.7161271Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:16.7161675Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-09T10:05:16.7162079Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:16.7162432Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:16.7162776Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:16.7163130Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-09T10:05:16.7163438Z   TARGET_DATE: 2026-01-09
+2026-01-09T10:05:16.7164188Z   DISCORD_WEBHOOK_URL: ***
+2026-01-09T10:05:16.7164430Z   GITHUB_WORKFLOW: Daily Diary Generator
+2026-01-09T10:05:16.7164749Z   GITHUB_SERVER_URL: https://github.com
+2026-01-09T10:05:16.7165077Z   GITHUB_REPOSITORY: rldhkstopic/rldhkstopic.github.io
+2026-01-09T10:05:16.7165377Z   GITHUB_RUN_ID: 20848319141
+2026-01-09T10:05:16.7165608Z   GITHUB_ACTOR: rldhkstopic
+2026-01-09T10:05:16.7165830Z   GITHUB_REF_NAME: main
+2026-01-09T10:05:16.7166047Z   GITHUB_COMMIT_MESSAGE: 
+2026-01-09T10:05:16.7166258Z ##[endgroup]
+2026-01-09T10:05:17.4303120Z [INFO] Discord 알림 전송 성공: Daily Diary Generator - success

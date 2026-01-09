@@ -1,0 +1,17 @@
+﻿2026-01-09T10:05:14.5297875Z ##[group]Run python .github/scripts/discord_daily_log_collector.py "$TARGET_DATE"
+2026-01-09T10:05:14.5298418Z [36;1mpython .github/scripts/discord_daily_log_collector.py "$TARGET_DATE"[0m
+2026-01-09T10:05:14.5332684Z shell: /usr/bin/bash -e {0}
+2026-01-09T10:05:14.5332938Z env:
+2026-01-09T10:05:14.5333198Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:14.5333645Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib/pkgconfig
+2026-01-09T10:05:14.5334045Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:14.5334408Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:14.5334758Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.14/x64
+2026-01-09T10:05:14.5335106Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.14/x64/lib
+2026-01-09T10:05:14.5335418Z   TARGET_DATE: 2026-01-09
+2026-01-09T10:05:14.5335956Z   DISCORD_BOT_TOKEN: ***
+2026-01-09T10:05:14.5336211Z   DISCORD_CHANNEL_ID: ***
+2026-01-09T10:05:14.5336439Z   DAILY_LOGS_DIR: _daily_logs
+2026-01-09T10:05:14.5336692Z ##[endgroup]
+2026-01-09T10:05:15.3619974Z [INFO] Target date (KST): 2026-01-09  range=2026-01-09T00:00:00+09:00..2026-01-10T00:00:00+09:00
+2026-01-09T10:05:15.3620705Z [OK] Collected=0  written=0  skipped(existing/invalid)=0

@@ -1,0 +1,17 @@
+﻿2026-01-09T10:05:08.1560466Z ##[group]Run pip install requests -q
+2026-01-09T10:05:08.1561171Z [36;1mpip install requests -q[0m
+2026-01-09T10:05:08.1561844Z [36;1mpython .github/scripts/workflow_notifier.py started || true[0m
+2026-01-09T10:05:08.1600641Z shell: /usr/bin/bash -e {0}
+2026-01-09T10:05:08.1601162Z env:
+2026-01-09T10:05:08.1602354Z   DISCORD_WEBHOOK_URL: ***
+2026-01-09T10:05:08.1602849Z   GITHUB_WORKFLOW: Daily Diary Generator
+2026-01-09T10:05:08.1603707Z   GITHUB_SERVER_URL: https://github.com
+2026-01-09T10:05:08.1604315Z   GITHUB_REPOSITORY: rldhkstopic/rldhkstopic.github.io
+2026-01-09T10:05:08.1605173Z   GITHUB_RUN_ID: 20848319141
+2026-01-09T10:05:08.1605753Z   GITHUB_ACTOR: rldhkstopic
+2026-01-09T10:05:08.1606402Z   GITHUB_REF_NAME: main
+2026-01-09T10:05:08.1606837Z   GITHUB_COMMIT_MESSAGE: 
+2026-01-09T10:05:08.1607269Z ##[endgroup]
+2026-01-09T10:05:09.2308406Z /home/runner/work/rldhkstopic.github.io/rldhkstopic.github.io/.github/scripts/workflow_notifier.py:91: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+2026-01-09T10:05:09.2312948Z   "timestamp": datetime.utcnow().isoformat(),
+2026-01-09T10:05:09.3943953Z [INFO] Discord 알림 전송 성공: Daily Diary Generator - started
