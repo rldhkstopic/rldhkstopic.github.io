@@ -71,7 +71,10 @@ jobs:
         DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
         DAILY_LOGS_DIR: _daily_logs
       run: |
-        python .github/scripts/discord_daily_log_collector.py "$TARGET_DATE"
+        python .github/scripts/discord_daily_log_collector.py "$TARGET_DATE" || {
+          echo "::error::Discord 메시지 수집 실패. DISCORD_BOT_TOKEN과 DISCORD_CHANNEL_ID를 확인하세요."
+          exit 1
+        }
         
     - name: Run daily diary agent
       env:

@@ -237,6 +237,15 @@ def main() -> int:
 
     written, skipped = save_logs(target_date, collected, logs_root)
     print(f"[OK] Collected={len(collected)}  written={written}  skipped(existing/invalid)={skipped}")
+    
+    if len(collected) == 0:
+        print(f"[WARN] {target_date}에 수집된 메시지가 없습니다.")
+        print(f"[INFO] 확인 사항:")
+        print(f"  - Discord 채널에 해당 날짜의 메시지가 있는지 확인")
+        print(f"  - DISCORD_CHANNEL_ID가 올바른지 확인 (현재: {channel_id})")
+        print(f"  - 봇이 해당 채널에 접근할 수 있는지 확인")
+        print(f"  - MESSAGE CONTENT INTENT가 활성화되어 있는지 확인")
+    
     return 0
 
 
