@@ -18,6 +18,7 @@ sys.path.insert(0, str(project_root / '.github' / 'scripts'))
 from agents.writer import WriterAgent
 from agents.validator import ValidatorAgent
 from agents.post_creator import PostCreatorAgent
+from agents.translator import TranslatorAgent, generate_ref_id
 from reviewer_agent import ReviewerAgent
 
 
