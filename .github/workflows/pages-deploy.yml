@@ -4,16 +4,13 @@ on:
   push:
     branches:
       - main
+    # 워크플로우가 생성한 커밋([skip ci])은 제외하고, 실제 콘텐츠 변경 시에만 빌드
+    paths-ignore:
+      - '_data/analytics.json'
+      - 'assets/analytics.json'
+      - '_auto_post_requests_processed/**'
+      - '_auto_post_results/**'
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
