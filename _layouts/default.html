@@ -23,13 +23,17 @@
       {% assign current_ref = page.ref %}
       {% assign current_lang = page.lang | default: 'ko' %}
       {% assign alternate_posts = site.posts | where: 'ref', current_ref %}
-      {% for alt_post in alternate_posts %}
-        {% if alt_post.lang != current_lang %}
-          <link rel="alternate" hreflang="{{ alt_post.lang | default: 'ko' }}" href="{{ alt_post.url | absolute_url }}">
-        {% endif %}
-      {% endfor %}
-      <!-- 현재 페이지 hreflang -->
-      <link rel="alternate" hreflang="{{ current_lang }}" href="{{ page.url | absolute_url }}">
+      {% if alternate_posts.size > 0 %}
+        {% for alt_post in alternate_posts %}
+          {% if alt_post.lang and alt_post.lang != current_lang and alt_post.url %}
+            {% assign alt_url = alt_post.url | relative_url %}
+            <link rel="alternate" hreflang="{{ alt_post.lang }}" href="{{ site.url }}{{ site.baseurl }}{{ alt_url }}">
+          {% endif %}
+        {% endfor %}
+        <!-- 현재 페이지 hreflang -->
+        {% assign current_url = page.url | relative_url %}
+        <link rel="alternate" hreflang="{{ current_lang }}" href="{{ site.url }}{{ site.baseurl }}{{ current_url }}">
+      {% endif %}
     {% endif %}
     
     <!-- Google Analytics 4 (GA4) -->
