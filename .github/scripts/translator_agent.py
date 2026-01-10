@@ -1,6 +1,12 @@
 """
 번역 에이전트
-한글 마크다운 글을 영어로 번역하여 다국어 블로그를 지원한다.
+한글 마크다운 글을 입력받아 기술 블로그에 적합한 영어로 번역한다.
+
+역할:
+- 한글 마크다운 글을 입력받아 기술 블로그에 적합한 영어로 번역
+- 본문 번역: Gemini를 이용해 자연스러운 의역(Paraphrasing) 수행
+- Front Matter 수정: title, description을 영어로 번역, lang: en 속성 추가, ref 속성 추가
+- 카테고리/태그 영어 매핑
 
 이 파일은 .github/scripts/translator_agent.py에 위치하며,
 agents/translator.py와 동일한 기능을 제공합니다.
