@@ -330,6 +330,19 @@ def main():
         
         # 6. 포스트 생성
         print("\n[6단계] 포스트 파일 생성 중...")
+        
+        # ref ID 미리 생성 (원본 파일명 기반)
+        # 파일명은 post_creator에서 생성되므로, 예상 파일명으로 ref 생성
+        date_str = content.get('date', datetime.now().strftime('%Y-%m-%d'))
+        title_slug = post_creator._create_slug(content.get('title', 'untitled'))
+        expected_filename = f"{date_str}-{title_slug}.md"
+        # 날짜 부분 제거하여 원본 파일명 추출
+        original_filename = expected_filename[11:] if re.match(r'^\d{4}-\d{2}-\d{2}-', expected_filename) else expected_filename
+        ref_id = original_filename.replace('.md', '')
+        
+        # content에 ref 추가
+        content['ref'] = ref_id
+        
         post_path = post_creator.create_post(content, selected_topic)
         if not post_path:
             print("[ERROR] 포스트 생성에 실패했습니다.")
@@ -347,10 +360,11 @@ def main():
                 else:
                     translator_agent = TranslatorAgent(api_key=gemini_key)
                     korean_post_path = project_root / post_path
-                    ref_id = generate_ref_id(korean_post_path)
+                    # 실제 생성된 파일명으로 ref 재확인
+                    actual_ref_id = generate_ref_id(korean_post_path)
                     
-                    # 한글 포스트에 ref 추가
-                    _add_ref_to_post(korean_post_path, ref_id)
+                    # 한글 포스트에 ref가 없으면 추가 (이미 content에 있지만 파일에 없을 수 있음)
+                    _add_ref_to_post(korean_post_path, actual_ref_id)
                     
                     # 영어 번역 생성
                     translated_content = translator_agent.translate_post(korean_post_path, ref_id)

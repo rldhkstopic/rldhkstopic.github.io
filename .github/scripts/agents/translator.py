@@ -278,14 +278,14 @@ ref: [will be added separately]
 
 
 def generate_ref_id(post_path: Path) -> str:
-    """포스트 파일명에서 고유 ref ID 생성"""
-    # 파일명에서 날짜 제거하고 나머지를 해시로 변환
+    """포스트 파일명에서 고유 ref ID 생성 (원본 파일명 기반)"""
+    # 파일명에서 날짜 제거 (YYYY-MM-DD-)
     filename = post_path.stem
-    # 날짜 부분 제거 (YYYY-MM-DD-)
     if re.match(r'^\d{4}-\d{2}-\d{2}-', filename):
-        filename = filename[11:]  # 날짜 부분 제거
+        # 날짜 부분 제거하여 원본 파일명만 추출
+        original_filename = filename[11:]  # YYYY-MM-DD- 제거
+    else:
+        original_filename = filename
     
-    # 간단한 해시 생성 (파일명 기반)
-    import hashlib
-    ref_id = hashlib.md5(filename.encode('utf-8')).hexdigest()[:12]
-    return f"post-{ref_id}"
+    # 원본 파일명을 ref로 사용 (한글/영문 글 연결용)
+    return original_filename
