@@ -26,7 +26,34 @@ sys.path.insert(0, str(project_root / '.github' / 'scripts'))
 
 
 class TranslatorAgent:
-    """번역 에이전트 - 한글 글을 영어로 번역"""
+    """
+    번역 에이전트 - 한글 글을 영어로 번역
+    
+    역할: 한글 마크다운 글을 입력받아 기술 블로그에 적합한 영어로 번역한다.
+    
+    기능:
+    1. 본문 번역: Gemini를 이용해 자연스러운 의역(Paraphrasing) 수행
+       - 코드 블록 보존 (번역하지 않음)
+       - 기술 용어 유지 (VHDL, FPGA, Vivado 등)
+       - 마크다운 형식 유지
+       - 기술 블로그에 적합한 분석적 톤 유지
+    
+    2. Front Matter 수정:
+       - title: 영어로 번역
+       - description: 영어로 번역 (있는 경우)
+       - lang: "en" 속성 추가
+       - ref: 한글/영문 글을 연결하는 고유 ID 추가
+       - 카테고리: 영어 매핑 (dev, study, daily, document)
+       - 태그: 영어 매핑 또는 자동 번역
+    
+    3. 카테고리/태그 영어 매핑:
+       - 내장된 매핑 테이블 사용
+       - 매핑되지 않은 한글 태그는 Gemini API로 자동 번역
+    
+    4. 에러 처리:
+       - Front Matter 파싱 실패 시 None 반환
+       - 번역 실패 시에도 한글 포스트 생성은 계속 진행
+    """
     
     def __init__(self, api_key: str):
         self.client = genai.Client(api_key=api_key)
@@ -189,7 +216,15 @@ class TranslatorAgent:
         return front_matter
     
     def _create_translation_prompt(self, title: str, body: str, category: str, tags: list) -> str:
-        """번역 프롬프트 생성 - 기술 블로그에 적합한 영어 번역"""
+        """
+        번역 프롬프트 생성 - 기술 블로그에 적합한 영어 번역
+        
+        기능:
+        - 기술 블로그 특성에 맞는 상세한 번역 지침 포함
+        - 카테고리별 고려사항 반영
+        - 코드 블록 보존 지시
+        - 분석적 톤 유지 지시
+        """
         return f"""You are a technical translator specializing in translating Korean technical blog posts into professional English suitable for a technical blog audience.
 
 **Your Role:**
@@ -256,7 +291,17 @@ ref: [will be added separately]
 """
     
     def _create_english_front_matter(self, korean_front_matter: Dict, ref_id: str, translated_body: str) -> Dict:
-        """영어 Front Matter 생성"""
+        """
+        영어 Front Matter 생성
+        
+        기능:
+        - 제목 영어 번역 (Gemini API 사용)
+        - 카테고리 영어 매핑
+        - 태그 영어 번역 (매핑 테이블 또는 Gemini API)
+        - lang: "en" 속성 추가
+        - ref: 고유 ID 추가
+        - 기타 필드 복사 (subcategory, series, series_order, permalink 등)
+        """
         # 제목 번역
         title = korean_front_matter.get('title', '')
         if title:
@@ -313,7 +358,15 @@ ref: [will be added separately]
 
 
 def generate_ref_id(post_path: Path) -> str:
-    """포스트 파일명에서 고유 ref ID 생성"""
+    """
+    포스트 파일명에서 고유 ref ID 생성
+    
+    기능:
+    - 파일명에서 날짜 부분 제거
+    - 나머지 파일명을 MD5 해시로 변환
+    - "post-{12자리 해시}" 형식으로 반환
+    - 한글/영문 글을 연결하는 고유 ID 역할
+    """
     # 파일명에서 날짜 제거하고 나머지를 해시로 변환
     filename = post_path.stem
     # 날짜 부분 제거 (YYYY-MM-DD-)
