@@ -13,28 +13,12 @@
     
     <!-- Cache busting to avoid stale CSS on mobile/CDN -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    {% if page.layout == 'dev-wiki' %}
     <link rel="stylesheet" href="{{ '/assets/css/dev-wiki.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    {% endif %}
     <!-- Bootstrap Icons for reference markers -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    
-    <!-- hreflang 태그 (다국어 SEO) -->
-    {% if page.ref %}
-      {% assign current_ref = page.ref %}
-      {% assign current_lang = page.lang | default: 'ko' %}
-      {% assign alternate_posts = site.posts | where: 'ref', current_ref %}
-      {% if alternate_posts.size > 0 %}
-        {% for alt_post in alternate_posts %}
-          {% if alt_post.lang and alt_post.lang != current_lang and alt_post.url %}
-            {% assign alt_url = alt_post.url | relative_url %}
-            <link rel="alternate" hreflang="{{ alt_post.lang }}" href="{{ site.url }}{{ site.baseurl }}{{ alt_url }}">
-          {% endif %}
-        {% endfor %}
-        <!-- 현재 페이지 hreflang -->
-        {% assign current_url = page.url | relative_url %}
-        <link rel="alternate" hreflang="{{ current_lang }}" href="{{ site.url }}{{ site.baseurl }}{{ current_url }}">
-      {% endif %}
-    {% endif %}
     
     <!-- Google Analytics 4 (GA4) -->
     {% if site.google_analytics %}

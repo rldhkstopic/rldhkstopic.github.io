@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<div class="dev-wiki-container">
+  <!-- 사이드바 네비게이션 -->
+  <aside class="dev-wiki-sidebar">
+    <nav class="dev-wiki-nav">
+      {% assign dev_structure = site.data.dev_structure %}
+      
+      {% for subcat in dev_structure.subcategories %}
+        <div class="dev-wiki-nav-section">
+          <div class="dev-wiki-nav-header" onclick="toggleNavSection(this)">
+            <span class="dev-wiki-nav-icon">{{ subcat.icon }}</span>
+            <span class="dev-wiki-nav-title">{{ subcat.title }}</span>
+            <svg class="dev-wiki-nav-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
+          
+          <ul class="dev-wiki-nav-list">
+            {% for section in subcat.sections %}
+              <li class="dev-wiki-nav-item">
+                <a href="/dev/{{ subcat.id }}/{{ section.id }}/" class="dev-wiki-nav-link">
+                  {{ section.title }}
+                </a>
+                
+                {% if section.id == 'errors' and subcat.id == 'vhdl' %}
+                  {% assign vhdl_errors = site.data.vhdl_errors.errors %}
+                  {% if vhdl_errors.size > 0 %}
+                    <ul class="dev-wiki-nav-sublist">
+                      {% for category in section.categories %}
+                        <li class="dev-wiki-nav-subitem">
+                          <a href="/dev/{{ subcat.id }}/{{ section.id }}/#{{ category.id }}" class="dev-wiki-nav-sublink">
+                            {{ category.title }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </nav>
+  </aside>
+
+  <!-- 메인 콘텐츠 영역 -->
+  <main class="dev-wiki-content">
+    <div class="dev-wiki-doc">
+      {{ content }}
+    </div>
+  </main>
+</div>
+
+<script>
+function toggleNavSection(header) {
+  const section = header.parentElement;
+  section.classList.toggle('active');
+}
+
+// 현재 페이지 하이라이트
+document.addEventListener('DOMContentLoaded', function() {
+  const currentPath = window.location.pathname;
+  const navLinks = document.querySelectorAll('.dev-wiki-nav-link');
+  
+  navLinks.forEach(link => {
+    if (link.getAttribute('href') === currentPath) {
+      link.classList.add('active');
+      // 부모 섹션 펼치기
+      let parent = link.closest('.dev-wiki-nav-section');
+      if (parent) {
+        parent.classList.add('active');
+      }
+    }
+  });
+});
+</script>

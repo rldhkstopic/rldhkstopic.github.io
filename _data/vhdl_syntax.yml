@@ -1,0 +1,30 @@
+# VHDL 문법 레퍼런스 구조
+
+syntax:
+  - id: vhdl-syntax-1
+    title: "설계 단위와 기본 구조"
+    series: "VHDL 문법 정리"
+    series_order: 1
+    post_path: "2026-01-08-vhdl-문법-정리-1-설계-단위와-기본-구조.md"
+    topics: [entity, architecture, package, library]
+    
+  - id: vhdl-syntax-2
+    title: "타입, 신호, 프로세스"
+    series: "VHDL 문법 정리"
+    series_order: 2
+    post_path: "2026-01-08-vhdl-문법-정리-2-타입-신호-프로세스.md"
+    topics: [type, signal, variable, process]
+    
+  - id: vhdl-syntax-3
+    title: "클럭, 리셋, Generate, Generic"
+    series: "VHDL 문법 정리"
+    series_order: 3
+    post_path: "2026-01-08-vhdl-문법-정리-3-클럭-리셋-generate-generic.md"
+    topics: [clock, reset, generate, generic]
+    
+  - id: vhdl-syntax-reference
+    title: "VHDL 문법 레퍼런스 (단일 포스트)"
+    series: null
+    series_order: null
+    post_path: "2026-01-08-vhdl-문법-레퍼런스-단일-포스트.md"
+    topics: [reference, syntax]

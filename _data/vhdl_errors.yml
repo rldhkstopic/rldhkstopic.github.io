@@ -1,0 +1,116 @@
+# VHDL 오류 문서 메타데이터
+# 중요도, 빈도, 카테고리별 분류
+
+errors:
+  # 합성 오류
+  - id: vhdl-wait-statement-not-synthesizable
+    title: "Wait Statement Not Synthesizable"
+    category: synthesis
+    severity: high
+    frequency: common
+    post_path: "2026-01-07-vhdl-wait-statement-not-synthesizable.md"
+    tags: [wait, synthesis, process]
+    related: [vhdl-inferred-latch-warning]
+    
+  - id: vhdl-inferred-latch-warning
+    title: "Inferred Latch Warning"
+    category: synthesis
+    severity: medium
+    frequency: very_common
+    post_path: "2026-01-07-vhdl-inferred-latch-warning.md"
+    tags: [latch, synthesis, process, combinational]
+    related: [vhdl-wait-statement-not-synthesizable, vhdl-sensitivity-list-incomplete]
+    
+  - id: vhdl-sensitivity-list-incomplete
+    title: "Sensitivity List Incomplete"
+    category: synthesis
+    severity: medium
+    frequency: common
+    post_path: "2026-01-07-vhdl-sensitivity-list-incomplete.md"
+    tags: [sensitivity, process, combinational]
+    related: [vhdl-inferred-latch-warning]
+    
+  # 타입 오류
+  - id: vhdl-type-mismatch-error
+    title: "Type Mismatch Error"
+    category: type
+    severity: high
+    frequency: very_common
+    post_path: "2026-01-07-vhdl-type-mismatch-error.md"
+    tags: [type, std_logic, std_logic_vector]
+    related: [vhdl-range-constraint-error, vhdl-width-mismatch-unconstrained-array]
+    
+  - id: vhdl-range-constraint-error
+    title: "Range Constraint Error"
+    category: type
+    severity: medium
+    frequency: common
+    post_path: "2026-01-07-vhdl-range-constraint-error.md"
+    tags: [range, array, type]
+    related: [vhdl-type-mismatch-error]
+    
+  - id: vhdl-width-mismatch-unconstrained-array
+    title: "Width Mismatch Unconstrained Array"
+    category: type
+    severity: medium
+    frequency: common
+    post_path: "2026-01-07-vhdl-width-mismatch-unconstrained-array.md"
+    tags: [width, array, std_logic_vector]
+    related: [vhdl-type-mismatch-error]
+    
+  # 문법 오류
+  - id: vhdl-std-logic-not-declared
+    title: "Std_Logic Not Declared"
+    category: syntax
+    severity: high
+    frequency: very_common
+    post_path: "2026-01-07-vhdl-std-logic-not-declared.md"
+    tags: [library, use, std_logic_1164]
+    related: []
+    
+  - id: vhdl-package-library-not-found
+    title: "Package Library Not Found"
+    category: syntax
+    severity: high
+    frequency: common
+    post_path: "2026-01-08-vhdl-package-library-not-found.md"
+    tags: [library, package, use]
+    related: [vhdl-std-logic-not-declared]
+    
+  - id: vhdl-port-mismatch-error
+    title: "Port Mismatch Error"
+    category: syntax
+    severity: high
+    frequency: common
+    post_path: "2026-01-08-vhdl-port-mismatch-error.md"
+    tags: [port, entity, component]
+    related: []
+    
+  - id: vhdl-generic-parameter-error
+    title: "Generic Parameter Error"
+    category: syntax
+    severity: medium
+    frequency: uncommon
+    post_path: "2026-01-08-vhdl-generic-parameter-error.md"
+    tags: [generic, parameter, entity]
+    related: []
+    
+  - id: vhdl-multiple-signal-drivers
+    title: "Multiple Signal Drivers"
+    category: drc
+    severity: high
+    frequency: common
+    post_path: "2026-01-08-vhdl-multiple-signal-drivers.md"
+    tags: [driver, process, signal]
+    related: []
+
+# Vivado DRC 오류
+vivado_errors:
+  - id: vivado-drc-mdrv-1-multiple-driver-nets
+    title: "[DRC MDRV-1] Multiple Driver Nets"
+    category: drc
+    severity: high
+    frequency: common
+    post_path: "2026-01-07-vivado-drc-mdrv-1-multiple-driver-nets.md"
+    tags: [vivado, drc, multiple-drivers]
+    related: [vhdl-multiple-signal-drivers]

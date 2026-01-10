@@ -1139,13 +1139,6 @@ body.home-page .site-header {
   border-bottom: 2px solid var(--border-color);
 }
 
-.category-page-description {
-  font-size: 1rem;
-  color: var(--text-secondary);
-  margin-bottom: 2rem;
-  line-height: 1.6;
-}
-
 /* 블로그 페이지 */
 .blog-page {
   max-width: 900px;
@@ -1434,66 +1427,6 @@ body.home-page .site-header {
 .breadcrumb-separator {
   color: var(--text-secondary);
   opacity: 0.5;
-}
-
-/* 언어 헤더 */
-.language-header {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1rem 0;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.language-header-link {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  color: var(--accent-color);
-  text-decoration: none;
-  font-size: 0.875rem;
-  font-weight: 500;
-  border: 1px solid var(--accent-color);
-  border-radius: 6px;
-  transition: all 0.2s;
-}
-
-.language-header-link:hover {
-  background: var(--accent-light);
-  color: var(--accent-color);
-}
-
-/* 포스트 제목 래퍼 및 언어 선택 버튼 */
-.post-title-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-}
-
-.language-switcher {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  background: var(--accent-light);
-  color: var(--accent-color);
-  text-decoration: none;
-  font-size: 0.875rem;
-  font-weight: 500;
-  border-radius: 6px;
-  transition: all 0.2s;
-  white-space: nowrap;
-}
-
-.language-switcher:hover {
-  background: var(--accent-color);
-  color: white;
-}
-
-.language-switcher-text {
-  display: inline-block;
 }
 
 .post-title {

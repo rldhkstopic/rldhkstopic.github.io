@@ -1,0 +1,68 @@
+---
+layout: dev-wiki
+title: VHDL 오류 해결 가이드
+permalink: /dev/vhdl/errors/
+---
+
+<div class="dev-wiki-doc-content">
+  <h1>VHDL 오류 해결 가이드</h1>
+  <p class="dev-wiki-doc-intro">VHDL 개발 중 발생하는 오류를 유형별로 분류하고 해결 방법을 제시합니다.</p>
+
+  {% assign vhdl_errors = site.data.vhdl_errors.errors %}
+  {% assign error_categories = "syntax,type,synthesis,simulation,drc" | split: "," %}
+  
+  {% for category_id in error_categories %}
+    {% assign category_errors = vhdl_errors | where: "category", category_id %}
+    {% if category_errors.size > 0 %}
+      {% assign category_name = "" %}
+      {% if category_id == "syntax" %}{% assign category_name = "문법 오류" %}{% endif %}
+      {% if category_id == "type" %}{% assign category_name = "타입 오류" %}{% endif %}
+      {% if category_id == "synthesis" %}{% assign category_name = "합성 오류" %}{% endif %}
+      {% if category_id == "simulation" %}{% assign category_name = "시뮬레이션 오류" %}{% endif %}
+      {% if category_id == "drc" %}{% assign category_name = "DRC 오류" %}{% endif %}
+      
+      <section id="{{ category_id }}" class="dev-wiki-error-category">
+        <h2>{{ category_name }}</h2>
+        
+        {% assign sorted_errors = category_errors | sort: "severity" | reverse %}
+        {% for error in sorted_errors %}
+          {% assign error_post = site.posts | where: "path", error.post_path | first %}
+          {% if error_post %}
+            <div class="dev-wiki-error-item">
+              <h3>
+                <a href="{{ error_post.url | relative_url }}">{{ error.title }}</a>
+              </h3>
+              <div class="dev-wiki-error-meta">
+                <span class="dev-wiki-error-severity severity-{{ error.severity }}">
+                  {% if error.severity == "high" %}높음
+                  {% elsif error.severity == "medium" %}중간
+                  {% else %}낮음{% endif %}
+                </span>
+                <span class="dev-wiki-error-frequency">
+                  {% if error.frequency == "very_common" %}매우 흔함
+                  {% elsif error.frequency == "common" %}흔함
+                  {% elsif error.frequency == "uncommon" %}드묾
+                  {% else %}매우 드묾{% endif %}
+                </span>
+              </div>
+              {% if error.related.size > 0 %}
+                <div class="dev-wiki-error-related">
+                  관련: 
+                  {% for related_id in error.related %}
+                    {% assign related_error = vhdl_errors | where: "id", related_id | first %}
+                    {% if related_error %}
+                      {% assign related_post = site.posts | where: "path", related_error.post_path | first %}
+                      {% if related_post %}
+                        <a href="{{ related_post.url | relative_url }}">{{ related_error.title }}</a>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </section>
+    {% endif %}
+  {% endfor %}
+</div>

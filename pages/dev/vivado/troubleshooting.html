@@ -1,0 +1,51 @@
+---
+layout: dev-wiki
+title: Vivado 트러블슈팅
+permalink: /dev/vivado/troubleshooting/
+---
+
+<div class="dev-wiki-doc-content">
+  <h1>Vivado 트러블슈팅</h1>
+  <p class="dev-wiki-doc-intro">Vivado 사용 중 발생하는 문제 해결 가이드입니다.</p>
+
+  {% assign vivado_errors = site.data.vhdl_errors.vivado_errors %}
+  
+  {% if vivado_errors.size > 0 %}
+    <section class="dev-wiki-error-category">
+      <h2>DRC 오류</h2>
+      
+      {% for error in vivado_errors %}
+        {% assign error_post = null %}
+        {% for post in site.posts %}
+          {% assign post_filename = post.path | split: "/" | last %}
+          {% if post_filename == error.post_path %}
+            {% assign error_post = post %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if error_post %}
+          <div class="dev-wiki-error-item">
+            <h3>
+              <a href="{{ error_post.url | relative_url }}">{{ error.title }}</a>
+            </h3>
+            <div class="dev-wiki-error-meta">
+              <span class="dev-wiki-error-severity severity-{{ error.severity }}">
+                {% if error.severity == "high" %}높음
+                {% elsif error.severity == "medium" %}중간
+                {% else %}낮음{% endif %}
+              </span>
+              <span class="dev-wiki-error-frequency">
+                {% if error.frequency == "very_common" %}매우 흔함
+                {% elsif error.frequency == "common" %}흔함
+                {% elsif error.frequency == "uncommon" %}드묾
+                {% else %}매우 드묾{% endif %}
+              </span>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </section>
+  {% else %}
+    <p>아직 등록된 트러블슈팅 가이드가 없습니다.</p>
+  {% endif %}
+</div>

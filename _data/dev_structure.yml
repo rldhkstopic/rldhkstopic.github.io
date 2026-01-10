@@ -1,0 +1,59 @@
+# Dev 카테고리 구조 정의
+# GitBook 스타일 위키 네비게이션을 위한 구조
+
+subcategories:
+  - id: vhdl
+    title: "VHDL"
+    icon: "💻"
+    description: "VHDL 문법, 오류 해결, 예제"
+    sections:
+      - id: errors
+        title: "오류 해결 가이드"
+        description: "VHDL 오류 유형별 해결 방법"
+        sort_by: severity  # severity, frequency, date
+        categories:
+          - id: syntax
+            title: "문법 오류"
+            severity: high
+          - id: type
+            title: "타입 오류"
+            severity: high
+          - id: synthesis
+            title: "합성 오류"
+            severity: high
+          - id: simulation
+            title: "시뮬레이션 오류"
+            severity: medium
+          - id: drc
+            title: "DRC 오류"
+            severity: high
+      - id: syntax
+        title: "문법 레퍼런스"
+        description: "VHDL 문법 체계적 정리"
+        sort_by: series_order
+      - id: examples
+        title: "예제 코드"
+        description: "실전 VHDL 예제"
+        sort_by: date
+      - id: faq
+        title: "FAQ"
+        description: "자주 묻는 질문"
+        sort_by: date
+
+  - id: vivado
+    title: "Vivado"
+    icon: "🔧"
+    description: "Vivado 툴 사용법 및 가이드"
+    sections:
+      - id: basics
+        title: "기본 사용법"
+        description: "Vivado 기본 기능"
+        sort_by: date
+      - id: advanced
+        title: "고급 기능"
+        description: "Vivado 고급 기능"
+        sort_by: date
+      - id: troubleshooting
+        title: "트러블슈팅"
+        description: "Vivado 문제 해결"
+        sort_by: severity

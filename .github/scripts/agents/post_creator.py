@@ -79,20 +79,14 @@ class PostCreatorAgent:
     
     def _create_slug(self, title: str) -> str:
         """제목을 파일명 슬러그로 변환"""
-        # [YYYY-MM-DD] 형식의 날짜 제거 (파일명에 이미 날짜가 포함되므로)
-        slug = re.sub(r'\[?\d{4}-\d{2}-\d{2}\]?\s*', '', title)
         # 한글은 유지, 특수문자는 하이픈으로
-        slug = re.sub(r'[^\w\s가-힣-]', '', slug)
+        slug = re.sub(r'[^\w\s가-힣-]', '', title)
         # 공백을 하이픈으로
         slug = re.sub(r'\s+', '-', slug)
         # 연속된 하이픈 제거
         slug = re.sub(r'-+', '-', slug)
         # 앞뒤 하이픈 제거
         slug = slug.strip('-')
-        
-        # 빈 문자열이면 기본값 사용
-        if not slug:
-            slug = 'untitled'
         
         return slug
     
@@ -112,16 +106,6 @@ title: "{title}"
 date: {date_str} {time_str} +0900
 author: {author}
 category: {category}"""
-        
-        # lang 속성 추가 (없으면 기본값 ko)
-        lang = content.get('lang', 'ko')
-        if lang:
-            front_matter += f"\nlang: {lang}"
-        
-        # ref 속성 추가 (있으면)
-        ref = content.get('ref')
-        if ref:
-            front_matter += f"\nref: {ref}"
         
         # 태그 추가
         tags = content.get('tags', [])
