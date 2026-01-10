@@ -183,18 +183,44 @@ class TranslatorAgent:
         return front_matter
     
     def _create_translation_prompt(self, title: str, body: str, category: str, tags: list) -> str:
-        """번역 프롬프트 생성"""
-        return f"""Translate the following Korean technical blog post into English. Maintain the Markdown format exactly. Do NOT translate code blocks, code comments, or technical terms that are commonly used in English (e.g., VHDL, FPGA, Vivado, BRAM, etc.).
+        """번역 프롬프트 생성 - 기술 블로그에 적합한 영어 번역"""
+        return f"""You are a technical translator specializing in translating Korean technical blog posts into professional English suitable for a technical blog audience.
 
-**Instructions:**
-1. Translate the title naturally for a technical blog audience
-2. Translate the body content while preserving:
-   - All code blocks (```...```) exactly as-is
-   - All inline code (`...`) exactly as-is
-   - Technical terms that are standard in English
-   - Markdown formatting (headers, lists, links, etc.)
-3. Use natural, professional English suitable for a technical blog
-4. Maintain the same structure and formatting
+**Your Role:**
+Translate the following Korean technical blog post into English that maintains the analytical, fact-focused tone typical of technical blogs. The translation should read as if written natively in English by a technical writer.
+
+**Translation Guidelines:**
+
+1. **Tone & Style:**
+   - Use clear, direct, and analytical English (similar to how Korean uses "~다." ending)
+   - Maintain a professional, fact-focused tone without emotional expressions
+   - Avoid greetings, conclusions, or transitional phrases like "In conclusion", "To summarize"
+   - Keep the logical flow: [Situation/Problem] -> [Analysis/Approach] -> [Insights/Results]
+
+2. **Technical Content Preservation:**
+   - DO NOT translate code blocks (```...```) - keep them exactly as-is
+   - DO NOT translate inline code (`...`) - keep them exactly as-is
+   - DO NOT translate code comments - keep them exactly as-is
+   - Preserve technical terms that are standard in English (VHDL, FPGA, Vivado, BRAM, API, etc.)
+   - Keep technical abbreviations and acronyms as-is
+
+3. **Format Preservation:**
+   - Maintain all Markdown formatting (headers, lists, links, blockquotes, etc.)
+   - Preserve the exact structure and hierarchy
+   - Keep footnote references ([^n]) and reference sections intact
+   - Maintain code block language identifiers
+
+4. **Natural English Translation:**
+   - Translate naturally, not word-for-word
+   - Use appropriate technical terminology in English
+   - Ensure the translation reads smoothly for English-speaking technical readers
+   - Maintain the author's analytical perspective and logical flow
+
+5. **Category-Specific Considerations:**
+   - **dev**: Focus on technical accuracy, preserve code examples, maintain problem-solving narrative
+   - **document**: Maintain analytical tone, preserve data references, keep expert quotes
+   - **study**: Keep educational structure, preserve concept explanations
+   - **daily**: If personal experience, maintain first-person perspective naturally
 
 **Original Korean Post:**
 
@@ -220,7 +246,7 @@ lang: en
 ref: [will be added separately]
 ---
 
-[Translated body content here]
+[Translated body content here - maintain exact Markdown structure]
 """
     
     def _create_english_front_matter(self, korean_front_matter: Dict, ref_id: str, translated_body: str) -> Dict:
