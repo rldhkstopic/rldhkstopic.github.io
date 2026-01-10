@@ -1139,6 +1139,13 @@ body.home-page .site-header {
   border-bottom: 2px solid var(--border-color);
 }
 
+.category-page-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
 /* 블로그 페이지 */
 .blog-page {
   max-width: 900px;

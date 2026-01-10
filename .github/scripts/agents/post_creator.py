@@ -107,6 +107,16 @@ date: {date_str} {time_str} +0900
 author: {author}
 category: {category}"""
         
+        # lang 속성 추가 (없으면 기본값 ko)
+        lang = content.get('lang', 'ko')
+        if lang:
+            front_matter += f"\nlang: {lang}"
+        
+        # ref 속성 추가 (있으면)
+        ref = content.get('ref')
+        if ref:
+            front_matter += f"\nref: {ref}"
+        
         # 태그 추가
         tags = content.get('tags', [])
         if tags:

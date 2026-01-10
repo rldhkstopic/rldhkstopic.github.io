@@ -18,7 +18,32 @@ layout: default
           {% endfor %}
         </nav>
       {% endif %}
-      <h1 class="post-title">{{ page.title | escape }}</h1>
+      <div class="post-title-wrapper">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+        {% if page.ref %}
+          {% assign current_lang = page.lang | default: 'ko' %}
+          {% assign alternate_posts = site.posts | where: 'ref', page.ref %}
+          {% for alt_post in alternate_posts %}
+            {% if alt_post.lang != current_lang %}
+              <a href="{{ alt_post.url | relative_url }}" class="language-switcher">
+                {% if current_lang == 'ko' %}
+                  <span class="language-switcher-text">Read in English</span>
+                {% else %}
+                  <span class="language-switcher-text">한국어로 읽기</span>
+                {% endif %}
+              </a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+                {% else %}
+                  <span class="language-switcher-text">한국어로 읽기</span>
+                {% endif %}
+              </a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
       <div class="post-meta">
         {%- assign _tz = page.date | date: "%z" -%}
         <time datetime="{{ page.date | date_to_xmlschema }}">

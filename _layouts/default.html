@@ -18,6 +18,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     
+    <!-- hreflang 태그 (다국어 SEO) -->
+    {% if page.ref %}
+      {% assign current_ref = page.ref %}
+      {% assign current_lang = page.lang | default: 'ko' %}
+      {% assign alternate_posts = site.posts | where: 'ref', current_ref %}
+      {% for alt_post in alternate_posts %}
+        {% if alt_post.lang != current_lang %}
+          <link rel="alternate" hreflang="{{ alt_post.lang | default: 'ko' }}" href="{{ alt_post.url | absolute_url }}">
+        {% endif %}
+      {% endfor %}
+      <!-- 현재 페이지 hreflang -->
+      <link rel="alternate" hreflang="{{ current_lang }}" href="{{ page.url | absolute_url }}">
+    {% endif %}
+    
     <!-- Google Analytics 4 (GA4) -->
     {% if site.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>

@@ -12,7 +12,7 @@ import re
 import shutil
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Set
+from typing import Dict, List, Set, Optional
 
 # 프로젝트 루트를 Python 경로에 추가
 project_root = Path(__file__).parent.parent.parent
@@ -24,6 +24,7 @@ from agents.analyst import AnalystAgent
 from agents.writer import WriterAgent
 from agents.validator import ValidatorAgent
 from agents.post_creator import PostCreatorAgent
+from agents.translator import TranslatorAgent, generate_ref_id
 from reviewer_agent import ReviewerAgent
 
 try:
@@ -335,6 +336,35 @@ def main():
             sys.exit(1)
         
         print(f"[OK] 포스트 생성 완료: {post_path}")
+        
+        # 7. 영어 번역 생성 (선택적)
+        if os.getenv("ENABLE_TRANSLATION", "false").lower() == "true":
+            print("\n[7단계] 영어 번역 생성 중...")
+            try:
+                gemini_key = os.getenv("GEMINI_API_KEY", "")
+                if not gemini_key:
+                    print("[WARN] 번역 기능을 사용할 수 없습니다. GEMINI_API_KEY를 확인하세요.")
+                else:
+                    translator_agent = TranslatorAgent(api_key=gemini_key)
+                    korean_post_path = project_root / post_path
+                    ref_id = generate_ref_id(korean_post_path)
+                    
+                    # 한글 포스트에 ref 추가
+                    _add_ref_to_post(korean_post_path, ref_id)
+                    
+                    # 영어 번역 생성
+                    translated_content = translator_agent.translate_post(korean_post_path, ref_id)
+                    if translated_content:
+                        # 영어 포스트 저장
+                        english_post_path = _create_english_post(translated_content, korean_post_path, ref_id, post_creator)
+                        if english_post_path:
+                            print(f"[OK] 영어 번역 생성 완료: {english_post_path}")
+                    else:
+                        print("[WARN] 번역에 실패했습니다. 계속 진행합니다.")
+            except Exception as e:
+                print(f"[WARN] 번역 중 오류 발생: {e}. 계속 진행합니다.")
+                import traceback
+                traceback.print_exc()
 
         # 요청 처리 완료 시 파일 이동
         if request_mode and request_file:
@@ -409,6 +439,63 @@ def main():
             )
         
         sys.exit(1)
+
+
+def _add_ref_to_post(post_path: Path, ref_id: str):
+    """포스트 파일에 ref 속성을 Front Matter에 추가"""
+    try:
+        content = post_path.read_text(encoding='utf-8')
+        # Front Matter에 ref가 없으면 추가
+        if 'ref:' not in content:
+            # --- 다음에 ref 추가
+            content = re.sub(
+                r'(---\n)(.*?)(\n---)',
+                lambda m: f"{m.group(1)}{m.group(2)}\nref: {ref_id}{m.group(3)}",
+                content,
+                flags=re.DOTALL
+            )
+            post_path.write_text(content, encoding='utf-8')
+    except Exception as e:
+        print(f"[WARN] ref 추가 실패: {e}")
+
+
+def _create_english_post(translated_content: Dict, korean_post_path: Path, ref_id: str, post_creator) -> Optional[str]:
+    """영어 포스트 파일 생성"""
+    try:
+        # _posts/en/ 디렉토리 생성
+        posts_en_dir = korean_post_path.parent / 'en'
+        posts_en_dir.mkdir(parents=True, exist_ok=True)
+        
+        # 영어 파일명 생성
+        date_str = translated_content.get('date', datetime.now().strftime('%Y-%m-%d'))
+        title_slug = post_creator._create_slug(translated_content.get('title', 'untitled'))
+        filename = f"{date_str}-{title_slug}-en.md"
+        english_filepath = posts_en_dir / filename
+        
+        # Front Matter 생성
+        front_matter = translated_content.get('front_matter', {})
+        front_matter_str = "---\n"
+        for key, value in front_matter.items():
+            if isinstance(value, list):
+                front_matter_str += f"{key}: [{', '.join([f'\"{v}\"' for v in value])}]\n"
+            else:
+                front_matter_str += f"{key}: \"{value}\"\n"
+        front_matter_str += "---\n"
+        
+        # 전체 마크다운 생성
+        markdown_content = front_matter_str + '\n' + translated_content.get('content', '')
+        
+        # 파일 저장
+        english_filepath.write_text(markdown_content, encoding='utf-8')
+        
+        # 상대 경로 반환
+        return str(english_filepath.relative_to(korean_post_path.parent.parent))
+        
+    except Exception as e:
+        print(f"[ERROR] 영어 포스트 생성 실패: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
 
 
 if __name__ == '__main__':
