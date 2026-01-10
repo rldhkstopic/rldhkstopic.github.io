@@ -82,7 +82,6 @@ jobs:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        ENABLE_TRANSLATION: "true"  # 자동 영문 번역 활성화
       run: |
         python .github/scripts/daily_diary_agent.py "$TARGET_DATE"
         

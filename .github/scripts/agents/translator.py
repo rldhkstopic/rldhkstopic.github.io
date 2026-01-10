@@ -1,15 +1,6 @@
 """
 번역 에이전트
-한글 마크다운 글을 입력받아 기술 블로그에 적합한 영어로 번역한다.
-
-역할:
-- 한글 마크다운 글을 입력받아 기술 블로그에 적합한 영어로 번역
-- 본문 번역: Gemini를 이용해 자연스러운 의역(Paraphrasing) 수행
-  * 단어 단위 번역이 아닌 의미 기반 의역
-  * 자연스러운 영어 표현으로 재구성
-  * 원문의 의도와 맥락을 이해하고 영어로 자연스럽게 표현
-- Front Matter 수정: title, description을 영어로 번역, lang: en 속성 추가, ref 속성 추가
-- 카테고리/태그 영어 매핑
+한글 마크다운 글을 영어로 번역하여 다국어 블로그를 지원한다.
 """
 
 import re
@@ -99,8 +90,8 @@ class TranslatorAgent:
                 tags=front_matter.get('tags', [])
             )
             
-            # Gemini API로 번역 (의역 수행)
-            print(f"[번역] 제목 및 본문 의역(Paraphrasing) 중...")
+            # Gemini API로 번역
+            print(f"[번역] 제목 및 본문 번역 중...")
             response = self.client.models.generate_content(
                 model=self.model,
                 contents=translation_prompt
@@ -189,47 +180,18 @@ class TranslatorAgent:
         return front_matter
     
     def _create_translation_prompt(self, title: str, body: str, category: str, tags: list) -> str:
-        """번역 프롬프트 생성 - 기술 블로그에 적합한 영어 번역"""
-        return f"""You are a technical translator specializing in translating Korean technical blog posts into professional English suitable for a technical blog audience.
+        """번역 프롬프트 생성"""
+        return f"""Translate the following Korean technical blog post into English. Maintain the Markdown format exactly. Do NOT translate code blocks, code comments, or technical terms that are commonly used in English (e.g., VHDL, FPGA, Vivado, BRAM, etc.).
 
-**Your Role:**
-Translate the following Korean technical blog post into English that maintains the analytical, fact-focused tone typical of technical blogs. The translation should read as if written natively in English by a technical writer.
-
-**Translation Guidelines:**
-
-1. **Tone & Style:**
-   - Use clear, direct, and analytical English (similar to how Korean uses "~다." ending)
-   - Maintain a professional, fact-focused tone without emotional expressions
-   - Avoid greetings, conclusions, or transitional phrases like "In conclusion", "To summarize"
-   - Keep the logical flow: [Situation/Problem] -> [Analysis/Approach] -> [Insights/Results]
-
-2. **Technical Content Preservation:**
-   - DO NOT translate code blocks (```...```) - keep them exactly as-is
-   - DO NOT translate inline code (`...`) - keep them exactly as-is
-   - DO NOT translate code comments - keep them exactly as-is
-   - Preserve technical terms that are standard in English (VHDL, FPGA, Vivado, BRAM, API, etc.)
-   - Keep technical abbreviations and acronyms as-is
-
-3. **Format Preservation:**
-   - Maintain all Markdown formatting (headers, lists, links, blockquotes, etc.)
-   - Preserve the exact structure and hierarchy
-   - Keep footnote references ([^n]) and reference sections intact
-   - Maintain code block language identifiers
-
-4. **Natural English Translation (Paraphrasing):**
-   - **IMPORTANT: Use paraphrasing, not literal word-for-word translation**
-   - Understand the meaning and intent, then express it naturally in English
-   - Restructure sentences if needed to match natural English expression patterns
-   - Use appropriate technical terminology in English
-   - Ensure the translation reads smoothly as if written natively in English
-   - Maintain the author's analytical perspective and logical flow
-   - Avoid awkward literal translations that sound like machine translation
-
-5. **Category-Specific Considerations:**
-   - **dev**: Focus on technical accuracy, preserve code examples, maintain problem-solving narrative
-   - **document**: Maintain analytical tone, preserve data references, keep expert quotes
-   - **study**: Keep educational structure, preserve concept explanations
-   - **daily**: If personal experience, maintain first-person perspective naturally
+**Instructions:**
+1. Translate the title naturally for a technical blog audience
+2. Translate the body content while preserving:
+   - All code blocks (```...```) exactly as-is
+   - All inline code (`...`) exactly as-is
+   - Technical terms that are standard in English
+   - Markdown formatting (headers, lists, links, etc.)
+3. Use natural, professional English suitable for a technical blog
+4. Maintain the same structure and formatting
 
 **Original Korean Post:**
 
@@ -255,7 +217,7 @@ lang: en
 ref: [will be added separately]
 ---
 
-[Translated body content here - maintain exact Markdown structure]
+[Translated body content here]
 """
     
     def _create_english_front_matter(self, korean_front_matter: Dict, ref_id: str, translated_body: str) -> Dict:
