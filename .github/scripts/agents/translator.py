@@ -5,6 +5,9 @@
 역할:
 - 한글 마크다운 글을 입력받아 기술 블로그에 적합한 영어로 번역
 - 본문 번역: Gemini를 이용해 자연스러운 의역(Paraphrasing) 수행
+  * 단어 단위 번역이 아닌 의미 기반 의역
+  * 자연스러운 영어 표현으로 재구성
+  * 원문의 의도와 맥락을 이해하고 영어로 자연스럽게 표현
 - Front Matter 수정: title, description을 영어로 번역, lang: en 속성 추가, ref 속성 추가
 - 카테고리/태그 영어 매핑
 """
@@ -96,8 +99,8 @@ class TranslatorAgent:
                 tags=front_matter.get('tags', [])
             )
             
-            # Gemini API로 번역
-            print(f"[번역] 제목 및 본문 번역 중...")
+            # Gemini API로 번역 (의역 수행)
+            print(f"[번역] 제목 및 본문 의역(Paraphrasing) 중...")
             response = self.client.models.generate_content(
                 model=self.model,
                 contents=translation_prompt
@@ -213,11 +216,14 @@ Translate the following Korean technical blog post into English that maintains t
    - Keep footnote references ([^n]) and reference sections intact
    - Maintain code block language identifiers
 
-4. **Natural English Translation:**
-   - Translate naturally, not word-for-word
+4. **Natural English Translation (Paraphrasing):**
+   - **IMPORTANT: Use paraphrasing, not literal word-for-word translation**
+   - Understand the meaning and intent, then express it naturally in English
+   - Restructure sentences if needed to match natural English expression patterns
    - Use appropriate technical terminology in English
-   - Ensure the translation reads smoothly for English-speaking technical readers
+   - Ensure the translation reads smoothly as if written natively in English
    - Maintain the author's analytical perspective and logical flow
+   - Avoid awkward literal translations that sound like machine translation
 
 5. **Category-Specific Considerations:**
    - **dev**: Focus on technical accuracy, preserve code examples, maintain problem-solving narrative

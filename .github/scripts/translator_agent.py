@@ -251,11 +251,14 @@ Translate the following Korean technical blog post into English that maintains t
    - Keep footnote references ([^n]) and reference sections intact
    - Maintain code block language identifiers
 
-4. **Natural English Translation:**
-   - Translate naturally, not word-for-word
+4. **Natural English Translation (Paraphrasing):**
+   - **IMPORTANT: Use paraphrasing, not literal word-for-word translation**
+   - Understand the meaning and intent, then express it naturally in English
+   - Restructure sentences if needed to match natural English expression patterns
    - Use appropriate technical terminology in English
-   - Ensure the translation reads smoothly for English-speaking technical readers
+   - Ensure the translation reads smoothly as if written natively in English
    - Maintain the author's analytical perspective and logical flow
+   - Avoid awkward literal translations that sound like machine translation
 
 5. **Category-Specific Considerations:**
    - **dev**: Focus on technical accuracy, preserve code examples, maintain problem-solving narrative
