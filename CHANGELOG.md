@@ -107,6 +107,11 @@
 ### Fixed
 - Discord 웹훅 URL 시크릿에 공백/따옴표가 섞여도 동작하도록 notifier 입력 정규화
 
+## [v0.0.23] - 2026-01-10
+
+### Fixed
+- GitHub Pages Jekyll 빌드 실패 원인 제거(`post.html` Liquid 구문 오류 수정)
+
 ## [v0.0.4] - 2026-01-08
 
 ### Changed
