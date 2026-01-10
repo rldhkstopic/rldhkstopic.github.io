@@ -36,14 +36,6 @@ layout: default
           {% endfor %}
         {% endif %}
       </div>
-                {% else %}
-                  <span class="language-switcher-text">한국어로 읽기</span>
-                {% endif %}
-              </a>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      </div>
       <div class="post-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}">
           {{ page.date | date: "%Y년 %m월 %d일 %H:%M" }}

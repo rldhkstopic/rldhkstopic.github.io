@@ -112,6 +112,11 @@
 ### Fixed
 - GitHub Pages Jekyll 빌드 실패 원인 제거(`post.html` Liquid 구문 오류 수정)
 
+## [v0.0.24] - 2026-01-10
+
+### Fixed
+- GitHub Pages Jekyll 빌드 실패 원인 제거(`post.html`에 남아있던 잘못된 Liquid else 블럭 제거)
+
 ## [v0.0.4] - 2026-01-08
 
 ### Changed
