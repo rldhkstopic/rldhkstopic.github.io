@@ -12,6 +12,10 @@ on:
       - '_auto_post_results/**'
   workflow_dispatch:
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
