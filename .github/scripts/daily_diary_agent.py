@@ -265,14 +265,17 @@ def main():
     if discord_webhook:
         try:
             from discord_notifier import notify_post_success
-            notify_post_success(
+            ok = notify_post_success(
                 discord_webhook,
                 topic['title'],
                 'daily',
                 str(post_path),
                 'daily_logger',
             )
-            print("[OK] Discord 알림 전송 완료")
+            if ok:
+                print("[OK] Discord 알림 전송 완료")
+            else:
+                print("[WARN] Discord 알림 전송 실패 (웹훅 응답 오류)")
         except Exception as e:
             print(f"[WARN] Discord 알림 전송 실패: {e}")
     

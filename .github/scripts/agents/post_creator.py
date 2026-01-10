@@ -36,6 +36,10 @@ class PostCreatorAgent:
             # 파일명 생성
             date_str = content.get('date', datetime.now().strftime('%Y-%m-%d'))
             title_slug = self._create_slug(content.get('title', 'untitled'))
+            # 제목이 이미 "YYYY-MM-DD-..."로 시작하면 파일명에서 날짜가 중복되므로 제거한다.
+            # 예: title_slug="2026-01-09-일기" -> filename="2026-01-09-일기.md"
+            if isinstance(title_slug, str) and title_slug.startswith(f"{date_str}-"):
+                title_slug = title_slug[len(date_str) + 1 :] or "untitled"
             filename = f"{date_str}-{title_slug}.md"
             filepath = self.posts_dir / filename
             

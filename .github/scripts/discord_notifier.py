@@ -102,10 +102,20 @@ def notify_post_success(
     post_content = re.sub(r"```[\s\S]*?```", "[코드 블록]", post_content)
     post_content = re.sub(r"!\[.*?\]\(.*?\)", "[이미지]", post_content)
     
-    # 글 내용 요약 (최대 1500자, Discord Embed description 제한 고려)
-    content_preview = post_content[:1500] if len(post_content) > 1500 else post_content
-    if len(post_content) > 1500:
-        content_preview += "\n\n... (전체 내용은 블로그에서 확인하세요)"
+    # Discord Embed 제한:
+    # - field.value: 최대 1024 chars
+    # - embed.description: 최대 4096 chars
+    # 여기서는 field로 넣기 때문에 1024를 넘지 않도록 자른다.
+    max_field_value = 1024
+    suffix = "\n\n... (전체 내용은 블로그에서 확인하세요)"
+    available = max_field_value - len(suffix)
+    if available < 0:
+        available = max_field_value
+        suffix = ""
+
+    content_preview = post_content
+    if len(content_preview) > max_field_value:
+        content_preview = content_preview[:available] + suffix
     
     fields = [
         {"name": "카테고리", "value": category, "inline": True},
