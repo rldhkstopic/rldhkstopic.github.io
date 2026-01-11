@@ -453,10 +453,11 @@
 
   .stock-sidebar {
     order: -1;
+    max-height: none;
   }
 
   .chart-wrapper {
-    min-height: 400px;
+    min-height: 500px;
   }
 }
 
