@@ -528,9 +528,6 @@ body.home-page .site-header {
 
 /* 모바일 카테고리 아이콘 래퍼 */
 .mobile-category-icon-wrapper {
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -544,45 +541,26 @@ body.home-page .site-header {
   transition: transform 0.2s ease;
 }
 
-/* 모바일 카테고리별 파스텔톤 배경 */
-.mobile-category-icon-wrapper.icon-daily {
-  background: #fef3c7; /* 부드러운 주황/노란색 */
-}
-
+/* 모바일 카테고리별 아이콘 색상 */
 .mobile-category-icon-wrapper.icon-daily .mobile-category-icon {
-  color: #f59e0b; /* 진한 주황색 */
-}
-
-.mobile-category-icon-wrapper.icon-dev {
-  background: #dbeafe; /* 부드러운 파란색 */
+  color: #f59e0b; /* 주황색 */
 }
 
 .mobile-category-icon-wrapper.icon-dev .mobile-category-icon {
-  color: #2563eb; /* 진한 파란색 */
-}
-
-.mobile-category-icon-wrapper.icon-document {
-  background: #f3e8ff; /* 부드러운 보라색 */
+  color: #2563eb; /* 파란색 */
 }
 
 .mobile-category-icon-wrapper.icon-document .mobile-category-icon {
-  color: #8b5cf6; /* 진한 보라색 */
-}
-
-.mobile-category-icon-wrapper.icon-study {
-  background: #d1fae5; /* 부드러운 초록색 */
+  color: #8b5cf6; /* 보라색 */
 }
 
 .mobile-category-icon-wrapper.icon-study .mobile-category-icon {
-  color: #10b981; /* 진한 초록색 */
-}
-
-.mobile-category-pill:hover .mobile-category-icon-wrapper {
-  opacity: 0.9;
+  color: #10b981; /* 초록색 */
 }
 
 .mobile-category-pill:hover .mobile-category-icon {
   transform: scale(1.05);
+  opacity: 0.8;
 }
 
 .mobile-category-text {
@@ -880,9 +858,6 @@ body.home-page .site-header {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
   flex-shrink: 0;
   transition: all 0.2s ease;
 }
@@ -894,45 +869,26 @@ body.home-page .site-header {
   transition: transform 0.2s ease;
 }
 
-/* 사이드바 카테고리별 파스텔톤 배경 */
-.sidebar-category-icon-wrapper.icon-daily {
-  background: #fef3c7; /* 부드러운 주황/노란색 */
-}
-
+/* 사이드바 카테고리별 아이콘 색상 */
 .sidebar-category-icon-wrapper.icon-daily .sidebar-category-icon {
-  color: #f59e0b; /* 진한 주황색 */
-}
-
-.sidebar-category-icon-wrapper.icon-dev {
-  background: #dbeafe; /* 부드러운 파란색 */
+  color: #f59e0b; /* 주황색 */
 }
 
 .sidebar-category-icon-wrapper.icon-dev .sidebar-category-icon {
-  color: #2563eb; /* 진한 파란색 */
-}
-
-.sidebar-category-icon-wrapper.icon-document {
-  background: #f3e8ff; /* 부드러운 보라색 */
+  color: #2563eb; /* 파란색 */
 }
 
 .sidebar-category-icon-wrapper.icon-document .sidebar-category-icon {
-  color: #8b5cf6; /* 진한 보라색 */
-}
-
-.sidebar-category-icon-wrapper.icon-study {
-  background: #d1fae5; /* 부드러운 초록색 */
+  color: #8b5cf6; /* 보라색 */
 }
 
 .sidebar-category-icon-wrapper.icon-study .sidebar-category-icon {
-  color: #10b981; /* 진한 초록색 */
-}
-
-.sidebar-category-icon-wrapper:hover {
-  opacity: 0.9;
+  color: #10b981; /* 초록색 */
 }
 
 .sidebar-category-icon-wrapper:hover .sidebar-category-icon {
   transform: scale(1.05);
+  opacity: 0.8;
 }
 
 .category-link:hover {
@@ -1185,28 +1141,21 @@ body.home-page .site-header {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 50%;
   flex-shrink: 0;
   transition: all 0.2s ease;
-  background: #dbeafe; /* 부드러운 파란색 */
 }
 
 .dev-subcategory-icon {
   width: 0.625rem;
   height: 0.625rem;
   stroke-width: 2;
-  color: #2563eb; /* 진한 파란색 */
+  color: #2563eb; /* 파란색 */
   transition: transform 0.2s ease;
-}
-
-.dev-subcategory-link:hover .dev-subcategory-icon-wrapper {
-  opacity: 0.9;
 }
 
 .dev-subcategory-link:hover .dev-subcategory-icon {
   transform: scale(1.05);
+  opacity: 0.8;
 }
 
 .dev-subcategory-title {
@@ -1277,14 +1226,11 @@ body.home-page .site-header {
   gap: 0.5rem;
 }
 
-/* 카테고리 아이콘 래퍼 - 파스텔톤 원형 배경 */
+/* 카테고리 아이콘 래퍼 */
 .category-icon-wrapper {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 50%;
   flex-shrink: 0;
   transition: all 0.2s ease;
 }
@@ -1293,66 +1239,38 @@ body.home-page .site-header {
   width: 1.125rem;
   height: 1.125rem;
   stroke-width: 2;
-  z-index: 1;
   transition: transform 0.2s ease;
 }
 
-/* 카테고리별 파스텔톤 배경 및 아이콘 색상 */
-.icon-latest {
-  background: #e0e7ff; /* 부드러운 파란색 */
-}
-
+/* 카테고리별 아이콘 색상 */
 .icon-latest .category-icon {
-  color: #3b82f6; /* 진한 파란색 */
-}
-
-.icon-daily {
-  background: #fef3c7; /* 부드러운 주황/노란색 */
+  color: #3b82f6; /* 파란색 */
 }
 
 .icon-daily .category-icon {
-  color: #f59e0b; /* 진한 주황색 */
-}
-
-.icon-document {
-  background: #f3e8ff; /* 부드러운 보라색 */
+  color: #f59e0b; /* 주황색 */
 }
 
 .icon-document .category-icon {
-  color: #8b5cf6; /* 진한 보라색 */
-}
-
-.icon-dev {
-  background: #dbeafe; /* 부드러운 파란색 */
+  color: #8b5cf6; /* 보라색 */
 }
 
 .icon-dev .category-icon {
-  color: #2563eb; /* 진한 파란색 */
-}
-
-.icon-stock {
-  background: #fee2e2; /* 부드러운 빨간색 */
+  color: #2563eb; /* 파란색 */
 }
 
 .icon-stock .category-icon {
-  color: #ef4444; /* 진한 빨간색 */
-}
-
-.icon-study {
-  background: #d1fae5; /* 부드러운 초록색 */
+  color: #ef4444; /* 빨간색 */
 }
 
 .icon-study .category-icon {
-  color: #10b981; /* 진한 초록색 */
+  color: #10b981; /* 초록색 */
 }
 
 /* 절제된 호버 효과 */
-.category-icon-wrapper:hover {
-  opacity: 0.9;
-}
-
 .category-icon-wrapper:hover .category-icon {
   transform: scale(1.05);
+  opacity: 0.8;
 }
 
 .section-more {
