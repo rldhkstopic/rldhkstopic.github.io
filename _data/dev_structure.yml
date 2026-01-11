@@ -6,19 +6,6 @@ subcategories:
     title: "VHDL"
     icon: "💻"
     description: "VHDL 문법, 오류 해결, 예제"
-  - id: csharp
-    title: "C#"
-    icon: "🔷"
-    description: "C# 개발 가이드 및 예제"
-    sections:
-      - id: guide
-        title: "가이드"
-        description: "C# 개발 가이드"
-        sort_by: date
-      - id: examples
-        title: "예제"
-        description: "C# 예제 코드"
-        sort_by: date
     sections:
       - id: errors
         title: "오류 해결 가이드"
@@ -51,6 +38,20 @@ subcategories:
       - id: faq
         title: "FAQ"
         description: "자주 묻는 질문"
+        sort_by: date
+
+  - id: csharp
+    title: "C#"
+    icon: "🔷"
+    description: "C# 개발 가이드 및 예제"
+    sections:
+      - id: guide
+        title: "가이드"
+        description: "C# 개발 가이드"
+        sort_by: date
+      - id: examples
+        title: "예제"
+        description: "C# 예제 코드"
         sort_by: date
 
   - id: vivado
