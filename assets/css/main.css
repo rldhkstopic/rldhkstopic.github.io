@@ -1024,6 +1024,8 @@ body.home-page .site-header {
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   width: 100%;
+  height: fit-content;
+  align-items: start;
 }
 
 .blog-container-left {
@@ -1034,7 +1036,7 @@ body.home-page .site-header {
 .blog-container-right {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 /* 하단 섹션 (두 번째 행) */

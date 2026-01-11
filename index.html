@@ -234,8 +234,8 @@ layout: default
             <h2 class="section-title">
               📚 최신 글
             </h2>
-            {% if site.posts.size > 5 %}
-            <a href="/blog/" class="section-more" title="전체 글 보기">
+        {% if site.posts.size > 6 %}
+        <a href="/blog/" class="section-more" title="전체 글 보기">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <line x1="12" y1="5" x2="12" y2="19"></line>
                 <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -244,9 +244,9 @@ layout: default
             {% endif %}
           </div>
           <div class="post-list all-posts-list">
-            {% assign all_posts = site.posts | limit: 5 %}
+            {% assign all_posts = site.posts | limit: 6 %}
             {% if all_posts.size > 0 %}
-              {% for post in all_posts limit: 5 %}
+              {% for post in all_posts limit: 6 %}
                 <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
                   <div class="post-list-title-wrapper">
                     <span class="post-list-title">{{ post.title | escape }}</span>
@@ -332,9 +332,9 @@ layout: default
             </a>
           </div>
           <div class="post-list">
-            {% assign document_posts = site.posts | where: "category", "document" | limit: 5 %}
+            {% assign document_posts = site.posts | where: "category", "document" | limit: 2 %}
             {% if document_posts.size > 0 %}
-              {% for post in document_posts limit: 5 %}
+              {% for post in document_posts limit: 2 %}
                 <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
                   <div class="post-list-title-wrapper">
                     <span class="post-list-title">{{ post.title | escape }}</span>
