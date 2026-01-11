@@ -103,24 +103,33 @@ permalink: /dev/vhdl/
         </h2>
       </div>
       <div class="post-list">
-        {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | sort: "date" | reverse %}
-        {% assign syntax_ids = syntax_posts | map: "url" %}
-        {% assign error_ids = error_posts | map: "url" %}
-        {% assign other_posts = vhdl_posts | reject: "url", syntax_ids | reject: "url", error_ids | limit: 5 %}
-        {% if other_posts.size > 0 %}
-          {% for post in other_posts %}
-            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-              <div class="post-list-title-wrapper">
-                <span class="post-list-title">{{ post.title | escape }}</span>
-              </div>
-              <div class="post-list-meta">
-                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                <span class="post-list-category-path">VHDL</span>
-                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-              </div>
-            </a>
-          {% endfor %}
-        {% else %}
+        {% assign all_vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | sort: "date" | reverse %}
+        {% assign shown_urls = "" | split: "," %}
+        {% for post in syntax_posts %}
+          {% assign shown_urls = shown_urls | push: post.url %}
+        {% endfor %}
+        {% for post in error_posts %}
+          {% assign shown_urls = shown_urls | push: post.url %}
+        {% endfor %}
+        {% assign other_count = 0 %}
+        {% for post in all_vhdl_posts %}
+          {% unless shown_urls contains post.url %}
+            {% if other_count < 5 %}
+              <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                <div class="post-list-title-wrapper">
+                  <span class="post-list-title">{{ post.title | escape }}</span>
+                </div>
+                <div class="post-list-meta">
+                  <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                  <span class="post-list-category-path">VHDL</span>
+                  <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                </div>
+              </a>
+              {% assign other_count = other_count | plus: 1 %}
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+        {% if other_count == 0 %}
           <div class="post-list-item empty">
             <span>기타 글이 없습니다.</span>
           </div>
