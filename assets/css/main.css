@@ -3237,6 +3237,16 @@ article div[role="doc-endnotes"] {
   }
 }
 
+/* Mobile Responsive - Toss Tech Style */
+@media screen and (max-width: 768px) {
+  .post-content {
+    font-size: 16px; /* 모바일에서 폰트 사이즈 조정 */
+  }
+  .post-content h1 { font-size: 26px; }
+  .post-content h2 { font-size: 22px; }
+  .post-content h3 { font-size: 20px; }
+}
+
 @media (max-width: 480px) {
   .wrapper {
     padding: 0 12px;
