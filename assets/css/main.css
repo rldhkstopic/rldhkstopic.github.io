@@ -1207,6 +1207,20 @@ body.home-page .site-header {
   line-height: 1.6;
 }
 
+/* Dev 카테고리 그리드 (2열 레이아웃) */
+.dev-categories-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .dev-categories-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .content-section {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);

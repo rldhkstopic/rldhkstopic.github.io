@@ -14,7 +14,7 @@ permalink: /dev/
     </h1>
     <p class="dev-main-description">개발 관련 문서, 오류 해결 가이드, 문법 레퍼런스</p>
 
-    <!-- 개발일지 섹션 (최상단) -->
+    <!-- 개발일지 섹션 (최상단, 단일 열) -->
     <div class="content-section">
       <div class="section-header">
         <h2 class="section-title">
@@ -53,55 +53,57 @@ permalink: /dev/
       </div>
     </div>
 
-    <!-- 카테고리별 블록 -->
-    {% assign dev_structure = site.data.dev_structure %}
-    {% for subcat in dev_structure.subcategories %}
-      <div class="content-section">
-        <div class="section-header">
-          <h2 class="section-title">
-            <span class="category-icon-wrapper icon-dev">
-              {% if subcat.id == 'vhdl' %}
-                <i data-lucide="circuit-board" class="category-icon"></i>
-              {% elsif subcat.id == 'csharp' %}
-                <i data-lucide="code-2" class="category-icon"></i>
-              {% elsif subcat.id == 'vivado' %}
-                <i data-lucide="settings" class="category-icon"></i>
-              {% else %}
-                <i data-lucide="code" class="category-icon"></i>
-              {% endif %}
-            </span>
-            {{ subcat.title }}
-          </h2>
-          <a href="/dev/{{ subcat.id }}/" class="section-more" title="더보기">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="12" y1="5" x2="12" y2="19"></line>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-            </svg>
-          </a>
+    <!-- 카테고리별 블록 (2열 레이아웃) -->
+    <div class="dev-categories-grid">
+      {% assign dev_structure = site.data.dev_structure %}
+      {% for subcat in dev_structure.subcategories %}
+        <div class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">
+              <span class="category-icon-wrapper icon-dev">
+                {% if subcat.id == 'vhdl' %}
+                  <i data-lucide="circuit-board" class="category-icon"></i>
+                {% elsif subcat.id == 'csharp' %}
+                  <i data-lucide="code-2" class="category-icon"></i>
+                {% elsif subcat.id == 'vivado' %}
+                  <i data-lucide="settings" class="category-icon"></i>
+                {% else %}
+                  <i data-lucide="code" class="category-icon"></i>
+                {% endif %}
+              </span>
+              {{ subcat.title }}
+            </h2>
+            <a href="/dev/{{ subcat.id }}/" class="section-more" title="더보기">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </a>
+          </div>
+          <div class="post-list">
+            {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title | sort: "date" | reverse | limit: 5 %}
+            {% if subcat_posts.size > 0 %}
+              {% for post in subcat_posts %}
+                <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="post-list-title-wrapper">
+                    <span class="post-list-title">{{ post.title | escape }}</span>
+                  </div>
+                  <div class="post-list-meta">
+                    <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                    <span class="post-list-category-path">개발 > {{ subcat.title }}</span>
+                    <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                  </div>
+                </a>
+              {% endfor %}
+            {% else %}
+              <div class="post-list-item empty">
+                <span>{{ subcat.title }} 관련 글이 없습니다.</span>
+              </div>
+            {% endif %}
+          </div>
         </div>
-        <div class="post-list">
-          {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title | sort: "date" | reverse | limit: 5 %}
-          {% if subcat_posts.size > 0 %}
-            {% for post in subcat_posts %}
-              <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-                <div class="post-list-title-wrapper">
-                  <span class="post-list-title">{{ post.title | escape }}</span>
-                </div>
-                <div class="post-list-meta">
-                  <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                  <span class="post-list-category-path">개발 > {{ subcat.title }}</span>
-                  <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-                </div>
-              </a>
-            {% endfor %}
-          {% else %}
-            <div class="post-list-item empty">
-              <span>{{ subcat.title }} 관련 글이 없습니다.</span>
-            </div>
-          {% endif %}
-        </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </main>
 
