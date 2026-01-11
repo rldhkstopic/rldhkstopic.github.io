@@ -538,31 +538,31 @@ body.home-page .site-header {
 }
 
 /* 모바일 카테고리별 아이콘 색상 및 배경 */
-.mobile-category-icon.bi-calendar-day {
+.mobile-category-icon.ph-calendar-blank {
   color: #f59e0b;
   background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(245, 158, 11, 0.06));
   border: 1px solid rgba(245, 158, 11, 0.18);
 }
 
-.mobile-category-icon.bi-code-slash {
+.mobile-category-icon.ph-code {
   color: #10b981;
   background: linear-gradient(135deg, rgba(16, 185, 129, 0.18), rgba(16, 185, 129, 0.06));
   border: 1px solid rgba(16, 185, 129, 0.18);
 }
 
-.mobile-category-icon.bi-cpu {
+.mobile-category-icon.ph-cpu {
   color: #f97316;
   background: linear-gradient(135deg, rgba(249, 115, 22, 0.18), rgba(249, 115, 22, 0.06));
   border: 1px solid rgba(249, 115, 22, 0.18);
 }
 
-.mobile-category-icon.bi-file-earmark-text {
+.mobile-category-icon.ph-file-text {
   color: #8b5cf6;
   background: linear-gradient(135deg, rgba(139, 92, 246, 0.18), rgba(139, 92, 246, 0.06));
   border: 1px solid rgba(139, 92, 246, 0.18);
 }
 
-.mobile-category-icon.bi-book {
+.mobile-category-icon.ph-book-open {
   color: #6366f1;
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.18), rgba(99, 102, 241, 0.06));
   border: 1px solid rgba(99, 102, 241, 0.18);
@@ -864,19 +864,19 @@ body.home-page .site-header {
 }
 
 /* 사이드바 카테고리별 아이콘 색상 */
-.category-title .bi-calendar-day {
+.category-title .ph-calendar-blank {
   color: #f59e0b; /* 주황색 - Daily */
 }
 
-.category-title .bi-code-slash {
+.category-title .ph-code {
   color: #10b981; /* 초록색 - Dev */
 }
 
-.category-title .bi-file-earmark-text {
+.category-title .ph-file-text {
   color: #8b5cf6; /* 보라색 - Document */
 }
 
-.category-title .bi-book {
+.category-title .ph-book-open {
   color: #6366f1; /* 인디고 - Study */
 }
 
@@ -1135,19 +1135,19 @@ body.home-page .site-header {
 }
 
 /* Dev 하위 카테고리별 아이콘 색상 */
-.dev-subcategory-icon.bi-cpu {
+.dev-subcategory-icon.ph-cpu {
   color: #f97316; /* 주황색 - VHDL */
 }
 
-.dev-subcategory-icon.bi-filetype-cs {
+.dev-subcategory-icon.ph-file-code {
   color: #9333ea; /* 보라색 - C# */
 }
 
-.dev-subcategory-icon.bi-tools {
+.dev-subcategory-icon.ph-wrench {
   color: #06b6d4; /* 청록색 - Vivado */
 }
 
-.dev-subcategory-icon.bi-code-square {
+.dev-subcategory-icon.ph-code {
   color: #10b981; /* 초록색 - 기타 */
 }
 
@@ -1229,23 +1229,23 @@ body.home-page .site-header {
 }
 
 /* 카테고리별 아이콘 색상 */
-.section-title .bi-journal-text {
+.section-title .ph-article {
   color: #3b82f6; /* 파란색 - 최신 글 */
 }
 
-.section-title .bi-calendar-day {
+.section-title .ph-calendar-blank {
   color: #f59e0b; /* 주황색 - Daily */
 }
 
-.section-title .bi-file-earmark-text {
+.section-title .ph-file-text {
   color: #8b5cf6; /* 보라색 - Document */
 }
 
-.section-title .bi-code-slash {
+.section-title .ph-code {
   color: #10b981; /* 초록색 - Dev */
 }
 
-.section-title .bi-graph-up-arrow {
+.section-title .ph-chart-line-up {
   color: #ef4444; /* 빨간색 - 주식 */
 }
 
