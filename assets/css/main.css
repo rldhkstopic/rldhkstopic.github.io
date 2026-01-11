@@ -2113,15 +2113,16 @@ body.home-page .site-header {
   transform: translateY(0);
 }
 
+/* 블록 코드 */
 .post-content pre {
+  background-color: #1b1b1b; /* 다크 모드 배경 */
+  border-radius: 12px;
+  padding: 20px;
+  margin: 24px 0;
+  overflow-x: auto;
   /* Wrapped by .code-block, so keep pre itself minimal */
-  background: transparent;
-  padding: 0;
   border: none;
   box-shadow: none;
-  border-radius: 0;
-  overflow: auto;
-  margin: 0;
   position: relative; /* line-numbers rows positioning */
   min-height: 100px;
   max-height: 380px;
@@ -2511,52 +2512,48 @@ body.home-page .site-header {
   font-weight: 500;
 }
 
+/* 구분선 (HR) */
 .post-content hr {
+  height: 1px;
+  background-color: #e5e8eb; /* 아주 연한 그레이 */
   border: none;
-  border-top: 2px solid var(--accent-light);
-  margin: 3rem 0;
+  margin: 40px 0;
   position: relative;
 }
 
 .post-content hr::after {
-  content: '◆';
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--bg-primary);
-  padding: 0 1rem;
-  color: var(--accent-color);
+  content: '';
+  display: none;
 }
 
+/* 이미지 (Image) */
 .post-content img {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
-  margin: 2rem 0;
-  box-shadow: var(--shadow-md);
-  border: 1px solid var(--border-color);
+  border-radius: 12px; /* 둥근 모서리 */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* 부드러운 그림자 */
+  margin: 24px 0;
+  display: block;
+  border: none;
 }
 
+/* 테이블 (Table) */
 .post-content table {
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  margin: 1.5rem 0;
-  border: 1px solid var(--border-color);
+  border-collapse: collapse;
+  margin: 24px 0;
   border-radius: 8px;
   overflow: hidden;
-  background: var(--bg-primary);
+  box-shadow: 0 0 0 1px #e5e8eb; /* 테두리 대신 그림자로 처리 */
 }
 
 .post-content table th {
-  background: var(--bg-secondary);
-  padding: 0.875rem 1rem;
-  text-align: left;
+  background-color: #f9fafb;
   font-weight: 600;
-  color: var(--text-primary);
-  border-bottom: 1px solid var(--border-color);
-  font-size: 0.9375rem;
+  color: #333d4b;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: none;
 }
 
 .post-content table th:first-child {
@@ -2568,11 +2565,9 @@ body.home-page .site-header {
 }
 
 .post-content table td {
-  padding: 0.875rem 1rem;
-  border-bottom: 1px solid var(--border-color);
-  color: var(--text-primary);
-  font-size: 0.9375rem;
-  line-height: 1.6;
+  padding: 12px 16px;
+  border-top: 1px solid #e5e8eb;
+  color: #4e5968;
 }
 
 .post-content table tr:last-child td {
