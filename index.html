@@ -240,6 +240,14 @@ layout: default
 
   <!-- 메인 콘텐츠 영역 -->
   <main class="main-content">
+    <!-- 소개글 패널 -->
+    <div class="intro-panel">
+      <div class="intro-content">
+        <h2 class="intro-title">{{ site.description | default: "기술 블로그" }}</h2>
+        <p class="intro-text">{{ site.bio | default: "개발과 학습을 기록하는 공간입니다." }}</p>
+      </div>
+    </div>
+
     <!-- 첫 번째 행: 블로그 컨테이너 -->
     <div class="blog-container">
       <!-- 좌측: 최신글 -->

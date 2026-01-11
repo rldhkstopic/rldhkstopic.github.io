@@ -997,11 +997,40 @@ body.home-page .site-header {
   color: var(--accent-color);
 }
 
+/* 소개글 패널 */
+.intro-panel {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.intro-content {
+  max-width: none;
+}
+
+.intro-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem 0;
+}
+
+.intro-text {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.6;
+}
+
 /* 방문자 통계 */
 .visitor-stats-simple {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  padding-top: 1rem;
   border-top: 1px solid var(--border-color);
   border-right: none;
   border-bottom: none;
