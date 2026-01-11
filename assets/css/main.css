@@ -2754,6 +2754,11 @@ article div[role="doc-endnotes"] {
     margin-bottom: 1rem;
   }
 
+  .blog-container,
+  .bottom-sections {
+    grid-template-columns: 1fr;
+  }
+
   /* Home: show compact profile at top, hide large profile block */
   .mobile-profile-bar {
     display: flex;
