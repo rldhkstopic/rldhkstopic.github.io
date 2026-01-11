@@ -526,47 +526,50 @@ body.home-page .site-header {
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.12);
 }
 
-.mobile-category-icon {
-  width: 26px;
-  height: 26px;
-  border-radius: 999px;
+/* 모바일 카테고리 아이콘 래퍼 */
+.mobile-category-icon-wrapper {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 900;
-  font-size: 0.9rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
-/* 모바일 카테고리별 아이콘 색상 및 배경 */
-.mobile-category-icon.ph-calendar-blank {
-  color: #f59e0b;
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(245, 158, 11, 0.06));
-  border: 1px solid rgba(245, 158, 11, 0.18);
+.mobile-category-icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  color: white;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
-.mobile-category-icon.ph-code {
-  color: #10b981;
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.18), rgba(16, 185, 129, 0.06));
-  border: 1px solid rgba(16, 185, 129, 0.18);
+/* 모바일 카테고리별 그라디언트 */
+.mobile-category-icon-wrapper.icon-daily {
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4), 0 0 16px rgba(245, 158, 11, 0.2);
 }
 
-.mobile-category-icon.ph-cpu {
-  color: #f97316;
-  background: linear-gradient(135deg, rgba(249, 115, 22, 0.18), rgba(249, 115, 22, 0.06));
-  border: 1px solid rgba(249, 115, 22, 0.18);
+.mobile-category-icon-wrapper.icon-dev {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4), 0 0 16px rgba(139, 92, 246, 0.3);
 }
 
-.mobile-category-icon.ph-file-text {
-  color: #8b5cf6;
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.18), rgba(139, 92, 246, 0.06));
-  border: 1px solid rgba(139, 92, 246, 0.18);
+.mobile-category-icon-wrapper.icon-document {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4), 0 0 16px rgba(139, 92, 246, 0.2);
 }
 
-.mobile-category-icon.ph-book-open {
-  color: #6366f1;
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.18), rgba(99, 102, 241, 0.06));
-  border: 1px solid rgba(99, 102, 241, 0.18);
+.mobile-category-icon-wrapper.icon-study {
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4), 0 0 16px rgba(6, 182, 212, 0.3);
 }
+
+.mobile-category-pill:hover .mobile-category-icon-wrapper {
+  transform: translateY(-2px) scale(1.05);
+  filter: brightness(1.1);
 }
 
 .mobile-category-text {
@@ -859,25 +862,51 @@ body.home-page .site-header {
   gap: 0.5rem;
 }
 
-.category-title i {
-  font-size: 1rem;
+/* 사이드바 카테고리 아이콘 래퍼 */
+.sidebar-category-icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
-/* 사이드바 카테고리별 아이콘 색상 */
-.category-title .ph-calendar-blank {
-  color: #f59e0b; /* 주황색 - Daily */
+.sidebar-category-icon {
+  width: 0.875rem;
+  height: 0.875rem;
+  color: white;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
 }
 
-.category-title .ph-code {
-  color: #10b981; /* 초록색 - Dev */
+/* 사이드바 카테고리별 그라디언트 */
+.sidebar-category-icon-wrapper.icon-daily {
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3), 0 0 12px rgba(245, 158, 11, 0.15);
 }
 
-.category-title .ph-file-text {
-  color: #8b5cf6; /* 보라색 - Document */
+.sidebar-category-icon-wrapper.icon-dev {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3), 0 0 12px rgba(139, 92, 246, 0.2);
 }
 
-.category-title .ph-book-open {
-  color: #6366f1; /* 인디고 - Study */
+.sidebar-category-icon-wrapper.icon-document {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3), 0 0 12px rgba(139, 92, 246, 0.15);
+}
+
+.sidebar-category-icon-wrapper.icon-study {
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3), 0 0 12px rgba(6, 182, 212, 0.2);
+}
+
+.sidebar-category-icon-wrapper:hover {
+  transform: scale(1.1);
+  filter: brightness(1.15);
 }
 
 .category-link:hover {
