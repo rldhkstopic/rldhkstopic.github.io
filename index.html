@@ -377,13 +377,10 @@ layout: default
           {% assign dev_structure = site.data.dev_structure %}
           {% for subcat in dev_structure.subcategories %}
             {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title %}
-            <a href="/dev/{{ subcat.id }}/" class="dev-subcategory-item">
-              <div class="dev-subcategory-header">
-                <span class="dev-subcategory-icon">{{ subcat.icon }}</span>
-                <span class="dev-subcategory-title">{{ subcat.title }}</span>
-                <span class="dev-subcategory-count">({{ subcat_posts.size }})</span>
-              </div>
-              <p class="dev-subcategory-description">{{ subcat.description }}</p>
+            <a href="/dev/{{ subcat.id }}/" class="dev-subcategory-link">
+              <span class="dev-subcategory-icon">{{ subcat.icon }}</span>
+              <span class="dev-subcategory-title">{{ subcat.title }}</span>
+              <span class="dev-subcategory-count">{{ subcat_posts.size }}</span>
             </a>
           {% endfor %}
         </div>
