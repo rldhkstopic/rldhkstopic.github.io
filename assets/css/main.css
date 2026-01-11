@@ -1180,12 +1180,39 @@ body.home-page .site-header {
   flex-direction: column;
 }
 
+/* Dev 카테고리 페이지 스타일 */
+.dev-category-page,
+.dev-main-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.dev-category-title,
+.dev-main-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.dev-category-description,
+.dev-main-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
 .content-section {
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   padding: 1rem 1.25rem;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
   box-shadow: none;
   transition: box-shadow 0.3s ease;
 }

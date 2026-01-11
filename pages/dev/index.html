@@ -1,39 +1,113 @@
 ---
-layout: dev-wiki
+layout: default
 title: Dev
 permalink: /dev/
 ---
 
-<div class="dev-wiki-home">
-  <h1 class="dev-wiki-home-title">💻 Dev</h1>
-  <p class="dev-wiki-home-description">개발 관련 문서, 오류 해결 가이드, 문법 레퍼런스</p>
+<main class="main-content">
+  <div class="dev-main-page">
+    <h1 class="dev-main-title">
+      <span class="category-icon-wrapper icon-dev">
+        <i data-lucide="code" class="category-icon"></i>
+      </span>
+      개발
+    </h1>
+    <p class="dev-main-description">개발 관련 문서, 오류 해결 가이드, 문법 레퍼런스</p>
 
-  {% assign dev_structure = site.data.dev_structure %}
-  {% assign all_dev_posts = site.posts | where: "category", "dev" | sort: "date" | reverse %}
-  
-  {% if all_dev_posts.size > 0 %}
-    <div class="dev-posts-list">
-      <h2 class="dev-posts-list-title">전체 글 목록</h2>
+    <!-- 개발일지 섹션 (최상단) -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="category-icon-wrapper icon-dev">
+            <i data-lucide="file-text" class="category-icon"></i>
+          </span>
+          개발일지
+        </h2>
+        <a href="/dev/devlog/" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
+      </div>
       <div class="post-list">
-        {% for post in all_dev_posts %}
-          <a href="{{ post.url | relative_url }}" class="post-list-item">
-            <div class="post-list-header">
-              <span class="post-list-title">{{ post.title | escape }}</span>
-              {% if post.subcategory %}
-                <span class="post-list-subcategory">{{ post.subcategory }}</span>
-              {% endif %}
-            </div>
-            <div class="post-list-meta">
-              <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
-              <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-            </div>
-          </a>
-        {% endfor %}
+        {% assign devlog_posts = site.posts | where: "category", "dev" | where: "subcategory", "개발일지" | sort: "date" | reverse | limit: 5 %}
+        {% if devlog_posts.size > 0 %}
+          {% for post in devlog_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+              <div class="post-list-title-wrapper">
+                <span class="post-list-title">{{ post.title | escape }}</span>
+              </div>
+              <div class="post-list-meta">
+                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class="post-list-category-path">개발 > 개발일지</span>
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>개발일지가 없습니다.</span>
+          </div>
+        {% endif %}
       </div>
     </div>
-  {% else %}
-    <div class="post-list-item empty">
-      <span>아직 개발 관련 포스트가 없습니다.</span>
-    </div>
-  {% endif %}
-</div>
+
+    <!-- 카테고리별 블록 -->
+    {% assign dev_structure = site.data.dev_structure %}
+    {% for subcat in dev_structure.subcategories %}
+      <div class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="category-icon-wrapper icon-dev">
+              {% if subcat.id == 'vhdl' %}
+                <i data-lucide="circuit-board" class="category-icon"></i>
+              {% elsif subcat.id == 'csharp' %}
+                <i data-lucide="code-2" class="category-icon"></i>
+              {% elsif subcat.id == 'vivado' %}
+                <i data-lucide="settings" class="category-icon"></i>
+              {% else %}
+                <i data-lucide="code" class="category-icon"></i>
+              {% endif %}
+            </span>
+            {{ subcat.title }}
+          </h2>
+          <a href="/dev/{{ subcat.id }}/" class="section-more" title="더보기">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </a>
+        </div>
+        <div class="post-list">
+          {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title | sort: "date" | reverse | limit: 5 %}
+          {% if subcat_posts.size > 0 %}
+            {% for post in subcat_posts %}
+              <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                <div class="post-list-title-wrapper">
+                  <span class="post-list-title">{{ post.title | escape }}</span>
+                </div>
+                <div class="post-list-meta">
+                  <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                  <span class="post-list-category-path">개발 > {{ subcat.title }}</span>
+                  <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                </div>
+              </a>
+            {% endfor %}
+          {% else %}
+            <div class="post-list-item empty">
+              <span>{{ subcat.title }} 관련 글이 없습니다.</span>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</main>
+
+<script>
+  // Lucide Icons 초기화
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
+</script>

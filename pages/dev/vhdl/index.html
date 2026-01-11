@@ -1,32 +1,136 @@
 ---
-layout: dev-wiki
+layout: default
 title: VHDL
 permalink: /dev/vhdl/
 ---
 
-<div class="dev-wiki-home">
-  <h1 class="dev-wiki-home-title">💻 VHDL</h1>
-  <p class="dev-wiki-home-description">VHDL 문법, 오류 해결, 예제 코드</p>
+<main class="main-content">
+  <div class="dev-category-page">
+    <h1 class="dev-category-title">
+      <span class="category-icon-wrapper icon-vhdl">
+        <i data-lucide="circuit-board" class="category-icon"></i>
+      </span>
+      VHDL
+    </h1>
+    <p class="dev-category-description">VHDL 문법, 오류 해결, 예제 코드</p>
 
-  <div class="dev-wiki-subcategories">
-    <div class="dev-wiki-subcategory-card">
-      <div class="dev-wiki-subcategory-header">
-        <span class="dev-wiki-subcategory-icon">🔍</span>
-        <h2 class="dev-wiki-subcategory-title">
-          <a href="/dev/vhdl/errors/">오류 해결 가이드</a>
+    <!-- 문법 정리 블록 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="category-icon-wrapper icon-dev">
+            <i data-lucide="book-open" class="category-icon"></i>
+          </span>
+          문법 정리
         </h2>
+        <a href="/dev/vhdl/syntax/" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
       </div>
-      <p class="dev-wiki-subcategory-description">VHDL 오류 유형별 해결 방법을 정리한 가이드입니다.</p>
+      <div class="post-list">
+        {% assign syntax_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | where_exp: "post", "post.title contains '문법' or post.title contains '레퍼런스'" | sort: "date" | reverse | limit: 5 %}
+        {% if syntax_posts.size > 0 %}
+          {% for post in syntax_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+              <div class="post-list-title-wrapper">
+                <span class="post-list-title">{{ post.title | escape }}</span>
+              </div>
+              <div class="post-list-meta">
+                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class="post-list-category-path">VHDL > 문법</span>
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>문법 정리 글이 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
     </div>
 
-    <div class="dev-wiki-subcategory-card">
-      <div class="dev-wiki-subcategory-header">
-        <span class="dev-wiki-subcategory-icon">📚</span>
-        <h2 class="dev-wiki-subcategory-title">
-          <a href="/dev/vhdl/syntax/">문법 레퍼런스</a>
+    <!-- 오류 해결 가이드 블록 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="category-icon-wrapper icon-dev">
+            <i data-lucide="alert-circle" class="category-icon"></i>
+          </span>
+          오류 해결 가이드
+        </h2>
+        <a href="/dev/vhdl/errors/" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
+      </div>
+      <div class="post-list">
+        {% assign error_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | where_exp: "post", "post.title contains '오류' or post.title contains 'error' or post.title contains 'Error'" | sort: "date" | reverse | limit: 5 %}
+        {% if error_posts.size > 0 %}
+          {% for post in error_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+              <div class="post-list-title-wrapper">
+                <span class="post-list-title">{{ post.title | escape }}</span>
+              </div>
+              <div class="post-list-meta">
+                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class="post-list-category-path">VHDL > 오류</span>
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>오류 해결 글이 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- 기타 VHDL 관련 글 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="category-icon-wrapper icon-dev">
+            <i data-lucide="file-text" class="category-icon"></i>
+          </span>
+          기타
         </h2>
       </div>
-      <p class="dev-wiki-subcategory-description">VHDL 문법을 체계적으로 정리한 레퍼런스입니다.</p>
+      <div class="post-list">
+        {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | sort: "date" | reverse %}
+        {% assign other_posts = vhdl_posts | where_exp: "post", "post.title contains '문법' == false and post.title contains '레퍼런스' == false and post.title contains '오류' == false and post.title contains 'error' == false and post.title contains 'Error' == false" | limit: 5 %}
+        {% if other_posts.size > 0 %}
+          {% for post in other_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+              <div class="post-list-title-wrapper">
+                <span class="post-list-title">{{ post.title | escape }}</span>
+              </div>
+              <div class="post-list-meta">
+                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class="post-list-category-path">VHDL</span>
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>기타 글이 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
     </div>
   </div>
-</div>
+</main>
+
+<script>
+  // Lucide Icons 초기화
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
+</script>

@@ -1,28 +1,141 @@
 ---
 layout: default
-title: Dev / C#
+title: C#
 permalink: /dev/csharp/
 ---
 
-<div class="category-page">
-  <h1 class="category-page-title">Dev · C#</h1>
-  
-  {% assign csharp_posts = site.posts | where: "category", "dev" | where: "subcategory", "C#" | sort: "date" | reverse %}
-  {% if csharp_posts.size > 0 %}
-    <div class="post-list">
-      {% for post in csharp_posts %}
-        <a href="{{ post.url | relative_url }}" class="post-list-item">
-          <span class="post-list-title">{{ post.title | escape }}</span>
-          <div class="post-list-meta">
-            <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
-            <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-          </div>
+<main class="main-content">
+  <div class="dev-category-page">
+    <h1 class="dev-category-title">
+      <span class="category-icon-wrapper icon-csharp">
+        <i data-lucide="code-2" class="category-icon"></i>
+      </span>
+      C#
+    </h1>
+    <p class="dev-category-description">C# 개발 가이드 및 예제</p>
+
+    <!-- 가이드 블록 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="category-icon-wrapper icon-dev">
+            <i data-lucide="book-open" class="category-icon"></i>
+          </span>
+          가이드
+        </h2>
+        <a href="/dev/csharp/guide/" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
         </a>
-      {% endfor %}
+      </div>
+      <div class="post-list">
+        {% assign guide_posts = site.posts | where: "category", "dev" | where: "subcategory", "C#" | where_exp: "post", "post.title contains '가이드' or post.title contains 'Guide' or post.title contains 'guide'" | sort: "date" | reverse | limit: 5 %}
+        {% if guide_posts.size > 0 %}
+          {% for post in guide_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+              <div class="post-list-title-wrapper">
+                <span class="post-list-title">{{ post.title | escape }}</span>
+              </div>
+              <div class="post-list-meta">
+                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class="post-list-category-path">C# > 가이드</span>
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>가이드 글이 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
     </div>
-  {% else %}
-    <div class="post-list-item empty">
-      <span>아직 C# 포스트가 없습니다.</span>
+
+    <!-- 오류 해결 블록 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="category-icon-wrapper icon-dev">
+            <i data-lucide="alert-circle" class="category-icon"></i>
+          </span>
+          오류 해결
+        </h2>
+        <a href="/dev/csharp/errors/" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
+      </div>
+      <div class="post-list">
+        {% assign error_posts = site.posts | where: "category", "dev" | where: "subcategory", "C#" | where_exp: "post", "post.title contains '오류' or post.title contains 'error' or post.title contains 'Error' or post.title contains 'Exception'" | sort: "date" | reverse | limit: 5 %}
+        {% if error_posts.size > 0 %}
+          {% for post in error_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+              <div class="post-list-title-wrapper">
+                <span class="post-list-title">{{ post.title | escape }}</span>
+              </div>
+              <div class="post-list-meta">
+                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class="post-list-category-path">C# > 오류</span>
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>오류 해결 글이 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
     </div>
-  {% endif %}
-</div>
+
+    <!-- 예제 블록 -->
+    <div class="content-section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="category-icon-wrapper icon-dev">
+            <i data-lucide="code" class="category-icon"></i>
+          </span>
+          예제
+        </h2>
+        <a href="/dev/csharp/examples/" class="section-more" title="더보기">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </a>
+      </div>
+      <div class="post-list">
+        {% assign example_posts = site.posts | where: "category", "dev" | where: "subcategory", "C#" | where_exp: "post", "post.title contains '예제' or post.title contains 'Example' or post.title contains 'example'" | sort: "date" | reverse | limit: 5 %}
+        {% if example_posts.size > 0 %}
+          {% for post in example_posts %}
+            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+              <div class="post-list-title-wrapper">
+                <span class="post-list-title">{{ post.title | escape }}</span>
+              </div>
+              <div class="post-list-meta">
+                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class="post-list-category-path">C# > 예제</span>
+                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+              </div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <div class="post-list-item empty">
+            <span>예제 글이 없습니다.</span>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+  // Lucide Icons 초기화
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
+</script>
