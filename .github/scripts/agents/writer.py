@@ -422,6 +422,11 @@ class WriterAgent:
                 processed_lines.append(original_line)
                 continue
             
+            # "무엇이 새로웠나", "1차 영향 경로", "리스크" 같은 가이드 문구는 건드리지 않음
+            if re.search(r'(무엇이 새로웠나|영향 경로|리스크.*관찰 포인트)', line):
+                processed_lines.append(original_line)
+                continue
+            
             # 인용문(blockquote)은 건드리지 않음
             if line.startswith('>'):
                 processed_lines.append(original_line)
@@ -506,6 +511,7 @@ class WriterAgent:
 - 각 테마마다 '영향 경로', '리스크', '관찰 포인트'를 포함한다.
 - 각 테마마다 배경 설명과 맥락을 충분히 제공한다.
 - 각 테마별로 최소 500자 이상의 상세한 분석을 제공한다.
+- **절대 금지: "무엇이 새로웠나다.", "1차 영향 경로다.", "리스크다." 같은 형식으로 작성하지 않는다. 자연스러운 문장으로 서술한다.**
 - 전문가 코멘트는 선택사항이며, 포함할 경우 아래 형식을 사용한다(리서치 노트 같은 형식화된 표현 사용 금지):
   > "코멘트 문장"
   > — *간단한 출처*
