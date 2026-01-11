@@ -172,7 +172,7 @@ class TopicCollectorAgent:
 
         ymd = yesterday_start.strftime("%Y-%m-%d")
         topic = {
-            "title": f"경제 뉴스 전일 다이제스트 ({ymd}, KST)",
+            "title": f"{ymd} 전일 경제 뉴스 정리",
             "description": f"여러 경제 뉴스 소스에서 전일(한국시간) 뉴스 {len(items)}건을 묶어 요약하고 관찰 포인트를 정리한다.",
             "category": "document",
             "tags": ["경제뉴스", "뉴스요약", "시장", "전일"],
