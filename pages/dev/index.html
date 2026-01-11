@@ -82,19 +82,22 @@ permalink: /dev/
           </div>
           <div class="post-list">
             {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title | sort: "date" | reverse %}
-            {% assign limited_posts = subcat_posts | limit: 5 %}
-            {% if limited_posts.size > 0 %}
-              {% for post in limited_posts %}
-                <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-                  <div class="post-list-title-wrapper">
-                    <span class="post-list-title">{{ post.title | escape }}</span>
-                  </div>
-                  <div class="post-list-meta">
-                    <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                    <span class="post-list-category-path">개발 > {{ subcat.title }}</span>
-                    <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-                  </div>
-                </a>
+            {% if subcat_posts.size > 0 %}
+              {% assign count = 0 %}
+              {% for post in subcat_posts %}
+                {% if count < 5 %}
+                  <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                    <div class="post-list-title-wrapper">
+                      <span class="post-list-title">{{ post.title | escape }}</span>
+                    </div>
+                    <div class="post-list-meta">
+                      <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                      <span class="post-list-category-path">개발 > {{ subcat.title }}</span>
+                      <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                    </div>
+                  </a>
+                  {% assign count = count | plus: 1 %}
+                {% endif %}
               {% endfor %}
             {% else %}
               <div class="post-list-item empty">

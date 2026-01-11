@@ -1221,6 +1221,11 @@ body.home-page .site-header {
   overflow: hidden;
 }
 
+/* 5개 초과 아이템 숨기기 */
+.dev-categories-grid .content-section .post-list .post-list-item:nth-child(n+6) {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .dev-categories-grid {
     grid-template-columns: 1fr;
