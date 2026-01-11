@@ -90,7 +90,8 @@ permalink: /stock/
           <h3>실시간 뉴스</h3>
         </div>
         <div class="realtime-list" id="realtime-list">
-          {% assign recent_stock_posts = site.posts | where_exp: "post", "post.category == 'document' and (post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제')" | limit: 10 %}
+          {% assign document_posts = site.posts | where: "category", "document" %}
+          {% assign recent_stock_posts = document_posts | where_exp: "post", "post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제'" | limit: 10 %}
           {% if recent_stock_posts.size > 0 %}
             {% for post in recent_stock_posts %}
               <div class="realtime-item">
@@ -114,7 +115,7 @@ permalink: /stock/
           <h3>SOFI 소식</h3>
         </div>
         <div class="watchlist-list" id="watchlist-list">
-          {% assign sofi_posts = site.posts | where_exp: "post", "post.title contains 'SOFI' or post.title contains 'SoFi' or post.tags contains 'SOFI' or post.content contains 'SOFI' or post.content contains 'SoFi'" | limit: 10 %}
+          {% assign sofi_posts = site.posts | where_exp: "post", "post.title contains 'SOFI' or post.title contains 'SoFi' or post.tags contains 'SOFI'" | limit: 10 %}
           {% if sofi_posts.size > 0 %}
             {% for post in sofi_posts %}
               <div class="watchlist-item">
