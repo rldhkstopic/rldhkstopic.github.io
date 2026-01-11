@@ -11,6 +11,15 @@ subcategories:
     icon: "🔷"
     description: "C# 개발 가이드 및 예제"
     sections:
+      - id: guide
+        title: "가이드"
+        description: "C# 개발 가이드"
+        sort_by: date
+      - id: examples
+        title: "예제"
+        description: "C# 예제 코드"
+        sort_by: date
+    sections:
       - id: errors
         title: "오류 해결 가이드"
         description: "VHDL 오류 유형별 해결 방법"

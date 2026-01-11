@@ -373,30 +373,19 @@ layout: default
             </svg>
           </a>
         </div>
-        <div class="post-list">
-          {% assign dev_posts = site.posts | where: "category", "dev" | limit: 5 %}
-          {% if dev_posts.size > 0 %}
-            {% for post in dev_posts limit: 5 %}
-              <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-                <div class="post-list-title-wrapper">
-                  <span class="post-list-title">{{ post.title | escape }}</span>
-                </div>
-                <div class="post-list-meta">
-                  <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                  {% if post.subcategory %}
-                  <span class="post-list-category-path">Dev > {{ post.subcategory }}</span>
-                  {% else %}
-                  <span class="post-list-category-path">Dev</span>
-                  {% endif %}
-                  <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-                </div>
-              </a>
-            {% endfor %}
-          {% else %}
-            <div class="post-list-item empty">
-              <span>아직 포스트가 없습니다.</span>
-            </div>
-          {% endif %}
+        <div class="dev-subcategories">
+          {% assign dev_structure = site.data.dev_structure %}
+          {% for subcat in dev_structure.subcategories %}
+            {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title %}
+            <a href="/dev/{{ subcat.id }}/" class="dev-subcategory-item">
+              <div class="dev-subcategory-header">
+                <span class="dev-subcategory-icon">{{ subcat.icon }}</span>
+                <span class="dev-subcategory-title">{{ subcat.title }}</span>
+                <span class="dev-subcategory-count">({{ subcat_posts.size }})</span>
+              </div>
+              <p class="dev-subcategory-description">{{ subcat.description }}</p>
+            </a>
+          {% endfor %}
         </div>
       </div>
 
