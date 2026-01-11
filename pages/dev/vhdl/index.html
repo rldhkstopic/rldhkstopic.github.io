@@ -70,7 +70,7 @@ permalink: /dev/vhdl/
         </a>
       </div>
       <div class="post-list">
-        {% assign error_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | where_exp: "post", "post.title contains '오류' or post.title contains 'error' or post.title contains 'Error'" | sort: "date" | reverse | limit: 5 %}
+        {% assign error_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | where_exp: "post", "post.title contains '⚠️' or post.title contains '오류' or post.title contains 'error' or post.title contains 'Error'" | sort: "date" | reverse | limit: 5 %}
         {% if error_posts.size > 0 %}
           {% for post in error_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
