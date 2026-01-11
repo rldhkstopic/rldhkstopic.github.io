@@ -1215,6 +1215,12 @@ body.home-page .site-header {
   width: 100%;
 }
 
+/* Dev 페이지의 content-section 내 post-list 최대 5개만 표시 */
+.dev-categories-grid .content-section .post-list {
+  max-height: calc(5 * 3.5rem); /* 대략 5개 아이템 높이 */
+  overflow: hidden;
+}
+
 @media (max-width: 768px) {
   .dev-categories-grid {
     grid-template-columns: 1fr;
