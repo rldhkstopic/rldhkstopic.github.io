@@ -1726,7 +1726,7 @@ body.home-page .site-header {
   font-size: 1.05rem;
   line-height: 1.85;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .post-container-wide .post-content h2 {
@@ -1786,7 +1786,8 @@ body.home-page .site-header {
 .post-breadcrumb {
   font-size: 0.875rem;
   color: var(--text-secondary);
-  margin: 0; /* margin 제거 */
+  margin: 0;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -1822,7 +1823,7 @@ body.home-page .site-header {
   display: flex;
   justify-content: center; /* center로 변경 */
   align-items: center;
-  margin: 0; /* margin 제거 */
+  margin: 15px 0 5px;
   font-size: 0.9375rem;
   color: var(--text-secondary);
   flex-wrap: wrap;
