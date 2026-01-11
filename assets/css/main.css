@@ -2485,10 +2485,10 @@ body.home-page .site-header {
 
 .post-content em {
   font-style: normal;
-  background: var(--highlight-bg);
+  background: none; /* background 제거 */
   color: var(--highlight-color);
-  padding: 0.15rem 0.3rem;
-  border-radius: 4px;
+  padding: 0;
+  border-radius: 0;
   font-weight: 500;
 }
 
