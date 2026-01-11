@@ -2,72 +2,159 @@
 layout: default
 ---
 
-<div class="dev-wiki-container">
-  <!-- 사이드바 네비게이션 -->
-  <aside class="dev-wiki-sidebar">
+<div class="dev-wiki-layout">
+  <!-- 햄버거 메뉴 버튼 (모바일 전용) -->
+  <button class="dev-wiki-mobile-toggle" id="devWikiMobileToggle" aria-label="메뉴 열기">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </button>
+
+  <!-- 모바일 오버레이 -->
+  <div class="dev-wiki-mobile-overlay" id="devWikiMobileOverlay"></div>
+
+  <!-- 좌측 사이드바: 시리즈별 트리 메뉴 -->
+  <aside class="dev-wiki-sidebar" id="devWikiSidebar">
     <nav class="dev-wiki-nav">
-      {% assign dev_structure = site.data.dev_structure %}
+      {% assign all_dev_posts = site.posts | where: "category", "dev" %}
       
-      {% for subcat in dev_structure.subcategories %}
-        <div class="dev-wiki-nav-section active">
-          <div class="dev-wiki-nav-header" onclick="toggleNavSection(this)">
-            <span class="dev-wiki-nav-icon">{{ subcat.icon }}</span>
-            <span class="dev-wiki-nav-title">{{ subcat.title }}</span>
+      {% comment %} 시리즈별로 그룹핑 {% endcomment %}
+      {% assign series_groups = all_dev_posts | group_by: "series" | sort: "name" %}
+      
+      {% comment %} 시리즈가 없는 포스트들도 처리 {% endcomment %}
+      {% assign ungrouped_posts = all_dev_posts | where_exp: "post", "post.series == nil or post.series == ''" %}
+      
+      {% comment %} 현재 포스트의 시리즈 확인 {% endcomment %}
+      {% assign current_series = page.series | default: "" %}
+      
+      {% for series_group in series_groups %}
+        {% if series_group.name != "" %}
+          {% assign series_name = series_group.name %}
+          {% assign series_posts = series_group.items | sort: "order" | sort: "date" %}
+          {% assign is_current_series = false %}
+          {% if page.series == series_name %}
+            {% assign is_current_series = true %}
+          {% endif %}
+          
+          <div class="dev-wiki-nav-section {% if is_current_series %}active{% endif %}">
+            <div class="dev-wiki-nav-header" onclick="toggleDevWikiSection(this)">
+              <span class="dev-wiki-nav-icon">📁</span>
+              <span class="dev-wiki-nav-title">{{ series_name }}</span>
+              <svg class="dev-wiki-nav-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+            
+            <ul class="dev-wiki-nav-list">
+              {% for post in series_posts %}
+                {% assign is_current = false %}
+                {% if post.url == page.url %}
+                  {% assign is_current = true %}
+                {% endif %}
+                <li class="dev-wiki-nav-item">
+                  <a href="{{ post.url | relative_url }}" class="dev-wiki-nav-link {% if is_current %}active{% endif %}">
+                    {{ post.title | escape }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} 시리즈가 없는 포스트들 {% endcomment %}
+      {% if ungrouped_posts.size > 0 %}
+        <div class="dev-wiki-nav-section {% unless current_series %}active{% endunless %}">
+          <div class="dev-wiki-nav-header" onclick="toggleDevWikiSection(this)">
+            <span class="dev-wiki-nav-icon">📄</span>
+            <span class="dev-wiki-nav-title">기타</span>
             <svg class="dev-wiki-nav-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
           </div>
           
           <ul class="dev-wiki-nav-list">
-            {% for section in subcat.sections %}
+            {% assign sorted_ungrouped = ungrouped_posts | sort: "date" | reverse %}
+            {% for post in sorted_ungrouped %}
+              {% assign is_current = false %}
+              {% if post.url == page.url %}
+                {% assign is_current = true %}
+              {% endif %}
               <li class="dev-wiki-nav-item">
-                <a href="/dev/{{ subcat.id }}/{{ section.id }}/" class="dev-wiki-nav-link">
-                  {{ section.title }}
+                <a href="{{ post.url | relative_url }}" class="dev-wiki-nav-link {% if is_current %}active{% endif %}">
+                  {{ post.title | escape }}
                 </a>
-                
-                {% if section.id == 'errors' and subcat.id == 'vhdl' %}
-                  {% assign vhdl_errors = site.data.vhdl_errors.errors %}
-                  {% if vhdl_errors.size > 0 %}
-                    <ul class="dev-wiki-nav-sublist">
-                      {% for category in section.categories %}
-                        <li class="dev-wiki-nav-subitem">
-                          <a href="/dev/{{ subcat.id }}/{{ section.id }}/#{{ category.id }}" class="dev-wiki-nav-sublink">
-                            {{ category.title }}
-                          </a>
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  {% endif %}
-                {% endif %}
               </li>
             {% endfor %}
           </ul>
         </div>
-      {% endfor %}
+      {% endif %}
     </nav>
   </aside>
 
-  <!-- 메인 콘텐츠 영역 -->
+  <!-- 중앙 콘텐츠 영역 -->
   <main class="dev-wiki-content">
     <div class="dev-wiki-doc">
       {{ content }}
     </div>
   </main>
+
+  <!-- 우측 ToC (Table of Contents) -->
+  <aside class="dev-wiki-toc" id="devWikiTOC">
+    <div class="dev-wiki-toc-header">
+      <h3 class="dev-wiki-toc-title">On this page</h3>
+    </div>
+    <nav class="dev-wiki-toc-nav">
+      <ul class="dev-wiki-toc-list" id="devWikiTOCList"></ul>
+    </nav>
+  </aside>
 </div>
 
 <script>
-function toggleNavSection(header) {
+// 사이드바 섹션 토글
+function toggleDevWikiSection(header) {
   const section = header.parentElement;
   section.classList.toggle('active');
 }
 
-// 현재 페이지 하이라이트
+// 모바일 메뉴 토글
 document.addEventListener('DOMContentLoaded', function() {
+  const mobileToggle = document.getElementById('devWikiMobileToggle');
+  const sidebar = document.getElementById('devWikiSidebar');
+  const overlay = document.getElementById('devWikiMobileOverlay');
+  
+  if (mobileToggle && sidebar && overlay) {
+    function openSidebar() {
+      sidebar.classList.add('mobile-open');
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    
+    function closeSidebar() {
+      sidebar.classList.remove('mobile-open');
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    
+    mobileToggle.addEventListener('click', openSidebar);
+    overlay.addEventListener('click', closeSidebar);
+    
+    // ESC 키로 닫기
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && sidebar.classList.contains('mobile-open')) {
+        closeSidebar();
+      }
+    });
+  }
+  
+  // 현재 페이지 하이라이트 및 자동 펼침
   const currentPath = window.location.pathname;
   const navLinks = document.querySelectorAll('.dev-wiki-nav-link');
   
   navLinks.forEach(link => {
-    if (link.getAttribute('href') === currentPath) {
+    if (link.getAttribute('href') === currentPath || link.href === window.location.href) {
       link.classList.add('active');
       // 부모 섹션 펼치기
       let parent = link.closest('.dev-wiki-nav-section');
@@ -76,5 +163,104 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   });
+  
+  // ToC 생성 (h1~h3만)
+  const content = document.querySelector('.dev-wiki-doc');
+  const tocList = document.getElementById('devWikiTOCList');
+  
+  if (content && tocList) {
+    const headings = content.querySelectorAll('h1, h2, h3');
+    
+    if (headings.length > 0) {
+      headings.forEach((heading, index) => {
+        // ID 생성
+        let id = heading.id;
+        if (!id) {
+          id = 'heading-' + index;
+          heading.id = id;
+        }
+        
+        const level = parseInt(heading.tagName.charAt(1));
+        const li = document.createElement('li');
+        li.className = `dev-wiki-toc-item toc-level-${level}`;
+        
+        const a = document.createElement('a');
+        a.href = `#${id}`;
+        a.textContent = heading.textContent.trim();
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          const element = document.getElementById(id);
+          if (element) {
+            const header = document.querySelector('.site-header');
+            const headerHeight = header ? header.offsetHeight + 20 : 100;
+            const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = elementPosition - headerHeight;
+            
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth'
+            });
+            window.history.pushState(null, '', `#${id}`);
+          }
+        });
+        
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+      
+      // 스크롤 하이라이트
+      const header = document.querySelector('.site-header');
+      const headerHeight = header ? header.offsetHeight + 20 : 100;
+      
+      function updateActiveTOC() {
+        if (headings.length === 0) return;
+        
+        const scrollPosition = window.scrollY + headerHeight + 100;
+        let activeHeading = headings[0];
+        
+        for (let i = headings.length - 1; i >= 0; i--) {
+          const heading = headings[i];
+          const rect = heading.getBoundingClientRect();
+          const headingTop = rect.top + window.scrollY;
+          
+          if (headingTop <= scrollPosition) {
+            activeHeading = heading;
+            break;
+          }
+        }
+        
+        if (activeHeading && tocList) {
+          const id = activeHeading.id;
+          tocList.querySelectorAll('a').forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            }
+          });
+        }
+      }
+      
+      // 초기 상태 업데이트
+      setTimeout(updateActiveTOC, 200);
+      
+      // 스크롤 이벤트
+      let ticking = false;
+      const handleScroll = () => {
+        if (!ticking) {
+          window.requestAnimationFrame(() => {
+            updateActiveTOC();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      };
+      
+      window.addEventListener('scroll', handleScroll, { passive: true });
+    } else {
+      // ToC가 없으면 숨기기
+      const toc = document.getElementById('devWikiTOC');
+      if (toc) toc.style.display = 'none';
+    }
+  }
 });
 </script>
