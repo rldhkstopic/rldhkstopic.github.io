@@ -1,0 +1,226 @@
+---
+layout: default
+title: 주식 뉴스 피드
+permalink: /stock/
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/stock-feed.css' | relative_url }}">
+
+<div class="stock-feed-container">
+  <div class="stock-feed-header">
+    <h1>주식 뉴스 피드</h1>
+    <p class="feed-subtitle">실시간 주식 뉴스와 시장 소식을 확인하세요</p>
+    <div class="feed-last-updated" id="last-updated">
+      마지막 업데이트: 로딩 중...
+    </div>
+  </div>
+
+  <div class="stock-feed-layout">
+    <!-- 좌측: 필터 메뉴 -->
+    <aside class="feed-filters">
+      <h2>필터</h2>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">전체</button>
+        <button class="filter-btn" data-filter="watchlist">
+          <i data-lucide="star" class="filter-icon"></i> 관심 종목
+        </button>
+        <button class="filter-btn" data-filter="major">
+          <i data-lucide="alert-circle" class="filter-icon"></i> 주요 속보
+        </button>
+        <button class="filter-btn" data-filter="positive">
+          <i data-lucide="trending-up" class="filter-icon"></i> 호재
+        </button>
+        <button class="filter-btn" data-filter="negative">
+          <i data-lucide="trending-down" class="filter-icon"></i> 악재
+        </button>
+      </div>
+    </aside>
+
+    <!-- 우측: 타임라인 -->
+    <main class="feed-timeline">
+      <div id="timeline-container" class="timeline-items">
+        <div class="loading-message">로딩 중...</div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+  // Lucide Icons 초기화
+  lucide.createIcons();
+
+  let allItems = [];
+  let currentFilter = 'all';
+
+  // 상대 시간 포맷팅
+  function formatRelativeTime(timestamp) {
+    const now = new Date();
+    const time = new Date(timestamp);
+    const diffSeconds = Math.floor((now - time) / 1000);
+
+    if (diffSeconds < 60) {
+      return '방금 전';
+    } else if (diffSeconds < 3600) {
+      const minutes = Math.floor(diffSeconds / 60);
+      return `${minutes}분 전`;
+    } else if (diffSeconds < 86400) {
+      const hours = Math.floor(diffSeconds / 3600);
+      return `${hours}시간 전`;
+    } else {
+      const days = Math.floor(diffSeconds / 86400);
+      return `${days}일 전`;
+    }
+  }
+
+  // 피드 아이템 카드 생성
+  function createFeedCard(item) {
+    const card = document.createElement('div');
+    card.className = `feed-item feed-${item.source_type.toLowerCase()}`;
+    card.dataset.category = item.category.toLowerCase();
+    card.dataset.sentiment = (item.sentiment || 'neutral').toLowerCase();
+
+    // 카테고리 배지
+    let categoryBadge = '';
+    if (item.category === 'WATCHLIST') {
+      categoryBadge = '<span class="category-badge watchlist-badge"><i data-lucide="star"></i> 관심 종목</span>';
+    } else if (item.category === 'MAJOR') {
+      categoryBadge = '<span class="category-badge major-badge"><i data-lucide="alert-circle"></i> 주요 속보</span>';
+    }
+
+    // 감정 배지
+    let sentimentBadge = '';
+    if (item.sentiment === 'POSITIVE') {
+      sentimentBadge = '<span class="sentiment-badge positive">호재</span>';
+    } else if (item.sentiment === 'NEGATIVE') {
+      sentimentBadge = '<span class="sentiment-badge negative">악재</span>';
+    }
+
+    // 티커 표시
+    let tickersHtml = '';
+    if (item.related_tickers && item.related_tickers.length > 0) {
+      tickersHtml = `<div class="feed-tickers">${item.related_tickers.map(t => `<span class="ticker-tag">${t}</span>`).join('')}</div>`;
+    }
+
+    card.innerHTML = `
+      <div class="feed-header">
+        <div class="feed-source-info">
+          <span class="feed-source-name">${item.source_name}</span>
+          <span class="feed-source-type">${item.source_type}</span>
+        </div>
+        <div class="feed-meta">
+          ${categoryBadge}
+          ${sentimentBadge}
+          <span class="feed-time" data-timestamp="${item.timestamp}">${formatRelativeTime(item.timestamp)}</span>
+        </div>
+      </div>
+      <div class="feed-content">
+        ${item.content}
+      </div>
+      ${tickersHtml}
+      <div class="feed-footer">
+        <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="feed-link">
+          원문 보기 <i data-lucide="external-link" class="link-icon"></i>
+        </a>
+      </div>
+    `;
+
+    // Lucide Icons 다시 초기화 (동적으로 추가된 요소)
+    lucide.createIcons(card);
+
+    return card;
+  }
+
+  // 타임라인 렌더링
+  function renderTimeline(items) {
+    const container = document.getElementById('timeline-container');
+    container.innerHTML = '';
+
+    if (items.length === 0) {
+      container.innerHTML = '<div class="empty-message">표시할 항목이 없습니다.</div>';
+      return;
+    }
+
+    items.forEach(item => {
+      const card = createFeedCard(item);
+      container.appendChild(card);
+    });
+  }
+
+  // 필터링
+  function filterItems() {
+    let filtered = allItems;
+
+    if (currentFilter === 'watchlist') {
+      filtered = filtered.filter(item => item.category === 'WATCHLIST');
+    } else if (currentFilter === 'major') {
+      filtered = filtered.filter(item => item.category === 'MAJOR');
+    } else if (currentFilter === 'positive') {
+      filtered = filtered.filter(item => item.sentiment === 'POSITIVE');
+    } else if (currentFilter === 'negative') {
+      filtered = filtered.filter(item => item.sentiment === 'NEGATIVE');
+    }
+
+    renderTimeline(filtered);
+    updateRelativeTime();
+  }
+
+  // 필터 버튼 이벤트
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter = btn.dataset.filter;
+      filterItems();
+    });
+  });
+
+  // 피드 로드
+  async function loadStockFeed() {
+    try {
+      const timestamp = new Date().getTime();
+      const response = await fetch(`/assets/data/stock_feed.json?t=${timestamp}`);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      const data = await response.json();
+      allItems = data.items || [];
+
+      // 마지막 업데이트 시간 표시
+      if (data.last_updated) {
+        const lastUpdated = new Date(data.last_updated);
+        document.getElementById('last-updated').textContent = 
+          `마지막 업데이트: ${lastUpdated.toLocaleString('ko-KR')}`;
+      }
+
+      // 초기 렌더링
+      filterItems();
+    } catch (error) {
+      console.error('피드 로드 실패:', error);
+      document.getElementById('timeline-container').innerHTML = 
+        '<div class="error-message">피드를 불러올 수 없습니다. 잠시 후 다시 시도해주세요.</div>';
+    }
+  }
+
+  // 상대 시간 업데이트
+  function updateRelativeTime() {
+    document.querySelectorAll('.feed-time[data-timestamp]').forEach(el => {
+      const timestamp = el.dataset.timestamp;
+      el.textContent = formatRelativeTime(timestamp);
+    });
+  }
+
+  // 페이지 로드 시 피드 로드
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadStockFeed);
+  } else {
+    loadStockFeed();
+  }
+
+  // 1분마다 상대 시간 업데이트
+  setInterval(updateRelativeTime, 60000);
+
+  // 5분마다 피드 새로고침
+  setInterval(loadStockFeed, 300000);
+</script>
