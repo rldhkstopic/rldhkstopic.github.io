@@ -1075,6 +1075,15 @@ body.home-page .site-header {
 .dev-subcategory-icon {
   font-size: 1rem;
   flex-shrink: 0;
+  color: var(--text-secondary);
+  width: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dev-subcategory-link:hover .dev-subcategory-icon {
+  color: var(--accent-color);
 }
 
 .dev-subcategory-title {
