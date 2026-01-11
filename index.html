@@ -95,9 +95,9 @@ layout: default
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
             <span class="category-title">
-              <span class="sidebar-category-icon-wrapper icon-dev">
-                <i data-lucide="code" class="sidebar-category-icon"></i>
-              </span> 개발
+              <span class="sidebar-category-icon-wrapper icon-study">
+                <i data-lucide="book-open" class="sidebar-category-icon"></i>
+              </span> 학습
             </span>
             <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
@@ -105,27 +105,76 @@ layout: default
           </a>
           <ul class="sub-category-list">
             <li class="sub-category-item">
-              <a href="/dev/vhdl/" class="sub-category-link">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                  <line x1="16" y1="13" x2="8" y2="13"></line>
-                  <line x1="16" y1="17" x2="8" y2="17"></line>
-                  <polyline points="10 9 9 9 8 9"></polyline>
+              <a href="#" class="sub-category-link" onclick="event.preventDefault(); toggleSubCategory(this);">
+                <i data-lucide="code" class="sub-category-icon"></i>
+                개발
+                <svg class="sub-category-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
-                VHDL
+              </a>
+              <ul class="sub-sub-category-list">
+                <li class="sub-sub-category-item">
+                  <a href="/dev/" class="sub-sub-category-link">
+                    <i data-lucide="file-text" class="sub-sub-category-icon"></i>
+                    개발일지
+                  </a>
+                </li>
+                <li class="sub-sub-category-item">
+                  <a href="/dev/vhdl/" class="sub-sub-category-link">
+                    <i data-lucide="circuit-board" class="sub-sub-category-icon"></i>
+                    VHDL
+                  </a>
+                </li>
+                <li class="sub-sub-category-item">
+                  <a href="/dev/csharp/" class="sub-sub-category-link">
+                    <i data-lucide="code-2" class="sub-sub-category-icon"></i>
+                    C#
+                  </a>
+                </li>
+                <li class="sub-sub-category-item">
+                  <a href="/dev/ai/" class="sub-sub-category-link">
+                    <i data-lucide="brain" class="sub-sub-category-icon"></i>
+                    AI
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="sub-category-item">
+              <a href="/study/" class="sub-category-link">
+                <i data-lucide="cpu" class="sub-category-icon"></i>
+                FPGA
               </a>
             </li>
             <li class="sub-category-item">
-              <a href="/dev/" class="sub-category-link">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                  <line x1="16" y1="13" x2="8" y2="13"></line>
-                  <line x1="16" y1="17" x2="8" y2="17"></line>
-                  <polyline points="10 9 9 9 8 9"></polyline>
-                </svg>
-                바이브 코딩
+              <a href="/study/" class="sub-category-link">
+                <i data-lucide="help-circle" class="sub-category-icon"></i>
+                모르는 개념
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="category-item">
+          <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
+            <span class="category-title">
+              <span class="sidebar-category-icon-wrapper icon-stock">
+                <i data-lucide="trending-up" class="sidebar-category-icon"></i>
+              </span> 주식
+            </span>
+            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+          <ul class="sub-category-list">
+            <li class="sub-category-item">
+              <a href="/stock/" class="sub-category-link">
+                <i data-lucide="rss" class="sub-category-icon"></i>
+                실시간 뉴스 피드
+              </a>
+            </li>
+            <li class="sub-category-item">
+              <a href="/stock/" class="sub-category-link">
+                <i data-lucide="star" class="sub-category-icon"></i>
+                관심 종목
               </a>
             </li>
           </ul>
@@ -141,56 +190,6 @@ layout: default
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
           </a>
-        </li>
-        <li class="category-item">
-          <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">
-              <span class="sidebar-category-icon-wrapper icon-study">
-                <i data-lucide="book-open" class="sidebar-category-icon"></i>
-              </span> 학습
-            </span>
-            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </a>
-          <ul class="sub-category-list">
-            <li class="sub-category-item">
-              <a href="/study/" class="sub-category-link">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                  <line x1="16" y1="13" x2="8" y2="13"></line>
-                  <line x1="16" y1="17" x2="8" y2="17"></line>
-                  <polyline points="10 9 9 9 8 9"></polyline>
-                </svg>
-                FPGA
-              </a>
-            </li>
-            <li class="sub-category-item">
-              <a href="/study/" class="sub-category-link">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                  <line x1="16" y1="13" x2="8" y2="13"></line>
-                  <line x1="16" y1="17" x2="8" y2="17"></line>
-                  <polyline points="10 9 9 9 8 9"></polyline>
-                </svg>
-                바이브 코딩
-              </a>
-            </li>
-            <li class="sub-category-item">
-              <a href="/study/" class="sub-category-link">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                  <line x1="16" y1="13" x2="8" y2="13"></line>
-                  <line x1="16" y1="17" x2="8" y2="17"></line>
-                  <polyline points="10 9 9 9 8 9"></polyline>
-                </svg>
-                모르는 개념
-              </a>
-            </li>
-          </ul>
         </li>
       </ul>
     </div>
@@ -416,7 +415,7 @@ layout: default
               <i data-lucide="trending-up" class="category-icon"></i>
             </span> 주식
           </h2>
-          <a href="/document/" class="section-more" title="더보기">
+          <a href="/stock/" class="section-more" title="더보기">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="12" y1="5" x2="12" y2="19"></line>
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -424,7 +423,10 @@ layout: default
           </a>
         </div>
         <div class="post-list">
-          {% assign stock_posts = site.posts | where: "category", "document" | where_exp: "post", "post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제'" | limit: 5 %}
+          {% assign stock_posts = site.posts | where: "category", "stock" | limit: 5 %}
+          {% if stock_posts.size == 0 %}
+            {% assign stock_posts = site.posts | where: "category", "document" | where_exp: "post", "post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제'" | limit: 5 %}
+          {% endif %}
           {% if stock_posts.size > 0 %}
             {% for post in stock_posts limit: 5 %}
               <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">

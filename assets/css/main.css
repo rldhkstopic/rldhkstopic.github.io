@@ -997,6 +997,86 @@ body.home-page .site-header {
   color: var(--accent-color);
 }
 
+/* 3단계 카테고리 (sub-sub-category) */
+.sub-category-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+  margin-right: 0.5rem;
+}
+
+.sub-category-arrow {
+  width: 12px;
+  height: 12px;
+  margin-left: auto;
+  color: var(--text-secondary);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.sub-category-item.active .sub-category-arrow {
+  transform: rotate(90deg);
+  color: var(--accent-color);
+}
+
+.sub-sub-category-list {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 1.5rem;
+  padding-top: 0;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              padding-top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sub-category-item.active .sub-sub-category-list {
+  max-height: 500px;
+  opacity: 1;
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+.sub-sub-category-item {
+  padding: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.sub-sub-category-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.75rem;
+  transition: color 0.2s ease;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.sub-sub-category-icon {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+  margin-right: 0.5rem;
+}
+
+.sub-sub-category-item:hover .sub-sub-category-link {
+  color: var(--accent-color);
+}
+
+.sub-sub-category-item:hover .sub-sub-category-icon {
+  color: var(--accent-color);
+}
+
 /* 소개글 패널 */
 .intro-panel {
   background: var(--bg-primary);

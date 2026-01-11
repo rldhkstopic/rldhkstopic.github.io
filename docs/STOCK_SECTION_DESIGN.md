@@ -390,11 +390,13 @@ _layouts/dev-wiki.html              # stock-wiki.html으로 복사하여 활용 
 ```
 
 **제약 사항:**
+
 - 최신 200개 아이템만 유지
 - 오래된 항목 자동 삭제
 - 중복 체크 (ID 기준)
 
 **데이터 타입:**
+
 - `source_type`: `"NEWS"` | `"SNS"` | `"REPORT"`
 - `category`: `"WATCHLIST"` | `"MAJOR"` | `"MARKET"`
 - `sentiment`: `"POSITIVE"` | `"NEGATIVE"` | `"NEUTRAL"` (선택)
@@ -406,10 +408,12 @@ _layouts/dev-wiki.html              # stock-wiki.html으로 복사하여 활용 
 **주요 기능:**
 
 1. **뉴스 수집**
+
    - RSS 피드 (Bloomberg, 한경, 매경 등)
    - 기존 `topic_collector.py` 로직 활용
 
 2. **SNS 수집 (신규)**
+
    - StockTwits: 관심 종목 티커별 인기 포스트
    - Reddit: r/stocks, r/koreastock 'Hot' 게시물
    - (선택) X(Twitter), 토스 주식 토론방
@@ -426,17 +430,17 @@ _layouts/dev-wiki.html              # stock-wiki.html으로 복사하여 활용 
 def collect_stock_feed():
     # 1. 기존 데이터 로드
     existing_items = load_existing_feed()
-    
+
     # 2. 새 데이터 수집
     news_items = collect_rss_news()
     sns_items = collect_sns_posts()
-    
+
     # 3. 중복 제거 및 병합
     all_items = merge_items(existing_items, news_items, sns_items)
-    
+
     # 4. 상위 200개만 유지
     latest_items = sorted(all_items, key=lambda x: x['timestamp'], reverse=True)[:200]
-    
+
     # 5. 저장
     save_feed(latest_items)
 ```
@@ -463,10 +467,12 @@ def collect_stock_feed():
 **기능:**
 
 1. **페이지 로드 시**
+
    - JavaScript로 `stock_feed.json` fetch
    - 캐싱 방지: `?t={timestamp}` 쿼리 파라미터 추가
 
 2. **필터링**
+
    - 전체 / 관심종목 / 주요속보 / 호재/악재
    - 실시간 필터링 (클라이언트 사이드)
 
@@ -479,28 +485,28 @@ def collect_stock_feed():
 
 ```javascript
 async function loadStockFeed() {
-    const timestamp = new Date().getTime();
-    const response = await fetch(`/assets/data/stock_feed.json?t=${timestamp}`);
-    const data = await response.json();
-    
-    renderTimeline(data.items);
-    updateRelativeTime();
+  const timestamp = new Date().getTime();
+  const response = await fetch(`/assets/data/stock_feed.json?t=${timestamp}`);
+  const data = await response.json();
+
+  renderTimeline(data.items);
+  updateRelativeTime();
 }
 
 function renderTimeline(items) {
-    const container = document.getElementById('timeline-container');
-    items.forEach(item => {
-        const card = createFeedCard(item);
-        container.appendChild(card);
-    });
+  const container = document.getElementById("timeline-container");
+  items.forEach((item) => {
+    const card = createFeedCard(item);
+    container.appendChild(card);
+  });
 }
 
 function createFeedCard(item) {
-    const card = document.createElement('div');
-    card.className = `feed-item feed-${item.source_type.toLowerCase()}`;
-    
-    // 카드 내용 구성
-    card.innerHTML = `
+  const card = document.createElement("div");
+  card.className = `feed-item feed-${item.source_type.toLowerCase()}`;
+
+  // 카드 내용 구성
+  card.innerHTML = `
         <div class="feed-header">
             <span class="feed-source">${item.source_name}</span>
             <span class="feed-time" data-timestamp="${item.timestamp}"></span>
@@ -510,8 +516,8 @@ function createFeedCard(item) {
             <a href="${item.url}" target="_blank">원문 보기</a>
         </div>
     `;
-    
-    return card;
+
+  return card;
 }
 ```
 
@@ -520,9 +526,11 @@ function createFeedCard(item) {
 #### `.github/workflows/stock-feed.yml`
 
 **스케줄:**
+
 - 매시 정각 실행 (`cron: '0 * * * *'`)
 
 **권한:**
+
 - 리포지토리에 JSON 파일 push 권한
 
 **구현:**
@@ -532,8 +540,8 @@ name: Stock Feed Update
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 매시 정각
-  workflow_dispatch:  # 수동 실행 가능
+    - cron: "0 * * * *" # 매시 정각
+  workflow_dispatch: # 수동 실행 가능
 
 jobs:
   update-feed:
@@ -545,7 +553,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
       - name: Install dependencies
         run: |
           pip install requests feedparser beautifulsoup4
@@ -585,32 +593,38 @@ assets/css/
 ### 6. 구현 단계
 
 #### Phase 1: 기본 구조 (1-2일)
+
 1. `stock_feed.json` 초기 파일 생성
 2. `stock_feed_agent.py` 기본 구조 구현
 3. RSS 뉴스 수집 로직 구현
 
 #### Phase 2: SNS 수집 (2-3일)
+
 1. StockTwits API 연동
 2. Reddit API 연동
 3. 데이터 병합 로직 구현
 
 #### Phase 3: 프론트엔드 (2일)
+
 1. 타임라인 UI 구현
 2. 필터링 기능
 3. 상대 시간 표시
 
 #### Phase 4: 자동화 (1일)
+
 1. GitHub Actions 워크플로우 생성
 2. 테스트 및 배포
 
 ### 7. 기술 스택
 
 **기존:**
+
 - `requests`: HTTP 요청
 - `feedparser`: RSS 파싱
 - GitHub Actions
 
 **신규:**
+
 - `beautifulsoup4`: 웹 스크래핑 (SNS)
 - `praw`: Reddit API (선택)
 - JavaScript (Fetch API): 프론트엔드
@@ -618,14 +632,17 @@ assets/css/
 ### 8. 고려사항
 
 1. **API 제한**
+
    - StockTwits, Reddit API rate limit 고려
    - 에러 핸들링 및 재시도 로직
 
 2. **데이터 크기**
+
    - JSON 파일 크기 모니터링
    - 200개 제한으로 약 100KB 이하 유지
 
 3. **캐싱**
+
    - 브라우저 캐싱 방지 (`?t={timestamp}`)
    - CDN 캐싱 고려 (Vercel)
 
