@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] Range constraint error / Index out of range"
+title: "⚠️ Range constraint error / Index out of range"
 date: 2026-01-07 13:20:00 +0900
 author: rldhkstopic
 category: dev

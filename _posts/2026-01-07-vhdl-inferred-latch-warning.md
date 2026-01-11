@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] inferred latch"
+title: "⚠️ inferred latch"
 date: 2026-01-07 12:10:00 +0900
 author: rldhkstopic
 category: dev

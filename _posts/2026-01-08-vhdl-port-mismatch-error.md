@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] Port mismatch / Port connection error"
+title: "⚠️ Port mismatch / Port connection error"
 date: 2026-01-08 10:30:00 +0900
 author: rldhkstopic
 category: dev

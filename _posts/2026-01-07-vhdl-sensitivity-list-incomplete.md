@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] Incomplete sensitivity list / Missing signal in sensitivity list"
+title: "⚠️ Incomplete sensitivity list / Missing signal in sensitivity list"
 date: 2026-01-07 13:10:00 +0900
 author: rldhkstopic
 category: dev

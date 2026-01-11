@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] width mismatch"
+title: "⚠️ width mismatch"
 date: 2026-01-07 12:30:00 +0900
 author: rldhkstopic
 category: dev

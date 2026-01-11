@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] NullReferenceException: Object reference not set to an instance of an object"
+title: "⚠️ NullReferenceException: Object reference not set to an instance of an object"
 date: 2026-01-10 22:00:00 +0900
 author: rldhkstopic
 category: dev

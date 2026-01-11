@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] std_logic is not declared"
+title: "⚠️ std_logic is not declared"
 date: 2026-01-07 12:20:00 +0900
 author: rldhkstopic
 category: dev

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] Generic parameter error"
+title: "⚠️ Generic parameter error"
 date: 2026-01-08 11:00:00 +0900
 author: rldhkstopic
 category: dev

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] Multiple signal drivers / Signal has multiple drivers"
+title: "⚠️ Multiple signal drivers / Signal has multiple drivers"
 date: 2026-01-08 11:30:00 +0900
 author: rldhkstopic
 category: dev

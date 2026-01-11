@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] Type mismatch / Type conversion error"
+title: "⚠️ Type mismatch / Type conversion error"
 date: 2026-01-07 13:00:00 +0900
 author: rldhkstopic
 category: dev

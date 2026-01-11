@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] Package/Library not found"
+title: "⚠️ Package/Library not found"
 date: 2026-01-08 10:00:00 +0900
 author: rldhkstopic
 category: dev

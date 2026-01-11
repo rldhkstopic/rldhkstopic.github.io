@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] [DRC MDRV-1] Multiple Driver Nets"
+title: "⚠️ [DRC MDRV-1] Multiple Driver Nets"
 date: 2026-01-07 12:00:00 +0900
 author: rldhkstopic
 category: dev

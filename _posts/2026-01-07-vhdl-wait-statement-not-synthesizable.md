@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[오류] wait statement not supported for synthesis"
+title: "⚠️ wait statement not supported for synthesis"
 date: 2026-01-07 12:40:00 +0900
 author: rldhkstopic
 category: dev
