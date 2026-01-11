@@ -224,6 +224,221 @@ layout: default
 
   <!-- 메인 콘텐츠 영역 -->
   <main class="main-content">
+    <!-- 첫 번째 행: 블로그 컨테이너 -->
+    <div class="blog-container">
+      <!-- 좌측: 최신글 -->
+      <div class="blog-container-left">
+        <!-- 전체 글 리스트 -->
+        <div class="content-section all-posts-section">
+          <div class="section-header">
+            <h2 class="section-title">
+              📚 최신 글
+            </h2>
+            {% if site.posts.size > 5 %}
+            <a href="/blog/" class="section-more" title="전체 글 보기">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </a>
+            {% endif %}
+          </div>
+          <div class="post-list all-posts-list">
+            {% assign all_posts = site.posts | limit: 5 %}
+            {% if all_posts.size > 0 %}
+              {% for post in all_posts limit: 5 %}
+                <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="post-list-title-wrapper">
+                    <span class="post-list-title">{{ post.title | escape }}</span>
+                  </div>
+                  <div class="post-list-meta">
+                    {% assign category_names = 'daily:Daily,dev:Dev,document:Document,study:Study' | split: ',' %}
+                    {% assign category_display = post.category | capitalize %}
+                    {% for cat_pair in category_names %}
+                      {% assign cat_data = cat_pair | split: ':' %}
+                      {% if cat_data[0] == post.category %}
+                        {% assign category_display = cat_data[1] %}
+                        {% break %}
+                      {% endif %}
+                    {% endfor %}
+                    <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                    {% if post.subcategory %}
+                    <span class="post-list-category-path">{{ category_display }} > {{ post.subcategory }}</span>
+                    {% else %}
+                    <span class="post-list-category-path">{{ category_display }}</span>
+                    {% endif %}
+                    <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                  </div>
+                </a>
+              {% endfor %}
+            {% else %}
+              <div class="post-list-item empty">
+                <span>아직 포스트가 없습니다.</span>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <!-- 우측: Daily (위), Document (아래) -->
+      <div class="blog-container-right">
+        <!-- 일상 -->
+        <div class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">👋 Daily</h2>
+            <a href="/daily/" class="section-more" title="더보기">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </a>
+          </div>
+          <div class="post-list">
+            {% assign daily_posts = site.posts | where: "category", "daily" | limit: 5 %}
+            {% if daily_posts.size > 0 %}
+              {% for post in daily_posts limit: 5 %}
+                <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="post-list-title-wrapper">
+                    <span class="post-list-title">{{ post.title | escape }}</span>
+                  </div>
+                  <div class="post-list-meta">
+                    <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                    {% if post.subcategory %}
+                    <span class="post-list-category-path">Daily > {{ post.subcategory }}</span>
+                    {% else %}
+                    <span class="post-list-category-path">Daily</span>
+                    {% endif %}
+                    <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                  </div>
+                </a>
+              {% endfor %}
+            {% else %}
+              <div class="post-list-item empty">
+                <span>아직 포스트가 없습니다.</span>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+
+        <!-- 문서 -->
+        <div class="content-section">
+          <div class="section-header">
+            <h2 class="section-title">📑 Document</h2>
+            <a href="/document/" class="section-more" title="더보기">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </a>
+          </div>
+          <div class="post-list">
+            {% assign document_posts = site.posts | where: "category", "document" | limit: 5 %}
+            {% if document_posts.size > 0 %}
+              {% for post in document_posts limit: 5 %}
+                <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="post-list-title-wrapper">
+                    <span class="post-list-title">{{ post.title | escape }}</span>
+                  </div>
+                  <div class="post-list-meta">
+                    <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                    {% if post.subcategory %}
+                    <span class="post-list-category-path">Document > {{ post.subcategory }}</span>
+                    {% else %}
+                    <span class="post-list-category-path">Document</span>
+                    {% endif %}
+                    <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                  </div>
+                </a>
+              {% endfor %}
+            {% else %}
+              <div class="post-list-item empty">
+                <span>아직 포스트가 없습니다.</span>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 두 번째 행: Dev (좌측), 주식 (우측) -->
+    <div class="bottom-sections">
+      <!-- 개발 -->
+      <div class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">💻 Dev</h2>
+          <a href="/dev/" class="section-more" title="더보기">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </a>
+        </div>
+        <div class="post-list">
+          {% assign dev_posts = site.posts | where: "category", "dev" | limit: 5 %}
+          {% if dev_posts.size > 0 %}
+            {% for post in dev_posts limit: 5 %}
+              <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                <div class="post-list-title-wrapper">
+                  <span class="post-list-title">{{ post.title | escape }}</span>
+                </div>
+                <div class="post-list-meta">
+                  <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                  {% if post.subcategory %}
+                  <span class="post-list-category-path">Dev > {{ post.subcategory }}</span>
+                  {% else %}
+                  <span class="post-list-category-path">Dev</span>
+                  {% endif %}
+                  <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                </div>
+              </a>
+            {% endfor %}
+          {% else %}
+            <div class="post-list-item empty">
+              <span>아직 포스트가 없습니다.</span>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <!-- 주식 관련 -->
+      <div class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">📈 주식</h2>
+          <a href="/document/" class="section-more" title="더보기">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </a>
+        </div>
+        <div class="post-list">
+          {% assign stock_posts = site.posts | where: "category", "document" | where_exp: "post", "post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제'" | limit: 5 %}
+          {% if stock_posts.size > 0 %}
+            {% for post in stock_posts limit: 5 %}
+              <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                <div class="post-list-title-wrapper">
+                  <span class="post-list-title">{{ post.title | escape }}</span>
+                </div>
+                <div class="post-list-meta">
+                  <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
+                  {% if post.subcategory %}
+                  <span class="post-list-category-path">Document > {{ post.subcategory }}</span>
+                  {% else %}
+                  <span class="post-list-category-path">Document</span>
+                  {% endif %}
+                  <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+                </div>
+              </a>
+            {% endfor %}
+          {% else %}
+            <div class="post-list-item empty">
+              <span>아직 포스트가 없습니다.</span>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
     <!-- 모바일/태블릿 상단 1줄 프로필 바 -->
     <div class="mobile-profile-bar" aria-label="프로필">
       {% assign github_username = site.github | split: '/' | last %}
@@ -300,218 +515,6 @@ layout: default
       </div>
     </nav>
 
-    <!-- 전체 글 리스트 -->
-    <div class="content-section all-posts-section">
-      <div class="section-header">
-        <h2 class="section-title">
-          📚 최신 글
-        </h2>
-        {% if site.posts.size > 5 %}
-        <a href="/blog/" class="section-more" title="전체 글 보기">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-          </svg>
-        </a>
-        {% endif %}
-      </div>
-      <div class="post-list all-posts-list">
-        {% assign all_posts = site.posts | limit: 5 %}
-        {% if all_posts.size > 0 %}
-          {% for post in all_posts limit: 5 %}
-            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-              <div class="post-list-title-wrapper">
-                <div class="post-list-title-wrapper">
-                <span class="post-list-title">{{ post.title | escape }}</span>
-              </div>
-              </div>
-              <div class="post-list-meta">
-                {% assign category_names = 'daily:Daily,dev:Dev,document:Document,study:Study' | split: ',' %}
-                {% assign category_display = post.category | capitalize %}
-                {% for cat_pair in category_names %}
-                  {% assign cat_data = cat_pair | split: ':' %}
-                  {% if cat_data[0] == post.category %}
-                    {% assign category_display = cat_data[1] %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                {% if post.subcategory %}
-                <span class="post-list-category-path">{{ category_display }} > {{ post.subcategory }}</span>
-                {% else %}
-                <span class="post-list-category-path">{{ category_display }}</span>
-                {% endif %}
-                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-              </div>
-            </a>
-          {% endfor %}
-        {% else %}
-          <div class="post-list-item empty">
-            <span>아직 포스트가 없습니다.</span>
-          </div>
-        {% endif %}
-      </div>
-    </div>
-
-    <!-- 일상 -->
-    <div class="content-section">
-      <div class="section-header">
-        <h2 class="section-title">👋 Daily</h2>
-        <a href="/daily/" class="section-more" title="더보기">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-          </svg>
-        </a>
-      </div>
-      <div class="post-list">
-        {% assign daily_posts = site.posts | where: "category", "daily" | limit: 5 %}
-        {% if daily_posts.size > 0 %}
-          {% for post in daily_posts limit: 5 %}
-            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-              <div class="post-list-title-wrapper">
-                <div class="post-list-title-wrapper">
-                <span class="post-list-title">{{ post.title | escape }}</span>
-              </div>
-              </div>
-              <div class="post-list-meta">
-                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                {% if post.subcategory %}
-                <span class="post-list-category-path">Daily > {{ post.subcategory }}</span>
-                {% else %}
-                <span class="post-list-category-path">Daily</span>
-                {% endif %}
-                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-              </div>
-            </a>
-          {% endfor %}
-        {% else %}
-          <div class="post-list-item empty">
-            <span>아직 포스트가 없습니다.</span>
-          </div>
-        {% endif %}
-      </div>
-    </div>
-
-    <!-- 개발 -->
-    <div class="content-section">
-      <div class="section-header">
-        <h2 class="section-title">💻 Dev</h2>
-        <a href="/dev/" class="section-more" title="더보기">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-          </svg>
-        </a>
-      </div>
-      <div class="post-list">
-        {% assign dev_posts = site.posts | where: "category", "dev" | limit: 5 %}
-        {% if dev_posts.size > 0 %}
-          {% for post in dev_posts limit: 5 %}
-            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-              <div class="post-list-title-wrapper">
-                <div class="post-list-title-wrapper">
-                <span class="post-list-title">{{ post.title | escape }}</span>
-              </div>
-              </div>
-              <div class="post-list-meta">
-                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                {% if post.subcategory %}
-                <span class="post-list-category-path">Dev > {{ post.subcategory }}</span>
-                {% else %}
-                <span class="post-list-category-path">Dev</span>
-                {% endif %}
-                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-              </div>
-            </a>
-          {% endfor %}
-        {% else %}
-          <div class="post-list-item empty">
-            <span>아직 포스트가 없습니다.</span>
-          </div>
-        {% endif %}
-      </div>
-    </div>
-
-    <!-- 문서 -->
-    <div class="content-section">
-      <div class="section-header">
-        <h2 class="section-title">📑 Document</h2>
-        <a href="/document/" class="section-more" title="더보기">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-          </svg>
-        </a>
-      </div>
-      <div class="post-list">
-        {% assign document_posts = site.posts | where: "category", "document" | limit: 5 %}
-        {% if document_posts.size > 0 %}
-          {% for post in document_posts limit: 5 %}
-            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-              <div class="post-list-title-wrapper">
-                <div class="post-list-title-wrapper">
-                <span class="post-list-title">{{ post.title | escape }}</span>
-              </div>
-              </div>
-              <div class="post-list-meta">
-                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                {% if post.subcategory %}
-                <span class="post-list-category-path">Document > {{ post.subcategory }}</span>
-                {% else %}
-                <span class="post-list-category-path">Document</span>
-                {% endif %}
-                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-              </div>
-            </a>
-          {% endfor %}
-        {% else %}
-          <div class="post-list-item empty">
-            <span>아직 포스트가 없습니다.</span>
-          </div>
-        {% endif %}
-      </div>
-    </div>
-
-    <!-- 스터디 -->
-    <div class="content-section">
-      <div class="section-header">
-        <h2 class="section-title">📖 Study</h2>
-        <a href="/study/" class="section-more" title="더보기">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-          </svg>
-        </a>
-      </div>
-      <div class="post-list">
-        {% assign study_posts = site.posts | where: "category", "study" | limit: 5 %}
-        {% if study_posts.size > 0 %}
-          {% for post in study_posts limit: 5 %}
-            <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-              <div class="post-list-title-wrapper">
-                <div class="post-list-title-wrapper">
-                <span class="post-list-title">{{ post.title | escape }}</span>
-              </div>
-              </div>
-              <div class="post-list-meta">
-                <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                {% if post.subcategory %}
-                <span class="post-list-category-path">Study > {{ post.subcategory }}</span>
-                {% else %}
-                <span class="post-list-category-path">Study</span>
-                {% endif %}
-                <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-              </div>
-            </a>
-          {% endfor %}
-        {% else %}
-          <div class="post-list-item empty">
-            <span>아직 포스트가 없습니다.</span>
-          </div>
-        {% endif %}
-      </div>
-    </div>
   </main>
 </div>
 
