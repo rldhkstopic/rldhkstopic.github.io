@@ -999,6 +999,9 @@ body.home-page .site-header {
   grid-area: main;
   min-height: 600px;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .content-section {
@@ -1006,13 +1009,40 @@ body.home-page .site-header {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   padding: 1rem 1.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   box-shadow: none;
   transition: box-shadow 0.3s ease;
 }
 
 .content-section:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* 블로그 컨테이너 (첫 번째 행) */
+.blog-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.blog-container-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* 하단 섹션 (두 번째 행) */
+.bottom-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
 }
 
 /* 메인 상단 전체 글 리스트 섹션 */
