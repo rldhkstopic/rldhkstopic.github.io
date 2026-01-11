@@ -886,6 +886,10 @@ body.home-page .site-header {
   color: #10b981; /* 초록색 */
 }
 
+.sidebar-category-icon-wrapper.icon-stock .sidebar-category-icon {
+  color: #ef4444; /* 빨간색 */
+}
+
 .sidebar-category-icon-wrapper:hover .sidebar-category-icon {
   transform: scale(1.05);
   opacity: 0.8;

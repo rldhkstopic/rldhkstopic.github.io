@@ -630,4 +630,12 @@ layout: default
   if (typeof lucide !== 'undefined') {
     lucide.createIcons();
   }
+
+  // 3단계 카테고리 토글 함수
+  function toggleSubCategory(element) {
+    const subCategoryItem = element.closest('.sub-category-item');
+    if (subCategoryItem) {
+      subCategoryItem.classList.toggle('active');
+    }
+  }
 </script>
