@@ -2,8 +2,9 @@ name: Stock Feed Update
 
 on:
   schedule:
-    # 매시 정각 실행 (UTC 기준)
-    - cron: '0 * * * *'
+    # 매 30분마다 실행 (UTC 기준)
+    # KST 기준: 매시 00분, 30분
+    - cron: '*/30 * * * *'
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
@@ -27,6 +28,7 @@ jobs:
       - name: Run stock feed agent
         env:
           ECONOMIC_NEWS_RSS_FEEDS: ${{ secrets.ECONOMIC_NEWS_RSS_FEEDS }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           python .github/scripts/stock_feed_agent.py
 

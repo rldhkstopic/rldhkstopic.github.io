@@ -288,12 +288,76 @@ def save_feed(items: List[Dict]):
     print(f"[OK] {len(items)}개 아이템 저장 완료: {STOCK_FEED_JSON_PATH}")
 
 
+def send_sofi_discord_notification(webhook_url: str, items: List[Dict]) -> int:
+    """SOFI 관련 새 뉴스를 Discord로 전송"""
+    if not webhook_url:
+        return 0
+    
+    import requests
+    from datetime import datetime
+    
+    sent_count = 0
+    
+    for item in items:
+        # SOFI 관련 아이템만 필터링
+        tickers = item.get("related_tickers", [])
+        if "SOFI" not in tickers:
+            continue
+        
+        # Discord Embed 생성
+        embed = {
+            "title": f"📰 SOFI 소식: {item.get('content', '')[:100]}",
+            "description": item.get("content", "")[:500],
+            "color": 0x00FF00 if item.get("sentiment") == "POSITIVE" else (0xFF0000 if item.get("sentiment") == "NEGATIVE" else 0x5865F2),
+            "timestamp": item.get("timestamp", datetime.utcnow().isoformat()),
+            "fields": [
+                {
+                    "name": "출처",
+                    "value": f"{item.get('source_name', 'Unknown')} ({item.get('source_type', 'NEWS')})",
+                    "inline": True,
+                },
+                {
+                    "name": "카테고리",
+                    "value": item.get("category", "MARKET"),
+                    "inline": True,
+                },
+            ],
+        }
+        
+        if item.get("sentiment"):
+            embed["fields"].append({
+                "name": "감정 분석",
+                "value": item.get("sentiment", "NEUTRAL"),
+                "inline": True,
+            })
+        
+        if item.get("url"):
+            embed["url"] = item["url"]
+        
+        embed["footer"] = {"text": "Stock Feed Agent"}
+        
+        payload = {"embeds": [embed]}
+        
+        try:
+            response = requests.post(webhook_url.strip().strip('"').strip("'"), json=payload, timeout=10)
+            response.raise_for_status()
+            sent_count += 1
+            print(f"[OK] Discord 알림 전송: {item.get('content', '')[:50]}...")
+        except Exception as e:
+            print(f"[WARN] Discord 알림 전송 실패: {e}")
+    
+    return sent_count
+
+
 def main():
     """메인 함수"""
+    import os
+    
     print("[INFO] 주식 뉴스 피드 수집 시작...")
     
     # 1. 기존 데이터 로드
     existing_items = load_existing_feed()
+    existing_ids = {item["id"] for item in existing_items}
     print(f"[INFO] 기존 아이템: {len(existing_items)}개")
     
     # 2. 새 데이터 수집
@@ -307,10 +371,27 @@ def main():
     
     # 3. 병합
     all_new_items = news_items + reddit_items
+    
+    # 4. SOFI 관련 새 뉴스만 필터링 (Discord 알림용)
+    sofi_new_items = [
+        item for item in all_new_items
+        if item["id"] not in existing_ids and "SOFI" in item.get("related_tickers", [])
+    ]
+    
+    # 5. Discord 알림 전송 (SOFI 관련 새 뉴스만)
+    discord_webhook = os.getenv("DISCORD_WEBHOOK_URL")
+    if sofi_new_items and discord_webhook:
+        print(f"[INFO] SOFI 관련 새 뉴스 {len(sofi_new_items)}개 발견, Discord 알림 전송 중...")
+        sent_count = send_sofi_discord_notification(discord_webhook, sofi_new_items)
+        print(f"[OK] Discord 알림 {sent_count}개 전송 완료")
+    elif sofi_new_items:
+        print(f"[WARN] SOFI 관련 새 뉴스 {len(sofi_new_items)}개 발견했지만 DISCORD_WEBHOOK_URL이 설정되지 않았습니다.")
+    
+    # 6. 병합 및 저장
     merged_items = merge_items(existing_items, all_new_items)
     print(f"[INFO] 병합 후 총 아이템: {len(merged_items)}개")
     
-    # 4. 저장
+    # 7. 저장
     save_feed(merged_items)
     print("[OK] 완료!")
 
