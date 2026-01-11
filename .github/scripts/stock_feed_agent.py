@@ -29,7 +29,7 @@ DEFAULT_FEEDS = [
 ]
 
 # 관심 종목 티커 (한국: 6자리, 미국: 대문자)
-WATCHLIST_TICKERS = ["005930", "000660", "NVDA", "AAPL", "TSLA"]
+WATCHLIST_TICKERS = ["SOFI"]
 
 
 def generate_item_id(url: str, timestamp: str) -> str:
