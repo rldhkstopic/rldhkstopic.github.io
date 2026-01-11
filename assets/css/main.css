@@ -1721,12 +1721,7 @@ body.home-page .site-header {
   padding: 3.5rem 3rem;
 }
 
-.post-container-wide .post-content {
-  font-size: 1.05rem;
-  line-height: 1.85;
-  margin: auto;
-  margin-bottom: 80px;
-}
+/* .post-container-wide .post-content는 기본 .post-content 스타일을 상속 */
 
 .post-container-wide .post-content h2 {
   font-size: 1.875rem;
@@ -1910,14 +1905,17 @@ body.home-page .site-header {
 ----------------------------------------------------------- */
 .post-content {
   font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 17px;
-  line-height: 1.65; /* 가독성을 위한 넉넉한 줄간격 */
+  font-size: 1.05rem;
+  line-height: 1.85;
   color: #333d4b;    /* 토스 다크 그레이 */
   letter-spacing: -0.01em; /* 촘촘한 자간 */
   word-break: keep-all;    /* 한글 단어 끊김 방지 */
   background-color: #ffffff;
   font-weight: 400;
   max-width: 900px; /* 폭 제한 */
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
 
 /* 헤딩 (Headings) - 강한 볼드, 좁은 자간 */
