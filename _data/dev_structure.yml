@@ -6,6 +6,10 @@ subcategories:
     title: "VHDL"
     icon: "💻"
     description: "VHDL 문법, 오류 해결, 예제"
+  - id: csharp
+    title: "C#"
+    icon: "🔷"
+    description: "C# 개발 가이드 및 예제"
     sections:
       - id: errors
         title: "오류 해결 가이드"
