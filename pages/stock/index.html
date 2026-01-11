@@ -51,15 +51,15 @@ permalink: /stock/
     <div class="sidebar-tabs">
       <button class="sidebar-tab active" data-tab="digest">
         <i data-lucide="newspaper" class="tab-icon"></i>
-        <span class="tab-label">경제 뉴스 다이제스트</span>
+        <span class="tab-label">다이제스트</span>
       </button>
       <button class="sidebar-tab" data-tab="realtime">
         <i data-lucide="rss" class="tab-icon"></i>
-        <span class="tab-label">실시간 소식</span>
+        <span class="tab-label">실시간</span>
       </button>
       <button class="sidebar-tab" data-tab="watchlist">
         <i data-lucide="star" class="tab-icon"></i>
-        <span class="tab-label">관심종목 (SOFI)</span>
+        <span class="tab-label">SOFI</span>
       </button>
     </div>
 
@@ -75,11 +75,7 @@ permalink: /stock/
           {% if digest_posts.size > 0 %}
             {% for post in digest_posts %}
               <a href="{{ post.url | relative_url }}" class="digest-item">
-                <div class="digest-item-header">
-                  <span class="digest-item-number">{{ forloop.index }}</span>
-                  <span class="digest-item-date">{{ post.date | date: "%Y.%m.%d" }}</span>
-                </div>
-                <div class="digest-item-title">{{ post.title | escape }}</div>
+                <div class="digest-item-date-only">{{ post.date | date: "%Y.%m.%d" }}</div>
               </a>
             {% endfor %}
           {% else %}
@@ -92,10 +88,23 @@ permalink: /stock/
       <div class="tab-panel" id="panel-realtime">
         <div class="panel-header">
           <h3>실시간 뉴스</h3>
-          <span class="panel-subtitle" id="realtime-updated">마지막 업데이트: 로딩 중...</span>
         </div>
         <div class="realtime-list" id="realtime-list">
-          <div class="loading-message">로딩 중...</div>
+          {% assign recent_stock_posts = site.posts | where_exp: "post", "post.category == 'document' and (post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제')" | limit: 10 %}
+          {% if recent_stock_posts.size > 0 %}
+            {% for post in recent_stock_posts %}
+              <div class="realtime-item">
+                <div class="realtime-item-header">
+                  <span class="realtime-source">블로그</span>
+                  <span class="realtime-time">{{ post.date | date: "%Y.%m.%d" }}</span>
+                </div>
+                <div class="realtime-content">{{ post.title | escape }}</div>
+                <a href="{{ post.url | relative_url }}" class="realtime-link">자세히 보기 →</a>
+              </div>
+            {% endfor %}
+          {% else %}
+            <div class="empty-message">실시간 뉴스가 없습니다.</div>
+          {% endif %}
         </div>
       </div>
 
@@ -103,10 +112,23 @@ permalink: /stock/
       <div class="tab-panel" id="panel-watchlist">
         <div class="panel-header">
           <h3>SOFI 소식</h3>
-          <span class="panel-subtitle">SoFi Technologies, Inc.</span>
         </div>
         <div class="watchlist-list" id="watchlist-list">
-          <div class="loading-message">로딩 중...</div>
+          {% assign sofi_posts = site.posts | where_exp: "post", "post.title contains 'SOFI' or post.title contains 'SoFi' or post.tags contains 'SOFI' or post.content contains 'SOFI' or post.content contains 'SoFi'" | limit: 10 %}
+          {% if sofi_posts.size > 0 %}
+            {% for post in sofi_posts %}
+              <div class="watchlist-item">
+                <div class="watchlist-item-header">
+                  <span class="watchlist-source">블로그</span>
+                  <span class="watchlist-time">{{ post.date | date: "%Y.%m.%d" }}</span>
+                </div>
+                <div class="watchlist-content">{{ post.title | escape }}</div>
+                <a href="{{ post.url | relative_url }}" class="watchlist-link">자세히 보기 →</a>
+              </div>
+            {% endfor %}
+          {% else %}
+            <div class="empty-message">SOFI 관련 소식이 없습니다.</div>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -136,13 +158,6 @@ permalink: /stock/
       document.getElementById(`panel-${tabId}`).classList.add('active');
       
       currentTab = tabId;
-      
-      // 탭별 데이터 로드
-      if (tabId === 'realtime') {
-        loadRealtimeFeed();
-      } else if (tabId === 'watchlist') {
-        loadWatchlistFeed();
-      }
     });
   });
 
@@ -168,115 +183,7 @@ permalink: /stock/
 
   // 다이제스트는 Liquid 템플릿으로 렌더링되므로 별도 로드 불필요
 
-  // 실시간 피드 로드
-  async function loadRealtimeFeed() {
-    try {
-      const timestamp = new Date().getTime();
-      const response = await fetch(`/assets/data/stock_feed.json?t=${timestamp}`);
-      
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-
-      const data = await response.json();
-      allFeedItems = data.items || [];
-
-      if (data.last_updated) {
-        const lastUpdated = new Date(data.last_updated);
-        document.getElementById('realtime-updated').textContent = 
-          `마지막 업데이트: ${lastUpdated.toLocaleString('ko-KR')}`;
-      }
-
-      renderRealtimeFeed(allFeedItems.slice(0, 10));
-    } catch (error) {
-      console.error('실시간 피드 로드 실패:', error);
-      document.getElementById('realtime-list').innerHTML = 
-        '<div class="error-message">피드를 불러올 수 없습니다.</div>';
-    }
-  }
-
-  // 실시간 피드 렌더링
-  function renderRealtimeFeed(items) {
-    const container = document.getElementById('realtime-list');
-    
-    if (items.length === 0) {
-      container.innerHTML = '<div class="empty-message">표시할 항목이 없습니다.</div>';
-      return;
-    }
-
-    container.innerHTML = items.map(item => {
-      const sentimentBadge = item.sentiment === 'POSITIVE' 
-        ? '<span class="sentiment-badge positive">호재</span>'
-        : item.sentiment === 'NEGATIVE'
-        ? '<span class="sentiment-badge negative">악재</span>'
-        : '';
-      
-      return `
-        <div class="realtime-item">
-          <div class="realtime-item-header">
-            <span class="realtime-source">${item.source_name}</span>
-            ${sentimentBadge}
-            <span class="realtime-time">${formatRelativeTime(item.timestamp)}</span>
-          </div>
-          <div class="realtime-content">${item.content.substring(0, 150)}${item.content.length > 150 ? '...' : ''}</div>
-          <a href="${item.url}" target="_blank" rel="noopener" class="realtime-link">원문 보기 →</a>
-        </div>
-      `;
-    }).join('');
-  }
-
-  // 관심종목 (SOFI) 피드 로드
-  async function loadWatchlistFeed() {
-    try {
-      const timestamp = new Date().getTime();
-      const response = await fetch(`/assets/data/stock_feed.json?t=${timestamp}`);
-      
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-
-      const data = await response.json();
-      const sofiItems = (data.items || []).filter(item => 
-        item.related_tickers && item.related_tickers.includes('SOFI')
-      ).slice(0, 10);
-
-      renderWatchlistFeed(sofiItems);
-    } catch (error) {
-      console.error('관심종목 피드 로드 실패:', error);
-      document.getElementById('watchlist-list').innerHTML = 
-        '<div class="error-message">피드를 불러올 수 없습니다.</div>';
-    }
-  }
-
-  // 관심종목 피드 렌더링
-  function renderWatchlistFeed(items) {
-    const container = document.getElementById('watchlist-list');
-    
-    if (items.length === 0) {
-      container.innerHTML = '<div class="empty-message">SOFI 관련 소식이 없습니다.</div>';
-      return;
-    }
-
-    container.innerHTML = items.map(item => {
-      const sentimentBadge = item.sentiment === 'POSITIVE' 
-        ? '<span class="sentiment-badge positive">호재</span>'
-        : item.sentiment === 'NEGATIVE'
-        ? '<span class="sentiment-badge negative">악재</span>'
-        : '';
-      
-      return `
-        <div class="watchlist-item">
-          <div class="watchlist-item-header">
-            <span class="watchlist-source">${item.source_name}</span>
-            ${sentimentBadge}
-            <span class="watchlist-time">${formatRelativeTime(item.timestamp)}</span>
-          </div>
-          <div class="watchlist-content">${item.content}</div>
-          <a href="${item.url}" target="_blank" rel="noopener" class="watchlist-link">원문 보기 →</a>
-        </div>
-      `;
-    }).join('');
-  }
+  // 실시간 소식과 관심종목은 Liquid 템플릿으로 렌더링되므로 별도 로드 불필요
 
   // 차트 새로고침
   document.getElementById('refresh-chart')?.addEventListener('click', () => {
@@ -306,29 +213,5 @@ permalink: /stock/
     }
   });
 
-  // 초기 로드
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      if (currentTab === 'realtime') {
-        loadRealtimeFeed();
-      } else if (currentTab === 'watchlist') {
-        loadWatchlistFeed();
-      }
-    });
-  } else {
-    if (currentTab === 'realtime') {
-      loadRealtimeFeed();
-    } else if (currentTab === 'watchlist') {
-      loadWatchlistFeed();
-    }
-  }
-
-  // 5분마다 실시간 피드 업데이트
-  setInterval(() => {
-    if (currentTab === 'realtime') {
-      loadRealtimeFeed();
-    } else if (currentTab === 'watchlist') {
-      loadWatchlistFeed();
-    }
-  }, 300000);
+  // 모든 데이터는 Liquid 템플릿으로 렌더링되므로 별도 로드 불필요
 </script>

@@ -115,6 +115,12 @@
   min-height: 800px !important;
 }
 
+.tradingview-widget-container__widget iframe {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 800px !important;
+}
+
 /* 사이드바 */
 .stock-sidebar {
   display: flex;
@@ -248,12 +254,13 @@
 
 .digest-item {
   display: block;
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   background: var(--bg-secondary);
   border: 1px solid var(--border-color);
   border-radius: 6px;
   text-decoration: none;
   transition: all 0.2s ease;
+  text-align: center;
 }
 
 .digest-item:hover {
@@ -263,36 +270,9 @@
   box-shadow: var(--shadow-sm);
 }
 
-.digest-item-header {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.digest-item-number {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: var(--accent-color);
-  color: white;
-  border-radius: 50%;
-  font-size: 0.75rem;
-  font-weight: 600;
-  flex-shrink: 0;
-}
-
-.digest-item-date {
-  font-size: 0.75rem;
-  color: var(--text-secondary);
-}
-
-.digest-item-title {
+.digest-item-date-only {
   font-size: 0.875rem;
   color: var(--text-primary);
-  line-height: 1.5;
   font-weight: 500;
 }
 
