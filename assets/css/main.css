@@ -1990,7 +1990,7 @@ body.home-page .site-header {
 
 .post-content pre code {
   background-color: transparent;
-  color: #ffffff;
+  color: #24292e; /* 다크 텍스트 (라이트 테마) */
   padding: 0;
   font-size: 14px;
   line-height: 1.5;
@@ -1998,15 +1998,15 @@ body.home-page .site-header {
   box-shadow: none;
 }
 
-/* Code block wrapper + header (DOM-based, avoids overlap) */
+/* Code block wrapper + header (DOM-based, avoids overlap) - 라이트 테마 */
 .code-block {
   margin-bottom: 5px;
   height: fit-content;
-  border: 1px solid var(--code-border);
+  border: 1px solid #e5e8eb; /* 연한 테두리 */
   border-radius: 8px;
   overflow: hidden;
-  background: unset;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: #ffffff; /* 라이트 배경 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 [data-theme="dark"] .code-block {
@@ -2022,13 +2022,13 @@ body.home-page .site-header {
 }
 
 .code-block-header {
-  height: 25px;
+  height: 32px;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 0 10px;
-  background-color: rgba(82, 82, 82, 1);
-  border-bottom: 1px solid var(--code-border);
+  padding: 0 12px;
+  background-color: #f6f8fa; /* 연한 회색 배경 */
+  border-bottom: 1px solid #e5e8eb;
 }
 
 .code-block-dots {
@@ -2045,7 +2045,7 @@ body.home-page .site-header {
 .code-block-lang {
   flex: 1 1 auto;
   text-align: left;
-  color: var(--accent-light);
+  color: #586069; /* 회색 텍스트 */
   font-size: 0.75rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -2062,7 +2062,7 @@ body.home-page .site-header {
   justify-content: flex-end;
   background: unset;
   border: none;
-  color: rgba(255, 255, 255, 1);
+  color: #586069; /* 회색 텍스트 */
 }
 
 .code-block-header .code-expand-btn {
@@ -2071,7 +2071,7 @@ body.home-page .site-header {
   border-radius: 4px;
   border: none;
   background: none;
-  color: var(--accent-light);
+  color: #586069; /* 회색 텍스트 */
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2113,16 +2113,16 @@ body.home-page .site-header {
   transform: translateY(0);
 }
 
-/* 블록 코드 */
+/* 블록 코드 - 라이트 테마 (CodeSandbox 스타일) */
 .post-content pre {
-  background-color: #1b1b1b; /* 다크 모드 배경 */
-  border-radius: 12px;
-  padding: 20px;
+  background-color: #ffffff; /* 라이트 배경 */
+  border: 1px solid #e5e8eb; /* 연한 테두리 */
+  border-radius: 8px;
+  padding: 16px;
   margin: 24px 0;
   overflow-x: auto;
   /* Wrapped by .code-block, so keep pre itself minimal */
-  border: none;
-  box-shadow: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   position: relative; /* line-numbers rows positioning */
   min-height: 100px;
   max-height: 380px;
@@ -2226,11 +2226,12 @@ body.home-page .site-header {
   border-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-image: none;
+  color: #24292e; /* 다크 텍스트 (라이트 테마) */
 }
 
 /* Prism.js 토큰이 색상을 제어하도록 기본 색상은 토큰이 없을 때만 적용 */
 .post-content .code-block-content > code {
-  color: var(--code-text);
+  color: #24292e; /* 다크 텍스트 (라이트 테마) */
 }
 
 /* Prism.js 토큰이 있으면 토큰 색상 사용 */
@@ -2239,8 +2240,8 @@ body.home-page .site-header {
 }
 
 .post-content .code-block-content > .line-numbers {
-  width: 2.2em;
-  padding-right: 0;
+  width: 3em;
+  padding-right: 12px;
   padding-top: 5px;
   position: relative;
   line-height: var(--code-line-height) !important;
@@ -2248,16 +2249,18 @@ body.home-page .site-header {
   border-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-image: none;
-  margin-right: 5px;
+  margin-right: 16px;
   height: auto;
   display: flex;
   flex-direction: column;
   left: 0;
   top: 0;
   z-index: 1;
-  text-align: center;
+  text-align: right;
   font-family: Consolas, 'Courier New', monospace;
-  font-size: 14px;
+  font-size: 13px;
+  color: #6a737d; /* 연한 회색 라인 넘버 */
+  user-select: none;
 }
 
 .post-content .code-block-content > .line-numbers > span {
@@ -2266,9 +2269,9 @@ body.home-page .site-header {
   line-height: var(--code-line-height);
   overflow: hidden;
   text-align: right;
-  padding-right: 0.5em;
-  color: var(--code-text);
-  opacity: 0.5;
+  padding-right: 0;
+  color: #6a737d; /* 연한 회색 라인 넘버 */
+  opacity: 1;
   user-select: none;
 }
 
@@ -2434,7 +2437,7 @@ body.home-page .site-header {
 .post-content pre:not(.highlight) code {
   background: transparent;
   padding: 0.75rem 1rem;
-  color: var(--code-text);
+  color: #24292e; /* 다크 텍스트 (라이트 테마) */
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.6;
