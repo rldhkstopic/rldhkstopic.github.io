@@ -104,7 +104,9 @@ permalink: /dev/vhdl/
       </div>
       <div class="post-list">
         {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | sort: "date" | reverse %}
-        {% assign other_posts = vhdl_posts | where_exp: "post", "post.title contains '문법' == false and post.title contains '레퍼런스' == false and post.title contains '오류' == false and post.title contains 'error' == false and post.title contains 'Error' == false" | limit: 5 %}
+        {% assign syntax_ids = syntax_posts | map: "url" %}
+        {% assign error_ids = error_posts | map: "url" %}
+        {% assign other_posts = vhdl_posts | reject: "url", syntax_ids | reject: "url", error_ids | limit: 5 %}
         {% if other_posts.size > 0 %}
           {% for post in other_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
