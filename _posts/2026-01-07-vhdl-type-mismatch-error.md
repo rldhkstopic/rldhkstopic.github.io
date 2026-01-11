@@ -120,4 +120,3 @@ VHDL은 강타입 언어이므로, C나 Python처럼 암묵적 타입 변환이 
 [^1]: [VHDL type conversion](https://stackoverflow.com/questions/tagged/vhdl+type-conversion)
 [^2]: [Converting between std_logic_vector and integer](https://stackoverflow.com/questions/13954193/converting-between-std-logic-vector-and-integer)
 [^3]: [VHDL std_logic to std_logic_vector conversion](https://stackoverflow.com/questions/10654485/vhdl-std-logic-to-std-logic-vector-conversion)
-

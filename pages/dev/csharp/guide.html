@@ -1,0 +1,256 @@
+---
+layout: dev-wiki
+title: C# 전체 문법 가이드
+permalink: /dev/csharp/guide/
+---
+
+<div class="dev-wiki-doc-content">
+  <h1>C# 전체 문법 가이드</h1>
+  <p class="dev-wiki-doc-intro">C# 문법을 체계적으로 학습할 수 있는 튜토리얼 가이드입니다.</p>
+
+  <!-- 00. C# 코드 구조 -->
+  <section class="dev-wiki-guide-section">
+    <h2>00. C# 코드 구조</h2>
+    <p>C# 프로그램은 기본적으로 네임스페이스, 클래스, 메서드로 구성됩니다.</p>
+
+    <h3>• using - 네임스페이스 선언</h3>
+    <p>• 외부 라이브러리나 네임스페이스를 사용하기 위한 선언</p>
+    <div class="dev-wiki-code-block">
+      <pre><code>using System;
+using System.Collections.Generic;</code></pre>
+    </div>
+
+    <h3>• namespace - 네임스페이스 정의</h3>
+    <ul>
+      <li>코드를 논리적으로 그룹화하는 컨테이너</li>
+      <li>클래스 이름 충돌을 방지</li>
+    </ul>
+    <div class="dev-wiki-code-block">
+      <pre><code>namespace MyProject
+{
+  // 클래스 정의
+}</code></pre>
+    </div>
+
+    <h3>• class - 클래스 정의</h3>
+    <ul>
+      <li>객체 지향 프로그래밍의 기본 단위</li>
+      <li>데이터와 메서드를 캡슐화</li>
+    </ul>
+    <div class="dev-wiki-code-block">
+      <pre><code>namespace MyProject
+{
+  public class MyClass
+  {
+    // 필드, 속성, 메서드 정의
+  }
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- 01. C# 기본 문법 -->
+  <section class="dev-wiki-guide-section">
+    <h2>01. C# 기본 문법</h2>
+    <p>변수, 데이터 타입, 연산자 등 C#의 기본 문법을 학습합니다.</p>
+    
+    <h3>변수 선언</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>// 명시적 타입 선언
+int number = 10;
+string text = "Hello";
+bool isActive = true;
+
+// var 키워드 (타입 추론)
+var name = "World";
+var count = 5;</code></pre>
+    </div>
+
+    <h3>데이터 타입</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>// 정수형
+int integer = 42;
+long bigInteger = 1000000L;
+short smallInteger = 100;
+
+// 실수형
+float f = 3.14f;
+double d = 3.14159;
+decimal money = 100.50m;
+
+// 문자형
+char ch = 'A';
+string str = "Hello World";
+
+// 불린형
+bool flag = true;</code></pre>
+    </div>
+  </section>
+
+  <!-- 02. C# 제어문 -->
+  <section class="dev-wiki-guide-section">
+    <h2>02. C# 제어문</h2>
+    <p>조건문과 반복문을 사용하는 방법입니다.</p>
+    
+    <h3>if-else 문</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>int score = 85;
+
+if (score >= 90)
+{
+  Console.WriteLine("A");
+}
+else if (score >= 80)
+{
+  Console.WriteLine("B");
+}
+else
+{
+  Console.WriteLine("C");
+}</code></pre>
+    </div>
+
+    <h3>switch 문</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>int day = 3;
+
+switch (day)
+{
+  case 1:
+    Console.WriteLine("Monday");
+    break;
+  case 2:
+    Console.WriteLine("Tuesday");
+    break;
+  default:
+    Console.WriteLine("Other day");
+    break;
+}</code></pre>
+    </div>
+
+    <h3>for 루프</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>for (int i = 0; i < 10; i++)
+{
+  Console.WriteLine(i);
+}</code></pre>
+    </div>
+
+    <h3>foreach 루프</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>int[] numbers = {1, 2, 3, 4, 5};
+
+foreach (int num in numbers)
+{
+  Console.WriteLine(num);
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- 03. C# 클래스와 객체 -->
+  <section class="dev-wiki-guide-section">
+    <h2>03. C# 클래스와 객체</h2>
+    <p>클래스를 정의하고 객체를 생성하는 방법입니다.</p>
+    
+    <h3>클래스 정의 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>public class Person
+{
+  // 필드
+  private string name;
+  private int age;
+
+  // 생성자
+  public Person(string name, int age)
+  {
+    this.name = name;
+    this.age = age;
+  }
+
+  // 속성
+  public string Name
+  {
+    get { return name; }
+    set { name = value; }
+  }
+
+  // 메서드
+  public void Display()
+  {
+    Console.WriteLine($"Name: {name}, Age: {age}");
+  }
+}</code></pre>
+    </div>
+
+    <h3>객체 생성 및 사용</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>Person person = new Person("John", 30);
+person.Display();
+person.Name = "Jane";</code></pre>
+    </div>
+  </section>
+
+  <!-- 04. C# 컬렉션 -->
+  <section class="dev-wiki-guide-section">
+    <h2>04. C# 컬렉션</h2>
+    <p>리스트, 딕셔너리 등 컬렉션을 사용하는 방법입니다.</p>
+    
+    <h3>List 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>using System.Collections.Generic;
+
+List&lt;string&gt; names = new List&lt;string&gt;();
+names.Add("Alice");
+names.Add("Bob");
+names.Add("Charlie");
+
+foreach (string name in names)
+{
+  Console.WriteLine(name);
+}</code></pre>
+    </div>
+
+    <h3>Dictionary 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>Dictionary&lt;string, int&gt; ages = new Dictionary&lt;string, int&gt;();
+ages["Alice"] = 25;
+ages["Bob"] = 30;
+
+Console.WriteLine(ages["Alice"]); // 25</code></pre>
+    </div>
+  </section>
+
+  <!-- 05. C# 예외 처리 -->
+  <section class="dev-wiki-guide-section">
+    <h2>05. C# 예외 처리</h2>
+    <p>try-catch-finally를 사용한 예외 처리 방법입니다.</p>
+    
+    <h3>예외 처리 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>try
+{
+  int result = 10 / 0;
+}
+catch (DivideByZeroException ex)
+{
+  Console.WriteLine($"Error: {ex.Message}");
+}
+catch (Exception ex)
+{
+  Console.WriteLine($"General error: {ex.Message}");
+}
+finally
+{
+  Console.WriteLine("This always executes");
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- 관련 문서 링크 -->
+  <section class="dev-wiki-guide-section">
+    <h2>관련 문서</h2>
+    <ul>
+      <li><a href="/dev/csharp/examples/">C# 예제 코드</a></li>
+      <li><a href="/dev/csharp/errors/">C# 오류 해결 가이드</a></li>
+    </ul>
+  </section>
+</div>

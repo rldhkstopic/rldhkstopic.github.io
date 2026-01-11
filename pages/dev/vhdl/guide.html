@@ -1,0 +1,242 @@
+---
+layout: dev-wiki
+title: VHDL 전체 문법 가이드
+permalink: /dev/vhdl/guide/
+---
+
+<div class="dev-wiki-doc-content">
+  <h1>VHDL 전체 문법 가이드</h1>
+  <p class="dev-wiki-doc-intro">VHDL 문법을 체계적으로 학습할 수 있는 튜토리얼 가이드입니다.</p>
+
+  <!-- 00. VHDL 코드 구조 -->
+  <section class="dev-wiki-guide-section">
+    <h2>00. VHDL 코드 구조</h2>
+    <p>VHDL 코드는 기본적으로 세 가지 주요 구성 요소로 이루어집니다.</p>
+
+    <h3>• Library - VHDL에서 사용하는 라이브러리 선언</h3>
+    <p>• use - 선언한 라이브러리를 사용</p>
+    <div class="dev-wiki-code-block">
+      <pre><code>library ieee;
+use ieee.std_logic_1164.all; -- std_logic 타입과 관련된 기능을 제공</code></pre>
+    </div>
+
+    <h3>• Entity - 입출력 포트 설정</h3>
+    <ul>
+      <li>실제 입력, 출력 신호를 설정하는 작업으로 외부적으로 볼 때 노출되어 있는 부분</li>
+      <li>Verilog의 module에서 포트 선언과 유사</li>
+    </ul>
+    <div class="dev-wiki-code-block">
+      <pre><code>entity entity_name is
+port (
+  in1: in std_logic;
+  in2: in std_logic;
+  and_o: out std_logic;
+  or_o: out std_logic
+);
+end entity_name;</code></pre>
+    </div>
+
+    <h3>• Architecture - entity의 동작이나 구조 설정</h3>
+    <ul>
+      <li>내부에서 동작하는 logic 설계 및 필요한 signal 선언</li>
+      <li>Verilog의 module의 내부 구현 부분과 유사</li>
+    </ul>
+    <div class="dev-wiki-code-block">
+      <pre><code>architecture architecture_name of entity_name is
+signal and_s : std_logic;
+signal or_s : std_logic;
+begin
+  -- 내부 로직 구현
+end architecture_name;</code></pre>
+    </div>
+  </section>
+
+  <!-- 01. VHDL 게이트 설계 -->
+  <section class="dev-wiki-guide-section">
+    <h2>01. VHDL 게이트 설계</h2>
+    <p>기본 논리 게이트(AND, OR, NOT 등)를 VHDL로 설계하는 방법입니다.</p>
+    
+    <h3>AND 게이트 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>library ieee;
+use ieee.std_logic_1164.all;
+
+entity and_gate is
+port (
+  a : in std_logic;
+  b : in std_logic;
+  y : out std_logic
+);
+end and_gate;
+
+architecture behavioral of and_gate is
+begin
+  y <= a and b;
+end behavioral;</code></pre>
+    </div>
+  </section>
+
+  <!-- 02. VHDL MUX 설계 -->
+  <section class="dev-wiki-guide-section">
+    <h2>02. VHDL MUX 설계</h2>
+    <p>멀티플렉서(Multiplexer)를 VHDL로 설계하는 방법입니다.</p>
+    
+    <h3>2-to-1 MUX 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux_2to1 is
+port (
+  sel : in std_logic;
+  a   : in std_logic;
+  b   : in std_logic;
+  y   : out std_logic
+);
+end mux_2to1;
+
+architecture behavioral of mux_2to1 is
+begin
+  y <= a when sel = '0' else b;
+end behavioral;</code></pre>
+    </div>
+  </section>
+
+  <!-- 03. VHDL Flipflop 설계 -->
+  <section class="dev-wiki-guide-section">
+    <h2>03. VHDL Flipflop 설계</h2>
+    <p>플립플롭(Flip-flop)을 VHDL로 설계하는 방법입니다.</p>
+    
+    <h3>D Flip-flop 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>library ieee;
+use ieee.std_logic_1164.all;
+
+entity d_flipflop is
+port (
+  clk : in std_logic;
+  rst : in std_logic;
+  d   : in std_logic;
+  q   : out std_logic
+);
+end d_flipflop;
+
+architecture behavioral of d_flipflop is
+begin
+  process(clk, rst)
+  begin
+    if rst = '1' then
+      q <= '0';
+    elsif rising_edge(clk) then
+      q <= d;
+    end if;
+  end process;
+end behavioral;</code></pre>
+    </div>
+  </section>
+
+  <!-- 04. VHDL Counter 설계 -->
+  <section class="dev-wiki-guide-section">
+    <h2>04. VHDL Counter 설계</h2>
+    <p>카운터(Counter)를 VHDL로 설계하는 방법입니다.</p>
+    
+    <h3>4-bit Counter 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity counter_4bit is
+port (
+  clk : in std_logic;
+  rst : in std_logic;
+  cnt : out unsigned(3 downto 0)
+);
+end counter_4bit;
+
+architecture behavioral of counter_4bit is
+  signal count : unsigned(3 downto 0);
+begin
+  process(clk, rst)
+  begin
+    if rst = '1' then
+      count <= (others => '0');
+    elsif rising_edge(clk) then
+      count <= count + 1;
+    end if;
+  end process;
+  cnt <= count;
+end behavioral;</code></pre>
+    </div>
+  </section>
+
+  <!-- 05. 개념 정리 및 쉬어가는 시간 -->
+  <section class="dev-wiki-guide-section">
+    <h2>05. 개념 정리 및 쉬어가는 시간</h2>
+    <p>지금까지 학습한 내용을 정리하고, 추가 개념을 설명합니다.</p>
+    
+    <h3>주요 개념 정리</h3>
+    <ul>
+      <li><strong>Entity</strong>: 외부 인터페이스 정의</li>
+      <li><strong>Architecture</strong>: 내부 동작 구현</li>
+      <li><strong>Signal</strong>: 하드웨어 신호 (동시 할당)</li>
+      <li><strong>Variable</strong>: 소프트웨어 변수 (순차 할당)</li>
+      <li><strong>Process</strong>: 순차 로직 블록</li>
+    </ul>
+  </section>
+
+  <!-- 06. VHDL FSM 설계 -->
+  <section class="dev-wiki-guide-section">
+    <h2>06. VHDL FSM 설계</h2>
+    <p>유한 상태 머신(Finite State Machine)을 VHDL로 설계하는 방법입니다.</p>
+    
+    <h3>간단한 FSM 예제</h3>
+    <div class="dev-wiki-code-block">
+      <pre><code>library ieee;
+use ieee.std_logic_1164.all;
+
+entity simple_fsm is
+port (
+  clk : in std_logic;
+  rst : in std_logic;
+  input : in std_logic;
+  output : out std_logic
+);
+end simple_fsm;
+
+architecture behavioral of simple_fsm is
+  type state_type is (S0, S1, S2);
+  signal state : state_type;
+begin
+  process(clk, rst)
+  begin
+    if rst = '1' then
+      state <= S0;
+    elsif rising_edge(clk) then
+      case state is
+        when S0 =>
+          if input = '1' then
+            state <= S1;
+          end if;
+        when S1 =>
+          state <= S2;
+        when S2 =>
+          state <= S0;
+      end case;
+    end if;
+  end process;
+  
+  output <= '1' when state = S2 else '0';
+end behavioral;</code></pre>
+    </div>
+  </section>
+
+  <!-- 관련 문서 링크 -->
+  <section class="dev-wiki-guide-section">
+    <h2>관련 문서</h2>
+    <ul>
+      <li><a href="/dev/vhdl/syntax/">VHDL 문법 레퍼런스</a></li>
+      <li><a href="/dev/vhdl/errors/">VHDL 오류 해결 가이드</a></li>
+    </ul>
+  </section>
+</div>
