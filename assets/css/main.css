@@ -28,8 +28,8 @@
   --code-text: #24292E;
   --code-header-bg: rgba(0, 0, 0, 0.03);
   --code-header-text: #586069;
-  /* 코드 블럭 라인 높이(라인넘버/코드 동기화용) */
-  --code-line-height: 32px;
+  /* 코드 블럭 라인 높이(라인넘버/코드 동기화용) - CodeSandbox 스타일 */
+  --code-line-height: 20px;
 }
 
 [data-theme="dark"] {
@@ -2132,40 +2132,7 @@ body.home-page .site-header {
   transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.post-content pre.line-numbers {
-  padding-top: 0;
-  padding-left: 2.5em; /* VSCode style: reduced gutter */
-}
-
-.post-content pre.highlight.line-numbers {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-/* VSCode style: minimal padding */
-.post-content pre code {
-  padding: 0.75rem 1rem;
-}
-
-.post-content pre.line-numbers > code {
-  padding-left: 0.5rem;
-}
-
-.post-content pre.line-numbers .line-numbers-rows {
-  width: 2.2em;
-  padding-right: 0;
-  padding-top: 5px;
-  position: static;
-  line-height: var(--code-line-height);
-  border-right-width: 0px;
-  border-right-color: transparent;
-  border-right-style: none;
-  border-image: none;
-  margin-right: 5px;
-  height: fit-content;
-}
+/* 라인 넘버 관련 스타일 제거 - .code-block-content 구조 사용 */
 
 .post-content pre:focus {
   outline: none;
@@ -2190,10 +2157,11 @@ body.home-page .site-header {
   height: 100%;
 }
 
-/* Code block content wrapper (replaces pre.highlight) */
+/* Code block content wrapper (replaces pre.highlight) - 라이트 테마 */
 .post-content .code-block-content {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   padding: 0;
   margin: 0;
   border: none;
@@ -2202,31 +2170,29 @@ body.home-page .site-header {
   max-height: 380px;
   /* Scroll the wrapper so line numbers move with code */
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
   position: relative;
+  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
+  font-size: 14px;
+  line-height: 20px; /* CodeSandbox 스타일: 20px 고정 */
 }
 
+/* 코드 영역 - 라인 넘버와 정확히 맞춤 */
 .post-content .code-block-content > code {
   display: block;
-  padding: 0.75rem 1rem;
-  padding-top: 4px;
-  padding-bottom: 5px;
-  padding-left: 0;
-  background: transparent;
-  font-size: 0.875rem;
-  line-height: var(--code-line-height) !important;
-  overflow-x: auto;
-  /* Vertical scroll must be on wrapper to sync with line numbers */
-  overflow-y: visible;
-  transition: color 0.2s ease;
   flex: 1;
-  min-height: 0;
-  max-height: none;
-  border-width: 0px;
-  border-color: rgba(0, 0, 0, 0);
-  border-style: none;
-  border-image: none;
+  padding: 16px;
+  padding-left: 0;
+  margin: 0;
+  background: transparent;
+  font-size: 14px;
+  line-height: 20px; /* 라인 넘버와 정확히 일치 */
+  overflow-x: auto;
+  overflow-y: visible;
   color: #24292e; /* 다크 텍스트 (라이트 테마) */
+  white-space: pre;
+  tab-size: 4;
+  -moz-tab-size: 4;
 }
 
 /* Prism.js 토큰이 색상을 제어하도록 기본 색상은 토큰이 없을 때만 적용 */
@@ -2239,40 +2205,46 @@ body.home-page .site-header {
   color: inherit;
 }
 
+/* 라인 넘버 영역 - CodeSandbox 스타일 */
 .post-content .code-block-content > .line-numbers {
-  width: 3em;
-  padding-right: 12px;
-  padding-top: 5px;
-  position: relative;
-  line-height: var(--code-line-height) !important;
-  border-width: 0px;
-  border-color: rgba(0, 0, 0, 0);
-  border-style: none;
-  border-image: none;
-  margin-right: 16px;
-  height: auto;
+  flex-shrink: 0;
+  width: 48px; /* 고정 너비 */
+  padding: 16px 0;
+  padding-right: 16px;
+  margin: 0;
+  background: transparent;
   display: flex;
   flex-direction: column;
-  left: 0;
-  top: 0;
-  z-index: 1;
+  align-items: flex-end;
   text-align: right;
-  font-family: Consolas, 'Courier New', monospace;
-  font-size: 13px;
-  color: #6a737d; /* 연한 회색 라인 넘버 */
+  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
+  font-size: 14px;
+  line-height: 20px; /* 코드와 정확히 일치 */
+  color: #6a737d; /* 연한 회색 */
   user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  border-right: 1px solid #e5e8eb; /* 구분선 */
+  margin-right: 16px;
 }
 
+/* 라인 넘버 각 줄 */
 .post-content .code-block-content > .line-numbers > span {
   display: block;
-  height: var(--code-line-height);
-  line-height: var(--code-line-height);
-  overflow: hidden;
+  width: 100%;
+  height: 20px; /* 코드 라인 높이와 정확히 일치 */
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
   text-align: right;
-  padding-right: 0;
-  color: #6a737d; /* 연한 회색 라인 넘버 */
+  color: #6a737d;
   opacity: 1;
   user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  box-sizing: border-box;
 }
 
 .post-content pre code {
