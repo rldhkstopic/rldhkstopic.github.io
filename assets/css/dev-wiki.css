@@ -155,6 +155,100 @@
   padding: 2rem 0;
 }
 
+/* 포스트 리스트 */
+.dev-posts-list {
+  margin-top: 3rem;
+}
+
+.dev-posts-list-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.dev-wiki-home .post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dev-wiki-home .post-list-item {
+  display: block;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.dev-wiki-home .post-list-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-color: var(--accent-color);
+  transform: translateX(4px);
+}
+
+.dev-wiki-home .post-list-item.empty {
+  background: transparent;
+  border: none;
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.dev-wiki-home .post-list-item.empty:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.dev-wiki-home .post-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.dev-wiki-home .post-list-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+  flex: 1;
+}
+
+.dev-wiki-home .post-list-subcategory {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  background: var(--accent-light);
+  color: var(--accent-color);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.dev-wiki-home .post-list-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.dev-wiki-home .post-list-date {
+  color: var(--text-secondary);
+}
+
+.dev-wiki-home .post-list-views {
+  color: var(--text-secondary);
+}
+
 .dev-wiki-home-title {
   font-size: 2.5rem;
   font-weight: 700;

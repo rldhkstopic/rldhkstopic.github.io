@@ -9,7 +9,7 @@ layout: default
       {% assign dev_structure = site.data.dev_structure %}
       
       {% for subcat in dev_structure.subcategories %}
-        <div class="dev-wiki-nav-section">
+        <div class="dev-wiki-nav-section active">
           <div class="dev-wiki-nav-header" onclick="toggleNavSection(this)">
             <span class="dev-wiki-nav-icon">{{ subcat.icon }}</span>
             <span class="dev-wiki-nav-title">{{ subcat.title }}</span>

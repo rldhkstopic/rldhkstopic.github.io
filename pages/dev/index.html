@@ -9,26 +9,31 @@ permalink: /dev/
   <p class="dev-wiki-home-description">개발 관련 문서, 오류 해결 가이드, 문법 레퍼런스</p>
 
   {% assign dev_structure = site.data.dev_structure %}
+  {% assign all_dev_posts = site.posts | where: "category", "dev" | sort: "date" | reverse %}
   
-  <div class="dev-wiki-subcategories">
-    {% for subcat in dev_structure.subcategories %}
-      <div class="dev-wiki-subcategory-card">
-        <div class="dev-wiki-subcategory-header">
-          <span class="dev-wiki-subcategory-icon">{{ subcat.icon }}</span>
-          <h2 class="dev-wiki-subcategory-title">
-            <a href="/dev/{{ subcat.id }}/">{{ subcat.title }}</a>
-          </h2>
-        </div>
-        <p class="dev-wiki-subcategory-description">{{ subcat.description }}</p>
-        
-        <div class="dev-wiki-subcategory-sections">
-          {% for section in subcat.sections %}
-            <a href="/dev/{{ subcat.id }}/{{ section.id }}/" class="dev-wiki-section-link">
-              {{ section.title }}
-            </a>
-          {% endfor %}
-        </div>
+  {% if all_dev_posts.size > 0 %}
+    <div class="dev-posts-list">
+      <h2 class="dev-posts-list-title">전체 글 목록</h2>
+      <div class="post-list">
+        {% for post in all_dev_posts %}
+          <a href="{{ post.url | relative_url }}" class="post-list-item">
+            <div class="post-list-header">
+              <span class="post-list-title">{{ post.title | escape }}</span>
+              {% if post.subcategory %}
+                <span class="post-list-subcategory">{{ post.subcategory }}</span>
+              {% endif %}
+            </div>
+            <div class="post-list-meta">
+              <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+              <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+            </div>
+          </a>
+        {% endfor %}
       </div>
-    {% endfor %}
-  </div>
+    </div>
+  {% else %}
+    <div class="post-list-item empty">
+      <span>아직 개발 관련 포스트가 없습니다.</span>
+    </div>
+  {% endif %}
 </div>
