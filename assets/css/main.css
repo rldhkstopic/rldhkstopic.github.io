@@ -1702,8 +1702,7 @@ body.home-page .site-header {
 }
 
 .post-container > .post-toc {
-  grid-area: toc;
-  min-width: 0;
+  display: none; /* 목차 숨김 */
 }
 
 /* post-container-wide에서는 목차 숨김 */
@@ -1779,6 +1778,7 @@ body.home-page .site-header {
 
 .post-header {
   margin: 0; /* margin 제거 */
+  margin-bottom: 30px;
   padding-bottom: 5px;
   border-bottom: 2px solid var(--accent-light);
 }
