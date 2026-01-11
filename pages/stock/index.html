@@ -116,8 +116,10 @@ permalink: /stock/
 </div>
 
 <script>
-  // Lucide Icons 초기화
-  lucide.createIcons();
+  // Lucide Icons 초기화 (이미 default.html에서 로드됨)
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
 
   let allFeedItems = [];
   let currentTab = 'digest';
