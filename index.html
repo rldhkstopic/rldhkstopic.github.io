@@ -635,4 +635,9 @@ layout: default
     // 1분마다 업데이트 (상대 시간 갱신)
     setInterval(updatePostTimes, 60000);
   })();
+
+  // Initialize Lucide Icons
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
 </script>
