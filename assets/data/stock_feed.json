@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-12T02:03:03.404356+09:00",
+  "last_updated": "2026-01-12T02:35:08.068297+09:00",
   "items": [
+    {
+      "id": "b84017945158f8b53aa236a802e9dde9",
+      "timestamp": "2026-01-12T02:10:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK, Germany Discuss NATO Forces in Greenland to Calm US Threat - A group of European countries, led by the UK and Germany, is discussing plans to boost their military presence in Greenland to show US President Donald Trump that the continent is serious about Arctic",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/uk-germany-discuss-nato-forces-in-greenland-to-calm-us-threat",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "4cef703f52bcdee31e79b2e83c65ba3c",
       "timestamp": "2026-01-12T01:50:31+09:00",
