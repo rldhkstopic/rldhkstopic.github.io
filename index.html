@@ -270,7 +270,7 @@ layout: default
                     <span class="post-list-title">{{ post.title | escape }}</span>
                   </div>
                   <div class="post-list-meta">
-                    {% assign category_names = 'daily:Daily,dev:Dev,document:Document,study:Study' | split: ',' %}
+                    {% assign category_names = 'daily:일기,dev:개발,document:문서,study:학습' | split: ',' %}
                     {% assign category_display = post.category | capitalize %}
                     {% for cat_pair in category_names %}
                       {% assign cat_data = cat_pair | split: ':' %}
@@ -326,9 +326,9 @@ layout: default
                   <div class="post-list-meta">
                     <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
                     {% if post.subcategory %}
-                    <span class="post-list-category-path">Daily > {{ post.subcategory }}</span>
+                    <span class="post-list-category-path">일기 > {{ post.subcategory }}</span>
                     {% else %}
-                    <span class="post-list-category-path">Daily</span>
+                    <span class="post-list-category-path">일기</span>
                     {% endif %}
                     <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
                   </div>
@@ -368,9 +368,9 @@ layout: default
                   <div class="post-list-meta">
                     <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
                     {% if post.subcategory %}
-                    <span class="post-list-category-path">Document > {{ post.subcategory }}</span>
+                    <span class="post-list-category-path">문서 > {{ post.subcategory }}</span>
                     {% else %}
-                    <span class="post-list-category-path">Document</span>
+                    <span class="post-list-category-path">문서</span>
                     {% endif %}
                     <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
                   </div>
@@ -386,7 +386,7 @@ layout: default
       </div>
     </div>
 
-    <!-- 두 번째 행: Dev (좌측), 주식 (우측) -->
+    <!-- 두 번째 행: 개발 (좌측), 주식 (우측) -->
     <div class="bottom-sections">
       <!-- 개발 -->
       <div class="content-section">
@@ -408,15 +408,17 @@ layout: default
           {% for subcat in dev_structure.subcategories %}
             {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title %}
             <a href="/dev/{{ subcat.id }}/" class="dev-subcategory-link">
-              {% if subcat.id == 'vhdl' %}
-                <i class="ph ph-cpu dev-subcategory-icon"></i>
-              {% elsif subcat.id == 'csharp' %}
-                <i class="ph ph-file-code dev-subcategory-icon"></i>
-              {% elsif subcat.id == 'vivado' %}
-                <i class="ph ph-wrench dev-subcategory-icon"></i>
-              {% else %}
-                <i class="ph ph-code dev-subcategory-icon"></i>
-              {% endif %}
+              <span class="dev-subcategory-icon-wrapper">
+                {% if subcat.id == 'vhdl' %}
+                  <i data-lucide="circuit-board" class="dev-subcategory-icon"></i>
+                {% elsif subcat.id == 'csharp' %}
+                  <i data-lucide="code-2" class="dev-subcategory-icon"></i>
+                {% elsif subcat.id == 'vivado' %}
+                  <i data-lucide="settings" class="dev-subcategory-icon"></i>
+                {% else %}
+                  <i data-lucide="code" class="dev-subcategory-icon"></i>
+                {% endif %}
+              </span>
               <span class="dev-subcategory-title">{{ subcat.title }}</span>
               <span class="dev-subcategory-count">{{ subcat_posts.size }}</span>
             </a>
