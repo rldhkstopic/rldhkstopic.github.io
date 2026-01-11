@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-12T08:03:19.898397+09:00",
+  "last_updated": "2026-01-12T08:34:35.588766+09:00",
   "items": [
+    {
+      "id": "706323e52b6fda0e5d5783969a3e0c4d",
+      "timestamp": "2026-01-12T08:30:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netflix Begins Its Grand Podcast Experiment - Netflix’s embrace of podcasting is a major moment for the service -- and a bigger one for the podcast industry",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-11/netflix-begins-its-grand-podcast-experiment-with-bill-simmons",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c0c7852d895e5c5e6478336968f517a1",
+      "timestamp": "2026-01-12T08:18:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta Shuts 550,000 Accounts on Australia’s Kids Social Media Ban - Meta Platforms Inc. said it has shut down almost 550,000 accounts in Australia to comply with the country’s landmark social media ban for children.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/meta-shuts-550-000-accounts-on-australia-s-kids-social-media-ban",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2adb175b041da653e51ca67625f22331",
+      "timestamp": "2026-01-12T08:17:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Rises for a Third Day as Focus Shifts to Iranian Protests - Oil rose for a third day as escalating protests in Iran threatened supply from OPEC’s fourth-biggest producer.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/latest-oil-market-news-and-analysis-for-jan-12",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "53f57571c0aeb74a76d7ce5793fd375b",
+      "timestamp": "2026-01-12T08:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macquarie’s Latest Data Center Bet is a Tiny German Startup - Macquarie Group Ltd. is lending as much as €117 million ($136 million) to German data center infrastructure startup Polarise GmbH, as a debt-fueled boom in the sector continues into 2026.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/macquarie-loans-117-million-to-polarise-for-data-center-fit-outs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "53f57571c0aeb74a76d7ce5793fd375b",
+      "timestamp": "2026-01-12T08:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macquarie’s Latest Data Center Bet is a Tiny German Startup - Macquarie Group Ltd. is lending as much as €117 million ($136 million) to German data center infrastructure startup Polarise GmbH, as a debt-fueled boom in the sector continues into 2026.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/macquarie-loans-117-million-to-polarise-for-data-center-fit-outs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "892647d61429d7dd331075490e58613c",
+      "timestamp": "2026-01-12T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OmniVision Set for Hong Kong Debut After $616 Million Offering - Hong Kong is set to add another chip designer to its bourse, as a wave of Chinese artificial-intelligence companies races to tap capital in the financial hub for expansion.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/omnivision-set-for-hong-kong-debut-after-616-million-offering",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "133f8ea14258029d4fc1922a7b3c836d",
+      "timestamp": "2026-01-12T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s PE Trailblazer Hopu Faces Doubts on Returns, Succession - For years, Fang Fenglei was Wall Street’s go-to fixer in China &mdash; a partner to heavyweights like Goldman Sachs Group Inc. who built one of Asia’s most prominent private equity firms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/china-s-pe-trailblazer-hopu-faces-doubts-on-returns-succession",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f3c8904697358876ecdb14b469bafcb7",
+      "timestamp": "2026-01-12T07:53:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Protests Intensify as Activists Say Death Toll Tops 500 - Some 544 people have died so far in nationwide protests in Iran, according to activists, as demonstrations hit the three-week mark and have turned into one of the most serious challenges to the regime",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/iran-protests-intensify-as-activists-say-death-toll-tops-500",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7264f74638a518550a6d5d2534c13a77",
       "timestamp": "2026-01-12T07:23:30+09:00",
