@@ -1726,6 +1726,7 @@ body.home-page .site-header {
   font-size: 1.05rem;
   line-height: 1.85;
   margin: auto;
+  margin-bottom: 70px;
 }
 
 .post-container-wide .post-content h2 {
@@ -2798,9 +2799,13 @@ article div[role="doc-endnotes"] {
 }
 
 .post-navigation {
-  margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 2px solid var(--accent-light);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #e5e8eb; /* 코드블럭과 동일한 테두리 */
+  border-radius: 8px; /* 코드블럭과 동일한 모서리 */
+  background: #ffffff; /* 코드블럭과 동일한 배경 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* 코드블럭과 동일한 그림자 */
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -2808,53 +2813,35 @@ article div[role="doc-endnotes"] {
 }
 
 .post-navigation a {
-  color: var(--accent-color);
+  color: #3182f6; /* 토스 블루 */
   text-decoration: none;
   font-weight: 500;
-  padding: 0.875rem 1.5rem;
-  background: var(--bg-secondary);
-  border-radius: 10px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1.5px solid var(--border-color);
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  border: none;
   flex: 0 1 auto;
   max-width: calc(50% - 0.5rem);
   text-align: center;
   position: relative;
-  overflow: hidden;
-}
-
-.post-navigation a::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.1), transparent);
-  transition: left 0.5s ease;
-}
-
-.post-navigation a:hover::before {
-  left: 100%;
 }
 
 .post-navigation a:hover {
-  background: var(--accent-light);
-  border-color: var(--accent-color);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.2);
-  color: var(--accent-color);
+  background: #f2f4f6; /* 연한 회색 배경 */
+  color: #3182f6;
 }
 
 .post-navigation .prev-post {
   text-align: left;
   margin-right: auto;
-  font-size: 13px;
+  font-size: 0.9375rem;
 }
 
 .post-navigation .next-post {
   text-align: right;
   margin-left: auto;
+  font-size: 0.9375rem;
 }
 
 .post-navigation a:only-child {
