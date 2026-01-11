@@ -20,6 +20,9 @@ layout: default
       {% endif %}
       <h1 class="post-title">{{ page.title | escape }}</h1>
       <div class="post-meta">
+        {% if page.author %}
+          <span class="author">작성자: {{ page.author }}</span>
+        {% endif %}
         {%- assign _tz = page.date | date: "%z" -%}
         <time datetime="{{ page.date | date_to_xmlschema }}">
           {%- if _tz == "+0900" -%}
@@ -39,9 +42,6 @@ layout: default
             {%- endif -%}
             )
           </time>
-        {% endif %}
-        {% if page.author %}
-          <span class="author">작성자: {{ page.author }}</span>
         {% endif %}
       </div>
     </header>

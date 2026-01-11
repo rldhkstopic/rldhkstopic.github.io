@@ -1746,8 +1746,7 @@ body.home-page .site-header {
 }
 
 .post-container-wide .post-content p {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+  margin: 0; /* margin 전부 제거 */
 }
 
 .post-container-wide .post-content pre {
@@ -1769,8 +1768,8 @@ body.home-page .site-header {
 }
 
 .post-container-wide .post-content li {
-  margin-bottom: 1rem;
-  line-height: 1.8;
+  margin: 0; /* margin 제거 */
+  line-height: normal; /* line-height 제거 */
 }
 
 .post {
@@ -1922,6 +1921,7 @@ body.home-page .site-header {
   word-break: keep-all;    /* 한글 단어 끊김 방지 */
   background-color: #ffffff;
   font-weight: 400;
+  max-width: 900px; /* 폭 제한 */
 }
 
 /* 헤딩 (Headings) - 강한 볼드, 좁은 자간 */
@@ -1960,7 +1960,7 @@ body.home-page .site-header {
 /* 본문 및 리스트 */
 .post-content p {
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   color: #4e5968; /* 본문은 조금 더 부드러운 그레이 */
 }
 
@@ -2026,6 +2026,7 @@ body.home-page .site-header {
   overflow: hidden;
   background: #ffffff; /* 라이트 배경 */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  max-width: 100%; /* width 제한 */
 }
 
 [data-theme="dark"] .code-block {
@@ -2223,7 +2224,7 @@ body.home-page .site-header {
   width: 48px; /* 고정 너비 */
   padding: 5px 0;
   padding-right: 16px;
-  margin: 0;
+  margin: 0; /* margin 제거 */
   background: transparent;
   display: flex;
   flex-direction: column;
