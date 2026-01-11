@@ -68,7 +68,7 @@ layout: default
       <ul class="category-list">
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title"><i class="bi bi-calendar-day"></i> Daily</span>
+            <span class="category-title"><i class="ph ph-calendar-blank"></i> Daily</span>
             <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
@@ -379,13 +379,13 @@ layout: default
             {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title %}
             <a href="/dev/{{ subcat.id }}/" class="dev-subcategory-link">
               {% if subcat.id == 'vhdl' %}
-                <i class="bi bi-cpu dev-subcategory-icon"></i>
+                <i class="ph ph-cpu dev-subcategory-icon"></i>
               {% elsif subcat.id == 'csharp' %}
-                <i class="bi bi-filetype-cs dev-subcategory-icon"></i>
+                <i class="ph ph-file-code dev-subcategory-icon"></i>
               {% elsif subcat.id == 'vivado' %}
-                <i class="bi bi-tools dev-subcategory-icon"></i>
+                <i class="ph ph-wrench dev-subcategory-icon"></i>
               {% else %}
-                <i class="bi bi-code-square dev-subcategory-icon"></i>
+                <i class="ph ph-code dev-subcategory-icon"></i>
               {% endif %}
               <span class="dev-subcategory-title">{{ subcat.title }}</span>
               <span class="dev-subcategory-count">{{ subcat_posts.size }}</span>
@@ -487,23 +487,23 @@ layout: default
     <nav class="mobile-category-slider" aria-label="카테고리">
       <div class="mobile-category-track">
         <a class="mobile-category-pill" href="/daily/">
-          <i class="bi bi-calendar-day mobile-category-icon" aria-hidden="true"></i>
+          <i class="ph ph-calendar-blank mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">Daily</span>
         </a>
         <a class="mobile-category-pill" href="/dev/">
-          <i class="bi bi-code-slash mobile-category-icon" aria-hidden="true"></i>
+          <i class="ph ph-code mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">Dev</span>
         </a>
         <a class="mobile-category-pill" href="/dev/vhdl/">
-          <i class="bi bi-cpu mobile-category-icon" aria-hidden="true"></i>
+          <i class="ph ph-cpu mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">VHDL</span>
         </a>
         <a class="mobile-category-pill" href="/document/">
-          <i class="bi bi-file-earmark-text mobile-category-icon" aria-hidden="true"></i>
+          <i class="ph ph-file-text mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">Document</span>
         </a>
         <a class="mobile-category-pill" href="/study/">
-          <i class="bi bi-book mobile-category-icon" aria-hidden="true"></i>
+          <i class="ph ph-book-open mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">Study</span>
         </a>
       </div>
