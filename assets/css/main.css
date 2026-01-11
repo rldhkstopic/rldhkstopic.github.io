@@ -1988,6 +1988,11 @@ body.home-page .site-header {
   font-weight: 400;
 }
 
+/* 인라인 코드에서 language 클래스가 있는 경우 border 제거 */
+.post-content :not(pre) > code[class*="language-"] {
+  border: none;
+}
+
 .post-content pre code {
   background-color: transparent;
   color: #24292e; /* 다크 텍스트 (라이트 테마) */
@@ -2181,11 +2186,10 @@ body.home-page .site-header {
 .post-content .code-block-content > code {
   display: block;
   flex: 1;
-  padding: 16px;
-  padding-left: 0;
+  padding: 5px 0;
   margin: 0;
   background: transparent;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px; /* 라인 넘버와 정확히 일치 */
   overflow-x: auto;
   overflow-y: visible;
@@ -2209,7 +2213,7 @@ body.home-page .site-header {
 .post-content .code-block-content > .line-numbers {
   flex-shrink: 0;
   width: 48px; /* 고정 너비 */
-  padding: 16px 0;
+  padding: 5px 0;
   padding-right: 16px;
   margin: 0;
   background: transparent;
@@ -2218,14 +2222,13 @@ body.home-page .site-header {
   align-items: flex-end;
   text-align: right;
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px; /* 코드와 정확히 일치 */
   color: #6a737d; /* 연한 회색 */
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  border-right: 1px solid #e5e8eb; /* 구분선 */
   margin-right: 16px;
 }
 
