@@ -68,7 +68,7 @@ layout: default
       <ul class="category-list">
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">👋 Daily</span>
+            <span class="category-title"><i class="bi bi-calendar-day"></i> Daily</span>
             <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
@@ -90,7 +90,7 @@ layout: default
         </li>
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">💻 Dev</span>
+            <span class="category-title"><i class="bi bi-code-slash"></i> Dev</span>
             <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
@@ -124,7 +124,7 @@ layout: default
         </li>
         <li class="category-item">
           <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">📑 Document</span>
+            <span class="category-title"><i class="bi bi-file-earmark-text"></i> Document</span>
             <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
@@ -378,7 +378,15 @@ layout: default
           {% for subcat in dev_structure.subcategories %}
             {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title %}
             <a href="/dev/{{ subcat.id }}/" class="dev-subcategory-link">
-              <span class="dev-subcategory-icon">{{ subcat.icon }}</span>
+              {% if subcat.id == 'vhdl' %}
+                <i class="bi bi-cpu dev-subcategory-icon"></i>
+              {% elsif subcat.id == 'csharp' %}
+                <i class="bi bi-filetype-cs dev-subcategory-icon"></i>
+              {% elsif subcat.id == 'vivado' %}
+                <i class="bi bi-tools dev-subcategory-icon"></i>
+              {% else %}
+                <i class="bi bi-code-square dev-subcategory-icon"></i>
+              {% endif %}
               <span class="dev-subcategory-title">{{ subcat.title }}</span>
               <span class="dev-subcategory-count">{{ subcat_posts.size }}</span>
             </a>
@@ -479,23 +487,23 @@ layout: default
     <nav class="mobile-category-slider" aria-label="카테고리">
       <div class="mobile-category-track">
         <a class="mobile-category-pill" href="/daily/">
-          <span class="mobile-category-icon" aria-hidden="true">👋</span>
+          <i class="bi bi-calendar-day mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">Daily</span>
         </a>
         <a class="mobile-category-pill" href="/dev/">
-          <span class="mobile-category-icon" aria-hidden="true">💻</span>
+          <i class="bi bi-code-slash mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">Dev</span>
         </a>
         <a class="mobile-category-pill" href="/dev/vhdl/">
-          <span class="mobile-category-icon" aria-hidden="true">V</span>
+          <i class="bi bi-cpu mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">VHDL</span>
         </a>
         <a class="mobile-category-pill" href="/document/">
-          <span class="mobile-category-icon" aria-hidden="true">📑</span>
+          <i class="bi bi-file-earmark-text mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">Document</span>
         </a>
         <a class="mobile-category-pill" href="/study/">
-          <span class="mobile-category-icon" aria-hidden="true">📖</span>
+          <i class="bi bi-book mobile-category-icon" aria-hidden="true"></i>
           <span class="mobile-category-text">Study</span>
         </a>
       </div>
