@@ -1745,9 +1745,6 @@ body.home-page .site-header {
   margin-bottom: 0.875rem;
 }
 
-.post-container-wide .post-content p {
-  margin: 0; /* margin 전부 제거 */
-}
 
 .post-container-wide .post-content pre {
   margin-bottom: 2.5rem;
@@ -1767,10 +1764,6 @@ body.home-page .site-header {
   padding-left: 0.75rem;
 }
 
-.post-container-wide .post-content li {
-  margin: 0; /* margin 제거 */
-  line-height: normal; /* line-height 제거 */
-}
 
 .post {
   background: var(--bg-primary);
@@ -2180,7 +2173,6 @@ body.home-page .site-header {
   margin: 0;
   border: none;
   background: transparent;
-  min-height: 100px;
   max-height: 380px;
   /* Scroll the wrapper so line numbers move with code */
   overflow-y: auto;
