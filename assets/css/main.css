@@ -1826,17 +1826,23 @@ body.home-page .site-header {
 
 .post-header .post-meta {
   display: flex;
-  gap: 1.25rem;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
   font-size: 0.9375rem;
   color: var(--text-secondary);
   flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.post-header .post-meta .author {
+  margin-right: auto;
 }
 
 .post-header .post-meta time {
-  color: var(--accent-color);
+  color: var(--text-secondary);
   font-weight: 500;
+  margin-left: auto;
 }
 
 .post-header .post-meta time::before {
@@ -1927,8 +1933,8 @@ body.home-page .site-header {
 .post-content h6 {
   font-weight: 700;
   color: #191f28; /* 거의 블랙에 가까운 그레이 */
-  margin-top: 48px;
-  margin-bottom: 16px;
+  margin-top: 32px;
+  margin-bottom: 12px;
   line-height: 1.4;
   letter-spacing: -0.02em;
 }
@@ -2518,7 +2524,7 @@ body.home-page .site-header {
   height: auto;
   border-radius: 12px; /* 둥근 모서리 */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* 부드러운 그림자 */
-  margin: 24px 0;
+  margin: 16px 0;
   display: block;
   border: none;
 }
