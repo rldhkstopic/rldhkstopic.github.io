@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-11T22:11:57.614600+09:00",
+  "last_updated": "2026-01-11T23:03:20.634474+09:00",
   "items": [
+    {
+      "id": "f51fdc6d12440e9ecd055d3b7d7c41ee",
+      "timestamp": "2026-01-11T22:37:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk’s Grok AI Blocked in Indonesia, Malaysia Over Sexual Images - Indonesia and Malaysia restricted access to Elon Musk’s Grok AI over the weekend, becoming the first countries to ban the artificial intelligence system over its generation of sexual content.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/musk-s-grok-ai-blocked-in-indonesia-malaysia-over-sexual-images",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8157eed80a1d453bdd78cde6c00a94ce",
+      "timestamp": "2026-01-11T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela Surge Leaves Slim Pickings in Emerging Distressed Debt - The ouster of Venezuelan leader Nicolas Maduro drove an outsize rally in the country’s bonds, making the already shrinking universe of deep-distress opportunities in emerging-market debt even smaller.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/venezuela-surge-leaves-slim-pickings-in-emerging-distressed-debt",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8d5b896edb34bf9d544730142343b557",
+      "timestamp": "2026-01-11T22:22:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thai Reformist Party Pledges to Revive ‘Fifth Tiger’ Economy as Election Nears - The People’s Party, whose predecessor won Thailand’s last election, pledged to form a “government of change” as it set out sweeping reforms and plans to remedy the country’s ailing economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/thai-reformist-party-pledges-to-revive-fifth-tiger-economy-as-election-nears",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "47e1fbefc7365da1491687fe2c1197f4",
       "timestamp": "2026-01-11T22:04:06+09:00",
@@ -21,6 +54,17 @@
       "related_tickers": [],
       "content": "The New World Order Won’t Be Pretty - The US is losing faith in peace and stability. That means the world order is becoming more cutthroat, Bloomberg Opinion columnist Hal Brands says. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-11/opinion-the-new-world-order-won-t-be-pretty-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8e616f763f6d2aa4d197fa23a891c6aa",
+      "timestamp": "2026-01-11T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Venezuela Oil Boom Requires Stability That’s Now Lacking - The US special forces raid that captured Nicolas Maduro in Caracas was executed flawlessly after months of planning. What comes next in Venezuela is likely to be much messier and more protracted &mdas",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/trump-s-venezuela-oil-boom-requires-stability-that-s-now-lacking",
       "sentiment": "NEUTRAL"
     },
     {
