@@ -73,7 +73,20 @@ permalink: /stock/
           <span class="panel-subtitle">경제 뉴스 다이제스트</span>
         </div>
         <div class="digest-list" id="digest-list">
-          <div class="loading-message">로딩 중...</div>
+          {% assign digest_posts = site.posts | where_exp: "post", "post.title contains '다이제스트' or post.title contains '블룸버그' or post.title contains '경제'" | limit: 5 %}
+          {% if digest_posts.size > 0 %}
+            {% for post in digest_posts %}
+              <a href="{{ post.url | relative_url }}" class="digest-item">
+                <div class="digest-item-header">
+                  <span class="digest-item-number">{{ forloop.index }}</span>
+                  <span class="digest-item-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+                </div>
+                <div class="digest-item-title">{{ post.title | escape }}</div>
+              </a>
+            {% endfor %}
+          {% else %}
+            <div class="empty-message">다이제스트가 없습니다.</div>
+          {% endif %}
         </div>
       </div>
 
@@ -153,48 +166,7 @@ permalink: /stock/
     }
   }
 
-  // 경제 뉴스 다이제스트 로드
-  async function loadDigest() {
-    try {
-      const response = await fetch('/blog/');
-      const html = await response.text();
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, 'text/html');
-      
-      // 블로그 포스트에서 경제 뉴스 다이제스트 찾기
-      const posts = Array.from(doc.querySelectorAll('.post-list-item')).filter(item => {
-        const title = item.textContent.toLowerCase();
-        return title.includes('블룸버그') || title.includes('경제') || title.includes('뉴스') || title.includes('다이제스트');
-      }).slice(0, 5);
-
-      const container = document.getElementById('digest-list');
-      
-      if (posts.length === 0) {
-        container.innerHTML = '<div class="empty-message">다이제스트가 없습니다.</div>';
-        return;
-      }
-
-      container.innerHTML = posts.map((post, index) => {
-        const link = post.querySelector('a')?.href || '#';
-        const title = post.querySelector('.post-list-title')?.textContent || '제목 없음';
-        const date = post.querySelector('.post-list-date')?.textContent || '';
-        
-        return `
-          <a href="${link}" class="digest-item">
-            <div class="digest-item-header">
-              <span class="digest-item-number">${index + 1}</span>
-              <span class="digest-item-date">${date}</span>
-            </div>
-            <div class="digest-item-title">${title}</div>
-          </a>
-        `;
-      }).join('');
-    } catch (error) {
-      console.error('다이제스트 로드 실패:', error);
-      document.getElementById('digest-list').innerHTML = 
-        '<div class="error-message">다이제스트를 불러올 수 없습니다.</div>';
-    }
-  }
+  // 다이제스트는 Liquid 템플릿으로 렌더링되므로 별도 로드 불필요
 
   // 실시간 피드 로드
   async function loadRealtimeFeed() {
@@ -337,7 +309,6 @@ permalink: /stock/
   // 초기 로드
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
-      loadDigest();
       if (currentTab === 'realtime') {
         loadRealtimeFeed();
       } else if (currentTab === 'watchlist') {
@@ -345,7 +316,11 @@ permalink: /stock/
       }
     });
   } else {
-    loadDigest();
+    if (currentTab === 'realtime') {
+      loadRealtimeFeed();
+    } else if (currentTab === 'watchlist') {
+      loadWatchlistFeed();
+    }
   }
 
   // 5분마다 실시간 피드 업데이트

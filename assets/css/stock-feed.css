@@ -8,6 +8,7 @@
   margin: 2rem auto;
   padding: 0 1.5rem;
   min-height: calc(100vh - 200px);
+  align-items: start;
 }
 
 /* 메인 차트 영역 */
@@ -92,12 +93,20 @@
   flex: 1;
   min-height: 600px;
   position: relative;
+  width: 100%;
 }
 
 .tradingview-widget-container {
   width: 100%;
   height: 100%;
   min-height: 600px;
+  position: relative;
+}
+
+.tradingview-widget-container__widget {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 600px !important;
 }
 
 /* 사이드바 */
@@ -159,7 +168,8 @@
 .sidebar-content {
   flex: 1;
   overflow-y: auto;
-  max-height: calc(100vh - 300px);
+  max-height: calc(100vh - 200px);
+  min-height: 400px;
 }
 
 .tab-panel {
