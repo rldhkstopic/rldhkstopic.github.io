@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-12T13:46:22.639633+09:00",
+  "last_updated": "2026-01-12T14:10:19.204937+09:00",
   "items": [
+    {
+      "id": "7f51a3731e54bfd933f8e8c9ec77c0b2",
+      "timestamp": "2026-01-12T14:03:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Battery Shares Decline on Plan to Cut Export Tax Rebates - Chinese battery shares fell after Beijing unveiled a plan to reduce export tax rebates, while South Korean materials companies advanced.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/chinese-battery-shares-decline-on-plan-to-cut-export-tax-rebates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "90a8a8d242d35e7f6433c958a854d210",
+      "timestamp": "2026-01-12T14:00:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Europe and China’s Feud Over Chips Is Reaching a Breaking Point - <p>A spat over technology transfers&nbsp;has split a Dutch chipmaker in two and triggered a race for survival.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/nexperia-s-messy-wingtech-dispute-marks-breaking-point-in-chips-feud",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "90a8a8d242d35e7f6433c958a854d210",
+      "timestamp": "2026-01-12T14:00:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Europe and China’s Feud Over Chips Is Reaching a Breaking Point - <p>A spat over technology transfers&nbsp;has split a Dutch chipmaker in two and triggered a race for survival.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/nexperia-s-messy-wingtech-dispute-marks-breaking-point-in-chips-feud",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1adbd2175a2ff7f39cc78288359b088e",
+      "timestamp": "2026-01-12T13:54:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prosecuting Powell Would Be a New Low With No Upside - <p>The bullying is pointless and extends beyond the Fed to the US economy.&nbsp;</p>",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-01-12/prosecuting-powell-would-be-a-new-low-with-no-upside",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cc8c310e174b5f4a5fbc1c13f73a7b3a",
+      "timestamp": "2026-01-12T13:53:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HSBC Opens Asset Mgmt Branch in UAE - Daisy Ho, Asia & Middle East CEO at HSBC Asset Management, says the bank will offer 10 onshore funds to investors out of its new branch in Dubai after receiving a license from local authorities. She d",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/hsbc-opens-asset-mgmt-branch-in-uae-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f5c8224f9016c2fafbffc0b0be97a5b",
+      "timestamp": "2026-01-12T13:53:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HD Hyundai Robotics Hires Banks for South Korea IPO - HD Hyundai Robotics Co. has hired banks to work on its South Korea initial public offering at a time when global companies are racing to develop human-like robots.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/hd-hyundai-robotics-hires-banks-for-south-korea-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f5c8224f9016c2fafbffc0b0be97a5b",
+      "timestamp": "2026-01-12T13:53:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HD Hyundai Robotics Hires Banks for South Korea IPO - HD Hyundai Robotics Co. has hired banks to work on its South Korea initial public offering at a time when global companies are racing to develop human-like robots.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/hd-hyundai-robotics-hires-banks-for-south-korea-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7576bfe0a68dca6ad81af0a3807201b7",
+      "timestamp": "2026-01-12T13:52:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China's Haisco Eyes Partnerships For Global Growth - Lency Gu, Head of Business Development at Haisco Pharmaceutical Group, says the Chinese bio pharmaceutical firm is looking for more partnerships to help its global expansion. The company has announced",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/china-s-haisco-eyes-partnerships-for-global-growth-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "73e51bc1588ffb060fe9dbe563832dde",
+      "timestamp": "2026-01-12T13:37:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Faces Fed Roadblock as Key Republican Blasts Justice Probe - President Donald Trump faced immediate bipartisan pushback Sunday night after Federal Reserve Chair Jerome Powell accused the Department of Justice of launching a grand jury investigation as a pretext",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-faces-fed-roadblock-as-key-republican-blasts-justice-probe",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "5d41827a014832d4baebe30c3ddc1d09",
       "timestamp": "2026-01-12T13:28:41+09:00",
@@ -351,6 +450,17 @@
       "related_tickers": [],
       "content": "Trump Says US Closely Monitoring Iran, Mulling Potential Options - President Donald Trump said that the US is closely monitoring the protests in Iran and is mulling potential options as the Islamic Republic faces its third week of nationwide protests, the largest sin",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-says-us-closely-monitoring-iran-mulling-potential-options",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0ab13c31bdb045c0055de85f60dc28e0",
+      "timestamp": "2026-01-12T09:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed Served With DOJ Subpoenas, Powell Vows to Stand Firm - Federal Reserve Chair Jerome Powell said the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment, a dramatic escalation of the Trump admi",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/powell-says-justice-department-served-fed-with-subpoenas",
       "sentiment": "NEUTRAL"
     },
     {
