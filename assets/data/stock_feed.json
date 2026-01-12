@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-13T00:05:42.122485+09:00",
+  "last_updated": "2026-01-13T00:39:42.792030+09:00",
   "items": [
+    {
+      "id": "9fff18cce041dbef7cb1947829fdea48",
+      "timestamp": "2026-01-13T00:23:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia Partners With Eli Lilly on AI Drug Laboratory - Nvidia plans to invest $1 billion over five years in a new laboratory with Eli Lilly & Co., aiming to speed up the use of artificial intelligence in the pharmaceutical industry. Jessica Nix has more o",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/nvidia-partners-with-eli-lilly-on-ai-drug-laboratory-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0a83fae47852e099205368988bac206",
+      "timestamp": "2026-01-13T00:16:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Oil Inventories Slump With Wave of Protests, Kayrros Says - Iranian oil stockpiles at a key export terminal are about a fifth lower than where they started the year, a possible sign the country is moving crude out of harm’s way amid a wave of unrest over the p",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/iran-oil-inventories-slump-with-wave-of-protests-kayrros-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "08392b39e4235fbdcaaa0c0064f26d27",
+      "timestamp": "2026-01-13T00:15:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kazakh Oil Shipments Slashed Again as Key Port CPC Is Disrupted - Kazakh crude exports from a key port in the Black Sea have been slashed again as bad weather, maintenance and drone damage cut the nation’s loadings, driving up the price of those barrels.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/kazakh-oil-shipments-slashed-again-as-key-port-cpc-is-disrupted",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "271c4b84248f5af6944ae6e01d3c86d1",
+      "timestamp": "2026-01-13T00:13:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Paramount Is Suing Warner Bros. - Paramount Skydance said it plans to nominate directors to Warner Bros. Discovery’s board to vote against the approval of a merger with Netflix and has filed a suit to force Warner Bros. to disclose in",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/why-paramount-is-suing-warner-bros-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1de47b08129c0add67e3155f0110b3ef",
+      "timestamp": "2026-01-13T00:06:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SocGen Turns to Microsoft’s Copilot After Scrapping Own AI Tool - Societe Generale SA is scrapping a self-developed artificial intelligence tool in favor of Microsoft Corp.’s Copilot solution, highlighting the challenges even large lenders face in building out their",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/socgen-turns-to-microsoft-s-copilot-after-scrapping-own-ai-tool",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "549c21b390419fceb889cde757c8c82b",
+      "timestamp": "2026-01-13T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia to Invest $1 Billion in AI Drug Laboratory With Eli Lilly - Nvidia Corp. plans to invest $1 billion over five years in a new laboratory with Eli Lilly &amp; Co., aiming to speed up the use of artificial intelligence in the pharmaceutical industry.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/nvidia-to-invest-1-billion-in-ai-drug-laboratory-with-eli-lilly",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9246dbc31538772af4a29e2f2f3f4b37",
+      "timestamp": "2026-01-12T23:59:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stocks Tumble as Fears Over Fed’s Autonomy Weighs on Market - US stocks declined on Monday as the Trump administration upped its attacks on the Federal Reserve, bringing the “sell America” trade back to the forefront.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/us-stocks-tumble-as-fears-over-fed-s-autonomy-weighs-on-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "412da531f10e0a8c67de908a955f0c51",
+      "timestamp": "2026-01-12T23:57:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mexico’s Sheinbaum Touts ‘Very Good Talk’ With Donald Trump - Mexico’s President Claudia Sheinbaum said she had “very good talk” with Donald Trump amid tension across the region over the US’ hands-on approach to Venezuela and renewed threats to attack drug carte",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/mexico-s-claudia-sheinbaum-touts-very-good-talk-with-trump",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b13fef33b30eb0eec9b9075e9c8469a0",
       "timestamp": "2026-01-12T23:52:10+09:00",
@@ -2111,94 +2199,6 @@
       "related_tickers": [],
       "content": "Chicago Mayor Is Losing Grip on City as Rivals Build War Chest - He failed on his campaign promises to tax the rich. Then city council members passed a budget without his blessing. Now his opponents are building a war chest that could be used to unseat him next yea",
       "url": "https://www.bloomberg.com/news/articles/2026-01-11/chicago-mayor-is-losing-grip-on-city-as-rivals-build-war-chest",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "db8ac40c80424d2b743fa0e239b641a9",
-      "timestamp": "2026-01-11T23:56:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mandelson Declines to Apologize to Victims Over Epstein Ties - Peter Mandelson refused to apologize to victims of Jeffrey Epstein over his ties to the disgraced pedophile financier, in his first television interview since being fired as Britain’s ambassador to th",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/mandelson-declines-to-apologize-to-victims-over-epstein-ties",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e1ad8eaf4b06b37566d5797d6ce70cee",
-      "timestamp": "2026-01-11T23:19:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Should Thank Rather Than Threaten Denmark, Sweden Urges - Denmark has been a staunch partner of the US and President Donald Trump should thank the Nordic state not threaten it with a takeover of Greenland, Swedish Prime Minister Ulf Kristersson said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/us-should-thank-rather-than-threaten-denmark-sweden-urges",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "58a413143d6f89a2bcadee59f05401d1",
-      "timestamp": "2026-01-11T23:08:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela Says Country in Peace After US Renews Travel Warning - Venezuela said the country is in “absolute calm, peace and stability” after the US urged its citizens to leave immediately on recently resumed international flights.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/venezuela-says-country-in-peace-after-us-renews-travel-warning",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd0fa372fbdc12acdc246fbd4868d956",
-      "timestamp": "2026-01-11T23:00:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Magnificent 7’s Stock Market Dominance Shows Signs of Cracking - To beat the market in recent years, many investors applied a simple strategy: Load up on the biggest US technology stocks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/magnificent-7-s-stock-market-dominance-shows-signs-of-cracking",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd0fa372fbdc12acdc246fbd4868d956",
-      "timestamp": "2026-01-11T23:00:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Magnificent 7’s Stock Market Dominance Shows Signs of Cracking - To beat the market in recent years, many investors applied a simple strategy: Load up on the biggest US technology stocks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/magnificent-7-s-stock-market-dominance-shows-signs-of-cracking",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f51fdc6d12440e9ecd055d3b7d7c41ee",
-      "timestamp": "2026-01-11T22:37:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk’s Grok AI Blocked in Indonesia, Malaysia Over Sexual Images - Indonesia and Malaysia restricted access to Elon Musk’s Grok AI over the weekend, becoming the first countries to ban the artificial intelligence system over its generation of sexual content.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/musk-s-grok-ai-blocked-in-indonesia-malaysia-over-sexual-images",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8157eed80a1d453bdd78cde6c00a94ce",
-      "timestamp": "2026-01-11T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela Surge Leaves Slim Pickings in Emerging Distressed Debt - The ouster of Venezuelan leader Nicolas Maduro drove an outsize rally in the country’s bonds, making the already shrinking universe of deep-distress opportunities in emerging-market debt even smaller.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/venezuela-surge-leaves-slim-pickings-in-emerging-distressed-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d5b896edb34bf9d544730142343b557",
-      "timestamp": "2026-01-11T22:22:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Reformist Party Pledges to Revive ‘Fifth Tiger’ Economy as Election Nears - The People’s Party, whose predecessor won Thailand’s last election, pledged to form a “government of change” as it set out sweeping reforms and plans to remedy the country’s ailing economy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/thai-reformist-party-pledges-to-revive-fifth-tiger-economy-as-election-nears",
       "sentiment": "NEUTRAL"
     }
   ]
