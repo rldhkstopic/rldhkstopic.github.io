@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-12T19:04:57.341956+09:00",
+  "last_updated": "2026-01-12T19:40:54.657045+09:00",
   "items": [
+    {
+      "id": "bf508323cac7ac23bb0bcc6989f0305e",
+      "timestamp": "2026-01-12T19:33:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Understanding The Threat Of Fed Criminal Charges - Federal Reserve Chair Jerome Powell said the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment, a dramatic escalation of the Trump admi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/understanding-the-threat-of-fed-criminal-charges-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "11608df5ff4652b68ef120ab4f949e96",
+      "timestamp": "2026-01-12T19:31:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TCS Profit Misses Estimates in Sign Tech Spending Yet to Pick Up - Tata Consultancy Services Ltd.’s quarterly earnings missed analysts’ estimates, as corporations continue to limit spending on information technology projects in an era of geopolitical tensions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/tcs-profit-misses-estimates-in-sign-tech-spending-yet-to-pick-up",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "11608df5ff4652b68ef120ab4f949e96",
+      "timestamp": "2026-01-12T19:31:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TCS Profit Misses Estimates in Sign Tech Spending Yet to Pick Up - Tata Consultancy Services Ltd.’s quarterly earnings missed analysts’ estimates, as corporations continue to limit spending on information technology projects in an era of geopolitical tensions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/tcs-profit-misses-estimates-in-sign-tech-spending-yet-to-pick-up",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "74c096c556a5ccd0554541074fcce8d6",
+      "timestamp": "2026-01-12T19:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Lawyer Suing Media Outlets for Trump Has a ‘Trumpinator’ Doll Behind His Desk - The only sign of Alejandro “Alex” Brito’s most famous client in his corner office near Miami is a bobblehead doll depicting President Donald Trump as the “Terminator” from the sci-fi franchise, sporti",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/florida-lawyer-is-leading-trump-lawsuits-against-nyt-wsj-bbc",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ef0506bd74792e955bef5a2b62785c30",
+      "timestamp": "2026-01-12T19:22:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trading Giants Want to Sell Venezuelan Oil to Asia’s Big Buyers - Vitol Group and Trafigura Group are in discussions with large Indian and Chinese refiners over potential sales of Venezuelan crude, days after the trading giants obtained a preliminary green light fro",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trading-giants-want-to-sell-venezuelan-oil-to-asia-s-big-buyers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2283c75e9ae2cfbd32290165a0106af4",
+      "timestamp": "2026-01-12T19:22:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB’s Muller Pledges Conservative Rate Policy If Elected VP - European Central Bank Governing Council member Madis Muller pledged to stick to his current stance on rate setting if he were chosen as the institution’s vice president next week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/ecb-s-muller-pledges-conservative-rate-policy-if-elected-vp",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bbc0abd7fcd53c831082c12a659403a8",
+      "timestamp": "2026-01-12T19:14:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What Do Iran's Protests Mean for the World? - Hundreds of thousands of people in Iran have been defying authorities' threats and a brutal crackdown to take to the streets. As Iranian President Masoud Pezeshkian takes a harder line, President Dona",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/what-do-iran-s-protests-mean-for-the-world-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "839b2a3a76a6a0a2a193eaf96e9929fe",
+      "timestamp": "2026-01-12T19:00:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apheon Hits €1.25 Billion Hard Cap for Latest Flagship Fund - Apheon Management SA has hit a €1.25 billion ($1.5 billion) hard cap for its sixth flagship fund.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/apheon-hits-1-25-billion-hard-cap-for-latest-flagship-fund",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "2fa4fed5cb1a729497658a7bc08ffea7",
       "timestamp": "2026-01-12T19:00:00+09:00",
@@ -10,6 +98,39 @@
       "related_tickers": [],
       "content": "NBA Europe Pitches Investors With $1 Billion Price Tag Per Team - The National Basketball Association is preparing to pitch investors on a new European league, targeting team valuations of up to $1 billion, as it readies a pair of regular season games in London and ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/nba-europe-pitches-investors-with-1-billion-price-tag-per-team",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab20de4fdac251e285989fd2f113a7a8",
+      "timestamp": "2026-01-12T19:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jacobs’ QXO Boosts Financing Deal to $3 Billion to Pursue M&amp;A - QXO Inc. is raising another $1.8 billion from investors including Temasek Holdings Pte. to support its acquisition strategy, according to people familiar with the matter, well more than doubling the $",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/jacobs-qxo-boosts-financing-deal-to-3-billion-to-pursue-m-a",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e8d3496236b4409db08c809e627ffb2e",
+      "timestamp": "2026-01-12T18:59:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jimmy Lai’s Lawyer Cites Health and Age in Leniency Bid at Hong Kong Court - Former Hong Kong media mogul Jimmy Lai’s legal team urged a local court to grant the 78-year-old democracy advocate a lighter sentence, in a landmark national security case that has drawn scrutiny fro",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/jimmy-lai-s-lawyer-cites-health-age-in-leniency-bid-at-hk-court",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "748a2b552fb6bc5e231e9411910ad19d",
+      "timestamp": "2026-01-12T18:49:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Singapore Exchange Proposes Bond Futures for India, SE Asia - Singapore Exchange held multiple calls with treasury officials from global banks about introducing futures tied to some Asian government bond markets, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/singapore-exchange-proposes-bond-futures-for-india-se-asia",
       "sentiment": "NEUTRAL"
     },
     {
@@ -208,6 +329,17 @@
       "related_tickers": [],
       "content": "DeepSeek Founder Liang’s Funds Surge 57% as China Quants Boom - DeepSeek founder Liang Wenfeng’s quantitative hedge fund generated returns of more than 50% last year, boosting the potential war chest for a company that has already shaken up the global tech landsca",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/deepseek-founder-liang-s-funds-surge-57-as-china-quants-boom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "365966fbfe580dd0dd387188be3ef144",
+      "timestamp": "2026-01-12T17:19:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Stocks Drop as Concerns Over Fed Independence Grow - European stocks retreated from record highs as concerns over the independence of the Federal Reserve sapped investor confidence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/european-stocks-drop-as-concerns-over-fed-independence-grow",
       "sentiment": "NEUTRAL"
     },
     {
