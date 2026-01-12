@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-12T20:04:04.381630+09:00",
+  "last_updated": "2026-01-12T20:35:33.740359+09:00",
   "items": [
+    {
+      "id": "1008023ff3a4d656eeb22d754ac92dd3",
+      "timestamp": "2026-01-12T20:29:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Reform Recruits Former Chancellor in Most Senior Tory Defection - Former Chancellor of the Exchequer Nadhim Zahawi joined Reform UK in the most senior defection yet from the Conservative Party to Nigel Farage’s poll-leading populist outfit.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/former-tory-chancellor-zahawi-joins-reform-uk-farage-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f74a680e524856cd366e54fc542dcf40",
+      "timestamp": "2026-01-12T20:13:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Sell America Trade Is Back as US Targets Fed Chair - <p>Stocks, bonds, dollar drop on criminal probe, while gold rallies.</p>",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/the-sell-america-trade-is-back-as-us-targets-fed-chair",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f1d6aa518ab15aa026310e91ea20b624",
+      "timestamp": "2026-01-12T20:11:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Finland Releases Ship Suspected of Last Month’s Cable Damage - Finland lifted the seizure of a vessel suspected of damaging a telecommunications cable in the Baltic Sea last month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/finland-releases-ship-suspected-of-last-month-s-cable-damage",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f507a2e99bd866d2b7211ef92f53e8ec",
+      "timestamp": "2026-01-12T20:05:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "StanChart Said to Prepare Crypto Expansion With Prime Brokerage - Standard Chartered Plc plans to set up a prime brokerage for crypto trading, people with knowledge of the matter said, as global banks step up efforts to compete in digital assets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/stanchart-said-to-prepare-crypto-expansion-with-prime-brokerage",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0c0703583bb6a0d23fd720a956e436e9",
       "timestamp": "2026-01-12T20:00:18+09:00",
@@ -13,6 +57,50 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "88a1553e3f717ec5f7f61093903c0ee8",
+      "timestamp": "2026-01-12T20:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chile Investors Look Abroad as Fed, Geopolitics Drive Rates - Chilean fixed-income investors are looking beyond domestic developments this year, with decisions in Washington and geopolitical flashpoints eclipsing the impact of a new administration at home.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/chile-investors-look-abroad-as-fed-geopolitics-drive-rates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "67ab89e02d9c1923a247e3e46d071b56",
+      "timestamp": "2026-01-12T20:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Data Centers Will Need $3 Trillion Through 2030, Moody’s Says - At least $3 trillion is set to flow into data-center-related investments over the next five years, capital that will rely on the might of multiple areas of the credit markets to provide, according to ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/data-centers-will-need-3-trillion-through-2030-moody-s-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "67ab89e02d9c1923a247e3e46d071b56",
+      "timestamp": "2026-01-12T20:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Data Centers Will Need $3 Trillion Through 2030, Moody’s Says - At least $3 trillion is set to flow into data-center-related investments over the next five years, capital that will rely on the might of multiple areas of the credit markets to provide, according to ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/data-centers-will-need-3-trillion-through-2030-moody-s-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "88a1553e3f717ec5f7f61093903c0ee8",
+      "timestamp": "2026-01-12T20:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chile Investors Look Abroad as Fed, Geopolitics Drive Rates - Chilean fixed-income investors are looking beyond domestic developments this year, with decisions in Washington and geopolitical flashpoints eclipsing the impact of a new administration at home.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/chile-investors-look-abroad-as-fed-geopolitics-drive-rates",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "d35f63d96eca7c84c918f6bb89e38142",
       "timestamp": "2026-01-12T19:59:39+09:00",
       "source_type": "NEWS",
@@ -21,6 +109,17 @@
       "related_tickers": [],
       "content": "Iran’s Leaders Face Their Biggest Challenge in a Generation - But demise is by no means certain &mdash; and a harder version of the status quo may yet emerge.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/iran-protests-regime-faces-biggest-challenge-in-a-generation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d4141f5f0ea192f73c3279f58ca616d3",
+      "timestamp": "2026-01-12T19:58:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Corn Rises to Two-Week High as Report Seen Cutting US Yield - Corn futures hit the highest in two weeks as traders await a key monthly report from the US Department of Agriculture, which is expected to pare the outlook for US corn yields.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/corn-rises-to-two-week-high-as-report-seen-cutting-us-corn-yield",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,94 +2199,6 @@
       "related_tickers": [],
       "content": "China AI Leaders Warn of Widening Gap With US After $1B IPO Week - Some of China’s most prominent figures in generative artificial intelligence warned that the Asian nation is unlikely to eclipse the US in the global AI race anytime soon.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-10/china-ai-leaders-warn-of-widening-gap-with-us-after-1b-ipo-week",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd2ebfde7f15c2fab308af026f0f1e6c",
-      "timestamp": "2026-01-10T23:05:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China AI Leaders Warn of Widening Gap With US After $1B IPO Week - Some of China’s most prominent figures in generative artificial intelligence warned that the Asian nation is unlikely to eclipse the US in the global AI race anytime soon.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/china-ai-leaders-warn-of-widening-gap-with-us-after-1b-ipo-week",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b6ddacdb8110db0bddfa988bf4fc9e03",
-      "timestamp": "2026-01-10T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "A Trader’s Guide to Venezuela as Trump Takes Over Oil Industry - President Donald Trump promises his hostile takeover of Venezuela’s oil industry will inspire billions of dollars of investment from American energy companies, and it will make the people of the South",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/a-trader-s-guide-to-venezuela-as-trump-takes-over-oil-industry",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a63143253eb8b22eb3a368488f1c5cc8",
-      "timestamp": "2026-01-10T22:09:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ramaphosa Concedes Party Failings as South Africa Elections Near - President Cyril Ramaphosa lectured his African National Congress Party for failing to meet the basic needs of many South Africans as it prepares to face crucial municipal elections within the next yea",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/ramaphosa-concedes-party-failings-as-south-africa-elections-near",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "13d1257d573f6145d23e7c9b8b7954f1",
-      "timestamp": "2026-01-10T22:04:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Farming Without Subsidies: Could New Zealand’s Approach Work Elsewhere? - Farm subsidies now total hundreds of billions of dollars worldwide, playing a key role in agriculture markets from Iowa to Beijing. Former US Agriculture Secretary Dan Glickman, New Zealand’s former A",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-10/should-the-world-move-away-from-farm-subsidies-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4082bd69071d9c824d0a0a42a330d915",
-      "timestamp": "2026-01-10T22:00:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Venezuela, Greenland Threats Make Canada Fear It's Next - <p>The president’s past&nbsp;talk&nbsp;about annexing Canada has&nbsp;taken on new, chilling resonance.&nbsp;&nbsp;</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/trump-s-venezuela-greenland-threats-make-canada-fear-it-s-next",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "99101e0b7493c63106664b38eeaba3f9",
-      "timestamp": "2026-01-10T22:00:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Commodities Rule, From Oil to Crops - One Thing Motivates Trump’s Actions in Venezuela, Richard Haass Says",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-10/richard-haass-says-oil-motivated-trump-s-actions-in-venezuela",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "718ec7a9068dc29a64099beeda9e86f2",
-      "timestamp": "2026-01-10T21:22:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian Insurer’s Worker Posts Draft Earnings in WhatsApp Status - ICICI Lombard General Insurance Co., a unit of India’s second-largest private lender, said an employee uploaded undisclosed information about third quarter earnings as a personal WhatsApp status, days",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/indian-insurer-s-worker-posts-draft-earnings-in-whatsapp-status",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3481d8ec8a273d9ed08d8491693ec472",
-      "timestamp": "2026-01-10T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "After Trump Attack, RTX Decides That Winning Move Is Not to Play - When RTX Corp. executives’ phones started buzzing with the news that President Donald Trump had singled out their company for criticism, they quickly realized they had two options, both fraught: push ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/after-trump-attack-rtx-decides-that-winning-move-is-not-to-play",
       "sentiment": "NEUTRAL"
     }
   ]
