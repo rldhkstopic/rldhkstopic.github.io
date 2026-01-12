@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-12T18:08:09.018931+09:00",
+  "last_updated": "2026-01-12T18:42:43.867562+09:00",
   "items": [
+    {
+      "id": "3b4a58c3d87fbf2ddc06ef1e747f12a8",
+      "timestamp": "2026-01-12T18:19:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What’s Behind the Protests in Iran? - Protesters have poured into the streets of Iran night after night, edging the Islamic Republic closer to a revolution that could reshape the world.\n\nRosalind Mathieson explains what’s behind the prote",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/what-s-behind-the-protests-in-iran-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "733d30fd596b04ca5a24281a7d538dfd",
+      "timestamp": "2026-01-12T18:17:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa Reviews Prime Rate Used to Price $378 Billion of Credit - South Africa is reviewing the main reference rate commercial banks use to price trillions of rands of loans to clients.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/south-africa-reviews-prime-rate-used-to-price-378-billion-of-credit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cf3371ce03792d6afe7353ff507b88fc",
+      "timestamp": "2026-01-12T18:12:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prabowo to Make First Trip as President to New Indonesia Capital - Indonesian President Prabowo Subianto will visit the nation’s planned new capital for the first time since taking office more than a year ago, a sign of continued support for the legacy project of his",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/prabowo-to-make-first-trip-as-president-to-new-indonesia-capital",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f385075cac0b29c7a0c1b99572838d3e",
+      "timestamp": "2026-01-12T18:11:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Holds Gain as Iran Unrest Threatens Supply Disruption - Oil held its biggest two-day gain since October, as escalating protests in Iran threatened supply from OPEC’s fourth-biggest producer. Bloomberg's Anthony Di Paola reports. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/oil-holds-onto-gain-as-iran-unrest-threatens-supply-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0603ff3747366547f7e3ff5a745dc72b",
+      "timestamp": "2026-01-12T18:00:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBS Renews Rejection of Swiss Capital Plans as Opposition Builds - UBS Group AG said planned Swiss banking reforms are a threat to the national economy as pressure builds on the government to water down its proposals.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/ubs-renews-rejection-of-swiss-capital-plans-as-opposition-builds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0603ff3747366547f7e3ff5a745dc72b",
+      "timestamp": "2026-01-12T18:00:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBS Renews Rejection of Swiss Capital Plans as Opposition Builds - UBS Group AG said planned Swiss banking reforms are a threat to the national economy as pressure builds on the government to water down its proposals.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/ubs-renews-rejection-of-swiss-capital-plans-as-opposition-builds",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "95ac5fcbf673b236bc35bfb3054e17fb",
       "timestamp": "2026-01-12T18:00:15+09:00",
@@ -21,6 +87,28 @@
       "related_tickers": [],
       "content": "Odd Lots: Cullen Roche on Building a Perfect Portfolio (Podcast) - For a long time, you could make plenty of money and sleep easy at night with a simple 60/40 portfolio. You put 60% of your money in stocks and 40% in Treasuries. The stocks generally went up. The Trea",
       "url": "https://www.bloomberg.com/news/audio/2026-01-12/cullen-roche-on-how-to-build-the-perfect-portfolio",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2327826f3c6e4738dc2f4be85bbb6c1e",
+      "timestamp": "2026-01-12T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vanke Dollar Bondholders Asked to Call Default by Advisory Firm - A debt advisory firm asked China Vanke Co. dollar bondholders to consider calling a default on the embattled developer’s notes, based on cross-default clauses, people familiar with the matter said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/vanke-dollar-bondholders-asked-to-call-default-by-advisory-firm",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "50c66fdfe3bf91addeb6448439e62d1d",
+      "timestamp": "2026-01-12T17:59:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Says It’s Quelled Protests After Hundreds Reported Killed - Iran’s Foreign Minister said security forces have “full control” of the country after two weeks of ongoing upheaval, accusing Israel and the US of fomenting the nationwide protests in which hundreds o",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/iran-says-it-s-quelled-protests-after-hundreds-reported-killed",
       "sentiment": "NEUTRAL"
     },
     {
