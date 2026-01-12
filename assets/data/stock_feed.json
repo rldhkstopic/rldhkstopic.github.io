@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-12T08:34:35.588766+09:00",
+  "last_updated": "2026-01-12T09:13:39.840330+09:00",
   "items": [
+    {
+      "id": "249f4d236bac30f9f70fb67acc40a5f0",
+      "timestamp": "2026-01-12T09:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Rate Paths Splinter as Trump Drives Change at the Fed - A spell of global interest-rate divergence is in store as central banks feel their way through the economic fog stoked by Donald Trump’s second year at the White House.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/global-rate-paths-splinter-as-trump-drives-change-at-the-fed",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4e507f93e04315a4abc4d35d2c248d41",
+      "timestamp": "2026-01-12T08:44:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yuan Optimism Grows as Dollar Hedging Costs Hit Three-Year Low - Growing optimism toward the Chinese yuan is spreading into hedging activities, with the cost that mainland investors have to pay to guard against possible dollar losses falling to a three-year low.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/yuan-optimism-grows-as-dollar-hedging-costs-hit-three-year-low",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bd039f03f7a7a2f4ab9f8787d7602438",
+      "timestamp": "2026-01-12T08:40:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Flirts With Record High on Soft US Jobs Data, Iran Tensions - Gold rose after US jobs data left expectations for additional US interest-rate cuts intact, while intensifying protests in Iran kept geopolitical tensions elevated.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/gold-flirts-with-record-high-on-soft-us-jobs-data-iran-tensions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "124945cece5aa96a14691efd8d069ce4",
+      "timestamp": "2026-01-12T08:39:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Merz Eyes India Business, Defense Deals in His First Asia Trip - German Chancellor Friedrich Merz will seek to expand business and defense ties with India in his first trip to Asia, aiming to bolster Europe’s biggest economy as tensions with its main trading partne",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-11/merz-eyes-india-business-defense-deals-in-his-first-asia-trip",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "706323e52b6fda0e5d5783969a3e0c4d",
       "timestamp": "2026-01-12T08:30:01+09:00",
