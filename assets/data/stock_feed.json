@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-12T23:06:03.876985+09:00",
+  "last_updated": "2026-01-12T23:41:23.858236+09:00",
   "items": [
+    {
+      "id": "98d902d874859e1fae2e3f2f70b2a77c",
+      "timestamp": "2026-01-12T23:32:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia Killed Record Number of Ukraine Civilians Amid Peace Push - Russia accelerated its attacks on civilians after President Donald Trump began his efforts to end the war in Ukraine, the first comprehensive assessment of 2025 casualties undertaken by European gover",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/russia-killed-record-number-of-ukraine-civilians-amid-peace-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23d032916347cfc9711c471839275f86",
+      "timestamp": "2026-01-12T23:29:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela’s Machado Meets Pope in Italy Before She Visits Trump - Pope Leo XIV met with Venezuelan opposition leader María Corina Machado in a private audience at the Vatican hours after Italy announced the release of several prisoners held in Caracas.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/venezuela-s-machado-meets-pope-in-italy-before-she-visits-trump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d749282d81a9c883f367017a7fc1e3db",
+      "timestamp": "2026-01-12T23:27:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Paramount Sues Warner Bros., Aims to Nominate Directors to Board - Paramount Skydance Corp. said it plans to nominate directors to Warner Bros. Discovery Inc.’s board to vote against the approval of a merger with Netflix Inc. and has filed a suit to force Warner Bros",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/paramount-sues-warner-bros-aims-to-nominate-directors-to-board",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0ee68d31a3fd7f42f0420598a1ad49b4",
+      "timestamp": "2026-01-12T23:15:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crypto Wallet Firm BitGo, Backers Seek $201 Million in US IPO - BitGo Holdings Inc. and some of its backers are seeking to raise as much as $201 million in an initial public offering, becoming the first crypto company to proceed with listing plans in 2026.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/crypto-wallet-firm-bitgo-backers-seek-201-million-in-us-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b61e48d78421d948f7325c834f1073b4",
+      "timestamp": "2026-01-12T23:05:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman, JPMorgan and UBS Lead Golden Goose’s Buyout Debt - Goldman Sachs Group Inc. JPMorgan Chase &amp; Co. and UBS Group AG are leading a debt financing deal backing a Chinese firm’s acquisition of Italian high-end sneaker producer Golden Goose Group SpA.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/goldman-jpmorgan-and-ubs-lead-golden-goose-s-buyout-debt",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "50f32da52d4ac27cfaa23a675bdc44e0",
+      "timestamp": "2026-01-12T23:02:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan Trading Desk ‘Cautious’ on US Stocks After Fed Probe - The Trump administration’s latest attack on the Federal Reserve’s independence poses a threat to the US stock market, at least in the short term, according to JP Morgan Securities LLC’s trading desk.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/jpmorgan-trading-desk-cautious-on-us-stocks-after-fed-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8d8d4eaebe5c839e74e219f003cef80a",
+      "timestamp": "2026-01-12T23:02:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gas-Storage Worries Push Key European Price Spread to June Lows - A key price spread in Europe’s gas market has collapsed to levels last seen in June, prompting worries about refilling the continent’s fuel inventories this summer.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/gas-storage-worries-push-key-european-price-spread-to-june-lows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8d3275313f182b523d66913fd50f8afc",
+      "timestamp": "2026-01-12T23:00:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Man Betting on Insider Trading as Prediction Markets Boom - The well-timed and hugely profitable bets placed just before the ouster of Nicolás Maduro have sparked the latest and loudest uproar over insider trading on prediction markets &mdash; with lawmakers q",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/the-man-betting-on-insider-trading-as-prediction-markets-boom",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "cc69de0fbbe8f50d0436d4e19bdc2ed0",
       "timestamp": "2026-01-12T22:49:48+09:00",
@@ -32,6 +120,17 @@
       "related_tickers": [],
       "content": "MacKay Looks to Long-Dated Munis Ignored by Key Retail Investors - US state and local debt with long maturities offer “compelling” value in this less crowded corner of the market, according to the municipal investment arm of MacKay Shields.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/mackay-looks-to-long-dated-munis-ignored-by-key-retail-investors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a2fa67b070c7ac1e68e331ff0611a65",
+      "timestamp": "2026-01-12T22:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta Taps Dina Powell McCormick for New Role Driving AI Buildout - Meta Platforms Inc. has appointed a former top adviser to US President Donald Trump to a newly created senior management role focused on partnering with governments and investors on AI.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/meta-taps-former-trump-advisor-for-new-role-driving-ai-buildout",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "French Minister Sees No Budget Before March If Government Falls - France’s budget minister warned that the adoption of a finance bill for 2026 risks being pushed back until after municipal elections in March if lawmakers topple the government in confidence votes nex",
       "url": "https://www.bloomberg.com/news/articles/2026-01-11/french-minister-sees-no-budget-before-march-if-government-falls",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e423b89e4e33dd5a2fc8edd5fa6702aa",
-      "timestamp": "2026-01-11T20:53:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iraq Cuts February Basrah Medium Crude to Asia to $1.30 Discount - Iraq cut the pricing of its Basrah Medium crude for Asian customers in February, following a similar move by Saudi Arabia to lower the cost of its flagship oil to buyers in the biggest market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/iraq-cuts-february-basrah-medium-crude-to-asia-to-1-30-discount",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0bdef20b3370f270a3f61f6f00661cb6",
-      "timestamp": "2026-01-11T20:46:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Set to Name Gaza ‘Board of Peace’ to Advance Rocky Truce - US President Donald Trump is expected this week to name global leaders for a “Board of Peace” to administer his ambitious post-war plan for Gaza, officials say, even as a standoff between Israel and H",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/trump-set-to-name-gaza-board-of-peace-to-advance-rocky-truce",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0eba5728e11ab9c24f10a91a3630636a",
-      "timestamp": "2026-01-11T19:39:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Germany to Pitch NATO Mission in Arctic to Ease Greenland Strife - Germany will propose setting up a joint NATO mission to monitor and protect security interests in the Arctic region in a bid to ease tensions with US over its threats to annex Greenland, according to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/germany-to-pitch-nato-mission-in-arctic-to-ease-greenland-strife",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cbb960ea8d141af0a5cfd13aab1c116e",
-      "timestamp": "2026-01-11T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Germany Open to ‘Joint Action’ to Secure Supply Chains, Vice Chancellor Says - Germany is open to taking “joint action” with international partners to bolster supply chains and ensure access to materials critical to manufacturing, Vice Chancellor and Finance Minister Lars Klingb",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/germany-open-to-joint-action-to-secure-supply-chains-minister",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cbb960ea8d141af0a5cfd13aab1c116e",
-      "timestamp": "2026-01-11T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Germany Open to ‘Joint Action’ to Secure Supply Chains, Vice Chancellor Says - Germany is open to taking “joint action” with international partners to bolster supply chains and ensure access to materials critical to manufacturing, Vice Chancellor and Finance Minister Lars Klingb",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/germany-open-to-joint-action-to-secure-supply-chains-minister",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "70fc844dbb0e2f3009d37d6d5d3c7558",
-      "timestamp": "2026-01-11T17:34:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Congo Central Bank to Intervene to Curb Currency Speculation - The central bank of the Democratic Republic of Congo said it plans to continue intervening in the foreign exchange market to curb currency speculation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/congo-central-bank-to-intervene-to-curb-currency-speculation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "79f7430cb5ec3fdbacd81673f1b033c6",
-      "timestamp": "2026-01-11T17:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Greggs Tests Limit of Britain’s Appetite for Its Sausage Rolls - Its sausage rolls are idolized on socks and T-shirts, and its thousands of shops make it Britain’s most unmissable baker. But Greggs Plc is showing the strain of expansion, and investors are piling up",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/greggs-tests-limit-of-britain-s-appetite-for-its-sausage-rolls",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f974cfc7fc721828ecefe0e6a1dae8eb",
-      "timestamp": "2026-01-11T17:09:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kenya, China Trade Deal Stalled by US Pressure, Standard Says - The signing of a trade deal between Kenya and China is being held up because of US pressure on the African country not to go ahead with it, The Standard newspaper reported, citing people familiar with",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/kenya-china-trade-deal-stalled-by-us-pressure-standard-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2b0ee28b6aa538b502a9a380ce2c8564",
-      "timestamp": "2026-01-11T17:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Stockholders Want a Right to Invest Good Money After Bad - In Germany, some small investors who lost everything on companies on the verge of insolvency are complaining that they haven’t been allowed to put more money into the collapsed businesses.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/german-stockholders-want-a-right-to-invest-good-money-after-bad",
       "sentiment": "NEUTRAL"
     }
   ]
