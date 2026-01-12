@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-13T07:36:31.299728+09:00",
+  "last_updated": "2026-01-13T08:03:11.884028+09:00",
   "items": [
+    {
+      "id": "f4f55715c10ff899f058c62d6ebe87c1",
+      "timestamp": "2026-01-13T07:56:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&P 500 Hits Record as Gold and Silver Extend Rally | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Emily Graffeo, and Tim Stenovec. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/s-p-500-hits-record-closing-bell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4fa729858b87af0a01f6c5901628f603",
+      "timestamp": "2026-01-13T07:37:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Stocks Set to Shrug Off Trump’s Fed Threats: Markets Wrap - Asian stocks were primed to track US gains that pushed shares to fresh highs, as sentiment remained buoyant despite the Trump administration’s escalating attacks on the Federal Reserve.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/stock-market-today-dow-s-p-live-updates",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "99c764eeb45adc39120418bc0b3b8438",
       "timestamp": "2026-01-13T07:25:48+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Horizons Middle East & Africa 1/12/2026 (Video)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-12/horizons-middle-east-africa-1-12-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e9ac2ed23362e6be061a41a321115998",
-      "timestamp": "2026-01-12T16:51:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Top Netanyahu Aide Questioned Over Leaked Gaza War Document - Israeli police detained one of Prime Minister Benjamin Netanyahu’s closest aides and questioned him on suspicion of obstruction of an investigation into the leak of a classified document to journalist",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/top-netanyahu-aide-questioned-over-leaked-gaza-war-document",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3cb41cfbd32ca3620cbdd4d5b564021f",
-      "timestamp": "2026-01-12T16:47:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Envoy Says Trade Deal Differences With India Will Be Resolved - US and India are close partners and will resolve their differences, including over a long delayed trade deal, said Sergio Gor, the new US Ambassador to India appointed by President Donald Trump’s admi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/us-envoy-says-trade-deal-differences-with-india-will-be-resolved",
       "sentiment": "NEUTRAL"
     }
   ]
