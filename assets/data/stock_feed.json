@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-13T03:43:59.247617+09:00",
+  "last_updated": "2026-01-13T04:05:37.003167+09:00",
   "items": [
+    {
+      "id": "c09b142e0bcaf6c8662b7004c4212d82",
+      "timestamp": "2026-01-13T03:45:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New AI Model Lets Robot Neo Learn Tasks From Scratch - Humanoid maker 1X Technologies has introduced a new AI model that it says allows its home robot Neo to perform new tasks from a video or voice prompt even if the robot has zero experience doing the ta",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/new-ai-model-lets-robot-neo-learn-tasks-from-scratch-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "24cd9e2221da226c5509f4e3d41d03c7",
+      "timestamp": "2026-01-13T03:42:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta Deals Need $14 Billion in New Reactors, BloombergNEF Says - Next-generation nuclear companies Oklo Inc. and TerraPower LLC will need to invest more than $14 billion in new reactors to support Meta Platforms Inc. data centers, according to estimates from Bloomb",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/meta-nuclear-deals-to-require-over-14-billion-in-new-reactors",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "47d060e6b145ef02f2def63cc0d9d769",
       "timestamp": "2026-01-13T03:32:31+09:00",
@@ -54,6 +76,17 @@
       "related_tickers": [],
       "content": "Ex-Justice Department Official Denied Bid to Represent Maduro - A request to join Nicolas Maduro’s legal team by a former top Justice Department official was rejected by a federal judge amid a fight with the ousted Venezuelan president’s current lawyer.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/ex-justice-department-official-denied-bid-to-represent-maduro",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e92cd84a80f9ae1e2ed8db5a84444312",
+      "timestamp": "2026-01-13T03:17:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Military Chief Warns of Defense Cuts Under Current Budget - The UK cannot afford to fulfill its defense commitments despite a recent spending uplift, the head of the UK’s armed forces warned, weeks after telling Prime Minister Keir Starmer that he’s preparing ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/uk-military-chief-warns-of-defense-cuts-under-current-budget",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Iran Protests Could Add Volatility to Markets, Lombard Odier's Lee Says - Lombard Odier's Homin Lee discusses the impact of intensifying protests in Iran on equity and energy markets. He also talks to Bloomberg TV about the outlook for the Federal Reserve after the US centr",
       "url": "https://www.bloomberg.com/news/videos/2026-01-12/iran-could-add-volatility-to-markets-lombard-odier-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e65c961a9454e838e158a53fc3577879",
-      "timestamp": "2026-01-12T10:36:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Powell Responds to Justice Department Subpoenas - Federal Reserve Chair Jerome Powell says the threat of criminal charges from the US Justice Department is \"a consequence\" of the US central bank's rate decisions. The Justice Department threatened a c",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/powell-responds-to-justice-department-subpoenas-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "13bff816f8ee538d656975331d4410d1",
-      "timestamp": "2026-01-12T10:01:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Read Jerome Powell’s Statement on DOJ’s Grand Jury Subpoenas - Federal Reserve Chair Jerome Powell’s full statement on the Justice Department serving the Fed with grand jury subpoenas, issued the evening of Jan. 11:",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/read-jerome-powell-s-statement-on-doj-s-grand-jury-subpoenas",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cc508ee007df04c19e536b61746f40e1",
-      "timestamp": "2026-01-12T09:50:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Australia Announces Critical Minerals for Its Strategic Reserve - Australia plans to buy and stockpile minerals essential for defense and advanced technologies from domestic mining companies to help strengthen global supply chains.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/australia-announces-critical-minerals-for-its-strategic-reserve",
       "sentiment": "NEUTRAL"
     }
   ]
