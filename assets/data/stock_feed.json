@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-12T09:48:01.318253+09:00",
+  "last_updated": "2026-01-12T10:32:18.945479+09:00",
   "items": [
+    {
+      "id": "13bff816f8ee538d656975331d4410d1",
+      "timestamp": "2026-01-12T10:01:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Read Jerome Powell’s Statement on DOJ’s Grand Jury Subpoenas - Federal Reserve Chair Jerome Powell’s full statement on the Justice Department serving the Fed with grand jury subpoenas, issued the evening of Jan. 11:",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/read-jerome-powell-s-statement-on-doj-s-grand-jury-subpoenas",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cc508ee007df04c19e536b61746f40e1",
+      "timestamp": "2026-01-12T09:50:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia Announces Critical Minerals for Its Strategic Reserve - Australia plans to buy and stockpile minerals essential for defense and advanced technologies from domestic mining companies to help strengthen global supply chains.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/australia-announces-critical-minerals-for-its-strategic-reserve",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2841b740e25ad2e231086fee2967d3f5",
+      "timestamp": "2026-01-12T09:47:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Trade Deal With Mercosur Defies Trump’s Protectionism - The European Union and Mercosur have delivered their long-sought trade pact, along with a political statement few could have imagined when talks began 25 years ago.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/eu-trade-deal-with-mercosur-defies-trump-s-protectionism",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f9d373043a5e16ad294b103a7dce1803",
+      "timestamp": "2026-01-12T09:47:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He’s Inclined to ‘Keep Exxon Out’ of Venezuela Plans - President Donald Trump signaled he’s leaning toward excluding Exxon Mobil Corp. from his push for US oil majors to spend at least $100 billion to rebuild Venezuela’s petroleum industry, saying he was ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-says-he-s-inclined-to-keep-exxon-out-of-venezuela-plans",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "76a6dbb41d845361d30368a4dab986bd",
       "timestamp": "2026-01-12T09:35:55+09:00",
