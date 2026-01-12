@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-12T10:32:18.945479+09:00",
+  "last_updated": "2026-01-12T11:44:31.393112+09:00",
   "items": [
+    {
+      "id": "f29d761c79b3f96888c0c84849b83adb",
+      "timestamp": "2026-01-12T11:14:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He May Veto Extension of Health Care Subsidies - President Donald Trump said Sunday he may veto a bill to extend Obamacare subsidies if Congress sent one to his desk.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-says-he-may-veto-extension-of-health-care-subsidies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "058ffec02a0cdafc479a78f035b02bc5",
+      "timestamp": "2026-01-12T11:11:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Vanke Faces Next Test as Debt Default Pressure Builds - China Vanke Co. is bracing for its next major test as the developer that’s become a symbol of the nation’s broader property crisis navigates a proposal to delay bond payments and drafts broader restru",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/china-vanke-faces-next-test-as-debt-default-pressure-builds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be48003996e802f2dce1422580d0d20f",
+      "timestamp": "2026-01-12T11:10:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Credit Card Firms Would Break Law If Rates Not Capped - President Donald Trump said that credit-card lenders would be “in violation of the law” if they don’t heed his call to cap interest rates at 10% for one year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-says-credit-card-firms-would-break-law-if-rates-not-capped",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "484797f3dd2a0181f0c387080f792923",
+      "timestamp": "2026-01-12T11:07:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dollar Drops Most in Nearly Three Weeks as Fed Gets Subpoenas - The dollar declined the most in almost three weeks as the Federal Reserve faced grand jury subpoenas from the Justice Department, reviving concerns over political interference in monetary policy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/dollar-drops-most-in-nearly-three-weeks-as-fed-gets-subpoenas",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cca4094a5340c3fcbb5af5a739181aff",
+      "timestamp": "2026-01-12T11:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian Stocks’ Recovery Clouded by Slowing Earnings Growth - Indian stocks face a subdued near-term outlook, with expectations of another lackluster earnings season dimming hopes for a rebound.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/indian-stocks-recovery-clouded-by-slowing-earnings-growth",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c53231ab3bb5616dd08cb57358054f52",
+      "timestamp": "2026-01-12T10:59:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US to Host Meeting on Rare Earths as China-Japan Spat Simmers - The US will host a gathering of G-7 ministers to discuss rare earths this week, underscoring the shared push to develop alternative supplies in an industry dominated by China.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/us-to-host-meeting-on-rare-earths-as-china-japan-spat-simmers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "61d09d42d8ab9dd50ea47e86e2e913b4",
+      "timestamp": "2026-01-12T10:57:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prudential Financial Is Said to Mull India Asset Manager Sale - Prudential Financial Inc.’s investment management arm is considering selling its loss-making asset management unit in India a decade after acquiring the business from Deutsche Bank AG, according to pe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/prudential-financial-is-said-to-mull-india-asset-manager-sale",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bcf5165ca5af8450d823a50132a328b2",
+      "timestamp": "2026-01-12T10:51:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Protests Could Add Volatility to Markets, Lombard Odier's Lee Says - Lombard Odier's Homin Lee discusses the impact of intensifying protests in Iran on equity and energy markets. He also talks to Bloomberg TV about the outlook for the Federal Reserve after the US centr",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/iran-could-add-volatility-to-markets-lombard-odier-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e65c961a9454e838e158a53fc3577879",
+      "timestamp": "2026-01-12T10:36:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Powell Responds to Justice Department Subpoenas - Federal Reserve Chair Jerome Powell says the threat of criminal charges from the US Justice Department is \"a consequence\" of the US central bank's rate decisions. The Justice Department threatened a c",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/powell-responds-to-justice-department-subpoenas-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "13bff816f8ee538d656975331d4410d1",
       "timestamp": "2026-01-12T10:01:01+09:00",
