@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-12T19:40:54.657045+09:00",
+  "last_updated": "2026-01-12T20:04:04.381630+09:00",
   "items": [
+    {
+      "id": "0c0703583bb6a0d23fd720a956e436e9",
+      "timestamp": "2026-01-12T20:00:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "This Is Who Companies Call When They Want to Become a Bank - <p>Financial firms are racing to secure US bank charters during Trump’s presidency, with Klaros Group advising at least a dozen of them.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/fintechs-call-klaros-group-when-they-want-bank-charters",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d35f63d96eca7c84c918f6bb89e38142",
+      "timestamp": "2026-01-12T19:59:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran’s Leaders Face Their Biggest Challenge in a Generation - But demise is by no means certain &mdash; and a harder version of the status quo may yet emerge.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/iran-protests-regime-faces-biggest-challenge-in-a-generation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0c1ff63373685f88ed8197eba0e805fb",
+      "timestamp": "2026-01-12T19:50:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bahoshy: GCC Seeing a Pickup in VC Deal Activity - Middle East venture capital funding hit record highs in 2025 as international capital poured into the region, helping it defy the fundraising slump seen across other emerging markets. The region’s sta",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/bahoshy-gcc-seeing-a-pickup-in-vc-deal-activity-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9dc4cdd77b32cc5b1d385a6d39e1c3f6",
+      "timestamp": "2026-01-12T19:41:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Citi’s Manthey Sees More Investors Diversifying Out of US Stocks - Investors will push ahead with their desire to diversify equity holdings in 2026, driving a further 10% gain for a benchmark global stock index, according to Citigroup Inc. strategists.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/citi-s-manthey-sees-more-investors-diversifying-out-of-us-stocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "31fb727bdb9829617a2fdf582594c3a3",
+      "timestamp": "2026-01-12T19:41:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Eyre: US Strike in Iran Could Become a Regional Problem - President Donald Trump says the US is looking at potential options in response to reports of deadly crackdowns in Iran. Trump also said Iran's leadership has reached out to seek talks and a meeting is",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/eyre-us-strike-in-iran-could-become-a-regional-problem-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "872de745dac02e2b5be05dbb9644ea57",
+      "timestamp": "2026-01-12T19:40:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wallace: Crypto Volumes Not Large in DIFC But Growing - Dubai's financial regulator is rolling out major updates to its crypto-token framework to bolster & regulate its digital asset environment. Elisabeth Wallace, Associate Director of Policy & Legal at t",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/wallace-crypto-volumes-not-large-in-difc-but-growing-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4d530e80d5fea9f9ca749569cff8d7d9",
+      "timestamp": "2026-01-12T19:38:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Inflation Stays Low, Leaves Room for Interest Rate Cut - India’s inflation accelerated in December while remaining below the Reserve Bank of India’s target range of 2%-6%, leaving ample room for the central bank to cut interest rates at its February meet.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/india-inflation-stays-low-leaves-room-for-interest-rate-cut",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bf508323cac7ac23bb0bcc6989f0305e",
       "timestamp": "2026-01-12T19:33:59+09:00",
@@ -43,6 +120,17 @@
       "related_tickers": [],
       "content": "The Lawyer Suing Media Outlets for Trump Has a ‘Trumpinator’ Doll Behind His Desk - The only sign of Alejandro “Alex” Brito’s most famous client in his corner office near Miami is a bobblehead doll depicting President Donald Trump as the “Terminator” from the sci-fi franchise, sporti",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/florida-lawyer-is-leading-trump-lawsuits-against-nyt-wsj-bbc",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1211163b075988789b3cd3366818fd90",
+      "timestamp": "2026-01-12T19:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Big US Bank Earnings to Shed Light on Economy Expected to Boom - The rally in US bank stocks will face its first test of the year as Wall Street’s marquee names report results, with investors keying on executive commentary about the health of the American consumer ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/bank-stocks-face-earnings-test-jpm-bac-c-wfc-gs-ms",
       "sentiment": "NEUTRAL"
     },
     {
