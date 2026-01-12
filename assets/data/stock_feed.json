@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-12T16:08:16.601638+09:00",
+  "last_updated": "2026-01-12T16:38:55.236854+09:00",
   "items": [
+    {
+      "id": "5e64755b54094eb89d1d3c6f04c7bdac",
+      "timestamp": "2026-01-12T16:31:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Onshore Stock Turnover Jumps to a Record $516 Billion - Stock turnover in Shanghai and Shenzhen reached an all-time high on Monday of 3.6 trillion yuan ($516 billion) as animal spirits continue to mount in Chinese equities.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/china-onshore-stock-turnover-jumps-to-a-record-516-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bf3f5072441258fedafb82b878ef03a8",
+      "timestamp": "2026-01-12T16:29:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK, Germany Weigh Military Presence in Greenland - A group of European countries, led by the UK and Germany, is discussing plans for a military presence in Greenland. The move is an attempt to show US President Donald Trump that Europe is serious abou",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/uk-germany-weigh-military-presence-in-greenland-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7f12791de3f68cd1bcf5b8f6074a29bf",
+      "timestamp": "2026-01-12T16:15:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Heineken CEO Steps Down as Slumping Beer Sales Hurt Brewer - Heineken NV Chief Executive Officer Dolf van den Brink is stepping down as the brewer grapples with falling beer sales and inflation denting consumer demand.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/heineken-ceo-steps-down-as-slumping-beer-sales-hurt-brewer",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e5c2aa03d2a3293662e479d112f23b2a",
+      "timestamp": "2026-01-12T16:08:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Justice Department Serves Fed With Grand Jury Subpoenas - Federal Reserve Chair Jerome Powell said the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment, a dramatic escalation of the Trump admi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/justice-department-serves-fed-with-grand-jury-subpoenas-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "74ab2ff6bf55d0b7feef6728eb06ede3",
       "timestamp": "2026-01-12T16:03:54+09:00",
@@ -54,6 +98,17 @@
       "related_tickers": [],
       "content": "Fed Subpoenas Revive ‘Sell America’ Trade on Autonomy Concerns - ‘Sell America’ sentiment swept through markets on Monday after the Trump administration escalated its attacks on the Federal Reserve, fueling concerns over central bank autonomy.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/fed-subpoenas-revive-sell-america-trade-on-autonomy-concerns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "142302c49450707bda547195a06feeb2",
+      "timestamp": "2026-01-12T15:20:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Space Agency Rocket Fails to Launch Second Time in A Year - India’s space agency began 2026 with a setback after its rocket failed for the second time to achieve the desired orbit, underscoring challenges to the country’s ambitions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/india-space-agency-rocket-fails-to-launch-second-time-in-a-year",
       "sentiment": "NEUTRAL"
     },
     {
