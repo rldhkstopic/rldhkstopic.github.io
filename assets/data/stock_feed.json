@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-13T04:05:37.003167+09:00",
+  "last_updated": "2026-01-13T04:34:59.174596+09:00",
   "items": [
+    {
+      "id": "0784dd11000caa1a1cf08de0f661a502",
+      "timestamp": "2026-01-13T04:17:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Powell Casts DOJ Subpoenas As Political Pressure, Warriors Up for Sale | Bloomberg Markets 1/12/2026 - \"Bloomberg Markets\" follows the market moves across every global asset class and discusses the biggest issues for Wall Street. Today's guests: Structure Therapeutics CEO Ray Stevens, Bloomberg's Micha",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/bloomberg-markets-1-12-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c09b142e0bcaf6c8662b7004c4212d82",
       "timestamp": "2026-01-13T03:45:26+09:00",
@@ -21,6 +32,17 @@
       "related_tickers": [],
       "content": "Meta Deals Need $14 Billion in New Reactors, BloombergNEF Says - Next-generation nuclear companies Oklo Inc. and TerraPower LLC will need to invest more than $14 billion in new reactors to support Meta Platforms Inc. data centers, according to estimates from Bloomb",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/meta-nuclear-deals-to-require-over-14-billion-in-new-reactors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "147aca335b1025616146870d8aa6a738",
+      "timestamp": "2026-01-13T03:37:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street on Edge Amid Fed Angst | Open Interest 1/12/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" The \"Sell America\" trade returns as the Trump administration escalates its attacks on the Fed and ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/open-interest-1-12-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "US to Host Meeting on Rare Earths as China-Japan Spat Simmers - The US will host a gathering of G-7 ministers to discuss rare earths this week, underscoring the shared push to develop alternative supplies in an industry dominated by China.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/us-to-host-meeting-on-rare-earths-as-china-japan-spat-simmers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61d09d42d8ab9dd50ea47e86e2e913b4",
-      "timestamp": "2026-01-12T10:57:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Prudential Financial Is Said to Mull India Asset Manager Sale - Prudential Financial Inc.’s investment management arm is considering selling its loss-making asset management unit in India a decade after acquiring the business from Deutsche Bank AG, according to pe",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/prudential-financial-is-said-to-mull-india-asset-manager-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bcf5165ca5af8450d823a50132a328b2",
-      "timestamp": "2026-01-12T10:51:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Protests Could Add Volatility to Markets, Lombard Odier's Lee Says - Lombard Odier's Homin Lee discusses the impact of intensifying protests in Iran on equity and energy markets. He also talks to Bloomberg TV about the outlook for the Federal Reserve after the US centr",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/iran-could-add-volatility-to-markets-lombard-odier-says-video",
       "sentiment": "NEUTRAL"
     }
   ]
