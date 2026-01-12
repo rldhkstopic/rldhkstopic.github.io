@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-13T03:04:40.531121+09:00",
+  "last_updated": "2026-01-13T03:43:59.247617+09:00",
   "items": [
+    {
+      "id": "47d060e6b145ef02f2def63cc0d9d769",
+      "timestamp": "2026-01-13T03:32:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Golden State Warriors Parent Company Said to Be Valued at $11 Billion - A minority stake in the parent company of the NBA's Golden State Warriors is said to be up for sale. The 5% stake in the Golden State Group would also include a board seat, the Chase Center arena and ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/warriors-parent-said-to-be-valued-at-11-billion-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c3c81fb6abffe5e080d0481e3abec779",
+      "timestamp": "2026-01-13T03:23:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed Served with DOJ Subpoenas, Performance of ‘OTFL’ ETF | ETF IQ 1/12/2026 - \"Bloomberg ETF IQ\" focuses on the opportunities, risks and current trends tied to the trillions of dollars in the global exchange traded funds industry. Today's guests: Research Affiliates Chairman an",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/etf-iq-1-12-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7db6fcbe23057fe0c1355ce041bd6ec6",
+      "timestamp": "2026-01-13T03:22:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Administration Close to Finalizing Taiwan Trade Pact - The Trump administration is closing in on a tariff agreement with Taiwan, according to a person familiar with the matter, a move toward improving trade terms with a key Asian partner.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-administration-close-to-finalizing-taiwan-trade-pact",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "44dbc3514c8a2df4ca987ce66427fcc8",
+      "timestamp": "2026-01-13T03:21:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pimco, PGIM See Risk Trump’s Fed Fight Will Drive Rates Higher - At big bond firms like Pacific Investment Management Co., PGIM and DWS Group, money managers warn that President Donald Trump’s assault on the Federal Reserve’s independence is at odds with his goal o",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/pimco-pgim-see-risk-trump-s-fed-fight-will-drive-rates-higher",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fe533975483d03a7e88ba76ed0486fb9",
+      "timestamp": "2026-01-13T03:20:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ex-Justice Department Official Denied Bid to Represent Maduro - A request to join Nicolas Maduro’s legal team by a former top Justice Department official was rejected by a federal judge amid a fight with the ousted Venezuelan president’s current lawyer.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/ex-justice-department-official-denied-bid-to-represent-maduro",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "41b208faecad89ae50b8b0afacd78e5d",
+      "timestamp": "2026-01-13T03:16:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Betterment Customer Data Accessed in Online Crypto Scam Attack - Personal finance platform Betterment fell victim to an online attack that allowed an unauthorized individual to send some customers a “fraudulent, crypto-related message,” the company said in a statem",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/betterment-customer-data-accessed-in-online-crypto-scam-attack",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "268cb76457f28839918343b085fecaa2",
+      "timestamp": "2026-01-13T03:14:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela Frees More Prisoners to Comply With Trump’s Demand - Venezuela’s government said it freed more than 100 political prisoners on Monday, though human rights groups have only verified the release of roughly half.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/venezuela-frees-more-prisoners-to-comply-with-trump-s-demand",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d49e5c4be462544d775d2bc552df3253",
       "timestamp": "2026-01-13T02:59:32+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Australia Announces Critical Minerals for Its Strategic Reserve - Australia plans to buy and stockpile minerals essential for defense and advanced technologies from domestic mining companies to help strengthen global supply chains.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/australia-announces-critical-minerals-for-its-strategic-reserve",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2841b740e25ad2e231086fee2967d3f5",
-      "timestamp": "2026-01-12T09:47:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Trade Deal With Mercosur Defies Trump’s Protectionism - The European Union and Mercosur have delivered their long-sought trade pact, along with a political statement few could have imagined when talks began 25 years ago.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/eu-trade-deal-with-mercosur-defies-trump-s-protectionism",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9d373043a5e16ad294b103a7dce1803",
-      "timestamp": "2026-01-12T09:47:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says He’s Inclined to ‘Keep Exxon Out’ of Venezuela Plans - President Donald Trump signaled he’s leaning toward excluding Exxon Mobil Corp. from his push for US oil majors to spend at least $100 billion to rebuild Venezuela’s petroleum industry, saying he was ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-says-he-s-inclined-to-keep-exxon-out-of-venezuela-plans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "76a6dbb41d845361d30368a4dab986bd",
-      "timestamp": "2026-01-12T09:35:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran's Merchants Souring on Regime: Mid-East Specialist - Juan Cole, a Middle East expert and University of Michigan professor, speaks on Bloomberg TV about the forces driving unrest in Iran and on the possible outcomes of the escalating situation. (Source: ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/iran-s-merchants-souring-on-regime-mid-east-specialist-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b181cdbb8e4c8d3df7451d3fdceaa95",
-      "timestamp": "2026-01-12T09:31:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Australian Household Spending Beats Expectations in November - Australia’s household spending rose at a faster-than-expected pace in November, indicating consumers are feeling confident about their finances even as inflation and borrowing costs remain elevated.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/australia-household-spending-exceeds-expectations-in-november",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "da7fcef3b449356a5fc04b9b6b5e5111",
-      "timestamp": "2026-01-12T09:30:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says US Closely Monitoring Iran, Mulling Potential Options - President Donald Trump said that the US is closely monitoring the protests in Iran and is mulling potential options as the Islamic Republic faces its third week of nationwide protests, the largest sin",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-says-us-closely-monitoring-iran-mulling-potential-options",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0ab13c31bdb045c0055de85f60dc28e0",
-      "timestamp": "2026-01-12T09:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed Served With DOJ Subpoenas, Powell Vows to Stand Firm - Federal Reserve Chair Jerome Powell said the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment, a dramatic escalation of the Trump admi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/powell-says-justice-department-served-fed-with-subpoenas",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "48bda8a137f32c82576cf51d88e46893",
-      "timestamp": "2026-01-12T09:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Britain’s 90s Housing Boom Handed Rich Kids Best Jobs, IFS Says - Equality campaigners have long highlighted how British families who made a fortune during the housing boom of the late 1990s and 2000s used the windfall to give their children a leg up on the property",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/britain-s-90s-housing-boom-handed-rich-kids-best-jobs-ifs-says",
       "sentiment": "NEUTRAL"
     }
   ]
