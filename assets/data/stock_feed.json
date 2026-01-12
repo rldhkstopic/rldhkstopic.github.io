@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-12T21:45:46.284571+09:00",
+  "last_updated": "2026-01-12T22:16:45.477339+09:00",
   "items": [
+    {
+      "id": "73da25a676a112fbb8e14a3f893cf84b",
+      "timestamp": "2026-01-12T22:06:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed Subpoena ‘Out of My Purview,’ Says FHFA’s Pulte - Federal Housing Finance Agency Director Bill Pulte said, “I don’t know anything about it,” when asked during an interview on Bloomberg Television Monday about the Federal Reserve being served grand ju",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/fed-subpoena-out-of-my-purview-says-fhfa-s-pulte-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "64fe5497c67103158eb34a4210ddf146",
+      "timestamp": "2026-01-12T22:01:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Hasn’t the Economy Crashed? - It’s not a vindication of Trump’s policies, says Bloomberg Opinion columnist Clive Crook. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/opinion-why-hasn-t-the-economy-crashed-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e9127f89b5062f5c23b8247e9f684895",
+      "timestamp": "2026-01-12T21:47:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DOJ Serves Fed With Grand Jury Subpoenas - Federal Reserve Chair Jerome Powell said the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment, a dramatic escalation of the Trump admi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/doj-serves-fed-with-grand-jury-subpoenas-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bcb2fe87f6e67bdee005ffb6c98bb880",
       "timestamp": "2026-01-12T21:43:14+09:00",
@@ -65,6 +98,17 @@
       "related_tickers": [],
       "content": "India's Modi Hosts Germany's Merz as Trump Threatens Iran | The Pulse 1/12/2026 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
       "url": "https://www.bloomberg.com/news/videos/2026-01-12/the-pulse-1-12-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "11921422e1a93533af40cc15daa97a90",
+      "timestamp": "2026-01-12T21:09:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed Served with Grand Jury Subpoenas, Heineken CEO Steps Down | The Opening Trade 1/12/2026 - Fed Chair Jerome Powell said the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment, a dramatic escalation of the Trump administration’s",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/the-opening-trade-1-12-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Nephew of Former Thai Premier Thaksin Faces Balancing Act to Win Over Electorate - Yodchanan Wongsawat, the Pheu Thai Party’s top candidate for prime minister, faces a delicate balancing act in his quest to run the Southeast Asian country &mdash; he must leverage his family’s legacy",
       "url": "https://www.bloomberg.com/news/articles/2026-01-10/thaksin-nephew-faces-balancing-act-to-win-over-thai-electorate",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "321dc1e798e0731694b2075f1651b926",
-      "timestamp": "2026-01-11T07:41:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Honduran President Xiomara Castro Orders Vote Recount, Requests Trump Meeting - Honduran President Xiomara Castro ordered a recount of November’s presidential election that was won by Nasry “Tito” Asfura, a conservative candidate supported by Donald Trump.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/honduran-president-orders-vote-recount-requests-meeting-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "63d8d1d7bc1bb60be3bd4e2d3ae43642",
-      "timestamp": "2026-01-11T07:31:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thousands of Minneapolis ICE Protesters March to Shooting Site - Thousands marched Saturday in Minneapolis to the site where a federal agent shot and killed Renée Nicole Good during a confrontation, heightening political divisions around the Trump administration’s ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/thousands-march-to-shooting-site-in-minneapolis-protesting-ice",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81f8e509bcb7bdda90fb3eea08f7a8c8",
-      "timestamp": "2026-01-11T07:09:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US May Lift Some Venezuela Sanctions Soon, Bessent Tells Reuters - The US may lift additional sanctions on Venezuela as early as next week to facilitate oil sales, Reuters reported, citing an interview with Treasury Secretary Scott Bessent.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/us-may-lift-some-venezuela-sanctions-soon-bessent-tells-reuters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81f8e509bcb7bdda90fb3eea08f7a8c8",
-      "timestamp": "2026-01-11T07:09:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US May Lift Some Venezuela Sanctions Soon, Bessent Tells Reuters - The US may lift additional sanctions on Venezuela as early as next week to facilitate oil sales, Reuters reported, citing an interview with Treasury Secretary Scott Bessent.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/us-may-lift-some-venezuela-sanctions-soon-bessent-tells-reuters",
       "sentiment": "NEUTRAL"
     }
   ]
