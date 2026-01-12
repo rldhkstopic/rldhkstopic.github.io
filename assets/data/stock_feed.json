@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-13T04:34:59.174596+09:00",
+  "last_updated": "2026-01-13T05:04:05.075454+09:00",
   "items": [
+    {
+      "id": "db4f8fa4d989ae67d8c1f1c703966056",
+      "timestamp": "2026-01-13T05:02:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pfizer CEO Albert Bourla - Pfizer CEO Albert Bourla (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/pfizer-ceo-albert-bourla",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "505f3ac2e018cf1ceb5c9ba87f379035",
+      "timestamp": "2026-01-13T04:42:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Senator Mark Kelly Sues Hegseth Over Censure, Demotion Moves - US Senator Mark Kelly sued Defense Secretary Pete Hegseth, asking a federal court to vacate the Pentagon chief’s letter censuring the Arizona Democrat and block a move to lower his military retirement",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/senator-mark-kelly-sues-hegseth-over-censure-demotion-moves",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e9f59f32a98eabdd50c48e44504ae6da",
+      "timestamp": "2026-01-13T04:38:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DHS Funding Up in the Air as Democrats Condemn ICE Shooting - Democratic Representative Debbie Dingell said there needs to be a transparent investigation of shooting of Minneapolis woman by an ICE agent because there are valid questions raised by the videos of t",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/dhs-funding-at-risk-as-democrats-condemn-ice-shooting-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b9631c545772283808dad9f57376bae7",
+      "timestamp": "2026-01-13T04:30:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IMF, World Bank Boards Each Met to Discuss Venezuela Last Week - The executive boards of the International Monetary Fund and the World Bank each met to discuss Venezuela last week, according to people familiar with the matter, amid expectations the nation will need",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/imf-world-bank-boards-each-met-to-discuss-venezuela-last-week",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0784dd11000caa1a1cf08de0f661a502",
       "timestamp": "2026-01-13T04:17:48+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "China Vanke Faces Next Test as Debt Default Pressure Builds - China Vanke Co. is bracing for its next major test as the developer that’s become a symbol of the nation’s broader property crisis navigates a proposal to delay bond payments and drafts broader restru",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/china-vanke-faces-next-test-as-debt-default-pressure-builds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be48003996e802f2dce1422580d0d20f",
-      "timestamp": "2026-01-12T11:10:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Credit Card Firms Would Break Law If Rates Not Capped - President Donald Trump said that credit-card lenders would be “in violation of the law” if they don’t heed his call to cap interest rates at 10% for one year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-says-credit-card-firms-would-break-law-if-rates-not-capped",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "484797f3dd2a0181f0c387080f792923",
-      "timestamp": "2026-01-12T11:07:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dollar Drops Most in Nearly Three Weeks as Fed Gets Subpoenas - The dollar declined the most in almost three weeks as the Federal Reserve faced grand jury subpoenas from the Justice Department, reviving concerns over political interference in monetary policy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/dollar-drops-most-in-nearly-three-weeks-as-fed-gets-subpoenas",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cca4094a5340c3fcbb5af5a739181aff",
-      "timestamp": "2026-01-12T11:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian Stocks’ Recovery Clouded by Slowing Earnings Growth - Indian stocks face a subdued near-term outlook, with expectations of another lackluster earnings season dimming hopes for a rebound.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/indian-stocks-recovery-clouded-by-slowing-earnings-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c53231ab3bb5616dd08cb57358054f52",
-      "timestamp": "2026-01-12T10:59:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US to Host Meeting on Rare Earths as China-Japan Spat Simmers - The US will host a gathering of G-7 ministers to discuss rare earths this week, underscoring the shared push to develop alternative supplies in an industry dominated by China.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/us-to-host-meeting-on-rare-earths-as-china-japan-spat-simmers",
       "sentiment": "NEUTRAL"
     }
   ]
