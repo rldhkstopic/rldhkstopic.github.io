@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-13T13:17:13.371639+09:00",
+  "last_updated": "2026-01-13T13:44:31.282118+09:00",
   "items": [
+    {
+      "id": "21a15968f33bdb170e1b4bd5aadc8ca7",
+      "timestamp": "2026-01-13T13:25:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yen Tumbles Following Report Japan PM Plans Snap Poll - The yen dropped to its weakest level against the dollar since July 2024, as losses accelerated following speculation that Prime Minister Sanae Takaichi may soon call a snap election.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/yen-falls-to-weakest-level-since-july-2024-on-political-risks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "993d912e3fc96c5ef231fdbe42cbb218",
+      "timestamp": "2026-01-13T13:22:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Royal Commission Into Bondi Terror Attack -What It Means - Australian Prime Minister Anthony Albanese has bowed to pressure, calling a Royal Commission into the country’s deadliest terrorist attack &mdash; when gunmen killed 15 people during a Hanukkah celebr",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/royal-commission-into-bondi-terror-attack-what-it-means-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b47169723511f2a3cc9806e91b103bd5",
+      "timestamp": "2026-01-13T13:13:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Aluminum Near Record High and Tin Extends Surge on Supply Angst - Aluminum traded near its highest level since early 2022, and tin extended a blistering rally, as expectations for tighter global supplies fueled a bullish mood across metals markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/aluminum-near-record-high-and-tin-extends-surge-on-supply-angst",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "428b9ab282f9417521b36517d2410a4f",
       "timestamp": "2026-01-13T13:13:33+09:00",
@@ -10,6 +43,17 @@
       "related_tickers": [],
       "content": "Swiss Banking Reforms Go Too Far, Says UBS CEO Ermotti - UBS CEO Sergio Ermotti says the proposed new banking reforms in Switzerland go “too far” and that the lender needs a competitive regulatory framework to grow. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-13/swiss-banking-reforms-go-too-far-says-ubs-ceo-ermotti",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b66551944f9fa8c569a7d9c4e618a68c",
+      "timestamp": "2026-01-13T13:09:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CME to Shift Precious-Metals Margin Settings as Prices Swing - CME Group will change the way it sets margins for gold, silver, platinum and palladium futures after a surge in prices and volatile trading.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/cme-to-shift-precious-metals-margin-settings-as-prices-swing",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Trump Administration Takes Stake in Critical Mineral Firm ATALCO - The Trump administration is taking a $150 million equity stake to build the US’s only big producer of gallium, a critical mineral used in satellite systems and military radar.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-administration-takes-stake-in-critical-mineral-firm-atalco",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5aece067a84f88b6775412ec4386edc0",
-      "timestamp": "2026-01-12T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DLA Piper Names Drew as Canada Head, Targets Further Growth - DLA Piper has named Russel Drew as its managing partner in Canada, handing the veteran deal lawyer the task of leading the firm’s growth in a market that’s increasingly being shaped by cross-border tr",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/dla-piper-names-drew-as-canada-head-targets-further-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "73fc6c217b7cfeb4d4406acd57b3407e",
-      "timestamp": "2026-01-12T20:40:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk’s X Under Formal Probe by UK’s Ofcom After Grok Outcry - The UK communications regulator has opened a formal probe into Elon Musk’s social media site X, adding to the global backlash against sexually suggestive images generated using artificial intelligence",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/musk-s-x-under-formal-probe-by-uk-s-ofcom-after-grok-outcry",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "73fc6c217b7cfeb4d4406acd57b3407e",
-      "timestamp": "2026-01-12T20:40:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk’s X Under Formal Probe by UK’s Ofcom After Grok Outcry - The UK communications regulator has opened a formal probe into Elon Musk’s social media site X, adding to the global backlash against sexually suggestive images generated using artificial intelligence",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/musk-s-x-under-formal-probe-by-uk-s-ofcom-after-grok-outcry",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "85652a352ef270b5b054c2cd9a311bd1",
-      "timestamp": "2026-01-12T20:30:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s State-Owned Power Finance Plans $555 Million Retail Bond - India’s Power Finance Corp., the country’s largest lender to the power sector, plans to sell bonds to individual investors, making a return to the retail market after a gap of more than two years.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/india-s-state-owned-power-finance-plans-555-million-retail-bond",
       "sentiment": "NEUTRAL"
     }
   ]
