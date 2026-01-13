@@ -119,6 +119,7 @@ class WriterAgent:
     def write(self, topic: Dict, research_data: Dict, analysis_data: Dict) -> str:
         """
         조사 및 분석 결과를 바탕으로 블로그 포스트를 작성한다.
+        3-Tier Agent Pipeline을 사용하여 고품질의 글을 생성한다.
         
         Args:
             topic: 주제 정보
@@ -126,22 +127,199 @@ class WriterAgent:
             analysis_data: 분석 데이터
             
         Returns:
-            str: 작성된 블로그 포스트 본문
+            str: 작성된 블로그 포스트 본문 (Front Matter 제외)
         """
         category = topic.get('category', 'document')
-        system_prompt = self._get_system_prompt(category)
         
         # 조사 및 분석 데이터 정리
         research_text = research_data.get('raw_research', '')[:2000] if research_data.get('raw_research') else ''
         analysis_text = analysis_data.get('insights', '')[:1500] if analysis_data.get('insights') else ''
         
-        # Bloomberg 다이제스트는 별도 프롬프트 사용 (카테고리보다 우선)
+        # Bloomberg 다이제스트는 기존 방식 유지 (특수한 구조 필요)
         if (topic.get("source") == "bloomberg_rss") or (topic.get("type") == "bloomberg_digest"):
-            base_prompt = self._get_bloomberg_digest_prompt(topic, research_text, analysis_text, system_prompt)
-        # Daily 카테고리는 별도의 프롬프트 사용
-        elif category == 'daily':
-            base_prompt = self._get_daily_prompt(topic, research_text, analysis_text, system_prompt)
-        else:
+            return self._write_bloomberg_digest(topic, research_text, analysis_text)
+        
+        # Daily 카테고리는 기존 방식 유지 (특수한 문체 필요)
+        if category == 'daily':
+            return self._write_daily(topic, research_text, analysis_text)
+        
+        # 일반 글 작성: 3-Tier Pipeline 사용
+        return self._write_with_3tier(topic, research_text, analysis_text)
+    
+    def _write_with_3tier(self, topic: Dict, research_text: str, analysis_text: str) -> str:
+        """
+        3-Tier Pipeline을 사용한 일반 글 작성
+        """
+        # 메모 구성: 조사 결과와 분석 인사이트를 합쳐서 초안 메모로 사용
+        memo = f"""**주제:**
+제목: {topic.get('title', '')}
+설명: {topic.get('description', '')}
+카테고리: {topic.get('category', 'document')}
+
+**조사 결과:**
+{research_text}
+
+**분석 인사이트:**
+{analysis_text}
+"""
+        
+        title = topic.get('title', '')
+        category = topic.get('category', 'document')
+        
+        print("\n[3-Tier Pipeline] 글 작성 시작...")
+        
+        # Step 1: 구성 작가 (The Drafter)
+        print("\n[Step 1] 구성 작가: 글의 뼈대와 초안 작성 중...")
+        draft = self._draft_with_research(memo, title, research_text, analysis_text)
+        if not draft:
+            print("  [ERROR] Step 1 실패")
+            return ""
+        print(f"  [OK] Step 1 완료 ({len(draft)}자)")
+        
+        # Step 2: 페르소나 에디터 (The Persona)
+        print("\n[Step 2] 페르소나 에디터: 말투 리라이팅 중...")
+        rewritten = self._rewrite_with_persona(draft)
+        if not rewritten:
+            print("  [WARN] Step 2 실패, Step 1 결과 사용")
+            rewritten = draft
+        print(f"  [OK] Step 2 완료 ({len(rewritten)}자)")
+        
+        # Step 3: 교정 및 포맷팅 (The Polisher) - Front Matter는 제외하고 본문만 반환
+        print("\n[Step 3] 교정 및 포맷팅: 최종 검수 중...")
+        polished = self._polish_content(rewritten)
+        if not polished:
+            print("  [WARN] Step 3 실패, Step 2 결과 사용")
+            polished = rewritten
+        print(f"  [OK] Step 3 완료 ({len(polished)}자)")
+        
+        # 최종 검증
+        if not self._is_korean_output(polished):
+            print("  [WARN] 한국어 검증 실패, 하지만 결과 반환")
+        
+        print("\n[3-Tier Pipeline] 글 작성 완료!")
+        return polished
+    
+    def _write_bloomberg_digest(self, topic: Dict, research_text: str, analysis_text: str) -> str:
+        """Bloomberg 다이제스트는 기존 방식 유지"""
+        system_prompt = self._get_system_prompt('document')
+        base_prompt = self._get_bloomberg_digest_prompt(topic, research_text, analysis_text, system_prompt)
+        
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=base_prompt
+            )
+            content = (response.text or "").strip()
+            content = self._post_process(content)
+            return content
+        except Exception as e:
+            print(f"  [ERROR] Bloomberg 다이제스트 작성 오류: {str(e)}")
+            return ""
+    
+    def _write_daily(self, topic: Dict, research_text: str, analysis_text: str) -> str:
+        """Daily 카테고리는 기존 방식 유지"""
+        system_prompt = self._get_system_prompt('daily')
+        base_prompt = self._get_daily_prompt(topic, research_text, analysis_text, system_prompt)
+        
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=base_prompt
+            )
+            content = (response.text or "").strip()
+            content = self._post_process(content)
+            return content
+        except Exception as e:
+            print(f"  [ERROR] Daily 작성 오류: {str(e)}")
+            return ""
+    
+    def _draft_with_research(self, memo: str, title: str, research_text: str, analysis_text: str) -> str:
+        """
+        Step 1: 구성 작가 (The Drafter) - 조사 데이터 포함 버전
+        입력받은 메모와 조사/분석 데이터를 바탕으로 논리적인 글의 뼈대와 초안 작성.
+        """
+        prompt = f"""너는 구성 작가야. 팩트와 정보 전달 위주로 서론-본론-결론 구조를 잡아줘.
+
+**입력 메모:**
+{memo}
+
+**제목 (참고용):**
+{title if title else "(제목 없음)"}
+
+**조사 결과:**
+{research_text[:1500]}
+
+**분석 인사이트:**
+{analysis_text[:1000]}
+
+**작성 요구사항:**
+1. 서론-본론-결론 구조로 논리적인 글의 뼈대를 잡아줘.
+2. 팩트와 정보 전달에 집중해줘. 조사 결과와 분석 인사이트를 적절히 활용해줘.
+3. 최소 1500자 이상 작성해줘.
+4. 모든 문장은 "~다."로 끝나야 해.
+5. 이모지는 사용하지 마.
+6. Markdown 형식으로 작성해줘 (Front Matter 제외).
+7. 전문가 의견은 blockquote 형식으로 인용해줘.
+8. 외부 자료는 [^n] 형식으로 참조하고, 마지막에 ## References 섹션을 추가해줘.
+
+**출력:**
+Front Matter 없이 본문만 작성해줘."""
+
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt
+            )
+            content = (response.text or "").strip()
+            
+            if not content or len(content) < 500:
+                print(f"  [WARN] 초안이 너무 짧음: {len(content)}자")
+                return ""
+            
+            return content
+        except Exception as e:
+            print(f"  [ERROR] Step 1 오류: {str(e)}")
+            return ""
+    
+    def _polish_content(self, content: str) -> str:
+        """
+        Step 3: 교정 및 포맷팅 (The Polisher) - Front Matter 제외 버전
+        최종 문법 검수 및 마크다운 정리 (본문만 반환).
+        """
+        prompt = f"""너는 교정 및 포맷팅 전문가야.
+
+**작업:**
+1. 아래 글의 문법을 검수하고 교정해줘.
+2. 현업 개발 용어로 단어 교정해줘.
+3. 마크다운(Code block, H2, H3) 정리해줘.
+4. "~다." 문체는 유지해줘.
+5. 이모지는 제거해줘.
+
+**원본 글:**
+{content}
+
+**출력:**
+Front Matter 없이 교정된 본문만 작성해줘."""
+
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt
+            )
+            polished = (response.text or "").strip()
+            
+            if not polished or len(polished) < 500:
+                print(f"  [WARN] 교정 결과가 너무 짧음: {len(polished)}자, 원본 사용")
+                polished = content
+            
+            # 이모지 제거 및 후처리
+            polished = self._post_process(polished)
+            
+            return polished
+        except Exception as e:
+            print(f"  [ERROR] Step 3 오류: {str(e)}")
+            # 오류 시 원본 반환 (이모지 제거만 수행)
+            return self._post_process(content)
             # 프롬프트를 더 간단하고 명확하게 구성
             # ⚠️ 매우 중요: 프롬프트 맨 앞에 한국어 작성 지시를 명확히 배치
             # 조사/분석 결과가 영어일 경우를 대비해 한국어로 번역 요청을 명시
@@ -186,216 +364,8 @@ class WriterAgent:
 {system_prompt}
 """
         
-        try:
-            content = ""
-            last_error: str | None = None
-
-            # 모델이 비정상 출력(영문/공백 위주)하는 케이스가 있어, 최대 3회까지 재시도한다.
-            for attempt in range(1, 4):
-                print(f"  [작성] 블로그 포스트 작성 중... (시도 {attempt}/3, 모델: {self.model})")
-
-                writing_prompt = base_prompt
-                if attempt >= 2:
-                    # 한글 누락/공백 치환 방어를 위해 요구사항을 더 강하게 고정한다.
-                    writing_prompt += """
-
-**⚠️ 매우 중요한 추가 제약:**
-- 출력은 **반드시 한국어(한글)로만** 작성하세요. 영어로 작성하면 즉시 실패입니다.
-- 모든 문장은 한글로 작성하세요. 영어 문장은 절대 사용하지 마세요.
-- 고유명사나 기술 용어(예: "CSV", "API", "JSON")만 최소한으로 영어를 허용합니다.
-- 본문에서 한국어가 공백으로 대체되거나, 영문/기호/공백 위주로 출력되면 실패로 간주합니다.
-- 예시: "CSV 파일을 사용한다" (O), "Use CSV file" (X)
-"""
-
-                # API 호출 (모델이 없으면 후보 모델로 폴백)
-                try:
-                    response = self.client.models.generate_content(
-                        model=self.model,
-                        contents=writing_prompt
-                    )
-                    content = (response.text or "").strip()
-                    
-                    # 응답이 비어있거나 너무 짧으면 에러 출력
-                    if not content:
-                        print(f"  [ERROR] API 응답이 비어있습니다.")
-                        continue
-                    if len(content) < 100:
-                        print(f"  [ERROR] API 응답이 너무 짧습니다: {len(content)}자")
-                        print(f"  [DEBUG] 응답 내용: {content}")
-                        continue
-                    
-                    # 디버깅: 생성된 내용의 일부와 한글 통계 출력
-                    preview = content[:300] if len(content) > 300 else content
-                    hangul_count = len(re.findall(r'[가-힣]', content))
-                    text_wo_code = re.sub(r'```[\s\S]*?```', '', content)
-                    hangul_count_wo_code = len(re.findall(r'[가-힣]', text_wo_code))
-                    non_ws = len(re.sub(r'\s+', '', text_wo_code))
-                    hangul_ratio = (hangul_count_wo_code / non_ws * 100) if non_ws > 0 else 0
-                    
-                    print(f"  [DEBUG] 생성된 내용 미리보기: {preview}...")
-                    print(f"  [DEBUG] 전체 길이: {len(content)}자")
-                    print(f"  [DEBUG] 한글 수 (전체): {hangul_count}자")
-                    print(f"  [DEBUG] 한글 수 (코드 제외): {hangul_count_wo_code}자")
-                    print(f"  [DEBUG] 한글 비율 (코드 제외): {hangul_ratio:.1f}%")
-                except Exception as e:
-                    last_error = str(e)
-                    # 모델 미존재/권한 문제(404/NOT_FOUND)면 다음 후보로 폴백한다.
-                    err_upper = last_error.upper()
-                    if ("404" in err_upper) or ("NOT_FOUND" in err_upper):
-                        next_model = None
-                        for m in self.model_candidates:
-                            if m == self.model:
-                                continue
-                            next_model = m
-                            break
-                        if next_model:
-                            print(f"  [WARN] 모델 호출 실패(모델 미존재/권한 가능): {self.model} -> {next_model}")
-                            self.model = next_model
-                            continue
-                    print(f"  [ERROR] API 호출 실패: {last_error}")
-                    continue
-
-                # 후처리: 이모지 제거 및 문체 개선
-                content = self._post_process(content)
-
-                # 디버깅: 생성된 내용 일부 출력
-                if attempt == 1:
-                    preview = content[:200] if len(content) > 200 else content
-                    print(f"  [DEBUG] 생성된 내용 미리보기: {preview}...")
-                    text_wo_code = re.sub(r"```[\s\S]*?```", "", content)
-                    hangul_count = len(re.findall(r"[가-힣]", text_wo_code))
-                    non_ws = len(re.sub(r"\s+", "", text_wo_code))
-                    hangul_ratio = (hangul_count / non_ws * 100) if non_ws > 0 else 0
-                    print(f"  [DEBUG] 한글 수(코드 제외): {hangul_count}, 한글 비율(코드 제외): {hangul_ratio:.1f}%")
-
-                if len(content.strip()) < 800:
-                    print(f"  [WARN] 길이 부족: {len(content.strip())}자")
-                    continue
-                # 검증 전 상세 통계 출력
-                text_wo_code = re.sub(r"```[\s\S]*?```", "", content)
-                hangul_count = len(re.findall(r"[가-힣]", text_wo_code))
-                non_ws = len(re.sub(r"\s+", "", text_wo_code))
-                hangul_ratio = (hangul_count / non_ws * 100) if non_ws > 0 else 0
-                
-                # 종결어미 통계
-                lines = text_wo_code.split('\n')
-                valid_sentences = 0
-                total_sentences = 0
-                for line in lines:
-                    line = line.strip()
-                    if len(line) < 10 or line.startswith('#') or line.startswith('-') or line.startswith('*'):
-                        continue
-                    total_sentences += 1
-                    if re.search(r'다\s*(\[.*?\])?\.$', line) or line.endswith('다.'):
-                        valid_sentences += 1
-                sentence_ratio = (valid_sentences / total_sentences * 100) if total_sentences > 0 else 0
-                
-                print(f"  [DEBUG] 검증 전 통계:")
-                print(f"    - 전체 길이: {len(content)}자")
-                print(f"    - 한글 수 (코드 제외): {hangul_count}자")
-                print(f"    - 한글 비율 (코드 제외): {hangul_ratio:.1f}%")
-                print(f"    - '~다.'로 끝나는 문장: {valid_sentences}/{total_sentences} ({sentence_ratio:.1f}%)")
-                
-                if not self._is_korean_output(content):
-                    print(f"  [ERROR] 한국어 검증 실패!")
-                    print(f"  [DEBUG] 검증 실패 내용 샘플 (처음 800자):")
-                    print(f"    {content[:800]}")
-                    if len(content) > 1000:
-                        print(f"  [DEBUG] 검증 실패 내용 샘플 (중간 800자):")
-                        print(f"    {content[len(content)//2:len(content)//2+800]}")
-                    print(f"  [DEBUG] 검증 실패 내용 샘플 (끝 800자):")
-                    print(f"    {content[-800:] if len(content) > 800 else content}")
-                    
-                    # GitHub Actions에서 디버깅을 위해 임시 파일로 저장
-                    try:
-                        import tempfile
-                        temp_dir = Path(tempfile.gettempdir())
-                        debug_file = temp_dir / f"failed_content_attempt_{attempt}.txt"
-                        debug_file.write_text(content, encoding="utf-8")
-                        print(f"  [DEBUG] 검증 실패 내용이 임시 파일에 저장되었습니다: {debug_file}")
-                    except Exception as e:
-                        print(f"  [WARN] 임시 파일 저장 실패: {e}")
-                    
-                    continue
-
-                break
-
-            # 1차 시도 실패 시 레거시 fallback(간단 프롬프트)도 수행한다.
-            if not content or len(content.strip()) < 800 or not self._is_korean_output(content):
-                if last_error:
-                    print(f"  [WARN] 1차 작성 실패. 마지막 오류: {last_error}")
-                print("  [WARN] 1차 작성 실패. 간단 프롬프트로 재시도한다.")
-                content = ""
-
-            # 응답이 비어있거나 너무 짧으면 재시도(레거시 fallback)
-            if not content or len(content) < 500:
-                print(f"  [WARN] 응답이 너무 짧습니다 ({len(content)}자). 재시도...")
-                simple_prompt = f"""다음 주제에 대해 블로그 포스트를 작성해주세요:
-
-**제목:** {topic.get('title', '')}
-**설명:** {topic.get('description', '')}
-
-조사 결과:
-{research_data.get('raw_research', '')[:1000]}
-
-분석 인사이트:
-{analysis_data.get('insights', '')[:500]}
-
-"~다."로 끝나는 건조한 문체로, 최소 1200자 이상 한국어로 작성해주세요. 이모지는 절대 사용하지 마세요."""
-                
-                response = self.client.models.generate_content(
-                    model=self.model,
-                    contents=simple_prompt
-                )
-                content = response.text
-            
-            # 응답 검증
-            if not content or len(content.strip()) < 500:
-                print(f"  [WARN] 응답이 너무 짧습니다 ({len(content)}자). 재시도...")
-                # 더 간단한 프롬프트로 재시도
-                simple_prompt = f"""다음 주제에 대해 완전한 블로그 포스트를 작성해주세요:
-
-제목: {topic.get('title', '')}
-설명: {topic.get('description', '')}
-
-조사 결과 요약:
-{research_text[:800]}
-
-분석 요약:
-{analysis_text[:500]}
-
-**중요:**
-- 모든 문장을 완전하게 작성하세요
-- "~다."로 끝나는 문체를 사용하세요
-- 이모지는 절대 사용하지 마세요
-- 최소 1500자 이상 작성하세요
-- 한글을 자연스럽게 사용하세요"""
-                
-                response = self.client.models.generate_content(
-                    model=self.model,
-                    contents=simple_prompt
-                )
-                content = response.text
-            
-            # 후처리: 이모지 제거 및 문체 개선
-            content = self._post_process(content)
-            
-            # 내용 검증
-            if len(content.strip()) < 500:
-                print(f"  [ERROR] 최종 콘텐츠가 너무 짧습니다 ({len(content)}자)")
-                return ""
-
-            if not self._is_korean_output(content):
-                print("  [ERROR] 최종 콘텐츠의 한국어 품질 검증에 실패했습니다.")
-                return ""
-            
-            print(f"  [OK] 작성 완료 ({len(content)}자)")
-            
-            return content
-            
-        except Exception as e:
-            print(f"  [ERROR] 작성 오류: {str(e)}")
-            return ""
+        # 일반 글 작성은 3-Tier Pipeline 사용
+        return self._write_with_3tier(topic, research_text, analysis_text)
     
     def _post_process(self, content: str) -> str:
         """생성된 콘텐츠 후처리"""
