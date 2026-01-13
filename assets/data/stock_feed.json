@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-13T20:35:34.635876+09:00",
+  "last_updated": "2026-01-13T21:06:01.681042+09:00",
   "items": [
+    {
+      "id": "3a56b2e9b63cad39f4666a6c798a9e8e",
+      "timestamp": "2026-01-13T21:02:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan’s Chatty New Robot Is Fluffy, Lovable and Dorky - Sharp’s $250 Poketomo is winning hearts and minds.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-13/sharp-poketomo-review-fluffy-lovable-pricey-and-dorky",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5a0252ba9e9ea2fb2587fcf20066fa85",
+      "timestamp": "2026-01-13T21:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Proxima Raises $80 Million for AI Drug Discovery From DCVA, Nvidia - Proxima, a biotech startup using artificial intelligence to design drugs that control protein interactions, raised $80 million in seed funding, which will help it collect better data and eventually de",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/proxima-raises-80-million-for-ai-drug-discovery-from-dcva-nvidia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f2626f0de730be3944b717e68b9fe9d8",
+      "timestamp": "2026-01-13T21:00:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Economic Toll of Trump’s Policies Will Soon Be Visible - <p>Mainstream economists have underestimated the cost of all the confusion the administration has unleashed, particularly on trade and immigration.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/the-economic-toll-of-trump-s-policies-will-soon-be-visible",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3665ae6d8be83ab70b2ad1a3076715fa",
+      "timestamp": "2026-01-13T21:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Milei Still Props Up Argentina’s Peso Despite Looser Trading Rules - Even after easing Argentina’s tight grip on its currency, President Javier Milei is sticking with a core approach: Intervene, manage and prop up the peso, in an effort to keep inflation down.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/ars-usd-argentina-peso-gets-milei-intervention-despite-looser-trading-rules",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7fd9bbb92b1254c0f569890ba2069e1b",
+      "timestamp": "2026-01-13T20:35:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BNY Profit Beats Analyst Estimates on Fee Gains, Interest Income - Bank of New York Mellon Corp.’s profit beat analysts’ estimates, driven by gains in fee revenue and interest income.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/bny-mellon-profit-beats-estimates-on-fee-gains-interest-income",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "68a74ba007dc5c7eabe2b124119bedf9",
       "timestamp": "2026-01-13T20:33:33+09:00",
@@ -10,6 +65,50 @@
       "related_tickers": [],
       "content": "Bloomberg Brief 1/13/2026 (Video)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-13/bloomberg-brief-1-13-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "05405b9d25a978f96fec9d607d665d5d",
+      "timestamp": "2026-01-13T20:33:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Plan to Expand Bills Market Sparks Calls for Retail Tax Perks - The UK should consider extending a tax perk for government bonds to the bills market to boost its attractiveness to private investors, according to retail trading platforms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/uk-plan-to-expand-bills-market-sparks-calls-for-retail-tax-perks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "05405b9d25a978f96fec9d607d665d5d",
+      "timestamp": "2026-01-13T20:33:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Plan to Expand Bills Market Sparks Calls for Retail Tax Perks - The UK should consider extending a tax perk for government bonds to the bills market to boost its attractiveness to private investors, according to retail trading platforms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/uk-plan-to-expand-bills-market-sparks-calls-for-retail-tax-perks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a934881f7df5a555b61e9510a43e93e",
+      "timestamp": "2026-01-13T20:30:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Canadians Back Ban on US Booze as Trump Administration Balks, Distillers Suffer - The Trump administration is putting pressure on Canada to end a boycott of US-made alcohol that’s hurting distillers. Most Canadians want their governments to hold firm.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/canadians-back-ban-on-us-booze-as-trump-administration-balks-distillers-suffer",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "96e0c747fc686a9726fb41384939b33b",
+      "timestamp": "2026-01-13T20:25:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rio Tinto Taps Evercore’s Robey, JPMorgan on Glencore Pursuit - Rio Tinto Group has brought on a slate of bankers including Simon Robey, one of the UK’s top rainmakers, as it pursues a deal for Glencore Plc, people with knowledge of the matter said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/rio-tinto-taps-evercore-s-robey-jpmorgan-on-glencore-pursuit",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Betterment Customer Data Accessed in Online Crypto Scam Attack - Personal finance platform Betterment fell victim to an online attack that allowed an unauthorized individual to send some customers a “fraudulent, crypto-related message,” the company said in a statem",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/betterment-customer-data-accessed-in-online-crypto-scam-attack",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "268cb76457f28839918343b085fecaa2",
-      "timestamp": "2026-01-13T03:14:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela Frees More Prisoners to Comply With Trump’s Demand - Venezuela’s government said it freed more than 100 political prisoners on Monday, though human rights groups have only verified the release of roughly half.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/venezuela-frees-more-prisoners-to-comply-with-trump-s-demand",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d49e5c4be462544d775d2bc552df3253",
-      "timestamp": "2026-01-13T02:59:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia to Invest $1 Billion in AI Drug Laboratory With Eli Lilly - Nvidia Corp. plans to invest $1 billion over five years in a new laboratory with Eli Lilly & Co., aiming to speed up the use of artificial intelligence in the pharmaceutical industry. \nThe facility wi",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/nvidia-to-invest-1b-in-ai-drug-lab-with-eli-lilly-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e6569d33a7f2930b3af06af0c3ff607",
-      "timestamp": "2026-01-13T02:55:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Attacking Powell Makes No Sense - Politically motivated criminal charges against Fed Chair Powell would be a new low for the US &mdash; and probably wouldn’t accomplish what Trump wants, Bloomberg Opinion columnist John Authers says. ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/opinion-attacking-powell-makes-no-sense-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "687370e583a4c3ac5dc665e5ca3b9f9e",
-      "timestamp": "2026-01-13T02:45:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Calls for One-Year Cap on Credit Card Rates at 10% - President Donald Trump on Friday called for a one-year cap on credit card interest rates at 10%, effective Jan. 20, without specifying details. It’s not clear whether credit card companies will respon",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/trump-calls-for-one-year-cap-on-credit-card-rates-at-10-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be02821ccb73cf595ffbb7182ddf6a10",
-      "timestamp": "2026-01-13T02:39:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Vows to Make ‘Nudification’ Images Created by Grok Illegal - The UK vowed to make intimate images generated by Grok and other online tools illegal as the government sought to crack down on a wave of sexually suggestive content created by the social media platfo",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/uk-vows-to-make-nudification-images-created-by-grok-illegal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f809857b4b85f9b9b1422317c415458a",
-      "timestamp": "2026-01-13T02:38:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Paramount Launches Warner Bros. Proxy Fight, Files Suit - Paramount Skydance Corp. ratcheted up the stakes in the monthslong battle for Warner Bros. Discovery Inc., saying it plans to nominate directors to the board to thwart a merger with Netflix Inc.\nThe c",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/paramount-launches-warner-bros-proxy-fight-files-suit-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b895ca2cdcf142a4985d145b627e8ee",
-      "timestamp": "2026-01-13T02:35:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "HF Sinclair Sold Contaminated Fuel to Denver Filling Stations - Colorado regulators are fielding hundreds of complaints after HF Sinclair Corp. sold gasoline contaminated with diesel to Denver-area filling stations.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/hf-sinclair-sold-contaminated-fuel-to-denver-filling-stations",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2b86ef3a026c2b8f7a6fd539816e9af1",
-      "timestamp": "2026-01-13T02:29:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Discord’s IPO Will Test App’s Freewheeling Culture - Teens’ favorite chat app is planning an initial public offering.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/discord-s-ipo-will-test-whether-its-freewheeling-culture-can-survive-wall-street",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8762494b11b9c4d9d3abf27148061466",
-      "timestamp": "2026-01-13T02:24:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Turkish Finance Chief Said Year-End Inflation May Slow to 19% - Turkish Treasury and Finance Minister Mehmet Simsek told a group of investors that year-end inflation could slow to about 19%, according to people with knowledge of the matter, striking a more optimis",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/turkish-finance-chief-said-year-end-inflation-may-slow-to-19",
       "sentiment": "NEUTRAL"
     }
   ]
