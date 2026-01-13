@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-13T09:10:51.469416+09:00",
+  "last_updated": "2026-01-13T09:47:39.654893+09:00",
   "items": [
+    {
+      "id": "9b89fce77000ef097dbe2044c4f2e817",
+      "timestamp": "2026-01-13T09:24:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SK Hynix Plans to Invest $13 Billion in New Chip Packaging Plant - SK Hynix Inc. plans to spend 19 trillion won ($12.9 billion) building a new advanced chip packaging facility, initiating a big expansion in anticipation of AI demand.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/sk-hynix-plans-to-invest-13-billion-in-new-chip-packaging-plant",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bda22a8d541c5d277dadec5e05721102",
+      "timestamp": "2026-01-13T09:18:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Bonds Slump as Renewed Political Risks Spook Investors - Japanese government bonds dropped on Tuesday as rising political risks reignited investor concerns over fiscal policy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/japan-bonds-slump-as-renewed-political-risks-spook-investors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "172c7351621079ec3d80412cd23a01d7",
+      "timestamp": "2026-01-13T09:16:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Examines Foreign ETF Trades After Jane Street India Probe - China is scrutinizing how Jane Street Group and other foreign firms participate in its $859 billion exchange-traded fund market, seeking information on such activities carried out by brokers, accordin",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/china-examines-foreign-etf-trades-after-jane-street-india-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "480acc8cf75277b788d4044f5706de95",
+      "timestamp": "2026-01-13T09:09:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Tech Giants Must Bear Cost of Data Center Electricity - President Donald Trump, addressing American voter concerns about rising electricity prices, said his administration had been in talks with Microsoft to ensure that consumers “don’t pick up the tab” fo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-says-tech-giants-must-bear-cost-of-data-center-electricity",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9a64a1b289b4caf693470eb62225622c",
+      "timestamp": "2026-01-13T09:09:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Singapore to Review Political Office Holders’ Salaries - Singapore will soon review the pay of its political office holders, including ministers and members of parliament.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/singapore-to-review-political-office-holders-salaries",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d0d44679dea2ed8804160158e872170",
+      "timestamp": "2026-01-13T09:09:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan to Court South Korea With China Rift Deepening - Japanese Prime Minister Sanae Takaichi will seek closer ties with South Korea at a summit Tuesday, as Tokyo moves to contain a deepening diplomatic and trade dispute with China and counter Beijing’s e",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/japan-s-takaichi-courts-south-korea-with-china-rift-deepening",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f838e018dade5d0b4a78a21ea26195f",
+      "timestamp": "2026-01-13T09:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Le Pen’s Path to Run for President Hinges on Her Criminal Appeal - French far-right leader Marine Le Pen faces an appeal of her embezzlement conviction in a case that will determine whether one of the country’s most popular politicians will be able to run in next yea",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/marine-le-pen-s-path-to-run-in-france-s-2027-election-hinges-on-appeal",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "fea79ed32de92a1d6a02957ab4d6dd09",
       "timestamp": "2026-01-13T08:58:43+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Apheon Hits €1.25 Billion Hard Cap for Latest Flagship Fund - Apheon Management SA has hit a €1.25 billion ($1.5 billion) hard cap for its sixth flagship fund.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/apheon-hits-1-25-billion-hard-cap-for-latest-flagship-fund",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2fa4fed5cb1a729497658a7bc08ffea7",
-      "timestamp": "2026-01-12T19:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NBA Europe Pitches Investors With $1 Billion Price Tag Per Team - The National Basketball Association is preparing to pitch investors on a new European league, targeting team valuations of up to $1 billion, as it readies a pair of regular season games in London and ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/nba-europe-pitches-investors-with-1-billion-price-tag-per-team",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ab20de4fdac251e285989fd2f113a7a8",
-      "timestamp": "2026-01-12T19:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jacobs’ QXO Boosts Financing Deal to $3 Billion to Pursue M&amp;A - QXO Inc. is raising another $1.8 billion from investors including Temasek Holdings Pte. to support its acquisition strategy, according to people familiar with the matter, well more than doubling the $",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/jacobs-qxo-boosts-financing-deal-to-3-billion-to-pursue-m-a",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e8d3496236b4409db08c809e627ffb2e",
-      "timestamp": "2026-01-12T18:59:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jimmy Lai’s Lawyer Cites Health and Age in Leniency Bid at Hong Kong Court - Former Hong Kong media mogul Jimmy Lai’s legal team urged a local court to grant the 78-year-old democracy advocate a lighter sentence, in a landmark national security case that has drawn scrutiny fro",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/jimmy-lai-s-lawyer-cites-health-age-in-leniency-bid-at-hk-court",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "748a2b552fb6bc5e231e9411910ad19d",
-      "timestamp": "2026-01-12T18:49:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Singapore Exchange Proposes Bond Futures for India, SE Asia - Singapore Exchange held multiple calls with treasury officials from global banks about introducing futures tied to some Asian government bond markets, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/singapore-exchange-proposes-bond-futures-for-india-se-asia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "92a03411b8da788762a8e87d552cc32e",
-      "timestamp": "2026-01-12T18:42:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BE Semiconductor Shares Soar as Fourth Quarter Bookings Double - BE Semiconductor Industries NV’s shares rose after the Dutch chip toolmaker said fourth quarter orders doubled on the back of increased demand for data center applications and from photonics customers",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/be-semiconductor-shares-soar-as-fourth-quarter-bookings-double",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "92a03411b8da788762a8e87d552cc32e",
-      "timestamp": "2026-01-12T18:42:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BE Semiconductor Shares Soar as Fourth Quarter Bookings Double - BE Semiconductor Industries NV’s shares rose after the Dutch chip toolmaker said fourth quarter orders doubled on the back of increased demand for data center applications and from photonics customers",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/be-semiconductor-shares-soar-as-fourth-quarter-bookings-double",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "400878267e2cfefb8227f2fa96fefdb9",
-      "timestamp": "2026-01-12T18:29:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dassault Invests In French Dronemaker at $1.4 Billion Valuation - Dassault Aviation SA, developer of the Rafale fighter jet, led a $200 million investment into the relatively unknown drone company Harmattan AI, making it one of Europe’s newest unicorn startups.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/dassault-invests-in-french-dronemaker-at-1-4-billion-valuation",
       "sentiment": "NEUTRAL"
     }
   ]
