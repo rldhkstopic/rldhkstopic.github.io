@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-13T13:44:31.282118+09:00",
+  "last_updated": "2026-01-13T14:07:14.225427+09:00",
   "items": [
+    {
+      "id": "676c7ff44bcc5bf471226cd2676bb0c0",
+      "timestamp": "2026-01-13T14:03:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "When All the King’s Men Are Too Eager to Please - <p>In the Powell drama, Donald Trump’s courtiers have let him down badly.</p>",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-01-13/powell-drama-when-all-the-king-s-men-are-too-eager-to-please",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "34763ac4bf46e6462db7431ded19140d",
+      "timestamp": "2026-01-13T14:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Germany’s Growing Military Might Rekindles Old Fears in France - <p>The unease is acute in Paris, where some worry that the continent’s center of political gravity is moving east as Berlin boosts its defense spending to levels its allies can’t match.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-13/germany-s-defense-spending-military-strength-worry-some-european-allies",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "21a15968f33bdb170e1b4bd5aadc8ca7",
       "timestamp": "2026-01-13T13:25:10+09:00",
@@ -21,6 +43,17 @@
       "related_tickers": [],
       "content": "Royal Commission Into Bondi Terror Attack -What It Means - Australian Prime Minister Anthony Albanese has bowed to pressure, calling a Royal Commission into the country’s deadliest terrorist attack &mdash; when gunmen killed 15 people during a Hanukkah celebr",
       "url": "https://www.bloomberg.com/news/videos/2026-01-13/royal-commission-into-bondi-terror-attack-what-it-means-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "46dc44b19146d4f0c48c9541685855db",
+      "timestamp": "2026-01-13T13:20:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Powell Probe Sparks Republican Outcry | The Asia Trade 1/13/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Sydney and Singapore with Paul Allen and Avril Hong, gettin",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/the-asia-trade-1-13-26-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Lufthansa Plans to Resume Iran Flights Despite Deadly Protests - Deutsche Lufthansa AG still plans to resume flights to Iran’s capital this week despite ongoing deadly protests around the country and German government travel warnings.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/lufthansa-plans-to-resume-iran-flights-despite-deadly-protests",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "99d493f96488cbfb45d5a88188bf563a",
-      "timestamp": "2026-01-12T21:00:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "I’ve Studied How Democracies Fail. Here’s My Unified Theory of Trump - There’s a through line that runs from tariffs to toppling a foreign leader. It’s all about expanding the power of the presidency.",
-      "url": "https://www.bloomberg.com/news/features/2026-01-12/nobel-prize-winner-daron-acemoglu-offers-a-unified-theory-of-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "daed3a9ea648fad455ce6724fb71b011",
-      "timestamp": "2026-01-12T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Petro Bets on World’s Biggest Wealth Tax to Fix Colombia’s Finances - Colombia’s left-wing President Gustavo Petro loves to rally against the rich.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/gustavo-petro-bets-on-world-s-biggest-wealth-tax-to-fix-colombia-s-finances",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bbe89d3b6cfa130d0d0fce1650dabf6a",
-      "timestamp": "2026-01-12T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Administration Takes Stake in Critical Mineral Firm ATALCO - The Trump administration is taking a $150 million equity stake to build the US’s only big producer of gallium, a critical mineral used in satellite systems and military radar.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/trump-administration-takes-stake-in-critical-mineral-firm-atalco",
       "sentiment": "NEUTRAL"
     }
   ]
