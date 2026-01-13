@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-14T02:07:26.006682+09:00",
+  "last_updated": "2026-01-14T02:40:56.476646+09:00",
   "items": [
+    {
+      "id": "e121a4cafd2349db308ede75215d3d0e",
+      "timestamp": "2026-01-14T02:28:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple, Google Confirm Multiyear Deal for AI Technology, Siri - Alphabet Inc.’s Google confirmed that it has entered a multiyear deal with Apple Inc. to power the iPhone maker’s artificial intelligence technology, including the Siri voice assistant.  Bloomberg's A",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/apple-google-confirm-multiyear-deal-for-ai-tech-siri-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "03f050d4e040e0791b495e2e42f9ba90",
+      "timestamp": "2026-01-14T02:22:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Germany Left in Dark on Trump's Greenland Motives After Fruitless DC Talks - Senior members of German Chancellor Friedrich Merz’s cabinet traveled to Washington this week to try to work out what the real motives are behind US President Donald Trump’s threats to take control of",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/germany-left-in-dark-on-trump-plans-after-fruitless-talks-in-dc",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7f0301b86aed6cdc9d53c46de42a46d",
+      "timestamp": "2026-01-14T02:19:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan, Citi in Talks to Finance $1 Billion Argentina Pipeline - A group of banks including JPMorgan Chase &amp; Co. and Citigroup Inc. are in talks to lend natural gas producers in Argentina roughly $1 billion to build a cross-country pipeline, according to two pe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/jpmorgan-citi-in-talks-to-finance-1-billion-argentina-pipeline",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c3fabfe318bb68a9ae3ec8e061e3d7ea",
+      "timestamp": "2026-01-14T02:19:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mubadala-Backed CI Buys Invesco’s Canadian Fund Assets - Atlanta-based Invesco Ltd. is selling its C$26 billion ($18.7 billion) Canadian investment fund business to CI Global Asset Management, furthering the M&amp;A trend in the country’s mutual fund indust",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/mubadala-backed-ci-buys-invesco-s-canadian-fund-assets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4dd5d47165366ef00fe3f022e4777d6c",
+      "timestamp": "2026-01-14T02:18:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wellington Hires Hamilton Lane’s Alex Behm for Secondaries Push - Wellington Management Co., the mutual fund giant best known for stock- and bond-picking, hired Hamilton Lane Inc.’s Alex Behm to lead its foray into the hot market of buying and selling private equity",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/wellington-hires-hamilton-lane-s-alex-behm-for-secondaries-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2ea4cd1542ab13e707b1e032c45e7038",
+      "timestamp": "2026-01-14T02:06:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France’s Banijay Says in Talks with All3Media for TV Powerhouse - French media group Banijay Group NV said it is in talks to merge its TV production business with rival All3Media Ltd., potentially creating an entertainment powerhouse with a string of hit shows on it",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/france-s-banijay-says-in-talks-with-all3media-for-tv-powerhouse",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8ba2585d8f86b4849b2119df25ba286b",
+      "timestamp": "2026-01-14T02:02:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kirkland &amp; Ellis Accused of Conflict in Private Equity Spat - Law firm Kirkland &amp; Ellis has been drawn into a dispute between investors of Ascent Resources and the private equity firm that’s seeking to raise a continuation fund to prolong its hold on the nat",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/kirkland-ellis-accused-of-conflict-in-private-equity-spat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "88665b93b2490cbf0df478bd8f533a2d",
+      "timestamp": "2026-01-14T02:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Biotech Share Sales Deliver Biggest First Week Since 2021 - Stock sales from drug developers are off to a flying start on US exchanges in 2026, boosting the prospects for biotechnology fundraising after turbulence in the sector last year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/us-biotech-share-sales-deliver-biggest-first-week-since-2021",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aef6ed723909a5c0c34053028ae95a71",
+      "timestamp": "2026-01-14T02:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New Zealand Home-Building Costs Picked up in Fourth Quarter - New Zealand home-building costs increased the most in 15 months in the fourth quarter as the construction industry begins to recover.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/new-zealand-home-building-costs-picked-up-in-fourth-quarter",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9077f01002d33801aaa025af51e6278b",
       "timestamp": "2026-01-14T01:49:59+09:00",
