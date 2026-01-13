@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-13T14:39:49.639672+09:00",
+  "last_updated": "2026-01-13T15:05:27.153510+09:00",
   "items": [
+    {
+      "id": "985e9a5aea2e95fb97549ab57367b14e",
+      "timestamp": "2026-01-13T14:37:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Senate Panel Releases Crypto Bill Allowing Stablecoin Rewards - Many digital-asset companies would continue to be able to offer rewards to customers who hold stablecoins under a new proposal tied to hotly-anticipated crypto market structure legislation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/senate-panel-releases-crypto-bill-allowing-stablecoin-rewards",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2f204d42341f0be2edfd2027b5f18c35",
+      "timestamp": "2026-01-13T14:31:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tokyo Considers Steps After China's Ban on Dual-Use Goods for Military - Japanese Defense Minister Shinjiro Koizumi said assessments were ongoing into the impact of China’s decision to restrict exports to Japan of dual-use items for military purposes, and he added Tokyo wo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/japan-minister-says-tokyo-mulling-steps-after-china-dual-use-ban",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b125d2ec2d7b3e533cd4478a37b28e04",
       "timestamp": "2026-01-13T14:30:39+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "BHP Is Stuck on the Sidelines of Copper M&amp;A Frenzy It Started - BHP Group’s bold bid to buy rival Anglo American Plc in 2024 was supposed to set it up as the clear winner in a copper boom it had long predicted. Two years later, the copper market is indeed booming.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/bhp-is-stuck-on-the-sidelines-of-copper-m-a-frenzy-it-started",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5f6a85db92ac8075254fd82e92d4aef8",
-      "timestamp": "2026-01-12T21:24:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Oil Prices Are Tuning Out the Turmoil in Iran and Venezuela - Oil has so far shrugged off the dramatic geopolitical events that began 2026.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/why-oil-prices-are-tuning-out-the-political-turmoil-in-iran-and-venezuela",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06cddd485d3f26c5403faebbdf92d80c",
-      "timestamp": "2026-01-12T21:24:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Xi Pledges to Maintain Corruption Fight in China, Xinhua Says - Chinese President Xi Jinping said it’s essential to maintain a strong stance against graft to ensure corrupt officials have “no place to hide,” according to a report from the official Xinhua News Agen",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/xi-pledges-to-maintain-corruption-fight-in-china-xinhua-says",
       "sentiment": "NEUTRAL"
     }
   ]
