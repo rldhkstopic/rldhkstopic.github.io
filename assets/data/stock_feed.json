@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-13T15:05:27.153510+09:00",
+  "last_updated": "2026-01-13T15:44:09.230903+09:00",
   "items": [
+    {
+      "id": "b8a0c322ed44ce98da4174d0b4e09a6c",
+      "timestamp": "2026-01-13T15:34:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stock Market Stands on Side of History If Japan Elections Called - If Prime Minister Sanae Takaichi calls a snap election as local media has reported, history says investors in the stock market will benefit, at least in the short term.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/stock-market-stands-on-side-of-history-if-japan-elections-called",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2c9b84673fdf8fc985c2ca1a41728ed6",
+      "timestamp": "2026-01-13T15:22:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Roebuck: Protests Alone Unlikely to Lead to Regime Change - US President Donald Trump says he's imposing a 25% tariff on goods from countries doing business with Iran, ratcheting up pressure on the government in Tehran. The announcement comes after weeks of ma",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/roebuck-protest-alone-unlikely-to-lead-to-regime-change-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d6d845e4622bc1d656ddaf5eb62c327b",
+      "timestamp": "2026-01-13T15:20:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Struyven: Very Focused on Actual Disruptions to Oil Supply - Oil touched the highest level since November after US President Donald Trump said he is imposing a 25% tariff on goods from countries doing business with Iran. Daan Struyven, Co-Head of Global Commodi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/struyven-focused-on-actual-disruptions-to-oil-supply-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "83c704b75fc27eac33f499ea460a5287",
+      "timestamp": "2026-01-13T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Recruiters Face Dire Year With Tough Jobs Market, AI Threat - UK recruiters face another difficult year as the labor market continues to deteriorate, compounded by growing threats from artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/uk-recruiters-face-dire-year-with-tough-jobs-market-ai-threat",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "985e9a5aea2e95fb97549ab57367b14e",
       "timestamp": "2026-01-13T14:37:02+09:00",
@@ -32,6 +76,17 @@
       "related_tickers": [],
       "content": "UBS CEO Ermotti Plans to Step Down in April 2027, FT Says - UBS Group AG’s Chief Executive Officer Sergio Ermotti is planning to step down in April 2027, the Financial Times reports Tuesday, citing unnamed people.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/ubs-ceo-ermotti-plans-to-step-down-in-april-2027-ft-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6c195f646eb9893774de9d7d33b7825f",
+      "timestamp": "2026-01-13T14:30:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian Bonds Slip as Bloomberg Defers Global Index Inclusion - Indian government bonds declined after Bloomberg Index Services Ltd. held back from adding the nation’s debt to its global index, citing investors’ request for further evaluation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/india-bonds-slip-as-bloomberg-defers-inclusion-into-global-index",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Fed Subpoena ‘Out of My Purview,’ Says FHFA’s Pulte - Federal Housing Finance Agency Director Bill Pulte said, “I don’t know anything about it,” when asked during an interview on Bloomberg Television Monday about the Federal Reserve being served grand ju",
       "url": "https://www.bloomberg.com/news/videos/2026-01-12/fed-subpoena-out-of-my-purview-says-fhfa-s-pulte-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "64fe5497c67103158eb34a4210ddf146",
-      "timestamp": "2026-01-12T22:01:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Hasn’t the Economy Crashed? - It’s not a vindication of Trump’s policies, says Bloomberg Opinion columnist Clive Crook. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/opinion-why-hasn-t-the-economy-crashed-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e9127f89b5062f5c23b8247e9f684895",
-      "timestamp": "2026-01-12T21:47:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DOJ Serves Fed With Grand Jury Subpoenas - Federal Reserve Chair Jerome Powell said the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment, a dramatic escalation of the Trump admi",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/doj-serves-fed-with-grand-jury-subpoenas-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bcb2fe87f6e67bdee005ffb6c98bb880",
-      "timestamp": "2026-01-12T21:43:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ElevenLabs: $330M Crossed in ARR - AI Voice Generator, ElevenLabs, says they have now crossed $330M in ARR. The Co-Founder and CEO Mati Staniszewski speaks with Bloomberg TV on the outlook for 2026 and what's next for the AI company. H",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/elevenlabs-330m-crossed-in-arr-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f1577e85dc0afabe7aae32676bc79550",
-      "timestamp": "2026-01-12T21:33:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Toronto-Dominion Plans SRT Tied to $5 Billion of Corporate Loans - Toronto-Dominion Bank is gauging demand from investors for a significant risk transfer tied to a portfolio of about $5 billion of corporate loans.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/toronto-dominion-plans-srt-tied-to-5-billion-of-corporate-loans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "19ddb18a660fd1a84d3eeeafbf7048b4",
-      "timestamp": "2026-01-12T21:30:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BHP Is Stuck on the Sidelines of Copper M&amp;A Frenzy It Started - BHP Group’s bold bid to buy rival Anglo American Plc in 2024 was supposed to set it up as the clear winner in a copper boom it had long predicted. Two years later, the copper market is indeed booming.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/bhp-is-stuck-on-the-sidelines-of-copper-m-a-frenzy-it-started",
       "sentiment": "NEUTRAL"
     }
   ]
