@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-13T11:38:31.174641+09:00",
+  "last_updated": "2026-01-13T12:31:31.067094+09:00",
   "items": [
+    {
+      "id": "b9d2494c2554e82d61b3241e6b8c1080",
+      "timestamp": "2026-01-13T12:22:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Robotics Frenzy Drives $24 Billion Gain in Hyundai Motor Stocks - Hyundai Motor Co. group stocks have added around $24 billion in market value so far this month as investor excitement over robotics extends into the new year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/robotics-frenzy-drives-24-billion-gain-in-hyundai-motor-stocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8acfc4bf8d658361aeb472a5d272191e",
+      "timestamp": "2026-01-13T12:21:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBS’ Fang on China Markets, Investment Strategy - Thomas Fang, Head of China Global Markets at UBS, discusses the outlook for China’s markets and investment strategy. He speaks with Stephen Engle from the sidelines of the UBS Greater China Conference",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/ubs-fang-on-china-markets-investment-strategy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e8d0cc538ff9646f430225f1e37a0307",
+      "timestamp": "2026-01-13T11:56:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TCS, HCL Tech Results Bring Setback for India Stock Bulls - Earnings were hit by one-time charges tied to India’s revised labor rules.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-13/tcs-hcl-tech-3q-earnings-misses-show-recovery-may-be-delayed",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e9891716a37777e7f6d0c560baa178a2",
+      "timestamp": "2026-01-13T11:56:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Risks Upending US-China Trade Truce With Iran Tariff Vow - President Donald Trump’s announcement of new tariffs on goods from countries trading with Iran could upset the US’s one-year trade truce with China, the world’s top buyer of Iranian oil.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-risks-upending-us-china-trade-truce-with-iran-tariff-vow",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d738dacf994010b318ee150c7d47c6bb",
+      "timestamp": "2026-01-13T11:42:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Rocket Shares Fall After Warnings on ‘Irrational’ Rally - Shares of Chinese companies tied to commercial rockets production slid after they cautioned that a recent rally had outpaced underlying fundamentals.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/chinese-rocket-shares-fall-after-warnings-on-irrational-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "02755b86dee4348947f235bc8a2b186a",
+      "timestamp": "2026-01-13T11:35:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vanke Asks to Extend Bond Grace Period Again, Adds Collateral - China Vanke Co. presented revised proposals to extend a local bond that included collateral pledges as well as a longer grace period, according to people familiar with the matter, as the distressed de",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/vanke-asks-to-extend-bond-grace-period-again-adds-collateral",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0acf096f82e82fd59c0707174f55aba6",
+      "timestamp": "2026-01-13T11:33:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia’s US Ambassador Rudd to Step Down Early After Tensions With Trump - Australia’s ambassador to the US, Kevin Rudd, will step down a year earlier than planned after his tenure was clouded by past criticism of Donald Trump that had drawn the ire of the US president.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/australia-s-us-ambassador-rudd-to-step-down-early-after-tensions-with-trump",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0bb5788dec8c6486f8025b323c340a47",
       "timestamp": "2026-01-13T11:10:44+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "StanChart Said to Prepare Crypto Expansion With Prime Brokerage - Standard Chartered Plc plans to set up a prime brokerage for crypto trading, people with knowledge of the matter said, as global banks step up efforts to compete in digital assets.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/stanchart-said-to-prepare-crypto-expansion-with-prime-brokerage",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0c0703583bb6a0d23fd720a956e436e9",
-      "timestamp": "2026-01-12T20:00:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "This Is Who Companies Call When They Want to Become a Bank - <p>Financial firms are racing to secure US bank charters during Trump’s presidency, with Klaros Group advising at least a dozen of them.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/fintechs-call-klaros-group-when-they-want-bank-charters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "88a1553e3f717ec5f7f61093903c0ee8",
-      "timestamp": "2026-01-12T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chile Investors Look Abroad as Fed, Geopolitics Drive Rates - Chilean fixed-income investors are looking beyond domestic developments this year, with decisions in Washington and geopolitical flashpoints eclipsing the impact of a new administration at home.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/chile-investors-look-abroad-as-fed-geopolitics-drive-rates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "67ab89e02d9c1923a247e3e46d071b56",
-      "timestamp": "2026-01-12T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Data Centers Will Need $3 Trillion Through 2030, Moody’s Says - At least $3 trillion is set to flow into data-center-related investments over the next five years, capital that will rely on the might of multiple areas of the credit markets to provide, according to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/data-centers-will-need-3-trillion-through-2030-moody-s-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "67ab89e02d9c1923a247e3e46d071b56",
-      "timestamp": "2026-01-12T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Data Centers Will Need $3 Trillion Through 2030, Moody’s Says - At least $3 trillion is set to flow into data-center-related investments over the next five years, capital that will rely on the might of multiple areas of the credit markets to provide, according to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/data-centers-will-need-3-trillion-through-2030-moody-s-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "88a1553e3f717ec5f7f61093903c0ee8",
-      "timestamp": "2026-01-12T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chile Investors Look Abroad as Fed, Geopolitics Drive Rates - Chilean fixed-income investors are looking beyond domestic developments this year, with decisions in Washington and geopolitical flashpoints eclipsing the impact of a new administration at home.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/chile-investors-look-abroad-as-fed-geopolitics-drive-rates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d35f63d96eca7c84c918f6bb89e38142",
-      "timestamp": "2026-01-12T19:59:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran’s Leaders Face Their Biggest Challenge in a Generation - But demise is by no means certain &mdash; and a harder version of the status quo may yet emerge.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/iran-protests-regime-faces-biggest-challenge-in-a-generation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d4141f5f0ea192f73c3279f58ca616d3",
-      "timestamp": "2026-01-12T19:58:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Corn Rises to Two-Week High as Report Seen Cutting US Yield - Corn futures hit the highest in two weeks as traders await a key monthly report from the US Department of Agriculture, which is expected to pare the outlook for US corn yields.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/corn-rises-to-two-week-high-as-report-seen-cutting-us-corn-yield",
       "sentiment": "NEUTRAL"
     }
   ]
