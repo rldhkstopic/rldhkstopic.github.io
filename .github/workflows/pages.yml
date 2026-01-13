@@ -1,13 +1,13 @@
 name: GitHub Pages
 
-# Disabled: This workflow is replaced by pages-deploy.yml
-# on:
-#   push:
-#     branches:
-#       - main
-#   workflow_dispatch:
+# DISABLED: This workflow is disabled to prevent conflicts with pages-deploy.yml
+# Use pages-deploy.yml instead which includes notifications
+
 on:
-  workflow_dispatch:  # Manual trigger only
+  # push:
+  #   branches:
+  #     - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -52,3 +52,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
