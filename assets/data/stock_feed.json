@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-13T16:06:52.673413+09:00",
+  "last_updated": "2026-01-13T16:37:49.808965+09:00",
   "items": [
+    {
+      "id": "8b6f3cb03adcb245dee11b6fbaefc80b",
+      "timestamp": "2026-01-13T16:28:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoins als Kreditabsicherung - Bitcoin als Kreditabsicherung? Genau das will die VR Bank Bayern Mitte noch in diesem Jahr testen. Die Genobank zählt zu den Vorreitern auf dem Kryptomarkt. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/bitcoins-als-kreditabsicherung-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8be11f24070726578cd7e8b03f00e7f7",
+      "timestamp": "2026-01-13T16:15:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan PM Takaichi Eyes Snap Election to Solidify Power - Japanese Prime Minister Sanae Takaichi conveyed her intention to call a snap election to senior officials in her ruling Liberal Democratic Party, Kyodo News reported Tuesday. A snap election would lik",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/japan-pm-takaichi-eyes-snap-election-to-solidify-power-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "11fd6d9bacfd76c8f03c541d18d5f082",
+      "timestamp": "2026-01-13T16:01:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TCS CEO on India’s IT Outlook and AI Strategy - Tata Consultancy Services CEO and Managing Director K. Krithivasan shares insights on the company’s quarterly performance, after missing analysts’ estimates due to limited spending on information tech",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/tcs-ceo-on-india-s-it-outlook-and-ai-strategy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7842c9e19b494921f83057790a91c751",
+      "timestamp": "2026-01-13T16:00:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HCLTech CEO on AI Strategy, Mega Deals & Growth Outlook - HCLTech CEO and Managing Director C Vijayakumar shares insights on the company’s quarterly performance and AI‑driven transformation. He discusses mega deals, hiring priorities in cloud and cybersecuri",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/hcltech-ceo-on-ai-strategy-mega-deals-growth-outlook-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "1c924c6370dcc92ca898e1ea4ca590e1",
       "timestamp": "2026-01-13T15:48:12+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Meta Taps Dina Powell McCormick for New Role Driving AI Buildout - Meta Platforms Inc. has appointed a former top adviser to US President Donald Trump to a newly created senior management role focused on partnering with governments and investors on AI.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/meta-taps-former-trump-advisor-for-new-role-driving-ai-buildout",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7aae4c3b22aec63961259e73af3b0b21",
-      "timestamp": "2026-01-12T22:42:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DV Commodities Hires Quant Nicky Ferguson in Continued Expansion - DV Group hired Nicky Ferguson, a well-known quantitative analyst and trader in commodity markets, as the company continued to expand its trading capabilities.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/dv-commodities-hires-quant-nicky-ferguson-in-continued-expansion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c9b34d0b9cdba31906b68e8b2a7fcf0",
-      "timestamp": "2026-01-12T22:40:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Democrats Put Alaska Senate Seat in Play as Peltola Joins Race - Former Alaska Representative Mary Peltola launched a campaign Monday to challenge Republican Dan Sullivan for one of Alaska’s Senate seats, putting the race in play for Democrats in November’s midterm",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/democrats-put-alaska-senate-seat-in-play-as-peltola-joins-race",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "57d51f20a99157c4dded7850584f636d",
-      "timestamp": "2026-01-12T22:39:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cyprus President’s Top Aide Quits After Video Alleged Corruption - A top aide to Cyprus President Nikos Christodoulides resigned Monday following reaction to a video alleging “shadow” pre-election campaign financing.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/cyprus-president-s-top-aide-quits-after-video-alleged-corruption",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "70c559085f95bb1eef88c0f4ba04cbe4",
-      "timestamp": "2026-01-12T22:37:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rare-Earth Miner Meteoric Seeks Partnership for Brazil Project - Meteoric Resources NL is casting a wide net including courting potential backers in Saudi Arabia as it pursues a strategic partner for its rare-earth mining project in Brazil.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/rare-earth-miner-meteoric-seeks-partnership-for-brazil-project",
       "sentiment": "NEUTRAL"
     }
   ]
