@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-14T06:03:43.531310+09:00",
+  "last_updated": "2026-01-14T06:36:17.952357+09:00",
   "items": [
+    {
+      "id": "14c097f13779ed99e73deefb39770c2f",
+      "timestamp": "2026-01-14T06:34:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump and the Republicans’ Struggle to Stay on Economic Message - The president sometimes overshadows his party’s election-year focus.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-13/trump-and-the-republicans-struggle-to-stay-on-economic-message",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ec00af9400641d3a1717793dfc8e00e6",
+      "timestamp": "2026-01-14T06:28:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netflix May Amend Warner Bros. Bid to Make It All Cash - Netflix is working on revised terms for its Warner Bros. Discovery acquisition and has discussed making an all-cash offer for the company’s studios and streaming businesses, people familiar with the d",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/netflix-may-amend-warner-bros-bid-to-make-it-all-cash-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "516d7f13900ad47ccb6a39af55bc8cbc",
+      "timestamp": "2026-01-14T06:20:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "GoodRx CEO on TrumpRx and Surescripts Partnership - GoodRx CEO Wendy Barnes speaks with Katie Greifeld at the JPMorgan Health-Care Conference in San Francisco about TrumpRx and the company's partnership with Surescripts. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/goodrx-ceo-on-trumprx-and-surescripts-partnership-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "45eb7704255e7dd6e9a602162f76e32e",
+      "timestamp": "2026-01-14T06:18:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tricolor Founder, Ex-COO Plead Not Guilty to Fraud Charges - Tricolor Holdings founder Daniel Chu and former Chief Operating Officer David Goodgame pleaded not guilty to charges that they conspired to defraud lenders and investors in the bankrupt subprime auto ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/tricolor-founder-ex-coo-plead-not-guilty-to-fraud-charges",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b36dcfcdfe66b656da645f6ef29d5a4a",
+      "timestamp": "2026-01-14T06:14:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The path to hurting Iran’s government runs through China - Amid Iran’s brutal crackdown on protesters, President Trump threatened to slap a 25% tariff on its trading partners. Find out why the move puts China and India firmly in his trade war crosshairs, yet ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/the-path-to-hurting-iran-s-government-runs-through-china-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e3ca584b0bfbac2f2f3651436a198240",
+      "timestamp": "2026-01-14T06:10:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Novo CEO Sees Strong Demand for Wegovy Obesity Pill - Novo Nordisk CEO Mike Doustdar talks about launching a pill version of their blockbuster obesity drug Wegovy in the US. He speaks to Katie Greifeld in San Francisco at the annual JPMorgan Healthcare C",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/novo-ceo-sees-strong-demand-for-wegovy-obesity-pill-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "091f91ced7795449060918f53ba67597",
+      "timestamp": "2026-01-14T06:09:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apollo Looks to Open Trading on Private Chip Loan for Musk’s xAI - Apollo Global Management Inc. is trying to open up trading on a private debt deal supporting Elon Musk’s artificial intelligence startup xAI Corp., according to people with knowledge of the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/apollo-looks-to-open-trading-on-private-chip-loan-for-musk-s-xai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f0aa9e73847c1aa1d62e09135e6321fa",
+      "timestamp": "2026-01-14T06:05:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Nominates David MacNeil to US Federal Trade Commission - President Donald Trump nominated David MacNeil to be a US Federal Trade Commissioner, according to statement posted on the White House website Tuesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-nominates-david-macneil-to-us-federal-trade-commission",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a67e25a4f888bd41b35025ff3c6dc2a5",
+      "timestamp": "2026-01-14T05:58:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Citadel and Other Spirit Bondholders to Decide if Airline Survives Bankruptcy - Ken Griffin’s Citadel and other Spirit Aviation bondholders will likely dictate whether the budget airline survives bankruptcy or shuts down, a labor union representing its pilots said Tuesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/citadel-called-out-by-spirit-airlines-pilots-fearing-liquidation",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "62d60d5a26a0e24cc787119616bb16c3",
       "timestamp": "2026-01-14T05:56:54+09:00",
@@ -13,6 +112,28 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "785370db28e9854aff3a46b489f9f723",
+      "timestamp": "2026-01-14T05:53:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Chip Startup Etched Raises $500 Million to Take on Nvidia - AI chip startup Etched raised about $500 million in a new funding round, according to people familiar with the matter, part of an effort to compete with Nvidia Corp. in the booming market for artifici",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/ai-chip-startup-etched-raises-500-million-to-take-on-nvidia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "785370db28e9854aff3a46b489f9f723",
+      "timestamp": "2026-01-14T05:53:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Chip Startup Etched Raises $500 Million to Take on Nvidia - AI chip startup Etched raised about $500 million in a new funding round, according to people familiar with the matter, part of an effort to compete with Nvidia Corp. in the booming market for artifici",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/ai-chip-startup-etched-raises-500-million-to-take-on-nvidia",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "f4b142512a42e0667b3729f249bfa79f",
       "timestamp": "2026-01-14T05:53:43+09:00",
       "source_type": "NEWS",
@@ -21,6 +142,17 @@
       "related_tickers": [],
       "content": "Hard to Argue With People's Emotions Around Economic Strain, Says Martha Gimbel - Martha Gimbel, director of the Yale Budget Lab, said that Trump administration is only making Jerome Powell's job harder when the White House signals the Fed has little runway to address inflation. Gi",
       "url": "https://www.bloomberg.com/news/videos/2026-01-13/hard-to-argue-with-emotions-around-economy-gimbel-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c89bcf3da68b9910657a8e68818b15b5",
+      "timestamp": "2026-01-14T05:45:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Brings Populist Pitch to Michigan | Balance of Power: Early Edition 1/13/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discusses President Donald Trump's trip to Detroit. On today's show, Democratic Congressman Raja Krishnamoorthi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/balance-of-power-early-edition-1-13-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2067,138 +2199,6 @@
       "related_tickers": [],
       "content": "Thousands of Minneapolis ICE Protesters March to Shooting Site - Thousands marched Saturday in Minneapolis to the site where a federal agent shot and killed Renée Nicole Good during a confrontation, heightening political divisions around the Trump administration’s ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-10/thousands-march-to-shooting-site-in-minneapolis-protesting-ice",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81f8e509bcb7bdda90fb3eea08f7a8c8",
-      "timestamp": "2026-01-11T07:09:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US May Lift Some Venezuela Sanctions Soon, Bessent Tells Reuters - The US may lift additional sanctions on Venezuela as early as next week to facilitate oil sales, Reuters reported, citing an interview with Treasury Secretary Scott Bessent.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/us-may-lift-some-venezuela-sanctions-soon-bessent-tells-reuters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81f8e509bcb7bdda90fb3eea08f7a8c8",
-      "timestamp": "2026-01-11T07:09:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US May Lift Some Venezuela Sanctions Soon, Bessent Tells Reuters - The US may lift additional sanctions on Venezuela as early as next week to facilitate oil sales, Reuters reported, citing an interview with Treasury Secretary Scott Bessent.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/us-may-lift-some-venezuela-sanctions-soon-bessent-tells-reuters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "557015145506cca4e40866c7719fa70f",
-      "timestamp": "2026-01-11T06:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Inflation to Pick Up After Muddy November CPI - US consumers probably experienced only a modest pickup in inflation as 2025 drew to a close, consistent with price pressures that are gradually abating.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/us-inflation-to-pick-up-after-muddy-november-cpi",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c26ec096ea903a650c9b2117b8df3157",
-      "timestamp": "2026-01-11T05:57:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Strikes Multiple ISIS Targets in Syria, Military Says - The US launched missiles in Syria on Saturday, the latest attack on Islamic State militants following the December deaths of two US soldiers, according to US Central Command.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/us-strikes-multiple-isis-targets-in-syria-military-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2514b1830731e66a1e6d9a330d9a0690",
-      "timestamp": "2026-01-11T05:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "More Bonds Are Teetering on the Brink of Junk: Credit Weekly - Beneath the calm surface of the US corporate bond market, there are worrying signs about companies that could lose their investment-grade status.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/more-bonds-are-teetering-on-the-brink-of-junk-credit-weekly",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca4bcfd6bd4a2f987cdcd56a5f7f1a20",
-      "timestamp": "2026-01-11T04:34:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Elon Musk Says X to Make Algorithm Open Source in Seven Days - Social media platform X will open its new algorithm to the public in seven days, Elon Musk said on Saturday, including the code used to decide what posts and advertisements are recommended to users.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/elon-musk-says-x-to-make-its-algorithm-open-source-in-seven-days",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ae7d0fec32cf676cd2b2a532b7c31040",
-      "timestamp": "2026-01-11T04:06:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela Frees Political Prisoners, Vows to ‘Rescue’ Maduro - Venezuela continued releasing political prisoners on Saturday, including a member of opposition leader María Corina Machado’s party, a week after President Nicolás Maduro was captured by US forces.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/venezuela-frees-political-prisoners-pledges-to-rescue-maduro",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "de92e11b2ebb8bccf3bdbbe6802c68f4",
-      "timestamp": "2026-01-11T02:03:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Signs Order to Firewall Venezuela Oil Revenue Held in US - President Donald Trump took another step toward controlling future sales of Venezuelan oil and its proceeds by declaring a national emergency and issuing a directive meant to block claims on the reven",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/trump-signs-order-to-firewall-venezuela-oil-revenue-held-in-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bfd7b13bedee2dbec5e41bfc28c35901",
-      "timestamp": "2026-01-11T01:22:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Orban Says Hungary Ruling Party to Name PM Candidate in February - Hungarian Prime Minister Viktor Orban said his Fidesz party will wait until next month to name its premier candidate for pivotal parliamentary elections, as the ruling nationalist group trails in most",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/orban-urges-hungarians-to-make-safe-choice",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7ecbd6118168898ab999bf97dba3e0ab",
-      "timestamp": "2026-01-11T01:08:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Colombian Conservative De la Espriella Leads 2026 Vote in Poll - Conservative lawyer Abelardo de la Espriella leads the polls ahead of Colombia’s May presidential election with 28% support, according to an AtlasIntel poll conducted for Semana and published on Satur",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/colombian-conservative-de-la-espriella-leads-2026-vote-in-poll",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f47b57f7a163e9b76db5beed4dc90966",
-      "timestamp": "2026-01-11T01:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia, Tesla Chase Same Self-Driving Goal Via Varying Paths - Jensen Huang took the stage at the CES trade show in Las Vegas this week to make the clearest pitch yet for Nvidia Corp.’s autonomous driving technology. In doing so, the chief executive officer’s vis",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/nvidia-and-tesla-chase-same-self-driving-goal-via-varying-paths",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d4f48cb992bbd6a77cfc93090660b301",
-      "timestamp": "2026-01-11T00:33:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk Calls UK ‘Fascist’ as Row Over Grok AI Images Escalates - Elon Musk accused the UK government of being “fascist” after it stepped up threats to block X over sexualized images of women and children produced by his artificial intelligence tool Grok.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/musk-calls-uk-fascist-as-row-over-x-s-grok-ai-images-escalates",
       "sentiment": "NEUTRAL"
     }
   ]
