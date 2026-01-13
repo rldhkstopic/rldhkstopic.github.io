@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-13T14:07:14.225427+09:00",
+  "last_updated": "2026-01-13T14:39:49.639672+09:00",
   "items": [
+    {
+      "id": "b125d2ec2d7b3e533cd4478a37b28e04",
+      "timestamp": "2026-01-13T14:30:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBS CEO Ermotti Plans to Step Down in April 2027, FT Says - UBS Group AG’s Chief Executive Officer Sergio Ermotti is planning to step down in April 2027, the Financial Times reports Tuesday, citing unnamed people.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/ubs-ceo-ermotti-plans-to-step-down-in-april-2027-ft-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "34d49b5e5ce3de431bce9bed1fa789a3",
+      "timestamp": "2026-01-13T14:26:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s 2026 Stock Rally Builds as Turnover, Margin Loans Surge - Chinese stocks have been gaining momentum this year with burgeoning sentiment seen in record turnover and a surge in the amount of margin loans.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/china-s-2026-stock-rally-builds-as-turnover-margin-loans-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dbf352e38abb926064a05d03473a1863",
+      "timestamp": "2026-01-13T14:16:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The China Show 1/13/2026 (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/the-china-show-1-13-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "da0f26cecc1b9252e5e57f76a305a07a",
+      "timestamp": "2026-01-13T14:07:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nobel Laureate Acemoglu on Fed Independence, AI - Daron Acemoglu, Institute Professor at MIT and Nobel Laureate, discusses the importance of Federal Reserve independence and the impact of AI on the economy. He speaks with Stephen Engle from the sidel",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/nobel-laureate-acemoglu-on-fed-independence-ai-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "676c7ff44bcc5bf471226cd2676bb0c0",
       "timestamp": "2026-01-13T14:03:50+09:00",
@@ -21,6 +65,17 @@
       "related_tickers": [],
       "content": "Germany’s Growing Military Might Rekindles Old Fears in France - <p>The unease is acute in Paris, where some worry that the continent’s center of political gravity is moving east as Berlin boosts its defense spending to levels its allies can’t match.</p>",
       "url": "https://www.bloomberg.com/news/features/2026-01-13/germany-s-defense-spending-military-strength-worry-some-european-allies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ee06750d1454dd4c86901717bd1ce10d",
+      "timestamp": "2026-01-13T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nigeria Set to Pass Sweeping AI Rules for Digital Economy - Nigeria is set to pass a law that would place it among the first African countries to regulate artificial intelligence, tightening oversight of one of the continent’s fastest-growing digital markets a",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/nigeria-set-to-pass-sweeping-ai-rules-for-digital-economy",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Xi Pledges to Maintain Corruption Fight in China, Xinhua Says - Chinese President Xi Jinping said it’s essential to maintain a strong stance against graft to ensure corrupt officials have “no place to hide,” according to a report from the official Xinhua News Agen",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/xi-pledges-to-maintain-corruption-fight-in-china-xinhua-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89e8e24c0ab0cb46d2b2b64f2c376f26",
-      "timestamp": "2026-01-12T21:11:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India's Modi Hosts Germany's Merz as Trump Threatens Iran | The Pulse 1/12/2026 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/the-pulse-1-12-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "11921422e1a93533af40cc15daa97a90",
-      "timestamp": "2026-01-12T21:09:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed Served with Grand Jury Subpoenas, Heineken CEO Steps Down | The Opening Trade 1/12/2026 - Fed Chair Jerome Powell said the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment, a dramatic escalation of the Trump administration’s",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/the-opening-trade-1-12-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d614b68e0f201d3cc664633db6a22ba1",
-      "timestamp": "2026-01-12T21:08:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Powell Vows to Stand Firm as Fed Served With DOJ Subpoenas - Federal Reserve Chair Jerome Powell said Sunday in a video statement the US central bank had been served grand jury subpoenas from the Justice Department threatening a criminal indictment. Powell said",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/fed-s-powell-vows-to-stand-firm-amid-doj-subpoenas-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eddfb0cee467fb10ae477b4dcd8999a0",
-      "timestamp": "2026-01-12T21:06:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Top Paid App Is a Tool to Help Grandma Check In - Welcome to Tech In Depth, our daily newsletter about the business of tech from Bloomberg’s journalists around the world. Today, Vlad Savov looks at China’s No.1 paid app.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/china-s-top-paid-app-is-a-tool-to-help-grandma-check-in",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a0a486cf7bfeee48705216fc7f43f698",
-      "timestamp": "2026-01-12T21:05:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lufthansa Plans to Resume Iran Flights Despite Deadly Protests - Deutsche Lufthansa AG still plans to resume flights to Iran’s capital this week despite ongoing deadly protests around the country and German government travel warnings.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/lufthansa-plans-to-resume-iran-flights-despite-deadly-protests",
       "sentiment": "NEUTRAL"
     }
   ]
