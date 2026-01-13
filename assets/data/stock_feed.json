@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-13T12:31:31.067094+09:00",
+  "last_updated": "2026-01-13T13:17:13.371639+09:00",
   "items": [
+    {
+      "id": "428b9ab282f9417521b36517d2410a4f",
+      "timestamp": "2026-01-13T13:13:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Swiss Banking Reforms Go Too Far, Says UBS CEO Ermotti - UBS CEO Sergio Ermotti says the proposed new banking reforms in Switzerland go “too far” and that the lender needs a competitive regulatory framework to grow. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/swiss-banking-reforms-go-too-far-says-ubs-ceo-ermotti",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "267298bab78751944b0c9c6b25dd6d01",
+      "timestamp": "2026-01-13T12:36:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Baidu CFO on Business Strategy, AI Investments - Henry He, CFO at Baidu, discusses the company’s business strategy and its investments in AI. He speaks with Stephen Engle from the sidelines of the UBS Greater China Conference in Shanghai. (Source: B",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/baidu-cfo-on-business-strategy-ai-investments-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9149189da2c2c5d31d433634222c58cc",
+      "timestamp": "2026-01-13T12:33:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fmr. Philadelphia Fed President on Fed Independence - Patrick Harker, former Philadelphia Fed President, discusses the importance of Federal Reserve independence and the outlook for the economy. He speaks with Stephen Engle from the sidelines of the UBS ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/fmr-philadelphia-fed-president-on-fed-independence-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1aab7edf9bfd47c88c5cd976a5cf4049",
+      "timestamp": "2026-01-13T12:30:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japanese Funds Sell Most UK Bonds Since 2011 Amid Fiscal Concern - Japanese investors sold the most UK sovereign bonds in 14 years in November, with concern over Britain’s fiscal outlook and higher yields in the domestic market sapping demand for gilts.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/japanese-funds-sell-most-uk-bonds-since-2011-amid-fiscal-concern",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b9d2494c2554e82d61b3241e6b8c1080",
       "timestamp": "2026-01-13T12:22:31+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "India’s State-Owned Power Finance Plans $555 Million Retail Bond - India’s Power Finance Corp., the country’s largest lender to the power sector, plans to sell bonds to individual investors, making a return to the retail market after a gap of more than two years.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/india-s-state-owned-power-finance-plans-555-million-retail-bond",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1008023ff3a4d656eeb22d754ac92dd3",
-      "timestamp": "2026-01-12T20:29:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Reform Recruits Former Chancellor in Most Senior Tory Defection - Former Chancellor of the Exchequer Nadhim Zahawi joined Reform UK in the most senior defection yet from the Conservative Party to Nigel Farage’s poll-leading populist outfit.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/former-tory-chancellor-zahawi-joins-reform-uk-farage-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f74a680e524856cd366e54fc542dcf40",
-      "timestamp": "2026-01-12T20:13:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Sell America Trade Is Back as US Targets Fed Chair - <p>Stocks, bonds, dollar drop on criminal probe, while gold rallies.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/the-sell-america-trade-is-back-as-us-targets-fed-chair",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f1d6aa518ab15aa026310e91ea20b624",
-      "timestamp": "2026-01-12T20:11:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Finland Releases Ship Suspected of Last Month’s Cable Damage - Finland lifted the seizure of a vessel suspected of damaging a telecommunications cable in the Baltic Sea last month.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/finland-releases-ship-suspected-of-last-month-s-cable-damage",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f507a2e99bd866d2b7211ef92f53e8ec",
-      "timestamp": "2026-01-12T20:05:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "StanChart Said to Prepare Crypto Expansion With Prime Brokerage - Standard Chartered Plc plans to set up a prime brokerage for crypto trading, people with knowledge of the matter said, as global banks step up efforts to compete in digital assets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/stanchart-said-to-prepare-crypto-expansion-with-prime-brokerage",
       "sentiment": "NEUTRAL"
     }
   ]
