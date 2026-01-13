@@ -8,8 +8,9 @@ import io
 import os
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Optional
 from google import genai
 
 # Windows 콘솔에서 한글 출력이 깨지는 문제 완화 (UTF-8 강제)
@@ -655,4 +656,207 @@ class WriterAgent:
 - Markdown 형식으로 작성
 - 최소 1200자 이상 작성
 - 모든 문장은 반드시 "~다."로 끝나야 함"""
+    
+    # ============================================================
+    # 3-Tier Agent Pipeline (로컬 테스트용)
+    # ============================================================
+    
+    def write_with_3tier_pipeline(self, memo: str, title: str = "", category: str = "dev") -> str:
+        """
+        3단계 파이프라인을 사용하여 블로그 포스트를 작성한다.
+        
+        Args:
+            memo: 작성할 내용에 대한 메모/초안
+            title: 포스트 제목 (선택사항)
+            category: 카테고리 (기본값: "dev")
+            
+        Returns:
+            str: 완성된 블로그 포스트 (Front Matter 포함)
+        """
+        print("\n[3-Tier Pipeline] 글 작성 시작...")
+        
+        # Step 1: 구성 작가 (The Drafter)
+        print("\n[Step 1] 구성 작가: 글의 뼈대와 초안 작성 중...")
+        draft = self._draft(memo, title)
+        if not draft:
+            print("  [ERROR] Step 1 실패")
+            return ""
+        print(f"  [OK] Step 1 완료 ({len(draft)}자)")
+        
+        # Step 2: 페르소나 에디터 (The Persona)
+        print("\n[Step 2] 페르소나 에디터: 말투 리라이팅 중...")
+        rewritten = self._rewrite_with_persona(draft)
+        if not rewritten:
+            print("  [ERROR] Step 2 실패")
+            return ""
+        print(f"  [OK] Step 2 완료 ({len(rewritten)}자)")
+        
+        # Step 3: 교정 및 포맷팅 (The Polisher)
+        print("\n[Step 3] 교정 및 포맷팅: 최종 검수 및 Front Matter 추가 중...")
+        final = self._polish_and_format(rewritten, title, category)
+        if not final:
+            print("  [ERROR] Step 3 실패")
+            return ""
+        print(f"  [OK] Step 3 완료 ({len(final)}자)")
+        
+        print("\n[3-Tier Pipeline] 글 작성 완료!")
+        return final
+    
+    def _draft(self, memo: str, title: str = "") -> str:
+        """
+        Step 1: 구성 작가 (The Drafter)
+        입력받은 메모를 바탕으로 논리적인 글의 뼈대와 초안 작성.
+        """
+        prompt = f"""너는 구성 작가야. 팩트와 정보 전달 위주로 서론-본론-결론 구조를 잡아줘.
+
+**입력 메모:**
+{memo}
+
+**제목 (참고용):**
+{title if title else "(제목 없음)"}
+
+**작성 요구사항:**
+1. 서론-본론-결론 구조로 논리적인 글의 뼈대를 잡아줘.
+2. 팩트와 정보 전달에 집중해줘.
+3. 최소 1500자 이상 작성해줘.
+4. 모든 문장은 "~다."로 끝나야 해.
+5. 이모지는 사용하지 마.
+6. Markdown 형식으로 작성해줘 (Front Matter 제외).
+
+**출력:**
+Front Matter 없이 본문만 작성해줘."""
+
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt
+            )
+            content = (response.text or "").strip()
+            
+            if not content or len(content) < 500:
+                print(f"  [WARN] 초안이 너무 짧음: {len(content)}자")
+                return ""
+            
+            return content
+        except Exception as e:
+            print(f"  [ERROR] Step 1 오류: {str(e)}")
+            return ""
+    
+    def _rewrite_with_persona(self, draft: str) -> str:
+        """
+        Step 2: 페르소나 에디터 (The Persona)
+        Step 1의 글을 '특정 말투'로 리라이팅(Rewriting).
+        """
+        prompt = f"""너는 10년 차 임베디드 시스템 엔지니어이자 시니컬한 기술 블로거다.
+
+**시스템 지시:**
+- 절대 '습니다/합니다' 체를 쓰지 마. '음/함' 체나 자연스러운 구어체를 섞어 써. (예: "이건 좀 아닌 듯.", "결국 해결함.")
+- "소개합니다", "알아보겠습니다" 같은 전형적인 블로그 멘트 삭제.
+- 개발자의 '냉소적인 위트'를 섞어서 문장 호흡을 짧게 끊어쳐.
+- "~다." 문체는 유지하되, 더 자연스럽고 구어체 느낌으로 바꿔줘.
+
+**원본 초안:**
+{draft}
+
+**작업:**
+위 초안을 위의 말투로 리라이팅해줘. 내용은 유지하되, 말투만 바꿔줘.
+
+**출력:**
+Front Matter 없이 본문만 작성해줘."""
+
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt
+            )
+            content = (response.text or "").strip()
+            
+            if not content or len(content) < 500:
+                print(f"  [WARN] 리라이팅 결과가 너무 짧음: {len(content)}자")
+                return draft  # 실패 시 원본 반환
+            
+            return content
+        except Exception as e:
+            print(f"  [ERROR] Step 2 오류: {str(e)}")
+            return draft  # 실패 시 원본 반환
+    
+    def _polish_and_format(self, content: str, title: str = "", category: str = "dev") -> str:
+        """
+        Step 3: 교정 및 포맷팅 (The Polisher)
+        최종 문법 검수 및 Jekyll Front Matter 추가.
+        """
+        # 제목이 없으면 첫 번째 헤딩에서 추출 시도
+        if not title:
+            lines = content.split('\n')
+            for line in lines:
+                if line.startswith('# '):
+                    title = line[2:].strip()
+                    break
+            if not title:
+                title = "Untitled Post"
+        
+        # 날짜 생성
+        now = datetime.now()
+        date_str = now.strftime("%Y-%m-%d %H:%M:%S +0900")
+        date_short = now.strftime("%Y-%m-%d")
+        
+        # 파일명 생성 (제목에서)
+        filename = re.sub(r'[^\w\s-]', '', title)
+        filename = re.sub(r'[-\s]+', '-', filename)
+        filename = f"{date_short}-{filename}.md"
+        
+        prompt = f"""너는 교정 및 포맷팅 전문가야.
+
+**작업:**
+1. 아래 글의 문법을 검수하고 교정해줘.
+2. 현업 개발 용어로 단어 교정해줘.
+3. 마크다운(Code block, H2, H3) 정리해줘.
+4. "~다." 문체는 유지해줘.
+
+**원본 글:**
+{content}
+
+**출력:**
+Front Matter 없이 교정된 본문만 작성해줘."""
+
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt
+            )
+            polished = (response.text or "").strip()
+            
+            if not polished or len(polished) < 500:
+                print(f"  [WARN] 교정 결과가 너무 짧음: {len(polished)}자, 원본 사용")
+                polished = content
+            
+            # Front Matter 생성
+            front_matter = f"""---
+layout: post
+title: "{title}"
+date: {date_str}
+author: rldhkstopic
+category: {category}
+tags: []
+views: 0
+---
+
+"""
+            
+            return front_matter + polished
+        except Exception as e:
+            print(f"  [ERROR] Step 3 오류: {str(e)}")
+            # 오류 시 Front Matter만 추가
+            front_matter = f"""---
+layout: post
+title: "{title}"
+date: {date_str}
+author: rldhkstopic
+category: {category}
+tags: []
+views: 0
+---
+
+"""
+            return front_matter + content
 
