@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-01-13T08:32:53.759097+09:00",
+  "last_updated": "2026-01-13T09:10:51.469416+09:00",
   "items": [
+    {
+      "id": "fea79ed32de92a1d6a02957ab4d6dd09",
+      "timestamp": "2026-01-13T08:58:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alnylam Pharmaceuticals CEO on Development Goals, Profitability - Alnylam Pharmaceuticals CEO Yvonne Greenstreet discusses the company's development goals and being on the verge of profitability during an interview at the JPM Health-Care Conference in San Francisco.",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/alnylam-pharmaceuticals-ceo-on-development-goals-profit-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "02149c80dc84579376a5d5370d3b69f6",
+      "timestamp": "2026-01-13T08:52:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock Cuts Hundreds of Jobs, Trimming About 1% of Staff - BlackRock Inc. is cutting hundreds of jobs across the company, becoming the latest Wall Street firm to rein in headcount in recent weeks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/blackrock-cuts-hundreds-of-jobs-trimming-about-1-of-staff",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "87a431aba5971765f697b83f68412053",
+      "timestamp": "2026-01-13T08:51:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Elanco CEO: Gaining Market Share Via ‘Major' Innovations - Jeff Simmons, Elanco Animal Health CEO, discusses pet-care growth with Katie Greifeld at the JPMorgan Healthcare Conference on “The Close.” He says the company is focused on pets, cattle and poultry.\n",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/elanco-ceo-gaining-market-share-via-major-innovations-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5fbf3e1e7428733491cfacbc19a9adeb",
+      "timestamp": "2026-01-13T08:51:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed's Williams Calls Powell a Man of 'Impeccable Integrity' - Federal Reserve Bank of New York President John Williams says Fed Chair Jerome Powell is completely dedicated to the central bank's mission during a Council on Foreign Relations event in New York. (So",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/fed-s-williams-powell-is-a-man-of-impeccable-integrity-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "347da2e8188c296d192cafe0789337b0",
+      "timestamp": "2026-01-13T08:42:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed's Williams Says Cuts Have Brought Risks Into Better Balance - Federal Reserve Bank of New York President John Williams says interest rates are “well positioned” to stabilize the labor market and bring inflation back to the central bank’s 2% goal during a Council",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/fed-s-williams-cuts-brought-risks-into-better-balance-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b9d5418c3b1ab6e486cf38adf8afc42",
+      "timestamp": "2026-01-13T08:41:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PGIM's Marcus: Affordable Housing a Good Investment - Cathy Marcus, Co-Head and Global Chief Operating Officer of Real Estate at PGIM, says affordable housing is an attractive investment across multiple demographic segments. She speaks with Romaine Bosti",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/pgim-s-marcus-affordable-housing-a-good-investment-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3ba5d8176b7ed18415d07be5e91f759b",
+      "timestamp": "2026-01-13T08:41:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Steadies After Surging on Worries Over Fed Independence - Gold steadied after surging on Monday on worries over the Federal Reserve’s independence as the Trump administration threatened the central bank with a criminal indictment.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/gold-steadies-after-surging-on-worries-over-fed-independence",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3ddd64c2f1e32104c6f55e9595f2a759",
+      "timestamp": "2026-01-13T08:33:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Powell's Made This Political: Sen. Marshall - Senator Roger Marshall (R-KS) shares his thoughts on the DOJ serving the Federal Reserve with subpoenas and whether or not he agrees with some of his GOP colleagues who will oppose any Federal Reserve",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-12/powell-s-made-this-political-sen-marshall-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "98073f26efd4ed67ca8525bfa12cc950",
+      "timestamp": "2026-01-13T08:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Taiwan’s Lai Faces Gridlock Over Defense Spending Urged by Trump - President Lai Ching-te is striking back in his running spat with Taiwan’s opposition-led legislature. His next challenge is pushing through the island’s biggest defense budget on record.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/taiwan-s-lai-faces-gridlock-over-defense-spending-urged-by-trump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cf3222939110676b642a6465cadd710f",
+      "timestamp": "2026-01-13T08:25:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warren Says Willing to Work With Trump on Credit Cards, Housing - Senator Elizabeth Warren says she’s “absolutely” willing to work with President Donald Trump after they spoke on Monday, pointing to a potential cap on credit card interest rates as an area for collab",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/warren-says-willing-to-work-with-trump-on-credit-cards-housing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "546731d19c9516cdbeae5dfec012c711",
+      "timestamp": "2026-01-13T08:24:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lynas Rare Earths Says CEO Amanda Lacaze to Step Down in June - Lynas Rare Earths Ltd. Chief Executive Officer Amanda Lacaze will step down after 12 years at the helm of one of the top performers on Australia’s benchmark stock index over the past year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/lynas-rare-earths-says-ceo-amanda-lacaze-to-step-down-in-june",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "54f374ecb273252f5d2cfdb1ad347dcf",
+      "timestamp": "2026-01-13T08:22:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Trades at One-Month High as Trump Vows to Tariff Iran Buyers - Oil rose to the highest level since early December after US President Donald Trump said he is imposing a 25% tariff on goods from countries “doing business” with Iran.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/latest-oil-market-news-and-analysis-for-jan-13",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "87624756c74ba57da11f9626c97707af",
       "timestamp": "2026-01-13T08:21:23+09:00",
@@ -10,6 +142,17 @@
       "related_tickers": [],
       "content": "2026 Real Estate Opportunity ‘Compelling': Hochfelder - Lauren Hochfelder, Head of Global Real Assets at Morgan Stanley, says the firm is seeing compelling opportunities in real estate, adding that its highest-conviction strategy on a risk-reward basis is ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-12/2026-real-estate-opportunity-compelling-hochfelder-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ea2fbcebbc8da6f269f58bea229e7609",
+      "timestamp": "2026-01-13T08:18:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "G-7 Nations Discuss Path to Counter China Rare Earths Dominance - Finance ministers from the Group of Seven nations, along with officials from other countries, met Monday in Washington to discuss a path forward to “address vulnerabilities in critical minerals supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-12/g-7-nations-discuss-path-to-counter-china-rare-earths-dominance",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2056,149 +2199,6 @@
       "related_tickers": [],
       "content": "Dassault Invests In French Dronemaker at $1.4 Billion Valuation - Dassault Aviation SA, developer of the Rafale fighter jet, led a $200 million investment into the relatively unknown drone company Harmattan AI, making it one of Europe’s newest unicorn startups.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/dassault-invests-in-french-dronemaker-at-1-4-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd84fc0dd8f5c49c3e493d12211ad57c",
-      "timestamp": "2026-01-12T18:29:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hungary Grants Asylum to Poland’s Fugitive Ex-Justice Minister - Hungary granted asylum to Poland’s former Justice Minister Zbigniew Ziobro, in a move that will likely increase tensions between Warsaw and Budapest.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/hungary-grants-asylum-to-poland-s-fugitive-ex-justice-minister",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b4a58c3d87fbf2ddc06ef1e747f12a8",
-      "timestamp": "2026-01-12T18:19:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What’s Behind the Protests in Iran? - Protesters have poured into the streets of Iran night after night, edging the Islamic Republic closer to a revolution that could reshape the world.\n\nRosalind Mathieson explains what’s behind the prote",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/what-s-behind-the-protests-in-iran-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "733d30fd596b04ca5a24281a7d538dfd",
-      "timestamp": "2026-01-12T18:17:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa Reviews Prime Rate Used to Price $378 Billion of Credit - South Africa is reviewing the main reference rate commercial banks use to price trillions of rands of loans to clients.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/south-africa-reviews-prime-rate-used-to-price-378-billion-of-credit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cf3371ce03792d6afe7353ff507b88fc",
-      "timestamp": "2026-01-12T18:12:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Prabowo to Make First Trip as President to New Indonesia Capital - Indonesian President Prabowo Subianto will visit the nation’s planned new capital for the first time since taking office more than a year ago, a sign of continued support for the legacy project of his",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/prabowo-to-make-first-trip-as-president-to-new-indonesia-capital",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f385075cac0b29c7a0c1b99572838d3e",
-      "timestamp": "2026-01-12T18:11:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Holds Gain as Iran Unrest Threatens Supply Disruption - Oil held its biggest two-day gain since October, as escalating protests in Iran threatened supply from OPEC’s fourth-biggest producer. Bloomberg's Anthony Di Paola reports. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/oil-holds-onto-gain-as-iran-unrest-threatens-supply-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0603ff3747366547f7e3ff5a745dc72b",
-      "timestamp": "2026-01-12T18:00:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UBS Renews Rejection of Swiss Capital Plans as Opposition Builds - UBS Group AG said planned Swiss banking reforms are a threat to the national economy as pressure builds on the government to water down its proposals.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/ubs-renews-rejection-of-swiss-capital-plans-as-opposition-builds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0603ff3747366547f7e3ff5a745dc72b",
-      "timestamp": "2026-01-12T18:00:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UBS Renews Rejection of Swiss Capital Plans as Opposition Builds - UBS Group AG said planned Swiss banking reforms are a threat to the national economy as pressure builds on the government to water down its proposals.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/ubs-renews-rejection-of-swiss-capital-plans-as-opposition-builds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "95ac5fcbf673b236bc35bfb3054e17fb",
-      "timestamp": "2026-01-12T18:00:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cullen Roche on the Art of Building a Perfect Portfolio - <p>The past and future of the 60/40 strategy.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/cullen-roche-on-how-to-build-an-investment-portfolio",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4acb92e136c1c051c7eda405b7197b14",
-      "timestamp": "2026-01-12T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Odd Lots: Cullen Roche on Building a Perfect Portfolio (Podcast) - For a long time, you could make plenty of money and sleep easy at night with a simple 60/40 portfolio. You put 60% of your money in stocks and 40% in Treasuries. The stocks generally went up. The Trea",
-      "url": "https://www.bloomberg.com/news/audio/2026-01-12/cullen-roche-on-how-to-build-the-perfect-portfolio",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2327826f3c6e4738dc2f4be85bbb6c1e",
-      "timestamp": "2026-01-12T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vanke Dollar Bondholders Asked to Call Default by Advisory Firm - A debt advisory firm asked China Vanke Co. dollar bondholders to consider calling a default on the embattled developer’s notes, based on cross-default clauses, people familiar with the matter said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/vanke-dollar-bondholders-asked-to-call-default-by-advisory-firm",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "50c66fdfe3bf91addeb6448439e62d1d",
-      "timestamp": "2026-01-12T17:59:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Says It’s Quelled Protests After Hundreds Reported Killed - Iran’s Foreign Minister said security forces have “full control” of the country after two weeks of ongoing upheaval, accusing Israel and the US of fomenting the nationwide protests in which hundreds o",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/iran-says-it-s-quelled-protests-after-hundreds-reported-killed",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a360f6827dcff8856ba006441cf0056",
-      "timestamp": "2026-01-12T17:53:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Do You 'Sell America' on Fed Independence Risks? - Remi Olu-Pitan, multi-asset growth and income head at Schroder, discusses asset allocation amid Federal Reserve independence risks. She tells Bloomberg Television the current situation could \"weigh ne",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/do-you-sell-america-on-fed-independence-risks-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3596d9623b295e898a7c08cf261532d3",
-      "timestamp": "2026-01-12T17:43:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BBVA Is Seeking to Sell About €380 Million in Soured Mortgages - BBVA SA is seeking to sell about €380 million ($444 million) in soured mortgages as it cleans up its balance sheet.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/bbva-is-seeking-to-sell-about-380-million-in-soured-mortgages",
       "sentiment": "NEUTRAL"
     }
   ]
