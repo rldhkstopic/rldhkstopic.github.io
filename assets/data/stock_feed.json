@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-14T04:34:15.042661+09:00",
+  "last_updated": "2026-01-14T05:04:11.027283+09:00",
   "items": [
+    {
+      "id": "13a88a52e243264705ef590245449cab",
+      "timestamp": "2026-01-14T04:46:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Urges Iranians to Keep Up Protests in Face of Crackdown - President Donald Trump urged Iranians to keep up their protests against the government of Supreme Leader Ayatollah Ali Khamenei, telling them “help is on the way.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-urges-iranians-to-keep-up-protests-in-face-of-crackdown",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "de86ae43360263645bf9ef2f08819f27",
+      "timestamp": "2026-01-14T04:46:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Fed Chair Should Lower Rates on Good News - President Donald Trump calls Federal Reserve Chair Jerome Powell \"a real stiff\" and says the central bank should be lowering rates on good economic news during remarks at the Detroit Economic Club. (S",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/trump-says-fed-chair-should-lower-rates-on-good-news-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e663cbb2c9ed22390f137b9f467e96e7",
+      "timestamp": "2026-01-14T04:45:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pub Taxes Are Another U-Turn for Starmer - Labour MPs backed down on increasing pub taxes after a huge backlash. It’s becoming a trend for Starmer, Bloomberg Opinion columnist Rosa Prince explains. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/opinion-pub-taxes-are-another-u-turn-for-starmer-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5800f4b6a9a0d93dce4cce6a09c326d0",
+      "timestamp": "2026-01-14T04:39:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "U.S. Bancorp Agrees to Buy BTIG for Up to $1B - U.S. Bancorp is pushing deeper into investment banking and trading. The nation's largest regional bank has agreed to buy brokerage firm BTIG for as much as $1 billion, expanding a partnership that's b",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/u-s-bancorp-agrees-to-buy-btig-for-up-to-1b-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a1426ca02c36d2e474e2ec03f2f93d2b",
+      "timestamp": "2026-01-14T04:38:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chile’s Copper Industry Eyes Double-Digit Growth After Reforms - Chile, the world’s top copper producer, could break out of two decades of stagnant output by cutting red tape and easing regulation under the incoming government, according to the country’s mining ind",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/chile-s-copper-industry-eyes-double-digit-growth-after-reforms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "64f6b8bb92a5379e1d60e819a40cef26",
+      "timestamp": "2026-01-14T04:36:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Picks Gemini AI in Win for Google’s Tensor Chip - Apple chooses Google AI in a multiyear deal that highlights the cost advantage of Google’s tensor processing unit chips and Apple’s need to improve AI offerings. Dan Ives, managing director and senior",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/apple-picks-gemini-ai-in-win-for-google-s-tensor-chip-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f8543d8093c0345fe2f5ce9d9c2f7668",
+      "timestamp": "2026-01-14T04:34:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk Offers Free Starlink in Iran as Internet Blackout Persists - Elon Musk’s SpaceX is now offering free Starlink satellite service in Iran amid deadly protests and a days-long internet blackout.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/musk-offers-free-starlink-in-iran-as-internet-blackout-persists",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f8543d8093c0345fe2f5ce9d9c2f7668",
+      "timestamp": "2026-01-14T04:34:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk Offers Free Starlink in Iran as Internet Blackout Persists - Elon Musk’s SpaceX is now offering free Starlink satellite service in Iran amid deadly protests and a days-long internet blackout.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/musk-offers-free-starlink-in-iran-as-internet-blackout-persists",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d6c90c1e11f52f2c2f7462b595cb772b",
       "timestamp": "2026-01-14T04:32:44+09:00",
@@ -10,6 +98,28 @@
       "related_tickers": [],
       "content": "'Lot of Good' in Market Structure Bill: Coinbase's Calvert - Many digital-asset companies would continue to be able to offer rewards to customers who hold stablecoins under a new proposal tied to hotly-anticipated crypto market structure legislation. The Senate",
       "url": "https://www.bloomberg.com/news/videos/2026-01-13/-lot-of-good-in-market-structure-bill-coinbase-s-calvert",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "47bdfd5a32cb1e3d5662d3728050f5c2",
+      "timestamp": "2026-01-14T04:31:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Latest on US Crypto Market Structure Legislation - Many digital-asset companies would continue to be able to offer rewards to customers who hold stablecoins under a new proposal tied to hotly-anticipated crypto market structure legislation. The Senate",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/latest-on-us-crypto-market-structure-legislation-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6cbb3513416281a9bd38128f1600b06e",
+      "timestamp": "2026-01-14T04:27:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Minneapolis Protesters Urge Judge to Restrict ICE’s Use of Force - Anti-ICE protesters in Minneapolis urged a judge to restrict immigration officers’ use of force, at a high-stakes hearing less than a week after a federal agent shot and killed a woman in her car.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/minneapolis-protesters-urge-judge-to-restrict-ice-s-use-of-force",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2089,17 +2199,6 @@
       "related_tickers": [],
       "content": "Indian Insurer’s Worker Posts Draft Earnings in WhatsApp Status - ICICI Lombard General Insurance Co., a unit of India’s second-largest private lender, said an employee uploaded undisclosed information about third quarter earnings as a personal WhatsApp status, days",
       "url": "https://www.bloomberg.com/news/articles/2026-01-10/indian-insurer-s-worker-posts-draft-earnings-in-whatsapp-status",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3481d8ec8a273d9ed08d8491693ec472",
-      "timestamp": "2026-01-10T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "After Trump Attack, RTX Decides That Winning Move Is Not to Play - When RTX Corp. executives’ phones started buzzing with the news that President Donald Trump had singled out their company for criticism, they quickly realized they had two options, both fraught: push ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/after-trump-attack-rtx-decides-that-winning-move-is-not-to-play",
       "sentiment": "NEUTRAL"
     }
   ]
