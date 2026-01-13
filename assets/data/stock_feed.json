@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-13T18:39:49.735999+09:00",
+  "last_updated": "2026-01-13T19:04:20.980921+09:00",
   "items": [
+    {
+      "id": "5a08627aa783a6d9d0474910f2baaa50",
+      "timestamp": "2026-01-13T19:00:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spotify’s New CEOs Are Battling Algo Fatigue and Angry Artists - <p>And they’re hoping AI can help solve some of those problems.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-13/spotify-s-new-ceos-are-battling-angry-artists-and-algo-fatigue",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "15eebb5f7ca2c7dda96f4cffc56fd3c4",
       "timestamp": "2026-01-13T18:27:14+09:00",
@@ -351,6 +362,17 @@
       "related_tickers": [],
       "content": "Struyven: Very Focused on Actual Disruptions to Oil Supply - Oil touched the highest level since November after US President Donald Trump said he is imposing a 25% tariff on goods from countries doing business with Iran. Daan Struyven, Co-Head of Global Commodi",
       "url": "https://www.bloomberg.com/news/videos/2026-01-13/struyven-focused-on-actual-disruptions-to-oil-supply-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "729f17814b5be54fbb43ecf8d80dad93",
+      "timestamp": "2026-01-13T15:11:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Maersk Makes Another Voyage Through Red Sea in Test of Safety - A.P. Moller-Maersk A/S has safely sailed another ship through the southern part of the Red Sea, its second successful attempt after most shipping lines have avoided the area for two years.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/maersk-sails-through-red-sea-with-another-container-vessel",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Sweden Lifts Defense Spend as Outlook Darkens ‘in East and West’ - Sweden plans to buy more drones and air defenses to counter a growing threat from Russia and with questions rising about the reliability of the US as an ally, Defense Minister Pal Jonson said.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/sweden-lifts-defense-spend-as-outlook-darkens-in-east-and-west",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9fff18cce041dbef7cb1947829fdea48",
-      "timestamp": "2026-01-13T00:23:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia Partners With Eli Lilly on AI Drug Laboratory - Nvidia plans to invest $1 billion over five years in a new laboratory with Eli Lilly & Co., aiming to speed up the use of artificial intelligence in the pharmaceutical industry. Jessica Nix has more o",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/nvidia-partners-with-eli-lilly-on-ai-drug-laboratory-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b0a83fae47852e099205368988bac206",
-      "timestamp": "2026-01-13T00:16:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Oil Inventories Slump With Wave of Protests, Kayrros Says - Iranian oil stockpiles at a key export terminal are about a fifth lower than where they started the year, a possible sign the country is moving crude out of harm’s way amid a wave of unrest over the p",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/iran-oil-inventories-slump-with-wave-of-protests-kayrros-says",
       "sentiment": "NEUTRAL"
     }
   ]
