@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-13T23:40:47.258437+09:00",
+  "last_updated": "2026-01-14T00:05:01.644941+09:00",
   "items": [
+    {
+      "id": "65665e05d10e96556dda7cfcbd6005d8",
+      "timestamp": "2026-01-13T23:57:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&amp;P 500 Fluctuates Following Better Than Expected US Inflation - US stocks fluctuate on Tuesday as traders examine the latest inflation data and fresh earnings reports.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/s-p-500-fluctuates-following-better-than-expected-us-inflation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "37e81a1f4a3a93fa933e7a92ac69a36b",
+      "timestamp": "2026-01-13T23:45:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ArcelorMittal Hit With €7 Billion Claim Over Troubled Steelworks - The state-appointed administrators of Italy’s largest steelworks sued former owner ArcelorMittal SA, seeking €7 billion ($8.2 billion) for alleged “mismanagement” of the beleaguered plant.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/arcelormittal-hit-with-7-billion-claim-over-troubled-steelworks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fc53350c004156a66cfcf3c4ab54cf93",
+      "timestamp": "2026-01-13T23:43:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta Seeks to Double Ray-Ban Glasses Output After Surge in Demand - Meta Platforms Inc. and EssilorLuxottica SA are discussing potentially doubling production capacity for AI-powered smart glasses by the end of this year, in a bid to capture growing demand and head of",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/meta-said-to-discuss-doubling-ray-ban-glasses-output-after-surge-in-demand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f832b3e058d4abc44ec749ae37747f33",
+      "timestamp": "2026-01-13T23:39:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Here Are the Key Takeaways From the US CPI Report for December - Here are the key takeaways from the US consumer price index report for December, released Tuesday:",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/us-cpi-report-december-2025-key-takeaways-on-inflation-core-measure",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "51215d69d98ba34034a5fe0cec45c604",
+      "timestamp": "2026-01-13T23:31:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Bundles Creative Apps Into New $13-a-Month Subscription - Apple Inc. announced a new subscription bundle of creative apps called Creator Studio, an attempt to give its photo- and video-editing software fresh momentum in the face of intensifying competition.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/apple-bundles-creative-apps-into-new-13-a-month-subscription",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b9489362546945a9a57419c54c4825af",
+      "timestamp": "2026-01-13T23:31:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ireland Pushes Power Plan to Attract Data Center Investment - Ireland wants to make it easier for large energy users such as data centers and pharmaceutical plants to access electricity as it tries to balance domestic energy constraints with the need to continue",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/ireland-pushes-power-plan-to-attract-data-center-investment",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b44342797a7e0016d0a7db596d917c9e",
       "timestamp": "2026-01-13T23:27:30+09:00",
@@ -98,6 +164,39 @@
       "related_tickers": [],
       "content": "Lufthansa Partners With Starlink for Internet Access This Year - Deutsche Lufthansa AG will equip more than 800 planes with SpaceX’s Starlink service as the group tries to bolster its premium appeal in an increasingly competitive market.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/lufthansa-partners-with-starlink-for-internet-access-this-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e54a9158ce08edc137da6bf643b04ec8",
+      "timestamp": "2026-01-13T22:54:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to Grab the Spotlight Among Global Elite in Davos - Donald Trump will address the World Economic Forum next Wednesday, an appearance likely to dominate the annual gathering of the global elite in Davos.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-grabs-the-spotlight-as-global-elite-gathers-in-davos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e54a9158ce08edc137da6bf643b04ec8",
+      "timestamp": "2026-01-13T22:54:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to Grab the Spotlight Among Global Elite in Davos - Donald Trump will address the World Economic Forum next Wednesday, an appearance likely to dominate the annual gathering of the global elite in Davos.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-grabs-the-spotlight-as-global-elite-gathers-in-davos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e54a9158ce08edc137da6bf643b04ec8",
+      "timestamp": "2026-01-13T22:54:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to Grab the Spotlight Among Global Elite in Davos - Donald Trump will address the World Economic Forum next Wednesday, an appearance likely to dominate the annual gathering of the global elite in Davos.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-grabs-the-spotlight-as-global-elite-gathers-in-davos",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Wall Street Jolted By Trump-Fed Fight | Bloomberg Businessweek Daily 1/12/2026 - On today's episode of Bloomberg Businessweek Daily, Tim Stenovec and Emily Graffeo discuss market reaction to the DOJ's subpoena of the Federal Reserve. Bloomberg's Enda Curran and Michael Contopoulos",
       "url": "https://www.bloomberg.com/news/videos/2026-01-12/bloomberg-businessweek-daily-01-12-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d669ea8e01099235fce487c321996a45",
-      "timestamp": "2026-01-13T06:41:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Small-Cap Stocks Post Longest Win Streak Over S&amp;P 500 Since 2019 - Small-capitalization stocks just notched their longest winning streak over their larger peers in seven years.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/small-cap-stocks-post-longest-win-streak-over-s-p-500-since-2019",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bfb6dd04330c6b215dab0edfa76d5ff9",
-      "timestamp": "2026-01-13T06:38:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk Moves Back Into Trump Orbit - Elon Musk appears to be getting closer to President Donald Trump again. He'll be speaking at an event with Defense Secretary Pete Hegseth. The political panel on Balance of Power discusses. (Source: B",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/musk-moves-back-into-trump-orbit-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1f4df8faa1754f6a3727ad9651867d15",
-      "timestamp": "2026-01-13T06:33:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Where Does the Powell Probe Go From Here? - The Justice Department likely has a tough path to prosecuting the case.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/where-does-the-powell-probe-go-from-here",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6347deb61fbb45f23ac14adaf66e6bdb",
-      "timestamp": "2026-01-13T06:22:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why the Trump Administration Is Subpoenaing the Fed Over a Building Renovation - <p>The Fed was served grand jury subpoenas by the DOJ. Today on the Big Take: What’s behind the investigation and what it means for the Fed.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/why-trump-s-department-of-justice-is-subpoenaing-the-fed-over-a-renovation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9f7a1e3e78c3ce567002a43561b995eb",
-      "timestamp": "2026-01-13T06:19:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta Plans to Cut 10% of Jobs at Company’s Reality Labs Division - Meta Platforms Inc. plans to cut 10% of jobs in the company’s Reality Labs division, part of a broader strategy to shift money away from some virtual reality products and into other AI wearables.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/meta-plans-to-cut-10-of-jobs-at-company-s-reality-labs-division",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3ebb16405b2907d6bdc3b637bc818870",
-      "timestamp": "2026-01-13T06:19:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vanguard Edges Away From Its Rock-Bottom Fees - Vanguard introduced 15 new ETFs in 2025, its highest annual total since 2010. More telling than the pace of launches is the pricing, as the average fee on those new products is about 16 basis points, ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/vanguard-edges-away-from-its-rock-bottom-fees-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "60f9db2a371e926c0010393cecaba756",
-      "timestamp": "2026-01-13T06:16:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "GE Healthcare CEO on Threats From AI - Peter Arduini, CEO of GE Healthcare, talks about the risks of using artificial intelligence, but he says the technology is a breakthrough for healthcare. He speaks to Katie Greifeld at the JPMorgan He",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/peter-arduini-on-ai-global-strategy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9497a26bba4be76dfef3e778f5d1a6bd",
-      "timestamp": "2026-01-13T06:15:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "LatAm Valuations Still Attractive: OTG's Mauricio Alvarez - The OTG Latin America ETF (ticker: OTGL) is incorporated in the United States, and invests in equity securities of companies located in Latin America. The fund's management team is based in South Amer",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/latam-valuations-still-attractive-otg-s-alvarez-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7680865cd12e174a6016ad3895041a56",
-      "timestamp": "2026-01-13T06:14:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Harvard’s Foreign Enrollment Hits Record Despite Trump Battle - Harvard University enrolled a record number of international students in the current academic year, even as the Trump administration sought repeatedly to curb student visas and funding for the Ivy Lea",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/harvard-s-foreign-enrollment-hits-record-despite-trump-battle",
       "sentiment": "NEUTRAL"
     }
   ]
