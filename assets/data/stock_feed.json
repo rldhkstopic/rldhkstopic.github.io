@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-14T05:38:39.042938+09:00",
+  "last_updated": "2026-01-14T06:03:43.531310+09:00",
   "items": [
+    {
+      "id": "62d60d5a26a0e24cc787119616bb16c3",
+      "timestamp": "2026-01-14T05:56:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Could Hurt China, India, Even US Consumers to Get to Iran - <p>On today’s Big Take Asia podcast: Could Trump’s Iran tariff threat reignite a trade war with China and India?</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-could-hurt-china-india-us-consumers-to-get-to-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f4b142512a42e0667b3729f249bfa79f",
+      "timestamp": "2026-01-14T05:53:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hard to Argue With People's Emotions Around Economic Strain, Says Martha Gimbel - Martha Gimbel, director of the Yale Budget Lab, said that Trump administration is only making Jerome Powell's job harder when the White House signals the Fed has little runway to address inflation. Gi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/hard-to-argue-with-emotions-around-economy-gimbel-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dda1dc5cb86946ba37a34f05596108e5",
+      "timestamp": "2026-01-14T05:41:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ares Raises $7.1 Billion as Credit Secondaries Boom Continues - Ares Management Corp. collected $7.1 billion for its debut private credit secondaries strategy and expects the market for secondhand credit stakes to continue its rapid growth this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/ares-raises-7-1-billion-as-credit-secondaries-boom-continues",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b8d0963006b43359fc843605b9203cea",
       "timestamp": "2026-01-14T05:30:56+09:00",
@@ -10,6 +43,17 @@
       "related_tickers": [],
       "content": "Trump Expects to Win Supreme Court Tariffs Case - President Donald Trump says he expects to win the tariffs case that is before the US Supreme Court. He speaks at the Detroit Economic Club. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-13/trump-expects-to-win-supreme-court-tariffs-case-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "19b94aedece790d56d6202e28235c5a4",
+      "timestamp": "2026-01-14T05:27:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Builds Pressure Against Powell, US Bancorp Acquires BTIG | Bloomberg Markets 1/13/2026 - \"Bloomberg Markets\" follows the market moves across every global asset class and discusses the biggest issues for Wall Street. Today's guests: Monetary Policy Analytics Co-Founder Economist Derek Tang",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/bloomberg-markets-1-13-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Musk Calls UK ‘Fascist’ as Row Over Grok AI Images Escalates - Elon Musk accused the UK government of being “fascist” after it stepped up threats to block X over sexualized images of women and children produced by his artificial intelligence tool Grok.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-10/musk-calls-uk-fascist-as-row-over-x-s-grok-ai-images-escalates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "840fbadc5ed1a94006ea8d0ee398095c",
-      "timestamp": "2026-01-11T00:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Maduro’s Legal Team Is Still Up in the Air a Week After Arrest - While the world has been consumed by the geopolitical ramifications of the US capture of Venezuelan President Nicolas Maduro, a struggle is playing out over who will represent the ousted leader in his",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/maduro-s-legal-team-is-still-up-in-the-air-a-week-after-arrest",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "25b90a1facd866125970c30e12bb0243",
-      "timestamp": "2026-01-11T00:14:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Week | US-Venezuela Policy, Farming Without Subsidies, Robotaxis, Everest Exclusivity - This week, what the Trump Administration’s action in Venezuela reveals about America’s new foreign policy priorities. And, could New Zealand’s no-subsidy agriculture industry work around the world? Pl",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-10/wall-street-week-farming-without-subsidies-robotaxis-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1ede6d1aa15f8eb8d5e37033070f528f",
-      "timestamp": "2026-01-11T00:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Maduro’s Fall Defuses Border-Conflict Risk for Oil-Rich Guyana - Guyana, home to the world’s biggest oil discovery in decades, appears to be an early beneficiary of US President Donald Trump’s ouster of Venezuelan strongman Nicolas Maduro.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/maduro-s-fall-defuses-border-conflict-risk-for-oil-rich-guyana",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1ede6d1aa15f8eb8d5e37033070f528f",
-      "timestamp": "2026-01-11T00:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Maduro’s Fall Defuses Border-Conflict Risk for Oil-Rich Guyana - Guyana, home to the world’s biggest oil discovery in decades, appears to be an early beneficiary of US President Donald Trump’s ouster of Venezuelan strongman Nicolas Maduro.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-10/maduro-s-fall-defuses-border-conflict-risk-for-oil-rich-guyana",
       "sentiment": "NEUTRAL"
     }
   ]
