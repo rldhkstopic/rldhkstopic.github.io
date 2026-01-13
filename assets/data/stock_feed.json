@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-13T22:45:02.065592+09:00",
+  "last_updated": "2026-01-13T23:05:33.581284+09:00",
   "items": [
+    {
+      "id": "c4fd6293e65139ee4e413e6726e1e89e",
+      "timestamp": "2026-01-13T22:44:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Treasuries Jump as Softer Inflation Backs Bets on a June Fed Cut - Treasuries jumped after a weaker-than-expected consumer price gauge bolstered the case for the Federal Reserve to lower interest rates later this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/treasuries-jump-as-softer-inflation-backs-bets-on-a-june-fed-cut",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "27e5fd53e7f11a59e094902b94ef6a29",
       "timestamp": "2026-01-13T22:38:30+09:00",
@@ -10,6 +21,17 @@
       "related_tickers": [],
       "content": "European Defense Stocks Near Valuation Peak, Deutsche Bank Says - European defense stocks might be approaching a peak in their valuations, warn Deustche Bank AG analysts, who are among the few contrarian voices on a sector that has already surged more than 20% this ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/european-defense-stocks-near-valuation-peak-deutsche-bank-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b224c1aa3525421b21f8b2929c7bff15",
+      "timestamp": "2026-01-13T22:33:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Colombia Rushes to Sell Dollar Debt Ahead of Busy Election Year - Colombia is tapping global bond markets for the first time this year, as authorities rush to cover the nation’s funding needs ahead of congressional and presidential elections.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/colombia-rushes-to-sell-dollar-debt-ahead-of-busy-election-year",
       "sentiment": "NEUTRAL"
     },
     {
@@ -76,6 +98,17 @@
       "related_tickers": [],
       "content": "Swiss Aim to End Tax Perks for Married Couples With Just One Earner - The Swiss government is backing a proposal to abolish preferential tax treatment for married couples with only one earner, endorsing a far-reaching reform that will go before voters in March.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/swiss-aim-to-end-tax-perks-for-married-couples-with-just-one-earner",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a4724d8744bedc7a424f12231e97dced",
+      "timestamp": "2026-01-13T22:17:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Czech Central Bank Sees Core Inflation Strong Reason for Caution - A key gauge of underlying price pressures in the Czech Republic remains elevated and requires tight monetary policy, even as headline inflation may undershoot the target this year, according to the ce",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/czech-central-bank-sees-core-inflation-strong-reason-for-caution",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Fed Served With DOJ Subpoenas, Powell Vows to Stand Firm - Enda Curran, Bloomberg News Global Economy Reporter speaks with Tim Stenovec and Emily Graffeo about the DOJ subpoenas the Fed, but Powell vows to stand firm  (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-12/fed-served-with-doj-subpoenas-powell-vows-to-stand-firm-video-mkbn2kdd",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9d768e992c415ef737eb1ba87e2a1e52",
-      "timestamp": "2026-01-13T05:52:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ackman Pitches Prepayment Penalties as Way to Cut Mortgage Rates - Bill Ackman has an unconventional idea for lowering mortgage rates: make it harder to pay off the loans early.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/ackman-pitches-prepayment-penalties-as-way-to-cut-mortgage-rates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ddee22128ac54679ec40c24ee9f38553",
-      "timestamp": "2026-01-13T05:51:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pfizer CEO Bourla Says Company Looking For 'Superior' Results from Weight-Loss Drugs - Pfizer CEO Albert Bourla told Bloomberg's Katie Greifeld Pfizer is looking for 'superior results' while developing and testing further GLP-1 weight loss medications in a crowded market. Bourla also co",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/pfizer-ceo-looking-for-superior-results-from-glp-1s-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a45ccad11065ad5f5abab76c884b662",
-      "timestamp": "2026-01-13T05:51:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia to Invest $1 Billion in AI Drug Lab With Eli Lilly - Nvidia plans to invest $1 billion over five years in a new laboratory with Eli Lilly & Co., in an effort to speed up the use of AI in the pharmaceutical industry. Denny Fish, portfolio manager on the ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/nvidia-to-invest-1-billion-in-ai-drug-lab-video",
       "sentiment": "NEUTRAL"
     }
   ]
