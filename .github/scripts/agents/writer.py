@@ -8,9 +8,8 @@ import io
 import os
 import re
 import sys
-from datetime import datetime
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Dict
 from google import genai
 
 # Windows 콘솔에서 한글 출력이 깨지는 문제 완화 (UTF-8 강제)
@@ -119,7 +118,6 @@ class WriterAgent:
     def write(self, topic: Dict, research_data: Dict, analysis_data: Dict) -> str:
         """
         조사 및 분석 결과를 바탕으로 블로그 포스트를 작성한다.
-        3-Tier Agent Pipeline을 사용하여 고품질의 글을 생성한다.
         
         Args:
             topic: 주제 정보
@@ -127,199 +125,22 @@ class WriterAgent:
             analysis_data: 분석 데이터
             
         Returns:
-            str: 작성된 블로그 포스트 본문 (Front Matter 제외)
+            str: 작성된 블로그 포스트 본문
         """
         category = topic.get('category', 'document')
+        system_prompt = self._get_system_prompt(category)
         
         # 조사 및 분석 데이터 정리
         research_text = research_data.get('raw_research', '')[:2000] if research_data.get('raw_research') else ''
         analysis_text = analysis_data.get('insights', '')[:1500] if analysis_data.get('insights') else ''
         
-        # Bloomberg 다이제스트는 기존 방식 유지 (특수한 구조 필요)
+        # Bloomberg 다이제스트는 별도 프롬프트 사용 (카테고리보다 우선)
         if (topic.get("source") == "bloomberg_rss") or (topic.get("type") == "bloomberg_digest"):
-            return self._write_bloomberg_digest(topic, research_text, analysis_text)
-        
-        # Daily 카테고리는 기존 방식 유지 (특수한 문체 필요)
-        if category == 'daily':
-            return self._write_daily(topic, research_text, analysis_text)
-        
-        # 일반 글 작성: 3-Tier Pipeline 사용
-        return self._write_with_3tier(topic, research_text, analysis_text)
-    
-    def _write_with_3tier(self, topic: Dict, research_text: str, analysis_text: str) -> str:
-        """
-        3-Tier Pipeline을 사용한 일반 글 작성
-        """
-        # 메모 구성: 조사 결과와 분석 인사이트를 합쳐서 초안 메모로 사용
-        memo = f"""**주제:**
-제목: {topic.get('title', '')}
-설명: {topic.get('description', '')}
-카테고리: {topic.get('category', 'document')}
-
-**조사 결과:**
-{research_text}
-
-**분석 인사이트:**
-{analysis_text}
-"""
-        
-        title = topic.get('title', '')
-        category = topic.get('category', 'document')
-        
-        print("\n[3-Tier Pipeline] 글 작성 시작...")
-        
-        # Step 1: 구성 작가 (The Drafter)
-        print("\n[Step 1] 구성 작가: 글의 뼈대와 초안 작성 중...")
-        draft = self._draft_with_research(memo, title, research_text, analysis_text)
-        if not draft:
-            print("  [ERROR] Step 1 실패")
-            return ""
-        print(f"  [OK] Step 1 완료 ({len(draft)}자)")
-        
-        # Step 2: 페르소나 에디터 (The Persona)
-        print("\n[Step 2] 페르소나 에디터: 말투 리라이팅 중...")
-        rewritten = self._rewrite_with_persona(draft)
-        if not rewritten:
-            print("  [WARN] Step 2 실패, Step 1 결과 사용")
-            rewritten = draft
-        print(f"  [OK] Step 2 완료 ({len(rewritten)}자)")
-        
-        # Step 3: 교정 및 포맷팅 (The Polisher) - Front Matter는 제외하고 본문만 반환
-        print("\n[Step 3] 교정 및 포맷팅: 최종 검수 중...")
-        polished = self._polish_content(rewritten)
-        if not polished:
-            print("  [WARN] Step 3 실패, Step 2 결과 사용")
-            polished = rewritten
-        print(f"  [OK] Step 3 완료 ({len(polished)}자)")
-        
-        # 최종 검증
-        if not self._is_korean_output(polished):
-            print("  [WARN] 한국어 검증 실패, 하지만 결과 반환")
-        
-        print("\n[3-Tier Pipeline] 글 작성 완료!")
-        return polished
-    
-    def _write_bloomberg_digest(self, topic: Dict, research_text: str, analysis_text: str) -> str:
-        """Bloomberg 다이제스트는 기존 방식 유지"""
-        system_prompt = self._get_system_prompt('document')
-        base_prompt = self._get_bloomberg_digest_prompt(topic, research_text, analysis_text, system_prompt)
-        
-        try:
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=base_prompt
-            )
-            content = (response.text or "").strip()
-            content = self._post_process(content)
-            return content
-        except Exception as e:
-            print(f"  [ERROR] Bloomberg 다이제스트 작성 오류: {str(e)}")
-            return ""
-    
-    def _write_daily(self, topic: Dict, research_text: str, analysis_text: str) -> str:
-        """Daily 카테고리는 기존 방식 유지"""
-        system_prompt = self._get_system_prompt('daily')
-        base_prompt = self._get_daily_prompt(topic, research_text, analysis_text, system_prompt)
-        
-        try:
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=base_prompt
-            )
-            content = (response.text or "").strip()
-            content = self._post_process(content)
-            return content
-        except Exception as e:
-            print(f"  [ERROR] Daily 작성 오류: {str(e)}")
-            return ""
-    
-    def _draft_with_research(self, memo: str, title: str, research_text: str, analysis_text: str) -> str:
-        """
-        Step 1: 구성 작가 (The Drafter) - 조사 데이터 포함 버전
-        입력받은 메모와 조사/분석 데이터를 바탕으로 논리적인 글의 뼈대와 초안 작성.
-        """
-        prompt = f"""너는 구성 작가야. 팩트와 정보 전달 위주로 서론-본론-결론 구조를 잡아줘.
-
-**입력 메모:**
-{memo}
-
-**제목 (참고용):**
-{title if title else "(제목 없음)"}
-
-**조사 결과:**
-{research_text[:1500]}
-
-**분석 인사이트:**
-{analysis_text[:1000]}
-
-**작성 요구사항:**
-1. 서론-본론-결론 구조로 논리적인 글의 뼈대를 잡아줘.
-2. 팩트와 정보 전달에 집중해줘. 조사 결과와 분석 인사이트를 적절히 활용해줘.
-3. 최소 1500자 이상 작성해줘.
-4. 모든 문장은 "~다."로 끝나야 해.
-5. 이모지는 사용하지 마.
-6. Markdown 형식으로 작성해줘 (Front Matter 제외).
-7. 전문가 의견은 blockquote 형식으로 인용해줘.
-8. 외부 자료는 [^n] 형식으로 참조하고, 마지막에 ## References 섹션을 추가해줘.
-
-**출력:**
-Front Matter 없이 본문만 작성해줘."""
-
-        try:
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=prompt
-            )
-            content = (response.text or "").strip()
-            
-            if not content or len(content) < 500:
-                print(f"  [WARN] 초안이 너무 짧음: {len(content)}자")
-                return ""
-            
-            return content
-        except Exception as e:
-            print(f"  [ERROR] Step 1 오류: {str(e)}")
-            return ""
-    
-    def _polish_content(self, content: str) -> str:
-        """
-        Step 3: 교정 및 포맷팅 (The Polisher) - Front Matter 제외 버전
-        최종 문법 검수 및 마크다운 정리 (본문만 반환).
-        """
-        prompt = f"""너는 교정 및 포맷팅 전문가야.
-
-**작업:**
-1. 아래 글의 문법을 검수하고 교정해줘.
-2. 현업 개발 용어로 단어 교정해줘.
-3. 마크다운(Code block, H2, H3) 정리해줘.
-4. "~다." 문체는 유지해줘.
-5. 이모지는 제거해줘.
-
-**원본 글:**
-{content}
-
-**출력:**
-Front Matter 없이 교정된 본문만 작성해줘."""
-
-        try:
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=prompt
-            )
-            polished = (response.text or "").strip()
-            
-            if not polished or len(polished) < 500:
-                print(f"  [WARN] 교정 결과가 너무 짧음: {len(polished)}자, 원본 사용")
-                polished = content
-            
-            # 이모지 제거 및 후처리
-            polished = self._post_process(polished)
-            
-            return polished
-        except Exception as e:
-            print(f"  [ERROR] Step 3 오류: {str(e)}")
-            # 오류 시 원본 반환 (이모지 제거만 수행)
-            return self._post_process(content)
+            base_prompt = self._get_bloomberg_digest_prompt(topic, research_text, analysis_text, system_prompt)
+        # Daily 카테고리는 별도의 프롬프트 사용
+        elif category == 'daily':
+            base_prompt = self._get_daily_prompt(topic, research_text, analysis_text, system_prompt)
+        else:
             # 프롬프트를 더 간단하고 명확하게 구성
             # ⚠️ 매우 중요: 프롬프트 맨 앞에 한국어 작성 지시를 명확히 배치
             # 조사/분석 결과가 영어일 경우를 대비해 한국어로 번역 요청을 명시
@@ -364,8 +185,216 @@ Front Matter 없이 교정된 본문만 작성해줘."""
 {system_prompt}
 """
         
-        # 일반 글 작성은 3-Tier Pipeline 사용
-        return self._write_with_3tier(topic, research_text, analysis_text)
+        try:
+            content = ""
+            last_error: str | None = None
+
+            # 모델이 비정상 출력(영문/공백 위주)하는 케이스가 있어, 최대 3회까지 재시도한다.
+            for attempt in range(1, 4):
+                print(f"  [작성] 블로그 포스트 작성 중... (시도 {attempt}/3, 모델: {self.model})")
+
+                writing_prompt = base_prompt
+                if attempt >= 2:
+                    # 한글 누락/공백 치환 방어를 위해 요구사항을 더 강하게 고정한다.
+                    writing_prompt += """
+
+**⚠️ 매우 중요한 추가 제약:**
+- 출력은 **반드시 한국어(한글)로만** 작성하세요. 영어로 작성하면 즉시 실패입니다.
+- 모든 문장은 한글로 작성하세요. 영어 문장은 절대 사용하지 마세요.
+- 고유명사나 기술 용어(예: "CSV", "API", "JSON")만 최소한으로 영어를 허용합니다.
+- 본문에서 한국어가 공백으로 대체되거나, 영문/기호/공백 위주로 출력되면 실패로 간주합니다.
+- 예시: "CSV 파일을 사용한다" (O), "Use CSV file" (X)
+"""
+
+                # API 호출 (모델이 없으면 후보 모델로 폴백)
+                try:
+                    response = self.client.models.generate_content(
+                        model=self.model,
+                        contents=writing_prompt
+                    )
+                    content = (response.text or "").strip()
+                    
+                    # 응답이 비어있거나 너무 짧으면 에러 출력
+                    if not content:
+                        print(f"  [ERROR] API 응답이 비어있습니다.")
+                        continue
+                    if len(content) < 100:
+                        print(f"  [ERROR] API 응답이 너무 짧습니다: {len(content)}자")
+                        print(f"  [DEBUG] 응답 내용: {content}")
+                        continue
+                    
+                    # 디버깅: 생성된 내용의 일부와 한글 통계 출력
+                    preview = content[:300] if len(content) > 300 else content
+                    hangul_count = len(re.findall(r'[가-힣]', content))
+                    text_wo_code = re.sub(r'```[\s\S]*?```', '', content)
+                    hangul_count_wo_code = len(re.findall(r'[가-힣]', text_wo_code))
+                    non_ws = len(re.sub(r'\s+', '', text_wo_code))
+                    hangul_ratio = (hangul_count_wo_code / non_ws * 100) if non_ws > 0 else 0
+                    
+                    print(f"  [DEBUG] 생성된 내용 미리보기: {preview}...")
+                    print(f"  [DEBUG] 전체 길이: {len(content)}자")
+                    print(f"  [DEBUG] 한글 수 (전체): {hangul_count}자")
+                    print(f"  [DEBUG] 한글 수 (코드 제외): {hangul_count_wo_code}자")
+                    print(f"  [DEBUG] 한글 비율 (코드 제외): {hangul_ratio:.1f}%")
+                except Exception as e:
+                    last_error = str(e)
+                    # 모델 미존재/권한 문제(404/NOT_FOUND)면 다음 후보로 폴백한다.
+                    err_upper = last_error.upper()
+                    if ("404" in err_upper) or ("NOT_FOUND" in err_upper):
+                        next_model = None
+                        for m in self.model_candidates:
+                            if m == self.model:
+                                continue
+                            next_model = m
+                            break
+                        if next_model:
+                            print(f"  [WARN] 모델 호출 실패(모델 미존재/권한 가능): {self.model} -> {next_model}")
+                            self.model = next_model
+                            continue
+                    print(f"  [ERROR] API 호출 실패: {last_error}")
+                    continue
+
+                # 후처리: 이모지 제거 및 문체 개선
+                content = self._post_process(content)
+
+                # 디버깅: 생성된 내용 일부 출력
+                if attempt == 1:
+                    preview = content[:200] if len(content) > 200 else content
+                    print(f"  [DEBUG] 생성된 내용 미리보기: {preview}...")
+                    text_wo_code = re.sub(r"```[\s\S]*?```", "", content)
+                    hangul_count = len(re.findall(r"[가-힣]", text_wo_code))
+                    non_ws = len(re.sub(r"\s+", "", text_wo_code))
+                    hangul_ratio = (hangul_count / non_ws * 100) if non_ws > 0 else 0
+                    print(f"  [DEBUG] 한글 수(코드 제외): {hangul_count}, 한글 비율(코드 제외): {hangul_ratio:.1f}%")
+
+                if len(content.strip()) < 800:
+                    print(f"  [WARN] 길이 부족: {len(content.strip())}자")
+                    continue
+                # 검증 전 상세 통계 출력
+                text_wo_code = re.sub(r"```[\s\S]*?```", "", content)
+                hangul_count = len(re.findall(r"[가-힣]", text_wo_code))
+                non_ws = len(re.sub(r"\s+", "", text_wo_code))
+                hangul_ratio = (hangul_count / non_ws * 100) if non_ws > 0 else 0
+                
+                # 종결어미 통계
+                lines = text_wo_code.split('\n')
+                valid_sentences = 0
+                total_sentences = 0
+                for line in lines:
+                    line = line.strip()
+                    if len(line) < 10 or line.startswith('#') or line.startswith('-') or line.startswith('*'):
+                        continue
+                    total_sentences += 1
+                    if re.search(r'다\s*(\[.*?\])?\.$', line) or line.endswith('다.'):
+                        valid_sentences += 1
+                sentence_ratio = (valid_sentences / total_sentences * 100) if total_sentences > 0 else 0
+                
+                print(f"  [DEBUG] 검증 전 통계:")
+                print(f"    - 전체 길이: {len(content)}자")
+                print(f"    - 한글 수 (코드 제외): {hangul_count}자")
+                print(f"    - 한글 비율 (코드 제외): {hangul_ratio:.1f}%")
+                print(f"    - '~다.'로 끝나는 문장: {valid_sentences}/{total_sentences} ({sentence_ratio:.1f}%)")
+                
+                if not self._is_korean_output(content):
+                    print(f"  [ERROR] 한국어 검증 실패!")
+                    print(f"  [DEBUG] 검증 실패 내용 샘플 (처음 800자):")
+                    print(f"    {content[:800]}")
+                    if len(content) > 1000:
+                        print(f"  [DEBUG] 검증 실패 내용 샘플 (중간 800자):")
+                        print(f"    {content[len(content)//2:len(content)//2+800]}")
+                    print(f"  [DEBUG] 검증 실패 내용 샘플 (끝 800자):")
+                    print(f"    {content[-800:] if len(content) > 800 else content}")
+                    
+                    # GitHub Actions에서 디버깅을 위해 임시 파일로 저장
+                    try:
+                        import tempfile
+                        temp_dir = Path(tempfile.gettempdir())
+                        debug_file = temp_dir / f"failed_content_attempt_{attempt}.txt"
+                        debug_file.write_text(content, encoding="utf-8")
+                        print(f"  [DEBUG] 검증 실패 내용이 임시 파일에 저장되었습니다: {debug_file}")
+                    except Exception as e:
+                        print(f"  [WARN] 임시 파일 저장 실패: {e}")
+                    
+                    continue
+
+                break
+
+            # 1차 시도 실패 시 레거시 fallback(간단 프롬프트)도 수행한다.
+            if not content or len(content.strip()) < 800 or not self._is_korean_output(content):
+                if last_error:
+                    print(f"  [WARN] 1차 작성 실패. 마지막 오류: {last_error}")
+                print("  [WARN] 1차 작성 실패. 간단 프롬프트로 재시도한다.")
+                content = ""
+
+            # 응답이 비어있거나 너무 짧으면 재시도(레거시 fallback)
+            if not content or len(content) < 500:
+                print(f"  [WARN] 응답이 너무 짧습니다 ({len(content)}자). 재시도...")
+                simple_prompt = f"""다음 주제에 대해 블로그 포스트를 작성해주세요:
+
+**제목:** {topic.get('title', '')}
+**설명:** {topic.get('description', '')}
+
+조사 결과:
+{research_data.get('raw_research', '')[:1000]}
+
+분석 인사이트:
+{analysis_data.get('insights', '')[:500]}
+
+"~다."로 끝나는 건조한 문체로, 최소 1200자 이상 한국어로 작성해주세요. 이모지는 절대 사용하지 마세요."""
+                
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=simple_prompt
+                )
+                content = response.text
+            
+            # 응답 검증
+            if not content or len(content.strip()) < 500:
+                print(f"  [WARN] 응답이 너무 짧습니다 ({len(content)}자). 재시도...")
+                # 더 간단한 프롬프트로 재시도
+                simple_prompt = f"""다음 주제에 대해 완전한 블로그 포스트를 작성해주세요:
+
+제목: {topic.get('title', '')}
+설명: {topic.get('description', '')}
+
+조사 결과 요약:
+{research_text[:800]}
+
+분석 요약:
+{analysis_text[:500]}
+
+**중요:**
+- 모든 문장을 완전하게 작성하세요
+- "~다."로 끝나는 문체를 사용하세요
+- 이모지는 절대 사용하지 마세요
+- 최소 1500자 이상 작성하세요
+- 한글을 자연스럽게 사용하세요"""
+                
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=simple_prompt
+                )
+                content = response.text
+            
+            # 후처리: 이모지 제거 및 문체 개선
+            content = self._post_process(content)
+            
+            # 내용 검증
+            if len(content.strip()) < 500:
+                print(f"  [ERROR] 최종 콘텐츠가 너무 짧습니다 ({len(content)}자)")
+                return ""
+
+            if not self._is_korean_output(content):
+                print("  [ERROR] 최종 콘텐츠의 한국어 품질 검증에 실패했습니다.")
+                return ""
+            
+            print(f"  [OK] 작성 완료 ({len(content)}자)")
+            
+            return content
+            
+        except Exception as e:
+            print(f"  [ERROR] 작성 오류: {str(e)}")
+            return ""
     
     def _post_process(self, content: str) -> str:
         """생성된 콘텐츠 후처리"""
@@ -518,39 +547,53 @@ Front Matter 없이 교정된 본문만 작성해줘."""
 **작성 규칙 (Daily 카테고리 특화 - 매우 중요):**
 
 0. **제목 형식 (필수):** 제목은 반드시 "[YYYY-MM-DD] 요약 제목" 형식으로 작성하세요. 요약 제목은 일기 내용의 핵심을 10-20자 내외로 간결하게 표현하세요.
-   - ✅ 좋은 예: "[2026-01-09] 야근 후 무거운 아침과 선임의 조언"
-   - ✅ 좋은 예: "[2026-01-09] 당황스러운 질문과 깨달음"
+   - ✅ 좋은 예: "[2026-01-09] 야근 후 찾아온 당황과 선임의 위로"
+   - ✅ 좋은 예: "[2026-01-10] 늦잠과 웹툰 정주행, 그리고 방충망"
    - ❌ 나쁜 예: "2026년 01월 09일 일기"
    - ❌ 나쁜 예: "[2026-01-09] 일기"
 
-1. **1인칭 시점 유지:** '나', '내가', '나는', '내 생각에는' 등 개인의 관점에서 서술하세요. 3인칭 관찰자 시점("분석한다", "논한다")은 절대 사용하지 마세요.
+1. **본문 시작 형식:** 본문은 반드시 "### [YYYY-MM-DD] 요약 제목" 형식의 소제목으로 시작하세요. 제목과 동일한 내용을 사용하세요.
+   - ✅ 좋은 예: "### [2026-01-09] 야근 후 찾아온 당황과 선임의 위로"
+   - ❌ 나쁜 예: "## 2026-01-09 일기" 또는 "오늘 하루는..."
 
-2. **자연스러운 구어체 문체 (가장 중요):**
+2. **1인칭 시점 유지:** '나', '내가', '나는', '내 생각에는', '~했다', '~였다' 등 개인의 관점에서 서술하세요. 3인칭 관찰자 시점("분석한다", "논한다")은 절대 사용하지 마세요.
+
+3. **자연스러운 구어체 문체 (가장 중요):**
    - "~다." 문체보다는 "~했다", "~였다", "~했었다" 같은 자연스러운 과거형을 주로 사용하세요.
-   - "~했음", "~했었는데", "~했더니", "~해서" 같은 구어체 어미를 자연스럽게 사용하세요.
+   - "~했음", "~했었는데", "~했더니", "~해서", "~했지만", "~했을 때" 같은 구어체 어미를 자연스럽게 사용하세요.
    - 짧고 간결한 문장을 선호하세요. 길고 복잡한 문장은 피하세요.
    - 친구에게 말하거나 일기장에 쓰는 듯한 편안하고 자연스러운 톤을 유지하세요.
-   - ✅ 좋은 예: "어제 10시까지 야근해서 그런지 아침에 몸이 무거웠다. 9시 반쯤 되어서야 집에서 출발했다."
+   - 내적 독백을 자연스럽게 포함하세요: "'아, 망했다'는 생각이 스쳤다", "'이런 건 직접 해봐야지' 하는 생각이 들었다"
+   - ✅ 좋은 예: "어제저녁 10시까지 야근했다. 요즘 매일 야근이라 몸과 마음이 지쳐 있었다. 특히 어제 아침부터 기분이 좋지 않았다. SWICD 확정 과정에서 질문을 받았는데, 내가 제어하는 모듈임에도 구체적인 내용을 제대로 이해하지 못해 당황했다."
    - ❌ 나쁜 예: "어제 10시까지 야근한 결과, 아침에 몸이 무거웠음을 확인했다. 9시 반이 되어서야 집에서 출발할 수 있었다."
 
-3. **감정 묘사 필수:** 단순히 사실만 나열하지 말고, 그때 느꼈던 감정(기쁨, 당황, 후회, 짜증, 놀라움, 불편함 등)을 구체적으로 적으세요.
+4. **감정 묘사 필수:** 단순히 사실만 나열하지 말고, 그때 느꼈던 감정(기쁨, 당황, 후회, 짜증, 놀라움, 불편함, 허탈함, 안심, 가벼움 등)을 구체적으로 적으세요.
+   - ✅ 좋은 예: "머리가 하얘지는 기분이었다", "얼굴이 화끈거렸다", "속이 뻥 뚫리는 기분이었다", "마음이 한결 가벼워졌다"
+   - ❌ 나쁜 예: "당황스러웠다" (너무 단순함)
 
-4. **현장감:** 뉴스 기사 같은 말투("~했다고 한다", "~라고 전해진다")를 피하고, 일기장이나 친구에게 말하는 듯한 문체를 사용하세요.
+5. **현장감과 구체적 묘사:** 
+   - 뉴스 기사 같은 말투("~했다고 한다", "~라고 전해진다")를 피하고, 일기장이나 친구에게 말하는 듯한 문체를 사용하세요.
+   - "대중교통 시스템 마비" 같은 추상적 표현 대신, "지하철역까지 가는 데만 30분이 걸려서 발이 퉁퉁 부었다"는 식의 구체적인 묘사를 사용하세요.
+   - 시간, 장소, 상황을 구체적으로 묘사하세요: "9시 반쯤 되어서야 집에서 출발했다", "지하철을 타고 동천역을 지나면서도", "택시 타고 집에 와 허둥지둥 멕시카나 치킨을 시켜 먹고"
 
-5. **구체적인 묘사:** "대중교통 시스템 마비" 같은 추상적 표현 대신, "지하철역까지 가는 데만 30분이 걸려서 발이 퉁퉁 부었다"는 식의 구체적인 묘사를 사용하세요.
-
-6. **구조:** [상황(어디서 무엇을 겪었나)] -> [행동(무슨 일이 있었고 어떻게 했나)] -> [회고(무엇을 느꼈고 다음엔 어떻게 할 것인가)]
+6. **구조와 흐름:**
+   - 시간 순서대로 자연스럽게 흐르는 이야기 구조를 사용하세요.
+   - [아침/상황] -> [하루의 흐름] -> [저녁/마무리] 순서로 구성하세요.
+   - 각 상황에서의 내적 반응과 감정 변화를 포함하세요.
+   - 마지막에 하루를 마무리하는 느낌의 문장으로 끝내세요: "오늘도 정말 길고 긴 하루였다", "내일을 기대하며 잠들기로 했다"
 
 7. **민감 정보 필터링 (필수):**
    - **실명 제거**: 사람 이름은 "A 선임", "B 선임", "수석님", "팀원" 등으로 일반화하세요.
-   - **회사/프로젝트명 일반화**: 구체적인 회사명이나 프로젝트명은 일반적인 표현으로 변경하세요.
+   - **회사/프로젝트명 일반화**: 구체적인 회사명이나 프로젝트명은 일반적인 표현으로 변경하세요. (예: "SWICD" -> "시스템", "포선체" -> "하드웨어 조립체")
    - **업무 세부사항 완화**: 민감한 업무 내용은 핵심만 남기고 구체적인 수치나 명칭은 생략하세요.
    - ✅ 좋은 예: "수석님께 하드웨어 조립체 견적 관련해서 여쭤봤다"
    - ❌ 나쁜 예: "김수석님께 포선조립체 견적 관련해서 여쭤봤다" (실명 포함)
 
-8. **최소 1500자 이상 작성하세요.**
+8. **소제목 사용 금지:** 본문 시작 소제목 외에는 소제목을 사용하지 마세요. "**다." 같은 형식의 소제목은 절대 사용하지 마세요. 자연스러운 문장 흐름으로만 작성하세요.
 
-9. **이모지는 사용하지 마세요.**
+9. **최소 2000자 이상 작성하세요.** 충분한 분량으로 하루의 경험을 상세하게 서술하세요.
+
+10. **이모지는 사용하지 마세요.**
 
 **금지 사항:**
 - "본고는", "분석한다", "시사한다", "논한다", "~임을 확인했다", "~인 것으로 보인다" 같은 딱딱한 논문조/보고서조 표현 절대 금지
@@ -558,10 +601,16 @@ Front Matter 없이 교정된 본문만 작성해줘."""
 - 뉴스 기사나 보고서 같은 객관적 서술 금지
 - 감정 없이 팩트만 나열하는 것 금지
 - 과도하게 격식있는 문어체 사용 금지
+- "**다." 같은 소제목 형식 절대 금지
+- 본문 시작 소제목 외의 소제목 사용 금지
 
 **작성 예시:**
 ```
-어제 10시까지 야근해서 그런지 아침에 몸이 무거웠다. 9시 반쯤 되어서야 집에서 출발했다. 출근하는 내내 어제 일이 머릿속을 맴돌았다. 시스템 확정 짓는 과정에서 질문을 받았는데, 내가 제어하는 모듈인데도 구체적인 내용을 제대로 이해하지 못해 당황했었다. 특히 파일 구조나 제어 방식에 대해 제대로 파악하지 못하고 있었던 게 그대로 드러난 것 같아 마음이 불편했다.
+### [2026-01-09] 야근 후 찾아온 당황과 선임의 위로
+
+어제저녁 10시까지 야근했다. 요즘 매일 야근이라 몸과 마음이 지쳐 있었다. 특히 어제 아침부터 기분이 좋지 않았다. SWICD 확정 과정에서 질문을 받았는데, 내가 제어하는 모듈임에도 구체적인 내용을 제대로 이해하지 못해 당황했다. 머리가 하얘지는 기분이었다. 미션 파일에 대해 제대로 이해하지 못한 게 들통난 것 같아 얼굴이 화끈거렸다. '내가 이런 기본적인 것도 모르고 있었나' 싶어 스스로에게 실망했다.
+
+아침에 일어나는 것부터 힘들었다. 침대에서 밍기적거리다 회사 가기 싫다는 생각에 출근 준비도 늦어졌다. 결국 9시 반쯤 집에서 나왔다. 지하철을 타고 동천역을 지나면서도 어제의 일이 머릿속을 맴돌았다. 귀여운 여자친구 생각에 힘을 내보려 애썼지만, 마음 한구석에는 찝찝함이 가시지 않았다.
 ```
 
 {system_prompt}
@@ -626,207 +675,4 @@ Front Matter 없이 교정된 본문만 작성해줘."""
 - Markdown 형식으로 작성
 - 최소 1200자 이상 작성
 - 모든 문장은 반드시 "~다."로 끝나야 함"""
-    
-    # ============================================================
-    # 3-Tier Agent Pipeline (로컬 테스트용)
-    # ============================================================
-    
-    def write_with_3tier_pipeline(self, memo: str, title: str = "", category: str = "dev") -> str:
-        """
-        3단계 파이프라인을 사용하여 블로그 포스트를 작성한다.
-        
-        Args:
-            memo: 작성할 내용에 대한 메모/초안
-            title: 포스트 제목 (선택사항)
-            category: 카테고리 (기본값: "dev")
-            
-        Returns:
-            str: 완성된 블로그 포스트 (Front Matter 포함)
-        """
-        print("\n[3-Tier Pipeline] 글 작성 시작...")
-        
-        # Step 1: 구성 작가 (The Drafter)
-        print("\n[Step 1] 구성 작가: 글의 뼈대와 초안 작성 중...")
-        draft = self._draft(memo, title)
-        if not draft:
-            print("  [ERROR] Step 1 실패")
-            return ""
-        print(f"  [OK] Step 1 완료 ({len(draft)}자)")
-        
-        # Step 2: 페르소나 에디터 (The Persona)
-        print("\n[Step 2] 페르소나 에디터: 말투 리라이팅 중...")
-        rewritten = self._rewrite_with_persona(draft)
-        if not rewritten:
-            print("  [ERROR] Step 2 실패")
-            return ""
-        print(f"  [OK] Step 2 완료 ({len(rewritten)}자)")
-        
-        # Step 3: 교정 및 포맷팅 (The Polisher)
-        print("\n[Step 3] 교정 및 포맷팅: 최종 검수 및 Front Matter 추가 중...")
-        final = self._polish_and_format(rewritten, title, category)
-        if not final:
-            print("  [ERROR] Step 3 실패")
-            return ""
-        print(f"  [OK] Step 3 완료 ({len(final)}자)")
-        
-        print("\n[3-Tier Pipeline] 글 작성 완료!")
-        return final
-    
-    def _draft(self, memo: str, title: str = "") -> str:
-        """
-        Step 1: 구성 작가 (The Drafter)
-        입력받은 메모를 바탕으로 논리적인 글의 뼈대와 초안 작성.
-        """
-        prompt = f"""너는 구성 작가야. 팩트와 정보 전달 위주로 서론-본론-결론 구조를 잡아줘.
-
-**입력 메모:**
-{memo}
-
-**제목 (참고용):**
-{title if title else "(제목 없음)"}
-
-**작성 요구사항:**
-1. 서론-본론-결론 구조로 논리적인 글의 뼈대를 잡아줘.
-2. 팩트와 정보 전달에 집중해줘.
-3. 최소 1500자 이상 작성해줘.
-4. 모든 문장은 "~다."로 끝나야 해.
-5. 이모지는 사용하지 마.
-6. Markdown 형식으로 작성해줘 (Front Matter 제외).
-
-**출력:**
-Front Matter 없이 본문만 작성해줘."""
-
-        try:
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=prompt
-            )
-            content = (response.text or "").strip()
-            
-            if not content or len(content) < 500:
-                print(f"  [WARN] 초안이 너무 짧음: {len(content)}자")
-                return ""
-            
-            return content
-        except Exception as e:
-            print(f"  [ERROR] Step 1 오류: {str(e)}")
-            return ""
-    
-    def _rewrite_with_persona(self, draft: str) -> str:
-        """
-        Step 2: 페르소나 에디터 (The Persona)
-        Step 1의 글을 '특정 말투'로 리라이팅(Rewriting).
-        """
-        prompt = f"""너는 10년 차 임베디드 시스템 엔지니어이자 시니컬한 기술 블로거다.
-
-**시스템 지시:**
-- 절대 '습니다/합니다' 체를 쓰지 마. '음/함' 체나 자연스러운 구어체를 섞어 써. (예: "이건 좀 아닌 듯.", "결국 해결함.")
-- "소개합니다", "알아보겠습니다" 같은 전형적인 블로그 멘트 삭제.
-- 개발자의 '냉소적인 위트'를 섞어서 문장 호흡을 짧게 끊어쳐.
-- "~다." 문체는 유지하되, 더 자연스럽고 구어체 느낌으로 바꿔줘.
-
-**원본 초안:**
-{draft}
-
-**작업:**
-위 초안을 위의 말투로 리라이팅해줘. 내용은 유지하되, 말투만 바꿔줘.
-
-**출력:**
-Front Matter 없이 본문만 작성해줘."""
-
-        try:
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=prompt
-            )
-            content = (response.text or "").strip()
-            
-            if not content or len(content) < 500:
-                print(f"  [WARN] 리라이팅 결과가 너무 짧음: {len(content)}자")
-                return draft  # 실패 시 원본 반환
-            
-            return content
-        except Exception as e:
-            print(f"  [ERROR] Step 2 오류: {str(e)}")
-            return draft  # 실패 시 원본 반환
-    
-    def _polish_and_format(self, content: str, title: str = "", category: str = "dev") -> str:
-        """
-        Step 3: 교정 및 포맷팅 (The Polisher)
-        최종 문법 검수 및 Jekyll Front Matter 추가.
-        """
-        # 제목이 없으면 첫 번째 헤딩에서 추출 시도
-        if not title:
-            lines = content.split('\n')
-            for line in lines:
-                if line.startswith('# '):
-                    title = line[2:].strip()
-                    break
-            if not title:
-                title = "Untitled Post"
-        
-        # 날짜 생성
-        now = datetime.now()
-        date_str = now.strftime("%Y-%m-%d %H:%M:%S +0900")
-        date_short = now.strftime("%Y-%m-%d")
-        
-        # 파일명 생성 (제목에서)
-        filename = re.sub(r'[^\w\s-]', '', title)
-        filename = re.sub(r'[-\s]+', '-', filename)
-        filename = f"{date_short}-{filename}.md"
-        
-        prompt = f"""너는 교정 및 포맷팅 전문가야.
-
-**작업:**
-1. 아래 글의 문법을 검수하고 교정해줘.
-2. 현업 개발 용어로 단어 교정해줘.
-3. 마크다운(Code block, H2, H3) 정리해줘.
-4. "~다." 문체는 유지해줘.
-
-**원본 글:**
-{content}
-
-**출력:**
-Front Matter 없이 교정된 본문만 작성해줘."""
-
-        try:
-            response = self.client.models.generate_content(
-                model=self.model,
-                contents=prompt
-            )
-            polished = (response.text or "").strip()
-            
-            if not polished or len(polished) < 500:
-                print(f"  [WARN] 교정 결과가 너무 짧음: {len(polished)}자, 원본 사용")
-                polished = content
-            
-            # Front Matter 생성
-            front_matter = f"""---
-layout: post
-title: "{title}"
-date: {date_str}
-author: rldhkstopic
-category: {category}
-tags: []
-views: 0
----
-
-"""
-            
-            return front_matter + polished
-        except Exception as e:
-            print(f"  [ERROR] Step 3 오류: {str(e)}")
-            # 오류 시 Front Matter만 추가
-            front_matter = f"""---
-layout: post
-title: "{title}"
-date: {date_str}
-author: rldhkstopic
-category: {category}
-tags: []
-views: 0
----
-
-"""
-            return front_matter + content
 
