@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-13T18:06:35.547272+09:00",
+  "last_updated": "2026-01-13T18:39:49.735999+09:00",
   "items": [
+    {
+      "id": "15eebb5f7ca2c7dda96f4cffc56fd3c4",
+      "timestamp": "2026-01-13T18:27:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Maersk Makes Another Voyage Through Red Sea in Test of Safety - A.P. Moller-Maersk A/S has safely sailed another ship through the southern part of the Red Sea, its second successful attempt after most shipping lines have avoided the area for two years.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/maersk-makes-another-voyage-through-red-sea-in-test-of-safety",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3afb7ee1612f0e7fbb7e8b818fbde73a",
+      "timestamp": "2026-01-13T18:23:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mag Seven Outperformance Story Not Over: Morgan Stanley - Michael Zezas, deputy head of global research at Morgan Stanley, discusses the outlook for Magnificent Seven stocks and the performance of US mid- and small-caps. He speaks on Bloomberg Television.",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/mag-seven-outperformance-story-not-over-morgan-stanley-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "29029385b2a6d21842879dc9fd0d09c8",
+      "timestamp": "2026-01-13T18:16:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fears Iran Death Toll Will Rise as Trump Imposes 25% Tariff - President Donald Trump said he is imposing a 25% tariff on goods from countries \"doing business\" with Iran, ratcheting up pressure on the government in Tehran that has been rocked by widespread protes",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/fears-iran-death-toll-will-rise-as-trump-imposes-tariff-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7475d6dc50fea78b4046b288450d87b1",
       "timestamp": "2026-01-13T17:53:09+09:00",
@@ -32,6 +65,17 @@
       "related_tickers": [],
       "content": "India, China Seek to Rebuild Military Trust to Keep Border Calm - Top leaders in India and China want to maintain the peace along their border and are working to bridge a trust deficit between the militaries of the two countries, India’s senior-most army commander s",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/india-china-seek-to-rebuild-military-trust-to-keep-border-calm",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6cd88067b95b29b31a72ab9ec1a343ac",
+      "timestamp": "2026-01-13T17:42:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Vows 25% Tariff on Countries Doing Business With Iran | Daybreak Europe 1/13/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/daybreak-europe-1-13-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Iran Oil Inventories Slump With Wave of Protests, Kayrros Says - Iranian oil stockpiles at a key export terminal are about a fifth lower than where they started the year, a possible sign the country is moving crude out of harm’s way amid a wave of unrest over the p",
       "url": "https://www.bloomberg.com/news/articles/2026-01-12/iran-oil-inventories-slump-with-wave-of-protests-kayrros-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "08392b39e4235fbdcaaa0c0064f26d27",
-      "timestamp": "2026-01-13T00:15:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kazakh Oil Shipments Slashed Again as Key Port CPC Is Disrupted - Kazakh crude exports from a key port in the Black Sea have been slashed again as bad weather, maintenance and drone damage cut the nation’s loadings, driving up the price of those barrels.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/kazakh-oil-shipments-slashed-again-as-key-port-cpc-is-disrupted",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "271c4b84248f5af6944ae6e01d3c86d1",
-      "timestamp": "2026-01-13T00:13:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Paramount Is Suing Warner Bros. - Paramount Skydance said it plans to nominate directors to Warner Bros. Discovery’s board to vote against the approval of a merger with Netflix and has filed a suit to force Warner Bros. to disclose in",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-12/why-paramount-is-suing-warner-bros-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1de47b08129c0add67e3155f0110b3ef",
-      "timestamp": "2026-01-13T00:06:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SocGen Turns to Microsoft’s Copilot After Scrapping Own AI Tool - Societe Generale SA is scrapping a self-developed artificial intelligence tool in favor of Microsoft Corp.’s Copilot solution, highlighting the challenges even large lenders face in building out their",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/socgen-turns-to-microsoft-s-copilot-after-scrapping-own-ai-tool",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "549c21b390419fceb889cde757c8c82b",
-      "timestamp": "2026-01-13T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia to Invest $1 Billion in AI Drug Laboratory With Eli Lilly - Nvidia Corp. plans to invest $1 billion over five years in a new laboratory with Eli Lilly &amp; Co., aiming to speed up the use of artificial intelligence in the pharmaceutical industry.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-12/nvidia-to-invest-1-billion-in-ai-drug-laboratory-with-eli-lilly",
       "sentiment": "NEUTRAL"
     }
   ]
