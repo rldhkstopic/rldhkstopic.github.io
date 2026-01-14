@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-15T07:04:05.202528+09:00",
+  "last_updated": "2026-01-15T07:39:05.328947+09:00",
   "items": [
+    {
+      "id": "7ce09549c6e5c565ff65789e705698a7",
+      "timestamp": "2026-01-15T07:17:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Temporal in Talks to Double Valuation to $5 Billion on Heels of AI Boom - Software startup Temporal Technologies Inc. is in advanced talks to raise fresh capital at a $5 billion valuation, double what it was worth in a financing just three months ago, according to people fa",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/startup-temporal-in-talks-to-double-valuation-to-5-billion-on-heels-of-ai-boom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e8212e57543b07c045deb86badf34f4a",
+      "timestamp": "2026-01-15T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asia Loan Bankers Brace for Competition, Thinner Margins in 2026 - Loan bankers in Asia are bracing for an increasingly competitive market that is squeezing the returns they earn on lending, as they grapple with subdued syndicated deal flow.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/asia-loan-bankers-brace-for-competition-thinner-margins-in-2026",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1a6835e99ba92a60f3d01329fd7dad5f",
+      "timestamp": "2026-01-15T06:46:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sugar Group Asks USDA to Raise Standards for Refined Imports - A major sugar industry group is urging the US Department of Agriculture to raise its standards for refined sugar imports, saying current requirements permit lower-grade products into the country.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/sugar-group-asks-usda-to-raise-standards-for-refined-imports",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "49bb9eaafe5900b946943559f470e3c1",
       "timestamp": "2026-01-15T06:43:15+09:00",
@@ -10,6 +43,28 @@
       "related_tickers": [],
       "content": "How the Powell Probe Could Blow Up Trump’s Fed Plans - <p>The much-criticized criminal inquiry triggered some rare GOP pushback. It&nbsp;may leave Powell at the Fed for longer while making rate cuts less likely.</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/podcast-how-the-powell-probe-could-blow-up-trump-s-fed-plans",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d0d3acdf108567c329f8bf215f8ccf49",
+      "timestamp": "2026-01-15T06:40:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Eases Path for Nvidia to Sell H200s to China | Bloomberg Tech 1/14/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss the US Commerce Department’s move making it easier for Nvidia to sell H200 AI chips to China. Plus, fresh off its $1.4 billion founding round, Skild AI ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bloomberg-tech-1-14-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "635d8ba4eca4698e3be0e9419f904864",
+      "timestamp": "2026-01-15T06:37:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Germany Leads Military Buildup in Greenland in Response to Trump - Germany will take the lead of European nations sending military personnel to Greenland after Denmark said its meeting with top US officials intent on controlling the world’s biggest island revealed th",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/germany-leads-military-buildup-in-greenland-in-response-to-trump",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Xi Welcomes Stream of Leaders Shaken by Trump’s New World Order - Donald Trump’s tariff war occupied US allies for much of last year. Now, President Xi Jinping is welcoming a procession of leaders looking to mend fences with the world’s other major economy.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/xi-welcomes-stream-of-leaders-shaken-by-trump-s-new-world-order",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "15fd798b1de2da211a4f105c835b8e76",
-      "timestamp": "2026-01-14T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Frets Over Policy Uncertainty With Midterms Looming - Wall Street loves few things more than a good acronym to describe a trading thesis. Think FANG, FOMO/YOLO and TACO.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/wall-street-frets-over-policy-uncertainty-with-midterms-looming",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "94da371597c5aec8135bfc54adf30dbd",
-      "timestamp": "2026-01-14T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sixth Street Raises €3.75 Billion for European Direct Lending - Sixth Street has raised €3.75 billion ($4.4 billion) from investors to target financing opportunities in Europe’s direct lending market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/sixth-street-raises-3-75-billion-for-european-direct-lending",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2d6c02ea4e0e7f4918dd8a085d0cfb32",
-      "timestamp": "2026-01-14T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Banks Go Silent on Trump Plan to Weaken Racism-in-Lending Rules - Big US banks have gone quiet on Trump administration officials’ latest attempt to roll back protections against racist lending practices, a reversal from 2020 when executives from Wells Fargo &amp; Co",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/banks-go-silent-on-trump-plan-to-weaken-racism-in-lending-rules",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ab15246db87a330512fd51614e8a0e77",
-      "timestamp": "2026-01-14T19:26:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "WEF’s Zahidi on Biggest Risks Panning Out in 2026 - Saadia Zahidi, Managing Director at the World Economic Forum, discusses the biggest global risks in a conversation with Bloomberg’s Francine Lacqua, as the WEF Global Risks Report specifies “geoeconom",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/wef-s-zahidi-on-biggest-risks-panning-out-in-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d7f77f045341b2f870267c72fa12bc37",
-      "timestamp": "2026-01-14T19:22:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Alibaba and JPMorgan Are Said to Invest in Chip Designer Montage’s HK Listing - Chinese chip designer Montage Technology Co. is set to enlist Alibaba Group Holding Ltd. and JPMorgan Asset Management among the key investors in its upcoming Hong Kong listing, according to people fa",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/alibaba-jpmorgan-said-to-invest-in-chip-designer-montage-s-hong-kong-listing",
       "sentiment": "NEUTRAL"
     }
   ]
