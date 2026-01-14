@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-14T15:44:12.701211+09:00",
+  "last_updated": "2026-01-14T16:06:26.604544+09:00",
   "items": [
+    {
+      "id": "90b079f1951014734a37936797e2c7f4",
+      "timestamp": "2026-01-14T16:04:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "22 Killed as Crane Collapses on Train in Thailand - At least 22 people were killed and several dozen injured when a crane used in the construction of a high-speed rail network collapsed onto a moving train in northeastern Thailand.\n (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/22-killed-as-crane-collapses-on-train-in-thailand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "de326ca0eeef33d1f8dcecbb3788be61",
+      "timestamp": "2026-01-14T15:53:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Precious Metals Rally Powers On - Precious metals are off to strong starts this year, building on dramatic rallies in 2025, with the prospect of a criminal indictment against Federal Reserve Chair Jerome Powell reviving worries about ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/precious-metals-rally-powers-on-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab294d1c12ed30218cc2b2deb6a154c3",
+      "timestamp": "2026-01-14T15:49:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Palantir Poaching Suit Called ‘Scare’ Tactic by Ex-Employees - Three former Palantir Technologies Inc. employees say the company is trying to use the courts to squash their startup and deny poaching staff and intellectual property from it.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/palantir-poaching-suit-called-scare-tactic-by-ex-employees",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c9e00123c39ce0754e458c29781a0f5b",
+      "timestamp": "2026-01-14T15:42:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FTSE 100 Set to Rebound, Pound Gains",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-01-14/ftse-100-live-gold-silver-prices-metals-pound-trump-fed-oil-what-s-moving-uk-markets-right-now-markets-today-mkdnln3m",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "92fab0bdf0dddac326bfa14ec6945476",
       "timestamp": "2026-01-14T15:10:40+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Lufthansa Partners With Starlink for Internet Access This Year - Deutsche Lufthansa AG will equip more than 800 planes with SpaceX’s Starlink service as the group tries to bolster its premium appeal in an increasingly competitive market.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/lufthansa-partners-with-starlink-for-internet-access-this-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e54a9158ce08edc137da6bf643b04ec8",
-      "timestamp": "2026-01-13T22:54:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump to Grab the Spotlight Among Global Elite in Davos - Donald Trump will address the World Economic Forum next Wednesday, an appearance likely to dominate the annual gathering of the global elite in Davos.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-grabs-the-spotlight-as-global-elite-gathers-in-davos",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e54a9158ce08edc137da6bf643b04ec8",
-      "timestamp": "2026-01-13T22:54:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump to Grab the Spotlight Among Global Elite in Davos - Donald Trump will address the World Economic Forum next Wednesday, an appearance likely to dominate the annual gathering of the global elite in Davos.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-grabs-the-spotlight-as-global-elite-gathers-in-davos",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c4fd6293e65139ee4e413e6726e1e89e",
-      "timestamp": "2026-01-13T22:44:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders’ Bets on Fed Cut by June Reinforced by Softer Inflation - Bond traders’ expectations were bolstered for the Federal Reserve to lower interest rates by mid-year after a weaker-than-expected US inflation reading.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/treasuries-jump-as-softer-inflation-backs-bets-on-a-june-fed-cut",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b224c1aa3525421b21f8b2929c7bff15",
-      "timestamp": "2026-01-13T22:33:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Colombia Joins Emerging-Market Bond Rush Ahead of Elections - Colombia is tapping global bond markets ahead of pivotal congressional and presidential elections, joining other emerging-market governments that have rushed to lock in lower borrowing costs this mont",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/colombia-rushes-to-sell-dollar-debt-ahead-of-busy-election-year",
       "sentiment": "NEUTRAL"
     }
   ]
