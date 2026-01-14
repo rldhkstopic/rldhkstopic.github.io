@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-15T05:03:28.945139+09:00",
+  "last_updated": "2026-01-15T05:36:57.510369+09:00",
   "items": [
+    {
+      "id": "c98b5a777f7633db57897b09dc4b6116",
+      "timestamp": "2026-01-15T05:26:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Forges $10 Billion Deal With Cerebras for AI Computing - OpenAI signed a multiyear deal to use hardware from Cerebras Systems Inc. for 750 megawatts’ worth of computing power, an alliance that will support the company’s rapid build-out of AI infrastructure.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/openai-forges-10-billion-deal-with-cerebras-for-ai-computing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bb27a2f428fe227ebe37ba0ecd3a1bf2",
+      "timestamp": "2026-01-15T05:23:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Takaichi Is Betting on Japan’s Growth - This is the most overlooked story in financial markets right now, Bloomberg Opinion columnist John Authers explains. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/opinion-takaichi-is-betting-on-japan-s-growth-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "820e96502580df79408768c7d80a7d0b",
+      "timestamp": "2026-01-15T05:21:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Denmark-US Rift Persists as NATO Nations Deploy to Greenland - Denmark said a “fundamental disagreement” remained after a high-stakes meeting with the US over Greenland as several countries including Germany said they’d send military personnel to the Arctic islan",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/denmark-us-rift-persists-as-nato-nations-deploy-to-greenland",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b4e5aad726b59b7719f5f44f9d02ff6f",
+      "timestamp": "2026-01-15T05:15:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Honduras Favorite Vows to Take Office Despite Resistance - The US-backed president-elect of Honduras vowed to take office this month despite the outgoing leader demanding a recount of the vote, promising he’ll move quickly to boost growth and lure investment ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-s-honduras-favorite-vows-to-take-office-despite-resistance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "775a1669bf7a52a5250d2ce552a573ef",
+      "timestamp": "2026-01-15T05:11:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lufthansa Skirts Iran, Iraq Airspace Amid Rising Turmoil - Deutsche Lufthansa AG will avoid Iranian and Iraqi airspace and might cancel some flights, a spokesperson said in an emailed statement.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/lufthansa-skirts-iran-iraq-airspace-amid-rising-turmoil",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65f2339001bf418642cccc25699784b1",
+      "timestamp": "2026-01-15T05:10:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Iran Protester Killings Have Stopped After His Threat - President Donald Trump said he had been assured that Iran would stop killing protesters, in a signal he could hold off on a threatened military response to the repression of widespread demonstrations ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-says-iran-protester-killings-have-stopped-after-his-threat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "442ddeb13fab207d1989c413f8a5e1da",
+      "timestamp": "2026-01-15T05:00:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Government, Public Anger Grows Over Sexual Deepfakes - The US Senate passes a bill aimed at helping victims of sexualized deepfakes. It comes as anger grows following reports that Elon Musk’s X has become a top site for images of people that have been non",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/government-public-anger-grows-over-sexual-deepfakes-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5630a59965f9d660fbc4671e0a7f61ad",
+      "timestamp": "2026-01-15T04:58:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Powell to Skip Testimony to Congress, Says Steil - Republican Representative Bryan Steil of Wisconsin said that Fed Chair Jerome Powell is expected to skip testifying to congress about economic developments, after Powell became the subject of a DOJ in",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/powell-to-skip-testimony-to-congress-says-steil-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8b76550b81c1a5a91aa78a5e314a3455",
       "timestamp": "2026-01-15T04:58:28+09:00",
@@ -10,6 +98,17 @@
       "related_tickers": [],
       "content": "Carlyle CEO Says Powell Probe Reinforces Fed Independence - Carlyle Group CEO Harvey Schwartz says that an investigation into Federal Reserve Chair Jerome Powell underscores the importance of the US central bank’s independence during an Economic Club of New Yo",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/carlyle-ceo-powell-probe-reinforces-fed-independence-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8b5f0a2883d23afff438c751611c694e",
+      "timestamp": "2026-01-15T04:54:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Toughens Greenland Rhetoric | Balance of Power: Early Edition 1/14/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discusses President Donald Trump's latest comments about Greenland. On today's show, Democratic Congresswoman H",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/balance-of-power-early-edition-1-14-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Congo to Share Minerals Projects List With US to Advance Pact - The Democratic Republic of Congo will shortly share a list of minerals projects with the US for possible development by American investors, six weeks after the two nations signed a strategic partnersh",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/congo-to-share-minerals-projects-list-with-us-to-advance-pact",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9f4e501f374def6b2c5fc86599a3b45e",
-      "timestamp": "2026-01-14T18:12:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Congo to Share Minerals Projects List With US to Advance Pact - The Democratic Republic of Congo will shortly share a list of minerals projects with the US for possible development by American investors, six weeks after the two nations signed a strategic partnersh",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/congo-to-share-minerals-projects-list-with-us-to-advance-pact",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eed2020a373a44f33d6411d3495ce4ae",
-      "timestamp": "2026-01-14T18:02:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Italy’s Meloni Set to Hand Fifth Term to Eni’s Long-Serving CEO - Italy’s government is preparing to reconfirm Claudio Descalzi as chief executive officer of Italian state-backed energy firm Eni SpA, a move that would extend the term of one of Europe’s longest-servi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/italy-s-meloni-set-to-hand-fifth-term-to-eni-s-long-serving-ceo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4da875f1670be58bdeed750dd2a03084",
-      "timestamp": "2026-01-14T18:01:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Defense Company CSG Plans IPO in Amsterdam - Prague-based defense company Czechoslovak Group plans to go public in Amsterdam, in what could be the largest-ever defense initial public offering. The armored vehicle and munitions maker is planning ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/defense-company-csg-plans-ipo-in-amsterdam-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b2353aabc64d58574428933c4f563b6",
-      "timestamp": "2026-01-14T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders Ready For ‘Donroe Doctrine’ to Fuel Market Moves in 2026 - Investors are bracing for a year of heightened geopolitical risk as the White House leans into the “Donroe Doctrine,” the Trumpian revival of a 200-year-old foreign policy that aims to project America",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/traders-ready-for-donroe-doctrine-to-fuel-market-moves-in-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b2353aabc64d58574428933c4f563b6",
-      "timestamp": "2026-01-14T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders Ready For ‘Donroe Doctrine’ to Fuel Market Moves in 2026 - Investors are bracing for a year of heightened geopolitical risk as the White House leans into the “Donroe Doctrine,” the Trumpian revival of a 200-year-old foreign policy that aims to project America",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/traders-ready-for-donroe-doctrine-to-fuel-market-moves-in-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b7b786c32a3e059c6ecacd3b41d1a08b",
-      "timestamp": "2026-01-14T17:58:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia’s Allies Complain Putin Was Nowhere When It Mattered Most - As President Vladimir Putin focuses his attentions on Russia’s war in Ukraine, his strategic allies around the world have been left feeling neglected &mdash; or worse.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/russia-s-allies-complain-putin-was-nowhere-when-it-mattered-most",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a3a0e47d4f0823bebbe6f972833a6e12",
-      "timestamp": "2026-01-14T17:55:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Takaichi, Lee Hold Surprise Drum Session - Japanese PM Sanae Takaichi and South Korean President Lee Jae Myung put up a united front by drumming to ‘KPop Demon Hunters’ and BTS. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/takaichi-lee-hold-surprise-drum-session-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f54f66cb9b44b4a15531f22c70a874da",
-      "timestamp": "2026-01-14T17:52:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa Lauds US Trade-Pact Benefits as Senate Vote Looms - South Africa’s government welcomed the approval of a US preferential-trade deal before a key vote in the Senate, where Pretoria has faced opposition to its continued inclusion in the pact.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/south-africa-lauds-us-trade-pact-benefits-as-senate-vote-looms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "249bb1a9e4b9ef17f622761e21cff617",
-      "timestamp": "2026-01-14T17:48:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Warns Speculators on FX After Yen Sets Fresh 18-Month Low - Japan’s finance minister issued a fresh warning to speculators after the yen weakened to its lowest level against the dollar in 18 months amid reports of a snap general election.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/japan-warns-speculators-on-fx-after-yen-sets-fresh-18-month-low",
       "sentiment": "NEUTRAL"
     }
   ]
