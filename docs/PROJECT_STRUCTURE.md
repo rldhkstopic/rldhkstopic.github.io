@@ -55,8 +55,7 @@
 │   └── scripts/                  # 자동화 스크립트 (.github/scripts에서 이동)
 │
 ├── apps/                         # 애플리케이션들
-│   ├── daily_logger/             # Flutter 일기 앱
-│   └── flutter_app/              # Flutter 앱
+│   └── daily_logger/             # Flutter 일기 앱
 │
 ├── bots/                         # 봇 관련
 │   └── discord/                  # Discord 봇 (local_bot에서 이동)
@@ -77,6 +76,7 @@
 ## 디렉토리 설명
 
 ### Jekyll 관련 (루트)
+
 - `_config.yml`: Jekyll 설정 파일
 - `_data/`: Jekyll 데이터 파일 (YAML, JSON)
 - `_layouts/`: HTML 레이아웃 템플릿
@@ -86,6 +86,7 @@
 - `api/`: Vercel 서버리스 함수
 
 ### automation/ (자동화)
+
 - `requests/`: 자동 포스팅 요청 파일 (JSON)
 - `processed/`: 처리된 요청 파일
 - `results/`: 처리 결과 파일
@@ -93,28 +94,32 @@
 - `scripts/`: 자동화 스크립트 (Python)
 
 ### apps/ (애플리케이션)
+
 - `daily_logger/`: Flutter 일기 앱
-- `flutter_app/`: Flutter 앱
 
 ### bots/ (봇)
+
 - `discord/`: Discord 봇 (Python)
 
 ### scripts/ (유틸리티 스크립트)
+
 - PowerShell/Batch 스크립트들
 - 테스트, 체크, 유틸리티 스크립트
 
 ### docs/ (문서)
+
 - 프로젝트 문서 (Markdown)
 - `index.md`: 문서 인덱스
 
 ### .github/ (GitHub)
+
 - `workflows/`: GitHub Actions 워크플로우 파일
 
 ## 리팩토링 계획
 
 1. ✅ 구조 분석 및 문서화
 2. ⏳ 자동화 파일 이동 (`_auto_post_*` → `automation/`)
-3. ⏳ 앱 이동 (`daily_logger_app`, `flutter_app` → `apps/`)
+3. ✅ 앱 이동 (`daily_logger_app` → `apps/daily_logger/`)
 4. ⏳ 봇 이동 (`local_bot` → `bots/discord/`)
 5. ⏳ 스크립트 통합 (`.github/scripts` → `automation/scripts/`)
 6. ⏳ 경로 참조 업데이트 (워크플로우, 스크립트 등)
