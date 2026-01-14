@@ -432,6 +432,11 @@ class WriterAgent:
                 processed_lines.append(original_line)
                 continue
             
+            # 볼드체 소제목은 건드리지 않음 (**로 시작하고 **로 끝남)
+            if line.strip().startswith('**') and line.strip().endswith('**'):
+                processed_lines.append(original_line)
+                continue
+
             # 코드 블록은 건드리지 않음
             if line.startswith('```'):
                 processed_lines.append(original_line)
