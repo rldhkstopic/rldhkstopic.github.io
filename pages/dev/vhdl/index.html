@@ -37,7 +37,16 @@ permalink: /dev/vhdl/
         </a>
       </div>
       <div class="post-list">
-        {% assign syntax_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | where_exp: "post", "post.title contains '문법' or post.title contains '레퍼런스'" | sort: "date" | reverse | limit: 5 %}
+        {% assign all_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | sort: "date" | reverse %}
+        
+        {% assign syntax_posts = "" | split: "" %}
+        {% for post in all_posts %}
+          {% if post.title contains '문법' or post.title contains '레퍼런스' %}
+            {% assign syntax_posts = syntax_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+        {% assign syntax_posts = syntax_posts | limit: 5 %}
+        
         {% if syntax_posts.size > 0 %}
           {% for post in syntax_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
@@ -76,7 +85,14 @@ permalink: /dev/vhdl/
         </a>
       </div>
       <div class="post-list">
-        {% assign error_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" | where_exp: "post", "post.title contains '⚠️' or post.title contains '오류' or post.title contains 'error' or post.title contains 'Error'" | sort: "date" | reverse | limit: 5 %}
+        {% assign error_posts = "" | split: "" %}
+        {% for post in all_posts %}
+          {% if post.title contains '⚠️' or post.title contains '오류' or post.title contains 'error' or post.title contains 'Error' %}
+            {% assign error_posts = error_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+        {% assign error_posts = error_posts | limit: 5 %}
+        
         {% if error_posts.size > 0 %}
           {% for post in error_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
