@@ -8,11 +8,12 @@
 
 프로그램이나 스크립트가 참조하는 문서는 접두사를 사용합니다:
 
-- **GUIDE_**: 가이드 문서 (프로그램이 참조)
+- **GUIDE\_**: 가이드 문서 (프로그램이 참조)
+
   - `GUIDE_WRITING_STYLE.md`: 글 작성 스타일 가이드
   - `GUIDE_CATEGORY_WRITING.md`: 카테고리별 작성 가이드
 
-- **REF_**: 참조 문서 (프로그램이 참조)
+- **REF\_**: 참조 문서 (프로그램이 참조)
   - `REF_POSTS_OVERVIEW.md`: 포스트 종합 요약
 
 ### 개별 문서 (소문자)
@@ -27,11 +28,13 @@
 ### 프로그램 참고 문서
 
 1. **GUIDE_WRITING_STYLE.md**
+
    - 모든 카테고리에 공통 적용되는 기본 규칙
    - 문체, Front Matter, 구조, 코드 설명 방식
    - `.cursorrules`에서 참조
 
 2. **GUIDE_CATEGORY_WRITING.md**
+
    - 카테고리별 특화 가이드
    - Daily, Dev, Study, Document 각 카테고리별 규칙
 
@@ -42,6 +45,7 @@
 ### 개별 참고 문서
 
 1. **guide-structure.md**
+
    - 문서 가이드들의 관계와 사용 순서
    - 작성 시 어떤 문서를 먼저 읽어야 하는지 설명
 
