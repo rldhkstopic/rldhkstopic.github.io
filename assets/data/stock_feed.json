@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-15T03:04:59.931309+09:00",
+  "last_updated": "2026-01-15T03:44:14.811959+09:00",
   "items": [
+    {
+      "id": "fe445d6075b4b162bc6028844cbd1e3d",
+      "timestamp": "2026-01-15T03:26:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman to Acquire Famed LA Film Lot After $1.1 Billion Default - Goldman Sachs Group Inc. is leading a takeover of a historic Los Angeles studio lot after the owner, Hackman Capital Partners, defaulted on a $1.1 billion mortgage.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/goldman-to-acquire-famed-la-film-lot-after-1-1-billion-default",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bc4b8054c8b3937b7f10b975d4b0599e",
+      "timestamp": "2026-01-15T03:25:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Kashkari: Next Chair Needs to Persuade on Policy - Federal Reserve Bank of Minneapolis President Neel Kashkari said the central bank’s next chair will have to put forward their best arguments for interest rates to persuade other policymakers. “That pe",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/fed-s-kashkari-next-chair-needs-to-persuade-on-policy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "83ca86e9fe7fafe18808c275b9bad260",
+      "timestamp": "2026-01-15T03:13:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Vice Chancellor Says Trump Risks Backfire Amid Fed Attack - German Finance Minister Lars Klingbeil said Donald Trump’s political course risks backfiring and urged Europe not to take his pressure on the Federal Reserve as a model for dealing with central banks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/german-vice-chancellor-says-trump-risks-backfire-amid-fed-attack",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "46e59f1565a987ac58b6203f1cdc46de",
+      "timestamp": "2026-01-15T03:13:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Verizon Users Report Service Outage Affecting Thousands - Verizon Communications Inc. is suffering a widespread service outage, with thousands of users reporting lack of cell service on Wednesday afternoon.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/verizon-users-report-service-outage-affecting-176-000-customers",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bf5dc009440e718242eaea9e186721db",
       "timestamp": "2026-01-15T02:57:57+09:00",
@@ -1993,6 +2037,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "d745c88e8a70a21fd5432fb7826b0793",
+      "timestamp": "2026-01-14T17:19:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Stocks Hover Near Record High as Traders Focus on Iran - European shares hovered near record-high levels as traders focused on the latest developments in Iran, while miners and chemicals stocks gained.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/european-stocks-extend-gains-as-metals-surge-boosts-miners",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "26e4089e28b396baa4f8f3730a764d99",
       "timestamp": "2026-01-14T17:18:12+09:00",
       "source_type": "NEWS",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Greenland and Denmark Readying for Key Meeting to Assuage Trump - Top diplomats from Greenland and Denmark are gearing up for the test of a lifetime as they work to persuade the Trump administration to back off on its demands for the Arctic territory that threaten t",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/greenland-and-denmark-readying-for-key-meeting-to-assuage-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c2a546f52b636c2c3b289b938b5f91d2",
-      "timestamp": "2026-01-14T16:23:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Greenland Chooses Denmark Over US as Partner, PM Says - Greenland’s Prime Minister Jens-Frederik Nielsen categorically ruled out joining the US and said the Arctic territory prefers to be in a union with Denmark. “We choose the Greenland we know today, whi",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/greenland-chooses-denmark-over-us-as-partner-pm-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cb0abc0fc10754d8b7710bae01c1e55d",
-      "timestamp": "2026-01-14T16:22:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tesla Driver-Assist System FSD Will Switch to Subscription-Only, Musk Says - Tesla Inc. will stop selling the advanced driver-assistance system it calls Full Self-Driving, and instead switch to an entirely monthly subscription service.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/tesla-driver-assist-system-fsd-will-switch-to-subscription-only-musk-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "67180a0cba471526128c79aa3b4cd438",
-      "timestamp": "2026-01-14T16:17:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kamrava: Best for Iran Protests is for US to Do Nothing - US President Donald Trump is warning Iranian leaders to show what he described as 'some humanity' towards protesters. Meanwhile, his team is considering the administration's next move as the death tol",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/kamrava-best-for-iran-protests-is-for-us-to-do-nothing-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cbefb3ba4a67f7e14ebbd28cf8ba8e1a",
-      "timestamp": "2026-01-14T16:14:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Key Ukraine Munitions Supplier CSG Plans IPO in Amsterdam - Armored vehicle and munitions maker Czechoslovak Group announced plans to go public in Amsterdam, in what could be the largest-ever defense initial public offering.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/key-ukraine-munitions-supplier-csg-plans-ipo-in-amsterdam",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f559139b6dc48c0a6c337880a74610f1",
-      "timestamp": "2026-01-14T16:07:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crispin Odey’s Hedge Fund Firm to Become Dormant After January - Crispin Odey’s eponymous hedge fund firm will cease trading activities and become dormant after this month, following the British tycoon’s fall from grace.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/crispin-odey-s-hedge-fund-firm-to-become-dormant-after-january",
       "sentiment": "NEUTRAL"
     }
   ]
