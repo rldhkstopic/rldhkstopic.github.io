@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-15T00:05:35.674162+09:00",
+  "last_updated": "2026-01-15T00:38:02.037284+09:00",
   "items": [
+    {
+      "id": "8fecd84dff58ef2d8e3ed2d89fe3dfb3",
+      "timestamp": "2026-01-15T00:29:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela Energy Investments Will Take Time, API CEO Says - American Petroleum Institute President and CEO Mike Sommers says Venezuela is not an attractive place to invest right now but it could be with the proper prerequisites in place during an interview on ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/venezuela-investments-will-take-time-api-ceo-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a61bb695f0a42558ce11fb35006d8cfb",
+      "timestamp": "2026-01-15T00:28:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Home Resales Climb to Fastest Pace Since 2023 - Sales of previously owned homes in the US climbed in December as contract closings rose 5.1% to a 4.35 million annualized pace last month, the highest since February 2023. Michael McKee reports on Blo",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/us-home-resales-climb-to-fastest-pace-since-2023-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ad59e77d1d3047beae94bbb8e72fe50",
+      "timestamp": "2026-01-15T00:13:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Supreme Court Doesn’t Rule on Trump’s Tariffs on Wednesday - The US Supreme Court didn’t rule on challenges to President Donald Trump’s tariffs Wednesday, leaving the world to wait until at least next week to learn the fate of his signature economic policy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/supreme-court-doesn-t-rule-on-trump-s-tariffs-on-wednesday",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ad59e77d1d3047beae94bbb8e72fe50",
+      "timestamp": "2026-01-15T00:13:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Supreme Court Doesn’t Rule on Trump’s Tariffs on Wednesday - The US Supreme Court didn’t rule on challenges to President Donald Trump’s tariffs Wednesday, leaving the world to wait until at least next week to learn the fate of his signature economic policy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/supreme-court-doesn-t-rule-on-trump-s-tariffs-on-wednesday",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "98c03dcbaf37f76a59a61c653bf6105f",
+      "timestamp": "2026-01-15T00:11:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Smart Glasses Market Will Be Worth $200 Billion by 2040, HSBC Says - The rapid growth of the market for smart glasses is set to accelerate further, providing a boost for prime beneficiary EssilorLuxottica SA, HSBC Holdings Plc analysts said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/essilorluxottica-set-to-ride-ai-glasses-market-boom-says-hsbc",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e1f7132196cab47e0b8011fe6c8b5c61",
       "timestamp": "2026-01-14T23:59:39+09:00",
@@ -10,6 +65,17 @@
       "related_tickers": [],
       "content": "Chanel, Kering and LVMH Owed About $225 Million by Bankrupt Saks - Saks Global Enterprises’ delayed payments to luxury brands played a key role in accelerating the retailer’s decline and pushing it into bankruptcy.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/chanel-kering-and-lvmh-owed-about-225-million-by-bankrupt-saks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4ff0bcfc479b402831489110d279c3b0",
+      "timestamp": "2026-01-14T23:58:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stocks Extend Drop as Data Fails to Convince on Rate Cut Path - A slide in US stocks continued Wednesday as a flurry of economic data failed to change any expectations for the Federal Reserve’s interest-rate path and traders digest the latest round of big bank ear",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-stocks-extend-drop-as-data-fails-to-convince-on-rate-cut-path",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "HHS Reverses Cuts to Safety Agency NIOSH, Reinstating Hundreds - The Trump Administration is reversing its deep staffing cuts to the National Institute for Occupational Safety and Health, reinstating hundreds of employees.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/hhs-reverses-cuts-to-safety-agency-niosh-reinstating-hundreds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "500a3afb40e7527a399e40a7890d2116",
-      "timestamp": "2026-01-14T08:28:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Obamacare Enrollment Drops Before Deadline After Subsidies Expire - About 1.4 million fewer people have signed up for Obamacare plans so far compared to last year as a federal tax credit expires and consumers confront significantly higher premiums.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/obamacare-signups-fall-by-more-than-a-million-as-subsidies-lapse",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b0648712535d8a5eee5bcad86795feca",
-      "timestamp": "2026-01-14T08:27:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Steadies After Four-Day Rally With Focus on Iran Meeting - Oil steadied after notching its biggest four-day gain in more than six months, as US officials planned to discuss Iran during a White House meeting.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/latest-oil-market-news-and-analysis-for-jan-14",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "72cb41ec8ced0c515b4803d38f2ba84f",
-      "timestamp": "2026-01-14T08:18:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed Will Continue 'Doing What They've Been Doing' in Face of Turmoil, Says PGIM's Tipp - Robert Tipp, PGIM Managing Director, Chief Investment Strategist, and Head of Global Bonds, joins Bloomberg Businessweek Daily to discuss the bond market's reaction after Fed Chair Jerome Powell said ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/pgim-s-tipp-fed-will-continue-status-quo-amid-attacks-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6bd43ff62843fc02041c7d697c16de7e",
-      "timestamp": "2026-01-14T08:14:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Regime, US Credibility on The Line: Sadjadpour - Karim Sadjadpour, Carnegie Endowment for International Peace Senior Fellow, states Iran's regime and the United States' credibility is on the line when discussing what this current moment in Iran mean",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/iran-regime-us-credibility-on-the-line-sadjadpour-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c2fdc3914426efd950c3908463be7f13",
-      "timestamp": "2026-01-14T08:12:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Aggressive Fed Cuts Won't Mean Lower Mortgage Rates: Deutsche Bank's Luzzetti - Matthew Luzzetti, Chief US Economist at Deutsche Bank, joins Bloomberg Businessweek Daily to discuss the Trump administration's legal and political attacks on the Federal Reserve and Chair Jerome Powe",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/db-s-luzzetti-on-fed-cuts-mortgage-rates-disconnect-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d55a6d928cc6affb59e36ffe7541055",
-      "timestamp": "2026-01-14T08:04:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fabletics COO on Expanding Retail Presence, Tech 'DNA' - Meera Bhatia, Fabletics Brand President and Chief Operating Officer, discusses the athleisure outlook and competition in activewear with Romaine Bostick on “The Close.” She says the company invests in",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/fabletics-coo-on-expanding-retail-presence-tech-dna-video",
       "sentiment": "NEUTRAL"
     }
   ]
