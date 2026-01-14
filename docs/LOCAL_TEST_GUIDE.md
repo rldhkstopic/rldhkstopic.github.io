@@ -12,9 +12,23 @@ Python 3.11 이상이 설치되어 있어야 합니다.
 python --version
 ```
 
-### 2. GEMINI_API_KEY 환경 변수 설정
+### 2. GEMINI_API_KEY 설정
 
-Gemini API 키를 환경 변수로 설정해야 합니다.
+Gemini API 키를 설정하는 방법은 두 가지가 있습니다:
+
+#### 방법 1: .env 파일 사용 (권장)
+
+프로젝트에 이미 `local_bot/.env` 파일이 있다면, 그 파일에 API 키를 추가하세요:
+
+1. `local_bot/.env` 파일 열기 (없으면 생성)
+2. 다음 줄 추가:
+   ```
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+스크립트가 자동으로 이 파일에서 API 키를 로드합니다.
+
+#### 방법 2: 환경 변수 사용
 
 **Windows (PowerShell):**
 ```powershell
@@ -31,7 +45,9 @@ set GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 export GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 ```
 
-⚠️ **보안 주의**: API 키를 코드에 하드코딩하지 마세요!
+⚠️ **보안 주의**: 
+- API 키를 코드에 하드코딩하지 마세요!
+- `.env` 파일은 `.gitignore`에 추가되어 있어야 합니다 (이미 설정되어 있음)
 
 ### 3. Python 패키지 설치
 

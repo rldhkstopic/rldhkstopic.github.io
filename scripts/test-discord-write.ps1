@@ -17,19 +17,29 @@ if ($LASTEXITCODE -ne 0) {
 Write-Host "[OK] $pythonVersion" -ForegroundColor Green
 Write-Host ""
 
-# 환경 변수 확인
+# 환경 변수 확인 (.env 파일도 확인)
 Write-Host "[2/4] GEMINI_API_KEY 확인 중..." -ForegroundColor Yellow
 $apiKey = $env:GEMINI_API_KEY
-if (-not $apiKey) {
-    Write-Host "[ERROR] GEMINI_API_KEY 환경 변수가 설정되지 않았습니다." -ForegroundColor Red
+$envFile = "local_bot\.env"
+
+# .env 파일이 있으면 확인
+if (-not $apiKey -and (Test-Path $envFile)) {
+    Write-Host "[INFO] local_bot/.env 파일을 발견했습니다." -ForegroundColor Gray
+    Write-Host "[INFO] Python 스크립트가 자동으로 .env 파일에서 키를 로드합니다." -ForegroundColor Gray
+    Write-Host "[OK] .env 파일에서 API 키를 사용합니다." -ForegroundColor Green
+} elseif (-not $apiKey) {
+    Write-Host "[ERROR] GEMINI_API_KEY를 찾을 수 없습니다." -ForegroundColor Red
     Write-Host ""
-    Write-Host "다음 명령어로 환경 변수를 설정하세요:" -ForegroundColor Yellow
-    Write-Host '  $env:GEMINI_API_KEY = "<YOUR_GEMINI_API_KEY>"' -ForegroundColor Cyan
+    Write-Host "다음 방법 중 하나로 API 키를 설정하세요:" -ForegroundColor Yellow
+    Write-Host "  1. local_bot/.env 파일에 GEMINI_API_KEY=your_key 추가" -ForegroundColor Cyan
+    Write-Host "  2. 환경 변수로 설정:" -ForegroundColor Cyan
+    Write-Host '     $env:GEMINI_API_KEY = "<YOUR_GEMINI_API_KEY>"' -ForegroundColor Cyan
     Write-Host ""
     Write-Host "보안상 키를 스크립트에 하드코딩하지 마세요." -ForegroundColor Yellow
     exit 1
+} else {
+    Write-Host "[OK] 환경 변수에서 GEMINI_API_KEY를 확인했습니다." -ForegroundColor Green
 }
-Write-Host "[OK] GEMINI_API_KEY가 설정되어 있습니다." -ForegroundColor Green
 Write-Host ""
 
 # 의존성 설치

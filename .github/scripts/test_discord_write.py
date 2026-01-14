@@ -12,6 +12,16 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+# .env 파일 지원 (python-dotenv 설치 필요)
+try:
+    from dotenv import load_dotenv
+    # 프로젝트 루트와 local_bot 디렉토리의 .env 파일 로드
+    project_root = Path(__file__).parent.parent.parent
+    load_dotenv(project_root / "local_bot" / ".env")  # local_bot/.env 파일 로드
+    load_dotenv(project_root / ".env")  # 프로젝트 루트의 .env 파일도 로드 (있는 경우)
+except ImportError:
+    pass  # python-dotenv가 없어도 환경 변수로 동작
+
 # 프로젝트 루트를 Python 경로에 추가
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root / '.github' / 'scripts'))
@@ -120,14 +130,24 @@ def get_user_input() -> dict:
 
 def main():
     """메인 실행 함수"""
-    # 환경 변수 확인
+    # 환경 변수 확인 (.env 파일에서도 로드됨)
     gemini_key = os.getenv('GEMINI_API_KEY')
     if not gemini_key:
-        print("[ERROR] GEMINI_API_KEY 환경 변수가 설정되지 않았습니다.")
-        print("\n다음 명령어로 환경 변수를 설정하세요:")
-        print("  Windows: $env:GEMINI_API_KEY = \"<YOUR_KEY>\"")
-        print("  Linux/Mac: export GEMINI_API_KEY=\"<YOUR_KEY>\"")
+        print("[ERROR] GEMINI_API_KEY를 찾을 수 없습니다.")
+        print("\n다음 방법 중 하나로 API 키를 설정하세요:")
+        print("  1. local_bot/.env 파일에 GEMINI_API_KEY=your_key 추가")
+        print("  2. 환경 변수로 설정:")
+        print("     Windows: $env:GEMINI_API_KEY = \"<YOUR_KEY>\"")
+        print("     Linux/Mac: export GEMINI_API_KEY=\"<YOUR_KEY>\"")
+        print("\n참고: local_bot/.env 파일이 있다면 자동으로 로드됩니다.")
         sys.exit(1)
+    
+    # API 키가 .env 파일에서 로드되었는지 확인
+    env_file = project_root / "local_bot" / ".env"
+    if env_file.exists():
+        print(f"[INFO] local_bot/.env 파일에서 API 키를 로드했습니다.")
+    else:
+        print(f"[INFO] 환경 변수에서 API 키를 사용합니다.")
     
     try:
         # 사용자 입력 받기
