@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-15T07:39:05.328947+09:00",
+  "last_updated": "2026-01-15T08:03:24.895077+09:00",
   "items": [
+    {
+      "id": "8484c776266397b9b0dfac953563ef72",
+      "timestamp": "2026-01-15T07:47:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks Slide as Banks Weigh, Tech Weakness Persists | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, David Gura, Carol Massar and Tim Stenovec. (Source: Bloomberg",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stocks-slide-as-banks-weigh-closing-bell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b8d35fbd71c320cc4c5227bce7cccf2f",
+      "timestamp": "2026-01-15T07:44:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Talks Oil, Trade in ‘Good Call’ With Venezuela’s Rodriguez - President Donald Trump said he had a “very good call” with acting Venezuelan President Delcy Rodriguez on Wednesday, hailing her cooperation with his administration a day before he is scheduled to mee",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-talks-oil-trade-in-good-call-with-venezuela-s-rodriguez",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "475a05ecf6d3a3e61a82a2c56108ab9e",
+      "timestamp": "2026-01-15T07:43:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Shares Set for Weaker Open, Crude Oil Falls: Markets Wrap - Asia’s benchmark share index is set to slip from a record high after declines on Wall Street, where investors rotated out of richly valued technology stocks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/stock-market-today-dow-s-p-live-updates",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7ce09549c6e5c565ff65789e705698a7",
       "timestamp": "2026-01-15T07:17:03+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Wall Street Frets Over Policy Uncertainty With Midterms Looming - Wall Street loves few things more than a good acronym to describe a trading thesis. Think FANG, FOMO/YOLO and TACO.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/wall-street-frets-over-policy-uncertainty-with-midterms-looming",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "665c53da6ad949f6cfef2076aa739af7",
-      "timestamp": "2026-01-14T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Polymarket Steps Into Legal Gray Area by Hosting Trades on War - Even as prediction-market platforms have tested legal and regulatory norms like never before, most have drawn a line at one category: direct wagers on war.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/polymarket-faces-scrutiny-for-hosting-prediction-markets-on-war-and-conflict",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "665c53da6ad949f6cfef2076aa739af7",
-      "timestamp": "2026-01-14T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Polymarket Steps Into Legal Gray Area by Hosting Trades on War - Even as prediction-market platforms have tested legal and regulatory norms like never before, most have drawn a line at one category: direct wagers on war.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/polymarket-faces-scrutiny-for-hosting-prediction-markets-on-war-and-conflict",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ef5a6b81b2ebea4bf6f476a050e66cd5",
-      "timestamp": "2026-01-14T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Xi Welcomes Stream of Leaders Shaken by Trump’s New World Order - Donald Trump’s tariff war occupied US allies for much of last year. Now, President Xi Jinping is welcoming a procession of leaders looking to mend fences with the world’s other major economy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/xi-welcomes-stream-of-leaders-shaken-by-trump-s-new-world-order",
       "sentiment": "NEUTRAL"
     }
   ]
