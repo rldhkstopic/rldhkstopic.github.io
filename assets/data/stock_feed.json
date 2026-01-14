@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-15T01:43:14.888814+09:00",
+  "last_updated": "2026-01-15T02:07:23.788373+09:00",
   "items": [
+    {
+      "id": "feb5fe8f21c2f8e1264eae217592ad05",
+      "timestamp": "2026-01-15T02:03:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Microsoft Shuts Down Scam Website That Helped Fraudsters Steal Millions - Attackers leveraged pirated software.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-14/microsoft-shuts-down-scam-website-that-helped-fraudsters-steal-millions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "88c15e199d0bff4b493a5fb1f48bb16b",
+      "timestamp": "2026-01-15T01:43:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to Sign Bill Allowing Sale of Whole Milk in Schools - President Donald Trump will sign legislation Wednesday allowing schools that participate in a federal lunch program to serve whole milk, the latest measure advancing his administration’s health agenda",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-to-sign-bill-wednesday-allowing-whole-milk-in-schools",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ef8437ba16060dc5b938d22030232acb",
+      "timestamp": "2026-01-15T01:41:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DoorDash, Uber Drivers Stiffed on $550 Million in Tips, NYC Says - DoorDash Inc. and Uber Technologies Inc. have deprived New York delivery workers of more than $550 million in tips after changing the interfaces on their apps, according to findings released in a repo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/doordash-uber-drivers-stiffed-on-550-million-in-tips-nyc-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ef8437ba16060dc5b938d22030232acb",
+      "timestamp": "2026-01-15T01:41:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DoorDash, Uber Drivers Stiffed on $550 Million in Tips, NYC Says - DoorDash Inc. and Uber Technologies Inc. have deprived New York delivery workers of more than $550 million in tips after changing the interfaces on their apps, according to findings released in a repo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/doordash-uber-drivers-stiffed-on-550-million-in-tips-nyc-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "52b0b892b238790e10463831de3d3b8d",
+      "timestamp": "2026-01-15T01:32:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK’s Reeves Challenges Farage to Back £45 Billion Rail Plan - UK Chancellor of the Exchequer Rachel Reeves challenged Nigel Farage to endorse plans to invest up to £45 billion ($61 billion) on a major rail development in northern England, the latest sign that th",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/uk-s-reeves-challenges-farage-to-back-45-billion-rail-plan",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6888c83e639ac2d635b9bbfa43d1f4bf",
       "timestamp": "2026-01-15T01:31:47+09:00",
@@ -197,6 +252,17 @@
       "related_tickers": [],
       "content": "Surging Oil Tanker Insurance Points to Growing Black Sea Chaos - The cost of insuring ships sailing through the Black Sea is surging again, as spiraling attacks on vessels underscore the growing risk of hauling commodities through the region.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/surging-oil-tanker-insurance-points-to-growing-black-sea-chaos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2cfef8261970310b1010298983e49f01",
+      "timestamp": "2026-01-15T00:53:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bloomberg Surveillance 1/14/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bloomberg-surveillance-1-14-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "Rubio, India’s Foreign Minister Hold Call as Trade Talks Drag On - US Secretary of State Marco Rubio spoke about trade with his Indian counterpart on Tuesday as questions linger over when the two countries will sign a deal to ease Washington’s punitive tariffs on New",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/rubio-india-s-foreign-minister-hold-call-as-trade-talks-drag-on",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "404338449c06c25b24be37adaa195a69",
-      "timestamp": "2026-01-14T13:26:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Steel Exports Surge to Record Despite Global Pushback - China’s steel exports surged to an all-time high in December, rounding off a record year in which overseas shipments defied mounting trade pressures and expectations of a slowdown.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/china-s-steel-exports-surge-to-record-despite-global-pushback",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "43043e49038db8a82306aff5e5ea4a50",
-      "timestamp": "2026-01-14T13:21:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Former US Diplomat Klein on US-China Relations - William Klein, Consulting Partner at FSG Global and former US Diplomat, discusses the outlook for US and China relations and the impact from President Trump’s tariffs on Iran’s trading partners. He sp",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/former-us-diplomat-klein-on-us-china-relations-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83756baf8416caf10400550ae8ce0b3c",
-      "timestamp": "2026-01-14T13:13:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "'Takaichi Trade' Roars Back on Snap Election Bets | The Asia Trade 1/13/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Sydney and Singapore with Paul Allen and Avril Hong, gettin",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/the-asia-trade-1-14-26-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "999f66bb3ee46cdecfd7141d1c1d483b",
-      "timestamp": "2026-01-14T13:12:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Zhipu Unveils New AI Model Trained on Huawei’s Chips - Chinese AI startup Knowledge Atlas Technology JSC Ltd. released a new multimodal model that it says is the country’s first to be fully trained using domestic chips, in a sign of progress toward meetin",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/china-s-zhipu-unveils-new-ai-model-trained-on-huawei-s-chips",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e220bc1230d55f6d04f5df9b8e245482",
-      "timestamp": "2026-01-14T13:00:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Inflation Numbers Are Looking Too Good to Trust - <p>The year starts with a positive surprise, but markets refrain from glee.</p>",
-      "url": "https://www.bloomberg.com/opinion/newsletters/2026-01-14/inflation-numbers-are-looking-too-good-to-trust",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a67211407ec16e62427c1f2e96eee06f",
-      "timestamp": "2026-01-14T12:48:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela’s Leader Returns to X in Reversal of Maduro’s Ban - Venezuela’s acting President Delcy Rodriguez declared her return to X, reversing Nicolas Maduro’s 2024 decision to block the social media platform after feuding with Donald Trump and Elon Musk.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/venezuela-s-leader-returns-to-x-in-reversal-of-maduro-s-ban",
       "sentiment": "NEUTRAL"
     }
   ]
