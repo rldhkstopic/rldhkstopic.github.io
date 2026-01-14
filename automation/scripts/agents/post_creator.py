@@ -14,9 +14,9 @@ class PostCreatorAgent:
     
     def __init__(self):
         # 프로젝트 루트 찾기
-        # auto_post.py는 .github/scripts/에 있고, 프로젝트 루트는 그 위 2단계
+        # auto_post.py는 automation/scripts/에 있고, 프로젝트 루트는 그 위 2단계
         current_file = Path(__file__)
-        # agents/post_creator.py -> scripts/agents/ -> scripts/ -> .github/ -> 프로젝트 루트
+        # agents/post_creator.py -> scripts/agents/ -> scripts/ -> automation/ -> 프로젝트 루트
         project_root = current_file.parent.parent.parent.parent
         self.posts_dir = project_root / '_posts'
         self.posts_dir.mkdir(parents=True, exist_ok=True)

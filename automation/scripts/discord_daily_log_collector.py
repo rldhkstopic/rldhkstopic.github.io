@@ -183,7 +183,7 @@ def save_logs(target_date: str, logs: List[Dict[str, Any]], logs_root: str) -> T
 def main() -> int:
     token = os.getenv("DISCORD_BOT_TOKEN", "").strip()
     channel_id = os.getenv("DISCORD_CHANNEL_ID", "").strip()
-    logs_root = os.getenv("DAILY_LOGS_DIR", "_daily_logs").strip() or "_daily_logs"
+    logs_root = os.getenv("DAILY_LOGS_DIR", "automation/logs/_daily_logs").strip() or "automation/logs/_daily_logs"
     api_base = os.getenv("DISCORD_API_BASE", "https://discord.com/api/v10").strip() or "https://discord.com/api/v10"
 
     if not token:

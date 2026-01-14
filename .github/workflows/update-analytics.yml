@@ -30,7 +30,7 @@ jobs:
           GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
           pip install requests -q
-          python .github/scripts/workflow_notifier.py started || true
+          python automation/scripts/workflow_notifier.py started || true
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -46,7 +46,7 @@ jobs:
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
           GA4_CREDENTIALS: ${{ secrets.GA4_CREDENTIALS }}
         run: |
-          node .github/scripts/fetch-analytics.js
+          node automation/scripts/fetch-analytics.js
 
       - name: Commit and push
         run: |

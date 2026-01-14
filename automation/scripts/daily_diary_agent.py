@@ -31,7 +31,7 @@ def load_daily_logs(target_date: str) -> List[Dict]:
     Returns:
         기록 리스트
     """
-    logs_dir = project_root / "_daily_logs" / target_date
+    logs_dir = project_root / "automation" / "logs" / target_date
     if not logs_dir.exists():
         return []
     

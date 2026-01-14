@@ -16,7 +16,7 @@ from typing import Dict, List, Set
 
 # 프로젝트 루트를 Python 경로에 추가
 project_root = Path(__file__).parent.parent.parent
-sys.path.insert(0, str(project_root / '.github' / 'scripts'))
+sys.path.insert(0, str(project_root / 'automation' / 'scripts'))
 
 from agents.topic_collector import TopicCollectorAgent
 from agents.researcher import ResearcherAgent
@@ -31,9 +31,9 @@ try:
     DISCORD_NOTIFIER_AVAILABLE = True
 except ImportError:
     DISCORD_NOTIFIER_AVAILABLE = False
-REQUEST_DIR = project_root / "_auto_post_requests"
-PROCESSED_DIR = project_root / "_auto_post_requests_processed"
-RESULTS_DIR = project_root / "_auto_post_results"
+REQUEST_DIR = project_root / "automation" / "requests"
+PROCESSED_DIR = project_root / "automation" / "processed"
+RESULTS_DIR = project_root / "automation" / "results"
 
 
 

@@ -20,18 +20,18 @@ Write-Host ""
 # 환경 변수 확인 (.env 파일도 확인)
 Write-Host "[2/4] GEMINI_API_KEY 확인 중..." -ForegroundColor Yellow
 $apiKey = $env:GEMINI_API_KEY
-$envFile = "local_bot\.env"
+$envFile = "bots\discord\.env"
 
 # .env 파일이 있으면 확인
 if (-not $apiKey -and (Test-Path $envFile)) {
-    Write-Host "[INFO] local_bot/.env 파일을 발견했습니다." -ForegroundColor Gray
+    Write-Host "[INFO] bots/discord/.env 파일을 발견했습니다." -ForegroundColor Gray
     Write-Host "[INFO] Python 스크립트가 자동으로 .env 파일에서 키를 로드합니다." -ForegroundColor Gray
     Write-Host "[OK] .env 파일에서 API 키를 사용합니다." -ForegroundColor Green
 } elseif (-not $apiKey) {
     Write-Host "[ERROR] GEMINI_API_KEY를 찾을 수 없습니다." -ForegroundColor Red
     Write-Host ""
     Write-Host "다음 방법 중 하나로 API 키를 설정하세요:" -ForegroundColor Yellow
-    Write-Host "  1. local_bot/.env 파일에 GEMINI_API_KEY=your_key 추가" -ForegroundColor Cyan
+    Write-Host "  1. bots/discord/.env 파일에 GEMINI_API_KEY=your_key 추가" -ForegroundColor Cyan
     Write-Host "  2. 환경 변수로 설정:" -ForegroundColor Cyan
     Write-Host '     $env:GEMINI_API_KEY = "<YOUR_GEMINI_API_KEY>"' -ForegroundColor Cyan
     Write-Host ""
@@ -74,7 +74,7 @@ Write-Host "테스트 시작" -ForegroundColor Cyan
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host ""
 
-$scriptPath = ".github\scripts\test_discord_write.py"
+$scriptPath = "automation\scripts\test_discord_write.py"
 python $scriptPath
 
 $exitCode = $LASTEXITCODE

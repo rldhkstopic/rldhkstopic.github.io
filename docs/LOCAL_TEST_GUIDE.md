@@ -18,9 +18,9 @@ Gemini API 키를 설정하는 방법은 두 가지가 있습니다:
 
 #### 방법 1: .env 파일 사용 (권장)
 
-프로젝트에 이미 `local_bot/.env` 파일이 있다면, 그 파일에 API 키를 추가하세요:
+프로젝트에 이미 `bots/discord/.env` 파일이 있다면, 그 파일에 API 키를 추가하세요:
 
-1. `local_bot/.env` 파일 열기 (없으면 생성)
+1. `bots/discord/.env` 파일 열기 (없으면 생성)
 2. 다음 줄 추가:
    ```
    GEMINI_API_KEY=your_api_key_here
@@ -79,7 +79,7 @@ pip install -r .github/scripts/requirements.txt
 ### 방법 2: Python 스크립트 직접 실행
 
 ```bash
-python .github/scripts/test_discord_write.py
+python automation/scripts/test_discord_write.py
 ```
 
 ## 📝 사용 예시

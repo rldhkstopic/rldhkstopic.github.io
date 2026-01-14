@@ -30,7 +30,7 @@ jobs:
           ECONOMIC_NEWS_RSS_FEEDS: ${{ secrets.ECONOMIC_NEWS_RSS_FEEDS }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          python .github/scripts/stock_feed_agent.py
+          python automation/scripts/stock_feed_agent.py
 
       - name: Commit and push changes
         run: |
