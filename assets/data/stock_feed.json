@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-14T13:45:44.492678+09:00",
+  "last_updated": "2026-01-14T14:06:32.049262+09:00",
   "items": [
+    {
+      "id": "c061cf8f76e71c64e0198e8e8bf7bfd2",
+      "timestamp": "2026-01-14T14:01:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The China Show 1/14/2026 (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/the-china-show-1-14-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "af72b5af85bc9e0f9cbe032b9a028bda",
+      "timestamp": "2026-01-14T14:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sweden’s Once-Pioneering Green Ambitions Are Unravelling - <p>Emissions are rising again, and&nbsp;companies are in financial trouble</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/sweden-s-climate-change-action-ambitions-are-unravelling",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bf81fda01c0988c8d65be674707ae713",
+      "timestamp": "2026-01-14T14:00:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bobi Wine Seeks to End 40 Years of Uganda 'Family Rule' - Uganda’s main opposition leader Bobi Wine discusses the upcoming election in the East African country. \"Through this election, the people of Uganda should be allowed to get involved, take charge of th",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bobi-wine-seeks-to-end-40-years-of-uganda-family-rule",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "afff3141e81735f1c3964d334e312b85",
       "timestamp": "2026-01-14T13:27:40+09:00",
@@ -32,6 +65,17 @@
       "related_tickers": [],
       "content": "Former US Diplomat Klein on US-China Relations - William Klein, Consulting Partner at FSG Global and former US Diplomat, discusses the outlook for US and China relations and the impact from President Trump’s tariffs on Iran’s trading partners. He sp",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/former-us-diplomat-klein-on-us-china-relations-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "83756baf8416caf10400550ae8ce0b3c",
+      "timestamp": "2026-01-14T13:13:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "'Takaichi Trade' Roars Back on Snap Election Bets | The Asia Trade 1/13/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Sydney and Singapore with Paul Allen and Avril Hong, gettin",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/the-asia-trade-1-14-26-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Meta Begins Job Cuts as It Shifts From Metaverse to AI Devices - Meta Platforms Inc. is beginning to cut more than 1,000 jobs from the company’s Reality Labs division, part of a plan to redirect resources from virtual reality and metaverse products toward AI wearab",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/meta-begins-jobs-cuts-after-shifting-focus-from-metaverse-to-phones",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fdc533b250a28b41b11159bb5dbb1324",
-      "timestamp": "2026-01-13T21:05:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Volatility Rattles Stock Traders Chasing Next Wave of Winners - Artificial intelligence infrastructure has been a solid stock market bet over the past year, with many of 2025’s best performers in the S&amp;P 500 Index falling into the category. But the trade is ge",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/investors-want-a-broader-ai-trade-but-it-s-volatile-out-there",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3a56b2e9b63cad39f4666a6c798a9e8e",
-      "timestamp": "2026-01-13T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Chatty New Robot Is Fluffy, Lovable and Dorky - Sharp’s $250 Poketomo is winning hearts and minds.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-13/sharp-poketomo-review-fluffy-lovable-pricey-and-dorky",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a0252ba9e9ea2fb2587fcf20066fa85",
-      "timestamp": "2026-01-13T21:00:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Proxima Raises $80 Million for AI Drug Discovery From DCVC, Nvidia - Proxima, a biotech startup using artificial intelligence to design drugs that control protein interactions, raised $80 million in seed funding, which will help it collect better data and eventually de",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/proxima-raises-80-million-for-ai-drug-discovery-from-dcva-nvidia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "62317630462f5bf7e0240538453d8392",
-      "timestamp": "2026-01-13T20:57:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Altnet Firm G.Network Put Into Administration Ahead of Sale - UK broadband firm G.Network Communications has been put into administration ahead of a sales process that is expected to kick off imminently, in the latest sign of mounting stress in the sector.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/uk-altnet-firm-g-network-put-into-administration-ahead-of-sale",
       "sentiment": "NEUTRAL"
     }
   ]
