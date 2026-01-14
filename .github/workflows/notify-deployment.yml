@@ -1,0 +1,29 @@
+name: Notify Deployment Status
+
+on:
+  page_build:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Notify workflow status
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_WORKFLOW: "GitHub Pages"
+          GITHUB_SERVER_URL: ${{ github.server_url }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_REF_NAME: "main"
+          GITHUB_COMMIT_MESSAGE: "GitHub Pages deployment"
+        run: |
+          pip install requests -q
+          if [ "${{ github.event.build.status }}" == "built" ]; then
+            python .github/scripts/workflow_notifier.py success || true
+          else
+            python .github/scripts/workflow_notifier.py failure || true
+          fi
