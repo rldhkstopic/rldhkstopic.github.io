@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-14T08:33:49.973290+09:00",
+  "last_updated": "2026-01-14T09:13:04.035666+09:00",
   "items": [
+    {
+      "id": "f5abcd46d14b388137953769fdd3620e",
+      "timestamp": "2026-01-14T08:59:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cerebras in Discussions to Raise Funds at $22 Billion Valuation - AI chip provider Cerebras Systems Inc. is in talks to raise roughly $1 billion in a new funding round, according to a person familiar with the matter, bolstering the company’s efforts to compete with ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/cerebras-in-discussions-to-raise-funds-at-22-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "549da7804e9b436836ef19e6e769476c",
+      "timestamp": "2026-01-14T08:54:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Delta Declines on Tepid Forecast as Geopolitics Weigh on Travel - Delta Air Lines gave a profit forecast that fell short of Wall Street estimates, with the major US airline taking a more cautious view for 2026 after the aviation industry emerged from a volatile year",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-13/delta-declines-on-tepid-forecast-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "796e9310be0860b014acf5985315e650",
+      "timestamp": "2026-01-14T08:45:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela to Send Envoy for US Talks on Same Day Machado Visits - Venezuela’s acting president plans to send an envoy to Washington to meet with senior US officials on the same day that opposition leader Maria Corina Machado will be in town for her own talks in the ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/venezuela-to-send-envoy-for-us-talks-on-same-day-machado-visits",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "952fde88155233538ebb3bb200932499",
+      "timestamp": "2026-01-14T08:39:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Steady Near Record High as US Inflation Supports Rate Cuts - Gold was steady near a record high as weaker-than expected US inflation data supported the case for more rate cuts, while geopolitical tensions remained elevated.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/gold-steady-near-record-high-as-us-inflation-supports-rate-cuts",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f9d5b823307cd60c315d80afb4ac49ce",
       "timestamp": "2026-01-14T08:29:31+09:00",
@@ -10,6 +54,28 @@
       "related_tickers": [],
       "content": "HHS Reverses Cuts to Safety Agency NIOSH, Reinstating Hundreds - The Trump Administration is reversing its deep staffing cuts to the National Institute for Occupational Safety and Health, reinstating hundreds of employees.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/hhs-reverses-cuts-to-safety-agency-niosh-reinstating-hundreds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "500a3afb40e7527a399e40a7890d2116",
+      "timestamp": "2026-01-14T08:28:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Obamacare Enrollment Drops Before Deadline After Subsidies Expire - About 1.4 million fewer people have signed up for Obamacare plans so far compared to last year as a federal tax credit expires and consumers confront significantly higher premiums.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/obamacare-signups-fall-by-more-than-a-million-as-subsidies-lapse",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0648712535d8a5eee5bcad86795feca",
+      "timestamp": "2026-01-14T08:27:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Steadies After Four-Day Rally With Focus on Iran Meeting - Oil steadied after notching its biggest four-day gain in more than six months, as US officials planned to discuss Iran during a White House meeting.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/latest-oil-market-news-and-analysis-for-jan-14",
       "sentiment": "NEUTRAL"
     },
     {
@@ -54,6 +120,17 @@
       "related_tickers": [],
       "content": "Fabletics COO on Expanding Retail Presence, Tech 'DNA' - Meera Bhatia, Fabletics Brand President and Chief Operating Officer, discusses the athleisure outlook and competition in activewear with Romaine Bostick on “The Close.” She says the company invests in",
       "url": "https://www.bloomberg.com/news/videos/2026-01-13/fabletics-coo-on-expanding-retail-presence-tech-dna-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "874f3587c4ed7be09bb565fccfd7fe47",
+      "timestamp": "2026-01-14T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Investors Turn to China Stocks, Yuan in Big Bets for 2026 - Investors are ramping up bets on China’s stocks and currency as 2026 kicks off, signaling a more decisive shift into the country’s assets at a time of rising global uncertainties.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-13/global-investors-turn-to-china-stocks-yuan-in-big-bets-for-2026",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Iran Protests Escalate During Internet Crackdown - Iran restricted internet and phone access overnight to quell escalating protests across the country, as Supreme Leader Ayatollah Ali Khamenei warned that he won’t back down against the demonstrators. ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-11/protests-in-iran-enter-third-week-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "faaf89f99e7685559decfe5f0850ef9d",
-      "timestamp": "2026-01-12T00:23:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Strikes Russian Oil Drilling Platforms in Caspian Sea - Ukraine overnight targeted three drilling platforms in the Caspian Sea owned by Russian oil major Lukoil in the latest move to weaken Russia’s economic capacity to fund its war effort.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/ukraine-strikes-russian-oil-drilling-platforms-in-caspian-sea",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "faaf89f99e7685559decfe5f0850ef9d",
-      "timestamp": "2026-01-12T00:23:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Strikes Russian Oil Drilling Platforms in Caspian Sea - Ukraine overnight targeted three drilling platforms in the Caspian Sea owned by Russian oil major Lukoil in the latest move to weaken Russia’s economic capacity to fund its war effort.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/ukraine-strikes-russian-oil-drilling-platforms-in-caspian-sea",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "53fb8de2db7e52babe41aa528f5d4a43",
-      "timestamp": "2026-01-12T00:15:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Firm Sharpens Saudi Property Focus as Prince Opens Market - The Trump Organization and luxury developer Dar Global Plc are kicking off sales at real estate projects in Saudi Arabia valued at $10 billion, seeking to capitalize on new rules that will soon make i",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/trump-firm-sharpens-saudi-property-focus-as-prince-opens-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "118ab34e6c13362f192ffdbfcf60dff5",
-      "timestamp": "2026-01-12T00:05:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Mount Everest Became a Playground for the Ultra-Rich - With expeditions priced as high as $230,000, heated tents and Western chefs at base camp, Everest is now a luxury playground for the ultra-wealthy. Growing demand for Everest expeditions is the latest",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-11/why-mount-everest-became-a-playground-for-the-ultra-rich-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca1384e78dcc7fa2d2cd35f647a234fb",
-      "timestamp": "2026-01-12T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘Captain Condor’ Wipeout Offers Harsh Lesson in Managing Risk - It wasn’t some YOLO trade that took down a successful options trader over Christmas, but a centuries-old gambling strategy popular with amateur blackjack players.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/-captain-condor-wipeout-offers-harsh-lesson-in-managing-risk",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "232e6f08a606ef8594d11d06ecbd4d76",
-      "timestamp": "2026-01-12T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Walmart Teams With Alphabet for AI-Assisted Shopping on Gemini - Walmart Inc. is partnering with Alphabet Inc. to offer AI-enhanced shopping on Google’s Gemini platform &mdash; part of the retailer’s race to apply the technology across its operations.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/walmart-teams-with-alphabet-for-ai-assisted-shopping-on-gemini",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d949ee05a64d7b62c098bc08198be25",
-      "timestamp": "2026-01-12T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chicago Mayor Is Losing Grip on City as Rivals Build War Chest - He failed on his campaign promises to tax the rich. Then city council members passed a budget without his blessing. Now his opponents are building a war chest that could be used to unseat him next yea",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-11/chicago-mayor-is-losing-grip-on-city-as-rivals-build-war-chest",
       "sentiment": "NEUTRAL"
     }
   ]
