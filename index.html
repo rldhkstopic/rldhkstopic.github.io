@@ -425,7 +425,14 @@ layout: default
         <div class="post-list">
           {% assign stock_posts = site.posts | where: "category", "stock" | limit: 5 %}
           {% if stock_posts.size == 0 %}
-            {% assign stock_posts = site.posts | where: "category", "document" | where_exp: "post", "post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제'" | limit: 5 %}
+            {% assign all_docs = site.posts | where: "category", "document" %}
+            {% assign stock_posts = "" | split: "" %}
+            {% for post in all_docs %}
+              {% if post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제' %}
+                {% assign stock_posts = stock_posts | push: post %}
+              {% endif %}
+            {% endfor %}
+            {% assign stock_posts = stock_posts | limit: 5 %}
           {% endif %}
           {% if stock_posts.size > 0 %}
             {% for post in stock_posts limit: 5 %}
