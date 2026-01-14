@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-14T23:05:43.953776+09:00",
+  "last_updated": "2026-01-14T23:40:48.281464+09:00",
   "items": [
+    {
+      "id": "af7a5b24b4a7bc14367aae7ca1702dc6",
+      "timestamp": "2026-01-14T23:35:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Freezes Visa Processing for Dozens of Countries, Reports Say - The State Department will stop processing visas for people from dozens of countries, Fox News Digital reported, in what marks one of the Trump administration’s most extreme moves yet in its immigratio",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-freezes-visa-processing-for-dozens-of-countries-fox-reports",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a1f29f17d14bf2085171a1174cd8931",
+      "timestamp": "2026-01-14T23:16:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bessent Flags Won’s Weakness as Excessive, Offering Rare Support - US Treasury Secretary Scott Bessent said South Korea’s won has weakened excessively, offering rare verbal support to the currency as it slides toward its weakest since 2009.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/bessent-flags-won-s-weakness-as-excessive-offering-rare-support",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "48ca53337660c5edd776fa0936bc7999",
+      "timestamp": "2026-01-14T23:14:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Market Strengthens in Europe as Kazakh Barrels Run Short - The oil market in Europe is strengthening sharply &mdash; bucking a global surplus &mdash; as reduced shipments from Kazakhstan and elsewhere tighten supply.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/oil-market-strengthens-in-europe-as-kazakh-barrels-run-short",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d8603df8df80cba09f1c4a0384e88f5d",
+      "timestamp": "2026-01-14T23:14:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Devlin Bets on Court Loss for Trump With Wager on Steeper Yield Curve - Former Pimco executive Ed Devlin has been adding to trades that will pay off if the yield curve steepens, believing the US will be forced to increase borrowing if the Trump administration loses the Su",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/devlin-bets-on-court-loss-for-trump-with-wager-on-steeper-yield-curve",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c09c787b02b265a2fc53f403d20262ce",
+      "timestamp": "2026-01-14T23:12:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Retail Sales Rise, Wholesale Inflation Ticks Up - US November retail sales rose by more than forecast with gains seen in sporting goods, hobby stores and clothing outlets. Wholesale inflation picked up slightly in November with the producer price ind",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/us-retail-sales-beat-estimates-inflation-ticks-up-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d1fcfe172ee56151a94551664821ff17",
+      "timestamp": "2026-01-14T23:09:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Switzerland Says All Crans-Montana Bar Fire Victims Will Get Help - Switzerland’s government said it will cover potential gaps in financial support schemes for victims of the deadly fire that took place during New Year celebrations at a ski resort bar.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/switzerland-says-all-crans-montana-bar-fire-victims-will-get-help",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fe72433d6cfd78e809d3c8becbbc42a4",
+      "timestamp": "2026-01-14T23:05:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Kashkari Says Trump Pressure Is About Monetary Policy: NYT - Federal Reserve Bank of Minneapolis President Neel Kashkari said President Donald Trump’s pressure on the US central bank over the past year has been driven by interest rates.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/fed-s-kashkari-says-trump-pressure-is-about-monetary-policy-nyt",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "94d6e7f1239ed63538eb5d51587d9e34",
       "timestamp": "2026-01-14T23:00:00+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "US Clears Path for Nvidia to Sell H200s to China Via New Rule - The Trump administration moved closer to allowing Nvidia Corp. to sell its H200 artificial intelligence chips to China by issuing revised criteria for winning US government approval to ship the proces",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/us-clears-path-for-nvidia-to-sell-h200s-to-china-via-new-rule",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dddddc29d712fbb441e883634c32e09e",
-      "timestamp": "2026-01-14T07:40:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sen. Chris Coons on Trump, Iran, & Greenland - Senator Chris Coons (D-DE) states he supports President Trump’s support for protesters in Iran, but is confused with how the President plans to help the country.  Senator Coons also talks about his Co",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/sen-chris-coons-on-trump-iran-greenland-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "537232e8d39b9fe8b7dbdd223e727443",
-      "timestamp": "2026-01-14T07:38:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Asian Stocks Set for Cautious Open as S&amp;P 500 Dips: Markets Wrap - Stocks in Asia are set for a mostly positive start even after US gauges slipped on inflation data that failed to alter bets on a pause in Federal Reserve rate cuts.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/stock-market-today-dow-s-p-live-updates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cf7ebdf593dfbfa42a605edeb511c0b9",
-      "timestamp": "2026-01-14T07:35:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blackstone-Backed Mobile Ad Company Liftoff Files for US IPO - Liftoff Mobile Inc., a company that helps place ads within mobile applications and lets publishers manage their inventory, filed for a US initial public offering.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/blackstone-backed-mobile-ad-company-liftoff-files-for-us-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cc6c60c343fbd3300858faeadae61162",
-      "timestamp": "2026-01-14T07:33:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Bank to Buy BTIG for Up to $1 Billion in Trading Push - Stephen Philipson, U.S. Bancorp Vice Chair and Head of Wealth, Corporate, Commercial, and Institutional Banking, discusses the firm’s deal to buy BTIG. He tells Romaine Bostick on “The Close” that the",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/us-bank-to-buy-btig-for-up-to-1-billion-in-trading-push-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a8cb394f0152a9dee051ebdccde377b0",
-      "timestamp": "2026-01-14T07:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK to Invest in Northern Rail Upgrades in Labour Growth Push - The UK government unveiled a £1.1 billion- ($1.5 billion-) plan to upgrade rail links in the north of England, as Chancellor of the Exchequer Rachel Reeves makes a push to boost Britain’s sluggish eco",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/uk-to-invest-in-northern-rail-upgrades-in-labour-growth-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9552cf3688fc6297203cdacab42cd345",
-      "timestamp": "2026-01-14T07:17:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says He'll Make a Decision on Iran Soon - \"Iran is on my mind,\" President Donald Trump says while talking with reporters on the tarmac at Joint Base Andrews. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/trump-says-he-ll-make-a-decision-on-iran-soon-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "13b986e32915d4c2b4a194871250919e",
-      "timestamp": "2026-01-14T07:10:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Dimon ‘Wrong’ to Criticize DOJ Probe of Fed’s Powell - President Donald Trump dismissed Jamie Dimon’s criticism over the Justice Department probe into the Federal Reserve, saying the JPMorgan Chase &amp; Co. chief executive officer was “wrong” to suggest ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-says-dimon-wrong-to-criticize-doj-probe-of-fed-s-powell",
       "sentiment": "NEUTRAL"
     }
   ]
