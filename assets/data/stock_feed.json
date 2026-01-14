@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-15T05:36:57.510369+09:00",
+  "last_updated": "2026-01-15T06:03:54.201757+09:00",
   "items": [
+    {
+      "id": "77004bb9e14f195be8237bee69f22adc",
+      "timestamp": "2026-01-15T06:01:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stephen Ross Says It's Difficult to Do Business in California - CEO and Chairman of Related Ross, Founder of Related Companies and Owner of the Miami Dolphins Stephen Ross says it costs too much to do business in California. He speaks to Bloomberg's Caroline Gage.",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-says-it-s-difficult-to-do-business-in-california",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aeca1e73c00ce00f90e15f012acc4562",
+      "timestamp": "2026-01-15T05:50:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stephen Ross Calls Palm Beach County the 'Next Silicon Valley' - Stephen Ross, CEO and chair of Related Ross, founder of Related Companies and owner of the Miami Dolphins, discusses the outlook for business development in the West Palm Beach area during a Bloomberg",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-calls-palm-beach-county-next-silicon-valley-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0bc076504977e3932ae35f6352d9d8f9",
+      "timestamp": "2026-01-15T05:40:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Joe Rogan Assails ‘Gestapo’ ICE as Even Trump Fans Turn Into Critics - “Are we really going to be the Gestapo? ‘Where’s your papers?’ Is that what we’ve come to?”",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/joe-rogan-assails-gestapo-ice-as-even-trump-fans-turn-into-critics",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "786c0a7444a8f32d13ee3144b3df8dde",
+      "timestamp": "2026-01-15T05:36:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Sets Process to Secure Critical Minerals After Trade Probe - President Donald Trump moved to set up a new process to secure access to imports of critical minerals, capping a months-long review to determine whether foreign shipments threaten US national security",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-sets-process-to-secure-critical-minerals-after-trade-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65a2aa5bbf86be8f1bc39dcb0913af47",
+      "timestamp": "2026-01-15T05:29:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s ‘Department of War’ Name Change Could Cost $125 Million - President Donald Trump’s move to revive the name “Department of War” could cost anywhere from a few million dollars to more than $125 million, depending on how aggressively the Pentagon tries to carry",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-s-department-of-war-name-change-could-cost-125-million",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2d288fb756de54657358ba0fc3250831",
+      "timestamp": "2026-01-15T05:27:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Sets 25% Tariff on Some Chip Sales as Part of Nvidia Deal - The US imposed a 25% tariff on imports of certain semiconductors, a key step in an agreement blessed by President Donald Trump allowing Nvidia Corp. to ship Taiwan-made H200 artificial intelligence pr",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-sets-25-tariff-on-some-chip-sales-as-part-of-nvidia-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2d288fb756de54657358ba0fc3250831",
+      "timestamp": "2026-01-15T05:27:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Sets 25% Tariff on Some Chip Sales as Part of Nvidia Deal - The US imposed a 25% tariff on imports of certain semiconductors, a key step in an agreement blessed by President Donald Trump allowing Nvidia Corp. to ship Taiwan-made H200 artificial intelligence pr",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-sets-25-tariff-on-some-chip-sales-as-part-of-nvidia-deal",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c98b5a777f7633db57897b09dc4b6116",
       "timestamp": "2026-01-15T05:26:10+09:00",
@@ -10,6 +87,28 @@
       "related_tickers": [],
       "content": "OpenAI Forges $10 Billion Deal With Cerebras for AI Computing - OpenAI signed a multiyear deal to use hardware from Cerebras Systems Inc. for 750 megawatts’ worth of computing power, an alliance that will support the company’s rapid build-out of AI infrastructure.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/openai-forges-10-billion-deal-with-cerebras-for-ai-computing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "25a946657d32eb9285564cf200425f13",
+      "timestamp": "2026-01-15T05:26:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Citi CEO Warns of More Job Cuts, Saks Files for Bankruptcy | Bloomberg Markets 1/14/2026 - \"Bloomberg Markets\" follows the market moves across every global asset class and discusses the biggest issues for Wall Street. Today's guests: KPMG Chief Economist Diane Swonk, Traub Capital Partners ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bloomberg-markets-1-14-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "431453374d3611e32d8740858138431d",
+      "timestamp": "2026-01-15T05:25:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crude Falls After Trump’s Latest Comments on Iran Protests - Oil fell, erasing earlier gains, after President Donald Trump said he had been assured that Iran would stop killing protesters, in a signal he could hold off on a threatened military response to the r",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/crude-falls-after-trump-s-latest-comments-on-iran-protests",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Venezuelans Say Machado Should Lead Country After Maduro’s Capture - The majority of Venezuelans want María Corina Machado to lead their country following the US’s capture of Nicolás Maduro, a new poll found, contradicting Donald Trump’s claim that the opposition leade",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/venezuelans-say-machado-should-lead-country-after-maduro-s-capture",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9fdc3cf9934597508f1504ff5db970d5",
-      "timestamp": "2026-01-14T18:57:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jollibee Looks to Tap Deep US Investor Base for Overseas Unit - Philippine fast-food group Jollibee Foods Corp. plans a US listing in order to tap into the nation’s deep investor base that offers the company more opportunities than its anemic home market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/jollibee-looks-to-tap-deep-us-investor-base-for-overseas-unit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "51a9821cc6e5128b8ceb0628f7c17d86",
-      "timestamp": "2026-01-14T18:44:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Astorg Readies IQ-EQ Sale as Lenders Prep €2 Billion Buyout Debt - Private equity firm Astorg is getting ready to kick off a sale of its fund services business IQ-EQ, with lenders preparing debt financing of about €2 billion ($2.3 billion) for potential bidders.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/astorg-readies-iq-eq-sale-as-lenders-prep-2-billion-buyout-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe5fb8fbd284b0819abfce7b20c9bd40",
-      "timestamp": "2026-01-14T18:34:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Ties Need to Be Repaired, New Czech Premier’s Adviser Says - The new Czech government is preparing to improve its relationship with China, the national security adviser to billionaire Prime Minister Andrej Babis told iDnes.cz news website.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/china-ties-need-to-be-repaired-new-czech-premier-s-advisor-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a681417b3f32ccf16e136552094817a",
-      "timestamp": "2026-01-14T18:27:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Benfica and JPMorgan Said to Hold Talks on Lisbon Stadium Revamp - Portuguese football club Benfica is sounding out banks including JPMorgan Chase &amp; Co. on a plan to raise funds to renovate its Lisbon stadium and develop the surrounding area, according to people ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/benfica-jpmorgan-said-to-hold-talks-on-lisbon-stadium-revamp",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b9e9f6c8686ba913a5ff129765b109d",
-      "timestamp": "2026-01-14T18:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trade and War Worries Haunt Davos as World Seen ‘on a Precipice’ - A global backdrop increasingly threatened by trade disputes and inter-state conflict is how respondents in a World Economic Forum survey see things panning out in 2026.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trade-and-war-worries-haunt-davos-as-world-seen-on-a-precipice",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b9e9f6c8686ba913a5ff129765b109d",
-      "timestamp": "2026-01-14T18:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trade and War Worries Haunt Davos as World Seen ‘on a Precipice’ - A global backdrop increasingly threatened by trade disputes and inter-state conflict is how respondents in a World Economic Forum survey see things panning out in 2026.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trade-and-war-worries-haunt-davos-as-world-seen-on-a-precipice",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4776b4f1f699347b002a6b664955ede9",
-      "timestamp": "2026-01-14T18:13:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Baidu Is Said to Explore Upgrading HK Listing to Primary Status - Baidu Inc. is considering upgrading its Hong Kong listing to primary status to gain more exposure to investors in mainland China and protect itself from potentially unfavorable US policies, according ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/baidu-is-said-to-explore-upgrading-hk-listing-to-primary-status",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4776b4f1f699347b002a6b664955ede9",
-      "timestamp": "2026-01-14T18:13:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Baidu Is Said to Explore Upgrading HK Listing to Primary Status - Baidu Inc. is considering upgrading its Hong Kong listing to primary status to gain more exposure to investors in mainland China and protect itself from potentially unfavorable US policies, according ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/baidu-is-said-to-explore-upgrading-hk-listing-to-primary-status",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9f4e501f374def6b2c5fc86599a3b45e",
-      "timestamp": "2026-01-14T18:12:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Congo to Share Minerals Projects List With US to Advance Pact - The Democratic Republic of Congo will shortly share a list of minerals projects with the US for possible development by American investors, six weeks after the two nations signed a strategic partnersh",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/congo-to-share-minerals-projects-list-with-us-to-advance-pact",
       "sentiment": "NEUTRAL"
     }
   ]
