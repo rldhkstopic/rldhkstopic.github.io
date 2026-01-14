@@ -41,7 +41,7 @@ Examples:
 
 ## Writing Style Guide (for blog posts)
 
-When creating or editing blog posts, follow the writing style guide in `docs/WRITING_STYLE_GUIDE.md`.
+When creating or editing blog posts, follow the writing style guide in `docs/GUIDE_WRITING_STYLE.md`.
 
 ### Key Rules:
 1. **Tone**: Dry, analytical style ending with "~다." (no emotions, no emojis)
@@ -92,7 +92,7 @@ bundle exec jekyll serve
 1. Create file in `_posts/` with format `YYYY-MM-DD-title.md`
 2. Include required front matter (layout, title, date, author, category, tags)
 3. Follow writing style guide
-4. Update `POSTS_OVERVIEW.md` if needed
+4. Update `REF_POSTS_OVERVIEW.md` if needed
 
 ### Modifying Layouts
 - `_layouts/default.html`: Main site layout

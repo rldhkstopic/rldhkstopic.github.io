@@ -219,8 +219,8 @@ rospy.init_node('listener', anonymous=True)
    - 금지어가 사용되지 않았는가?
    - 섹션 간 전환이 자연스러운가?
 
-4. **POSTS_OVERVIEW.md 업데이트**
-   - 새 포스트를 `POSTS_OVERVIEW.md`에 추가했는가?
+4. **REF_POSTS_OVERVIEW.md 업데이트**
+   - 새 포스트를 `REF_POSTS_OVERVIEW.md`에 추가했는가?
    - 한 줄 요약이 명확한가?
 
 ### SEO 및 검색 최적화
@@ -441,7 +441,7 @@ rospy.init_node('listener', anonymous=True)
 ### 이전 글 참고 필수 사항
 
 **작성 전 확인:**
-1. **POSTS_OVERVIEW.md 검토**: 같은 주제나 관련 주제의 이전 글을 확인한다.
+1. **REF_POSTS_OVERVIEW.md 검토**: 같은 주제나 관련 주제의 이전 글을 확인한다.
 2. **카테고리별 검색**: 같은 카테고리 내 이전 글들을 검토하여 중복을 방지하고 연속성을 확보한다.
 3. **태그 검색**: 유사한 태그를 가진 이전 글들을 확인한다.
 
@@ -475,9 +475,9 @@ rospy.init_node('listener', anonymous=True)
 
 **카테고리 추가 절차:**
 1. **카테고리명 결정**: 소문자, 간결하고 명확한 이름 (예: `review`, `tutorial`, `project`)
-2. **설명 추가**: `_config.yml`과 `WRITING_STYLE_GUIDE.md`에 카테고리 설명 추가
+2. **설명 추가**: `_config.yml`과 `GUIDE_WRITING_STYLE.md`에 카테고리 설명 추가
 3. **카테고리 페이지 생성**: `카테고리명.html` 파일 생성 (기존 daily.html, dev.html 참고)
-4. **POSTS_OVERVIEW.md 업데이트**: 새 카테고리 섹션 추가
+4. **REF_POSTS_OVERVIEW.md 업데이트**: 새 카테고리 섹션 추가
 5. **AGENTS.md 업데이트**: 프로젝트 구조에 새 카테고리 반영
 
 **카테고리명 예시:**
