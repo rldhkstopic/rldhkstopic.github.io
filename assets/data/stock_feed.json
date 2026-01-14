@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-14T13:21:24.402587+09:00",
+  "last_updated": "2026-01-14T13:45:44.492678+09:00",
   "items": [
+    {
+      "id": "afff3141e81735f1c3964d334e312b85",
+      "timestamp": "2026-01-14T13:27:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rubio, India’s Foreign Minister Hold Call as Trade Talks Drag On - US Secretary of State Marco Rubio spoke about trade with his Indian counterpart on Tuesday as questions linger over when the two countries will sign a deal to ease Washington’s punitive tariffs on New",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/rubio-india-s-foreign-minister-hold-call-as-trade-talks-drag-on",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "404338449c06c25b24be37adaa195a69",
+      "timestamp": "2026-01-14T13:26:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Steel Exports Surge to Record Despite Global Pushback - China’s steel exports surged to an all-time high in December, rounding off a record year in which overseas shipments defied mounting trade pressures and expectations of a slowdown.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/china-s-steel-exports-surge-to-record-despite-global-pushback",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "43043e49038db8a82306aff5e5ea4a50",
+      "timestamp": "2026-01-14T13:21:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Former US Diplomat Klein on US-China Relations - William Klein, Consulting Partner at FSG Global and former US Diplomat, discusses the outlook for US and China relations and the impact from President Trump’s tariffs on Iran’s trading partners. He sp",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/former-us-diplomat-klein-on-us-china-relations-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "999f66bb3ee46cdecfd7141d1c1d483b",
+      "timestamp": "2026-01-14T13:12:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Zhipu Unveils New AI Model Trained on Huawei’s Chips - Chinese AI startup Knowledge Atlas Technology JSC Ltd. released a new multimodal model that it says is the country’s first to be fully trained using domestic chips, in a sign of progress toward meetin",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/china-s-zhipu-unveils-new-ai-model-trained-on-huawei-s-chips",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e220bc1230d55f6d04f5df9b8e245482",
       "timestamp": "2026-01-14T13:00:31+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "UK Altnet Firm G.Network Put Into Administration Ahead of Sale - UK broadband firm G.Network Communications has been put into administration ahead of a sales process that is expected to kick off imminently, in the latest sign of mounting stress in the sector.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/uk-altnet-firm-g-network-put-into-administration-ahead-of-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "96e0c747fc686a9726fb41384939b33b",
-      "timestamp": "2026-01-13T20:25:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rio Tinto Taps Evercore, JPMorgan on Glencore Pursuit - Rio Tinto Group has brought on a slate of bankers including Simon Robey, one of the UK’s top rainmakers, as it pursues a deal for Glencore Plc, people with knowledge of the matter said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/rio-tinto-taps-evercore-s-robey-jpmorgan-on-glencore-pursuit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61fc7246b3dd534329dcde634fdef745",
-      "timestamp": "2026-01-13T20:21:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nigeria and UAE Agree Accord to Boost Trade Ties, Unlock Investment - Nigeria and the United Arab Emirates concluded an economic partnership agreement that President Bola Tinubu said will deepen trade ties and unlock investment.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/nigeria-uae-agree-accord-to-boost-trade-ties-unlock-investment",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "49850e5eadec0110327fa62a50fbd1a2",
-      "timestamp": "2026-01-13T20:10:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pentagon to Invest $1 Billion in L3Harris Missile Unit - The US Department of Defense is set to invest in L3Harris Technologies Inc.’s missile unit with a $1 billion convertible preferred security, tightening the direct links between the government and a ma",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/us-department-of-defense-to-invest-1-billion-in-missile-unit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06b16d545ced7e1cc68294a5a3fdcd8f",
-      "timestamp": "2026-01-13T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carlyle Says Don’t Fret Over Japan’s Rising Yields and Weak Yen - The confluence of rising Japanese government bond yields and a weaker yen is a positive sign of the economy’s departure from decades of deflation, despite what some critics think, according to the Car",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/carlyle-says-don-t-fret-over-japan-s-rising-yields-weak-yen",
       "sentiment": "NEUTRAL"
     }
   ]
