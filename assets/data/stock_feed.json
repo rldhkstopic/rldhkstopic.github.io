@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-15T06:36:33.966079+09:00",
+  "last_updated": "2026-01-15T07:04:05.202528+09:00",
   "items": [
+    {
+      "id": "49bb9eaafe5900b946943559f470e3c1",
+      "timestamp": "2026-01-15T06:43:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How the Powell Probe Could Blow Up Trump’s Fed Plans - <p>The much-criticized criminal inquiry triggered some rare GOP pushback. It&nbsp;may leave Powell at the Fed for longer while making rate cuts less likely.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/podcast-how-the-powell-probe-could-blow-up-trump-s-fed-plans",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ea0b11da6ae28379a3d1e65e15ba0dd2",
+      "timestamp": "2026-01-15T06:35:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Denmark and US Agree to Disagree on Greenland - Denmark and the US will form a high-level working group to talk about the future of Greenland.  Danish Foreign Minister Lars Lokke Rasmussen says there is a \"fundamental disagreement\" with the Trump a",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/denmark-and-us-disagree-on-greenland-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "37fca72025e7d1f57f7c7684f2a29523",
       "timestamp": "2026-01-15T06:31:43+09:00",
@@ -10,6 +32,17 @@
       "related_tickers": [],
       "content": "Trump Confronts a Voter Disconnect on State of the Economy - Americans have a sour outlook on economy despite positive data",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-14/trump-confronts-a-voter-disconnect-on-state-of-the-economy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d178d6fc284c9334776ee53fc3c2c35a",
+      "timestamp": "2026-01-15T06:29:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cyber Breach Affected 750,000 Canadian Investors, Regulator Says - Personal information of about 750,000 Canadian investors has been impacted by a “sophisticated phishing attack,” according to the Canadian Investment Regulatory Organization, in an update on the fallo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/cyber-breach-affected-750-000-canadian-investors-regulator-says",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Alibaba and JPMorgan Are Said to Invest in Chip Designer Montage’s HK Listing - Chinese chip designer Montage Technology Co. is set to enlist Alibaba Group Holding Ltd. and JPMorgan Asset Management among the key investors in its upcoming Hong Kong listing, according to people fa",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/alibaba-jpmorgan-said-to-invest-in-chip-designer-montage-s-hong-kong-listing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d7f77f045341b2f870267c72fa12bc37",
-      "timestamp": "2026-01-14T19:22:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Alibaba and JPMorgan Are Said to Invest in Chip Designer Montage’s HK Listing - Chinese chip designer Montage Technology Co. is set to enlist Alibaba Group Holding Ltd. and JPMorgan Asset Management among the key investors in its upcoming Hong Kong listing, according to people fa",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/alibaba-jpmorgan-said-to-invest-in-chip-designer-montage-s-hong-kong-listing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "47a57907972baf5d6b15d6932820ef67",
-      "timestamp": "2026-01-14T19:16:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Angola Extends $1 Billion Loan With JPMorgan by Three Years - Angola agreed with JPMorgan Chase &amp; Co. to rollover a $1 billion loan and secured an extra $500 million in financing from the US lender, according to the finance ministry.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/angola-extends-1-billion-loan-with-jpmorgan-by-three-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f60242610cbc970c1872b5ebf73c34d7",
-      "timestamp": "2026-01-14T19:11:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US and Armenia Agree to 49-Year Lease for Trump-Backed Corridor - Armenia plans to extend the right to develop a regional transit corridor across its territory to the US for 49 years as part of a process mediated by President Donald Trump to end years of conflict wi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-and-armenia-agree-to-49-year-lease-for-trump-backed-corridor",
       "sentiment": "NEUTRAL"
     }
   ]
