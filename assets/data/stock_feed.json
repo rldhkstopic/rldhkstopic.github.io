@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-15T06:03:54.201757+09:00",
+  "last_updated": "2026-01-15T06:36:33.966079+09:00",
   "items": [
+    {
+      "id": "37fca72025e7d1f57f7c7684f2a29523",
+      "timestamp": "2026-01-15T06:31:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Confronts a Voter Disconnect on State of the Economy - Americans have a sour outlook on economy despite positive data",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-14/trump-confronts-a-voter-disconnect-on-state-of-the-economy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7ca22e2cdd671a9efc48071f0268c3ff",
+      "timestamp": "2026-01-15T06:26:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Coinbase CEO Brian Armstrong Pulls Support for Crypto Market-Structure Bill - Coinbase Global Inc. has pulled its support from the version of the market-structure bill that’s expected to go into markup in the Senate Banking Committee Thursday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/brian-armstrong-pulls-support-for-crypto-market-structure-bill-clarity",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d79d4343639341f98fc5f2f675d4d8f1",
+      "timestamp": "2026-01-15T06:24:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stephen Ross Says Offers for Miami Dolphins Are Close to $15 Billion - Stephen Ross, CEO and chair of Related Ross, founder of Related Companies and owner of the Miami Dolphins, comments on the future ownership of the Dolphins and says the offers for the franchise have r",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-says-offers-for-dolphins-are-close-to-15b-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4bee31d3b8f692bf0a44a0431ecc1c66",
+      "timestamp": "2026-01-15T06:04:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Card Cap Adds to Bank Woes  | Bloomberg Businessweek Daily 1/14/2026 - On today’s episode of Bloomberg Businessweek Daily, Tim Stenovec and Carol Massar discuss the Supreme Court not ruling on President Trump's tariff policy, which will impact the global economy. Morgan ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bloomberg-businessweek-daily-1-14-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3bb39f18a1312942c9ea0d615a7837cf",
+      "timestamp": "2026-01-15T06:02:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Killings of Protestors Have Stopped in Iran: Q&A - President Trump told reporters that he was told by 'very important sources sources' in Iran that no killings of protestors were taking place and there were no plans for executions to take place.\nTrump",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/trump-says-killing-stopped-in-iran-q-a-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "77004bb9e14f195be8237bee69f22adc",
       "timestamp": "2026-01-15T06:01:16+09:00",
@@ -10,6 +65,17 @@
       "related_tickers": [],
       "content": "Stephen Ross Says It's Difficult to Do Business in California - CEO and Chairman of Related Ross, Founder of Related Companies and Owner of the Miami Dolphins Stephen Ross says it costs too much to do business in California. He speaks to Bloomberg's Caroline Gage.",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-says-it-s-difficult-to-do-business-in-california",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9b3409cc0ec71dae35384d968df76f02",
+      "timestamp": "2026-01-15T05:53:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela’s Dark Fleet of Oil Tankers Emerges After Maduro’s Capture by US Forces - The informal fleet of crude tankers that operated under the radar in Nicolas Maduro’s Venezuela is beginning to emerge from the shadows after the strongman’s capture lifts the veil of how the South Am",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/venezuela-s-dark-fleet-of-oil-tankers-emerges-after-maduro-s-capture-by-us",
       "sentiment": "NEUTRAL"
     },
     {
@@ -164,6 +230,17 @@
       "related_tickers": [],
       "content": "Trump Says Iran Protester Killings Have Stopped After His Threat - President Donald Trump said he had been assured that Iran would stop killing protesters, in a signal he could hold off on a threatened military response to the repression of widespread demonstrations ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-says-iran-protester-killings-have-stopped-after-his-threat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b5775e3f8a43c59633db31430cfea370",
+      "timestamp": "2026-01-15T05:10:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Equity Firms Circle Volkswagen’s €6 Billion Everllence Unit - A majority stake in Volkswagen AG’s heavy diesel engine unit Everllence SE is attracting interest from a number of private equity firms, according to people familiar with the matter, as the German aut",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/buyout-firms-are-said-to-circle-vw-s-6-billion-everllence-unit",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "US and Armenia Agree to 49-Year Lease for Trump-Backed Corridor - Armenia plans to extend the right to develop a regional transit corridor across its territory to the US for 49 years as part of a process mediated by President Donald Trump to end years of conflict wi",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-and-armenia-agree-to-49-year-lease-for-trump-backed-corridor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "84c2e432d6dc20abbd918eaeb442ecbf",
-      "timestamp": "2026-01-14T19:09:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Slovenian Premier Pressured to Resign Two Months Before Ballot - Slovenian Prime Minister Robert Golob came under opposition pressure to resign before March 22 general elections over a claim by the nation’s anti-graft watchdog that he abused his powers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/slovenian-premier-pressured-to-resign-two-months-before-ballot",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f1011256f55fc925314b7069079a9fb5",
-      "timestamp": "2026-01-14T19:09:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Is Europe Facing a Wave of Deflation From China? - Sophie Huynh, portfolio manager and strategist at BNP Paribas Asset Management, discusses key market drivers and China's export engine. \"It's clear that the exporting sector has been quite supportive ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/is-europe-facing-a-wave-of-deflation-from-china-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "733d8f48d212109421e75ec13d42cba4",
-      "timestamp": "2026-01-14T19:05:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippines Eyes Ex-Military Base to Store Radioactive Dust - A ship with 23 containers of radioactive zinc dust that was stuck off the coast of the Philippines has unloaded the cargo, an official said, more than two months after the material was sent back from ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/philippines-eyes-ex-military-base-to-store-radioactive-dust-after-months-at-sea",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59d2840ec5858f88d2fa71c04b4236c8",
-      "timestamp": "2026-01-14T19:00:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Turkey’s Inflation Crunch Spurs Rise of Salvage Grocery Chain - Turkey’s cost-of-living crisis has given rise to the country’s first salvage grocery chain, as shoppers squeezed by years of high inflation hunt for cheaper food.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/turkey-s-inflation-crunch-spurs-rise-of-salvage-grocery-chain",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59d2840ec5858f88d2fa71c04b4236c8",
-      "timestamp": "2026-01-14T19:00:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Turkey’s Inflation Crunch Spurs Rise of Salvage Grocery Chain - Turkey’s cost-of-living crisis has given rise to the country’s first salvage grocery chain, as shoppers squeezed by years of high inflation hunt for cheaper food.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/turkey-s-inflation-crunch-spurs-rise-of-salvage-grocery-chain",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c51844967ed8a7d86532b6ba1a25e188",
-      "timestamp": "2026-01-14T19:00:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Takaichi Set to Call Early Election to Shore Up Mandate - Japanese Prime Minister Sanae Takaichi will dissolve parliament for an election early in the parliamentary session starting later this month, according to the secretary general of her ruling party and",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/japan-s-takaichi-to-dissolve-parliament-coalition-partner-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78fde23b504f2e6041629cd8d6a7c426",
-      "timestamp": "2026-01-14T19:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuelans Say Machado Should Lead Country After Maduro’s Capture - The majority of Venezuelans want María Corina Machado to lead their country following the US’s capture of Nicolás Maduro, a new poll found, contradicting Donald Trump’s claim that the opposition leade",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/venezuelans-say-machado-should-lead-country-after-maduro-s-capture",
       "sentiment": "NEUTRAL"
     }
   ]
