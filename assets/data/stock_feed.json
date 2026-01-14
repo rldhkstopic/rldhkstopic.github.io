@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-14T16:37:57.853917+09:00",
+  "last_updated": "2026-01-14T17:04:25.546057+09:00",
   "items": [
+    {
+      "id": "cdbdb60f7e1b523181b69fd3751f731a",
+      "timestamp": "2026-01-14T16:36:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vistry UK Home Sales Dropped 9% in 2025 Amid Budget Uncertainty - Vistry Group Plc sold 9% fewer homes in 2025 after uncertainty driven by the UK budget created a “subdued market” in the second half of the year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/vistry-uk-home-sales-dropped-9-in-2025-amid-budget-uncertainty",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "12158ba668f623af640607deea565424",
+      "timestamp": "2026-01-14T16:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudi Firm Jadwa Turns to Private Credit for Fresh Deal Momentum - Saudi Arabian firm Jadwa Investment Co. is seeking to raise as much as $200 million for its flagship private credit fund as it attempts to tap into a rush of new deals arising from the need for altern",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/saudi-firm-jadwa-turns-to-private-credit-for-fresh-deal-momentum",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a7f4b1a331d46dc255132eb1320206d",
+      "timestamp": "2026-01-14T16:29:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan Says It Discussed JF-17 Fighter Jets With Indonesia - The Pakistan Air Force said it’s in talks with several Asian countries to potentially sell advanced fighter jets following last year’s conflict with India, which is seen as boosting Pakistan’s reputat",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/pakistan-air-force-eyes-fighter-jet-sale-as-its-reputation-rises",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23a3e4d7d185afff00be7cf1af76b775",
+      "timestamp": "2026-01-14T16:28:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Powell Gets Central Bankers' Support Amid Trump Pressure | Insight with Haslinda Amin 1/14/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/insight-with-haslinda-amin-1-14-2025-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9de4cddd165a6a2192606f75fbe3fa88",
       "timestamp": "2026-01-14T16:27:14+09:00",
@@ -142,6 +186,28 @@
       "related_tickers": [],
       "content": "FTSE 100 Set to Rebound, Pound Gains",
       "url": "https://www.bloomberg.com/news/live-blog/2026-01-14/ftse-100-live-gold-silver-prices-metals-pound-trump-fed-oil-what-s-moving-uk-markets-right-now-markets-today-mkdnln3m",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e935ec4c78b708c9f25a21620f41e78e",
+      "timestamp": "2026-01-14T15:30:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ireland Is Trying to Get Back on the Data Center Bandwagon - <p>The government has a new energy plan to get investment flowing again</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/ireland-wants-to-get-back-ai-data-centers-and-is",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e935ec4c78b708c9f25a21620f41e78e",
+      "timestamp": "2026-01-14T15:30:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ireland Is Trying to Get Back on the Data Center Bandwagon - <p>The government has a new energy plan to get investment flowing again</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/ireland-wants-to-get-back-ai-data-centers-and-is",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "Adobe Analysts Turn Most Bearish Since 2013 as AI Threat Looms - Concern that Adobe Inc. will struggle in the artificial-intelligence era has driven Wall Street analysts’ view on the maker of software for creative professionals to its most pessimistic in more than ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/adobe-analysts-turn-most-bearish-since-2013-as-ai-threat-looms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81467473869ac128221efd189730764e",
-      "timestamp": "2026-01-14T00:06:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Scotland Plans Property Tax on Homes Worth Over £1 Million - The Scottish government plans to introduce two new council tax bands by 2028 for the most expensive properties while raising the threshold at which lower earners pay income tax.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/scotland-plans-new-property-tax-on-homes-worth-over-1-million",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c333c932e04c11279261b43a4eff3ab7",
-      "timestamp": "2026-01-14T00:02:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Switzerland Seeks to Enshrine Role of Cash With Altered Proposal - Switzerland’s government backs enshrining cash in the constitution before a national vote in March, but with wording that differs from that of campaigners seeking to safeguard the status of physical m",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/switzerland-seeks-to-enshrine-role-of-cash-with-altered-proposal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d38b058b0416215b634d0044b4620a6",
-      "timestamp": "2026-01-14T00:00:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Presses Quick-Commerce Firms to End 10-Minute Deliveries - India is asking quick commerce companies to drop their 10-minute delivery promise amid mounting concerns that the ultra-tight deadlines are worsening safety and working conditions for gig workers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/india-presses-quick-commerce-firms-to-end-10-minute-deliveries",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6105f79ecfea2cfde2e71f16d4f8cf8c",
-      "timestamp": "2026-01-14T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Warren Urges Treasury to Limit Use of Reserve Fund - Democratic Senator Elizabeth Warren is urging the Trump administration not to provide taxpayer guarantees to aid hedge funds or other financial firms weighing investments in Venezuela following the ar",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/warren-urges-us-not-to-aid-venezuela-with-emergency-reserve-fund",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "90e5360d3e7bbb83919d44f73e77f8ec",
-      "timestamp": "2026-01-14T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Fed, ICE Crises Confound Republicans’ Midterms Messaging - President Donald Trump and his administration’s aggressive actions on everything from the Federal Reserve to Greenland are complicating reelection prospects for congressional Republicans, creating fre",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-s-fed-ice-crises-confound-republicans-midterms-messaging",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5d498e04676d392d7a58d5ee0f504ecd",
-      "timestamp": "2026-01-13T23:59:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Roubini Sees AI Boom Offsetting Risks From Trump to Geopolitics - Even Nouriel Roubini is sounding bullish these days.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/roubini-sees-ai-boom-offsetting-risks-from-trump-to-geopolitics",
       "sentiment": "NEUTRAL"
     }
   ]
