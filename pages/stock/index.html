@@ -65,13 +65,13 @@ permalink: /stock/
 
     <div class="sidebar-content">
       <!-- 탭 1: 경제 뉴스 다이제스트 -->
-      <div class="tab-panel active" id="panel-digest">
+      <div class="tab-panel active" data-id="panel-digest">
         <div class="panel-header">
           <h3>전날 이슈 요약</h3>
           <span class="panel-subtitle">경제 뉴스 다이제스트</span>
         </div>
         <div class="digest-list" id="digest-list">
-          {% assign digest_posts = site.posts | where_exp: "post", "post.title contains '다이제스트' or post.title contains '블룸버그' or post.title contains '경제'" | limit: 5 %}
+          {% assign digest_posts = site.posts | where_exp: "post", "post.title contains '다이제스트'" | limit: 5 %}
           {% if digest_posts.size > 0 %}
             {% for post in digest_posts %}
               <a href="{{ post.url | relative_url }}" class="digest-item">
@@ -85,13 +85,13 @@ permalink: /stock/
       </div>
 
       <!-- 탭 2: 실시간 소식 -->
-      <div class="tab-panel" id="panel-realtime">
+      <div class="tab-panel" data-id="panel-realtime">
         <div class="panel-header">
           <h3>실시간 뉴스</h3>
         </div>
         <div class="realtime-list" id="realtime-list">
           {% assign document_posts = site.posts | where: "category", "document" %}
-          {% assign recent_stock_posts = document_posts | where_exp: "post", "post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제'" | limit: 10 %}
+          {% assign recent_stock_posts = document_posts | where_exp: "post", "post.tags contains '주식'" | limit: 10 %}
           {% if recent_stock_posts.size > 0 %}
             {% for post in recent_stock_posts %}
               <div class="realtime-item">
@@ -110,12 +110,12 @@ permalink: /stock/
       </div>
 
       <!-- 탭 3: 관심종목 (SOFI) -->
-      <div class="tab-panel" id="panel-watchlist">
+      <div class="tab-panel" data-id="panel-watchlist">
         <div class="panel-header">
           <h3>SOFI 소식</h3>
         </div>
         <div class="watchlist-list" id="watchlist-list">
-          {% assign sofi_posts = site.posts | where_exp: "post", "post.title contains 'SOFI' or post.title contains 'SoFi' or post.tags contains 'SOFI'" | limit: 10 %}
+          {% assign sofi_posts = site.posts | where_exp: "post", "post.title contains 'SOFI'" | limit: 10 %}
           {% if sofi_posts.size > 0 %}
             {% for post in sofi_posts %}
               <div class="watchlist-item">
@@ -156,7 +156,10 @@ permalink: /stock/
       
       // 패널 전환
       document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-      document.getElementById(`panel-${tabId}`).classList.add('active');
+      const panel = document.querySelector(`.tab-panel[data-id="panel-${tabId}"]`);
+      if (panel) {
+        panel.classList.add('active');
+      }
       
       currentTab = tabId;
     });

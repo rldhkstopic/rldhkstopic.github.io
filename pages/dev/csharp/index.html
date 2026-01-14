@@ -31,7 +31,16 @@ permalink: /dev/csharp/
         </a>
       </div>
       <div class="post-list">
-        {% assign guide_posts = site.posts | where: "category", "dev" | where: "subcategory", "C#" | where_exp: "post", "post.title contains '가이드' or post.title contains 'Guide' or post.title contains 'guide'" | sort: "date" | reverse | limit: 5 %}
+        {% assign all_posts = site.posts | where: "category", "dev" | where: "subcategory", "C#" | sort: "date" | reverse %}
+        
+        {% assign guide_posts = "" | split: "" %}
+        {% for post in all_posts %}
+          {% if post.title contains '가이드' or post.title contains 'Guide' or post.title contains 'guide' %}
+            {% assign guide_posts = guide_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+        {% assign guide_posts = guide_posts | limit: 5 %}
+        
         {% if guide_posts.size > 0 %}
           {% for post in guide_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
@@ -70,7 +79,14 @@ permalink: /dev/csharp/
         </a>
       </div>
       <div class="post-list">
-        {% assign error_posts = site.posts | where: "category", "dev" | where: "subcategory", "C#" | where_exp: "post", "post.title contains '⚠️' or post.title contains '오류' or post.title contains 'error' or post.title contains 'Error' or post.title contains 'Exception'" | sort: "date" | reverse | limit: 5 %}
+        {% assign error_posts = "" | split: "" %}
+        {% for post in all_posts %}
+          {% if post.title contains '⚠️' or post.title contains '오류' or post.title contains 'error' or post.title contains 'Error' or post.title contains 'Exception' %}
+            {% assign error_posts = error_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+        {% assign error_posts = error_posts | limit: 5 %}
+        
         {% if error_posts.size > 0 %}
           {% for post in error_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
@@ -109,7 +125,14 @@ permalink: /dev/csharp/
         </a>
       </div>
       <div class="post-list">
-        {% assign example_posts = site.posts | where: "category", "dev" | where: "subcategory", "C#" | where_exp: "post", "post.title contains '예제' or post.title contains 'Example' or post.title contains 'example'" | sort: "date" | reverse | limit: 5 %}
+        {% assign example_posts = "" | split: "" %}
+        {% for post in all_posts %}
+          {% if post.title contains '예제' or post.title contains 'Example' or post.title contains 'example' %}
+            {% assign example_posts = example_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+        {% assign example_posts = example_posts | limit: 5 %}
+        
         {% if example_posts.size > 0 %}
           {% for post in example_posts %}
             <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
