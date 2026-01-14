@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-14T17:42:47.134802+09:00",
+  "last_updated": "2026-01-14T18:07:14.112370+09:00",
   "items": [
+    {
+      "id": "4da875f1670be58bdeed750dd2a03084",
+      "timestamp": "2026-01-14T18:01:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Defense Company CSG Plans IPO in Amsterdam - Prague-based defense company Czechoslovak Group plans to go public in Amsterdam, in what could be the largest-ever defense initial public offering. The armored vehicle and munitions maker is planning ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/defense-company-csg-plans-ipo-in-amsterdam-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b7b786c32a3e059c6ecacd3b41d1a08b",
+      "timestamp": "2026-01-14T17:58:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia’s Allies Complain Putin Was Nowhere When It Mattered Most - As President Vladimir Putin focuses his attentions on Russia’s war in Ukraine, his strategic allies around the world have been left feeling neglected &mdash; or worse.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/russia-s-allies-complain-putin-was-nowhere-when-it-mattered-most",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a3a0e47d4f0823bebbe6f972833a6e12",
+      "timestamp": "2026-01-14T17:55:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Takaichi, Lee Hold Surprise Drum Session - Japanese PM Sanae Takaichi and South Korean President Lee Jae Myung put up a united front by drumming to ‘KPop Demon Hunters’ and BTS. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/takaichi-lee-hold-surprise-drum-session-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f54f66cb9b44b4a15531f22c70a874da",
+      "timestamp": "2026-01-14T17:52:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa Lauds US Trade-Pact Benefits as Senate Vote Looms - South Africa’s government welcomed the approval of a US preferential-trade deal before a key vote in the Senate, where Pretoria has faced opposition to its continued inclusion in the pact.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/south-africa-lauds-us-trade-pact-benefits-as-senate-vote-looms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "249bb1a9e4b9ef17f622761e21cff617",
+      "timestamp": "2026-01-14T17:48:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Warns Speculators on FX After Yen Sets Fresh 18-Month Low - Japan’s finance minister issued a fresh warning to speculators after the yen weakened to its lowest level against the dollar in 18 months amid reports of a snap general election.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/japan-warns-speculators-on-fx-after-yen-sets-fresh-18-month-low",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "882d2823a3b99c6ba337317cc40cf2f3",
+      "timestamp": "2026-01-14T17:45:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HSBC Plans Risk Transfer Linked to €2 Billion of Corporate Loans - HSBC Holdings Plc is gauging investor demand for a significant risk transfer tied to a portfolio of about €2 billion ($2.3 billion) of investment-grade corporate loans.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/hsbc-plans-risk-transfer-linked-to-2-billion-of-corporate-loans",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "02d1728721db1c668f3c144f1e53c0b5",
       "timestamp": "2026-01-14T17:41:16+09:00",
@@ -13,6 +79,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "68c29ef5a7583f6069426c4fb728d9c3",
+      "timestamp": "2026-01-14T17:40:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sustained Yen Weakness Isn't Vs Dollar: 3-Minutes MLIV - Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/sustained-yen-weakness-isn-t-vs-dollar-3-minutes-mliv-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "ed1e833f7da9d9469931360aca78b09a",
       "timestamp": "2026-01-14T17:35:26+09:00",
       "source_type": "NEWS",
@@ -21,6 +98,17 @@
       "related_tickers": [],
       "content": "Iran’s Death Toll Jumps as Tehran Shrugs Off Trump Threats - More than 2,500 people have been killed in Iranian protests that have swept the nation, activist groups said, as Tehran continued its crackdown despite US President Donald Trump’s threat of action ove",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/iran-s-death-toll-jumps-as-tehran-shrugs-off-trump-threats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca760e24007c0d25d67395987e05a4ca",
+      "timestamp": "2026-01-14T17:35:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Portugal Set for Rare Presidential Runoff as Populist Leads Poll - Portugal is heading for its first presidential runoff in 40 years, an official poll shows, in a race between a traditional establishment figure and a populist challenger.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/portugal-set-for-rare-presidential-runoff-as-populist-leads-poll",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2111,94 +2199,6 @@
       "related_tickers": [],
       "content": "Infra Manager AIP Raises €2 Billion at First Close of New Fund - AIP Management, an energy transition and infrastructure manager, has raised about €2 billion ($2.3 billion) at the first close of its latest flagship fund.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-13/infra-manager-aip-raises-2-billion-at-first-close-of-new-fund",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0fa0dc3e985eb91aaa7d19dfe5467c5f",
-      "timestamp": "2026-01-14T01:05:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Africa’s Oil Producers Lead Bond Gains as Brent Jumps on Iran Tensions - Africa’s top oil producers led a bond rally across emerging markets as the price of brent crude rose, fueled by the US escalating pressure against Iran.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/africa-oil-producers-lead-bond-rally-as-us-tensions-with-iran-rise",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0709ad4d0752c26c364b8d85cc1720be",
-      "timestamp": "2026-01-14T01:05:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Targets Card Swipe Fees After Lambasting Interest Rates - First President Donald Trump targeted the interest rates credit-card companies levy against US consumers. Now he’s targeting the interchange fees that merchants must pay to tap, swipe and insert their",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/trump-targets-card-swipe-fees-after-lambasting-interest-rates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2ba4ab6c5546ec3855db68e57b87043b",
-      "timestamp": "2026-01-14T01:05:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Inside the Home Renovation Boom - The home services sector is booming &mdash; already worth nearly $700 billion and on track to top $1.4 trillion by the end of the decade. As the Trump administration ramps up efforts to lower housing ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/inside-the-home-renovation-boom-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9007326fe6557b0ec37ccbcfa7ba3cc1",
-      "timestamp": "2026-01-14T01:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Boeing Beats Airbus to Claim First Jet Sales Crown Since 2018 - Boeing Co. sold more jets than Airbus SE in 2025, ending a seven-year losing streak as the US planemaker rallies from a period of tragedies and corporate crises.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/boeing-beats-airbus-to-claim-first-jet-sales-crown-since-2018",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "31219bdb94575637551f39cc01d10834",
-      "timestamp": "2026-01-14T00:56:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan's Investment-Banking Fees Drop - JPMorgan kicking off bank earnings with a mixed quarter. Investment-banking fees missed guidance, while trading revenue beat expectations and the bank projected stronger net interest income. Jason Gol",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/jpmorgan-s-investment-banking-fees-drop-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "092cbd55c7ecad4fe63176d8568e4f67",
-      "timestamp": "2026-01-14T00:54:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Deficit Will Put a Floor on Rates: Guild - Robinhood Chief Investment Officer Stephanie Guild says the US deficit will put a floor on the 10-year yield and consequently mortgage rates. She speaks with Bloomberg's Matt Miller and Dani Burger on",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/deficit-will-put-a-floor-on-rates-guild-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7d3d221d04c86a43db554c8ff2fef13",
-      "timestamp": "2026-01-14T00:48:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Caterpillar Crosses $300 Billion in Market Value on AI Rally - Caterpillar Inc. shares extended a turbocharged rally fueled by bets on the industrial giant’s artificial intelligence prospects to push its market valuation above $300 billion for the first time.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/caterpillar-crosses-300-billion-in-market-value-on-ai-rally",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c1cb48a957a57e82bb2df3a8c02c3c4",
-      "timestamp": "2026-01-14T00:48:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nigeria Plans $352 Million Green Bond Sales for Climate Projects - Nigeria plans to raise as much as 500 billion naira ($352 million) through green bonds this year, tapping strong investor appetite as Africa’s biggest oil producer turns to climate-linked debt to fund",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/nigeria-plans-350-million-green-bond-sale-as-demand-rises",
       "sentiment": "NEUTRAL"
     }
   ]
