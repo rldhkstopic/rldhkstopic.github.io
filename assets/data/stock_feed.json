@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-01-15T00:38:02.037284+09:00",
+  "last_updated": "2026-01-15T01:05:12.172632+09:00",
   "items": [
+    {
+      "id": "abc2483e6ee1233d85a0def31fc4a506",
+      "timestamp": "2026-01-15T01:03:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Look at February’s Businessweek Issue - Guidelines for CEOs to navigate Trump's second term, the secrets to living longer and Spotify navigates the age of AI &mdash; Brad Stone dives into some of the highlights from Businessweek's February ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/a-look-at-february-s-businessweek-issue",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d82e3bf30f427392d816f6c62ea5eef2",
+      "timestamp": "2026-01-15T01:00:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Google Gemini Can Proactively Analyze Users’ Gmail, Photos, Searches - Alphabet Inc.’s Google said its Gemini artificial intelligence assistant can now proactively tap into users’ data across Gmail, Search, Photos and YouTube, an attempt to make its consumer-facing AI pr",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/google-gemini-s-personalized-intelligence-feature-taps-gmail-searches-photos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4f3147c7dc340486f22046769846e673",
+      "timestamp": "2026-01-15T00:50:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Labor Shortages May Hinder Power-Plant Buildout, Oklo CEO Says - Nuclear startup Oklo Inc. is warning that shortages of skilled workers could become a bottleneck in efforts to build new power plants.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/labor-shortages-may-hinder-power-plant-buildout-oklo-ceo-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d98abb817d41a29cce326809f9de770e",
+      "timestamp": "2026-01-15T00:44:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Binance’s Spot Crypto Trading Market Share Falls to Lowest Since Early 2021 - Binance’s grip on global crypto trading is weakening as rivals pick up market share and traders shift to new ways of buying and selling digital assets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/binance-s-spot-crypto-trading-market-share-falls-to-lowest-since-early-2021",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "025d3d4cb880753c4ec1a44f5dc29d65",
+      "timestamp": "2026-01-15T00:42:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Supreme Court Does Not Rule Trump’s Tariffs on Wednesday - The US Supreme Court didn’t rule on challenges to President Donald Trump’s tariffs Wednesday, leaving a decision on the fate of his signature economic policy until at least next week. Annmarie Hordern",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/supreme-court-does-not-rule-trump-s-tariffs-on-wednesday-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d09694c4c1bc941acbd033d06966c821",
+      "timestamp": "2026-01-15T00:41:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "House GOP Chair Targets Clintons for Contempt in Epstein Probe - Republican House Oversight Chair James Comer said Wednesday he will seek criminal contempt charges against Bill and Hillary Clinton for defying subpoenas to testify in his committee’s investigation of",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/house-gop-chair-targets-clintons-for-contempt-in-epstein-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5fa8d75af3956d6497acac9826341537",
+      "timestamp": "2026-01-15T00:37:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Government Borrowing Costs Fall to Lowest Since December 2024 - The UK’s benchmark bonds rallied to send yields to the lowest since December 2024, following healthy demand for a debt sale and signs of slowing economic growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/uk-government-borrowing-costs-fall-to-lowest-since-december-2024",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "81b568a306931f962eb34d871afd03e8",
+      "timestamp": "2026-01-15T00:32:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "More Skilled Are Workers Needed to Build Nuclear Plants, Oklo CEO Says - Nuclear startup Oklo signed a huge deal to build new power plants to help Meta Platforms meet surging demand for artificial intelligence. But Chief Executive Officer Jacob DeWitte says more skilled wo",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/workers-needed-to-build-nuclear-plants-oklo-ceo-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "826fa2aa13e64e3d05e9a01efa9704d0",
+      "timestamp": "2026-01-15T00:32:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What’s at Stake in the Fight Over the Voting Rights Act - The Voting Rights Act of 1965 was a landmark law enacted to enforce voting protections enshrined in the US Constitution and eliminate longstanding obstacles to voter participation. Now, the Supreme Co",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/what-s-at-stake-in-the-fight-over-the-voting-rights-act",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "54a7059552d570327efdf45e8185e281",
+      "timestamp": "2026-01-15T00:32:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Man Charged With Hack-to-Trade Scheme Faces US Extradition - A British national, accused of running a “hack-to-trade” scheme, is facing extradition to the US after losing a legal challenge in London.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/uk-man-charged-with-hack-to-trade-scheme-faces-us-extradition",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0d486210b3a778ca7488bbbabca65be8",
+      "timestamp": "2026-01-15T00:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Miran Adds Deregulation to His Argument for Rate Cuts - Federal Reserve Governor Stephen Miran said the Trump administration’s deregulatory agenda offers the central bank an additional reason to continue lowering interest rates.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/fed-s-miran-adds-deregulation-to-his-argument-for-rate-cuts",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0d486210b3a778ca7488bbbabca65be8",
+      "timestamp": "2026-01-15T00:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Miran Adds Deregulation to His Argument for Rate Cuts - Federal Reserve Governor Stephen Miran said the Trump administration’s deregulatory agenda offers the central bank an additional reason to continue lowering interest rates.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/fed-s-miran-adds-deregulation-to-his-argument-for-rate-cuts",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8fecd84dff58ef2d8e3ed2d89fe3dfb3",
       "timestamp": "2026-01-15T00:29:59+09:00",
@@ -21,6 +153,28 @@
       "related_tickers": [],
       "content": "US Home Resales Climb to Fastest Pace Since 2023 - Sales of previously owned homes in the US climbed in December as contract closings rose 5.1% to a 4.35 million annualized pace last month, the highest since February 2023. Michael McKee reports on Blo",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/us-home-resales-climb-to-fastest-pace-since-2023-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "409994632a426e9c08333275e53d9a2e",
+      "timestamp": "2026-01-15T00:25:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Virtu, Optiver Said to Join Forces to Take On Citadel Securities in US Options Flow - Four market making firms have joined forces to back a firm buying US options order flow from retail brokers, shaking up the lucrative business of providing liquidity to a fast-growing corner of the eq",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/virtu-and-optiver-said-to-strike-alliance-to-take-on-citadel-in-options-pfof",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9cfa0bfed6121f253540d44a74460f7a",
+      "timestamp": "2026-01-15T00:24:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Carlyle Group Considers Equity in Ben Dell’s Commonwealth LNG - Private equity firm Carlyle Group Inc. is considering investing in Commonwealth LNG, owned by Ben Dell’s Kimmeridge Energy Management Co., according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/carlyle-group-considers-equity-in-ben-dell-s-commonwealth-lng",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2045,160 +2199,6 @@
       "related_tickers": [],
       "content": "Eurizon, SocGen Bet on Yen Rebound as Intervention Risks Lurk - The yen’s relentless slide in recent days has increased the risks of intervention and a sharp correction, according to Eurizon SLJ Capital and Societe Generale SA.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/eurizon-socgen-bet-on-yen-rebound-as-intervention-risks-lurk",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "52c3d7e1cb34412a346d2e24f1b6e085",
-      "timestamp": "2026-01-14T10:20:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dark Fleet Seeking Russian Protection as US Seizes Oil Tankers - The dark fleet of tankers shipping illicit oil around the world is rushing to seek the perceived protection of the Russian flag after the US started seizing vessels involved in the Venezuelan trade.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/dark-fleet-seeking-russian-protection-as-us-seizes-oil-tankers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "52c3d7e1cb34412a346d2e24f1b6e085",
-      "timestamp": "2026-01-14T10:20:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dark Fleet Seeking Russian Protection as US Seizes Oil Tankers - The dark fleet of tankers shipping illicit oil around the world is rushing to seek the perceived protection of the Russian flag after the US started seizing vessels involved in the Venezuelan trade.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/dark-fleet-seeking-russian-protection-as-us-seizes-oil-tankers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fc0a8c25f3a613451055d998c82e5a80",
-      "timestamp": "2026-01-14T10:06:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Arabia Moves Billions In Video-Game Stock to Subsidiary - Saudi Arabia’s Public Investment Fund is transferring roughly $12 billion worth of gaming company shares, including firms such as Nintendo Co. and Bandai Namco Holdings Inc. to its subsidiary Savvy Ga",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/saudi-arabia-moves-billions-in-video-game-stock-to-subsidiary",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "17c4138b7de744063acc2d7232a39279",
-      "timestamp": "2026-01-14T10:02:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump States Help Is On Its Way to Iranian Protesters | Balance of Power: Late Edition 01/13/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Senator Chris Coons (D-DE) states he supports President Trump’s support for protesters in",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/balance-of-power-late-edition-01-13-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cf3237261a67a26a66f6c5e2e851f514",
-      "timestamp": "2026-01-14T09:57:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s JFE Steel Bets on Indian Market for Overseas Expansion - JFE Steel Corp expects India’s steel industry to overtake China’s in the long run, and wants to position itself to be the biggest foreign producer of the material in the South Asian nation, a senior e",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/japan-s-jfe-steel-bets-on-indian-market-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8832387e45a9b5157a521dc644fffd6d",
-      "timestamp": "2026-01-14T09:42:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan 5-Year Yield Jumps to Highest Since 2000 on Election Risk - Japan’s five-year government bond yield climbed to its highest since the tenor’s debut in 2000, as fiscal concerns deepened on Japanese Prime Minister Sanae Takaichi’s reported plans for a snap electi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/japan-5-year-yield-jumps-to-highest-since-2000-on-election-risk",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "47c30bc70507633a3f198acc85c074d5",
-      "timestamp": "2026-01-14T09:22:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tesla, EEOC Plan Talks to Settle California Factory Racism Suit - Tesla Inc. will enter into settlement negotiations with the US Equal Employment Opportunity Commission over the agency’s 2023 lawsuit accusing the electric-vehicle maker of race-based harassment at it",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/tesla-eeoc-plan-talks-to-settle-california-factory-racism-suit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "47c30bc70507633a3f198acc85c074d5",
-      "timestamp": "2026-01-14T09:22:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tesla, EEOC Plan Talks to Settle California Factory Racism Suit - Tesla Inc. will enter into settlement negotiations with the US Equal Employment Opportunity Commission over the agency’s 2023 lawsuit accusing the electric-vehicle maker of race-based harassment at it",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/tesla-eeoc-plan-talks-to-settle-california-factory-racism-suit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f5abcd46d14b388137953769fdd3620e",
-      "timestamp": "2026-01-14T08:59:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cerebras in Discussions to Raise Funds at $22 Billion Valuation - AI chip provider Cerebras Systems Inc. is in talks to raise roughly $1 billion in a new funding round, according to a person familiar with the matter, bolstering the company’s efforts to compete with ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/cerebras-in-discussions-to-raise-funds-at-22-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "549da7804e9b436836ef19e6e769476c",
-      "timestamp": "2026-01-14T08:54:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Delta Declines on Tepid Forecast as Geopolitics Weigh on Travel - Delta Air Lines gave a profit forecast that fell short of Wall Street estimates, with the major US airline taking a more cautious view for 2026 after the aviation industry emerged from a volatile year",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/delta-declines-on-tepid-forecast-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "796e9310be0860b014acf5985315e650",
-      "timestamp": "2026-01-14T08:45:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela to Send Envoy for US Talks on Same Day Machado Visits - Venezuela’s acting president plans to send an envoy to Washington to meet with senior US officials on the same day that opposition leader Maria Corina Machado will be in town for her own talks in the ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/venezuela-to-send-envoy-for-us-talks-on-same-day-machado-visits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d83f3c5136c7ce63e195ae0d521938d",
-      "timestamp": "2026-01-14T08:41:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Slide on CPI, Traders Boost June Fed Rate-Cut Odds | The Close 1/13/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Former Boston Fed Presiden",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-13/the-close-1-13-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "952fde88155233538ebb3bb200932499",
-      "timestamp": "2026-01-14T08:39:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gold Steady Near Record High as US Inflation Supports Rate Cuts - Gold was steady near a record high as weaker-than expected US inflation data supported the case for more rate cuts, while geopolitical tensions remained elevated.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/gold-steady-near-record-high-as-us-inflation-supports-rate-cuts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9d5b823307cd60c315d80afb4ac49ce",
-      "timestamp": "2026-01-14T08:29:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "HHS Reverses Cuts to Safety Agency NIOSH, Reinstating Hundreds - The Trump Administration is reversing its deep staffing cuts to the National Institute for Occupational Safety and Health, reinstating hundreds of employees.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-13/hhs-reverses-cuts-to-safety-agency-niosh-reinstating-hundreds",
       "sentiment": "NEUTRAL"
     }
   ]
