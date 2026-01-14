@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-15T08:03:24.895077+09:00",
+  "last_updated": "2026-01-15T08:33:16.534274+09:00",
   "items": [
+    {
+      "id": "1eb1d108859e950a261c2c6fb90e950f",
+      "timestamp": "2026-01-15T08:24:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stephen Ross on Palm Beach Development, Dolphins Offers - Stephen Ross, CEO and Chair of Related Ross, founder of Related Companies and owner of the Miami Dolphins, discusses the outlook for business development in West Palm Beach and the future ownership of",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-on-palm-beach-development-dolphins-offers-video-mkeneps7",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b765a7fedb0ca393d09351a23c85a041",
+      "timestamp": "2026-01-15T08:19:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock's Magyera: Private Market Adoption on the Rise - Jaime Magyera, BlackRock Head of U.S. Wealth Advisory and Head of Retirement, says advisors should consider the role private investments play in portfolios and how they complement traditional assets. ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/blackrock-s-magyera-private-market-adoption-on-the-rise-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4df8ad8c98981f5c32db7d30a52fab17",
+      "timestamp": "2026-01-15T08:17:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Falls After Trump Signals US Response to Iran Is On Hold - Oil fell for the first time in six days after US President Donald Trump said he’d been assured that Iran would stop killing protesters.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/latest-oil-market-news-and-analysis-for-jan-15",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0103d45801c5c49a19d510872f262512",
+      "timestamp": "2026-01-15T08:13:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sen. Thom Tillis on Iran, Greenland, Trump & Powell - Senator Thom Tillis (R) North Carolina states he is skeptical of President Trump's claim that the killing in Iran has stopped and shares his frustration that the President is surrounding himself with ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/sen-thom-tillis-on-iran-greenland-trump-powell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "570de4a836e6b7e5818c4d135defe769",
+      "timestamp": "2026-01-15T08:09:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wells Fargo CFO: Don't See Credit Trends Deteriorating - Mike Santomassimo, Wells Fargo CFO, says the bank saw strong loan momentum this quarter. He tells Romaine Bostick and David Gura on “The Close” that the president’s proposal would pull credit at a cri",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/wells-fargo-cfo-don-t-see-credit-trends-deteriorating-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "11c00485507cda380674543b7f9a3176",
+      "timestamp": "2026-01-15T08:00:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Flipping Japan IPOs Loses Luster as Small Share Sales Disappear - Japan’s initial public offerings have become less profitable to flip on their trading debut, a trend investors have welcomed as an indication of higher quality companies coming to market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/flipping-japan-ipos-loses-luster-as-small-share-sales-disappear",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a113fe43a83fe60d5b308cd27bc67686",
+      "timestamp": "2026-01-15T08:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Will Halt Immigrant Visas for 75 Countries - The US State Department will pause issuing immigrant visas for people from 75 countries including Brazil, Somalia and Iran. Eric Martin has more on \"Balance of Power.\" (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/us-will-halt-immigrant-visas-for-75-countries-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d2a1c3f70a8e70630866f2158cb00170",
+      "timestamp": "2026-01-15T07:57:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Looks for Assurances Over Billions in Loans to Venezuela - Chinese officials have sought talks with Venezuelan and US officials to get assurances over its loans to the South American country, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/china-looks-for-assurances-over-billions-in-loans-to-venezuela",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0aeb7cf4d5c27892247821270e05dd84",
+      "timestamp": "2026-01-15T07:52:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stephen Ross on Palm Beach Development, Dolphins Offers - Stephen Ross, CEO and chair of Related Ross, founder of Related Companies and owner of the Miami Dolphins, discusses the outlook for business development in the West Palm Beach area and the future own",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-on-palm-beach-development-dolphins-offers-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8484c776266397b9b0dfac953563ef72",
       "timestamp": "2026-01-15T07:47:57+09:00",
@@ -54,6 +153,17 @@
       "related_tickers": [],
       "content": "Asia Loan Bankers Brace for Competition, Thinner Margins in 2026 - Loan bankers in Asia are bracing for an increasingly competitive market that is squeezing the returns they earn on lending, as they grapple with subdued syndicated deal flow.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/asia-loan-bankers-brace-for-competition-thinner-margins-in-2026",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65c933d859d7cd786b91819f75c44bcc",
+      "timestamp": "2026-01-15T06:59:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jimmy Lai’s Daughter Pushing US to Help Free Hong Kong Activist - The daughter of jailed Hong Kong democracy activist Jimmy Lai is pushing the Trump administration to help free her father, who was convicted late last year and has seen his health deteriorate during h",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-14/jimmy-lai-s-daughter-pushing-us-to-help-free-hong-kong-activist",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2089,116 +2199,6 @@
       "related_tickers": [],
       "content": "HSBC Is Said to Consider Selling Singapore Insurance Business - HSBC Holdings Plc is exploring options for its insurance unit in Singapore, including a sale, people familiar with the matter said, following other business revamps globally under Chief Executive Offi",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/hsbc-is-said-to-consider-selling-singapore-insurance-business",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8e5ee93f1d905dff8cb11659fbd2a5e5",
-      "timestamp": "2026-01-14T20:09:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Keep Calm If Trump Loses Tariff Case, Trade Expert Urges Nations - Countries subjected to President Donald Trump’s broad use of tariffs would be wise to keep “calm” if he loses at the Supreme Court and is forced to change tack on the cornerstone of his deal-making st",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/keep-calm-if-trump-loses-tariff-case-trade-expert-urges-nations",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "679741750b1b62ef00e8dfe74781a114",
-      "timestamp": "2026-01-14T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brightline Hires Former Eurostar CEO Petrovic in C-Suite Shakeup - Nicolas Petrovic is staking his reputation on turning around Brightline Holdings LLC as he takes over as chief executive officer of the struggling private rail operator.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/brightline-hires-former-eurostar-ceo-petrovic-in-c-suite-shakeup",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bae4cbc2fae0a7130dbb5831a5313ae2",
-      "timestamp": "2026-01-14T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘Sell America’ Trade Seen Giving Canadian Stocks an Edge in 2026 - Canadian stocks just notched their best year relative to US shares in two decades, and money managers are betting the outperformance has further to run as investors concerned with volatility in Americ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/-sell-america-trade-seen-giving-canadian-stocks-an-edge-in-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9e90866e64cea7d6d5470eef5ac85666",
-      "timestamp": "2026-01-14T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TPG Agrees to Buy $2.4 Billion of Consumer Loans From OneMain - Alternative asset manager TPG Inc. is sharply increasing the amount of loans it will buy from OneMain Holdings Inc. as private credit firms build their presence in the consumer-finance space long-domi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/tpg-agrees-to-buy-2-4-billion-of-consumer-loans-from-onemain",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cc35ac735b32de90849fef8bd30419a1",
-      "timestamp": "2026-01-14T19:59:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Putin Is Leaving His Allies Out in the Cold - Traditional Kremlin partners from Damascus to Havana complain of neglect as Moscow focuses on Ukraine war.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-14/putin-s-ukraine-focus-leaves-russian-allies-neglected",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b24119387bee38b88c4ce7e88fe98a7",
-      "timestamp": "2026-01-14T19:53:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Silver, Gold, Copper & Tin Hit Records, China's $1.2T Trade Surplus | The Opening Trade 1/14/2026 - Metals extended their dramatic start to the year &mdash; with gold, silver, copper and tin all hitting record highs &mdash; as investors bet on a boost from more US rate cuts and a revival in sentimen",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/the-opening-trade-1-14-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f494b21d47987b8e62dc568cd5a3ad4a",
-      "timestamp": "2026-01-14T19:49:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Infosys Lifts Sales Forecast in Sign of Revival in Tech Spending - Infosys Ltd. raised its annual sales forecast, signaling that a protracted slump in corporate information technology spending is starting to ease.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/infosys-lifts-sales-forecast-in-sign-of-revival-in-tech-spending",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d72335c6cfd267e74c288b46afaa2c23",
-      "timestamp": "2026-01-14T19:35:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU’s €90 Billion Ukraine Loan to Mostly Support European Firms - The European Union will direct Ukraine to purchase mostly European armaments with a new €90 billion ($105 billion) loan unless there is an “urgent need” and no local option available, according to a p",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/eu-s-90-billion-ukraine-loan-to-mostly-support-european-firms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d95bbb89d6d144fc1394e77c85e0dd6",
-      "timestamp": "2026-01-14T19:33:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "France to Open Consulate in Greenland as ‘Political Signal’ - France will open a consulate in Greenland on Feb. 6, a move its foreign minister described as a “political signal,” following US President Donald Trump’s escalating push to seize the semi-autonomous D",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/france-to-open-consulate-in-greenland-as-political-signal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "15fd798b1de2da211a4f105c835b8e76",
-      "timestamp": "2026-01-14T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Frets Over Policy Uncertainty With Midterms Looming - Wall Street loves few things more than a good acronym to describe a trading thesis. Think FANG, FOMO/YOLO and TACO.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/wall-street-frets-over-policy-uncertainty-with-midterms-looming",
       "sentiment": "NEUTRAL"
     }
   ]
