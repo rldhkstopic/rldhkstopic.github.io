@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-15T19:04:10.410719+09:00",
+  "last_updated": "2026-01-15T19:40:45.068432+09:00",
   "items": [
+    {
+      "id": "b348fa8622e4612f477533c69b6c27f6",
+      "timestamp": "2026-01-15T19:30:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "In Argentina, Trump Tests Whether Money, Not Force, Can Win Over Latin America - <p>In a region reeling from US intervention in Venezuela, Buenos Aires is one place Trump has used his power to help a friend.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-15/trump-backs-argentina-ally-with-us-capital-as-he-confronts-venezuela-with-force",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f05eb3e9d51757d0df9ded220ca6fca9",
+      "timestamp": "2026-01-15T19:30:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Rare Earth Push Extends Lifeline to Green Tech - <p>The industry saw record funding in 2025 as the US looks to build out a supply chain of elements crucial to the defense and energy sectors.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-national-security-mandate-boosts-us-rare-earth-startups",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ea3a4e24ee2cb125187649b60688c99d",
+      "timestamp": "2026-01-15T19:14:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple and Tech Hardware Stocks Face ‘Crisis’ as Memory Prices Soar - Soaring prices for memory and storage components have turned companies like Sandisk Corp., Micron Technology Inc. and Western Digital Corp. into the hottest stocks in the market over the past year. Bu",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/apple-tech-hardware-stocks-face-crisis-as-memory-prices-soar",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ea3a4e24ee2cb125187649b60688c99d",
+      "timestamp": "2026-01-15T19:14:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple and Tech Hardware Stocks Face ‘Crisis’ as Memory Prices Soar - Soaring prices for memory and storage components have turned companies like Sandisk Corp., Micron Technology Inc. and Western Digital Corp. into the hottest stocks in the market over the past year. Bu",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/apple-tech-hardware-stocks-face-crisis-as-memory-prices-soar",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "64c0d48f3cf95f574842a991b521c20b",
+      "timestamp": "2026-01-15T19:06:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Wants EU Regulation Simplified, Trump Envoy Says - US Ambassador to Belgium Bill White discusses President Donald Trump’s support of NATO, US interest in Greenland and EU regulation. He said “we would love to see Europe’s regulation simplified, much m",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/us-wants-eu-regulation-simplified-trump-envoy-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2de7d2bdce9c42fe72a6d77fb7179c62",
+      "timestamp": "2026-01-15T19:02:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Averts US Strikes for Now With Pledge Against Executions - Iran may have averted US strikes for now after US President Donald Trump appeared to walk back threats to attack Tehran for killing protesters, while a top Iranian official pledged not to carry out ex",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/iran-averts-us-strikes-for-now-with-pledge-against-executions",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "ea7f70969181b45fe76aefc7029777fd",
       "timestamp": "2026-01-15T19:00:00+09:00",
@@ -10,6 +76,28 @@
       "related_tickers": [],
       "content": "Oracle Trying to Lure Workers to Nashville for New ‘Global’ HQ - Oracle Corp. is trying &mdash; and sometimes struggling &mdash; to attract workers to Nashville, where it is developing a massive riverfront headquarters.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/oracle-nashville-hq-trying-to-recruit-cloud-workers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c33f99e4688c95442183be2bdd023c9",
+      "timestamp": "2026-01-15T19:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Canadian Housing Market in Winter Freeze as Prices, Sales Decline - The Canadian housing market ended 2025 on a down note, with both sales and prices declining as economic uncertainty kept buyers away.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/canadian-housing-market-in-winter-freeze-as-prices-sales-decline",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c744138fa4d0a0baa0070bbb0a6adde5",
+      "timestamp": "2026-01-15T18:59:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kenya in China Trade Talks After Exclusion from Duty-Free Pact - Kenya began talks with China for a trade deal after the East African nation was excluded from a list of least developed nations countries granted duty- and quota-free access by Beijing.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/kenya-in-china-trade-talks-after-exclusion-from-duty-free-pact",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2111,94 +2199,6 @@
       "related_tickers": [],
       "content": "Costs Overshadow BofA Trading Beat | Open Interest 1/14/2025 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" A big bank earnings bonanza.  Bank of America beats, but expense worries weigh on shares, Wells Fa",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/open-interest-1-14-2025-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bf5dc009440e718242eaea9e186721db",
-      "timestamp": "2026-01-15T02:57:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "There’s Already a HavelockAI Killer on the Market - Hello and welcome to the newsletter, a grab bag of daily content from the Odd Lots universe. Sometimes it's us, Joe Weisenthal and Tracy Alloway, bringing you our thoughts on the most recent developme",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-14/there-s-already-a-havelockai-killer-on-the-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2f10769cf10b3d2ce3372544efb26c2a",
-      "timestamp": "2026-01-15T02:50:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk’s xAI Faces California AG Probe Over Grok Sexual Images - Elon Musk’s artificial intelligence startup, xAI, is under investigation by the California attorney general’s office after the company’s Grok chatbot was allegedly used to create thousands of sexualiz",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/musk-s-xai-faces-california-ag-probe-over-grok-sexual-images",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f16fc840a306e614b358d4f123f7f6e1",
-      "timestamp": "2026-01-15T02:49:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blistering Metals Rally Sends Gold, Silver and Copper to Records - Metals extended their dramatic start to the year &mdash; with gold, silver, copper and tin all hitting record highs &mdash; as investors piled into the commodities as a red-hot alternative to more tra",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/metals-rally-sends-gold-silver-and-copper-to-records-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "43d5c58e618e10be6e1a99719bcb77d3",
-      "timestamp": "2026-01-15T02:44:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Five Takeaways From Citigroup’s Fourth-Quarter Earnings - Here’s what we saw in Citigroup Inc.’s fourth-quarter earnings. For more, click here for our TOPLive blog.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/five-takeaways-from-citigroup-s-fourth-quarter-earnings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40620641bdf5f3436b24a20bf7111ef9",
-      "timestamp": "2026-01-15T02:42:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Weighs Amending Warner Bros. Bid to Make It All Cash - Netflix Inc. is working on revised terms for its Warner Bros. Discovery Inc. acquisition and has discussed making an all-cash offer for the company’s studios and streaming businesses, people familiar ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/netflix-weighs-amending-warner-bros-bid-to-make-it-all-cash",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f3e12c55cdc1f50f43e883c8257ffe08",
-      "timestamp": "2026-01-15T02:41:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Big Banks See Record Lending Haul as Low Yield Assets Roll Off - Wall Street’s great rate reset on its securities portfolios has finally arrived. Net interest income at the four biggest US banks is on track to climb this year after surpassing a quarter of a trillio",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/big-banks-see-record-lending-haul-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "af317c80acd1677cf838c99026acb37c",
-      "timestamp": "2026-01-15T02:41:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Profit Parade at Risk After Trump’s Populist Pivot - Donald Trump’s return to the White House unleashed a market rally, dealmaking went into overdrive, and bankers embraced all things Trump to rake in the big money.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/wall-street-profit-parade-at-risk-after-trump-s-populist-pivot",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "af317c80acd1677cf838c99026acb37c",
-      "timestamp": "2026-01-15T02:41:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Profit Parade at Risk After Trump’s Populist Pivot - Donald Trump’s return to the White House unleashed a market rally, dealmaking went into overdrive, and bankers embraced all things Trump to rake in the big money.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/wall-street-profit-parade-at-risk-after-trump-s-populist-pivot",
       "sentiment": "NEUTRAL"
     }
   ]
