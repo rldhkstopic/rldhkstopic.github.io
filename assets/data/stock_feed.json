@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-16T00:04:50.154293+09:00",
+  "last_updated": "2026-01-16T00:39:53.566037+09:00",
   "items": [
+    {
+      "id": "f351e7f25e06b178f64adf9748c8eb70",
+      "timestamp": "2026-01-16T00:32:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Media ETFs Test Brand Power in Crowded $14 Trillion Market - Donald Trump’s social-media empire is muscling into Wall Street, entering the $14 trillion US ETF market with five new “Made in America” funds spanning industries from energy to defense.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-media-etfs-test-brand-power-in-crowded-14-trillion-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2161178f098893fc396196ee73f0c039",
+      "timestamp": "2026-01-16T00:30:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "State Street Is Joining Crypto Rush With Digital-Asset Rollout - State Street Corp. is rolling out a suite of tokenized products as the firm pushes to grow in the increasingly popular asset class.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/state-street-is-joining-crypto-rush-with-digital-asset-rollout",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "64786ce7ca4c7b98c1dd2a93393d3bb0",
+      "timestamp": "2026-01-16T00:29:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "White House Always Answers the Phone, Ford CEO Says - Ford Motor Co. Chief Executive Officer Jim Farley says the Trump administration will \"always answer the phone\" and has been great to work with, but he says there is still a long list of issues to work",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/white-house-always-answers-the-phone-ford-ceo-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0baab05a85043661a12aca4d6e25bc96",
+      "timestamp": "2026-01-16T00:19:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brazilian Tycoon Steinbruch to Sell CSN Assets to Slash Debt - Brazilian conglomerate CSN plans to divest key assets to reduce its heavy debt burden as high interest rates squeeze financing and weigh on investment.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/brazilian-tycoon-steinbruch-to-sell-csn-assets-to-slash-debt",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7c82965c16a4ef14802d39d87e5c4e87",
+      "timestamp": "2026-01-16T00:17:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gap Goes Hollywood With New Chief Entertainment Officer - Gap Inc. tapped former Paramount executive Pam Kaufman to be its first chief entertainment officer, a sign the company is looking to grow its media presence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/gap-goes-hollywood-with-new-chief-entertainment-officer",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a8d02878fa6f951f7a60d91c5c1d95cb",
+      "timestamp": "2026-01-16T00:13:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TSX Clears 33,000 For First Time as Tech Names Rise - Canadian stocks surpassed 33,000 to reach a record high as tech and industrials names rose. The S&amp;P/TSX Composite Index moved 0.3% higher on Thursday to hit 33,014.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/tsx-clears-33-000-for-first-time-as-tech-names-rise",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d84c5fa2cb6956bc143f94ee8c903689",
+      "timestamp": "2026-01-16T00:05:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Altman’s Merge Raises $252 Million to Link Brains and Computers - Merge Labs, a company co-founded by AI billionaire Sam Altman that is building devices to connect human brains to computers, raised $252 million.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/altman-s-merge-raises-252-million-to-link-brains-and-computers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4bf372098fed4a0ebcc974bb5f2826bf",
+      "timestamp": "2026-01-16T00:02:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stocks Rally as TSMC Earnings Renew Faith in AI Trade - US stocks rallied on Thursday as traders piled into technology stocks on renewed optimism around artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/us-stocks-rally-as-tsmc-earnings-renew-faith-in-ai-trade",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d9f3e572543534521a22d4f1910cee9b",
+      "timestamp": "2026-01-16T00:01:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Paramount Loses Bid to Get Warner Bros. Suit on Fast Track - A judge refused to fast track Paramount Skydance Corp.’s lawsuit accusing directors of Warner Bros. Discovery Inc. of misleading investors about a more than $82.7 billion buyout bid from Netflix Inc.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/paramount-loses-bid-to-get-warner-bros-suit-put-on-fast-track",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8ee3d4e58ed9d1a27023bc8897d95063",
       "timestamp": "2026-01-15T23:55:01+09:00",
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Fmr. Denmark Amb.: Greenlanders are Great Friends of US - Carla Sands, former U.S. ambassador to Denmark and America First Policy Institute Energy Policy Distinguished Senior Fellow, says Denmark lacks the capacity and resources to develop or secure Greenlan",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/fmr-denmark-amb-greenlanders-are-great-friends-of-us-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "73cb1df364ad61c5dc9cb39deaeb34d2",
-      "timestamp": "2026-01-15T09:00:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thailand Long-Bond Outlook Darkens on Fiscal Worries Before Vote - As Thailand’s general election nears, rising concerns about fiscal largesse are adding pressure on longer-dated bonds, spurring bets for sustained underperformance versus short-term notes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/thailand-long-bond-outlook-darkens-on-fiscal-worries-before-vote",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "58ffda4f092d7f1b44cebf8096a6e90e",
-      "timestamp": "2026-01-15T09:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "KKR Asia Credit Fund Draws 75% New Investors as Decoupling Rises - KKR &amp; Co. raised three-quarters of its $2.5 billion Asia private credit fund from new investors, as deepening economic decoupling pushes firms to broaden exposure and hedge geopolitical risk, acco",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/kkr-asia-credit-fund-draws-75-new-investors-as-decoupling-rises",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9990bf665b8649862a508ea7f9996c12",
-      "timestamp": "2026-01-15T08:58:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Takaichi Set to Call Early Election - Japanese Prime Minister Sanae Takaichi will call a snap election early in the parliamentary session starting later this month, in a bid to shore up her leadership and secure a mandate for the new ruli",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/japan-s-takaichi-set-to-call-early-election-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "08f663f5fa49fa3ec780e7d4e6c99acb",
-      "timestamp": "2026-01-15T08:51:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Iran’s Economic Protests Started &mdash; And How They Could End - <p>Today on the Big Take: Weeks of protests and the prospect of international intervention pose existential threats to Iran’s regime.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/how-iran-s-economic-protests-started-and-how-they-could-end",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "08f663f5fa49fa3ec780e7d4e6c99acb",
-      "timestamp": "2026-01-15T08:51:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Iran’s Economic Protests Started &mdash; And How They Could End - <p>Today on the Big Take: Weeks of protests and the prospect of international intervention pose existential threats to Iran’s regime.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/how-iran-s-economic-protests-started-and-how-they-could-end",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "873f48ab0ce3ea0193c9ff8b2a6b56ae",
-      "timestamp": "2026-01-15T08:50:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vietnam’s Most Powerful Man Channels China’s Xi With Eyes on Twin Prize - <p>To Lam is seeking a pair of roles&nbsp;going into a crucial Communist Party Congress in order to consolidate power,&nbsp;as his reforms draw&nbsp;praise from&nbsp;business but meet resistance withi",
-      "url": "https://www.bloomberg.com/news/features/2026-01-14/vietnam-s-most-powerful-man-to-lam-channels-china-s-xi-with-eyes-on-twin-prize",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "423f5f5db36414a0d40ca79610033401",
-      "timestamp": "2026-01-15T08:50:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The CEO Guide to Navigating Trump’s Second Term - Corporate America is entering the second year of Donald Trump’s second term with a new, hard-won understanding: The president’s personal interventions can shape business as profoundly as any economic ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/the-ceo-guide-to-navigating-trump-s-second-term-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f19d113b4abfe57b4b19fdc8dc956997",
-      "timestamp": "2026-01-15T08:42:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hugely Dangerous Moment in Geopolitics: Jane Harman - Former US Representative Jane Harman (D) California states this is a hugely dangerous moment in geopolitics for America since President Trump's been in office. She talks about President Trump suggesti",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/hugely-dangerous-moment-in-geopolitics-jane-harman-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "959208648185d89c73d512fbdb195345",
-      "timestamp": "2026-01-15T08:42:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gotham FC Majority Owner on NWSL Player Retention - Carolyn Tisch Blodgett is the CEO and founder of Next 3, where she oversees the investment and management of a portfolio of assets in the sports, media and entertainment space. She also serves as co-o",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/gotham-fc-majority-owner-on-nwsl-player-retention-video",
       "sentiment": "NEUTRAL"
     }
   ]
