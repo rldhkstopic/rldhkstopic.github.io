@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-15T16:06:19.526716+09:00",
+  "last_updated": "2026-01-15T16:37:58.659795+09:00",
   "items": [
+    {
+      "id": "f3ad25338722f34754e10e01f421c7ae",
+      "timestamp": "2026-01-15T16:32:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UniCredit Dismisses Monte Paschi Speculation as ‘Unjustified’ - UniCredit SpA said that recent media reports about its interest in potentially buying a stake in rival Banca Monte dei Paschi di Siena SpA were “unjustified.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/unicredit-dismisses-monte-paschi-speculation-as-unjustified",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a9818ba9dcf1073235a835f8e5ad284",
+      "timestamp": "2026-01-15T16:32:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chapo Targets Mozambique Development With IMF Loan Deal - Mozambique President Daniel Chapo discusses how a new International Monetary Fund funding program would help improve the African nation’s credibility in international markets. However, he adds any agr",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/chapo-targets-mozambique-development-with-imf-loan-deal-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6d0a52dc7f4f717ea5b2c4502f3d0571",
+      "timestamp": "2026-01-15T16:30:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Gets a Jump on Trying AI Everywhere From Cars to Birdbaths - Amid the keynote speeches and product unveilings at CES this month, the Las Vegas electronics trade show delivered an important geopolitical message: Chinese companies are rapidly embedding artificial",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-gets-a-jump-on-trying-ai-everywhere-from-cars-to-birdbaths",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8ff53c63d6bba2141f3b1c75702fc3d2",
+      "timestamp": "2026-01-15T16:27:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chapo: Mozambique Debt Talks to Be After New IMF Program - Mozambique President Daniel Chapo says the southeastern African nation will only start talks with creditors to renegotiate its debt after reaching an agreement on a new program with the International ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/chapo-mozambique-debt-talks-to-be-after-new-imf-program-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eeee97f0b7fc9fb54cf069b9e4afae75",
+      "timestamp": "2026-01-15T16:24:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TikTok Blocks Thai Politicians From Paying for Ads Before Poll - Social media platform TikTok said it would block Thai election candidates from paying for advertising or monetizing their content during the election campaign period.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/tiktok-blocks-thai-politicians-from-paying-for-ads-before-poll",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eeee97f0b7fc9fb54cf069b9e4afae75",
+      "timestamp": "2026-01-15T16:24:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TikTok Blocks Thai Politicians From Paying for Ads Before Poll - Social media platform TikTok said it would block Thai election candidates from paying for advertising or monetizing their content during the election campaign period.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/tiktok-blocks-thai-politicians-from-paying-for-ads-before-poll",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23876117caa5be8eb3c713d023af261e",
+      "timestamp": "2026-01-15T16:13:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China New Loans Shrink to Least in Seven Years as Demand Weakens - Chinese banks extended the smallest amount of new loans since 2018 last year while credit expansion slowed in December, in a reflection of sluggish demand from borrowers that’s weighing on growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-new-loans-shrink-to-least-in-seven-years-as-demand-weakens",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "565969647257ed5c4bddc3906c72399a",
+      "timestamp": "2026-01-15T16:09:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippines to Allow Visa-Free Entry for Chinese Visitors - The Philippines will allow Chinese nationals to enter without visas for a stay of up to 14 days, the Southeast Asian nation’s Department of Foreign Affairs said Thursday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/philippines-to-allow-visa-free-entry-for-chinese-visitors",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "706b015decfb5b905a1357bd42d63f35",
       "timestamp": "2026-01-15T15:53:45+09:00",
@@ -21,6 +109,17 @@
       "related_tickers": [],
       "content": "UK Economy Grew More Than Expected in November",
       "url": "https://www.bloomberg.com/news/live-blog/2026-01-15/ftse-100-live-uk-gdp-oil-silver-gold-prices-pound-bonds-trump-what-s-moving-uk-markets-right-now-markets-today",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f86975e9664edf5072462a10d3c9678d",
+      "timestamp": "2026-01-15T15:33:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Doubles Down on Greenland Ambitions | Insight with Haslinda Amin 01/15/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/insight-with-haslinda-amin-1-15-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Tesla’s India Letdown Spurs Discounts on Unsold Model Y SUVs - Tesla Inc. is struggling to offload about a third of the initial vehicles it imported to India last year, as some prospective buyers who made early bookings have backed out, according to people famili",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/tesla-s-india-letdown-spurs-discounts-on-unsold-model-y-suvs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1c1ddc5f0c0e6a2a684486089bfc3f45",
-      "timestamp": "2026-01-15T00:58:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intuitive Surgical Falls as Rivalry Slows Down Flagship Robot - Intuitive Surgical Inc. shares fell the most since September after the surgical robot maker forecast slower growth for use of its flagship surgical robotic system system this year as rivals bring new ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/intuitive-surgical-falls-as-rivalry-slows-down-flagship-robot",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1c1ddc5f0c0e6a2a684486089bfc3f45",
-      "timestamp": "2026-01-15T00:58:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intuitive Surgical Falls as Rivalry Slows Down Flagship Robot - Intuitive Surgical Inc. shares fell the most since September after the surgical robot maker forecast slower growth for use of its flagship surgical robotic system system this year as rivals bring new ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/intuitive-surgical-falls-as-rivalry-slows-down-flagship-robot",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ea68db1f5899efe46c0cc847152553a0",
-      "timestamp": "2026-01-15T00:56:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Surging Oil Tanker Insurance Points to Growing Black Sea Chaos - The cost of insuring ships sailing through the Black Sea is surging again, as spiraling attacks on vessels underscore the growing risk of hauling commodities through the region.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/surging-oil-tanker-insurance-points-to-growing-black-sea-chaos",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2cfef8261970310b1010298983e49f01",
-      "timestamp": "2026-01-15T00:53:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bloomberg Surveillance 1/14/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bloomberg-surveillance-1-14-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4f3147c7dc340486f22046769846e673",
-      "timestamp": "2026-01-15T00:50:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Labor Shortages May Hinder Power-Plant Buildout, Oklo CEO Says - Nuclear startup Oklo Inc. is warning that shortages of skilled workers could become a bottleneck in efforts to build new power plants.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/labor-shortages-may-hinder-power-plant-buildout-oklo-ceo-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d98abb817d41a29cce326809f9de770e",
-      "timestamp": "2026-01-15T00:44:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Binance’s Spot Crypto Trading Market Share Falls to Lowest Since Early 2021 - Binance’s grip on global crypto trading is weakening as rivals pick up market share and traders shift to new ways of buying and selling digital assets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/binance-s-spot-crypto-trading-market-share-falls-to-lowest-since-early-2021",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "025d3d4cb880753c4ec1a44f5dc29d65",
-      "timestamp": "2026-01-15T00:42:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Supreme Court Does Not Rule Trump’s Tariffs on Wednesday - The US Supreme Court didn’t rule on challenges to President Donald Trump’s tariffs Wednesday, leaving a decision on the fate of his signature economic policy until at least next week. Annmarie Hordern",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/supreme-court-does-not-rule-trump-s-tariffs-on-wednesday-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d09694c4c1bc941acbd033d06966c821",
-      "timestamp": "2026-01-15T00:41:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "House GOP Chair Targets Clintons for Contempt in Epstein Probe - Republican House Oversight Chair James Comer said Wednesday he will seek criminal contempt charges against Bill and Hillary Clinton for defying subpoenas to testify in his committee’s investigation of",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/house-gop-chair-targets-clintons-for-contempt-in-epstein-probe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5fa8d75af3956d6497acac9826341537",
-      "timestamp": "2026-01-15T00:37:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Government Borrowing Costs Fall to Lowest Since December 2024 - The UK’s benchmark bonds rallied to send yields to the lowest since December 2024, following healthy demand for a debt sale and signs of slowing economic growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/uk-government-borrowing-costs-fall-to-lowest-since-december-2024",
       "sentiment": "NEUTRAL"
     }
   ]
