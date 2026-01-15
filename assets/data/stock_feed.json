@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-15T18:06:31.392314+09:00",
+  "last_updated": "2026-01-15T18:40:22.180893+09:00",
   "items": [
+    {
+      "id": "1631d0e3f53b022eb159d403a6397b17",
+      "timestamp": "2026-01-15T18:26:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SpaceX Capsule With ISS Astronauts Splashes Down - A crew of four astronauts landed back on Earth after departing the International Space Station in NASA’s first-ever medical evacuation over an undisclosed ailment involving one of the crew members. Th",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/astronauts-return-to-earth-following-iss-medical-issue-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f640d6111df12aa63d8f741e440da357",
+      "timestamp": "2026-01-15T18:21:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Envoy Says US and Greenland Likely to Reach Beneficial Agreement - The US and Greenland will likely reach some kind of beneficial agreement, according to US Ambassador to Belgium Bill White, who underlined President Donald Trump’s commitment to the North Atlantic Tre",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/greenland-s-strategic-military-importance-key-trump-envoy-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f98a2a2a4d1dd493da7b428fa8ef823",
+      "timestamp": "2026-01-15T18:09:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gaza Deal’s Second Phase to Begin - The US has announced the launch of the second phase of President\nTrump's peace plan in the Gaza Strip, which will involve moving from a\nceasefire to demilitarization. Bloomberg's Dan Williams reports.",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/gaza-deal-s-second-phase-to-begin-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f50f975991c76ce22e2a4a2b95ce7e03",
+      "timestamp": "2026-01-15T18:09:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thailand Approves New Data Center Projects Worth $3.1 Billion - Thailand approved proposals worth 96.9 billion baht ($3.1 billion) to build new data centers and data-hosting projects, underscoring the Southeast Asian nation’s emergence as a regional technology hub",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/thailand-approves-new-data-center-projects-worth-3-1-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0bd66c15e9f16a3c9c7b4a23d397d307",
+      "timestamp": "2026-01-15T18:07:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Weighs Australia-Style Social Media Ban for Children - The UK is considering following Australia in imposing a social media ban for children under 16 years old, amid growing calls for restrictions to protect vulnerable younger users.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-weighs-australia-style-social-media-ban-for-children",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0bd66c15e9f16a3c9c7b4a23d397d307",
+      "timestamp": "2026-01-15T18:07:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Weighs Australia-Style Social Media Ban for Children - The UK is considering following Australia in imposing a social media ban for children under 16 years old, amid growing calls for restrictions to protect vulnerable younger users.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-weighs-australia-style-social-media-ban-for-children",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "22b4e8bba63e7bbd70d16e75e92dc9db",
+      "timestamp": "2026-01-15T18:06:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Economy Grows for First Year Since 2022 on Spending - Germany’s economy grew for the first year since 2022 as a government spending spree helps the country overcome its lengthy industrial slump.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/german-economy-grows-for-first-year-since-2022-on-spending-boost",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "72b12e0bb7099cd8268ce09709376b05",
       "timestamp": "2026-01-15T18:00:31+09:00",
@@ -10,6 +87,28 @@
       "related_tickers": [],
       "content": "<strong>How to Make Money From the Booming Demand for Energy</strong> - <p><strong>A conversation with fund manager Tyler Rosenlicht.</strong></p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/how-to-make-money-from-the-booming-demand-for-energy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16d37a0517801293a52fcb83be2e585d",
+      "timestamp": "2026-01-15T18:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mozambique Leader Sees Total LNG Project Restart Within Weeks - Mozambican President Daniel Chapo expects TotalEnergies SE’s $20 billion liquefied natural gas project to restart as early as this month, reviving a potentially key revenue source for the cash-strappe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mozambique-leader-sees-total-lng-project-restart-within-weeks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16d37a0517801293a52fcb83be2e585d",
+      "timestamp": "2026-01-15T18:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mozambique Leader Sees Total LNG Project Restart Within Weeks - Mozambican President Daniel Chapo expects TotalEnergies SE’s $20 billion liquefied natural gas project to restart as early as this month, reviving a potentially key revenue source for the cash-strappe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mozambique-leader-sees-total-lng-project-restart-within-weeks",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "French Government Survives No-Confidence Votes on Mercosur Pact - French premier Sebastien Lecornu survived two no-confidence votes on Wednesday after motions filed by the far-right and far-left parties failed to win the backing of the Socialists, leaving them short",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/french-government-survives-no-confidence-votes-on-mercosur-trade-pact",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "67c1b5ac8712bcbb83ad5fe1d762c560",
-      "timestamp": "2026-01-15T02:14:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mining Shares Climb in 2026 as Investors Chase Safe Havens - Mining stocks jumped at the start of the year after gold, silver and copper all hit record highs Wednesday, extending a rally fueled by geopolitical tension and renewed demand for safe-haven assets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/mining-shares-climb-in-2026-as-investors-chase-safe-havens",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ff633ea297b090ad88df137241380d45",
-      "timestamp": "2026-01-15T02:13:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Browder Says Frozen Russian Assets Should Go to Ukraine - Bill Browder, Hermitage Capital Management founder and CEO, explains how the Magnitsky Act helped pave the way for freezing Russian oligarch and state assets. He says $300 billion in frozen Russian ce",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/browder-says-frozen-russian-assets-should-go-to-ukraine-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7840d972c653a109711bdb47d04fcbf5",
-      "timestamp": "2026-01-15T02:11:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Risky Borrowers Flood Market to Tap Investor Hunger for Yield - While the broader markets have flinched at every political tremor, the world of risky debt is acting like almost nothing’s wrong.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/risky-borrowers-flood-market-to-tap-investor-hunger-for-yield",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e83285e37e60919921e601af2637b5e",
-      "timestamp": "2026-01-15T02:05:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "War With Taiwan Would Devastate China, Too - China could lose as many as 100,000 soldiers if it attacks Taiwan &mdash; and fails. Bloomberg Opinion columnist Karishma Vaswani explains what’s at stake. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/opinion-a-taiwan-war-would-devastate-china-too-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "feb5fe8f21c2f8e1264eae217592ad05",
-      "timestamp": "2026-01-15T02:03:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Microsoft Shuts Down Scam Website That Helped Fraudsters Steal Millions - Attackers leveraged pirated software.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-14/microsoft-shuts-down-scam-website-that-helped-fraudsters-steal-millions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e88d2b2442a30a037604bf8308ac5d52",
-      "timestamp": "2026-01-15T01:56:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Ruling SPD Chides Lufthansa for Deal With Musk’s Starlink - Germany’s co-ruling Social Democrats criticized Deutsche Lufthansa AG over its deal to use Elon Musk-backed SpaceX’s Starlink satellite internet network, saying it should have chosen a domestic operat",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/german-ruling-spd-chides-lufthansa-for-deal-with-musk-s-starlink",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e88d2b2442a30a037604bf8308ac5d52",
-      "timestamp": "2026-01-15T01:56:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Ruling SPD Chides Lufthansa for Deal With Musk’s Starlink - Germany’s co-ruling Social Democrats criticized Deutsche Lufthansa AG over its deal to use Elon Musk-backed SpaceX’s Starlink satellite internet network, saying it should have chosen a domestic operat",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/german-ruling-spd-chides-lufthansa-for-deal-with-musk-s-starlink",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c82f571c58eb87270c8d33119d558c2",
-      "timestamp": "2026-01-15T01:55:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bilt Unveils Credit Cards Capped at 10% After Trump’s Demands - Bilt Rewards is unveiling three new credit cards with interest rates capped at 10%, days after President Donald Trump threatened lenders that failed to do so.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/bilt-unveils-credit-cards-capped-at-10-after-trump-s-demands",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "88c15e199d0bff4b493a5fb1f48bb16b",
-      "timestamp": "2026-01-15T01:43:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump to Sign Bill Allowing Sale of Whole Milk in Schools - President Donald Trump will sign legislation Wednesday allowing schools that participate in a federal lunch program to serve whole milk, the latest measure advancing his administration’s health agenda",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-to-sign-bill-wednesday-allowing-whole-milk-in-schools",
       "sentiment": "NEUTRAL"
     }
   ]
