@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-01-15T21:45:34.736205+09:00",
+  "last_updated": "2026-01-15T22:16:01.558654+09:00",
   "items": [
+    {
+      "id": "c65e95ea48197819a1f55475ea8c880c",
+      "timestamp": "2026-01-15T22:04:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Asks Allies to Step Up Measures on Chinese Critical Minerals - The US will convene dozens of foreign ministers from allied countries next month to pursue an agreement designed to help the countries reduce their dependency on Chinese critical minerals.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/us-asks-allies-to-step-up-measures-on-chinese-critical-minerals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2bd3ee8f0abe9f3e020d3e7c6fe9a45",
+      "timestamp": "2026-01-15T22:04:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wells Fargo Kicks Off US Dollar Bond Sale After Earnings - Wells Fargo &amp; Co. is tapping the US high-grade market in an expected rush of bond sales from big Wall Street lenders after earnings.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/wells-fargo-kicks-off-us-dollar-bond-sale-after-earnings",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "274d52967694bc95041fc4fe64c6a776",
+      "timestamp": "2026-01-15T22:03:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Emerging Stocks Steady as TSMC Plans Whet Investor Appetite - Emerging-market stocks were little changed as ambitious spending plans by Taiwan Semiconductor Manufacturing Co, the world’s largest chip-maker, lifted sentiment for AI-linked shares across the world.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/emerging-stocks-steady-as-tsmc-plans-whet-investor-appetite",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca3941c4be6b61e9254e93f79a321987",
+      "timestamp": "2026-01-15T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Insight Partners Hires VC Veteran Malayery for Secondaries Push - Tech-focused private-asset firm Insight Partners is breaking into secondaries, bringing on an executive from a rival to lead its first strategy dedicated to backing continuation funds and snapping up ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/insight-partners-hires-vc-veteran-malayery-for-secondaries-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a6ccf029492b20412d225bcf6ba631f1",
+      "timestamp": "2026-01-15T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Congress Remains Stuck on Obamacare Credits as Enrollment Closes - It’s the last day to sign up for Obamacare health insurance plans and lawmakers remain at loggerheads over whether to revive federal subsidies and reverse a dramatic surge in premiums for more than 20",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/congress-remains-stuck-on-obamacare-credits-as-enrollment-closes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79812cb4603d82ad8f5f42e84ca25c21",
+      "timestamp": "2026-01-15T21:59:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK on Track to End 2025 Well Short of Starmer’s G-7 Growth Goal - Britain’s economy is on track to beat major European rivals in 2025 but will fall short of the Labour government’s goal to achieve the fastest growth in the Group of Seven.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-is-falling-short-of-starmer-goal-to-top-g-7-growth-league",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aca3a6c13ec8dfcd3ef1252659793d71",
+      "timestamp": "2026-01-15T21:57:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BofA Says European Real Estate Has Biggest Upside in Decades - European real estate stocks are poised for their best returns in decades, according to Bank of America analysts, who foresee a boost from steadier interest rates and valuations below historical levels",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bofa-says-european-real-estate-has-biggest-upside-in-decades",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "45a238ac8c5bbd2454b1c437593d22b9",
+      "timestamp": "2026-01-15T21:56:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Opposes Use of Force in Iran Call as Trump Stirs Unease - China’s top diplomat told his Iranian counterpart that Beijing opposes the use of force in international relations, following US threats of an attack after Tehran’s violent crackdown against protester",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-opposes-use-of-force-in-iran-call-as-trump-stirs-unease",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "45a238ac8c5bbd2454b1c437593d22b9",
+      "timestamp": "2026-01-15T21:56:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Opposes Use of Force in Iran Call as Trump Stirs Unease - China’s top diplomat told his Iranian counterpart that Beijing opposes the use of force in international relations, following US threats of an attack after Tehran’s violent crackdown against protester",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-opposes-use-of-force-in-iran-call-as-trump-stirs-unease",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9160bf1d1275b64c2c6ae59792ca7825",
+      "timestamp": "2026-01-15T21:42:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mastercard, Visa, Revolut Lose UK Suit Over Cross-Border Fees - Mastercard Inc., Visa Inc. and UK fintech Revolut ltd. lost a lawsuit with the UK payments regulator over its plans to usher in a cap on cross-border card fees.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mastercard-visa-revolut-lose-uk-suit-over-cross-border-fees",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9160bf1d1275b64c2c6ae59792ca7825",
+      "timestamp": "2026-01-15T21:42:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mastercard, Visa, Revolut Lose UK Suit Over Cross-Border Fees - Mastercard Inc., Visa Inc. and UK fintech Revolut ltd. lost a lawsuit with the UK payments regulator over its plans to usher in a cap on cross-border card fees.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mastercard-visa-revolut-lose-uk-suit-over-cross-border-fees",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "554ab61da110e539e21700e891e8718c",
+      "timestamp": "2026-01-15T21:39:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Carbon Extends Gains as Gas Jumps and Nuclear Output Falters - European carbon prices extended a week-long gain, with surging natural gas costs, weaker nuclear power supply and forecasts for colder weather expected to drive demand for emissions permits.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/eu-carbon-extends-gains-as-gas-jumps-and-nuclear-output-falters",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bc14f6635e94e1d9e8d72a23958fc5eb",
       "timestamp": "2026-01-15T21:37:15+09:00",
@@ -13,6 +145,28 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "dc55c62aebf95c9a0d283158dbce6543",
+      "timestamp": "2026-01-15T21:31:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "State Steps in to Fund Domo’s Insolvent German Chemical Site - Germany’s state of Saxony-Anhalt will temporarily finance Domo Chemicals GmbH’s insolvent plastics production site in Leuna to prevent a potentiallly damaging shutdown.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/state-steps-in-to-fund-domo-s-insolvent-german-chemical-site",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8717d4271cf9d8cb38257a306860546d",
+      "timestamp": "2026-01-15T21:28:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa Proposes Tougher Laws to Monitor Money Flows - South Africa proposed changes to laws that would give the government stronger tools to monitor money flows and impose tougher penalties on those engaging in financial crimes.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/south-africa-proposes-tougher-laws-to-monitor-money-flows",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "3a4d97e66c500489e642d32bbcf2c0cd",
       "timestamp": "2026-01-15T21:28:30+09:00",
       "source_type": "NEWS",
@@ -21,6 +175,17 @@
       "related_tickers": [],
       "content": "Mol Nears Deal to Buy Gazprom Stake in Sanctioned Serb Refinery - Hungarian energy company Mol Nyrt. is closing in on the takeover of Serbia’s sole refinery as US sanctions force Russia’s Gazprom Neft PJSC to sell its majority stake.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/mol-nears-deal-to-buy-gazprom-stake-in-sanctioned-serb-refinery",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0cd2bbeeed17569b657e7a6097bc5b1b",
+      "timestamp": "2026-01-15T21:12:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brazil Central Bank Liquidates Reag Trust Amid Crime Probe - Brazil’s central bank liquidated CBSF Distribuidora de Titulos e Valores Mobiliarios SA, the firm previously known as Reag Trust, following months-long probes into the group’s alleged links to organiz",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/brazil-central-bank-liquidates-reag-trust-amid-crime-probe",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2034,171 +2199,6 @@
       "related_tickers": [],
       "content": "Stephen Ross Calls Palm Beach County the 'Next Silicon Valley' - Stephen Ross, CEO and chair of Related Ross, founder of Related Companies and owner of the Miami Dolphins, discusses the outlook for business development in the West Palm Beach area during a Bloomberg",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-calls-palm-beach-county-next-silicon-valley-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0bc076504977e3932ae35f6352d9d8f9",
-      "timestamp": "2026-01-15T05:40:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Joe Rogan Assails ‘Gestapo’ ICE as Even Trump Fans Turn Into Critics - “Are we really going to be the Gestapo? ‘Where’s your papers?’ Is that what we’ve come to?”",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/joe-rogan-assails-gestapo-ice-as-even-trump-fans-turn-into-critics",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "786c0a7444a8f32d13ee3144b3df8dde",
-      "timestamp": "2026-01-15T05:36:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Sets Process to Secure Critical Minerals After Trade Probe - President Donald Trump moved to set up a new process to secure access to imports of critical minerals, capping a months-long review to determine whether foreign shipments threaten US national security",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-sets-process-to-secure-critical-minerals-after-trade-probe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "65a2aa5bbf86be8f1bc39dcb0913af47",
-      "timestamp": "2026-01-15T05:29:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s ‘Department of War’ Name Change Could Cost $125 Million - President Donald Trump’s move to revive the name “Department of War” could cost anywhere from a few million dollars to more than $125 million, depending on how aggressively the Pentagon tries to carry",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-s-department-of-war-name-change-could-cost-125-million",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2d288fb756de54657358ba0fc3250831",
-      "timestamp": "2026-01-15T05:27:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Sets 25% Tariff on Some Chip Sales as Part of Nvidia Deal - The US imposed a 25% tariff on imports of certain semiconductors, a key step in an agreement blessed by President Donald Trump allowing Nvidia Corp. to ship Taiwan-made H200 artificial intelligence pr",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-sets-25-tariff-on-some-chip-sales-as-part-of-nvidia-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2d288fb756de54657358ba0fc3250831",
-      "timestamp": "2026-01-15T05:27:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Sets 25% Tariff on Some Chip Sales as Part of Nvidia Deal - The US imposed a 25% tariff on imports of certain semiconductors, a key step in an agreement blessed by President Donald Trump allowing Nvidia Corp. to ship Taiwan-made H200 artificial intelligence pr",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-sets-25-tariff-on-some-chip-sales-as-part-of-nvidia-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c98b5a777f7633db57897b09dc4b6116",
-      "timestamp": "2026-01-15T05:26:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Forges $10 Billion Deal With Cerebras for AI Computing - OpenAI signed a multiyear deal to use hardware from Cerebras Systems Inc. for 750 megawatts’ worth of computing power, an alliance that will support the company’s rapid build-out of AI infrastructure.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/openai-forges-10-billion-deal-with-cerebras-for-ai-computing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "25a946657d32eb9285564cf200425f13",
-      "timestamp": "2026-01-15T05:26:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Citi CEO Warns of More Job Cuts, Saks Files for Bankruptcy | Bloomberg Markets 1/14/2026 - \"Bloomberg Markets\" follows the market moves across every global asset class and discusses the biggest issues for Wall Street. Today's guests: KPMG Chief Economist Diane Swonk, Traub Capital Partners ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bloomberg-markets-1-14-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "431453374d3611e32d8740858138431d",
-      "timestamp": "2026-01-15T05:25:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crude Falls After Trump’s Latest Comments on Iran Protests - Oil fell, erasing earlier gains, after President Donald Trump said he had been assured that Iran would stop killing protesters, in a signal he could hold off on a threatened military response to the r",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/crude-falls-after-trump-s-latest-comments-on-iran-protests",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bb27a2f428fe227ebe37ba0ecd3a1bf2",
-      "timestamp": "2026-01-15T05:23:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Takaichi Is Betting on Japan’s Growth - This is the most overlooked story in financial markets right now, Bloomberg Opinion columnist John Authers explains. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/opinion-takaichi-is-betting-on-japan-s-growth-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "820e96502580df79408768c7d80a7d0b",
-      "timestamp": "2026-01-15T05:21:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Denmark-US Rift Persists as NATO Nations Deploy to Greenland - Denmark said a “fundamental disagreement” remained after a high-stakes meeting with the US over Greenland as several countries including Germany said they’d send military personnel to the Arctic islan",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/denmark-us-rift-persists-as-nato-nations-deploy-to-greenland",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b4e5aad726b59b7719f5f44f9d02ff6f",
-      "timestamp": "2026-01-15T05:15:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Honduras Favorite Vows to Take Office Despite Resistance - The US-backed president-elect of Honduras vowed to take office this month despite the outgoing leader demanding a recount of the vote, promising he’ll move quickly to boost growth and lure investment ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-s-honduras-favorite-vows-to-take-office-despite-resistance",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "775a1669bf7a52a5250d2ce552a573ef",
-      "timestamp": "2026-01-15T05:11:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lufthansa Skirts Iran, Iraq Airspace Amid Rising Turmoil - Deutsche Lufthansa AG will avoid Iranian and Iraqi airspace and might cancel some flights, a spokesperson said in an emailed statement.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/lufthansa-skirts-iran-iraq-airspace-amid-rising-turmoil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "65f2339001bf418642cccc25699784b1",
-      "timestamp": "2026-01-15T05:10:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Iran Protester Killings Have Stopped After His Threat - President Donald Trump said he had been assured that Iran would stop killing protesters, in a signal he could hold off on a threatened military response to the repression of widespread demonstrations ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-says-iran-protester-killings-have-stopped-after-his-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b5775e3f8a43c59633db31430cfea370",
-      "timestamp": "2026-01-15T05:10:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Private Equity Firms Circle Volkswagen’s €6 Billion Everllence Unit - A majority stake in Volkswagen AG’s heavy diesel engine unit Everllence SE is attracting interest from a number of private equity firms, according to people familiar with the matter, as the German aut",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/buyout-firms-are-said-to-circle-vw-s-6-billion-everllence-unit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "442ddeb13fab207d1989c413f8a5e1da",
-      "timestamp": "2026-01-15T05:00:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Government, Public Anger Grows Over Sexual Deepfakes - The US Senate passes a bill aimed at helping victims of sexualized deepfakes. It comes as anger grows following reports that Elon Musk’s X has become a top site for images of people that have been non",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/government-public-anger-grows-over-sexual-deepfakes-video",
       "sentiment": "NEUTRAL"
     }
   ]
