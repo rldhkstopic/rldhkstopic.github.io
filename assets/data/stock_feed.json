@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-16T01:44:18.483819+09:00",
+  "last_updated": "2026-01-16T02:10:25.732202+09:00",
   "items": [
+    {
+      "id": "ca25eba9451b35bfe569bc5e742b2161",
+      "timestamp": "2026-01-16T02:00:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Memory Shortage to Hit Nvidia China Approvals, US Lawmaker Says - Tight memory chip supplies will constrain the number of US export licenses for Nvidia Corp. to sell its H200 artificial intelligence processors to Chinese customers, according to the top Republican on",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/memory-shortage-to-hit-nvidia-china-approvals-us-lawmaker-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a09d50161779ea103e6816c4455d2c3e",
+      "timestamp": "2026-01-16T01:54:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jenrick Joins Farage’s Reform in Move That Shakes Up UK Right - Ousted Conservative Robert Jenrick joined Nigel Farage’s Reform UK just hours after being sacked from his old party &mdash; a dramatic defection that underscores the shifting balance of power on the B",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/jenrick-joins-farage-s-reform-in-move-that-shakes-up-uk-right",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6af6a959f711dafd2e0d36bf758d3e52",
+      "timestamp": "2026-01-16T01:53:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Peru Hit by Unexpectedly Big Economic Slowdown Led by Copper - Peru’s economy expanded much less than forecast in November due to a slump in copper output.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/peru-hit-by-unexpectedly-large-economic-slowdown-led-by-copper",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a9220abc36ea1847a88b6a3fcce3d059",
+      "timestamp": "2026-01-16T01:45:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Explores Prediction Market Opportunities, Solomon Says - Goldman Sachs Group Inc. is looking at opportunities in prediction markets, positioning the investment bank to benefit from the fast-growing forums for bets on real-world events.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/goldman-explores-prediction-market-opportunities-solomon-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cd05a4706074436d064fd4762644dd4c",
+      "timestamp": "2026-01-16T01:38:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Equinor Wins Ruling to Resume Wind Project Halted by Trump - A US judge ruled Equinor ASA can resume building its multibillion-dollar wind project near New York, marking the second time this week a federal court has blocked the Trump administration from enforci",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/equinor-wins-ruling-to-resume-us-wind-project-halted-by-trump",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "4ae25fd96080f23dda4a8ca66f038669",
       "timestamp": "2026-01-16T01:35:41+09:00",
@@ -10,6 +65,17 @@
       "related_tickers": [],
       "content": "Russia Oil and Gas Revenue Dives to Five-Year Low in Budget Hit - Russia’s revenues from its oil and gas industry, vital to financing its war in Ukraine, dropped to a five-year low in 2025 as crude prices slumped and gas exports declined.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/russia-oil-and-gas-revenue-dives-to-five-year-low-in-budget-hit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2d8e7b9765fdde7298dec2c8c8969d70",
+      "timestamp": "2026-01-16T01:32:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Pick to Lead Southern Command Questioned on Venezuela - The top Democrat on the Senate Armed Services Committee pushed President Donald Trump’s nominee to lead US Southern Command for clarity on how he would handle the risks and potential fallout following",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-s-pick-to-lead-southern-command-questioned-on-venezuela",
       "sentiment": "NEUTRAL"
     },
     {
@@ -43,6 +109,17 @@
       "related_tickers": [],
       "content": "NYC Sues Delivery App Over Lost Pay in New Mamdani Crackdown - New York City said it’s suing a food-delivery technology provider for withholding pay from workers, signaling Mayor Zohran Mamdani’s get-tough approach to regulating app-based work.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/nyc-sues-delivery-app-over-lost-pay-in-new-mamdani-crackdown",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b3e91b170a69caed55f62c6f5887606",
+      "timestamp": "2026-01-16T01:24:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How to Make Money From the Booming Demand for Energy - One thing we can all agree on is that demand for energy, and in particular electricity, is growing by leaps and bounds. But obviously from there, there is going to be a debate about who is best positi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/how-to-make-money-from-the-booming-demand-for-energy-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Immigration Officers Descend on Meta Data Center, Arrest Drivers - Federal immigration officers targeted a construction site in rural Louisiana where Meta Platforms Inc. is building its largest data center, leading to the arrest of two individuals, according to local",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/immigration-officers-descend-on-meta-data-center-arrest-drivers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6bb8cb76a2f8c6e4e4255661e2d3471a",
-      "timestamp": "2026-01-15T12:14:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Here’s the List of 75 Countries Affected by US Visa Crackdown - The US on Wednesday announced an indefinite suspension of processing immigrant visas for people from 75 countries, in an escalation of the Trump’s administration’s crackdown on immigration.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/here-s-the-list-of-75-countries-affected-by-us-visa-crackdown",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a2a0225d5790805f22f0675d829cfb3",
-      "timestamp": "2026-01-15T12:10:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada PM Carney in Beijing for Trade Talks, Xi Meeting - President Xi Jinping is set to meet Canada's Prime Minister Mark Carney, who joins a procession of world leaders visiting Beijing to mend fences with China. Bloomberg's Stephen Engle reports. (Source:",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/canada-pm-carney-in-beijing-for-trade-talks-xi-meeting-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9881fd69e532431c8ec317aab50d5dbe",
-      "timestamp": "2026-01-15T12:04:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nickel Steadies After Surge as Indonesia Flags Lower Ore Supply - Nickel steadied near the highest level since mid-2024 after top producer Indonesia signaled a potential drop in output.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/nickel-steadies-after-surge-as-indonesia-flags-lower-ore-supply",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b2017a2f038e0feccbe3c5c8e6e3050",
-      "timestamp": "2026-01-15T11:59:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Treasury Wine Drops Most in a Month on New Risk to US Business - Treasury Wine Estates Ltd. shares fell the most in a month after reports that an American distributor may sell its operations raised the prospect of further disruption to the company’s already struggl",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/treasury-wine-drops-most-in-a-month-on-new-risk-to-us-business",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ce277db1b5ae533c0a1f73a0053f74cd",
-      "timestamp": "2026-01-15T11:51:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Drinks Maker Eastroc Beverage Said to Gauge Interest for Billion-Dollar Plus Hong Kong Listing - Chinese energy-drink maker Eastroc Beverage Group Co. has started gauging investor interest for a second listing in Hong Kong that may raise more than $1 billion, according to people familiar with the",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-s-eastroc-said-to-gauge-interest-for-billion-dollar-plus-hong-kong-listing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "973dd6441d862f2402e148ed756e1b42",
-      "timestamp": "2026-01-15T11:47:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Senate Committee Delays Crypto Market-Structure Markup - The Senate Banking Committee has delayed its discussion of the much-anticipated crypto market-structure bill, hours after exchange Coinbase Global Inc. pulled its support for the latest version.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/senate-committee-delays-crypto-market-structure-markup",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "76f36f5956d6a1e67001dd15b2e6e947",
-      "timestamp": "2026-01-15T11:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "HSBC, Prudential in $220 Million Funding for Hong Kong’s WeLab - Hong Kong-based fintech firm WeLab Ltd. has secured $220 million from investors including HSBC Holdings Plc and Prudential Hong Kong Ltd. in its largest round of funding.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/hsbc-prudential-in-220-million-funding-for-hong-kong-s-welab",
       "sentiment": "NEUTRAL"
     }
   ]
