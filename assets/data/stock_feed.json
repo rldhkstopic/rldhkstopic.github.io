@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-16T06:03:51.125431+09:00",
+  "last_updated": "2026-01-16T06:36:03.886410+09:00",
   "items": [
+    {
+      "id": "a849fd3f0d8ad8068281c96ecc1de1d4",
+      "timestamp": "2026-01-16T06:33:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The ETF That Bought Venezuela at the Right Time - <p>Venezuela bonds were up 100% even before the surprise US strike. Then they&nbsp;went up another 30%.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/the-etf-that-bought-venezuela-at-the-right-time",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca98ed738097ba37005d711cacdf6a99",
+      "timestamp": "2026-01-16T06:23:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Coinbase CEO Lobbies Lawmakers to Protect Crypto Rewards - Coinbase Global Inc. chief executive officer Brian Armstrong roamed the halls of the US Capitol Thursday to assure his company would continue to be able to pay rewards to customers holding stablecoins",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/coinbase-ceo-lobbies-lawmakers-to-protect-crypto-rewards",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e336476fce7a8522b965872e1d8fd19b",
+      "timestamp": "2026-01-16T06:22:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela to Set up Funds for Oil Revenues and Amend Energy Law - Venezuela’s acting President Delcy Rodríguez presented a reform to the nation’s hydrocarbons law and announced the creation of two funds into which dollars from oil sales will be funneled.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/venezuela-to-set-up-funds-for-oil-revenues-and-amend-energy-law",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "806e05ab84d18c70b6d94023af42e2b3",
+      "timestamp": "2026-01-16T06:15:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Foreign Holdings of US Treasuries Climbed to Record in November - Overseas holdings of US Treasuries advanced in November to the highest level on record, with increases in Norwegian, Canadian and Saudi Arabian stockpiles helping offset another monthly drop in China’",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/foreign-holdings-of-us-treasuries-climbed-to-record-in-november",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "35215a85083786663ff7b304f5f79dc4",
+      "timestamp": "2026-01-16T06:12:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan Deal Cuts Software Firm Relativity’s Private Debt Costs - Legal software firm Relativity ODA LLC has cut borrowing costs on existing private debt in the leveraged loan market, the latest example of public market investors displacing private lenders.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/jpmorgan-deal-cuts-software-firm-relativity-s-private-debt-costs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "64f66dc2624017e0e2e67091ef58910d",
+      "timestamp": "2026-01-16T06:12:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The US Treasury Market’s Inertia Is Nearing Historic Levels - The 10-year Treasury note’s yield is headed for a fifth straight week of minimal change, rivaling its longest stretch of inertia in the past two decades.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/the-us-treasury-market-s-inertia-is-nearing-historic-levels",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "20b553f17f8c3009ea843b2d7b2093a6",
+      "timestamp": "2026-01-16T06:03:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bolsonaro Ordered to Prison to Serve Out Coup Attempt Sentence - A Brazilian Supreme Court justice ordered former President Jair Bolsonaro to prison to continue serving his sentence for trying to remain in power after his narrow 2022 election defeat.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bolsonaro-ordered-to-prison-to-serve-out-coup-attempt-sentence",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8a0d9df89ef1e2735d6ebcf2efe1ca75",
+      "timestamp": "2026-01-16T06:03:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Memory Bottleneck Hits Hardware Maker Stocks - The rising costs of memory and storage components are putting pressure on the stocks of hardware makers. Ipek Ozkardeskaya, senior analyst at Swissquote, joins Caroline Hyde and Ed Ludlow on \"Bloomber",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/memory-bottleneck-hits-hardware-maker-stocks-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "15fafdde4391f64dd568cf561b9d6077",
       "timestamp": "2026-01-16T06:00:00+09:00",
@@ -87,6 +175,17 @@
       "related_tickers": [],
       "content": "AI Coding Startup Replit Nears Funding at $9 Billion Valuation - Replit Inc., an artificial intelligence coding startup, is nearing a deal for a new round of funding that would roughly triple its valuation to $9 billion, including the money raised, according to peo",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/ai-coding-startup-replit-nears-funding-at-9-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fce2c564f720d7c337df2d0ed725cbd5",
+      "timestamp": "2026-01-16T05:20:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meet the Politician the AI Industry Is Trying to Stop - All eyes are on the race for New York's 12th congressional district. Originally published 12/17/25. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/meet-the-politician-the-ai-industry-is-trying-to-stop-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "UK Weighs Australia-Style Social Media Ban for Children - The UK is considering following Australia in imposing a social media ban for children under 16 years old, amid growing calls for restrictions to protect vulnerable younger users.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-weighs-australia-style-social-media-ban-for-children",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22b4e8bba63e7bbd70d16e75e92dc9db",
-      "timestamp": "2026-01-15T18:06:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Economy Grows for First Year Since 2022 on Spending - Germany’s economy grew for the first year since 2022 as a government spending spree helps the country overcome its lengthy industrial slump.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/german-economy-grows-for-first-year-since-2022-on-spending-boost",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "72b12e0bb7099cd8268ce09709376b05",
-      "timestamp": "2026-01-15T18:00:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "<strong>How to Make Money From the Booming Demand for Energy</strong> - <p><strong>A conversation with fund manager Tyler Rosenlicht.</strong></p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/how-to-make-money-from-the-booming-demand-for-energy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "16d37a0517801293a52fcb83be2e585d",
-      "timestamp": "2026-01-15T18:00:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mozambique Leader Sees Total LNG Project Restart Within Weeks - Mozambican President Daniel Chapo expects TotalEnergies SE’s $20 billion liquefied natural gas project to restart as early as this month, reviving a potentially key revenue source for the cash-strappe",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mozambique-leader-sees-total-lng-project-restart-within-weeks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "16d37a0517801293a52fcb83be2e585d",
-      "timestamp": "2026-01-15T18:00:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mozambique Leader Sees Total LNG Project Restart Within Weeks - Mozambican President Daniel Chapo expects TotalEnergies SE’s $20 billion liquefied natural gas project to restart as early as this month, reviving a potentially key revenue source for the cash-strappe",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mozambique-leader-sees-total-lng-project-restart-within-weeks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9d6a40520435183075dc132d5e3ba882",
-      "timestamp": "2026-01-15T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Odd Lots: How to Profit From the Booming Energy Demand (Podcast)",
-      "url": "https://www.bloomberg.com/news/audio/2026-01-15/odd-lots-how-to-profit-from-the-booming-energy-demand-podcast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f80035868921769d12a4efd787d4967d",
-      "timestamp": "2026-01-15T17:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Novo Fund to Donate Record $860 Million in New Bioscience Grant - The fund controlling Novo Nordisk A/S will make the largest donation in its history with a grant worth as much as 5.5 billion kroner ($860 million) for a Danish life science organization to help boost",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/novo-fund-to-donate-record-860-million-in-new-bioscience-grant",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2db6dbfc1ccbe7278c08ffd0e1e30951",
-      "timestamp": "2026-01-15T17:27:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Precious Metals Have Rallied Too Quickly: 3-Minutes MLIV - Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\"  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/precious-metals-have-rallied-too-quickly-3-minutes-mliv-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "438c53dc6a35201f83791df97de5ea59",
-      "timestamp": "2026-01-15T17:25:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK’s South East Water Faces New Investigation Over Outages - South East Water Ltd. could be fined as much as 10% of its turnover if a new investigation by industry regulator Ofwat finds the UK company breached licence conditions over customer care during recent",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-s-south-east-water-faces-new-investigation-over-outages",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3dbff67ea8cae9b534199962036c3401",
-      "timestamp": "2026-01-15T17:22:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ASML Soars Beyond $500 Billion Value After TSMC’s Upbeat Outlook - ASML Holding NV shares soared to a record high, sending its market value beyond $500 billion, after Asian peer Taiwan Semiconductor Manufacturing Co. gave a stronger-than-anticipated outlook for 2026.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/asml-soars-beyond-500-billion-value-after-tsmc-s-upbeat-outlook",
       "sentiment": "NEUTRAL"
     }
   ]
