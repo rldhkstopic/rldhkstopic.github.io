@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-16T05:04:19.132414+09:00",
+  "last_updated": "2026-01-16T05:39:05.788264+09:00",
   "items": [
+    {
+      "id": "c0544b8fd584639ec9a15b949a405a77",
+      "timestamp": "2026-01-16T05:30:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Coding Startup Replit Nears Funding at $9 Billion Valuation - Replit Inc., an artificial intelligence coding startup, is nearing a deal for a new round of funding that would roughly triple its valuation to $9 billion, including the money raised, according to peo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/ai-coding-startup-replit-nears-funding-at-9-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d141a8d28a1722f5e519db8b254cc6ee",
+      "timestamp": "2026-01-16T05:14:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Need to See 'Some Type of Balance' on ICE raids, Border Enforcement, Says Malliotakis - New York Representative Nicole Malliotakis said that while there has been good work done with border security, she has talked to party leadership about times where immigration enforcement has gone too",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/need-some-type-of-balance-on-ice-raids-malliotakis-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e3fb8920fbbc610b298d86ce2482723f",
+      "timestamp": "2026-01-16T05:12:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Power Forecast Cut Is Reality Check for AI Boom - The biggest grid operator in the US cut its power demand forecast for summer 2027 by more than 2%. Mehdi Paryavi, CEO of the DC-based think tank International Data Center Authority, discusses with Ed ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/power-forecast-cut-is-reality-check-for-ai-boom-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "44204e26657e7abaa0e075822cdaef86",
+      "timestamp": "2026-01-16T05:10:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Family’s World Liberty Seeks CFO for Proposed Crypto Bank - World Liberty Financial, the crypto platform co-founded by President Donald Trump, has a new offshoot that’s pursuing a bank charter. Its application shows at least one key job vacancy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-family-s-world-liberty-seeks-cfo-for-proposed-crypto-bank",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0dbdf2c14e4d0f4b9bc47b7ffc593530",
+      "timestamp": "2026-01-16T05:07:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela’s Machado Meets Trump | Balance of Power: Early Edition 1/15/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discuss the latest geopolitical news. On today's show, Former Deputy Assistant Secretary of State for the Burea",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/balance-of-power-early-edition-1-15-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7d078b3ad7d69395b0f5062f8ece12f5",
       "timestamp": "2026-01-16T04:55:18+09:00",
@@ -10,6 +65,17 @@
       "related_tickers": [],
       "content": "US, Taiwan Reach Deal to Cut Tariffs, Boost Chip Investment - The US and Taiwan agreed to a trade agreement that would lower tariffs on goods from Taiwan to 15%. Taiwanese semiconductor companies will also invest more in US operations. Bloomberg's Michael Shepar",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/us-to-lower-tariffs-on-taiwan-by-15-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6899c09ec1fe4a9be5eb2b8e9c9eccce",
+      "timestamp": "2026-01-16T04:53:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Officials Vow to Keep All US Coal Plants Running - Trump administration officials vowed to keep US coal power plants operating, casting it as an imperative to meet surging electricity demand and drive a revival of the nation’s industrial base.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-officials-vow-to-keep-all-us-coal-plants-running",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "Chinese Builder Jingrui Ordered to Liquidate by Hong Kong Court - Hong Kong’s High Court ordered the liquidation of developer Jingrui Holdings Ltd., making it the latest defaulted Chinese builder to be wound up in the city amid China’s years-long property crisis.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/chinese-builder-jingrui-ordered-to-liquidate-by-hong-kong-court",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "41099d87f790d95c31ae2d82c3806b06",
-      "timestamp": "2026-01-15T16:55:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jim Ratcliffe Cuts Price Tag for French Football Club Nice - Billionaire Jim Ratcliffe has slashed the asking price for French football team OGC Nice, according to people with knowledge of the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/jim-ratcliffe-cuts-price-tag-for-french-football-club-nice",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4cc5f9df3ae519f2b6a797e73e5a6158",
-      "timestamp": "2026-01-15T16:52:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Taylor Wimpey Sees ‘Muted’ Demand For UK Home Selling Season - The UK housing marked continues to be blighted by lackluster demand as buyers struggle with elevated mortgage costs that have stretched affordability, according to Taylor Wimpey Plc.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/taylor-wimpey-sees-muted-demand-for-uk-home-selling-season",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "426300ed7459f470cac4c105dacc4bc8",
-      "timestamp": "2026-01-15T16:50:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Horizons Middle East & Africa 1/15/2026 (Video)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/horizons-middle-east-africa-1-15-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "271f136cbacc650dbbd53d792eaddb0e",
-      "timestamp": "2026-01-15T16:44:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Greenland: Germany Sends Troops; US-Denmark Rift Remains - Germany will take the lead of European nations sending military personnel to Greenland after Denmark said its meeting with top US officials intent on controlling the world’s biggest island revealed th",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/greenland-germany-sends-troops-us-denmark-rift-remains-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "820e389c3ce661e5e3dfc8a65cd20eb8",
-      "timestamp": "2026-01-15T16:39:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Microsoft Investigated by Swiss Regulator over Licensing Fees - Switzerland’s competition commission has begun a preliminary investigation into Microsoft Corp. over the licensing fees it charges clients in the country after receiving complaints over recent price i",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/microsoft-investigated-by-swiss-regulator-over-licensing-fees",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "820e389c3ce661e5e3dfc8a65cd20eb8",
-      "timestamp": "2026-01-15T16:39:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Microsoft Investigated by Swiss Regulator over Licensing Fees - Switzerland’s competition commission has begun a preliminary investigation into Microsoft Corp. over the licensing fees it charges clients in the country after receiving complaints over recent price i",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/microsoft-investigated-by-swiss-regulator-over-licensing-fees",
       "sentiment": "NEUTRAL"
     }
   ]
