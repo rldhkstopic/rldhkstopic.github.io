@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-01-15T10:31:42.764194+09:00",
+  "last_updated": "2026-01-15T11:39:31.196358+09:00",
   "items": [
+    {
+      "id": "77da4b0d23d441d0223144095cb98d20",
+      "timestamp": "2026-01-15T11:14:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Chip Rules for China ‘Discriminatory,’ Global Times Says - Chinese state media has dismissed the Trump administration’s conditions on the sale of Nvidia Corp.’s high-end chips to China as “discriminatory,” as the US moves closer to reversing an effective ban ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-s-chip-rules-for-china-discriminatory-global-times-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3f5ed534d7d02faf9d718118d8dac4ab",
+      "timestamp": "2026-01-15T11:04:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "An Ozempic Price War Is Coming - An Ozempic price war is coming. As patents on semaglutide begin to expire, generic versions could slash the cost of weight-loss drugs in markets like China, India, Brazil and Canada. (Source: Bloomber",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/an-ozempic-price-war-is-coming-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fa2c914d93a65c576b4b785a0dc9551e",
+      "timestamp": "2026-01-15T11:01:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Tells Reuters No Plans to Remove Powell Despite Probe - President Donald Trump insisted he does not plan to fire Federal Reserve Chair Jerome Powell despite a Justice Department probe into the central bank’s renovation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-tells-reuters-no-plans-to-remove-powell-despite-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "00e3769b0738cce3fc3ee23745113859",
+      "timestamp": "2026-01-15T11:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alibaba Takes Major Step to Link Taobao Shopping to Main AI App - Alibaba Group Holding Ltd. plans to link its flagship online shopping and travel services to its AI app, taking its biggest step yet to build Qwen into its one-stop artificial intelligence platform fo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/alibaba-takes-major-step-to-link-taobao-shopping-to-main-ai-app",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "643ba10aa68c5cb806573193ff954282",
+      "timestamp": "2026-01-15T10:49:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Tells Reuters He Sees Zelenskiy as Key Impediment to Peace - President Donald Trump faulted Ukraine’s leader Volodymyr Zelenskiy as the main obstacle to an agreement to end the war Russia launched against his country four years ago.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-describes-zelenskiy-as-key-impediment-to-resolving-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7349ea69dce3b0cf9779e447944bb12a",
+      "timestamp": "2026-01-15T10:47:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Amazon Blasts Saks Funding Deal, Says Its Equity Is ‘Worthless’ - Amazon.com Inc. is challenging Saks Global Enterprises’ foray into Chapter 11, saying the luxury retailer breached a deal related to the sale of Saks products on its website and that its equity invest",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/amazon-blasts-saks-funding-deal-says-its-equity-is-worthless",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d20e7e9873cf8d195f3a574c0da8eb2f",
+      "timestamp": "2026-01-15T10:43:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Chipmaker SpacemiT Gets $86 Million in Fresh Funding - Chinese chip company SpacemiT raised more than 600 million yuan ($86 million) in a fresh funding round to speed up commercialization of its products and expand its business.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/chinese-chipmaker-spacemit-gets-86-million-in-fresh-funding",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2b091bdca91a6778109c844ed6d26b1",
+      "timestamp": "2026-01-15T10:32:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Hires Three Staffers From Mira Murati’s AI Startup - OpenAI has hired three staffers from Thinking Machines Lab, the artificial intelligence startup led by former OpenAI Chief Technology Officer Mira Murati.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/openai-hires-three-staffers-from-mira-murati-s-ai-startup",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "524841b0f58d79a85107623a302f8cfc",
+      "timestamp": "2026-01-15T10:27:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iron Ore’s Strength Hard to Reconcile With Soft Chinese Demand - Iron ore’s robust start to the year continues to highlight what many observers deem to be a persistent mismatch between market pricing and conditions on the ground.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/iron-ore-s-strength-hard-to-reconcile-with-soft-chinese-demand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b96aab82ab6b72c604a9e797cbaab39f",
+      "timestamp": "2026-01-15T10:25:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kuaishou Markets $2 Billion Offshore Bond Offering to Fund AI - Kuaishou Technology began marketing its maiden offshore bond offering as it looks to bolster funding for artificial intelligence, extending last year’s wave of global debt sales by major companies in ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/kuaishou-markets-2-billion-offshore-bond-offering-to-fund-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9017e42d54390b695dd980ba57958aa1",
+      "timestamp": "2026-01-15T10:18:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Killings & Executions in Iran Have Stopped | Balance of Power: Late Edition 01/14/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Senator Thom Tillis (R) North Carolina states he is skeptical of President Trump's claim ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/balance-of-power-late-edition-01-14-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "cc17eec75f7fe76fa31b4b0ef4e2a397",
       "timestamp": "2026-01-15T10:03:00+09:00",
@@ -2078,127 +2199,6 @@
       "related_tickers": [],
       "content": "India Pushes Back on 10-Minute Delivery - India’s quick commerce boom was built on 10-minute delivery. Now the government is asking apps to drop that promise, warning the race for speed may be putting gig workers at risk.\n\n\n (Source: Bloomber",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/india-pushes-back-on-10-minute-delivery-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9a624a6f2f9183f25fbbce5b3c8ae11c",
-      "timestamp": "2026-01-14T22:05:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland Monitoring Trump’s Fed Probe for Dollar Bond Sale Plans - Poland is closely watching for any market fallout from US President Donald Trump’s investigation into the Federal Reserve as the investment-grade sovereign considers issuing debt in dollars later this",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/poland-monitoring-trump-s-fed-probe-for-dollar-bond-sale-plans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9a624a6f2f9183f25fbbce5b3c8ae11c",
-      "timestamp": "2026-01-14T22:05:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland Monitoring Trump’s Fed Probe for Dollar Bond Sale Plans - Poland is closely watching for any market fallout from US President Donald Trump’s investigation into the Federal Reserve as the investment-grade sovereign considers issuing debt in dollars later this",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/poland-monitoring-trump-s-fed-probe-for-dollar-bond-sale-plans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83c5b01be2d34ef547a41336f0c4a9de",
-      "timestamp": "2026-01-14T22:02:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Airbnb Nabs Former Meta Exec to Lead AI Efforts - Airbnb Inc. has hired a former Meta Platforms Inc. executive as its new chief technology officer to help lead its artificial intelligence effort. Ahmad Al-Dahle speaks next to CEO Brian Chesky. (Sourc",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/airbnb-nabs-former-meta-exec-to-lead-ai-efforts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4fcff4be3a9988993307341b345d3dd1",
-      "timestamp": "2026-01-14T22:01:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Airbnb Is at Beginning of AI Transformation, Chesky Says - Airbnb CEO Brian Chesky talks about hiring Ahmad Al-Dahle as their new CTO and the future of artificial intelligence with Bloomberg's Natalie Lung. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/airbnb-is-at-beginning-of-ai-transformation-chesky-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4982452089442f51b571fcf8bb5d6853",
-      "timestamp": "2026-01-14T22:00:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hedge Fund ExodusPoint Hires Ex-Goldman, BNP Paribas FX Veteran - ExodusPoint Capital Management has hired seasoned options trader Baris Temelkuran as a macro portfolio manager, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/hedge-fund-exoduspoint-hires-ex-goldman-bnp-paribas-fx-veteran",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2568ec2e3e4f13de20f3b3b2e4a04d3a",
-      "timestamp": "2026-01-14T22:00:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Airbnb Names Meta’s Head of Generative AI as Chief Technology Officer - Airbnb Inc. has hired a former Meta Platforms Inc. executive as its new chief technology officer, as the short-term rental company is investing to include more artificial intelligence and personalizat",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/airbnb-taps-meta-ai-executive-as-new-chief-technology-officer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a58181e0d8cef25d2ee8496ed10961de",
-      "timestamp": "2026-01-14T22:00:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Neuberger Berman Invests in Ryan at $7 Billion Valuation - Neuberger Berman is buying a minority stake in Ryan LLC, valuing the tax advisory and software provider at about $7 billion, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/neuberger-berman-invests-in-ryan-at-7-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a6f3803a9cd44fe9549b58a0f1deac16",
-      "timestamp": "2026-01-14T22:00:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Robotics Startup Skild AI Valued Above $14 Billion in New Funding Round - Skild AI Inc., a fast-rising startup that makes software to help robots learn to complete tasks, has secured about $1.4 billion in a new funding round that values the company at more than $14 billion,",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/robotics-startup-skild-valued-above-14-billion-after-softbank-led-funding-round",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "832123c88325866f62f06de2c54f6415",
-      "timestamp": "2026-01-14T22:00:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Airbnb Hires Former Meta Exec as New CTO as It Leans Into AI - Airbnb CEO Brian Chesky introduces his company's new CTO, Ahmad Al-Dahle, and discusses his future vision for AI. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/airbnb-hires-former-meta-exec-as-new-cto-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "431ff19d7a497d93bbf88a08508a57a3",
-      "timestamp": "2026-01-14T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OPEC’s First Look at 2027 Shows Demand Growing at Steady Pace - OPEC’s first detailed assessment of 2027 projects that global oil demand will continue to increase at a steady pace.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/opec-s-first-look-at-2027-shows-demand-growing-at-steady-pace",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b00397afbf36de2f4187848b1f33dba",
-      "timestamp": "2026-01-14T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe’s Own Trade Barriers Are Worse Than Trump’s, ECB Finds - Trade frictions across the European Union are more onerous than the highest tariff US President Donald Trump threatened to slap on the bloc last year, according to research by the European Central Ban",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/europe-s-own-trade-barriers-are-worse-than-trump-s-ecb-finds",
       "sentiment": "NEUTRAL"
     }
   ]
