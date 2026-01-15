@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-15T09:12:52.363159+09:00",
+  "last_updated": "2026-01-15T09:47:55.726446+09:00",
   "items": [
+    {
+      "id": "f7263cd06e40182465a6765b369f02b7",
+      "timestamp": "2026-01-15T09:38:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Supreme Court Doesn't Rule on Tariffs, Delaying Decision By at Least a Week - The US Supreme Court didn’t rule on challenges to President Donald Trump’s tariffs Wednesday, leaving the world to wait until at least next week to learn the fate of his signature economic policy. The",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/supreme-court-doesn-t-rule-on-tariffs-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f257a998480646075748b40a6b6a685",
+      "timestamp": "2026-01-15T09:12:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Fed That Fights Back Threatens Trump’s Takeover Plan - Chair Jerome Powell, who’s largely turned the other cheek to years of President Donald Trump’s barbs, came out fighting after the Fed got served subpoenas hinting at criminal charges. For the first ti",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/a-fed-that-fights-back-threatens-trump-s-takeover-plan-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ff70c13e2f773917576f6c4cdaa5a1bd",
+      "timestamp": "2026-01-15T09:10:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "XAI Blocks Grok From Creating Sexualized Images of Real People - Elon Musk’s xAI is disabling the ability for people to use its Grok artificial intelligence chatbot to create sexualized images of real people, following widespread criticism that the company was allo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/xai-blocks-grok-from-creating-sexualized-images-of-real-people",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0aa098336db46ec8b0f32125eec1c24d",
       "timestamp": "2026-01-15T09:04:29+09:00",
@@ -10,6 +43,28 @@
       "related_tickers": [],
       "content": "Fmr. Denmark Amb.: Greenlanders are Great Friends of US - Carla Sands, former U.S. ambassador to Denmark and America First Policy Institute Energy Policy Distinguished Senior Fellow, says Denmark lacks the capacity and resources to develop or secure Greenlan",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/fmr-denmark-amb-greenlanders-are-great-friends-of-us-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "73cb1df364ad61c5dc9cb39deaeb34d2",
+      "timestamp": "2026-01-15T09:00:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thailand Long-Bond Outlook Darkens on Fiscal Worries Before Vote - As Thailand’s general election nears, rising concerns about fiscal largesse are adding pressure on longer-dated bonds, spurring bets for sustained underperformance versus short-term notes.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/thailand-long-bond-outlook-darkens-on-fiscal-worries-before-vote",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "58ffda4f092d7f1b44cebf8096a6e90e",
+      "timestamp": "2026-01-15T09:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "KKR Asia Credit Fund Draws 75% New Investors as Decoupling Rises - KKR &amp; Co. raised three-quarters of its $2.5 billion Asia private credit fund from new investors, as deepening economic decoupling pushes firms to broaden exposure and hedge geopolitical risk, acco",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/kkr-asia-credit-fund-draws-75-new-investors-as-decoupling-rises",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Emerging Stocks Notch New Record High, Powered by Asian Tech - Emerging-market stocks rose for the third-straight day to touch yet another record high, driven mainly by the boom in Asian technology shares.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/emerging-stocks-notch-new-record-high-powered-by-asian-tech",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "01ef70e90c100bf76903105d147900f5",
-      "timestamp": "2026-01-14T21:38:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Dismisses Dimon’s Criticism of DOJ Probe of Powell - President Donald Trump said JPMorgan Chase & Co. Chief Executive Officer Jamie Dimon was “wrong” to suggest he was undermining the independence of the central bank after Dimon criticized the Justice D",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/trump-dismisses-dimon-s-criticism-of-doj-probe-of-powell-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7c4ccc1315447c76fe8db80e3f6623b1",
-      "timestamp": "2026-01-14T21:36:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Big Oil Braces for Profit Pain After Crude’s Slide - The supermajors may be heading into a tougher earnings season.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-14/big-oil-braces-for-profit-pain-after-crude-s-slide",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1835057fb78ff7e955d51dc354dac8a8",
-      "timestamp": "2026-01-14T21:34:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukrainian Ex-Premier Tymoshenko Searched Amid Vote Bribe Probe - Ukrainian authorities searched the office of the party led by former Prime Minister Yulia Tymoshenko in an investigation into lawmakers who received illegal payments for votes, as anti-graft efforts c",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/ukrainian-ex-premier-tymoshenko-searched-amid-vote-bribe-probe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7d8294545e0ec8004bfdb4fb106ab13b",
-      "timestamp": "2026-01-14T21:28:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pimco Says Rally Sweeping Emerging Markets to Last ‘for Years’ - For one of the world’s largest bond managers, the rally that swept through emerging markets last year was a prelude to a longer-lasting trend.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/pimco-says-rally-sweeping-emerging-markets-to-last-for-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bee50aa0e82a4ce1a22ed79bb4714b40",
-      "timestamp": "2026-01-14T21:27:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brazil Police Target Executives Daniel Vorcaro and Nelson Tanure in Bank Probe - Brazil police on Wednesday started a new phase of a probe into executives with ties to Banco Master SA just weeks after the lender’s November liquidation by the central bank came under scrutiny from f",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/daniel-vorcaro-and-nelson-tanure-targed-in-brazil-bank-probe",
       "sentiment": "NEUTRAL"
     }
   ]
