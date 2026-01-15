@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-15T21:05:49.429837+09:00",
+  "last_updated": "2026-01-15T21:45:34.736205+09:00",
   "items": [
+    {
+      "id": "bc14f6635e94e1d9e8d72a23958fc5eb",
+      "timestamp": "2026-01-15T21:37:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bombardier to Boost Output Capacity in Quebec With New Factory - Canadian jet maker Bombardier Inc. will invest C$100 million ($72 million) to build a new manufacturing center near Montreal to increase its production capacity.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bombardier-to-boost-output-capacity-in-quebec-with-new-factory",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3a4d97e66c500489e642d32bbcf2c0cd",
+      "timestamp": "2026-01-15T21:28:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mol Nears Deal to Buy Gazprom Stake in Sanctioned Serb Refinery - Hungarian energy company Mol Nyrt. is closing in on the takeover of Serbia’s sole refinery as US sanctions force Russia’s Gazprom Neft PJSC to sell its majority stake.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mol-nears-deal-to-buy-gazprom-stake-in-sanctioned-serb-refinery",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bdcd49e6b5b29303da371d04a0e2e601",
+      "timestamp": "2026-01-15T21:05:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Britain Shows Europe How to Keep Offshore Wind Alive - Yesterday’s auction resulted in plans for four huge wind farms, while other countries struggle to attract developer interest.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/britain-shows-europe-how-to-keep-offshore-wind-alive",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "941e8abbb192d05509b23850d16c29af",
       "timestamp": "2026-01-15T21:02:01+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Government, Public Anger Grows Over Sexual Deepfakes - The US Senate passes a bill aimed at helping victims of sexualized deepfakes. It comes as anger grows following reports that Elon Musk’s X has become a top site for images of people that have been non",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/government-public-anger-grows-over-sexual-deepfakes-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5630a59965f9d660fbc4671e0a7f61ad",
-      "timestamp": "2026-01-15T04:58:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Powell to Skip Testimony to Congress, Says Steil - Republican Representative Bryan Steil of Wisconsin said that Fed Chair Jerome Powell is expected to skip testifying to congress about economic developments, after Powell became the subject of a DOJ in",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/powell-to-skip-testimony-to-congress-says-steil-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b76550b81c1a5a91aa78a5e314a3455",
-      "timestamp": "2026-01-15T04:58:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carlyle CEO Says Powell Probe Reinforces Fed Independence - Carlyle Group CEO Harvey Schwartz says that an investigation into Federal Reserve Chair Jerome Powell underscores the importance of the US central bank’s independence during an Economic Club of New Yo",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/carlyle-ceo-powell-probe-reinforces-fed-independence-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b5f0a2883d23afff438c751611c694e",
-      "timestamp": "2026-01-15T04:54:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Toughens Greenland Rhetoric | Balance of Power: Early Edition 1/14/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discusses President Donald Trump's latest comments about Greenland. On today's show, Democratic Congresswoman H",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/balance-of-power-early-edition-1-14-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
