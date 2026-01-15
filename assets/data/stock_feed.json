@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-16T02:42:45.405712+09:00",
+  "last_updated": "2026-01-16T03:07:37.559856+09:00",
   "items": [
+    {
+      "id": "8d3672dab3025106637da4b9d81e9e13",
+      "timestamp": "2026-01-16T02:56:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Morgan Stanley to Sell $8 Billion From US Dollar Bond Sale - Morgan Stanley is selling $8 billion of bonds as Wall Street banks flood the debt markets after earnings.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/morgan-stanley-to-sell-8-billion-from-us-dollar-bond-sale",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2aeb04b85c52331a9e0c0b7c53e50229",
+      "timestamp": "2026-01-16T02:56:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NYC Sues Delivery App Over Lost Pay in New Mamdani Crackdown - New York City said it’s suing a food-delivery technology provider for withholding pay from workers, signaling Mayor Zohran Mamdani’s get-tough approach to regulating app-based work. Bloomberg's Myles ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/nyc-sues-delivery-app-over-lost-pay-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "52bffc6faabb44263fdd9ee0e52fd299",
+      "timestamp": "2026-01-16T02:55:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Petro Vows to Cut Colombia Gasoline Prices in Policy U-Turn - Colombian President Gustavo Petro said he will cut gasoline prices, a reversal of the policy in his first years in office when he phased out fuel subsidies to narrow the fiscal deficit.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/petro-vows-to-cut-colombia-gasoline-prices-in-policy-u-turn",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "72e093945fcb9eb60d7fb7cadb589e32",
+      "timestamp": "2026-01-16T02:54:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Paramount Holds Macron Talks in European Push for Warner Deal - Paramount Skydance Corp.’s leadership has held talks in recent days with French President Emmanuel Macron amid a European charm offensive to garner support for its $108.4 billion hostile bid for Warne",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/paramount-holds-macron-talks-in-european-push-for-warner-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "db944123660d3ea470bf4727f2b7bcd5",
+      "timestamp": "2026-01-16T02:40:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TSMC’s Strong Outlook Fires Up Hopes of Sustained AI Boom - Taiwan Semiconductor Manufacturing Co. is earmarking as much as $56 billion in capital spending for 2026, a stronger-than-anticipated projection that signals its confidence in the longevity of the glo",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/tsmc-soutlook-fires-up-hopes-of-sustained-ai-boom-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "01c6371198b3c6c8c3e6e0370e06bdfa",
       "timestamp": "2026-01-16T02:33:35+09:00",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Mozambique Eyes Debt Talks After New IMF Program, President Says - Mozambique will only start talks with creditors to renegotiate its debt after reaching an agreement on a new program with the International Monetary Fund, President Daniel Chapo said.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/mozambique-eyes-debt-talks-after-new-imf-program-president-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "02dec25144200f2b46a27d3758217b80",
-      "timestamp": "2026-01-15T13:26:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Singapore Home Sales Hit Multi-Year High Despite Recent Lull - Singapore new home sales reached their highest level in years in 2025, even after transactions cooled during the holiday season.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/singapore-home-sales-hit-multi-year-high-despite-december-lull",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "37636228d0a1f6ecb350d046651aa947",
-      "timestamp": "2026-01-15T13:12:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Man Shot by US Officer in Minneapolis Amid Escalating Tensions - A federal officer shot a man in the leg on Wednesday night in Minneapolis, a week after the fatal shooting of a local woman by an Immigration and Customs Enforcement agent touched off angry protests a",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/man-shot-by-us-officer-in-minneapolis-amid-escalating-tensions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3e101b4db7166c7d03006b4e4fe2e608",
-      "timestamp": "2026-01-15T13:08:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Tanker Rates Spike as US Push Into Venezuela Redraws Flows - The shipping market is being shaken up by Washington’s intervention in Venezuela, as the prospect of more oil being exported to the US boosts regional tanker rates to their highest level in almost two",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/oil-tanker-rates-spike-as-us-push-into-venezuela-redraws-flows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "818d23f66af4ae6a0785ba0019a3cdd3",
-      "timestamp": "2026-01-15T13:02:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Oil Risks Don't Disappear With Trump Reprieve - <p>The country&nbsp;is bringing&nbsp;far more danger&nbsp;to the geopolitical table than Venezuela.</p>",
-      "url": "https://www.bloomberg.com/opinion/newsletters/2026-01-15/iran-oil-risks-don-t-disappear-with-trump-reprieve",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c4a9d49a4ecead7599752bcd8ad9912",
-      "timestamp": "2026-01-15T12:56:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan, Philippines Sign Military Logistics Pact Amid China Row - Japan and the Philippines signed on Thursday a military logistics support agreement, deepening their defense ties as they face rising tensions with China.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/japan-philippines-sign-military-logistics-pact-amid-china-row",
       "sentiment": "NEUTRAL"
     }
   ]
