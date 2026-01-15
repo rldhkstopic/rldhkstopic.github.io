@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-16T05:39:05.788264+09:00",
+  "last_updated": "2026-01-16T06:03:51.125431+09:00",
   "items": [
+    {
+      "id": "15fafdde4391f64dd568cf561b9d6077",
+      "timestamp": "2026-01-16T06:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Gets a Viral Moment With Cowork Tool Built (Mostly) by AI - The AI company’s newest product has put much of the software industry on alert.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/anthropic-gets-a-viral-moment-with-cowork-tool-built-mostly-by-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d31bcf5384227facc530d40bcd3211fa",
+      "timestamp": "2026-01-16T05:50:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump-Class Warship May Be Among Costliest Ever Military Vessels - The first of the Navy’s proposed “Trump-class” battleships could cost up to $22 billion, a price tag that would make it one of the most expensive US military vessels in US history, according to an ear",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-class-warship-may-be-among-costliest-ever-military-vessels",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "47315195280cbef221bd9b66a02a232c",
+      "timestamp": "2026-01-16T05:44:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Golden Dome Puts Focus on Space Defense - President Donald Trump’s plan for the Golden Dome missile shield has increased the focus on space defense. Laura Crabtree, former SpaceX engineer and co-founder and CEO of Epsilon3, a software provide",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/trump-s-golden-dome-puts-focus-on-space-defense-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "76f0436ed52c14229fa27282dbf3b622",
+      "timestamp": "2026-01-16T05:44:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vance to Skip Munich Conference Where He Roiled Allies Last Year - Vice President JD Vance will forgo attending the Munich Security Conference this year, according to a person familiar with his thinking, a decision that comes one year after he delivered a combative s",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/vance-to-skip-munich-conference-where-he-roiled-allies-last-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd144bc0cff33ff6330adec3b582f59b",
+      "timestamp": "2026-01-16T05:34:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed Faces ‘Trilemma’ of How Big Its Balance Sheet Should Be - The Federal Reserve has to grapple with the question of how big its balance sheet should be after it stopped shrinking its $6.5 trillion portfolio, according to economists at the central bank.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/fed-faces-trilemma-of-how-big-its-balance-sheet-should-be",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8edd90fd17cd1429f686c46204d51d79",
+      "timestamp": "2026-01-16T05:33:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Czech Billionaire Prime Minister Shows Signs of Softening as He Takes Control - The Czech Republic’s billionaire prime minister has cemented control over the government three months after his election victory amid signs he may be softening the impact of his far-right-backed admin",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/czech-billionaire-shows-signs-of-softening-as-he-takes-control",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f1411035ac865905ac64b19992f61e85",
+      "timestamp": "2026-01-16T05:32:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Industrial Firm Madison Air Said to Seek $2 Billion-Plus in IPO - Madison Air, a provider of ventilation and filtration systems, is seeking to raise at least $2 billion in a US initial public offering, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/industrial-firm-madison-air-said-to-seek-2-billion-plus-in-ipo",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c0544b8fd584639ec9a15b949a405a77",
       "timestamp": "2026-01-16T05:30:40+09:00",
@@ -54,6 +131,17 @@
       "related_tickers": [],
       "content": "Venezuela’s Machado Meets Trump | Balance of Power: Early Edition 1/15/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discuss the latest geopolitical news. On today's show, Former Deputy Assistant Secretary of State for the Burea",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/balance-of-power-early-edition-1-15-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5f9eb0b41ce5f9e509695f0ca4af468f",
+      "timestamp": "2026-01-16T05:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Equity Firm NGP Makes $200 Million US Battery Bet as AI Stokes Power Demand - Private equity firm NGP Energy Capital Management is backing a new US energy-storage developer with $200 million as data centers spur record power demand growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/private-equity-firm-ngp-makes-200-million-us-battery-bet-amid-ai-power-boom",
       "sentiment": "NEUTRAL"
     },
     {
@@ -208,6 +296,17 @@
       "related_tickers": [],
       "content": "Bank CEOs Say Record $134 Billion Trading Haul Is Just the Start - Morgan Stanley Chief Executive Officer Ted Pick started summing up his outlook after Wall Street’s banner year for trading with four words: “The setup is ideal.”",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/bank-ceos-say-record-134-billion-trading-haul-is-just-the-start",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7f271bc5f6d2be2ad4989400a137659c",
+      "timestamp": "2026-01-16T04:01:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Sachs Names BlackRock’s Lynam as Chief Credit Strategist - Amanda Lynam, head of macro credit research at BlackRock Inc., is returning to Goldman Sachs Group Inc. after three years with the asset management firm.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/goldman-sachs-names-blackrock-s-lynam-as-chief-credit-strategist",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "ASML Soars Beyond $500 Billion Value After TSMC’s Upbeat Outlook - ASML Holding NV shares soared to a record high, sending its market value beyond $500 billion, after Asian peer Taiwan Semiconductor Manufacturing Co. gave a stronger-than-anticipated outlook for 2026.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/asml-soars-beyond-500-billion-value-after-tsmc-s-upbeat-outlook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3dbff67ea8cae9b534199962036c3401",
-      "timestamp": "2026-01-15T17:22:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ASML Soars Beyond $500 Billion Value After TSMC’s Upbeat Outlook - ASML Holding NV shares soared to a record high, sending its market value beyond $500 billion, after Asian peer Taiwan Semiconductor Manufacturing Co. gave a stronger-than-anticipated outlook for 2026.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/asml-soars-beyond-500-billion-value-after-tsmc-s-upbeat-outlook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "184d4281cd82d02142974e83ca0c5a11",
-      "timestamp": "2026-01-15T17:19:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "European Stocks Gain on AI Boost; ASML Rises Above $500 Billion - European stocks extended a record-breaking advance as technology stocks rallied following Taiwan Semiconductor Manufacturing Co.’s solid results. ASML Holding NV surpassed $500 billion in market capit",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/european-stocks-gain-as-tech-rises-on-ai-optimism-iran-in-focus",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7fb4549ca3e1c1a4b8bae06e8ef36367",
-      "timestamp": "2026-01-15T17:17:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Revolut Chairman Is Listed as Swiss Resident in Local Filings - Revolut Ltd. Chairman Martin Gilbert has disclosed a long-standing residency in Switzerland, according to local company filings related to the setting up of a new unit of the global fintech firm.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/revolut-chairman-is-listed-as-swiss-resident-in-local-filings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bdc6dcdd8fe8cb13138f7e472df129d1",
-      "timestamp": "2026-01-15T17:10:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Signals He’ll Hold Off Another Attack on Iran for Now | Daybreak Europe 1/15/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/daybreak-europe-1-15-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e5a5fb39e3774630337f2190345ce3a7",
-      "timestamp": "2026-01-15T17:09:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cocoa Hits Two-Year Low as Europe Grinds Fewest Beans Since 2013 - Cocoa futures fell to a two-year low in London after Europe’s cocoa processing posted a steeper-than-expected slump, showing the extent of demand destruction as the industry reels from the lingering i",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/europe-cocoa-grindings-sink-more-than-expected-as-demand-craters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c6f1a9e626c85be0c685f671948bfc69",
-      "timestamp": "2026-01-15T17:05:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s State Grid Plans 40% Surge in Investment Through 2030 - The State Grid Corp. of China plans to boost spending to 4 trillion yuan ($574 billion) over the next five years, as the nation races to expand its power network to keep pace with rising electricty de",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-s-state-grid-plans-40-surge-in-investment-through-2030",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ea2a8c37db5b72ea88b136c24f1f79e4",
-      "timestamp": "2026-01-15T17:02:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ericsson Plans to Cut 1,600 Jobs in Sweden in Cost-Cutting Push - Telecommunications equipment maker Ericsson AB plans to cut about 1,600 jobs as part of a broader plan to reduce operational costs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/ericsson-plans-to-ax-1-600-jobs-in-sweden-in-cost-cutting-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "073e22f4179858cb6f8d70cfad6acd9e",
-      "timestamp": "2026-01-15T17:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "LSEG Starts New Digital Settlement Platform in Blockchain Push - The London Stock Exchange Group Plc has launched a new blockchain-friendly digital settlement service, as the bourse operator deepens its use of the technology underpinning cryptocurrencies.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/lseg-starts-new-digital-settlement-platform-in-blockchain-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "911b2a592378d35ec51406134fb274b0",
-      "timestamp": "2026-01-15T16:58:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Builder Jingrui Ordered to Liquidate by Hong Kong Court - Hong Kong’s High Court ordered the liquidation of developer Jingrui Holdings Ltd., making it the latest defaulted Chinese builder to be wound up in the city amid China’s years-long property crisis.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/chinese-builder-jingrui-ordered-to-liquidate-by-hong-kong-court",
       "sentiment": "NEUTRAL"
     }
   ]
