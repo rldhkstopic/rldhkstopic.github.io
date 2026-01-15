@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-15T19:40:45.068432+09:00",
+  "last_updated": "2026-01-15T20:03:42.888882+09:00",
   "items": [
+    {
+      "id": "4efac7dcfbf33185d51f58f7fc46b3c4",
+      "timestamp": "2026-01-15T20:00:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Struggle to Keep Britain United - While Reform UK soars at Starmer’s expense, Scots and Welsh voters are backing left-wing nationalists.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/uk-s-starmer-faces-a-struggle-to-keep-britain-together",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "13928d7833c73ec2247b5d87e31d757a",
+      "timestamp": "2026-01-15T19:32:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Denmark to Push Back on US Greenland Demands as Protests Planned - Denmark’s Prime Minister Mette Frederiksen said she’ll continue to push back against American efforts to take over Greenland after a high-level meeting failed to defuse US threats over the future of t",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/denmark-to-push-back-on-us-greenland-demands-as-protests-planned",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b348fa8622e4612f477533c69b6c27f6",
       "timestamp": "2026-01-15T19:30:32+09:00",
@@ -21,6 +43,17 @@
       "related_tickers": [],
       "content": "Trump’s Rare Earth Push Extends Lifeline to Green Tech - <p>The industry saw record funding in 2025 as the US looks to build out a supply chain of elements crucial to the defense and energy sectors.</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-national-security-mandate-boosts-us-rare-earth-startups",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "75225bd6e5b38a781065478bca1f29ac",
+      "timestamp": "2026-01-15T19:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stock Market’s Calm Belies Extreme Swings in Individual Shares - The sense of calm that has pervaded the US stock market for months is masking unprecedented bursts of volatility in individual shares, say Barclays Plc strategists.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/stock-market-s-calm-belies-extreme-swings-in-individual-shares",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Fed’s Kashkari: Next Chair Needs to Persuade on Policy - Federal Reserve Bank of Minneapolis President Neel Kashkari said the central bank’s next chair will have to put forward their best arguments for interest rates to persuade other policymakers. “That pe",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/fed-s-kashkari-next-chair-needs-to-persuade-on-policy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83ca86e9fe7fafe18808c275b9bad260",
-      "timestamp": "2026-01-15T03:13:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Vice Chancellor Says Trump Risks Backfire Amid Fed Attack - German Finance Minister Lars Klingbeil said Donald Trump’s political course risks backfiring and urged Europe not to take his pressure on the Federal Reserve as a model for dealing with central banks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/german-vice-chancellor-says-trump-risks-backfire-amid-fed-attack",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "46e59f1565a987ac58b6203f1cdc46de",
-      "timestamp": "2026-01-15T03:13:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Verizon Users Report Service Outage Affecting Thousands - Verizon Communications Inc. is suffering a widespread service outage, with thousands of users reporting lack of cell service on Wednesday afternoon.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/verizon-users-report-service-outage-affecting-176-000-customers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "df3eec1b387237f52f629dd114ed4470",
-      "timestamp": "2026-01-15T03:08:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Costs Overshadow BofA Trading Beat | Open Interest 1/14/2025 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" A big bank earnings bonanza.  Bank of America beats, but expense worries weigh on shares, Wells Fa",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/open-interest-1-14-2025-video",
       "sentiment": "NEUTRAL"
     }
   ]
