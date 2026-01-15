@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-15T17:42:49.034672+09:00",
+  "last_updated": "2026-01-15T18:06:31.392314+09:00",
   "items": [
+    {
+      "id": "72b12e0bb7099cd8268ce09709376b05",
+      "timestamp": "2026-01-15T18:00:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "<strong>How to Make Money From the Booming Demand for Energy</strong> - <p><strong>A conversation with fund manager Tyler Rosenlicht.</strong></p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/how-to-make-money-from-the-booming-demand-for-energy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9d6a40520435183075dc132d5e3ba882",
+      "timestamp": "2026-01-15T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Odd Lots: How to Profit From the Booming Energy Demand (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-01-15/odd-lots-how-to-profit-from-the-booming-energy-demand-podcast",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f80035868921769d12a4efd787d4967d",
       "timestamp": "2026-01-15T17:30:00+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Trump to Sign Bill Allowing Sale of Whole Milk in Schools - President Donald Trump will sign legislation Wednesday allowing schools that participate in a federal lunch program to serve whole milk, the latest measure advancing his administration’s health agenda",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/trump-to-sign-bill-wednesday-allowing-whole-milk-in-schools",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ef8437ba16060dc5b938d22030232acb",
-      "timestamp": "2026-01-15T01:41:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DoorDash, Uber Drivers Stiffed on $550 Million in Tips, NYC Says - DoorDash Inc. and Uber Technologies Inc. have deprived New York delivery workers of more than $550 million in tips after changing the interfaces on their apps, according to findings released in a repo",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/doordash-uber-drivers-stiffed-on-550-million-in-tips-nyc-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ef8437ba16060dc5b938d22030232acb",
-      "timestamp": "2026-01-15T01:41:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DoorDash, Uber Drivers Stiffed on $550 Million in Tips, NYC Says - DoorDash Inc. and Uber Technologies Inc. have deprived New York delivery workers of more than $550 million in tips after changing the interfaces on their apps, according to findings released in a repo",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/doordash-uber-drivers-stiffed-on-550-million-in-tips-nyc-says",
       "sentiment": "NEUTRAL"
     }
   ]
