@@ -1,6 +1,116 @@
 {
-  "last_updated": "2026-01-16T04:37:33.422413+09:00",
+  "last_updated": "2026-01-16T05:04:19.132414+09:00",
   "items": [
+    {
+      "id": "7d078b3ad7d69395b0f5062f8ece12f5",
+      "timestamp": "2026-01-16T04:55:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US, Taiwan Reach Deal to Cut Tariffs, Boost Chip Investment - The US and Taiwan agreed to a trade agreement that would lower tariffs on goods from Taiwan to 15%. Taiwanese semiconductor companies will also invest more in US operations. Bloomberg's Michael Shepar",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/us-to-lower-tariffs-on-taiwan-by-15-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "36e71d553e4d54b598b5d5c2dbf222e1",
+      "timestamp": "2026-01-16T04:51:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "College Basketball Players Charged With Fixing Games to Win Bets - More than two dozen people, including college basketball players, were charged by federal prosecutors alleging a yearslong scheme to fix games in the US and China that generated millions of dollars in",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/college-basketball-players-charged-with-fixing-games-to-win-bets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a288ac931b399ddfb04158d564b8e5d2",
+      "timestamp": "2026-01-16T04:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ex-Pimco Executive Scores Milestone With Catastrophe Bond ETF - An exchange-traded fund tied to bets on natural disasters has started trading in London, after becoming the first such ETF to attract a lead market maker.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/ex-pimco-executive-scores-milestone-with-catastrophe-bond-etf",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9e1768e86564d3f4b3d0aea200cc4442",
+      "timestamp": "2026-01-16T04:44:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Sachs Tops Wall Street for Fourth Quarter ECM Revenue - Goldman Sachs Group Inc. returned to the top of Wall Street’s equity capital markets revenue leaderboard in the final quarter of last year, as banks jostle for roles on the blockbuster initial public ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/goldman-sachs-tops-wall-street-for-fourth-quarter-ecm-revenue",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d7be851698382e2d7338a8d55943adf",
+      "timestamp": "2026-01-16T04:43:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "French Premier’s Office Says Unable to Pass Budget Via Vote - French Prime Minister Sebastien Lecornu’s office said actions by far-left and far-right parties in parliament had made it impossible to pass a 2026 budget via a vote and that it will have to use an al",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/french-premier-s-office-says-unable-to-pass-budget-via-vote",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6caead8f888b6a66125f6491d4d90abf",
+      "timestamp": "2026-01-16T04:42:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "White-Collar Enforcement Sinks Under Trump, Public Citizen Says - The Trump administration canceled at least 162 corporate enforcement actions and halted 14 more in its first year back in office, according to progressive advocacy group Public Citizen.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/white-collar-enforcement-sinks-under-trump-public-citizen-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "76fafe3194331d39abafe5517f3cce2e",
+      "timestamp": "2026-01-16T04:40:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Coinbase Pulls Support For Crypto Bill - Coinbase has pulled its support for the current version of the market-structure bill due for markup in the Senate Banking Committee on Thursday. Bloomberg's SEC & CFTC reporter Lydia Beyoud discussed ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/coinbase-pulls-support-for-crypto-bill-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be98243955e566e18dbf3d6acae34a6f",
+      "timestamp": "2026-01-16T04:36:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "There Were Surprises In The Crypto Bill: Rettig - \"There were surprises in the bill,\" says Rebecca Rettig, who has been in the room for some of the negotiations as the Senate Banking Committee crafts the crypto market-structure bill. She also serves ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/there-were-surprises-in-the-crypto-bill-rettig-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7de0b08dc3d5c945c504a7783335fd86",
+      "timestamp": "2026-01-16T04:31:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Coinbase Pulls Support for Crypto Bill, Machado to Meet with Trump | Bloomberg Markets 1/15/2026 - \"Bloomberg Markets\" follows the market moves across every global asset class and discusses the biggest issues for Wall Street. Today's guests: KBW Head of US Bank Research Chris McGratty, Jito Labs CO",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/bloomberg-markets-1-15-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3913c6c75cff03e82acb7bf59df3ad8b",
+      "timestamp": "2026-01-16T04:26:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bill Gates’ Breakthrough, BMW and Canada Back Lithium Refiner - Lithium refiner Mangrove Water Technologies Inc. secured $85 million from the Canada Growth Fund, BMW AG’s i Ventures and Bill Gates-backed Breakthrough Energy LLC.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bill-gates-breakthrough-bmw-and-canada-back-lithium-refiner",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9127053e15a9247d1a9ede2ec40e7031",
       "timestamp": "2026-01-16T04:24:33+09:00",
@@ -2089,116 +2199,6 @@
       "related_tickers": [],
       "content": "Microsoft Investigated by Swiss Regulator over Licensing Fees - Switzerland’s competition commission has begun a preliminary investigation into Microsoft Corp. over the licensing fees it charges clients in the country after receiving complaints over recent price i",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/microsoft-investigated-by-swiss-regulator-over-licensing-fees",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f3ad25338722f34754e10e01f421c7ae",
-      "timestamp": "2026-01-15T16:32:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UniCredit Dismisses Monte Paschi Speculation as ‘Unjustified’ - UniCredit SpA said that recent media reports about its interest in potentially buying a stake in rival Banca Monte dei Paschi di Siena SpA were “unjustified.”",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/unicredit-dismisses-monte-paschi-speculation-as-unjustified",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7a9818ba9dcf1073235a835f8e5ad284",
-      "timestamp": "2026-01-15T16:32:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chapo Targets Mozambique Development With IMF Loan Deal - Mozambique President Daniel Chapo discusses how a new International Monetary Fund funding program would help improve the African nation’s credibility in international markets. However, he adds any agr",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/chapo-targets-mozambique-development-with-imf-loan-deal-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d0a52dc7f4f717ea5b2c4502f3d0571",
-      "timestamp": "2026-01-15T16:30:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Gets a Jump on Trying AI Everywhere From Cars to Birdbaths - Amid the keynote speeches and product unveilings at CES this month, the Las Vegas electronics trade show delivered an important geopolitical message: Chinese companies are rapidly embedding artificial",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-gets-a-jump-on-trying-ai-everywhere-from-cars-to-birdbaths",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8ff53c63d6bba2141f3b1c75702fc3d2",
-      "timestamp": "2026-01-15T16:27:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chapo: Mozambique Debt Talks to Be After New IMF Program - Mozambique President Daniel Chapo says the southeastern African nation will only start talks with creditors to renegotiate its debt after reaching an agreement on a new program with the International ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/chapo-mozambique-debt-talks-to-be-after-new-imf-program-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eeee97f0b7fc9fb54cf069b9e4afae75",
-      "timestamp": "2026-01-15T16:24:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TikTok Blocks Thai Politicians From Paying for Ads Before Poll - Social media platform TikTok said it would block Thai election candidates from paying for advertising or monetizing their content during the election campaign period.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/tiktok-blocks-thai-politicians-from-paying-for-ads-before-poll",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eeee97f0b7fc9fb54cf069b9e4afae75",
-      "timestamp": "2026-01-15T16:24:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TikTok Blocks Thai Politicians From Paying for Ads Before Poll - Social media platform TikTok said it would block Thai election candidates from paying for advertising or monetizing their content during the election campaign period.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/tiktok-blocks-thai-politicians-from-paying-for-ads-before-poll",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "23876117caa5be8eb3c713d023af261e",
-      "timestamp": "2026-01-15T16:13:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China New Loans Shrink to Least in Seven Years as Demand Weakens - Chinese banks extended the smallest amount of new loans since 2018 last year while credit expansion slowed in December, in a reflection of sluggish demand from borrowers that’s weighing on growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-new-loans-shrink-to-least-in-seven-years-as-demand-weakens",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "565969647257ed5c4bddc3906c72399a",
-      "timestamp": "2026-01-15T16:09:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippines to Allow Visa-Free Entry for Chinese Visitors - The Philippines will allow Chinese nationals to enter without visas for a stay of up to 14 days, the Southeast Asian nation’s Department of Foreign Affairs said Thursday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/philippines-to-allow-visa-free-entry-for-chinese-visitors",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "706b015decfb5b905a1357bd42d63f35",
-      "timestamp": "2026-01-15T15:53:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TSMC Says Spending to Surge in Strong Signal for AI Boom - TSMC surpassed $100 billion in annual revenue for the first time in 2025 and expects capital spending to surge to as much as $56 billion in 2026. The stronger-than-anticipated projection signals its c",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/tsmc-says-spending-to-surge-in-strong-signal-for-ai-boom-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2333659f19e85151879aec30ea0d7261",
-      "timestamp": "2026-01-15T15:46:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Economy Grew More Than Expected in November",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-01-15/ftse-100-live-uk-gdp-oil-silver-gold-prices-pound-bonds-trump-what-s-moving-uk-markets-right-now-markets-today",
       "sentiment": "NEUTRAL"
     }
   ]
