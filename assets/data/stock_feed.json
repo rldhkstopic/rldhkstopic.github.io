@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-16T07:38:00.921225+09:00",
+  "last_updated": "2026-01-16T08:03:55.707482+09:00",
   "items": [
+    {
+      "id": "9f1da61988a971196d89ee4fa03b08e3",
+      "timestamp": "2026-01-16T07:47:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dimon Says Lot of Good 'Short Term Things' In US Economy - JPMorgan CEO Jamie Dimon told Bloomberg's David Rubenstein that he sees a lot of good 'short term things' in the US economy, including Trump's 'big beautiful bill' and deregulation coming out of the W",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/dimon-says-lot-of-good-short-term-things-in-us-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "49e2df41d1bf466bacfee26a446b6f86",
+      "timestamp": "2026-01-16T07:40:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Tech Stocks to Rise on Renewed AI Optimism: Markets Wrap - Asian technology stocks are set to gain after US equities recovered from their first back-to-back losses of the year, reviving confidence in the sector.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/asian-tech-stocks-to-rise-on-renewed-ai-optimism-markets-wrap",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "064fbb893b8ae5c39b0b95e451910045",
+      "timestamp": "2026-01-16T07:39:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Meets With Schumer on Gateway Project, Health Care - President Donald Trump held a rare meeting with Senate Democratic leader Chuck Schumer Thursday at the White House where the two men aired differences on health care and funding for a key New York inf",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-meets-chuck-schumer-on-health-care-gateway-project",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e232bfe63e6cf190cad36eb8cd378f5c",
+      "timestamp": "2026-01-16T07:35:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Moves to Make Data Centers Pay for Surging Power Costs - President Donald Trump and US Northeast governors will direct the nation’s largest grid operator to hold an emergency power auction that would force technology giants to pay for the construction of a ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-to-direct-key-us-grid-operator-to-hold-emergency-auction",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e232bfe63e6cf190cad36eb8cd378f5c",
+      "timestamp": "2026-01-16T07:35:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Moves to Make Data Centers Pay for Surging Power Costs - President Donald Trump and US Northeast governors will direct the nation’s largest grid operator to hold an emergency power auction that would force technology giants to pay for the construction of a ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-to-direct-key-us-grid-operator-to-hold-emergency-auction",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f2e53e5c18deb7cba3ea268c0a934807",
+      "timestamp": "2026-01-16T07:35:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dimon Says 'No Chance' He'd Take Fed Chair Position - JPMorgan CEO Jamie Dimon told Bloomberg's David Rubenstein that there was 'no chance' he would take up the role of chair of the Federal Reserve, but would consider taking on the Treasury if the presid",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/dimon-says-no-chance-he-d-take-fed-chair-position-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "df5ef1bf672eee21df63d286df59696e",
+      "timestamp": "2026-01-16T07:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK to Open Ukraine Business Center to Speed Up Defense Exports - The UK will open a business center in Kyiv this year to help defense startups send more military hardware into Ukraine.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-to-open-ukraine-business-center-to-speed-up-defense-exports",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "ffc332f6926b92e3e4d5557f9ba5386b",
       "timestamp": "2026-01-16T07:15:27+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Tech Revival on AI Boom; Iran Averts US Strikes For Now | The Pulse 1/15 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/the-pulse-1-15-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "34b7b4402787b187a3fdf5db097d31dd",
-      "timestamp": "2026-01-15T20:03:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Top Court Says Tiger Global Liable to Pay Flipkart Taxes - India’s Supreme Court has held that Tiger Global’s capital gains arising from its 2018 stake sale in Flipkart to Walmart Inc. are taxable under domestic law in a setback for the US investment firm.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/india-top-court-says-tiger-global-liable-to-pay-flipkart-taxes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "655de2ff420788fa0edb96c7e9e8c00e",
-      "timestamp": "2026-01-15T20:01:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock Total Assets Hit Record $14 Trillion as ETFs Surge - BlackRock Inc. pulled in $342 billion of total client cash in the fourth quarter, pushing the firm to a record $14 trillion of assets as it integrates a string of recent acquisitions to become a force",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/blackrock-total-assets-hit-record-14-trillion-as-etfs-surge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4efac7dcfbf33185d51f58f7fc46b3c4",
-      "timestamp": "2026-01-15T20:00:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Struggle to Keep Britain United - While Reform UK soars at Starmer’s expense, Scots and Welsh voters are backing left-wing nationalists.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/uk-s-starmer-faces-a-struggle-to-keep-britain-together",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "341d75198e555ca0233bb9ef78fb0580",
-      "timestamp": "2026-01-15T19:54:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Former South African Minister Quits DA Party Amid Internal Rift - South Africa’s former environment minister and head of finance of the Democratic Alliance, Dion George, has resigned from the party and as a national lawmaker.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/former-south-african-minister-quits-da-party-amid-internal-rift",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "13928d7833c73ec2247b5d87e31d757a",
-      "timestamp": "2026-01-15T19:32:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Denmark to Push Back on US Greenland Demands as Protests Planned - Denmark’s Prime Minister Mette Frederiksen said she’ll continue to push back against American efforts to take over Greenland after a high-level meeting failed to defuse US threats over the future of t",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/denmark-to-push-back-on-us-greenland-demands-as-protests-planned",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b348fa8622e4612f477533c69b6c27f6",
-      "timestamp": "2026-01-15T19:30:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "In Argentina, Trump Tests Whether Money, Not Force, Can Win Over Latin America - <p>In a region reeling from US intervention in Venezuela, Buenos Aires is one place Trump has used his power to help a friend.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-15/trump-backs-argentina-ally-with-us-capital-as-he-confronts-venezuela-with-force",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f05eb3e9d51757d0df9ded220ca6fca9",
-      "timestamp": "2026-01-15T19:30:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Rare Earth Push Extends Lifeline to Green Tech - <p>The industry saw record funding in 2025 as the US looks to build out a supply chain of elements crucial to the defense and energy sectors.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-national-security-mandate-boosts-us-rare-earth-startups",
       "sentiment": "NEUTRAL"
     }
   ]
