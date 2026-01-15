@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-01-15T22:16:01.558654+09:00",
+  "last_updated": "2026-01-15T22:44:41.164730+09:00",
   "items": [
+    {
+      "id": "6f408f4cff6a86a1fe257b471ae01268",
+      "timestamp": "2026-01-15T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CFA Level II Pass Rate Drops Again, Hitting Lowest Level Since 2022 - The pass rate for the second level of the chartered financial analyst test fell to the lowest since 2022 as candidates who stayed on schedule continued to outperform peers who put off the exam.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/cfa-level-ii-pass-rate-drops-again-hitting-lowest-level-since-2022",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6fa47adb2543016cef50e36f78f7f67b",
+      "timestamp": "2026-01-15T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New York Factory Activity Expands While Inflation Gauges Cool - New York state factory activity expanded in January, while a gauge of prices received dropped to an almost one-year low.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/new-york-factory-activity-expands-while-inflation-gauges-cool",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6fa47adb2543016cef50e36f78f7f67b",
+      "timestamp": "2026-01-15T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New York Factory Activity Expands While Inflation Gauges Cool - New York state factory activity expanded in January, while a gauge of prices received dropped to an almost one-year low.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/new-york-factory-activity-expands-while-inflation-gauges-cool",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c51b96f60d3bdff269812c76118803df",
+      "timestamp": "2026-01-15T22:29:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Morgan Stanley Beats 4Q Investment-Banking Forecast - Morgan Stanley’s debt bankers increased revenue 93% in the fourth quarter, capping a record year for that business. Dani Burger reports on Bloomberg Television. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/morgan-stanley-beats-4q-investment-banking-forecast-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a14468282ff75ed52b513783527a5973",
+      "timestamp": "2026-01-15T22:27:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Threatens Insurrection Act as Minnesota Protests Grow - President Donald Trump threatened to deploy US military forces to quell protests in Minnesota in response to violent encounters involving federal immigration agents.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-threatens-insurrection-act-as-minnesota-protests-grow",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "84361a9d32a7abb8d93a8a4fb202ccbd",
+      "timestamp": "2026-01-15T22:22:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Man Shot by US Officer in Minneapolis as Tensions Escalate - A federal officer shot a man in the leg on Wednesday night in Minneapolis, escalating tensions in the city following the fatal shooting of a local woman by an Immigration and Customs Enforcement agent",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/man-shot-by-us-officer-in-minneapolis-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a415f633bc538f1297092d886dd80b5b",
+      "timestamp": "2026-01-15T22:22:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Malawi Finance Minister Sees Debt Rework Talks Concluding Soon - Malawi’s Finance Minister Joseph Mwanamvekha said he is optimistic debt-restructuring talks with multilateral and bilateral creditors will conclude by February, ahead of the 2026-27 budget presentatio",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/malawi-finance-minister-sees-debt-rework-talks-concluding-soon",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "869910091d7c4b4e9d5a98911b129ad0",
+      "timestamp": "2026-01-15T22:18:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Sachs Equity Traders Set Wall Street Revenue Record - Goldman Sachs Group Inc. set an all-time Wall Street record of $4.31 billion for equities-trading revenue in the final three months of last year and the bank also raised its dividend to $4.50 per shar",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/goldman-sachs-equity-traders-set-revenue-record-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ba8ec53ef923f876277a134557163d08",
+      "timestamp": "2026-01-15T22:08:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock, Microsoft AI Partnership Raises $12.5 Billion So Far - BlackRock Inc. has raised $12.5 billion as part of a partnership with Microsoft Corp. to bankroll data centers and energy infrastructure, advancing its efforts to cash in on the artificial intelligenc",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/blackrock-microsoft-ai-partnership-raises-12-5-billion-so-far",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ba8ec53ef923f876277a134557163d08",
+      "timestamp": "2026-01-15T22:08:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock, Microsoft AI Partnership Raises $12.5 Billion So Far - BlackRock Inc. has raised $12.5 billion as part of a partnership with Microsoft Corp. to bankroll data centers and energy infrastructure, advancing its efforts to cash in on the artificial intelligenc",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/blackrock-microsoft-ai-partnership-raises-12-5-billion-so-far",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f31bf920b9b05d6eee119a5daf9f6f89",
+      "timestamp": "2026-01-15T22:08:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa Closes Kruger Park as Deadly Floods Kill Dozens - Deadly floods prompted South Africa’s iconic Kruger National Park to shut to further visitors, after extreme rainfall killed dozens in the northeast of the country and neighboring Mozambique.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/south-africa-closes-kruger-park-as-deadly-floods-kill-dozens",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5cfbd475852836836038c681313e1ee3",
+      "timestamp": "2026-01-15T22:05:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EnBW Scraps Two Offshore Wind Projects After Missing UK Support - EnBW Energie Baden-Württemberg AG has halted two UK offshore wind projects after failing to secure government support in the latest allocation round, triggering mandatory impairments worth billions of",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/enbw-scraps-two-offshore-wind-projects-after-missing-uk-support",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c65e95ea48197819a1f55475ea8c880c",
       "timestamp": "2026-01-15T22:04:42+09:00",
@@ -21,6 +153,17 @@
       "related_tickers": [],
       "content": "Wells Fargo Kicks Off US Dollar Bond Sale After Earnings - Wells Fargo &amp; Co. is tapping the US high-grade market in an expected rush of bond sales from big Wall Street lenders after earnings.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/wells-fargo-kicks-off-us-dollar-bond-sale-after-earnings",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fe5a997e6e7d6b1f17e516d8fbc19c9d",
+      "timestamp": "2026-01-15T22:03:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Liquid Telecom Readies for Refinancing Talks as Maturity Looms - Pan-African fiber company Liquid Telecommunications is moving closer to refinancing talks as a $620 million bond maturity looms in September, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/liquid-telecom-readies-for-refinancing-talks-as-maturity-looms",
       "sentiment": "NEUTRAL"
     },
     {
@@ -208,6 +351,17 @@
       "related_tickers": [],
       "content": "Tesla and xAI Ties Raise Questions About ‘Muskonomy’ - The AI startup and public carmaker are headed for a tighter relationship.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/tesla-s-growing-ties-to-xai-raise-questions-about-musk-s-interlocking-companies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bda479de0eaa473f180c7c86a23e9f6d",
+      "timestamp": "2026-01-15T20:58:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TSMC Spurs Tech Revival, Gold Slides From Peak | The Opening Trade 1/15/2026 - Technology stocks bounced back on Thursday after TSMC revived confidence in the durability of artificial-intelligence demand. Nasdaq 100 futures swung from losses to a gain after the AI-bellwether sai",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/the-opening-trade-1-15-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2045,160 +2199,6 @@
       "related_tickers": [],
       "content": "Jimmy Lai’s Daughter Pushing US to Help Free Hong Kong Activist - The daughter of jailed Hong Kong democracy activist Jimmy Lai is pushing the Trump administration to help free her father, who was convicted late last year and has seen his health deteriorate during h",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/jimmy-lai-s-daughter-pushing-us-to-help-free-hong-kong-activist",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a6835e99ba92a60f3d01329fd7dad5f",
-      "timestamp": "2026-01-15T06:46:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sugar Group Asks USDA to Raise Standards for Refined Imports - A major sugar industry group is urging the US Department of Agriculture to raise its standards for refined sugar imports, saying current requirements permit lower-grade products into the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/sugar-group-asks-usda-to-raise-standards-for-refined-imports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "49bb9eaafe5900b946943559f470e3c1",
-      "timestamp": "2026-01-15T06:43:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How the Powell Probe Could Blow Up Trump’s Fed Plans - <p>The much-criticized criminal inquiry triggered some rare GOP pushback. It&nbsp;may leave Powell at the Fed for longer while making rate cuts less likely.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/podcast-how-the-powell-probe-could-blow-up-trump-s-fed-plans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d0d3acdf108567c329f8bf215f8ccf49",
-      "timestamp": "2026-01-15T06:40:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Eases Path for Nvidia to Sell H200s to China | Bloomberg Tech 1/14/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss the US Commerce Department’s move making it easier for Nvidia to sell H200 AI chips to China. Plus, fresh off its $1.4 billion founding round, Skild AI ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bloomberg-tech-1-14-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "635d8ba4eca4698e3be0e9419f904864",
-      "timestamp": "2026-01-15T06:37:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Germany Leads Military Buildup in Greenland in Response to Trump - Germany will take the lead of European nations sending military personnel to Greenland after Denmark said its meeting with top US officials intent on controlling the world’s biggest island revealed th",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/germany-leads-military-buildup-in-greenland-in-response-to-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ea0b11da6ae28379a3d1e65e15ba0dd2",
-      "timestamp": "2026-01-15T06:35:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Denmark and US Agree to Disagree on Greenland - Denmark and the US will form a high-level working group to talk about the future of Greenland.  Danish Foreign Minister Lars Lokke Rasmussen says there is a \"fundamental disagreement\" with the Trump a",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/denmark-and-us-disagree-on-greenland-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "37fca72025e7d1f57f7c7684f2a29523",
-      "timestamp": "2026-01-15T06:31:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Confronts a Voter Disconnect on State of the Economy - Americans have a sour outlook on economy despite positive data",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-14/trump-confronts-a-voter-disconnect-on-state-of-the-economy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d178d6fc284c9334776ee53fc3c2c35a",
-      "timestamp": "2026-01-15T06:29:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cyber Breach Affected 750,000 Canadian Investors, Regulator Says - Personal information of about 750,000 Canadian investors has been impacted by a “sophisticated phishing attack,” according to the Canadian Investment Regulatory Organization, in an update on the fallo",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/cyber-breach-affected-750-000-canadian-investors-regulator-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7ca22e2cdd671a9efc48071f0268c3ff",
-      "timestamp": "2026-01-15T06:26:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Coinbase CEO Brian Armstrong Pulls Support for Crypto Market-Structure Bill - Coinbase Global Inc. has pulled its support from the version of the market-structure bill that’s expected to go into markup in the Senate Banking Committee Thursday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/brian-armstrong-pulls-support-for-crypto-market-structure-bill-clarity",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d79d4343639341f98fc5f2f675d4d8f1",
-      "timestamp": "2026-01-15T06:24:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stephen Ross Says Offers for Miami Dolphins Are Close to $15 Billion - Stephen Ross, CEO and chair of Related Ross, founder of Related Companies and owner of the Miami Dolphins, comments on the future ownership of the Dolphins and says the offers for the franchise have r",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-says-offers-for-dolphins-are-close-to-15b-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4bee31d3b8f692bf0a44a0431ecc1c66",
-      "timestamp": "2026-01-15T06:04:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Card Cap Adds to Bank Woes  | Bloomberg Businessweek Daily 1/14/2026 - On today’s episode of Bloomberg Businessweek Daily, Tim Stenovec and Carol Massar discuss the Supreme Court not ruling on President Trump's tariff policy, which will impact the global economy. Morgan ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/bloomberg-businessweek-daily-1-14-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3bb39f18a1312942c9ea0d615a7837cf",
-      "timestamp": "2026-01-15T06:02:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Killings of Protestors Have Stopped in Iran: Q&A - President Trump told reporters that he was told by 'very important sources sources' in Iran that no killings of protestors were taking place and there were no plans for executions to take place.\nTrump",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/trump-says-killing-stopped-in-iran-q-a-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77004bb9e14f195be8237bee69f22adc",
-      "timestamp": "2026-01-15T06:01:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stephen Ross Says It's Difficult to Do Business in California - CEO and Chairman of Related Ross, Founder of Related Companies and Owner of the Miami Dolphins Stephen Ross says it costs too much to do business in California. He speaks to Bloomberg's Caroline Gage.",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-says-it-s-difficult-to-do-business-in-california",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b3409cc0ec71dae35384d968df76f02",
-      "timestamp": "2026-01-15T05:53:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela’s Dark Fleet of Oil Tankers Emerges After Maduro’s Capture by US Forces - The informal fleet of crude tankers that operated under the radar in Nicolas Maduro’s Venezuela is beginning to emerge from the shadows after the strongman’s capture lifts the veil of how the South Am",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/venezuela-s-dark-fleet-of-oil-tankers-emerges-after-maduro-s-capture-by-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aeca1e73c00ce00f90e15f012acc4562",
-      "timestamp": "2026-01-15T05:50:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stephen Ross Calls Palm Beach County the 'Next Silicon Valley' - Stephen Ross, CEO and chair of Related Ross, founder of Related Companies and owner of the Miami Dolphins, discusses the outlook for business development in the West Palm Beach area during a Bloomberg",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/stephen-ross-calls-palm-beach-county-next-silicon-valley-video",
       "sentiment": "NEUTRAL"
     }
   ]
