@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-15T15:44:15.384639+09:00",
+  "last_updated": "2026-01-15T16:06:19.526716+09:00",
   "items": [
+    {
+      "id": "706b015decfb5b905a1357bd42d63f35",
+      "timestamp": "2026-01-15T15:53:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TSMC Says Spending to Surge in Strong Signal for AI Boom - TSMC surpassed $100 billion in annual revenue for the first time in 2025 and expects capital spending to surge to as much as $56 billion in 2026. The stronger-than-anticipated projection signals its c",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/tsmc-says-spending-to-surge-in-strong-signal-for-ai-boom-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2333659f19e85151879aec30ea0d7261",
+      "timestamp": "2026-01-15T15:46:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Economy Grew More Than Expected in November",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-01-15/ftse-100-live-uk-gdp-oil-silver-gold-prices-pound-bonds-trump-what-s-moving-uk-markets-right-now-markets-today",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "ed05e28efcee94731fa5b2525f901207",
       "timestamp": "2026-01-15T15:17:14+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "UK Government Borrowing Costs Fall to Lowest Since December 2024 - The UK’s benchmark bonds rallied to send yields to the lowest since December 2024, following healthy demand for a debt sale and signs of slowing economic growth.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/uk-government-borrowing-costs-fall-to-lowest-since-december-2024",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81b568a306931f962eb34d871afd03e8",
-      "timestamp": "2026-01-15T00:32:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "More Skilled Are Workers Needed to Build Nuclear Plants, Oklo CEO Says - Nuclear startup Oklo signed a huge deal to build new power plants to help Meta Platforms meet surging demand for artificial intelligence. But Chief Executive Officer Jacob DeWitte says more skilled wo",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/workers-needed-to-build-nuclear-plants-oklo-ceo-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "826fa2aa13e64e3d05e9a01efa9704d0",
-      "timestamp": "2026-01-15T00:32:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What’s at Stake in the Fight Over the Voting Rights Act - The Voting Rights Act of 1965 was a landmark law enacted to enforce voting protections enshrined in the US Constitution and eliminate longstanding obstacles to voter participation. Now, the Supreme Co",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/what-s-at-stake-in-the-fight-over-the-voting-rights-act",
       "sentiment": "NEUTRAL"
     }
   ]
