@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-15T12:31:58.212171+09:00",
+  "last_updated": "2026-01-15T13:18:22.322074+09:00",
   "items": [
+    {
+      "id": "818d23f66af4ae6a0785ba0019a3cdd3",
+      "timestamp": "2026-01-15T13:02:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Oil Risks Don't Disappear With Trump Reprieve - <p>The country&nbsp;is bringing&nbsp;far more danger&nbsp;to the geopolitical table than Venezuela.</p>",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-01-15/iran-oil-risks-don-t-disappear-with-trump-reprieve",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c4a9d49a4ecead7599752bcd8ad9912",
+      "timestamp": "2026-01-15T12:56:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan, Philippines Sign Military Logistics Pact Amid China Row - Japan and the Philippines signed on Thursday a military logistics support agreement, deepening their defense ties as they face rising tensions with China.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/japan-philippines-sign-military-logistics-pact-amid-china-row",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a75dd4816960ca25922b875c7af9374d",
+      "timestamp": "2026-01-15T12:47:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BeOne CEO on Business Strategy, Biotech Outlook - John Oyler, Co-founder, Chairman and CEO at BeOne Medicines, discusses the company's business strategy and the outlook for the biotech sector. He speaks with Avril Hong and Paul Allen from the sidelin",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/beone-ceo-on-business-strategy-biotech-outlook-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d2ac2a64a7522263f2f2c99842e65da",
+      "timestamp": "2026-01-15T12:46:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Korean Won Traders Test Authorities’ Resolve After Bessent Rally - The South Korean won resumed its decline toward a 17‑year low on Thursday, testing officials’ resolve to stem the slide despite supportive remarks from US Treasury Secretary Scott Bessent.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/korean-won-traders-test-authorities-resolve-after-bessent-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6aaa674ea4baca38e1c521640dd66cc9",
+      "timestamp": "2026-01-15T12:33:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman's Kwon: Bullish on Korea Fundamentals - Goldman Sachs Senior Asia Economist Goohoon Kwon breaks down the reasons for the weak Korean won and explains why he is bullish on the strong fundamentals in the Korean equity market. (Source: Bloombe",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/goldman-s-kwon-bullish-on-korea-fundamentals-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f0b099ef25e2b76c5e09d136975c6d4",
+      "timestamp": "2026-01-15T12:17:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Immigration Officers Descend on Meta Data Center, Arrest Drivers - Federal immigration officers targeted a construction site in rural Louisiana where Meta Platforms Inc. is building its largest data center, leading to the arrest of two individuals, according to local",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/immigration-officers-descend-on-meta-data-center-arrest-drivers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f0b099ef25e2b76c5e09d136975c6d4",
+      "timestamp": "2026-01-15T12:17:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Immigration Officers Descend on Meta Data Center, Arrest Drivers - Federal immigration officers targeted a construction site in rural Louisiana where Meta Platforms Inc. is building its largest data center, leading to the arrest of two individuals, according to local",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/immigration-officers-descend-on-meta-data-center-arrest-drivers",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6bb8cb76a2f8c6e4e4255661e2d3471a",
       "timestamp": "2026-01-15T12:14:08+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Switzerland Says All Crans-Montana Bar Fire Victims Will Get Help - Switzerland’s government said it will cover potential gaps in financial support schemes for victims of the deadly fire that took place during New Year celebrations at a ski resort bar.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-14/switzerland-says-all-crans-montana-bar-fire-victims-will-get-help",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe72433d6cfd78e809d3c8becbbc42a4",
-      "timestamp": "2026-01-14T23:05:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed’s Kashkari Says Trump Pressure Is About Monetary Policy: NYT - Federal Reserve Bank of Minneapolis President Neel Kashkari said President Donald Trump’s pressure on the US central bank over the past year has been driven by interest rates.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/fed-s-kashkari-says-trump-pressure-is-about-monetary-policy-nyt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "94d6e7f1239ed63538eb5d51587d9e34",
-      "timestamp": "2026-01-14T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Figure Technology to Enable Direct Stock Lending Over Blockchain - Blockchain-based lender Figure Technology Solutions Inc. is launching a new platform to issue on-chain equity, allowing investors to lend shares directly to one another without traditional intermediar",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/figure-technology-to-enable-direct-stock-lending-over-blockchain",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cc6f277cac211ab468d78e64c000abe1",
-      "timestamp": "2026-01-14T22:57:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Delta CEO Says There's Record Demand for Premium Travel - Delta CEO Ed Bastian say the airline is seeing double-digit growth in business travel and they are focused on growing internationally. He speaks to Lisa Abramowicz on \"Bloomberg Surveillance.\" (Source",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/delta-ceo-says-there-s-record-demand-for-premium-travel-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f7ff906760c119672f95852dbb121b9",
-      "timestamp": "2026-01-14T22:55:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lucid Set to Start Manufacturing Cars in Saudi Arabia in 2026 - Lucid Group Inc. is on track with plans to start producing cars in Saudi Arabia as it looks to drive the kingdom’s ambitions to create a domestic auto manufacturing hub and cut down on imports.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/lucid-set-to-start-manufacturing-cars-in-saudi-arabia-in-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bef7768f790d2fc4df3ef508bbf8b2f8",
-      "timestamp": "2026-01-14T22:45:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Moldova’s Dragu Sees Country Ready for Big International Lender - Moldova’s central bank governor said the country is preparing for a big international lender to enter its banking system following reforms to the sector, which was rocked by a scandal that left the na",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/moldova-s-dragu-sees-country-ready-for-big-international-lender",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bc03679628999b8da56f99856f7d7db7",
-      "timestamp": "2026-01-14T22:44:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan Sets Major US Bank Bond Sales in Motion After Earnings - JPMorgan Chase &amp; Co. is tapping the US high-grade market, the start of the typical deluge of bank bond sales following earnings.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/jpmorgan-sets-major-us-bank-bond-sales-in-motion-after-earnings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ebbd608d99889eb86bacc6d799c97d6c",
-      "timestamp": "2026-01-14T22:41:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Powell May Skip Congressional Testimony, Key Republican Says - Federal Reserve Chair Jerome Powell may skip his next scheduled appearance before Congress because of subpoenas served on the central bank by the Department of Justice, according to a key Republican l",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/powell-may-skip-congressional-testimony-key-republican-says",
       "sentiment": "NEUTRAL"
     }
   ]
