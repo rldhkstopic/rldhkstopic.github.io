@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-01-15T20:35:32.542744+09:00",
+  "last_updated": "2026-01-15T21:05:49.429837+09:00",
   "items": [
+    {
+      "id": "941e8abbb192d05509b23850d16c29af",
+      "timestamp": "2026-01-15T21:02:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tesla and xAI Ties Raise Questions About ‘Muskonomy’ - The AI startup and public carmaker are headed for a tighter relationship.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/tesla-s-growing-ties-to-xai-raise-questions-about-musk-s-interlocking-companies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0bd1fb90d9c6b99dda4b3859169961a6",
+      "timestamp": "2026-01-15T20:44:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TSMC Makes the Case for Sticking With Tech Stocks - <p>Capital spending forecast points to the powerful fundamentals driving AI boom.</p>",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/tsmc-makes-the-case-for-sticking-with-tech-stocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8cc9fcbc6bd18f04334ec212cf070d14",
+      "timestamp": "2026-01-15T20:44:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bloomberg Brief 1/15/2026 (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/bloomberg-brief-1-15-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a658bcc8e81b5cddaf380cef6a44d07f",
+      "timestamp": "2026-01-15T20:40:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spotify Raises Premium Subscription Prices in US to $13 a Month - Spotify Technology SA is raising the price of its premium subscription service by 8% in an effort to achieve sustained profitability.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/spotify-raises-premium-subscription-prices-in-us-to-13-month",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d279b43899c1e67ecdd539382a8e394d",
+      "timestamp": "2026-01-15T20:39:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Italy Faced US Pressure to Cancel Contracts With China’s Nuctech - The US pressured Italy to cancel government contracts with Chinese security equipment supplier Nuctech over national security concerns, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/italy-faced-us-pressure-to-cancel-contracts-with-china-s-nuctech",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9f5297cc60cda8cf3f8cdef7e0af35ac",
+      "timestamp": "2026-01-15T20:38:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Badenoch Ejects Jenrick From UK Tories Saying He Aimed to Defect - UK Conservative leader Kemi Badenoch fired Robert Jenrick from her shadow cabinet and stripped him of the opposition party’s whip, saying he planned to defect from her party “in the most damaging way ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/badenoch-ejects-jenrick-from-uk-tories-saying-he-aimed-to-defect",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b13ced76bcdba9d2a6890f794762461",
+      "timestamp": "2026-01-15T20:36:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mozambique's Chapo Says He's 'Pleased' With LNG Progress - Mozambique President Daniel Chapo sees TotalEnergies SE’s liquefied natural gas project restarting as early as this month. \"We are pleased with the way work is progressing,\" Chapo told Bloomberg's Car",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/mozambique-s-chapo-says-he-s-pleased-with-lng-progress",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "880305e7ab1e55a8090e5f53e71b6bb8",
+      "timestamp": "2026-01-15T20:36:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cabo Delgado Attacks 'Unlikely' to Derail LNG: Chapo - “At the moment we are speaking, no town in the province of Cabo Delgado is occupied by the insurgents,” Mozambique President Daniel Chapo told Bloomberg's Carla Canivete on Wednesday. He added that wh",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-15/cabo-delgado-attacks-unlikely-to-derail-lng-chapo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d3a1501a856df43802b3cbb68d302d8a",
+      "timestamp": "2026-01-15T20:32:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Demand for Mortgages Fell Ahead of Reeves’ Budget, Survey Shows - Demand in the UK for mortgages dropped in the build up to the November budget and is expected to fall further in the coming three months, according to a Bank of England survey, despite other signs tha",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/demand-for-mortgages-fell-ahead-of-reeves-budget-survey-shows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "84317b7e21a3e6253c75e8fa66f12086",
+      "timestamp": "2026-01-15T20:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "GenAI Investors Get New Tool Tracking Performance of OpenAI, xAI - Investors will be able to track the performance of generative artificial intelligence companies including Anthropic, OpenAI and xAI Corp. more closely with a new index monitoring the sector.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/genai-investors-get-new-tool-tracking-performance-of-openai-xai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "31ea66c48a31d5fc01eb500a96b85444",
+      "timestamp": "2026-01-15T20:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Key Wall Street Regulator Grapples With Crypto, Sports Gambling - Michael Selig is walking into more than just the usual policy challenges as he takes the helm of Wall Street’s main derivatives regulator.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/key-wall-street-regulator-grapples-with-crypto-sports-gambling",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "627dc4c0fadff3e7514821d86f80625d",
       "timestamp": "2026-01-15T20:28:13+09:00",
@@ -10,6 +131,17 @@
       "related_tickers": [],
       "content": "US Equities Look 'Robust' Even Without Fed Cuts, SocGen Says - Kokou Agbo-Bloua, global head of economics, cross-asset and quant research at Societe Generale Corporate and Investment Banking, discusses the outlook for equities in 2026. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/us-equities-robust-even-without-fed-rate-cuts-socgen-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2cebbaf237298ded104abf70ce285afa",
+      "timestamp": "2026-01-15T20:27:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ermotti Says UBS Is Assembling List of Potential Successors - UBS Group AG Chief Executive Officer Sergio Ermotti said the bank is in the process of identifying candidates to replace him while reiterating he expects to step aside within about a year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/ermotti-says-ubs-is-assembling-list-of-potential-successors",
       "sentiment": "NEUTRAL"
     },
     {
@@ -65,6 +197,17 @@
       "related_tickers": [],
       "content": "Tech Revival on AI Boom; Iran Averts US Strikes For Now | The Pulse 1/15 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/the-pulse-1-15-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "34b7b4402787b187a3fdf5db097d31dd",
+      "timestamp": "2026-01-15T20:03:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Top Court Says Tiger Global Liable to Pay Flipkart Taxes - India’s Supreme Court has held that Tiger Global’s capital gains arising from its 2018 stake sale in Flipkart to Walmart Inc. are taxable under domestic law in a setback for the US investment firm.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/india-top-court-says-tiger-global-liable-to-pay-flipkart-taxes",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2056,149 +2199,6 @@
       "related_tickers": [],
       "content": "Trump Toughens Greenland Rhetoric | Balance of Power: Early Edition 1/14/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discusses President Donald Trump's latest comments about Greenland. On today's show, Democratic Congresswoman H",
       "url": "https://www.bloomberg.com/news/videos/2026-01-14/balance-of-power-early-edition-1-14-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6559475967842f158b6f7c817e108ede",
-      "timestamp": "2026-01-15T04:52:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Structure Therapeutics CEO Stevens on Pipeline Strategy - Structure Therapeutics CEO Ray Stevens joins Bloomberg's Katie Greifeld at the annual JP Morgan Healthcare Conference in San Francisco to talk about Structure’s pipeline and strategy in 2026. (Source:",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/structure-therapeutics-ceo-stevens-on-pipeline-strategy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "397bb3c3ebdee645322343ec7d5d6dc2",
-      "timestamp": "2026-01-15T04:51:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Adams’ NYC Memecoin Crashes After Debut - Less than two weeks after leaving office, former New York City mayor Eric Adams appeared publicly to promote a new digital token called NYC token. The token quickly surged in value, before plunging ju",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/adams-nyc-memecoin-crashes-after-debut-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fa3b92e0124a54010b6cf0055465e8aa",
-      "timestamp": "2026-01-15T04:49:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Expect Market Gains From EV New Entries: McNeill - Data suggest Tesla's share of the US electric vehicle market is increasing. The automaker is boasting a 59% stronghold in EVs as of Q4. GM board member and DVX Ventures Co-Founder and CEO Jon McNeill ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/expect-market-gains-from-ev-new-entries-mcneill-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a11d3a89cfda09bb8eea913409ca1e9f",
-      "timestamp": "2026-01-15T04:49:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Denmark and US to Form Working Group on Greenland - Danish Foreign Minister Lars Lokke Rasmussen said a “fundamental disagreement” remained after a meeting of top diplomats in Washington, while announcing an agreement to form a high-level working group",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/denmark-and-us-to-form-working-group-on-greenland-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2cd32d31ca6de534991ccb271e3d8725",
-      "timestamp": "2026-01-15T04:49:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "San Francisco to Offer Free Child Care for Families Earning Up to $230,000 - San Francisco plans to expand free and subsidized childcare to tens of thousands of children as Mayor Daniel Lurie looks to make his notoriously expensive city more affordable for middle-class familie",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/san-francisco-to-offer-free-child-care-for-families-earning-up-to-230-000",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be6a50ceb8f40e5b5e8544c53b541d63",
-      "timestamp": "2026-01-15T04:48:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Good Business Still There For Saks: Singer - Saks Global has filed for bankruptcy, in an effort to restructure its debt and stabilize the business after mounting losses. Mortimer Singer, managing partner at Traub Capital Partners, believes Saks ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/good-business-still-there-for-saks-singer-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b282438857619bb486d65d5e9e2fd1b",
-      "timestamp": "2026-01-15T04:43:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "'Extremely Solid' Gains for US Economy: Swonk - The US saw a boost to existing homes sales and a pickup in retail sales in November. However, KPMG Chief Economist Diane Swonk says weaker employment growth can be traced to companies absorbing the im",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/-extremely-solid-gains-for-us-economy-swonk-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "787de238c79fd630b0cc6de040c1a292",
-      "timestamp": "2026-01-15T04:37:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Accel Backs AI Security Startup in $40M Series A - Security startup depthfirst raises a $40 million Series A funding round led by Accel. Sara Ittelson, partner at Accel, discusses why this is a long-term bet for the firm. She joins Caroline Hyde and E",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/accel-backs-ai-security-startup-in-40m-series-a-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3e1f0218f02bc656443e72f51e41c6e3",
-      "timestamp": "2026-01-15T04:36:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pullback in Auto Sector Feels 'Eerily Similar' To Great Recession, Says Stevens - Democratic Representative Haley Stevens of Michigan said the US industrial base, particularly small manufacturers, is being put under stress by Trump's tariffs. The congresswoman also touched on Presi",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/pullback-in-autos-eerily-similar-to-recession-stevens-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d3dc2cc2a7bdac7ee7f822dde93c26df",
-      "timestamp": "2026-01-15T04:30:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Slack Adds New AI Capabilities - Salesforce looks to bolster AI capabilities for Slack users with an upgraded Slackbot that uses Anthropic’s Claude model. Rob Seaman, Slack's chief product officer and interim CEO, joins Caroline Hyde",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/slack-adds-new-ai-capabilities-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2dd0919b8cdf81ff7fd5b5f3c4bda19a",
-      "timestamp": "2026-01-15T04:26:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Biggest US Power Grid Cuts Demand Outlook on Overstated AI Boom - The biggest US grid operator dialed back its forecast for power demand growth in a move that will temper some of the frenzy around the artificial intelligence boom.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/biggest-us-power-grid-cuts-demand-outlook-on-overstated-ai-boom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "85e0d22e0cf6b08fa5d0e16d4a6fab7e",
-      "timestamp": "2026-01-15T04:25:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Startup Building Robot 'Brain' Raises $1.4 Billion - Robotics startup Skild AI has raised $1.4 billion to help develop a “brain” that can be used in robots of all shapes and sizes. CEO and co-founder Deepak Pathak explains how the system learns through ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-14/startup-building-robot-brain-raises-1-4-billion-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eb5cd0fd824d91af82f50a7281e73baa",
-      "timestamp": "2026-01-15T04:22:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Oil’s Discount to Brent Grows Amid Regional Supply Shifts - US oil is trading at the deepest discount to the global Brent benchmark in 15 months as geopolitical developments from Venezuela to the Black Sea shake up supply flows around the world.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-14/us-oil-s-discount-to-brent-grows-amid-regional-supply-shifts",
       "sentiment": "NEUTRAL"
     }
   ]
