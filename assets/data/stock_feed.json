@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-17T04:04:48.697054+09:00",
+  "last_updated": "2026-01-17T04:32:48.532909+09:00",
   "items": [
+    {
+      "id": "47a09048bf0c43b4b40fafdf34f5a66f",
+      "timestamp": "2026-01-17T04:26:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Big Take: Birth Rate Drop Hits US Schools - Across the US, small colleges like Trinity Christian College and Sterling College are confronting a hard reality: there simply aren't enough students. Bloomberg's Big Take looks at how falling birth r",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/big-take-birth-rate-drop-hits-us-schools-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7fa59a7b023e1c3c64fca0f414b6e460",
+      "timestamp": "2026-01-17T04:15:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Betting Stocks Fall as NFL Prediction Bets Gain on Gambling Apps - DraftKings Inc., Flutter Entertainment PLC and other stocks linked to the sports gambling industry are tumbling on Friday after new data suggested that they may be losing ground to competing products ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/betting-stocks-fall-as-nfl-prediction-bets-gain-on-gambling-apps",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f7a16d98722ad527ae6622414524e118",
+      "timestamp": "2026-01-17T04:15:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed Officials Stress Independence, Potential Credit Complacency | Real Yield 1/16/2025 - \"Bloomberg Real Yield\" highlights the market-moving news you need to know. Today's guests: BNP Paribas Head of US Rates Strategy Guneet Dhingra, JPMorgan Asset Management Core Plus Bond ETF Portfolio ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/real-yield-1-16-2025-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "75925229e454562de494dd83a2b6e1a3",
+      "timestamp": "2026-01-17T04:08:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Pressure on Memory Chips - HP was hit with back-to-back downgrades. Barclays turns bearish, warning of structural PC weakness, rising memory costs, and no clear catalysts ahead. CFRA flags margin pressure from unprecedented inf",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/the-pressure-on-memory-chips-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a1fb6a204814dcd0e1cb8c38dede263b",
+      "timestamp": "2026-01-17T03:55:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fannie, Freddie Stock Woes Deepen as IPO Questions Mount - Shares of Fannie Mae and Freddie Mac extended days-long losing streaks amid mounting unease about the impact of President Donald Trump’s policy moves on efforts to release the mortgage-finance giants ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/fannie-freddie-stock-woes-deepen-as-ipo-questions-mount",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "cdd67af0b6468fe59a3f77fb5bc00576",
       "timestamp": "2026-01-17T03:41:50+09:00",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Yen Watchers Face Double Whammy of BOJ, Election Uncertainty - Yen traders are on edge for the risk of renewed volatility in the currency as uncertainty over the nation’s snap election grows with a Bank of Japan meeting approaching next week.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/yen-watchers-face-double-whammy-of-boj-election-uncertainty",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fa77b23f71bc7aea8d50ea71acb6be10",
-      "timestamp": "2026-01-16T08:04:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fmr. Biden Advisor: Can't use Venezuela Playbook in Iran - Amos Hochstein, former Special Presidential Coordinator for Global Infrastructure and Energy Security, says Iran is not Venezuela and removing the supreme leader is not a simple option. He speaks with",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/fmr-biden-advisor-can-t-use-venezuela-playbook-in-iran-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dafff75648bdc05adf018a13dc668984",
-      "timestamp": "2026-01-16T08:04:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon Becomes First Buyer of Arizona Copper Made by Rio’s Nuton - Amazon Web Services struck a deal with Rio Tinto Group to use copper from an Arizona mine in US data centers. The cloud-computing giant will become the first customer for copper produced using Rio’s N",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/amazon-is-first-buyer-of-arizona-copper-by-rio-s-nuton-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f6e5f410b136bf427b935b877bb2345f",
-      "timestamp": "2026-01-16T08:02:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Push to Ban Corporate Landlords - Trump wants to ban Wall Street investors from buying single-family homes. Would that actually help Americans trying to buy a house? Bloomberg reporter Patrick Clark and Bloomberg CityLab reporter Kris",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/trump-s-push-to-ban-corporate-landlords-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "01f02db032095877c602b54b9f887085",
-      "timestamp": "2026-01-16T08:01:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fmr. Treasury Secretary Jack Lew on Fed Independence - Jack Lew, former U.S. Treasury Secretary, says using legal prosecution to pressure the Fed chair would set a dangerous precedent. He tells Romaine Bostick and Katie Greifeld on “The Close” that framin",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/fmr-treasury-secretary-jack-lew-on-fed-independence-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2323ce4e31641c8e705836f73b7866f2",
-      "timestamp": "2026-01-16T08:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "A Long-Held Tenet of Asia’s Markets Is Suddenly Breaking Apart - A breakdown in the relationship between Asia’s stocks and its currencies is flashing a signal for global funds to rethink their investment strategy in the region.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/a-long-held-tenet-of-asia-s-markets-is-suddenly-breaking-apart",
       "sentiment": "NEUTRAL"
     }
   ]
