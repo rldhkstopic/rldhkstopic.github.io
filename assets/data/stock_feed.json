@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-17T08:03:51.261504+09:00",
+  "last_updated": "2026-01-17T08:35:17.721319+09:00",
   "items": [
+    {
+      "id": "61ff395f3343021d7c895b5d3f75c0c2",
+      "timestamp": "2026-01-17T08:29:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fmr. FDIC Chair: Supreme Court Could Step In to Protect Fed - Sheila Bair, former FDIC chair and a member of the Center for Financial Stability Advisory Board, says the Supreme Court may draw a line to protect the Fed’s independence. She speaks with Romaine Bost",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/bair-supreme-court-could-step-in-to-protect-fed-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b9c9e3e993f6784d9ef2476cb47127cd",
+      "timestamp": "2026-01-17T08:19:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Need a Partnership: Rep. Flood on Big Tech, Energy Costs - Representative Mike Flood (R-NE) states their should be a partnership between government and tech companies when discussing if these large companies should pay for surging power costs. He also shares ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/need-a-partnership-rep-flood-on-big-tech-energy-costs-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1dc76427d70ae01a2a2e01d7a1f260f9",
+      "timestamp": "2026-01-17T08:14:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mag 7 Stock Options Get SEC Nod for Monday, Wednesday Expiries - The Securities and Exchange Commission has approved new expirations for Magnificent Seven stocks, moving the US market a step closer to daily expiries in single stock options.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/mag-7-stock-options-get-sec-nod-for-monday-wednesday-expiries",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "594317215a0f106a09102cf57ea02ae6",
+      "timestamp": "2026-01-17T08:08:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Edison Sues LA County Over Fire Deaths for Delayed Alerts - Edison International sued Los Angeles County and other public agencies for allegedly failing to ensure timely evacuation alerts that the company says could have saved most of the 19 people who died in",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/edison-blames-la-county-for-wildfire-deaths-over-delayed-alerts",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7f266360d576c37c9db8c13ba1943fcf",
+      "timestamp": "2026-01-17T08:05:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Belgian Immune System Drugmaker AgomAb Files for US IPO - AgomAb Therapeutics NV filed for a initial public offering in the US to help fund trials of its drugs to treat immune and inflammation diseases.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/belgian-immune-system-drugmaker-agomab-files-for-us-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ef2af1252a59a43f178ed9dd7589839f",
+      "timestamp": "2026-01-17T08:02:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dana White on UFC at the White House, Future of Boxing - Dana White, UFC President, CEO and Co-Owner, discusses the UFC’s deal with Paramount, a potential White House event, and the future of boxing with Romaine Bostick and Katie Greifeld on “The Close.” (S",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/dana-white-on-ufc-at-the-white-house-future-of-boxing-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1161639e86550b2604a840087d917108",
+      "timestamp": "2026-01-17T08:01:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks Close Lower While Chip Names Outperform Broad Market | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Emily Graffeo, Carol Massar and Tim Stenovec. (Source: Bloomb",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/stocks-close-lower-as-chip-outperform-closing-bell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1339cdd3eb8a1cbdad8511b8154fc3c9",
+      "timestamp": "2026-01-17T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Takaichi Trade Faces Risks From Inflation, Yen Slump, Yield Jump - The surge in Japanese stocks, triggered by Prime Minister Sanae Takaichi’s snap election plans, may fade if she gets what she wants, as overspending drives up inflation and government borrowing costs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/takaichi-trade-faces-risks-from-inflation-yen-slump-yield-jump",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "84f552ad22ea29ddde29b818a699068c",
       "timestamp": "2026-01-17T07:59:04+09:00",
@@ -131,6 +219,17 @@
       "related_tickers": [],
       "content": "Largest US Power Grid Unveils Backup Plan for Reliability - PJM Interconnection LLC, operator of the largest US power grid, unveiled a proposal to take backstop measures to help support reliability.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/largest-us-power-grid-unveils-backup-plan-to-support-reliability",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f869d1007a209003a15bb927f9b2bc0e",
+      "timestamp": "2026-01-17T07:06:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How Investors Fall Into Bias Traps: Masters in Business - Barry speaks with Richard Thaler and Alex Imas award winning economists and co-authors of \"The Winner's Curse: Behavioral Economics Anomalies\". They discuss the psychology of spending at auctions, and",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/how-investors-fall-into-bias-traps-masters-in-business-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Dubai’s DWTC, Informa Said to Eye Listing Joint Events Business - Dubai World Trade Centre and the UK’s Informa Group are exploring a listing of a joint events business that’s expected to combine some of the emirate’s most prominent exhibitions and conferences.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/dubai-ipo-dwtc-informa-said-to-eye-listing-joint-events-business",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "84b175e40ad60a5e5eca339f5a7dce4c",
-      "timestamp": "2026-01-16T16:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe’s Largest Defense Fund for Startups Set for €500 Million - German investor Digital Transformation Capital Partners GmbH is on track to raise Europe’s largest-ever dedicated venture capital fund for defense startups, signing its first big backers for a fund ta",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/europe-s-largest-defense-fund-for-startups-set-for-500-million",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4598c9f70b70c0e30dacd387f626f8ab",
-      "timestamp": "2026-01-16T15:55:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nigeria's Solar Boom Lights Up Economy - Nigeria has become a major market for solar, second only to South Africa for imports on the continent. Bloomberg's Jennifer Zabasajja spoke to Horizons Middle East and Africa anchor Joumanna Bercetche",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/nigeria-s-solar-boom-lights-up-economy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7b519c75c6ad462fab44363ed243ca48",
-      "timestamp": "2026-01-16T15:52:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Mark Mobius Recommends China, India; Shuns Gold - Veteran investor, Mark Mobius, says China, India, Korea, and Taiwan are the region’s most attractive stock markets for global investors. He also says gold looks less appealing at current levels follow",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/why-mark-mobius-recommends-china-india-shuns-gold-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "992c3e70c96f3d6e837c1d4bc4690517",
-      "timestamp": "2026-01-16T15:48:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Denmark, Greenland Seek Congressional Support Against Trump Bid - Denmark and Greenland are stepping up lobbying of US lawmakers in an effort to head off President Donald Trump’s push to take control of Greenland.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/denmark-greenland-seek-congressional-support-against-trump-bid",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9d9b40e0a9b2a3595746afcc3003d4b7",
-      "timestamp": "2026-01-16T15:47:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippines Moves to Shore Up Investor Sentiment Hit By Corruption Scandal - Philippine economic managers rallied business executives and assured them of reforms at a private forum on Friday, seeking to restore investor confidence shaken by a massive government corruption scan",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/philippines-moves-to-shore-up-investor-sentiment-hit-by-corruption-scandal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2cd81f35c8e98e8e3cf053922f796284",
-      "timestamp": "2026-01-16T15:43:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "StanChart Mulls Options for India Cards Unit in Retail Pullback - Standard Chartered Plc is reviewing its retail credit card business in India amid a wider strategy to reshape operations in the world’s fastest‑growing major economy, according to people familiar with",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/stanchart-mulls-options-for-india-cards-unit-in-retail-pullback",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "959fa257c059d96489dd3f3484026636",
-      "timestamp": "2026-01-16T15:42:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTSE 100 Set to Pull Back from Record High",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-01-16/ftse-100-live-pound-bonds-tech-rally-dollar-oil-gold-silver-prices-what-s-moving-uk-markets-right-now-markets-today",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "98f831c81d405ad7eea7482c8fa3a626",
-      "timestamp": "2026-01-16T15:28:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Euro Settlements Jump Most Since 2010 on EU Trade Boom - Chinese companies ramped up use of the euro in cross-border transactions last year, with settlements in the currency rising at the fastest pace since 2010.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-s-euro-settlements-jump-most-since-2010-on-eu-trade-boom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "728cf0ec8cb53c90e85f96f0961e26f9",
-      "timestamp": "2026-01-16T15:25:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Korea’s Yoon Gets Jail Term in First of Series of Rulings - South Korea’s former President Yoon Suk Yeol was sentenced to five years in jail for charges including resisting arrest, marking the disgraced ex-leader’s first sentence in a slew of pending cases con",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/south-korea-s-yoon-gets-5-year-term-in-first-martial-law-ruling",
       "sentiment": "NEUTRAL"
     }
   ]
