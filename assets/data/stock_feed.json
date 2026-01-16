@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-16T18:39:10.743023+09:00",
+  "last_updated": "2026-01-16T19:04:03.797058+09:00",
   "items": [
+    {
+      "id": "99482efa630f34f6c52223e2d503a88a",
+      "timestamp": "2026-01-16T19:01:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Not in a Bubble, BlackRock's Brazier Says (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/ai-not-in-a-bubble-blackrock-s-brazier-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0cc3abe2f9c7b8a40accebc2a862dcfe",
+      "timestamp": "2026-01-16T18:57:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Denmark, Greenland Step Up Lobbying of US Lawmakers - A group of US senators is set to meet members of the Danish parliament in Copenhagen on Friday. Nuuk and Copenhagen are seeking to achieve support from Capitol Hill that could help constrain any futur",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/denmark-greenland-step-up-lobbying-of-us-lawmakers-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8e1e395184bfae9c62d1e9938d2baa9d",
       "timestamp": "2026-01-16T18:25:07+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Bloomberg Surveillance 1/15/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/bloomberg-surveillance-1-15-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cd05a4706074436d064fd4762644dd4c",
-      "timestamp": "2026-01-16T01:38:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Equinor Wins Ruling to Resume Wind Project Halted by Trump - A US judge ruled Equinor ASA can resume building its multibillion-dollar wind project near New York, marking the second time this week a federal court has blocked the Trump administration from enforci",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/equinor-wins-ruling-to-resume-us-wind-project-halted-by-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4ae25fd96080f23dda4a8ca66f038669",
-      "timestamp": "2026-01-16T01:35:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia Oil and Gas Revenue Dives to Five-Year Low in Budget Hit - Russia’s revenues from its oil and gas industry, vital to financing its war in Ukraine, dropped to a five-year low in 2025 as crude prices slumped and gas exports declined.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/russia-oil-and-gas-revenue-dives-to-five-year-low-in-budget-hit",
       "sentiment": "NEUTRAL"
     }
   ]
