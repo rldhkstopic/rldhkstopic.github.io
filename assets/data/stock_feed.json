@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-17T07:03:47.236815+09:00",
+  "last_updated": "2026-01-17T07:37:42.433511+09:00",
   "items": [
+    {
+      "id": "34b2c17c0de3652c0438c01b7d0cae31",
+      "timestamp": "2026-01-17T07:29:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Defense Firm York Space Systems Seeks $544 Million in US IPO - York Space Systems Inc., a space and defense firm backed by AE Industrial Partners, is seeking to raise as much as $544 million in an initial public offering.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/defense-firm-york-space-systems-seeks-544-million-in-us-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a8023c6bbb6955ef01375b349332fb84",
+      "timestamp": "2026-01-17T07:24:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How the US Changed China’s Calculus in Latin America - <p>Former Ambassador Nicholas Burns on China’s plans in Venezuela, Greenland’s future and the pros and perils of Trump’s ‘Donroe Doctrine.’</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/ex-us-china-ambassador-on-venezuela-greenland-and-trump-s-donroe-doctrine",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f535aa5da9ed12b47402f5f14a1bd4c4",
+      "timestamp": "2026-01-17T07:07:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Largest US Power Grid Unveils Backup Plan for Reliability - PJM Interconnection LLC, operator of the largest US power grid, unveiled a proposal to take backstop measures to help support reliability.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/largest-us-power-grid-unveils-backup-plan-to-support-reliability",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c95e9c7581e7122b176d67d1e44b93f0",
+      "timestamp": "2026-01-17T06:56:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He’ll Make Tech Firms Pay for Power  | Bloomberg Businessweek Daily 1/16/2026 - On today's episode, Carol Massar and Tim Stenovec speak with Michael Shepard, Bloomberg News Senior Editor for Technology & Strategic Industries, about Trump's move to have tech giants pay for surging",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/bloomberg-businessweek-daily-01-16-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "dfb88735a4181ecbc846f8540d5de465",
       "timestamp": "2026-01-17T06:56:22+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "With the Power Out, Kyiv’s Residents Confront Cold as a Weapon of War - <p>As President Zelenskiy declares an energy emergency, citizens seek out heat&nbsp;where they can.&nbsp;</p>",
       "url": "https://www.bloomberg.com/news/features/2026-01-16/putin-s-attacks-on-ukraine-s-energy-grid-bring-fresh-misery-to-freezing-kyiv",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32069f900c5394f112d4040d501b12d2",
-      "timestamp": "2026-01-16T14:00:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Switzerland Is Asking Itself: Is 10 Million People Too Many? - <p>As the world flocks to Davos, the host country ponders a population cap</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-16/switzerland-is-debating-a-population-cap-amid-a-growing-immigration-backlash",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32069f900c5394f112d4040d501b12d2",
-      "timestamp": "2026-01-16T14:00:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Switzerland Is Asking Itself: Is 10 Million People Too Many? - <p>As the world flocks to Davos, the host country ponders a population cap</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-16/switzerland-is-debating-a-population-cap-amid-a-growing-immigration-backlash",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fcdd2fcc825ad11fd674aefb5b6e07ee",
-      "timestamp": "2026-01-16T14:00:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland May Cut Rates Already in February, MPC’s Kotecki Says - Poland may return to interest rate cuts next month with a quarter-point reduction as prospects for continued low inflation improve, according to Monetary Policy Council member Ludwik Kotecki.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/poland-may-cut-rates-already-in-february-mpc-s-kotecki-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "014c764669ab5c471b2df6b98ee09374",
-      "timestamp": "2026-01-16T13:40:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk’s Grok AI Faces Scrutiny From Japan Over Sexualized Images - Japan joined the growing list of countries probing X over Elon Musk’s artificial intelligence service Grok and the chatbot’s role in creating and spreading sexualized images of people without their co",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/musk-s-grok-ai-faces-scrutiny-from-japan-over-sexualized-images",
       "sentiment": "NEUTRAL"
     }
   ]
