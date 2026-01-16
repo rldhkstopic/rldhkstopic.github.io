@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-16T23:04:38.215047+09:00",
+  "last_updated": "2026-01-16T23:39:28.827331+09:00",
   "items": [
+    {
+      "id": "299ec25d8799c3e1d5c06f25cb4209e8",
+      "timestamp": "2026-01-16T23:19:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Parliament Explores Tying US Trade Deal Approval to Greenland - The European Parliament is considering linking approval of a massive US trade deal to Donald Trump backing down from his threats to take over Greenland, putting further strain on an agreement already ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/eu-parliament-explores-tying-us-trade-deal-approval-to-greenland",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "038bd68e938786840526b4ad55c3cc9d",
+      "timestamp": "2026-01-16T23:15:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Morgan Stanley Top Fund Shuns Brazil, Colombia on Election Woes - Morgan Stanley Investment Management is shunning local debt from Brazil and Colombia as ballooning budget gaps add to concerns ahead of this year’s presidential elections in the two nations.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-top-fund-shuns-brazil-colombia-on-election-woes",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b67d08a252fc76166d65b07d78781ab9",
       "timestamp": "2026-01-16T23:00:32+09:00",
@@ -10,6 +32,39 @@
       "related_tickers": [],
       "content": "ClickHouse Lands $15 Billion Valuation in AI Database Race - <p>Dragoneer is leading a&nbsp;$400 million funding round for the startup.</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/clickhouse-lands-15-billion-valuation-in-ai-database-race",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9dc273b632717f38e13191aa1a828094",
+      "timestamp": "2026-01-16T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bank of Italy Reckons GDP Rose Slightly in the Fourth Quarter - The Bank of Italy said the euro zone’s third-biggest economy probably “continued to expand moderately” in the fourth quarter despite global headwinds.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/bank-of-italy-reckons-gdp-rose-slightly-in-the-fourth-quarter",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "36fb89e3523e3ecb6a3e604516f84bc6",
+      "timestamp": "2026-01-16T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DoorDash Revenue Chief Lee Brown Departs After Short Stint - DoorDash Inc. Chief Revenue Officer Lee Brown is departing the delivery app company after less than six months to pursue a new opportunity.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/doordash-revenue-chief-lee-brown-departs-after-short-stint",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "06537a6bbe6d1aabdd069701f00bee4b",
+      "timestamp": "2026-01-16T22:48:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Reliance Misses Profit Estimate Hurt by Sluggish Retail, Petchem - Reliance Industries Ltd. reported a lower-than-expected quarterly profit as sluggish growth in the petrochemical and retail businesses offset a strong showing in the telecom unit.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/reliance-misses-profit-estimate-hurt-by-sluggish-retail-petchem",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Czech Billionaire Prime Minister Shows Signs of Softening as He Takes Control - The Czech Republic’s billionaire prime minister has cemented control over the government three months after his election victory amid signs he may be softening the impact of his far-right-backed admin",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/czech-billionaire-shows-signs-of-softening-as-he-takes-control",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f1411035ac865905ac64b19992f61e85",
-      "timestamp": "2026-01-16T05:32:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Industrial Firm Madison Air Said to Seek $2 Billion-Plus in IPO - Madison Air, a provider of ventilation and filtration systems, is seeking to raise at least $2 billion in a US initial public offering, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/industrial-firm-madison-air-said-to-seek-2-billion-plus-in-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c0544b8fd584639ec9a15b949a405a77",
-      "timestamp": "2026-01-16T05:30:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Coding Startup Replit Nears Funding at $9 Billion Valuation - Replit Inc., an artificial intelligence coding startup, is nearing a deal for a new round of funding that would roughly triple its valuation to $9 billion, including the money raised, according to peo",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/ai-coding-startup-replit-nears-funding-at-9-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fce2c564f720d7c337df2d0ed725cbd5",
-      "timestamp": "2026-01-16T05:20:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meet the Politician the AI Industry Is Trying to Stop - All eyes are on the race for New York's 12th congressional district. Originally published 12/17/25. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/meet-the-politician-the-ai-industry-is-trying-to-stop-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d141a8d28a1722f5e519db8b254cc6ee",
-      "timestamp": "2026-01-16T05:14:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Need to See 'Some Type of Balance' on ICE raids, Border Enforcement, Says Malliotakis - New York Representative Nicole Malliotakis said that while there has been good work done with border security, she has talked to party leadership about times where immigration enforcement has gone too",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/need-some-type-of-balance-on-ice-raids-malliotakis-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e3fb8920fbbc610b298d86ce2482723f",
-      "timestamp": "2026-01-16T05:12:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Power Forecast Cut Is Reality Check for AI Boom - The biggest grid operator in the US cut its power demand forecast for summer 2027 by more than 2%. Mehdi Paryavi, CEO of the DC-based think tank International Data Center Authority, discusses with Ed ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/power-forecast-cut-is-reality-check-for-ai-boom-video",
       "sentiment": "NEUTRAL"
     }
   ]
