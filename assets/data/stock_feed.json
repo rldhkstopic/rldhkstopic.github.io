@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-17T05:04:03.237442+09:00",
+  "last_updated": "2026-01-17T05:35:49.115070+09:00",
   "items": [
+    {
+      "id": "a20860f03a762aafdf021de9caf7c720",
+      "timestamp": "2026-01-17T05:27:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Shovels in Ground for New Power Plants, Wright Says - US Energy Secretary Chris Wright talks about efforts that are underway to have technology companies build new power plants without raising electric prices for Americans. He speaks to Bloomberg's Tyler",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/shovels-in-ground-for-new-power-plants-wright-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1c9ab3f4c942d86dd3e9a362c018ce98",
+      "timestamp": "2026-01-17T05:22:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Delays Plan to Seize Wages of Student Borrowers Amid Affordability Push - The Trump administration has paused its efforts to seize student debt from borrowers’ paychecks, the Education Department said Friday, as the White House makes a concerted push around an affordability",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/trump-delays-plan-to-seize-wages-of-student-borrowers-amid-affordability-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2c5a382874ab13dd7203f87e16fac0ca",
+      "timestamp": "2026-01-17T05:17:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "No Proof Killings in Iran Have Stopped: Dana Stroul - Dana Stroul, The Washington Institute for Near East Policy Research Director, states she hasn't seen or heard any proof that killings and executions in Iran have stopped. She also talks about expectin",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/no-proof-killings-in-iran-have-stopped-dana-stroul-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f3287f06a421cd848100598a0d2617cd",
+      "timestamp": "2026-01-17T05:14:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Humanoid Market to Reach $200B by 2035 Barclays Says - The humanoid robotics market is on track to reach $200 billion by 2035, according to a report from Barclays. Zornitsa Todorova, team director for Thematic FICC Research at Barclays, discusses with Ed ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/humanoid-market-to-reach-200b-by-2035-barclays-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ecb2246f78a1193908e62ecd429f57bd",
+      "timestamp": "2026-01-17T05:09:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Decisions Loom On Iran, Greenland | Balance of Power: Early Edition 1/16/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discuss the latest geopolitical news. On today's show, Council on Foreign Relations President Emeritus Richard ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/balance-of-power-early-edition-1-16-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3198a00a0199d236d87d63118198bb52",
+      "timestamp": "2026-01-17T05:05:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Banks Feel Pressure From Trump’s Credit Card Threats - President Donald Trump's call for a 10% cap on credit card interest rates sent shares of financial firms tumbling as major banks released their earnings. Ximena Aleman, co-CEO and co-founder of Promet",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/banks-feel-pressure-from-trump-s-credit-card-threats-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "74708c2cbe64ff7f08f2fc5ebf25d3ff",
+      "timestamp": "2026-01-17T05:04:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FTC Chair: Acquihires Won’t Be a Path Around Antitrust - FTC Chairman Andrew Ferguson spoke to Bloomberg's Ed Ludlow. He made clear that acquihires will not be allowed as cover to evade antitrust scrutiny. Ferguson said the FTC will look beyond headcount to",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/ftc-chair-acquihires-won-t-be-a-path-around-antitrust-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "63712a0cbda13d0db6b9138eac725561",
+      "timestamp": "2026-01-17T05:03:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pennsylvania Governor Shapiro on Extending PJM Price Cap - Pennsylvania Governor Josh Shapiro comments on how the electricity grid should handle all of this new power from data centers. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/pennsylvania-governor-shapiro-on-extending-pjm-price-cap-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "491be1e767805095e84f3fa380155600",
       "timestamp": "2026-01-17T04:55:00+09:00",
@@ -2111,94 +2199,6 @@
       "related_tickers": [],
       "content": "China’s $1.2 Trillion Windfall Quietly Seeps Into Global Markets - A record trade surplus racked up by China is washing up around the world, as export earnings that once ended up in state coffers instead fund massive private purchases of overseas securities and busin",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-s-1-2-trillion-windfall-quietly-seeps-into-global-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "738bc1df73b1d5b547d6ecdbf3557e8c",
-      "timestamp": "2026-01-16T09:55:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US, Taiwan Make Deal to Cut Tariffs, Boost Chip Investment | Balance of Power: Late Edition 01/15/26 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Democratic Senator Elissa Slotkin of Michigan discusses her Housing Bill and calls for Pr",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/balance-of-power-late-edition-01-15-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a5843d4f4f1233c556ecc37dc373b176",
-      "timestamp": "2026-01-16T09:06:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EM Fund Beating 97% of Peers Says Memory Chips Are Best Bet - Memory stocks are the place to be as artificial intelligence continues to push up chip demand over the next decade, according to emerging‑market equity fund manager Divya Mathur at ClearBridge Investm",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/em-fund-beating-97-of-peers-says-memory-chips-are-best-bet",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a5843d4f4f1233c556ecc37dc373b176",
-      "timestamp": "2026-01-16T09:06:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EM Fund Beating 97% of Peers Says Memory Chips Are Best Bet - Memory stocks are the place to be as artificial intelligence continues to push up chip demand over the next decade, according to emerging‑market equity fund manager Divya Mathur at ClearBridge Investm",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/em-fund-beating-97-of-peers-says-memory-chips-are-best-bet",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e82ef7a773d3a12beeba9dd58246c096",
-      "timestamp": "2026-01-16T09:03:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Silver Rally Slams Solar Makers Struggling With Losses - Soaring prices for silver are putting an extra squeeze on solar panel makers as they look to end more than two years of losses amid brutal competition in the sector.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/silver-s-rally-slams-solar-makers-already-struggling-with-losses",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "93680f8bdb2a539d07b424570fbc9507",
-      "timestamp": "2026-01-16T08:48:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TSMC CFO on Tech Gap with US - Taiwan Semiconductor Manufacturing CFO  and Senior VP Wendell Huang says that it will try to accelerate the transfer of its advanced chipmaking expertise to the US in the future, though it will still ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/tsmc-cfo-on-tech-gap-with-us-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8bfe8cb861e49e69a0e81c46bf7e8109",
-      "timestamp": "2026-01-16T08:45:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tech Lifts Stocks as Small Caps Rally Anew | The Close 1/15/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Research Affiliates’ Jim M",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/the-close-1-15-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dab7be169e81db0eb1ad7c4d5ec8e51",
-      "timestamp": "2026-01-16T08:43:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TSMC’s Huang Says Key to Managing FX Exposure Is Keep It Simple - When you’re a dominant company in a small economy with huge overseas earnings, the best way to manage your exposure to the vagaries of the currency market is to keep it simple, according to Taiwan Sem",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/tsmc-s-huang-says-key-to-managing-fx-exposure-is-keep-it-simple",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed2ddac0907e4fa11f63baf20f6f868a",
-      "timestamp": "2026-01-16T08:40:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Silver Dips After US Pause on Critical Minerals Import Tariff - Silver dipped after ending the earlier session marginally lower, as investors looked past the US decision to refrain from imposing tariffs on critical minerals.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/silver-dips-after-us-pause-on-critical-minerals-import-tariff",
       "sentiment": "NEUTRAL"
     }
   ]
