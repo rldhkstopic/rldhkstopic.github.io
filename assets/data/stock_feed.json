@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-16T15:04:43.177250+09:00",
+  "last_updated": "2026-01-16T15:44:14.833004+09:00",
   "items": [
+    {
+      "id": "62c7118c7f3d0d8c01d0960b7488f581",
+      "timestamp": "2026-01-16T15:23:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why a Snap Election Is a Gamble for Japan’s Prime Minister - Japan is preparing for a snap lower-house election that could reshape the country’s political balance at a moment of economic strain and regional uncertainty.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/japan-snap-election-why-prime-minister-takaichi-s-decision-will-matter",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "154fb8856c2db8afd524adfaa9ba93d1",
+      "timestamp": "2026-01-16T15:19:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jeanne Shaheen Says US Is Built on Compromise - Jeanne Shaheen is the most senior Democrat on the Senate Foreign Relations Committee. She talks to Mishal Husain about Iran, Venezuela, Greenland and reassuring America’s traditional allies. (Source: ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/senator-jeanne-shaheen-wants-to-reassure-american-allies-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6e5cf5ae61395c7841d95a0c3dc92038",
       "timestamp": "2026-01-16T15:00:31+09:00",
@@ -10,6 +32,17 @@
       "related_tickers": [],
       "content": "Can Congress Still Check the Commander in Chief? - <p><strong>Sen. Jeanne Shaheen, the top Democrat on the Senate Foreign Relations Committee, discusses Venezuela, NATO and the limits of congressional power as global crises multiply.</strong></p>",
       "url": "https://www.bloomberg.com/features/2026-jeanne-shaheen-weekend-interview/",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "771463a3d7da81c530588273f214f9ad",
+      "timestamp": "2026-01-16T14:58:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TSMC Reignites AI Fervor; Taiwan Secures US Trade Deal | The Asia Trade 1/16/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Sydney and Singapore with Paul Allen and Avril Hong, gettin",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/the-asia-trade-1-16-26-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Ex-Seplat CEO Says He Facilitated Total Nigeria-Permit Purchase - The former chief executive officer of Nigerian crude producer Seplat Energy Plc said he brought together a group of investors buying TotalEnergies SE’s stake in the Renaissance JV oil licenses.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/ex-seplat-ceo-says-he-facilitated-total-nigeria-permit-purchase",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f93443e9f29bff5f6eaebf66439a8682",
-      "timestamp": "2026-01-15T23:15:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brightline Taps Reserve Account to Make Payment on Muni Debt - Brightline Trains Florida LLC &mdash; the struggling private rail line connecting Orlando to Miami &mdash; has dipped into its debt service reserve account to make an interest payment.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/brightline-taps-reserve-account-to-make-payment-on-muni-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "76be072b4eecc74ac95ba2601e499898",
-      "timestamp": "2026-01-15T23:11:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed’s Goolsbee Says Taming Inflation ‘Most Important Thing’ - Federal Reserve Bank of Chicago President Austan Goolsbee said the central bank’s main priority should be to tame inflation, as the labor market shows signs of stabilizing.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/fed-s-goolsbee-says-taming-inflation-most-important-thing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e26f4cc52b8e329f37fad48b5f8fb47",
-      "timestamp": "2026-01-15T23:01:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK’s Chief White-Collar Crimefighter to Retire Early - Nick Ephgrave, the director of the UK’s Serious Fraud Office, will retire from the most high profile job in fraud prosecution just halfway through his five-year term.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-s-white-collar-crime-chief-nick-ephgrave-to-retire-early",
       "sentiment": "NEUTRAL"
     }
   ]
