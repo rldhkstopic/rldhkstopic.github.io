@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-17T06:35:51.723484+09:00",
+  "last_updated": "2026-01-17T07:03:47.236815+09:00",
   "items": [
+    {
+      "id": "dfb88735a4181ecbc846f8540d5de465",
+      "timestamp": "2026-01-17T06:56:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hedge Funds Slash Bullish Silver Wagers to 22-Month Low - Money managers slashed their bullish wagers on silver to the lowest in nearly two years before the White House refrained from putting import tariffs on critical minerals that include the white metal.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/hedge-funds-slash-bullish-silver-wagers-to-22-month-low",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8df30292a67626d109d47f8b228eb11e",
+      "timestamp": "2026-01-17T06:50:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mackenzie Investment's Marks on Global Uncertainty - Mackenzie Investments Equities CIO Lesley Marks speaks to Carol Massar and Tim Stenovec about the geopolitical impact on markets as well as the broad outlook for 2026. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/mackenzie-investment-s-marks-on-global-uncertainty-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "abfe26581643505668cc267f8dd8553d",
+      "timestamp": "2026-01-17T06:50:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hedge Funds Turn More Bullish on Brent Oil as Iran Risks Swirl - Hedge funds turned the most bullish on Brent oil since April as unrest in Iran, OPEC’s fourth-biggest producer, revived risk premium in crude prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/hedge-funds-turn-more-bullish-on-brent-oil-as-iran-risks-swirl",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "61330577da41e565db53a69a1e471b37",
+      "timestamp": "2026-01-17T06:46:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TSMC Eyes Smaller Gap Between US, Taiwan Chipmaking - Bloomberg News US Semiconductor Reporter Ian King discusses the latest TSMC earnings report and what lies ahead for the chip maker with Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/tsmc-eyes-smaller-gap-between-us-taiwan-chipmaking-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "db322492ba38eee8563d13036589db16",
+      "timestamp": "2026-01-17T06:34:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Gives Trump the All-Clear to Push Disruptive Agenda - In the first weeks of the year, the political landscape has shifted in ways that once might have rattled global markets. A foreign leader was captured. The Department of Justice opened a probe into th",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/wall-street-gives-trump-the-all-clear-to-push-disruptive-agenda",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6e9889865d580dabfa844c302c2da436",
       "timestamp": "2026-01-17T06:30:27+09:00",
@@ -24,6 +79,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "b038f655ebe498c1df003cda1597a34d",
+      "timestamp": "2026-01-17T06:24:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hedge Fund Roscommon Analytics Shutters US Gas Desk - Hedge fund Roscommon Analytics is moving to close its gas trading business following losses in the energy market, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/hedge-fund-roscommon-analytics-shutters-us-gas-desk",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "e17d39946be86a6b99eef56829813065",
       "timestamp": "2026-01-17T06:24:17+09:00",
       "source_type": "NEWS",
@@ -43,6 +109,17 @@
       "related_tickers": [],
       "content": "Eye Care-Focused Biopharma Firm SpyGlass Files for US IPO - SpyGlass Pharma Inc. filed for an initial public offering to help fund late-stage trials of its intraocular lens and drug delivery solutions to treat patients with chronic eye conditions such as glauc",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/eye-care-focused-biopharma-firm-spyglass-files-for-us-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "17c4fdc6569fa3947332fcd4806cf15d",
+      "timestamp": "2026-01-17T06:14:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Wants Big Tech to Pay for Power | Bloomberg Tech 1/16/2026 - Bloomberg’s Ed Ludlow discusses the plan laid out by the Trump administration and several states to have tech companies pay for surging energy prices following the rise of AI data centers. Plus, AI co",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/bloomberg-tech-1-16-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Musk’s Grok AI Faces Scrutiny From Japan Over Sexualized Images - Japan joined the growing list of countries probing X over Elon Musk’s artificial intelligence service Grok and the chatbot’s role in creating and spreading sexualized images of people without their co",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/musk-s-grok-ai-faces-scrutiny-from-japan-over-sexualized-images",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8545e8ec11d2e270d1d6d7542618fb4e",
-      "timestamp": "2026-01-16T13:12:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan and Italy to Elevate Ties, Cooperate on Critical Minerals - Japanese Prime Minister Sanae Takaichi and Italian Prime Minister Giorgia Meloni agreed to work together on critical mineral supply and elevate their relationship to a new level.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/japan-and-italy-to-elevate-ties-cooperate-on-critical-minerals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ce9b2b9616b65d8d678cbc84b97106fa",
-      "timestamp": "2026-01-16T13:08:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Top Thai Fund Sees Poll Verdict as Catalyst for Stock Revival - Thailand’s upcoming election may mark a turning point for the stock market, potentially ending a three-year slump if it delivers political clarity, according to the nation’s largest private asset mana",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/top-thai-fund-sees-poll-verdict-as-catalyst-for-stock-revival",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f09b79af5922fb050c98ee436ff3267",
-      "timestamp": "2026-01-16T13:03:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Finance Minister Warns That All Options Open to Aid Yen - Japan’s finance minister reiterated her warning that all options including direct currency intervention are available for dealing with recent weakness in the yen.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/japan-s-finance-minister-warns-that-all-options-open-to-aid-yen",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "28dbe9bee6ab75f379b7465d9f1cfe5f",
-      "timestamp": "2026-01-16T13:01:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Taiwan Denies US Deal Harms Tech Industry as TSMC Builds Abroad - Taiwan sought to downplay concerns its tech industry is being hollowed out by a US trade deal, as Taiwan Semiconductor Manufacturing Co. and other chipmakers invest hundreds of billions of dollars in ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/taiwan-denies-us-deal-harms-tech-industry-as-tsmc-builds-abroad",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "19ad4f03642327b602190e4c22e6de29",
-      "timestamp": "2026-01-16T12:39:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mitsubishi to Buy Aethon US Gas Assets in $5.2 Billion Deal - Mitsubishi Corp. agreed to buy Aethon Energy Management LLC’s US gas and pipeline assets for $5.2 billion, the biggest purchase by a Japanese company in the American shale sector.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/mitsubishi-to-buy-us-gas-assets-from-aethon-in-5-2-billion-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "86a8c7731839f5cf29fafb248e456d4e",
-      "timestamp": "2026-01-16T12:37:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canadian PM Carney Meets With Xi Jinping - Bloomberg's Stephen Engle breaks down what is at stake as Canadian Prime Minister Mark Carney meets with Chinese President Xi Jinping. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/canadian-pm-carney-meets-with-xi-jinping-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7745b70dc56911abc5a7d103b576fa76",
-      "timestamp": "2026-01-16T12:27:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Machado on Gifting Nobel Peace Medal to Trump - Maria Corina Machado, Venezuela's opposition leader, speaks about her decision to gift her Nobel Peace Prize medal to Donald Trump at a White House meeting. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/machado-on-gifting-nobel-peace-medal-to-trump-video",
       "sentiment": "NEUTRAL"
     }
   ]
