@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-16T09:47:52.069559+09:00",
+  "last_updated": "2026-01-16T10:31:51.845909+09:00",
   "items": [
+    {
+      "id": "a4d7a482811246fc26f217c9bdf8bb25",
+      "timestamp": "2026-01-16T10:04:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI, Microsoft Lose Last Chance to Avoid Trial With Musk - OpenAI Inc. and Microsoft failed to escape a trial over Elon Musk’s claims that Sam Altman’s startup betrayed its founding mission as a public charity when it took billions in funding from a software ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/openai-microsoft-lose-last-chance-to-avoid-trial-with-musk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c08dad97fae1aefb0bce3c71c063a77e",
+      "timestamp": "2026-01-16T10:00:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s $1.2 Trillion Windfall Quietly Seeps Into Global Markets - A record trade surplus racked up by China is washing up around the world, as export earnings that once ended up in state coffers instead fund massive private purchases of overseas securities and busin",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-s-1-2-trillion-windfall-quietly-seeps-into-global-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "738bc1df73b1d5b547d6ecdbf3557e8c",
+      "timestamp": "2026-01-16T09:55:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US, Taiwan Make Deal to Cut Tariffs, Boost Chip Investment | Balance of Power: Late Edition 01/15/26 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Democratic Senator Elissa Slotkin of Michigan discusses her Housing Bill and calls for Pr",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/balance-of-power-late-edition-01-15-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a5843d4f4f1233c556ecc37dc373b176",
       "timestamp": "2026-01-16T09:06:16+09:00",
@@ -417,6 +450,17 @@
       "related_tickers": [],
       "content": "Japan’s Muni Bond Yields Hit Decades High, Straining Finances - The first wave of Japanese local government issuers selling municipal bonds this year will face some of the highest funding costs in decades, as market yields rose after the Bank of Japan’s December r",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/japan-s-muni-bond-yields-hit-decades-high-straining-finances",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "76265dcbec482bcb1636e9d44b217150",
+      "timestamp": "2026-01-16T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BCA Earnings Set to Be Bright Spot Among Indonesia’s Top Banks - PT Bank Central Asia is set to be the only one among Indonesia’s biggest banks to post higher profit for 2025, as manageable costs and robust credit quality helped it weather soft loan demand.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bca-earnings-set-to-be-bright-spot-among-indonesia-s-top-banks",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "China Opposes Use of Force in Iran Call as Trump Stirs Unease - China’s top diplomat told his Iranian counterpart that Beijing opposes the use of force in international relations, following US threats of an attack after Tehran’s violent crackdown against protester",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-opposes-use-of-force-in-iran-call-as-trump-stirs-unease",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "45a238ac8c5bbd2454b1c437593d22b9",
-      "timestamp": "2026-01-15T21:56:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Opposes Use of Force in Iran Call as Trump Stirs Unease - China’s top diplomat told his Iranian counterpart that Beijing opposes the use of force in international relations, following US threats of an attack after Tehran’s violent crackdown against protester",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-opposes-use-of-force-in-iran-call-as-trump-stirs-unease",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9160bf1d1275b64c2c6ae59792ca7825",
-      "timestamp": "2026-01-15T21:42:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mastercard, Visa, Revolut Lose UK Suit Over Cross-Border Fees - Mastercard Inc., Visa Inc. and UK fintech Revolut ltd. lost a lawsuit with the UK payments regulator over its plans to usher in a cap on cross-border card fees.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mastercard-visa-revolut-lose-uk-suit-over-cross-border-fees",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9160bf1d1275b64c2c6ae59792ca7825",
-      "timestamp": "2026-01-15T21:42:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mastercard, Visa, Revolut Lose UK Suit Over Cross-Border Fees - Mastercard Inc., Visa Inc. and UK fintech Revolut ltd. lost a lawsuit with the UK payments regulator over its plans to usher in a cap on cross-border card fees.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/mastercard-visa-revolut-lose-uk-suit-over-cross-border-fees",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "554ab61da110e539e21700e891e8718c",
-      "timestamp": "2026-01-15T21:39:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Carbon Extends Gains as Gas Jumps and Nuclear Output Falters - European carbon prices extended a week-long gain, with surging natural gas costs, weaker nuclear power supply and forecasts for colder weather expected to drive demand for emissions permits.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/eu-carbon-extends-gains-as-gas-jumps-and-nuclear-output-falters",
       "sentiment": "NEUTRAL"
     }
   ]
