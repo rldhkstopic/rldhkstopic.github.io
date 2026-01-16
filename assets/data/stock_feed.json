@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-16T13:17:17.398624+09:00",
+  "last_updated": "2026-01-16T13:44:19.407773+09:00",
   "items": [
+    {
+      "id": "8545e8ec11d2e270d1d6d7542618fb4e",
+      "timestamp": "2026-01-16T13:12:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan and Italy to Elevate Ties, Cooperate on Critical Minerals - Japanese Prime Minister Sanae Takaichi and Italian Prime Minister Giorgia Meloni agreed to work together on critical mineral supply and elevate their relationship to a new level.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/japan-and-italy-to-elevate-ties-cooperate-on-critical-minerals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7f09b79af5922fb050c98ee436ff3267",
+      "timestamp": "2026-01-16T13:03:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan’s Finance Minister Warns That All Options Open to Aid Yen - Japan’s finance minister reiterated her warning that all options including direct currency intervention are available for dealing with recent weakness in the yen.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/japan-s-finance-minister-warns-that-all-options-open-to-aid-yen",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "28dbe9bee6ab75f379b7465d9f1cfe5f",
+      "timestamp": "2026-01-16T13:01:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Taiwan Denies US Deal Harms Tech Industry as TSMC Builds Abroad - Taiwan sought to downplay concerns its tech industry is being hollowed out by a US trade deal, as Taiwan Semiconductor Manufacturing Co. and other chipmakers invest hundreds of billions of dollars in ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/taiwan-denies-us-deal-harms-tech-industry-as-tsmc-builds-abroad",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "19ad4f03642327b602190e4c22e6de29",
       "timestamp": "2026-01-16T12:39:24+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "New York Factory Activity Expands While Inflation Gauges Cool - New York state factory activity expanded in January, while a gauge of prices received dropped to an almost one-year low.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/new-york-factory-activity-expands-while-inflation-gauges-cool",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c51b96f60d3bdff269812c76118803df",
-      "timestamp": "2026-01-15T22:29:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morgan Stanley Beats 4Q Investment-Banking Forecast - Morgan Stanley’s debt bankers increased revenue 93% in the fourth quarter, capping a record year for that business. Dani Burger reports on Bloomberg Television. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/morgan-stanley-beats-4q-investment-banking-forecast-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b620899113b99ede8307d5ef7d1bc2b",
-      "timestamp": "2026-01-15T22:29:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macron Requests More Defense Funds, Saying ‘One Must Be Feared’ - French President Emmanuel Macron called for additional military spending to confront mounting global threats even as uncertainty remains over France’s budget.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/macron-requests-more-defense-funds-saying-one-must-be-feared",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a14468282ff75ed52b513783527a5973",
-      "timestamp": "2026-01-15T22:27:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Threatens Insurrection Act as Minnesota Protests Grow - President Donald Trump threatened to deploy US military forces to quell protests in Minnesota in response to violent encounters involving federal immigration agents.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-threatens-insurrection-act-as-minnesota-protests-grow",
       "sentiment": "NEUTRAL"
     }
   ]
