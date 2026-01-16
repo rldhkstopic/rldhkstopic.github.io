@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-17T00:04:41.976613+09:00",
+  "last_updated": "2026-01-17T00:38:12.968248+09:00",
   "items": [
+    {
+      "id": "af9138659477a07fcd0a01c0527a61f8",
+      "timestamp": "2026-01-17T00:32:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Commodity Trader Mercuria Paid 0.08% Tax on $1.3 Billion Profit - Mercuria Energy Group Ltd. paid almost no tax on profits of more than $1 billion in the 12 months through September, according to a copy of its accounts seen by Bloomberg News.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/commodity-trader-mercuria-paid-0-08-tax-on-1-3-billion-profit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e726ba42b67d834f68e754ba94f8bf07",
+      "timestamp": "2026-01-17T00:13:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private-Jet Boom Brings Hangar Builder Sky Harbour to Muni Market - Sky Harbour Group Corp., a builder of exclusive hangars where the ultra-wealthy park their private aircraft, is turning to the tax-exempt municipal bond market to borrow $100 million as it seeks to ex",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/private-jet-boom-brings-hangar-builder-sky-harbour-skyh-to-muni-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1d5ce9cf276899043aa4f033e7a90e92",
+      "timestamp": "2026-01-17T00:09:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blue Owl to Snap Up Stakes From Fund Backers Looking to Cash Out - Blue Owl Capital Inc. plans to start buying secondhand stakes in private-asset funds from investors looking to cash out, taking advantage of a boom in such transactions, according to people with knowl",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/blue-owl-to-snap-up-stakes-from-fund-backers-looking-to-cash-out",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc44409544773abf48de58ab827548fc",
+      "timestamp": "2026-01-16T23:56:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&amp;P 500 Extends Gain as Big Tech Stocks Push Higher on AI Trade - US stocks extended gains on Friday as the euphoria over technology stocks continued for a second day.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/s-p-500-extends-gain-as-big-tech-stocks-push-higher-on-ai-trade",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a1f7593a25060e3b28300d48fcf8ddbe",
       "timestamp": "2026-01-16T23:48:50+09:00",
@@ -219,6 +263,17 @@
       "related_tickers": [],
       "content": "Solomon Partners Taps David Shiffman to Lead Investment Banking - Solomon Partners, the boutique investment bank backed by Natixis SA, has appointed David A. Shiffman as head of investment banking, a newly created role as the advisory firm expands its senior leaders",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/solomon-partners-taps-david-shiffman-to-lead-investment-banking",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "59dfe3a7500bf8e4da984d900ebfe26c",
+      "timestamp": "2026-01-16T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pagaya Sells Unusual Bond Backed by Personal Loans - Fintech firm Pagaya Technologies Ltd. raised $350 million through a bond backed by personal loans in a so-called hybrid private-public transaction, the first for the company using such collateral.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/pagaya-sells-bond-backed-by-personal-loans-in-hybrid-fundraise",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "The US Treasury Market’s Inertia Is Nearing Historic Levels - The 10-year Treasury note’s yield is headed for a fifth straight week of minimal change, rivaling its longest stretch of inertia in the past two decades.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/the-us-treasury-market-s-inertia-is-nearing-historic-levels",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "990d4fee109884312293f854f170b25f",
-      "timestamp": "2026-01-16T06:10:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Panama to Rule on Fate of Shuttered Copper Mine in June - Panama expects to decide in the coming months whether to restart a vast mine that has become one of the biggest uncertainties in the global copper market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/panama-targets-june-decision-on-fate-of-shuttered-copper-mine",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "20b553f17f8c3009ea843b2d7b2093a6",
-      "timestamp": "2026-01-16T06:03:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bolsonaro Ordered to Prison to Serve Out Coup Attempt Sentence - A Brazilian Supreme Court justice ordered former President Jair Bolsonaro to prison to continue serving his sentence for trying to remain in power after his narrow 2022 election defeat.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bolsonaro-ordered-to-prison-to-serve-out-coup-attempt-sentence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a0d9df89ef1e2735d6ebcf2efe1ca75",
-      "timestamp": "2026-01-16T06:03:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Memory Bottleneck Hits Hardware Maker Stocks - The rising costs of memory and storage components are putting pressure on the stocks of hardware makers. Ipek Ozkardeskaya, senior analyst at Swissquote, joins Caroline Hyde and Ed Ludlow on \"Bloomber",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/memory-bottleneck-hits-hardware-maker-stocks-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "15fafdde4391f64dd568cf561b9d6077",
-      "timestamp": "2026-01-16T06:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic Gets a Viral Moment With Cowork Tool Built (Mostly) by AI - The AI company’s newest product has put much of the software industry on alert.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/anthropic-gets-a-viral-moment-with-cowork-tool-built-mostly-by-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d31bcf5384227facc530d40bcd3211fa",
-      "timestamp": "2026-01-16T05:50:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump-Class Warship May Be Among Costliest Ever Military Vessels - The first of the Navy’s proposed “Trump-class” battleships could cost up to $22 billion, a price tag that would make it one of the most expensive US military vessels in US history, according to an ear",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-class-warship-may-be-among-costliest-ever-military-vessels",
       "sentiment": "NEUTRAL"
     }
   ]
