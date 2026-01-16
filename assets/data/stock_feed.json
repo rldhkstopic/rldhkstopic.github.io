@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-16T12:31:55.621181+09:00",
+  "last_updated": "2026-01-16T13:17:17.398624+09:00",
   "items": [
+    {
+      "id": "19ad4f03642327b602190e4c22e6de29",
+      "timestamp": "2026-01-16T12:39:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mitsubishi to Buy Aethon US Gas Assets in $5.2 Billion Deal - Mitsubishi Corp. agreed to buy Aethon Energy Management LLC’s US gas and pipeline assets for $5.2 billion, the biggest purchase by a Japanese company in the American shale sector.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/mitsubishi-to-buy-us-gas-assets-from-aethon-in-5-2-billion-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "86a8c7731839f5cf29fafb248e456d4e",
+      "timestamp": "2026-01-16T12:37:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Canadian PM Carney Meets With Xi Jinping - Bloomberg's Stephen Engle breaks down what is at stake as Canadian Prime Minister Mark Carney meets with Chinese President Xi Jinping. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/canadian-pm-carney-meets-with-xi-jinping-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7745b70dc56911abc5a7d103b576fa76",
       "timestamp": "2026-01-16T12:27:13+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Trump Threatens Insurrection Act as Minnesota Protests Grow - President Donald Trump threatened to deploy US military forces to quell protests in Minnesota in response to violent encounters involving federal immigration agents.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/trump-threatens-insurrection-act-as-minnesota-protests-grow",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "09b8b203fe4a5cb090f70d9eec61b384",
-      "timestamp": "2026-01-15T22:25:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon Becomes First Buyer of Arizona Copper Made by Rio’s Nuton - Amazon Web Services struck a deal with Rio Tinto Group to use copper from an Arizona mine in US data centers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/amazon-becomes-first-buyer-of-arizona-copper-made-by-rio-s-nuton",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "84361a9d32a7abb8d93a8a4fb202ccbd",
-      "timestamp": "2026-01-15T22:22:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Man Shot by US Officer in Minneapolis as Tensions Escalate - A federal officer shot a man in the leg on Wednesday night in Minneapolis, escalating tensions in the city following the fatal shooting of a local woman by an Immigration and Customs Enforcement agent",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/man-shot-by-us-officer-in-minneapolis-video",
       "sentiment": "NEUTRAL"
     }
   ]
