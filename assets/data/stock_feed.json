@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-17T01:42:39.905841+09:00",
+  "last_updated": "2026-01-17T02:06:05.203707+09:00",
   "items": [
+    {
+      "id": "ffdeabe5486bb08913c7612d2cc00feb",
+      "timestamp": "2026-01-17T01:51:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Copper, AI & America’s Supply Risk - Copper prices are near record highs as demand surges from AI, data centers, EVs and grid expansion. This week, Amazon struck a deal with Rio Tinto to buy copper produced using new technology. Vicky Pe",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/copper-ai-america-s-supply-risk-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f4a4bf28f4d93fc03c98843a99ad5386",
       "timestamp": "2026-01-17T01:38:25+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "JPM’s Dimon Wants to Stay in Job ‘At Least’ 5 More Years - JPMorgan Chase Chair and CEO Jamie Dimon says he wants to remain the company’s CEO for at least five more years during an interview with David Rubenstein at the US Chamber of Commerce’s 2026 State of ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/jpm-s-dimon-wants-to-stay-in-job-at-least-5-more-years-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4212d37ad0b8576bd7fb47e558892928",
-      "timestamp": "2026-01-16T06:38:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "About 5 Million Accounts Shut in Australia Kids Social Media Ban - Meta Platforms Inc. and other major social media platforms blocked 4.7 million underage accounts in Australia last month as the country’s landmark social media ban for under-16s took effect.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/about-5-million-accounts-shut-in-australia-kids-social-media-ban",
       "sentiment": "NEUTRAL"
     }
   ]
