@@ -1,6 +1,116 @@
 {
-  "last_updated": "2026-01-16T11:39:54.465986+09:00",
+  "last_updated": "2026-01-16T12:31:55.621181+09:00",
   "items": [
+    {
+      "id": "7745b70dc56911abc5a7d103b576fa76",
+      "timestamp": "2026-01-16T12:27:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Machado on Gifting Nobel Peace Medal to Trump - Maria Corina Machado, Venezuela's opposition leader, speaks about her decision to gift her Nobel Peace Prize medal to Donald Trump at a White House meeting. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/machado-on-gifting-nobel-peace-medal-to-trump-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dbd2b27b1d92460d1e24a69db0266e39",
+      "timestamp": "2026-01-16T12:18:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Investors 'More Bullish' on China Than Their US Peers, BofA's Wu Says - BofA's Winnie Wu says \"Asian investors are more bullish on the Asia market, and China is one of the favored markets within this region.\" She tells Bloomberg Television that her conversations with US i",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/asia-investors-more-bullish-on-china-than-us-peers-bofa-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "59858888a9b9496bf040c8f3db8df9b6",
+      "timestamp": "2026-01-16T12:10:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Akeso Confident of Cancer Drug's FDA Approval Odds - Chinese biopharmaceutical firm Akeso’s CFO, Bing Wang, says he feels “pretty good” about the chances of receiving approval from US regulators for ivonescimab, the company’s key cancer drug developed i",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/akeso-confident-of-cancer-drug-s-fda-approval-odds-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5cf627f0bfc8fe9d51bd3644534f901e",
+      "timestamp": "2026-01-16T12:05:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Metals Decline as China Clamps Down on High-Frequency Trading - Metals fell at the end of a dramatic week, as China clamped down on high-frequency trading in a move that came after frenzied activity in mainland futures that helped to fuel global price gains.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/metals-decline-as-china-clamps-down-on-high-frequency-trading",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e869856ee9c8044853bf4df98be26984",
+      "timestamp": "2026-01-16T11:52:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Canada’s Carney to Meet Xi After ‘New World Order’ Remarks - Canadian Prime Minister Mark Carney is slated to meet China’s Xi Jinping after expressing the need for new geopolitical alignments following Donald Trump’s disruptive policies.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/canada-s-carney-to-meet-xi-after-new-world-order-remarks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a69b2db4e5e41c64a5fd667289dff06",
+      "timestamp": "2026-01-16T11:46:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Corporate Bond Yield Premiums Fall to Lowest Since 2007 - Investors across global credit markets are accepting the lowest yield premiums on corporate debt in almost two decades, heartened by a resilient economic outlook.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/global-corporate-bond-yield-premiums-fall-to-lowest-since-2007",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5535afab23e908726b1ac0ca6941edc7",
+      "timestamp": "2026-01-16T11:43:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Investors Pile Into Metal Stocks as Silver, Copper Soar - Commodity derivatives are the latest fad among retail traders.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/infosys-guidance-may-boost-it-mood-vedanta-hindustan-zinc-ride-metals-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1f13e76e4eba7a63be85ef0831c335ff",
+      "timestamp": "2026-01-16T11:42:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AmCham China: US Firms Regaining Optimism on China - James Zimmerman, Chairman at AmCham China, discusses the chamber's latest business climate survey. According to the report, US companies are more upbeat about doing business in China following the tra",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/amcham-china-us-firms-regaining-optimism-on-china-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ff09c9727179de9275e980f359819ebb",
+      "timestamp": "2026-01-16T11:40:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Vanke Bonds Extend Rally on Sweetened Extension Proposals - China Vanke Co.’s bonds extended their rally, a day after the distressed developer unveiled sweetened proposals to extend payments on some notes, potentially easing the risk of an imminent default.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-vanke-bonds-extend-rally-on-sweetened-extension-proposals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d24dfe80810c8fa5b3a53de37ccad34f",
+      "timestamp": "2026-01-16T11:26:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Heavy Rainfall Disrupts Australian Metallurgical Coal Supplies - Heavy rainfall in northeast Australia has triggered floods that are hampering mine operations and disrupting supplies of metallurgical coal in the region.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/heavy-rainfall-disrupts-australian-metallurgical-coal-supplies",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e2b87f966f55ac11764cfa5e3360e90f",
       "timestamp": "2026-01-16T11:23:43+09:00",
@@ -2089,116 +2199,6 @@
       "related_tickers": [],
       "content": "Man Shot by US Officer in Minneapolis as Tensions Escalate - A federal officer shot a man in the leg on Wednesday night in Minneapolis, escalating tensions in the city following the fatal shooting of a local woman by an Immigration and Customs Enforcement agent",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/man-shot-by-us-officer-in-minneapolis-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a415f633bc538f1297092d886dd80b5b",
-      "timestamp": "2026-01-15T22:22:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Malawi Finance Minister Sees Debt Rework Talks Concluding Soon - Malawi’s Finance Minister Joseph Mwanamvekha said he is optimistic debt-restructuring talks with multilateral and bilateral creditors will conclude by February, ahead of the 2026-27 budget presentatio",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/malawi-finance-minister-sees-debt-rework-talks-concluding-soon",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "869910091d7c4b4e9d5a98911b129ad0",
-      "timestamp": "2026-01-15T22:18:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Sachs Equity Traders Set Wall Street Revenue Record - Goldman Sachs Group Inc. set an all-time Wall Street record of $4.31 billion for equities-trading revenue in the final three months of last year and the bank also raised its dividend to $4.50 per shar",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/goldman-sachs-equity-traders-set-revenue-record-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ba8ec53ef923f876277a134557163d08",
-      "timestamp": "2026-01-15T22:08:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock, Microsoft AI Partnership Raises $12.5 Billion So Far - BlackRock Inc. has raised $12.5 billion as part of a partnership with Microsoft Corp. to bankroll data centers and energy infrastructure, advancing its efforts to cash in on the artificial intelligenc",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/blackrock-microsoft-ai-partnership-raises-12-5-billion-so-far",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ba8ec53ef923f876277a134557163d08",
-      "timestamp": "2026-01-15T22:08:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock, Microsoft AI Partnership Raises $12.5 Billion So Far - BlackRock Inc. has raised $12.5 billion as part of a partnership with Microsoft Corp. to bankroll data centers and energy infrastructure, advancing its efforts to cash in on the artificial intelligenc",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/blackrock-microsoft-ai-partnership-raises-12-5-billion-so-far",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f31bf920b9b05d6eee119a5daf9f6f89",
-      "timestamp": "2026-01-15T22:08:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa Closes Kruger Park as Deadly Floods Kill Dozens - Deadly floods prompted South Africa’s iconic Kruger National Park to shut to further visitors, after extreme rainfall killed dozens in the northeast of the country and neighboring Mozambique.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/south-africa-closes-kruger-park-as-deadly-floods-kill-dozens",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5cfbd475852836836038c681313e1ee3",
-      "timestamp": "2026-01-15T22:05:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EnBW Scraps Two Offshore Wind Projects After Missing UK Support - EnBW Energie Baden-Württemberg AG has halted two UK offshore wind projects after failing to secure government support in the latest allocation round, triggering mandatory impairments worth billions of",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/enbw-scraps-two-offshore-wind-projects-after-missing-uk-support",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c65e95ea48197819a1f55475ea8c880c",
-      "timestamp": "2026-01-15T22:04:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Asks Allies to Step Up Measures on Chinese Critical Minerals - The US will convene dozens of foreign ministers from allied countries next month to pursue an agreement designed to help the countries reduce their dependency on Chinese critical minerals.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/us-asks-allies-to-step-up-measures-on-chinese-critical-minerals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c2bd3ee8f0abe9f3e020d3e7c6fe9a45",
-      "timestamp": "2026-01-15T22:04:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wells Fargo Kicks Off US Dollar Bond Sale After Earnings - Wells Fargo &amp; Co. is tapping the US high-grade market in an expected rush of bond sales from big Wall Street lenders after earnings.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/wells-fargo-kicks-off-us-dollar-bond-sale-after-earnings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe5a997e6e7d6b1f17e516d8fbc19c9d",
-      "timestamp": "2026-01-15T22:03:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Liquid Telecom Readies for Refinancing Talks as Maturity Looms - Pan-African fiber company Liquid Telecommunications is moving closer to refinancing talks as a $620 million bond maturity looms in September, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/liquid-telecom-readies-for-refinancing-talks-as-maturity-looms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "274d52967694bc95041fc4fe64c6a776",
-      "timestamp": "2026-01-15T22:03:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Emerging Stocks Steady as TSMC Plans Whet Investor Appetite - Emerging-market stocks were little changed as ambitious spending plans by Taiwan Semiconductor Manufacturing Co, the world’s largest chip-maker, lifted sentiment for AI-linked shares across the world.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/emerging-stocks-steady-as-tsmc-plans-whet-investor-appetite",
       "sentiment": "NEUTRAL"
     }
   ]
