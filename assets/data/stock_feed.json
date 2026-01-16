@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-16T14:39:44.799754+09:00",
+  "last_updated": "2026-01-16T15:04:43.177250+09:00",
   "items": [
+    {
+      "id": "6e5cf5ae61395c7841d95a0c3dc92038",
+      "timestamp": "2026-01-16T15:00:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Can Congress Still Check the Commander in Chief? - <p><strong>Sen. Jeanne Shaheen, the top Democrat on the Senate Foreign Relations Committee, discusses Venezuela, NATO and the limits of congressional power as global crises multiply.</strong></p>",
+      "url": "https://www.bloomberg.com/features/2026-jeanne-shaheen-weekend-interview/",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6374e96a3bedac4d88de5cc527a7515f",
+      "timestamp": "2026-01-16T14:50:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The China Show 1/16/2026 (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/the-china-show-1-16-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "690de469d86047a5e47b8349d63061f7",
+      "timestamp": "2026-01-16T14:48:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Carney Meets Xi to Renew Ties - Canada’s PM Mark Carney praised a renewed partnership with China’s Xi Jinping during a four-day visit to China.\n\n (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/carney-meets-xi-to-renew-ties-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "721620d87c4f4c79b47f4d8e46ba9b9e",
       "timestamp": "2026-01-16T14:16:12+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "UK’s Chief White-Collar Crimefighter to Retire Early - Nick Ephgrave, the director of the UK’s Serious Fraud Office, will retire from the most high profile job in fraud prosecution just halfway through his five-year term.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-s-white-collar-crime-chief-nick-ephgrave-to-retire-early",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "65a694777b30f41ca18e4c390b2451a5",
-      "timestamp": "2026-01-15T23:00:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BNY’s $378 Million of Epstein Transfers Draws Senator’s Scrutiny - A key Senate Democrat asked Bank of New York Mellon Corp. for information about $378 million in transfers processed for Jeffrey Epstein, the disgraced financier who died in jail in 2019 as he faced se",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bny-s-378-million-of-epstein-transfers-draws-senator-s-scrutiny",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ac223e01fc0c413a700a1ac09d10bcbd",
-      "timestamp": "2026-01-15T23:00:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Star Manager Train Survives Investor Vote Over Trust’s Future - Shareholders of a century-old fund run by Nick Train have backed the vehicle’s strategy, giving a reprieve to the star British stockpicker whose concentrated bets have trailed wider markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-star-manager-train-survives-investor-vote-over-trust-s-future",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd409d36870d9453aab945ae65986673",
-      "timestamp": "2026-01-15T22:53:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Jobless Claims Unexpectedly Tumble to 198,000 - Applications for US unemployment benefits decreased by 9,000 to 198,000 in the week ended Jan. 10, the lowest level since November. Michael McKee reports on Bloomberg Television. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/us-jobless-claims-unexpectedly-tumble-to-198-000-video",
       "sentiment": "NEUTRAL"
     }
   ]
