@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-16T13:44:19.407773+09:00",
+  "last_updated": "2026-01-16T14:06:12.633124+09:00",
   "items": [
+    {
+      "id": "32069f900c5394f112d4040d501b12d2",
+      "timestamp": "2026-01-16T14:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Switzerland Is Asking Itself: Is 10 Million People Too Many? - <p>As the world flocks to Davos, the host country ponders a population cap</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-16/switzerland-is-debating-a-population-cap-amid-a-growing-immigration-backlash",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "32069f900c5394f112d4040d501b12d2",
+      "timestamp": "2026-01-16T14:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Switzerland Is Asking Itself: Is 10 Million People Too Many? - <p>As the world flocks to Davos, the host country ponders a population cap</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-16/switzerland-is-debating-a-population-cap-amid-a-growing-immigration-backlash",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "014c764669ab5c471b2df6b98ee09374",
+      "timestamp": "2026-01-16T13:40:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk’s Grok AI Faces Scrutiny From Japan Over Sexualized Images - Japan joined the growing list of countries probing X over Elon Musk’s artificial intelligence service Grok and the chatbot’s role in creating and spreading sexualized images of people without their co",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/musk-s-grok-ai-faces-scrutiny-from-japan-over-sexualized-images",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8545e8ec11d2e270d1d6d7542618fb4e",
       "timestamp": "2026-01-16T13:12:33+09:00",
@@ -10,6 +43,17 @@
       "related_tickers": [],
       "content": "Japan and Italy to Elevate Ties, Cooperate on Critical Minerals - Japanese Prime Minister Sanae Takaichi and Italian Prime Minister Giorgia Meloni agreed to work together on critical mineral supply and elevate their relationship to a new level.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/japan-and-italy-to-elevate-ties-cooperate-on-critical-minerals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ce9b2b9616b65d8d678cbc84b97106fa",
+      "timestamp": "2026-01-16T13:08:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Top Thai Fund Sees Poll Verdict as Catalyst for Stock Revival - Thailand’s upcoming election may mark a turning point for the stock market, potentially ending a three-year slump if it delivers political clarity, according to the nation’s largest private asset mana",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/top-thai-fund-sees-poll-verdict-as-catalyst-for-stock-revival",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Abu Dhabi’s Adnoc Is Said to Evaluate Investing in Venezuela Gas - The United Arab Emirates’s state oil giant is evaluating options for a potential entry into Venezuela’s energy industry as the Middle Eastern country seeks to build out its international natural gas b",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/abu-dhabi-s-adnoc-is-said-to-evaluate-investing-in-venezuela-gas",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "116040d23cbf587f75d14f34f7aed936",
-      "timestamp": "2026-01-15T22:42:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran’s Battered Regional Proxies Still a Menace in Fight With US - Iran has spent decades funding and nurturing a web of proxy militias across the Middle East for exactly this type of moment: The Islamic Republic is besieged by a popular domestic uprising and threate",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/iran-s-battered-regional-proxies-still-a-menace-in-fight-with-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6f408f4cff6a86a1fe257b471ae01268",
-      "timestamp": "2026-01-15T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CFA Level II Pass Rate Drops Again, Hitting Lowest Level Since 2022 - The pass rate for the second level of the chartered financial analyst test fell to the lowest since 2022 as candidates who stayed on schedule continued to outperform peers who put off the exam.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/cfa-level-ii-pass-rate-drops-again-hitting-lowest-level-since-2022",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6fa47adb2543016cef50e36f78f7f67b",
-      "timestamp": "2026-01-15T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "New York Factory Activity Expands While Inflation Gauges Cool - New York state factory activity expanded in January, while a gauge of prices received dropped to an almost one-year low.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/new-york-factory-activity-expands-while-inflation-gauges-cool",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6fa47adb2543016cef50e36f78f7f67b",
-      "timestamp": "2026-01-15T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "New York Factory Activity Expands While Inflation Gauges Cool - New York state factory activity expanded in January, while a gauge of prices received dropped to an almost one-year low.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/new-york-factory-activity-expands-while-inflation-gauges-cool",
       "sentiment": "NEUTRAL"
     }
   ]
