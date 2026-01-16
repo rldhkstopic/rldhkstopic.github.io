@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-16T10:31:51.845909+09:00",
+  "last_updated": "2026-01-16T11:39:54.465986+09:00",
   "items": [
+    {
+      "id": "e2b87f966f55ac11764cfa5e3360e90f",
+      "timestamp": "2026-01-16T11:23:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s FX Conversion Jumps to Record as Firms Rush Back to Yuan - Chinese banks helped clients sell a record amount of foreign currencies back into the yuan in December, supercharged by expectations of appreciation and increased seasonal demand.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-s-fx-conversion-jumps-to-record-as-firms-rush-back-to-yuan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d647ebeba9fb68af59a88eedbe400993",
+      "timestamp": "2026-01-16T11:18:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "California GOP to Ask Supreme Court to Review New Voting Map - The California Republican Party said it will ask the US Supreme Court to weigh in on the state’s new congressional map that favors Democrats.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/california-gop-to-ask-supreme-court-to-review-new-voting-map",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e6fdf7ac6807c40a97545a2c46b34ea5",
+      "timestamp": "2026-01-16T11:00:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China National Team ETFs Log Record Outflows Amid Cooling Signal - Some of the exchange‑traded funds heavily owned by China’s so‑called national team saw record outflows on Thursday, a development that aligns with broader efforts to temper the stock market rally.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-national-team-etfs-log-record-outflows-amid-cooling-signal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cd86d58486cf5be4e90a4837818d7e6f",
+      "timestamp": "2026-01-16T10:38:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Clamps Down on High-Speed Traders, Removing Data Servers - China is pulling the plug on a key advantage held by high-frequency traders, removing servers dedicated to those firms out of local exchanges’ data centers, according to people familiar with the matte",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-clamps-down-on-high-speed-traders-removing-data-servers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7cc8b4449b3807e61cc791645874016",
+      "timestamp": "2026-01-16T10:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Firms Regain Optimism on China After Trump-Xi Trade Truce - US companies are more upbeat about doing business in China after a trade truce between President Donald Trump and Chinese leader Xi Jinping, according to a survey by the American Chamber of Commerce i",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/us-firms-regain-optimism-on-china-after-trump-xi-trade-truce",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a4d7a482811246fc26f217c9bdf8bb25",
       "timestamp": "2026-01-16T10:04:51+09:00",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Emerging Stocks Steady as TSMC Plans Whet Investor Appetite - Emerging-market stocks were little changed as ambitious spending plans by Taiwan Semiconductor Manufacturing Co, the world’s largest chip-maker, lifted sentiment for AI-linked shares across the world.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/emerging-stocks-steady-as-tsmc-plans-whet-investor-appetite",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca3941c4be6b61e9254e93f79a321987",
-      "timestamp": "2026-01-15T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "Insight Partners Hires VC Veteran Malayery for Secondaries Push - Tech-focused private-asset firm Insight Partners is breaking into secondaries, bringing on an executive from a rival to lead its first strategy dedicated to backing continuation funds and snapping up ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/insight-partners-hires-vc-veteran-malayery-for-secondaries-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a6ccf029492b20412d225bcf6ba631f1",
-      "timestamp": "2026-01-15T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Congress Remains Stuck on Obamacare Credits as Enrollment Closes - It’s the last day to sign up for Obamacare health insurance plans and lawmakers remain at loggerheads over whether to revive federal subsidies and reverse a dramatic surge in premiums for more than 20",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/congress-remains-stuck-on-obamacare-credits-as-enrollment-closes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "79812cb4603d82ad8f5f42e84ca25c21",
-      "timestamp": "2026-01-15T21:59:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK on Track to End 2025 Well Short of Starmer’s G-7 Growth Goal - Britain’s economy is on track to beat major European rivals in 2025 but will fall short of the Labour government’s goal to achieve the fastest growth in the Group of Seven.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-is-falling-short-of-starmer-goal-to-top-g-7-growth-league",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aca3a6c13ec8dfcd3ef1252659793d71",
-      "timestamp": "2026-01-15T21:57:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BofA Says European Real Estate Has Biggest Upside in Decades - European real estate stocks are poised for their best returns in decades, according to Bank of America analysts, who foresee a boost from steadier interest rates and valuations below historical levels",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bofa-says-european-real-estate-has-biggest-upside-in-decades",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "45a238ac8c5bbd2454b1c437593d22b9",
-      "timestamp": "2026-01-15T21:56:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Opposes Use of Force in Iran Call as Trump Stirs Unease - China’s top diplomat told his Iranian counterpart that Beijing opposes the use of force in international relations, following US threats of an attack after Tehran’s violent crackdown against protester",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/china-opposes-use-of-force-in-iran-call-as-trump-stirs-unease",
       "sentiment": "NEUTRAL"
     }
   ]
