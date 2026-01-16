@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-16T14:06:12.633124+09:00",
+  "last_updated": "2026-01-16T14:39:44.799754+09:00",
   "items": [
+    {
+      "id": "721620d87c4f4c79b47f4d8e46ba9b9e",
+      "timestamp": "2026-01-16T14:16:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Faces Skepticism Over Deterring China as Trump Eyes Greenland - As President Donald Trump threatens to seize Greenland, tensions over whether his actions would undermine efforts to deter China in the Indo-Pacific were laid bare at a major security forum in Hawaii ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/us-faces-skepticism-over-deterring-china-as-trump-eyes-greenland",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5efbd4916b42ce5671236b75bc306b2c",
+      "timestamp": "2026-01-16T14:15:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "With the Power Out, Kyiv’s Residents Confront Cold as a Weapon of War - <p>As President Zelenskiy declares an energy emergency, citizens seek out heat&nbsp;where they can.&nbsp;</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-16/putin-s-attacks-on-ukraine-s-energy-grid-bring-fresh-misery-to-freezing-kyiv",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "32069f900c5394f112d4040d501b12d2",
       "timestamp": "2026-01-16T14:00:32+09:00",
@@ -21,6 +43,17 @@
       "related_tickers": [],
       "content": "Switzerland Is Asking Itself: Is 10 Million People Too Many? - <p>As the world flocks to Davos, the host country ponders a population cap</p>",
       "url": "https://www.bloomberg.com/news/features/2026-01-16/switzerland-is-debating-a-population-cap-amid-a-growing-immigration-backlash",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fcdd2fcc825ad11fd674aefb5b6e07ee",
+      "timestamp": "2026-01-16T14:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Poland May Cut Rates Already in February, MPC’s Kotecki Says - Poland may return to interest rate cuts next month with a quarter-point reduction as prospects for continued low inflation improve, according to Monetary Policy Council member Ludwik Kotecki.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/poland-may-cut-rates-already-in-february-mpc-s-kotecki-says",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "US Jobless Claims Unexpectedly Tumble to 198,000 - Applications for US unemployment benefits decreased by 9,000 to 198,000 in the week ended Jan. 10, the lowest level since November. Michael McKee reports on Bloomberg Television. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-15/us-jobless-claims-unexpectedly-tumble-to-198-000-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "47512011cb5d9d80ddc19b9e6a5afd8c",
-      "timestamp": "2026-01-15T22:45:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "In Mamdani’s NYC, Liberal Congressman Who Impeached Trump Faces Tough Reelection Bid - Dan Goldman doesn’t understand why Brad Lander, a fellow liberal and former Democratic ally, wants to kick him out of his job.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/in-mamdani-s-nyc-congressman-dan-goldman-faces-election-challenge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a69f83636e6631b54aee4051d65883da",
-      "timestamp": "2026-01-15T22:43:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Abu Dhabi’s Adnoc Is Said to Evaluate Investing in Venezuela Gas - The United Arab Emirates’s state oil giant is evaluating options for a potential entry into Venezuela’s energy industry as the Middle Eastern country seeks to build out its international natural gas b",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/abu-dhabi-s-adnoc-is-said-to-evaluate-investing-in-venezuela-gas",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a69f83636e6631b54aee4051d65883da",
-      "timestamp": "2026-01-15T22:43:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Abu Dhabi’s Adnoc Is Said to Evaluate Investing in Venezuela Gas - The United Arab Emirates’s state oil giant is evaluating options for a potential entry into Venezuela’s energy industry as the Middle Eastern country seeks to build out its international natural gas b",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/abu-dhabi-s-adnoc-is-said-to-evaluate-investing-in-venezuela-gas",
       "sentiment": "NEUTRAL"
     }
   ]
