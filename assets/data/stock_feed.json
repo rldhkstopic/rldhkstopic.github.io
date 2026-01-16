@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-17T03:44:00.158596+09:00",
+  "last_updated": "2026-01-17T04:04:48.697054+09:00",
   "items": [
+    {
+      "id": "cdd67af0b6468fe59a3f77fb5bc00576",
+      "timestamp": "2026-01-17T03:41:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Clear Street Said to Close Pre-IPO Round at $12 Billion Value - Securities and derivatives broker Clear Street has closed an investment round at a $12 billion valuation, paving the way for an initial public offering, according to a person familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/clear-street-said-to-close-pre-ipo-round-at-12-billion-value",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6f6eeb80d84adf39d8ca8f50996dd03e",
       "timestamp": "2026-01-17T03:32:33+09:00",
@@ -10,6 +21,17 @@
       "related_tickers": [],
       "content": "Trump Says He’ll Forgo Sending US Troops to Minnesota For Now: Q&A - President Donald Trump said he would hold off on invoking the Insurrection Act after previously threatening to use the law to deploy US military troops in Minnesota.\n“I don’t think there’s any reason ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/trump-forgo-sending-us-troops-to-minnesota-for-now-q-a-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "852c0eabdf80e8032df7972f5d58b103",
+      "timestamp": "2026-01-17T03:11:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hardware Firms Hit by Rising Memory Chip Costs | Open Interest 1/16/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" Hardware companies like HP are under pressure as prices skyrocket for memory chips. As President T",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/open-interest-1-16-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "A Long-Held Tenet of Asia’s Markets Is Suddenly Breaking Apart - A breakdown in the relationship between Asia’s stocks and its currencies is flashing a signal for global funds to rethink their investment strategy in the region.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/a-long-held-tenet-of-asia-s-markets-is-suddenly-breaking-apart",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61e8d16d07a1abb9bdafb0b4d673db89",
-      "timestamp": "2026-01-16T08:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TSMC Eyes Smaller Tech Gap Between US and Taiwan Chipmaking Fabs - Taiwan Semiconductor Manufacturing Co. will try to accelerate the transfer of its advanced chipmaking expertise to the US in the future, though it will still develop and maintain its most cutting-edge",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/tsmc-eyes-smaller-tech-gap-between-us-and-taiwan-chipmaking-fabs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a6701cfde2ae7047ccd106b8cd285df1",
-      "timestamp": "2026-01-16T07:58:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sen. Slotkin on US Housing, Illegal Orders, Trump - Democratic Senator Elissa Slotkin of Michigan discusses her Housing Bill and calls for President Trump to declare a housing emergency. She also shares her reaction to the President saying the killings",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/sen-slotkin-on-us-housing-illegal-orders-trump-video",
       "sentiment": "NEUTRAL"
     }
   ]
