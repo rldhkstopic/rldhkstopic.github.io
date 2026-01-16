@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-16T21:05:38.461938+09:00",
+  "last_updated": "2026-01-16T21:45:33.856270+09:00",
   "items": [
+    {
+      "id": "be444efd7cecd2615da1ca297c64afda",
+      "timestamp": "2026-01-16T21:43:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Wildcatter Hamm Is Halting Drilling in the Bakken - Concerns over a global crude glut have pressured prices, weighing on profits.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/oil-wildcatter-hamm-is-halting-drilling-in-the-bakken",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "72fa9bcf92784b86c7bc6e368feaea8c",
+      "timestamp": "2026-01-16T21:31:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa’s Rand Set for Longest Winning Streak Since 2002 - South Africa’s rand is on a weekly winning run not seen in more than two decades as elevated precious-metal prices and an improving economic backdrop drive gains.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/south-africa-s-rand-set-for-longest-winning-streak-since-2002",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6e6210f1365c260e275b234abf463796",
+      "timestamp": "2026-01-16T21:17:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Modi, Allies Sweep Mumbai Polls Aimed at Infrastructure Overhaul - Prime Minister Narendra Modi’s party swept the local municipality polls in Mumbai for the first time, ending decades of control by regional parties and underscoring his popularity among the urban popu",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/modi-allies-sweep-mumbai-polls-aimed-at-infrastructure-overhaul",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f8cef1ace63616c38f3151c724544878",
+      "timestamp": "2026-01-16T21:16:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Harold Hamm to Halt Drilling in Bakken Shale on Lower Oil Prices - Harold Hamm, the billionaire wildcatter who helped kick off the US shale oil revolution, said he’s about to shut down drilling in North Dakota’s Bakken for the first time in decades because of low cru",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-16/harold-hamm-to-halt-drilling-in-bakken-shale-on-lower-oil-prices",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "134e4518f10855d7daf531cb3930e240",
+      "timestamp": "2026-01-16T21:13:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Gifted Nobel Peace Prize Medal from Venezuela's Machado | The Pulse 1/16 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/the-pulse-1-16-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8f4637c87f7e5495f82d8cc0cd385efb",
       "timestamp": "2026-01-16T21:03:01+09:00",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Bill Gates’ Breakthrough, BMW and Canada Back Lithium Refiner - Lithium refiner Mangrove Water Technologies Inc. secured $85 million from the Canada Growth Fund, BMW AG’s i Ventures and Bill Gates-backed Breakthrough Energy LLC.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-15/bill-gates-breakthrough-bmw-and-canada-back-lithium-refiner",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9127053e15a9247d1a9ede2ec40e7031",
-      "timestamp": "2026-01-16T04:24:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Credit Card Rate Caps 'Bad Idea,' Would Hurt Consumers, Says Sen. Budd - Republican Senator Ted Budd said capping credit card interest rates as proposed by the president would mean that some consumers won't be able to get access to credit that they may need. The North Caro",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-15/credit-rate-caps-bad-idea-would-hurt-consumers-budd-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f6a6cfa355629bf4d1479a2cd2c9b9ca",
-      "timestamp": "2026-01-16T04:13:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela’s Machado Meets Trump in Push for Post-Maduro Role - Venezuelan opposition leader Maria Corina Machado met President Donald Trump at the White House on Thursday as part of her push for greater influence in the wake of Nicolas Maduro’s ouster at the hand",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/venezuela-s-machado-meets-trump-in-push-for-post-maduro-role",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bf43bb4ede84823acd2aeb9e04fb15f6",
-      "timestamp": "2026-01-16T04:08:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bank CEOs Say Record $134 Billion Trading Haul Is Just the Start - Morgan Stanley Chief Executive Officer Ted Pick started summing up his outlook after Wall Street’s banner year for trading with four words: “The setup is ideal.”",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/bank-ceos-say-record-134-billion-trading-haul-is-just-the-start",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f271bc5f6d2be2ad4989400a137659c",
-      "timestamp": "2026-01-16T04:01:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Sachs Names BlackRock’s Lynam as Chief Credit Strategist - Amanda Lynam, head of macro credit research at BlackRock Inc., is returning to Goldman Sachs Group Inc. after three years with the asset management firm.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-15/goldman-sachs-names-blackrock-s-lynam-as-chief-credit-strategist",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d160c1e8bec4d62491f3d50426b7bb21",
-      "timestamp": "2026-01-16T04:00:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Podcasting’s New Biggest Threat: the End of Listening - Harried consumers are testing new ways to cram as much podcast information into their brains as possible without listening to full episodes",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/podcasting-s-new-biggest-threat-the-end-of-listening",
       "sentiment": "NEUTRAL"
     }
   ]
