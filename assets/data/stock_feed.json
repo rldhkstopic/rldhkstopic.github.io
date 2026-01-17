@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-17T22:11:19.700843+09:00",
+  "last_updated": "2026-01-17T22:39:09.226581+09:00",
   "items": [
+    {
+      "id": "2bd151fe715565afc1a469ff6ce7ae71",
+      "timestamp": "2026-01-17T22:10:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Museveni Declared Winner of Uganda Vote as Opposition Cries Foul - Ugandan President Yoweri Museveni was declared the winner of elections that the main opposition said were marred by rigging from the outset, extending his four-decade rule.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/museveni-declared-winner-of-uganda-vote-as-opposition-cries-foul",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "757f8f6fbcb6f813afca743cca0c1f41",
       "timestamp": "2026-01-17T22:03:55+09:00",
@@ -10,6 +21,17 @@
       "related_tickers": [],
       "content": "From Oil Giant to Travel Hub: Saudi Arabia’s Vision 2030 Test - Saudi Arabia is attempting one of the most ambitious economic transformations in the world, hoping to use tourism to reduce its reliance on oil and reshape its global image. Under Vision 2030, Crown P",
       "url": "https://www.bloomberg.com/news/videos/2026-01-17/saudi-arabia-s-vision-2030-test-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6cec4c2a8bc273d223fe8ba51c4e974e",
+      "timestamp": "2026-01-17T22:01:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Greenland Demands Spark Protest Rallies Across Denmark - Thousands of people took to the streets across Denmark to protest US President Donald Trump’s ambitions to take control of Greenland, underscoring the deep unease over the future of the Arctic island.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/trump-s-greenland-demands-spark-protest-rallies-across-denmark",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Morgan Stanley Sees 70% Surge for ASML Shares in Bull Case - Morgan Stanley laid out its bullish case for why investors should buy ASML Holding NV shares, saying in the most optimistic scenario the stock has a 70% rally ahead as chipmakers ramp up spending to m",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-sees-70-surge-for-asml-shares-in-bull-case",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c1faa9232b1e3751e466508036a4cbad",
-      "timestamp": "2026-01-16T19:16:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morgan Stanley Sees 70% Surge for ASML Shares in Bull Case - Morgan Stanley laid out its bullish case for why investors should buy ASML Holding NV shares, saying in the most optimistic scenario the stock has a 70% rally ahead as chipmakers ramp up spending to m",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-sees-70-surge-for-asml-shares-in-bull-case",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "faa4f3179b2577d7d26d283126b914a8",
-      "timestamp": "2026-01-16T19:08:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intel Extends Comeback as Investors Bet on Foundry Growth - Intel Corp.’s dramatic rally to start the year shows investors are increasingly optimistic about the chipmaker gaining new foundry customers, putting it back into the artificial intelligence trade it ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/intel-extends-comeback-as-investors-bet-on-foundry-growth",
       "sentiment": "NEUTRAL"
     }
   ]
