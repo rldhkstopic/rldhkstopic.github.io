@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-18T02:02:49.731086+09:00",
+  "last_updated": "2026-01-18T02:34:41.912298+09:00",
   "items": [
+    {
+      "id": "be17509c7161a52bcc2c6542f0386047",
+      "timestamp": "2026-01-18T02:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Inks South America Trade Deal After 25 Years of Negotiations - The European Union and Mercosur officially signed one of the world’s largest free trade agreements on Saturday, clinching a deal that has been in the works for more than two decades.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/eu-inks-south-america-trade-deal-after-25-years-of-negotiations",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be17509c7161a52bcc2c6542f0386047",
+      "timestamp": "2026-01-18T02:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Inks South America Trade Deal After 25 Years of Negotiations - The European Union and Mercosur officially signed one of the world’s largest free trade agreements on Saturday, clinching a deal that has been in the works for more than two decades.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/eu-inks-south-america-trade-deal-after-25-years-of-negotiations",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0eba23fafd9dd06fa81f3208143ab4aa",
       "timestamp": "2026-01-18T01:42:52+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Russia-Bound Phantom Oil Tanker U-Turns Away From Baltic Sea - An oil tanker that shows up on maritime databases as having never existed U-turned as it headed toward German waters and is now sailing in the direction of Russia’s Arctic coast.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/russia-bound-phantom-oil-tanker-u-turns-away-from-baltic-sea",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6138448246d5665d50490ea0827650f9",
-      "timestamp": "2026-01-16T20:30:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia-Bound Phantom Oil Tanker U-Turns Away From Baltic Sea - An oil tanker that shows up on maritime databases as having never existed U-turned as it headed toward German waters and is now sailing in the direction of Russia’s Arctic coast.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/russia-bound-phantom-oil-tanker-u-turns-away-from-baltic-sea",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "313812b6b3d8ce22a89d48ce0867f0ec",
-      "timestamp": "2026-01-16T20:28:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Credit Markets Haven’t Been This Hot in Two Decades - <p>Corporate bond investors need to guard against complacency, Aberdeen and Pimco say.&nbsp;</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/credit-markets-haven-t-been-this-hot-in-two-decades",
       "sentiment": "NEUTRAL"
     }
   ]
