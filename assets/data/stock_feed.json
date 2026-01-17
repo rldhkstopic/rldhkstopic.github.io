@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-17T19:03:49.151816+09:00",
+  "last_updated": "2026-01-17T19:36:46.011521+09:00",
   "items": [
+    {
+      "id": "a958f96c2b2c8be42466894868325543",
+      "timestamp": "2026-01-17T19:02:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alex Imas and Richard Thaler on Learning Behavioral Economics - Barry speaks with Richard Thaler and Alex Imas award winning economists and co-authors of \"The Winner's Curse: Behavioral Economics Anomalies\". They discuss the psychology of spending at auctions, and",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-17/alex-imas-and-richard-thaler-on-behavioral-economics-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9cb3217b37d8ff0e5417969d9cb44bb0",
       "timestamp": "2026-01-17T18:49:28+09:00",
@@ -538,6 +549,17 @@
       "related_tickers": [],
       "content": "How Investors Fall Into Bias Traps: Masters in Business - Barry speaks with Richard Thaler and Alex Imas award winning economists and co-authors of \"The Winner's Curse: Behavioral Economics Anomalies\". They discuss the psychology of spending at auctions, and",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/how-investors-fall-into-bias-traps-masters-in-business-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "24ba91cd88ca99d6007d8ca3e7859487",
+      "timestamp": "2026-01-17T07:00:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Richard Thaler on the mentality of spending money - Barry speaks with Richard Thaler and Alex Imas award winning economists and co-authors of \"The Winner's Curse: Behavioral Economics Anomalies\". They discuss the psychology of spending at auctions, and",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-16/richard-thaler-on-the-mentality-of-spending-money-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Norway Stunned After Machado Gifts Nobel Peace Prize Medal to Trump - A sense of disbelief gripped Norwegian media and expert community following news that Nobel Peace Prize laureate María Corina Machado gave her award medal to US President Donald Trump, who had been ha",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/norway-stunned-after-venezuela-s-machado-gifts-nobel-peace-prize-medal-to-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e1baa9f56d9ec38f2803711699f558ab",
-      "timestamp": "2026-01-16T18:15:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Defense Firms Still Waiting for Government Boom, Natixis Says - A senior Natixis banker said many European arms companies have seen few orders so far despite vows from the region’s governments to dramatically step up military spending.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/eu-defense-firms-still-waiting-for-government-boom-natixis-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "367e557ced55ae448093ea4cfabd0b62",
-      "timestamp": "2026-01-16T18:06:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Frigid Weather Drives India’s Power Demand to Year’s Maximum - India’s peak power demand in January has overshot typically higher consumption in the summer months, as a cold snap boosted the use of heaters across the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/frigid-weather-drives-india-s-power-demand-to-year-s-maximum",
       "sentiment": "NEUTRAL"
     }
   ]
