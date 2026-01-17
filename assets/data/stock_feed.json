@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-17T21:45:00.316352+09:00",
+  "last_updated": "2026-01-17T22:11:19.700843+09:00",
   "items": [
+    {
+      "id": "757f8f6fbcb6f813afca743cca0c1f41",
+      "timestamp": "2026-01-17T22:03:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "From Oil Giant to Travel Hub: Saudi Arabia’s Vision 2030 Test - Saudi Arabia is attempting one of the most ambitious economic transformations in the world, hoping to use tourism to reduce its reliance on oil and reshape its global image. Under Vision 2030, Crown P",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-17/saudi-arabia-s-vision-2030-test-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d551228be43624c1527d182cfc125ee3",
+      "timestamp": "2026-01-17T22:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A United Front at the Fed and in Israel - Grand jury subpoenas could backfire on the Fed",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-17/what-doj-subpoenas-mean-for-the-fed-and-what-war-means-for-israel-s-startups",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "46de45dd348bd021f019f9c62f4f75d5",
+      "timestamp": "2026-01-17T21:51:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Milei, Erdogan Invited to Join Trump’s Gaza ‘Board of Peace’ - Argentina’s Javier Milei and Turkey’s Recep Tayyip Erdogan are among world leaders who have been invited to join Donald Trump’s so-called Board of Peace, as the US pushes ahead with its peace plan for",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/milei-erdogan-invited-to-join-trump-s-gaza-board-of-peace",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cc042c484dae20190e6b39919d467480",
+      "timestamp": "2026-01-17T21:50:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk Says Tesla Almost Done With AI5 Chip Design, Working on AI6 - Tesla Inc. is almost finished with the design of the AI5 chip for its full self-driving system, and is in the early stages of developing the next version, AI6, Chief Executive Officer Elon Musk said i",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/musk-says-tesla-almost-done-with-ai5-chip-design-working-on-ai6",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f24020d75e674af8494e5f5f6ca0a7c5",
       "timestamp": "2026-01-17T19:58:49+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Intel Extends Comeback as Investors Bet on Foundry Growth - Intel Corp.’s dramatic rally to start the year shows investors are increasingly optimistic about the chipmaker gaining new foundry customers, putting it back into the artificial intelligence trade it ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/intel-extends-comeback-as-investors-bet-on-foundry-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "faa4f3179b2577d7d26d283126b914a8",
-      "timestamp": "2026-01-16T19:08:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intel Extends Comeback as Investors Bet on Foundry Growth - Intel Corp.’s dramatic rally to start the year shows investors are increasingly optimistic about the chipmaker gaining new foundry customers, putting it back into the artificial intelligence trade it ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/intel-extends-comeback-as-investors-bet-on-foundry-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "96450fd7ac6c3979652f774a1e672376",
-      "timestamp": "2026-01-16T19:05:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Korea Exchange Considers Riskier ETFs to Woo Retail Traders - South Korea’s main bourse is in talks with financial authorities to ease rules that ban high-risk leveraged exchange-traded products, as a record rally in local shares has failed to draw retail invest",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/korea-exchange-considers-riskier-etfs-to-woo-retail-traders",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "518f87b5f5d7d3a6dc61bb9e3f38e7d2",
-      "timestamp": "2026-01-16T19:03:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Gradual Return of Ships to the Red Sea Hits a Key Milestone - After more than two years of avoiding the Red Sea, the world’s leading container lines are inching back to the vital lane for east-west trade and indicating it looks safe to navigate again.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/the-gradual-return-of-ships-to-the-red-sea-hits-a-key-milestone",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "99482efa630f34f6c52223e2d503a88a",
-      "timestamp": "2026-01-16T19:01:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Not in a Bubble, BlackRock's Brazier Says (Video)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/ai-not-in-a-bubble-blackrock-s-brazier-says-video",
       "sentiment": "NEUTRAL"
     }
   ]
