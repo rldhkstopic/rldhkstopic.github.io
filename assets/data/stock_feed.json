@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T01:03:41.989689+09:00",
+  "last_updated": "2026-01-18T01:37:47.671070+09:00",
   "items": [
+    {
+      "id": "79d036f5d9fe44420baa3bd4f3984a79",
+      "timestamp": "2026-01-18T01:27:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to Impose Tariffs on Some European Nations Over Greenland - President Donald Trump announced a 10% tariff on European countries rallying to Denmark’s side in his pursuit of Greenland.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/trump-to-impose-tariffs-on-some-european-nations-over-greenland",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "daf6e1e35e0961065ba2662e889f69ec",
       "timestamp": "2026-01-18T00:40:02+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Saks Bonds Worth Just 1 Cent Hand Hedge Funds a Painful Lesson - At first glance, Saks looked like exactly the kind of mess hedge funds love.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/saks-bonds-worth-just-1-cent-hand-hedge-funds-a-painful-lesson",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "911566d4fd64e8599b0489fadc51eaac",
-      "timestamp": "2026-01-16T20:06:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Korea Exchange Mulls Riskier ETFs to Woo Retail Traders - South Korea’s main bourse is in talks with financial authorities to ease rules that ban high-risk leveraged exchange-traded products, as a record rally in local shares has failed to draw retail invest",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/korea-exchange-mulls-riskier-etfs-to-woo-retail-traders-video",
       "sentiment": "NEUTRAL"
     }
   ]
