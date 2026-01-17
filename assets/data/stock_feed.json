@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-18T00:34:56.597158+09:00",
+  "last_updated": "2026-01-18T01:03:41.989689+09:00",
   "items": [
+    {
+      "id": "daf6e1e35e0961065ba2662e889f69ec",
+      "timestamp": "2026-01-18T00:40:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "2020 Fed Transcripts Show How Powell Sold Fateful Rate Guidance - Transcripts of the Federal Reserve’s 2020 policy meetings, made public Friday, revealed new details about how Chair Jerome Powell pushed for a change he would later regret.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/2020-fed-transcripts-show-how-powell-sold-fateful-rate-guidance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "745a5531ab8291f2100d272b46ed6559",
+      "timestamp": "2026-01-18T00:14:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Week | Dudley on Powell, Saudi Arabia Tourism, Israeli Tech Economy, Megapass Skiing - This week, former New York Fed President Bill Dudley discusses the Justice Department’s criminal investigation of Fed Chair Jay Powell. And,Saudi Arabia is betting big on tourism to diversify its econ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-17/wall-street-week-fed-unity-saudi-arabia-tourism-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "2fe38a37bf6780ef526c1b3c07dd8825",
       "timestamp": "2026-01-18T00:00:00+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Korea Exchange Mulls Riskier ETFs to Woo Retail Traders - South Korea’s main bourse is in talks with financial authorities to ease rules that ban high-risk leveraged exchange-traded products, as a record rally in local shares has failed to draw retail invest",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/korea-exchange-mulls-riskier-etfs-to-woo-retail-traders-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d5b7014e988a66e2e763a82b9fd8f63a",
-      "timestamp": "2026-01-16T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Credit Card Threats Rain on Big Banks’ Earnings Parade - President Donald Trump’s unexpected demand for a cap on credit card interest rates sent financial shares tumbling this week, while leaving the heads of Wall Street’s biggest lenders fielding a swarm o",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/trump-s-credit-card-threats-rain-on-big-banks-earnings-parade",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d5b7014e988a66e2e763a82b9fd8f63a",
-      "timestamp": "2026-01-16T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Credit Card Threats Rain on Big Banks’ Earnings Parade - President Donald Trump’s unexpected demand for a cap on credit card interest rates sent financial shares tumbling this week, while leaving the heads of Wall Street’s biggest lenders fielding a swarm o",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/trump-s-credit-card-threats-rain-on-big-banks-earnings-parade",
       "sentiment": "NEUTRAL"
     }
   ]
