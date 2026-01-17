@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-18T05:03:54.140943+09:00",
+  "last_updated": "2026-01-18T05:36:02.292682+09:00",
   "items": [
+    {
+      "id": "7ce8c3a13b69d3b50195868e1265a0e0",
+      "timestamp": "2026-01-18T05:32:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jake Lang Pulled Into Crowd of Protestors in Minneapolis - Pardoned January 6th rioter and GOP Florida Senate candidate Jake Lang pulled into crowd of protestors in Minneapolis, Minnesota. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-17/jake-lang-pulled-into-crowd-of-protestors-in-minneapolis-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6aaf96508cb02c938f2489577e4fb62c",
+      "timestamp": "2026-01-18T05:20:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sweetgreen Chief Development Officer to Leave Restaurant Chain - Sweetgreen Inc. Chief Development Officer Chris Tarant is leaving the restaurant chain after a more than a year leading the company’s efforts to expand its footprint.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/sweetgreen-chief-development-officer-to-leave-restaurant-chain",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a982c79f4809d0c63388334ebabc3362",
+      "timestamp": "2026-01-18T05:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "MBS Gains Are Another Reason to Buy Company Debt: Credit Weekly - Demand for corporate bonds could get a boost from a surprising source in the coming months: investors taking profits on US mortgage bond holdings who need another asset to buy instead.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/mbs-gains-are-another-reason-to-buy-company-debt-credit-weekly",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e08469b0c7309c3bf512e4a7fafc7b02",
       "timestamp": "2026-01-18T04:28:51+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Harold Hamm to Halt Drilling in Bakken Shale on Lower Oil Prices - Harold Hamm, the billionaire wildcatter who helped kick off the US shale oil revolution, said he’s about to shut down drilling in North Dakota’s Bakken for the first time in decades because of low cru",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/harold-hamm-to-halt-drilling-in-bakken-shale-on-lower-oil-prices",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "134e4518f10855d7daf531cb3930e240",
-      "timestamp": "2026-01-16T21:13:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Gifted Nobel Peace Prize Medal from Venezuela's Machado | The Pulse 1/16 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/the-pulse-1-16-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8f4637c87f7e5495f82d8cc0cd385efb",
-      "timestamp": "2026-01-16T21:03:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Microsoft and Meta Kick Off Data Center PR Blitz - Data centers aren’t popular with local communities. Microsoft and Meta are running PR campaigns to fix that.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/microsoft-and-meta-are-running-commercials-to-sell-data-centers-to-locals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e25692fb5c01c83a3eaee36049196aa",
-      "timestamp": "2026-01-16T20:48:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India and EU Trade Deal to Include Some Farm Goods, Official Says - India’s trade deal with the European Union will include some agricultural products while excluding items that could harm domestic farmers, a senior official in New Delhi said, as the two sides inch cl",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/india-eu-trade-deal-to-include-some-farm-goods-official-says",
       "sentiment": "NEUTRAL"
     }
   ]
