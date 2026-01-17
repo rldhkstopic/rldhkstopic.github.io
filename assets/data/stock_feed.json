@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T02:34:41.912298+09:00",
+  "last_updated": "2026-01-18T03:04:09.880508+09:00",
   "items": [
+    {
+      "id": "0e9e5c0eef92195e65bc29f2b5965d27",
+      "timestamp": "2026-01-18T02:44:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Somalia’s President Condemns Israel’s Recognition of Somaliland - Somalia’s President Hassan Sheikh Mohamud said Israel’s decision to recognize Somaliland has been rejected globally and domestically, adding that Somalia’s unity is “non-negotiable.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/somalia-s-president-condemns-israel-s-recognition-of-somaliland",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "be17509c7161a52bcc2c6542f0386047",
       "timestamp": "2026-01-18T02:00:02+09:00",
@@ -65,6 +76,17 @@
       "related_tickers": [],
       "content": "Trump to Impose Tariffs on Some European Nations Over Greenland - President Donald Trump announced a 10% tariff on European countries rallying to Denmark’s side in his pursuit of Greenland.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-17/trump-to-impose-tariffs-on-some-european-nations-over-greenland",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f530251aba5306f10d99ac17fa3e87e5",
+      "timestamp": "2026-01-18T00:53:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Guinea Former Military Leader Doumbouya Sworn In as President - Guinea’s former military leader Mamadi Doumbouya has been sworn in as president for a seven-year term, marking a return to constitutional order in the West African nation four years after a putsch.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/guinea-former-military-leader-doumbouya-sworn-in-as-president",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Why Jenrick’s Reform Defection Fractures UK Political Right - The dramatic sacking of a senior Conservative and his defection hours later to Nigel Farage's Reform UK all-but ended the chances of any deal to unite the British right, confirming the next general el",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/why-jenrick-s-reform-defection-fractures-political-right-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f809a352e439d22e0eb64a2033385d31",
-      "timestamp": "2026-01-16T20:37:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "PNC Beats on Revenue Driven by Jump in Fees From Capital Markets - PNC Financial Services Group Inc. reported a 9% increase in fourth-quarter revenue, beating analysts’ estimates as financing and dealmaking by middle-market customers accelerated.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/pnc-beats-on-revenue-driven-by-jump-in-fees-from-capital-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6138448246d5665d50490ea0827650f9",
-      "timestamp": "2026-01-16T20:30:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia-Bound Phantom Oil Tanker U-Turns Away From Baltic Sea - An oil tanker that shows up on maritime databases as having never existed U-turned as it headed toward German waters and is now sailing in the direction of Russia’s Arctic coast.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/russia-bound-phantom-oil-tanker-u-turns-away-from-baltic-sea",
       "sentiment": "NEUTRAL"
     }
   ]
