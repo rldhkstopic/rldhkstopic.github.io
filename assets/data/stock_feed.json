@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-17T18:35:11.446372+09:00",
+  "last_updated": "2026-01-17T19:03:49.151816+09:00",
   "items": [
+    {
+      "id": "9cb3217b37d8ff0e5417969d9cb44bb0",
+      "timestamp": "2026-01-17T18:49:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Micron to Buy Taiwan Chip Fabrication Site for $1.8 Billion - Micron Technology Inc. has signed a letter of intent to buy a fabrication site in Taiwan from Powerchip Semiconductor Manufacturing Corp. for $1.8 billion to expand its memory chip production.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/micron-to-buy-taiwan-chip-fabrication-site-for-1-8-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d6de23683ffd387314de288320ad6f4f",
+      "timestamp": "2026-01-17T18:38:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HDFC Bank’s Net Income Exceeds Estimates on Strong Loan Growth - HDFC Bank Ltd.’s third-quarter profit beat estimates on strong growth in loans while margins stayed under pressure at India’s largest private sector lender.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/hdfc-bank-s-net-income-exceeds-estimates-on-strong-loan-growth",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "23f486720926fa1103f2bc02a8994ab1",
       "timestamp": "2026-01-17T17:41:18+09:00",
@@ -65,6 +87,17 @@
       "related_tickers": [],
       "content": "Ugandan Opposition Says Party Leader Bobi Wine Abducted - Uganda’s main opposition leader Bobi Wine, who’s vying for a second time to unseat President Yoweri Museveni, was taken away from his home late Friday.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-17/ugandan-opposition-says-party-leader-bobi-wine-abducted",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e57e7b62f855be05145c45a92e39ba8b",
+      "timestamp": "2026-01-17T15:17:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia Changes Tack on Hate Crime Bills as Opposition Demurs - Australia is dropping a proposal to broadly criminalize hate speech as part of its response to last month’s deadly shooting in Sydney, after facing objection from major opposition parties.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/australia-changes-tack-on-hate-crime-bills-as-opposition-demurs",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Frigid Weather Drives India’s Power Demand to Year’s Maximum - India’s peak power demand in January has overshot typically higher consumption in the summer months, as a cold snap boosted the use of heaters across the country.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/frigid-weather-drives-india-s-power-demand-to-year-s-maximum",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c4d15791579f65531ef74028fcd6a32",
-      "timestamp": "2026-01-16T18:05:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Slovak Premier Fico to Meet Trump in a Bid to Strengthen US Ties - Slovak Prime Minister Robert Fico will meet US President Donald Trump at his Mar-a-Lago resort on Saturday, his office said, in a bid to strengthen ties between Washington and a European Union member ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/slovak-premier-fico-to-meet-trump-in-a-bid-to-strengthen-us-ties",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3c4eb40f29b23aa87de65165fc316d1d",
-      "timestamp": "2026-01-16T18:04:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jefferies’ Wood Drops Bitcoin on Threat From Quantum Computing - The once-distant threat of quantum computing has prompted one of the most closely followed market strategists to walk away from Bitcoin, underscoring how doubts over the token’s security are creeping ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/mr-greed-and-fear-drops-bitcoin-btc-for-gold-on-quantum-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dc471dc0405af16b036640bacb42c611",
-      "timestamp": "2026-01-16T18:02:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Porsche Sales Slump Most in 16 Years on Weak China, Model Gaps - Porsche AG’s deliveries fell 10% last year, the steepest drop since 2009 when the global financial crisis roiled markets, following weak demand for electric vehicles and a slump in China.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/porsche-sales-slump-most-in-16-years-on-weak-china-model-gaps",
       "sentiment": "NEUTRAL"
     }
   ]
