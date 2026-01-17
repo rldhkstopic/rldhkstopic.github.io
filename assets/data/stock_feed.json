@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-17T20:02:56.110130+09:00",
+  "last_updated": "2026-01-17T20:33:04.896041+09:00",
   "items": [
+    {
+      "id": "f24020d75e674af8494e5f5f6ca0a7c5",
+      "timestamp": "2026-01-17T19:58:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Ratchets Up Criticism of South Africa After BRICS War Games - The US escalated its criticism of South Africa after naval exercises this week involving China and some of the BRICS member nations.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/us-ratchets-up-criticism-of-south-africa-after-brics-war-games",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "fa72bb1c4ee3872f5f9af1c96c04560a",
       "timestamp": "2026-01-17T19:30:00+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Denmark, Greenland Step Up Lobbying of US Lawmakers - A group of US senators is set to meet members of the Danish parliament in Copenhagen on Friday. Nuuk and Copenhagen are seeking to achieve support from Capitol Hill that could help constrain any futur",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/denmark-greenland-step-up-lobbying-of-us-lawmakers-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "51b11ef5828e7385b3fa840b1520a7ce",
-      "timestamp": "2026-01-16T18:48:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian Rupee Slides to One-Month Low as Stock Outflows Rise - The Indian rupee fell to a one-month low amid persistent foreign outflows from domestic equities and muted central bank support.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/indian-rupee-slides-to-one-month-low-as-foreign-outflows-rise",
       "sentiment": "NEUTRAL"
     }
   ]
