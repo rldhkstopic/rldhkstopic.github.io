@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-17T15:04:23.364857+09:00",
+  "last_updated": "2026-01-17T15:42:56.826815+09:00",
   "items": [
+    {
+      "id": "fe295c42b67479d1fcb5d0520eaeee59",
+      "timestamp": "2026-01-17T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How Streeting Became Starmer’s Top UK Rival in Year of Grudges - When Conservative leader Kemi Badenoch accused her rival Robert Jenrick of treachery and sacked him this week, some in Keir Starmer’s Labour government wondered: if the UK prime minister were stronger",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/how-streeting-became-starmer-s-top-uk-rival-in-year-of-grudges",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "3be603c548b284f7fd81d93f40db12b1",
       "timestamp": "2026-01-17T14:32:51+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Saudi Arabia in Talks With Egypt, Somalia on Military Coalition - Saudi Arabia is finalizing an agreement on a new military coalition with Somalia and Egypt, part of its bid to curtail the United Arab Emirates’ regional influence.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/saudi-arabia-in-talks-with-egypt-somalia-on-military-coalition",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6af8ce22a06e212aa6547d1a60a334ab",
-      "timestamp": "2026-01-16T17:29:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Machado Presents Peace Prize to Trump & US-Taiwan Tariff Deal | Daybreak Europe 1/16/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/daybreak-europe-1-16-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
