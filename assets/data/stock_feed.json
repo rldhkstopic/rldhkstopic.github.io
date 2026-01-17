@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T04:02:36.948705+09:00",
+  "last_updated": "2026-01-18T04:32:22.689969+09:00",
   "items": [
+    {
+      "id": "e08469b0c7309c3bf512e4a7fafc7b02",
+      "timestamp": "2026-01-18T04:28:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Virginia's First Female Governor Sworn Into Office - Virginia's first female democratic governor Abigail Spanberger sworn in at the state capitol in Richmond, Virginia. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-17/virginia-s-first-female-governor-sworn-into-office-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "4b26a4ae1e47dd3f23286cc074e064d4",
       "timestamp": "2026-01-18T03:11:18+09:00",
@@ -2177,17 +2188,6 @@
       "related_tickers": [],
       "content": "Microsoft and Meta Kick Off Data Center PR Blitz - Data centers aren’t popular with local communities. Microsoft and Meta are running PR campaigns to fix that.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/microsoft-and-meta-are-running-commercials-to-sell-data-centers-to-locals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e25692fb5c01c83a3eaee36049196aa",
-      "timestamp": "2026-01-16T20:48:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India and EU Trade Deal to Include Some Farm Goods, Official Says - India’s trade deal with the European Union will include some agricultural products while excluding items that could harm domestic farmers, a senior official in New Delhi said, as the two sides inch cl",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/india-eu-trade-deal-to-include-some-farm-goods-official-says",
       "sentiment": "NEUTRAL"
     },
     {
