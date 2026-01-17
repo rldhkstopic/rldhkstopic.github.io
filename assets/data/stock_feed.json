@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-18T07:03:37.911513+09:00",
+  "last_updated": "2026-01-18T07:36:23.931661+09:00",
   "items": [
+    {
+      "id": "97ebf2cd92403fa1d62d87b02b0ee825",
+      "timestamp": "2026-01-18T07:09:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Democrat Spanberger Sworn in as Virginia’s First Female Governor - Democrat Abigail Spanberger was sworn in as governor of the Commonwealth of Virginia on Saturday, becoming the state’s first female leader.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/democrat-spanberger-sworn-in-as-virginia-s-first-female-governor",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "81a29ed91c699bec206d5ed5affb886f",
+      "timestamp": "2026-01-18T06:52:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Wants Nations to Pay $1 Billion to Stay on His Peace Board - The Trump administration is asking countries that want a permanent spot on his new Board of Peace to contribute at least $1 billion.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/trump-wants-nations-to-pay-1-billion-to-stay-on-his-peace-board",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d191e76e693f67c1b72ee34765ecf241",
       "timestamp": "2026-01-18T06:37:47+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Pagaya Sells Unusual Bond Backed by Personal Loans - Fintech firm Pagaya Technologies Ltd. raised $350 million through a bond backed by personal loans in a so-called hybrid private-public transaction, the first for the company using such collateral.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/pagaya-sells-bond-backed-by-personal-loans-in-hybrid-fundraise",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be444efd7cecd2615da1ca297c64afda",
-      "timestamp": "2026-01-16T21:43:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Wildcatter Hamm Is Halting Drilling in the Bakken - Concerns over a global crude glut have pressured prices, weighing on profits.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/oil-wildcatter-hamm-is-halting-drilling-in-the-bakken",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c6563125afb64c4b9fd6d9e797edb63",
-      "timestamp": "2026-01-16T21:40:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Tech Trade Propels Equities, Yen-tervention Watch | The Opening Trade 1/16/2025 - The latest wave of enthusiasm for technology stocks carried into Friday, lifting US stock futures. Small caps also advanced as investors continued to broaden their exposure. Japan’s finance minister s",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/the-opening-trade-1-16-2025-video",
       "sentiment": "NEUTRAL"
     }
   ]
