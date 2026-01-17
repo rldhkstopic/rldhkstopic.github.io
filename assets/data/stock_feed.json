@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T07:36:23.931661+09:00",
+  "last_updated": "2026-01-18T08:03:15.168627+09:00",
   "items": [
+    {
+      "id": "fe87e04e47bf119cc17c50c4fb3aed66",
+      "timestamp": "2026-01-18T07:53:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock’s Rick Rieder Bid for Fed Chair Is Gaining Traction - The candidacy of BlackRock’s Rick Rieder to be the next Federal Reserve chair has gained late momentum, people familiar with the matter say, as President Donald Trump weighs congressional blowback in ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/blackrock-s-rick-rieder-bid-for-fed-chair-is-gaining-traction",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "97ebf2cd92403fa1d62d87b02b0ee825",
       "timestamp": "2026-01-18T07:09:56+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Solomon Partners Taps David Shiffman to Lead Investment Banking - Solomon Partners, the boutique investment bank backed by Natixis SA, has appointed David A. Shiffman as head of investment banking, a newly created role as the advisory firm expands its senior leaders",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/solomon-partners-taps-david-shiffman-to-lead-investment-banking",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59dfe3a7500bf8e4da984d900ebfe26c",
-      "timestamp": "2026-01-16T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pagaya Sells Unusual Bond Backed by Personal Loans - Fintech firm Pagaya Technologies Ltd. raised $350 million through a bond backed by personal loans in a so-called hybrid private-public transaction, the first for the company using such collateral.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/pagaya-sells-bond-backed-by-personal-loans-in-hybrid-fundraise",
       "sentiment": "NEUTRAL"
     }
   ]
