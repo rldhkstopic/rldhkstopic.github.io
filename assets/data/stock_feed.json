@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-17T17:39:14.872084+09:00",
+  "last_updated": "2026-01-17T18:03:41.248751+09:00",
   "items": [
+    {
+      "id": "23f486720926fa1103f2bc02a8994ab1",
+      "timestamp": "2026-01-17T17:41:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Lowers Downpayment Ratio for Commercial Property to 30% - The People’s Bank of China has lowered the minimum downpayment ratio for commercial property purchases to 30%, the central bank said in a statement Saturday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/china-lowers-downpayment-ratio-for-commercial-property-to-30",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b7bc6a483b664d9a3812257590dc7430",
+      "timestamp": "2026-01-17T17:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy Courts Potential Challengers With US Calling for Vote - In the wake of a damaging corruption scandal, Ukrainian President Volodymyr Zelenskiy is increasingly reaching out to potential political rivals as the prospect of an election becomes more likely.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/zelenskiy-courts-potential-challengers-with-us-calling-for-vote",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9447c9b78a8ff169775ebca34137a852",
       "timestamp": "2026-01-17T17:00:00+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Porsche Sales Slump Most in 16 Years on Weak China, Model Gaps - Porsche AG’s deliveries fell 10% last year, the steepest drop since 2009 when the global financial crisis roiled markets, following weak demand for electric vehicles and a slump in China.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/porsche-sales-slump-most-in-16-years-on-weak-china-model-gaps",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7474ae23c5b82b727c32d080592ec45",
-      "timestamp": "2026-01-16T18:00:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Even for Tech Exposure, Europe Is the Market to Be in Right Now - European stocks’ outperformance over the US has taken a surprising turn this year, with technology names in the driving seat.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/even-for-tech-exposure-europe-is-the-market-to-be-in-right-now",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7474ae23c5b82b727c32d080592ec45",
-      "timestamp": "2026-01-16T18:00:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Even for Tech Exposure, Europe Is the Market to Be in Right Now - European stocks’ outperformance over the US has taken a surprising turn this year, with technology names in the driving seat.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/even-for-tech-exposure-europe-is-the-market-to-be-in-right-now",
       "sentiment": "NEUTRAL"
     }
   ]
