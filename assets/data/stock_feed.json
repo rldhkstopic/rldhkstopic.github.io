@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T06:34:04.332738+09:00",
+  "last_updated": "2026-01-18T07:03:37.911513+09:00",
   "items": [
+    {
+      "id": "d191e76e693f67c1b72ee34765ecf241",
+      "timestamp": "2026-01-18T06:37:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Says Strike in Syria Killed Plotter of Islamic State Attacks - A US strike in Syria killed an “experienced terrorist leader” with links to an Islamic State attacker who killed three Americans in an ambush in the city of Palmyra in December, US Central Command sai",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/us-says-strike-in-syria-killed-plotter-of-islamic-state-attacks",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f8bb69650594801dd1598d86c68d57b1",
       "timestamp": "2026-01-18T06:12:05+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "The Tech Trade Propels Equities, Yen-tervention Watch | The Opening Trade 1/16/2025 - The latest wave of enthusiasm for technology stocks carried into Friday, lifting US stock futures. Small caps also advanced as investors continued to broaden their exposure. Japan’s finance minister s",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/the-opening-trade-1-16-2025-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d3a3c60aacf0ace71e651f83b5a9bb5",
-      "timestamp": "2026-01-16T21:39:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Top Cerved Executive Exits From Billionaire Pignataro’s ION Unit - A former Microsoft Corp. executive has left Cerved Group, the Italian credit-information company that is part of billionaire Andrea Pignataro’s ION Group, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/top-cerved-executive-exits-from-billionaire-pignataro-s-ion-unit",
       "sentiment": "NEUTRAL"
     }
   ]
