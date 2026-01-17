@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-18T06:02:54.459099+09:00",
+  "last_updated": "2026-01-18T06:34:04.332738+09:00",
   "items": [
+    {
+      "id": "f8bb69650594801dd1598d86c68d57b1",
+      "timestamp": "2026-01-18T06:12:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anti-ICE Demonstrators Outnumber Backers in Minneapolis Protest - Anti-ICE protesters in Minneapolis overwhelmed a planned rally in support of Immigration and Customs Enforcement on Saturday, pelting the supporters with snowballs and water balloons in sub-freezing w",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/anti-ice-demonstrators-outnumber-backers-in-minneapolis-protest",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4fe8c56659c4ee9fea0f2316c0f1d21f",
+      "timestamp": "2026-01-18T06:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BOJ Keeps Yen Watchers on Edge for Rate-Hike Clues - The upcoming Bank of Japan meeting offers scope for sharp movements in the yen as investors try to gauge the timing of its next hike &mdash; with a looming election adding to the confusion.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/boj-keeps-yen-watchers-on-edge-for-rate-hike-clues",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7ce8c3a13b69d3b50195868e1265a0e0",
       "timestamp": "2026-01-18T05:32:32+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Top Cerved Executive Exits From Billionaire Pignataro’s ION Unit - A former Microsoft Corp. executive has left Cerved Group, the Italian credit-information company that is part of billionaire Andrea Pignataro’s ION Group, according to people familiar with the matter.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/top-cerved-executive-exits-from-billionaire-pignataro-s-ion-unit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "72fa9bcf92784b86c7bc6e368feaea8c",
-      "timestamp": "2026-01-16T21:31:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa’s Rand Set for Longest Winning Streak Since 2002 - South Africa’s rand is on a weekly winning run not seen in more than two decades as elevated precious-metal prices and an improving economic backdrop drive gains.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/south-africa-s-rand-set-for-longest-winning-streak-since-2002",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a88804a937ef86ec39b18554a9eaeec1",
-      "timestamp": "2026-01-16T21:25:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Spain Shut Out as US Embraces Trump’s Allies for G-20 Planning - The US is blocking Spain from preparations for its G-20 summit as relations sour between the countries, the latest sign of the Trump administration’s willingness to sideline allies in its push to resh",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/spain-shut-out-as-us-embraces-trump-s-allies-for-g-20-planning",
       "sentiment": "NEUTRAL"
     }
   ]
