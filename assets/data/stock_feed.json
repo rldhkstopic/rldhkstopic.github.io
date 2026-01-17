@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T00:03:37.212637+09:00",
+  "last_updated": "2026-01-18T00:34:56.597158+09:00",
   "items": [
+    {
+      "id": "2fe38a37bf6780ef526c1b3c07dd8825",
+      "timestamp": "2026-01-18T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Army Hypersonic Missile Fielding Falters on Missed Deadline - The Army has once again missed its own deadline for fielding the first US hypersonic weapon, in a sign that one of the Pentagon’s top priorities is still behind schedule.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/army-hypersonic-missile-fielding-falters-on-missed-deadline",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "56cfc61890f5bb81683f6d4777f18f15",
       "timestamp": "2026-01-17T23:23:50+09:00",
@@ -219,6 +230,17 @@
       "related_tickers": [],
       "content": "Zelenskiy Courts Potential Challengers With US Calling for Vote - In the wake of a damaging corruption scandal, Ukrainian President Volodymyr Zelenskiy is increasingly reaching out to potential political rivals as the prospect of an election becomes more likely.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-17/zelenskiy-courts-potential-challengers-with-us-calling-for-vote",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a10f8edafb3fb0a41a85074a2c5377db",
+      "timestamp": "2026-01-17T17:11:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Drafts Law to Safeguard Security of National Reserves - China has issued a draft law to strengthen its national reserve system, manage major risks and modernize reserve governance, the National Development and Reform Commission said in a Saturday statement",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/china-drafts-law-to-safeguard-security-of-national-reserves",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Trump’s Credit Card Threats Rain on Big Banks’ Earnings Parade - President Donald Trump’s unexpected demand for a cap on credit card interest rates sent financial shares tumbling this week, while leaving the heads of Wall Street’s biggest lenders fielding a swarm o",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/trump-s-credit-card-threats-rain-on-big-banks-earnings-parade",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7ca07d8ff1519ae944808d6ccdea285",
-      "timestamp": "2026-01-16T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Congress on Track to Avoid Shutdown and Soften Trump Spending Cuts - The US Congress is set to avoid another government shutdown later this month by passing compromise bills that would soften spending cuts sought by the Trump administration, according to Republicans an",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/congress-on-track-to-avoid-shutdown-soften-trump-spending-cuts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78f6af3f7f1a9614ffc313322dc3c962",
-      "timestamp": "2026-01-16T19:37:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Alantra, Others Said To Mull Stake Sale in Spain’s Salto Systems - A group of shareholders in Salto Systems SL are weighing a sale of their stakes in the Spanish electronic locks manufacturer, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/alantra-others-said-to-mull-stake-sale-in-spain-s-salto-systems",
       "sentiment": "NEUTRAL"
     }
   ]
