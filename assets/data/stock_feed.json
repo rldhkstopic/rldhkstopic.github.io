@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-17T23:03:19.453348+09:00",
+  "last_updated": "2026-01-17T23:35:56.893436+09:00",
   "items": [
+    {
+      "id": "56cfc61890f5bb81683f6d4777f18f15",
+      "timestamp": "2026-01-17T23:23:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NASA Starts Artemis II Roll Out to Kennedy Space Center - NASA started rolled out of the Artemis II rocket to the Kennedy Space Center launch pad,  in Florida, on Saturday. Artemis II is a milestone in the lunar space race between the US and China. The rocke",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-17/nasa-starts-artemis-ii-roll-out-to-kennedy-space-center-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6353c9cbdbd3acb7b1e207cf9b2f8722",
+      "timestamp": "2026-01-17T23:18:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy Says Russian Strikes Undermine Prospects for Dialogue - Constant airstrikes by Kremlin forces are undermining “even the small opportunities for dialogue” between Kyiv and Moscow, said President Volodymyr Zelenskiy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/zelenskiy-says-russian-strikes-undermine-prospects-for-dialogue",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ee9f34f878cf4b3ff669c470e5641dfd",
+      "timestamp": "2026-01-17T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pricey Equity Markets Charge Into a High-Stakes Earnings Season - So far, so good for global equity investors looking to clock a fourth straight year of solid returns as stocks rise in tandem from Tokyo to Paris to New York.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/pricey-equity-markets-charge-into-a-high-stakes-earnings-season",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "2ab040a6d3ceff3bb8692fd209523c87",
       "timestamp": "2026-01-17T22:30:00+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Alantra, Others Said To Mull Stake Sale in Spain’s Salto Systems - A group of shareholders in Salto Systems SL are weighing a sale of their stakes in the Spanish electronic locks manufacturer, according to people familiar with the matter.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/alantra-others-said-to-mull-stake-sale-in-spain-s-salto-systems",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78f6af3f7f1a9614ffc313322dc3c962",
-      "timestamp": "2026-01-16T19:37:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Alantra, Others Said To Mull Stake Sale in Spain’s Salto Systems - A group of shareholders in Salto Systems SL are weighing a sale of their stakes in the Spanish electronic locks manufacturer, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/alantra-others-said-to-mull-stake-sale-in-spain-s-salto-systems",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c26d60977e4405f10d42fe7c884c0968",
-      "timestamp": "2026-01-16T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Is Split on Stock Market’s Top-Performing Sector - A market-beating rally in energy stocks amid flaring geopolitical tensions has sparked a debate about how long the momentum will last.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/wall-street-is-split-on-stock-market-s-top-performing-sector",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd782af559c9aae18e2ab35bdfed2da2",
-      "timestamp": "2026-01-16T19:26:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran’s Record Internet Block Stokes Fears Crackdown May Continue - Iran is now enduring its longest and most extensive internet blackout on record, activists say, raising fears that Tehran’s brutal crackdown on protesters may persist despite assurances to ease punish",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/iran-s-record-internet-block-stokes-fears-crackdown-may-continue",
       "sentiment": "NEUTRAL"
     }
   ]
