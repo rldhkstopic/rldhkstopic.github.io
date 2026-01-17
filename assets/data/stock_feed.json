@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-17T17:03:57.909811+09:00",
+  "last_updated": "2026-01-17T17:39:14.872084+09:00",
   "items": [
+    {
+      "id": "9447c9b78a8ff169775ebca34137a852",
+      "timestamp": "2026-01-17T17:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hope of German Industrial Recovery Fuels a Broader Stock Rally - As German stocks outpaced broader European indexes in recent years, a big part of the country’s market was left behind. That’s finally changing.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/hope-of-german-industrial-recovery-fuels-a-broader-stock-rally",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0f0e5156f6a9158f69258e07f8f7b828",
       "timestamp": "2026-01-17T16:30:00+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Even for Tech Exposure, Europe Is the Market to Be in Right Now - European stocks’ outperformance over the US has taken a surprising turn this year, with technology names in the driving seat.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/even-for-tech-exposure-europe-is-the-market-to-be-in-right-now",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "95be439697f7b0e99887b1344ce0c200",
-      "timestamp": "2026-01-16T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lots More on the Protests and Financial Crisis in Iran",
-      "url": "https://www.bloomberg.com/news/audio/2026-01-16/lots-more-on-the-protests-and-financial-crisis-in-iran",
       "sentiment": "NEUTRAL"
     }
   ]
