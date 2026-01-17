@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-17T14:36:47.313939+09:00",
+  "last_updated": "2026-01-17T15:04:23.364857+09:00",
   "items": [
+    {
+      "id": "3be603c548b284f7fd81d93f40db12b1",
+      "timestamp": "2026-01-17T14:32:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk Seeks Up to $134 Billion Damages From OpenAI, Microsoft - Elon Musk wants OpenAI Inc. and Microsoft to pay him damages in the range of $79 billion to $134 billion over his claims that the generative AI company defrauded him by abandoning its nonprofit roots ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/musk-seeks-up-to-134-billion-damages-from-openai-microsoft",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "87da492d1e95c1d6e320b0148853272f",
       "timestamp": "2026-01-17T13:48:36+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Machado Presents Peace Prize to Trump & US-Taiwan Tariff Deal | Daybreak Europe 1/16/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/daybreak-europe-1-16-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0e7f309a5eb886c287c2bbbe7745a637",
-      "timestamp": "2026-01-16T17:25:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada Says China to Ease Crop Tariffs by March in Trade Thaw - Canada expects China to cut tariffs on Canadian rapeseed by March 1, marking a significant thaw in a trade rift that has disrupted crop flows and tested bilateral relations",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/canada-says-china-to-ease-crop-tariffs-by-march-in-trade-thaw",
       "sentiment": "NEUTRAL"
     }
   ]
