@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-17T19:36:46.011521+09:00",
+  "last_updated": "2026-01-17T20:02:56.110130+09:00",
   "items": [
+    {
+      "id": "fa72bb1c4ee3872f5f9af1c96c04560a",
+      "timestamp": "2026-01-17T19:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NASA Readies Boeing-Lockheed Spacecraft for Moon Race with China - NASA will roll out a costly rocket to the launchpad at the Kennedy Space Center in Florida on Saturday, a milestone in a lunar space race between the US and China.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/nasa-readies-boeing-lockheed-spacecraft-for-moon-race-with-china",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3a2a27f25a369d719604bb1365989208",
+      "timestamp": "2026-01-17T19:07:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Media Claim Partial Internet Return After Record Blackout - Iran’s internet connectivity has been partially restored, local media reported, even as millions of people appeared to remain largely cut off from the outside world amid a digital blackout now into it",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/iran-media-claim-partial-internet-return-after-record-blackout",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a958f96c2b2c8be42466894868325543",
       "timestamp": "2026-01-17T19:02:15+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Indian Rupee Slides to One-Month Low as Stock Outflows Rise - The Indian rupee fell to a one-month low amid persistent foreign outflows from domestic equities and muted central bank support.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/indian-rupee-slides-to-one-month-low-as-foreign-outflows-rise",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8e1e395184bfae9c62d1e9938d2baa9d",
-      "timestamp": "2026-01-16T18:25:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rates Quiet for Now, Commodities Volatile: 3-Minute MLIV - Anna Edwards, Guy Johnson, Tom Mackenzie and Skylar Montgomery Koning break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\"  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/rates-quiet-for-now-commodities-volatile-3-minute-mliv-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fa0ed6591f6027ffde4a8b26b766ce4a",
-      "timestamp": "2026-01-16T18:18:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Norway Stunned After Machado Gifts Nobel Peace Prize Medal to Trump - A sense of disbelief gripped Norwegian media and expert community following news that Nobel Peace Prize laureate María Corina Machado gave her award medal to US President Donald Trump, who had been ha",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/norway-stunned-after-venezuela-s-machado-gifts-nobel-peace-prize-medal-to-trump",
       "sentiment": "NEUTRAL"
     }
   ]
