@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-19T06:03:05.010631+09:00",
+  "last_updated": "2026-01-19T06:34:04.199529+09:00",
   "items": [
+    {
+      "id": "01671e7a3cbbf0c6fa26049aee1726f7",
+      "timestamp": "2026-01-19T06:28:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Greenland Tariffs Have Blown Up the EU Appeasement Plan - Ursula von der Leyen was preparing to claim a rare victory on Saturday, sealing a trade pact with South America’s biggest economies. Donald Trump had other ideas.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-s-greenland-tariffs-have-blown-up-the-eu-appeasement-plan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7487cef560f70f20da6bf8c36e1d649",
+      "timestamp": "2026-01-19T06:19:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Tees Up Davos With Tariff Power Play to Seize Greenland - Donald Trump always puts himself at center stage when he travels abroad, but the US president made sure his foray to Davos this week will be particularly dramatic.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-tees-up-davos-with-tariff-power-play-to-seize-greenland",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "229f52d25c70df24f00b89fca9a4ee4d",
       "timestamp": "2026-01-19T05:39:11+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Reform Sues UK Government Over Possible Local Election Delays - The populist Reform party is suing the UK government, challenging proposals that may delay local elections, according to a court order.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/reform-sues-uk-government-over-possible-local-election-delays",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "39c82398fec30e2f61dc810d72341630",
-      "timestamp": "2026-01-17T02:30:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Inside Max Verstappen’s Championship Mindset - Bloomberg's Matt Miller caught up with Oracle Red Bull Racing driver and four-time World Champion Max Verstappen in Detroit. From chasing new career goals to navigating last season’s toughest challeng",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/inside-max-verstappen-s-championship-mindset-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "70d145cb6e8b07772e39acd8e7c63d4f",
-      "timestamp": "2026-01-17T02:26:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morgan Stanley Says Traders Are Unprepared for Sharp Euro Swings - Traders are underpricing the risk of extreme scenarios potentially causing ruptures in major currencies, especially in the euro, according to Morgan Stanley’s David Adams.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-says-traders-are-unprepared-for-sharp-euro-swings",
       "sentiment": "NEUTRAL"
     }
   ]
