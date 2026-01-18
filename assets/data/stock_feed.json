@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-19T01:03:45.919074+09:00",
+  "last_updated": "2026-01-19T01:38:37.925388+09:00",
   "items": [
+    {
+      "id": "cffaf34e083307a22de93dea098bf601",
+      "timestamp": "2026-01-19T01:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brazil’s Billionaire Batistas Poised for Venezuelan Oil Revival - The billionaire Batista brothers are eyeing a billion-barrel Venezuelan oil project that stands to benefit from US President Donald Trump’s planned revival of the South American nation’s energy sector",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/brazil-s-billionaire-batistas-poised-for-venezuelan-oil-revival",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "945be0d7e26efb330dcb1b0c3178be30",
+      "timestamp": "2026-01-19T00:59:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Euro Pain From Trump Limited by US Asset Exposure, Deutsche Says - The fallout on the euro from President Donald Trump’s renewed trade threats toward European governments over Greenland may be limited because of how much the US relies on the region for capital, accor",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/euro-pain-from-trump-limited-by-us-asset-exposure-deutsche-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "44efd6f3ed126c4ccb617283976172fc",
       "timestamp": "2026-01-19T00:16:47+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Bloomberg Surveillance 1/16/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/bloomberg-surveillance-1-16-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4ab1b4d7efae6c0b6db98c1cb9957d7f",
-      "timestamp": "2026-01-17T01:23:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Supreme Court Sets Tuesday for Next Opinions With Tariff Ruling Pending - The US Supreme Court scheduled Tuesday as its next opinion day amid a worldwide wait for a ruling on President Donald Trump’s signature tariffs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/supreme-court-to-issue-more-opinions-tuesday-amid-tariff-wait",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "228c2bd71b6a450eb7e0ff62dc198e99",
-      "timestamp": "2026-01-17T01:22:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jonathan Golub of Seaport Research is Bullish on 2026 - Jonathan Golub of Seaport Research is Bullish on 2026 is one of the most bullish on the street with a year-end S&P 500 target off 7,800. The firm is increasing its 2025-27 earnings forecasts to reflec",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/jonathan-golub-of-seaport-research-is-bullish-on-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
