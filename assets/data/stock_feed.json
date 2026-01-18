@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T09:13:50.097061+09:00",
+  "last_updated": "2026-01-18T09:48:40.109436+09:00",
   "items": [
+    {
+      "id": "fe1ff7e51aa64967d540f3adb1a56e57",
+      "timestamp": "2026-01-18T09:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s New Tech Stock Boom Leaves Its Economic Malaise Behind - Nearly a year after DeepSeek’s AI breakthrough rattled global markets, China is entering 2026 with a fresh wave of technological advances that are powering a stock rally, even as its economy remains f",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/china-s-new-tech-stock-boom-leaves-its-economic-malaise-behind",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f6996e1c66cc045d430849afd3251c81",
       "timestamp": "2026-01-18T08:36:09+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Petro’s Record 23% Wage Hike Ripples Through Colombian Economy - Colombia’s government is trying to cap some prices as it grapples with a series of unintended consequences from its record minimum wage hike.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/petro-s-record-23-wage-hike-ripples-through-colombian-economy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "99158341b48c9a8a6effc03df573b2c9",
-      "timestamp": "2026-01-16T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Private Secondaries Deals Hit $226 Billion Amid Thirst for Cash - Secondary deal volume for private assets surged 41% to a record $226 billion last year, Evercore Inc. said in a report, as investors got more creative about tapping that market for liquidity.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/private-secondaries-deals-hit-226-billion-amid-thirst-for-cash",
       "sentiment": "NEUTRAL"
     }
   ]
