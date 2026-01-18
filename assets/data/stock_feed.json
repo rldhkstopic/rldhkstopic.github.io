@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-18T14:05:37.404198+09:00",
+  "last_updated": "2026-01-18T14:38:04.572551+09:00",
   "items": [
+    {
+      "id": "929c42d1be630840fa38695c56af3a37",
+      "timestamp": "2026-01-18T14:20:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hong Kong to Sign MOU With Shanghai Gold Exchange, Chan Says - Hong Kong will sign a memorandum of understanding with the Shanghai Gold Exchange at the upcoming Asian Financial Forum, according to the city’s Financial Secretary Paul Chan.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/hong-kong-to-sign-mou-with-shanghai-gold-exchange-chan-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f56d3d271ddac49572c5f61e3708b37",
+      "timestamp": "2026-01-18T14:17:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Rare-Earth Product Exports Fall as Japan Spat Draws Focus - China’s rare-earth product exports declined in December compared with the previous month, as investors monitor heightened tensions between Beijing and Japan that could trigger tighter shipment control",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/china-rare-earth-product-exports-fall-as-japan-spat-draws-focus",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6c3037001ffe3251b3f696dc2689319d",
       "timestamp": "2026-01-18T13:07:18+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "JPMorgan Eclipses Dimensional as World’s Biggest Active ETF Firm - JPMorgan Asset Management has a new superlative: The firm now hails as the world’s largest issuer of actively managed exchange-traded funds.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/jpmorgan-eclipses-dimensional-as-world-s-biggest-active-etf-firm",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "37fae9a45b5504b60b79b9939ff80437",
-      "timestamp": "2026-01-16T22:20:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Baltic Nations Make Joint Push to Secure ECB Vice Presidency - The euro area’s three Baltic members launched a coordinated effort to ensure one of their candidates becomes the next vice president of the European Central Bank.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/baltic-nations-make-joint-push-to-secure-ecb-vice-presidency",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "427f129c359848cc6cab8b412c22a536",
-      "timestamp": "2026-01-16T22:15:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Colleges Plunge Off a \"Demographic Cliff\" - US colleges are in trouble. A tumbling birth rate is pushing many schools toward a “demographic cliff,” where a steadily dropping population of people in their late teens and early 20s will leave desk",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/us-colleges-plunge-off-a-demographic-cliff",
       "sentiment": "NEUTRAL"
     }
   ]
