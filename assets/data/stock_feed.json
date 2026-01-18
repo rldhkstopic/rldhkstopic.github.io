@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-18T22:11:14.137017+09:00",
+  "last_updated": "2026-01-18T22:39:16.744321+09:00",
   "items": [
+    {
+      "id": "b274372b665be12383e0b0e2c779f9d2",
+      "timestamp": "2026-01-18T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What’s Happening in EM: Surge in Private Credit Deals (Podcast) - This week, Mpho Hlakudi in Johannesburg joins Selcuk Gokoluk to discuss how private credit funds are looking to take advantage of increased demand for emerging markets investments in a shift away from",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-18/what-s-happening-in-em-surge-in-private-credit-deals-podcast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7e13c33269d1060ddf003771ec373d2b",
+      "timestamp": "2026-01-18T22:22:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Complains Canada Vulnerable to US Rivals in Arctic: NBC - President Trump is increasingly complaining to aides about what he sees is Canada’s vulnerability to US foes in the Arctic such as Russia and China, NBC News reports citing current and former US offic",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-complains-canada-vulnerable-to-us-rivals-in-arctic-nbc",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a4073491a68f4d36329db45404cb34f7",
       "timestamp": "2026-01-18T22:03:43+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "S&amp;P 500 Extends Gain as Big Tech Stocks Push Higher on AI Trade - US stocks extended gains on Friday as the euphoria over technology stocks continued for a second day.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/s-p-500-extends-gain-as-big-tech-stocks-push-higher-on-ai-trade",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a1f7593a25060e3b28300d48fcf8ddbe",
-      "timestamp": "2026-01-16T23:48:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Market Story for This Year Is About Broadening, JPMorgan’s Parker Says - The broadening of the market “has legs in the year ahead,” says Stephen Parker, co-head of global investment strategy at JPMorgan Private Bank, as he expects to see a cyclical recovery that is not pre",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/market-story-for-2026-is-about-broadening-jpm-s-parker-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a81fbe0be71361d1304e6b75296cf8d6",
-      "timestamp": "2026-01-16T23:42:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ninety One Sees Africa’s Bond Market a Rich Hunting Ground for Yield-Hunters - Ninety One Plc sees Africa’s broad bond market, a corner of emerging markets once shunned because of its economic risks, as an opportunity for investors looking for bigger returns.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/ninety-one-sees-africa-s-bond-market-a-rich-hunting-ground-for-yield-hunters",
       "sentiment": "NEUTRAL"
     }
   ]
