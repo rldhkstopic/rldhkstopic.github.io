@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T09:48:40.109436+09:00",
+  "last_updated": "2026-01-18T10:32:08.438945+09:00",
   "items": [
+    {
+      "id": "3668049a03c5d60be599cfc2681d0318",
+      "timestamp": "2026-01-18T09:34:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Benin Ruling Coalition Sweeps Parliament Ahead of April Vote - Benin’s ruling coalition swept parliament, consolidating power ahead of a pivotal presidential vote as President Patrice Talon is due to step down.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/benin-ruling-coalition-sweeps-parliament-ahead-of-april-vote",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "fe1ff7e51aa64967d540f3adb1a56e57",
       "timestamp": "2026-01-18T09:00:00+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Benin Eyes $1 Billion in First Africa Dollar-Bond Sale This Year - Benin is set to raise as much as $1 billion from a sale of dollar-denominated sukuk bonds and other loan securities in what would be the first African sovereign-debt offering this year, according to p",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/benin-eyes-1-billion-in-first-africa-dollar-bond-sale-this-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0cbc647162bd05a164031857401af80e",
-      "timestamp": "2026-01-16T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Petro’s Record 23% Wage Hike Ripples Through Colombian Economy - Colombia’s government is trying to cap some prices as it grapples with a series of unintended consequences from its record minimum wage hike.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/petro-s-record-23-wage-hike-ripples-through-colombian-economy",
       "sentiment": "NEUTRAL"
     }
   ]
