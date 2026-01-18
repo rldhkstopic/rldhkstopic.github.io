@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-18T20:32:47.661076+09:00",
+  "last_updated": "2026-01-18T21:05:27.451018+09:00",
   "items": [
+    {
+      "id": "219709709ff799c54f7891713de37f80",
+      "timestamp": "2026-01-18T20:46:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK’s Right-Wing Parties Criticize Trump Greenland Tariff Threat - Leaders from the right of the UK’s political spectrum delivered their sharpest criticism yet of US President Donald Trump, after he threatened tariffs on European allies unless a deal is reached for t",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/uk-s-right-wing-parties-criticize-trump-greenland-tariff-threat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9397192953857241924321b516951ca0",
+      "timestamp": "2026-01-18T20:43:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB’s Kazaks Tells FT Europe Is Already ‘at War’ With Russia - Policymakers shouldn’t be “naive” to think that Europe isn’t already “at war” with Russia and central banks need to prepare for further escalation, European Central Bank Governing Council member Marti",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/ecb-s-kazaks-tells-ft-europe-is-already-at-war-with-russia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "06805a8f74289e3b0d51b1b06a4d124a",
+      "timestamp": "2026-01-18T20:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macron to Seek Use of EU Anti-Coercion Instrument Against US - French President Emmanuel Macron will request the activation of the European Union’s anti-coercion instrument after US President Donald Trump announced new tariffs on European countries over Greenland",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/macron-to-seek-use-of-eu-anti-coercion-instrument-against-trump",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "fb2987efc55651055e62718bd4db3553",
       "timestamp": "2026-01-18T19:14:12+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Morgan Stanley Top Fund Shuns Brazil, Colombia on Election Woes - Morgan Stanley Investment Management is shunning local debt from Brazil and Colombia as ballooning budget gaps add to concerns ahead of this year’s presidential elections in the two nations.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-top-fund-shuns-brazil-colombia-on-election-woes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b67d08a252fc76166d65b07d78781ab9",
-      "timestamp": "2026-01-16T23:00:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ClickHouse Lands $15 Billion Valuation in AI Database Race - <p>Dragoneer is leading a&nbsp;$400 million funding round for the startup.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/clickhouse-lands-15-billion-valuation-in-ai-database-race",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9dc273b632717f38e13191aa1a828094",
-      "timestamp": "2026-01-16T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bank of Italy Reckons GDP Rose Slightly in the Fourth Quarter - The Bank of Italy said the euro zone’s third-biggest economy probably “continued to expand moderately” in the fourth quarter despite global headwinds.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/bank-of-italy-reckons-gdp-rose-slightly-in-the-fourth-quarter",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "36fb89e3523e3ecb6a3e604516f84bc6",
-      "timestamp": "2026-01-16T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DoorDash Revenue Chief Lee Brown Departs After Short Stint - DoorDash Inc. Chief Revenue Officer Lee Brown is departing the delivery app company after less than six months to pursue a new opportunity.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/doordash-revenue-chief-lee-brown-departs-after-short-stint",
       "sentiment": "NEUTRAL"
     }
   ]
