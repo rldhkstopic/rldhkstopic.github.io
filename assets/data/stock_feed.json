@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-19T07:36:34.141687+09:00",
+  "last_updated": "2026-01-19T08:03:05.466725+09:00",
   "items": [
+    {
+      "id": "d43fcad997088ee433060831523d156e",
+      "timestamp": "2026-01-19T07:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer to Set Out Approach to US Alliance After Tariff Threat - Prime Minister Keir Starmer is expected to reaffirm the UK’s commitment to NATO in a press conference on Monday, after US President Donald Trump threatened to impose tariffs on the UK and other Europe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/starmer-to-set-out-approach-to-us-alliance-after-tariff-threat",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "3e1c86a99b9f0a38578039194877f372",
       "timestamp": "2026-01-19T07:13:21+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Making a Great Detective Video Game Is Really Hard - The makers of ‘The Seance of Blake Manor’ say it took years of iteration for their game to work",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/-the-seance-of-blake-manor-shows-the-challenge-of-making-a-great-detective-game",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e30db80fcf4a87037fcdc24d5313f0c",
-      "timestamp": "2026-01-17T02:54:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CD&amp;R, TPG Look to Blue Owl to Finance $2.5 Billion Covetrus Debt - Clayton Dubilier &amp; Rice and TPG Inc. are in talks with private credit firms including Blue Owl Capital Inc. to line up at least $2.5 billion of debt for Covetrus, a technology company for veterina",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/cd-r-tpg-look-to-blue-owl-to-finance-2-5-billion-covetrus-debt",
       "sentiment": "NEUTRAL"
     }
   ]
