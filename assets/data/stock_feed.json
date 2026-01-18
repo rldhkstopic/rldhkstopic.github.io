@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-19T04:32:47.879469+09:00",
+  "last_updated": "2026-01-19T05:03:47.480245+09:00",
   "items": [
+    {
+      "id": "6b9ebb4d8299e9072d513ccde383fb30",
+      "timestamp": "2026-01-19T04:27:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US, Ukraine to Continue Peace Negotiations in Davos, Umerov Says - The US and Ukraine agreed to hold additional talks in Davos, Switzerland, as the two sides continue negotiations to forge a peace deal, Kyiv’s top negotiator said on Sunday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/us-ukraine-to-continue-peace-negotiations-in-davos-umerov-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c96c628fad2012f9c1be3180910f6ecb",
+      "timestamp": "2026-01-19T04:13:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer Told Trump Greenland Tariffs Wrong, Downing Street Says - UK Prime Minister Keir Starmer told President Trump that applying tariffs on allies for NATO’s pursuit of collective security is “wrong,” his office said in a statement.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/starmer-told-trump-greenland-tariffs-wrong-downing-street-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "97f353792c58f26f04cf133375d604c2",
       "timestamp": "2026-01-19T03:58:24+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Trump Moves to Make Tech Giants Pay for Surging Power Costs - President Donald Trump and the governors of several US Northeastern states agreed to push for an emergency wholesale electricity auction that would compel technology companies to effectively fund new ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/trump-moves-to-make-tech-giants-pay-for-power-costs-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "690b530ec9e87733fc639b7cf3967027",
-      "timestamp": "2026-01-17T02:17:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTC Will Review Acquihires, Chair Ferguson Says - Tech companies no longer need creative workarounds, like acquihires, to get M&A deals through, says Federal Trade Commission Chair Andrew Ferguson. Ferguson says the commission will review these deals",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/ftc-will-review-acquihires-chair-ferguson-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "50d2678784257bc51155a859a38985b4",
-      "timestamp": "2026-01-17T02:16:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Congo State Miner Proposes Deal for Cobalt Producer Prized by US - Congolese state-owned miner Gecamines has proposed acquiring Chemaf SA, before bringing in a new majority shareholder, as interest in the troubled copper and cobalt producer intensifies.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/congo-state-miner-proposes-deal-for-cobalt-producer-prized-by-us",
       "sentiment": "NEUTRAL"
     }
   ]
