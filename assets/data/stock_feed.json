@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T16:34:39.468438+09:00",
+  "last_updated": "2026-01-18T17:03:57.593097+09:00",
   "items": [
+    {
+      "id": "888d9c9a4d7368a7f48c974630802320",
+      "timestamp": "2026-01-18T16:11:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Metropolitan Police Chief Rowley Calls for Dramatic Reforms - Metropolitan Police Commissioner Sir Mark Rowley has called for sweeping reforms of the policing system, which he says needs to change \"quite dramatically\".",
+      "url": "https://www.bloomberg.com/en/news/thp/2026-01-18/met-commissioner-sir-mark-rowley-calls-for-dramatic-police-reforms",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "929c42d1be630840fa38695c56af3a37",
       "timestamp": "2026-01-18T14:20:29+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Meloni Seeks to Boost Italy’s Foreign Policy Clout in the Arctic - Italian Prime Minister Giorgia Meloni’s government aims to intensify its approach to the Arctic as Western allies grapple with how to contain China and Russia’s presence in the region and as President",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/meloni-seeks-to-boost-italy-s-foreign-policy-clout-in-the-arctic",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5c93848345a82e3969036955ac854d9b",
-      "timestamp": "2026-01-16T22:24:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan Eclipses Dimensional as World’s Biggest Active ETF Firm - JPMorgan Asset Management has a new superlative: The firm now hails as the world’s largest issuer of actively managed exchange-traded funds.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/jpmorgan-eclipses-dimensional-as-world-s-biggest-active-etf-firm",
       "sentiment": "NEUTRAL"
     }
   ]
