@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-19T01:38:37.925388+09:00",
+  "last_updated": "2026-01-19T02:02:57.675488+09:00",
   "items": [
+    {
+      "id": "4c3655a6a6045a30607e23a109c70505",
+      "timestamp": "2026-01-19T01:52:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hassett Says Trump May Be Right to Pass Him Over for Fed Chair - White House economic adviser Kevin Hassett said President Donald Trump may well keep him in his current job, which would eliminate him from contention for the next Federal Reserve chair.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/hassett-says-trump-may-be-right-to-pass-him-over-for-fed-chair",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5402532e899f5f18b418f98abc44f29f",
+      "timestamp": "2026-01-19T01:30:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blair Distances Himself From Trump’s $1 Billion Peace Board Fee - Tony Blair, the former UK prime minister who’s been appointed to the executive panel of Donald Trump’s Board of Peace, distanced himself from the president’s demand that countries pay $1 billion for p",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/blair-distances-himself-from-trump-s-1-billion-peace-board-fee",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "cffaf34e083307a22de93dea098bf601",
       "timestamp": "2026-01-19T01:00:00+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "KKR-Backed Cengage Is Said to Weigh $500 Million IPO This Year - Cengage Group, which counts Apax Partners and KKR &amp; Co. among its backers, is weighing an initial public offering of the global education technology company that could raise roughly $500 million, ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/kkr-backed-cengage-is-said-to-weigh-500-million-ipo-this-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "916062162c2d3e3ff51a0ac09ab4740e",
-      "timestamp": "2026-01-17T01:27:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Presses GOP to Move Health Plan as Premium Hikes Loom - President Donald Trump urged Republican lawmakers to quickly move on a White House healthcare plan, seeking to shift the narrative on an issue that threatens his party’s hold on Congress with millions",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/trump-presses-gop-to-move-health-plan-as-premium-hikes-loom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e753cc2dfbc258d061d20b09fd7cd681",
-      "timestamp": "2026-01-17T01:24:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bloomberg Surveillance 1/16/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/bloomberg-surveillance-1-16-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
