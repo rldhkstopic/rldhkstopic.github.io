@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-19T08:03:05.466725+09:00",
+  "last_updated": "2026-01-19T08:35:08.214985+09:00",
   "items": [
+    {
+      "id": "d6b401701fb8924e76d3f645f7d2b186",
+      "timestamp": "2026-01-19T08:10:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Rises to Record High After Trump’s Greenland Tariff Threats - Gold rose to a record high after US President Donald Trump said he would slap tariffs on eight European nations that have opposed his plan to take Greenland.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/gold-rises-to-record-high-after-trump-s-greenland-tariff-threats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1f74ed0e980aea5acff3f25d15a374c6",
+      "timestamp": "2026-01-19T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Taiwan Dollar at Risk of Insurers Reducing $95 Billion of Hedges - The Taiwanese dollar is expected to lose a crucial source of support as new accounting rules allow insurers to unwind foreign-exchange hedges on as much as NT$3 trillion ($95 billion) of overseas asse",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/taiwan-dollar-faces-losses-from-estimated-95-billion-hedge-unwind",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "875327a4eec023b30bd282168e17f95d",
+      "timestamp": "2026-01-19T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s $7 Trillion Cash Pile Is Shifting Into Stocks, Gold - Chinese households are scouring for higher-yielding investments as roughly $7 trillion in time deposits come due this year, a shift that could provide additional fuel for the nation’s financial market",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/china-s-7-trillion-cash-pile-is-shifting-into-stocks-gold",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f93d9309c584415ee39cf124de7e0448",
+      "timestamp": "2026-01-19T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Distrust Reigns as ‘Me’ Supplants ‘We’ in Edelman Pre-Davos Poll - People across the world are becoming ever warier of governments and institutions as geopolitical tensions fuel nationalism and economic anxieties mount, according to communications firm Edelman.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/distrust-reigns-as-me-supplants-we-in-edelman-pre-davos-poll",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d43fcad997088ee433060831523d156e",
       "timestamp": "2026-01-19T07:30:00+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Trump Pardons Convicted Fraudster After Earlier Clemency Grant - A San Diego businesswoman who was granted clemency by Donald Trump in 2021 and later convicted on new fraud charges received a pardon from the president on Thursday, according to a White House officia",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/trump-pardons-convicted-fraudster-after-earlier-clemency-grant",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3292462974448e5b3ad37b57b993ad27",
-      "timestamp": "2026-01-17T03:00:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI to Test Targeted Ads in ChatGPT, Stepping Up Revenue Push - OpenAI will start testing advertisements in the ChatGPT app for certain US users, marking a major shift for the company as it seeks to bolster revenue from the popular chatbot.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/openai-to-test-targeted-ads-in-chatgpt-stepping-up-revenue-push-mkh6p4of",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "600d4ccaf8580e62625e641a509c267f",
-      "timestamp": "2026-01-17T03:00:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI to Test Targeted Ads in ChatGPT, Stepping Up Revenue Push - OpenAI will start testing advertisements in the ChatGPT app for certain US users, marking a major shift for the company as it seeks to bolster revenue from the popular chatbot.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/openai-to-test-targeted-ads-in-chatgpt-stepping-up-revenue-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e24b7447ef86d5e35c76e5701d60da03",
-      "timestamp": "2026-01-17T03:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Investors Are Going to Have to Start Pricing Loyalty - Hello and welcome to the newsletter, a grab bag of daily content from the Odd Lots universe. Sometimes it's us, Joe Weisenthal and Tracy Alloway, bringing you our thoughts on the most recent developme",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/investors-are-going-to-have-to-start-pricing-loyalty",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3ac264abae97412acaf69e94f72920b0",
-      "timestamp": "2026-01-17T03:00:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Making a Great Detective Video Game Is Really Hard - The makers of ‘The Seance of Blake Manor’ say it took years of iteration for their game to work",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-16/-the-seance-of-blake-manor-shows-the-challenge-of-making-a-great-detective-game",
       "sentiment": "NEUTRAL"
     }
   ]
