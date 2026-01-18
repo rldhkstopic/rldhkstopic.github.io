@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-18T23:03:15.555369+09:00",
+  "last_updated": "2026-01-18T23:35:42.128444+09:00",
   "items": [
+    {
+      "id": "5624bc3867d240753cde7903e0b01105",
+      "timestamp": "2026-01-18T23:16:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Soldiers Leave Greenland After 44-Hour Stay, Bild Reports - The German military reconnaissance team that arrived in Greenland on Friday is on its way back after a 44-hour deployment on the Arctic island, Bild newspaper reported on Sunday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/german-soldiers-leave-greenland-after-44-hour-stay-bild-reports",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5b296939be0f8c2b02ef7cbaaf4ba4f9",
+      "timestamp": "2026-01-18T23:12:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Carney Says Canada Is Worried About Trump’s Greenland Escalation - Canadian Prime Minister Mark Carney said Greenland’s future is for Denmark and Greenland to decide, and that he’ll reiterate that message to President Donald Trump if they speak about it.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/carney-says-canada-is-worried-about-trump-s-greenland-escalation-mkjtg8jb",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c1a7f2912990b97662f4fa20f91f53e",
+      "timestamp": "2026-01-18T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘No Reasons to Own’: Software Stocks Sink on Fear of New AI Tool - The new year was supposed to bring opportunities for beaten-down software stocks. Instead, the group is off to its worst start in years.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/-no-reasons-to-own-software-stocks-sink-on-fear-of-new-ai-tool",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b274372b665be12383e0b0e2c779f9d2",
       "timestamp": "2026-01-18T22:30:00+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Small Cap Stocks Will Struggle Without More Rate Cuts, Royal Says - David Royal of Thrivent says small cap stocks will struggle without more interest rate cuts from the Federal Reserve. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/small-caps-will-struggle-without-rate-cut-royal-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "af9138659477a07fcd0a01c0527a61f8",
-      "timestamp": "2026-01-17T00:32:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Commodity Trader Mercuria Paid 0.08% Tax on $1.3 Billion Profit - Mercuria Energy Group Ltd. paid almost no tax on profits of more than $1 billion in the 12 months through September, according to a copy of its accounts seen by Bloomberg News.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/commodity-trader-mercuria-paid-0-08-tax-on-1-3-billion-profit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e726ba42b67d834f68e754ba94f8bf07",
-      "timestamp": "2026-01-17T00:13:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Private-Jet Boom Brings Hangar Builder Sky Harbour to Muni Market - Sky Harbour Group Corp., a builder of exclusive hangars where the ultra-wealthy park their private aircraft, is turning to the tax-exempt municipal bond market to borrow $100 million as it seeks to ex",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/private-jet-boom-brings-hangar-builder-sky-harbour-skyh-to-muni-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1d5ce9cf276899043aa4f033e7a90e92",
-      "timestamp": "2026-01-17T00:09:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blue Owl to Snap Up Stakes From Fund Backers Looking to Cash Out - Blue Owl Capital Inc. plans to start buying secondhand stakes in private-asset funds from investors looking to cash out, taking advantage of a boom in such transactions, according to people with knowl",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/blue-owl-to-snap-up-stakes-from-fund-backers-looking-to-cash-out",
       "sentiment": "NEUTRAL"
     }
   ]
