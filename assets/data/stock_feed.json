@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-19T07:03:20.859870+09:00",
+  "last_updated": "2026-01-19T07:36:34.141687+09:00",
   "items": [
+    {
+      "id": "3e1c86a99b9f0a38578039194877f372",
+      "timestamp": "2026-01-19T07:13:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Tariff Threats Weigh on Asian Risk Appetite: Markets Wrap - Asian markets are facing some pressure early Monday after US President Donald Trump proposed new tariffs on eight European countries, denting risk appetite and boosting demand for haven assets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-tariff-threats-weigh-on-asian-risk-appetite-markets-wrap",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "2ea5526f4c65e3471edb36d2c465056b",
       "timestamp": "2026-01-19T06:39:22+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "CD&amp;R, TPG Look to Blue Owl to Finance $2.5 Billion Covetrus Debt - Clayton Dubilier &amp; Rice and TPG Inc. are in talks with private credit firms including Blue Owl Capital Inc. to line up at least $2.5 billion of debt for Covetrus, a technology company for veterina",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/cd-r-tpg-look-to-blue-owl-to-finance-2-5-billion-covetrus-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6606901887049cd8d1d0dc77cf8dd9ba",
-      "timestamp": "2026-01-17T02:48:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Enbridge Files Regulatory Documents to Expand Part of Mainline - Enbridge Inc. plans to expand part of its Mainline oil pipeline network running from Alberta into the US by about 10% within two years, according to regulatory documents filed by the company.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/enbridge-files-regulatory-documents-to-expand-part-of-mainline",
       "sentiment": "NEUTRAL"
     }
   ]
