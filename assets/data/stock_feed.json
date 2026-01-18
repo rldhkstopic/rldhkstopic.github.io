@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T18:35:30.962512+09:00",
+  "last_updated": "2026-01-18T19:03:45.499845+09:00",
   "items": [
+    {
+      "id": "f04dd2bd51fb92704d732967bbc0dee4",
+      "timestamp": "2026-01-18T18:35:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Solar Giant Longi Flags Another Full-Year Loss as Slump Persists - Chinese solar giant Longi Green Energy Technology Co. warned it may report another loss in calendar year 2025 as a prolonged downturn continues to weigh on the solar supply chain.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/solar-giant-longi-flags-another-full-year-loss-as-slump-persists",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c67887d14d95c38dd906025aba9fc845",
       "timestamp": "2026-01-18T17:28:28+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Glencore Strikes Offtake Agreement for Steel Input From Oman - Glencore Plc has agreed to buy at least 500,000 tons a year of hot briquetted iron from a planned Oman-based plant, securing supply of the low-carbon steelmaking input from 2030.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/glencore-strikes-offtake-agreement-for-steel-input-from-oman",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c3f22382e9fc5853f3fb22e907ea1ae",
-      "timestamp": "2026-01-16T22:33:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump to Push for Tech Giants to Pay for Power Costs - President Donald Trump, along with the governors of several US Northeastern states, agreed to push for an emergency wholesale electricity auction that would effectively force technology companies to f",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/trump-to-push-for-tech-giants-to-pay-for-power-costs-video",
       "sentiment": "NEUTRAL"
     }
   ]
