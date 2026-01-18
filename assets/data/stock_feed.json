@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T08:34:16.536640+09:00",
+  "last_updated": "2026-01-18T09:13:50.097061+09:00",
   "items": [
+    {
+      "id": "f6996e1c66cc045d430849afd3251c81",
+      "timestamp": "2026-01-18T08:36:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Greenland Pressure Blitz Reopens Tariff Wounds in Europe - President Donald Trump’s fixation on Greenland offers an ice-cold reminder to leaders in Europe and abroad: No deal is ever final.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-17/trump-s-greenland-pressure-blitz-reopens-tariff-wounds-in-europe",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "fe87e04e47bf119cc17c50c4fb3aed66",
       "timestamp": "2026-01-18T07:53:12+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Private Secondaries Deals Hit $226 Billion Amid Thirst for Cash - Secondary deal volume for private assets surged 41% to a record $226 billion last year, Evercore Inc. said in a report, as investors got more creative about tapping that market for liquidity.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/private-secondaries-deals-hit-226-billion-amid-thirst-for-cash",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06cfa6d7c448db40da6e9dd3edc7cc3e",
-      "timestamp": "2026-01-16T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Solomon Partners Taps David Shiffman to Lead Investment Banking - Solomon Partners, the boutique investment bank backed by Natixis SA, has appointed David A. Shiffman as head of investment banking, a newly created role as the advisory firm expands its senior leaders",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/solomon-partners-taps-david-shiffman-to-lead-investment-banking",
       "sentiment": "NEUTRAL"
     }
   ]
