@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T17:39:22.647981+09:00",
+  "last_updated": "2026-01-18T18:03:49.117286+09:00",
   "items": [
+    {
+      "id": "c67887d14d95c38dd906025aba9fc845",
+      "timestamp": "2026-01-18T17:28:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Syria Forces Seize Major Oil, Gas Fields, Reuters Reports - Syrian troops fighting Kurdish-led forces seized key oil and gas fields in the country’s east, Reuters reported, citing unidentified security sources.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/syria-forces-seize-major-oil-gas-fields-reuters-reports",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "888d9c9a4d7368a7f48c974630802320",
       "timestamp": "2026-01-18T16:11:59+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Trump to Push for Tech Giants to Pay for Power Costs - President Donald Trump, along with the governors of several US Northeastern states, agreed to push for an emergency wholesale electricity auction that would effectively force technology companies to f",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/trump-to-push-for-tech-giants-to-pay-for-power-costs-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "759ffc684538de6b06f8fc28cc3bd331",
-      "timestamp": "2026-01-16T22:26:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meloni Seeks to Boost Italy’s Foreign Policy Clout in the Arctic - Italian Prime Minister Giorgia Meloni’s government aims to intensify its approach to the Arctic as Western allies grapple with how to contain China and Russia’s presence in the region and as President",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/meloni-seeks-to-boost-italy-s-foreign-policy-clout-in-the-arctic",
       "sentiment": "NEUTRAL"
     }
   ]
