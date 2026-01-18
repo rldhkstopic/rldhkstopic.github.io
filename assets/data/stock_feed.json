@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-18T19:03:45.499845+09:00",
+  "last_updated": "2026-01-18T19:37:26.795400+09:00",
   "items": [
+    {
+      "id": "fb2987efc55651055e62718bd4db3553",
+      "timestamp": "2026-01-18T19:14:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hungary’s Orban Accepts Invitation to Trump’s Gaza Peace Board - Hungarian Prime Minister Viktor Orban was invited to join the Board of Peace for Gaza being set up by US President Donald Trump to oversee the reconstruction of the Palestinian enclave, Foreign Minist",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/hungary-s-orban-accepts-invitation-to-trump-s-gaza-peace-board",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0aa16856c913f271d9954d9b3cf7700b",
+      "timestamp": "2026-01-18T18:53:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump, Slovak Premier Fico Meet to Bolster Ties, Nuclear Deal - US President Donald Trump and Slovak Prime Minister Robert Fico met in Florida on Saturday to boost bilateral ties, including cooperation on a €15 billion ($17.4 billion) nuclear project.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-slovak-premier-fico-meet-to-bolster-ties-nuclear-deal",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f04dd2bd51fb92704d732967bbc0dee4",
       "timestamp": "2026-01-18T18:35:43+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "DoorDash Revenue Chief Lee Brown Departs After Short Stint - DoorDash Inc. Chief Revenue Officer Lee Brown is departing the delivery app company after less than six months to pursue a new opportunity.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/doordash-revenue-chief-lee-brown-departs-after-short-stint",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06537a6bbe6d1aabdd069701f00bee4b",
-      "timestamp": "2026-01-16T22:48:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Reliance Misses Profit Estimate Hurt by Sluggish Retail, Petchem - Reliance Industries Ltd. reported a lower-than-expected quarterly profit as sluggish growth in the petrochemical and retail businesses offset a strong showing in the telecom unit.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/reliance-misses-profit-estimate-hurt-by-sluggish-retail-petchem",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fb4e2b3447dde6840b78dea55d4e57d4",
-      "timestamp": "2026-01-16T22:42:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Glencore Strikes Offtake Agreement for Steel Input From Oman - Glencore Plc has agreed to buy at least 500,000 tons a year of hot briquetted iron from a planned Oman-based plant, securing supply of the low-carbon steelmaking input from 2030.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/glencore-strikes-offtake-agreement-for-steel-input-from-oman",
       "sentiment": "NEUTRAL"
     }
   ]
