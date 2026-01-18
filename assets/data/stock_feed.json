@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T21:05:27.451018+09:00",
+  "last_updated": "2026-01-18T21:44:54.273107+09:00",
   "items": [
+    {
+      "id": "a22b49f41ba10bf33191c7715af3641e",
+      "timestamp": "2026-01-18T21:14:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sequoia to Join Funding Round for AI Startup Anthropic, FT Says - Sequoia Capital is planning a “big investment” in Anthropic, the artificial intelligence startup behind the chatbot Claude, according to the Financial Times.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/sequoia-to-join-funding-round-for-ai-startup-anthropic-ft-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "219709709ff799c54f7891713de37f80",
       "timestamp": "2026-01-18T20:46:06+09:00",
@@ -21,6 +32,17 @@
       "related_tickers": [],
       "content": "ECB’s Kazaks Tells FT Europe Is Already ‘at War’ With Russia - Policymakers shouldn’t be “naive” to think that Europe isn’t already “at war” with Russia and central banks need to prepare for further escalation, European Central Bank Governing Council member Marti",
       "url": "https://www.bloomberg.com/news/articles/2026-01-18/ecb-s-kazaks-tells-ft-europe-is-already-at-war-with-russia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "24ae9012a04f72a6582cf1d0a7c52ee9",
+      "timestamp": "2026-01-18T20:17:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa to Resume Kruger Park Day Visits on Better Weather - Day visitation to South Africa’s iconic Kruger National Park will resume on Monday on better weather conditions following the devastation caused by deadly floods last week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/south-africa-to-resume-kruger-park-day-visits-on-better-weather",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Ontario’s Doug Ford Slams Canada-China Trade Deal as Threat to Auto Jobs - The leader of Canada’s main automaking province swiftly criticized a new trade deal with China that lowers Beijing’s tariffs on Canadian canola in exchange for eased import rules on Chinese electric v",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/ontario-s-doug-ford-slams-canada-china-trade-deal-as-threat-to-auto-jobs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "299ec25d8799c3e1d5c06f25cb4209e8",
-      "timestamp": "2026-01-16T23:19:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Parliament Explores Tying US Trade Deal Approval to Greenland - The European Parliament is considering linking approval of a massive US trade deal to Donald Trump backing down from his threats to take over Greenland, putting further strain on an agreement already ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/eu-parliament-explores-tying-us-trade-deal-approval-to-greenland",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "038bd68e938786840526b4ad55c3cc9d",
-      "timestamp": "2026-01-16T23:15:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morgan Stanley Top Fund Shuns Brazil, Colombia on Election Woes - Morgan Stanley Investment Management is shunning local debt from Brazil and Colombia as ballooning budget gaps add to concerns ahead of this year’s presidential elections in the two nations.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-top-fund-shuns-brazil-colombia-on-election-woes",
       "sentiment": "NEUTRAL"
     }
   ]
