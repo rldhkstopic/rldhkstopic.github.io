@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-18T12:32:56.701055+09:00",
+  "last_updated": "2026-01-18T13:18:37.305700+09:00",
   "items": [
+    {
+      "id": "6c3037001ffe3251b3f696dc2689319d",
+      "timestamp": "2026-01-18T13:07:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Plans Executive Order for Army-Navy Game Broadcast - President Donald Trump said he intends to sign an executive order that would give an exclusive four-hour broadcast television window to the Army-Navy Game.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-plans-executive-order-for-army-navy-game-broadcast",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "3668049a03c5d60be599cfc2681d0318",
       "timestamp": "2026-01-18T09:34:53+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "US Colleges Plunge Off a \"Demographic Cliff\" - US colleges are in trouble. A tumbling birth rate is pushing many schools toward a “demographic cliff,” where a steadily dropping population of people in their late teens and early 20s will leave desk",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/us-colleges-plunge-off-a-demographic-cliff",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "965b0f203b424812218915bca5faca05",
-      "timestamp": "2026-01-16T22:01:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Benin Eyes $1 Billion in First Africa Dollar-Bond Sale This Year - Benin is set to raise as much as $1 billion from a sale of dollar-denominated sukuk bonds and other loan securities in what would be the first African sovereign-debt offering this year, according to p",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/benin-eyes-1-billion-in-first-africa-dollar-bond-sale-this-year",
       "sentiment": "NEUTRAL"
     }
   ]
