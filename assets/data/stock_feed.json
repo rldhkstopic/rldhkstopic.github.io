@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-19T06:34:04.199529+09:00",
+  "last_updated": "2026-01-19T07:03:20.859870+09:00",
   "items": [
+    {
+      "id": "2ea5526f4c65e3471edb36d2c465056b",
+      "timestamp": "2026-01-19T06:39:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Reform UK Reveals Defection of Second Conservative MP In a Week - Reform UK has announced its second successful defection to its party, as lawmaker Andrew Rosindell joined from the Conservatives.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/reform-uk-reveals-defection-of-second-conservative-mp-in-a-week",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5b0886a24f97faea8a78cdc8fdf84c43",
+      "timestamp": "2026-01-19T06:34:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Libya in Multinational $2.7 Billion Deal to Develop Misrata Zone - Libya signed a partnership deal that involves Qatari, Italian and Swiss companies to expand and develop the Misrata Free Zone port terminal on the Mediterranean, the OPEC member said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/libya-in-multinational-2-7-billion-deal-to-develop-misrata-zone",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "01671e7a3cbbf0c6fa26049aee1726f7",
       "timestamp": "2026-01-19T06:28:56+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Enbridge Files Regulatory Documents to Expand Part of Mainline - Enbridge Inc. plans to expand part of its Mainline oil pipeline network running from Alberta into the US by about 10% within two years, according to regulatory documents filed by the company.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/enbridge-files-regulatory-documents-to-expand-part-of-mainline",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ada1fc449a46b2e2ab9e5d7b893e69a6",
-      "timestamp": "2026-01-17T02:37:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Voices Reluctance at Nominating Hassett as Fed Chair - President Donald Trump expressed reluctance toward nominating Kevin Hassett as Federal Reserve chair, casting further doubt over his search for the next head of the central bank.  Bloomberg's Stuart P",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/trump-voices-reluctance-at-picking-hassett-as-fed-chair-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4ee65aa3456f54254c49cda05ac9776a",
-      "timestamp": "2026-01-17T02:35:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Reform Sues UK Government Over Possible Local Election Delays - The populist Reform party is suing the UK government, challenging proposals that may delay local elections, according to a court order.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/reform-sues-uk-government-over-possible-local-election-delays",
       "sentiment": "NEUTRAL"
     }
   ]
