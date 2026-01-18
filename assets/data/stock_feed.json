@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-18T21:44:54.273107+09:00",
+  "last_updated": "2026-01-18T22:11:14.137017+09:00",
   "items": [
+    {
+      "id": "a4073491a68f4d36329db45404cb34f7",
+      "timestamp": "2026-01-18T22:03:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Israel’s Wartime Tech Economy - Israel has long been known as the “startup nation,” and its tech sector accelerated during the Israel-Hamas war. Since 2023, Israeli startups have raised record levels of private capital, driven by gr",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-18/israel-s-wartime-tech-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c703bc639bafcd93653a453b86b711f8",
+      "timestamp": "2026-01-18T22:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Is Winning the Fight Against Offshore Wind Despite Court Losses - <p>The president's campaign against the industry&nbsp;threatened future projects, even before three US judges blocked enforcement of&nbsp;a government construction ban.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-is-winning-the-fight-against-offshore-wind-despite-court-losses",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a22b49f41ba10bf33191c7715af3641e",
       "timestamp": "2026-01-18T21:14:10+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Ninety One Sees Africa’s Bond Market a Rich Hunting Ground for Yield-Hunters - Ninety One Plc sees Africa’s broad bond market, a corner of emerging markets once shunned because of its economic risks, as an opportunity for investors looking for bigger returns.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/ninety-one-sees-africa-s-bond-market-a-rich-hunting-ground-for-yield-hunters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b18eceabb5b20e6a51d0ae7dae84c2b",
-      "timestamp": "2026-01-16T23:42:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ecuador Readies Return to Global Debt Markets After Seven Years - Ecuador is readying its return to international debt markets for the first time since 2019.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/ecuador-readies-return-to-global-debt-markets-after-seven-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0d311d511dc70d5a09aac1cf634827eb",
-      "timestamp": "2026-01-16T23:38:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ontario’s Doug Ford Slams Canada-China Trade Deal as Threat to Auto Jobs - The leader of Canada’s main automaking province swiftly criticized a new trade deal with China that lowers Beijing’s tariffs on Canadian canola in exchange for eased import rules on Chinese electric v",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/ontario-s-doug-ford-slams-canada-china-trade-deal-as-threat-to-auto-jobs",
       "sentiment": "NEUTRAL"
     }
   ]
