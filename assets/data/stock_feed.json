@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-19T04:02:40.542177+09:00",
+  "last_updated": "2026-01-19T04:32:47.879469+09:00",
   "items": [
+    {
+      "id": "97f353792c58f26f04cf133375d604c2",
+      "timestamp": "2026-01-19T03:58:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Mulls Responding to Trump by Reviving €93 Billion Tariff Move - European Union member states are discussing several options for how to respond to President Donald Trump’s latest tariff threat, including imposing retaliatory levies on €93 billion ($108 billion) of ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/eu-mulls-responding-to-trump-by-reviving-93-billion-tariff-move",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "fe238bf39e46d4a4a7715e04995539bf",
       "timestamp": "2026-01-19T03:25:30+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Congo State Miner Proposes Deal for Cobalt Producer Prized by US - Congolese state-owned miner Gecamines has proposed acquiring Chemaf SA, before bringing in a new majority shareholder, as interest in the troubled copper and cobalt producer intensifies.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/congo-state-miner-proposes-deal-for-cobalt-producer-prized-by-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d7ce24c97160da4d2edbafb68c8e0554",
-      "timestamp": "2026-01-17T02:01:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Machado Says Venezuela Is Undergoing a True Transition to Democracy - \"It seems like a miracle to be sitting here in a free country,\" said María Corina Machado, a Venezuelan opposition leader, while speaking at the Heritage Foundation in Washington. Machado says Venezue",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/machado-says-venezuela-is-transitioning-to-democracy-video",
       "sentiment": "NEUTRAL"
     }
   ]
