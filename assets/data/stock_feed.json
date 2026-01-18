@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-19T05:36:36.767420+09:00",
+  "last_updated": "2026-01-19T06:03:05.010631+09:00",
   "items": [
+    {
+      "id": "229f52d25c70df24f00b89fca9a4ee4d",
+      "timestamp": "2026-01-19T05:39:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Portugal to Hold Presidential Runoff as Centrist Wins First Vote - The first round of voting in Portugal’s presidential election will lead to the country’s first runoff in 40 years, exit polls showed, as a traditional establishment figure is set to face off with a fa",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-18/portugal-to-hold-presidential-runoff-as-centrist-wins-first-vote",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6b9ebb4d8299e9072d513ccde383fb30",
       "timestamp": "2026-01-19T04:27:07+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Morgan Stanley Says Traders Are Unprepared for Sharp Euro Swings - Traders are underpricing the risk of extreme scenarios potentially causing ruptures in major currencies, especially in the euro, according to Morgan Stanley’s David Adams.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-says-traders-are-unprepared-for-sharp-euro-swings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0c8bde79d5c2741840f7915742719413",
-      "timestamp": "2026-01-17T02:24:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Moves to Make Tech Giants Pay for Surging Power Costs - President Donald Trump and the governors of several US Northeastern states agreed to push for an emergency wholesale electricity auction that would compel technology companies to effectively fund new ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/trump-moves-to-make-tech-giants-pay-for-power-costs-video",
       "sentiment": "NEUTRAL"
     }
   ]
