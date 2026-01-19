@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-19T18:44:07.194362+09:00",
+  "last_updated": "2026-01-19T19:05:41.726936+09:00",
   "items": [
+    {
+      "id": "77a817ce522bcdb109e2fabc15e65de4",
+      "timestamp": "2026-01-19T18:57:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Franklin CEO: Capping Credit Card Rate Not a Great Move (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/franklin-ceo-capping-credit-card-rate-not-a-great-move-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d8b072c54a88aafb10278a11c4efcafa",
+      "timestamp": "2026-01-19T18:51:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer Says Trump’s Tariffs Threat ‘Completely Wrong’ - Prime Minister Keir Starmer says US President Donald Trump’s threat to impose tariffs on the UK and other European nations over the Greenland issue is “completely wrong” and that “a trade war is in no",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/starmer-says-trump-s-tariffs-threat-completely-wrong-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e4fced42e7106a47307c4e3a1c96d427",
+      "timestamp": "2026-01-19T18:38:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer Rebukes Trump Threats as ‘Completely Wrong’ From an Ally - UK Prime Minister Keir Starmer took a stand against President Donald Trump’s threats of new tariffs on European nations and said they would damage the British economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/starmer-rebukes-trump-threats-as-completely-wrong-from-an-ally",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "61cbf8b422061f3383f4476d129250ad",
       "timestamp": "2026-01-19T18:30:00+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Alex Imas and Richard Thaler on Learning Behavioral Economics - Barry speaks with Richard Thaler and Alex Imas award winning economists and co-authors of \"The Winner's Curse: Behavioral Economics Anomalies\". They discuss the psychology of spending at auctions, and",
       "url": "https://www.bloomberg.com/news/videos/2026-01-17/alex-imas-and-richard-thaler-on-behavioral-economics-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7bb46ce6b1a936adb11ccc83870bc9e7",
-      "timestamp": "2026-01-17T18:52:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Aims to Fight Industrial Decline With ‘Made in Europe’ Law - The European Union is set to propose a swathe of new conditions to ensure local companies are prioritized when investment decisions are made in the region by member-states and foreign firms, upending ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/eu-aims-to-fight-industrial-decline-with-made-in-europe-law",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7bb46ce6b1a936adb11ccc83870bc9e7",
-      "timestamp": "2026-01-17T18:52:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Aims to Fight Industrial Decline With ‘Made in Europe’ Law - The European Union is set to propose a swathe of new conditions to ensure local companies are prioritized when investment decisions are made in the region by member-states and foreign firms, upending ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/eu-aims-to-fight-industrial-decline-with-made-in-europe-law",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9cb3217b37d8ff0e5417969d9cb44bb0",
-      "timestamp": "2026-01-17T18:49:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Micron to Buy Taiwan Chip Fabrication Site for $1.8 Billion - Micron Technology Inc. has signed a letter of intent to buy a fabrication site in Taiwan from Powerchip Semiconductor Manufacturing Corp. for $1.8 billion to expand its memory chip production.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/micron-to-buy-taiwan-chip-fabrication-site-for-1-8-billion",
       "sentiment": "NEUTRAL"
     }
   ]
