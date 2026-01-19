@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-20T05:04:00.275103+09:00",
+  "last_updated": "2026-01-20T05:38:02.553368+09:00",
   "items": [
+    {
+      "id": "45de46f3d9fbf37097f26a34a3d18b4d",
+      "timestamp": "2026-01-20T05:05:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Isn’t the Answer for Canada’s Trade Troubles, Taiwan Envoy Says - China doesn’t hold the solution for Canada’s economic issues and isn’t a trustworthy partner, Taiwan’s top representative to Ottawa said following Prime Minister Mark Carney’s tariff deal with Xi Jinp",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-isn-t-the-answer-for-canada-s-trade-troubles-taiwan-envoy-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "1c3b8515305e265fe2104cced6df9493",
       "timestamp": "2026-01-20T04:45:03+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "UK Productivity Surge Signals Economic Turnaround, Study Finds - Britain is seeing early signs of a long-awaited turnaround of its productivity woes, according to an alternative measure that suggests output per hour worked has risen at a pace not seen since before ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/uk-productivity-surge-signals-economic-turnaround-study-finds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2fbe944a6039661983f1d804baf56e9c",
-      "timestamp": "2026-01-19T08:55:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rupiah May Sink Past Record Low as Fiscal Woes Erode BI Support - Indonesia’s rupiah looks poised to weaken past a record low, analysts say, with central bank intervention unlikely to halt the slide amid persistent fiscal worries.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/usd-idr-indonesian-rupiah-nears-record-low-as-fiscal-woes-blunt-bi-support",
       "sentiment": "NEUTRAL"
     }
   ]
