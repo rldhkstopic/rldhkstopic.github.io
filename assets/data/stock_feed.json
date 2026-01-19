@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-20T07:03:40.302302+09:00",
+  "last_updated": "2026-01-20T07:37:37.891589+09:00",
   "items": [
+    {
+      "id": "5df35616f7d21c93f71987352fd69f5e",
+      "timestamp": "2026-01-20T07:24:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Stocks Face Wary Start as Tariff Feud Grows: Markets Wrap - Asian stocks were poised for a cautious open as investors weighed escalating US-Europe trade tensions sparked by President Donald Trump’s tariff threats over Greenland.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/stock-market-today-dow-s-p-live-updates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f26193e280f754dde5650155f21cf7c8",
+      "timestamp": "2026-01-20T07:09:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BHP Iron Ore Output Edges Higher, Potash Costs Rise Again - BHP Group, the world’s largest miner, produced 69.7 million tons of iron ore in its second quarter, up 5% on the same period a year ago, and reaffirmed its annual production guidance.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/bhp-iron-ore-production-edges-higher-potash-cost-rises-again",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c00b7f4206d8e5dc08507ccd8885d369",
+      "timestamp": "2026-01-20T07:09:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Grok’s Sexualized Images Test the Limits of AI Oversight - <p>Despite global uproar over the generation of non-consensual explicit photos, Elon Musk has continued to downplay the issue.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-19/grok-ai-sexualized-images-expose-gaps-in-oversight-enforcement",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "85e9a6ee849a30d67779f503eef0d719",
+      "timestamp": "2026-01-20T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vietnam’s Lam Takes Spotlight as Party Selects New Leadership - Vietnam’s Communist Party chief is set to take the stage Tuesday at the opening ceremony for the National Congress in Hanoi, a forum where the ruling party of the fast-growing Southeast Asian nation w",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/vietnam-s-lam-takes-spotlight-as-party-selects-new-leadership",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b5ba1b5ba7882a40e57044345c6395cb",
       "timestamp": "2026-01-20T06:00:30+09:00",
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Sunway’s $2.7 Billion IJM Bid Questioned Over Bumiputera Rights - Sunway Bhd.’s proposed 11 billion ringgit ($2.7 billion) takeover of IJM Corp Bhd. is drawing political scrutiny over concerns that it could dilute both the equity interests of the government and the ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/sunway-s-2-7-billion-ijm-bid-questioned-over-bumiputera-rights",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d8b61dac3bb8ead7a3245feff68ef7d0",
-      "timestamp": "2026-01-19T09:59:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Falls Below $92,000 as Tariff Fears Weigh on Risk Assets - Cryptocurrencies fell sharply as risk assets slipped and haven demand strengthened after US President Donald Trump proposed new levies on eight European countries.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/bitcoin-btc-falls-below-92-000-as-tariff-fears-weigh-on-risk-assets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dbfb5b1c166875434850b91574b179ad",
-      "timestamp": "2026-01-19T09:46:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Explosion at Chinese Steel Plant Leaves Two Dead, Eight Missing - A large blast at a steel plant in northern China killed at least two workers and injured dozens of others, according to state media.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/explosion-at-chinese-steel-plant-leaves-two-dead-eight-missing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77d914eed05a090834c985c892016a2a",
-      "timestamp": "2026-01-19T09:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hohn Breaks Citadel’s Record With $18.9 Billion Trading Profit - Chris Hohn broke the hedge fund profit record last year as rising stocks and global market volatility helped the industry rack up $543 billion worth of gains, also an all-time high.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/hohn-breaks-citadel-s-record-with-18-9-billion-trading-profit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d2d75a6676cc440890d4872a2c4152e0",
-      "timestamp": "2026-01-19T09:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Reeves Says London IPO Critics Were ‘Wrong’ as New Rules Kick In - Chancellor of the Exchequer Rachel Reeves is set to say critics of the UK’s capital markets “were wrong” and herald “a new golden age for the City” at the London Stock Exchange on Monday, as new rules",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/reeves-says-london-ipo-critics-were-wrong-as-new-rules-kick-in",
       "sentiment": "NEUTRAL"
     }
   ]
