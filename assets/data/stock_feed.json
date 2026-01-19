@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-20T02:38:04.177780+09:00",
+  "last_updated": "2026-01-20T03:04:30.407266+09:00",
   "items": [
+    {
+      "id": "34e40aeebac453e21ee0e807d46cdec1",
+      "timestamp": "2026-01-20T02:44:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Croatia’s Vujcic Gets Nod to Become Next ECB Vice President - Croatia’s central-bank chief, Boris Vujcic, won the nomination of euro-area finance ministers to become the next European Central Bank vice president, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/croatia-s-vujcic-gets-nod-to-become-next-ecb-vice-president",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "5ee50d562b3bbd956eb22fd0ea291362",
       "timestamp": "2026-01-20T02:21:18+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Trump Tariff Threats Weigh on Asian Risk Appetite: Markets Wrap - Asian markets are facing some pressure early Monday after US President Donald Trump proposed new tariffs on eight European countries, denting risk appetite and boosting demand for haven assets.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-tariff-threats-weigh-on-asian-risk-appetite-markets-wrap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2ea5526f4c65e3471edb36d2c465056b",
-      "timestamp": "2026-01-19T06:39:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Reform UK Reveals Defection of Second Conservative MP In a Week - Reform UK has announced its second successful defection to its party, as lawmaker Andrew Rosindell joined from the Conservatives.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/reform-uk-reveals-defection-of-second-conservative-mp-in-a-week",
       "sentiment": "NEUTRAL"
     }
   ]
