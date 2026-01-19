@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-19T19:42:20.726887+09:00",
+  "last_updated": "2026-01-19T20:04:40.091997+09:00",
   "items": [
+    {
+      "id": "6489d39c8beeffe57cac403d2d952301",
+      "timestamp": "2026-01-19T19:59:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Europe’s Appeasement of Donald Trump Runs Out of Road - After months of trying and failing to satisfy the US leader, European officials need to decide how robustly to respond to his latest threats over Greenland.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-19/europe-s-appeasement-of-donald-trump-runs-out-of-road",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b56f0c71122ef4d9a7794c3385f6b29e",
+      "timestamp": "2026-01-19T19:43:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HSBC Is On Course for £300 Billion Valuation, Top Executive Says - Weeks after its market value rose above £200 billion ($268 billion) for the first time in its history, HSBC Holdings Plc is now on course for a capitalization in excess of £300 billion, according to t",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/hsbc-is-on-course-for-300-billion-valuation-top-executive-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6608760b8ff74bef789fff417702bde5",
+      "timestamp": "2026-01-19T19:40:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Economists See Limited US Tariff Hit to European Growth - The latest 10% tariff threatened by President Donald Trump is likely to shave off about 0.1% from the euro area’s gross domestic product, according to Goldman Sachs Group Inc. economists.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/goldman-economists-see-limited-us-tariff-hit-to-european-growth",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca36b929d3fe3c72e9642e3cd331f354",
+      "timestamp": "2026-01-19T19:36:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Invited Putin to Join Gaza ‘Board of Peace,’ Kremlin Says - Russian President Vladimir Putin has received an invitation to join Donald Trump’s proposed Board of Peace for Gaza, the Kremlin said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/trump-invited-putin-to-join-gaza-board-of-peace-kremlin-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "470b08c99198d0438e3c8d9f25f0982a",
       "timestamp": "2026-01-19T19:32:34+09:00",
@@ -13,6 +57,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "aa3aa0fffa8df6be081f0a0b1328a933",
+      "timestamp": "2026-01-19T19:32:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Xi’s Export Machine Gets Lift From US Move to Strongarm Allies - As Xi Jinping battles unprecedented deflation and shrinking investment, he’s betting that China can sell more and more goods to the world to drive growth. To that end, Donald Trump’s threats against k",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/xi-s-export-machine-helped-by-trump-s-moves-to-strongarm-allies",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "eed546af550ce441e59be265f3892588",
       "timestamp": "2026-01-19T19:30:20+09:00",
       "source_type": "NEWS",
@@ -21,6 +76,28 @@
       "related_tickers": [],
       "content": "ECB to Benefit From His Voice of Consensus As Vice President: Centeno - Mario Centeno, former Bank of Portugal governor discusses monetary policy, rates and his candidacy for ECB vice president position. He says that as Europe has entered a phase of structural uncertainty",
       "url": "https://www.bloomberg.com/news/videos/2026-01-19/ecb-vice-president-candidate-mario-centeno-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2ea9841ff673c2d0914e30371d42f30",
+      "timestamp": "2026-01-19T19:26:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Toscafund Is Said to Explore Sale of Portuguese Insurer Caravela - Toscafund Asset Management and other minority shareholders of Caravela Seguros are exploring a sale of the Portuguese insurer, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/toscafund-is-said-to-explore-sale-of-portuguese-insurer-caravela",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6b792a0f4cdd70faa4b5992308d9d21e",
+      "timestamp": "2026-01-19T19:24:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Should Double Bill Sales to Help Gilts, Morgan Stanley Says - The UK should double its issuance of government bills to ease strains in the gilt market and lower borrowing costs, according to Morgan Stanley strategists.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/uk-should-double-bill-sales-to-help-gilts-morgan-stanley-says",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Ivory Coast Lawmakers Name Ex-PM Achi as Parliament Speaker - Ivory Coast lawmakers elected a former prime minister from Alassane Ouattara’s ruling party as speaker of parliament, nearly a month after legislative elections held in late December.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-17/ivory-coast-lawmakers-name-ex-pm-achi-as-parliament-speaker",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "56cfc61890f5bb81683f6d4777f18f15",
-      "timestamp": "2026-01-17T23:23:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NASA Starts Artemis II Roll Out to Kennedy Space Center - NASA started rolled out of the Artemis II rocket to the Kennedy Space Center launch pad,  in Florida, on Saturday. Artemis II is a milestone in the lunar space race between the US and China. The rocke",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-17/nasa-starts-artemis-ii-roll-out-to-kennedy-space-center-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6353c9cbdbd3acb7b1e207cf9b2f8722",
-      "timestamp": "2026-01-17T23:18:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Zelenskiy Says Russian Strikes Undermine Prospects for Dialogue - Constant airstrikes by Kremlin forces are undermining “even the small opportunities for dialogue” between Kyiv and Moscow, said President Volodymyr Zelenskiy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/zelenskiy-says-russian-strikes-undermine-prospects-for-dialogue",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ee9f34f878cf4b3ff669c470e5641dfd",
-      "timestamp": "2026-01-17T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pricey Equity Markets Charge Into a High-Stakes Earnings Season - So far, so good for global equity investors looking to clock a fourth straight year of solid returns as stocks rise in tandem from Tokyo to Paris to New York.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/pricey-equity-markets-charge-into-a-high-stakes-earnings-season",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2ab040a6d3ceff3bb8692fd209523c87",
-      "timestamp": "2026-01-17T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Machado Takes a New Tack to Win Trump’s Backing on Venezuela - María Corina Machado’s charm offensive in the Trump White House, complete with a shiny Nobel medal in an elegant frame, is part of a recalibrated effort by the leader of Venezuela’s opposition to recl",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/machado-takes-a-new-tack-to-win-trump-s-backing-on-venezuela",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2bd151fe715565afc1a469ff6ce7ae71",
-      "timestamp": "2026-01-17T22:10:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Museveni Declared Winner of Uganda Vote as Opposition Cries Foul - Ugandan President Yoweri Museveni was declared the winner of elections that the main opposition said were marred by rigging from the outset, extending his four-decade rule.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/museveni-declared-winner-of-uganda-vote-as-opposition-cries-foul",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "757f8f6fbcb6f813afca743cca0c1f41",
-      "timestamp": "2026-01-17T22:03:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "From Oil Giant to Travel Hub: Saudi Arabia’s Vision 2030 Test - Saudi Arabia is attempting one of the most ambitious economic transformations in the world, hoping to use tourism to reduce its reliance on oil and reshape its global image. Under Vision 2030, Crown P",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-17/saudi-arabia-s-vision-2030-test-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6cec4c2a8bc273d223fe8ba51c4e974e",
-      "timestamp": "2026-01-17T22:01:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Greenland Demands Spark Protest Rallies Across Denmark - Thousands of people took to the streets across Denmark to protest US President Donald Trump’s ambitions to take control of Greenland, underscoring the deep unease over the future of the Arctic island.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/trump-s-greenland-demands-spark-protest-rallies-across-denmark",
       "sentiment": "NEUTRAL"
     }
   ]
