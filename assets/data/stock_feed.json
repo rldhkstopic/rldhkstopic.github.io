@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-19T13:46:35.231626+09:00",
+  "last_updated": "2026-01-19T14:11:12.604309+09:00",
   "items": [
+    {
+      "id": "7f73474f0a949902d515bd66d1e78350",
+      "timestamp": "2026-01-19T14:00:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Singapore Bourse Targets Global Macro Funds in Japan Rates Push - Singapore Exchange Ltd. will introduce futures on longer-dated Japanese government bonds as trading in the world’s third-biggest debt market heats up.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/singapore-bourse-targets-global-macro-funds-in-japan-rates-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a52ac4479924791bf479528334e64bc2",
+      "timestamp": "2026-01-19T14:00:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine Holds Off on New Helsing Drone Orders After Setbacks - Ukraine is holding off on additional orders for strike drones from Helsing, Europe’s most valuable defense tech startup, after the company’s weapon systems faced problems in front line tests in battle",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/ukraine-holds-off-on-new-helsing-drone-orders-after-setbacks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0559fb67dacd43773be4b29d8f7adda0",
+      "timestamp": "2026-01-19T14:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jeremy Grantham Says AI Is Indeed a Classic Market Bubble - <p>The GMO co-founder explains why most investing “premiums” boil down to value&mdash;and why AI’s promise doesn’t spare it from a painful shakeout.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/jeremy-grantham-says-ai-is-indeed-a-classic-market-bubble-podcast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d0395219c72eaff6fbf1f97c8cf23e1c",
+      "timestamp": "2026-01-19T14:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "GMO's Jeremy Grantham Sees an AI Bubble &mdash; and a Familiar Ending - For more than four decades, Jeremy Grantham has been one of the most contrarian voices in global investing. The co-founder of Boston-based asset manager GMO, he built his reputation warning about bubb",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/gmo-s-jeremy-grantham-sees-an-ai-bubble-and-a-familiar-ending",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fbfb4034b522dbd4684fc9c4eb2153d3",
+      "timestamp": "2026-01-19T14:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Bond Market Readies for £18 Billion Retail Investment Rush - UK bonds with the most favorable tax terms are outperforming as investors look to get ahead of an expected rush from retail traders.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/uk-bond-market-readies-for-18-billion-retail-investment-rush",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ed27ddb847f4b836154fb7e6e84a197c",
+      "timestamp": "2026-01-19T14:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Eyes Tariffs on €93 Billion of US Goods Over New Trump Threat - The European Union is in talks to potentially impose tariffs on €93 billion ($108 billion) of US goods if President Donald Trump follows through on his threat to hit European countries with a 10% levy",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/eu-eyes-tariffs-on-93-billion-of-us-goods-over-new-trump-threat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79f2d011d18104c341912d384213391b",
+      "timestamp": "2026-01-19T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jeremy Grantham Says AI Is Indeed a Classic Market Bubble - For more than four decades, Jeremy Grantham has been one of the most contrarian voices in global investing. The co-founder of Boston-based asset manager GMO, he built his reputation warning about bubb",
+      "url": "https://www.bloomberg.com/news/audio/2026-01-19/podcast-gmo-s-jeremy-grantham-on-buying-start-ups-ai-bubble-small-cap-premium",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "83560dc4b6da7882cef5481f4993dd90",
       "timestamp": "2026-01-19T13:31:00+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "How the US Changed China’s Calculus in Latin America - <p>Former Ambassador Nicholas Burns on China’s plans in Venezuela, Greenland’s future and the pros and perils of Trump’s ‘Donroe Doctrine.’</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/ex-us-china-ambassador-on-venezuela-greenland-and-trump-s-donroe-doctrine",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f535aa5da9ed12b47402f5f14a1bd4c4",
-      "timestamp": "2026-01-17T07:07:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Largest US Power Grid Unveils Backup Plan for Reliability - PJM Interconnection LLC, operator of the largest US power grid, unveiled a proposal to take backstop measures to help support reliability.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/largest-us-power-grid-unveils-backup-plan-to-support-reliability",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f869d1007a209003a15bb927f9b2bc0e",
-      "timestamp": "2026-01-17T07:06:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Investors Fall Into Bias Traps: Masters in Business - Barry speaks with Richard Thaler and Alex Imas award winning economists and co-authors of \"The Winner's Curse: Behavioral Economics Anomalies\". They discuss the psychology of spending at auctions, and",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/how-investors-fall-into-bias-traps-masters-in-business-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "24ba91cd88ca99d6007d8ca3e7859487",
-      "timestamp": "2026-01-17T07:00:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Richard Thaler on the mentality of spending money - Barry speaks with Richard Thaler and Alex Imas award winning economists and co-authors of \"The Winner's Curse: Behavioral Economics Anomalies\". They discuss the psychology of spending at auctions, and",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/richard-thaler-on-the-mentality-of-spending-money-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c95e9c7581e7122b176d67d1e44b93f0",
-      "timestamp": "2026-01-17T06:56:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says He’ll Make Tech Firms Pay for Power  | Bloomberg Businessweek Daily 1/16/2026 - On today's episode, Carol Massar and Tim Stenovec speak with Michael Shepard, Bloomberg News Senior Editor for Technology & Strategic Industries, about Trump's move to have tech giants pay for surging",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/bloomberg-businessweek-daily-01-16-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dfb88735a4181ecbc846f8540d5de465",
-      "timestamp": "2026-01-17T06:56:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hedge Funds Slash Bullish Silver Wagers to 22-Month Low - Money managers slashed their bullish wagers on silver to the lowest in nearly two years before the White House refrained from putting import tariffs on critical minerals that include the white metal.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/hedge-funds-slash-bullish-silver-wagers-to-22-month-low",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8df30292a67626d109d47f8b228eb11e",
-      "timestamp": "2026-01-17T06:50:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mackenzie Investment's Marks on Global Uncertainty - Mackenzie Investments Equities CIO Lesley Marks speaks to Carol Massar and Tim Stenovec about the geopolitical impact on markets as well as the broad outlook for 2026. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/mackenzie-investment-s-marks-on-global-uncertainty-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "abfe26581643505668cc267f8dd8553d",
-      "timestamp": "2026-01-17T06:50:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hedge Funds Turn More Bullish on Brent Oil as Iran Risks Swirl - Hedge funds turned the most bullish on Brent oil since April as unrest in Iran, OPEC’s fourth-biggest producer, revived risk premium in crude prices.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/hedge-funds-turn-more-bullish-on-brent-oil-as-iran-risks-swirl",
       "sentiment": "NEUTRAL"
     }
   ]
