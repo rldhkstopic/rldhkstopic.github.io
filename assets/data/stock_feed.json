@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-19T14:42:24.117526+09:00",
+  "last_updated": "2026-01-19T15:06:59.904780+09:00",
   "items": [
+    {
+      "id": "a3ee23c64c6682633f76b5de5d1e321e",
+      "timestamp": "2026-01-19T14:31:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Exports Give Biggest Growth Boost to Economy Since 1997 - China relied on exports to drive economic growth to a degree unseen since the Asian financial crisis nearly three decades ago, in a demonstration of strength that allowed it to ride out the trade war ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/chinese-exports-give-biggest-growth-boost-to-economy-since-1997",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "aec6f38069fb67526f6fd99ca534d02f",
       "timestamp": "2026-01-19T14:19:49+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Nobel Prize-Winning Economist Offers a Unified Theory of Trump - Daron Acemoglu, Institute Professor in the Department of Economics at the Massachusetts Institute of Technology, joins Bloomberg Businessweek Daily to discuss his 'Theory of Trump' as the second year ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-16/nobel-prize-winning-economist-on-theory-of-trump-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1ede5af609bccf005f7aa85e3e9e410b",
-      "timestamp": "2026-01-17T07:42:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AIX Ventures Co-Founder Shaun Johnson Departs Firm - AIX Ventures &mdash; a venture capital firm that has backed artificial intelligence startups including Perplexity, Windsurf and Ideogram &mdash; saw co-founder Shaun Johnson exit the firm last month.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/perplexity-windsurf-backer-aix-ventures-co-founder-departs",
       "sentiment": "NEUTRAL"
     }
   ]
