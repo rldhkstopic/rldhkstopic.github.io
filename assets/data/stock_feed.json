@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-19T21:06:09.700745+09:00",
+  "last_updated": "2026-01-19T21:45:56.519812+09:00",
   "items": [
+    {
+      "id": "f65567d02e932885455e386497f0d04e",
+      "timestamp": "2026-01-19T21:30:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Aftermath of Spain High-Speed Train Collision - Aerial video shows the aftermath of a collision between two trains in Spain. More than three dozen people died in Spain after a high-speed train derailed Sunday evening and hit another traveling in th",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/aftermath-of-spain-high-speed-train-collision-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "775bd7704aa89ce3bab84074a935b315",
+      "timestamp": "2026-01-19T21:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Revolut Seeks Peru Banking License for Latin America Expansion - Revolut Ltd. applied for a full banking license in Peru as it expands in Latin America to compete with some of the region’s biggest financial-technology firms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/revolut-seeks-peru-banking-license-for-latin-america-expansion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "928cbd6e8e5fbdc0585c26dfaaaa7fdd",
+      "timestamp": "2026-01-19T21:20:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Extreme Volatility Returns to Europe’s Natural Gas Markets - The biggest weekly price swings in two years show the power of speculative traders",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-19/extreme-price-volatility-returns-to-europe-s-natural-gas-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6858c7fa19a896497c17ac83c71c7fdf",
+      "timestamp": "2026-01-19T21:10:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Andreessen Horowitz Makes a $3 Billion Bet Against the AI Bubble - <p>A newer fund run by an unconventional team at the venture firm is finding success focusing on infrastructure.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-19/andreessen-horowitz-makes-a-3-billion-bet-against-the-ai-bubble",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bbac20a351a536383c71688df8737f5e",
+      "timestamp": "2026-01-19T21:03:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TKMS CFO Says Greenland Crisis Could Help Deal For Canada Subs - TKMS AG&amp; Co KGaA Chief Financial Officer Paul Glaser said the crisis unfolding over Greenland might help the company’s chances of winning a multi-billion euro submarine contract with Canada, as Ot",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/tkms-cfo-says-greenland-crisis-could-help-deal-for-canada-subs",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "5fdcdabe265222da880038c29b352096",
       "timestamp": "2026-01-19T21:02:01+09:00",
@@ -10,6 +65,17 @@
       "related_tickers": [],
       "content": "Apple Intelligence Built Atop Google Gemini Seems Like Admitting Defeat - Apple’s decision to rely on Gemini casts doubt about the advantages of Apple Intelligence.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-19/apple-s-use-of-google-gemini-shows-iphone-s-lack-of-ai-advantage",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2193e0356d61d9b63113161ce75dece0",
+      "timestamp": "2026-01-19T20:57:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SRT Boom Offers Costly Lifeline to Banks Shedding Risky CRE Debt - Investors in the white-hot significant risk transfer market are increasingly willing to provide hedging to European banks saddled with over €200 billion ($232.5 billion) of deteriorating commercial pr",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/srt-boom-offers-costly-lifeline-to-banks-shedding-risky-cre-debt",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "Jake Lang Pulled Into Crowd of Protestors in Minneapolis - Pardoned January 6th rioter and GOP Florida Senate candidate Jake Lang pulled into crowd of protestors in Minneapolis, Minnesota. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-17/jake-lang-pulled-into-crowd-of-protestors-in-minneapolis-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "01f1736857a9310030580acbb29745d3",
-      "timestamp": "2026-01-18T05:26:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Set to Halt US Trade Deal Over Trump’s Latest Tariff Threat - European Union lawmakers are poised to block approval of the EU’s trade deal with the US over President Donald Trump’s vow to impose tariffs on countries that supported Greenland in the face of Americ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/eu-set-to-halt-us-trade-deal-over-trump-s-latest-tariff-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "01f1736857a9310030580acbb29745d3",
-      "timestamp": "2026-01-18T05:26:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Set to Halt US Trade Deal Over Trump’s Latest Tariff Threat - European Union lawmakers are poised to block approval of the EU’s trade deal with the US over President Donald Trump’s vow to impose tariffs on countries that supported Greenland in the face of Americ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/eu-set-to-halt-us-trade-deal-over-trump-s-latest-tariff-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6aaf96508cb02c938f2489577e4fb62c",
-      "timestamp": "2026-01-18T05:20:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sweetgreen Chief Development Officer to Leave Restaurant Chain - Sweetgreen Inc. Chief Development Officer Chris Tarant is leaving the restaurant chain after a more than a year leading the company’s efforts to expand its footprint.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/sweetgreen-chief-development-officer-to-leave-restaurant-chain",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a982c79f4809d0c63388334ebabc3362",
-      "timestamp": "2026-01-18T05:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "MBS Gains Are Another Reason to Buy Company Debt: Credit Weekly - Demand for corporate bonds could get a boost from a surprising source in the coming months: investors taking profits on US mortgage bond holdings who need another asset to buy instead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/mbs-gains-are-another-reason-to-buy-company-debt-credit-weekly",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e08469b0c7309c3bf512e4a7fafc7b02",
-      "timestamp": "2026-01-18T04:28:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Virginia's First Female Governor Sworn Into Office - Virginia's first female democratic governor Abigail Spanberger sworn in at the state capitol in Richmond, Virginia. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-17/virginia-s-first-female-governor-sworn-into-office-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4b26a4ae1e47dd3f23286cc074e064d4",
-      "timestamp": "2026-01-18T03:11:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Blasts Dimon, Threatens to Sue JPMorgan Over Debanking - President Donald Trump railed against JPMorgan Chase &amp; Co. and its leader Jamie Dimon, threatening to sue the banking giant over his claim that he was debanked after the Jan. 6, 2021, Capitol riot",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/trump-blasts-dimon-threatens-to-sue-jp-morgan-over-debanking",
       "sentiment": "NEUTRAL"
     }
   ]
