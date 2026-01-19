@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-20T03:44:11.544295+09:00",
+  "last_updated": "2026-01-20T04:04:42.947857+09:00",
   "items": [
+    {
+      "id": "dba323eec04621cdb524ec4d9c43bb99",
+      "timestamp": "2026-01-20T03:24:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "More Than 170 Worshippers Abducted in Northern Nigeria, Daily Trust Says - Armed bandits kidnapped more than 170 worshippers from two churches in Nigeria’s Kaduna state, the Daily Trust newspaper reported, citing witnesses.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/more-than-170-worshippers-abducted-in-northern-nigeria-daily-trust-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "99b9e827ad94eaa6fe62bd4e30bb78bb",
       "timestamp": "2026-01-20T03:24:20+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Oil Edges Lower With Iran and Trump’s Greenland Threat in Focus - Oil fell as tensions over Iran cooled and wider markets carried a risk-off tone with President Donald Trump’s push to take over Greenland.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-18/latest-oil-market-news-and-analysis-for-jan-19",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e74781734c5235072ed782fbee8bd37",
-      "timestamp": "2026-01-19T08:25:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippines Makes Significant Natural Gas Discovery, Marcos Says - The Philippines has made a “significant natural gas discovery” for the first time in over a decade, President Ferdinand Marcos Jr. said, advancing the nation’s bid for energy security.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/philippines-makes-significant-natural-gas-discovery-marcos-says",
       "sentiment": "NEUTRAL"
     }
   ]
