@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-20T01:04:51.740083+09:00",
+  "last_updated": "2026-01-20T01:42:58.939141+09:00",
   "items": [
+    {
+      "id": "12b96458ad591dc20fdc5a1183f30aaf",
+      "timestamp": "2026-01-20T01:18:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "State Street Eyes Further Expansion Into Secondaries, Hung Says - State Street Corp.’s asset management arm is seeking more opportunities to give retail investors access to secondaries and other private assets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/state-street-eyes-further-expansion-into-secondaries-hung-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b202a581d1b0a69bec1d3b344375bba5",
+      "timestamp": "2026-01-20T01:17:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chile’s Incoming President Inherits Crisis as Raging Wildfires Kill 19 - Chilean President-elect José Antonio Kast will inherit a crisis as raging wildfires killed at least 19 people over the weekend and left hundreds homeless, setting up a lengthy reconstruction process o",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/jose-antonio-kast-to-inherit-fist-crisis-as-fires-kill-19",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7f73c9b351e92371f52614e079d38454",
+      "timestamp": "2026-01-20T01:15:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Weaponizing’ $10 Trillion of US Assets Is Tough Ask for Europe - As Europe considers how best to respond to US President Donald Trump’s latest threats over Greenland’s sovereignty, there’s one extreme potential counter measure that’s fueling debate among investors.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/-weaponizing-10-trillion-of-us-assets-is-tough-ask-for-europe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "26163cdeccd74af2428b8b48a08f0aae",
+      "timestamp": "2026-01-20T01:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Is Decades Behind, Billions Above Plan on Key Transport Links - Europe must urgently complete long-delayed infrastructure projects that are critical to economic competitiveness and resilience as geopolitical tensions linger, according to the European Court of Audi",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/eu-is-decades-behind-billions-above-plan-on-key-transport-links",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3a019bfd0b1e5dbd6179f5106fd6f6db",
+      "timestamp": "2026-01-20T00:59:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UAE to Double Trade With India, Signs Long-Term LNG Contact - The United Arab Emirates will invest in developing a special investment hub in western India as well as double bilateral trade to $200 billion by 2032 as the two countries seek closer ties amid global",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/uae-to-double-trade-with-india-signs-long-term-lng-contact",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a3864f0cfdbc8aca2557dc1e589ee994",
       "timestamp": "2026-01-20T00:46:01+09:00",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Syria, US-Backed Kurdish Group Sign Deal to End Fighting - Syria’s government and a US-backed Kurdish group agreed to end their clashes, with a new deal expanding the regime’s control over vital territories and resources, including oil and gas fields.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-18/syria-us-backed-kurdish-group-sign-deal-to-end-fighting",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2da4ed0a015aae5464f62c97e2687e72",
-      "timestamp": "2026-01-19T02:37:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "<strong>FBI, Pentagon Ready Possible Minnesota Surge to Back ICE</strong> - The US is taking steps to vastly increase the number of law enforcement agents and potentially send military personnel to Minneapolis, where immigration agents have tangled with residents protesting t",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/us-readies-fbi-troops-for-possible-minnesota-surge-to-back-ice",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a318d8e69e96252bc03bebb19cce9b76",
-      "timestamp": "2026-01-19T02:29:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Tariff Threat to Weigh on Risk Sentiment, European Stocks - US President Donald Trump’s announcement of new tariffs on eight European countries over Greenland is set to weigh on risk sentiment as trading kicks off on Monday, with the region’s equities facing t",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-tariff-threat-to-weigh-on-risk-sentiment-european-stocks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a318d8e69e96252bc03bebb19cce9b76",
-      "timestamp": "2026-01-19T02:29:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Tariff Threat to Weigh on Risk Sentiment, European Stocks - US President Donald Trump’s announcement of new tariffs on eight European countries over Greenland is set to weigh on risk sentiment as trading kicks off on Monday, with the region’s equities facing t",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-tariff-threat-to-weigh-on-risk-sentiment-european-stocks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4c3655a6a6045a30607e23a109c70505",
-      "timestamp": "2026-01-19T01:52:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hassett Says Trump May Be Right to Pass Him Over for Fed Chair - White House economic adviser Kevin Hassett said President Donald Trump may well keep him in his current job, which would eliminate him from contention for the next Federal Reserve chair.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/hassett-says-trump-may-be-right-to-pass-him-over-for-fed-chair",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5402532e899f5f18b418f98abc44f29f",
-      "timestamp": "2026-01-19T01:30:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blair Distances Himself From Trump’s $1 Billion Peace Board Fee - Tony Blair, the former UK prime minister who’s been appointed to the executive panel of Donald Trump’s Board of Peace, distanced himself from the president’s demand that countries pay $1 billion for p",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/blair-distances-himself-from-trump-s-1-billion-peace-board-fee",
       "sentiment": "NEUTRAL"
     }
   ]
