@@ -1,6 +1,160 @@
 {
-  "last_updated": "2026-01-20T00:05:08.326995+09:00",
+  "last_updated": "2026-01-20T00:40:18.759438+09:00",
   "items": [
+    {
+      "id": "405008766599b287d6bebbf94deec0e3",
+      "timestamp": "2026-01-20T00:36:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IMF's Georgieva on Trade Tariffs, AI, Venezuela, Ukraine (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/imf-s-georgieva-on-trade-tariffs-ai-venezuela-ukraine-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "364392cb16124c136a9aeef3723e2cd4",
+      "timestamp": "2026-01-20T00:36:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta Overlooks Ads From Illegal Gambling Sites, Says UK Watchdog - Meta Platforms Inc. is turning a blind eye to illegal gambling sites that advertise on Facebook and Instagram, according to the UK’s Gambling Commission.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/meta-overlooks-ads-from-illegal-gambling-sites-says-uk-watchdog",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2167261a1a5e9bfa74221812d3b629a2",
+      "timestamp": "2026-01-20T00:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trade Uncertainty Sapping Optimism, Bank of Canada Surveys Show - Bank of Canada surveys show persistent pessimism among firms and consumers as the ongoing US trade war deepens uncertainty.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/trade-uncertainty-sapping-optimism-bank-of-canada-surveys-show",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "71935851bb2643ae1119cc9b731f3af0",
+      "timestamp": "2026-01-20T00:22:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Canadian Stocks Slide After Inflation Report, Tariff Concerns - Canadian equities slipped at Monday’s open after a hotter-than-expected inflation report and as the country considers sending troops to Greenland despite threats of more tariffs from US President Dona",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/canadian-stocks-slide-after-inflation-report-tariff-concerns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9bf4ba62dd4e1c5258a1d9a05276490a",
+      "timestamp": "2026-01-20T00:22:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IMF’s Georgieva Says Tensions Over Greenland Could Curb Growth - International Monetary Fund Managing Director Kristalina Georgieva said it’s too early to gauge the economic impact of tensions over Greenland, though it could be a headwind for growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/imf-s-georgieva-says-tensions-over-greenland-could-curb-growth",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9bf4ba62dd4e1c5258a1d9a05276490a",
+      "timestamp": "2026-01-20T00:22:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IMF’s Georgieva Says Tensions Over Greenland Could Curb Growth - International Monetary Fund Managing Director Kristalina Georgieva said it’s too early to gauge the economic impact of tensions over Greenland, though it could be a headwind for growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/imf-s-georgieva-says-tensions-over-greenland-could-curb-growth",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1050717738281f874d61ec1c1011ae39",
+      "timestamp": "2026-01-20T00:20:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why the Tech World Is Going Crazy for Claude Code - In the AI industry, there's always a hot new thing. First it was ChatGPT. Then it was the image generators. There was the DeepSeek moment. In the latter half of last year, everyone was excited about h",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/why-the-tech-world-is-going-crazy-for-claude-code-mklbbiv7",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e264ac93595b8b9ef5b1c7c5a8e507bf",
+      "timestamp": "2026-01-20T00:20:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Chip Startup FuriosaAI Plans $500 Million Round Before IPO - Artificial intelligence chip designer FuriosaAI is seeking to raise as much as $500 million in a funding round before an initial public offering as it gears up to challenge industry titan Nvidia Corp.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/ai-chip-startup-furiosaai-plans-500-million-round-before-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3bec94cc2b7faa6d16214e4072d4e52d",
+      "timestamp": "2026-01-20T00:11:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Peace Board Faces Rewrite Calls After Messy Start - US President Donald Trump’s proposed Board of Peace has got off to a rough start: questioned by Europe, criticized by Israel and celebrated by friends of the Kremlin.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/trump-s-peace-board-faces-rewrite-calls-after-messy-start",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d13916863626af4298857d5788865055",
+      "timestamp": "2026-01-20T00:06:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Top Trade Negotiator Slated to Meet Global CEOs in Davos - Chinese Vice Premier He Lifeng, the nation’s economic czar and top trade negotiator, is scheduled to meet with a group of global CEOs while attending the World Economic Forum, according to a person fa",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-s-top-trade-negotiator-slated-to-meet-global-ceos-in-davos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d13916863626af4298857d5788865055",
+      "timestamp": "2026-01-20T00:06:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Top Trade Negotiator Slated to Meet Global CEOs in Davos - Chinese Vice Premier He Lifeng, the nation’s economic czar and top trade negotiator, is scheduled to meet with a group of global CEOs while attending the World Economic Forum, according to a person fa",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-s-top-trade-negotiator-slated-to-meet-global-ceos-in-davos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cb161f6f87b9ca7d9d9026b7759757ea",
+      "timestamp": "2026-01-20T00:01:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Barrick Changes CFO as Overhaul Continues Ahead of Possible IPO - Barrick Mining Corp. appointed Helen Cai as chief financial officer, replacing Graham Shuttleworth whose departure adds to a string of senior exits at the Canadian miner amid speculation it could be a",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/barrick-changes-cfo-as-overhaul-continues-ahead-of-possible-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7dbc4b9a8530ea4b9b43de72427061ba",
+      "timestamp": "2026-01-20T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BCE’s Data Center Rollout Moving Faster Than Expected, CEO Says - Demand for data center capacity in Canada is causing BCE Inc. to accelerate work on its new artificial intelligence business, and the construction of new facilities is ahead of schedule, its top execu",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/bce-s-data-center-rollout-moving-faster-than-expected-ceo-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "141878b38331226e5f6c2919c57800a1",
+      "timestamp": "2026-01-19T23:55:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "French Premier to End Budget Drama and Bypass Parliament Vote - French Prime Minister Sebastien Lecornu will use Article 49.3 of the constitution to pass the delayed 2026 budget without a parliamentary vote, according to news channel BFM TV.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/french-premier-to-use-constitutional-tool-to-pass-2026-budget",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d578f033503e2e3d7474d719e759db8a",
       "timestamp": "2026-01-19T23:42:01+09:00",
@@ -2045,160 +2199,6 @@
       "related_tickers": [],
       "content": "Euro Pain From Trump Limited by US Asset Exposure, Deutsche Says - The fallout on the euro from President Donald Trump’s renewed trade threats toward European governments over Greenland may be limited because of how much the US relies on the region for capital, accor",
       "url": "https://www.bloomberg.com/news/articles/2026-01-18/euro-pain-from-trump-limited-by-us-asset-exposure-deutsche-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "44efd6f3ed126c4ccb617283976172fc",
-      "timestamp": "2026-01-19T00:16:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fintech Tycoon’s Startup Platform Merges With Milan Tech Hubs - A nonprofit foundation backed by Italian billionaire Andrea Pignataro is merging with the tech incubators of Milan’s leading universities in a bid to boost early-stage investment in the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/fintech-tycoon-s-startup-platform-merges-with-milan-tech-hubs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "51b8298930eada884d6f6d54da51e7ca",
-      "timestamp": "2026-01-19T00:04:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Says Weak Europe Means Trump Must Take Greenland for US - Treasury Secretary Scott Bessent amplified President Donald Trump’s message to European allies that the US won’t back down on taking over Greenland, saying the continent is too weak to ensure its secu",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/bessent-says-weak-europe-means-trump-must-take-greenland-for-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "60175ffa99c3dd7fa93e0489d6f977cb",
-      "timestamp": "2026-01-19T00:00:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Says Senate Will Be Happy With Any of Four Fed Candidates - The Senate will be “quite happy” with any one of the four “great” candidates the Trump administration is considering to replace Federal Reserve Chair Jerome Powell, Treasury Secretary Scott Bessent to",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/bessent-senate-will-be-happy-with-any-of-four-fed-candidates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "893bbdc73fcef9e01166de603f33926b",
-      "timestamp": "2026-01-19T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street’s Hot 2026 Trades, From AI Dispersion to Tech Tails - As investors are caught between fear of missing out on a further stock market rally and the building geopolitical risks, they can take a cue from the derivatives strategists at the biggest Wall Street",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/wall-street-s-hot-2026-trades-from-ai-dispersion-to-tech-tails",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b37980870e119c7fc253c573b1bab469",
-      "timestamp": "2026-01-18T23:55:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brazil’s Lula Slams Trump’s Venezuela Attack in New York Times - Brazil’s President Luiz Inacio Lula da Silva condemned the US’s military incursion in Venezuela and capture of Nicolas Maduro as a “regrettable chapter” that would erode international law and threaten",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/brazil-s-lula-slams-trump-s-venezuela-attack-in-new-york-times",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "24407c56521198f56ee0fe9064c83c89",
-      "timestamp": "2026-01-18T23:48:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chile Declares State of Catastrophe as Fires Force Evacuations - Chilean President Gabriel Boric declared a state of catastrophe in two southern regions in order to provide emergency relief as wildfires force tens of thousands to evacuate.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/chile-declares-state-of-catastrophe-as-fires-force-evacuations",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d189fd2a62ab7b961fd8c17f44c412cb",
-      "timestamp": "2026-01-18T23:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Selective Exit From Global Groups Is Tamer Than Feared - The Trump administration’s recent move to withdraw from 66 international organizations sounded like a bold “America First” foreign policy move, but will actually have little impact on US funds flowing",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-s-selective-exit-from-global-groups-is-tamer-than-feared",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5624bc3867d240753cde7903e0b01105",
-      "timestamp": "2026-01-18T23:16:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Soldiers Leave Greenland After 44-Hour Stay, Bild Reports - The German military reconnaissance team that arrived in Greenland on Friday is on its way back after a 44-hour deployment on the Arctic island, Bild newspaper reported on Sunday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/german-soldiers-leave-greenland-after-44-hour-stay-bild-reports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5b296939be0f8c2b02ef7cbaaf4ba4f9",
-      "timestamp": "2026-01-18T23:12:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carney Says Canada Is Worried About Trump’s Greenland Escalation - Canadian Prime Minister Mark Carney said Greenland’s future is for Denmark and Greenland to decide, and that he’ll reiterate that message to President Donald Trump if they speak about it.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/carney-says-canada-is-worried-about-trump-s-greenland-escalation-mkjtg8jb",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c1a7f2912990b97662f4fa20f91f53e",
-      "timestamp": "2026-01-18T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘No Reasons to Own’: Software Stocks Sink on Fear of New AI Tool - The new year was supposed to bring opportunities for beaten-down software stocks. Instead, the group is off to its worst start in years.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/-no-reasons-to-own-software-stocks-sink-on-fear-of-new-ai-tool",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b274372b665be12383e0b0e2c779f9d2",
-      "timestamp": "2026-01-18T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What’s Happening in EM: Surge in Private Credit Deals (Podcast) - This week, Mpho Hlakudi in Johannesburg joins Selcuk Gokoluk to discuss how private credit funds are looking to take advantage of increased demand for emerging markets investments in a shift away from",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-18/what-s-happening-in-em-surge-in-private-credit-deals-podcast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "35e3eac28719bcb66983ad0873402d8e",
-      "timestamp": "2026-01-18T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sovereign Wealth Funds Join Clamor for Private Credit in EMs - A record wave of private credit deals across emerging markets looks set to extend this year, with a host of institutional and sovereign wealth investors seeking to diversify their US-focused portfolio",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/sovereign-wealth-funds-join-clamor-for-private-credit-in-ems",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7e13c33269d1060ddf003771ec373d2b",
-      "timestamp": "2026-01-18T22:22:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Complains Canada Vulnerable to US Rivals in Arctic: NBC - President Trump is increasingly complaining to aides about what he sees is Canada’s vulnerability to US foes in the Arctic such as Russia and China, NBC News reports citing current and former US offic",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-complains-canada-vulnerable-to-us-rivals-in-arctic-nbc",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a4073491a68f4d36329db45404cb34f7",
-      "timestamp": "2026-01-18T22:03:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Israel’s Wartime Tech Economy - Israel has long been known as the “startup nation,” and its tech sector accelerated during the Israel-Hamas war. Since 2023, Israeli startups have raised record levels of private capital, driven by gr",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-18/israel-s-wartime-tech-economy-video",
       "sentiment": "NEUTRAL"
     }
   ]
