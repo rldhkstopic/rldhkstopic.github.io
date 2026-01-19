@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-19T17:05:03.189474+09:00",
+  "last_updated": "2026-01-19T17:44:05.440256+09:00",
   "items": [
+    {
+      "id": "a5ac5ac5f264169bfc9ad5b83deeaae8",
+      "timestamp": "2026-01-19T17:30:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Germany Says Trump Has Reached Red Line With Greenland Threat - US President Donald Trump’s threat to annex Greenland is a red line for the European Union and the 27-nation bloc should consider using a legal mechanism designed to repel economic coercion, according",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/germany-says-trump-has-reached-red-line-with-greenland-threat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e9e26c0ccd2987a3237f6cf43b003d97",
+      "timestamp": "2026-01-19T17:26:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wilson: Gold Thrives on Uncertainty - Gold and silver jumped to record highs after President Trump announced tariffs on 8 European allies that are opposing US plans to take over Greenland. David Wilson, Director of Commodities Strategy at",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/wilson-gold-thrives-on-uncertainty-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "033579cf83b2e69e833d8653ea65ace6",
+      "timestamp": "2026-01-19T17:23:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Investcorp’s Alardhi on GCC investment, IPO market - Investcorp Executive Chairman Mohammed Alardhi says there is “value in pockets” across GCC investment opportunities and that the region’s IPO market is gaining momentum. He spoke with Bloomberg’s Joum",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/investcorp-s-alardhi-on-gcc-investment-ipo-market-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f457d1f7cdf0338f28c495b3ad9c30c0",
+      "timestamp": "2026-01-19T17:23:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bayer Shares Jump as US Supreme Court to Hear Roundup Appeal - Bayer AG’s shares surged after the US Supreme Court said it would hear the company’s appeal in a Roundup case that could undercut thousands of lawsuits tied to the weedkiller.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/bayer-shares-jump-as-us-supreme-court-to-hear-roundup-appeal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "00d8bf49aac935de8ea55cc1e7517629",
+      "timestamp": "2026-01-19T17:16:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Sees Further Dollar Weakening on Tariffs Threat - Kamakshya Trivedi, chief FX and EM strategist at Goldman Sachs, says the dollar is likely to continue its decline as US President Donald Trump’s proposed new levies on eight countries that have oppose",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/goldman-sees-further-dollar-weakening-on-tariffs-threat-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d0866451b7cee533805cbf4f8bb73027",
+      "timestamp": "2026-01-19T17:15:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Plants Another Africa Marker in Campaign to Globalize Yuan - Zambia is the first African country to let Chinese mining companies pay taxes in yuan. It probably won’t be the last, as Beijing seeks to internationalize the currency and dilute its dollar dependence",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-plants-another-africa-marker-in-campaign-to-globalize-yuan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "37b67b85101983f16a0dc7f246a12d3e",
+      "timestamp": "2026-01-19T17:11:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Automaker Shares Fall on Trump’s Latest Tariff Threats - European automakers plunged after US President Donald Trump threatened to hike tariffs again in the standoff over Greenland.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/european-automaker-shares-fall-on-trump-s-latest-tariff-threats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4516e547309da077223242ea5a21a296",
+      "timestamp": "2026-01-19T17:01:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Sends Military Drone Into Taiwan Airspace for First Time - China sent a military drone into Taiwanese airspace for the first time, underscoring Beijing’s efforts to test the self-run democracy’s defenses.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-sends-military-drone-into-taiwan-airspace-for-first-time",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "94e11c1fb5105b6f6003576c9c2fb0e6",
       "timestamp": "2026-01-19T16:36:31+09:00",
@@ -2111,94 +2199,6 @@
       "related_tickers": [],
       "content": "Thai Ruling Party Vows to Resolve Cambodia Row as Election Nears - Thailand’s ruling party, which is seeking to retain power in next month’s election, is vowing to resolve the country’s conflict with Cambodia and clean up its image as a transit hub for trafficked sca",
       "url": "https://www.bloomberg.com/news/articles/2026-01-17/thai-ruling-party-vows-to-resolve-cambodia-row-as-election-nears",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d72d7115fbc9012c549024ccb6f0c1b3",
-      "timestamp": "2026-01-17T13:08:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Consumed Twice the Electricity of the US in 2025: CCTV - China used more than double the electricity of the US in 2025, China Central Television reported Saturday, citing data from the National Energy Administration.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/china-consumed-twice-the-electricity-of-the-us-in-2025-cctv",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fcb5b619e49af0e33bbbdf3b831a55c6",
-      "timestamp": "2026-01-17T13:06:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Punished 69 Senior Officials for Corruption Last Year - China punished 69 officials at the level of minister, provincial rank and above last year for corruption amid an ongoing crackdown, according to a statement posted Saturday on the website of the Centr",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/china-punished-69-senior-officials-for-corruption-last-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b315aac133ae74d884c1e3b797c1f67c",
-      "timestamp": "2026-01-17T11:03:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bill Dudley: Trump Pressure on Powell ‘Counterproductive’ - Former New York Fed President Bill Dudley reacts to the Justice Department’s criminal subpoena of Fed Chair Jerome Powell, and discusses Powell’s public response. Dudley explains how the Trump Adminis",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-17/dudley-trump-pressure-on-powell-counterproductive-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2895f4c0dcf570398970e8d9f1ca9bbb",
-      "timestamp": "2026-01-17T11:00:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "LA Billionaire Caruso to Skip 2026 Races for LA Mayor and California Governor - Rick Caruso, a billionaire real estate developer, will not run for California governor or mayor of Los Angeles, he announced on X Friday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/la-billionaire-caruso-to-skip-2026-races-for-la-mayor-and-california-governor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c87782b003cc26a7f10f078827a92eb1",
-      "timestamp": "2026-01-17T10:58:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Capital A Completes Sale of Aviation Business to AirAsia X - Malaysia’s Capital A Bhd. said it completed the sale of its short-haul aviation business to AirAsia X Bhd., as part of the restructuring of the business empire controlled by Tony Fernandes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/capital-a-completes-sale-of-aviation-business-to-airasia-x",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "15500f5ae4c8bcbb9c05edf62f4c1014",
-      "timestamp": "2026-01-17T10:50:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lutnick Warns Some Korean, Taiwanese Firms May Face 100% Chip Tariffs Unless They Invest in US - Commerce Secretary Howard Lutnick said South Korean memory chipmakers and Taiwanese companies that aren’t investing in the US may face up to 100% tariffs unless they commit to increased production on ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/lutnick-warns-some-korean-taiwanese-firms-may-face-100-chip-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bf51abc4df301039ef256678cafbb172",
-      "timestamp": "2026-01-17T09:57:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Minneapolis Protesters Win Ruling Curbing ICE Use of Force - A judge restricted the use of force by ICE officers in Minneapolis after protesters complained of widespread abuse that violated their constitutional rights, in a suit that’s taken on fresh urgency af",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/minneapolis-protesters-win-ruling-curbing-ice-use-of-force",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2bb4dc26e53a14d07946d0e33bb51a16",
-      "timestamp": "2026-01-17T09:57:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Moves to Tech Giants to Pay Surging Power Costs | Balance of Power: Late Edition 01/16/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Rep. Katherine Clark (D-MA) states ICE is a reign of terror and needs accountability when",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-17/balance-of-power-late-edition-01-16-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
