@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-20T08:03:24.926681+09:00",
+  "last_updated": "2026-01-20T08:35:39.070789+09:00",
   "items": [
+    {
+      "id": "3ef10241b674883e3225a39c6e283d6d",
+      "timestamp": "2026-01-20T08:08:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Silver Rises to Record as US-EU Tensions Over Greenland Persist - Silver hit a record and gold traded just below an all-time high, as President Donald Trump’s push to take over Greenland fueled fears of a damaging trade war between the US and Europe.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/silver-rises-to-record-as-us-eu-tensions-over-greenland-persist",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "4746623097cbb7ed346e1dcddc33f036",
       "timestamp": "2026-01-20T08:00:01+09:00",
@@ -10,6 +21,39 @@
       "related_tickers": [],
       "content": "The Next Major Hollywood Studio Is for Sale - Peter Chernin is in talks to sell his independent production company",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-19/-love-is-blind-producer-north-road-holds-sale-talks-with-mediawan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "22fbca96bae9eb9efc1f58536da9b5a6",
+      "timestamp": "2026-01-20T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "MSCI Rule Shift May Spur $2 Billion Exit From Indonesian Stocks - Global funds may withdraw more than $2 billion from Indonesian equities in coming months if MSCI Inc. proceeds with a change to its indexing methodology, underscoring concerns about the investability ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/msci-rule-shift-may-spur-2-billion-exit-from-indonesian-stocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "97b75a9fcfefd56711ad77c1c32bd5c6",
+      "timestamp": "2026-01-20T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Korea Bourse CEO Sees Kospi at 6,000, Vows to Cut ‘Zombie’ Firms - The world-beating rally in South Korean stocks is poised to extend as the nation presses ahead with efforts to improve shareholder returns and lure global capital, according to Jeong Eun Bo, chief exe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/korea-bourse-ceo-sees-kospi-at-6-000-vows-to-cut-zombie-firms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e37be1266fe2f258cd9dd76f66f2bcff",
+      "timestamp": "2026-01-20T07:59:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan’s 20-Year Government Bond Sale Has Investors on Edge - Investors are on tenterhooks ahead of an auction of 20-year Japanese sovereign bonds Tuesday after the government’s plans for tax relief on food jolted the market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/japan-s-20-year-government-bond-sale-has-investors-on-edge",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2155,50 +2199,6 @@
       "related_tickers": [],
       "content": "Tiger Global’s Tax Ruling Casts Pall on India’s Buyout Sector - An India court ruling forcing Tiger Global Management to pay taxes on an asset sale will have ripple effects on other buyout firms seeking to unload long-held investments, and may set a precedent for ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/tiger-global-s-tax-ruling-casts-pall-on-india-s-buyout-sector",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bff50b2cd8068ef2c60e1bc0f589b910",
-      "timestamp": "2026-01-19T10:54:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Rocks Europe With Tariff Play to Seize Greenland - European leaders are taking steps to respond to Donald Trump's move on Greenland, with an emergency summit called and some leaders warning of retaliatory measures. Jon Herskovitz shares the latest. (S",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/trump-rocks-europe-with-tariff-play-to-seize-greenland-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "70fc4040ab32eb46bf9ca8068aa018cd",
-      "timestamp": "2026-01-19T10:42:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hedge Funds Exit Bullish Euro Bets Just Before Greenland Threat - Hedge funds closed their bullish euro positions just days before US President Donald Trump threatened to impose new tariffs on European nations as he ramped up efforts to take over Greenland.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/hedge-funds-exit-bullish-euro-bets-just-before-greenland-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7296e8ff7d187dc2c91182138f6ad865",
-      "timestamp": "2026-01-19T10:39:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Home Prices Fall in December as Calls Grow for More Action - China’s home prices fell in December, closing another tumultuous year for the real estate industry as its debt crisis persists.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-home-prices-fall-in-december-as-calls-grow-for-more-action",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "497ba866d7dc7119899322532fd356b2",
-      "timestamp": "2026-01-19T10:24:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Natural Gas Jumps on Colder Outlook for Last Week of January - US natural gas futures jumped as the weather outlook for late January shifted colder, with blasts of Arctic air set to sweep the eastern part of the country, raising demand for the fuel that’s used fo",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/us-natural-gas-jumps-on-colder-outlook-for-last-week-of-january",
       "sentiment": "NEUTRAL"
     }
   ]
