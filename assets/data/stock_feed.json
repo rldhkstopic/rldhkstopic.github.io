@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-20T05:38:02.553368+09:00",
+  "last_updated": "2026-01-20T06:03:53.974608+09:00",
   "items": [
+    {
+      "id": "b5ba1b5ba7882a40e57044345c6395cb",
+      "timestamp": "2026-01-20T06:00:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Korea Kicks Off AI Squid Game in Bid to Compete with US, China - <p>The state-backed&nbsp;survival&nbsp;contest aims&nbsp;to find&nbsp;the best indigenous AI models.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-19/korea-kicks-off-ai-squid-game-for-best-sovereign-foundation-models",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "860d166e7a63dbbe905963c348f65b53",
+      "timestamp": "2026-01-20T05:53:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Henkel in Talks With Wendel to Acquire Chemical Maker Stahl - Henkel AG is in talks with French investment firm Wendel SE on a potential acquisition of Dutch chemical maker Stahl Holdings BV.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/henkel-in-talks-with-wendel-to-acquire-chemical-maker-stahl",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9bd7365cf9ca39a52a75b26f6458c9ab",
+      "timestamp": "2026-01-20T05:49:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Lays Groundwork for Approval of Controversial Chinese Embassy - The UK appeared to lay the groundwork for approving China’s new embassy in London on the eve of a controversial decision that risks driving a deeper wedge both within the ruling Labour party and with ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/uk-lays-groundwork-for-approval-of-controversial-chinese-embassy",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "45de46f3d9fbf37097f26a34a3d18b4d",
       "timestamp": "2026-01-20T05:05:13+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "Reeves Says London IPO Critics Were ‘Wrong’ as New Rules Kick In - Chancellor of the Exchequer Rachel Reeves is set to say critics of the UK’s capital markets “were wrong” and herald “a new golden age for the City” at the London Stock Exchange on Monday, as new rules",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/reeves-says-london-ipo-critics-were-wrong-as-new-rules-kick-in",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d2d75a6676cc440890d4872a2c4152e0",
-      "timestamp": "2026-01-19T09:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Reeves Says London IPO Critics Were ‘Wrong’ as New Rules Kick In - Chancellor of the Exchequer Rachel Reeves is set to say critics of the UK’s capital markets “were wrong” and herald “a new golden age for the City” at the London Stock Exchange on Monday, as new rules",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/reeves-says-london-ipo-critics-were-wrong-as-new-rules-kick-in",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "994e616916b19b81601d2ab185424c3a",
-      "timestamp": "2026-01-19T09:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Prices of UK Homes Listed for Sale Soar After Reeves Budget - Home-sellers in the UK have ramped up their asking prices at the sharpest pace in more than a decade, according to new data, as confidence returns to the property market following the Labour governmen",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/prices-of-uk-homes-listed-for-sale-soar-after-reeves-budget",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eff707b4c9c4f2d2409ab42f944e1be1",
-      "timestamp": "2026-01-19T09:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Productivity Surge Signals Economic Turnaround, Study Finds - Britain is seeing early signs of a long-awaited turnaround of its productivity woes, according to an alternative measure that suggests output per hour worked has risen at a pace not seen since before ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/uk-productivity-surge-signals-economic-turnaround-study-finds",
       "sentiment": "NEUTRAL"
     }
   ]
