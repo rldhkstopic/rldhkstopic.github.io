@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-19T16:40:17.305340+09:00",
+  "last_updated": "2026-01-19T17:05:03.189474+09:00",
   "items": [
+    {
+      "id": "94e11c1fb5105b6f6003576c9c2fb0e6",
+      "timestamp": "2026-01-19T16:36:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thai Political Party Floats State Matchmaking to Fix Birth Rates - With the birth rate in Thailand falling fast, one political party jockeying for position ahead of the country’s snap election next month reckons it has the answer: step in to help citizens find love.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/thai-political-party-floats-state-matchmaking-to-fix-birth-rates",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "20ee845366e7109f705b85e8ad6434b7",
       "timestamp": "2026-01-19T16:17:36+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Trump Moves to Tech Giants to Pay Surging Power Costs | Balance of Power: Late Edition 01/16/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Rep. Katherine Clark (D-MA) states ICE is a reign of terror and needs accountability when",
       "url": "https://www.bloomberg.com/news/videos/2026-01-17/balance-of-power-late-edition-01-16-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f8e37d179ca496abdfb2584a42c0aaf0",
-      "timestamp": "2026-01-17T09:51:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Takaichi to Mull Suspension of Food Sales Tax, Mainichi Reports - Japanese Prime Minister Sanae Takaichi will consider a temporary suspension of sales tax on food as part of her election campaign pledge after her expected dissolution of parliament next week, Mainich",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/takaichi-to-mull-suspension-of-food-sales-tax-mainichi-reports",
       "sentiment": "NEUTRAL"
     }
   ]
