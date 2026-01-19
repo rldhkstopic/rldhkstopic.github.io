@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-19T09:48:04.182702+09:00",
+  "last_updated": "2026-01-19T10:32:10.318646+09:00",
   "items": [
+    {
+      "id": "d8b61dac3bb8ead7a3245feff68ef7d0",
+      "timestamp": "2026-01-19T09:59:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin Falls Below $92,000 as Tariff Fears Weigh on Risk Assets - Cryptocurrencies fell sharply as risk assets slipped and haven demand strengthened after US President Donald Trump proposed new levies on eight European countries.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/bitcoin-btc-falls-below-92-000-as-tariff-fears-weigh-on-risk-assets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dbfb5b1c166875434850b91574b179ad",
+      "timestamp": "2026-01-19T09:46:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Explosion at Chinese Steel Plant Leaves Two Dead, Eight Missing - A large blast at a steel plant in northern China killed at least two workers and injured dozens of others, according to state media.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/explosion-at-chinese-steel-plant-leaves-two-dead-eight-missing",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "77d914eed05a090834c985c892016a2a",
       "timestamp": "2026-01-19T09:01:00+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Bayer Gets Supreme Court Hearing in Challenge to Roundup Suits - The US Supreme Court agreed to hear Bayer AG’s appeal taking aim at thousands of lawsuits targeting its top-selling Roundup weedkiller for causing cancer.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-16/bayer-gets-supreme-court-hearing-in-challenge-to-roundup-suits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "47a09048bf0c43b4b40fafdf34f5a66f",
-      "timestamp": "2026-01-17T04:26:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Big Take: Birth Rate Drop Hits US Schools - Across the US, small colleges like Trinity Christian College and Sterling College are confronting a hard reality: there simply aren't enough students. Bloomberg's Big Take looks at how falling birth r",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-16/big-take-birth-rate-drop-hits-us-schools-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7fa59a7b023e1c3c64fca0f414b6e460",
-      "timestamp": "2026-01-17T04:15:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Betting Stocks Fall as NFL Prediction Bets Gain on Gambling Apps - DraftKings Inc., Flutter Entertainment PLC and other stocks linked to the sports gambling industry are tumbling on Friday after new data suggested that they may be losing ground to competing products ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-16/betting-stocks-fall-as-nfl-prediction-bets-gain-on-gambling-apps",
       "sentiment": "NEUTRAL"
     }
   ]
