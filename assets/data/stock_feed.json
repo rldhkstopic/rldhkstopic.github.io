@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-19T22:45:38.552906+09:00",
+  "last_updated": "2026-01-19T23:07:26.799556+09:00",
   "items": [
+    {
+      "id": "7099b42ce70c7c64243887773b5e7343",
+      "timestamp": "2026-01-19T22:55:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Merz Seeks to Rein In Macron in Response to Trump Tariff Threat - Chancellor Friedrich Merz indicated Germany is less willing than France to unleash the European Union’s strongest trade countermeasure in response to US President Donald Trump’s latest tariff threats ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/merz-seeks-to-rein-in-macron-in-response-to-trump-tariff-threat",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "937ed624d63302eb0b73c1031c216253",
       "timestamp": "2026-01-19T22:20:40+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Trump Plans Executive Order for Army-Navy Game Broadcast - President Donald Trump said he intends to sign an executive order that would give an exclusive four-hour broadcast television window to the Army-Navy Game.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-18/trump-plans-executive-order-for-army-navy-game-broadcast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3668049a03c5d60be599cfc2681d0318",
-      "timestamp": "2026-01-18T09:34:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Benin Ruling Coalition Sweeps Parliament Ahead of April Vote - Benin’s ruling coalition swept parliament, consolidating power ahead of a pivotal presidential vote as President Patrice Talon is due to step down.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/benin-ruling-coalition-sweeps-parliament-ahead-of-april-vote",
       "sentiment": "NEUTRAL"
     }
   ]
