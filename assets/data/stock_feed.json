@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-20T07:37:37.891589+09:00",
+  "last_updated": "2026-01-20T08:03:24.926681+09:00",
   "items": [
+    {
+      "id": "4746623097cbb7ed346e1dcddc33f036",
+      "timestamp": "2026-01-20T08:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Next Major Hollywood Studio Is for Sale - Peter Chernin is in talks to sell his independent production company",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-19/-love-is-blind-producer-north-road-holds-sale-talks-with-mediawan",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "5df35616f7d21c93f71987352fd69f5e",
       "timestamp": "2026-01-20T07:24:47+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "US Natural Gas Jumps on Colder Outlook for Last Week of January - US natural gas futures jumped as the weather outlook for late January shifted colder, with blasts of Arctic air set to sweep the eastern part of the country, raising demand for the fuel that’s used fo",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/us-natural-gas-jumps-on-colder-outlook-for-last-week-of-january",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4931314c72769c3a735b11e9d18c695e",
-      "timestamp": "2026-01-19T10:24:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sunway’s $2.7 Billion IJM Bid Questioned Over Bumiputera Rights - Sunway Bhd.’s proposed 11 billion ringgit ($2.7 billion) takeover of IJM Corp Bhd. is drawing political scrutiny over concerns that it could dilute both the equity interests of the government and the ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/sunway-s-2-7-billion-ijm-bid-questioned-over-bumiputera-rights",
       "sentiment": "NEUTRAL"
     }
   ]
