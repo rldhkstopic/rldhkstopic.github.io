@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-01-19T17:44:05.440256+09:00",
+  "last_updated": "2026-01-19T18:08:56.282452+09:00",
   "items": [
+    {
+      "id": "d7b8a404ecb8e4e2e73696ddba1139c3",
+      "timestamp": "2026-01-19T18:00:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "<strong>Why the Tech World Is Going Crazy for Claude Code</strong> - <p><strong>Maybe this is what AGI is.</strong></p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/why-the-tech-world-is-going-crazy-for-claude-code",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2100b74465a0eb073b6dca775645cb4f",
+      "timestamp": "2026-01-19T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Odd Lots: Why the Tech World Is Crazy For Claude Code (Podcast) - In the AI industry, there’s always a hot new thing. First it was ChatGPT. Then it was the image generators. There was the DeepSeek moment. In the latter half of last year, everyone was excited about h",
+      "url": "https://www.bloomberg.com/news/audio/2026-01-19/odd-lots-why-the-tech-world-is-crazy-for-claude-code-podcast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c3f9f525f59acd75f053440d4ba4fa1d",
+      "timestamp": "2026-01-19T17:48:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Investcorp Chair Sees IPO Market Improving in the Gulf - The outlook for initial public offerings is getting better in Gulf markets, according to Investcorp’s Executive Chairman Mohammed Alardhi.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/investcorp-chair-sees-ipo-market-improving-in-the-gulf",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "06795f30749b88e42fb6f194962cb86c",
+      "timestamp": "2026-01-19T17:44:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Refiners Shun UAE’s Flagship Murban for Cheaper Alternatives - Asian oil refiners are switching from Abu Dhabi’s flagship Murban crude as other grades become cheaper, according to traders.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/oil-refiners-shun-uae-s-flagship-murban-for-cheaper-alternatives",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a5ac5ac5f264169bfc9ad5b83deeaae8",
       "timestamp": "2026-01-19T17:30:16+09:00",
@@ -10,6 +54,17 @@
       "related_tickers": [],
       "content": "Germany Says Trump Has Reached Red Line With Greenland Threat - US President Donald Trump’s threat to annex Greenland is a red line for the European Union and the 27-nation bloc should consider using a legal mechanism designed to repel economic coercion, according",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/germany-says-trump-has-reached-red-line-with-greenland-threat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "60bb1056fc43fb5dc7091209598b29a8",
+      "timestamp": "2026-01-19T17:27:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Rocks Europe, EU Weighs Greenland Tariff Retaliation | Daybreak Europe 01/19/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/daybreak-europe-1-19-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Ugandan Opposition Says Party Leader Bobi Wine Abducted - Uganda’s main opposition leader Bobi Wine, who’s vying for a second time to unseat President Yoweri Museveni, was taken away from his home late Friday.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-17/ugandan-opposition-says-party-leader-bobi-wine-abducted",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e57e7b62f855be05145c45a92e39ba8b",
-      "timestamp": "2026-01-17T15:17:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Australia Changes Tack on Hate Crime Bills as Opposition Demurs - Australia is dropping a proposal to broadly criminalize hate speech as part of its response to last month’s deadly shooting in Sydney, after facing objection from major opposition parties.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/australia-changes-tack-on-hate-crime-bills-as-opposition-demurs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe295c42b67479d1fcb5d0520eaeee59",
-      "timestamp": "2026-01-17T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Streeting Became Starmer’s Top UK Rival in Year of Grudges - When Conservative leader Kemi Badenoch accused her rival Robert Jenrick of treachery and sacked him this week, some in Keir Starmer’s Labour government wondered: if the UK prime minister were stronger",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/how-streeting-became-starmer-s-top-uk-rival-in-year-of-grudges",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3be603c548b284f7fd81d93f40db12b1",
-      "timestamp": "2026-01-17T14:32:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk Seeks Up to $134 Billion Damages From OpenAI, Microsoft - Elon Musk wants OpenAI Inc. and Microsoft to pay him damages in the range of $79 billion to $134 billion over his claims that the generative AI company defrauded him by abandoning its nonprofit roots ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/musk-seeks-up-to-134-billion-damages-from-openai-microsoft",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "87da492d1e95c1d6e320b0148853272f",
-      "timestamp": "2026-01-17T13:48:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India to Start Recovery of Taxes From Tiger Global After Verdict - India will revive tax proceedings against Tiger Global Management after a top court ruling related to the firm’s 2018 sale of its stake in online retailer Flipkart.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/india-to-start-recovery-of-taxes-from-tiger-global-after-verdict",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c667eb6b0a60e0d85a9e5235c8784a03",
-      "timestamp": "2026-01-17T13:08:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Ruling Party Vows to Resolve Cambodia Row as Election Nears - Thailand’s ruling party, which is seeking to retain power in next month’s election, is vowing to resolve the country’s conflict with Cambodia and clean up its image as a transit hub for trafficked sca",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/thai-ruling-party-vows-to-resolve-cambodia-row-as-election-nears",
       "sentiment": "NEUTRAL"
     }
   ]
