@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-19T22:18:11.667928+09:00",
+  "last_updated": "2026-01-19T22:45:38.552906+09:00",
   "items": [
+    {
+      "id": "937ed624d63302eb0b73c1031c216253",
+      "timestamp": "2026-01-19T22:20:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France Plans G-7 Meeting to Talk US Tariff Threats on Wednesday - France is seeking to convene a meeting of Group of Seven finance chiefs as soon Wednesday to discuss US President Donald Trump’s threat to hit allies with additional tariffs for opposing his bid to an",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/france-plans-g-7-meeting-to-talk-us-tariff-threats-on-wednesday",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "57daefd76464f9de692a097ea55ea7a2",
+      "timestamp": "2026-01-19T22:20:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zurich Makes £7.7 Billion Bid for UK Insurer Beazley - Zurich Insurance Group AG has made an offer to buy Beazley Plc, valuing the UK-listed cyber insurer at about £7.67 billion ($10.3 billion).",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/zurich-makes-7-7-billion-bid-for-uk-cyber-insurer-beazley",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6f2500362ee5ef152a86805653b19abe",
       "timestamp": "2026-01-19T22:00:56+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Benin Ruling Coalition Sweeps Parliament Ahead of April Vote - Benin’s ruling coalition swept parliament, consolidating power ahead of a pivotal presidential vote as President Patrice Talon is due to step down.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-18/benin-ruling-coalition-sweeps-parliament-ahead-of-april-vote",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe1ff7e51aa64967d540f3adb1a56e57",
-      "timestamp": "2026-01-18T09:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s New Tech Stock Boom Leaves Its Economic Malaise Behind - Nearly a year after DeepSeek’s AI breakthrough rattled global markets, China is entering 2026 with a fresh wave of technological advances that are powering a stock rally, even as its economy remains f",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/china-s-new-tech-stock-boom-leaves-its-economic-malaise-behind",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f6996e1c66cc045d430849afd3251c81",
-      "timestamp": "2026-01-18T08:36:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Greenland Pressure Blitz Reopens Tariff Wounds in Europe - President Donald Trump’s fixation on Greenland offers an ice-cold reminder to leaders in Europe and abroad: No deal is ever final.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-17/trump-s-greenland-pressure-blitz-reopens-tariff-wounds-in-europe",
       "sentiment": "NEUTRAL"
     }
   ]
