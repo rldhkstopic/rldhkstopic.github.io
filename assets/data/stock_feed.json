@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-20T00:40:18.759438+09:00",
+  "last_updated": "2026-01-20T01:04:51.740083+09:00",
   "items": [
+    {
+      "id": "a3864f0cfdbc8aca2557dc1e589ee994",
+      "timestamp": "2026-01-20T00:46:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mubadala CEO Al Mubarak on Monetization, AI, Private Credit - Khaldoon Al Mubarak, CEO of Abu Dhabi’s Mubadala Investment Co., discusses investment monetization and sector trajectories, with a focus on AI, technology and infrastructure, geographic assets and pri",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/mubadala-ceo-on-monetization-ai-private-credit-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "405008766599b287d6bebbf94deec0e3",
       "timestamp": "2026-01-20T00:36:21+09:00",
@@ -32,6 +43,17 @@
       "related_tickers": [],
       "content": "Trade Uncertainty Sapping Optimism, Bank of Canada Surveys Show - Bank of Canada surveys show persistent pessimism among firms and consumers as the ongoing US trade war deepens uncertainty.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/trade-uncertainty-sapping-optimism-bank-of-canada-surveys-show",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1bfbdcf4ed56fb8e91bff1ceb50abe38",
+      "timestamp": "2026-01-20T00:23:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CSG Said to Eye Friday Trading Debut at €25 Billion Valuation - Defense firm Czechoslovak Group AS is considering setting a price in an accelerated initial public offering that would value the company at about €25 billion ($29.1 billion), according to people famil",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/csg-said-to-eye-friday-trading-debut-at-25-billion-valuation",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Blair Distances Himself From Trump’s $1 Billion Peace Board Fee - Tony Blair, the former UK prime minister who’s been appointed to the executive panel of Donald Trump’s Board of Peace, distanced himself from the president’s demand that countries pay $1 billion for p",
       "url": "https://www.bloomberg.com/news/articles/2026-01-18/blair-distances-himself-from-trump-s-1-billion-peace-board-fee",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cffaf34e083307a22de93dea098bf601",
-      "timestamp": "2026-01-19T01:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brazil’s Billionaire Batistas Poised for Venezuelan Oil Revival - The billionaire Batista brothers are eyeing a billion-barrel Venezuelan oil project that stands to benefit from US President Donald Trump’s planned revival of the South American nation’s energy sector",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/brazil-s-billionaire-batistas-poised-for-venezuelan-oil-revival",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "945be0d7e26efb330dcb1b0c3178be30",
-      "timestamp": "2026-01-19T00:59:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Euro Pain From Trump Limited by US Asset Exposure, Deutsche Says - The fallout on the euro from President Donald Trump’s renewed trade threats toward European governments over Greenland may be limited because of how much the US relies on the region for capital, accor",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-18/euro-pain-from-trump-limited-by-us-asset-exposure-deutsche-says",
       "sentiment": "NEUTRAL"
     }
   ]
