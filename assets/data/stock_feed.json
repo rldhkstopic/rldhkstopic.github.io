@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-20T15:44:27.686556+09:00",
+  "last_updated": "2026-01-20T16:08:29.644124+09:00",
   "items": [
+    {
+      "id": "2e67d6a8e5966b4177dde848718aaec2",
+      "timestamp": "2026-01-20T15:52:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "O'Hanley: 'Sell America' Trade Not Showing Up in Numbers - State Street Chief Executive Officer Ron O'Hanley says there are discussions around the 'Sell America' trade, but it is \"not yet showing up in the numbers.\" He also talks about the impact of geopoliti",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/o-hanley-sell-america-trade-not-showing-up-in-numbers-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "efa6504b36032fd61d98b2c1a32a1899",
+      "timestamp": "2026-01-20T15:46:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FTSE 100 Set to Fall Anew in Global Selloff",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-01-20/ftse-100-live-trump-tariffs-pound-bonds-gold-davos-greenland-what-s-moving-uk-markets-right-now-markets-today-mkm8dae5",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e0e480b012db4981bfb0d3de03e0a868",
       "timestamp": "2026-01-20T15:35:45+09:00",
@@ -10,6 +32,39 @@
       "related_tickers": [],
       "content": "Trump Renews Desire to Own Greenland - US President Donald Trump renewed his push for Greenland, saying “we have to have it” when speaking to reporters in Florida. Separately, he posted a screenshot of a message on Truth Social that he say",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-renews-desire-to-own-greenland-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e941b6a83c441c7906796d1460981929",
+      "timestamp": "2026-01-20T15:29:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jailed Former Thai PM Thaksin May Be Eligible For Parole in May - Former Thai prime minister Thaksin Shinawatra, serving a one-year sentence in a Bangkok prison for corruption, may be eligible to be released on parole in May, raising the possibility that the influen",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/jailed-former-thai-pm-thaksin-may-be-eligible-for-parole-in-may",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6fd730d63ceed50727eed69ebf2b6642",
+      "timestamp": "2026-01-20T15:01:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan Plans Return to Global Bond Market After Four-Year Gap - Pakistan plans to return to the global bond market after four years, underscoring its progress in economic stabilization after coming close to a default just a few years ago.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/pakistan-plans-return-to-global-bond-market-after-four-year-gap",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6fd730d63ceed50727eed69ebf2b6642",
+      "timestamp": "2026-01-20T15:01:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan Plans Return to Global Bond Market After Four-Year Gap - Pakistan plans to return to the global bond market after four years, underscoring its progress in economic stabilization after coming close to a default just a few years ago.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/pakistan-plans-return-to-global-bond-market-after-four-year-gap",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Trump’s Greenland Push Makes Markets Nervous | Insight with Haslinda Amin 01/19/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
       "url": "https://www.bloomberg.com/news/videos/2026-01-19/insight-with-haslinda-amin-1-19-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d9196594277993a9fa2a7158f5cffd27",
-      "timestamp": "2026-01-19T15:23:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Mamdani Facing ‘Big Test’ From NYSE’s Texas Trading Outpost - President Donald Trump called a New York Stock Exchange equities trading outpost in Texas “an UNBELIEVABLY BAD THING” for New York and a “big test” for Mayor Zohran Mamdani, who took office earlier th",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/trump-says-mamdani-facing-big-test-from-nyse-s-texas-outpost",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d9196594277993a9fa2a7158f5cffd27",
-      "timestamp": "2026-01-19T15:23:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Mamdani Facing ‘Big Test’ From NYSE’s Texas Trading Outpost - President Donald Trump called a New York Stock Exchange equities trading outpost in Texas “an UNBELIEVABLY BAD THING” for New York and a “big test” for Mayor Zohran Mamdani, who took office earlier th",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/trump-says-mamdani-facing-big-test-from-nyse-s-texas-outpost",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bd556a0e338059df2a9422af59e59ddd",
-      "timestamp": "2026-01-19T15:17:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "HDFC Bank’s Recovery Gains Momentum on Lending Expansion - HDFC Bank Ltd. posted better-than-expected results on healthy loan growth, signaling that India’s biggest private sector lender is beginning to recapture ground it had ceded to rival ICICI Bank Ltd. f",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/hdfc-bank-s-recovery-gains-momentum-on-lending-expansion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d9a4c4cb9fc363ff5b4105c1836ea9dd",
-      "timestamp": "2026-01-19T15:16:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indonesia’s Danantara Mulls Raising $1.2 Billion in Fresh Funding Round - Danantara, Indonesia’s new sovereign wealth fund, plans to raise 20 trillion rupiah ($1.2 billion) in the first half via a fresh round of so-called patriot bonds, according to people familiar with the",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/danantara-mulling-1-2-billion-in-new-funding-via-patriot-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd0709be1a58d940fe0cbbbb387ad853",
-      "timestamp": "2026-01-19T15:13:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Key Chinese Rio Tinto Shareholder Backs Glencore Bid to Gain Copper Access - Aluminum Corp. of China, one of the largest shareholders in Rio Tinto Group, is likely to support the mining giant’s potential acquisition of rival Glencore Plc, a combination that would give the Chin",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/chinalco-seen-backing-rio-bid-for-glencore-to-gain-copper-share",
       "sentiment": "NEUTRAL"
     }
   ]
