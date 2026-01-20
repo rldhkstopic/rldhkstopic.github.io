@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-20T19:42:18.770622+09:00",
+  "last_updated": "2026-01-20T20:05:35.768537+09:00",
   "items": [
+    {
+      "id": "e23cfb3dabcb16e03b56eb6bf8636eb3",
+      "timestamp": "2026-01-20T20:04:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Additional Tariffs a 'Mistake,' von der Leyen Says (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/us-additional-tariffs-a-mistake-von-der-leyen-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bc60f4241bf10a5a979ef0c1133134f7",
+      "timestamp": "2026-01-20T20:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Family’s $6.8 Billion Fortune Is Increasingly Tied to Crypto - <p>Digital assets added $1.4 billion to the first family's wealth over the past year, making up about one-fifth of their fortune for the first time</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-20/donald-trump-family-net-worth-increasingly-comes-from-crypto",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65c0251e018fa2fe331fa9afd27a0950",
+      "timestamp": "2026-01-20T19:59:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Dream Crushed After Leaders Snub His Board of Peace - Fellow Group of Seven leaders are declining the invitation to join a body that would rival the United Nations.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-20/trump-s-peace-board-dream-is-dissolving-in-davos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "47a469aecb30e990bb34555f4849895d",
+      "timestamp": "2026-01-20T19:53:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "G42 CEO Peng Xiao on Chip Imports, AI Developments - G42 CEO Peng Xiao discusses building AI infrastructure, evolving government approaches to regulation, the UAE’s role in global AI development, the Stargate project, and chip imports amid existing rest",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/g42-ceo-peng-xiao-on-chip-imports-ai-developments-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8995d15deb12dd2512761bbac981e377",
+      "timestamp": "2026-01-20T19:52:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thailand Lifts Cap on Forex Repatriation to Temper Baht Rally - Thailand is loosening rules on bringing foreign earnings home, lifting the threshold by tenfold as authorities step up efforts to rein in the baht, which is trading near a five-year high.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/thailand-lifts-cap-on-forex-repatriation-to-temper-baht-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5eef2bf79fe1dfa866f1742d9a7070ce",
+      "timestamp": "2026-01-20T19:51:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spot Copper Prices Spike on LME as Traders Tussle Over Inventory - Spot copper prices surged above later-dated futures on the London Metal Exchange in a sign that traders may be moving to withdraw large volumes of stock from the bourse’s warehouses.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/spot-copper-prices-spike-on-lme-as-traders-tussle-over-inventory",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7dc853b31a9eb31f261fa6a0ad6109bf",
+      "timestamp": "2026-01-20T19:47:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Deutsche Boerse Is Said to Near €5.3 Billion Deal for Allfunds - Deutsche Boerse AG is nearing a deal to acquire European fund distribution platform Allfunds Group Plc for about €5.3 billion ($6.2 billion) in cash and stock, according to people familiar with the ma",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/deutsche-boerse-is-said-to-near-5-3-billion-deal-for-allfunds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b86a9d032e9be2ca059e7cd9335401f3",
+      "timestamp": "2026-01-20T19:40:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Threatens 200% Champagne Tariff as Macron Rejects ‘Peace Board’ Invite - US President Donald Trump took a swipe at President Emmanuel Macron for rejecting an invitation to back his latest peace initiative and threatened crushing tariffs on French wine. Trump also published",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-floats-200-tariff-as-macron-rejects-peace-invite-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3834fbef5fcc5d66425cf0c44df960a1",
+      "timestamp": "2026-01-20T19:34:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Tells Trump ‘a Deal Is a Deal’ as Greenland Threats Escalate - President Donald Trump’s economic threats on the European Union over acquiring Greenland amount to a “mistake” that violates a trade arrangement forged last year between the transatlantic allies, the ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/eu-tells-trump-a-deal-is-a-deal-as-greenland-threats-escalate",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a275b7f2f0c8af5c5141e96101554c87",
       "timestamp": "2026-01-20T19:33:42+09:00",
@@ -21,6 +120,17 @@
       "related_tickers": [],
       "content": "Trump Makes Global Stocks Great Again as US Lags World Markets - After the S&amp;P 500 Index rebounded from the brink of a bear market in April and spent the remainder of the year going from one record to the next, President Donald Trump billed it as a sign that he",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/trump-makes-global-stocks-great-again-as-us-lags-world-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "30bd5410807d7083282f7a9f23dfcd19",
+      "timestamp": "2026-01-20T19:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Quantinuum Is Said to Work with Morgan Stanley, JPMorgan on IPO - Quantinuum, a quantum computing company, is working with Morgan Stanley and JPMorgan Chase &amp; Co. on an initial public offering, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/quantinuum-is-said-to-work-with-morgan-stanley-jpmorgan-on-ipo",
       "sentiment": "NEUTRAL"
     },
     {
@@ -87,6 +197,17 @@
       "related_tickers": [],
       "content": "Novartis CEO Vas Narasimhan speaks to BTV at Davos - Novartis CEO Vas Narasimhan said his company has \"future-proofed\" against trade tensions through a $23 billion investment in the United States. He spoke to Bloomberg TV's Francine Lacqua on the sideli",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/novartis-ceo-vas-narasimhan-speaks-to-btv-at-davos-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a658774a61ec7838bc0f5be09aaefb54",
+      "timestamp": "2026-01-20T19:06:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Investor Optimism Jumps to Highest in Over Four Years - German investor optimism surged to its highest level since mid-2021 as a spending push by the government helps pull the struggling manufacturing sector out of a malaise.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/german-investor-optimism-jumps-to-highest-in-over-four-years",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2078,127 +2199,6 @@
       "related_tickers": [],
       "content": "Senegal Celebrates Football Victory While Navigating Debt Talks - Senegalese President Bassirou Diomaye Faye declared a public holiday following the national football team’s victory at the Africa Cup of Nations championship Sunday, providing a morale boost to a coun",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/senegal-celebrates-football-victory-while-navigating-debt-talks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "053519b263e3ce8990328fdeade79cd9",
-      "timestamp": "2026-01-19T21:37:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Senegal Celebrates Football Victory While Navigating Debt Talks - Senegalese President Bassirou Diomaye Faye declared a public holiday following the national football team’s victory at the Africa Cup of Nations championship Sunday, providing a morale boost to a coun",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/senegal-celebrates-football-victory-while-navigating-debt-talks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f65567d02e932885455e386497f0d04e",
-      "timestamp": "2026-01-19T21:30:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Aftermath of Spain High-Speed Train Collision - Aerial video shows the aftermath of a collision between two trains in Spain. More than three dozen people died in Spain after a high-speed train derailed Sunday evening and hit another traveling in th",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/aftermath-of-spain-high-speed-train-collision-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "775bd7704aa89ce3bab84074a935b315",
-      "timestamp": "2026-01-19T21:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Revolut Seeks Peru Banking License for Latin America Expansion - Revolut Ltd. applied for a full banking license in Peru as it expands in Latin America to compete with some of the region’s biggest financial-technology firms.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/revolut-seeks-peru-banking-license-for-latin-america-expansion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "928cbd6e8e5fbdc0585c26dfaaaa7fdd",
-      "timestamp": "2026-01-19T21:20:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Extreme Volatility Returns to Europe’s Natural Gas Markets - The biggest weekly price swings in two years show the power of speculative traders",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-19/extreme-price-volatility-returns-to-europe-s-natural-gas-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6858c7fa19a896497c17ac83c71c7fdf",
-      "timestamp": "2026-01-19T21:10:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Andreessen Horowitz Makes a $3 Billion Bet Against the AI Bubble - <p>A newer fund run by an unconventional team at the venture firm is finding success focusing on infrastructure.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-19/andreessen-horowitz-makes-a-3-billion-bet-against-the-ai-bubble",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bbac20a351a536383c71688df8737f5e",
-      "timestamp": "2026-01-19T21:03:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TKMS CFO Says Greenland Crisis Could Help Deal For Canada Subs - TKMS AG&amp; Co KGaA Chief Financial Officer Paul Glaser said the crisis unfolding over Greenland might help the company’s chances of winning a multi-billion euro submarine contract with Canada, as Ot",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/tkms-cfo-says-greenland-crisis-could-help-deal-for-canada-subs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5fdcdabe265222da880038c29b352096",
-      "timestamp": "2026-01-19T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple Intelligence Built Atop Google Gemini Seems Like Admitting Defeat - Apple’s decision to rely on Gemini casts doubt about the advantages of Apple Intelligence.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-19/apple-s-use-of-google-gemini-shows-iphone-s-lack-of-ai-advantage",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2193e0356d61d9b63113161ce75dece0",
-      "timestamp": "2026-01-19T20:57:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SRT Boom Offers Costly Lifeline to Banks Shedding Risky CRE Debt - Investors in the white-hot significant risk transfer market are increasingly willing to provide hedging to European banks saddled with over €200 billion ($232.5 billion) of deteriorating commercial pr",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/srt-boom-offers-costly-lifeline-to-banks-shedding-risky-cre-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a434249f853dd5440716fdc0188840c8",
-      "timestamp": "2026-01-19T20:57:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Khazanah Nasional MD Sees Ringgit Strengthening Further - Malaysia’s sovereign wealth fund Khazanah Nasional sees the ringgit strengthening further after its run as Asia’s top-performing currency last year. Managing Director Amirul Feisal Wan Zahir’s comment",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/khazanah-nasional-md-sees-ringgit-strengthening-further-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4e111a8f7e8fde387903b1621ccb83a7",
-      "timestamp": "2026-01-19T20:49:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Relies Too Much on China for Drugs, Fresenius CEO Warns - Europe must quickly shore up its supply of key drug ingredients to prevent their “weaponization” as global trade tensions mount, the chief executive officer of German health-care company Fresenius SE ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/europe-relies-too-much-on-china-for-drugs-fresenius-ceo-warns",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d656b2f0d2027b7c4de3ea6d36e6d81d",
-      "timestamp": "2026-01-19T20:48:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vinjamuri: Americans Not on Side of the President on Greenland Issue - Leslie Vinjamuri, President and CEO of the Chicago Council on Global Affairs, joins Bloomberg TV to discuss the latest tariff threats as Europe hardens its stance on Greenland. Vinjamuri speaks with B",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/vinjamuri-americans-not-on-side-of-the-president-on-greenland-issue",
       "sentiment": "NEUTRAL"
     }
   ]
