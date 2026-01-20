@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-21T01:44:33.785072+09:00",
+  "last_updated": "2026-01-21T02:08:13.393595+09:00",
   "items": [
+    {
+      "id": "7cc70854ce0a0250d908b1430f1b8949",
+      "timestamp": "2026-01-21T01:58:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HK Financial Secretary Paul Chan Speaks to BTV at Davos - Hong Kong Financial Secretary Paul Chan speaks to Bloomberg TV’s Haslinda Amin on the sidelines of the 2026 World Economic Forum in Davos, Switzerland. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/hk-financial-secretary-paul-chan-speaks-to-btv-at-davos-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d1b8191055af63edc8b762a10dd51f7",
+      "timestamp": "2026-01-21T01:54:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "KDIPA and Goldman Sachs on Gulf Investments - H.E. Dr. Sobeeh A. A. Almukhaizim, Minister of Finance & Minister of State for Economic Affairs & Investment, Kuwait and Anthony Gutman, Co-CEO, Goldman Sachs International discuss fostering growth in",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/kdipa-and-goldman-sachs-on-gulf-investments-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0f5b59629b0435e48ec1ef8d0e445ddd",
+      "timestamp": "2026-01-21T01:53:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Columbus, Hillenbrand Leveraged Buyouts Reach Junk Bond Market - Columbus McKinnon Corp. and the buyer of Hillenbrand Inc. are tapping the junk-bond market to help fund leveraged buyouts.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/columbus-hillenbrand-leveraged-buyouts-reach-junk-bond-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c474747cfebe0330e4da7ed40dca74d7",
+      "timestamp": "2026-01-21T01:48:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japanese Bond Rout Sends Yields to Record Highs - The selloff in Japan's bond market escalated quickly on Tuesday. Yields soared to records as investors gave a thumbs down to Prime Minister Sanae Takaichi’s election pitch to cut taxes on food. Jordan",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/japanese-bond-rout-triggers-turmoil-on-trading-floor-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7c2480f9759faeb6faba73c12d786a35",
+      "timestamp": "2026-01-21T01:44:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stripe’s Collison Says No ‘Rush’ for Payment Firm to Go Public - Stripe Inc. does not have imminent plans for a public listing, according to John Collison, the billionaire co-founder and president of the payment processing firm.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/stripe-s-collison-says-no-rush-for-payment-firm-to-go-public",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "21d2757e9cd2c63c58b9afdee0e7e3a2",
       "timestamp": "2026-01-21T01:36:58+09:00",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "Jailed Former Thai PM Thaksin May Be Eligible For Parole in May - Former Thai prime minister Thaksin Shinawatra, serving a one-year sentence in a Bangkok prison for corruption, may be eligible to be released on parole in May, raising the possibility that the influen",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/jailed-former-thai-pm-thaksin-may-be-eligible-for-parole-in-may",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6fd730d63ceed50727eed69ebf2b6642",
-      "timestamp": "2026-01-20T15:01:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pakistan Plans Return to Global Bond Market After Four-Year Gap - Pakistan plans to return to the global bond market after four years, underscoring its progress in economic stabilization after coming close to a default just a few years ago.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/pakistan-plans-return-to-global-bond-market-after-four-year-gap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6fd730d63ceed50727eed69ebf2b6642",
-      "timestamp": "2026-01-20T15:01:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pakistan Plans Return to Global Bond Market After Four-Year Gap - Pakistan plans to return to the global bond market after four years, underscoring its progress in economic stabilization after coming close to a default just a few years ago.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/pakistan-plans-return-to-global-bond-market-after-four-year-gap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06334d0cae1aa35f4af4e0a945cb3f4a",
-      "timestamp": "2026-01-20T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TCV, Blackstone Back Startup Pennylane at $4.25 Billion Value - Pennylane, a French startup that sells accounting software, has raised €175 million ($204 million) in a funding round led by growth equity investor TCV.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/tcv-blackstone-back-startup-pennylane-at-4-25-billion-value",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06334d0cae1aa35f4af4e0a945cb3f4a",
-      "timestamp": "2026-01-20T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TCV, Blackstone Back Startup Pennylane at $4.25 Billion Value - Pennylane, a French startup that sells accounting software, has raised €175 million ($204 million) in a funding round led by growth equity investor TCV.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/tcv-blackstone-back-startup-pennylane-at-4-25-billion-value",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "afea8e54c3a7e3a1152dfb43428e58ad",
-      "timestamp": "2026-01-20T14:32:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump to Meet ‘Various Parties’ Over Greenland in Davos - President Donald Trump said he will meet with several parties over his ambition to take control of Greenland during the upcoming World Economic Forum.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/trump-to-meet-various-parties-over-greenland-in-davos",
       "sentiment": "NEUTRAL"
     }
   ]
