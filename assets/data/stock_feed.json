@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-20T14:41:34.338397+09:00",
+  "last_updated": "2026-01-20T15:05:47.459251+09:00",
   "items": [
     {
       "id": "afea8e54c3a7e3a1152dfb43428e58ad",
@@ -54,6 +54,17 @@
       "related_tickers": [],
       "content": "UK and China Set Up Forum on Cyberattacks to Lower Tensions - British and Chinese security officials established a forum to discuss cyberattacks following a spate of hacking accusations that soured relations between the two countries.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/uk-and-china-set-up-forum-on-cyberattacks-to-lower-tensions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d975c7154dc2dd01e87aae8eff270f9",
+      "timestamp": "2026-01-20T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AllianzGI Secures $690 Million for New Blended Finance Fund - Allianz Global Investors has secured $690 million in capital for a newly launched fund designed to combine private and public capital for climate initiatives.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/allianzgi-secures-690-million-for-new-blended-finance-fund",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Wipro CFO on Profit Miss Despite Margin Gains - Wipro’s third-quarter earnings fell short of expectations with a 7% drop in net profit, weighed down by restructuring costs and labor law charges. CFO Aparna Iyer explains why Q4 guidance remains mute",
       "url": "https://www.bloomberg.com/news/videos/2026-01-19/wipro-cfo-aparna-iyer-on-earnings-miss-and-ai-strategy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "24acbdea7e2961e527b1cc59e2a8a5af",
-      "timestamp": "2026-01-19T15:00:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "iPhone Tops China Market After Shipments Soar, Counterpoint Says - Apple Inc. retook the top spot in China after iPhone shipments jumped 28% during the holiday quarter despite a worsening shortage of vital memory chips, according to Counterpoint Research.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/apple-tops-china-market-after-iphone-shipments-soar-28-counterpoint-says",
       "sentiment": "NEUTRAL"
     }
   ]
