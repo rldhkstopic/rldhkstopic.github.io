@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-20T14:09:04.924244+09:00",
+  "last_updated": "2026-01-20T14:41:34.338397+09:00",
   "items": [
+    {
+      "id": "afea8e54c3a7e3a1152dfb43428e58ad",
+      "timestamp": "2026-01-20T14:32:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to Meet ‘Various Parties’ Over Greenland in Davos - President Donald Trump said he will meet with several parties over his ambition to take control of Greenland during the upcoming World Economic Forum.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/trump-to-meet-various-parties-over-greenland-in-davos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c67813188a6e3503d990bbfa22d30db5",
+      "timestamp": "2026-01-20T14:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lagos Coastal Demolitions Leave Thousands of Nigerians Homeless - Nigeria’s biggest city is demolishing two densely populated waterfront communities to make way for urban renewal, displacing thousands of poor residents in the process.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/lagos-coastal-demolitions-leave-thousands-of-nigerians-homeless",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "09b18a5dda375733a11b8902942ddd24",
+      "timestamp": "2026-01-20T14:13:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Greenland Isn't as Big as It Looks in 'Risk' - <p>Europe has&nbsp;it in its power to force a messy compromise with capital flows, not troops.</p>",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-01-20/greenland-isn-t-as-big-as-it-looks-in-risk",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b82c9f91071710513e0ecca8b5289b99",
       "timestamp": "2026-01-20T14:00:28+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "iPhone Tops China Market After Shipments Soar, Counterpoint Says - Apple Inc. retook the top spot in China after iPhone shipments jumped 28% during the holiday quarter despite a worsening shortage of vital memory chips, according to Counterpoint Research.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/apple-tops-china-market-after-iphone-shipments-soar-28-counterpoint-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "24acbdea7e2961e527b1cc59e2a8a5af",
-      "timestamp": "2026-01-19T15:00:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "iPhone Tops China Market After Shipments Soar, Counterpoint Says - Apple Inc. retook the top spot in China after iPhone shipments jumped 28% during the holiday quarter despite a worsening shortage of vital memory chips, according to Counterpoint Research.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/apple-tops-china-market-after-iphone-shipments-soar-28-counterpoint-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b602abff204c50c916ef15e2ea3a7cad",
-      "timestamp": "2026-01-19T14:56:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Food Stocks Jump on Tax Cut Talk, Fiscal Woes Hit Bonds - Food-related stocks surged in Japan on speculation of a temporary tax break while government bonds slumped because of the strain this would put on the nation’s finances.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/japan-s-food-stocks-feast-on-tax-cut-talk-fiscal-woes-hit-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a3ee23c64c6682633f76b5de5d1e321e",
-      "timestamp": "2026-01-19T14:31:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Exports Give Biggest Growth Boost to Economy Since 1997 - China relied on exports to drive economic growth to a degree unseen since the Asian financial crisis nearly three decades ago, in a demonstration of strength that allowed it to ride out the trade war ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/chinese-exports-give-biggest-growth-boost-to-economy-since-1997",
       "sentiment": "NEUTRAL"
     }
   ]
