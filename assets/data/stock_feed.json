@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-20T12:32:41.602584+09:00",
+  "last_updated": "2026-01-20T13:19:58.842261+09:00",
   "items": [
+    {
+      "id": "e0114fa136714e7fe0587e3355049be8",
+      "timestamp": "2026-01-20T13:00:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Takaichi’s Tax Cut Plan Stokes Fiscal Fears With Unclear Funding - Japanese Prime Minister Sanae Takaichi lacks a silver bullet to fund a sales tax cut without stoking concerns that she is moving toward the fiscal direction of former UK leader Liz Truss.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/takaichi-s-tax-cut-plan-stokes-fiscal-fears-with-unclear-funding",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8d168851e8b770360961eb7323916a56",
+      "timestamp": "2026-01-20T12:38:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan's 40-Year Bond Yield Hits 4% for First Time | The Asia Trade 1/20/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Singapore with Shery Ahn and Avril Hong, getting ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/the-asia-trade-1-20-26-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2c2830afdd5a9d550c26686a75f719f4",
+      "timestamp": "2026-01-20T12:38:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan 20-Year Bond Sale Sees Weaker Demand Than 12-Month Average - Japan’s 20-year government bond auction drew weaker demand than its 12-month average after government plans for tax relief on food jolted the debt market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/japan-20-year-bond-sale-sees-weaker-demand-than-12-month-average-mkm1obji",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1a6fcb77d65876a437e831a1edc99257",
+      "timestamp": "2026-01-20T12:28:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Inside Australia's Hate Speech Debate and US Ambassador Search - Australia is making a second attempt to pass new laws penalizing hate speech. Meanwhile, the search is underway for the next Australian Ambassador to the US, with Kevin Rudd stepping down a year earli",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/australia-s-hate-speech-debate-and-us-ambassador-search-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e2cf5157f969b6a21515d20706f88626",
+      "timestamp": "2026-01-20T12:23:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Copper Drops on Concern Record Prices Hurting Demand in China - Copper fell with most base metals, as investors weighed the scope for demand destruction in top buyer China after prices hit a record.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/copper-drops-on-concern-record-prices-hurting-demand-in-china",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a202ba8813afaa75b407b219d50ae194",
       "timestamp": "2026-01-20T12:05:35+09:00",
@@ -1333,6 +1388,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "6e6dc8f413d34368e578a5f1e15a29d3",
+      "timestamp": "2026-01-19T20:08:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CMOC Raises $1.2 Billion From Upsized Convertible-Bond Deal - Chinese miner CMOC Group Ltd. raised $1.2 billion from an upsized sale of zero-coupon convertible bonds, after a rally in the price of copper lifted its profit.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/cmoc-seeks-1-billion-from-convertible-bonds-after-copper-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "8a342eee353c59a4caf6826d8b268777",
       "timestamp": "2026-01-19T20:04:55+09:00",
       "source_type": "NEWS",
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "UK Bond Market Readies for £18 Billion Retail Investment Rush - UK bonds with the most favorable tax terms are outperforming as investors look to get ahead of an expected rush from retail traders.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/uk-bond-market-readies-for-18-billion-retail-investment-rush",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed27ddb847f4b836154fb7e6e84a197c",
-      "timestamp": "2026-01-19T14:00:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Eyes Tariffs on €93 Billion of US Goods Over New Trump Threat - The European Union is in talks to potentially impose tariffs on €93 billion ($108 billion) of US goods if President Donald Trump follows through on his threat to hit European countries with a 10% levy",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/eu-eyes-tariffs-on-93-billion-of-us-goods-over-new-trump-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "79f2d011d18104c341912d384213391b",
-      "timestamp": "2026-01-19T14:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jeremy Grantham Says AI Is Indeed a Classic Market Bubble - For more than four decades, Jeremy Grantham has been one of the most contrarian voices in global investing. The co-founder of Boston-based asset manager GMO, he built his reputation warning about bubb",
-      "url": "https://www.bloomberg.com/news/audio/2026-01-19/podcast-gmo-s-jeremy-grantham-on-buying-start-ups-ai-bubble-small-cap-premium",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83560dc4b6da7882cef5481f4993dd90",
-      "timestamp": "2026-01-19T13:31:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Airbus Humanoid Order Sends Chinese Robot Maker’s Shares Surging - UBTech Robotics Corp. shares jumped after the China-based humanoid maker received an order from Airbus SE, bolstering the outlook for use of its products in global manufacturing.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/airbus-humanoid-order-sends-chinese-robot-maker-s-shares-surging",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83560dc4b6da7882cef5481f4993dd90",
-      "timestamp": "2026-01-19T13:31:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Airbus Humanoid Order Sends Chinese Robot Maker’s Shares Surging - UBTech Robotics Corp. shares jumped after the China-based humanoid maker received an order from Airbus SE, bolstering the outlook for use of its products in global manufacturing.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/airbus-humanoid-order-sends-chinese-robot-maker-s-shares-surging",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6edb479123d008e1636c616b527925a1",
-      "timestamp": "2026-01-19T13:17:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dollar Faces Pressure From Trump’s Fresh Tariff Threat to Europe - The dollar faces fresh headwinds as President Donald Trump weighs tariffs on European nations tied to his plan to acquire Greenland, raising uncertainties over US policies, according to analysts.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/dollar-faces-pressure-from-trump-s-fresh-tariff-threat-to-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e396a76534a9e2a087855a89b8e883c1",
-      "timestamp": "2026-01-19T13:14:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Won Slide to Asia’s Worst Performer Sparks Kimchi Bond Demand - A leading South Korean credit card company is selling a dollar bond in the local market, highlighting demand to diversify away from the won after recent its declines.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/won-slide-to-asia-s-worst-performer-sparks-kimchi-bond-demand",
       "sentiment": "NEUTRAL"
     }
   ]
