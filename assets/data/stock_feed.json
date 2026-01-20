@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-20T08:35:39.070789+09:00",
+  "last_updated": "2026-01-20T09:12:23.776826+09:00",
   "items": [
+    {
+      "id": "9e380b506b201201673424b561f3be29",
+      "timestamp": "2026-01-20T08:40:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Korea Bourse CEO Sees Kospi at 6,000 - Korea Exchange (KRX) CEO Jeong Eun Bo spoke in an exclusive interview with Bloomberg TV. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-19/korea-bourse-ceo-sees-kospi-at-6-000-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9a4cc25db63da3ebb20820e542c1b280",
+      "timestamp": "2026-01-20T08:26:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Steadies With Greenland Crisis and Surplus Concerns in Focus - Oil was steady, as traders tracked the fallout from the US attempt to take control of Greenland and concerns about a global surplus remained to the fore.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-19/latest-oil-market-news-and-analysis-for-jan-20",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "3ef10241b674883e3225a39c6e283d6d",
       "timestamp": "2026-01-20T08:08:23+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "China’s Economy Grows 5% in 2025 as Exports Help Meet Target - China’s economic growth met the government’s target last year despite a pronounced slowdown in recent months, weathering Donald Trump’s trade war by boosting exports outside the US.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-s-economy-grows-5-in-2025-as-export-boom-helps-meet-goal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d45eabf36f575b5d970eb9f4926dd128",
-      "timestamp": "2026-01-19T11:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Franklin Templeton Strategist Sees Promise in Indian Stocks - A lack of enthusiasm toward Indian equities is opening an opportunity for long-term investors, according to Franklin Templeton Institute’s Chief Market Strategist and Head Stephen Dover.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/franklin-templeton-strategist-sees-promise-in-indian-stocks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b25bb194008c2b350936bfa7f689d8cf",
-      "timestamp": "2026-01-19T11:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tiger Global’s Tax Ruling Casts Pall on India’s Buyout Sector - An India court ruling forcing Tiger Global Management to pay taxes on an asset sale will have ripple effects on other buyout firms seeking to unload long-held investments, and may set a precedent for ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/tiger-global-s-tax-ruling-casts-pall-on-india-s-buyout-sector",
       "sentiment": "NEUTRAL"
     }
   ]
