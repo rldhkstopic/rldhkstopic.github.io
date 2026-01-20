@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-21T03:06:08.061412+09:00",
+  "last_updated": "2026-01-21T03:45:00.696885+09:00",
   "items": [
+    {
+      "id": "0c3d530961ca849d5e373e7c9f9a2bcd",
+      "timestamp": "2026-01-21T03:34:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US to Open Access to Venezuela Oil to More Traders, Refiners - The US government plans to allow more trading companies beyond Vitol Group and Trafigura Group to purchase Venezuelan crude, a Trump administration official said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-to-open-access-to-venezuela-oil-to-more-traders-refiners",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "14b98c283f31b364f1d47a96f7ab084f",
+      "timestamp": "2026-01-21T03:29:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SEC’s Peirce Discusses Crypto Priorities, Coinbase CEO Speaks on Bill | Bloomberg Crypto 1/20/2025 - \"Bloomberg Crypto\" covers the people, transactions, and technology shaping the world of decentralized finance. Today's guests: SEC Commissioner Hester Peirce and Wintermute Co-Founder and CEO Evgeny G",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/bloomberg-crypto-1-20-2025-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9af6357e25cc478108c1e2a0548f6078",
+      "timestamp": "2026-01-21T03:10:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Squarepoint Hires Gunvor’s Former Crude Head In Push Into Oil - Squarepoint, the quantitative-focused firm that’s making an unorthodox push into metals, has just hired one of the oil market’s top physical traders.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/squarepoint-hires-gunvor-s-former-crude-head-in-push-into-oil",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "516efc5273597566e31c4c7eaa6fe4eb",
+      "timestamp": "2026-01-21T03:07:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Are Markets Ready to Price in Geopolitics? - Hello and welcome to the newsletter, a grab bag of daily content from the Odd Lots universe. Sometimes it's us, Joe Weisenthal and Tracy Alloway, bringing you our thoughts on the most recent developme",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-20/are-markets-ready-to-price-in-geopolitics",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1251d8b86ccf1bd04a0ad03cba6a6b0b",
+      "timestamp": "2026-01-21T03:04:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Replit Investor Backs Canadian Defense Tech Startup - Canadian venture firm Georgian has invested in its first defense tech startup Dominion Dynamics. Margaret Wu, a lead investor at Georgian, discusses the $15.2M fundraise with Caroline Hyde and Ed Ludl",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/replit-investor-backs-canadian-defense-tech-startup-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9ca5efa177f80c1a8b336d1dbdcbc0c7",
+      "timestamp": "2026-01-21T03:00:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine’s New Defense Minister Pushes for More Domestic Drones - Ukraine’s military is working to replace Chinese-made drones with domestically produced models to cut the war-ravaged nation’s dependence on imports and sanctioned supply lines, the newly appointed de",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/ukraine-s-new-defense-minister-pushes-for-more-domestic-drones",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "ed9f4aa8a0a44e32646152fd6587a6cc",
       "timestamp": "2026-01-21T03:00:35+09:00",
@@ -10,6 +76,17 @@
       "related_tickers": [],
       "content": "The Enduring Legacy of Trump’s Imperial Presidency - <p>The powers he’s assumed in his second term will surely outlast him. Democrats could be counting on it.</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/donald-trump-s-legacy-will-span-executive-power-trade-war-geopolitics",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9c12d55d4cedb24aa2990677d37b78c5",
+      "timestamp": "2026-01-21T03:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TowerBrook Takes Stake in Insurance Claims Firm MSA Mizar - Investment firm TowerBrook is acquiring a majority stake in MSA Mizar, an insurance claims management services provider, marking its first deal in the country since it opened an office in Milan last y",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/towerbrook-takes-stake-in-insurance-claims-firm-msa-mizar",
       "sentiment": "NEUTRAL"
     },
     {
@@ -54,6 +131,17 @@
       "related_tickers": [],
       "content": "Russia Is ‘Without Question’ a Threat in the Arctic, Carney Says - Russia poses a clear threat in the Arctic, Canadian Prime Minister Mark Carney told world leaders in Davos, Switzerland, though at this stage it is “more prospective than actual.”",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/russia-is-without-question-a-threat-in-the-arctic-carney-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "11e76f07d7419bcdb877b3f17b0f3ea2",
+      "timestamp": "2026-01-21T02:38:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netflix Goes All-Cash With Warner | Open Interest 1/20/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" President Trump unleashes fresh attacks on European allies and revives his push for Greenland. Ear",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/open-interest-1-20-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2092,6 +2180,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "88bfd9bf90ba0f4199c057a3124d9f95",
+      "timestamp": "2026-01-20T17:16:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Stocks Extend Declines as Trump Ramps Up Tariff Threats - European stocks fell Tuesday as rhetoric about a renewed trade war with the US ramped up, with President Donald Trump threatening a crushing tariff on wine and champagne and French leader Emmanuel Mac",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/european-stocks-extend-declines-as-trump-ramps-up-tariff-threats",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "272db97992c1a96bb3f187d8e0fc90f0",
       "timestamp": "2026-01-20T17:14:10+09:00",
       "source_type": "NEWS",
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Anand Says Canada Needs to Bolster Its Arctic Presence - Canadian Foreign Minister Anita Anand comments on Arctic security and US relations during a conversation with Lisa Abramowicz at Bloomberg House on the sidelines of the World Economic Forum’s annual m",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/anand-says-canada-needs-to-bolster-its-arctic-presence-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7bd64fac8e316a2893ac393bfcf03427",
-      "timestamp": "2026-01-20T17:06:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Says Trump Could Announce Fed Chair Next Week - US Treasury Secretary Scott Bessent says President Donald Trump “will have an announcement maybe as early as next week” on the new Federal Reserve chair. He speaks at a press conference at USA House a",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/bessent-says-trump-could-announce-fed-chair-next-week-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a17d399a4d3266088c4453122bf3bb94",
-      "timestamp": "2026-01-20T17:06:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russian Attack Leaves Thousands of Kyiv’s Buildings Without Heat - Russian drones and missiles hit Ukraine overnight, leaving the residents of thousands of buildings in the Ukrainian capital Kyiv without heating and basic amenities during freezing temperatures.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/russian-attack-leaves-thousands-of-kyiv-s-buildings-without-heat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d12b82226ef3746d51806da4285c67a3",
-      "timestamp": "2026-01-20T17:05:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Urges All Counties to 'Stick' With Trade Deals - US Treasury Secretary Scott Bessent urged \"all countries to stick with their trade deals\" in response to a question on President Donald Trump's additional tariff threat related to Greenland. \"What Pre",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/bessent-urges-all-counties-to-stick-with-trade-deals-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a88a56e1b2aebbf38fb3dda1b4c449b0",
-      "timestamp": "2026-01-20T16:55:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Denmark Plans Year-Round Greenland Drills as Trump Seeks Island - Denmark’s Joint Arctic Command is expanding military exercises in Greenland to potentially run year-round, a Greenlandic newspaper reported, as the US ramps up pressure over control of the Arctic isla",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/denmark-plans-year-round-greenland-drills-as-trump-seeks-island",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d04ef16f1ad3d74970318d4a1d7566bf",
-      "timestamp": "2026-01-20T16:53:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Says Fed Chair Pick Could Come as Soon as Next Week - US Treasury Secretary Scott Bessent said President Donald Trump could announce his pick for the next Federal Reserve chair as soon as next week, amid intense anticipation over the White House’s search",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/bessent-says-fed-chair-pick-could-come-as-soon-as-next-week",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4ddcd35bfc72f6586c33c5ca005a4ace",
-      "timestamp": "2026-01-20T16:48:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk Asks If He Should Buy Ryanair as Brawl With CEO Drags On - The online brawl between Elon Musk and Ryanair Holdings Plc dragged into a second week, with the world’s richest man again floating the idea of buying the airline after clashing with its chief executi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/musk-asks-if-he-should-buy-ryanair-as-brawl-with-ceo-drags-on",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "003f850eb44718e6ff40d7710ac289d0",
-      "timestamp": "2026-01-20T16:48:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Bond Slump Highlights Policy Challenges, Strategists Say - A meltdown in Japanese sovereign bonds, with yields on 40-year debt surging past 4% for the first time on record, may pile pressure on the Bank of Japan to act quicker to raise rates, according to som",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/japan-s-bond-slump-highlights-policy-challenges-strategists-say",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b9708f6f44ed50e9bd0ede04ea291af",
-      "timestamp": "2026-01-20T16:42:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Egypt Trade Min Sees Opportunity in Supply-Chain Shifts - Egypt’s Trade and Investment Minister Hassan El Khatib says global supply-chain shifts could benefit Egypt and that he is “cautiously optimistic” about a recovery in Suez Canal traffic. He spoke with ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/egypt-trade-min-sees-opportunity-in-supply-chain-shifts-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "918fae7be859fa11720a9fdbd36880e1",
-      "timestamp": "2026-01-20T16:40:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Asean Stocks Set for First Foreign Inflows in a Row Since 2024 - Southeast Asia’s emerging-market stocks are poised for their first back-to-back monthly foreign inflows in nearly 16 months, signaling a revival of investor appetite after prolonged outflows.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/asean-stocks-set-for-first-foreign-inflows-in-a-row-since-2024",
       "sentiment": "NEUTRAL"
     }
   ]
