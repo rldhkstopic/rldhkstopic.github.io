@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-01-20T15:05:47.459251+09:00",
+  "last_updated": "2026-01-20T15:44:27.686556+09:00",
   "items": [
+    {
+      "id": "e0e480b012db4981bfb0d3de03e0a868",
+      "timestamp": "2026-01-20T15:35:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Renews Desire to Own Greenland - US President Donald Trump renewed his push for Greenland, saying “we have to have it” when speaking to reporters in Florida. Separately, he posted a screenshot of a message on Truth Social that he say",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-renews-desire-to-own-greenland-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "afea8e54c3a7e3a1152dfb43428e58ad",
       "timestamp": "2026-01-20T14:32:47+09:00",
@@ -2188,17 +2199,6 @@
       "related_tickers": [],
       "content": "Key Chinese Rio Tinto Shareholder Backs Glencore Bid to Gain Copper Access - Aluminum Corp. of China, one of the largest shareholders in Rio Tinto Group, is likely to support the mining giant’s potential acquisition of rival Glencore Plc, a combination that would give the Chin",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/chinalco-seen-backing-rio-bid-for-glencore-to-gain-copper-share",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3f3cb551b3757a166c43eccf9301db5f",
-      "timestamp": "2026-01-19T15:06:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wipro CFO on Profit Miss Despite Margin Gains - Wipro’s third-quarter earnings fell short of expectations with a 7% drop in net profit, weighed down by restructuring costs and labor law charges. CFO Aparna Iyer explains why Q4 guidance remains mute",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/wipro-cfo-aparna-iyer-on-earnings-miss-and-ai-strategy-video",
       "sentiment": "NEUTRAL"
     }
   ]
