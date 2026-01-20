@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-20T21:06:13.219428+09:00",
+  "last_updated": "2026-01-20T21:45:58.890328+09:00",
   "items": [
+    {
+      "id": "cf925cc86c51eb7b9ef745d3d83d863a",
+      "timestamp": "2026-01-20T21:36:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Adviser: US Can Meet AI’s Energy Demand - Energy will be a key driver to support the AI race and power all the data centers, but the US is in a good place to meet that demand, according to President Trump’s chief tech and science adviser. Mic",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-adviser-us-can-meet-ai-s-energy-demand-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4f2ec7dcae00c871c235575fb0e455f5",
+      "timestamp": "2026-01-20T21:31:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stock Futures Drop as Greenland Threats Stoke Trade Worries - US stock futures fell the most since November after a weekend of bombast from President Donald Trump over the future of Greenland threatened to spark a trade war with the European Union.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-stock-futures-drop-as-greenland-threats-stoke-trade-worries",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "75000342266b7b9fe7ffaea5cb070ba7",
+      "timestamp": "2026-01-20T21:29:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan's Filippo Gori on Client Tariff Concern - JPMorgan's clients across Europe and the Middle East have put their concerns about tariffs to the side, at least for now, choosing instead to focus on running their businesses. That was among the obse",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/jpmorgan-s-filippo-gori-on-client-tariff-concern-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d4d0ebea6544b286922797fff7fc19f3",
+      "timestamp": "2026-01-20T21:27:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FULL CLEAN ManpowerGroup President Becky Frankiewicz - FULL CLEAN ManpowerGroup President Becky Frankiewicz (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/manpower-ai-may-cause-delay-to-hiring-plans-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "317638e5d0f56183380fb084c3ed0e16",
+      "timestamp": "2026-01-20T21:21:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Struggling Solar Sector Has a Shiny New Problem - The price of silver has more than tripled in the past year, with serious knock-on effects for the country’s photovoltaic industry.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-20/china-s-struggling-solar-sector-has-a-shiny-new-problem",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fe62fe7de33da26f4111fa066c72b8f1",
+      "timestamp": "2026-01-20T21:20:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic CEO Says Selling Advanced AI Chips to China Is ‘Crazy’ - Anthropic Chief Executive Officer Dario Amodei said selling advanced artificial intelligence chips to China is a blunder with “incredible national security implications” as the US moves to allow Nvidi",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/anthropic-ceo-says-selling-advanced-ai-chips-to-china-is-crazy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc8345f5b15ac82cc5a06f35d2084436",
+      "timestamp": "2026-01-20T21:17:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Shipping AI Chips to China Would Be a 'Big Mistake,' Anthropic CEO Says - Anthropic Chief Executive Officer and co-founder Dario Amodei says the US embargo on chip sales to Beijing is what is holding Chinese companies back. \"I think it would be a big mistake to ship these c",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/amodei-shipping-ai-chips-to-china-would-be-a-mistake-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac422bc7e2733a78dcec0f94feb0ee78",
+      "timestamp": "2026-01-20T21:03:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Growth Envy Dazzles Davos Again Despite Trump’s Fighting Talk - America’s biggest-ever official effort to impress the Davos crowd was matched with words of economic optimism from attendees, notwithstanding wider alarm at its president’s expansive ambitions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-growth-envy-dazzles-davos-again-despite-trump-s-fighting-talk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac422bc7e2733a78dcec0f94feb0ee78",
+      "timestamp": "2026-01-20T21:03:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Growth Envy Dazzles Davos Again Despite Trump’s Fighting Talk - America’s biggest-ever official effort to impress the Davos crowd was matched with words of economic optimism from attendees, notwithstanding wider alarm at its president’s expansive ambitions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-growth-envy-dazzles-davos-again-despite-trump-s-fighting-talk",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "89e0513a8279d933adaf9d43c1bad4bf",
       "timestamp": "2026-01-20T21:03:01+09:00",
@@ -10,6 +109,61 @@
       "related_tickers": [],
       "content": "TikTok Shows Americans in Their ‘Chinese Era’ of Health Habits - Internet users are posting videos of their ‘Chinese era’ and embracing practices like drinking warm water.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-20/tiktok-shows-americans-in-their-chinese-era-of-health-habits",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4fe99f781b66bab4c75c411241fb88f5",
+      "timestamp": "2026-01-20T21:01:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netflix Amends Warner Bros. Deal to All Cash in Bidding War - Netflix Inc. reached an amended, all-cash agreement to buy Warner Bros. Discovery Inc.’s studio and streaming business as it battles Paramount Skydance Corp. to acquire one of Hollywood’s most iconic ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/netflix-sweetens-warner-bros-terms-to-all-cash-in-bidding-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6dbe79768ae4a485d23531c74bf86ee1",
+      "timestamp": "2026-01-20T21:01:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy Plans to Skip Davos as Russian Strikes Leave Kyiv Dark - Ukrainian President Volodymyr Zelenskiy said he’ll likely scrap plans to attend the World Economic Forum as he oversees the war-battered nation’s response to Russian air strikes that have left vast sw",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/zelenskiy-plans-to-skip-davos-as-russian-strikes-leave-kyiv-dark",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "368d28aaa29b7c65ec05ad318fe35298",
+      "timestamp": "2026-01-20T21:00:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Canadian Foreign Minister Says Diplomacy Drives Trade - T.H. Anita Anand, Minister of Foreign Affairs, Canada, discusses how diplomacy drives trade, how Canada balances economic engagement with global leadership, its push to expand trade beyond the United ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/canadian-foreign-minister-says-diplomacy-drives-trade-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3843489b4d3447d0ef6d5f08142fba45",
+      "timestamp": "2026-01-20T21:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Banks Losing Health Care Debt to Private Lenders, Moody’s Says - Health care companies are increasingly tapping private credit firms for their financing needs, marking a win for direct lenders against their Wall Street peers, according to Moody’s Ratings.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/banks-losing-health-care-debt-to-private-lenders-moody-s-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "abcbd4b0671e797eddb7133214a67b41",
+      "timestamp": "2026-01-20T20:59:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Top Citi Banker on US Sentiment, M&A, Credit Card Rate Cap - “US sentiment is unabated,” says Vis Raghavan, head of banking at Citi, as he discusses confidence in the M&A market, the potential consequences of a proposed 10% cap on credit card rates, and offers ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/top-citi-banker-on-us-sentiment-m-a-card-rate-cap-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -43,6 +197,17 @@
       "related_tickers": [],
       "content": "ECB Says Trade Tensions to Have 'Muted' Impact on Prices - Escalating transatlantic trade tensions won’t have much impact on the inflation outlook, according to European Central Bank Governing Council member Francois Villeroy de Galhau. The Bank of France Gov",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/ecb-says-trade-tensions-to-have-muted-impact-on-prices-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "accab7db057a0164be0acc5d29afa1e8",
+      "timestamp": "2026-01-20T20:52:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Vice Premier Urges Return to Rules-Based Trade - Chinese Vice Premier He Lifeng, the nation’s economic czar and top trade negotiator, speaks at the World Economic Forum’s annual meeting in Davos, Switzerland, about global trade. “The multilateral tr",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/digi-li-hefeng-on-global-multilateralism-trade-china-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -98,6 +263,17 @@
       "related_tickers": [],
       "content": "Eurasia Group President Ian Bremmer at Davos 2026 - Ian Bremmer, Eurasia Group President speaks to Bloomberg TV's Francine Lacqua alongside Bloomberg's Europe Executive Editor Chad Thomas on the sidelines of the 2026 World Economic Forum in Davos, Swit",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/eurasia-group-president-ian-bremmer-at-davos-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "62fce405f51686920a82fcc705074ab2",
+      "timestamp": "2026-01-20T20:23:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Glencore Prosecutors Set to Leave UK’s Crime Fighting Agency - The lead prosecutors of former Glencore Plc executives are set to depart the UK’s Serious Fraud Office for private sector roles, leaving the crime fighting agency’s bid to tackle high-profile corrupti",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/glencore-prosecutors-set-to-leave-uk-s-crime-fighting-agency",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2023,182 +2199,6 @@
       "related_tickers": [],
       "content": "UAE to Double Trade With India, Signs Long-Term LNG Contact - The United Arab Emirates will invest in developing a special investment hub in western India as well as double bilateral trade to $200 billion by 2032 as the two countries seek closer ties amid global",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/uae-to-double-trade-with-india-signs-long-term-lng-contact",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a3864f0cfdbc8aca2557dc1e589ee994",
-      "timestamp": "2026-01-20T00:46:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mubadala CEO Al Mubarak on Monetization, AI, Private Credit - Khaldoon Al Mubarak, CEO of Abu Dhabi’s Mubadala Investment Co., discusses investment monetization and sector trajectories, with a focus on AI, technology and infrastructure, geographic assets and pri",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/mubadala-ceo-on-monetization-ai-private-credit-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a7efed6c9815ca2fe09866841c3c2d7",
-      "timestamp": "2026-01-20T00:43:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Credit Agricole CIB Sees Banks Hit From Potential AT1 Reform - Eliminating the eligibility of Additional Tier 1 from banks’ so-called going-concern capital could hit lenders’ profitability, according to Credit Agricole’s investment banking arm.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/credit-agricole-cib-warns-of-banks-hit-from-potential-at1-reform",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "405008766599b287d6bebbf94deec0e3",
-      "timestamp": "2026-01-20T00:36:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IMF's Georgieva on Trade Tariffs, AI, Venezuela, Ukraine (Video)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/imf-s-georgieva-on-trade-tariffs-ai-venezuela-ukraine-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "364392cb16124c136a9aeef3723e2cd4",
-      "timestamp": "2026-01-20T00:36:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta Overlooks Ads From Illegal Gambling Sites, Says UK Watchdog - Meta Platforms Inc. is turning a blind eye to illegal gambling sites that advertise on Facebook and Instagram, according to the UK’s Gambling Commission.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/meta-overlooks-ads-from-illegal-gambling-sites-says-uk-watchdog",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2167261a1a5e9bfa74221812d3b629a2",
-      "timestamp": "2026-01-20T00:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trade Uncertainty Sapping Optimism, Bank of Canada Surveys Show - Bank of Canada surveys show persistent pessimism among firms and consumers as the ongoing US trade war deepens uncertainty.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/trade-uncertainty-sapping-optimism-bank-of-canada-surveys-show",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1bfbdcf4ed56fb8e91bff1ceb50abe38",
-      "timestamp": "2026-01-20T00:23:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CSG Said to Eye Friday Trading Debut at €25 Billion Valuation - Defense firm Czechoslovak Group AS is considering setting a price in an accelerated initial public offering that would value the company at about €25 billion ($29.1 billion), according to people famil",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/csg-said-to-eye-friday-trading-debut-at-25-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "71935851bb2643ae1119cc9b731f3af0",
-      "timestamp": "2026-01-20T00:22:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canadian Stocks Slide After Inflation Report, Tariff Concerns - Canadian equities slipped at Monday’s open after a hotter-than-expected inflation report and as the country considers sending troops to Greenland despite threats of more tariffs from US President Dona",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/canadian-stocks-slide-after-inflation-report-tariff-concerns",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9bf4ba62dd4e1c5258a1d9a05276490a",
-      "timestamp": "2026-01-20T00:22:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IMF’s Georgieva Says Tensions Over Greenland Could Curb Growth - International Monetary Fund Managing Director Kristalina Georgieva said it’s too early to gauge the economic impact of tensions over Greenland, though it could be a headwind for growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/imf-s-georgieva-says-tensions-over-greenland-could-curb-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9bf4ba62dd4e1c5258a1d9a05276490a",
-      "timestamp": "2026-01-20T00:22:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IMF’s Georgieva Says Tensions Over Greenland Could Curb Growth - International Monetary Fund Managing Director Kristalina Georgieva said it’s too early to gauge the economic impact of tensions over Greenland, though it could be a headwind for growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/imf-s-georgieva-says-tensions-over-greenland-could-curb-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1050717738281f874d61ec1c1011ae39",
-      "timestamp": "2026-01-20T00:20:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why the Tech World Is Going Crazy for Claude Code - In the AI industry, there's always a hot new thing. First it was ChatGPT. Then it was the image generators. There was the DeepSeek moment. In the latter half of last year, everyone was excited about h",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/why-the-tech-world-is-going-crazy-for-claude-code-mklbbiv7",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e264ac93595b8b9ef5b1c7c5a8e507bf",
-      "timestamp": "2026-01-20T00:20:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Chip Startup FuriosaAI Plans $500 Million Round Before IPO - Artificial intelligence chip designer FuriosaAI is seeking to raise as much as $500 million in a funding round before an initial public offering as it gears up to challenge industry titan Nvidia Corp.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/ai-chip-startup-furiosaai-plans-500-million-round-before-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3bec94cc2b7faa6d16214e4072d4e52d",
-      "timestamp": "2026-01-20T00:11:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Peace Board Faces Rewrite Calls After Messy Start - US President Donald Trump’s proposed Board of Peace has got off to a rough start: questioned by Europe, criticized by Israel and celebrated by friends of the Kremlin.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/trump-s-peace-board-faces-rewrite-calls-after-messy-start",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d13916863626af4298857d5788865055",
-      "timestamp": "2026-01-20T00:06:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Top Trade Negotiator Slated to Meet Global CEOs in Davos - Chinese Vice Premier He Lifeng, the nation’s economic czar and top trade negotiator, is scheduled to meet with a group of global CEOs while attending the World Economic Forum, according to a person fa",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-s-top-trade-negotiator-slated-to-meet-global-ceos-in-davos",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d13916863626af4298857d5788865055",
-      "timestamp": "2026-01-20T00:06:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Top Trade Negotiator Slated to Meet Global CEOs in Davos - Chinese Vice Premier He Lifeng, the nation’s economic czar and top trade negotiator, is scheduled to meet with a group of global CEOs while attending the World Economic Forum, according to a person fa",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-s-top-trade-negotiator-slated-to-meet-global-ceos-in-davos",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cb161f6f87b9ca7d9d9026b7759757ea",
-      "timestamp": "2026-01-20T00:01:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Barrick Changes CFO as Overhaul Continues Ahead of Possible IPO - Barrick Mining Corp. appointed Helen Cai as chief financial officer, replacing Graham Shuttleworth whose departure adds to a string of senior exits at the Canadian miner amid speculation it could be a",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/barrick-changes-cfo-as-overhaul-continues-ahead-of-possible-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dbc4b9a8530ea4b9b43de72427061ba",
-      "timestamp": "2026-01-20T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BCE’s Data Center Rollout Moving Faster Than Expected, CEO Says - Demand for data center capacity in Canada is causing BCE Inc. to accelerate work on its new artificial intelligence business, and the construction of new facilities is ahead of schedule, its top execu",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/bce-s-data-center-rollout-moving-faster-than-expected-ceo-says",
       "sentiment": "NEUTRAL"
     }
   ]
