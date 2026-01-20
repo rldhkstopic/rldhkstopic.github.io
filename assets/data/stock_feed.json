@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-20T21:45:58.890328+09:00",
+  "last_updated": "2026-01-20T22:18:37.950452+09:00",
   "items": [
+    {
+      "id": "f84a347764dbb65805806492f90be65c",
+      "timestamp": "2026-01-20T22:02:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street’s Calm Shattered by Greenland and Japan Shocks - For weeks, the talk on Wall Street was how markets have been unusually subdued at the start of the year. But with a clash over Greenland throwing the European and American alliance in disarray and Jap",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/wall-street-s-calm-shattered-by-greenland-and-japan-shocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8ce62c22514b87a7e07412e2444bcfd2",
+      "timestamp": "2026-01-20T22:00:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia, SV Angel Set to Back Humans&amp; at $4.48 Billion Valuation - Humans&amp;, a new startup building a frontier artificial intelligence lab, has raised a $480 million seed funding round at a $4.48 billion valuation &mdash; an unusually large haul for a young startu",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/nvidia-sv-angel-set-to-back-humans-at-4-48-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "af043259da2caf2e78595715ea1d625f",
+      "timestamp": "2026-01-20T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Argentina’s Pomelo Raises $55 Million to Boost Payment Offerings - Argentina-based financial technology startup Pomelo has raised $55 million in a Series C round as it looks to deepen its presence in Latin America and expand globally with new products tied to stablec",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/argentina-s-pomelo-raises-55-million-in-series-c-to-boost-payment-offerings",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aec480817c1fbc17441f2f288e775c65",
+      "timestamp": "2026-01-20T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Silicon Valley Rich Fear Union That Could Make Them Pay Billions - The California wealth-tax plan that’s drawn ire from Silicon Valley billionaires and Governor Gavin Newsom has a familiar force behind it: a union adept at turning ballot initiatives into a potent pol",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/california-wealth-tax-plan-pits-billionaires-against-healthcare-workers-union",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "505b9a4b61c6ad0545f25ee89bf60dbe",
+      "timestamp": "2026-01-20T21:59:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netflix Boosts Bridge Loan for Warner Bros. Deal to $42 Billion - Netflix Inc. has lined up more debt from Wall Street banks to help finance its amended, all-cash agreement to buy Warner Bros. Discovery Inc.’s studio and streaming business.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/netflix-boosts-bridge-loan-for-warner-bros-deal-to-42-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "56616629f9fbe64b7f720c33381f27ee",
+      "timestamp": "2026-01-20T21:55:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudi Bond Borrowing Exceeds $20 Billion to Hit January Record - Saudi Arabia sold more than $20 billion of international bonds since the start of the year, a record for a January as companies and banks join government fund raising.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/saudi-bond-borrowing-exceeds-20-billion-to-hit-january-record",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "cf925cc86c51eb7b9ef745d3d83d863a",
       "timestamp": "2026-01-20T21:36:27+09:00",
@@ -13,6 +79,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "00e2bf3edfdf4cfdc2445026da533883",
+      "timestamp": "2026-01-20T21:33:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Technology and the Future of the Creative Industry - Utopai Studios Co-Founder and CEO Cecilia Chen and ElevenLabs Co-Founder and CEO Mati Staniszewski discuss how AI and new technologies are transforming how stories are created and shared with Bloomber",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/technology-and-the-future-of-the-creative-industry-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "4f2ec7dcae00c871c235575fb0e455f5",
       "timestamp": "2026-01-20T21:31:15+09:00",
       "source_type": "NEWS",
@@ -21,6 +98,17 @@
       "related_tickers": [],
       "content": "US Stock Futures Drop as Greenland Threats Stoke Trade Worries - US stock futures fell the most since November after a weekend of bombast from President Donald Trump over the future of Greenland threatened to spark a trade war with the European Union.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-stock-futures-drop-as-greenland-threats-stoke-trade-worries",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e82e7b8abf6aeb451d5939cf6785028d",
+      "timestamp": "2026-01-20T21:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Heitman Gathers $2.6 Billion for Property Dislocation Bets - Real estate investment firm Heitman raised about $2.6 billion to take advantage of opportunities arising from the dislocation in property markets, closing its biggest-ever closed-end fund.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/heitman-gathers-2-6-billion-for-property-dislocation-bets",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2111,94 +2199,6 @@
       "related_tickers": [],
       "content": "Croatia’s Vujcic Closes in on ECB No. 2 Job in Tussle With Rehn - Croatia’s Boris Vujcic is heading for victory in the race for the European Central Bank vice presidency with only Finland’s Olli Rehn left to beat after two rounds of voting by finance ministers, acco",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/ecb-no-2-job-race-has-four-candidates-left-as-two-baltics-quit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1597486d159b616d1d6814d937d90918",
-      "timestamp": "2026-01-20T01:54:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine to Move Forward With Contentious Tax Bill Sought by IMF - Ukrainian authorities are pressing ahead with a tax on self-employed entrepreneurs, one of the most contentious policies demanded by the International Monetary Fund to unlock more than $8 billion in w",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/ukraine-to-move-forward-with-contentious-tax-bill-sought-by-imf",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5020361fa8f40e816bbcdf93d5409189",
-      "timestamp": "2026-01-20T01:39:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "QIA CEO on Strategy, Long Term Vision and Markets - Mohammed Saif Al-Sowaidi, Chief Executive Officer, QIA discusses the fund’s investment strategy, long-term vision and global market role with Bloomberg’s Francine Lacqua at At Invest Qatar Pavillon du",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/qia-ceo-on-strategy-long-term-vision-and-markets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a7a6a10f081cd3d40e31158eaacf8573",
-      "timestamp": "2026-01-20T01:38:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "State Street's Yie-Hsin Hung Speaks to BTV at Davos - State Street Investment Management CEO Yie-Hsin Hung speaks to Bloomberg TV’s Lisa Abramowicz on the sidelines of the 2026 World Economic Forum in Davos, Switzerland. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-19/state-street-s-yie-hsin-hung-speaks-to-btv-at-davos-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "12b96458ad591dc20fdc5a1183f30aaf",
-      "timestamp": "2026-01-20T01:18:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "State Street Eyes Further Expansion Into Secondaries, Hung Says - State Street Corp.’s asset management arm is seeking more opportunities to give retail investors access to secondaries and other private assets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/state-street-eyes-further-expansion-into-secondaries-hung-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b202a581d1b0a69bec1d3b344375bba5",
-      "timestamp": "2026-01-20T01:17:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chile’s Incoming President Inherits Crisis as Raging Wildfires Kill 19 - Chilean President-elect José Antonio Kast will inherit a crisis as raging wildfires killed at least 19 people over the weekend and left hundreds homeless, setting up a lengthy reconstruction process o",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/jose-antonio-kast-to-inherit-fist-crisis-as-fires-kill-19",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f73c9b351e92371f52614e079d38454",
-      "timestamp": "2026-01-20T01:15:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘Weaponizing’ $10 Trillion of US Assets Is Tough Ask for Europe - As Europe considers how best to respond to US President Donald Trump’s latest threats over Greenland’s sovereignty, there’s one extreme potential counter measure that’s fueling debate among investors.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/-weaponizing-10-trillion-of-us-assets-is-tough-ask-for-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "26163cdeccd74af2428b8b48a08f0aae",
-      "timestamp": "2026-01-20T01:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Is Decades Behind, Billions Above Plan on Key Transport Links - Europe must urgently complete long-delayed infrastructure projects that are critical to economic competitiveness and resilience as geopolitical tensions linger, according to the European Court of Audi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/eu-is-decades-behind-billions-above-plan-on-key-transport-links",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3a019bfd0b1e5dbd6179f5106fd6f6db",
-      "timestamp": "2026-01-20T00:59:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UAE to Double Trade With India, Signs Long-Term LNG Contact - The United Arab Emirates will invest in developing a special investment hub in western India as well as double bilateral trade to $200 billion by 2032 as the two countries seek closer ties amid global",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/uae-to-double-trade-with-india-signs-long-term-lng-contact",
       "sentiment": "NEUTRAL"
     }
   ]
