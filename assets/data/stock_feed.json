@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-21T00:42:22.203698+09:00",
+  "last_updated": "2026-01-21T01:06:52.448648+09:00",
   "items": [
+    {
+      "id": "06ef24141c77e8efbab04875d7e165e3",
+      "timestamp": "2026-01-21T01:01:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK’s Reeves Says Budget Has Likely Drawn a Line Under Tax Hikes - Rachel Reeves said the UK government has done enough on tax and shouldn’t need to come back for more hikes, remarks that risk making her a hostage to fortune.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/uk-s-reeves-says-budget-has-likely-drawn-a-line-under-tax-hikes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3ce7871f782f2fe0c4e39b5424c54816",
+      "timestamp": "2026-01-21T01:01:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Stocks Trounce the S&P 500 in Trump’s Chaotic First Year - It's been one year since President Trump took the oath of office and Wall Street has responded. Norah Mulinda explains (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/global-stocks-trounce-the-s-p-in-trump-s-first-year-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f2aa6b490db1d228e3bbfa6e926fd6ac",
+      "timestamp": "2026-01-21T00:57:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Elon Musk, Ryanair Spat Enters ‘Should I Buy It’ Phase - The online brawl between Elon Musk and Ryanair Holdings Plc continues, with Musk again floating the idea of buying the airline after clashing with its chief executive officer Michael O’Leary. Siddhart",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/musk-ryanair-spat-enters-should-i-buy-it-phase-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a38bc155ce68695c8bc130e4ea2e8c85",
+      "timestamp": "2026-01-21T00:55:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FTSE 100 Owner Said to Eye Easing Entry Rules for Foreign Firms - FTSE Russell is considering changes to its rules that would make it easier for foreign companies to join its UK stock indexes, according to people familiar with the matter, which could make the market",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/ftse-100-owner-said-to-eye-easing-entry-rules-for-foreign-firms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "abb734c0fa6c9a4a76c0bd02b41f5fe7",
+      "timestamp": "2026-01-21T00:46:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UAE to Get Advanced AI Chips in Couple of Months, G42 Chief Says - G42, the United Arab Emirates’ leading artificial intelligence company, expects the first shipments of some of the world’s most advanced chips to arrive in the country within months, bolstering its ef",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/nvidia-amd-uae-to-get-advanced-ai-chips-in-couple-of-months-g42-chief-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6ea41b1cc3baca977ccb26a0c50cadaa",
+      "timestamp": "2026-01-21T00:43:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Greenland Leader Tells People to Prepare for Possible Invasion - Greenland’s prime minister said the Arctic island’s population and its authorities need to start preparing for a possible military invasion, even as it remains an unlikely scenario, as Donald Trump co",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/greenland-leader-tells-people-to-prepare-for-possible-invasion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb0d24b72758387172ff12e82f12fbc5",
+      "timestamp": "2026-01-21T00:38:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Palantir CEO Says AI to Make Large-Scale Immigration Obsolete - Artificial intelligence will displace so many jobs that it will eliminate the need for mass immigration, according to Palantir Technologies Inc. Chief Executive Officer Alex Karp.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/palantir-ceo-says-ai-to-make-large-scale-immigration-obsolete",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f6f936bfd1fa94661db760e9018e1bd1",
       "timestamp": "2026-01-21T00:38:11+09:00",
@@ -648,6 +725,17 @@
       "related_tickers": [],
       "content": "UAE’s Al Dahra to Exit Grain Trading, Plans Pivot to Farming - Abu Dhabi-based agribusiness group Al Dahra Holding plans to exit third-party grains and oilseeds trading, pivoting instead to focus on its farming operations spread across Europe, Africa and the US.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/uae-s-al-dahra-to-exit-grain-trading-plans-pivot-to-farming",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a5297f1a62f7241f60fceeee358c478d",
+      "timestamp": "2026-01-20T21:41:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Natural Gas Surges 29% as Forecasts Show Arctic Blast Across US - Natural gas futures soared 29% as forecasts turned much colder over the long holiday weekend in the US, calling for a deep freeze to grip much of the country during the weeks ahead.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/natural-gas-surges-24-as-forecasts-show-arctic-blast-across-us",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2111,94 +2199,6 @@
       "related_tickers": [],
       "content": "Singapore’s Small Stocks to Rally on Boost From Market Revamp - Singapore’s small- and mid-cap stocks may be poised for further gains, supported by local market reforms, according to analysts.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/singapore-s-small-stocks-to-rally-on-boost-from-market-revamp",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e0114fa136714e7fe0587e3355049be8",
-      "timestamp": "2026-01-20T13:00:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Takaichi’s Tax Cut Plan Stokes Fiscal Fears With Unclear Funding - Japanese Prime Minister Sanae Takaichi lacks a silver bullet to fund a sales tax cut without stoking concerns that she is moving toward the fiscal direction of former UK leader Liz Truss.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/takaichi-s-tax-cut-plan-stokes-fiscal-fears-with-unclear-funding",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d168851e8b770360961eb7323916a56",
-      "timestamp": "2026-01-20T12:38:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan's 40-Year Bond Yield Hits 4% for First Time | The Asia Trade 1/20/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Singapore with Shery Ahn and Avril Hong, getting ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/the-asia-trade-1-20-26-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2c2830afdd5a9d550c26686a75f719f4",
-      "timestamp": "2026-01-20T12:38:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan 20-Year Bond Sale Sees Weaker Demand Than 12-Month Average - Japan’s 20-year government bond auction drew weaker demand than its 12-month average after government plans for tax relief on food jolted the debt market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/japan-20-year-bond-sale-sees-weaker-demand-than-12-month-average-mkm1obji",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a6fcb77d65876a437e831a1edc99257",
-      "timestamp": "2026-01-20T12:28:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Inside Australia's Hate Speech Debate and US Ambassador Search - Australia is making a second attempt to pass new laws penalizing hate speech. Meanwhile, the search is underway for the next Australian Ambassador to the US, with Kevin Rudd stepping down a year earli",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/australia-s-hate-speech-debate-and-us-ambassador-search-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e2cf5157f969b6a21515d20706f88626",
-      "timestamp": "2026-01-20T12:23:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Copper Drops on Concern Record Prices Hurting Demand in China - Copper fell with most base metals, as investors weighed the scope for demand destruction in top buyer China after prices hit a record.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/copper-drops-on-concern-record-prices-hurting-demand-in-china",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a202ba8813afaa75b407b219d50ae194",
-      "timestamp": "2026-01-20T12:05:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why a Snap Election Is a Gamble for Japan’s Prime Minister - Japan is preparing for a snap lower-house election that could reshape the country’s political balance at a moment of economic strain and regional uncertainty.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/japan-election-why-snap-lower-house-vote-is-gamble-for-pm-takaichi",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9939f652458cfc0d5b8255f51c11e479",
-      "timestamp": "2026-01-20T12:05:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UBP Strategist: Gold a Strong Bet, Be Cautious on Silver - Peter Kinsella, UBP Global Head of FX, cautions against expecting easy returns from silver's ongoing rally but remains bullish on other precious metals including gold as a portfolio anchor amidst glob",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/ubp-strategist-gold-a-strong-bet-be-cautious-on-silver-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0f60eb34f231cb080dcd7a050f64ee54",
-      "timestamp": "2026-01-20T12:03:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Citi Downgrades European Stocks on US Friction Over Greenland - Citigroup Inc. has downgraded European equities for the first time in over a year, citing worsening relations between Brussels and Washington over President Donald Trump’s push to seize Greenland.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/citi-downgrades-european-stocks-on-us-friction-over-greenland",
       "sentiment": "NEUTRAL"
     }
   ]
