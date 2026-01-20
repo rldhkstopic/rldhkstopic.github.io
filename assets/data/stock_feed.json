@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-20T10:31:54.826138+09:00",
+  "last_updated": "2026-01-20T11:40:56.733931+09:00",
   "items": [
+    {
+      "id": "d47a961ed4ad9216b3254a0f0a2c78a5",
+      "timestamp": "2026-01-20T11:31:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Deepens Probe Into PDD After Fistfights With Regulators - China has broadened a probe into PDD Holdings Inc. after its employees exchanged blows with regulators, dispatching over 100 investigators from various agencies to the company’s Shanghai headquarters ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/china-deepens-probe-into-pdd-after-fistfights-with-regulators",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cb86f01ed9a9d834adffd27b084411c0",
+      "timestamp": "2026-01-20T11:09:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippines Braves Rough Market With First Dollar Bond in a Year - The Philippines started marketing its first dollar notes in a year, braving rocky markets after President Donald Trump’s revival of the trade war between the US and Europe pushed Treasury yields highe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/philippines-braves-rough-market-with-first-dollar-bond-in-a-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9d1455f4ab1b79d973ee7ed9892739f7",
+      "timestamp": "2026-01-20T11:06:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesian Rupiah Drops to Record on Central Bank Autonomy Woes - The Indonesian rupiah declined to its weakest level in history as resurging concerns over the central bank’s autonomy add to persistent fiscal worries.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/usd-idr-indonesian-rupiah-falls-to-record-low-as-fiscal-woes-persist",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eee45a93b146e9ecb5c2fdb12111d15d",
+      "timestamp": "2026-01-20T11:01:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pop Mart Shares Surge as Traders Cheer First Buyback Since 2024 - Pop Mart International Group Ltd. shares soared the most in five months after the Chinese toymaker’s first share buyback since 2024 boosted investor confidence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/pop-mart-shares-surge-as-traders-cheer-first-buyback-since-2024",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e5151adb7d517c32f46325680acf9803",
+      "timestamp": "2026-01-20T10:30:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thai Ex-Premier Abhisit Seeks Return as Anti-Scammer Kingmaker - Former Thai leader Abhisit Vejjajiva expects to play a kingmaker’s role in any coalition that seeks to rule the Southeast Asian nation after next month’s election, pitching an agenda of “clean politic",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/thai-ex-premier-abhisit-seeks-return-as-anti-scammer-kingmaker",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "941674b6af0a795a139ea04787871ad2",
+      "timestamp": "2026-01-20T10:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "RBI Needs to Ramp Up Bond Purchases to Cool Yields, Funds Say - India’s central bank will need to pump significantly more liquidity into the banking system, as four interest-rate cuts and record debt purchases have yet to ease elevated yields, market participants ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/rbi-needs-to-ramp-up-bond-purchases-to-cool-yields-funds-say",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "57840f4aba9afb2625854c38090dd918",
       "timestamp": "2026-01-20T09:59:20+09:00",
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "Iron Ore Sinks as China Steel Output Drops, Simandou Cargo Docks - Iron ore sank for a fifth day, the longest losing run since November, as Beijing confirmed a big drop in steel production and the inaugural cargo from a major new mine in Africa arrived in China.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-19/iron-ore-sinks-as-china-steel-output-drops-simandou-cargo-docks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "57fda19ba881b21170ad44c2dd929bee",
-      "timestamp": "2026-01-19T11:45:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Earnings Misses at Reliance, ICICI Bank Set to Embolden India Stock Bears - Banks make up about 30% of the Nifty and are key to any earnings recovery.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-19/reliance-industries-icici-bank-earnings-fall-short-of-expectations",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "48c23d324c930d9ec2fe8a2ef9fd487c",
-      "timestamp": "2026-01-19T11:45:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippine Bourse’s Filings Website Hit by Intermittent Outages - The Philippine Stock Exchange Inc.’s website for company disclosures is experiencing intermittent downtime, though market trading continues as usual, according to the stock exchange operator.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/philippine-bourse-s-filings-website-hit-by-intermittent-outages",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "14f2412b360e63d6bfc0d7d491f90f91",
-      "timestamp": "2026-01-19T11:29:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Birth Rate Hits Lowest Since 1949 in Blow to Baby Drive - China’s birthrate fell last year to its lowest level since 1949, highlighting a deepening demographic struggle for Beijing even as officials roll out new subsidies to encourage couples to have more ch",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-birthrate-hits-lowest-since-1949-in-blow-to-baby-drive",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2dcf14dfc47f4dcf483eeb5253de8846",
-      "timestamp": "2026-01-19T11:24:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Aluminum Output Hits Record, Steel Below 1 Billion Tons - Chinese aluminum output rose to an all-time high last year, climbing above the country’s capacity limit, while steel fell to a seven-year low, underscoring dramatically different prospects for the two",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-s-aluminum-output-hits-record-steel-below-1-billion-tons",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dc3cb089a353a0b41d27bc90085ce8ce",
-      "timestamp": "2026-01-19T11:23:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "PhilTower’s $1 Billion Sale Plan Is Said to Stall on Valuation - A sale of PhilTower has stalled because of differences in views between shareholders and potential buyers about the company’s valuation, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/philtower-s-1-billion-sale-plan-is-said-to-stall-on-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b069ba6882272dbea87003b48a2e4b89",
-      "timestamp": "2026-01-19T11:20:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Coal Output Hits Record in 2025 Even as It Burns Less - China’s coal production reached a record last year, even as the country’s power plants burned less of the fossil fuel due to a flood of cleaner electricity, with Beijing continuing to prioritize energ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-19/china-s-coal-output-hits-record-in-2025-even-as-it-burns-less",
       "sentiment": "NEUTRAL"
     }
   ]
