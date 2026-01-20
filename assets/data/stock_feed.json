@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-21T03:45:00.696885+09:00",
+  "last_updated": "2026-01-21T04:22:12.582957+09:00",
   "items": [
+    {
+      "id": "8aaf56b036773bebbebc0177161e44e7",
+      "timestamp": "2026-01-21T04:15:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Katayama Says Concerns About Japanese Bonds Are Misplaced - Japanese Finance Minister Satsuki Katayama called on market participants to calm down after an intense day of bond selling pushed up long-term government debt yields to the highest levels in decades w",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/katayama-says-concerns-about-japanese-bonds-are-misplaced",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7528080c923e65380cf5ecb4ce10621",
+      "timestamp": "2026-01-21T04:12:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Municipal Bonds Fall on Growing Supply, Geopolitical Angst - Municipal bonds are dropping the most in months as supply starts to pick up and geopolitical concerns hammer the US Treasury market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/municipal-bonds-fall-on-growing-supply-geopolitical-angst",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dce51f9cfe8ee8a8be57164e14f3f43d",
+      "timestamp": "2026-01-21T03:52:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tech Execs at Davos Highlight AI’s Power as a Geopolitical Tool - Anthropic’s Chief Executive Officer Dario Amodei compared artificial intelligence chips to nuclear weapons. Google DeepMind’s CEO said China’s technology is just months behind the US. Signal’s Meredit",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/tech-execs-at-davos-highlight-ai-s-power-as-a-geopolitical-tool",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23af848b06442828f17bb6d0cd3cd299",
+      "timestamp": "2026-01-21T03:36:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New York Budget Doesn't Include Much-Feared Tax Hike For Millionaires - New York Governor Kathy Hochul isn’t raising income or corporate taxes this year to fund the state’s $260 billion budget, easing concerns from some business leaders after Zohran Mamdani was elected ma",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/new-york-dodges-feared-tax-hike-for-millionaires-and-companies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23af848b06442828f17bb6d0cd3cd299",
+      "timestamp": "2026-01-21T03:36:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New York Budget Doesn't Include Much-Feared Tax Hike For Millionaires - New York Governor Kathy Hochul isn’t raising income or corporate taxes this year to fund the state’s $260 billion budget, easing concerns from some business leaders after Zohran Mamdani was elected ma",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/new-york-dodges-feared-tax-hike-for-millionaires-and-companies",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0c3d530961ca849d5e373e7c9f9a2bcd",
       "timestamp": "2026-01-21T03:34:12+09:00",
@@ -10,6 +65,17 @@
       "related_tickers": [],
       "content": "US to Open Access to Venezuela Oil to More Traders, Refiners - The US government plans to allow more trading companies beyond Vitol Group and Trafigura Group to purchase Venezuelan crude, a Trump administration official said.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-to-open-access-to-venezuela-oil-to-more-traders-refiners",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be62d310a1e57178313e26a07ee6d859",
+      "timestamp": "2026-01-21T03:30:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Coinbase CEO on the Future of Digital Assets - Brian Armstrong, Co-Founder & CEO of Coinbase, discusses the Trump-backed crypto bill and the long-term role of digital assets in expanding access to investing worldwide with Bloomberg’s Emily Chang a",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/coinbase-ceo-on-the-future-of-digital-assets-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "JGBs Selloff Is Today's Risk-Off Trigger: 3-Minutes MLIV - Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/jgbs-selloff-is-today-s-risk-off-trigger-3-minutes-mliv-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89d557b075f6ed71fe825255e3799c03",
-      "timestamp": "2026-01-20T17:25:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Big Economic Anchors Show Growth Divide Is Getting Wider - China’s consumer-sensitive sectors are lagging further behind growth in industries linked to manufacturing and tech, illustrating a sharp divide in an economy increasingly exposed to foreign demand.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/china-s-big-economic-anchors-show-growth-divide-is-getting-wider",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89d557b075f6ed71fe825255e3799c03",
-      "timestamp": "2026-01-20T17:25:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Big Economic Anchors Show Growth Divide Is Getting Wider - China’s consumer-sensitive sectors are lagging further behind growth in industries linked to manufacturing and tech, illustrating a sharp divide in an economy increasingly exposed to foreign demand.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/china-s-big-economic-anchors-show-growth-divide-is-getting-wider",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "412fb80e712b157acf826431f4158c29",
-      "timestamp": "2026-01-20T17:20:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada Seeks to Boost Arctic Presence, Foreign Minister Says - Canada will increase its presence in the Arctic, according to Foreign Minister Anita Anand, as US President Donald Trump has triggered turmoil in the region by threatening to annex Greenland.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/canada-seeks-to-boost-arctic-presence-foreign-minister-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "967508f4ccb893bde327352dff622d91",
-      "timestamp": "2026-01-20T17:18:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta’s Asia Policy Chief to Exit as Regulatory Challenges Mount - Meta Platforms Inc. is losing its most senior public policy executive in the Asia-Pacific at a time when the company faces several regulatory challenges in the region and beyond.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/meta-s-asia-policy-chief-to-exit-as-regulatory-challenges-mount",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "88bfd9bf90ba0f4199c057a3124d9f95",
-      "timestamp": "2026-01-20T17:16:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "European Stocks Extend Declines as Trump Ramps Up Tariff Threats - European stocks fell Tuesday as rhetoric about a renewed trade war with the US ramped up, with President Donald Trump threatening a crushing tariff on wine and champagne and French leader Emmanuel Mac",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/european-stocks-extend-declines-as-trump-ramps-up-tariff-threats",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "272db97992c1a96bb3f187d8e0fc90f0",
-      "timestamp": "2026-01-20T17:14:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anand Says Canada Needs to Bolster Its Arctic Presence - Canadian Foreign Minister Anita Anand comments on Arctic security and US relations during a conversation with Lisa Abramowicz at Bloomberg House on the sidelines of the World Economic Forum’s annual m",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/anand-says-canada-needs-to-bolster-its-arctic-presence-video",
       "sentiment": "NEUTRAL"
     }
   ]
