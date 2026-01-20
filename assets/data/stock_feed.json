@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-21T04:22:12.582957+09:00",
+  "last_updated": "2026-01-21T04:55:45.939995+09:00",
   "items": [
+    {
+      "id": "cbb5cafc53933a23d98dbdb4e7cc248d",
+      "timestamp": "2026-01-21T04:43:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says ICE Makes ‘Mistakes’ While Backlash to Tactics Grows - President Donald Trump said that federal immigration agents sometimes make mistakes, even as he broadly defended his migrant crackdown that has sparked tensions in cities nationwide.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/trump-says-ice-makes-mistakes-as-backlash-to-tactics-grows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5a3212f30aec325b2a29d2c636be784d",
+      "timestamp": "2026-01-21T04:27:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "XAI Co-Founder Yang Leaves Musk’s Startup After Lyme Diagnosis - Greg Yang, one of the co-founders of Elon Musk’s startup xAI, is stepping down from the company after being diagnosed with Lyme disease.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/xai-co-founder-yang-leaves-musk-s-startup-after-lyme-diagnosis",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8aaf56b036773bebbebc0177161e44e7",
       "timestamp": "2026-01-21T04:15:42+09:00",
@@ -2177,28 +2199,6 @@
       "related_tickers": [],
       "content": "Tata Eyes Bid for 6,000 E-Buses Without Joining Price Wars - Tata Motors Ltd. is preparing to bid for a government tender of as many as 6,000 electric buses, as it seeks to claw back market share without joining the steep discounting that has defined recent auc",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/tata-eyes-bid-for-6-000-e-buses-without-joining-price-wars",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "182768803c5ae1e2bf9eb7bbf3d1724a",
-      "timestamp": "2026-01-20T17:27:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Urges Calm Over Greenland, Downplays Treasuries Threat - US Treasury Secretary Scott Bessent urged calm amid a growing transatlantic rift over President Donald Trump’s ambitions to take over Greenland, calling for allies to honor their trade agreements and ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/bessent-urges-calm-over-greenland-downplays-treasuries-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "524584ad5dc3d33ef247e8da566179f5",
-      "timestamp": "2026-01-20T17:26:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JGBs Selloff Is Today's Risk-Off Trigger: 3-Minutes MLIV - Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/jgbs-selloff-is-today-s-risk-off-trigger-3-minutes-mliv-video",
       "sentiment": "NEUTRAL"
     }
   ]
