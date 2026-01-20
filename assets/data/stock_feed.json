@@ -1,6 +1,116 @@
 {
-  "last_updated": "2026-01-21T06:36:48.319904+09:00",
+  "last_updated": "2026-01-21T07:04:16.307092+09:00",
   "items": [
+    {
+      "id": "b3432c007aadfa136af3847eaa1ee790",
+      "timestamp": "2026-01-21T06:55:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Startup Baseten Raises $300 Million at $5 Billion Valuation - Artificial intelligence startup Baseten Labs Inc. has raised $300 million at a $5 billion valuation, according to a person familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/ai-inference-startup-baseten-raises-300-million-at-5-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "87790c8e4670e2c823962c3f775f287f",
+      "timestamp": "2026-01-21T06:50:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HSBC Warns Yen’s Surging Risk Premium Has Few Easy Fixes - Fears of steep government spending and resurgent inflation in Japan are driving a breakdown in the yen’s traditional link to the dollar and government-bond yields, prompting HSBC Holdings Plc strategi",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/hsbc-warns-yen-s-surging-risk-premium-has-few-easy-fixes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "24f2215a8314b7b809a8b6fdded517fd",
+      "timestamp": "2026-01-21T06:49:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan's ‘Dementia Money’ Crisis Puts Trillions of Dollars at Risk - <p>Trillions of dollars in Japanese assets are held by people at risk of cognitive decline. On today’s Big Take Asia podcast, what this “dementia money cliff” means for the nation and the broader glob",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/japan-s-dementia-money-problem-puts-trillions-of-dollars-at-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "24f2215a8314b7b809a8b6fdded517fd",
+      "timestamp": "2026-01-21T06:49:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan's ‘Dementia Money’ Crisis Puts Trillions of Dollars at Risk - <p>Trillions of dollars in Japanese assets are held by people at risk of cognitive decline. On today’s Big Take Asia podcast, what this “dementia money cliff” means for the nation and the broader glob",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/japan-s-dementia-money-problem-puts-trillions-of-dollars-at-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "552fa275be6d71a19c1ad8d0fe51b014",
+      "timestamp": "2026-01-21T06:47:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Market Calm Gives Way as Greenland Tension Opens Up ‘Tail Risk’ - As financial markets settled into an unusual state of tranquility, with stocks slowly grinding higher week after week and bond yields hovering in narrow ranges, many on Wall Street started to prepare ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/market-calm-gives-way-as-greenland-tension-opens-up-tail-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d5bdfcbcd68b766d1a1c40086a732159",
+      "timestamp": "2026-01-21T06:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Drone Delivery Startup Zipline Hits $7.6 Billion Valuation - Zipline, a drone delivery and logistics startup, has raised more than $600 million in new funding, boosting its valuation to $7.6 billion, as it expands commercial deployments.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d5bdfcbcd68b766d1a1c40086a732159",
+      "timestamp": "2026-01-21T06:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Drone Delivery Startup Zipline Hits $7.6 Billion Valuation - Zipline, a drone delivery and logistics startup, has raised more than $600 million in new funding, boosting its valuation to $7.6 billion, as it expands commercial deployments.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "91d23e628ce47f2046ace09e88192933",
+      "timestamp": "2026-01-21T06:40:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ICE Agents Makes 'Mistakes' Sometimes, President Trump Says - President Donald Trump said that federal immigration agents sometimes make mistakes, even as he broadly defended his migrant crackdown. He spoke at the White House. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/ice-makes-mistakes-sometimes-trump-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aab83d3a3cd9e2538dcb99529c1cd076",
+      "timestamp": "2026-01-21T06:39:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Miner Rio Tinto Copper Output Climbs as Oyu Tolgoi Ramps Up - Rio Tinto Group’s copper production, a key plank of the miner’s growth plans, climbed 5% in the fourth quarter thanks to the continued expansion of its operation at Oyu Tolgoi in Mongolia, while iron ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/rio-tinto-pilbara-iron-ore-shipments-rise-to-record",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ba41bb5ee19ab1bafc2f237f0d095fcd",
+      "timestamp": "2026-01-21T06:34:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says NATO Will Be Happy With Deal on Greenland - President Donald Trump doubles down on his efforts to take control of Greenland before heading to Davos. “I think that we will work something out where NATO is going to be very happy and where we’re g",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-says-something-will-happen-on-greenland-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "80c1d55c1286ed5f3adc9dc961b2ada0",
       "timestamp": "2026-01-21T06:33:12+09:00",
@@ -10,6 +120,17 @@
       "related_tickers": [],
       "content": "Trump’s Greenland Quest Has Allies Reeling &mdash; and Pushing Back - European nations weigh how to respond to Trump’s latest tariff threats.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-01-20/trump-s-greenland-quest-has-allies-reeling-and-pushing-back",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7169dbc3d9231b8e28a9fedcd9c5e07e",
+      "timestamp": "2026-01-21T06:33:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "KKR on Track to Beat $20 Billion Target for Americas Buyout Fund - KKR &amp; Co. will surpass its $20 billion target for the firm’s flagship Americas private equity vehicle after it wraps up fundraising, setting a record for the strategy, according to people with kno",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/kkr-on-track-to-beat-20-billion-target-for-americas-buyout-fund",
       "sentiment": "NEUTRAL"
     },
     {
@@ -43,6 +164,17 @@
       "related_tickers": [],
       "content": "DOJ Subpoenas Pressure Top Minnesota Officials Over Immigration - The Justice Department sent grand jury subpoenas to multiple top Minnesota officials in a widening investigation over whether they conspired to impede federal immigration enforcement efforts, accordin",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/doj-subpoenas-pressure-top-minnesota-officials-over-immigration",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "da7517bc8390e81e3fbe40d275cec05d",
+      "timestamp": "2026-01-21T06:15:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netflix’s Amended Offer Puts Pressure on Paramount | Bloomberg Tech 1/20/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss Netflix’s amended, all-cash offer to buy Warner Bros. Discovery's studio and streaming business. Plus, as tech leaders sit down with Bloomberg from Davo",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/bloomberg-tech-1-20-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2067,138 +2199,6 @@
       "related_tickers": [],
       "content": "Spot Copper Prices Spike on LME as Traders Tussle Over Inventory - Spot copper prices surged above later-dated futures on the London Metal Exchange in a sign that traders may be moving to withdraw large volumes of stock from the bourse’s warehouses.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/spot-copper-prices-spike-on-lme-as-traders-tussle-over-inventory",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dc853b31a9eb31f261fa6a0ad6109bf",
-      "timestamp": "2026-01-20T19:47:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Deutsche Boerse Is Said to Near €5.3 Billion Deal for Allfunds - Deutsche Boerse AG is nearing a deal to acquire European fund distribution platform Allfunds Group Plc for about €5.3 billion ($6.2 billion) in cash and stock, according to people familiar with the ma",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/deutsche-boerse-is-said-to-near-5-3-billion-deal-for-allfunds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b86a9d032e9be2ca059e7cd9335401f3",
-      "timestamp": "2026-01-20T19:40:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Threatens 200% Champagne Tariff as Macron Rejects ‘Peace Board’ Invite - US President Donald Trump took a swipe at President Emmanuel Macron for rejecting an invitation to back his latest peace initiative and threatened crushing tariffs on French wine. Trump also published",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-floats-200-tariff-as-macron-rejects-peace-invite-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3834fbef5fcc5d66425cf0c44df960a1",
-      "timestamp": "2026-01-20T19:34:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Tells Trump ‘a Deal Is a Deal’ as Greenland Threats Escalate - President Donald Trump’s economic threats on the European Union over acquiring Greenland amount to a “mistake” that violates a trade arrangement forged last year between the transatlantic allies, the ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/eu-tells-trump-a-deal-is-a-deal-as-greenland-threats-escalate",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a275b7f2f0c8af5c5141e96101554c87",
-      "timestamp": "2026-01-20T19:33:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Microsoft CEO Nadella on How AI Can Change Workflows - Microsoft Chairman and Chief Executive Officer Satya Nadella discusses artificial intelligence and the potential it has to change workflows. \"The current structure may not make sense, because you want",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/microsoft-ceo-nadella-on-how-ai-can-change-workflows-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d560c6406dacc1220ef8515450653916",
-      "timestamp": "2026-01-20T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Makes Global Stocks Great Again as US Lags World Markets - After the S&amp;P 500 Index rebounded from the brink of a bear market in April and spent the remainder of the year going from one record to the next, President Donald Trump billed it as a sign that he",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/trump-makes-global-stocks-great-again-as-us-lags-world-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30bd5410807d7083282f7a9f23dfcd19",
-      "timestamp": "2026-01-20T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Quantinuum Is Said to Work with Morgan Stanley, JPMorgan on IPO - Quantinuum, a quantum computing company, is working with Morgan Stanley and JPMorgan Chase &amp; Co. on an initial public offering, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/quantinuum-is-said-to-work-with-morgan-stanley-jpmorgan-on-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f056021710b61c18b02431747d97a9c5",
-      "timestamp": "2026-01-20T19:28:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nigerian Police Dispute Reports of Mass Abductions of Christians - Nigerian authorities disputed reports of mass abductions of Christians in the northern state of Kaduna, after reports that armed gangs seized hundreds of people from two churches on Sunday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/nigeria-police-denies-christian-worshipers-kidnapped-in-kaduna-church-attacks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8851c9e7c78b083f3e09efc975cb4593",
-      "timestamp": "2026-01-20T19:24:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Merck CEO on US Business, Life Sciences Innovation - Merck KGaA Chief Executive Officer Belen Garijo says the company will continue to collaborate with the US and deliver life sciences innovation to patients. She spoke to Bloomberg's Francine Lacqua on ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/merck-ceo-on-us-business-life-sciences-innovation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "db09f62570c5858f61b2561ee012b7d8",
-      "timestamp": "2026-01-20T19:19:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nigerian Finance Minister Targets Less Borrowing - Nigerian Finance Minister Wale Edun said the nation can access international bond markets if it needs to, but would prefer to rely more on its own resources. “The issue now is to focus on revenue, foc",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/nigerian-finance-minister-targets-less-borrowing-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d4d8057260982bd777849258b6567e8",
-      "timestamp": "2026-01-20T19:17:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kenya Pipeline to Triple Capital Spend to $852 Million Post IPO - State-owned Kenya Pipeline Co., which the East African state is listing through an initial public offering, plans to triple capital expenditure on projects to widen its network, increase storage and d",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/kenya-pipeline-to-triple-capital-spend-to-852-million-post-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6dc9203e8f7ab2421c225ff1d4ee3ccf",
-      "timestamp": "2026-01-20T19:12:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sony to Cede Control of Bravia TVs to China’s TCL Electronics - Sony Group Corp. is spinning off control of its home entertainment business, including the flagship Bravia television brand, to Chinese rival TCL Electronics Holdings Ltd., the latest Japanese company",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/sony-to-cede-control-of-bravia-tvs-to-china-s-tcl-electronics",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c43123a9abb93a4c9d599f2b21cd8d3c",
-      "timestamp": "2026-01-20T19:11:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Novartis CEO Vas Narasimhan speaks to BTV at Davos - Novartis CEO Vas Narasimhan said his company has \"future-proofed\" against trade tensions through a $23 billion investment in the United States. He spoke to Bloomberg TV's Francine Lacqua on the sideli",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/novartis-ceo-vas-narasimhan-speaks-to-btv-at-davos-video",
       "sentiment": "NEUTRAL"
     }
   ]
