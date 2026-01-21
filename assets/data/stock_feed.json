@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-21T09:48:08.211093+09:00",
+  "last_updated": "2026-01-21T10:32:11.501363+09:00",
   "items": [
+    {
+      "id": "38f7a8173c7c9cf907b0cf32971362c9",
+      "timestamp": "2026-01-21T10:08:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Signs Order Targeting Institutional Housing Investors - President Donald Trump signed an executive order Tuesday seeking to advance his effort to ban large institutional investors from buying single-family homes, before a trip to the World Economic Forum i",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/trump-signs-order-targeting-institutional-housing-investors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "521dfc8ff31e2091a02edaf10782c208",
+      "timestamp": "2026-01-21T10:06:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian State Refiner BPCL Leads Push to Lock In Mideast Crude - Indian state-owned refiner Bharat Petroleum Corp. is seeking to lock in long-term Middle East crude purchases, in the latest sign that the world’s third-largest oil importer is edging back toward trad",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/indian-state-refiner-bpcl-leads-push-to-lock-in-mideast-crude",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6ebeb28e81d8497e1d6254d614c542c2",
+      "timestamp": "2026-01-21T10:03:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan’s Michele Says Market Selloff Is Message for Trump - JPMorgan Asset Management’s Bob Michele said the selloff in markets is a message to President Donald Trump’s administration to take action to restore calm as officials did after Liberation Day tariffs",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/jpmorgan-s-michele-says-market-selloff-is-message-for-trump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9d90ea8e2a84d43dbd3acb0e2a3abf50",
+      "timestamp": "2026-01-21T09:57:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "RGA's Gardner on Risk Aversion on Global Trading Floors - Rick Gardner, CIO at RGA Investments, shares his views on the recent selloff in Japanese government bonds and gives his perspective on the fear of a spillover into other markets. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/rga-s-gardner-on-risk-aversion-on-global-trading-floors-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "73ebc0a91ffbb82dde4d21bab0139d00",
+      "timestamp": "2026-01-21T09:56:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Brings Greenland Fight to Davos | Balance of Power: Late Edition 01/20/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Leon Panetta, former US Secretary of Defense, discusses the global implications of Presid",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/balance-of-power-late-edition-01-20-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9e609cc24a0488ae409eb755736beefa",
+      "timestamp": "2026-01-21T09:53:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chile President-Elect Kast Names Cabinet With Quiroz as Finance Chief - Chile’s President-elect José Antonio Kast unveiled his cabinet on Tuesday night, naming top adviser and anti-regulation crusader Jorge Quiroz as his finance chief while backing off from a cost-cutting",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/jose-antonio-kast-names-chile-cabinet-jorge-quiroz-to-be-finance-chief",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d1150ad42cc379c5508de4c1aa427786",
       "timestamp": "2026-01-21T09:36:55+09:00",
@@ -2133,72 +2199,6 @@
       "related_tickers": [],
       "content": "UAE’s Al Dahra to Exit Grain Trading, Plans Pivot to Farming - Abu Dhabi-based agribusiness group Al Dahra Holding plans to exit third-party grains and oilseeds trading, pivoting instead to focus on its farming operations spread across Europe, Africa and the US.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/uae-s-al-dahra-to-exit-grain-trading-plans-pivot-to-farming",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a5297f1a62f7241f60fceeee358c478d",
-      "timestamp": "2026-01-20T21:41:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Natural Gas Surges 29% as Forecasts Show Arctic Blast Across US - Natural gas futures soared 29% as forecasts turned much colder over the long holiday weekend in the US, calling for a deep freeze to grip much of the country during the weeks ahead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/natural-gas-surges-24-as-forecasts-show-arctic-blast-across-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cf925cc86c51eb7b9ef745d3d83d863a",
-      "timestamp": "2026-01-20T21:36:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Adviser: US Can Meet AI’s Energy Demand - Energy will be a key driver to support the AI race and power all the data centers, but the US is in a good place to meet that demand, according to President Trump’s chief tech and science adviser. Mic",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-adviser-us-can-meet-ai-s-energy-demand-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "00e2bf3edfdf4cfdc2445026da533883",
-      "timestamp": "2026-01-20T21:33:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Technology and the Future of the Creative Industry - Utopai Studios Co-Founder and CEO Cecilia Chen and ElevenLabs Co-Founder and CEO Mati Staniszewski discuss how AI and new technologies are transforming how stories are created and shared with Bloomber",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/technology-and-the-future-of-the-creative-industry-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4f2ec7dcae00c871c235575fb0e455f5",
-      "timestamp": "2026-01-20T21:31:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Stock Futures Drop as Greenland Threats Stoke Trade Worries - US stock futures fell the most since November after a weekend of bombast from President Donald Trump over the future of Greenland threatened to spark a trade war with the European Union.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-stock-futures-drop-as-greenland-threats-stoke-trade-worries",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e82e7b8abf6aeb451d5939cf6785028d",
-      "timestamp": "2026-01-20T21:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Heitman Gathers $2.6 Billion for Property Dislocation Bets - Real estate investment firm Heitman raised about $2.6 billion to take advantage of opportunities arising from the dislocation in property markets, closing its biggest-ever closed-end fund.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/heitman-gathers-2-6-billion-for-property-dislocation-bets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "75000342266b7b9fe7ffaea5cb070ba7",
-      "timestamp": "2026-01-20T21:29:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan's Filippo Gori on Client Tariff Concern - JPMorgan's clients across Europe and the Middle East have put their concerns about tariffs to the side, at least for now, choosing instead to focus on running their businesses. That was among the obse",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/jpmorgan-s-filippo-gori-on-client-tariff-concern-video",
       "sentiment": "NEUTRAL"
     }
   ]
