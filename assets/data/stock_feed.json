@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-21T20:06:00.087284+09:00",
+  "last_updated": "2026-01-21T20:37:26.903539+09:00",
   "items": [
+    {
+      "id": "d52141d5854654fd9db40d5b592a8dcb",
+      "timestamp": "2026-01-21T20:16:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lack of Market Panic on Greenland Undermines TACO Trade - <p>If markets don't sell off violently, does Trump have any reason to chicken out?</p>",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-21/lack-of-market-panic-on-greenland-undermines-taco-trade",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3798f376a1b4de71b0268ec549f0a4eb",
+      "timestamp": "2026-01-21T20:14:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia Struggles to Sell Seized Assets to Bolster Wartime Budget - Russia seized a record amount of assets last year but is struggling to profit from their sale, with the failed auction of a major Moscow airport underscoring the challenges the state faces in topping ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/russia-struggles-to-sell-seized-assets-to-bolster-wartime-budget",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ed73ba4935207d3a6d3ed7fa51987978",
+      "timestamp": "2026-01-21T20:12:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "MHP Kicks Off Ukraine’s First Bond Sale Since Russian Invasion - Agricultural firm MHP SE is launching Ukraine’s first bond sale since Russia’s full-scale invasion of the country in 2022.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/mhp-kicks-off-ukraine-s-first-bond-sale-since-russian-invasion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0b0dffe83b4071fbd544ae673fe52131",
+      "timestamp": "2026-01-21T20:12:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Davos Speech to Start on Time Despite Flight Delay - President Donald Trump’s address in Davos is set to start at its scheduled time, according to the World Economic Forum, despite his flight to Switzerland being delayed by a mechanical issue.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/trump-s-davos-speech-to-start-on-schedule-despite-flight-delay",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4bbfaf55734b890a2dceeafada8bc1c8",
+      "timestamp": "2026-01-21T20:03:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Envoys to Meet Putin for New Talks on Ukraine, Witkoff Says - US envoy Steve Witkoff said he and Jared Kushner will travel to Russia on Thursday for talks with President Vladimir Putin on the latest proposals for a peace plan to end the war in Ukraine.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/us-envoys-to-meet-putin-for-new-talks-on-ukraine-witkoff-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "794b58efb12bc32ce9001f4657ea2130",
       "timestamp": "2026-01-21T20:02:52+09:00",
@@ -13,6 +68,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "ac4436f63c615c83f9bc73751c232685",
+      "timestamp": "2026-01-21T20:00:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia Says Ukraine Attacked Afipsky Oil Refinery Overnight - Russia said Ukrainian drones targeted the Afipsky refinery in the Krasnodar region overnight, in the latest attack on the nation’s energy infrastructure.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/russia-says-ukraine-attacked-afipsky-oil-refinery-overnight",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "7b6eff4e911cc9a23042d565a6031924",
       "timestamp": "2026-01-21T20:00:35+09:00",
       "source_type": "NEWS",
@@ -21,6 +87,39 @@
       "related_tickers": [],
       "content": "AI Becomes the Tone Police for White-Collar Workers - <p>Workers are turning to chatbots to help them get through difficult conversations with their colleagues and business partners.</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/white-collar-workers-use-ai-to-have-tough-conversations-at-work",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4459d525e7093e3717a1f87e8c438943",
+      "timestamp": "2026-01-21T20:00:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Former JPMorgan Banker Launches European Sports Fund Athvance - Ex-JPMorgan Chase &amp; Co. banker Karim Ben Rejeb has set up an investment fund that will target emerging and under-commercialized sports in Europe.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/former-jpmorgan-banker-launches-european-sports-fund-athvance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5d6471c6cac9f75e9bd812676593e1e5",
+      "timestamp": "2026-01-21T20:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PGIM Plans $1 Billion Foray Into Private Credit Secondaries - PGIM, the asset management arm of Prudential Financial, is seeking to compete in the booming market for trading private credit stakes.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/pgim-plans-1-billion-foray-into-private-credit-secondaries",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fa5fdeb12b15c8deae5a25f5ee6eeb73",
+      "timestamp": "2026-01-21T19:59:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Qatari Finance Minister on Energy, Global Resilience - Qatar's Finance Minister Ali bin Ahmed Al-Kuwari speaks to Bloomberg's Joumanna Bercetche on the sidelines of the 2026 World Economic Forum in Davos, Switzerland. He discusses resilient growth amid ge",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/qatari-finance-minister-on-energy-global-resilience-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "JPMorgan's Michele Sees No Alternative to US Debt - \"I don't think there will be wholesale selling of US Treasury debt,\" Bob Michele, JPMorgan Asset Management CIO and global head of fixed income, says on Bloomberg Television. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/jpmorgan-s-michele-sees-no-alternative-to-us-debt-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e1c321804f619966a108359ce89086c",
-      "timestamp": "2026-01-21T05:41:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bolivia Tightens Gold Buying Rules After Past Irregularities - Bolivia’s central bank has resumed purchases of domestically mined gold to bolster foreign reserves, introducing a new US dollar reference price and stricter guidelines to avoid irregularities.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/bolivia-tightens-gold-buying-rules-after-past-irregularities",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eceb7bc5a74985975cf8ca6f3055eb76",
-      "timestamp": "2026-01-21T05:41:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mexico Sends Third Group of Inmates With Cartel Ties to US - Mexico handed over a new group of inmates with alleged ties to drug cartels to US authorities, the latest sign of changes in security cooperation with Washington under President Claudia Sheinbaum.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/mexico-sends-third-group-of-inmates-with-drug-cartel-ties-to-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4b8e9c141e246b9aeaf29e9a7689630f",
-      "timestamp": "2026-01-21T05:41:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Lawmakers Boost Key Pentagon Test Office Slashed by Hegseth - Congressional lawmakers green-lighting $839 billion in US defense spending voiced strong support for an embattled test office at the Pentagon that was slashed by Defense Secretary Pete Hegseth, highli",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-lawmakers-boost-key-pentagon-test-office-slashed-by-hegseth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "970146ac450453486da7141be280ce7c",
-      "timestamp": "2026-01-21T05:34:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Could the Constitution’s 25th Amendment Be Used to Oust Trump? - How could a sitting US president be legally removed from office? Most people have heard of impeachment, a power granted to (and rarely used by) the US Congress. But there’s also the 25th amendment to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/could-the-constitution-s-25th-amendment-be-used-to-oust-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81784ae29ba549420eb48ed349877b90",
-      "timestamp": "2026-01-21T05:31:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Suggests Board of Peace Could Supplant United Nations - President Donald Trump suggested his proposed Board of Peace could supplant an ineffective United Nations, while asserting that the decades-old outfit still could assist in his peacekeeping efforts.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/trump-suggests-board-of-peace-could-supplant-united-nations",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe8d7cc676ba7378661657987684125a",
-      "timestamp": "2026-01-21T05:28:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EQT Plans to Roll Existing Venture Capital Stakes Into New Fund - Private equity firm EQT AB is looking to shift assets in its first venture fund into a new vehicle amid the expansion of the secondary market for startup stakes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/eqt-plans-to-roll-existing-venture-capital-stakes-into-new-fund",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f0f9c99c19f0b14decde1f8891144e90",
-      "timestamp": "2026-01-21T05:27:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman's Kaplan Sees Fed Maintaining Its Independence - Goldman Sachs Vice Chairman Robert Kaplan says all of the candidates to replace Federal Reserve Chair Jerome Powell \"can do it.\" Speaking with Julie Fine, Kaplan also says Fed rates are \"at about neut",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/goldman-s-kaplan-says-fed-at-about-neutral-cut-unlikely-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "db521254a63a3c681f2c78b91addcf77",
-      "timestamp": "2026-01-21T05:25:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "GoldenTree Makes $200 Million Bet on Saks Bankruptcy Rescue Loan - GoldenTree Asset Management will buy a chunk of a $1 billion bankruptcy financing for Saks Global Enterprises, in a bet that the iconic department store will make it through Chapter 11 and chart a pat",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/goldentree-makes-200-million-bet-on-saks-bankruptcy-rescue-loan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd1d685ab043f2aef02955b74f8227b3",
-      "timestamp": "2026-01-21T05:14:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US FTC to Appeal Court Ruling on Meta Win in Monopoly Case - The US Federal Trade Commission will appeal a federal judge’s decision that Meta Platforms Inc. doesn’t have a monopoly in social networking, an agency spokesman said Tuesday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-ftc-to-appeal-court-ruling-on-meta-win-in-monopoly-case",
       "sentiment": "NEUTRAL"
     }
   ]
