@@ -1,6 +1,552 @@
 {
-  "last_updated": "2026-01-22T03:15:31.841117+09:00",
+  "last_updated": "2026-01-22T05:09:08.886687+09:00",
   "items": [
+    {
+      "id": "3afae3d913ca636c067aae46e2148ba6",
+      "timestamp": "2026-01-22T05:06:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Old National Bancorp (ONB) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861620-old-national-bancorp-onb-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2751877d07a66155c04ca4452d064e7b",
+      "timestamp": "2026-01-22T05:00:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Northpointe Bancshares, Inc. 2025 Q4 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4861618-northpointe-bancshares-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9ca2e48007ff793ae89cee666643efc4",
+      "timestamp": "2026-01-22T04:58:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Greenland Push About 'Stronger NATO, Stronger Europe,' Says State Dept. Spokesperson - Tommy Pigott, deputy spokesperson for the US State Department, said that the US push for control of Greenland is about stronger national security partnership for both the US and NATO. \nEarlier today P",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-greenland-push-about-stronger-nato-pigott-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fba7d794616ef35ccc6406625379b94f",
+      "timestamp": "2026-01-22T04:55:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "United Airlines Holdings, Inc. (UAL) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861589-united-airlines-holdings-inc-ual-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b75797d9734c3375446de7c244091862",
+      "timestamp": "2026-01-22T04:50:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ontario’s Ford Rallies Auto Sector to Reject Carney’s China EV Deal - Ontario Premier Doug Ford and automotive industry leaders doubled down on their opposition to Canada’s trade truce with China, warning that opening the door to Chinese electric vehicles and auto inves",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/ontario-s-ford-rallies-auto-sector-to-reject-carney-s-china-ev-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b26eca97f349a2f32cfbaee9c23a817a",
+      "timestamp": "2026-01-22T04:50:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Corvus Pharmaceuticals: ITK Inhibitor Soquelitinib AD Data Could Be Improved Upon",
+      "url": "https://seekingalpha.com/article/4861603-corvus-pharmaceuticals-itk-inhibitor-soquelitinib-ad-data-could-be-improved-upon?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65edf265edb4f7184d9ffb354ba43483",
+      "timestamp": "2026-01-22T04:46:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Why Allstate Works Better As An Options Strategy Than An Equity Bet",
+      "url": "https://seekingalpha.com/article/4861601-why-allstate-works-better-as-an-options-strategy-than-an-equity-bet?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7790f418e5c232dc6010b6a3ca524d3b",
+      "timestamp": "2026-01-22T04:46:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "MakeMyTrip Limited (MMYT) Q3 2026 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861497-makemytrip-limited-mmyt-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aec51a4a85e61cbbb12b83737cabc6bc",
+      "timestamp": "2026-01-22T04:45:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "F.N.B. Corporation (FNB) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861538-f-n-b-corporation-fnb-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "73de7ba1bc242185376f77842309204a",
+      "timestamp": "2026-01-22T04:45:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple to Revamp Siri as a Built-In iPhone, Mac Chatbot to Fend Off OpenAI - Apple Inc. plans to revamp Siri later this year by turning the digital assistant into the company’s first artificial intelligence chatbot, thrusting the iPhone maker into a generative AI race dominate",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/ios-27-apple-to-revamp-siri-as-built-in-iphone-mac-chatbot-to-fend-off-openai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6bfa243ab751140bbc4de6058ba1709b",
+      "timestamp": "2026-01-22T04:41:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan Becomes World’s Biggest Active ETF Firm - JPMorgan Asset Management hails as the world’s largest issuer of actively managed exchange-traded funds. The bank’s asset management arm currently controls nearly $257 billion in active ETFs worldwide",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/jpmorgan-becomes-world-s-biggest-active-etf-firm-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "759bc8ded191e0f54f71ddf0b46f4cbc",
+      "timestamp": "2026-01-22T04:34:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Backs Off Greenland Tariffs, Citing ‘Framework’ Deal - President Donald Trump said he would refrain from imposing tariffs on goods from European nations opposing his effort to take possession of Greenland, citing a “framework of a future deal” he was reac",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/trump-holding-off-on-greenland-tariffs-citing-framework-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc72ae1e28290ada41f1f14736da8780",
+      "timestamp": "2026-01-22T04:32:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Navitas 2.0: GaN And SiC Powerhouse Pivoting Into The AI Data Center Boom",
+      "url": "https://seekingalpha.com/article/4861600-navitas-2-0-gan-and-sic-powerhouse-pivoting-into-the-ai-data-center-boom?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6d4ffc97d1d222b010ed874e7a9a5ba4",
+      "timestamp": "2026-01-22T04:30:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Roblox: Growth Story The Market Forgot",
+      "url": "https://seekingalpha.com/article/4861599-roblox-growth-story-the-market-forgot?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "42555a28605309998fc4dd566102e2c2",
+      "timestamp": "2026-01-22T04:25:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BankUnited, Inc. (BKU) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861536-bankunited-inc-bku-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "93a5077bbae9268819c7ab80dcce1be7",
+      "timestamp": "2026-01-22T04:25:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A $6 Billion Treasury ETF Becomes Test Bed for Tokenized Finance - One of Wall Street’s most regulated asset classes is being pulled into the orbit of digital finance.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/a-6-billion-treasury-etf-becomes-test-bed-for-tokenized-finance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6df8d2d7e463b8a19c87e41271f7d580",
+      "timestamp": "2026-01-22T04:23:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tokenization Powering NYSE's New 24/7 Trading - The New York Stock Exchange is building a venue to allow for trading stocks and ETFs around the clock. Michael Blaugrund, VP of Strategic Initiatives at ICE, discusses how blockchain technology and to",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/tokenization-powering-nyse-s-new-24-7-trading-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8240a056c82d62e0ee61391ea5c81815",
+      "timestamp": "2026-01-22T04:23:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cook Supreme Court Case Could Challenge 'Fundamental Bedrock' of Economy, Says Brainard - Former Federal Reserve Vice Chair Lael Brainard said the move to criminally investigate Fed Chair Jerome Powell was a \"spectacular misstep\" by the Trump administration has set off alarm bells in marke",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/cook-case-could-challenge-bedrock-of-economy-brainard-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "daa899fb26780a3e913dc0bd2cef07e8",
+      "timestamp": "2026-01-22T04:22:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Matt Tuttle Talks Income ETFs And His UFO Fund - Tuttle Capital Management announced the launch of the Tuttle Capital Meme Stock Income Blast ETF. Matt Tuttle, CEO & CIO of Tuttle Capital tells Bloomberg that demand for income-driven products is sur",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/matt-tuttle-talks-income-etfs-and-his-ufo-fund-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b11be09313508d35f96855905a1b9151",
+      "timestamp": "2026-01-22T04:22:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meloni Says Italy Won’t Immediately Join Trump’s Peace Project - Italian Prime Minister Giorgia Meloni said she won’t immediately sign onto President Donald Trump’s “Board of Peace” charter, signaling that doing so would create legal risks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/meloni-says-italy-won-t-immediately-join-trump-s-peace-project",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cc8f166bf38e6d5b489ab0c8d822173a",
+      "timestamp": "2026-01-22T04:18:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "4 Potential Gray Swans That Keep Me Up At Night",
+      "url": "https://seekingalpha.com/article/4861597-4-potential-gray-swans-that-keep-me-up-at-night?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f92562aeca60fad7a3deab71c418e891",
+      "timestamp": "2026-01-22T04:16:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Karooooo Ltd. 2026 Q3 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4861606-karooooo-ltd-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8bb66bf95d5685e043d4b2b54f0f6eb4",
+      "timestamp": "2026-01-22T04:16:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dutch PM Says Trump Tariff Threats Are 'Unjustified' - Dutch Prime Minister Dick Schoof says threats of more tariffs from the Trump administration are \"unjustified.\"\nSchoof is pushing for a diplomatic solution to resolve the dispute over Greenland. He spe",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/dutch-pm-says-trump-tariff-threats-are-unjustified-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b14b586d400c88e02548f293fb8eb509",
+      "timestamp": "2026-01-22T04:15:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Karooooo Ltd. (KARO) Q3 2026 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861495-karooooo-ltd-karo-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ae66d7ac69250286d642a82c35ec9f7a",
+      "timestamp": "2026-01-22T04:15:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Truist Financial Corporation (TFC) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861496-truist-financial-corporation-tfc-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "732f70da3db6312d2474530ff0e99503",
+      "timestamp": "2026-01-22T04:15:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic’s Revenue Run Rate Tops $9 Billion as VCs Pile In - <p>Iconiq, Lightspeed and Menlo Ventures are set to join the startup’s new funding round&nbsp;at a $350 billion valuation.&nbsp;</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/anthropic-s-revenue-run-rate-tops-9-billion-as-vcs-pile-in",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8be28209765876b8514207581d73ab9b",
+      "timestamp": "2026-01-22T04:06:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPM's Success As Active ETF Mngr, NYSE Builds for 24/7 Trading of Tokenized ETFs | ETF IQ 1/21/2026 - \"Bloomberg ETF IQ\" focuses on the opportunities, risks and current trends tied to the trillions of dollars in the global exchange traded funds industry. Today's guests: JPMorgan Asset Management Globa",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/etf-iq-1-21-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7dea0cb1af713277f89f29b105c99cc",
+      "timestamp": "2026-01-22T04:05:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Wintrust Financial Corporation (WTFC) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861587-wintrust-financial-corporation-wtfc-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a5af397b4cb77e1e3febe56c736e859",
+      "timestamp": "2026-01-22T04:03:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Cloudflare's Quiet Enterprise Inflection",
+      "url": "https://seekingalpha.com/article/4861595-cloudflare-quiet-enterprise-inflection?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "db8d28f9d359e8c2bae4d8d5857b200d",
+      "timestamp": "2026-01-22T04:02:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Salesforce: The Selloff Is Overdone, A Contrarian Buy Opportunity (Rating Upgrade)",
+      "url": "https://seekingalpha.com/article/4861594-salesforce-the-selloff-is-overdone-a-contrarian-buy-opportunity-rating-upgrade?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a1dc25095da62b9c3bdb0bae77ef0d3f",
+      "timestamp": "2026-01-22T04:01:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Elevates Minnis, Moves Wheeler to Lead Leveraged Finance - Goldman Sachs Group Inc. is making leadership changes across its global credit business, creating a new role for veteran partner Christina Minnis.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/goldman-elevates-minnis-moves-wheeler-to-lead-leveraged-finance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f0ed5e3f73cdbb6bd468656f39e6913",
+      "timestamp": "2026-01-22T04:01:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Balance Sheet Is Point of Tension as Trump Weighs Chair - A key question is emerging as investors await President Donald Trump’s nominee as the next Federal Reserve chair &mdash; how the candidate will manage the central bank’s $6.6 trillion balance sheet.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/fed-s-balance-sheet-is-point-of-tension-as-trump-weighs-chair",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f0ed5e3f73cdbb6bd468656f39e6913",
+      "timestamp": "2026-01-22T04:01:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Balance Sheet Is Point of Tension as Trump Weighs Chair - A key question is emerging as investors await President Donald Trump’s nominee as the next Federal Reserve chair &mdash; how the candidate will manage the central bank’s $6.6 trillion balance sheet.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/fed-s-balance-sheet-is-point-of-tension-as-trump-weighs-chair",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3db4c5cb45a208dcfd16fee09d6c4a79",
+      "timestamp": "2026-01-22T04:00:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Exelon Corporation: Leaves A Lot To Be Desired As An Investment",
+      "url": "https://seekingalpha.com/article/4861593-exelon-corporation-leaves-a-lot-to-be-desired-as-an-investment?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2857f4cb206adc179b830cdca73de745",
+      "timestamp": "2026-01-22T04:00:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Vantage Corp 2026 Q2 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4861604-vantage-corp-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2ff1f2cef9aeea935cfe303d0950cc96",
+      "timestamp": "2026-01-22T04:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "How To Build Your Perfect Portfolio With Cullen Roche",
+      "url": "https://seekingalpha.com/article/4861602-how-to-build-your-perfect-portfolio-with-cullen-roche?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a010f13f5ac14985e4ad5906c0c1319f",
+      "timestamp": "2026-01-22T03:57:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Equity CEO Urges Europe to Look East as Pressures Mount - European companies should look to Asia to sustain growth as pressures mount at home, according to Frank Tang, chief executive officer of private equity firm FountainVest Partners.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/private-equity-ceo-urges-europe-to-look-east-as-pressures-mount",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "172a5414040b0ada3d7fd04ab5fce9dd",
+      "timestamp": "2026-01-22T03:56:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Maryland’s Moore Pitches $70.8 Billion Budget After Federal Cuts - Maryland Governor Wes Moore proposed a $70.8 billion budget without new taxes or fees for the fiscal year beginning in July, pitching the plan as a way to stabilize the state’s economy after a turbule",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/maryland-s-moore-pitches-70-8-billion-budget-after-federal-cuts",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4d04c5de8e25daf3ed4ca4f166009a7c",
+      "timestamp": "2026-01-22T03:49:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran’s Internet Blackout Among Most Severe Ever, Experts Say - Custom blocking tools have replaced brute-force shutdowns.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-21/iran-s-internet-blackout-among-most-severe-ever-experts-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca1da0c01f1d8a4fb33fc9b94f27fe9c",
+      "timestamp": "2026-01-22T03:45:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He Will Discuss Greenland With NATO Chief Rutte - President Trump spoke during meeting with NATO Secretary General Mark Rutte in Davos, saying he will discuss Greenland with Rutte. Trump also said the Danish foreign minister has not told him directly",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-will-discuss-greenland-with-nato-chief-rutte-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b86c775293fe5299cfeb2f176b46d0ec",
+      "timestamp": "2026-01-22T03:43:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Newsom Says White House Barred Him From Davos Event - California Governor Gavin Newsom said he was denied entry to an event at the sidelines of the World Economic Forum in Davos after pressure from the White House, escalating a fight between President Do",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/newsom-says-white-house-barred-him-from-davos-event",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "caf3dbf3c5c400371bcaa9a536d30e40",
+      "timestamp": "2026-01-22T03:41:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zipline Nearly Doubles Valuation to $7.6 Billion - Drone delivery startup Zipline has raised more than $600 million in a new funding round that almost doubles its valuation to $7.6 billion. Zipline CEO and co-founder Keller Cliffton joins Caroline Hyd",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/zipline-nearly-doubles-valuation-to-7-6-billion-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "392fc448a1af227d9cf6751a6f106eb5",
+      "timestamp": "2026-01-22T03:29:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Could Bond Market Calm Fuel a Minsky Moment for Private Markets? - Risk-taking is aided by the calmest markets in decades, raising questions about how prepared investors are for the next credit crunch.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-21/leverage-in-private-markets-is-a-source-of-instability-in-a-us-treasury-minsky",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e609f0fefd7815ea3d5355fb7d4f639e",
+      "timestamp": "2026-01-22T03:25:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blue Origin Unveils Satellite Service to Feed Data Center Demand - Jeff Bezos-backed Blue Origin is building a satellite communication network to deliver connectivity to data centers, governments and businesses, the company said on Wednesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/blue-origin-unveils-satellite-service-to-feed-data-center-demand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7bf34828d6bf8bf3a0167abf0467712c",
+      "timestamp": "2026-01-22T03:16:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Energy Stocks on Track for Record on Greenland, Arctic Blast - A sizzling rally in energy stocks over the past few months has the group on pace to reach a new high as rising geopolitical uncertainty pushes investors to bet on elevated oil prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/energy-stocks-on-track-for-record-on-greenland-arctic-blast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1590adfdd02210c368a5a92dabf21f8f",
+      "timestamp": "2026-01-22T03:14:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Peru Lawmakers Present Two Motions That Could Oust President - Peruvian lawmakers have introduced two motions that could lead to the ouster of interim President Jose Jerí who has been in office for just three months.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/peru-lawmakers-present-two-motions-that-could-oust-president",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a5bd821d7bd886cbb2e8c2b266883426",
       "timestamp": "2026-01-22T03:13:00+09:00",
@@ -15,6 +561,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "07a87666318cacdec515a6961bff4246",
+      "timestamp": "2026-01-22T03:12:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ecuador Hits Colombia With 30% Tariffs, Citing Narco-Trafficking - President Daniel Noboa slapped a 30% punitive duty on imports from Ecuador’s northern neighbor, Colombia, to push its government toward a “real commitment” on border control.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/ecuador-hits-colombia-with-30-tariffs-citing-narco-trafficking",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "c0e0ed624205ace49197fccb8bf2e8ae",
       "timestamp": "2026-01-22T03:12:39+09:00",
       "source_type": "NEWS",
@@ -25,6 +582,17 @@
       ],
       "content": "Nvidia: OpenAI's AGI Admission Should Send Shivers",
       "url": "https://seekingalpha.com/article/4861576-nvidia-openai-agi-admission-should-send-shivers?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5de0c4e527af06a6d07c44184be35ea3",
+      "timestamp": "2026-01-22T03:11:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Addresses Davos as Greenland Pressure Builds | Open Interest 1/21/2026 - Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" President Trump is ramping up pressure on Europe over Greenland. At the World Economic Forum, he called for immedi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/open-interest-1-21-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -404,6 +972,17 @@
       ],
       "content": "Truist: Muted Growth Overshadows Buyback Plans (Downgrade)",
       "url": "https://seekingalpha.com/article/4861550-truist-muted-growth-overshadows-buyback-plans-downgrade?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "47b4757162a04a52c7bb29f3ed65909d",
+      "timestamp": "2026-01-22T02:13:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SAS and AWS Execs on Balancing Trust and Innovation - Ruba Borno, Vice President, Global Specialists & Partners, Amazon Web Services and Bryan Harris, Executive Vice President & Chief Technology Officer, SAS discuss balancing responsible growth and trust",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/sas-and-aws-execs-on-balancing-trust-and-innovation-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1716,6 +2295,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "b82b7caaa3cea92d0d9590eecbc22e31",
+      "timestamp": "2026-01-21T17:26:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Europe Stocks Steady as Trump Rules Out Force to Take Greenland - European shares erased declines after US President Donald Trump said he won’t use excessive force in his pursuit of Greenland.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/european-stocks-dip-on-tariff-jitters-as-trump-travels-to-davos",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "4cf9489ef9528acf41eb4233496bad95",
       "timestamp": "2026-01-21T16:09:35+09:00",
       "source_type": "NEWS",
@@ -1757,219 +2347,6 @@
       "related_tickers": [],
       "content": "Philippines to Lift Ban on Grok After xAI Vowed Safeguards - The Philippines said on Wednesday that it will restore access to the Grok artificial intelligence system after the company of tech billionaire Elon Musk promised to remove features that allow for crea",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/philippines-to-lift-ban-on-grok-after-xai-vowed-safeguards",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a7d3bf56c03547ac286f6c00bde8705",
-      "timestamp": "2026-01-21T14:48:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Stocks Rally on Growing Tech Bets, Defying Global Selloff - Chinese stocks defied a pullback in global markets Wednesday, as optimism about Beijing’s stronger push to achieve technology self-reliance eclipsed concerns over rising geopolitical uncertainties.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/chinese-stocks-stand-out-in-global-selloff-on-growing-tech-bets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d04ce889695b6f76901672d60490db1b",
-      "timestamp": "2026-01-21T13:55:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Korea’s President Lee Downplays US Chip Tariff Threats - South Korean President Lee Jae Myung downplayed US threats of punishing tariffs on foreign-made chips, while reaffirming his commitment to existing trade agreements.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/south-korea-s-president-lee-downplays-us-chip-tariff-threats",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2c3f6e1b5ef5a1935249cda36e679ae0",
-      "timestamp": "2026-01-21T13:49:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Defends Growth Model at Davos | The China Show 1/21/2026 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, David Ingles and Yvonne Man give global ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-21/the-china-show-1-21-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "763a744f7472c887c76f33c26e618a90",
-      "timestamp": "2026-01-21T13:13:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Alibaba Teams With China’s Nuclear Leader to Power AI Expansion - Alibaba Group Holding Ltd. has set up an electricity generation venture with one of China’s leading nuclear conglomerates, a move that could help secure the immense power needed to run AI data centers",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/alibaba-teams-with-china-s-nuclear-leader-to-power-ai-expansion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ea45b1d05bc284182e6023d67fa84bc7",
-      "timestamp": "2026-01-21T13:00:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Asia Trade 1/21/26 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Singapore with Shery Ahn and Avril Hong, getting ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-21/the-asia-trade-1-21-26-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "20f1fcb7c2d5116a50d52cd304e3d77f",
-      "timestamp": "2026-01-21T12:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Says It Will Pay for Energy Upgrades at Stargate Sites - OpenAI said it will pay for the costs of developing energy-related infrastructure required by its Stargate data centers to address concerns the facilities may drive up consumers’ utility bills.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/openai-says-it-will-pay-for-energy-upgrades-at-stargate-sites",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6da16d2ea8ed2ac1223d13a307ba83c4",
-      "timestamp": "2026-01-21T11:10:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia’s Huang Plans to Visit China as He Works to Reopen Market - Nvidia Corp. Chief Executive Officer Jensen Huang is planning to travel to China in late January as he works to reopen a crucial market for his company’s artificial intelligence chips.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/nvidia-s-huang-plans-to-visit-china-as-he-works-to-reopen-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d75374c9720c114a4bfee3ca1c57c17",
-      "timestamp": "2026-01-21T11:04:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Colombia Moves to Cap Pension Funds Holdings Abroad at 30% - The Colombian government unveiled a draft decree that would force local pension funds to slash the amount of money they have invested abroad.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/colombia-moves-to-cap-pension-funds-overseas-holdings-at-30",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4761e8a69cc2d56a3b36c8361f57800c",
-      "timestamp": "2026-01-21T08:30:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Steadies After Trump’s Davos Address and as IEA Sees Surplus - Oil flipped between modest losses and gains as traders assessed US President Donald Trump’s demands to acquire Greenland and calls for peace in Ukraine, while the International Energy Agency trimmed i",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/latest-oil-market-news-and-analysis-for-jan-21",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2d2df4468262f8d56a3d6ea60f84030",
-      "timestamp": "2026-01-21T08:17:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gold Rally Cools Near Record as Trump Tempers Greenland Threat - Gold’s scorching rally to an all-time high cooled slightly after President Donald Trump said the US doesn’t want to use excessive force to get Greenland.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/gold-and-silver-near-record-highs-on-worsening-greenland-crisis",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b8c4cf3b86b271631bb234664f396b2",
-      "timestamp": "2026-01-21T08:09:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Stock Market Today, Jan. 20: Nu Holdings Rises as Brazilian Banks Attract Spotlight - Institutional reshuffling meets rapid revenue growth at this Latin American digital bank, today, Jan. 20, 2026.",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/01/20/stock-market-today-jan-20-nu-holdings-rises-as-brazilian-banks-attract-spotlight/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e5efa223702dba84f34e1a3d60e560a8",
-      "timestamp": "2026-01-21T07:55:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vanguard's Head of Fixed Income on Treasury Turmoil - Sara Devereux, Vanguard Global Head of Fixed Income, says the term premium is a key focus for the administration, with affordability top of mind. She tells Katie Greifeld and Romaine Bostick on “The C",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/vanguard-s-head-of-fixed-income-head-on-treasury-turmoil-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5820018ba618f40ad8e34040a1dc9399",
-      "timestamp": "2026-01-21T07:25:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Greenland Threat Is Stirring Up Europe’s Deepest Divisions - <p>The European Union faces&nbsp;a stress test of whether it can respond as a united force when its sovereignty is challenged.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-20/trump-s-greenland-push-turns-davos-into-a-nightmare-for-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d8762f405ef584e121a10c897e731ace",
-      "timestamp": "2026-01-21T07:25:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Set for Best Day Since November on Trump: Markets Wrap - Tentative calm was restored to Wall Street after the worst day for markets since April, with Donald Trump’s disavowal of force in his quest for Greenland pushing up stocks and halting slides in bonds ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/asian-stocks-set-to-fall-as-global-selloff-deepens-markets-wrap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "68deaa9c7b653bb3386fd4f389bb7e75",
-      "timestamp": "2026-01-21T07:17:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tricolor’s Founder Declines Over 100 Times to Discuss Its Demise - For five hours, lawyers for creditors pressed Daniel Chu again and again on Tuesday for details on the collapse of his subprime auto-loan business Tricolor Holdings.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/tricolor-founder-faces-creditors-declines-to-answer-questions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d5bdfcbcd68b766d1a1c40086a732159",
-      "timestamp": "2026-01-21T06:45:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Drone Delivery Startup Zipline Hits $7.6 Billion Valuation - Zipline, a drone delivery and logistics startup, has raised more than $600 million in new funding, boosting its valuation to $7.6 billion, as it expands commercial deployments.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d5bdfcbcd68b766d1a1c40086a732159",
-      "timestamp": "2026-01-21T06:45:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Drone Delivery Startup Zipline Hits $7.6 Billion Valuation - Zipline, a drone delivery and logistics startup, has raised more than $600 million in new funding, boosting its valuation to $7.6 billion, as it expands commercial deployments.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "da7517bc8390e81e3fbe40d275cec05d",
-      "timestamp": "2026-01-21T06:15:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix’s Amended Offer Puts Pressure on Paramount | Bloomberg Tech 1/20/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss Netflix’s amended, all-cash offer to buy Warner Bros. Discovery's studio and streaming business. Plus, as tech leaders sit down with Bloomberg from Davo",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/bloomberg-tech-1-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40bc08e9e64c04f68fe7625655e61a00",
-      "timestamp": "2026-01-21T04:10:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "The Best Stocks to Buy With $500 Right Now - These all have incredible long-term opportunities.",
-      "url": "https://www.fool.com/investing/2026/01/20/the-best-stocks-to-buy-with-500-right-now/?.tsrc=rss",
       "sentiment": "NEUTRAL"
     }
   ]
