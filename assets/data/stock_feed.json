@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-21T13:19:49.825128+09:00",
+  "last_updated": "2026-01-21T13:45:13.842523+09:00",
   "items": [
+    {
+      "id": "763a744f7472c887c76f33c26e618a90",
+      "timestamp": "2026-01-21T13:13:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alibaba Teams With China’s Nuclear Leader to Power AI Expansion - Alibaba Group Holding Ltd. has set up an electricity generation venture with one of China’s leading nuclear conglomerates, a move that could help secure the immense power needed to run AI data centers",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/alibaba-teams-with-china-s-nuclear-leader-to-power-ai-expansion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ccb356a2a7df7259cfa559464c21d9d2",
+      "timestamp": "2026-01-21T13:02:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan’s Second-Largest Bank Plans Big JGB Purchases After Rout - Japan’s second-biggest bank plans to aggressively rebuild its local sovereign debt holdings once a wild surge in yields runs its course.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/japan-s-second-largest-bank-plans-big-jgb-purchases-after-rout",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ea45b1d05bc284182e6023d67fa84bc7",
+      "timestamp": "2026-01-21T13:00:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Asia Trade 1/21/26 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Singapore with Shery Ahn and Avril Hong, getting ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/the-asia-trade-1-21-26-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "02bcbeb3d6510d31b386c738f2e9dc59",
       "timestamp": "2026-01-21T12:57:20+09:00",
@@ -2166,39 +2199,6 @@
       "related_tickers": [],
       "content": "GA’s Martin Escobari on AI Fueling New Opportunities - General Atlantic Co-President Martin Escobari tells Bloomberg Surveillance that the AI-driven digital transformation and recent market stress are creating new opportunities - but with US assets expens",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/ga-s-martin-escobari-on-ai-fueling-new-opportunities",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "867b61cfe60498b998908f74cf1b8960",
-      "timestamp": "2026-01-20T22:53:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Batistas’ PicPay Fintech Seeks $2.5 Billion Market Cap in US IPO - Picpay Holdings Netherlands BV, the Brazilian fintech controlled by the billionaire Batista family, is seeking to raise more than $400 million in what could be the first initial public offering out of",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/batistas-picpay-fintech-seeks-2-5-billion-market-cap-in-us-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "03c454d3f22b0c66750dab20791ec1c0",
-      "timestamp": "2026-01-20T22:52:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Bonds Dip After Japan Triggers Selloff; Trump's Tariff Threat | Bloomberg Brief 1/20/2026 - US equity futures and Treasuries decline as the standoff over Greenland lingers and a heavy selloff in Japanese debt rippled through global bond markets. President Trump floats 200% tariffs on French ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/bloomberg-brief-1-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "def75c82bd6299814fe513595a4bab9a",
-      "timestamp": "2026-01-20T22:43:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CoreWeave CEO Intrator on AI Demand, Infrastructure Strain and Skepticism - CoreWeave CEO Michael Intrator discusses surging AI demand, infrastructure development, the company’s biggest constraints and growing skepticism in the sector. He speaks with Bloomberg Television on t",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/coreweave-ceo-on-ai-demand-and-infrastructure-strain-video",
       "sentiment": "NEUTRAL"
     }
   ]
