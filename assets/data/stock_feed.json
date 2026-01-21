@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-01-21T16:40:25.083107+09:00",
+  "last_updated": "2026-01-21T17:05:09.749858+09:00",
   "items": [
+    {
+      "id": "28570749921f89b3c56541619259e7e0",
+      "timestamp": "2026-01-21T17:01:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Powell Is 'Politicizing the Fed,' Bessent Says - US Treasury Secretary Scott Bessent says he is \"not sure\" why Federal Reserve Chair Jerome Powell would support Governor Lisa Cook over unproven mortgage fraud allegations. He adds that Powell is \"pol",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/powell-is-politicizing-the-fed-bessent-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e05efbf715a086cfcd129f5f47bb2d46",
+      "timestamp": "2026-01-21T16:55:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HKEX CEO Bonnie Chan on the IPO Market, China's Investability - The Hong Kong Stock Exchange CEO speaks to Bloomberg's Haslinda Amin on the sidelines of the 2026 World Economic Forum in Davos. Bonnie Chan says 2026 has started strong with solid IPO momentum. She s",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/hkex-ceo-on-the-ipo-market-china-s-investability-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f6ebbbd3c45a350c189daaa29302a13",
+      "timestamp": "2026-01-21T16:47:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB’s Lagarde Sees Little Impact on Inflation From More Tariffs - European Central Bank President Christine Lagarde said another volley of tariffs from US President Donald Trump would have only a minor impact on inflation in Europe.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/ecb-s-lagarde-sees-little-impact-on-inflation-from-more-tariffs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a89eeaa8010a96dfe20504d69a968614",
+      "timestamp": "2026-01-21T16:46:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Arab Energy Fund Plans Rare Panda Bond Sales Up to $1.4 Billion - The Arab Energy Fund has received regulatory approval in China to raise up to 10 billion yuan ($1.4 billion) through yuan‑denominated bonds, paving the way for what could be among the largest panda bo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/arab-energy-fund-plans-rare-panda-bond-sales-up-to-1-4-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2b59747e69097b2faafb2a93428b7e2",
+      "timestamp": "2026-01-21T16:42:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Infrastructure Firms See Boost from Labour Spending Plans - British infrastructure firms are providing upbeat outlooks as the Labour government’s infrastructure strategy fills up their order books.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/uk-infrastructure-firms-see-boost-from-labour-spending-plans",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5e3031e586eb21fdfa861f32bb5aa597",
+      "timestamp": "2026-01-21T16:42:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Department Store Chain Cites India Air Pollution as Sales Stall - A spike in air pollution across northern India in the final months of 2025 impacted consumer demand, according to Shoppers Stop Ltd., a leading department store chain which said the issue was among fa",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/department-store-chain-cites-india-air-pollution-as-sales-stall",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "970e19c862fb62a43a1273be9601f916",
+      "timestamp": "2026-01-21T16:31:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Sees ‘Historic’ India Trade Pact in Wake of Trump’s Threats - The European Union and India are nearing a “historic” trade agreement, the bloc’s chief said, as both sides look to strengthen ties and bolster their economies in the face of rising tariff threats fro",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/eu-sees-historic-india-trade-pact-in-wake-of-trump-s-threats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "13d85eadcc3f15043f82f465788edb6b",
+      "timestamp": "2026-01-21T16:31:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France Seeks NATO Exercise in Greenland as Tensions Mount - France will request that NATO carry out a military exercise in Greenland in a bid to boost the region’s security.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/france-seeks-nato-exercise-in-greenland-as-tensions-mount",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b4009f9fdf4f7eef612f51af5e556d5c",
+      "timestamp": "2026-01-21T16:27:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Bond Auction Draws Record Demand as Global Risks Mount - China’s sale of seven-year government bonds drew robust demand on Wednesday as investors shrugged off the overnight volatility in global markets to scoop up the debt.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/china-s-bond-auction-draws-record-demand-as-global-risks-mount",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "58e6eb51ef20a37787159cc1d1195bb1",
+      "timestamp": "2026-01-21T16:26:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Union Head Calls on Government to Stabilize FX, Prices - The leader of Japan’s largest labor union group urged Prime Minister Sanae Takaichi’s government to stabilize currencies and prices, as inflation continues to hit households and workers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/japan-union-head-calls-on-government-to-stabilize-fx-prices",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "05be2dde02609156c77e254bf7fb4af3",
+      "timestamp": "2026-01-21T16:26:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ex-South Korea Premier Han Gets 23 Years For Martial Law Role - Former South Korean Prime Minister Han Duck-soo was sentenced to 23 years in prison, a term significantly longer than prosecutors had sought, for his role in an insurrection tied to former President Y",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/ex-south-korea-premier-han-gets-23-years-for-martial-law-role",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "01d6999b176ba1d822edb65026886493",
       "timestamp": "2026-01-21T16:21:35+09:00",
@@ -32,6 +153,17 @@
       "related_tickers": [],
       "content": "UN Nuclear Watchdog Says Iran Is in a ‘Very Fragile’ State - The United Nations nuclear watchdog sees Iran in a “very fragile” state amid stalled diplomatic efforts and nationwide protests that convulsed the country earlier this month.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/un-nuclear-watchdog-says-iran-is-in-a-very-fragile-state",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4cf9489ef9528acf41eb4233496bad95",
+      "timestamp": "2026-01-21T16:09:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Uneasy Calm Grips Markets After Japan Bond Turmoil | Insight with Haslinda Amin 01/21/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/insight-with-haslinda-amin-1-21-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2067,138 +2199,6 @@
       "related_tickers": [],
       "content": "BLS Poised to Get Slight Funding Increase, Stay Within Labor - The Bureau of Labor Statistics is poised to get a slight funding boost this year and stay housed within the Labor Department, according to a bipartisan budget deal that’s expected to pass this month.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/bls-poised-to-get-slight-funding-increase-stay-within-labor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b65b582efbc68e6f33cdc1dba08067b0",
-      "timestamp": "2026-01-21T01:17:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gopinath: Risk of Underestimating Inflation in 2026 - The former deputy managing director of the IMF Gita Gopinath said there’s a risk that we might be underestimating what inflation could do in 2026.\nShe spoke with Bloomberg’s Jonathan Ferro, Annmarie H",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/gopinath-risk-of-underestimating-inflation-in-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ad7e29527ddc48fd59b84779fa19fd4d",
-      "timestamp": "2026-01-21T01:14:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stripe CEO on the Future of How We Spend - John Collison, Co-Founder & President, Stripe discusses the role of digital banking in a tech forward world with Bloomberg's Emily Chang at Bloomberg House in Davos on the sidelines of the 2026 World ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/stripe-ceo-on-the-future-of-how-we-spend-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d5819adb57876964332818de24de1918",
-      "timestamp": "2026-01-21T01:13:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s World-Changing Economic Agenda, One Year Later - Tariffs, tax cuts, deregulation – Trump’s first year back has been busy. What’s had the biggest impact and what will stick? Hear David Gura, Nancy Cook and Mark Niquette discuss on the Big Take podcas",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-s-world-changing-economic-agenda-one-year-later-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a42aaba2dfbc4cdbebb7affffc75c7c4",
-      "timestamp": "2026-01-21T01:07:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lumen Technologies CEO on Partnership With Palantir, AI - Lumen Technologies President and CEO Kate Johnson discusses the partnership with Palantir, importing AI and the outlook for the company. She speaks on the sidelines of the World Economic Forum in Davo",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/lumen-technologies-ceo-on-partnership-with-palantir-ai-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06ef24141c77e8efbab04875d7e165e3",
-      "timestamp": "2026-01-21T01:01:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK’s Reeves Says Budget Has Likely Drawn a Line Under Tax Hikes - Rachel Reeves said the UK government has done enough on tax and shouldn’t need to come back for more hikes, remarks that risk making her a hostage to fortune.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/uk-s-reeves-says-budget-has-likely-drawn-a-line-under-tax-hikes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3ce7871f782f2fe0c4e39b5424c54816",
-      "timestamp": "2026-01-21T01:01:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Stocks Trounce the S&P 500 in Trump’s Chaotic First Year - It's been one year since President Trump took the oath of office and Wall Street has responded. Norah Mulinda explains (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/global-stocks-trounce-the-s-p-in-trump-s-first-year-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd356164871b94bfd75d934dff347ea0",
-      "timestamp": "2026-01-21T01:00:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vitol Ships First Oil From Venezuelan Shore in Trump Mega Deal - Commodities trader Vitol Group loaded its first oil cargo from Venezuela’s shore-based storage tanks, a move set to help clear bottlenecks and pave the way for the South American crude giant to ramp u",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/vitol-ships-first-oil-from-venezuelan-shore-in-trump-mega-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "08b5f16f87e741bc0757c95e0a43e515",
-      "timestamp": "2026-01-21T01:00:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Advent Readies €3 Billion Irca Sale as Lenders Prep Buyout Debt - Private equity firm Advent is preparing to launch the sale of Italian industrial confectioner Irca SpA, which could fetch around €3 billion ($3.5 billion), while lenders work on debt financings to bac",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/advent-readies-3-billion-irca-sale-as-lenders-prep-buyout-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2aa6b490db1d228e3bbfa6e926fd6ac",
-      "timestamp": "2026-01-21T00:57:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Elon Musk, Ryanair Spat Enters ‘Should I Buy It’ Phase - The online brawl between Elon Musk and Ryanair Holdings Plc continues, with Musk again floating the idea of buying the airline after clashing with its chief executive officer Michael O’Leary. Siddhart",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/musk-ryanair-spat-enters-should-i-buy-it-phase-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a38bc155ce68695c8bc130e4ea2e8c85",
-      "timestamp": "2026-01-21T00:55:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTSE 100 Owner Said to Eye Easing Entry Rules for Foreign Firms - FTSE Russell is considering changes to its rules that would make it easier for foreign companies to join its UK stock indexes, according to people familiar with the matter, which could make the market",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/ftse-100-owner-said-to-eye-easing-entry-rules-for-foreign-firms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0c41d392e776f89982d7472f6477e595",
-      "timestamp": "2026-01-21T00:54:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Reeves Stresses Stability, Expands Talent Visas - Rachel Reeves, Chancellor of the Exchequer of the United Kingdom, discusses Britain’s position as a strong economy and a reliable NATO ally amid wider global economic and geopolitical instability, and",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/uk-reeves-stresses-stability-expands-talent-visas-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "abb734c0fa6c9a4a76c0bd02b41f5fe7",
-      "timestamp": "2026-01-21T00:46:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UAE to Get Advanced AI Chips in Couple of Months, G42 Chief Says - G42, the United Arab Emirates’ leading artificial intelligence company, expects the first shipments of some of the world’s most advanced chips to arrive in the country within months, bolstering its ef",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/nvidia-amd-uae-to-get-advanced-ai-chips-in-couple-of-months-g42-chief-says",
       "sentiment": "NEUTRAL"
     }
   ]
