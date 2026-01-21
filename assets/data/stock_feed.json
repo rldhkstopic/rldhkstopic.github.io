@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-21T22:18:09.906119+09:00",
+  "last_updated": "2026-01-21T22:45:42.788337+09:00",
   "items": [
+    {
+      "id": "d51c5ce5cf26c3f6f43ab2b485fad686",
+      "timestamp": "2026-01-21T22:38:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela Shock Threatens to Deepen Alberta’s Budget Woes - Alberta is facing its toughest fiscal situation since the pandemic as a possible flood of Venezuelan oil depresses the price of heavy crude, one of the Canadian province’s largest sources of revenue.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/venezuela-shock-threatens-to-deepen-alberta-s-budget-woes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2e22dbfccec70e77b8d16115a259bc29",
+      "timestamp": "2026-01-21T22:29:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "GE Vernova Customer Base Shifts as Tech Companies Boost Backlog - The boom in data-center development is changing the customer mix significantly for GE Vernova Inc., a key supplier of power-generation equipment.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/ge-vernova-customer-base-shifts-as-tech-companies-boost-backlog",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23fb04ed4e2ae570ad9b25e4444754c3",
+      "timestamp": "2026-01-21T22:20:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sweden’s Alecta Sold Most of Its US Treasuries Since Early 2025 - Swedish pension fund Alecta has divested most of its holdings in Treasuries since early 2025 owing to growing macroeconomic risks in the US, according to Chief Investment Officer Pablo Bernengo.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/sweden-s-alecta-sold-most-of-its-us-treasuries-since-early-2025",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "94e72a9a674eb62186faac3b51c7ae22",
+      "timestamp": "2026-01-21T22:11:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Quants in Worst Drawdown Since October as Crowded Bets Buckle - Quant hedge funds are kicking off the year in the red, as setbacks in crowded US stocks clobbered the strategies, reviving concerns about volatile returns in the sector.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/quants-in-worst-drawdown-since-october-as-crowded-bets-buckle",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e46ae3d64528749a22b3fffc9f08d097",
+      "timestamp": "2026-01-21T22:09:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan to Join Board of Peace to Support Gaza Peace Plan - Pakistan said it has accepted President Donald Trump’s invitation to join Board of Peace to support implementation of the Gaza peace plan.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/pakistan-to-join-board-of-peace-to-support-gaza-peace-plan",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d223ad8a0ca24a61a55bdf4986ef4fec",
       "timestamp": "2026-01-21T22:04:24+09:00",
@@ -43,6 +98,17 @@
       "related_tickers": [],
       "content": "Australia Faces ‘Steep’ Debt Rise Without Budget Cuts, OECD Says - Australia’s national debt will “rise rapidly” over coming years unless the Labor government is prepared to overhaul a sclerotic tax system to boost revenue or cut spending to reflect its more constrai",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/australia-faces-steep-debt-rise-without-budget-cuts-oecd-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "801b9de5fee2ca0a57d445a4eab971f9",
+      "timestamp": "2026-01-21T21:59:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Economy Resilient, Driven by Domestic Demand, RBI Says - India’s growth impulses remain buoyant and demand conditions upbeat, the Reserve Bank of India said in its monthly bulletin.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/india-s-economy-resilient-driven-by-domestic-demand-rbi-says",
       "sentiment": "NEUTRAL"
     },
     {
@@ -395,6 +461,17 @@
       "related_tickers": [],
       "content": "Gita Gopinath on the Global Economy - Gita Gopinath, Gregory & Ania Coffey Professor of Economics, discusses the health of the global economy and expectations for the year ahead with Bloomberg’s Francine Lacqua at Bloomberg House in Davos",
       "url": "https://www.bloomberg.com/news/videos/2026-01-21/gita-gopinath-on-the-global-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f28765d791f377d6644f2a56aecfd96",
+      "timestamp": "2026-01-21T20:36:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India State Considering Australia-Like Social Media Ban for Kids - India’s southern state of Andhra Pradesh is studying Australia’s ban on children under 16 years of age from using social media, its minister in charge of technology and human resources said Tuesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/andhra-pradesh-mulling-australia-like-under-16-social-media-ban-nara-lokesh",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Fmr. Netflix Exec Reacts to 4Q Results, Content Strategy - Simon Gallagher, SPG Global managing director and former strategy and content acquisition executive at Hulu and Netflix, says unlike YouTube, Netflix needs to focus on premium scripted and unscripted ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/fmr-netflix-exec-reacts-to-4q-results-content-strategy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2f3b9195bc2ccf128bf27b892ec3321f",
-      "timestamp": "2026-01-21T08:24:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Captures Seventh Sanctioned Oil Tanker Linked to Venezuela - US military forces seized a seventh tanker near Venezuela Tuesday as the Trump administration continues to pressure the South American country to halt its use of sanctioned ships and clamps down on th",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-captures-seventh-sanctioned-oil-tanker-linked-to-venezuela",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d3b8cb00bde954de6ba388b07545739b",
-      "timestamp": "2026-01-21T08:18:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Power-Grid Plan Aims to Accelerate Data-Center Connections - Data centers that have lined up new electricity capacity for their facilities would get priority in connecting to the largest US power grid under a proposal by PJM Interconnection LLC.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-power-grid-plan-aims-to-accelerate-data-center-connections",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d3b8cb00bde954de6ba388b07545739b",
-      "timestamp": "2026-01-21T08:18:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Power-Grid Plan Aims to Accelerate Data-Center Connections - Data centers that have lined up new electricity capacity for their facilities would get priority in connecting to the largest US power grid under a proposal by PJM Interconnection LLC.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-power-grid-plan-aims-to-accelerate-data-center-connections",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2d2df4468262f8d56a3d6ea60f84030",
-      "timestamp": "2026-01-21T08:17:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gold and Silver Near Record Highs on Worsening Greenland Crisis - Gold and silver remained near record highs as the crisis between the US and Europe over Greenland supported haven demand.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/gold-and-silver-near-record-highs-on-worsening-greenland-crisis",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b4eeea4d33b183c69d54a3e3c22c3e4",
-      "timestamp": "2026-01-21T08:15:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Might Europe Respond to Trump's Greenland Tariff Threats? - Meredith Crowley, University of Cambridge Professor of Economics, discusses the potential economic impacts President Trump's Greenland tariff threats could have on Europe & what restrictions and retal",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/how-might-europe-respond-to-trump-s-greenland-threats-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "108ca71ac26ebe9d4c4ebbb994900cf3",
-      "timestamp": "2026-01-21T08:13:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Can Trump Fire Lisa Cook? What the Supreme Court Will Consider - Months after President Donald Trump attempted to fire Federal Reserve Governor Lisa Cook over unproven mortgage fraud allegations, the case will get a hearing before the Supreme Court.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/can-trump-fire-lisa-cook-what-the-supreme-court-will-consider",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d5f8085e819dbd4c2927079ebb25ee2",
-      "timestamp": "2026-01-21T08:06:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix to Boost Program Spending, Crimping Profit as it Pursues WBD - Netflix delivered fourth-quarter results that largely beat Wall Street estimates but issued a cautious forecast for the months ahead, citing higher program spending and the cost of closing its deal wi",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/netflix-to-boost-program-spending-as-it-pursues-wbd-video",
       "sentiment": "NEUTRAL"
     }
   ]
