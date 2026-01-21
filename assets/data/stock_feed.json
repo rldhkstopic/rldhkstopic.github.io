@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-01-21T19:42:33.029230+09:00",
+  "last_updated": "2026-01-21T20:06:00.087284+09:00",
   "items": [
+    {
+      "id": "794b58efb12bc32ce9001f4657ea2130",
+      "timestamp": "2026-01-21T20:02:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Witkoff on Greenland Security, Ukraine Talks, Iran (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/witkoff-on-greenland-security-ukraine-talks-iran-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b6eff4e911cc9a23042d565a6031924",
+      "timestamp": "2026-01-21T20:00:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Becomes the Tone Police for White-Collar Workers - <p>Workers are turning to chatbots to help them get through difficult conversations with their colleagues and business partners.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/white-collar-workers-use-ai-to-have-tough-conversations-at-work",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e15cba1b3674ac50b49bfcb3d9095550",
+      "timestamp": "2026-01-21T19:59:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Steps Into a Transatlantic Rift at Davos - As the US president takes a wrecking ball to the world order, EU leaders hope to dissuade him in Switzerland.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-21/trump-steps-into-a-transatlantic-rift-at-davos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5a65205f5eb7d495ce0258afccdcd09f",
+      "timestamp": "2026-01-21T19:39:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Amazon Investors Bet on AWS to Pull the Stock Out of Its Malaise - Amazon.com Inc. bulls are betting that the company’s stock is primed to reestablish its market leadership after years of trailing its Big Tech rivals.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/amazon-investors-bet-on-aws-to-pull-the-stock-out-of-its-malaise",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f9a5cd619dc7191f131630763dfce6f6",
+      "timestamp": "2026-01-21T19:38:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Funds Turn Long on European Gas as Prices Soar 30% in a Week - Funds and other speculators shifted to net long positions in European gas, as unusually cold weather and short covering drove future prices up 30% in a week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/funds-turn-long-on-european-gas-as-prices-soar-30-in-a-week",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "117767db10b2bb5147e0cae5069fdab4",
+      "timestamp": "2026-01-21T19:38:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US-Swiss Talks on Final Trade Deal to Start in Bern in February - Talks on the details of the trade deal between Switzerland and the US are expected to start in the first half of February in Bern, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/us-swiss-talks-on-final-trade-deal-to-start-in-bern-in-february",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "3d7477d7463dfdd122adf68dee6f672a",
       "timestamp": "2026-01-21T19:33:38+09:00",
@@ -417,6 +483,17 @@
       "related_tickers": [],
       "content": "Singapore Workers’ Party Turns Down Leader of Opposition Role - Singapore’s largest opposition party won’t be nominating another lawmaker to the leader of the opposition post after Pritam Singh was stripped of the title, following a conviction for lying to a parli",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/singapore-workers-party-turns-down-leader-of-opposition-role",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6e889031344af5706e8709aef45c706f",
+      "timestamp": "2026-01-21T17:19:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Riskier India Bond Premiums at Five-Year Highs Attract Funds - Some of India’s biggest money managers are buying more riskier short-term company debt, expecting spreads to shrink from their widest level in over five years.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/indian-funds-add-risky-company-debt-as-spreads-widest-since-2020",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "US FTC to Appeal Court Ruling on Meta Win in Monopoly Case - The US Federal Trade Commission will appeal a federal judge’s decision that Meta Platforms Inc. doesn’t have a monopoly in social networking, an agency spokesman said Tuesday.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-ftc-to-appeal-court-ruling-on-meta-win-in-monopoly-case",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd1d685ab043f2aef02955b74f8227b3",
-      "timestamp": "2026-01-21T05:14:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US FTC to Appeal Court Ruling on Meta Win in Monopoly Case - The US Federal Trade Commission will appeal a federal judge’s decision that Meta Platforms Inc. doesn’t have a monopoly in social networking, an agency spokesman said Tuesday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-ftc-to-appeal-court-ruling-on-meta-win-in-monopoly-case",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5803de33c0475a49b333e9f3b5bd7caa",
-      "timestamp": "2026-01-21T05:12:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Greenland Isn’t a Fight Europe Can Win - European leaders should follow Sun Tzu’s advice in Greenland: Never pick a fight you can’t win, Bloomberg Opinion columnist Marc Champion says. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/opinion-greenland-isn-t-a-fight-europe-can-win-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "863643ae26acc1311bb0bf315a8a1af6",
-      "timestamp": "2026-01-21T05:10:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Snap Reaches Settlement Over Social Media Addiction Claims - Snap Inc. has reached an agreement to settle a key plaintiff’s claims that the platform’s design led her to become addicted and caused her mental health problems.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/snap-inc-settles-first-user-s-social-media-addiction-claims",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3f817b912f66f4e3ac6fe73494caeec4",
-      "timestamp": "2026-01-21T05:09:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crypto Rallies Are Getting Shorter: Wintermute CEO - Bitcoin slid to its lowest level in more than a week. Wintermute CEO and co-founder Evgeny Gaevoy says that the recent crypto market cycles have defied expectations, driven in part by memecoin activit",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/crypto-rallies-are-getting-shorter-wintermute-ceo-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bcf4fee08c0d7f0770d05f2744127412",
-      "timestamp": "2026-01-21T05:04:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Takes Affordability Pitch to Davos | Balance of Power: Early Edition 1/20/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu discusses President Trump's latest comments about Greenland. On today's show, Former US Ambassador to Poland D",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/balance-of-power-early-edition-1-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83cd70b05bc9122b9cdc7fff5219027d",
-      "timestamp": "2026-01-21T04:55:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "This is Not Our Bill: Coinbase CEO Armstrong - Coinbase's Brian Armstrong still sees a path for the US to pass comprehensive crypto legislation even after helping to derail a bill last week. He pulled support for the latest draft of digital asset ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/this-is-not-our-bill-coinbase-ceo-armstrong-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e4b3a064d7740aac94d25d8d6bddfcb",
-      "timestamp": "2026-01-21T04:52:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blackstone Said to Weigh $5 Billion-Plus Sale of Beacon Offshore - Blackstone Inc. is in the early stages of weighing a sale of Beacon Offshore Energy, a Gulf of Mexico driller it’s owned for about a decade that could fetch more than $5 billion, according to people f",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/blackstone-said-to-weigh-5-billion-plus-sale-of-beacon-offshore",
       "sentiment": "NEUTRAL"
     }
   ]
