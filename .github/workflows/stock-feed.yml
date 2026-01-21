@@ -2,9 +2,9 @@ name: Stock Feed Update
 
 on:
   schedule:
-    # 매 30분마다 실행 (UTC 기준)
-    # KST 기준: 매시 00분, 30분
-    - cron: '*/30 * * * *'
+    # 매 2시간마다 실행 (UTC 기준)
+    # KST 기준: 홀수 시간 (1시, 3시, 5시, ...)
+    - cron: '0 */2 * * *'
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
@@ -32,10 +32,14 @@ jobs:
         run: |
           python automation/scripts/stock_feed_agent.py
 
+      - name: Generate SoFi auto post
+        run: |
+          python automation/scripts/sofi_auto_post.py
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add assets/data/stock_feed.json
-          git diff --staged --quiet || git commit -m "Update stock feed [skip ci]"
+          git add assets/data/stock_feed.json _posts/
+          git diff --staged --quiet || git commit -m "Update stock feed and SoFi post [skip ci]"
           git push

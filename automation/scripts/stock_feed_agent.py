@@ -242,6 +242,190 @@ def collect_reddit_posts() -> List[Dict]:
     return all_items
 
 
+def collect_sofi_specific_sources() -> List[Dict]:
+    """SoFi 전용 소스에서 콘텐츠 수집"""
+    all_items = []
+    tz = ZoneInfo("Asia/Seoul")
+    cutoff_time = datetime.now(tz) - timedelta(hours=24)
+    
+    # 1. Seeking Alpha - SoFi 관련
+    seeking_alpha_feeds = [
+        "https://seekingalpha.com/api/v3/symbols/SOFI/news.xml",
+        "https://seekingalpha.com/feed.xml?filter[type]=symbols&filter[value]=SOFI",
+    ]
+    
+    for url in seeking_alpha_feeds:
+        try:
+            headers = {"User-Agent": "Mozilla/5.0 (compatible; StockFeedBot/1.0)"}
+            resp = requests.get(url, headers=headers, timeout=10)
+            resp.raise_for_status()
+            
+            root = ET.fromstring(resp.content)
+            
+            # Atom 또는 RSS 형식 처리
+            entries = root.findall(".//{http://www.w3.org/2005/Atom}entry") or root.findall(".//item")
+            
+            for entry in entries[:20]:  # 최대 20개
+                # Atom 형식
+                title_el = entry.find("{http://www.w3.org/2005/Atom}title") or entry.find("title")
+                link_el = entry.find("{http://www.w3.org/2005/Atom}link") or entry.find("link")
+                pub_el = entry.find("{http://www.w3.org/2005/Atom}published") or entry.find("{http://www.w3.org/2005/Atom}updated") or entry.find("pubDate")
+                desc_el = entry.find("{http://www.w3.org/2005/Atom}summary") or entry.find("description")
+                
+                title = (title_el.text or "").strip() if title_el is not None else ""
+                link = (link_el.get("href") or link_el.text or "").strip() if link_el is not None else ""
+                pub = (pub_el.text or "").strip() if pub_el is not None else ""
+                desc = (desc_el.text or "").strip() if desc_el is not None else ""
+                
+                if not title or not link:
+                    continue
+                
+                # 시간 파싱
+                try:
+                    dt = parsedate_to_datetime(pub) if pub else datetime.now(tz)
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=ZoneInfo("UTC"))
+                    dt_kst = dt.astimezone(tz)
+                    
+                    if dt_kst < cutoff_time:
+                        continue
+                except Exception:
+                    dt_kst = datetime.now(tz)
+                
+                feed_item = {
+                    "id": generate_item_id(link, dt_kst.isoformat()),
+                    "timestamp": dt_kst.isoformat(),
+                    "source_type": "NEWS",
+                    "source_name": "Seeking Alpha",
+                    "category": "WATCHLIST",
+                    "related_tickers": ["SOFI"],
+                    "content": title + (" - " + desc[:200] if desc else ""),
+                    "url": link,
+                    "sentiment": determine_sentiment(title + " " + desc),
+                }
+                
+                all_items.append(feed_item)
+        
+        except Exception as e:
+            print(f"[WARN] Seeking Alpha 수집 실패 ({url}): {e}")
+            continue
+    
+    # 2. Yahoo Finance - SoFi 뉴스
+    yahoo_url = "https://feeds.finance.yahoo.com/rss/2.0/headline?s=SOFI&region=US&lang=en-US"
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; StockFeedBot/1.0)"}
+        resp = requests.get(yahoo_url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        
+        root = ET.fromstring(resp.content)
+        channel = root.find("channel")
+        
+        if channel is not None:
+            for item in channel.findall("item")[:20]:
+                title_el = item.find("title")
+                link_el = item.find("link")
+                pub_el = item.find("pubDate")
+                desc_el = item.find("description")
+                
+                title = (title_el.text or "").strip() if title_el is not None else ""
+                link = (link_el.text or "").strip() if link_el is not None else ""
+                pub = (pub_el.text or "").strip() if pub_el is not None else ""
+                desc = (desc_el.text or "").strip() if desc_el is not None else ""
+                
+                if not title or not link:
+                    continue
+                
+                try:
+                    dt = parsedate_to_datetime(pub)
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=ZoneInfo("UTC"))
+                    dt_kst = dt.astimezone(tz)
+                    
+                    if dt_kst < cutoff_time:
+                        continue
+                except Exception:
+                    dt_kst = datetime.now(tz)
+                
+                feed_item = {
+                    "id": generate_item_id(link, dt_kst.isoformat()),
+                    "timestamp": dt_kst.isoformat(),
+                    "source_type": "NEWS",
+                    "source_name": "Yahoo Finance",
+                    "category": "WATCHLIST",
+                    "related_tickers": ["SOFI"],
+                    "content": title + (" - " + desc[:200] if desc else ""),
+                    "url": link,
+                    "sentiment": determine_sentiment(title + " " + desc),
+                }
+                
+                all_items.append(feed_item)
+    
+    except Exception as e:
+        print(f"[WARN] Yahoo Finance 수집 실패: {e}")
+    
+    # 3. Reddit - SoFi 전용 서브레딧
+    sofi_reddit_feeds = [
+        "https://www.reddit.com/r/sofistock/hot/.rss",
+        "https://www.reddit.com/r/sofi/hot/.rss",
+    ]
+    
+    for url in sofi_reddit_feeds:
+        try:
+            headers = {"User-Agent": "Mozilla/5.0 (compatible; StockFeedBot/1.0)"}
+            resp = requests.get(url, headers=headers, timeout=10)
+            resp.raise_for_status()
+            
+            root = ET.fromstring(resp.content)
+            channel = root.find("channel")
+            if channel is None:
+                continue
+            
+            for item in channel.findall("item")[:15]:
+                title_el = item.find("title")
+                link_el = item.find("link")
+                pub_el = item.find("published") or item.find("pubDate")
+                desc_el = item.find("description")
+                
+                title = (title_el.text or "").strip() if title_el is not None else ""
+                link = (link_el.text or "").strip() if link_el is not None else ""
+                pub = (pub_el.text or "").strip() if pub_el is not None else ""
+                desc = (desc_el.text or "").strip() if desc_el is not None else ""
+                
+                if not title or not link:
+                    continue
+                
+                try:
+                    dt = parsedate_to_datetime(pub)
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=ZoneInfo("UTC"))
+                    dt_kst = dt.astimezone(tz)
+                    
+                    if dt_kst < cutoff_time:
+                        continue
+                except Exception:
+                    continue
+                
+                feed_item = {
+                    "id": generate_item_id(link, dt_kst.isoformat()),
+                    "timestamp": dt_kst.isoformat(),
+                    "source_type": "SNS",
+                    "source_name": "Reddit",
+                    "category": "WATCHLIST",
+                    "related_tickers": ["SOFI"],
+                    "content": title + (" - " + desc[:200] if desc else ""),
+                    "url": link,
+                    "sentiment": determine_sentiment(title + " " + desc),
+                }
+                
+                all_items.append(feed_item)
+        
+        except Exception as e:
+            print(f"[WARN] Reddit SoFi 수집 실패 ({url}): {e}")
+            continue
+    
+    return all_items
+
+
 def load_existing_feed() -> List[Dict]:
     """기존 stock_feed.json 로드"""
     if not STOCK_FEED_JSON_PATH.exists():
@@ -369,8 +553,12 @@ def main():
     reddit_items = collect_reddit_posts()
     print(f"[INFO] Reddit 게시물: {len(reddit_items)}개")
     
+    print("[INFO] SoFi 전용 소스 수집 중...")
+    sofi_items = collect_sofi_specific_sources()
+    print(f"[INFO] SoFi 전용 소스: {len(sofi_items)}개")
+    
     # 3. 병합
-    all_new_items = news_items + reddit_items
+    all_new_items = news_items + reddit_items + sofi_items
     
     # 4. SOFI 관련 새 뉴스만 필터링 (Discord 알림용)
     sofi_new_items = [
