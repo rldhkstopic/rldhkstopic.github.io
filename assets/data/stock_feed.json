@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-22T00:07:41.155699+09:00",
+  "last_updated": "2026-01-22T00:43:00.683687+09:00",
   "items": [
+    {
+      "id": "7cd1149b0a31d8902fb1747963dcf97f",
+      "timestamp": "2026-01-22T00:31:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AMSA, IDC Reopens Deal Talks With Non Binding Offer for Mills - ArcelorMittal SA and South Africa’s biggest development-finance institution have resumed talks over the potential acquisition of the Luxembourg-based steel giant’s operations in the African country, a",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/amsa-idc-reopens-deal-talks-with-non-binding-offer-for-mills",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "526c35d49a725945e8dbb746cea4a88a",
+      "timestamp": "2026-01-22T00:21:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says US Should Pay Lowest Interest Rate of Any Country - President Donald Trump says raising interest rates keeps the US from being successful during a speech at the World Economic Forum's annual meeting in Davos, Switzerland. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-says-us-should-pay-lowest-rate-of-any-country-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ff3818d333be706aa8b62c427ebb5e6a",
+      "timestamp": "2026-01-22T00:20:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Tells Europe, Say No on Greenland and We’ll Remember - “We want a piece of ice for world protection,” President Donald Trump said as he reiterated his position on the US acquiring Greenland. “You can say yes and we will be very appreciative, or you can sa",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-to-europe-say-no-on-greenland-and-we-ll-remember-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "27c043eee15733e83aab61c7896051a9",
+      "timestamp": "2026-01-22T00:20:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Vows US Won’t Become ‘Nation of Renters’ in Davos Speech - President Donald Trump said that the US would not “become a nation of renters,” touting a handful of measures his administration is taking to address affordability concerns during a speech in Switzerl",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/trump-vows-us-won-t-become-nation-of-renters-in-davos-speech",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "201d4deaa2ce9cb26039fd52657c58c5",
+      "timestamp": "2026-01-22T00:06:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He ‘Won’t Use Force’ to Take Greenland - President Trump said the US is seeking immediate negotiations to acquire Greenland, “but won’t use force” at the World Economic Forum on Wednesday. This is the second time the president has spoken bef",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-says-he-won-t-use-force-to-take-greenland-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "77d507cecb3a2d6d8453be6a7ff9d1c5",
       "timestamp": "2026-01-22T00:00:28+09:00",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "What Happens if China Attacks Taiwan? - Recent US military action in Venezuela and the escalating push to acquire Greenland have raised urgent questions about the stability of international norms. As global order shifts, concerns are mounti",
       "url": "https://www.bloomberg.com/news/videos/2026-01-21/what-happens-if-china-attacks-taiwan-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b54b40e2fa05dd9d58a5d1350d3fdd9a",
-      "timestamp": "2026-01-21T12:00:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Glenfarne Mulls Expanding Capacity at Texas LNG Export Project - Glenfarne Group LLC is looking to expand the capacity to export liquefied natural gas from its planned Texas LNG project.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/glenfarne-mulls-expanding-capacity-at-texas-lng-export-project",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "20f1fcb7c2d5116a50d52cd304e3d77f",
-      "timestamp": "2026-01-21T12:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Says It Will Pay for Energy Upgrades at Stargate Sites - OpenAI said it will pay for the costs of developing energy-related infrastructure required by its Stargate data centers to address concerns the facilities may drive up consumers’ utility bills.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/openai-says-it-will-pay-for-energy-upgrades-at-stargate-sites",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61def8cac09df3a8b3aab37cdba5a7d3",
-      "timestamp": "2026-01-21T11:45:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Investors Seek Safety of India State-Owned Firms as Selloff Deepens - A BSE gauge of state-owned firms is set to outperform the benchmark Sensex.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-21/india-realty-stocks-start-2026-on-a-bearish-note-psu-stocks-back-in-favor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4146312d678cf366d283d338343e2c22",
-      "timestamp": "2026-01-21T11:37:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brazil’s BRB Replaces Finance and Risk Chiefs Amid Master Probes - Banco de Brasilia SA appointed a new chief financial officer and chief risk officer, as the bank owned by Brazil’s capital city deals with the fallout of Banco Master SA’s failure.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/brazil-s-brb-replaces-finance-and-risk-chiefs-amid-master-probes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b9cf66c66d4863d8b88aa3835d3ad370",
-      "timestamp": "2026-01-21T11:28:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Virginia US Attorney Lindsey Halligan to Leave Post, Bondi Says - The embattled interim US attorney in eastern Virginia, Lindsey Halligan, is leaving her post, according to US Attorney General Pam Bondi.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/virginia-us-attorney-lindsey-halligan-to-leave-post-bondi-says",
       "sentiment": "NEUTRAL"
     }
   ]
