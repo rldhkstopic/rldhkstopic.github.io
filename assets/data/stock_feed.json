@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-01-21T08:36:51.322322+09:00",
+  "last_updated": "2026-01-21T09:12:48.998669+09:00",
   "items": [
+    {
+      "id": "0c5485f0fba33dcb61b2569fe554c979",
+      "timestamp": "2026-01-21T09:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Touts Warships to Denmark Amid Russian Threat in High North - The UK is seeking to advance talks to sell warships to Denmark amid increasing threats posed by Russia in the North Atlantic and as transatlantic ties are put under strain by Donald Trump’s efforts to",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/uk-touts-warships-to-denmark-amid-russian-threat-in-high-north",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1e8916a3999196839c3d7d2e4b5fd04c",
+      "timestamp": "2026-01-21T08:52:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New Zealand Election Set for Nov. 7 as Luxon Seeks Second Term - New Zealand Prime Minister Christopher Luxon called a November 7 national election, aiming to win a second term in government with a promise of delivering faster economic growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/new-zealand-election-set-for-nov-7-as-luxon-seeks-second-term",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "589090cd1b23b1d9873d56453eb2f6a6",
+      "timestamp": "2026-01-21T08:52:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crescent Collects $3.2 Billion in Largest Credit Secondary Fund - Crescent Capital Group collected $3.2 billion for a fund that allows it to hold on to some of its private credit investments for longer, marking the largest raise for a vehicle dedicated to credit sec",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/crescent-collects-3-2-billion-in-largest-credit-secondary-fund",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a2d9f862a386a4d53670979277a09cd",
+      "timestamp": "2026-01-21T08:47:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "MNTN CEO: WBD's Ad Sales Could be a ‘Hidden Gem' for Netflix - Mark Douglas, MNTN CEO, says Warner Bros. has a well established advertising business, while Netflix is still building its ad platform. He tells Romaine Bostick and Katie Greifeld on “The Close” that ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-20/wbd-s-ad-sales-could-be-a-hidden-gem-for-netflix-mntn-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "522afcb6e3ab125a626dcdecc34b65f2",
+      "timestamp": "2026-01-21T08:35:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Abolish ICE’ Calls Get Louder With NYC’s Mamdani Joining Chorus - New York City Mayor Zohran Mamdani called for dismantling the Immigration and Customs Enforcement agency, revitalizing the “Abolish ICE” rhetoric that became popular in progressive discourse during th",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/-abolish-ice-calls-get-louder-with-nyc-s-mamdani-joining-chorus",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bdc6dd9e88654ed79a7375733dfd0c98",
+      "timestamp": "2026-01-21T08:35:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Calpers Boosts Venture, Growth Investments in PE Overhaul - California Public Employees’ Retirement System, the biggest US public pension fund, is deploying more money to fast-growing and early-stage companies as part of a broader revamp of its private equity ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/calpers-boosts-venture-growth-investments-in-pe-overhaul",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "763b279535e4ee8884827e4bd819180e",
+      "timestamp": "2026-01-21T08:33:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japanese Bonds May Rebound After Katayama Calls for Market Calm - Japan’s bonds are likely to rebound after Finance Minister Satsuki Katayama called for calm among market participants following a selloff that pushed yields to all-time highs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/japanese-bonds-may-rebound-after-katayama-calls-for-market-calm",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4761e8a69cc2d56a3b36c8361f57800c",
+      "timestamp": "2026-01-21T08:30:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Declines as Trump’s Push to Take Greenland Rattles Markets - Oil declined as US President Donald Trump’s attempts to annex Greenland sent jitters through wider markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/latest-oil-market-news-and-analysis-for-jan-21",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7abdb3a8b80ae53a25612188a3fcb055",
       "timestamp": "2026-01-21T08:28:09+09:00",
@@ -2111,94 +2199,6 @@
       "related_tickers": [],
       "content": "US Growth Envy Dazzles Davos Again Despite Trump’s Fighting Talk - America’s biggest-ever official effort to impress the Davos crowd was matched with words of economic optimism from attendees, notwithstanding wider alarm at its president’s expansive ambitions.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-growth-envy-dazzles-davos-again-despite-trump-s-fighting-talk",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ac422bc7e2733a78dcec0f94feb0ee78",
-      "timestamp": "2026-01-20T21:03:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Growth Envy Dazzles Davos Again Despite Trump’s Fighting Talk - America’s biggest-ever official effort to impress the Davos crowd was matched with words of economic optimism from attendees, notwithstanding wider alarm at its president’s expansive ambitions.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-growth-envy-dazzles-davos-again-despite-trump-s-fighting-talk",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89e0513a8279d933adaf9d43c1bad4bf",
-      "timestamp": "2026-01-20T21:03:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TikTok Shows Americans in Their ‘Chinese Era’ of Health Habits - Internet users are posting videos of their ‘Chinese era’ and embracing practices like drinking warm water.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-20/tiktok-shows-americans-in-their-chinese-era-of-health-habits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4fe99f781b66bab4c75c411241fb88f5",
-      "timestamp": "2026-01-20T21:01:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Amends Warner Bros. Deal to All Cash in Bidding War - Netflix Inc. reached an amended, all-cash agreement to buy Warner Bros. Discovery Inc.’s studio and streaming business as it battles Paramount Skydance Corp. to acquire one of Hollywood’s most iconic ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/netflix-sweetens-warner-bros-terms-to-all-cash-in-bidding-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6dbe79768ae4a485d23531c74bf86ee1",
-      "timestamp": "2026-01-20T21:01:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Zelenskiy Plans to Skip Davos as Russian Strikes Leave Kyiv Dark - Ukrainian President Volodymyr Zelenskiy said he’ll likely scrap plans to attend the World Economic Forum as he oversees the war-battered nation’s response to Russian air strikes that have left vast sw",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/zelenskiy-plans-to-skip-davos-as-russian-strikes-leave-kyiv-dark",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "368d28aaa29b7c65ec05ad318fe35298",
-      "timestamp": "2026-01-20T21:00:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canadian Foreign Minister Says Diplomacy Drives Trade - T.H. Anita Anand, Minister of Foreign Affairs, Canada, discusses how diplomacy drives trade, how Canada balances economic engagement with global leadership, its push to expand trade beyond the United ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/canadian-foreign-minister-says-diplomacy-drives-trade-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3843489b4d3447d0ef6d5f08142fba45",
-      "timestamp": "2026-01-20T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Banks Losing Health Care Debt to Private Lenders, Moody’s Says - Health care companies are increasingly tapping private credit firms for their financing needs, marking a win for direct lenders against their Wall Street peers, according to Moody’s Ratings.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/banks-losing-health-care-debt-to-private-lenders-moody-s-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "abcbd4b0671e797eddb7133214a67b41",
-      "timestamp": "2026-01-20T20:59:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Top Citi Banker on US Sentiment, M&A, Credit Card Rate Cap - “US sentiment is unabated,” says Vis Raghavan, head of banking at Citi, as he discusses confidence in the M&A market, the potential consequences of a proposed 10% cap on credit card rates, and offers ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/top-citi-banker-on-us-sentiment-m-a-card-rate-cap-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4de4be6d93a8e84fe7aac000bc0efc53",
-      "timestamp": "2026-01-20T20:58:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Says Powell Attending Supreme Court Hearing Is ‘Mistake’ - Treasury Secretary Scott Bessent criticized Federal Reserve Chair Jerome Powell over his plans to attend a Supreme Court hearing regarding the president’s attempt to dismiss a central bank governor.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/bessent-says-powell-attending-supreme-court-hearing-is-mistake",
       "sentiment": "NEUTRAL"
     }
   ]
