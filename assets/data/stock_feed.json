@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-01-21T09:12:48.998669+09:00",
+  "last_updated": "2026-01-21T09:48:08.211093+09:00",
   "items": [
+    {
+      "id": "d1150ad42cc379c5508de4c1aa427786",
+      "timestamp": "2026-01-21T09:36:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Vanke Wins Approval for Revised Plan to Extend Yuan Bond - China Vanke Co. won enough creditor backing to extend payments on a yuan bond for a year, after it sweetened an earlier proposal with an upfront cash payment, easing the embattled developer’s risk of ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/china-vanke-wins-approval-for-revised-plan-to-extend-yuan-bond",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bef6555f412b6876be57f68c91cad6ab",
+      "timestamp": "2026-01-21T09:34:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Bond Market Liquidity Worsens to Record on Buyers’ Strike - Liquidity in Japan’s government bond market has deteriorated to record levels amid this week’s sharp selloff, underscoring what many see as a buyers’ strike that has sent super-long yields soaring.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/japan-bond-market-liquidity-worsens-to-record-on-buyers-strike",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3c0c506a3ac1eb591af772be9b937488",
+      "timestamp": "2026-01-21T09:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Court Set to Deliver Verdict in Killing of Former PM Abe - A Japanese court is set to hand down its verdict on the man accused in the fatal 2022 shooting of former Prime Minister Shinzo Abe &mdash;- a crime that horrified the nation and sparked controversy ov",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/japan-court-set-to-deliver-verdict-in-killing-of-former-pm-abe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc840de3ff947315419ee8a19f950b98",
+      "timestamp": "2026-01-21T09:18:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pop Mart, Xiaomi Expand Share Buyback Wave as Stocks Waver - Some of the biggest Chinese firms listed in Hong Kong are busy buying back their own shares, seeking to shore up investor confidence in their cooling stock prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/pop-mart-xiaomi-expand-share-buyback-wave-as-stocks-waver",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c1320779109323ee8b1deb2e47a03416",
+      "timestamp": "2026-01-21T09:16:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "World-Beating South Korea Stocks Still ‘Cheap’, First Eagle Says - South Korean equities remain attractive despite a record-breaking rally, with a corporate reform drive modeled on Japan’s playbook seen delivering faster gains for shareholders, according to First Eag",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/world-beating-south-korea-stocks-still-cheap-first-eagle-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0c5485f0fba33dcb61b2569fe554c979",
       "timestamp": "2026-01-21T09:01:00+09:00",
@@ -2144,61 +2199,6 @@
       "related_tickers": [],
       "content": "JPMorgan's Filippo Gori on Client Tariff Concern - JPMorgan's clients across Europe and the Middle East have put their concerns about tariffs to the side, at least for now, choosing instead to focus on running their businesses. That was among the obse",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/jpmorgan-s-filippo-gori-on-client-tariff-concern-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d4d0ebea6544b286922797fff7fc19f3",
-      "timestamp": "2026-01-20T21:27:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FULL CLEAN ManpowerGroup President Becky Frankiewicz - FULL CLEAN ManpowerGroup President Becky Frankiewicz (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/manpower-ai-may-cause-delay-to-hiring-plans-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "317638e5d0f56183380fb084c3ed0e16",
-      "timestamp": "2026-01-20T21:21:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Struggling Solar Sector Has a Shiny New Problem - The price of silver has more than tripled in the past year, with serious knock-on effects for the country’s photovoltaic industry.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-20/china-s-struggling-solar-sector-has-a-shiny-new-problem",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe62fe7de33da26f4111fa066c72b8f1",
-      "timestamp": "2026-01-20T21:20:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic CEO Says Selling Advanced AI Chips to China Is ‘Crazy’ - Anthropic Chief Executive Officer Dario Amodei said selling advanced artificial intelligence chips to China is a blunder with “incredible national security implications” as the US moves to allow Nvidi",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/anthropic-ceo-says-selling-advanced-ai-chips-to-china-is-crazy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dc8345f5b15ac82cc5a06f35d2084436",
-      "timestamp": "2026-01-20T21:17:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Shipping AI Chips to China Would Be a 'Big Mistake,' Anthropic CEO Says - Anthropic Chief Executive Officer and co-founder Dario Amodei says the US embargo on chip sales to Beijing is what is holding Chinese companies back. \"I think it would be a big mistake to ship these c",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/amodei-shipping-ai-chips-to-china-would-be-a-mistake-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ac422bc7e2733a78dcec0f94feb0ee78",
-      "timestamp": "2026-01-20T21:03:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Growth Envy Dazzles Davos Again Despite Trump’s Fighting Talk - America’s biggest-ever official effort to impress the Davos crowd was matched with words of economic optimism from attendees, notwithstanding wider alarm at its president’s expansive ambitions.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/us-growth-envy-dazzles-davos-again-despite-trump-s-fighting-talk",
       "sentiment": "NEUTRAL"
     }
   ]
