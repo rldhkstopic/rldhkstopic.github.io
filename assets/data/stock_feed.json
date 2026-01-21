@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-21T23:43:02.139389+09:00",
+  "last_updated": "2026-01-22T00:07:41.155699+09:00",
   "items": [
+    {
+      "id": "77d507cecb3a2d6d8453be6a7ff9d1c5",
+      "timestamp": "2026-01-22T00:00:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He'll Announce New Fed Chair Soon - President Donald Trump says he'll be making an announcement to replace \"terrible\" Federal Reserve Chair Jerome Powell in the \"not-too-distant future\" during a speech at the World Economic Forum's annu",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-says-he-ll-announce-new-fed-chair-soon-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fe9d64ec7e4b4446e6796b606dea3095",
+      "timestamp": "2026-01-21T23:59:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NYSE’s Martin Sees ‘Tremendous’ IPO Activity in Coming Weeks - NYSE Group Inc. President Lynn Martin expects “tremendous” activity for initial public offerings in the coming weeks, in a widely anticipated comeback after a muted period for IPOs in the past few yea",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/nyse-s-martin-sees-tremendous-ipo-activity-in-coming-weeks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f9bbeb6775fb2ab847f2ad1eefb67dd5",
+      "timestamp": "2026-01-21T23:58:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dr Reddy’s to Start Selling Generic Ozempic in India From March - Indian drugmaker Dr Reddy’s Laboratories Ltd. is planning to launch a generic version of Novo Nordisk A/S’s Ozempic in March after the drug’s patent expiry, becoming one of the first firms to capture ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/dr-reddy-s-to-start-selling-generic-ozempic-in-india-from-march",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fab59f5ba3cb622b84e13f677a2e0a6f",
+      "timestamp": "2026-01-21T23:51:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Tells Europe and NATO to Hand Over Greenland - Or Else - President Donald Trump upped the pressure on Europe to cede control of Greenland or face the consequences, saying that NATO owes it to the US to grant it full rights to the Arctic territory.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/trump-tells-europe-and-nato-to-hand-over-greenland-or-else",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "41cb8105f88615b36990281793a79213",
+      "timestamp": "2026-01-21T23:47:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Palestinian Authority PM Mustafa on Sovereignty - Palestinian Authority Prime Minister Mohammad Mustafa said he seeks progress towards sovereignty amid a fragile ceasefire with Israel and President Donald Trump's plan for a so-called Board of Peace. ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/palestinian-authority-pm-mustafa-on-sovereignty-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a909e3a1ec4d9693a3e410985d1a3305",
+      "timestamp": "2026-01-21T23:45:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ineos Bonds Rise on Report Firm Nears New Financing - Ineos’s bonds rose on Wednesday as the chemicals giant is reportedly close to a deal to shore up its cash position and address a bond due in little less than a year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/ineos-bonds-rise-on-report-firm-nears-new-financing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "76e010421895af37141a9681bcf94732",
+      "timestamp": "2026-01-21T23:40:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks Rebound as Trump Expounds on Greenland, Equity Markets - US equities reversed early losses during Donald Trump’s speech at the World Economic Forum in Davos when the US president said he didn’t want to use excessive force to acquire Greenland.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/stocks-rebound-as-trump-expounds-on-greenland-equity-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "85d075faade6bc14aff520ac20aaef31",
+      "timestamp": "2026-01-21T23:39:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Freezes US Trade Deal Approval Over Greenland Threats - A trade deal between the US and European Union is on hold after the European Parliament decided to freeze a ratification vote in response to President Donald Trump’s escalating threats to seize Greenl",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/eu-freezes-us-trade-deal-approval-over-trump-s-greenland-threats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f5248b3c30c8c2f37a54cb54a094f6a4",
+      "timestamp": "2026-01-21T23:39:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Reliance Resumes Russian Crude Buying After Sanctions Pause - Reliance Industries Ltd. has placed orders for non-sanctioned Russian crude for delivery in February and March, according to a person familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/reliance-resumes-russian-crude-buying-after-sanctions-pause",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9f5c6301fdbb7bf9e0f64b019abd3332",
       "timestamp": "2026-01-21T23:33:51+09:00",
@@ -2100,105 +2199,6 @@
       "related_tickers": [],
       "content": "Virginia US Attorney Lindsey Halligan to Leave Post, Bondi Says - The embattled interim US attorney in eastern Virginia, Lindsey Halligan, is leaving her post, according to US Attorney General Pam Bondi.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/virginia-us-attorney-lindsey-halligan-to-leave-post-bondi-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7bc561c1d9049440778acf18517775a",
-      "timestamp": "2026-01-21T11:19:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indonesian Bond Demand Sinks to 10-Month Low as Rupiah Weakens - Demand for Indonesian bonds fell to the lowest in 10 months at an auction as a selloff in the rupiah deepened and concerns over the country’s fiscal health persisted.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/indonesian-bond-demand-sinks-to-10-month-low-as-rupiah-weakens",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6da16d2ea8ed2ac1223d13a307ba83c4",
-      "timestamp": "2026-01-21T11:10:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia’s Huang Plans to Visit China as He Works to Reopen Market - Nvidia Corp. Chief Executive Officer Jensen Huang is planning to travel to China in late January as he works to reopen a crucial market for his company’s artificial intelligence chips.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/nvidia-s-huang-plans-to-visit-china-as-he-works-to-reopen-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5338d952ad60035e6ca7950604c2d279",
-      "timestamp": "2026-01-21T11:05:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Korea’s President Lee Says Won Is Holding Up, Could Hit 1,400 - South Korea’s President Lee Jae Myung said the country’s beleaguered currency may strengthen and stabilize at around the 1,400 to a dollar level within the next two months.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/korea-s-president-lee-says-won-is-holding-up-could-hit-1-400",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d75374c9720c114a4bfee3ca1c57c17",
-      "timestamp": "2026-01-21T11:04:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Colombia Moves to Cap Pension Funds’ Overseas Holdings at 30% - The Colombian government unveiled a draft decree that would push pension funds to invest more heavily in the domestic economy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/colombia-moves-to-cap-pension-funds-overseas-holdings-at-30",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a3a792c14caf9caf93c68d792f71c61",
-      "timestamp": "2026-01-21T10:59:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japanese Bank Stocks Slide as JGB Volatility Stokes Loss Fears - Japan’s financial stocks declined as Tuesday’s government bond meltdown raised alarms about potential losses for lenders and brokerages.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/japanese-bank-stocks-slide-as-jgb-volatility-stokes-loss-fears",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4069d6964e8d6dec3f49f47c261d3010",
-      "timestamp": "2026-01-21T10:48:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brookfield Seeks $1.7 Billion Loan to Refinance Seoul IFC Deal - Brookfield Asset Management Ltd. is seeking a 2.5 trillion won ($1.7 billion) loan backed by Seoul’s International Finance Center, people familiar with the matter said, underscoring the refinancing sq",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/brookfield-seeks-1-7-billion-loan-to-refinance-seoul-ifc-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7891990d7f34f56bb3966c51ac9c9dc",
-      "timestamp": "2026-01-21T10:46:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Foreign Funds Return to Indian Tech Stocks on AI Growth Bets - Global money managers are warming up to shares of Indian software exporters again, as they gear their business toward artificial intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/foreign-funds-return-to-indian-tech-stocks-on-ai-growth-bets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7891990d7f34f56bb3966c51ac9c9dc",
-      "timestamp": "2026-01-21T10:46:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Foreign Funds Return to Indian Tech Stocks on AI Growth Bets - Global money managers are warming up to shares of Indian software exporters again, as they gear their business toward artificial intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/foreign-funds-return-to-indian-tech-stocks-on-ai-growth-bets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "baba9eb867981bc4a681aa51d8cdf61d",
-      "timestamp": "2026-01-21T10:45:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Keeps Fix Weaker Than 7 Despite Dollar Decline, Yuan Rally - China set its daily reference rate for the yuan weaker than 7 per dollar, a sign the central bank is keen to slow the currency’s gains in the face of recent weakness in the greenback.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/china-keeps-fix-weaker-than-7-despite-dollar-decline-yuan-rally",
       "sentiment": "NEUTRAL"
     }
   ]
