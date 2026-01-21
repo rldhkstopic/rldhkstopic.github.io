@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-01-21T10:32:11.501363+09:00",
+  "last_updated": "2026-01-21T11:40:27.107122+09:00",
   "items": [
+    {
+      "id": "b9cf66c66d4863d8b88aa3835d3ad370",
+      "timestamp": "2026-01-21T11:28:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Virginia US Attorney Lindsey Halligan to Leave Post, Bondi Says - The embattled interim US attorney in eastern Virginia, Lindsey Halligan, is leaving her post, according to US Attorney General Pam Bondi.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/virginia-us-attorney-lindsey-halligan-to-leave-post-bondi-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7bc561c1d9049440778acf18517775a",
+      "timestamp": "2026-01-21T11:19:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesian Bond Demand Sinks to 10-Month Low as Rupiah Weakens - Demand for Indonesian bonds fell to the lowest in 10 months at an auction as a selloff in the rupiah deepened and concerns over the country’s fiscal health persisted.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/indonesian-bond-demand-sinks-to-10-month-low-as-rupiah-weakens",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6da16d2ea8ed2ac1223d13a307ba83c4",
+      "timestamp": "2026-01-21T11:10:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia’s Huang Plans to Visit China as He Works to Reopen Market - Nvidia Corp. Chief Executive Officer Jensen Huang is planning to travel to China in late January as he works to reopen a crucial market for his company’s artificial intelligence chips.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/nvidia-s-huang-plans-to-visit-china-as-he-works-to-reopen-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5338d952ad60035e6ca7950604c2d279",
+      "timestamp": "2026-01-21T11:05:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Korea’s President Lee Says Won Is Holding Up, Could Hit 1,400 - South Korea’s President Lee Jae Myung said the country’s beleaguered currency may strengthen and stabilize at around the 1,400 to a dollar level within the next two months.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/korea-s-president-lee-says-won-is-holding-up-could-hit-1-400",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8d75374c9720c114a4bfee3ca1c57c17",
+      "timestamp": "2026-01-21T11:04:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Colombia Moves to Cap Pension Funds’ Overseas Holdings at 30% - The Colombian government unveiled a draft decree that would push pension funds to invest more heavily in the domestic economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/colombia-moves-to-cap-pension-funds-overseas-holdings-at-30",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1a3a792c14caf9caf93c68d792f71c61",
+      "timestamp": "2026-01-21T10:59:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japanese Bank Stocks Slide as JGB Volatility Stokes Loss Fears - Japan’s financial stocks declined as Tuesday’s government bond meltdown raised alarms about potential losses for lenders and brokerages.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/japanese-bank-stocks-slide-as-jgb-volatility-stokes-loss-fears",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4069d6964e8d6dec3f49f47c261d3010",
+      "timestamp": "2026-01-21T10:48:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brookfield Seeks $1.7 Billion Loan to Refinance Seoul IFC Deal - Brookfield Asset Management Ltd. is seeking a 2.5 trillion won ($1.7 billion) loan backed by Seoul’s International Finance Center, people familiar with the matter said, underscoring the refinancing sq",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/brookfield-seeks-1-7-billion-loan-to-refinance-seoul-ifc-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7891990d7f34f56bb3966c51ac9c9dc",
+      "timestamp": "2026-01-21T10:46:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Foreign Funds Return to Indian Tech Stocks on AI Growth Bets - Global money managers are warming up to shares of Indian software exporters again, as they gear their business toward artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/foreign-funds-return-to-indian-tech-stocks-on-ai-growth-bets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7891990d7f34f56bb3966c51ac9c9dc",
+      "timestamp": "2026-01-21T10:46:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Foreign Funds Return to Indian Tech Stocks on AI Growth Bets - Global money managers are warming up to shares of Indian software exporters again, as they gear their business toward artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/foreign-funds-return-to-indian-tech-stocks-on-ai-growth-bets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "baba9eb867981bc4a681aa51d8cdf61d",
+      "timestamp": "2026-01-21T10:45:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Keeps Fix Weaker Than 7 Despite Dollar Decline, Yuan Rally - China set its daily reference rate for the yuan weaker than 7 per dollar, a sign the central bank is keen to slow the currency’s gains in the face of recent weakness in the greenback.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/china-keeps-fix-weaker-than-7-despite-dollar-decline-yuan-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cf899a913feb0970f5cd56ba93e6d07d",
+      "timestamp": "2026-01-21T10:40:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JGB Turmoil Risks Up to $130 Billion Treasury Selling, Citi Says - A sharp rise in Japanese government bond volatility “risks resulting in a rise in volatility in other asset classes, particularly US Treasuries, necessitating a reduction in overall portfolio size,” a",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/jgb-turmoil-risks-up-to-130-billion-treasury-selling-citi-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "63c09201cec51b327939e14b92e213a7",
+      "timestamp": "2026-01-21T10:38:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan UK Unit to Open Branch in India’s GIFT City - A unit of JPMorgan Chase &amp; Co. is setting up a branch in India’s Gujarat International Finance Tec-City, or GIFT City, to trade equities, among other instruments, becoming the latest global bank t",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/jpmorgan-uk-unit-to-open-branch-in-india-s-gift-city",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "38f7a8173c7c9cf907b0cf32971362c9",
       "timestamp": "2026-01-21T10:08:43+09:00",
@@ -2067,138 +2199,6 @@
       "related_tickers": [],
       "content": "Top African Lender Standard Bank Loses Dealmakers to Absa - Standard Bank Group Ltd., Africa’s largest lender by assets, is set to lose two more top executives to smaller rival Absa Group Ltd.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/top-african-lender-standard-bank-loses-more-dealmakers-to-absa",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "659a9628eab83ab959cdd770b3b638dc",
-      "timestamp": "2026-01-20T22:12:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic CEO Dario Amodei on the Future of AI - Dario Amodei, CEO, Anthropic sits down with Bloomberg's Editor-in-Chief John Micklethwait to discuss the future of AI at Bloomberg House in Davos on the sidelines of the 2026 World Economic Forum.  (S",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/anthropic-ceo-dario-amodei-on-the-future-of-ai-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5737b53187001a4abef3ecabca111d66",
-      "timestamp": "2026-01-20T22:10:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Doing 'Permanent Damage' To US, Says Bremmer in Davos | The Pulse 1/20 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/the-pulse-1-20-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d40fc0cee9a4e2d1000c7f3eb196d5a",
-      "timestamp": "2026-01-20T22:04:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland Considers Ban on Chinese-Made Cars Entering Its Military Bases - Poland may ban Chinese-made cars from entering military facilities in an effort to protect its security, according to a deputy defense minister.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/poland-mulls-ban-on-chinese-made-cars-entering-military-bases",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d40fc0cee9a4e2d1000c7f3eb196d5a",
-      "timestamp": "2026-01-20T22:04:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland Considers Ban on Chinese-Made Cars Entering Its Military Bases - Poland may ban Chinese-made cars from entering military facilities in an effort to protect its security, according to a deputy defense minister.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/poland-mulls-ban-on-chinese-made-cars-entering-military-bases",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f84a347764dbb65805806492f90be65c",
-      "timestamp": "2026-01-20T22:02:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street’s Calm Shattered by Greenland and Japan Shocks - For weeks, the talk on Wall Street was how markets have been unusually subdued at the start of the year. But with a clash over Greenland throwing the European and American alliance in disarray and Jap",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/wall-street-s-calm-shattered-by-greenland-and-japan-shocks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8ce62c22514b87a7e07412e2444bcfd2",
-      "timestamp": "2026-01-20T22:00:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia, SV Angel Set to Back Humans&amp; at $4.48 Billion Valuation - Humans&amp;, a new startup building a frontier artificial intelligence lab, has raised a $480 million seed funding round at a $4.48 billion valuation &mdash; an unusually large haul for a young startu",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/nvidia-sv-angel-set-to-back-humans-at-4-48-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "af043259da2caf2e78595715ea1d625f",
-      "timestamp": "2026-01-20T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Argentina’s Pomelo Raises $55 Million to Boost Payment Offerings - Argentina-based financial technology startup Pomelo has raised $55 million in a Series C round as it looks to deepen its presence in Latin America and expand globally with new products tied to stablec",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/argentina-s-pomelo-raises-55-million-in-series-c-to-boost-payment-offerings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aec480817c1fbc17441f2f288e775c65",
-      "timestamp": "2026-01-20T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Silicon Valley Rich Fear Union That Could Make Them Pay Billions - The California wealth-tax plan that’s drawn ire from Silicon Valley billionaires and Governor Gavin Newsom has a familiar force behind it: a union adept at turning ballot initiatives into a potent pol",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/california-wealth-tax-plan-pits-billionaires-against-healthcare-workers-union",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "505b9a4b61c6ad0545f25ee89bf60dbe",
-      "timestamp": "2026-01-20T21:59:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Boosts Bridge Loan for Warner Bros. Deal to $42 Billion - Netflix Inc. has lined up more debt from Wall Street banks to help finance its amended, all-cash agreement to buy Warner Bros. Discovery Inc.’s studio and streaming business.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/netflix-boosts-bridge-loan-for-warner-bros-deal-to-42-billion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2fffaf44f499b6f00f838cb9fec68ba6",
-      "timestamp": "2026-01-20T21:56:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Ready for an 'Interesting Davos', Japanese Bond Meltdown | The Opening Trade 1/20/2026 - President Donald Trump said he will meet with several parties over his ambition to take control of Greenland during the upcoming World Economic Forum. The US leader also unleashed fresh social media a",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/the-opening-trade-01-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "56616629f9fbe64b7f720c33381f27ee",
-      "timestamp": "2026-01-20T21:55:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Bond Borrowing Exceeds $20 Billion to Hit January Record - Saudi Arabia sold more than $20 billion of international bonds since the start of the year, a record for a January as companies and banks join government fund raising.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/saudi-bond-borrowing-exceeds-20-billion-to-hit-january-record",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5b84a0b33dd4f4eb9850643f2a3bea53",
-      "timestamp": "2026-01-20T21:42:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UAE’s Al Dahra to Exit Grain Trading, Plans Pivot to Farming - Abu Dhabi-based agribusiness group Al Dahra Holding plans to exit third-party grains and oilseeds trading, pivoting instead to focus on its farming operations spread across Europe, Africa and the US.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/uae-s-al-dahra-to-exit-grain-trading-plans-pivot-to-farming",
       "sentiment": "NEUTRAL"
     }
   ]
