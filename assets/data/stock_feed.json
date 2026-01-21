@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-22T00:43:00.683687+09:00",
+  "last_updated": "2026-01-22T01:07:41.741981+09:00",
   "items": [
+    {
+      "id": "c093589e9d429cf7f8721e04855bcf05",
+      "timestamp": "2026-01-22T01:00:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sony Unveils $230 Clip-On Earbuds, Joining a Growing Wave - Sony Group Corp. introduced its latest pair of consumer earbuds, with a clip-on design that resembles recent efforts from Bose Corp., Lenovo Group Ltd.’s Motorola unit and Huawei Technologies Co.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/sony-announces-230-linkbuds-clip-earbuds-joining-a-growing-style-trend",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "46bd1150025bf65de79dbc378d647567",
+      "timestamp": "2026-01-22T00:52:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Canada ‘Lives Because of the US’ After Carney Rebukes Washington - US President Donald Trump accused Mark Carney of ingratitude for American military protection, firing back after the Canadian leader used a Davos stage to urge mid-sized nations to band together again",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/trump-says-canada-lives-because-of-the-us-after-carney-rebukes-washington",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3183d913469c0f59da6ea048d4843a1f",
+      "timestamp": "2026-01-22T00:51:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa’s Rand Surges to Strongest Level in Three Years - South Africa’s rand rose to its strongest level in more than three years, following a broad markets rally after President Donald Trump ruled out using force to take Greenland.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/south-africa-s-rand-surges-to-strongest-level-in-three-years",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ec170bfad74f735bde6b6879c8c58226",
+      "timestamp": "2026-01-22T00:43:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "United Seeing Strength 'Across the Board,' CEO Kirby Says - United Airlines Holdings CEO Scott Kirby discusses the company's upbeat forecast, saying demand so far in 2026 has \"come in pretty hot\" during an interview with Lisa Abramowicz on Bloomberg Television",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/united-seeing-strength-across-the-board-ceo-kirby-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6a91ef4038b389cf2ccbdf8a45a20153",
+      "timestamp": "2026-01-22T00:40:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Edenred Gains After Brazil Judge Halts Meal Voucher Reform - Edenred SE shares rose in Paris after a judge in Brazil suspended a meal voucher reform that seeks to cap fees for operators in the country.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/edenred-gains-after-brazil-judge-halts-meal-voucher-reform",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2a7bb14580852703682f1a97d527d58b",
+      "timestamp": "2026-01-22T00:40:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NYSE CEO on US Capital Markets, Trading Models - NYSE CEO Lynn Martin discusses the strength of the US capital markets and the move toward a 23/5 trading model during an interview with Bloomberg Surveillance at the 2026 World Economic Forum in Davos",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/nyse-ceo-on-us-capital-markets-trading-models-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eb3f790cdda3caec83ee5cbbc6454db1",
+      "timestamp": "2026-01-22T00:39:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Telesat Sued by Creditors Alleging ‘Fraudulent’ Asset Transfers - Creditors to struggling Telesat Canada sued the satellite operator, demanding the company unwind transfers they said placed the most valuable assets out of their reach and breached lending terms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/telesat-sued-by-creditors-alleging-fraudulent-asset-transfers",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7cd1149b0a31d8902fb1747963dcf97f",
       "timestamp": "2026-01-22T00:31:31+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "Indian Rupee Declines to Set Fresh Record Low as Capital Outflows Persist - The Indian rupee fell to a new low on foreign outflows from the nation’s equities, as a delay in a trade deal with the US dents investor sentiment.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/inr-usd-india-rupee-falls-to-set-fresh-record-low-as-capital-outflows-persist",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ad13812ab640d1842defea1215077f53",
-      "timestamp": "2026-01-21T12:53:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Lithium Tumult Spurs Futures Exchange to Step In Again - Lithium’s violent price swings have prompted China’s futures exchange to intervene once again to manage market risks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/china-s-lithium-tumult-spurs-futures-exchange-to-step-in-again",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9d8deed5c1e413bd29b08017250af5b9",
-      "timestamp": "2026-01-21T12:34:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Market Turmoil Prompts China Oil Firm to Pull Bond Sale - Spikes in borrowing costs following a meltdown in Japanese bonds and a selloff in US Treasuries have prompted at least one Asian borrower to shelve plans to raise funds, underscoring how renewed volat",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/global-market-turmoil-prompts-china-oil-firm-to-pull-bond-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61ffdf23ecbdb68dc0b25ab78924c2ad",
-      "timestamp": "2026-01-21T12:28:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s Reliance Tumbles Into Deepest Oversold Level in Years - Reliance Industries Ltd.’s shares are the most oversold they have been in five years, as India’s largest company grapples with headwinds &mdash; from a slowdown in its retail business to growing uneas",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/india-s-reliance-tumbles-into-deepest-oversold-level-in-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b2c9fe00a0c758baea3c85c1de72a1b8",
-      "timestamp": "2026-01-21T12:27:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Silver Retail Buying Keeps Supplies Tight as Rally Gathers Pace - From Chinese aunties queuing in Shenzhen markets to out-of-stock Turkish refineries and a Korea Mint offer that sold out within an hour, silver’s dizzying rally is leaving banks and refiners scramblin",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/silver-retail-buying-keeps-supplies-tight-as-rally-gathers-pace",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40035e7a248258980e67ae09cf2325a5",
-      "timestamp": "2026-01-21T12:22:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Australian Firms Delay Spending on Cost Pressures, Survey Shows - Australian businesses are holding off on major investments until economic uncertainty eases, according to a new report, as renewed inflationary pressures raise the risk the Reserve Bank may be forced ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-21/australian-firms-delay-spending-on-cost-pressures-survey-shows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0ce26ec98f009c53dec7c5280e35cd37",
-      "timestamp": "2026-01-21T12:17:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Brings Greenland Fight to Davos - Europe’s confrontation with Donald Trump over Greenland is fast becoming more than another quarrel. The European Union faces a stress test of whether it can respond as a united force when its sovereig",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-brings-greenland-fight-to-davos-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0f5a9d3b97d4233d6a8a2f60b31cb717",
-      "timestamp": "2026-01-21T12:14:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What Happens if China Attacks Taiwan? - Recent US military action in Venezuela and the escalating push to acquire Greenland have raised urgent questions about the stability of international norms. As global order shifts, concerns are mounti",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-21/what-happens-if-china-attacks-taiwan-video",
       "sentiment": "NEUTRAL"
     }
   ]
