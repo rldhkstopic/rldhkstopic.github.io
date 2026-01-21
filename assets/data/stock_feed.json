@@ -1,6 +1,346 @@
 {
-  "last_updated": "2026-01-22T02:23:28.945834+09:00",
+  "last_updated": "2026-01-22T03:15:31.841117+09:00",
   "items": [
+    {
+      "id": "a5bd821d7bd886cbb2e8c2b266883426",
+      "timestamp": "2026-01-22T03:13:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Artisan Mid Cap Value Fund Q4 2025 Commentary",
+      "url": "https://seekingalpha.com/article/4861577-artisan-mid-cap-value-fund-q4-2025-commentary?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c0e0ed624205ace49197fccb8bf2e8ae",
+      "timestamp": "2026-01-22T03:12:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Nvidia: OpenAI's AGI Admission Should Send Shivers",
+      "url": "https://seekingalpha.com/article/4861576-nvidia-openai-agi-admission-should-send-shivers?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2299cddfec92db778f36af91fe607acf",
+      "timestamp": "2026-01-22T03:05:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Geopolitics, Earnings And Rates: Trading Through Turbulence",
+      "url": "https://seekingalpha.com/article/4861582-geopolitics-earnings-rates-trading-through-turbulence?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ee6f6e497e43b5d29578a558dfc87005",
+      "timestamp": "2026-01-22T03:04:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Ardelyx: Assessment Of Acquisition Rumors",
+      "url": "https://seekingalpha.com/article/4861575-ardelyx-assessment-of-acquisition-rumors?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8b51cd2cb7a482246163aebb010dd448",
+      "timestamp": "2026-01-22T03:03:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "South Bow: As Dust Settles - Downgrade To Hold",
+      "url": "https://seekingalpha.com/article/4861574-south-bow-as-dust-settles-downgrade-to-hold?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6055feba8be840b5fee759f532efa171",
+      "timestamp": "2026-01-22T02:57:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Talk Shows That Feature Candidates Must Welcome Rivals, FCC Says - The Federal Communications Commission told broadcasters on Wednesday that talk shows and late-night programs hosting political candidates must offer their opponents equal time, an effort aimed at bala",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/talk-shows-that-feature-candidates-must-welcome-rivals-fcc-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "80fea518f9ca8539dd1f9175894a03cb",
+      "timestamp": "2026-01-22T02:56:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He Won’t Use Force Over Greenland, Seeks Negotiations - President Donald Trump upped the pressure on Europe to cede control of Greenland or face the consequences, saying that NATO owes it to the US to grant it full rights to the Arctic island.\nIn a speech ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-says-he-won-t-use-force-over-greenland-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7eea6edef6c10dfe0f83f07547ed604b",
+      "timestamp": "2026-01-22T02:53:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FountainVest Partners CEO Sees Improving Mood for China Investment - FountainVest Partners CEO Frank Tang says he is confident in the resilience of Chinese companies and the \"impressive\" innovation seen in sectors like life sciences and consumption. He speaks to Bloomb",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/frank-tang-sees-improving-mood-for-china-investment-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b7851339d0630f6c868fb5c6417bb5a6",
+      "timestamp": "2026-01-22T02:50:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Teladoc Health: Why Low Valuation Doesn't Equal A 'Buy' (Rating Downgrade)",
+      "url": "https://seekingalpha.com/article/4861573-teladoc-health-why-low-valuation-doesnt-equal-a-buy-rating-downgrade?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7d98ebf4dd521985af0066dd30dfb3b8",
+      "timestamp": "2026-01-22T02:45:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Supreme Court Appears Wary of Trump Bid to Fire Fed’s Cook - US Supreme Court justices suggested they are wary of President Donald Trump’s effort to fire Federal Reserve Governor Lisa Cook over unproven mortgage-fraud allegations, saying the move could upend th",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/high-court-appears-wary-of-trump-bid-to-fire-fed-s-cook-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ed61f0c4208d07192ecfda498296edb9",
+      "timestamp": "2026-01-22T02:43:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lebanon PM Salam on Disarmament, Iran, IMF Reforms - Lebanese Prime Minister Nawaf Salam discusses whether enough has been done to address Hezbollah’s disarmament and the pathway toward restoring the state’s monopoly over arms, the implications of devel",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/lebanon-pm-salam-on-disarmament-iran-imf-reforms-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "457d9ee0092b0a28756d8303b6e9fcdf",
+      "timestamp": "2026-01-22T02:43:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Key Takeaways for Supreme Court Hearing on Fed Governor Firing - Here are some key takeaways from the hearing Wednesday at the US Supreme Court over President Donald Trump’s effort to fire Federal Reserve Governor Lisa Cook over mortgage-fraud allegations she’s den",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/key-takeaways-for-supreme-court-hearing-on-fed-governor-firing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3529571207242c2b743ef59da7c60f6d",
+      "timestamp": "2026-01-22T02:42:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Lockheed Martin - Overbought After A Strong Run",
+      "url": "https://seekingalpha.com/article/4861570-lockheed-martin-overbought-after-a-strong-run?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b65e79cb0bb20006e115c12953d08d13",
+      "timestamp": "2026-01-22T02:41:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Tesla's Earnings Could Be Much Better Than Expected",
+      "url": "https://seekingalpha.com/article/4861569-tesla-earnings-could-be-much-better-than-expected?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "372f2d05d98a766e302943d6af7b209b",
+      "timestamp": "2026-01-22T02:40:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NEC's Hassett Teases 'Big' Housing Announcement From Trump - National Economic Council Director Kevin Hassett says President Donald Trump will be making a “big” housing announcement soon as part of a “really ambitious” economic agenda. Hassett also says nothing",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/hassett-teases-big-housing-announcement-from-trump-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fdc648ab861355e331e622576c8bbc05",
+      "timestamp": "2026-01-22T02:40:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "MoneyShow's Best Investment Ideas For 2026: Part 9",
+      "url": "https://seekingalpha.com/article/4861586-moneyshow-best-investment-ideas-for-2026-part-9?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c61ae40b03b5c7ae63c04547d5a5b09",
+      "timestamp": "2026-01-22T02:39:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "AT&T: Where The Downtrend May End, Yield Climbing Toward 5%",
+      "url": "https://seekingalpha.com/article/4861568-at-and-t-where-the-downtrend-may-end-yield-climbing-toward-5-percent?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "019c18d1b038b17269721239440fa58f",
+      "timestamp": "2026-01-22T02:35:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ken Griffin Sees ‘Explicit Warning’ for US in Japan Bond Selloff - Citadel’s Ken Griffin called the heavy selling of Japanese government bonds this week an “explicit warning” to US politicians to improve the nation’s finances. Griffin said, “what happened in Japan is",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/ken-griffin-jgb-selloff-an-explicit-warning-for-us-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8570dc6246023c8dadf9291dc20e6d37",
+      "timestamp": "2026-01-22T02:31:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Selling Treasuries Looks Symbolic If European Funds Keep Stocks - Sales of US Treasury holdings by European pension funds have largely been shrugged off by global investors, so long as they keep their much larger stockpiles of US corporate debt and equities.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/selling-treasuries-looks-symbolic-if-european-funds-keep-stocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1a22cda6ca4875ed1649c2f8ad5d3cff",
+      "timestamp": "2026-01-22T02:30:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "The Travelers Companies, Inc. 2025 Q4 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4861584-the-travelers-companies-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fc672d001b5c385f4fd63c824c61ca20",
+      "timestamp": "2026-01-22T02:30:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lebanon’s PM Says IMF Asked for Changes to New Bank-Deposit Law - Lebanon has been asked by the International Monetary Fund to amend a proposed law to allow depositors to recover funds trapped in the banking system, Prime Minister Nawaf Salam said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/lebanon-s-pm-says-imf-asked-for-changes-to-new-bank-deposit-law",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23ad36d4243ecd17a6cd38f17c2d5572",
+      "timestamp": "2026-01-22T02:28:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Boeing: Why Production, Not Valuation, Is The Real Story Now",
+      "url": "https://seekingalpha.com/article/4861561-boeing-why-production-not-valuation-is-the-real-story-now?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c9f3d98b979406973200bde296be32e8",
+      "timestamp": "2026-01-22T02:26:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dutch PM Urges Diplomatic Efforts to Resolve US Tariff Threats - Dutch Prime Minister Dick Schoof advocated for finding a diplomatic solution to resolve a dispute over additional tariffs that US president Donald Trump threatened to impose on several European countr",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/dutch-pm-urges-diplomatic-efforts-to-resolve-us-tariff-threats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "73d6e95e54f778cc183a9b20a395392b",
+      "timestamp": "2026-01-22T02:26:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "EOI: The Rare Covered Call Fund That Doesn't Sacrifice Total Returns",
+      "url": "https://seekingalpha.com/article/4861560-eoi-the-rare-covered-call-fund-that-doesnt-sacrifice-total-returns?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "27faf09dd32ecc6bf5e8b0273caa9476",
+      "timestamp": "2026-01-22T02:25:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Halliburton Company (HAL) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4861539-halliburton-company-hal-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "80761184a0e1dd1d1a9ec4b4e82c2eb2",
+      "timestamp": "2026-01-22T02:25:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Nicolet Bankshares Finishes Record Year For Earnings",
+      "url": "https://seekingalpha.com/article/4861559-nicolet-bankshares-finishes-record-year-for-earnings?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "19edbe91e922732a7a851499d88634ff",
+      "timestamp": "2026-01-22T02:24:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ICE Faces Resistance Buying NY Warehouse Linked to Carl Icahn - The Trump administration plans to buy a warehouse linked to billionaire investor Carl Icahn for Immigration and Customs Enforcement operations, stirring opposition in a small town in New York’s Hudson",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/icahn-s-warehouse-sought-for-ice-operations-in-ny-s-hudson-valley",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a07849909fedd23b6c777e32545fb863",
+      "timestamp": "2026-01-22T02:24:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Columbia Bond Fund Q4 2025 Commentary",
+      "url": "https://seekingalpha.com/article/4861558-columbia-bond-fund-q4-2025-commentary?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "20bce377efe4cbf7e837d93ec1058e1a",
       "timestamp": "2026-01-22T02:22:57+09:00",
@@ -103,6 +443,17 @@
       ],
       "content": "Here's How Not To Invest $100,000 In 2026",
       "url": "https://seekingalpha.com/article/4861547-how-not-to-invest-100k-in-2026?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "402b5c5df49cfa19133c3a74132fb3e9",
+      "timestamp": "2026-01-22T02:06:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Citael's Griffin on the New Financial Landscape - Ken Griffin, Founder, CEO & Co-Chief Investment Officer, Citadel discusses the evolving global financial landscape, market and political volatility and the outlook for investors with Bloomberg’s Erik ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/citael-s-griffin-on-the-new-financial-landscape-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -276,6 +627,19 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "20040a15138541c539863a5a390d7fb5",
+      "timestamp": "2026-01-22T01:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SOFI's Operating Leverage is Finally Showing: What You Should Know - Operating leverage is emerging at SoFi Technologies as expenses stabilize, revenues scale faster and the platform shifts toward scalable profitability.",
+      "url": "https://finance.yahoo.com/news/sofis-operating-leverage-finally-showing-164500257.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "49bc8abed7683876b8d51ae27d7ff8d9",
       "timestamp": "2026-01-22T01:44:24+09:00",
       "source_type": "NEWS",
@@ -343,6 +707,19 @@
       ],
       "content": "Theory Versus Practice In Target Date Funds And Life Paths",
       "url": "https://seekingalpha.com/article/4861534-theory-versus-practice-in-target-date-funds-and-life-paths?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2db94480ca88bda367aa90773fd2cecf",
+      "timestamp": "2026-01-22T01:40:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "GBOOY vs. SOFI: Which Stock Is the Better Value Option? - GBOOY vs. SOFI: Which Stock Is the Better Value Option?",
+      "url": "https://finance.yahoo.com/news/gbooy-vs-sofi-stock-better-164001958.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -927,6 +1304,17 @@
       "related_tickers": [],
       "content": "Germany Accuses Russia of War Crimes Over Winter Attacks on Kyiv - Germany accused Russia of committing war crimes in Ukraine as Moscow’s forces pound the war-battered nation’s energy infrastructure, leaving vast parts of Kyiv and other communities without heating an",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/germany-accuses-russia-of-war-crimes-over-winter-attacks-on-kyiv",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1b2c31158836385ad4f24b5f3f790705",
+      "timestamp": "2026-01-21T23:00:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Banks Launch $1.25 Billion of Loans Tied to Walmart Supplier - Banks including Royal Bank of Canada kicked off the sale of $1.25 billion of loans tied to Investindustrial’s takeover of TreeHouse Foods Inc, a US food and beverage producer that supplies Walmart Inc",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/banks-launch-1-8-billion-of-loans-tied-to-walmart-supplier-deal",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1536,6 +1924,28 @@
       "related_tickers": [],
       "content": "Tricolor’s Founder Declines Over 100 Times to Discuss Its Demise - For five hours, lawyers for creditors pressed Daniel Chu again and again on Tuesday for details on the collapse of his subprime auto-loan business Tricolor Holdings.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/tricolor-founder-faces-creditors-declines-to-answer-questions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d5bdfcbcd68b766d1a1c40086a732159",
+      "timestamp": "2026-01-21T06:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Drone Delivery Startup Zipline Hits $7.6 Billion Valuation - Zipline, a drone delivery and logistics startup, has raised more than $600 million in new funding, boosting its valuation to $7.6 billion, as it expands commercial deployments.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d5bdfcbcd68b766d1a1c40086a732159",
+      "timestamp": "2026-01-21T06:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Drone Delivery Startup Zipline Hits $7.6 Billion Valuation - Zipline, a drone delivery and logistics startup, has raised more than $600 million in new funding, boosting its valuation to $7.6 billion, as it expands commercial deployments.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation",
       "sentiment": "NEUTRAL"
     },
     {
