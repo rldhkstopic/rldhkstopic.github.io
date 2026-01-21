@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-21T16:08:37.035566+09:00",
+  "last_updated": "2026-01-21T16:40:25.083107+09:00",
   "items": [
+    {
+      "id": "01d6999b176ba1d822edb65026886493",
+      "timestamp": "2026-01-21T16:21:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New World Seeks Asset Sale by June to Create Positive Cash Flow - New World Development Co. is racing to offload at least one asset by the end of June to meet its self‑imposed HK$27 billion ($3.5 billion) sales target and generate positive cash flow, according to pe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/new-world-seeks-asset-sale-by-june-to-create-positive-cash-flow",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3ffb66acd8d3f2987d4dbdd886b7543e",
+      "timestamp": "2026-01-21T16:12:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Burberry’s Sales Rise Over Holidays as China Market Picks Up - Burberry’s sales advanced over the key holiday period as shoppers snapped up the British brand’s tartan scarves and trench coats including in the greater China region, bolstering hopes of a luxury reb",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/burberry-s-sales-rise-over-holidays-as-china-market-picks-up",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b08ec469b5e9d9400c19c67058c67a05",
+      "timestamp": "2026-01-21T16:12:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UN Nuclear Watchdog Says Iran Is in a ‘Very Fragile’ State - The United Nations nuclear watchdog sees Iran in a “very fragile” state amid stalled diplomatic efforts and nationwide protests that convulsed the country earlier this month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/un-nuclear-watchdog-says-iran-is-in-a-very-fragile-state",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "5ab05769921f03674d158d086d593cc7",
       "timestamp": "2026-01-21T16:03:42+09:00",
@@ -32,6 +65,17 @@
       "related_tickers": [],
       "content": "Green Software Startup Secures $1.2 Billion to Expand Solar in EU - <p>The new funding round comes as residential installations are declining across the bloc.&nbsp;</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/berlin-based-cloover-raises-1-2-billion-in-eu-rooftop-solar-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6e1a175a6ed24be0159e214bb51e62c9",
+      "timestamp": "2026-01-21T15:59:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bridgewater Is Bullish on China Stocks After Fund Jumps 45% - Bridgewater Associates said it is still bullish on Chinese stocks this year, after the local market’s rally helped its onshore hedge fund post a 45% gain in 2025, the best performance in at least five",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/bridgewater-is-bullish-on-china-stocks-after-fund-jumps-45",
       "sentiment": "NEUTRAL"
     },
     {
@@ -120,6 +164,39 @@
       "related_tickers": [],
       "content": "Blackstone Said to Weigh $500 Million India IPO for PGP Glass - Blackstone Inc. is considering an initial public offering for Indian glass packaging maker PGP Glass Pvt. in Mumbai that could raise as much as $500 million, according to people familiar with the matt",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/blackstone-said-to-weigh-500-million-india-ipo-for-pgp-glass",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "695562a6afb92e6b9eb7d9908c5e9fe7",
+      "timestamp": "2026-01-21T15:06:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippines to Lift Ban on Grok After xAI Vowed Safeguards - The Philippines said on Wednesday that it will restore access to the Grok artificial intelligence system after the company of tech billionaire Elon Musk promised to remove features that allow for crea",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/philippines-to-lift-ban-on-grok-after-xai-vowed-safeguards",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c64b6f3532f7f4b7d2d7db30fdc7f45e",
+      "timestamp": "2026-01-21T15:05:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bangladesh Central Bank Chief Says Economy to Rebound After Vote - Bangladesh’s economy is poised for a quick rebound following next month’s national election provided the transition of power in the South Asian nation remains peaceful, according to the head of the co",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/bangladesh-central-bank-chief-says-economy-to-rebound-after-vote",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c64b6f3532f7f4b7d2d7db30fdc7f45e",
+      "timestamp": "2026-01-21T15:05:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bangladesh Central Bank Chief Says Economy to Rebound After Vote - Bangladesh’s economy is poised for a quick rebound following next month’s national election provided the transition of power in the South Asian nation remains peaceful, according to the head of the co",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/bangladesh-central-bank-chief-says-economy-to-rebound-after-vote",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "UAE to Get Advanced AI Chips in Couple of Months, G42 Chief Says - G42, the United Arab Emirates’ leading artificial intelligence company, expects the first shipments of some of the world’s most advanced chips to arrive in the country within months, bolstering its ef",
       "url": "https://www.bloomberg.com/news/articles/2026-01-20/nvidia-amd-uae-to-get-advanced-ai-chips-in-couple-of-months-g42-chief-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ea41b1cc3baca977ccb26a0c50cadaa",
-      "timestamp": "2026-01-21T00:43:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Greenland Leader Tells People to Prepare for Possible Invasion - Greenland’s prime minister said the Arctic island’s population and its authorities need to start preparing for a possible military invasion, even as it remains an unlikely scenario, as Donald Trump co",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/greenland-leader-tells-people-to-prepare-for-possible-invasion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fb0d24b72758387172ff12e82f12fbc5",
-      "timestamp": "2026-01-21T00:38:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Palantir CEO Says AI to Make Large-Scale Immigration Obsolete - Artificial intelligence will displace so many jobs that it will eliminate the need for mass immigration, according to Palantir Technologies Inc. Chief Executive Officer Alex Karp.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/palantir-ceo-says-ai-to-make-large-scale-immigration-obsolete",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f6f936bfd1fa94661db760e9018e1bd1",
-      "timestamp": "2026-01-21T00:38:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carney Stands by Greenland, Urges Allies to Unite Against ‘Coercion’ - Canada stands completely behind Greenland and Denmark, and the world’s middle powers must work together to resist coercion from aggressive superpowers, according to Prime Minister Mark Carney.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/carney-stands-by-greenland-urges-allies-to-unite-against-coercion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59d5e6d10bae3c5872629d61bed62782",
-      "timestamp": "2026-01-21T00:30:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Amends Warner Bros. Bid to Make It All Cash - Netflix reached an amended, all-cash agreement to buy Warner Bros. Discovery’s studio and streaming business as it battles Paramount Skydance. Geetha Ranganathan has more on \"Bloomberg Open Interest.\"",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/netflix-amends-warner-bros-bid-to-make-it-all-cash-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e6fab3e1fddb62b488997c5402201fb2",
-      "timestamp": "2026-01-21T00:29:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bloomberg Surveillance 1/20/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/bloomberg-surveillance-1-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0d4aefb61db72818d90a4258a419e1cc",
-      "timestamp": "2026-01-21T00:29:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Danish Fund Wrong to Sell US Treasuries, Guggenheim’s Walsh Says - Danish pension fund AkademikerPension’s plan to exit US Treasuries is wrong because credit fundamentals of the world’s biggest economy remain strong despite the risk-off sentiment pervading the market",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/danish-fund-wrong-to-sell-us-treasuries-guggenheim-s-walsh-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5552983a4500b892e0981826f7d07d7d",
-      "timestamp": "2026-01-21T00:23:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK’s Reeves: I Would Just Urge People to Keep Cool Heads - Chancellor of the Exchequer Rachel Reeves says the UK wants to reduce tensions with the US over President Donald Trump’s threat of new tariffs, ahead of his arrival at the annual World Economic Forum ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/uk-s-reeves-i-would-just-urge-people-to-keep-cool-heads-video",
       "sentiment": "NEUTRAL"
     }
   ]
