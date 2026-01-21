@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-01-21T12:32:26.400316+09:00",
+  "last_updated": "2026-01-21T13:19:49.825128+09:00",
   "items": [
+    {
+      "id": "02bcbeb3d6510d31b386c738f2e9dc59",
+      "timestamp": "2026-01-21T12:57:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "North Korea Can Build 20 Nukes a Year, South Korea’s Lee Says - South Korean President Lee Jae Myung said North Korea continues to produce nuclear material at a pace that could allow it to add up to 20 nuclear weapons a year, underscoring concerns that Pyongyang h",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/north-korea-can-build-20-nukes-a-year-south-korea-s-lee-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "970393f761273e551c92adb923ca7c76",
+      "timestamp": "2026-01-21T12:54:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Air Force One Returning to US Over ‘Minor’ Electrical Problem - President Donald Trump’s plane reversed course and headed back Joint Base Andrews shortly after departing for the World Economic Forum in Davos on Tuesday night because of a mechanical issue, White Ho",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/air-force-one-returns-to-us-over-minor-electrical-problem",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d6bbade215f072280c51d13675f48763",
+      "timestamp": "2026-01-21T12:53:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian Rupee Declines to Set Fresh Record Low as Capital Outflows Persist - The Indian rupee fell to a new low on foreign outflows from the nation’s equities, as a delay in a trade deal with the US dents investor sentiment.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/inr-usd-india-rupee-falls-to-set-fresh-record-low-as-capital-outflows-persist",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ad13812ab640d1842defea1215077f53",
+      "timestamp": "2026-01-21T12:53:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Lithium Tumult Spurs Futures Exchange to Step In Again - Lithium’s violent price swings have prompted China’s futures exchange to intervene once again to manage market risks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/china-s-lithium-tumult-spurs-futures-exchange-to-step-in-again",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9d8deed5c1e413bd29b08017250af5b9",
+      "timestamp": "2026-01-21T12:34:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Market Turmoil Prompts China Oil Firm to Pull Bond Sale - Spikes in borrowing costs following a meltdown in Japanese bonds and a selloff in US Treasuries have prompted at least one Asian borrower to shelve plans to raise funds, underscoring how renewed volat",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/global-market-turmoil-prompts-china-oil-firm-to-pull-bond-sale",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "61ffdf23ecbdb68dc0b25ab78924c2ad",
+      "timestamp": "2026-01-21T12:28:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Reliance Tumbles Into Deepest Oversold Level in Years - Reliance Industries Ltd.’s shares are the most oversold they have been in five years, as India’s largest company grapples with headwinds &mdash; from a slowdown in its retail business to growing uneas",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/india-s-reliance-tumbles-into-deepest-oversold-level-in-years",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b2c9fe00a0c758baea3c85c1de72a1b8",
+      "timestamp": "2026-01-21T12:27:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Silver Retail Buying Keeps Supplies Tight as Rally Gathers Pace - From Chinese aunties queuing in Shenzhen markets to out-of-stock Turkish refineries and a Korea Mint offer that sold out within an hour, silver’s dizzying rally is leaving banks and refiners scramblin",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/silver-retail-buying-keeps-supplies-tight-as-rally-gathers-pace",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "40035e7a248258980e67ae09cf2325a5",
       "timestamp": "2026-01-21T12:22:27+09:00",
@@ -2122,83 +2199,6 @@
       "related_tickers": [],
       "content": "CoreWeave CEO Intrator on AI Demand, Infrastructure Strain and Skepticism - CoreWeave CEO Michael Intrator discusses surging AI demand, infrastructure development, the company’s biggest constraints and growing skepticism in the sector. He speaks with Bloomberg Television on t",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/coreweave-ceo-on-ai-demand-and-infrastructure-strain-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "081e2fc4553f0c75e525d7e1cabbde48",
-      "timestamp": "2026-01-20T22:42:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gopinath Points to Danger of a US Inflation Comeback in 2026 - The US economy is vulnerable to a snapback in consumer-price growth because of everything from fiscal stimulus to the weakness of the dollar, according to Harvard University Professor Gita Gopinath.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/gopinath-points-to-danger-of-a-us-inflation-comeback-in-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cf246735fb889319d4464a697670d26c",
-      "timestamp": "2026-01-20T22:42:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russian Oil Exports Plunge to 4-Month Low as India Shuns Cargoes - <p>December imports of Moscow’s crude&nbsp;into India were the lowest in more than three years</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/russia-s-oil-exports-falter-amid-plunging-deliveries-to-india",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cf246735fb889319d4464a697670d26c",
-      "timestamp": "2026-01-20T22:42:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russian Oil Exports Plunge to 4-Month Low as India Shuns Cargoes - <p>December imports of Moscow’s crude&nbsp;into India were the lowest in more than three years</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/russia-s-oil-exports-falter-amid-plunging-deliveries-to-india",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1009323556195e2d90d1d17e39b77db4",
-      "timestamp": "2026-01-20T22:40:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The 'Sell America' Trade Is Real, Cohn Says - IBM Vice Chairman Gary Cohn says he is still optimistic about the US economy despite geopolitical tensions, citing high GDP growth as a major tailwind. But he does say the \"Sell America\" trade is real",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/ibm-vice-chairman-cohn-optimistic-about-us-market-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3c93763fe8423b40afba68564d55d24f",
-      "timestamp": "2026-01-20T22:36:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macron Blasts US Trade Strategy Meant to ‘Subordinate’ Europe - French leader Emmanuel Macron attacked President Donald Trump’s trade strategy, arguing that Europe needs to develop more sovereignty to avoid “vassalization and blood politics.”",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/macron-blasts-us-trade-strategy-meant-to-subordinate-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a82c6cdc855930de82ab3b7ea946c31",
-      "timestamp": "2026-01-20T22:35:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Agents ‘Perilous’ for Secure Apps Such as Signal, Whittaker Says - Artificial intelligence agents that autonomously carry out tasks pose a threat to secure apps such as Signal, according to Meredith Whittaker, president of the Signal Foundation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/ai-agents-perilous-for-secure-apps-such-as-signal-whittaker",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3c814989f49689361f7ba69c796f74ef",
-      "timestamp": "2026-01-20T22:35:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macquarie Capital Issues SRT Tied to $1 Billion of Private Loans - Macquarie Capital completed a significant risk transfer tied to high-yield corporate loans, in a rare example of a non-bank lender making a foray into the market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/macquarie-capital-issues-srt-tied-to-1-billion-of-private-loans",
       "sentiment": "NEUTRAL"
     }
   ]
