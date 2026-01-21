@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-01-21T18:07:27.633048+09:00",
+  "last_updated": "2026-01-21T18:42:47.034856+09:00",
   "items": [
+    {
+      "id": "da0cad9d28556890b1f3bf2cd9593845",
+      "timestamp": "2026-01-21T18:22:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AirAsia X Deputy CEO on Global Growth Plans - AirAsia X Deputy Group CEO Farouk Kamal shares the airline’s strategy to connect ASEAN to the world, with plans for a Middle East hub and increased long-haul connectivity. He joined Paul Allen exclusi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/airasia-x-deputy-ceo-on-global-growth-plans-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb6e9ff89bebe3720a5230cd533f774e",
+      "timestamp": "2026-01-21T18:20:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thailand Finance Min on FDI, Gold, Inflation - Ekniti Nitithanprapas, Thailand’s Deputy Prime Minister and Finance Minister discussed attracting foreign investment, the Bank of Thailand and the country's economy outlook. He spoke with Bloomberg’s ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/thailand-finance-min-on-fdi-gold-inflation-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5364193d89d4775449b09a959aaa7042",
+      "timestamp": "2026-01-21T18:19:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Strong Baht Sparks Alarm Among Thailand’s Top Economic Officials - Top Thai economic officials sounded alarm over the baht’s surge to a five-year high, with the finance minister calling it a “very big concern” and the central bank chief saying that efforts to rein in",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/strong-baht-sparks-alarm-among-thailand-s-top-economic-officials",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4bdb9341654d8c418a1a53ed46716e4c",
+      "timestamp": "2026-01-21T18:18:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta Head of Global Business on EU Regulation, Social Media Ban - Meta's Nicola Mendelsohn speaks to Bloomberg's Francine Lacqua on the regulatory regime in Europe. She says it makes it harder to roll out and adopt new AI products, and that business leaders are beco",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/meta-s-mendelsohn-on-eu-regulation-social-media-ban-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "97982d618357ebad37a55823be603343",
+      "timestamp": "2026-01-21T18:16:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mizuho CEO on BOJ, Fiscal Outlook - Masahiro Kihara, President and CEO of Mizuho Financial Group, says Japan’s terminal policy rate is likely to reach at least 1.5% and that April is the next opportunity for the Bank of Japan to raise i",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/mizuho-ceo-on-boj-fiscal-outlook-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a7c735b6b481ad4e2afca2c2c2ff1405",
+      "timestamp": "2026-01-21T18:12:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Horizons Middle East and Africa 1/21/2026 (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/horizons-middle-east-and-africa-1-21-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "98c83a017486ba59e808b57e250060f4",
+      "timestamp": "2026-01-21T18:09:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says ICE Makes 'Mistakes' as Backlash Grows - President Donald Trump said that ICE agents sometimes make mistakes, even as he broadly defended his migrant crackdown that has sparked tensions in cities nationwide. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-21/trump-says-ice-makes-mistakes-as-backlash-grows-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9f78bf5d2902a5837e141e75df9dfbea",
+      "timestamp": "2026-01-21T18:05:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&amp;P 500 Profit Beats Draw Worst Stock Price Reaction on Record - S&amp;P 500 companies are handily beating earnings estimates, yet unimpressed investors are delivering the worst share-price reactions on record as the outlook for 2026 turns murky.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/s-p-500-profit-beats-draw-worst-stock-price-reaction-on-record",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "332e0815aed44bc48d9d418e4a6e9d08",
+      "timestamp": "2026-01-21T18:03:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China AI Firm Zhipu Limits Coding Agent Access as Demand Soars - China’s Zhipu is limiting access to its coding assistant after strong demand for a new AI model siphoned off computing resources.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/china-ai-firm-zhipu-limits-coding-agent-access-as-demand-soars",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bc387513a0bbf40fd0f3599743d3386d",
       "timestamp": "2026-01-21T18:00:27+09:00",
@@ -21,6 +120,28 @@
       "related_tickers": [],
       "content": "Eskom Looking for Partners to Realize Cheap Industrial Power - South Africa’s state power utility is looking for partners to lower energy costs and increase industrialization, according to its chairman.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-21/eskom-looking-for-partners-to-realize-cheap-industrial-power",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "487746861da4d783466e195f52e998f7",
+      "timestamp": "2026-01-21T17:56:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Regulator Fines PDD $14,000 For Missing Tax Deadlines - Chinese authorities have fined PDD Holdings Inc. 100,000 yuan ($14,000) for failing to file essential tax documents in time, a modest penalty for a company that’s the target of a widening government p",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/chinese-regulator-fines-pdd-14-000-for-missing-tax-deadlines",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "575eee1b0f1c32daea6afc5f2e8aed44",
+      "timestamp": "2026-01-21T17:55:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Natural Gas Jumps Over 50% This Week as Freeze Takes Hold - US natural gas futures gained more than 50% in two days, with freezing temperatures taking hold of swathes of the country and lifting demand for heating.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/us-natural-gas-jumps-over-50-this-week-as-freeze-takes-hold",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2078,127 +2199,6 @@
       "related_tickers": [],
       "content": "Replit Investor Backs Canadian Defense Tech Startup - Canadian venture firm Georgian has invested in its first defense tech startup Dominion Dynamics. Margaret Wu, a lead investor at Georgian, discusses the $15.2M fundraise with Caroline Hyde and Ed Ludl",
       "url": "https://www.bloomberg.com/news/videos/2026-01-20/replit-investor-backs-canadian-defense-tech-startup-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9ca5efa177f80c1a8b336d1dbdcbc0c7",
-      "timestamp": "2026-01-21T03:00:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine’s New Defense Minister Pushes for More Domestic Drones - Ukraine’s military is working to replace Chinese-made drones with domestically produced models to cut the war-ravaged nation’s dependence on imports and sanctioned supply lines, the newly appointed de",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/ukraine-s-new-defense-minister-pushes-for-more-domestic-drones",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed9f4aa8a0a44e32646152fd6587a6cc",
-      "timestamp": "2026-01-21T03:00:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Enduring Legacy of Trump’s Imperial Presidency - <p>The powers he’s assumed in his second term will surely outlast him. Democrats could be counting on it.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/donald-trump-s-legacy-will-span-executive-power-trade-war-geopolitics",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c12d55d4cedb24aa2990677d37b78c5",
-      "timestamp": "2026-01-21T03:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TowerBrook Takes Stake in Insurance Claims Firm MSA Mizar - Investment firm TowerBrook is acquiring a majority stake in MSA Mizar, an insurance claims management services provider, marking its first deal in the country since it opened an office in Milan last y",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/towerbrook-takes-stake-in-insurance-claims-firm-msa-mizar",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "df6420a2308b2712f99936f6faf31361",
-      "timestamp": "2026-01-21T02:58:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Defense Unicorns Raises $136M Led by Bain - Defense Unicorns, the maker of secure military software, has raised a $136 million Series B financing round led by Bain Capital. The startup’s co-founder and CEO Rob Slaughter joins Caroline Hyde and ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/defense-unicorns-raises-136m-led-by-bain-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5f87f54229722ce26700fc5eb50296ba",
-      "timestamp": "2026-01-21T02:51:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oaktree's Madelaine Jones: Diversify With European Credit - Oaktree Capital Portfolio Manager Madelaine Jones, looks at European credit markets and the recent uptick in investor interest in an interview with Guy Johnson on Jan. 19. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/madelaine-jones-diversify-with-european-credit-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "135f67418d25d4ddc7f673cd3ab7fd38",
-      "timestamp": "2026-01-21T02:47:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Westbourne's Whelan on Her 2026 Investor Playbook - Westbourne Research Services Global Macro Strategist Sharmila Whelan discusses investment risks and opportunities in light of geopolitical and economic developments. She spoke with Bloomberg's Lizzy B",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/westbourne-s-whelan-on-her-2026-investor-playbook-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "875ad5db1b7c519679645a24854aa18f",
-      "timestamp": "2026-01-21T02:39:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia Is ‘Without Question’ a Threat in the Arctic, Carney Says - Russia poses a clear threat in the Arctic, Canadian Prime Minister Mark Carney told world leaders in Davos, Switzerland, though at this stage it is “more prospective than actual.”",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-20/russia-is-without-question-a-threat-in-the-arctic-carney-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "11e76f07d7419bcdb877b3f17b0f3ea2",
-      "timestamp": "2026-01-21T02:38:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Goes All-Cash With Warner | Open Interest 1/20/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" President Trump unleashes fresh attacks on European allies and revives his push for Greenland. Ear",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/open-interest-1-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "896e5704f9ea496ebcedc24e86510b30",
-      "timestamp": "2026-01-21T02:36:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SEC's Peirce on Crypto Bill, Regulation and Tokenization - SEC Commissioner Hester Peirce discusses the regulation of the crypto industry and expanding the trading hours of tokenized stocks on \"Bloomberg Crypto.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/sec-s-peirce-on-crypto-bill-regulation-and-tokenization-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fa7adc686451e4ee5bb807afea6cac1e",
-      "timestamp": "2026-01-21T02:33:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Diversifying Away From America Is Impossible, UBS CEO Says - “Diversifying away from America is impossible,” UBS Group AG Chief Executive Officer Sergio Ermotti tells Bloomberg's Jonathan Ferro at the World Economic Forum in Davos, Switzerland.  (Source: Bloomb",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/ubs-ceo-says-it-s-dangerous-to-dump-us-assets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c0ccaccda42305d9a0cad989190dec46",
-      "timestamp": "2026-01-21T02:31:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Is Moving into 'Lame Duck Territory' says Treyz - Henrietta Treyz, Managing Partner and Director of Economic Policy at Veda Partners, to Bloomberg Intelligence to discuss EU reciprocal tariffs, Greenland the looming US Government Shutdown.  \n\n Lawmak",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-20/trump-is-moving-into-lame-duck-territory-says-treyz-video",
       "sentiment": "NEUTRAL"
     }
   ]
