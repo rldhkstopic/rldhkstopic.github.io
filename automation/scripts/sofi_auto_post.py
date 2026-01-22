@@ -14,6 +14,16 @@ from pathlib import Path
 from typing import List, Dict, Optional
 from zoneinfo import ZoneInfo
 
+# .env 파일 지원
+try:
+    from dotenv import load_dotenv
+    # 프로젝트 루트와 local_bot 디렉토리에서 .env 파일 찾기
+    project_root = Path(__file__).parent.parent.parent
+    load_dotenv(project_root / ".env")
+    load_dotenv(project_root / "local_bot" / ".env")
+except ImportError:
+    pass
+
 try:
     import requests
     from bs4 import BeautifulSoup
