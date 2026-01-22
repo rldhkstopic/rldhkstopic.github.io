@@ -566,14 +566,32 @@ def main():
         if item["id"] not in existing_ids and "SOFI" in item.get("related_tickers", [])
     ]
     
-    # 5. Discord 알림 전송 (SOFI 관련 새 뉴스만)
+    # 5. Discord 알림 전송 (SOFI 관련 새 뉴스만, 중요 뉴스만 필터링)
     discord_webhook = os.getenv("DISCORD_WEBHOOK_URL")
     if sofi_new_items and discord_webhook:
-        print(f"[INFO] SOFI 관련 새 뉴스 {len(sofi_new_items)}개 발견, Discord 알림 전송 중...")
-        sent_count = send_sofi_discord_notification(discord_webhook, sofi_new_items)
-        print(f"[OK] Discord 알림 {sent_count}개 전송 완료")
+        # 중요 뉴스만 필터링 (제목에 특정 키워드가 있거나, 특정 소스인 경우)
+        important_keywords = ["earnings", "실적", "분기", "quarter", "guidance", "가이던스", 
+                             "acquisition", "인수", "merger", "합병", "partnership", "제휴",
+                             "regulation", "규제", "approval", "승인", "launch", "출시"]
+        important_sources = ["Seeking Alpha", "Yahoo Finance", "Bloomberg"]
+        
+        important_items = [
+            item for item in sofi_new_items
+            if any(keyword.lower() in item.get("content", "").lower() for keyword in important_keywords)
+            or item.get("source_name") in important_sources
+        ]
+        
+        # 중요 뉴스가 있으면 그것만, 없으면 전체 전송 (최대 5개로 제한)
+        items_to_notify = important_items[:5] if important_items else sofi_new_items[:3]
+        
+        if items_to_notify:
+            print(f"[INFO] SOFI 관련 중요 뉴스 {len(items_to_notify)}개 발견, Discord 알림 전송 중...")
+            sent_count = send_sofi_discord_notification(discord_webhook, items_to_notify)
+            print(f"[OK] Discord 알림 {sent_count}개 전송 완료")
+        else:
+            print(f"[INFO] SOFI 관련 새 뉴스 {len(sofi_new_items)}개 발견했지만 중요 뉴스는 없습니다.")
     elif sofi_new_items:
-        print(f"[WARN] SOFI 관련 새 뉴스 {len(sofi_new_items)}개 발견했지만 DISCORD_WEBHOOK_URL이 설정되지 않았습니다.")
+        print(f"[INFO] SOFI 관련 새 뉴스 {len(sofi_new_items)}개 발견 (Discord 알림 미설정)")
     
     # 6. 병합 및 저장
     merged_items = merge_items(existing_items, all_new_items)

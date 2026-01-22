@@ -244,6 +244,11 @@ def generate_post_with_gemini(items: List[Dict], date_str: str) -> Optional[str]
 - 왜 중요한가
 - 투자자 관점
 
+### 주가 추세 분석
+- 최근 SoFi 주가 동향 (가능한 경우)
+- 뉴스가 주가에 미칠 수 있는 영향
+- 기술적 분석 (지지선/저항선 등, 데이터가 있는 경우)
+
 ### 종합 의견
 - 전반적인 시장 분위기
 - 주목할 포인트

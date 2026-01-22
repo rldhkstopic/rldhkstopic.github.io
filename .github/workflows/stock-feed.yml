@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install -r automation/scripts/requirements.txt
 
       - name: Run stock feed agent
         env:
