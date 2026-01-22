@@ -271,7 +271,7 @@ def main():
     
     # 8. 포스트 생성
     print("\n[6단계] 포스트 파일 생성 중...")
-    post_path = post_creator.create_post(content, topic)
+    post_path = post_creator.create_post(content, topic, overwrite=True)
     if not post_path:
         print("[ERROR] 포스트 생성에 실패했습니다.")
         sys.exit(1)

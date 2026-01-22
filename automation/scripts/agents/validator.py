@@ -72,12 +72,15 @@ class ValidatorAgent:
             warnings.append('이모지가 포함되어 있습니다.')
         
         # 문체 검증 (끝맺음)
+        # daily 카테고리는 구어체를 허용하므로 요구사항 완화
         content_lines = content.get('content', '').split('\n')
         sentence_endings = [line.strip()[-1] for line in content_lines if line.strip()]
         if sentence_endings:
             # "~다."로 끝나는 문장 비율 확인
             da_ending_count = sum(1 for ending in sentence_endings if ending == '다')
-            if len(sentence_endings) > 0 and da_ending_count / len(sentence_endings) < 0.3:
+            # daily 카테고리는 구어체 허용으로 20%로 완화, 다른 카테고리는 30%
+            min_ratio = 0.2 if category == 'daily' else 0.3
+            if len(sentence_endings) > 0 and da_ending_count / len(sentence_endings) < min_ratio:
                 warnings.append('문체가 스타일 가이드와 다를 수 있습니다. ("~다."로 끝나는 문장 비율이 낮음)')
         
         # 참조 링크 검증

@@ -21,13 +21,14 @@ class PostCreatorAgent:
         self.posts_dir = project_root / '_posts'
         self.posts_dir.mkdir(parents=True, exist_ok=True)
     
-    def create_post(self, content: Dict, topic: Dict) -> Optional[str]:
+    def create_post(self, content: Dict, topic: Dict, overwrite: bool = False) -> Optional[str]:
         """
         콘텐츠를 Jekyll 포스트 파일로 생성한다.
         
         Args:
             content: 생성된 콘텐츠
             topic: 원본 주제 정보
+            overwrite: 기존 파일이 있을 때 덮어쓸지 여부 (기본값: False)
             
         Returns:
             str: 생성된 파일 경로 (성공 시), None (실패 시)
@@ -41,9 +42,12 @@ class PostCreatorAgent:
             
             # 이미 존재하는 파일인지 확인
             if filepath.exists():
-                # 같은 날짜에 같은 제목이면 스킵
-                print(f"[WARN] 파일이 이미 존재합니다: {filename}")
-                return None
+                if overwrite:
+                    print(f"[INFO] 기존 파일을 덮어씁니다: {filename}")
+                else:
+                    # 같은 날짜에 같은 제목이면 스킵
+                    print(f"[WARN] 파일이 이미 존재합니다: {filename}")
+                    return None
             
             # Front Matter 생성
             front_matter = self._create_front_matter(content)
