@@ -11,9 +11,19 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict
 
+# 환경 변수 로드
+try:
+    from dotenv import load_dotenv
+    # 프로젝트 루트와 local_bot 디렉토리에서 .env 파일 찾기
+    project_root = Path(__file__).parent.parent.parent
+    load_dotenv(project_root / ".env")
+    load_dotenv(project_root / "local_bot" / ".env")
+except ImportError:
+    pass
+
 # 프로젝트 루트를 Python 경로에 추가
 project_root = Path(__file__).parent.parent.parent
-sys.path.insert(0, str(project_root / '.github' / 'scripts'))
+sys.path.insert(0, str(project_root / 'automation' / 'scripts'))
 
 from agents.writer import WriterAgent
 from agents.validator import ValidatorAgent
@@ -31,7 +41,7 @@ def load_daily_logs(target_date: str) -> List[Dict]:
     Returns:
         기록 리스트
     """
-    logs_dir = project_root / "automation" / "logs" / target_date
+    logs_dir = project_root / "automation" / "logs" / "_daily_logs" / target_date
     if not logs_dir.exists():
         return []
     
