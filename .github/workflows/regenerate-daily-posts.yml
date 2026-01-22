@@ -1,0 +1,76 @@
+name: Regenerate Daily Posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_dates:
+        description: '날짜 목록 (쉼표로 구분, 예: 2026-01-09,2026-01-10)'
+        required: true
+        type: string
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r automation/scripts/requirements.txt
+        pip install requests
+
+    - name: Parse target dates
+      id: parse-dates
+      run: |
+        DATES="${{ github.event.inputs.target_dates }}"
+        echo "dates<<EOF" >> $GITHUB_OUTPUT
+        echo "$DATES" | tr ',' '\n' | while read date; do
+          date=$(echo "$date" | xargs)  # trim whitespace
+          if echo "$date" | grep -Eq '^[0-9]{8}$'; then
+            echo "${date:0:4}-${date:4:2}-${date:6:2}" >> $GITHUB_OUTPUT
+          elif echo "$date" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
+            echo "$date" >> $GITHUB_OUTPUT
+          fi
+        done
+        echo "EOF" >> $GITHUB_OUTPUT
+
+    - name: Regenerate daily posts
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      run: |
+        DATES="${{ steps.parse-dates.outputs.dates }}"
+        echo "$DATES" | while read date; do
+          if [ -n "$date" ]; then
+            echo "========================================"
+            echo "Processing date: $date"
+            echo "========================================"
+            python automation/scripts/daily_diary_agent.py "$date" || {
+              echo "::error::Failed to generate diary for $date"
+            }
+            echo ""
+          fi
+        done
+        
+    - name: Commit and push
+      if: success()
+      run: |
+        VERSION=$(cat VERSION 2>/dev/null || echo v0.0.0)
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git fetch origin main
+        git add _posts/*.md 2>/dev/null || true
+        git add -u 2>/dev/null || true
+        if ! git diff --staged --quiet; then
+          git commit -m "[$VERSION] Regenerate daily posts for ${{ github.event.inputs.target_dates }}"
+          git push origin HEAD:main
+        fi
