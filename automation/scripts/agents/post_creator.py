@@ -21,13 +21,6 @@ class PostCreatorAgent:
         self.posts_dir = project_root / '_posts'
         self.posts_dir.mkdir(parents=True, exist_ok=True)
     
-    def _get_category_dir(self, category: str) -> Path:
-        """카테고리별 디렉토리 경로 반환"""
-        if category:
-            category_dir = self.posts_dir / category
-            category_dir.mkdir(parents=True, exist_ok=True)
-            return category_dir
-        return self.posts_dir
     
     def create_post(self, content: Dict, topic: Dict, overwrite: bool = False) -> Optional[str]:
         """
@@ -46,11 +39,7 @@ class PostCreatorAgent:
             date_str = content.get('date', datetime.now().strftime('%Y-%m-%d'))
             title_slug = self._create_slug(content.get('title', 'untitled'))
             filename = f"{date_str}-{title_slug}.md"
-            
-            # 카테고리별 디렉토리 사용
-            category = content.get('category', '')
-            category_dir = self._get_category_dir(category)
-            filepath = category_dir / filename
+            filepath = self.posts_dir / filename
             
             # 이미 존재하는 파일인지 확인
             if filepath.exists():
