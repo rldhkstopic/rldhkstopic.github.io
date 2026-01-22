@@ -192,7 +192,12 @@ def main():
     logs = load_daily_logs(target_date)
     
     if not logs:
-        print(f"[INFO] {target_date}에 기록된 일이 없습니다. 일기 작성을 건너뜁니다.")
+        logs_dir = project_root / "automation" / "logs" / "_daily_logs" / target_date
+        print(f"[WARN] {target_date}에 기록된 일이 없습니다. 일기 작성을 건너뜁니다.")
+        print(f"[INFO] 로그 디렉토리 확인: {logs_dir}")
+        print(f"[INFO] 디렉토리 존재 여부: {logs_dir.exists()}")
+        if logs_dir.exists():
+            print(f"[INFO] 디렉토리 내용: {list(logs_dir.glob('*'))}")
         sys.exit(0)
     
     print(f"[OK] {len(logs)}개의 기록을 찾았습니다.")
