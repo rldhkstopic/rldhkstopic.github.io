@@ -8,10 +8,19 @@ stock_feed.json에서 SoFi 관련 최신 뉴스를 수집하여 Gemini API로 �
 import os
 import json
 import re
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict, Optional
 from zoneinfo import ZoneInfo
+
+try:
+    import requests
+    from bs4 import BeautifulSoup
+except ImportError:
+    print("[ERROR] requests 또는 beautifulsoup4 패키지가 설치되지 않았습니다.")
+    print("pip install requests beautifulsoup4 를 실행하세요.")
+    exit(1)
 
 try:
     from google import genai
@@ -85,8 +94,68 @@ def create_slug(title: str) -> str:
     return slug.strip('-')
 
 
+def fetch_article_content(url: str, timeout: int = 10) -> Optional[str]:
+    """URL에서 실제 기사 내용을 추출"""
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        resp = requests.get(url, headers=headers, timeout=timeout)
+        resp.raise_for_status()
+        
+        soup = BeautifulSoup(resp.content, 'html.parser')
+        
+        # 불필요한 태그 제거
+        for tag in soup(['script', 'style', 'nav', 'header', 'footer', 'aside', 'advertisement']):
+            tag.decompose()
+        
+        # 기사 본문 추출 (일반적인 기사 사이트 구조)
+        article_content = None
+        
+        # 다양한 기사 본문 선택자 시도
+        selectors = [
+            'article',
+            '[class*="article"]',
+            '[class*="content"]',
+            '[class*="post"]',
+            '[id*="article"]',
+            '[id*="content"]',
+            'main',
+            '.entry-content',
+            '.article-body',
+            '.post-content'
+        ]
+        
+        for selector in selectors:
+            article = soup.select_one(selector)
+            if article:
+                article_content = article
+                break
+        
+        # 선택자가 없으면 body 전체 사용
+        if not article_content:
+            article_content = soup.find('body') or soup
+        
+        # 텍스트 추출 및 정리
+        text = article_content.get_text(separator='\n', strip=True)
+        # 연속된 공백/줄바꿈 정리
+        text = re.sub(r'\n\s*\n+', '\n\n', text)
+        text = re.sub(r' +', ' ', text)
+        
+        # 너무 짧으면 실패로 간주
+        if len(text) < 100:
+            return None
+        
+        # 최대 5000자로 제한
+        return text[:5000] if len(text) > 5000 else text
+    
+    except Exception as e:
+        print(f"[WARN] 기사 내용 추출 실패 ({url}): {e}")
+        return None
+
+
 def prepare_news_summary(items: List[Dict]) -> str:
-    """뉴스 아이템을 요약 텍스트로 변환"""
+    """뉴스 아이템을 요약 텍스트로 변환 (실제 기사 내용 포함)"""
     summary = f"총 {len(items)}개의 SOFI 관련 뉴스\n\n"
     
     for idx, item in enumerate(items, 1):
@@ -98,13 +167,28 @@ def prepare_news_summary(items: List[Dict]) -> str:
             time_str = "N/A"
         
         source = item.get("source_name", "Unknown")
-        content_text = item.get("content", "").strip()
+        title = item.get("content", "").strip()
         url = item.get("url", "")
         sentiment = item.get("sentiment", "NEUTRAL")
         
         summary += f"[{idx}] {time_str} | {source} | {sentiment}\n"
-        summary += f"{content_text}\n"
-        summary += f"URL: {url}\n\n"
+        summary += f"제목: {title}\n"
+        summary += f"URL: {url}\n"
+        
+        # 실제 기사 내용 가져오기
+        print(f"[INFO] 기사 내용 추출 중: {url}")
+        article_content = fetch_article_content(url)
+        
+        if article_content:
+            summary += f"\n기사 내용:\n{article_content}\n"
+        else:
+            # 기사 내용을 가져오지 못한 경우 원본 요약만 사용
+            summary += f"\n(기사 내용 추출 실패 - 제목/요약만 사용)\n"
+        
+        summary += "\n" + "="*80 + "\n\n"
+        
+        # API 호출 제한을 위한 딜레이
+        time.sleep(1)
     
     return summary
 
@@ -123,28 +207,30 @@ def generate_post_with_gemini(items: List[Dict], date_str: str) -> Optional[str]
     
     # 프롬프트 작성
     prompt = f"""당신은 주식 투자 분석가이자 테크니컬 라이터입니다.
-아래 SoFi(SOFI) 관련 최신 뉴스들을 분석하여 투자자들이 이해하기 쉬운 블로그 포스트를 작성하세요.
+아래 SoFi(SOFI) 관련 최신 뉴스들의 **실제 기사 내용**을 분석하여 투자자들이 이해하기 쉬운 블로그 포스트를 작성하세요.
 
 **날짜**: {date_str}
 
-**수집된 뉴스**:
+**수집된 뉴스 (제목, URL, 실제 기사 내용 포함)**:
 {news_summary}
 
 **작성 규칙**:
-1. 모든 문장은 "~다."로 끝나는 건조한 평서문을 사용한다.
-2. 뉴스를 주제별로 그룹화하여 분석한다 (예: 실적, 제품, 규제, 시장 반응 등).
-3. 각 주제마다 핵심 내용, 의미, 투자자 관점을 간결하게 서술한다.
-4. 이모지는 사용하지 않는다.
-5. 최소 800자 이상 작성한다.
-6. 출처는 각주 형식 [^n]으로 표기하고, 마지막에 ## References 섹션에 정리한다.
+1. **기사 내용 분석**: 각 뉴스의 제목과 URL만이 아니라, 제공된 **실제 기사 내용**을 읽고 분석하여 작성한다.
+2. 모든 문장은 "~다."로 끝나는 건조한 평서문을 사용한다.
+3. 뉴스를 주제별로 그룹화하여 분석한다 (예: 실적, 제품, 규제, 시장 반응 등).
+4. 각 주제마다 기사에서 언급된 **구체적인 사실과 데이터**를 인용하고, 그 의미와 투자자 관점을 간결하게 서술한다.
+5. 단순히 링크를 나열하는 것이 아니라, 기사 내용을 읽고 **요약 및 분석**한 내용을 작성한다.
+6. 이모지는 사용하지 않는다.
+7. 최소 1500자 이상 작성한다.
+8. 출처는 각주 형식 [^n]으로 표기하고, 마지막에 ## References 섹션에 정리한다.
 
 **구조**:
 ### 주요 뉴스 요약
-- 3~5개 핵심 주제를 간단히 요약
+- 3~5개 핵심 주제를 간단히 요약 (기사 내용 기반)
 
 ### 상세 분석
 각 주제별로:
-- 무엇이 있었나
+- 기사에서 언급된 구체적인 사실과 데이터
 - 왜 중요한가
 - 투자자 관점
 
@@ -156,7 +242,9 @@ def generate_post_with_gemini(items: List[Dict], date_str: str) -> Optional[str]
 - [^1]: [출처](URL)
 - [^2]: [출처](URL)
 
-**⚠️ 중요**: Front Matter 없이 본문만 작성하세요. 제목(###)부터 시작하세요."""
+**⚠️ 중요**: 
+- Front Matter 없이 본문만 작성하세요. 제목(###)부터 시작하세요.
+- 링크만 나열하지 말고, 실제 기사 내용을 읽고 분석한 내용을 작성하세요."""
 
     try:
         print("[INFO] Gemini API로 글 작성 중...")
