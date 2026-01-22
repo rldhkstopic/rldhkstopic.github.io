@@ -43,23 +43,49 @@ jobs:
         done
         echo "EOF" >> $GITHUB_OUTPUT
 
+    - name: Collect Discord daily logs
+      env:
+        DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+        DAILY_LOGS_DIR: automation/logs/_daily_logs
+      run: |
+        DATES="${{ steps.parse-dates.outputs.dates }}"
+        echo "$DATES" | while read date; do
+          if [ -n "$date" ]; then
+            echo "Collecting logs for date: $date"
+            python automation/scripts/discord_daily_log_collector.py "$date" || {
+              echo "::warning::Failed to collect logs for $date (may not exist)"
+            }
+          fi
+        done
+
     - name: Regenerate daily posts
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: |
         DATES="${{ steps.parse-dates.outputs.dates }}"
+        POSTS_CREATED=0
         echo "$DATES" | while read date; do
           if [ -n "$date" ]; then
             echo "========================================"
             echo "Processing date: $date"
             echo "========================================"
-            python automation/scripts/daily_diary_agent.py "$date" || {
+            if python automation/scripts/daily_diary_agent.py "$date"; then
+              # 포스트 파일이 생성되었는지 확인
+              if ls _posts/*${date}*.md 1> /dev/null 2>&1; then
+                echo "::notice::Post created for $date"
+                POSTS_CREATED=$((POSTS_CREATED + 1))
+              else
+                echo "::warning::No post file created for $date (may have no logs)"
+              fi
+            else
               echo "::error::Failed to generate diary for $date"
-            }
+            fi
             echo ""
           fi
         done
+        echo "posts_created=$POSTS_CREATED" >> $GITHUB_OUTPUT
         
     - name: Commit and push
       if: success()
@@ -68,9 +94,24 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git fetch origin main
-        git add _posts/*.md 2>/dev/null || true
-        git add -u 2>/dev/null || true
-        if ! git diff --staged --quiet; then
-          git commit -m "[$VERSION] Regenerate daily posts for ${{ github.event.inputs.target_dates }}"
-          git push origin HEAD:main
+        
+        # 생성된 포스트 파일 확인
+        NEW_POSTS=$(git status --porcelain _posts/*.md 2>/dev/null | grep "^??" | wc -l || echo "0")
+        MODIFIED_POSTS=$(git status --porcelain _posts/*.md 2>/dev/null | grep "^ M" | wc -l || echo "0")
+        
+        echo "New posts: $NEW_POSTS"
+        echo "Modified posts: $MODIFIED_POSTS"
+        
+        if [ "$NEW_POSTS" -gt 0 ] || [ "$MODIFIED_POSTS" -gt 0 ]; then
+          git add _posts/*.md 2>/dev/null || true
+          git add -u 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "[$VERSION] Regenerate daily posts for ${{ github.event.inputs.target_dates }}"
+            git push origin HEAD:main
+            echo "::notice::Pushed $NEW_POSTS new posts and $MODIFIED_POSTS modified posts"
+          else
+            echo "::warning::No changes to commit"
+          fi
+        else
+          echo "::warning::No new or modified posts found. Check if logs exist for the target dates."
         fi
