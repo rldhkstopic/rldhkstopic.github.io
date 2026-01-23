@@ -1,6 +1,242 @@
 {
-  "last_updated": "2026-01-23T13:20:50.901050+09:00",
+  "last_updated": "2026-01-23T15:07:38.551713+09:00",
   "items": [
+    {
+      "id": "bbb338b375ee170ca72f2243fa1e801e",
+      "timestamp": "2026-01-23T15:02:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Canada Goose: Poised To Benefit From A Retail Rebound",
+      "url": "https://seekingalpha.com/article/4862115-canada-goose-poised-to-benefit-from-a-retail-rebound?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "751d12cb2997ded5275ae8d08e505753",
+      "timestamp": "2026-01-23T14:54:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Is Turning Trump’s Trade Pressure Into Opportunity - As U.S.-EU tensions reshape global alliances, India faces both risks and rewards. INSEAD Professor Pushan Dutt tells Menaka Doshi why India’s protectionist past is giving way to a rush of new trade de",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/india-is-turning-trump-s-trade-pressure-into-opportunity-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8868b3cdbdcc02511bd33b5cd4a6a7b5",
+      "timestamp": "2026-01-23T14:51:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Henkel: The Upside For The Long-Term Is Excellent In 2026",
+      "url": "https://seekingalpha.com/article/4862114-henkel-stock-upside-long-term-excellent-2026?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1706df883e1c657ad210303aae948869",
+      "timestamp": "2026-01-23T14:37:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Weighs Tighter Rules for Firms to List in Hong Kong - China’s securities regulator is considering tightening the criteria for mainland companies to sell shares in Hong Kong, after an offshore fundraising boom raised concerns over deal quality, people fam",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/china-weighs-tighter-rules-for-firms-to-sell-shares-in-hong-kong",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bbd77a74d15e9ae58aba47a71a1fd5ba",
+      "timestamp": "2026-01-23T14:34:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Tharimmune And The Canton Network: A Privacy Focused, Asymmetric Bet On Tokenization",
+      "url": "https://seekingalpha.com/article/4862112-tharimmune-inc-and-the-canton-network-a-privacy-focused-asymmetric-bet-on-tokenization?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a700f9c66db3ccdb022cfe296248ba92",
+      "timestamp": "2026-01-23T14:30:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBP's Calder on Tech and AI Valuations - UBP Head of Equity Research for Asia Kieran Calder analyzes tech sector valuations and the outlook for major Asian markets. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/ubp-s-calder-on-tech-and-ai-valuations-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "21dbee3b2d5d32d8d163955f41483d7d",
+      "timestamp": "2026-01-23T14:25:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Columbia Threadneedle Fixed-Income Monitor: January 2026",
+      "url": "https://seekingalpha.com/article/4862117-columbia-threadneedle-fixed-income-monitor-january-2026?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3c3c3ff50bf7b9fb4c3ae7b141cd33c1",
+      "timestamp": "2026-01-23T14:01:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The US Is Losing Top Tech Talent to India in the Wake of Trump’s H-1B Chaos - <p>The Trump administration has put new fees and other barriers on a visa program popular among Indian engineers working in the US.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/us-loses-top-tech-talent-to-india-in-wake-of-h-1b-visa-chaos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2818601a6b4836517502b533b26e01c1",
+      "timestamp": "2026-01-23T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Merz Seeks Closer German Ties With Italy as He Cools on Macron - Chancellor Friedrich Merz is seeking to deepen Germany’s relationship with Italy amid growing divisions with the French government over European trade policy and the challenge of dealing with US Presi",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/merz-seeks-closer-german-ties-with-italy-as-he-cools-on-macron",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "837f7845336e609dfdbaa8e2a3f46bea",
+      "timestamp": "2026-01-23T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Politics And The Markets 01/23/26",
+      "url": "https://seekingalpha.com/article/4860038-politics-and-the-markets-012326?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e1e622a89366eed68b834f17a8090213",
+      "timestamp": "2026-01-23T13:58:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pop Mart Short Bets Keep Rising in Defiance of Buyback Rally - Pop Mart International Group Ltd.’s first share buyback in nearly two years has failed to shake the conviction of short sellers, even as a sharp rally makes their bearish bets increasingly risky.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/pop-mart-short-bets-keep-rising-in-defiance-of-buyback-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "701f61303be14bffbd274b2dd5d2927c",
+      "timestamp": "2026-01-23T13:56:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Invesco: Asset Manager Hits Ceiling Of Fair Value",
+      "url": "https://seekingalpha.com/article/4862109-invesco-asset-manager-hits-ceiling-of-fair-value?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "985f8c2415d93955b546f9c6cc7d7480",
+      "timestamp": "2026-01-23T13:48:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rental Firm EquipmentShare.com Raises $747.3 Million in US IPO - EquipmentShare.com Inc. raised $747.3 million in its US initial public offering, pricing its shares at the midpoint of the marketed range.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/rental-firm-equipmentshare-com-raises-747-3-million-in-us-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3fdf90c61c5a4f6d0f747976f850a842",
+      "timestamp": "2026-01-23T13:48:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crypto Social Platform To Repay $180 Million to Venture Backers - The software firm behind a crypto-oriented social-media platform plans to repay venture capitalists the $180 million they had invested in the project, underscoring a period of consolidation for one of",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/crypto-social-platform-to-repay-180-million-to-venture-backers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "abc0d4f900ecf6f82c82bcf355f1df19",
+      "timestamp": "2026-01-23T13:42:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Scraps More South American Soy Oil Cargoes as Rupee Slumps - India, the world’s largest vegetable oil buyer, canceled more soybean oil shipments from South America as the rupee’s slump to a record low widened the price gap between local and imported oil.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/india-scraps-more-south-american-soy-oil-cargoes-as-rupee-slumps",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "08db9ce49b10e763de9e1f2ff348010d",
+      "timestamp": "2026-01-23T13:27:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Construction Bank Plans 100 Wealth Hires in HK - China Construction Bank (Asia) plans to hire 100 people in Hong Kong over the next two years to capitalize on the growth of the wealth management sector. The bank’s Deputy Chief Executive,  Annie Chen",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/china-construction-bank-plans-100-wealth-hires-in-hk-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "124c8606101d04656ad195ac6bc65f81",
+      "timestamp": "2026-01-23T13:25:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Energy Stocks Steady Amid Macro Chaos, With A Sunday Night Earnings Surprise Ahead",
+      "url": "https://seekingalpha.com/article/4862110-energy-stocks-steady-amid-macro-chaos-with-sunday-night-earnings-surprise-ahead?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d79e5cfc8c16cf97d2b37bff166354c5",
+      "timestamp": "2026-01-23T13:24:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SLM Corporation (SLM) Q4 2025 Earnings Call Transcript",
+      "url": "https://seekingalpha.com/article/4862080-slm-corporation-slm-q4-2025-earnings-call-transcript?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "91bbccfb69311b6a6448fe3b3bd17457",
+      "timestamp": "2026-01-23T13:17:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yen Likely to Remain Weak After BOJ Holds, Strategists Say - The yen is unlikely to stanch its recent weakness after the Bank of Japan held rates as expected, according to strategists, who saw the decision as tilting slightly hawkish.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/yen-likely-to-remain-weak-after-boj-holds-rates-strategists-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "18c700345e325538dce62a86eed25f13",
+      "timestamp": "2026-01-23T13:13:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Emerging Markets Rocket With Gold as De-Dollarization Picks Up - Emerging-market stocks, commodities, currencies and precious metals are extending a storming start to 2026 as tensions between the US and Europe weigh on the dollar and re-energize the “Sell America” ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/emerging-markets-rocket-with-gold-as-de-dollarization-picks-up",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "16d27318c6238038cb9058ed75b2fcec",
       "timestamp": "2026-01-23T13:11:45+09:00",
@@ -2145,244 +2381,6 @@
       "related_tickers": [],
       "content": "US-China AI Race in Focus at Davos - Tech leaders at the World Economic Forum in Davos have been giving their views on the US-China AI race. Liza Tobin, managing director at Garnaut Global, says the US advantage lies in the scale of its ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-22/us-china-ai-race-in-focus-at-davos-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d18f06cc38669b16d9db253580521bdd",
-      "timestamp": "2026-01-23T04:48:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jack Smith Defends Trump Investigations Before Congress - Former Special Counsel Jack Smith, who secured indictments against Donald Trump, told lawmakers that the president is unfairly seeking retribution against prosecutors and FBI agents who worked on his ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/jack-smith-defends-trump-investigations-before-congress-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "67637ddb3346ed262deaa3ed7a5e0830",
-      "timestamp": "2026-01-23T04:45:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia-Linked Stablecoin’s Transactions Top $100 Billion in Year - The ruble-backed stablecoin created to circumvent sanctions on Russia has surpassed $100 billion in transactions in less than a year since its launch &mdash; even as the token itself faces ongoing res",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/russia-tied-stablecoin-a7a5-tops-100-billion-in-transactions-despite-sanctions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5bf46ca4b41fba55149c840e0370bd1e",
-      "timestamp": "2026-01-23T04:45:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple to Revamp Siri Into an AI Chatbot - Apple plans to revamp Siri later this year by turning the digital assistant into the company’s first artificial intelligence chatbot, as it aims to take on OpenAI and Google. Bloomberg’s Mark Gurman d",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/apple-to-revamp-siri-into-an-ai-chatbot-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c1606ffbfbece3b59dd5c93b453e036",
-      "timestamp": "2026-01-23T04:44:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Huntington Bancshares Incorporated (HBAN) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4861922-huntington-bancshares-incorporated-hban-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f7c6bbed37c4049d47a07f72176b7444",
-      "timestamp": "2026-01-23T04:44:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "CACI International Inc (CACI) Q2 2026 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4861905-caci-international-inc-caci-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "35154ec36d60ede498c75c526cbbfedf",
-      "timestamp": "2026-01-23T04:42:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Men’s Wearhouse Ups Debt Sale to $1.1 Billion to Boost Payout - Tailored Brands Inc., the parent company of Men’s Wearhouse, boosted its loan and bond offerings by a combined $200 million to fund an even larger dividend payout to its owners.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/men-s-wearhouse-ups-debt-sale-to-1-1-billion-to-boost-payout",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "465708bedd041c8b004c3b932c300ef1",
-      "timestamp": "2026-01-23T04:42:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Denison Mines: De-Risking And The New Phoenix ISR Milestone",
-      "url": "https://seekingalpha.com/article/4861999-denison-mines-de-risking-and-the-new-phoenix-isr-milestone?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "99b00371516ca2cdfcc3b87bb5ec0ff8",
-      "timestamp": "2026-01-23T04:41:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Atlantic Union Bankshares: Improvement Continues, Still A Buy",
-      "url": "https://seekingalpha.com/article/4861998-atlantic-union-bankshares-improvement-continues-still-a-buy?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9301599b38d95363ac6c392bd0b9c837",
-      "timestamp": "2026-01-23T04:37:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Celestica Stock: Why Alphabet Looking Elsewhere Is Actually A Good Thing",
-      "url": "https://seekingalpha.com/article/4861997-celestica-stock-why-alphabet-looking-elsewhere-is-actually-a-good-thing?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ddd5040a46f18df06c3a1ffce1515dfc",
-      "timestamp": "2026-01-23T04:36:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer Girds for Showdown to Block Rival Burnham From Commons - Keir Starmer is bracing for a potential showdown with a key left-wing rival in a test of the British prime minister’s power to stave off the gathering threats to his job.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/starmer-girds-for-showdown-to-block-rival-burnham-from-commons",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "adf4c8ddb0bf5c7386c433a6290e9a74",
-      "timestamp": "2026-01-23T04:35:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Greenland Can Serve as Check on Russia, China 'Aggressiveness' in Arctic, Says Garbarino - House Homeland Security Committee Chair Andrew Garbarino said Greenland can serve as important as a check on Russia and China in the Arctic and it's important for the US to work with NATO in meeting t",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/greenland-check-on-aggressiveness-in-arctic-garbarino-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5fc92016ddbd76dd0b168dcfb3a7435f",
-      "timestamp": "2026-01-23T04:34:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "ORR: Review Of Long-Short ETF After One Year In The Market",
-      "url": "https://seekingalpha.com/article/4861996-orr-review-of-long-short-etf-after-one-year-in-the-market?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "65c98e32bee283036f9deba0e21a8e1e",
-      "timestamp": "2026-01-23T04:33:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bill Gates’ VC Fund Leads $110 Million Funding for Chip Upstart - Chips startup Neurophos has closed a $110 million Series A funding round to help it develop a new technology capable of outperforming accelerators used to run AI models. Neurophos CEO Patrick Bowen, a",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/bill-gates-vc-fund-leads-110m-funding-for-chip-upstart-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7e02c7532536308117874dad056b4c07",
-      "timestamp": "2026-01-23T04:32:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BioCryst: The $700 Million Pivot From Oral Convenience To Injectable",
-      "url": "https://seekingalpha.com/article/4861993-biocryst-the-700-million-pivot-from-oral-convenience-to-injectable?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "11917b1face2bf05458a43c31263828c",
-      "timestamp": "2026-01-23T04:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "British Podcasters Are Moving to the US to Win Fans in a Crucial Market - Most of the top podcasts in the UK have yet to hit the same levels of popularity in the US",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-22/british-podcasters-are-angling-for-us-listeners",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59ff92ba924a7a5a8c0f816c487d04f3",
-      "timestamp": "2026-01-23T04:29:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Warner Bros. Says Over 93% of Its Holders Reject Paramount’s Bid - Paramount Skydance again extended its tender offer for Warner Bros. Discovery shares and said it would ask investors to vote against a proposed sale to Netflix at a special meeting of Warner Bros. sha",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/warner-bros-says-its-holders-reject-paramount-s-bid-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e160e59cb37268bc2e435f059a67be6a",
-      "timestamp": "2026-01-23T04:24:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Southern Missouri Bancorp, Inc. (SMBC) Q2 2026 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4861952-southern-missouri-bancorp-inc-smbc-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a194a1cbacbe8ef1c95ce81a98702b77",
-      "timestamp": "2026-01-23T04:23:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "PBW: Clean Breakout With Clean Energy, Pure Valuation (Upgrade)",
-      "url": "https://seekingalpha.com/article/4861989-pbw-clean-breakout-with-clean-energy-pure-valuation-upgrade?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e86f34b0f48010000f7e510634b3a588",
-      "timestamp": "2026-01-23T04:23:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bloomberg Markets 1/22/2026 - \"Bloomberg Markets\" follows the market moves across every global asset class and discusses the biggest issues for Wall Street. Today's guests: Bank of America Chairman & CEO Brian Moynihan, BlackRock ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/bloomberg-markets-1-22-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8920a8aadc401f7a3f7bc0e54d6bdb9b",
-      "timestamp": "2026-01-23T04:21:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "From TACO to Widowmaker, a Guide to the Trades Driving Markets - Financial markets were kicked into high-gear this week by President Donald Trump’s unorthodox approach to geopolitics and old-school electioneering in Japan.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/from-taco-to-widowmaker-a-guide-to-the-trades-driving-markets",
       "sentiment": "NEUTRAL"
     }
   ]
