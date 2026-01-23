@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-SoFi 자동 포스팅 Agent
-stock_feed.json에서 SoFi 관련 최신 뉴스를 수집하여 Gemini API로 분석 후 블로그 포스트를 자동 생성한다.
+SoFi 자동 포스팅 Agent (고도화 버전)
+거시경제 데이터, 기술적 지표, 이전 분석 맥락을 통합하여 전문가 수준의 분석 글을 생성한다.
 """
 
 import os
@@ -11,13 +11,12 @@ import re
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 from zoneinfo import ZoneInfo
 
 # .env 파일 지원
 try:
     from dotenv import load_dotenv
-    # 프로젝트 루트와 local_bot 디렉토리에서 .env 파일 찾기
     project_root = Path(__file__).parent.parent.parent
     load_dotenv(project_root / ".env")
     load_dotenv(project_root / "local_bot" / ".env")
@@ -34,11 +33,20 @@ except ImportError:
 
 try:
     from google import genai
-    from google.genai import types
 except ImportError:
     print("[ERROR] google-genai 패키지가 설치되지 않았습니다.")
     print("pip install google-genai 를 실행하세요.")
     exit(1)
+
+try:
+    import yfinance as yf
+    import pandas as pd
+    import numpy as np
+    YFINANCE_AVAILABLE = True
+except ImportError:
+    print("[WARN] yfinance, pandas, numpy가 설치되지 않았습니다. 기술적 지표 수집이 제한됩니다.")
+    print("pip install yfinance pandas numpy 를 실행하세요.")
+    YFINANCE_AVAILABLE = False
 
 # 환경 설정
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -69,11 +77,9 @@ def filter_sofi_items(items: List[Dict], hours: int = 24) -> List[Dict]:
     
     sofi_items = []
     for item in items:
-        # SoFi 관련 아이템만
         if "SOFI" not in item.get("related_tickers", []):
             continue
         
-        # 최근 N시간 이내 아이템만
         try:
             item_time = datetime.fromisoformat(item["timestamp"])
             if item_time < cutoff_time:
@@ -83,9 +89,197 @@ def filter_sofi_items(items: List[Dict], hours: int = 24) -> List[Dict]:
         
         sofi_items.append(item)
     
-    # 최신순 정렬
     sofi_items.sort(key=lambda x: x["timestamp"], reverse=True)
     return sofi_items
+
+
+def collect_macro_data() -> Dict:
+    """거시경제 데이터 수집 (국채 금리, 나스닥 지수, 경쟁사 주가)"""
+    macro_data = {
+        "tnx": None,  # 10년물 국채 금리
+        "nasdaq_fintech": None,  # 나스닥 핀테크 지수 (대체 지표)
+        "competitors": {}  # 경쟁사 주가
+    }
+    
+    if not YFINANCE_AVAILABLE:
+        print("[WARN] yfinance 미설치로 거시경제 데이터 수집 건너뜀")
+        return macro_data
+    
+    try:
+        # 10년물 국채 금리 (^TNX)
+        tnx = yf.Ticker("^TNX")
+        tnx_info = tnx.history(period="5d")
+        if not tnx_info.empty:
+            current_rate = tnx_info['Close'].iloc[-1]
+            prev_rate = tnx_info['Close'].iloc[-2] if len(tnx_info) > 1 else current_rate
+            change = current_rate - prev_rate
+            macro_data["tnx"] = {
+                "current": round(current_rate, 2),
+                "change": round(change, 2),
+                "change_pct": round((change / prev_rate * 100) if prev_rate > 0 else 0, 2)
+            }
+            print(f"[INFO] 국채 금리: {current_rate:.2f}% (전일 대비 {change:+.2f}%p)")
+    except Exception as e:
+        print(f"[WARN] 국채 금리 수집 실패: {e}")
+    
+    try:
+        # 나스닥 지수 (대체 지표)
+        nasdaq = yf.Ticker("^IXIC")
+        nasdaq_info = nasdaq.history(period="5d")
+        if not nasdaq_info.empty:
+            current = nasdaq_info['Close'].iloc[-1]
+            prev = nasdaq_info['Close'].iloc[-2] if len(nasdaq_info) > 1 else current
+            change_pct = ((current - prev) / prev * 100) if prev > 0 else 0
+            macro_data["nasdaq_fintech"] = {
+                "current": round(current, 2),
+                "change_pct": round(change_pct, 2)
+            }
+            print(f"[INFO] 나스닥 지수: {current:.2f} (전일 대비 {change_pct:+.2f}%)")
+    except Exception as e:
+        print(f"[WARN] 나스닥 지수 수집 실패: {e}")
+    
+    # 경쟁사 주가 (UPST, AFRM)
+    competitors = ["UPST", "AFRM"]
+    for ticker in competitors:
+        try:
+            stock = yf.Ticker(ticker)
+            info = stock.history(period="5d")
+            if not info.empty:
+                current = info['Close'].iloc[-1]
+                prev = info['Close'].iloc[-2] if len(info) > 1 else current
+                change_pct = ((current - prev) / prev * 100) if prev > 0 else 0
+                macro_data["competitors"][ticker] = {
+                    "current": round(current, 2),
+                    "change_pct": round(change_pct, 2)
+                }
+                print(f"[INFO] {ticker}: ${current:.2f} (전일 대비 {change_pct:+.2f}%)")
+        except Exception as e:
+            print(f"[WARN] {ticker} 주가 수집 실패: {e}")
+    
+    return macro_data
+
+
+def fetch_technical_data() -> Dict:
+    """SoFi 주가의 기술적 지표 수집 (OHLCV, RSI, 이동평균선)"""
+    technical_data = {
+        "ohlcv": None,
+        "rsi": None,
+        "moving_averages": {},
+        "volume_analysis": None
+    }
+    
+    if not YFINANCE_AVAILABLE:
+        print("[WARN] yfinance 미설치로 기술적 지표 수집 건너뜀")
+        return technical_data
+    
+    try:
+        sofi = yf.Ticker("SOFI")
+        hist = sofi.history(period="60d")  # 60일 데이터로 RSI 계산
+        
+        if hist.empty:
+            return technical_data
+        
+        # 최근 5일 OHLCV
+        recent = hist.tail(5)
+        latest = recent.iloc[-1]
+        prev = recent.iloc[-2] if len(recent) > 1 else latest
+        
+        technical_data["ohlcv"] = {
+            "open": round(latest['Open'], 2),
+            "high": round(latest['High'], 2),
+            "low": round(latest['Low'], 2),
+            "close": round(latest['Close'], 2),
+            "volume": int(latest['Volume']),
+            "change": round(latest['Close'] - prev['Close'], 2),
+            "change_pct": round(((latest['Close'] - prev['Close']) / prev['Close'] * 100) if prev['Close'] > 0 else 0, 2)
+        }
+        
+        # RSI 계산 (14일 기준)
+        if len(hist) >= 14:
+            delta = hist['Close'].diff()
+            gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
+            loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
+            rs = gain / loss
+            rsi = 100 - (100 / (1 + rs))
+            current_rsi = rsi.iloc[-1]
+            technical_data["rsi"] = round(current_rsi, 2)
+        
+        # 이동평균선 (20일, 60일)
+        if len(hist) >= 20:
+            ma20 = hist['Close'].rolling(window=20).mean().iloc[-1]
+            technical_data["moving_averages"]["ma20"] = round(ma20, 2)
+            technical_data["moving_averages"]["above_ma20"] = latest['Close'] > ma20
+        
+        if len(hist) >= 60:
+            ma60 = hist['Close'].rolling(window=60).mean().iloc[-1]
+            technical_data["moving_averages"]["ma60"] = round(ma60, 2)
+            technical_data["moving_averages"]["above_ma60"] = latest['Close'] > ma60
+        
+        # 거래량 분석
+        avg_volume = hist['Volume'].tail(20).mean()
+        current_volume = latest['Volume']
+        volume_ratio = (current_volume / avg_volume) if avg_volume > 0 else 1
+        technical_data["volume_analysis"] = {
+            "current": int(current_volume),
+            "average_20d": int(avg_volume),
+            "ratio": round(volume_ratio, 2)
+        }
+        
+        print(f"[INFO] SoFi 기술적 지표 수집 완료: ${latest['Close']:.2f}, RSI: {technical_data.get('rsi', 'N/A')}")
+        
+    except Exception as e:
+        print(f"[WARN] 기술적 지표 수집 실패: {e}")
+    
+    return technical_data
+
+
+def load_previous_summary(date_str: str) -> Optional[str]:
+    """이전 날짜의 SoFi 분석 글 요약 로드 (연속성 확보)"""
+    tz = ZoneInfo("Asia/Seoul")
+    try:
+        target_date = datetime.strptime(date_str, "%Y-%m-%d")
+        prev_date = target_date - timedelta(days=1)
+        prev_date_str = prev_date.strftime("%Y-%m-%d")
+        
+        # 이전 날짜의 SoFi 포스트 찾기
+        pattern = f"{prev_date_str}-SOFI-*"
+        prev_posts = list(POSTS_DIR.glob(pattern))
+        
+        if not prev_posts:
+            return None
+        
+        # 가장 최근 포스트 읽기
+        prev_post = prev_posts[0]
+        content = prev_post.read_text(encoding="utf-8")
+        
+        # Front Matter 제거하고 본문만 추출
+        if "---" in content:
+            parts = content.split("---", 2)
+            if len(parts) >= 3:
+                body = parts[2].strip()
+            else:
+                body = content
+        else:
+            body = content
+        
+        # Gemini로 요약 생성 (간단한 추출)
+        # 실제로는 Gemini API를 호출해서 요약하는 것이 좋지만, 여기서는 간단히 핵심만 추출
+        lines = body.split('\n')
+        summary_lines = []
+        for line in lines[:30]:  # 처음 30줄만
+            if line.strip() and not line.startswith('#'):
+                summary_lines.append(line.strip()[:200])  # 각 줄 최대 200자
+        
+        summary = '\n'.join(summary_lines[:10])  # 최대 10줄
+        if len(summary) > 1000:
+            summary = summary[:1000] + "..."
+        
+        print(f"[INFO] 이전 분석 로드: {prev_date_str}")
+        return summary
+        
+    except Exception as e:
+        print(f"[WARN] 이전 분석 로드 실패: {e}")
+        return None
 
 
 def check_existing_post(date_str: str) -> bool:
@@ -93,15 +287,6 @@ def check_existing_post(date_str: str) -> bool:
     pattern = f"{date_str}-SOFI-*"
     existing = list(POSTS_DIR.glob(pattern))
     return len(existing) > 0
-
-
-def create_slug(title: str) -> str:
-    """제목을 슬러그로 변환"""
-    import re
-    slug = re.sub(r'[^\w\s가-힣-]', '', title)
-    slug = re.sub(r'\s+', '-', slug)
-    slug = re.sub(r'-+', '-', slug)
-    return slug.strip('-')
 
 
 def fetch_article_content(url: str, timeout: int = 10) -> Optional[str]:
@@ -115,25 +300,14 @@ def fetch_article_content(url: str, timeout: int = 10) -> Optional[str]:
         
         soup = BeautifulSoup(resp.content, 'html.parser')
         
-        # 불필요한 태그 제거
         for tag in soup(['script', 'style', 'nav', 'header', 'footer', 'aside', 'advertisement']):
             tag.decompose()
         
-        # 기사 본문 추출 (일반적인 기사 사이트 구조)
         article_content = None
-        
-        # 다양한 기사 본문 선택자 시도
         selectors = [
-            'article',
-            '[class*="article"]',
-            '[class*="content"]',
-            '[class*="post"]',
-            '[id*="article"]',
-            '[id*="content"]',
-            'main',
-            '.entry-content',
-            '.article-body',
-            '.post-content'
+            'article', '[class*="article"]', '[class*="content"]', '[class*="post"]',
+            '[id*="article"]', '[id*="content"]', 'main', '.entry-content',
+            '.article-body', '.post-content'
         ]
         
         for selector in selectors:
@@ -142,21 +316,16 @@ def fetch_article_content(url: str, timeout: int = 10) -> Optional[str]:
                 article_content = article
                 break
         
-        # 선택자가 없으면 body 전체 사용
         if not article_content:
             article_content = soup.find('body') or soup
         
-        # 텍스트 추출 및 정리
         text = article_content.get_text(separator='\n', strip=True)
-        # 연속된 공백/줄바꿈 정리
         text = re.sub(r'\n\s*\n+', '\n\n', text)
         text = re.sub(r' +', ' ', text)
         
-        # 너무 짧으면 실패로 간주
         if len(text) < 100:
             return None
         
-        # 최대 5000자로 제한
         return text[:5000] if len(text) > 5000 else text
     
     except Exception as e:
@@ -185,41 +354,154 @@ def prepare_news_summary(items: List[Dict]) -> str:
         summary += f"제목: {title}\n"
         summary += f"URL: {url}\n"
         
-        # 실제 기사 내용 가져오기
         print(f"[INFO] 기사 내용 추출 중: {url}")
         article_content = fetch_article_content(url)
         
         if article_content:
             summary += f"\n기사 내용:\n{article_content}\n"
         else:
-            # 기사 내용을 가져오지 못한 경우 원본 요약만 사용
             summary += f"\n(기사 내용 추출 실패 - 제목/요약만 사용)\n"
         
         summary += "\n" + "="*80 + "\n\n"
-        
-        # API 호출 제한을 위한 딜레이
         time.sleep(1)
     
     return summary
 
 
-def generate_post_with_gemini(items: List[Dict], date_str: str) -> Optional[str]:
-    """Gemini API를 사용하여 포스트 생성"""
-    if not items:
-        return None
+def format_macro_context(macro_data: Dict) -> str:
+    """거시경제 데이터를 프롬프트 형식으로 포맷팅"""
+    context = "**시장 환경 (Macro Context)**:\n\n"
     
-    # 뉴스 요약 준비
-    news_summary = prepare_news_summary(items)
+    if macro_data.get("tnx"):
+        tnx = macro_data["tnx"]
+        context += f"- **미국 10년물 국채 금리 (TNX)**: {tnx['current']}% (전일 대비 {tnx['change']:+.2f}%p, {tnx['change_pct']:+.2f}%)\n"
+        if tnx['change'] > 0:
+            context += "  → 국채 금리 상승은 핀테크 기업의 대출 마진에 압박을 줄 수 있음.\n"
+        elif tnx['change'] < 0:
+            context += "  → 국채 금리 하락은 핀테크 기업의 대출 마진 확대에 유리함.\n"
     
-    # Gemini 클라이언트 초기화
+    if macro_data.get("nasdaq_fintech"):
+        nasdaq = macro_data["nasdaq_fintech"]
+        context += f"- **나스닥 지수**: {nasdaq['current']:.2f} (전일 대비 {nasdaq['change_pct']:+.2f}%)\n"
+    
+    if macro_data.get("competitors"):
+        context += "- **경쟁사 주가**:\n"
+        for ticker, data in macro_data["competitors"].items():
+            context += f"  - {ticker}: ${data['current']:.2f} (전일 대비 {data['change_pct']:+.2f}%)\n"
+    
+    context += "\n이 맥락에서 SoFi 뉴스를 해석하세요. 개별 호재/악재보다 전체 시장 환경이 SoFi 주가에 미치는 영향을 먼저 고려하세요.\n\n"
+    
+    return context
+
+
+def format_technical_context(technical_data: Dict) -> str:
+    """기술적 지표를 프롬프트 형식으로 포맷팅"""
+    if not technical_data.get("ohlcv"):
+        return ""
+    
+    context = "**기술적 지표 (Technical Data)**:\n\n"
+    ohlcv = technical_data["ohlcv"]
+    
+    context += f"- **가격**: ${ohlcv['close']:.2f} (전일 대비 {ohlcv['change']:+.2f}, {ohlcv['change_pct']:+.2f}%)\n"
+    context += f"- **고가/저가**: ${ohlcv['high']:.2f} / ${ohlcv['low']:.2f}\n"
+    
+    if technical_data.get("rsi"):
+        rsi = technical_data["rsi"]
+        context += f"- **RSI (14일)**: {rsi:.2f}"
+        if rsi > 70:
+            context += " (과매수 구간 - 조정 가능성)\n"
+        elif rsi < 30:
+            context += " (과매도 구간 - 반등 가능성)\n"
+        else:
+            context += " (중립 구간)\n"
+    
+    if technical_data.get("moving_averages"):
+        ma = technical_data["moving_averages"]
+        if "ma20" in ma:
+            above = "위" if ma.get("above_ma20") else "아래"
+            context += f"- **20일 이동평균**: ${ma['ma20']:.2f} (현재가 {above})\n"
+        if "ma60" in ma:
+            above = "위" if ma.get("above_ma60") else "아래"
+            context += f"- **60일 이동평균**: ${ma['ma60']:.2f} (현재가 {above})\n"
+    
+    if technical_data.get("volume_analysis"):
+        vol = technical_data["volume_analysis"]
+        context += f"- **거래량**: {vol['current']:,}주 (20일 평균 대비 {vol['ratio']:.2f}배)\n"
+        if vol['ratio'] > 1.5:
+            context += "  → 거래량 급증은 큰 움직임의 신호일 수 있음.\n"
+    
+    context += "\n이 기술적 데이터와 뉴스를 결합하여 분석하세요. 예: RSI가 70을 넘은 상태에서 호재 뉴스가 나왔으면 '뉴스에 팔기(Sell the news)' 심리가 작용할 수 있음.\n\n"
+    
+    return context
+
+
+def get_deep_dive_prompt(date_str: str, macro_data: Dict, technical_data: Dict) -> str:
+    """뉴스가 부족할 때 사용하는 Deep Dive 모드 프롬프트"""
+    return f"""당신은 월스트리트의 20년 차 핀테크 전문 헤지펀드 매니저입니다.
+
+**날짜**: {date_str}
+
+**상황**: 오늘 SoFi 관련 주요 뉴스가 거의 없습니다. 이 경우 단순히 뉴스를 요약하는 것이 아니라, SoFi의 펀더멘털이나 특정 주제에 대한 심층 분석을 제공하세요.
+
+{format_macro_context(macro_data) if macro_data.get("tnx") or macro_data.get("competitors") else ""}
+
+{format_technical_context(technical_data) if technical_data.get("ohlcv") else ""}
+
+**작성 규칙**:
+1. SoFi의 핵심 비즈니스 모델, 기술력(Galileo 플랫폼), 뱅킹 라이선스의 의미 등에 대해 교육적으로 설명하세요.
+2. 최근 재무제표의 특정 항목이나 트렌드를 분석하세요.
+3. 현재 시장 환경에서 SoFi가 직면한 기회와 리스크를 분석하세요.
+4. 모든 문장은 "~다."로 끝나는 건조한 평서문을 사용하세요.
+5. 최소 2000자 이상 작성하세요.
+
+**구조**:
+### 핵심 주제 (1개 선택)
+- SoFi의 특정 비즈니스 영역이나 기술력에 대한 심층 분석
+
+### 펀더멘털 분석
+- 선택한 주제가 SoFi의 장기 가치에 미치는 영향
+- 재무 지표와의 연관성
+
+### 시장 환경과의 연관성
+- 현재 거시경제 환경에서의 의미
+- 기술적 지표와의 연관성
+
+### 투자자 관점
+- Bull Case (상승 시나리오)
+- Bear Case (하락 시나리오)
+
+**⚠️ 중요**: Front Matter 없이 본문만 작성하세요. 제목(###)부터 시작하세요."""
+
+
+def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict, technical_data: Dict, previous_summary: Optional[str]) -> Optional[str]:
+    """Gemini API를 사용하여 포스트 생성 (고도화 버전)"""
+    
+    # 뉴스 개수에 따라 모드 결정
+    if len(items) < 2:
+        print("[INFO] 뉴스가 부족하여 Deep Dive 모드로 전환")
+        mode = "deep_dive"
+        news_summary = ""
+    else:
+        mode = "daily_news"
+        news_summary = prepare_news_summary(items)
+    
     client = genai.Client(api_key=GEMINI_API_KEY)
     model = "gemini-2.0-flash-exp"
     
-    # 프롬프트 작성
-    prompt = f"""당신은 주식 투자 분석가이자 테크니컬 라이터입니다.
+    if mode == "deep_dive":
+        prompt = get_deep_dive_prompt(date_str, macro_data, technical_data)
+    else:
+        # Daily News 모드 - 고도화된 프롬프트
+        prompt = f"""당신은 월스트리트의 20년 차 핀테크 전문 헤지펀드 매니저입니다.
 아래 SoFi(SOFI) 관련 최신 뉴스들의 **실제 기사 내용**을 분석하여 투자자들이 이해하기 쉬운 블로그 포스트를 작성하세요.
 
 **날짜**: {date_str}
+
+{format_macro_context(macro_data) if macro_data.get("tnx") or macro_data.get("competitors") else ""}
+
+{format_technical_context(technical_data) if technical_data.get("ohlcv") else ""}
+
+{f"**이전 분석 맥락 (어제)**:\n{previous_summary}\n\n이전 전망과 비교하여 뷰를 수정하거나 강화하세요. 연속성을 유지하면서 오늘의 새로운 정보를 반영하세요.\n\n" if previous_summary else ""}
 
 **수집된 뉴스 (제목, URL, 실제 기사 내용 포함)**:
 {news_summary}
@@ -227,12 +509,14 @@ def generate_post_with_gemini(items: List[Dict], date_str: str) -> Optional[str]
 **작성 규칙**:
 1. **기사 내용 분석**: 각 뉴스의 제목과 URL만이 아니라, 제공된 **실제 기사 내용**을 읽고 분석하여 작성한다.
 2. 모든 문장은 "~다."로 끝나는 건조한 평서문을 사용한다.
-3. 뉴스를 주제별로 그룹화하여 분석한다 (예: 실적, 제품, 규제, 시장 반응 등).
-4. 각 주제마다 기사에서 언급된 **구체적인 사실과 데이터**를 인용하고, 그 의미와 투자자 관점을 간결하게 서술한다.
-5. 단순히 링크를 나열하는 것이 아니라, 기사 내용을 읽고 **요약 및 분석**한 내용을 작성한다.
-6. 이모지는 사용하지 않는다.
-7. 최소 1500자 이상 작성한다.
-8. 출처는 각주 형식 [^n]으로 표기하고, 마지막에 ## References 섹션에 정리한다.
+3. 단순히 뉴스를 요약하지 말고, 다음 3가지 관점에서 분석한다:
+   - **Fundamental (펀더멘털)**: 이 뉴스가 SoFi의 EPS(주당순이익), 가이던스, 장기 성장성에 어떤 영향을 주는가?
+   - **Sentiment (심리)**: 레딧(Reddit)의 반응과 뉴스 톤을 볼 때 개미 투자자들의 심리는 탐욕인가 공포인가?
+   - **Policy/Risk (정세/리스크)**: 현재 정책 환경(트럼프 행정부 등)과 이 뉴스는 상충하는가, 부합하는가?
+4. 거시경제 데이터와 기술적 지표를 뉴스와 결합하여 분석한다.
+5. 이모지는 사용하지 않는다.
+6. 최소 2000자 이상 작성한다.
+7. 출처는 각주 형식 [^n]으로 표기하고, 마지막에 ## References 섹션에 정리한다.
 
 **구조**:
 ### 주요 뉴스 요약
@@ -241,17 +525,24 @@ def generate_post_with_gemini(items: List[Dict], date_str: str) -> Optional[str]
 ### 상세 분석
 각 주제별로:
 - 기사에서 언급된 구체적인 사실과 데이터
-- 왜 중요한가
-- 투자자 관점
+- Fundamental 관점: EPS/가이던스 영향
+- Sentiment 관점: 시장 심리 분석
+- Policy/Risk 관점: 정책 환경과의 부합 여부
+- 기술적 지표와의 연관성 (RSI, 거래량 등)
 
-### 주가 추세 분석
-- 최근 SoFi 주가 동향 (가능한 경우)
-- 뉴스가 주가에 미칠 수 있는 영향
-- 기술적 분석 (지지선/저항선 등, 데이터가 있는 경우)
+### 투자 시나리오
+**Bull Case (상승 시나리오)**:
+- 이 뉴스들이 긍정적으로 전개될 경우의 시나리오
+- 목표가 및 상승 근거
+
+**Bear Case (하락 시나리오)**:
+- 이 뉴스들이 부정적으로 전개될 경우의 시나리오
+- 하락 리스크 및 지지선
 
 ### 종합 의견
 - 전반적인 시장 분위기
 - 주목할 포인트
+- 투자자 행동 가이드
 
 ## References
 - [^1]: [출처](URL)
@@ -259,10 +550,11 @@ def generate_post_with_gemini(items: List[Dict], date_str: str) -> Optional[str]
 
 **⚠️ 중요**: 
 - Front Matter 없이 본문만 작성하세요. 제목(###)부터 시작하세요.
-- 링크만 나열하지 말고, 실제 기사 내용을 읽고 분석한 내용을 작성하세요."""
+- 링크만 나열하지 말고, 실제 기사 내용을 읽고 분석한 내용을 작성하세요.
+- 반드시 Bull Case와 Bear Case를 나누어 작성하세요."""
 
     try:
-        print("[INFO] Gemini API로 글 작성 중...")
+        print(f"[INFO] Gemini API로 글 작성 중... (모드: {mode})")
         response = client.models.generate_content(
             model=model,
             contents=prompt
@@ -291,7 +583,6 @@ views: 0
 
 """
         
-        # Footer 추가
         footer = f"\n\n---\n\n*이 포스트는 AI가 분석하여 자동으로 생성되었습니다. (생성 시간: {now.strftime('%Y-%m-%d %H:%M:%S KST')})*\n"
         
         return front_matter + content + footer
@@ -303,36 +594,48 @@ views: 0
 
 def main():
     """메인 함수"""
-    print("[INFO] SoFi 자동 포스팅 시작...")
+    print("[INFO] SoFi 자동 포스팅 시작 (고도화 버전)...")
     
-    # 1. 주식 피드 로드
-    feed_data = load_stock_feed()
-    items = feed_data.get("items", [])
-    print(f"[INFO] 전체 피드 아이템: {len(items)}개")
-    
-    # 2. SoFi 관련 최신 아이템 필터링 (최근 24시간)
-    sofi_items = filter_sofi_items(items, hours=24)
-    print(f"[INFO] SoFi 관련 최신 아이템: {len(sofi_items)}개")
-    
-    if not sofi_items:
-        print("[INFO] 새로운 SoFi 뉴스가 없습니다.")
-        return
-    
-    # 3. 오늘 날짜 포스트가 이미 존재하는지 확인
     tz = ZoneInfo("Asia/Seoul")
     today = datetime.now(tz).strftime("%Y-%m-%d")
     
+    # 1. 오늘 날짜 포스트가 이미 존재하는지 확인
     if check_existing_post(today):
         print(f"[INFO] {today} SOFI 포스트가 이미 존재합니다. 스킵.")
         return
     
-    # 4. Gemini로 포스트 생성
-    content = generate_post_with_gemini(sofi_items, today)
+    # 2. 주식 피드 로드
+    feed_data = load_stock_feed()
+    items = feed_data.get("items", [])
+    print(f"[INFO] 전체 피드 아이템: {len(items)}개")
+    
+    # 3. SoFi 관련 최신 아이템 필터링 (최근 24시간)
+    sofi_items = filter_sofi_items(items, hours=24)
+    print(f"[INFO] SoFi 관련 최신 아이템: {len(sofi_items)}개")
+    
+    # 4. 거시경제 데이터 수집
+    print("[INFO] 거시경제 데이터 수집 중...")
+    macro_data = collect_macro_data()
+    
+    # 5. 기술적 지표 수집
+    print("[INFO] 기술적 지표 수집 중...")
+    technical_data = fetch_technical_data()
+    
+    # 6. 이전 분석 로드 (연속성)
+    print("[INFO] 이전 분석 맥락 로드 중...")
+    previous_summary = load_previous_summary(today)
+    
+    # 7. 뉴스가 없어도 Deep Dive 모드로 진행
+    if not sofi_items:
+        print("[INFO] 새로운 SoFi 뉴스가 없습니다. Deep Dive 모드로 진행합니다.")
+    
+    # 8. Gemini로 포스트 생성
+    content = generate_post_with_gemini(sofi_items, today, macro_data, technical_data, previous_summary)
     if not content:
         print("[WARN] 포스트 생성 실패")
         return
     
-    # 5. 파일 저장
+    # 9. 파일 저장
     filename = f"{today}-SOFI-소식-분석.md"
     filepath = POSTS_DIR / filename
     
