@@ -1,6 +1,381 @@
 {
-  "last_updated": "2026-01-23T15:07:38.551713+09:00",
+  "last_updated": "2026-01-23T17:06:57.004586+09:00",
   "items": [
+    {
+      "id": "56add43cdb8b02d0e5a6872d31904ad1",
+      "timestamp": "2026-01-23T17:01:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Tryg A/S 2025 Q4 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4862144-tryg-a-s-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "162a30b4e4d15cacff5a531ccf89ffc4",
+      "timestamp": "2026-01-23T17:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Osterweis Capital Management Q1 2026 Equity Outlook",
+      "url": "https://seekingalpha.com/article/4862141-osterweis-capital-management-q1-2026-equity-outlook?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "62af102f45c5275d45af64cd5f44a2fb",
+      "timestamp": "2026-01-23T17:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Slower Inflation Means Only Gradual Bank of Japan Rate Hikes",
+      "url": "https://seekingalpha.com/article/4862142-slower-inflation-gradual-bank-of-japan-rate-hikes?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3127f725dd282c6256d95734347d1ee3",
+      "timestamp": "2026-01-23T16:52:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Li Ka-shing Mulls New Ownership Structure to Complete Ports Deal - Billionaire Li Ka-shing’s CK Hutchison Holdings Ltd. is renewing efforts to sell dozens of ports to a global consortium by splitting the deal into separate parcels with different ownership structures,",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/li-ka-shing-mulls-new-ownership-structure-to-complete-ports-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6faca74cadd1ac275c2bd4374209283c",
+      "timestamp": "2026-01-23T16:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "How Putwrite ETFs Seek Option-Premium Income: A Deep Dive With Overlay Shares",
+      "url": "https://seekingalpha.com/article/4862138-how-putwrite-etfs-seek-option-premium-income-deep-dive-with-overlay-shares?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0be79f1846f2f5ea4555a87c64ca6b42",
+      "timestamp": "2026-01-23T16:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "A Quality-Screened Substitute For Bank Loan ETFs",
+      "url": "https://seekingalpha.com/article/4862139-quality-screened-substitute-for-bank-loan-etfs?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fccd7d6ca27fa5167ca8e604a04ca46e",
+      "timestamp": "2026-01-23T16:32:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "CHW: Strong Dividend Coverage And Attractive Valuation",
+      "url": "https://seekingalpha.com/article/4862128-chw-strong-dividend-coverage-and-attractive-valuation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d66576c77aaeda2153f91e6d5bb27900",
+      "timestamp": "2026-01-23T16:31:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Paris Luxury Property Revival Cools as Anti-Rich Sentiment Grows - The luxury property market in Paris, which saw a robust recovery last year, is being hit by the country’s political and budget turmoil and an anti-rich mood that risks driving France’s wealthiest away",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/paris-luxury-property-market-recovery-hits-french-anti-rich-wall",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "885b7951f26c984336a3efd62e24e5c8",
+      "timestamp": "2026-01-23T16:28:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Insight with Haslinda Amin 1/23/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/insight-with-haslinda-amin-1-23-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0ad9e88a6fb492addcbec8061af01f40",
+      "timestamp": "2026-01-23T16:24:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "How YNVD:CA Monetizes Nvidia Without Sacrificing Upside",
+      "url": "https://seekingalpha.com/article/4862124-how-ynvdca-monetizes-nvidia-without-sacrificing-upside?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d054bd7be810d4850c73b4c9e4e778d7",
+      "timestamp": "2026-01-23T16:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Whale's Insight: Onchain Utility, Offchain Control",
+      "url": "https://seekingalpha.com/article/4862132-whale-insight-onchain-utility-offchain-control?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2e6b43f2323b3f58b8d8bc8076df3479",
+      "timestamp": "2026-01-23T16:08:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vietnam’s Communist Party Appoints To Lam Leader for 5-Year Term - Vietnam’s To Lam secured a full five-year term as head of the country’s ruling Communist Party, cementing his role and giving him a mandate to continue his aggressive pro-growth and investment agenda.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/vietnam-s-communist-party-appoints-to-lam-leader-for-5-year-term",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cc87192a55c862193af36b0303500b9c",
+      "timestamp": "2026-01-23T16:06:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Retail Sales Get Christmas Boost Following Reeves’ Budget - UK retail sales recovered during the crucial holiday season, with consumers appearing to gain confidence after the Labour’s government’s November budget.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/uk-retail-sales-get-a-christmas-boost-following-reeves-budget",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9d7847b9a1d49a3fb0cd62a45bacfc01",
+      "timestamp": "2026-01-23T16:04:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "JPMorgan Chase: Post-Earnings Weakness Is An Opportunity",
+      "url": "https://seekingalpha.com/article/4862122-jpmorgan-chase-post-earnings-weakness-opportunity?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "08e98b2ca66b625077c6ee205f05e881",
+      "timestamp": "2026-01-23T16:01:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kazakhstan Holds Key Rate at Record High After Inflation Ebbs - Kazakhstan held borrowing costs at a record high for the second consecutive time despite a downtick in inflation as looming increases in utility and fuel prices threaten to rekindle pressure.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/kazakhstan-holds-key-rate-at-record-high-after-inflation-ebbs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2b229c6102aa1185663c4828bdead12b",
+      "timestamp": "2026-01-23T16:00:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Peace Talks Set to Continue After US Envoys Meet Putin - President Vladimir Putin held talks with US envoys Steve Witkoff and Jared Kushner in the Kremlin on Thursday. They discussed the latest peace plan aimed at ending Russia’s war on Ukraine, with furthe",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/peace-talks-set-to-continue-after-us-envoys-meet-putin-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f0214edd43b50cfe599c49f4b251cafb",
+      "timestamp": "2026-01-23T16:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "European Utilities To See Steady Currents In 2026",
+      "url": "https://seekingalpha.com/article/4862130-european-utilities-to-see-steady-currents-2026?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "09d4d0ae32581e5a433031dd3ef9bd76",
+      "timestamp": "2026-01-23T15:59:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudi Economy Min on geopolitics, Vision 2030 - Saudi Economy Minister Alibrahim spoke about growing geopolitical tensions as well as the current assessment of Vision 2030 with Joumanna Bercetche on the sidelines of the 2026 World Economic Forum in",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/saudi-economy-min-on-geopolitics-vision-2030-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e3ac891e1f062ad85722d539f779ffcc",
+      "timestamp": "2026-01-23T15:50:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pound at $1.35, Stocks Steady to End Turbulent Week",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-01-23/ftse-100-live-uk-retail-sales-pound-gbp-bonds-gold-prices-what-s-moving-uk-markets-right-now-markets-today",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0e1e900b4af52b759c78101e7e6bab0e",
+      "timestamp": "2026-01-23T15:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "2026 Thematic Outlook: Charting The Themes Impacting Markets",
+      "url": "https://seekingalpha.com/article/4862129-2026-thematic-outlook-charting-themes-impacting-markets?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "196da74c0f16155b4822b3833ca3feb1",
+      "timestamp": "2026-01-23T15:42:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "ARKK: Buying Disruption At These Levels Is A Dangerous Game",
+      "url": "https://seekingalpha.com/article/4862120-arkk-buying-disruption-at-these-levels-is-a-dangerous-game?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "adbc37e86b07c6566d3b19f033a3c76b",
+      "timestamp": "2026-01-23T15:39:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alibaba Said to Plan AI Chipmaking Arm IPO | The China Show 1/23/2026 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, David Ingles and Yvonne Man give global ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/the-china-show-1-23-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f04e3f90ce314adb988b260067bdaf47",
+      "timestamp": "2026-01-23T15:38:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Malaysia Lifts Ban on Musk’s Grok After Safety Measures Added - Malaysia lifted its temporary ban on Elon Musk’s Grok artificial intelligence chatbot after the company behind it added safety measures to help prevent the generation of sexualized images of people.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/malaysia-lifts-ban-on-musk-s-grok-after-safety-measures-added",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6359621690287b6493eb045416af11e4",
+      "timestamp": "2026-01-23T15:32:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vanke Dollar Bondholders Seek Bigger Role as Debt Talks Loom - Some China Vanke Co. dollar bondholders are urging the distressed builder to consider options such as debt-to-equity swaps, as they seek to avoid getting sidelined in what would be one of the country’",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/vanke-dollar-bondholders-seek-bigger-role-as-debt-talks-loom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "57bfe10788c80c6b4c4cc33108449e1b",
+      "timestamp": "2026-01-23T15:31:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Blue Owl: I'm Doubling Down On This Dirt-Cheap, High-Yielding Asset Manager",
+      "url": "https://seekingalpha.com/article/4862119-blue-owl-im-doubling-down-on-this-dirt-cheap-high-yielding-asset-manager?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "800f55b326a2d32aa8b043d49b1accf9",
+      "timestamp": "2026-01-23T15:30:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "The Clorox Company (CLX) GOJO Industries, Inc., - M&A Call - Slideshow",
+      "url": "https://seekingalpha.com/article/4862127-the-clorox-company-clx-gojo-industries-inc-m-and-a-call-slideshow?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e3900fe78c032c7d98f28424c070a3e7",
+      "timestamp": "2026-01-23T15:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Investment Directions: 2026 Outlook",
+      "url": "https://seekingalpha.com/article/4862126-investment-directions-2026-outlook?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "56d687683c109198794d4041833c5291",
+      "timestamp": "2026-01-23T15:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Why U.S. Productivity Gains No Longer Reach Workers",
+      "url": "https://seekingalpha.com/article/4862121-why-us-productivity-gains-no-longer-reach-workers?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8785503c89ea08c12b922eb63ef33946",
+      "timestamp": "2026-01-23T15:09:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "FuboTV: Hulu Live Merger Lifts Bargaining Power, But Losses Muddy The Picture",
+      "url": "https://seekingalpha.com/article/4862116-fubotv-hulu-live-merger-lifts-bargaining-power-but-losses-muddy-the-picture?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab37512f9d5cfa5e9abe43cd275eaf6d",
+      "timestamp": "2026-01-23T15:08:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ericsson Proposes First-Ever Buyback as Earnings Beat Estimates - Ericsson AB proposed its first-ever buyback after fourth-quarter earnings beat analysts’ forecasts, boosted by the Swedish telecommunications equipment maker’s efforts to cut costs and raise margins i",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/ericsson-earnings-beat-estimates-as-cost-cutting-efforts-pay-off",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f76bf8e99ae83a9b7e33d22bc1b8412d",
+      "timestamp": "2026-01-23T15:08:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Mishal Husain Show: Rutger Bregman - Rutger Bregman made his name at Davos in 2019 by attacking the rich. He reveals a more nuanced worldview to Mishal Husain, discussing how he’s impressed by entrepreneurs and favors action over words. ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/the-mishal-husain-show-rutger-bregman",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bbb338b375ee170ca72f2243fa1e801e",
       "timestamp": "2026-01-23T15:02:29+09:00",
@@ -12,6 +387,39 @@
       ],
       "content": "Canada Goose: Poised To Benefit From A Retail Rebound",
       "url": "https://seekingalpha.com/article/4862115-canada-goose-poised-to-benefit-from-a-retail-rebound?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a4031ad96ecc30442e583ffce262920",
+      "timestamp": "2026-01-23T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CSG Shares Rise 28% in Amsterdam Debut After Largest Defense IPO - Armored vehicle and munitions maker CSG NV’s shares rose in its Amsterdam trading debut on Friday morning, after the firm and its owner raised €3.3 billion ($3.9 billion) in an initial public offering",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/csg-to-debut-after-largest-ever-defense-ipo-raises-3-3-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7c8264e55ed5bbf8d7de5e242bb48b4e",
+      "timestamp": "2026-01-23T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Google Invests in Sakana AI to Boost Gemini’s Presence in Japan - Google joined Japanese startup Sakana AI’s roster of backers in a move that bolsters chatbot Gemini’s presence in a country eager to speed up artificial intelligence adoption.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/google-invests-in-sakana-ai-to-boost-gemini-s-presence-in-japan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "81a19afbf135a4f98d27ac0cc6792207",
+      "timestamp": "2026-01-23T14:58:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Topix Dividend Yield Slips Below Japan’s 10-Year Bond Yield - The dividend yield on Japanese stocks has dipped below the 10-year government bond yield for the first time in at least two decades, after the recent selloff in the nation’s sovereign debt market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/topix-dividend-yield-slips-below-japan-s-10-year-bond-yield",
       "sentiment": "NEUTRAL"
     },
     {
@@ -39,6 +447,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "75f6e8357242697f8feae90495abe657",
+      "timestamp": "2026-01-23T14:46:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ASX Says Aware of Connectivity Issues for Austraclear Users - ASX Ltd. said it is aware of reports that some users of Austraclear, a platform for wholesale debt securities settlement, are encountering problems when connecting over the internet.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/asx-says-aware-of-connectivity-issues-for-austraclear-users",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "1706df883e1c657ad210303aae948869",
       "timestamp": "2026-01-23T14:37:44+09:00",
       "source_type": "NEWS",
@@ -47,6 +466,17 @@
       "related_tickers": [],
       "content": "China Weighs Tighter Rules for Firms to List in Hong Kong - China’s securities regulator is considering tightening the criteria for mainland companies to sell shares in Hong Kong, after an offshore fundraising boom raised concerns over deal quality, people fam",
       "url": "https://www.bloomberg.com/news/articles/2026-01-23/china-weighs-tighter-rules-for-firms-to-sell-shares-in-hong-kong",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2ca76e0de25b4608b902a8a80b80585",
+      "timestamp": "2026-01-23T14:35:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Yield Curve Flattens on BOJ Hike Bets After Bond Meltdown - Japan’s shorter-maturity bond yields rose after the Bank of Japan raised its inflation outlook, while pressure on the long-end continued to ease following a sharp selloff earlier this week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/japan-yield-curve-flattens-on-boj-hike-bets-after-bond-meltdown",
       "sentiment": "NEUTRAL"
     },
     {
@@ -71,6 +501,17 @@
       "related_tickers": [],
       "content": "UBP's Calder on Tech and AI Valuations - UBP Head of Equity Research for Asia Kieran Calder analyzes tech sector valuations and the outlook for major Asian markets. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-01-23/ubp-s-calder-on-tech-and-ai-valuations-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f1bd81dcc5406dd5ee57341eebb38206",
+      "timestamp": "2026-01-23T14:29:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Grab-GoTo Deal Hits Snag Caused by State-Backed Holder’s Stake - Grab Holdings Ltd.’s planned multibillion-dollar acquisition of GoTo Group has hit a stumbling block.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/grab-goto-deal-hits-snag-caused-by-state-backed-holder-s-stake",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1938,449 +2379,6 @@
       "related_tickers": [],
       "content": "Trump Meets Zelenskiy at Davos | Balance of Power: Early Edition 1/22/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discusses the conclusion of President Donald Trump's trip to the World Economic Forum in Davos. On today's show",
       "url": "https://www.bloomberg.com/news/videos/2026-01-22/balance-of-power-early-edition-01-22-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "35d99922db2a65127eed791623d9f985",
-      "timestamp": "2026-01-23T06:37:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intel 18A Is Not Off to a Great Start, Wedbush's Bryson Says - Matt Bryson, Wedbush Securities equity research analyst and managing director, reacts to Intel's lackluster forecast for the current quarter on \"Bloomberg The Close.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/intel-18a-not-off-to-great-start-wedbush-s-bryson-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd3e90f45bced4dc5f6c6c805ef6de14",
-      "timestamp": "2026-01-23T06:34:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Wins S&amp;P Upgrade After Revamp of Growth-Linked Debt - Ukraine’s credit score was raised by S&amp;P Global Ratings after the country completed the restructuring of its growth-linked debt into conventional bonds.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/ukraine-wins-s-p-upgrade-after-restructuring-growth-linked-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59addfaf06eeec451986d2b0a4d6f0f9",
-      "timestamp": "2026-01-23T06:32:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Reinsurance Group Of America: Lock In 2% 'Alpha' With The Baby Bonds",
-      "url": "https://seekingalpha.com/article/4862026-reinsurance-group-of-america-lock-in-2-percent-alpha-with-the-baby-bonds?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "12f17f3b0a6545535fe5b2e48cad80c1",
-      "timestamp": "2026-01-23T06:30:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Microsoft: Cloud Margins Are The Tripwire Heading Into FQ2 Earnings (Downgrade)",
-      "url": "https://seekingalpha.com/article/4862023-microsoft-cloud-margins-are-the-tripwire-heading-into-fq2-earnings-downgrade?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a10b70eaa554c44c7da24d7b5c8e98eb",
-      "timestamp": "2026-01-23T06:30:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "A Controversial Video-Game Designer Returns With a New Game and More Controversy - The announcement of ‘Order of the Sinking Star’ was met with criticism over the political views of its creator Jonathan Blow",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-22/jonathan-blow-a-controversial-video-game-designer-returns-with-a-new-game",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "933d825770a3820059b7b1bc7efd3c1a",
-      "timestamp": "2026-01-23T06:27:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vance Nods at ICE Errors, Blames Minnesota Leaders for Chaos - Vice President JD Vance argued that tensions in Minnesota over immigration enforcement operations could be tamed if local and state officials cooperated more with US authorities, even as he conceded f",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/jd-vance-nods-at-ice-errors-blames-minnesota-leaders-for-chaos",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "737b671f72987112d3c89317196e2607",
-      "timestamp": "2026-01-23T06:25:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "QuickFee Limited 2026 Q2 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4862041-quickfee-limited-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4f042d982f7fe7f5f1118589d322b259",
-      "timestamp": "2026-01-23T06:24:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Banc of California, Inc. (BANC) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4862013-banc-of-california-inc-banc-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6b4ff4b5cf10cac4461942abc7d3b0cb",
-      "timestamp": "2026-01-23T06:24:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "RLI Corp. (RLI) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4861983-rli-corp-rli-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a0789957a7f63874644a63344703b9c4",
-      "timestamp": "2026-01-23T06:24:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "QuickFee Limited (QFEFF) Q2 2026 Earnings Call Prepared Remarks Transcript",
-      "url": "https://seekingalpha.com/article/4862039-quickfee-limited-qfeff-q2-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ec6a60c58d3cc4165b5215fb151b5d1e",
-      "timestamp": "2026-01-23T06:14:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Clorox to Buy Hand Sanitizer Maker GOJO for $2.25 Billion - Clorox Co. agreed to buy the maker of Purell hand sanitizer, GOJO Industries, a move to expand its portfolio of consumer health and hygiene brands.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/clorox-to-buy-purell-hand-sanitizer-maker-gojo-for-2-25-billion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8bc6d4082ae5d76a1c8a80ea9644e977",
-      "timestamp": "2026-01-23T06:14:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SVOL: Some Uncertainty On The Horizon",
-      "url": "https://seekingalpha.com/article/4862020-svol-some-uncertainty-on-horizon?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "361d7dbda69183c1398edbd72e41e6c9",
-      "timestamp": "2026-01-23T06:13:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Does SoFi’s GoTu Partnership Quietly Redefine Its Workplace Ecosystem Strategy For SoFi Technologies (SOFI)? - In early January 2026, GoTu Technology announced a private partnership with SoFi to embed SoFi at Work financial-wellness tools, discounted student loan refinancing, and personal loan access directly ",
-      "url": "https://finance.yahoo.com/news/does-sofi-gotu-partnership-quietly-211310441.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b0ef3525b63ac82752df531d9841ff46",
-      "timestamp": "2026-01-23T06:04:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Mobileye Global Inc. (MBLY) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4861890-mobileye-global-inc-mbly-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "08787a3ac066f34747e8171911f71d1a",
-      "timestamp": "2026-01-23T06:03:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intel Gives Weak Forecast After Supply Shortages Hurt Sales - Intel Corp. gave a lackluster forecast for the current quarter because supply shortages are making it harder to meet customer demand, a disappointment for investors who anticipated more of a boost fro",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/intel-gives-weak-forecast-after-supply-shortages-hamper-sales",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "877dad3a238aa42b8d7d815484e95954",
-      "timestamp": "2026-01-23T06:03:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Nike: Too Little Room For Error",
-      "url": "https://seekingalpha.com/article/4862018-nike-too-little-room-for-error?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a9b41360c916684843b31ae3929a6a2",
-      "timestamp": "2026-01-23T06:03:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Altman Meets With Investors, OpenAI Eyes $830B Valuation | Bloomberg Tech 1/22/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss Elon Musk’s comments on AI costs and the future of robots at the World Economic Forum in Davos. Plus, OpenAI CEO Sam Altman is lining up funding from Mi",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/bloomberg-tech-1-22-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5596876666b6dd66ac85da54983fc19b",
-      "timestamp": "2026-01-23T06:00:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Davos Crowd Focuses on AI Returns After Year of Heavy Investments - If a key focus at last year’s World Economic Forum in Davos was the need for massive private and public investments to support artificial intelligence development, this year’s event was more about pro",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/davos-crowd-focuses-on-ai-returns-after-year-of-heavy-investments",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "65e645154a8234291254f372fab78708",
-      "timestamp": "2026-01-23T06:00:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Davos Crowd Focuses on AI Returns After Year of Heavy Investments - AI leaders tout their business growth and debate the risk posed by China",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-22/davos-crowd-searches-for-ai-returns-after-year-of-heavy-investments",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8f23fa39d5d58d834ae1bfbc0f45cc30",
-      "timestamp": "2026-01-23T05:54:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Data Center Spending Needs to Be at $1.4 Trillion in Next 5 Years, Says Cathie Wood - Cathie Wood, Founder, CEO and CIO of Ark Invest, said that investment in data centers needs to ramp up significantly to $1.4 trillion in the next five years to support the AI boom. \nWood also discusse",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/data-center-spend-needs-to-be-1-4t-in-5-years-wood-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "978315495f9c9a0606a110fd9fa3dea1",
-      "timestamp": "2026-01-23T05:37:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Putin Starts Moscow Talks With US Envoys Witkoff and Kushner - Russian President Vladimir Putin began talks with US envoys Steve Witkoff and Jared Kushner in the Kremlin on the latest peace plan aimed at ending his war in Ukraine.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/putin-starts-kremlin-talks-with-us-envoys-witkoff-and-kushner",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4241c5f7f4defd259680a44833f6508f",
-      "timestamp": "2026-01-23T05:24:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cathie Wood's 'Big Ideas' for 2026: Tech, Tesla and Deregulation - Ark Invest CEO and CIO Cathie Wood discusses her \"Big Ideas 2026\" report. Speaking with Carol Massar and Tim Stenovec, Wood says a \"technology revolution\" could lead to an average of more than 7% real",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/cathie-wood-s-big-ideas-tech-tesla-and-deregulation-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "032ea157c67ae756ce1aa1f5f57584e7",
-      "timestamp": "2026-01-23T05:13:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oaktree, Anchorage Join First Brands DIP Loan Amid Cash Burn - Distressed-debt giants Oaktree Capital Management and Anchorage Capital have amassed positions in the bankruptcy financing for First Brands Group, stepping in as negotiations over a fresh capital inje",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/oaktree-anchorage-join-first-brands-dip-loan-amid-cash-burn",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "65bdfdfaea87c5c71a705cb0f88c19e2",
-      "timestamp": "2026-01-23T05:05:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU's Kallas Says Greenlanders Want to Stay With Denmark - EU High Representative for Foreign Affairs and Security Policy Kaja Kallas says Greenlanders want to stay with Denmark, and not the US. She says Europe's adversaries enjoy seeing \"spats\" between allie",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/eu-s-kallas-says-bloc-seeks-stability-with-us-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e43d4bbef06f133573730ef18fdc2e39",
-      "timestamp": "2026-01-23T05:04:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "The Procter & Gamble Company (PG) Q2 2026 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4861915-the-procter-and-gamble-company-pg-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b739acd13e07dae60de43cecade22e2f",
-      "timestamp": "2026-01-23T05:04:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Alexandria Real Estate Equities: Increased Pain Requires A Downgrade",
-      "url": "https://seekingalpha.com/article/4862003-alexandria-real-estate-equities-increased-pain-requires-a-downgrade?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22295a018173127344338a248652ab41",
-      "timestamp": "2026-01-23T05:04:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Political Stability and Fiscal Sustainability Go Hand in Hand - Hello and welcome to the newsletter, a grab bag of daily content from the Odd Lots universe. Sometimes it's us, Joe Weisenthal and Tracy Alloway, bringing you our thoughts on the most recent developme",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-22/political-stability-and-fiscal-sustainability-go-hand-in-hand",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f1a698afc6f1a3e99f3765ca11face29",
-      "timestamp": "2026-01-23T05:03:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Ipsos SA (IPSOF) Analyst/Investor Day - Slideshow",
-      "url": "https://seekingalpha.com/article/4862019-ipsos-sa-ipsof-analyst-investor-day-slideshow?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "18177709b3191cc6499bf058cdd4c607",
-      "timestamp": "2026-01-23T05:03:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "VTIP: Playing It Safe With Inflation-Protected Fixed Income",
-      "url": "https://seekingalpha.com/article/4862002-vtip-playing-it-safe-with-inflation-protected-fixed-income?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6977219199a9b995257e546a96f57834",
-      "timestamp": "2026-01-23T05:02:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cathie Wood Sees Tech 'Boom' Leading to Sustained GDP Growth - \"We're in a technology revolution,\" Ark Invest CEO and CIO Cathie Wood says while discusses her \"Big Ideas 2026\" report on Bloomberg Television. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/cathie-wood-sees-tech-boom-driving-sustained-gdp-growth-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7b44e4e0d03c7dece4736a4648717994",
-      "timestamp": "2026-01-23T05:01:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Hecla Mining Company (HL) Presents at 29th Annual CIBC Western Institutional Investor Conference - Slideshow",
-      "url": "https://seekingalpha.com/article/4862017-hecla-mining-company-hl-presents-at-29th-annual-cibc-western-institutional-investor?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "50d2947f1dd705b97c387ef966fe52da",
-      "timestamp": "2026-01-23T05:01:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amy Klobuchar Files Paperwork to Run for Minnesota Governor - Senator Amy Klobuchar has filed paperwork to explore a run for Minnesota governor just weeks after fellow Democrat Tim Walz announced he would not seek another term, people familiar with her decision ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-22/amy-klobuchar-files-paperwork-to-run-for-minnesota-governor-mkpvn9na",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9026fffa3111cbb25f74ce2f863e5b7",
-      "timestamp": "2026-01-23T04:54:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "General Electric Company (GE) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4861869-general-electric-company-ge-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "52550d672ef90134d8395054cc7e7058",
-      "timestamp": "2026-01-23T04:54:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Recursion Pharmaceuticals, Inc. (RXRX) Presents at 28th Annual Needham Growth Conference Transcript",
-      "url": "https://seekingalpha.com/article/4862016-recursion-pharmaceuticals-inc-rxrx-presents-at-28th-annual-needham-growth-conference?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "196e899e41cbb59d573c4a7b4ecc1cc4",
-      "timestamp": "2026-01-23T04:53:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Army Explores Future of AI in Warfare - Joseph Welch, executive director of US Army Transformation and Training Command, said that AI can help soldiers do their jobs better and help them make 'human based judgments consistent with our laws ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/us-army-explores-future-of-ai-in-warfare-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "19f784bc8ee47aa783d2f49a308d7c94",
-      "timestamp": "2026-01-23T04:52:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Tesla Needs 20M FSD Subscribers Annually To Justify Its Valuation",
-      "url": "https://seekingalpha.com/article/4862000-tesla-needs-20m-fsd-subscribers-annually-to-justify-its-valuation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f391d9bfe0ded0a1ff7327f822656e63",
-      "timestamp": "2026-01-23T04:50:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US-China AI Race in Focus at Davos - Tech leaders at the World Economic Forum in Davos have been giving their views on the US-China AI race. Liza Tobin, managing director at Garnaut Global, says the US advantage lies in the scale of its ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-22/us-china-ai-race-in-focus-at-davos-video",
       "sentiment": "NEUTRAL"
     }
   ]
