@@ -1,6 +1,455 @@
 {
-  "last_updated": "2026-01-23T21:08:38.324328+09:00",
+  "last_updated": "2026-01-23T23:07:43.109627+09:00",
   "items": [
+    {
+      "id": "7311f16f4ccac0fbb02b8f3f5928e90d",
+      "timestamp": "2026-01-23T23:01:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Kratos Defense: Stretched Valuation But Options Offer Attractive Returns",
+      "url": "https://seekingalpha.com/article/4862211-kratos-defense-stretched-valuation-but-options-offer-attractive-returns?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "449ed861cf0f98e4c9eb59d93e2fc91d",
+      "timestamp": "2026-01-23T23:00:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Intel Stock: The 13% Pullback Isn't A Buy Signal",
+      "url": "https://seekingalpha.com/article/4862217-intel-stock-13-percent-pullback-isnt-a-buy-signal?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1e2f7ee34699a4d3cc5847dc9addcf66",
+      "timestamp": "2026-01-23T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "A Tough Road Ahead For The Bank of Japan",
+      "url": "https://seekingalpha.com/article/4862230-tough-road-ahead-for-bank-of-japan?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "322ea9bb1c5368dc4e1ca7633aca6163",
+      "timestamp": "2026-01-23T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "My Simple HSA Portfolio For Early Retirees In 2026",
+      "url": "https://seekingalpha.com/article/4861901-my-simple-hsa-portfolio-for-early-retirees-in-2026?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d4796d17a15a57032bd1adc63d2febf5",
+      "timestamp": "2026-01-23T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "IBM Q4 Earnings Preview: Expecting Strong Numbers Of Reformed Business",
+      "url": "https://seekingalpha.com/article/4862187-ibm-q4-earnings-preview-expecting-strong-numbers-of-reformed-business?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eb3c0e7c1aea3eef86409ef55677f99f",
+      "timestamp": "2026-01-23T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Adecoagro Integrates Upstream Into Fertilizers With A Bold Downcycle Bet",
+      "url": "https://seekingalpha.com/article/4862206-adecoagro-integrates-upstream-into-fertilizers-with-a-bold-downcycle-bet?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aff13b751eb84cd3934b12351cd1f98a",
+      "timestamp": "2026-01-23T22:57:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Hancock Whitney: Capital Remains A Differentiator",
+      "url": "https://seekingalpha.com/article/4862210-hancock-whitney-capital-remains-a-differentiator?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d8681a843d46c19493e6c6afe075ee16",
+      "timestamp": "2026-01-23T22:57:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Looking For Negatives In This Bull Market",
+      "url": "https://seekingalpha.com/article/4862209-looking-for-negatives-in-this-bull-market?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2b3884f667b9378e3c0aad73ba2a2851",
+      "timestamp": "2026-01-23T22:56:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Artisan Small Cap Fund Q4 2025 Commentary",
+      "url": "https://seekingalpha.com/article/4862208-artisan-small-cap-fund-q4-2025-commentary?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2b461eaf0f2efebf6c5736d96e4b15af",
+      "timestamp": "2026-01-23T22:50:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBS Reverses Bearish Siemens Energy Call After 165% Rally - Almost exactly a year after slapping a sell rating on Siemens Energy AG, UBS Group AG has turned positive on one of Europe’s best-performing largecaps.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/ubs-reverses-bearish-siemens-energy-call-after-165-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "91d78b71b907b2183ca195c0e72da4ab",
+      "timestamp": "2026-01-23T22:46:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Applied Materials: When Chip Complexity Becomes The Real Alpha",
+      "url": "https://seekingalpha.com/article/4862205-applied-materials-when-chip-complexity-becomes-the-real-alpha?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c42eb1888379f61722637b0922cdbcd4",
+      "timestamp": "2026-01-23T22:45:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "XPeng: Not Just A Car Company",
+      "url": "https://seekingalpha.com/article/4862203-xpeng-not-just-a-car-company?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d5394c3270fdea9390a687dc55a0d2d7",
+      "timestamp": "2026-01-23T22:45:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "DIVO's Tactical Income Approach Continues To Outperform VYM And SCHD",
+      "url": "https://seekingalpha.com/article/4862160-divos-tactical-income-approach-continues-to-outperform-vym-and-schd?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6047750a9b1397cb1424cd57a253d6c4",
+      "timestamp": "2026-01-23T22:45:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Intel: Time To Scale Back (Rating Downgrade)",
+      "url": "https://seekingalpha.com/article/4862213-intel-time-to-scale-back-rating-downgrade?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "336938fe545344f3dd34ae3920d40078",
+      "timestamp": "2026-01-23T22:45:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ethanol Push Sees Big Delay After E15 Setback, Trade Group Says - Efforts to expand the market for corn-based ethanol likely will be significantly delayed after an attempt to attach a key provision to must-pass legislation failed, according to a major trade group.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/ethanol-push-sees-big-delay-after-e15-setback-trade-group-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f203c1f8e673ad0d8851c0db5891af17",
+      "timestamp": "2026-01-23T22:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Hanover Insurance: Solid Q4 2025 Earnings Expectations Overshadowed By Severe Winter Weather",
+      "url": "https://seekingalpha.com/article/4862204-hanover-insurance-solid-q4-2025-earnings-expectations-overshadowed-by-severe-winter-weather?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3c6872b7e1a8f2f24a7251a55700c752",
+      "timestamp": "2026-01-23T22:41:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "NVE Corporation: Reliable Sensor Business, Unreliable Dividend Math",
+      "url": "https://seekingalpha.com/article/4862201-nve-corporation-reliable-sensor-business-unreliable-dividend-math?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "149e25e57837bf293328d756263fca7e",
+      "timestamp": "2026-01-23T22:35:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Lemonade: Love The Tesla Collaboration But Hate Current Valuation",
+      "url": "https://seekingalpha.com/article/4862207-lemonade-love-the-tesla-collaboration-but-hate-current-valuation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e8f1fab3382c0200a7b6a8c37a6defcc",
+      "timestamp": "2026-01-23T22:33:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "NextEra Energy: Everyone Seems To Love It And This Could Be A Problem",
+      "url": "https://seekingalpha.com/article/4862043-nextera-energy-everyone-seems-to-love-it-and-this-could-be-problem?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9b1ce3f341c00c53ae25bf35e26d4978",
+      "timestamp": "2026-01-23T22:31:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Booz Allen Hamilton Holding Corporation 2026 Q3 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4862223-booz-allen-hamilton-holding-corporation-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fda57607d31ba6f9bee0658b4aa9100d",
+      "timestamp": "2026-01-23T22:30:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "OFG Bancorp 2025 Q4 - Results - Earnings Call Presentation",
+      "url": "https://seekingalpha.com/article/4862219-ofg-bancorp-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8fa75b306ac1af1ea37f498d6730a91d",
+      "timestamp": "2026-01-23T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Seeking Alpha",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "The Market Priced In Bankruptcy; I Priced In Assets - Babcock & Wilcox And BRC",
+      "url": "https://seekingalpha.com/article/4861871-the-market-priced-in-bankruptcy-i-priced-in-assets-babcock-and-wilcox-and-brc-holdings-group?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "472460646e677bf21d1034ef89303f35",
+      "timestamp": "2026-01-23T22:03:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rutger Bregman on Europe's Weakness - \"We've become the continent of handbags instead of hardware.\"\n\nHistorian Rutger Bregman tells Mishal Husain Europe's \"embarrassing\" weakness makes it dependent on \"daddy Trump.\"\n\nSubscribe to The Mish",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/rutger-bregman-on-europe-s-weakness-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aa73821bdc8e34ebbaed7730e3005386",
+      "timestamp": "2026-01-23T22:00:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Best Online Brokers In 20 Key Performance Categories - Customers of the best online brokers say they want excellent website security, speed, prices, research and customer service.",
+      "url": "https://finance.yahoo.com/m/5dd2bac4-07c7-3df3-b5b9-50a0c225c8da/best-online-brokers-in-20-key.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ec80e354db848564b4bb36b37cbfee33",
+      "timestamp": "2026-01-23T22:00:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SLB Predicts Worst Is Behind Global Oil Market as OPEC Output to Climb - SLB, the world’s largest oilfield-services provider, raised its dividend and posted fourth-quarter earnings that beat estimates as activity in the Middle East and other key regions accelerated and its",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/slb-predicts-worst-is-behind-global-oil-market-as-opec-output-to-recover",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9579197f6af0ead2eebe5b0d1ebab6a1",
+      "timestamp": "2026-01-23T21:49:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wheat Extends Gain on Worries Freezing Weather Will Hurt Crops - Wheat futures rose for a second day in Chicago amid concern freezing weather in the US and Russia could damage crops, while traders kept an eye on geopolitical tensions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/wheat-extends-gain-on-worries-freezing-weather-will-hurt-crops",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "751399ca09898f7adce1e9e883e7aeaa",
+      "timestamp": "2026-01-23T21:45:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Tells Alibaba, Tech Firms to Prep Nvidia H200 Orders - Chinese officials have informed the country’s largest tech firms they can prepare orders for Nvidia Corp.’s H200 AI chips. Frank Lee, global head of tech hardware and semi research at HSBC examines th",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/china-tells-alibaba-others-to-prep-nvidia-h200-orders-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca402eebb963965916b8df148d8216d7",
+      "timestamp": "2026-01-23T21:40:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Russian Oil Trade Endures Despite Mounting US Pressure - The country’s biggest buyers currently have little incentive to abandon crude purchases from Moscow.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-23/india-s-russian-oil-trade-endures-despite-mounting-us-pressure",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "74658f05f3d6c935570a35f6bf7b5a25",
+      "timestamp": "2026-01-23T21:39:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "MTN’s Iran Troubles Deepen With CEO Ousted Over Shutdown Delay - Africa’s largest telecom company has become embroiled in Iran’s decision to shut down communications during this month’s deadly crackdown on protests.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/mtn-s-iran-troubles-deepen-with-ceo-ousted-over-shutdown-delay",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "face7e5e1b9fcea761c6bd040a2de33c",
+      "timestamp": "2026-01-23T21:38:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Owner of AI Consultancy Xebia Is Said to Weigh €1 Billion Sale - The private equity owner of Xebia is considering a sale of the artificial intelligence consulting firm, which could be valued at €1 billion ($1.2 billion) or more in a deal, according to people famili",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/owner-of-ai-consultancy-xebia-is-said-to-weigh-1-billion-sale",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b3737612db9919e8361c6e3e99228ba",
+      "timestamp": "2026-01-23T21:34:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian Central Bank to Add $23.6 Billion Cash Via New Measures - The Reserve Bank of India announced a fresh round of cash injections worth $23.6 billion through a slew of measures like bond purchases and a foreign exchange swap to ease tight banking liquidity cond",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/indian-central-bank-to-add-23-6-billion-cash-via-new-measures",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8de01fadd14eec5c7ac4c26ab88c873e",
+      "timestamp": "2026-01-23T21:27:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macron’s Davos Shades Crash Italian Maker’s Site, Boost Shares - When French President Emmanuel Macron walked out onto a Davos stage sporting a pair of reflective blue aviator sunglasses, Stefano Fulchir, the CEO of iVision Tech SpA, did a double take.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/macron-s-davos-shades-crash-italian-maker-s-site-boost-shares",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "31a148f174966e24ffc9198c8f3cfa67",
+      "timestamp": "2026-01-23T21:24:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer Taps Chandra as UK Trade and Investment Envoy to US - Prime Minister Keir Starmer has appointed his top business adviser Varun Chandra as his new special envoy to the US on trade and investment, as the UK seeks to mend relations with the Trump administra",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/starmer-appoints-chandra-as-uk-trade-and-investment-envoy-to-us",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d346e71d83f2c265e91dc6b331583930",
+      "timestamp": "2026-01-23T21:18:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Diversification Is 2026 Base Case for Principal’s Shah - Seema Shah, chief global strategist at Principal Asset Management, says the global diversification of markets is driven by fundamentals and goes beyond geopolitical risk. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/global-diversification-is-2026-base-case-for-seema-shah-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5cb0a53f7ef1241865f551886392a328",
+      "timestamp": "2026-01-23T21:14:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Intel Dives After Tepid Forecast, BOJ Holds Spurring Yen Volatility | The Opening Trade 1/23/2026 - Intel Corp. shares plunged in premarket trading after Chief Executive Officer Lip-Bu Tan gave a lackluster forecast and warned that the chipmaker was struggling with manufacturing problems.\n\nThe Bank ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/the-opening-trade-1-23-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9743f3161bcfa75df9abab45a72e4d3d",
+      "timestamp": "2026-01-23T21:11:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia-Ukraine Talks to Continue in UAE; Intel Drops After Earnings | Bloomberg Brief 1/23/2026 - US equity futures drop as Intel extends decline on a lackluster outlook and a warning on manufacturing snags. Russia, Ukraine and the US are set to continue peace talks in the UAE after the Kremlin sa",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-23/bloomberg-brief-1-23-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d714ab44995221869b45f43e3c9b62ff",
+      "timestamp": "2026-01-23T21:08:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Akshay Shah’s Hedge Fund Returns 48% on Distressed Debt Bets - Kyma Capital, a hedge fund run by Akshay Shah, delivered 48% net returns to investors last year, betting on distressed companies needing to address their debt piles, according to people with knowledge",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/hedge-fund-kyma-capital-returns-48-on-distressed-debt-bets",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c777d9aaa10c0dcca934e48f879682b6",
       "timestamp": "2026-01-23T21:05:00+09:00",
@@ -36,6 +485,17 @@
       ],
       "content": "Lamb Weston Holdings: Upgrade To Buy On Earnings Growth Potential",
       "url": "https://seekingalpha.com/article/4862184-lamb-weston-holdings-upgrade-to-buy-on-earnings-growth-potential?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c918989da7921d76bc888a0504a88989",
+      "timestamp": "2026-01-23T21:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CEOs Wary of a Jittery US Consumer as Global Tensions Intensify - As the US earnings season gathers momentum, early results are offering a window into the economic and political crosscurrents shaping Corporate America’s outlook for the year ahead.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/ceos-wary-of-a-jittery-us-consumer-as-global-tensions-intensify",
       "sentiment": "NEUTRAL"
     },
     {
@@ -97,6 +557,17 @@
       ],
       "content": "Investor Emotional Cycle Is Alive And Well",
       "url": "https://seekingalpha.com/article/4862188-investor-emotional-cycle-alive-and-well?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "85295f3089f4cc0c6fe8d2fb18ac68ce",
+      "timestamp": "2026-01-23T20:42:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Moroccan King Stresses Africa Ties After Divisive Football Match - King Mohammed VI of Morocco expressed regret over a series of “unfortunate” incidents during the final of the Africa Cup of Nations football tournament in Rabat over the weekend and said they shouldn’",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/moroccan-king-stresses-africa-ties-after-divisive-football-match",
       "sentiment": "NEUTRAL"
     },
     {
@@ -477,6 +948,17 @@
       "related_tickers": [],
       "content": "French Budget Drama Eases as No-Confidence Votes Fail - French Prime Minister Sebastien Lecornu survived two no-confidence votes over the 2026 budget on Friday, bringing the country closer to ending a period of political and financial upheaval.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-23/french-budget-drama-eases-as-premier-survives-no-confidence-vote",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6a59d3a0fec423e5cfbb3c72c203e78f",
+      "timestamp": "2026-01-23T19:40:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlueBay Says Yield Spike on Long Japan Debt Has Gone Too Far - The jump in yields on Japan’s long-maturity bonds has gone too far, according to RBC BlueBay Asset Management, which has initiated a long position in the battered securities.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-23/bluebay-says-yield-spike-in-japan-s-long-bonds-has-gone-too-far",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1897,484 +2379,6 @@
       ],
       "content": "The Clorox Company (CLX) M&A Call Transcript",
       "url": "https://seekingalpha.com/article/4862097-the-clorox-company-clx-m-and-a-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d90c6b8d5069268bde1314f30627f7ac",
-      "timestamp": "2026-01-23T12:43:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Muses About Asking NATO to Help Protect US Southern Border - President Donald Trump openly mused about invoking NATO’s collective defense obligation to place allied troops along the US-Mexico border, a suggestion that, even if not meant seriously, represents an",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/trump-muses-about-asking-nato-to-help-protect-us-southern-border",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b5d3bc2d9f7bba4da4abed1fe4e9bfa1",
-      "timestamp": "2026-01-23T12:38:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "UVIX: Hold Despite Macro Uncertainty",
-      "url": "https://seekingalpha.com/article/4862100-uvix-hold-despite-macro-uncertainty?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a7a1dbd10baa46882ef92c3d9cb66d0a",
-      "timestamp": "2026-01-23T12:38:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Corning Q4 Preview: Gen AI Tailwinds Are Real, But I Need Higher Earnings Power",
-      "url": "https://seekingalpha.com/article/4862099-corning-stock-q4-preview-gen-ai-tailwinds-need-higher-earnings?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2c3419a96bc22ed03635ba2b7f1b11f",
-      "timestamp": "2026-01-23T12:37:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Juspay’s New Funding Round Boosts Valuation to $1.2 Billion - Indian payments technology provider Juspay Technologies Pvt. has raised fresh funds in a round led by WestBridge Capital that boosts the company’s valuation to about $1.2 billion.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/juspay-s-new-funding-round-boosts-valuation-to-1-2-billion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "543fa5110e162f55d9620110933b9ecc",
-      "timestamp": "2026-01-23T12:36:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intel Tumbles As Manufacturing Snags Hit Comeback | The Asia Trade 1/23/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Singapore with Shery Ahn and Avril Hong, getting ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-23/the-asia-trade-1-23-2025-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06f76cedbff5117e52b39c6b5698ce03",
-      "timestamp": "2026-01-23T12:35:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Copper Nears $13,000 as Rally Gathers Pace With Other Metals - Copper climbed toward $13,000 a ton, rising along with other metals on dollar weakness and a broad investor rotation away from currencies and sovereign bonds.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/copper-nears-13-000-as-rally-gathers-pace-with-other-metals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5d5954e83af734c984d27545c06336fa",
-      "timestamp": "2026-01-23T12:27:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Phoenix Education Partners: Attractive Valuation With A Clearer Business Model",
-      "url": "https://seekingalpha.com/article/4862098-phoenix-education-partners-attractive-valuation-with-a-clearer-business-model?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f75aef78121a2e1ea5fc456add2d5d85",
-      "timestamp": "2026-01-23T12:25:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Renewables Growth To Be Driven By Shifting Priorities",
-      "url": "https://seekingalpha.com/article/4862106-renewables-growth-to-be-driven-by-shifting-priorities?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "94a1032ee2d1f0d00472e9f1a8b4ce8a",
-      "timestamp": "2026-01-23T12:19:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Aflac: Priced For A Perfect Scenario",
-      "url": "https://seekingalpha.com/article/4862096-aflac-stock-priced-for-perfect-scenario?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6be89a3fce94d67cc928d0ffbfd7deed",
-      "timestamp": "2026-01-23T12:15:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Xi Speaks With Brazil’s Lula, Vows to Deepen Ties - Chinese President Xi Jinping vowed to deepen bilateral ties with Brazil in a phone call with his Brazilian counterpart Luiz Inacio Lula da Silva, China’s state Xinhua News Agency reported Friday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/china-s-xi-speaks-with-brazil-s-lula-vows-to-deepen-ties",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c96ef4ddd4de321007e6e87a090d2bb4",
-      "timestamp": "2026-01-23T12:14:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Capital One Financial Corporation (COF) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4862087-capital-one-financial-corporation-cof-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fea2976b764cb7af3399364e559a83a6",
-      "timestamp": "2026-01-23T12:13:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Yen Weakens Against Dollar After BOJ Holds Benchmark Rate - The yen weakened after the Bank of Japan left its benchmark interest rate unchanged, falling as much as 0.2% to 158.74 to a dollar.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/yen-weakens-against-dollar-after-boj-holds-benchmark-rate",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "00eda5f91cace50e37c325c4050e6437",
-      "timestamp": "2026-01-23T12:11:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Powering the AI Boom | Bloomberg Tech: Asia 1/23/2026 - The rapid scaling of data centers to drive the global AI boom faces a major constraint in 2026: power. In the latest episode of Bloomberg Tech: Asia, Shery Ahn and Annabelle Droulers explore if and ho",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-23/powering-the-ai-boom-bloomberg-tech-asia-1-23-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ccd782d517214aebd5ae857ca824c93d",
-      "timestamp": "2026-01-23T12:09:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "MRNY: Jumping On Big Moderna Move",
-      "url": "https://seekingalpha.com/article/4862095-mrny-jumping-on-big-mrna-move?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "35effaf3e1fc45695ebbe7aa53022eff",
-      "timestamp": "2026-01-23T12:00:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "RBNZ’s Breman Defends Support for Powell Over Fed Independence - Reserve Bank of New Zealand Governor Anna Breman defended her decision to back Federal Reserve Chair Jerome Powell, after the move drew a rebuke from the South Pacific nation’s foreign minister for st",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/rbnz-s-breman-defends-support-for-powell-over-fed-independence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "80c4f5c45fcbedac0d4c484e8843d199",
-      "timestamp": "2026-01-23T12:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Carbon Capture And Storage Enters A New Era Of Progress",
-      "url": "https://seekingalpha.com/article/4862103-carbon-capture-storage-enters-new-era-of-progress?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1023a70799156a4675f98a7fb7524a40",
-      "timestamp": "2026-01-23T11:51:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "GDS-Backed DayOne Is Said to Eye $20 Billion Valuation in US IPO - DayOne Data Centers Ltd. is targeting a valuation as high as $20 billion in its planned US initial public offering, people familiar with the matter said, in what would be a substantial increase from r",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/gds-backed-dayone-is-said-to-eye-20-billion-valuation-in-us-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3434b02a250b74658f5eb37b3fea9949",
-      "timestamp": "2026-01-23T11:50:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "The Guessing Game Behind Dutch Pension Flows",
-      "url": "https://seekingalpha.com/article/4862101-guessing-game-behind-dutch-pension-flows?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "04954a9914357c65670c94955bc66b85",
-      "timestamp": "2026-01-23T11:50:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "White Falcon Capital Q4 And FY 2025 Partner Letter",
-      "url": "https://seekingalpha.com/article/4862102-white-falcon-capital-q4-and-fy-2025-partner-letter?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bfc86c292819345276fd0f16ed063311",
-      "timestamp": "2026-01-23T11:45:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Battered Small-, Mid-Cap Stocks Are Back on Indian Money Managers’ Radar - ICICI Prudential Mutual Fund is reopening its small-cap fund from today.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-23/little-respite-seen-for-rupee-icici-prudential-to-reopen-small-cap-fund",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "483f724c8a63b82f6d60063680b6ab7c",
-      "timestamp": "2026-01-23T11:44:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Alcoa Corporation (AA) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4862075-alcoa-corporation-aa-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd19cd82af547dd9c0c35918e6d19891",
-      "timestamp": "2026-01-23T11:44:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TikTok Seals Deal to Operate in the US - TikTok and its Chinese parent ByteDance have closed a long-awaited deal to transfer parts of their US operations to American investors. Bloomberg’s Annabelle Droulers shares what we know.",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-23/tiktok-seals-deal-to-operate-in-the-us-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "095b028eb4cf74ea697b8bf595577853",
-      "timestamp": "2026-01-23T11:40:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Indonesia’s Rupiah Hit a Record Low in January - Indonesia’s rupiah has been under sustained pressure for months as investors grow uneasy about the country’s fiscal outlook and the direction of economic policy. Those concerns pushed the currency to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/idr-usd-why-is-indonesia-rupiah-so-weak-how-is-its-economy-affected",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca58bc5b9cd8cfac0d5178d3c6599981",
-      "timestamp": "2026-01-23T11:34:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Columbia Banking System, Inc. (COLB) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4862083-columbia-banking-system-inc-colb-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c0d772c91393283e191bedf295b4bb7c",
-      "timestamp": "2026-01-23T11:31:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "RBNZ’s Breman Declines to Push Back on Rate-Hike Expectations - Reserve Bank of New Zealand Governor Anna Breman declined to push back against market expectations for an interest-rate hike this year, a shift in tone from comments she made just weeks ago.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/rbnz-s-breman-declines-to-push-back-on-rate-hike-expectations",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa180513abb282dbea53d74d490bc724",
-      "timestamp": "2026-01-23T11:30:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "PGJ: One Of The Less-Appealing Chinese ETFs",
-      "url": "https://seekingalpha.com/article/4862091-pgj-less-appealing-chinese-etf?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4181a116080845c0381ba3e19b4f246c",
-      "timestamp": "2026-01-23T11:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Modi’s Party Has Edge in State Polls With Big Cash Stockpile - Prime Minister Narendra Modi’s Bharatiya Janata Party has a cash stockpile of nearly $1.3 billion while its main rival has just 6.6% of that amount, giving India’s ruling party a strong advantage ahea",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/modi-s-party-has-edge-in-state-polls-with-big-cash-stockpile",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c47fd8694081d88a5577f201447e4d3a",
-      "timestamp": "2026-01-23T11:24:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Intel Corporation (INTC) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4862077-intel-corporation-intc-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "173049ab2eeadecc9c0bb1dfe0beece4",
-      "timestamp": "2026-01-23T11:22:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Board of Peace Withdrawing Invite to Canada’s Carney - President Donald Trump said that his new Board of Peace was withdrawing Canada’s invitation to join, days after Prime Minister Mark Carney issued a withering speech at the World Economic Forum in Davo",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/trump-says-board-of-peace-withdrawing-invite-to-canada-s-carney",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e2bde496134871f8abdf1d45edad84f8",
-      "timestamp": "2026-01-23T11:19:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Credit Partying Like The 90s, But a Trillion Dollar Test Looms - Credit investors who shrugged off an historic bout of global volatility this week are about to face a major test after yield premiums on US investment-grade corporate debt shrunk to their lowest in ab",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/credit-partying-like-the-90s-but-a-trillion-dollar-test-looms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b030f0c9257698680e598a0eaf957a74",
-      "timestamp": "2026-01-23T11:18:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Is Lending to the Gulf at Record Pace, Tightening Ties - The Gulf is fast emerging as part of China’s next big financial play, with years of diplomatic overtures now translating into hard cash.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/china-is-lending-to-the-gulf-at-record-pace-tightening-ties",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6a6e1aaa6e75520102ad8a2c01b7d890",
-      "timestamp": "2026-01-23T11:14:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s Sales of Treasuries Deepen Pivot Away From Dollar Assets - India’s holdings of US Treasuries have fallen to a five-year low as the nation pushes to support its currency and diversify its reserves, joining a broader shift by some major economies out of the wor",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/india-s-sales-of-treasuries-deepen-pivot-away-from-dollar-assets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4e2deec8c41860e28830e96e59a0f297",
-      "timestamp": "2026-01-23T11:01:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Alcoa Corporation 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4862094-alcoa-corporation-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ff61702a39fb6cdd9599467c02f1d1e7",
-      "timestamp": "2026-01-23T10:50:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Confluence Investment Management's Keller Q4 2025 Quarterly",
-      "url": "https://seekingalpha.com/article/4862093-confluence-investment-managements-keller-q4-2025-quarterly?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "97310f7f05f070d3fe53715fd2d00fcf",
-      "timestamp": "2026-01-23T10:44:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Business First Bancshares, Inc. (BFST) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4862076-business-first-bancshares-inc-bfst-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f5474c0465c76dadaa1d780b9210b972",
-      "timestamp": "2026-01-23T10:43:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Journey Medical: Emrosi Is Winning, But The Stock Hasn't Noticed",
-      "url": "https://seekingalpha.com/article/4862086-journey-medical-emrosi-winning-stock-has-not-noticed?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "db6e81d8943f0f45ff99ae5bfa7c3eac",
-      "timestamp": "2026-01-23T10:36:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Korea’s SK Hynix and Samsung Boosted by Strong Memory Demand - Nvidia Corp. key supplier SK Hynix Inc. should demonstrate increasingly powerful momentum across the broader semiconductor sector as demand for memory chips picks up.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/south-korea-s-sk-hynix-and-samsung-boosted-by-strong-memory-demand",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5b8abb2a1894408996cb327ae02ad2c8",
-      "timestamp": "2026-01-23T10:36:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "In Trump v. Dimon, Years of Strain Culminate in $5 Billion Suit - JPMorgan Chase &amp; Co. Chief Executive Officer Jamie Dimon was heading home after another whirlwind trip to Davos, when the news hit: President Donald Trump was suing him and his bank for $5 billion",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/in-trump-v-dimon-years-of-strain-culminate-in-5-billion-suit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a41a736caf36524cff7f0ee521230575",
-      "timestamp": "2026-01-23T10:30:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Business First Bancshares, Inc. 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4862092-business-first-bancshares-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1ca89a0ab3bb035b019d3aff7f80d84e",
-      "timestamp": "2026-01-23T10:24:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Sets Yuan Fixing Stronger Than 7 for First Time Since 2023 - China’s central bank set the yuan’s daily reference rate stronger than the closely watched 7-per-dollar level for the first time in over two years, in the latest sign of policymakers’ intention to all",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/china-sets-yuan-fixing-stronger-than-7-for-first-time-since-2023",
       "sentiment": "NEUTRAL"
     }
   ]
