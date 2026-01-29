@@ -1,6 +1,281 @@
 {
-  "last_updated": "2026-01-29T23:26:11.762533+09:00",
+  "last_updated": "2026-01-30T01:13:15.278410+09:00",
   "items": [
+    {
+      "id": "c444ada20384e9bf5d38aa507007dee1",
+      "timestamp": "2026-01-30T01:02:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hungary's Szijjártó Criticizes EU Policy on War in Ukraine - Hungarian Foreign Minister Péter Szijjártó discusses his administration's unhappiness over the European Union's policy on the war in Ukraine. He sits down with Bloomberg's Stephen Carroll in Brussels.",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/hungary-s-szijjarto-criticizes-eu-policy-on-ukraine-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "851b30ba808747d11fc9424b4226bfec",
+      "timestamp": "2026-01-30T01:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Pros See Potential, Obstacles in Prediction Markets - Wall Street professionals have a broadly positive perception of prediction markets, but the nascent sector’s lack of liquidity is a key stumbling block to reaching the mainstream.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/wall-street-pros-see-potential-obstacles-in-prediction-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "21c9c588915528a59f4e76b19330b3b3",
+      "timestamp": "2026-01-30T00:58:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chile is Having Fewer Babies Than Ever as Pro-Natalist Heads to Power - Chile’s total fertility rate is projected to have sunk in 2025 to less than one child per woman, among the world’s lowest, according to fresh government data that is sure to amplify the incoming presi",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/chile-is-having-fewer-babies-than-ever-as-pro-natalist-heads-to-power",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9bfa85982ed1a8269c3d72bd8a13079a",
+      "timestamp": "2026-01-30T00:55:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blackstone’s Gray Sees AI Disrupting Industries as Biggest Risk - While some investors are raising alarms of a looming bubble in artificial intelligence, Blackstone Inc. President Jon Gray is focused on a different risk tied to the technology &mdash; the rapid disru",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/blackstone-s-gray-sees-ai-disrupting-industries-as-biggest-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a2dbd1e31ed911f32d2d7c5c4fa36461",
+      "timestamp": "2026-01-30T00:53:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street's Stamp of Legitimacy Fuels Suspected Pump-and-Dumps - US regulators are scrutinizing how dozens of small, foreign-based companies became targets of chatroom stock promoters. Bloomberg's Weihua Li explains. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/wall-street-s-legitimacy-fuels-suspected-pump-and-dumps-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1d31ed511e54c119cdf6fe83114dae39",
+      "timestamp": "2026-01-30T00:45:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Factory Orders Rose 2.7% in November - Orders from US factories rose 2.7% in November to $621.6 billion, from $605.4 billion in October. Mike McKee reports on \"Bloomberg Open Interest.\"  (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/us-factory-orders-rose-2-7-in-november-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "42cd00550dcc174fc44118921c779f12",
+      "timestamp": "2026-01-30T00:39:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Case for Raiding Your 401(K) - Economist and Bloomberg Opinion columnist Allison Schrager raided her 401(k) to buy a house. She thinks you should have the option to as well. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/opinion-the-case-to-raid-your-401-k-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e306edefc24a5ba778bd247d16735730",
+      "timestamp": "2026-01-30T00:33:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "International Paper Splitting Into Two Listed Companies - International Paper Chairman and CEO Andy Silvernail discusses plans to break up and spin off the European packaging business to create two independent, publicly traded companies. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/international-paper-splitting-into-two-listed-companies-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "043fabe72307e0aeaf5dc7f2c204f7f7",
+      "timestamp": "2026-01-30T00:32:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How to Invest in a Company Before It Goes Public - <p>On this episode&nbsp;of <em>Trillions</em>, we discuss the elusive art of getting a piece&nbsp;of a private company.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/podcast-how-to-invest-in-a-company-before-it-goes-public",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fa9b5ac7f1af53bfa674895f0340d27a",
+      "timestamp": "2026-01-30T00:28:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa Awaits US Trade-Pact Vote With Impact Seen Modest - South Africa risks losing preferential access to the US market under a key African trade pact that’s before Congress, though the economic impact would likely be limited even if the country is excluded",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/south-africa-awaits-us-trade-pact-vote-with-impact-seen-modest",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1cecbedc7437319f191f44fd09ca4879",
+      "timestamp": "2026-01-30T00:23:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Braces for AI Bond Binge as Complacency Fears Mount - Wall Street is gearing up for a borrowing bonanza to bankroll artificial intelligence projects that could push February corporate bond sales to a record, even as warnings against complacency continue ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/wall-street-braces-for-ai-bond-binge-as-complacency-fears-mount",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1cecbedc7437319f191f44fd09ca4879",
+      "timestamp": "2026-01-30T00:23:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Braces for AI Bond Binge as Complacency Fears Mount - Wall Street is gearing up for a borrowing bonanza to bankroll artificial intelligence projects that could push February corporate bond sales to a record, even as warnings against complacency continue ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/wall-street-braces-for-ai-bond-binge-as-complacency-fears-mount",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3adeb3d7627555a5c650758a0aaed376",
+      "timestamp": "2026-01-30T00:14:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blackstone's Gray Says Deal Environment Hitting 'Escape Velocity' - Blackstone President and COO Jon Gray says he expects a strong deal environment amid an economy that looks pretty good this year. Speaking with Dani Burger on \"Bloomberg Open Interest,\" Gray also comm",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/blackstone-s-gray-deal-environment-at-escape-velocity-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "11c77e1578992841a1fb98e6fd4cda0f",
+      "timestamp": "2026-01-30T00:12:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Trade Barbs Won’t Push EU Closer to China, Hoekstra Says - The European Union must resist China’s pull in clean technologies, even as it confronts the reality that deteriorating relations with the US may be “permanent,” according to the bloc’s climate chief.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/trump-s-trade-barbs-won-t-push-eu-closer-to-china-hoekstra-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "30a0a741d4659d72f48a27667163fe52",
+      "timestamp": "2026-01-30T00:11:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oracle’s Value Is Cut In Half From 2025 Peak as AI Caution Rises - Oracle Corp. shares have fallen more than 50% from last year’s all-time high as investors concerned about the artificial intelligence trade and the company’s links to OpenAI flee the stock.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/oracle-shares-tumble-50-from-record-as-ai-caution-intensifies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cf8b90ac0354c7e88c6f6b51988ede58",
+      "timestamp": "2026-01-30T00:05:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Swiss Price Pressures Have Barely Changed, SNB’s Schlegel Says - Switzerland’s inflation situation is basically unchanged from last year, according to Swiss National Bank President Martin Schlegel.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/swiss-price-pressures-have-barely-changed-snb-s-schlegel-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5f714f40946ff6a35dd8f67950e5421b",
+      "timestamp": "2026-01-30T00:02:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Africa Finance Corp. Says S&amp;P Rating May Help it Add Investors - Africa Finance Corp. expects its inaugural investment grade credit assessment from S&amp;P Global Ratings to bolster the drive to expand its shareholder base, slash borrowing costs and diversify fundi",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/africa-finance-corp-says-s-p-rating-may-help-it-add-investors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d98ef906241399cbffd7a725350415b",
+      "timestamp": "2026-01-30T00:01:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Homan Says Cuts Coming to ICE in Minnesota, But Trump Remains Committed to Immigration Policy - Trump's border czar Tom Homan told reporters that he is aiming to cut the number of federal immigration officers in Minnesota and conduct more targeted anti-immigration operations in the state as admi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/homan-says-cuts-coming-to-ice-in-minnesota-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2562f490f1cc53322a2634f5818330ac",
+      "timestamp": "2026-01-29T23:53:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Citi 'Really Constructive' on US Stocks, CIO Kate Moore Says - Citi Wealth CIO Kate Moore says the fundamentals look \"really, really strong\" for US stocks during an interview on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/citi-really-constructive-on-us-stocks-cio-moore-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "82dbe8c706dc5f0188230b23046548c0",
+      "timestamp": "2026-01-29T23:52:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tech Stocks Fall as Traders Weigh Billions in AI Spending Plans - Technology shares declined, dragging the broader stock market lower, as earnings results from Microsoft Corp. boosted concern about the payoff from heavy spending on the artificial intelligence techno",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-stocks-slip-as-traders-weigh-billions-in-ai-spending-plans",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a79aefeda74b9ce4d8297ded01f7fe25",
+      "timestamp": "2026-01-29T23:44:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hungary Minister Backs Russian Energy Against EU, Opposition - Hungary’s top diplomat defended the country’s growing consumption of Russian energy, which has put Prime Minister Viktor Orban’s administration in the crosshairs of both the European Union and Hungary",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/hungary-top-diplomat-backs-russian-energy-against-eu-opposition",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9b88513f720516311b730e7086d087b6",
+      "timestamp": "2026-01-29T23:21:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Trade Gap Widens to $56 Billion in November - Overall imports rose by 5% in November, while the value of exports fell by 3.6%. Weekly initial jobless claims were little changed. Bloomberg's Michael McKee reports. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/us-trade-gap-widens-to-56-billion-in-november-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "530182ec2db705a44c8f72c1ba84d828",
+      "timestamp": "2026-01-29T23:21:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dollar Slide a Sign of Global Investor Hedging, Federated Says - The dollar’s slump this month in the face of steady US stock and bond markets suggests that global investors are raising their hedges against a weaker greenback rather than dumping American assets, sa",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/dollar-slide-a-sign-of-global-investor-hedging-federated-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "697e5f98b3a2a2d993c343ed7f7a6fd9",
+      "timestamp": "2026-01-29T23:21:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Citigroup UK Boss on Strong Deals Pipeline - Tiina Lee, Citi UK CEO, has touted the strength of this year’s deal pipeline, the latest banker to predict a deluge of transactions in 2026. It's “the strongest that we’ve seen now for quite a number ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/citigroup-uk-boss-on-strong-deals-pipeline-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2ec1071f6081461e9e114bb5e9cb83b9",
+      "timestamp": "2026-01-29T23:14:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Denmark’s King to Visit Greenland to Show Support After US Spat - Denmark’s King Frederik X will travel to Greenland next month to show support for the locals, following weeks of intense pressure by the US administration to gain control of the Arctic island.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/denmark-s-king-to-visit-greenland-to-show-support-after-us-spat",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "4f01efffa8f0e06b30ce655783796f39",
       "timestamp": "2026-01-29T23:13:04+09:00",
@@ -54,6 +329,17 @@
       "related_tickers": [],
       "content": "Lured by 38% Rates, Carry-Trade Investors Pile Into Milei’s Peso - Having lost more of its value than any other major currency in the world this century, the Argentine peso has long been seen as far too unstable to lure carry-trade investors. But in a sign of just ho",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/ars-usd-milei-s-strong-peso-lures-carry-trade-investors-to-argentina",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7156b71c15a264c8e3e3470793f45a93",
+      "timestamp": "2026-01-29T22:55:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ASML, SAP Show Widening Gap Between AI Winners and Losers - In the space of 48 hours, the fate of Europe’s top two tech stocks has shown how fast the artificial intelligence boom is causing investors to pick winners and losers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/asml-sap-show-widening-gap-between-ai-winners-and-losers",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1203,6 +1489,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "d7881af4f9fc4563806f5a1645e39306",
+      "timestamp": "2026-01-29T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Deutsche Bank’s DWS Puts CEO Veto on Hiring in Cost Drive - DWS Group Chief Executive Officer Stefan Hoops has taken a page out of his mentor’s cost-cutting playbook: hiring decisions at Deutsche Bank AG’s asset management unit now need his signature.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/dws-boss-to-sign-off-on-external-hires-to-keep-costs-in-check",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "207a8fe7fcbe0efc507942339b9d982a",
       "timestamp": "2026-01-29T17:58:06+09:00",
       "source_type": "NEWS",
@@ -1541,6 +1838,17 @@
       "related_tickers": [],
       "content": "Advantest Surges After Raising Forecast on Strong Earnings - Advantest Corp. shares jumped as much as 14% to a record high after the company beat earnings estimates and raised its forecast.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/advantest-surges-after-raising-forecast-on-strong-earnings",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cf4e65bfb1558c751dcdce83419056c3",
+      "timestamp": "2026-01-29T09:07:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ICE Blasted by Minneapolis Judge for Violating 96 Orders - A federal judge in Minnesota sharply criticized US Immigration and Customs Enforcement for violating court orders almost 100 times in 74 cases brought by immigrants so far this year, while saying the ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ice-blasted-by-minneapolis-judge-for-violating-scores-of-orders",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2005,334 +2313,6 @@
       ],
       "content": "Lemonade: Love The Tesla Collaboration But Hate Current Valuation",
       "url": "https://seekingalpha.com/article/4862207-lemonade-love-the-tesla-collaboration-but-hate-current-valuation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e8f1fab3382c0200a7b6a8c37a6defcc",
-      "timestamp": "2026-01-23T22:33:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "NextEra Energy: Everyone Seems To Love It And This Could Be A Problem",
-      "url": "https://seekingalpha.com/article/4862043-nextera-energy-everyone-seems-to-love-it-and-this-could-be-problem?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b1ce3f341c00c53ae25bf35e26d4978",
-      "timestamp": "2026-01-23T22:31:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Booz Allen Hamilton Holding Corporation 2026 Q3 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4862223-booz-allen-hamilton-holding-corporation-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fda57607d31ba6f9bee0658b4aa9100d",
-      "timestamp": "2026-01-23T22:30:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "OFG Bancorp 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4862219-ofg-bancorp-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8fa75b306ac1af1ea37f498d6730a91d",
-      "timestamp": "2026-01-23T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "The Market Priced In Bankruptcy; I Priced In Assets - Babcock & Wilcox And BRC",
-      "url": "https://seekingalpha.com/article/4861871-the-market-priced-in-bankruptcy-i-priced-in-assets-babcock-and-wilcox-and-brc-holdings-group?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "472460646e677bf21d1034ef89303f35",
-      "timestamp": "2026-01-23T22:03:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rutger Bregman on Europe's Weakness - \"We've become the continent of handbags instead of hardware.\"\n\nHistorian Rutger Bregman tells Mishal Husain Europe's \"embarrassing\" weakness makes it dependent on \"daddy Trump.\"\n\nSubscribe to The Mish",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-23/rutger-bregman-on-europe-s-weakness-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa73821bdc8e34ebbaed7730e3005386",
-      "timestamp": "2026-01-23T22:00:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Best Online Brokers In 20 Key Performance Categories - Customers of the best online brokers say they want excellent website security, speed, prices, research and customer service.",
-      "url": "https://finance.yahoo.com/m/5dd2bac4-07c7-3df3-b5b9-50a0c225c8da/best-online-brokers-in-20-key.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ec80e354db848564b4bb36b37cbfee33",
-      "timestamp": "2026-01-23T22:00:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SLB Predicts Worst Is Behind Global Oil Market as OPEC Output to Climb - SLB, the world’s largest oilfield-services provider, raised its dividend and posted fourth-quarter earnings that beat estimates as activity in the Middle East and other key regions accelerated and its",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/slb-predicts-worst-is-behind-global-oil-market-as-opec-output-to-recover",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9579197f6af0ead2eebe5b0d1ebab6a1",
-      "timestamp": "2026-01-23T21:49:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wheat Extends Gain on Worries Freezing Weather Will Hurt Crops - Wheat futures rose for a second day in Chicago amid concern freezing weather in the US and Russia could damage crops, while traders kept an eye on geopolitical tensions.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/wheat-extends-gain-on-worries-freezing-weather-will-hurt-crops",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "751399ca09898f7adce1e9e883e7aeaa",
-      "timestamp": "2026-01-23T21:45:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Tells Alibaba, Tech Firms to Prep Nvidia H200 Orders - Chinese officials have informed the country’s largest tech firms they can prepare orders for Nvidia Corp.’s H200 AI chips. Frank Lee, global head of tech hardware and semi research at HSBC examines th",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-23/china-tells-alibaba-others-to-prep-nvidia-h200-orders-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca402eebb963965916b8df148d8216d7",
-      "timestamp": "2026-01-23T21:40:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s Russian Oil Trade Endures Despite Mounting US Pressure - The country’s biggest buyers currently have little incentive to abandon crude purchases from Moscow.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-23/india-s-russian-oil-trade-endures-despite-mounting-us-pressure",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "74658f05f3d6c935570a35f6bf7b5a25",
-      "timestamp": "2026-01-23T21:39:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "MTN’s Iran Troubles Deepen With CEO Ousted Over Shutdown Delay - Africa’s largest telecom company has become embroiled in Iran’s decision to shut down communications during this month’s deadly crackdown on protests.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/mtn-s-iran-troubles-deepen-with-ceo-ousted-over-shutdown-delay",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "face7e5e1b9fcea761c6bd040a2de33c",
-      "timestamp": "2026-01-23T21:38:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Owner of AI Consultancy Xebia Is Said to Weigh €1 Billion Sale - The private equity owner of Xebia is considering a sale of the artificial intelligence consulting firm, which could be valued at €1 billion ($1.2 billion) or more in a deal, according to people famili",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/owner-of-ai-consultancy-xebia-is-said-to-weigh-1-billion-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b3737612db9919e8361c6e3e99228ba",
-      "timestamp": "2026-01-23T21:34:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian Central Bank to Add $23.6 Billion Cash Via New Measures - The Reserve Bank of India announced a fresh round of cash injections worth $23.6 billion through a slew of measures like bond purchases and a foreign exchange swap to ease tight banking liquidity cond",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/indian-central-bank-to-add-23-6-billion-cash-via-new-measures",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8de01fadd14eec5c7ac4c26ab88c873e",
-      "timestamp": "2026-01-23T21:27:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macron’s Davos Shades Crash Italian Maker’s Site, Boost Shares - When French President Emmanuel Macron walked out onto a Davos stage sporting a pair of reflective blue aviator sunglasses, Stefano Fulchir, the CEO of iVision Tech SpA, did a double take.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/macron-s-davos-shades-crash-italian-maker-s-site-boost-shares",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "31a148f174966e24ffc9198c8f3cfa67",
-      "timestamp": "2026-01-23T21:24:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer Taps Chandra as UK Trade and Investment Envoy to US - Prime Minister Keir Starmer has appointed his top business adviser Varun Chandra as his new special envoy to the US on trade and investment, as the UK seeks to mend relations with the Trump administra",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/starmer-appoints-chandra-as-uk-trade-and-investment-envoy-to-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d346e71d83f2c265e91dc6b331583930",
-      "timestamp": "2026-01-23T21:18:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Diversification Is 2026 Base Case for Principal’s Shah - Seema Shah, chief global strategist at Principal Asset Management, says the global diversification of markets is driven by fundamentals and goes beyond geopolitical risk. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-23/global-diversification-is-2026-base-case-for-seema-shah-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5cb0a53f7ef1241865f551886392a328",
-      "timestamp": "2026-01-23T21:14:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intel Dives After Tepid Forecast, BOJ Holds Spurring Yen Volatility | The Opening Trade 1/23/2026 - Intel Corp. shares plunged in premarket trading after Chief Executive Officer Lip-Bu Tan gave a lackluster forecast and warned that the chipmaker was struggling with manufacturing problems.\n\nThe Bank ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-23/the-opening-trade-1-23-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9743f3161bcfa75df9abab45a72e4d3d",
-      "timestamp": "2026-01-23T21:11:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia-Ukraine Talks to Continue in UAE; Intel Drops After Earnings | Bloomberg Brief 1/23/2026 - US equity futures drop as Intel extends decline on a lackluster outlook and a warning on manufacturing snags. Russia, Ukraine and the US are set to continue peace talks in the UAE after the Kremlin sa",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-23/bloomberg-brief-1-23-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d714ab44995221869b45f43e3c9b62ff",
-      "timestamp": "2026-01-23T21:08:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Akshay Shah’s Hedge Fund Returns 48% on Distressed Debt Bets - Kyma Capital, a hedge fund run by Akshay Shah, delivered 48% net returns to investors last year, betting on distressed companies needing to address their debt piles, according to people with knowledge",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/hedge-fund-kyma-capital-returns-48-on-distressed-debt-bets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c777d9aaa10c0dcca934e48f879682b6",
-      "timestamp": "2026-01-23T21:05:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "I'm Betting Big On These 8-10% Yields For Early Retirement",
-      "url": "https://seekingalpha.com/article/4862172-i-am-betting-big-on-these-8-10-percent-yields-for-early-retirement?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "febf53998b9f51ae5dd9b07d9ab165d1",
-      "timestamp": "2026-01-23T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Musk-OpenAI Lawsuit Reveals Sam Altman’s Penchant for Lowercase - The CEO’s writing style is a subject of much examination",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-23/musk-openai-lawsuit-reveals-sam-altman-s-writing-style",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "adaf1eca2e10d9dec2ee7894a19a288d",
-      "timestamp": "2026-01-23T21:00:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Lamb Weston Holdings: Upgrade To Buy On Earnings Growth Potential",
-      "url": "https://seekingalpha.com/article/4862184-lamb-weston-holdings-upgrade-to-buy-on-earnings-growth-potential?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c918989da7921d76bc888a0504a88989",
-      "timestamp": "2026-01-23T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CEOs Wary of a Jittery US Consumer as Global Tensions Intensify - As the US earnings season gathers momentum, early results are offering a window into the economic and political crosscurrents shaping Corporate America’s outlook for the year ahead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/ceos-wary-of-a-jittery-us-consumer-as-global-tensions-intensify",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dfee11e2418498888c249680f2dd9be",
-      "timestamp": "2026-01-23T20:54:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Natural Gas Volatility Ahead Of Winter Storm Fern",
-      "url": "https://seekingalpha.com/article/4862156-natural-gas-volatility-ahead-of-winter-storm-fern?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a6cb9df57e7c2eef68298e09503c3130",
-      "timestamp": "2026-01-23T20:49:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Wall Street Breakfast Podcast: Winter Storm Brewing, Carts Filling",
-      "url": "https://seekingalpha.com/article/4862191-wall-street-breakfast-podcast-winter-storm-brewing-carts-filling?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0494224f87d786cb274712ce0ddcbd9a",
-      "timestamp": "2026-01-23T20:47:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brazilian Police Target Pension Fund as Banco Master Probe Grows - Brazil police started probing a Rio de Janeiro civil servant pension fund and its investments in Banco Master SA, marking the newest phase of the investigation into what could be the country’s biggest",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/brazilian-police-target-pension-fund-as-banco-master-probe-grows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0494224f87d786cb274712ce0ddcbd9a",
-      "timestamp": "2026-01-23T20:47:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brazilian Police Target Pension Fund as Banco Master Probe Grows - Brazil police started probing a Rio de Janeiro civil servant pension fund and its investments in Banco Master SA, marking the newest phase of the investigation into what could be the country’s biggest",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/brazilian-police-target-pension-fund-as-banco-master-probe-grows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aeb4047339ca0a882514b443eb824071",
-      "timestamp": "2026-01-23T20:45:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Investor Emotional Cycle Is Alive And Well",
-      "url": "https://seekingalpha.com/article/4862188-investor-emotional-cycle-alive-and-well?source=feed_all_articles",
       "sentiment": "NEUTRAL"
     }
   ]
