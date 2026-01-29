@@ -492,16 +492,23 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
         prompt = get_deep_dive_prompt(date_str, macro_data, technical_data)
     else:
         # Daily News 모드 - 고도화된 프롬프트
+        # f-string 내부에서 백슬래시 사용을 피하기 위해 먼저 변수에 저장
+        macro_context = format_macro_context(macro_data) if (macro_data.get("tnx") or macro_data.get("competitors")) else ""
+        technical_context = format_technical_context(technical_data) if technical_data.get("ohlcv") else ""
+        previous_context = ""
+        if previous_summary:
+            previous_context = f"**이전 분석 맥락 (어제)**:\n{previous_summary}\n\n이전 전망과 비교하여 뷰를 수정하거나 강화하세요. 연속성을 유지하면서 오늘의 새로운 정보를 반영하세요.\n\n"
+        
         prompt = f"""당신은 월스트리트의 20년 차 핀테크 전문 헤지펀드 매니저입니다.
 아래 SoFi(SOFI) 관련 최신 뉴스들의 **실제 기사 내용**을 분석하여 투자자들이 이해하기 쉬운 블로그 포스트를 작성하세요.
 
 **날짜**: {date_str}
 
-{format_macro_context(macro_data) if macro_data.get("tnx") or macro_data.get("competitors") else ""}
+{macro_context}
 
-{format_technical_context(technical_data) if technical_data.get("ohlcv") else ""}
+{technical_context}
 
-{f"**이전 분석 맥락 (어제)**:\n{previous_summary}\n\n이전 전망과 비교하여 뷰를 수정하거나 강화하세요. 연속성을 유지하면서 오늘의 새로운 정보를 반영하세요.\n\n" if previous_summary else ""}
+{previous_context}
 
 **수집된 뉴스 (제목, URL, 실제 기사 내용 포함)**:
 {news_summary}
