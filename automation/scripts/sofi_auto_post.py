@@ -338,10 +338,12 @@ def fetch_article_content(url: str, timeout: int = 10) -> Optional[str]:
 
 
 def prepare_news_summary(items: List[Dict]) -> str:
-    """뉴스 아이템을 요약 텍스트로 변환 (실제 기사 내용 포함)"""
-    summary = f"총 {len(items)}개의 SOFI 관련 뉴스\n\n"
+    """뉴스 아이템을 요약 텍스트로 변환 (실제 기사 내용 포함, Seeking Alpha 제외)"""
+    # Seeking Alpha 기사 필터링
+    filtered_items = [item for item in items if "seekingalpha.com" not in item.get("url", "").lower()]
+    summary = f"총 {len(filtered_items)}개의 SOFI 관련 뉴스 (Seeking Alpha 제외: {len(items) - len(filtered_items)}개)\n\n"
     
-    for idx, item in enumerate(items, 1):
+    for idx, item in enumerate(filtered_items, 1):
         timestamp = item.get("timestamp", "")
         try:
             dt = datetime.fromisoformat(timestamp)
