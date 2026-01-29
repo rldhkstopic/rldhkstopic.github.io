@@ -243,74 +243,14 @@ def collect_reddit_posts() -> List[Dict]:
 
 
 def collect_sofi_specific_sources() -> List[Dict]:
-    """SoFi 전용 소스에서 콘텐츠 수집"""
+    """SoFi 전용 소스에서 콘텐츠 수집 (Seeking Alpha 제외)"""
     all_items = []
     tz = ZoneInfo("Asia/Seoul")
     cutoff_time = datetime.now(tz) - timedelta(hours=24)
     
-    # 1. Seeking Alpha - SoFi 관련
-    seeking_alpha_feeds = [
-        "https://seekingalpha.com/api/v3/symbols/SOFI/news.xml",
-        "https://seekingalpha.com/feed.xml?filter[type]=symbols&filter[value]=SOFI",
-    ]
+    # Seeking Alpha는 스캠 글들이 많고 추출도 실패하므로 제외
     
-    for url in seeking_alpha_feeds:
-        try:
-            headers = {"User-Agent": "Mozilla/5.0 (compatible; StockFeedBot/1.0)"}
-            resp = requests.get(url, headers=headers, timeout=10)
-            resp.raise_for_status()
-            
-            root = ET.fromstring(resp.content)
-            
-            # Atom 또는 RSS 형식 처리
-            entries = root.findall(".//{http://www.w3.org/2005/Atom}entry") or root.findall(".//item")
-            
-            for entry in entries[:20]:  # 최대 20개
-                # Atom 형식
-                title_el = entry.find("{http://www.w3.org/2005/Atom}title") or entry.find("title")
-                link_el = entry.find("{http://www.w3.org/2005/Atom}link") or entry.find("link")
-                pub_el = entry.find("{http://www.w3.org/2005/Atom}published") or entry.find("{http://www.w3.org/2005/Atom}updated") or entry.find("pubDate")
-                desc_el = entry.find("{http://www.w3.org/2005/Atom}summary") or entry.find("description")
-                
-                title = (title_el.text or "").strip() if title_el is not None else ""
-                link = (link_el.get("href") or link_el.text or "").strip() if link_el is not None else ""
-                pub = (pub_el.text or "").strip() if pub_el is not None else ""
-                desc = (desc_el.text or "").strip() if desc_el is not None else ""
-                
-                if not title or not link:
-                    continue
-                
-                # 시간 파싱
-                try:
-                    dt = parsedate_to_datetime(pub) if pub else datetime.now(tz)
-                    if dt.tzinfo is None:
-                        dt = dt.replace(tzinfo=ZoneInfo("UTC"))
-                    dt_kst = dt.astimezone(tz)
-                    
-                    if dt_kst < cutoff_time:
-                        continue
-                except Exception:
-                    dt_kst = datetime.now(tz)
-                
-                feed_item = {
-                    "id": generate_item_id(link, dt_kst.isoformat()),
-                    "timestamp": dt_kst.isoformat(),
-                    "source_type": "NEWS",
-                    "source_name": "Seeking Alpha",
-                    "category": "WATCHLIST",
-                    "related_tickers": ["SOFI"],
-                    "content": title + (" - " + desc[:200] if desc else ""),
-                    "url": link,
-                    "sentiment": determine_sentiment(title + " " + desc),
-                }
-                
-                all_items.append(feed_item)
-        
-        except Exception as e:
-            print(f"[WARN] Seeking Alpha 수집 실패 ({url}): {e}")
-            continue
-    
-    # 2. Yahoo Finance - SoFi 뉴스
+    # 1. Yahoo Finance - SoFi 뉴스
     yahoo_url = "https://feeds.finance.yahoo.com/rss/2.0/headline?s=SOFI&region=US&lang=en-US"
     try:
         headers = {"User-Agent": "Mozilla/5.0 (compatible; StockFeedBot/1.0)"}
@@ -573,7 +513,7 @@ def main():
         important_keywords = ["earnings", "실적", "분기", "quarter", "guidance", "가이던스", 
                              "acquisition", "인수", "merger", "합병", "partnership", "제휴",
                              "regulation", "규제", "approval", "승인", "launch", "출시"]
-        important_sources = ["Seeking Alpha", "Yahoo Finance", "Bloomberg"]
+        important_sources = ["Yahoo Finance", "Bloomberg"]
         
         important_items = [
             item for item in sofi_new_items

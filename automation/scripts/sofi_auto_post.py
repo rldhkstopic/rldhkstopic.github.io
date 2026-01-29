@@ -290,7 +290,11 @@ def check_existing_post(date_str: str) -> Optional[Path]:
 
 
 def fetch_article_content(url: str, timeout: int = 10) -> Optional[str]:
-    """URL에서 실제 기사 내용을 추출"""
+    """URL에서 실제 기사 내용을 추출 (Seeking Alpha 제외)"""
+    # Seeking Alpha는 스캠 글들이 많고 추출도 실패하므로 제외
+    if "seekingalpha.com" in url.lower():
+        return None
+    
     try:
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
