@@ -51,8 +51,12 @@ except ImportError:
 # 환경 설정
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 STOCK_FEED_PATH = PROJECT_ROOT / "assets" / "data" / "stock_feed.json"
-POSTS_DIR = PROJECT_ROOT / "_posts"
+# 카테고리별 컬렉션 디렉터리 (stock 카테고리)
+POSTS_DIR = PROJECT_ROOT / "_posts_stock"
 POSTS_DIR.mkdir(parents=True, exist_ok=True)
+# 기본 _posts 디렉터리도 확인 (하위 호환성)
+POSTS_DIR_FALLBACK = PROJECT_ROOT / "_posts"
+POSTS_DIR_FALLBACK.mkdir(parents=True, exist_ok=True)
 
 # Gemini API 설정
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -285,7 +289,11 @@ def load_previous_summary(date_str: str) -> Optional[str]:
 def check_existing_post(date_str: str) -> Optional[Path]:
     """해당 날짜의 SoFi 포스트가 이미 존재하는지 확인"""
     pattern = f"{date_str}-SOFI-*"
+    # stock 컬렉션 디렉터리에서 먼저 확인
     existing = list(POSTS_DIR.glob(pattern))
+    if not existing:
+        # 하위 호환성을 위해 기본 _posts 디렉터리도 확인
+        existing = list(POSTS_DIR_FALLBACK.glob(pattern))
     return existing[0] if existing else None
 
 

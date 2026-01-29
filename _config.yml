@@ -48,6 +48,24 @@ highlighter: rouge
 # Show future-dated posts
 future: true
 
+# Collections for category-based organization
+collections:
+  posts_daily:
+    output: true
+    permalink: /daily/:name/
+  posts_dev:
+    output: true
+    permalink: /dev/:name/
+  posts_study:
+    output: true
+    permalink: /study/:name/
+  posts_document:
+    output: true
+    permalink: /document/:name/
+  posts_stock:
+    output: true
+    permalink: /stock/:name/
+
 # Exclude from processing
 exclude:
   - Gemfile

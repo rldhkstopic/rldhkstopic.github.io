@@ -18,8 +18,23 @@ class PostCreatorAgent:
         current_file = Path(__file__)
         # agents/post_creator.py -> scripts/agents/ -> scripts/ -> automation/ -> 프로젝트 루트
         project_root = current_file.parent.parent.parent.parent
+        
+        # 카테고리별 컬렉션 디렉터리 매핑
+        self.collection_dirs = {
+            "daily": project_root / "_posts_daily",
+            "dev": project_root / "_posts_dev",
+            "study": project_root / "_posts_study",
+            "document": project_root / "_posts_document",
+            "stock": project_root / "_posts_stock",
+        }
+        
+        # 기본 _posts 디렉터리 (하위 호환성)
         self.posts_dir = project_root / '_posts'
         self.posts_dir.mkdir(parents=True, exist_ok=True)
+        
+        # 컬렉션 디렉터리 생성
+        for collection_dir in self.collection_dirs.values():
+            collection_dir.mkdir(parents=True, exist_ok=True)
     
     
     def create_post(self, content: Dict, topic: Dict, overwrite: bool = False) -> Optional[str]:
@@ -39,7 +54,15 @@ class PostCreatorAgent:
             date_str = content.get('date', datetime.now().strftime('%Y-%m-%d'))
             title_slug = self._create_slug(content.get('title', 'untitled'))
             filename = f"{date_str}-{title_slug}.md"
-            filepath = self.posts_dir / filename
+            
+            # 카테고리별 컬렉션 디렉터리 선택
+            category = content.get('category', 'document').lower()
+            if category in self.collection_dirs:
+                target_dir = self.collection_dirs[category]
+            else:
+                target_dir = self.posts_dir  # 기본 _posts 디렉터리
+            
+            filepath = target_dir / filename
             
             # 이미 존재하는 파일인지 확인
             if filepath.exists():
@@ -75,8 +98,8 @@ class PostCreatorAgent:
                 with open(filepath, 'w', encoding='utf-8') as f:
                     f.write(markdown_content)
             
-            # 상대 경로 반환 (_posts/파일명.md)
-            return str(filepath.relative_to(self.posts_dir.parent))
+            # 상대 경로 반환 (컬렉션 디렉터리/파일명.md)
+            return str(filepath.relative_to(self.project_root))
             
         except Exception as e:
             print(f"❌ 포스트 생성 오류: {str(e)}")
