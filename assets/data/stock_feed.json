@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-29T23:11:51.097785+09:00",
+  "last_updated": "2026-01-29T23:17:04.847982+09:00",
   "items": [
     {
       "id": "35551836f070372c987f5cd6023d6818",
@@ -21,6 +21,17 @@
       "related_tickers": [],
       "content": "Silicon Valley Favorite Jumps Into California Governor’s Race - San Jose Mayor Matt Mahan, a former tech entrepreneur supported by influential Silicon Valley leaders, entered the race for California governor, seeking to channel voter frustration over homelessness ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/san-jose-mayor-a-silicon-valley-darling-announces-run-for-california-governor",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a1dd1239490b9a0a614211043403a7fd",
+      "timestamp": "2026-01-29T22:50:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bank CEOs Vow to Step Up SRTs in Sign of Accelerating EU Market - Several big European banks said they will expand the use of significant risk transfers, sending a strong signal the asset class will continue to grow at a rapid clip.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/bank-ceos-vow-to-step-up-srts-in-sign-of-accelerating-eu-market",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2326,17 +2337,6 @@
       ],
       "content": "ECCF: About To Be Called, Small Arbitrage Opportunity Remaining",
       "url": "https://seekingalpha.com/article/4862183-eccf-about-to-be-called-small-arbitrage-opportunity-remaining?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5df843136b4a200649869a273b3534d8",
-      "timestamp": "2026-01-23T20:37:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock Fund Sells Treasuries, Gilts on Inflation Caution - Markets are underestimating the risk that inflation will remain persistent in the US and the UK, according to Blackrock Inc.’s Tom Becker, who has been selling government bonds from both countries.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/blackrock-fund-sells-treasuries-gilts-on-inflation-caution",
       "sentiment": "NEUTRAL"
     }
   ]
