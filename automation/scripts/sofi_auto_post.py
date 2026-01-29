@@ -289,6 +289,27 @@ def check_existing_post(date_str: str) -> Optional[Path]:
     return existing[0] if existing else None
 
 
+def should_update_post(existing_post_path: Path, sofi_items: List[Dict]) -> bool:
+    """기존 포스트를 업데이트해야 하는지 판단"""
+    if not sofi_items:
+        return False  # 새 뉴스가 없으면 업데이트 불필요
+    
+    # 기존 포스트의 수정 시간 확인
+    try:
+        post_mtime = datetime.fromtimestamp(existing_post_path.stat().st_mtime, tz=ZoneInfo("Asia/Seoul"))
+        now = datetime.now(ZoneInfo("Asia/Seoul"))
+        hours_since_update = (now - post_mtime).total_seconds() / 3600
+        
+        # 2시간 이상 지났거나, 새 뉴스가 많으면 업데이트
+        if hours_since_update >= 2 or len(sofi_items) >= 5:
+            return True
+    except Exception:
+        # 파일 정보를 읽을 수 없으면 업데이트
+        return True
+    
+    return False
+
+
 def clean_html_tags(content: str) -> str:
     """MathJax 및 기타 HTML 태그 제거 (서식 깨짐 방지)"""
     # MathJax 태그 제거
@@ -666,15 +687,28 @@ def main():
     today = datetime.now(tz).strftime("%Y-%m-%d")
     
     # 1. 오늘 날짜 포스트가 이미 존재하는지 확인
-    # 주의: 오늘 날짜 포스트가 있어도 최근 24시간 내 뉴스가 있으면 업데이트 가능하도록 변경
     existing_post = check_existing_post(today)
+    
+    # 2. 주식 피드 로드 (업데이트 여부 판단을 위해 먼저 로드)
+    feed_data = load_stock_feed()
+    items = feed_data.get("items", [])
+    print(f"[INFO] 전체 피드 아이템: {len(items)}개")
+    
+    # 3. SoFi 관련 최신 아이템 필터링 (최근 24시간)
+    sofi_items = filter_sofi_items(items, hours=24)
+    print(f"[INFO] SoFi 관련 최신 아이템: {len(sofi_items)}개")
+    
+    # 4. 기존 포스트가 있으면 업데이트 여부 판단
     if existing_post:
-        print(f"[INFO] {today} SOFI 포스트가 이미 존재합니다.")
-        # 기존 포스트가 오늘 생성된 것이고, 최근 24시간 내 새 뉴스가 많으면 업데이트 고려
-        # 하지만 일단은 스킵 (중복 방지)
-        # 필요시 수동으로 삭제 후 재생성 가능
-        print(f"[INFO] 기존 포스트를 덮어쓰려면 먼저 삭제하세요: {existing_post}")
-        return
+        print(f"[INFO] {today} SOFI 포스트가 이미 존재합니다: {existing_post.name}")
+        if should_update_post(existing_post, sofi_items):
+            print(f"[INFO] 새 뉴스가 있거나 시간이 지나서 포스트를 업데이트합니다.")
+            # 기존 파일 삭제 (덮어쓰기)
+            existing_post.unlink()
+            print(f"[INFO] 기존 포스트 삭제 완료")
+        else:
+            print(f"[INFO] 업데이트 불필요 (새 뉴스 부족 또는 최근 업데이트됨). 스킵.")
+            return
     
     # 2. 주식 피드 로드
     feed_data = load_stock_feed()
@@ -689,28 +723,28 @@ def main():
     print("[INFO] 거시경제 데이터 수집 중...")
     macro_data = collect_macro_data()
     
-    # 5. 기술적 지표 수집
+    # 6. 기술적 지표 수집
     print("[INFO] 기술적 지표 수집 중...")
     technical_data = fetch_technical_data()
     
-    # 6. 이전 분석 로드 (연속성)
+    # 7. 이전 분석 로드 (연속성)
     print("[INFO] 이전 분석 맥락 로드 중...")
     previous_summary = load_previous_summary(today)
     
-    # 7. 뉴스가 없어도 Deep Dive 모드로 진행
+    # 8. 뉴스가 없어도 Deep Dive 모드로 진행
     if not sofi_items:
         print("[INFO] 새로운 SoFi 뉴스가 없습니다. Deep Dive 모드로 진행합니다.")
     else:
         print(f"[INFO] {len(sofi_items)}개의 SoFi 뉴스를 발견했습니다. Daily News 모드로 진행합니다.")
     
-    # 8. Gemini로 포스트 생성
+    # 9. Gemini로 포스트 생성
     print("[INFO] Gemini API로 포스트 생성 시작...")
     content = generate_post_with_gemini(sofi_items, today, macro_data, technical_data, previous_summary)
     if not content:
         print("[ERROR] 포스트 생성 실패")
         return
     
-    # 9. 파일 저장
+    # 10. 파일 저장
     filename = f"{today}-SOFI-소식-분석.md"
     filepath = POSTS_DIR / filename
     
