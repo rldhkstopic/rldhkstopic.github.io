@@ -614,6 +614,9 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
         print(f"[ERROR] Gemini 응답이 비어있거나 너무 짧습니다: {len(content) if content else 0}자")
         return None
     
+    # MathJax 태그 및 기타 HTML 태그 제거 (서식 깨짐 방지)
+    content = clean_html_tags(content)
+    
     # Front Matter 생성
     tz = ZoneInfo("Asia/Seoul")
     now = datetime.now(tz)
