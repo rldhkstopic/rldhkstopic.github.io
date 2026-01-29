@@ -36,12 +36,16 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python automation/scripts/sofi_auto_post.py
+          python automation/scripts/sofi_auto_post.py || echo "SoFi post generation failed, but continuing..."
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add assets/data/stock_feed.json _posts/
-          git diff --staged --quiet || git commit -m "Update stock feed and SoFi post [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update stock feed and SoFi post [skip ci]"
+            git push
+          fi
