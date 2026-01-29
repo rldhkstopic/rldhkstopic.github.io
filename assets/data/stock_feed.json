@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-29T22:33:08.788992+09:00",
+  "last_updated": "2026-01-29T22:37:45.811061+09:00",
   "items": [
     {
       "id": "de7655945a6b8aee735e4686fe107358",
@@ -813,6 +813,17 @@
       "related_tickers": [],
       "content": "‘Crisis of Confidence’ Grips Indonesia Stocks After MSCI Warning - Just days ago, Indonesia’s stock market was riding high. The benchmark index hit a record close last week, and a $1 trillion valuation seemed within sight.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/-crisis-of-confidence-grips-indonesia-stocks-after-msci-warning",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9022279c8560569797354d260efd37be",
+      "timestamp": "2026-01-29T20:11:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ireland Grew 12.6% in 2025 Despite Year-End Recession - Ireland’s gross domestic product soared in 2025 year, with front loading of exports to the US in the first half making up for a year-end recession.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ireland-falls-into-recession-as-multinationals-weigh-on-economy",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2340,19 +2351,6 @@
       ],
       "content": "Third Avenue Small-Cap Value Fund Q4 2025 Commentary",
       "url": "https://seekingalpha.com/article/4862176-third-avenue-small-cap-value-fund-q4-2025-commentary?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "286a53d1997531eabc62c6173e8bde53",
-      "timestamp": "2026-01-23T20:05:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Inflation-Adjusted Consumer Spending, Incomes, And Government Transfer Receipts",
-      "url": "https://seekingalpha.com/article/4862123-inflation-adjusted-consumer-spending-incomes-government-transfer-receipts?source=feed_all_articles",
       "sentiment": "NEUTRAL"
     }
   ]
