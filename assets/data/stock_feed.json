@@ -1,6 +1,360 @@
 {
-  "last_updated": "2026-01-30T05:08:07.056909+09:00",
+  "last_updated": "2026-01-30T07:07:16.842535+09:00",
   "items": [
+    {
+      "id": "42b3a8c3da68b2189447fe66775c5d93",
+      "timestamp": "2026-01-30T06:55:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Perplexity Inks Microsoft AI Cloud Deal Amid Dispute With Amazon - AI startup Perplexity inked a $750 million deal with Microsoft Corp. to use its Azure cloud service amid a legal feud with Perplexity’s longtime cloud partner, Amazon.com Inc.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/perplexity-inks-microsoft-ai-cloud-deal-amid-dispute-with-amazon",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d94f09e78969279700de20bb0af4ef0a",
+      "timestamp": "2026-01-30T06:55:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Issues License for Oil Companies to Operate in Venezuela - The Trump administration issued a general license expanding the ability of oil companies to operate in Venezuela, marking a significant to step ease sanctions under the new US-backed leadership in Car",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-issues-license-for-oil-companies-to-operate-in-venezuela",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d94f09e78969279700de20bb0af4ef0a",
+      "timestamp": "2026-01-30T06:55:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Issues License for Oil Companies to Operate in Venezuela - The Trump administration issued a general license expanding the ability of oil companies to operate in Venezuela, marking a significant to step ease sanctions under the new US-backed leadership in Car",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-issues-license-for-oil-companies-to-operate-in-venezuela",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "243af5485991158aa4707e50f7c45fa2",
+      "timestamp": "2026-01-30T06:54:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Sales Trounce Estimates After iPhone Fuels Record Quarter - Bloomberg's Managing Editor for Global Consumer Tech Mark Gurman says today's earnings may be Apple's best quarter ever. \nApple reported holiday period revenue that topped Wall Street estimates, drive",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/apple-sales-trounce-estimates-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f10dc6a03cb69f776ec676469e2685c3",
+      "timestamp": "2026-01-30T06:43:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Copper Prices Top $14,500 a Ton For First Time - Copper prices gained as much as 11% to trade above $14,500 a ton for the first time ever Thursday afternoon. Timna Tanners from Wells Fargo talks about the rally in metals and says copper shortages we",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/copper-prices-top-14-500-a-ton-for-first-time-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2feed6147615cc7fdce1e0f841359dde",
+      "timestamp": "2026-01-30T06:34:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Sales Crush Estimates in Record Quarter for the iPhone - Apple Inc.’s revenue in the holiday quarter trounced Wall Street estimates, driven by strong demand for the new iPhone 17, growth in services and a rebound in China.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/apple-sales-trounce-estimates-after-iphone-fuels-record-quarter",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f209bcf2127de42c576ab3d1109ed344",
+      "timestamp": "2026-01-30T06:32:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Senate, White House Look for a Way Out of ICE Funding Fight - An emerging compromise would temporarily fund the Homeland Security.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-29/senate-white-house-look-for-a-way-out-of-ice-funding-fight",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1606dbbf450647568a21f9509f97811a",
+      "timestamp": "2026-01-30T06:29:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Urges China to Let ‘Substantially Undervalued’ Yuan Rise - The US Treasury characterized the yuan as “substantially undervalued,” and called on China to allow its exchange rate to strengthen in a timely and orderly way.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-calls-on-china-to-strengthen-substantially-undervalued-yuan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c182529cb574790a6716cacb03ba8a39",
+      "timestamp": "2026-01-30T06:22:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Has Investigated Claims That WhatsApp Chats Aren’t Private - US law enforcement has been investigating allegations by former Meta Platforms Inc. contractors that Meta personnel can access WhatsApp messages, despite the company’s statements that the chat service",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-has-investigated-claims-that-whatsapp-chats-aren-t-private",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "014481b437858ec641587710f4d4a586",
+      "timestamp": "2026-01-30T06:17:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Silicon Valley Policy Forum to Stress Preserving US Lead in AI - The Hill and Valley Forum, a closely watched gathering of tech industry leaders and US policymakers, will focus its next summit in Washington on preserving the American lead in artificial intelligence",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/silicon-valley-policy-forum-to-stress-preserving-us-lead-in-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9fd987e5ec2537fdbb0bcebfc105aabd",
+      "timestamp": "2026-01-30T06:16:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Strikes Deal With Canada’s 5N Plus - The US Department of Defense made an $18 million investment in Canada’s 5N Plus Inc. to help the company expand refining capacity for germanium metal, which is used in night-vision systems and other a",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/pentagon-strikes-deal-with-canada-s-5n-plus-shares-surge-19",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9fd987e5ec2537fdbb0bcebfc105aabd",
+      "timestamp": "2026-01-30T06:16:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Strikes Deal With Canada’s 5N Plus - The US Department of Defense made an $18 million investment in Canada’s 5N Plus Inc. to help the company expand refining capacity for germanium metal, which is used in night-vision systems and other a",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/pentagon-strikes-deal-with-canada-s-5n-plus-shares-surge-19",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "721d795310b4eb9a1ca9e64d6ea3cc32",
+      "timestamp": "2026-01-30T06:12:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Spending Delivers Mixed Results to Stocks | Bloomberg Tech 1/29/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss AI capital expenditures after Meta, Microsoft and Tesla all reported raising spend in their earnings. Plus, Apple is set to release results after the be",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/bloomberg-tech-1-29-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "530adb2223e008310bbd5914f34b19ae",
+      "timestamp": "2026-01-30T06:09:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fundamentals Of Metal Markets Are Weak Right Now: Layton - Gold fell the most since October, retreating from a record above $5,500 an ounce as risk-off sentiment sparked a selloff in metals with investors using them to cover losses in other assets such as equ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/fundamentals-of-metal-markets-are-weak-right-now-layton-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "62cea6e6e697db79650b81c4bac5fb94",
+      "timestamp": "2026-01-30T06:09:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi GoTu Partnership Expands Workplace Reach As Valuation Concerns Persist - SoFi Technologies (NasdaqGS:SOFI) has entered a partnership with GoTu Technology to bring SoFi at Work financial wellness tools to GoTu professionals. The collaboration focuses on student loan refinan",
+      "url": "https://finance.yahoo.com/news/sofi-gotu-partnership-expands-workplace-210921437.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c32af01c918dd4f2017a8667cad2fd6f",
+      "timestamp": "2026-01-30T06:06:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FedEx Shares Hit First Record Since 2021 on Cost-Cutting Plans - FedEx Corp. shares closed at a record high, putting them on track for a six-month rally amid growing confidence in the company’s cost-cutting efforts and a resilient economic backdrop that’s expected ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/fedex-shares-hit-first-record-since-2021-on-cost-cutting-plans",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3333af044e4e70820fb9d67d084b568f",
+      "timestamp": "2026-01-30T06:03:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IBM Kicks Off Big Tech Bond Sales - IBM is poised to borrow nearly $7.5 billion in the corporate bond market, kicking off what is expected to be a flood of borrowing from the tech sector in 2026. Bloomberg's Ronan Martin and Robert Schi",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/ibm-kicks-off-big-tech-bond-sales-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "77bf33b7efa153ad6bba829ffce16c08",
+      "timestamp": "2026-01-30T06:03:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks Lower as Microsoft Revives AI Spending Angst | Bloomberg Businessweek Daily 01/29/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec speak with Angelo Zino of CFRA Research about Meta and Microsoft's earnings results, including how both tech giants ar",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/bloomberg-businessweek-daily-01-29-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1da478b6240b5dbca1d943ec99f923ee",
+      "timestamp": "2026-01-30T06:02:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "This Is The Right Time To Go Public: Ethos CEO - Insurance platform Ethos Technologies shares dropped in its trading debut, after the company and some of its shareholders raised roughly $200 million in an initial public offering. Peter Colis, Co-Fou",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/this-is-the-right-time-to-go-public-ethos-ceo-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "22c57e12c3c9b3f8e0f3c5c88767a7d6",
+      "timestamp": "2026-01-30T06:01:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Viral App Moltbot Offers Imperfect Vision of AI Agent Future - Developers, venture capitalists and early adopters have eagerly tested out the product",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-29/viral-app-moltbot-offers-imperfect-vision-of-ai-agent-future",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aa74c8c9b3e3afe33986db719c83aef5",
+      "timestamp": "2026-01-30T06:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Denver Firm Puts $280 Million Toward Pentagon’s Munitions Call - Denver-based Voyager Technologies is adding propulsion systems and other components to its manufacturing capabilities as part of a $280 million investment, with the Pentagon pressing defense contracto",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/denver-firm-puts-280-million-toward-pentagon-s-munitions-call",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a89b9ce2aafcfadb79d027772799feda",
+      "timestamp": "2026-01-30T06:00:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump, Democrats Close to Immigration Deal | Balance of Power: Early Edition 01/29/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discusses the latest from DC. On today's show, Democratic Congressman Gregory Meeks of New York, Bluestack Stra",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/balance-of-power-early-edition-01-29-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6d63d7af963570b1c9b7755188ae1184",
+      "timestamp": "2026-01-30T05:53:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Amazon in Talks to Invest $50 Billion in OpenAI, Expand Ties - Amazon.com Inc. is in talks to invest as much as $50 billion in OpenAI and to expand the AI startup’s existing deal for computing power.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/amazon-in-talks-to-invest-up-to-50-billion-in-openai-wsj-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d403c20df73e222d5d69ee0c3fcf692d",
+      "timestamp": "2026-01-30T05:53:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Veja os Três Assuntos Que Marcaram a Semana no Brasil - Os repórteres Beatriz Reis e Daniel Carvalho contam quais foram os \ntrês assuntos que marcaram a semana no Brasil. Com produção de Patricia Xavier e edição de Raphael Almeida.  (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/veja-os-tres-assuntos-que-marcaram-a-semana-no-brasil-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a4269ca44f6f60ca00633e9da5c9d69c",
+      "timestamp": "2026-01-30T05:51:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Complex History of US-Iran Relations: A Visual Timeline - <p>Tracing the roots of the discord between two of the world’s most bitter foes.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-01-29/the-complex-history-of-us-iran-relations-a-visual-timeline",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c3e695efc82f8b0d8938a18dfe1890e3",
+      "timestamp": "2026-01-30T05:44:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Amazon Discovered Child Sex Abuse Content in AI Training Data - Amazon discovered child sexual abuse material in its AI data. The content was removed before training the models, but child safety officials say the tech giant won't disclose where it came from, poten",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/amazon-finds-child-sex-abuse-content-in-ai-training-data-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6c51c31d284c873f1a53be5d4b05645f",
+      "timestamp": "2026-01-30T05:41:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Newsom Talks Trump, California Economy and Wealth Tax - California Governor Gavin Newsom says there is nothing surprising about the recent events in Minnesota. Speaking with Bloomberg Businessweek Editor Brad Stone in San Francisco, Newsom discusses his cr",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/newsom-talks-trump-california-economy-and-wealth-tax-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "616d9bb060c121aad5259907266bb685",
+      "timestamp": "2026-01-30T05:34:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Newsom on Trump: This Is a Wrecking Ball Presidency - California Governor Gavin Newsom says Donald Trump's \"wrecking ball presidency is jaw dropping in real time.\" He speaks to Brad Stone at a Bloomberg Newsmakers event in San Francisco. (Source: Bloombe",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/newsom-on-trump-this-is-a-wrecking-ball-presidency-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eab3056e4275dcd781877414dc5055bf",
+      "timestamp": "2026-01-30T05:34:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Waller REALLY Wants To Be Fed Chair - Federal Reserve Governor Chris Waller just played politics instead of economics. That’s a bad sign for the future of the institution, says Bloomberg Opinion columnist Jonathan Levin. (Source: Bloomber",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/waller-really-wants-to-be-fed-chair-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "265cb4a758b8c0888054413d020039e1",
+      "timestamp": "2026-01-30T05:29:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Revenue, iPhone Sales Trounce Estimates",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-01-29/apple-first-quarter-earnings",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "68ec5692bd8ff7d0bea5f4d6bbd61186",
+      "timestamp": "2026-01-30T05:22:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Newsom Warns a Wealth Tax Could Hurt California in the Long Term - California Governor Gavin Newsom calls H.R. 1 a \"disaster\" and warns that a wealth tax could end up hurting the state in the long term. He speaks with Bloomberg Businessweek Editor Brad Stone in San F",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/newsom-warns-a-wealth-tax-may-hurt-california-long-term-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c64d4a3bbd14dc3d68150ca3bc91283e",
+      "timestamp": "2026-01-30T05:16:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pimco President Says Private Credit Buyers Are ‘Blind’ to Risks - Investors underestimate the hazards when chasing fat yields in private credit, according to Pacific Investment Management Co.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/pimco-president-says-private-credit-buyers-are-blind-to-risks",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "79369b0208a34c29f9f7c5aa8aa17b2d",
       "timestamp": "2026-01-30T05:00:58+09:00",
@@ -10,6 +364,17 @@
       "related_tickers": [],
       "content": "Hill & Valley Forum 2026 to Focus on AI, Alliances - The Hill and Valley Forum set a date for its latest conference in Washington as ties between tech and politicians grow more crucial thanks to the AI boom. Hill and Valley Forum co-founders Christian G",
       "url": "https://www.bloomberg.com/news/videos/2026-01-29/hill-valley-forum-2026-to-focus-on-ai-alliances-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9e8ae9d77af0ab3a5c55f6bb611f4e23",
+      "timestamp": "2026-01-30T05:00:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Options for Iran Strike Grow Even With Goals Unclear - The arrival of a US aircraft-carrier strike group in the Middle East has given President Donald Trump new, more forceful options to carry out his threats to attack Iran, but the choices carry serious ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/trump-s-options-for-strike-on-iran-grow-even-with-goals-unclear",
       "sentiment": "NEUTRAL"
     },
     {
@@ -945,6 +1310,19 @@
       "related_tickers": [],
       "content": "How to Invest in a Company Before It Goes Public - <p>On this episode&nbsp;of <em>Trillions</em>, we discuss the elusive art of getting a piece&nbsp;of a private company.</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/podcast-how-to-invest-in-a-company-before-it-goes-public",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cb08044c336ea82690f299ee9fa2a54a",
+      "timestamp": "2026-01-30T00:30:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Kosmos Energy Ltd. 24,086,956 1.72",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018595.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1889,384 +2267,6 @@
       "related_tickers": [],
       "content": "Tech's CAPEX Splurge as SAP Stock Falls, A Metal Markets Party | The Opening Trade 1/29/2026 - SAP shares see their biggest intraday drop since Covid. Germany's biggest company failed to convince that it would be able to clear its growing cloud backdrop. But, chip stocks rise again after the la",
       "url": "https://www.bloomberg.com/news/videos/2026-01-29/the-opening-trade-1-29-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "431bc9e02158f0f1f615f3ebec8c8ff7",
-      "timestamp": "2026-01-29T21:15:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ICE to End Enhanced Operations in Maine After Minnesota Violence - US Immigration and Customs Enforcement has stopped “enhanced operations” in Maine, Republican Senator Susan Collins announced in a statement.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ice-to-end-enhanced-operations-in-maine-after-minnesota-violence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d996a0e728a308e7e01e4d30ad651a3",
-      "timestamp": "2026-01-29T21:10:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian LNG Buyers and Global Producers Locked in Game of Chicken - There’s a wave of fuel supply coming online around the world, but buyers in India are waiting until the price is right.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-29/indian-lng-buyers-and-global-producers-locked-in-game-of-chicken-over-prices",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ba235aef26684e2e23c9af16ae719ae",
-      "timestamp": "2026-01-29T21:09:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tech's AI Spending Boosts Stocks; Oil Rises on Trump Iran Threats | Bloomberg Brief 1/29/2026 - US equity futures gain as large tech firms including Meta announce plans to spend more on AI. SAP and Microsoft lag as their cloud businesses disappoint. The dollar weakens amid debasement fears while",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/bloomberg-brief-1-29-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e0671eba7dc15181079bc303ac4af62",
-      "timestamp": "2026-01-29T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Zuckerberg Backs Up the Brink’s Truck (Again) - Meta’s CEO continues to boost spending for AI",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-29/zuckerberg-boosts-spending-yet-again-for-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8ebcf17fa7a5ed0e0c60387adeb34dfb",
-      "timestamp": "2026-01-29T21:00:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Comcast Profit Beats Estimates Despite Broadband Decline - Comcast Corp. reported revenue and profit in the fourth quarter that met or surpassed Wall Street expectations, even as it continued to lose cable TV and internet customers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/comcast-profit-beats-estimates-despite-broadband-decline",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b028b696b319fc6a806af368f13621ed",
-      "timestamp": "2026-01-29T21:00:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bets on Surprise ECB Cut in 2026 Aim for 12-Fold Return - Traders are using options to bet on European Central Bank policymakers surprising markets by delivering a quarter-point interest-rate cut at some point this year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/bets-on-surprise-ecb-rate-cut-in-2026-aim-to-win-12-fold-return",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "355b87e8ec1cabb1ae1f1df21258344a",
-      "timestamp": "2026-01-29T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan’s Ties to Argentina Run Deep &mdash; Just Look at Milei’s Economic Team - With just days to go before Argentina had to pay billions in debt to bondholders, President Javier Milei turned to a familiar face for help.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/inside-jpmorgan-s-relationship-with-argentina-and-javier-milei",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d3958f11645933aa456ee8126f10e73d",
-      "timestamp": "2026-01-29T20:59:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "TheStreet Pro: 3 “Left Behind” Stocks that Could Shoot to the Moon - TheStreet Pro highlights three stocks that could give your portfolio a sweeter 2026. It’s a terrible year to be a skier. Sure, if you’re in Vermont, you’ve got lots of snow. But I grew up skiing in Ve",
-      "url": "https://finance.yahoo.com/news/thestreet-pro-3-left-behind-115909450.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bdbbcfab17d8c6e8b90e86fc1811e067",
-      "timestamp": "2026-01-29T20:47:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Emerging-Market Assets Pause as Dollar Steadies After Fed Hold - Benchmark indexes for emerging-market stocks and currencies paused after a five-day advance as the Federal Reserve signaled caution on interest-rate cuts and Indonesia’s stock market endured its worst",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/emerging-market-assets-pause-as-dollar-steadies-after-fed-hold",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "36c23124d5deb06a68a2bbb8c568f055",
-      "timestamp": "2026-01-29T20:46:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "Dollar Decline Resumes as Debasement Fears Increase - The dollar weakened Thursday as Bloomberg’s gauge of the US currency slipped 0.3%, while precious metals such as gold and silver extended their record-breaking rallies. The return of the so-called deb",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/dollar-decline-resumes-as-debasement-fears-increase-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c1f1ea017ec81786c585f0db33d8b219",
-      "timestamp": "2026-01-29T20:34:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "There’s a Worldwide Bull Market, Says Edward Yardeni - “It’s kind of a bull market in everything,” says Edward Yardeni, chief investment strategist at Yardeni Research, as he sees strength building in emerging markets along with resilience in the US and g",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/there-s-a-world-wide-bull-market-says-edward-yardeni-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "12f0bc9d29bc78e6635b27a3f293fe8a",
-      "timestamp": "2026-01-29T20:33:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Metals Mania Is Gripping Investors Around the World - <p>Silver is up 64% this year as investors shift away from the dollar and sovereign bonds.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-29/metals-mania-is-gripping-investors-around-the-world",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "44f87a0e6048a81be6cabb9042db0f86",
-      "timestamp": "2026-01-29T20:33:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Caterpillar Earnings Beat Boosted by AI Data Center Power Demand - Caterpillar Inc. got an earnings boost from selling power generation equipment to AI data centers in its fourth quarter, helping drive quarterly results that topped Wall Street’s expectations.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/caterpillar-tops-estimates-as-data-centers-boost-power-demand",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83e7b6e63c34b33421b0ada4114fd1bf",
-      "timestamp": "2026-01-29T20:32:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OPEC+ Set to Stick With Oil Supply Pause Even as Prices Hit $70 - OPEC+ currently remains on track to ratify the last part of this quarter’s oil production pause, delegates said, even as US threats against member nation Iran propel prices to $70 a barrel.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/opec-set-to-stick-with-oil-supply-pause-even-as-prices-hit-70",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "241541224ac14bf60faf928a9b5f8b12",
-      "timestamp": "2026-01-29T20:32:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "International Paper to Split Into Two Listed Companies - International Paper Co. plans to break up and spin off its European packaging operations.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/packaging-giant-international-paper-explores-breakup",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "555534f4b30a2b9a461d87d471d6af91",
-      "timestamp": "2026-01-29T20:30:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BPCL Plans Singapore Trading Hub to Cut Costs and Boost Margins - India’s Bharat Petroleum Corp. will open a trading office in Singapore next month, as the state-owned refiner seeks to become more flexible in its feedstock procurement process and reduce costs to boo",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/bpcl-plans-singapore-trading-hub-to-cut-costs-and-boost-margins",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0a8229f7cb9129aeb49e3492b6b164b2",
-      "timestamp": "2026-01-29T20:30:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "VSE Agrees to Acquire Precision Aviation in $2 Billion Deal - VSE Corp., a provider of aftermarket parts and services to the aviation industry, agreed to buy closely held Precision Aviation Group for about $2.025 billion in a cash-and-stock deal.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/vse-nears-2-billion-plus-deal-for-precision-aviation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ec41af8ec76b6a6d27e80435dc017ac5",
-      "timestamp": "2026-01-29T20:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nigeria Coup Bid Involved Officers Denied Promotion, Probe Finds - High-ranking officials disgruntled over stalled promotions led an alleged conspiracy to overthrow Nigeria’s president late last year, according to an investigation into a plot previously denied by the",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/nigeria-coup-bid-involved-officers-denied-promotion-probe-finds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3dfa7490335115533942b27fa8b4062d",
-      "timestamp": "2026-01-29T20:15:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘Crisis of Confidence’ Grips Indonesia Stocks After MSCI Warning - Just days ago, Indonesia’s stock market was riding high. The benchmark index hit a record close last week, and a $1 trillion valuation seemed within sight.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/-crisis-of-confidence-grips-indonesia-stocks-after-msci-warning",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9022279c8560569797354d260efd37be",
-      "timestamp": "2026-01-29T20:11:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ireland Grew 12.6% in 2025 Despite Year-End Recession - Ireland’s gross domestic product soared in 2025 year, with front loading of exports to the US in the first half making up for a year-end recession.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ireland-falls-into-recession-as-multinationals-weigh-on-economy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3f1658a3736f5f7304c4998b37822d18",
-      "timestamp": "2026-01-29T20:02:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lloyds Expects £100 Million Boost from AI Spend in 2026 - Lloyds Banking Group Plc expects to see a £100 million ($138 million) benefit from using artificial intelligence this year as the bank continues investing heavily in technology.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/lloyds-expects-100-million-boost-from-ai-spend-in-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6a598b2dcb6793bfda25d5224835a21c",
-      "timestamp": "2026-01-29T20:00:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon Found ‘High Volume’ Of Child Sex Abuse Material in AI Training Data - <p>The tech giant reported&nbsp;hundreds of thousands of cases of suspected child sexual abuse material, but won’t say where it came from</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-29/amazon-found-child-sex-abuse-in-ai-training-data",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bc53a2ce7a23c5f284b6473239cc2c34",
-      "timestamp": "2026-01-29T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rolex and Gold Given to Trump Before Swiss Deal Queried by Senator - US Senator Ron Wyden asked for a detailed account of Donald Trump’s acceptance of a Rolex table clock and one-kilogram gold bar from Swiss businessmen shortly before the president slashed tariffs he p",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/rolex-gold-given-to-trump-before-swiss-deal-queried-by-senator",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "563c63e405805aba348072c183b50c7b",
-      "timestamp": "2026-01-29T19:59:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Armada Adds to Pressure From Within on Tehran - The US president has warned Iran’s leader that time is running out to accept a new nuclear deal.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-29/trump-sends-in-us-armada-to-heap-pressure-on-tehran",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c773520815889cd18609bc7820dd2590",
-      "timestamp": "2026-01-29T19:42:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Vows More China Access for Services After Starmer-Xi Meeting - The UK promised greater access to Chinese markets for Britain’s services sector, including visa-free travel, after Prime Minister Keir Starmer and President Xi Jinping agreed in Beijing to build a mor",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/china-to-allow-britons-visa-free-travel-for-visits-under-30-days",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d00f37d9ca1d39fcabf58dcb5c82d4b1",
-      "timestamp": "2026-01-29T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela Tests Big Oil’s Wall Street-Backed Spending Discipline - Exxon Mobil Corp. and Chevron Corp. must walk a fine line when they kick off Big Oil earnings season Friday, balancing Wall Street’s push for spending discipline and President Donald Trump’s call to i",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/venezuela-tests-big-oil-s-wall-street-backed-spending-discipline",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "241b1d72ceaaf436278aabe895df2beb",
-      "timestamp": "2026-01-29T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Small Banks Primed for Big Gains on Curve Steepening - Regional banks have been buoyed by a broadening out of the bull-market rally &mdash; and investors see the momentum continuing even if the overall rotation fizzles out.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/small-us-lenders-primed-for-big-share-gains-on-curve-steepening",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "73b6ec9bfdcfa4d6bc80581e70dd1cf8",
-      "timestamp": "2026-01-29T19:29:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dutch Pension PME Targets Europe as US ‘No Longer Reliable’ - Dutch pension fund PME will focus more on European opportunities going forward, especially in the technology sector, as the investor criticizes the direction in which American policies are moving.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/dutch-pension-pme-pivots-to-europe-as-us-no-longer-reliable",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "73b6ec9bfdcfa4d6bc80581e70dd1cf8",
-      "timestamp": "2026-01-29T19:29:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dutch Pension PME Targets Europe as US ‘No Longer Reliable’ - Dutch pension fund PME will focus more on European opportunities going forward, especially in the technology sector, as the investor criticizes the direction in which American policies are moving.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/dutch-pension-pme-pivots-to-europe-as-us-no-longer-reliable",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b0f7667cc3d4a154bcde61f4338680f1",
-      "timestamp": "2026-01-29T19:25:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Robinhood Soared by 204% in 2025, but Here's Another Financial Stock to Buy in 2026 - This stock is also fast-growing, but it's less susceptible to market volatility.",
-      "url": "https://www.fool.com/investing/2026/01/29/robinhood-soared-by-204-in-2025-but-heres-another/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ee28d5ae99ba98d342471b86549ddff",
-      "timestamp": "2026-01-29T19:24:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thailand Plans to Open More Sectors to Foreign Firms - Thailand is moving to ease foreign business rules and speed up approvals in a bid to attract overseas investment and revive economic growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/thailand-plans-to-open-more-sectors-to-foreign-firms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d522abb0f695cb1797d8a27846e1f93",
-      "timestamp": "2026-01-29T19:13:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hungary Business Confidence Drops as Orban’s Stimulus Falls Flat - Hungarian business confidence dropped sharply at the start of the year, reversing recent gains in another blow to Prime Minister Viktor Orban before parliamentary elections.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/hungary-business-confidence-drops-as-orban-s-stimulus-falls-flat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe9fbf16d672b8ba8ab9becd2c0a1a75",
-      "timestamp": "2026-01-29T19:01:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi-UAE Spat Finds New Front in Lucrative Sudan Gold Shipments - Saudi Arabia is poised to buy gold from war-torn Sudan, potentially taking a share of the lucrative market from the United Arab Emirates as a dispute simmers between the two Gulf powers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/saudi-uae-spat-finds-new-front-in-lucrative-sudan-gold-shipments",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "75a6cb08df4c21116b235c9f86ef0480",
-      "timestamp": "2026-01-29T19:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Does the US Government Keep Shutting Down? - Government shutdowns have become a recurring feature of US politics, the product of partisan standoffs over spending that force federal agencies to halt a wide range of services.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/why-does-the-us-government-keep-shutting-down",
       "sentiment": "NEUTRAL"
     }
   ]
