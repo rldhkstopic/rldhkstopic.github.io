@@ -337,7 +337,7 @@ def should_update_post(existing_post_path: Path, sofi_items: List[Dict]) -> bool
 
 
 def clean_html_tags(content: str) -> str:
-    """MathJax 및 기타 HTML 태그 제거, 마크다운 서식 정리"""
+    """MathJax 및 기타 HTML 태그 제거, 마크다운 서식 정리, 프롬프트 내용 제거"""
     # MathJax 태그 제거 (모든 변형)
     content = re.sub(r'<mjx-container[^>]*>.*?</mjx-container>', '', content, flags=re.DOTALL)
     content = re.sub(r'<mjx-[^>]*>.*?</mjx-[^>]*>', '', content, flags=re.DOTALL)
@@ -348,6 +348,13 @@ def clean_html_tags(content: str) -> str:
     # 기타 HTML 태그 제거
     content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL | re.IGNORECASE)
     content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL | re.IGNORECASE)
+    
+    # 프롬프트 내용 제거 (본문에 포함된 경우)
+    content = re.sub(r'당신은.*?작성하세요\.?\s*', '', content, flags=re.DOTALL)
+    content = re.sub(r'월스트리트의.*?블로그 포스트를 작성한다?\.?\s*', '', content, flags=re.DOTALL)
+    content = re.sub(r'AI로 작성.*?', '', content, flags=re.IGNORECASE)
+    content = re.sub(r'자동.*?생성.*?', '', content, flags=re.IGNORECASE)
+    content = re.sub(r'이 포스트는.*?생성되었습니다.*?', '', content, flags=re.IGNORECASE | re.DOTALL)
     
     # 마크다운 서식 정리: 헤더 앞에 빈 줄 추가
     content = re.sub(r'([^\n])\n(#{1,6}\s)', r'\1\n\n\2', content)
@@ -361,6 +368,10 @@ def clean_html_tags(content: str) -> str:
     
     # 문단 끝에 줄바꿈 추가 (헤더/리스트가 아닌 경우)
     content = re.sub(r'([^\n])\n([^\n#\-\*\+])', r'\1\n\n\2', content)
+    
+    # References 섹션 정리: 각주 형식 수정
+    # [^n]: 형식을 - [^n]: 형식으로 변경
+    content = re.sub(r'^(\[)\^(\d+)\]:', r'- [^\2]:', content, flags=re.MULTILINE)
     
     return content.strip()
 
@@ -589,6 +600,12 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
         prompt = f"""당신은 월스트리트의 20년 차 핀테크 전문 헤지펀드 매니저입니다.
 아래 SoFi(SOFI) 관련 최신 뉴스들의 **실제 기사 내용**을 분석하여 투자자들이 이해하기 쉬운 블로그 포스트를 작성하세요.
 
+**⚠️ 절대 금지 사항**:
+- 프롬프트 내용을 본문에 포함하지 마세요
+- "AI로 작성되었습니다", "자동 생성" 같은 메타 정보를 본문에 포함하지 마세요
+- "당신은...", "작성하세요" 같은 지시문을 본문에 포함하지 마세요
+- 본문은 바로 제목(###)부터 시작하세요
+
 **날짜**: {date_str}
 
 {macro_context}
@@ -651,7 +668,9 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
 **⚠️ 중요**: 
 - Front Matter 없이 본문만 작성하세요. 제목(###)부터 시작하세요.
 - 링크만 나열하지 말고, 실제 기사 내용을 읽고 분석한 내용을 작성하세요.
-- 반드시 Bull Case와 Bear Case를 나누어 작성하세요."""
+- 반드시 Bull Case와 Bear Case를 나누어 작성하세요.
+- 프롬프트의 지시문이나 설명을 본문에 포함하지 마세요. 순수한 분석 내용만 작성하세요.
+- 각주는 [^1], [^2] 형식으로 사용하고, References 섹션에는 `- [^1]: [출처명](URL)` 형식으로 작성하세요."""
 
     # 모델 폴백: 첫 번째 모델이 실패하면 다음 모델 시도
     content = None
