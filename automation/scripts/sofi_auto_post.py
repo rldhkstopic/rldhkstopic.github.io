@@ -289,6 +289,25 @@ def check_existing_post(date_str: str) -> Optional[Path]:
     return existing[0] if existing else None
 
 
+def clean_html_tags(content: str) -> str:
+    """MathJax 및 기타 HTML 태그 제거 (서식 깨짐 방지)"""
+    # MathJax 태그 제거
+    content = re.sub(r'<mjx-container[^>]*>.*?</mjx-container>', '', content, flags=re.DOTALL)
+    content = re.sub(r'<mjx-[^>]*>.*?</mjx-[^>]*>', '', content, flags=re.DOTALL)
+    content = re.sub(r'<mjx-[^>]*/?>', '', content)
+    
+    # 기타 HTML 태그 제거 (일반적인 태그는 유지하되, 문제가 되는 태그만 제거)
+    # script, style 태그 제거
+    content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL | re.IGNORECASE)
+    content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL | re.IGNORECASE)
+    
+    # 연속된 공백 정리
+    content = re.sub(r'\n\s*\n\s*\n+', '\n\n', content)
+    content = re.sub(r' +', ' ', content)
+    
+    return content.strip()
+
+
 def fetch_article_content(url: str, timeout: int = 10) -> Optional[str]:
     """URL에서 실제 기사 내용을 추출 (Seeking Alpha 제외)"""
     # Seeking Alpha는 스캠 글들이 많고 추출도 실패하므로 제외
