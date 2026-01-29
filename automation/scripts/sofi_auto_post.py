@@ -486,7 +486,13 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
         news_summary = prepare_news_summary(items)
     
     client = genai.Client(api_key=GEMINI_API_KEY)
-    model = "gemini-2.0-flash-exp"
+    # 모델 폴백 체인 (사용 가능한 모델 순서대로 시도)
+    model_candidates = [
+        "models/gemini-2.5-flash",
+        "models/gemini-2.0-flash",
+        "models/gemini-flash-latest",
+    ]
+    model = model_candidates[0]  # 기본값
     
     if mode == "deep_dive":
         prompt = get_deep_dive_prompt(date_str, macro_data, technical_data)
