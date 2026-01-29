@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-29T22:52:19.866646+09:00",
+  "last_updated": "2026-01-29T23:11:51.097785+09:00",
   "items": [
+    {
+      "id": "35551836f070372c987f5cd6023d6818",
+      "timestamp": "2026-01-29T23:00:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Park Commons Plots $500 Million Fund for Its ‘Anti-Accelerator’ - The investors at South Park Commons realize there are a lot of places that promising founders can go for help when they’re starting companies.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/south-park-commons-plots-500-million-fund-for-its-anti-accelerator",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "86c40a33b3b0f5c636438972bc2ac927",
+      "timestamp": "2026-01-29T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Silicon Valley Favorite Jumps Into California Governor’s Race - San Jose Mayor Matt Mahan, a former tech entrepreneur supported by influential Silicon Valley leaders, entered the race for California governor, seeking to channel voter frustration over homelessness ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/san-jose-mayor-a-silicon-valley-darling-announces-run-for-california-governor",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3505db1ebbab907f0999c6961b483558",
+      "timestamp": "2026-01-29T22:46:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Paytm Posts Third Straight Profit as Business Bounces Back - Paytm reported a third straight profitable quarter, helped by rising sales and cost cuts that have helped the Indian fintech pioneer rebound from regulatory troubles.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/paytm-posts-third-straight-profit-as-business-bounces-back",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6c175b6baf20128aa332351f681a729e",
       "timestamp": "2026-01-29T22:39:39+09:00",
@@ -2304,45 +2337,6 @@
       "related_tickers": [],
       "content": "BlackRock Fund Sells Treasuries, Gilts on Inflation Caution - Markets are underestimating the risk that inflation will remain persistent in the US and the UK, according to Blackrock Inc.’s Tom Becker, who has been selling government bonds from both countries.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-23/blackrock-fund-sells-treasuries-gilts-on-inflation-caution",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d51da9c3119288a83cf70fc02d3e055",
-      "timestamp": "2026-01-23T20:35:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Chart Of The Day: Small Caps Feast In Whirlwind Week",
-      "url": "https://seekingalpha.com/article/4862131-chart-of-day-small-caps-feast-in-whirlwind-week?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f1ea10095ef2d1760602e6c8561c81fe",
-      "timestamp": "2026-01-23T20:33:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Bloom Energy: A Boon For Data Center Energy Sovereignty",
-      "url": "https://seekingalpha.com/article/4862181-bloom-energy-a-boon-for-data-center-energy-sovereignty?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "20eee5315d52ea35b2d6d81d106dbd67",
-      "timestamp": "2026-01-23T20:31:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Pathward Financial, Inc. 2026 Q1 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4862189-pathward-financial-inc-2026-q1-results-earnings-call-presentation?source=feed_all_articles",
       "sentiment": "NEUTRAL"
     }
   ]
