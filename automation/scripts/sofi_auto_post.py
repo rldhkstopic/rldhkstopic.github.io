@@ -324,20 +324,30 @@ def should_update_post(existing_post_path: Path, sofi_items: List[Dict]) -> bool
 
 
 def clean_html_tags(content: str) -> str:
-    """MathJax 및 기타 HTML 태그 제거 (서식 깨짐 방지)"""
-    # MathJax 태그 제거
+    """MathJax 및 기타 HTML 태그 제거, 마크다운 서식 정리"""
+    # MathJax 태그 제거 (모든 변형)
     content = re.sub(r'<mjx-container[^>]*>.*?</mjx-container>', '', content, flags=re.DOTALL)
     content = re.sub(r'<mjx-[^>]*>.*?</mjx-[^>]*>', '', content, flags=re.DOTALL)
     content = re.sub(r'<mjx-[^>]*/?>', '', content)
+    content = re.sub(r'\$[^$]+\$', '', content)  # LaTeX 수식 제거 ($...$)
+    content = re.sub(r'\$\$[^$]+\$\$', '', content)  # LaTeX 수식 제거 ($$...$$)
     
-    # 기타 HTML 태그 제거 (일반적인 태그는 유지하되, 문제가 되는 태그만 제거)
-    # script, style 태그 제거
+    # 기타 HTML 태그 제거
     content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL | re.IGNORECASE)
     content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL | re.IGNORECASE)
     
-    # 연속된 공백 정리
+    # 마크다운 서식 정리: 헤더 앞에 빈 줄 추가
+    content = re.sub(r'([^\n])\n(#{1,6}\s)', r'\1\n\n\2', content)
+    
+    # 리스트 앞에 빈 줄 추가
+    content = re.sub(r'([^\n])\n([-*+]|\d+\.)\s', r'\1\n\n\2', content)
+    
+    # 연속된 공백 정리 (단, 헤더와 리스트는 유지)
     content = re.sub(r'\n\s*\n\s*\n+', '\n\n', content)
-    content = re.sub(r' +', ' ', content)
+    content = re.sub(r'[ \t]+', ' ', content)  # 탭과 연속 공백을 단일 공백으로
+    
+    # 문단 끝에 줄바꿈 추가 (헤더/리스트가 아닌 경우)
+    content = re.sub(r'([^\n])\n([^\n#\-\*\+])', r'\1\n\n\2', content)
     
     return content.strip()
 
@@ -588,6 +598,12 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
 5. 이모지는 사용하지 않는다.
 6. 최소 2000자 이상 작성한다.
 7. 출처는 각주 형식 [^n]으로 표기하고, 마지막에 ## References 섹션에 정리한다.
+8. **MathJax/LaTeX 수식 사용 금지**: 수식이나 수학 표현은 절대 사용하지 않는다. 모든 숫자와 퍼센트는 일반 텍스트로 작성한다 (예: "32.9%", "$24.60", "70.95배").
+9. **마크다운 서식 필수**: 
+   - 헤더는 ### 또는 ####를 사용하고, 헤더 앞뒤에 빈 줄을 반드시 추가한다.
+   - 리스트는 `-` 또는 `*`를 사용하고, 리스트 앞뒤에 빈 줄을 추가한다.
+   - 문단 사이에는 반드시 빈 줄을 하나 추가한다.
+   - 숫자나 통계는 **굵게** 처리하여 강조한다.
 
 **구조**:
 ### 주요 뉴스 요약
