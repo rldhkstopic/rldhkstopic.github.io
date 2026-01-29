@@ -245,9 +245,14 @@ def load_previous_summary(date_str: str) -> Optional[str]:
         prev_date = target_date - timedelta(days=1)
         prev_date_str = prev_date.strftime("%Y-%m-%d")
         
-        # 이전 날짜의 SoFi 포스트 찾기
+        # 이전 날짜의 SoFi 포스트 찾기 (stock 카테고리 폴더에서)
+        stock_dir = POSTS_DIR / "stock"
         pattern = f"{prev_date_str}-SOFI-*"
-        prev_posts = list(POSTS_DIR.glob(pattern))
+        if stock_dir.exists():
+            prev_posts = list(stock_dir.glob(pattern))
+        else:
+            # 하위 호환성: 루트에서도 확인
+            prev_posts = list(POSTS_DIR.glob(pattern))
         
         if not prev_posts:
             return None
@@ -752,9 +757,11 @@ def main():
         print("[ERROR] 포스트 생성 실패")
         return
     
-    # 10. 파일 저장
+    # 10. 파일 저장 (stock 카테고리 폴더에 저장)
+    stock_dir = POSTS_DIR / "stock"
+    stock_dir.mkdir(parents=True, exist_ok=True)
     filename = f"{today}-SOFI-소식-분석.md"
-    filepath = POSTS_DIR / filename
+    filepath = stock_dir / filename
     
     filepath.write_text(content, encoding="utf-8")
     print(f"[OK] 포스트 생성 완료: {filename}")

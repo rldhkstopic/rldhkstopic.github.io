@@ -1,73 +1,55 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-카테고리별로 포스트를 정리하는 스크립트
-Jekyll 컬렉션 디렉터리로 포스트를 이동합니다.
+카테고리별로 포스트를 분류하는 스크립트
 """
 
 import re
 from pathlib import Path
-from typing import Dict, List
-
-# 프로젝트 루트
-project_root = Path(__file__).parent.parent
-posts_dir = project_root / "_posts"
-
-# 카테고리별 컬렉션 디렉터리 매핑
-collections = {
-    "daily": "_posts_daily",
-    "dev": "_posts_dev",
-    "study": "_posts_study",
-    "document": "_posts_document",
-    "stock": "_posts_stock",
-}
-
-def extract_category(file_path: Path) -> str:
-    """포스트 파일에서 category 추출"""
-    try:
-        content = file_path.read_text(encoding="utf-8")
-        match = re.search(r'category:\s*(\w+)', content)
-        if match:
-            return match.group(1).lower()
-    except Exception as e:
-        print(f"[WARN] 파일 읽기 실패 ({file_path.name}): {e}")
-    return "document"  # 기본값
+from collections import defaultdict
 
 def main():
-    """메인 함수"""
-    print("[INFO] 카테고리별 포스트 정리 시작...")
+    posts_dir = Path("_posts")
+    categories = defaultdict(list)
     
-    # 컬렉션 디렉터리 생성
-    for category, dir_name in collections.items():
-        collection_dir = project_root / dir_name
-        collection_dir.mkdir(parents=True, exist_ok=True)
-        print(f"[OK] 디렉터리 확인: {dir_name}")
+    print("포스트 카테고리 분석 중...")
     
-    # 포스트 파일 읽기 및 카테고리별로 이동
-    moved_count = 0
-    skipped_count = 0
-    
+    # 모든 포스트 파일 읽기
     for post_file in posts_dir.glob("*.md"):
-        category = extract_category(post_file)
-        
-        if category in collections:
-            target_dir = project_root / collections[category]
-            target_path = target_dir / post_file.name
+        try:
+            content = post_file.read_text(encoding="utf-8")
             
-            if not target_path.exists():
-                post_file.rename(target_path)
-                print(f"[OK] 이동: {post_file.name} -> {collections[category]}")
-                moved_count += 1
+            # Front Matter에서 category 추출
+            match = re.search(r'^category:\s*(\S+)', content, re.MULTILINE)
+            if match:
+                category = match.group(1)
             else:
-                print(f"[SKIP] 이미 존재: {target_path.name}")
-                skipped_count += 1
-        else:
-            print(f"[WARN] 알 수 없는 카테고리: {category} ({post_file.name})")
-            skipped_count += 1
+                category = "uncategorized"
+            
+            categories[category].append(post_file)
+        except Exception as e:
+            print(f"[WARN] 파일 읽기 실패 ({post_file.name}): {e}")
+            continue
     
-    print(f"\n[OK] 정리 완료!")
-    print(f"[INFO] 이동: {moved_count}개, 스킵: {skipped_count}개")
-    print(f"[INFO] Jekyll 컬렉션 설정이 _config.yml에 추가되었습니다.")
+    print(f"\n카테고리별 포스트 개수:")
+    for cat in sorted(categories.keys()):
+        print(f"  {cat}: {len(categories[cat])}개")
+    
+    print(f"\n카테고리별 폴더 생성 및 파일 이동 중...")
+    
+    for category, files in categories.items():
+        category_dir = posts_dir / category
+        category_dir.mkdir(parents=True, exist_ok=True)
+        print(f"  생성: {category_dir}")
+        
+        for file in files:
+            dest_path = category_dir / file.name
+            file.rename(dest_path)
+            print(f"    이동: {file.name} -> {category}/")
+    
+    print(f"\n완료! 카테고리별로 포스트가 분류되었습니다.")
+    print(f"\n주의: Jekyll은 기본적으로 _posts 하위 디렉터리를 인식하지 않을 수 있습니다.")
+    print(f"Jekyll 설정(_config.yml)에서 collections를 사용하거나 플러그인이 필요할 수 있습니다.")
 
 if __name__ == "__main__":
     main()

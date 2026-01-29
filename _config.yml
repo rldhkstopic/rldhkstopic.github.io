@@ -49,6 +49,8 @@ highlighter: rouge
 future: true
 
 # Collections for category-based organization
+# Note: Jekyll does not natively support subdirectories in _posts
+# We use collections for category organization
 collections:
   posts_daily:
     output: true
@@ -65,6 +67,15 @@ collections:
   posts_stock:
     output: true
     permalink: /stock/:name/
+
+# Default collection for _posts directory (includes subdirectories)
+# Jekyll will recursively scan _posts subdirectories
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
 
 # Exclude from processing
 exclude:
