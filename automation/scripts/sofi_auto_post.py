@@ -492,7 +492,6 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
         "models/gemini-2.0-flash",
         "models/gemini-flash-latest",
     ]
-    model = model_candidates[0]  # 기본값
     
     if mode == "deep_dive":
         prompt = get_deep_dive_prompt(date_str, macro_data, technical_data)
