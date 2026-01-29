@@ -282,11 +282,11 @@ def load_previous_summary(date_str: str) -> Optional[str]:
         return None
 
 
-def check_existing_post(date_str: str) -> bool:
+def check_existing_post(date_str: str) -> Optional[Path]:
     """해당 날짜의 SoFi 포스트가 이미 존재하는지 확인"""
     pattern = f"{date_str}-SOFI-*"
     existing = list(POSTS_DIR.glob(pattern))
-    return len(existing) > 0
+    return existing[0] if existing else None
 
 
 def fetch_article_content(url: str, timeout: int = 10) -> Optional[str]:
@@ -600,8 +600,14 @@ def main():
     today = datetime.now(tz).strftime("%Y-%m-%d")
     
     # 1. 오늘 날짜 포스트가 이미 존재하는지 확인
-    if check_existing_post(today):
-        print(f"[INFO] {today} SOFI 포스트가 이미 존재합니다. 스킵.")
+    # 주의: 오늘 날짜 포스트가 있어도 최근 24시간 내 뉴스가 있으면 업데이트 가능하도록 변경
+    existing_post = check_existing_post(today)
+    if existing_post:
+        print(f"[INFO] {today} SOFI 포스트가 이미 존재합니다.")
+        # 기존 포스트가 오늘 생성된 것이고, 최근 24시간 내 새 뉴스가 많으면 업데이트 고려
+        # 하지만 일단은 스킵 (중복 방지)
+        # 필요시 수동으로 삭제 후 재생성 가능
+        print(f"[INFO] 기존 포스트를 덮어쓰려면 먼저 삭제하세요: {existing_post}")
         return
     
     # 2. 주식 피드 로드
@@ -628,11 +634,14 @@ def main():
     # 7. 뉴스가 없어도 Deep Dive 모드로 진행
     if not sofi_items:
         print("[INFO] 새로운 SoFi 뉴스가 없습니다. Deep Dive 모드로 진행합니다.")
+    else:
+        print(f"[INFO] {len(sofi_items)}개의 SoFi 뉴스를 발견했습니다. Daily News 모드로 진행합니다.")
     
     # 8. Gemini로 포스트 생성
+    print("[INFO] Gemini API로 포스트 생성 시작...")
     content = generate_post_with_gemini(sofi_items, today, macro_data, technical_data, previous_summary)
     if not content:
-        print("[WARN] 포스트 생성 실패")
+        print("[ERROR] 포스트 생성 실패")
         return
     
     # 9. 파일 저장
