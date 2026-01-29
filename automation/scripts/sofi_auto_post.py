@@ -565,25 +565,55 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
 - 링크만 나열하지 말고, 실제 기사 내용을 읽고 분석한 내용을 작성하세요.
 - 반드시 Bull Case와 Bear Case를 나누어 작성하세요."""
 
-    try:
-        print(f"[INFO] Gemini API로 글 작성 중... (모드: {mode})")
-        response = client.models.generate_content(
-            model=model,
-            contents=prompt
-        )
-        
-        content = (response.text or "").strip()
-        
-        if not content or len(content) < 100:
-            print(f"[ERROR] Gemini 응답이 너무 짧습니다: {len(content)}자")
-            return None
-        
-        # Front Matter 생성
-        tz = ZoneInfo("Asia/Seoul")
-        now = datetime.now(tz)
-        title = f"[{date_str}] SOFI 소식 분석"
-        
-        front_matter = f"""---
+    # 모델 폴백: 첫 번째 모델이 실패하면 다음 모델 시도
+    content = None
+    last_error = None
+    
+    for model_name in model_candidates:
+        try:
+            print(f"[INFO] Gemini API로 글 작성 중... (모드: {mode}, 모델: {model_name})")
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt
+            )
+            
+            content = (response.text or "").strip()
+            
+            if not content or len(content) < 100:
+                print(f"[WARN] Gemini 응답이 너무 짧습니다: {len(content)}자")
+                if model_name != model_candidates[-1]:
+                    print(f"[INFO] 다음 모델 시도: {model_candidates[model_candidates.index(model_name) + 1]}")
+                    continue
+                else:
+                    print(f"[ERROR] 모든 모델에서 응답이 너무 짧습니다")
+                    return None
+            
+            # 성공하면 루프 종료
+            print(f"[OK] 모델 {model_name}로 포스트 생성 성공")
+            break
+            
+        except Exception as e:
+            last_error = e
+            print(f"[WARN] 모델 {model_name} 실패: {e}")
+            if model_name != model_candidates[-1]:
+                print(f"[INFO] 다음 모델 시도: {model_candidates[model_candidates.index(model_name) + 1]}")
+                continue
+            else:
+                # 모든 모델 실패
+                print(f"[ERROR] 모든 모델 시도 실패: {last_error}")
+                return None
+    
+    # 최종 검증
+    if not content or len(content) < 100:
+        print(f"[ERROR] Gemini 응답이 비어있거나 너무 짧습니다: {len(content) if content else 0}자")
+        return None
+    
+    # Front Matter 생성
+    tz = ZoneInfo("Asia/Seoul")
+    now = datetime.now(tz)
+    title = f"[{date_str}] SOFI 소식 분석"
+    
+    front_matter = f"""---
 layout: post
 title: "{title}"
 date: {now.strftime('%Y-%m-%d %H:%M:%S')} +0900
@@ -594,14 +624,10 @@ views: 0
 ---
 
 """
-        
-        footer = f"\n\n---\n\n*이 포스트는 AI가 분석하여 자동으로 생성되었습니다. (생성 시간: {now.strftime('%Y-%m-%d %H:%M:%S KST')})*\n"
-        
-        return front_matter + content + footer
     
-    except Exception as e:
-        print(f"[ERROR] Gemini API 호출 실패: {e}")
-        return None
+    footer = f"\n\n---\n\n*이 포스트는 AI가 분석하여 자동으로 생성되었습니다. (생성 시간: {now.strftime('%Y-%m-%d %H:%M:%S KST')})*\n"
+    
+    return front_matter + content + footer
 
 
 def main():
