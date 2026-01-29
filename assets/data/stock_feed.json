@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-29T22:37:45.811061+09:00",
+  "last_updated": "2026-01-29T22:45:30.638795+09:00",
   "items": [
+    {
+      "id": "6c175b6baf20128aa332351f681a729e",
+      "timestamp": "2026-01-29T22:39:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Deutsche Bank Chief Sees ‘Real Consideration’ to Ease Regulation - Deutsche Bank AG Chief Executive Officer Christian Sewing said Europe is stepping up efforts to streamline financial regulations and boost competitiveness amid recent geopolitical tensions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/deutsche-bank-chief-sees-real-consideration-to-ease-regulation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4ab9ea0a24c9c282fdfeb6968fbb1377",
+      "timestamp": "2026-01-29T22:37:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SAP CEO on Future of SAP, Cloud - SAP CEO Christian Klein speaks with \"Bloomberg: The Opening Trade\" about the company's results and how AI has become a key driver for growth at SAP. He discusses his optimism in 2026 outlook for the c",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/sap-ceo-on-future-of-sap-cloud-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab39f5477eab7905970f95591b768fcc",
+      "timestamp": "2026-01-29T22:34:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Trade Deficit Widens From Smallest Since 2009 as Imports Rise - The US trade deficit widened in November from the lowest level since 2009 as imports rebounded and exports fell, highlighting wide monthly swings in response to the Trump administration’s vacillating ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-trade-deficit-widens-from-smallest-since-2009-as-imports-rise",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "de7655945a6b8aee735e4686fe107358",
       "timestamp": "2026-01-29T22:32:48+09:00",
@@ -77,6 +110,17 @@
       ],
       "content": "Rogers Communications Inc. 2025 Q4 - Results - Earnings Call Presentation",
       "url": "https://seekingalpha.com/article/4863830-rogers-communications-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16218c6958256d185bcd9949112759c8",
+      "timestamp": "2026-01-29T22:31:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Whistleblower in Bid Rigging Gets DOJ’s First $1 Million Reward - An informant who reported illegal bid-rigging of used car auctions to federal authorities received a $1 million reward, the Justice Department said Thursday, the first antitrust whistleblower award un",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/whistleblower-in-bid-rigging-gets-doj-s-first-1-million-reward",
       "sentiment": "NEUTRAL"
     },
     {
@@ -310,6 +354,17 @@
       ],
       "content": "Qorvo: Business Transitions Can Be Tough",
       "url": "https://seekingalpha.com/article/4863722-qorvo-business-transitions-can-be-tough?source=feed_all_articles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a145182e4b9e94d347f680a180ef5cfc",
+      "timestamp": "2026-01-29T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Real Estate Business Taps $100 Million Private Credit Loan - Propy, a real estate technology company, tapped the private credit market for the first time, securing $100 million to support the startup’s acquisition strategy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ai-real-estate-business-taps-100m-private-credit-loan",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2288,69 +2343,6 @@
       "related_tickers": [],
       "content": "For New York City Families, Free Childcare Can’t Come Soon Enough - New York City parents are cheering the announcement of free child care for all 2-year-olds in the city. \n\nOfficials say they hope it will be a reason to keep families with young kids from moving out o",
       "url": "https://www.bloomberg.com/news/videos/2026-01-23/for-new-york-city-families-free-childcare-can-t-come-soon-enough",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd2dec021d25e6f1192bfc4a3af5bcf1",
-      "timestamp": "2026-01-23T20:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Portfolio Positioning For Rising Volatility",
-      "url": "https://seekingalpha.com/article/4862111-portfolio-positioning-for-rising-volatility?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32e6f17e39d5a9fddf816bb7555fbf11",
-      "timestamp": "2026-01-23T20:23:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Flagstar Bank: Why We Initiated A New Position In Q4",
-      "url": "https://seekingalpha.com/article/4862179-flagstar-bank-stock-why-initiated-new-position-q4?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b2bfc293212f22713ab29a7032f43bc",
-      "timestamp": "2026-01-23T20:18:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Emerging Markets Are on Fire as Traders Look Away from US - <p>Tensions between the US and Europe are&nbsp;<meta content=\"T9B0ZVKIP3LC\" itemprop=\"suid\"/> <meta content=\"StoryLink\" itemprop=\"type\"/>weighing on the dollar and driving a&nbsp;search for alternativ",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-23/emerging-markets-are-on-fire-as-traders-look-away-from-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "10dd22461f65872e1d91c08adc84a585",
-      "timestamp": "2026-01-23T20:12:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Kevin Warsh Is Too Hawkish - A 'Dark Horse' Could Win The Fed Chair Race",
-      "url": "https://seekingalpha.com/article/4862178-kevin-warsh-too-hawkish-dark-horse-could-win-fed-chair-race?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "790cc8c5ac666a6eff6508015e476135",
-      "timestamp": "2026-01-23T20:08:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Third Avenue Small-Cap Value Fund Q4 2025 Commentary",
-      "url": "https://seekingalpha.com/article/4862176-third-avenue-small-cap-value-fund-q4-2025-commentary?source=feed_all_articles",
       "sentiment": "NEUTRAL"
     }
   ]
