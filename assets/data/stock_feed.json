@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-29T23:17:04.847982+09:00",
+  "last_updated": "2026-01-29T23:26:11.762533+09:00",
   "items": [
+    {
+      "id": "4f01efffa8f0e06b30ce655783796f39",
+      "timestamp": "2026-01-29T23:13:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to Reduce Federal Operations in Minnesota: Homan - US Border Czar Tom Homan says the Trump administration will scale down operations in Minnesota and conduct targeted anti-immigration actions. He spoke Thursday at a press conference. (Source: Bloomber",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/trump-to-reduce-federal-operations-in-minnesota-homan-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "85d9fc80e91aed0963b3744406b03920",
+      "timestamp": "2026-01-29T23:11:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AMC Agrees on Amendment With Creditors to Clear Refinancing Path - AMC Entertainment Holdings, Inc. reached a deal with a group of creditors to change the terms in one of its notes, making it easier for the cinema chain to refinance its debt, according to a filing on",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/amc-agrees-on-amendment-with-creditors-to-clear-refinancing-path",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "35551836f070372c987f5cd6023d6818",
       "timestamp": "2026-01-29T23:00:26+09:00",
@@ -21,6 +43,28 @@
       "related_tickers": [],
       "content": "Silicon Valley Favorite Jumps Into California Governor’s Race - San Jose Mayor Matt Mahan, a former tech entrepreneur supported by influential Silicon Valley leaders, entered the race for California governor, seeking to channel voter frustration over homelessness ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/san-jose-mayor-a-silicon-valley-darling-announces-run-for-california-governor",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f1f2804ec88ea03ecaad8749e8f6bab",
+      "timestamp": "2026-01-29T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lured by 38% Rates, Carry-Trade Investors Pile Into Milei’s Peso - Having lost more of its value than any other major currency in the world this century, the Argentine peso has long been seen as far too unstable to lure carry-trade investors. But in a sign of just ho",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ars-usd-milei-s-strong-peso-lures-carry-trade-investors-to-argentina",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f173ee438a397a9a5371b12920f10241",
+      "timestamp": "2026-01-29T22:52:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Economic Survey Flags Age-Based Limits for Social Media - India’s Economic Survey raised age-based restrictions on social media use as an issue for discussion, even as several countries have already taken steps to limit minors’ access to social media platfor",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/india-s-economic-survey-flags-age-based-limits-for-social-media",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2289,54 +2333,6 @@
       ],
       "content": "Investor Emotional Cycle Is Alive And Well",
       "url": "https://seekingalpha.com/article/4862188-investor-emotional-cycle-alive-and-well?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "85295f3089f4cc0c6fe8d2fb18ac68ce",
-      "timestamp": "2026-01-23T20:42:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Moroccan King Stresses Africa Ties After Divisive Football Match - King Mohammed VI of Morocco expressed regret over a series of “unfortunate” incidents during the final of the Africa Cup of Nations football tournament in Rabat over the weekend and said they shouldn’",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/moroccan-king-stresses-africa-ties-after-divisive-football-match",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "52b9aa9157aaec2c3332dc415b6463cb",
-      "timestamp": "2026-01-23T20:42:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s Forex Reserves Gain by Most Since March, Boosted by Gold - A rally in gold prices and a gain in the value of non-dollar assets helped India’s foreign exchange reserves rise by the most in over 10 months, data from the central bank showed Friday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-23/india-s-forex-reserves-gain-by-most-since-march-boosted-by-gold",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "686f59ca27fb4f2da2f32cf81dd744c1",
-      "timestamp": "2026-01-23T20:40:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "The South Park Market Of 2026",
-      "url": "https://seekingalpha.com/article/4862190-south-park-market-2026?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0d67ed1beffe2cd366cecd6b3fd56530",
-      "timestamp": "2026-01-23T20:39:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "ECCF: About To Be Called, Small Arbitrage Opportunity Remaining",
-      "url": "https://seekingalpha.com/article/4862183-eccf-about-to-be-called-small-arbitrage-opportunity-remaining?source=feed_all_articles",
       "sentiment": "NEUTRAL"
     }
   ]
