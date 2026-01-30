@@ -1,6 +1,393 @@
 {
-  "last_updated": "2026-01-30T07:07:16.842535+09:00",
+  "last_updated": "2026-01-30T09:23:09.205780+09:00",
   "items": [
+    {
+      "id": "195d2aa0fd036530802825ae55da04d1",
+      "timestamp": "2026-01-30T09:18:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He Will Announce Fed Pick Friday Morning - President Donald Trump said he would be announcing his pick for a nominee to chair the Federal Reserve on Friday morning, signaling an end to a months-long process that has spurred speculation over th",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/trump-says-he-will-announce-fed-pick-friday-morning",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "98ed990a216c40dd8c02d00b7ae2599b",
+      "timestamp": "2026-01-30T09:08:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Bonds Bounce Back on Bank Demand, Pullback in Equities - Chinese banks are deploying excess cash into the bond market, fueling a recovery just as a cooling stock rally draws investors back to government debt.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/chinese-bonds-bounce-back-on-bank-demand-pullback-in-equities",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4db9b383a6500d7d963f1fff83ab941d",
+      "timestamp": "2026-01-30T09:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Sues IRS, Treasury for $10 Billion Over Tax-Return Leaks - President Donald Trump sued the US Treasury and Internal Revenue Service for at least $10 billion over an unauthorized disclosure of his tax returns during his first term in office.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/trump-sues-irs-treasury-for-10-billion-over-tax-return-leaks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7d9f911b4c7b32efe02007ea412ed3ee",
+      "timestamp": "2026-01-30T09:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Energy earnings, Fed commentary, inflation data: What to Watch - Market Domination Overtime host Josh Lipton previews several of the biggest stories to come on Friday, Jan. 30, including earnings results from companies like SoFi Technologies (SOFI), Exxon Mobil (XO",
+      "url": "https://finance.yahoo.com/video/energy-earnings-fed-commentary-inflation-data-what-to-watch-000000708.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f5a9c68dc5f748a2ff326d2451d9228b",
+      "timestamp": "2026-01-30T08:54:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SEC to Dismiss Accounting Fraud Case Against Bridge Builder - The US Securities and Exchange Commission will drop a lawsuit against the former vice president of a California construction company that accused him of fraudulent accounting in projects including New",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/sec-to-dismiss-accounting-fraud-case-against-bridge-builder",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "761a5035887710d8fdcd1ed36b7b653d",
+      "timestamp": "2026-01-30T08:52:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Billionaire Salinas Reaches Tax Deal with Mexican Government - Mexican billionaire Ricardo Salinas Pliego’s companies on Thursday promised to pay 32 billion pesos ($1.87 billion) to the government, capping a decade-long dispute over tax claims against his compani",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/billionaire-ricardo-salinas-pliego-reaches-tax-deal-with-mexican-government",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "22bbcedb0c684a3b04ba5701722f61f5",
+      "timestamp": "2026-01-30T08:48:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says US to Decertify, Levy Tariff on Planes From Canada - President Donald Trump said he would charge a 50% tariff on aircraft from Canada sold in the US and decertify all planes made in that country until Ottawa agreed to approve certain jets made by Gulfst",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/trump-says-us-to-decertify-levy-tariff-on-planes-from-canada",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb4933ad9b28ae3118ef4b523088c826",
+      "timestamp": "2026-01-30T08:38:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Steadies After Three-Day Rally as Traders Weigh Iran Risks - Oil steadied after surging more than 3% on Thursday as traders weighed US President Donald Trump’s threats against Iran, and how a potential escalation in hostilities could impact flows from the Middl",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/latest-oil-market-news-and-analysis-for-jan-30",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "46308be5fd5e93cad2458955873ec1b9",
+      "timestamp": "2026-01-30T08:33:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ICE, DHS Need to Follow The Law: Sen. Dick Durbin - Senator Dick Durbin (D-IL) states he wants to see changes made to the procedures and operations of ICE and the DHS when discussing what's next on the DHS funding bill as conflicts with this legislatio",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/ice-dhs-need-to-follow-the-law-sen-dick-durbin-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1b931d677493ec4b7791ef64294bedad",
+      "timestamp": "2026-01-30T08:33:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Is There So Much Oil? - <p>In this weekly documentary, <em>Bloomberg Originals</em> explores how the world got to this strange place of oversupply&nbsp;and&nbsp;what it means for the future.<strong> </strong></p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/video-why-is-there-suddenly-so-much-oil",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f514361931a7f6a57856ee2d4ee08725",
+      "timestamp": "2026-01-30T08:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Screening Helps Catch Aggressive Breast Cancers Earlier, Swedish Trial Finds - Artificial intelligence helped spot breast cancers earlier and was linked to fewer dangerous cases emerging between routine screenings in a Swedish trial of more than 100,000 women.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ai-screening-linked-to-earlier-breast-cancer-detection-in-large-swedish-trial",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "145be16275b33f3bd0fbefe90c70c4ad",
+      "timestamp": "2026-01-30T08:29:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Resumes Rally After Dropping on Thursday in Choppy Session - Gold resumed gains &mdash; after dropping for the first time in almost two weeks on Thursday &mdash; as geopolitical upheaval, the debasement trade and thin liquidity powered the rally.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/gold-resumes-rally-after-dropping-on-thursday-in-choppy-session",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "07cf30b55127b4c1362e61ad3dd8db6e",
+      "timestamp": "2026-01-30T08:29:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PG&E CEO Poppe Says Data Center Demand Will Lower Grid Prices - PG&E CEO Patti Poppe says the company is regaining the trust and confidence of customers. Speaking with Ed Ludlow on \"Balance of Power: Evening Edition,\" Poppe also discusses wildfire risk, data cente",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/pg-e-ceo-says-data-center-demand-will-lower-grid-prices-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6d49447b989a8cd17d25a218fddad73f",
+      "timestamp": "2026-01-30T08:29:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Newsom Says Trump Harming Elections Because He’ll Get ‘Crushed’ - California Governor Gavin Newsom said Donald Trump is setting the stage to sow doubts on the outcome of this year’s midterm elections, predicting that the president is heading for a bruising defeat an",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/gavin-newsom-warns-trump-will-try-to-sow-doubts-on-2026-midterm-elections",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb70159074d0349ded9e2e765368280c",
+      "timestamp": "2026-01-30T08:23:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Threatens Tariffs on Countries That Provide Oil to Cuba - President Donald Trump issued an executive order enabling the US to impose levies on products from countries determined to sell or provide oil to Cuba, his latest push to use tariff powers to shape fo",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/trump-threatens-tariffs-on-countries-that-provide-oil-to-cuba",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bc31d0ec0fcaa20dd72a2acc27506004",
+      "timestamp": "2026-01-30T08:13:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "M12's Cheng: Health Care One of The Fastest AI Adopters - Cheryl Cheng, managing partner at M12, Microsoft’s venture fund, says health care has shifted from being slow to adopt technology to becoming one of the fastest adopters of AI. She speaks with Romaine",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/m12-s-cheng-health-care-one-of-the-fastest-ai-adopters-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ef3e965be86425741744b60c66106e8a",
+      "timestamp": "2026-01-30T08:13:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mamdani Says NYC's Relationship With the Wealthy Has to Change - New York City Mayor Zohran Mamdani says the city's relationship with wealthy residents and corporations has to change. He speaks with Myles Miller on \"Balance of Power: Evening Edition.\" (Source: Bloo",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/mamdani-nyc-relationship-with-the-wealthy-has-to-change-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f3a3e61d596120eeac211e893f6ab617",
+      "timestamp": "2026-01-30T08:04:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PIMCO's Jerome Schneider: See One More Rate Cut This Year - Jerome Schneider, head of short-term portfolio management and funding at PIMCO, says the Fed faces new challenges as economic growth picks up. He tells Romaine Bostick and Katie Greifeld on “The Close",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/pimco-s-schneider-see-one-more-rate-cut-this-year-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2ba3dfe9a17d8ca16c67d8f83d7e6a25",
+      "timestamp": "2026-01-30T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nintendo Switch 2’s Strength Threatened by Memory ‘Horror Show’ - The fastest-selling game console of all time may not be enough to shelter Nintendo Co.’s stock from growing investor fears about skyrocketing memory prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/nintendo-switch-2-s-strength-threatened-by-memory-horror-show",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dfb024793b4a4286ca06955d242093a9",
+      "timestamp": "2026-01-30T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Worst Yet to Come After Wild Day for Indonesia Stocks, Funds Say - Global investors’ exit from Indonesian stocks sparked by MSCI Inc.’s investability warning is far from done, according to fund managers, raising the specter of a sustained market derating.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/worst-yet-to-come-after-wild-day-for-indonesia-stocks-funds-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2ba3dfe9a17d8ca16c67d8f83d7e6a25",
+      "timestamp": "2026-01-30T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nintendo Switch 2’s Strength Threatened by Memory ‘Horror Show’ - The fastest-selling game console of all time may not be enough to shelter Nintendo Co.’s stock from growing investor fears about skyrocketing memory prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/nintendo-switch-2-s-strength-threatened-by-memory-horror-show",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "11bea43b33a93ae399f1ee043c765312",
+      "timestamp": "2026-01-30T07:54:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock’s Diorio: Clients Want More Access to Private Markets - Jonathan Diorio, head of U.S. Wealth Business and Head of Alternatives at BlackRock, discusses the firm’s private-markets separately managed account with Romaine Bostick and Katie Greifeld. He says cl",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/diorio-clients-want-more-access-to-private-markets-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "af1b59f8599849627b7015994e32d2bf",
+      "timestamp": "2026-01-30T07:51:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why the World Is Awash With Cheap Oil - Bloomberg Originals explores why the world is awash in cheap crude oil, how geopolitical tensions don’t have the same effect on price they once did and what this glut means for the global economy. \n (",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/why-the-world-is-awash-with-cheap-oil-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b181b224ef35c3703e439c6904309a37",
+      "timestamp": "2026-01-30T07:47:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mamdani on Homeless, Trump Cuts and NYC's Economy - New York City Mayor Zohran Mamdani says the city's relationships with the state and wealthy corporations have to change. Speaking with Myles Miller on \"Balance of Power: Evening Edition,\" Mayor Mamdan",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/mamdani-on-homeless-trump-cuts-and-nyc-s-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5f88bba6849c47d290b2a873f7336cdc",
+      "timestamp": "2026-01-30T07:46:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "RBC's Narayan: Mathematically, Tesla Not An Auto Company - RBC Capital Markets Global Autos Lead Equity Analyst Tom Narayan joins Bloomberg Businessweek Daily to discuss Tesla's latest earnings results, including plans to retire the Model S and Model X. Naray",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/rbc-s-narayan-mathematically-tesla-not-an-auto-company-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "80cfa6e029e198909bfd9cd5dfd1d0e9",
+      "timestamp": "2026-01-30T07:45:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "RO CEO on The Rise of GLP-1 Drugs - Zach Reitano, CEO of RO, says demand for the company’s pill has far exceeded expectations. He tells Romaine Bostick and Katie Greifeld on “The Close” that the oral medication is more approachable and ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/ro-ceo-on-the-rise-of-glp-1-drugs-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca8af350d0d76aeb686cb2bde0c43566",
+      "timestamp": "2026-01-30T07:42:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Bonanza Won’t Save NYC’s Finances, Mamdani Warns - Wall Street’s booming year will not be enough to stave off a financial crisis that Mayor Zohran Mamdani says is worse than the Great Recession nearly two decades ago.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/wall-street-bonanza-won-t-save-nyc-s-finances-mamdani-warns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3e50f9aff0e03d533417a0be02884e0a",
+      "timestamp": "2026-01-30T07:42:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dirty Energy’s Cute But Deadly Rebrand - Meet the White House’s newest mascot: Coalie. He’s a cute lump of coal that the administration hopes will sell its perverse energy agenda, says Bloomberg Opinion columnist Mark Gongloff. (Source: Bloo",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/opinion-dirty-energy-s-cute-but-deadly-rebrand-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "822dab3c1e478bc49b1394581e99adb6",
+      "timestamp": "2026-01-30T07:40:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stock Futures Fall on Apple Warning, Gold Up: Markets Wrap - US equity-index futures fell at the open as Apple Inc. warned about margins and doubts grew over whether heavy investment in artificial intelligence will deliver sufficient returns.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/stock-market-today-dow-s-p-live-updates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c502cc4496cd3bd025673107f82ee139",
+      "timestamp": "2026-01-30T07:33:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nasdaq Falls on Big Tech Weakness | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/nasdaq-falls-on-big-tech-weakness-closing-bell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eb05594c170f80e57f0ac7287c96365b",
+      "timestamp": "2026-01-30T07:31:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mamdani on Trump's Planned Cuts: We Will Defend New Yorkers - \"Our laws and our values are not bargaining chips,\" New York City Mayor Zohran Mamdani says when asked about President Donald Trump's plan to cut off federal funding to so-called sanctuary cities at t",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/mamdani-on-trump-s-planned-cuts-we-will-defend-new-york-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb35b042c45a56f03a4a4198907fb9c9",
+      "timestamp": "2026-01-30T07:15:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Elon Musk’s SpaceX Said to Consider Merger With Tesla or xAI - SpaceX is considering a potential merger with Tesla Inc., as well as an alternative combination with artificial intelligence firm xAI, according to people familiar with the matter, a sign billionaire ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/elon-musk-s-spacex-is-said-to-consider-merger-with-tesla-or-xai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb35b042c45a56f03a4a4198907fb9c9",
+      "timestamp": "2026-01-30T07:15:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Elon Musk’s SpaceX Said to Consider Merger With Tesla or xAI - SpaceX is considering a potential merger with Tesla Inc., as well as an alternative combination with artificial intelligence firm xAI, according to people familiar with the matter, a sign billionaire ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/elon-musk-s-spacex-is-said-to-consider-merger-with-tesla-or-xai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0230c2c89f22dd5c59e8b7b51f2d47d1",
+      "timestamp": "2026-01-30T07:06:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple iPhone 17 Demand Surges, Revenue Up 16% - Apple Inc.'s revenue in the holiday quarter was driven by strong demand for the new iPhone 17, growth in services and a rebound in China. Earnings rose to $2.84 a share in the fiscal first quarter, be",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/apple-iphone-17-demand-surges-revenue-up-16-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "18127ce366f2d8895dae80dfdbf017fb",
+      "timestamp": "2026-01-30T07:06:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Siri Co-Founder Says Apple Is in a 'Pretty Good Position' - Dag Kittlaus, Siri co-founder and former CEO, says Apple made some missteps in the development of Siri but is optimistic about where they are today. He speaks on \"Bloomberg The Close.\" (Source: Bloomb",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/siri-co-founder-says-apple-is-in-pretty-good-position-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "42b3a8c3da68b2189447fe66775c5d93",
       "timestamp": "2026-01-30T06:55:55+09:00",
@@ -43,6 +430,17 @@
       "related_tickers": [],
       "content": "Apple Sales Trounce Estimates After iPhone Fuels Record Quarter - Bloomberg's Managing Editor for Global Consumer Tech Mark Gurman says today's earnings may be Apple's best quarter ever. \nApple reported holiday period revenue that topped Wall Street estimates, drive",
       "url": "https://www.bloomberg.com/news/videos/2026-01-29/apple-sales-trounce-estimates-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e4c59c95359328847f1a6d121974cba9",
+      "timestamp": "2026-01-30T06:53:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Newsom Warns Wealth Tax Might Hurt California, Says Market is Holding Trump Accountable - California Governor Gavin Newsom told Bloomberg's Brad Stone that he believes that in spite of creating a windfall for the state, a tax on California's billionaires would pose longer-term issues, incl",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/newsom-warns-wealth-tax-might-hurt-california-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1831,442 +2229,6 @@
       "related_tickers": [],
       "content": "Top Canada CEOs’ Group Questions Carney’s Strategy With Trump - The head of an organization that represents Canadian chief executives questioned Mark Carney’s handling of the relationship with the White House, calling on the prime minister to focus on salvaging th",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/top-canada-ceos-group-questions-carney-s-strategy-with-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ac0f2cfa40747d8ebe561a0186830127",
-      "timestamp": "2026-01-29T22:14:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Costar Group: Third Point Is Being Impatient (Rating Upgrade)",
-      "url": "https://seekingalpha.com/article/4863799-costar-group-third-point-is-being-impatient-rating-upgrade?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3fbb13c5bba48f70ff80a63a3cb47570",
-      "timestamp": "2026-01-29T22:14:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US, India Discuss Expanding Coal Trade at Goa Energy Summit - US and India are in talks to boost the trade of coal, a fuel both nations consider key to energy security, their officials said Thursday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-india-discuss-expanding-coal-trade-at-goa-energy-summit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3566513f7b320f2ff33ceca61405e7f1",
-      "timestamp": "2026-01-29T22:10:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Adani Eyes $1.5 Billion Yen Debt in Bid to Diversify Credit Mix - Adani Group is seeking to raise as much as $1.5 billion worth of yen-denominated debt in the next year and a half in a bid to diversify its financing, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/adani-eyes-1-5-billion-yen-debt-in-bid-to-diversify-credit-mix",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a719813873e18f141eb608f49d1b207c",
-      "timestamp": "2026-01-29T22:08:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Tesla's Q4 + FY2025 Print And What It Does To The Investment Thesis",
-      "url": "https://seekingalpha.com/article/4863796-teslas-q4-plus-fy2025-print-and-what-it-does-to-investment-thesis?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5021d77aaa83dfc88f5fd5d7ac6fad9e",
-      "timestamp": "2026-01-29T22:07:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "David Rubenstein Show: Anish Shah - The Mahindra Group is an Indian multinational conglomerate that operates across more than 20 industries and covers roughly 70% of India's GDP. It has a presence in aerospace, agriculture, defence, IT ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/david-rubenstein-show-anish-shah-full-show-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32a786bc1ff547376a24f55f65a3a2f7",
-      "timestamp": "2026-01-29T22:07:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BLOX: Buy On Crypto Dips And The New World Order",
-      "url": "https://seekingalpha.com/article/4863795-blox-buy-on-crypto-dips-and-the-new-world-order?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "92f424defea25e2bbd52ad3be6cca9ad",
-      "timestamp": "2026-01-29T22:06:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BBVA Plans Risk Transfer Deals Tied to €7 Billion of Assets - BBVA SA plans to issue two significant risk transfer deals linked to around €7 billion ($8.4 billion) of assets, according to people with knowledge of the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/bbva-plans-risk-transfer-deals-tied-to-7-billion-of-assets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d1f48cdd06f12342903dc3cf7a973938",
-      "timestamp": "2026-01-29T22:04:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Envoy to China Criticizes Beijing’s Export Licensing Process - US Ambassador to China David Perdue called out Beijing for what he described as intrusive export licensing requirements as the leaders of the world’s two largest economies edge closer to meeting in Be",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-envoy-to-china-criticizes-beijing-s-export-licensing-process",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e559258e8d2cf0b7ef804a6df2ccc83",
-      "timestamp": "2026-01-29T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Churchill Capital Corp IX: AI Trucking, Upcoming SPAC Merger",
-      "url": "https://seekingalpha.com/article/4863704-churchill-capital-corp-ix-ai-trucking-upcoming-spac-merger?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d816c0a0cf8e9462d66faeb0ca1ffe68",
-      "timestamp": "2026-01-29T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Pinterest: Buying The Attribution Singularity At Value Prices",
-      "url": "https://seekingalpha.com/article/4863711-pinterest-buying-the-attribution-singularity-at-value-prices?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "efe12d8917b916424451c565f7c56a07",
-      "timestamp": "2026-01-29T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Qorvo: Business Transitions Can Be Tough",
-      "url": "https://seekingalpha.com/article/4863722-qorvo-business-transitions-can-be-tough?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a145182e4b9e94d347f680a180ef5cfc",
-      "timestamp": "2026-01-29T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Real Estate Business Taps $100 Million Private Credit Loan - Propy, a real estate technology company, tapped the private credit market for the first time, securing $100 million to support the startup’s acquisition strategy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ai-real-estate-business-taps-100m-private-credit-loan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "70c671e814db410caa4d2430fdac5d50",
-      "timestamp": "2026-01-29T21:57:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SL Green Realty: Expansion Time",
-      "url": "https://seekingalpha.com/article/4863791-sl-green-realty-expansion-time?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4c1c0dd60423bd45f487bbcb40755c24",
-      "timestamp": "2026-01-29T21:50:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Senator Amy Klobuchar Launches Bid for Minnesota Governor - Minnesota Senator Amy Klobuchar launched a bid to replace outgoing Governor Tim Walz, entering a race that has drawn national attention after an immigration crackdown in the state that turned violent.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/senator-amy-klobuchar-launches-bid-for-minnesota-governor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "867afb5d5f2b9f953e3836c05f5f9270",
-      "timestamp": "2026-01-29T21:50:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk, Zuckerberg Battle for AI Supremacy With $155 Billion Splurge | The Pulse 1/29 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/the-pulse-1-29-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "519c6c533d116c4c5c571ecb2f7391d1",
-      "timestamp": "2026-01-29T21:46:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Eurozone Economy Starts The Year On A Strong Footing",
-      "url": "https://seekingalpha.com/article/4863788-eurozone-economy-starts-year-strong-footing?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7585a90e877df65dbdec2a6c520d8ca2",
-      "timestamp": "2026-01-29T21:45:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "IBM: Limping Into 2026",
-      "url": "https://seekingalpha.com/article/4863787-ibm-limping-into-2026?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a41cc8a9b22ea35c425106ea199267f1",
-      "timestamp": "2026-01-29T21:45:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Income Isn't Dead: 2 Stocks With Safe And Reliable Dividends",
-      "url": "https://seekingalpha.com/article/4862779-income-isnt-dead-2-stocks-with-safe-and-reliable-dividends?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "449e82c891fd66c557b1cb788296e7f1",
-      "timestamp": "2026-01-29T21:45:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "DTE Energy: Buy This Top-Notch Dividend Grower Now",
-      "url": "https://seekingalpha.com/article/4863547-dte-energy-buy-top-notch-dividend-grower-now?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "72188f41977946da25356ff4f9c3ad75",
-      "timestamp": "2026-01-29T21:45:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Dollar Gyrations, But Little Changed Ahead Of The North American Session",
-      "url": "https://seekingalpha.com/article/4863807-dollar-gyrations-but-little-changed-ahead-of-north-american-session?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6807b1b9c1b7561d276b1b4be259e0ee",
-      "timestamp": "2026-01-29T21:39:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi’s Manara Sounds Out Firms Over Push Into Metals Trading - Saudi Arabia’s state-controlled metals and mining vehicle is in talks with some of the world’s biggest commodity houses over a push into trading, as the kingdom expands its presence in global supply c",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/saudi-s-manara-sounds-out-firms-over-push-into-metals-trading",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dfee377dcd90d43f256e34e9453110b",
-      "timestamp": "2026-01-29T21:34:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Rules Out Compensation Over Pension Age for Waspi Women - UK Work and Pensions Secretary Pat McFadden said it wasn’t practical to set up a compensation plan for millions of women who were affected by an unexpected and poorly communicated increase in the stat",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/uk-rules-out-compensation-over-pension-age-for-waspi-women",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d73507387e3b62ea36304fa4de31a4af",
-      "timestamp": "2026-01-29T21:31:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rogers Beats as Blue Jays Season Boosted Revenues - Rogers Communications Inc. beat analysts’ fourth-quarter estimates thanks to strong growth in its media segment and a World Series appearance by its Toronto Blue Jays baseball team.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/rogers-beats-as-blue-jays-season-boosted-revenues",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e9886a6717d64374616abf9b7e0d4611",
-      "timestamp": "2026-01-29T21:31:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "ServiceNow, Inc. 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4863804-servicenow-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fbd2d6fbe520be9807d8cdfc4cf5335d",
-      "timestamp": "2026-01-29T21:30:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Intrum AB (publ) 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4863803-intrum-ab-publ-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe0d162218fe44663e256cee6004a739",
-      "timestamp": "2026-01-29T21:30:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "American Airlines: Mayday, Strong-Sell Confirmed",
-      "url": "https://seekingalpha.com/article/4863696-american-airlines-mayday-strong-sell-confirmed?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "050f66d788e4f36b65a070c939292834",
-      "timestamp": "2026-01-29T21:30:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Divergence No Longer As Stocks And Gold Shatter Records",
-      "url": "https://seekingalpha.com/article/4863782-divergence-no-longer-as-stocks-and-gold-shatter-records?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d29618f9290b6d29c40cd3388d2ae3c9",
-      "timestamp": "2026-01-29T21:30:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fiat, Toyota Tycoons Back Startup RobCo in $100 Million Round - RobCo, a German startup that makes robots for use in manufacturing, has raised $100 million in financing from investors including the family behind Fiat parent Stellantis NV and Exor NV, and a billion",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/fiat-toyota-tycoons-back-startup-robco-in-100-million-round",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f61983dce5f8a76669f2fc7814e6814b",
-      "timestamp": "2026-01-29T21:30:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "CareCloud: Undervalued AI Play In Healthcare IT",
-      "url": "https://seekingalpha.com/article/4863713-carecloud-stock-undervalued-ai-play-in-healthcare-it?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aad8b74be5c38e4a7f1b896db478f5eb",
-      "timestamp": "2026-01-29T21:30:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crypto’s ‘Digital Gold’ Myth Exposed as Traders Pivot to Metals - Bitcoin’s “digital gold” promise is unraveling as traders forgo the token for surging metals, hurting a narrative that once defined the asset’s macro appeal.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/crypto-s-digital-gold-myth-exposed-as-traders-pivot-to-metals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "207456f6a1b9c40eb8d93ccfa3418100",
-      "timestamp": "2026-01-29T21:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock, Partners Group Debut Private-Asset Account for Wealth - BlackRock Inc. and Partners Group Holding AG launched the first joint private-markets investment of their partnership aimed at grabbing a slice of the trillions of dollars sitting in the hands of weal",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/blackrock-partners-group-debut-private-asset-account-for-wealth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8659a698b17fc3dd808540649904317a",
-      "timestamp": "2026-01-29T21:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "This Isn't An AI Bubble - It's An $85 Trillion Infrastructure Boom",
-      "url": "https://seekingalpha.com/article/4863117-this-isnt-an-ai-bubble-its-an-85-trillion-infrastructure-boom?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ead1bf47d08724b5db48410bb1fc3fca",
-      "timestamp": "2026-01-29T21:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Microsoft Q2 FY26 Earnings Review: Don't Step Off The Train Too Soon",
-      "url": "https://seekingalpha.com/article/4863731-microsoft-q2-fy26-earnings-review-dont-step-off-the-train-too-soon?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61fac58c9c25f533626781ba740dc587",
-      "timestamp": "2026-01-29T21:29:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "GoTu and SoFi at Work Collaborate to Provide Resources for Financial Well-being - SoFi Technologies, Inc. (NASDAQ:SOFI) is among the Growth Stock Portfolio: 12 Stock Picks By Cathie Wood. On January 20, 2026, TheFly reported that GoTu Technology has formed a private agreement with ",
-      "url": "https://finance.yahoo.com/news/gotu-sofi-collaborate-resources-financial-122907269.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1c6f5eade968d32e5ecd7cd63954472a",
-      "timestamp": "2026-01-29T21:21:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Royal Caribbean Jumps as Accelerating Demand Spurs Fleet Growth - Royal Caribbean Cruises Ltd. shares jumped as demand for cruise holidays keeps accelerating, which could see the liner add as many as six additional ships to its fleet.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/royal-caribbean-jumps-as-accelerating-demand-spurs-fleet-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f7d6062fcee7e0795c1a5c21ac1f5374",
-      "timestamp": "2026-01-29T21:18:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tech's CAPEX Splurge as SAP Stock Falls, A Metal Markets Party | The Opening Trade 1/29/2026 - SAP shares see their biggest intraday drop since Covid. Germany's biggest company failed to convince that it would be able to clear its growing cloud backdrop. But, chip stocks rise again after the la",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/the-opening-trade-1-29-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
