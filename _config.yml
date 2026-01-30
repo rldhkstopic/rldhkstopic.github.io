@@ -44,6 +44,9 @@ permalink: /:year/:month/:day/:title.html
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 # Show future-dated posts
 future: true
@@ -100,4 +103,3 @@ admin:
   github_oauth:
     client_id: "Ov23lisMUemA9EpUyk3Q"  # GitHub OAuth App Client ID
     # client_secret은 서버 사이드에서만 사용하므로 여기에 저장하지 않음
-
