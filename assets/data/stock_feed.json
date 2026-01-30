@@ -1,6 +1,204 @@
 {
-  "last_updated": "2026-01-30T09:23:09.205780+09:00",
+  "last_updated": "2026-01-30T11:58:42.893277+09:00",
   "items": [
+    {
+      "id": "7af8614c5b38d224ff4f925537540dbb",
+      "timestamp": "2026-01-30T11:45:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Defense Stocks Are Back in the Spotlight on EU Trade Pact - A Nifty gauge of defense stocks is up over 8% this week.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-30/defense-stocks-in-spotlight-on-india-eu-trade-deal-labor-code-pangs-for-firms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4f1368ee7b325f4c8af0ff96ab61dc58",
+      "timestamp": "2026-01-30T11:33:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk's SpaceX Said to Weigh Tie-Up With Tesla or xAI - SpaceX is said to be considering a potential merger with Tesla or xAI, as Elon Musk weighs how to consolidate his empire. Bloomberg Tech's Ed Ludlow discusses what's at stake on \"Bloomberg: The Asia T",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/musk-s-spacex-said-to-weigh-tie-up-with-tesla-or-xai-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6a36fb80076600c728546f52e1119db6",
+      "timestamp": "2026-01-30T11:25:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin Slumps to Two-Month Low as US Funds Shed Billions - Bitcoin slumped to fresh two-month lows in early Asia trade as sentiment continues to sour around the largest cryptocurrency and investors pull money out of exchange-traded funds for the token.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bitcoin-btc-slumps-to-two-month-low-as-us-funds-shed-billions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "051528a289368772f90d91a597749bf8",
+      "timestamp": "2026-01-30T11:25:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan’s Modified FX Tactics Deliver Short-Term Success on Yen - Japan has managed to secure breathing space for the yen with no evidence so far of any large-scale intervention, an indication of short-term success for modified tactics that lean heavily on the US fe",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/japan-s-modified-fx-tactics-deliver-short-term-success-on-yen",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8522afed737d556a6a5e5575fc0a24f4",
+      "timestamp": "2026-01-30T11:21:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK PM Keir Starmer Meets With China's Xi Jinping - UK Prime Minister Keir Starmer met with Chinese President Xi Jinping, calling for a “more sophisticated” relationship in the first trip to China by a British prime minister in eight years. (Source: Bl",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/uk-pm-keir-starmer-meets-with-china-s-xi-jinping",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5bf4cdcd73f805e758f160629e047dc1",
+      "timestamp": "2026-01-30T11:20:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesia Stock Exchange CEO Resigns After Market Rout - Iman Rachman, chief executive officer of the Indonesia Stock Exchange, said he will step down following a two-day market rout sparked by MSCI Inc.’s warning of a possible downgrade.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/indonesia-stock-exchange-ceo-resigns-after-market-rout",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b360c320a7d9428987156f8607696975",
+      "timestamp": "2026-01-30T11:17:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold’s Record Inflows From Asian ETFs Seen by Some as Warning - Asian investors are pouring record amounts into gold exchange-traded funds, leading some to question whether the rally in bullion is getting close to topping out.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/gold-s-record-inflows-from-asian-etfs-seen-by-some-as-warning",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "63b23112b308896acd77831caa1623eb",
+      "timestamp": "2026-01-30T11:17:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Administration Prepares for Warsh Fed Chair Nomination - The Trump administration is preparing for the president to nominate Kevin Warsh to be the next Federal Reserve chair, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/trump-administration-prepares-for-warsh-fed-chair-nomination",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dab6e724bac3753f9f06035c314526d4",
+      "timestamp": "2026-01-30T11:09:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dollar, US Yields Rise as Trump to Nominate Warsh for Fed Chair - The dollar advanced along with Treasury yields after US President Donald Trump was said to be preparing to nominate Kevin Warsh to be the next Federal Reserve chair.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/treasury-yields-rise-on-expectations-warsh-will-be-fed-chair",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "efa64ffd0a5a93871e99cddcbcf0a9c2",
+      "timestamp": "2026-01-30T11:01:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Warns UK on ‘Dangerous’ China Moves After Xi-Starmer Talks - President Donald Trump warned the UK and Canada against striking fresh business deals with China, after their leaders visited Beijing this month in an effort to deepen ties with the world’s second-lar",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/trump-warns-uk-on-dangerous-china-moves-after-xi-starmer-talks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "14b95f4c507aed4c297f098f8f48f3d8",
+      "timestamp": "2026-01-30T10:50:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Tariff Threat Pushes South Korea into Fresh US Trade Talks - South Korea’s industry minister met with the US commerce chief in Washington but failed to make progress in quelling fresh trade friction, with the two sides agreeing to resume talks Friday as Seoul s",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/trump-tariff-threat-pushes-south-korea-into-fresh-us-trade-talks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a233b11e548a42304c88e2b9b35d791",
+      "timestamp": "2026-01-30T10:37:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New World Shares, Bonds Jump as Blackstone in Talks for Stake - New World Development Co.’s shares and bonds surged after people familiar with the matter said Blackstone Inc. is in advanced talks to become the single largest shareholder of the Hong Kong developer.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/new-world-shares-jump-as-blackstone-is-said-to-be-in-stake-talks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "127889794393c6ec2b65d5593842f7b1",
+      "timestamp": "2026-01-30T10:25:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "LME Trading Glitch Caps Wild Week for Global Metals Traders - The London Metal Exchange suffered a one-hour delay to the start of trading on Friday due to technical issues, a glitch that follows days of heightened volatility and record prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/london-metal-exchange-is-said-to-delay-market-opening",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3c8540e33669d68d864aa61152b63844",
+      "timestamp": "2026-01-30T09:59:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nintendo and Sony Face Pressure Over Soaring Memory Chip Prices - Nintendo Co. and Sony Group Corp. will face scrutiny over how soaring memory chip prices driven by AI demand have affected their game console profitability when they report earnings next week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/japan-s-nintendo-and-sony-face-memory-price-pressures",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "931f164b7903cd1862172b27431fbbcf",
+      "timestamp": "2026-01-30T09:55:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Procedural Vote on Funding Bills Fails in Senate | Balance of Power: Late Edition 01/28/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, New York City Mayor Zohran Mamdani (D) says the city's relationships with the state and w",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/balance-of-power-late-edition-01-28-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d31f72ad378a002a5081d9756e3266f4",
+      "timestamp": "2026-01-30T09:52:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Adani Hires Top Wall Street Lawyer in Sign SEC Case Will Advance - Gautam Adani has hired a prominent Wall Street lawyer to defend him against fraud allegations by the US Securities and Exchange Commission, as the regulator presses to advance its stalled case.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/adani-hires-top-wall-street-lawyer-in-sign-sec-case-will-advance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7d659beb0c047ae24937e8d198ef2cdd",
+      "timestamp": "2026-01-30T09:42:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Rebounds in China With Biggest Sales Quarter in Four Years - Apple Inc. enjoyed a sharp rebound in China during the holiday period, when demand for the new iPhone 17 fueled its first $25 billion quarter in the region since the end of 2021.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/apple-rebounds-in-china-with-biggest-sales-quarter-in-four-years",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f57810bcc60add2d246844f7bb04954e",
+      "timestamp": "2026-01-30T09:31:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US to Seek Rare Earth Price Mechanism During Meetings With Allies, Official Says - The US will seek to reach consensus with allies on a pricing mechanism to help insulate rare earth mineral refiners and extractors during meetings with dozens of foreign ministers in Washington next w",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/us-to-seek-rare-earth-price-mechanism-during-meetings-with-allies-official-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "195d2aa0fd036530802825ae55da04d1",
       "timestamp": "2026-01-30T09:18:14+09:00",
@@ -10,6 +208,39 @@
       "related_tickers": [],
       "content": "Trump Says He Will Announce Fed Pick Friday Morning - President Donald Trump said he would be announcing his pick for a nominee to chair the Federal Reserve on Friday morning, signaling an end to a months-long process that has spurred speculation over th",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/trump-says-he-will-announce-fed-pick-friday-morning",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e34b60b2df1b7caa8ccc6a5631c4a1a6",
+      "timestamp": "2026-01-30T09:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB Locked on Hold as Calls for Hikes This Year Fade, Poll Shows - The European Central Bank is expected to keep interest rates unchanged at least through the end of next year, with calls for a hike in 2026 receding.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/ecb-locked-on-hold-as-calls-for-hikes-this-year-fade-poll-shows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab14325661a760b033c9b2f5399987af",
+      "timestamp": "2026-01-30T09:14:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Delta Electronics Surges to $100 Billion Valuation, Tops Foxconn - Delta Electronics Inc. has more than quadrupled in market value since April, making the AI server parts maker Taiwan’s second-biggest stock. It’s now worth more than $100 billion.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/delta-electronics-surges-to-100-billion-valuation-tops-foxconn",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab14325661a760b033c9b2f5399987af",
+      "timestamp": "2026-01-30T09:14:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Delta Electronics Surges to $100 Billion Valuation, Tops Foxconn - Delta Electronics Inc. has more than quadrupled in market value since April, making the AI server parts maker Taiwan’s second-biggest stock. It’s now worth more than $100 billion.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/delta-electronics-surges-to-100-billion-valuation-tops-foxconn",
       "sentiment": "NEUTRAL"
     },
     {
@@ -48,6 +279,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "26e6eeb57621c26c508ad42e54e51ffb",
+      "timestamp": "2026-01-30T08:55:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Colombia’s Top Court Suspends Petro’s Emergency Tax Increases - Colombia’s top court suspended billions of dollars of tax increases that the government had attempted by enact by decree, bypassing congress.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/colombia-s-top-court-suspends-petro-s-emergency-tax-increases",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "f5a9c68dc5f748a2ff326d2451d9228b",
       "timestamp": "2026-01-30T08:54:26+09:00",
       "source_type": "NEWS",
@@ -78,6 +320,17 @@
       "related_tickers": [],
       "content": "Trump Says US to Decertify, Levy Tariff on Planes From Canada - President Donald Trump said he would charge a 50% tariff on aircraft from Canada sold in the US and decertify all planes made in that country until Ottawa agreed to approve certain jets made by Gulfst",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/trump-says-us-to-decertify-levy-tariff-on-planes-from-canada",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ef24164ebbf7370c7131a7f32553e98b",
+      "timestamp": "2026-01-30T08:43:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tech Stocks Fall as Microsoft Slump Weighs on Nasdaq | The Close 1/29/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are CBOE Global Markets’s Mand",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-29/the-close-1-29-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -235,6 +488,28 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "475d1b33a9e1112271be87c9479b08ff",
+      "timestamp": "2026-01-30T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Adani Pivots to Local Debt With Ambition of Raising $10 Billion - Indian conglomerate Adani Group is ramping up financing at home amid global market volatility and a US bribery probe against its founder, in a test of how far domestic creditors can go to help fund so",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/adani-pivots-to-local-debt-with-ambition-of-raising-10-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e0cdd0f0b6dd6640d4a64027731a22b6",
+      "timestamp": "2026-01-30T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Myanmar Monk Accused of Fueling Genocide Backs Junta-Led Vote - By 2017, Myanmar’s military had allegedly killed thousands of Muslim Rohingya, a massacre now being pursued as genocide at the International Court of Justice. A central figure accused of fanning the v",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/myanmar-monk-accused-of-fueling-genocide-backs-junta-led-vote",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "11bea43b33a93ae399f1ee043c765312",
       "timestamp": "2026-01-30T07:54:38+09:00",
       "source_type": "NEWS",
@@ -342,6 +617,17 @@
       "related_tickers": [],
       "content": "Mamdani on Trump's Planned Cuts: We Will Defend New Yorkers - \"Our laws and our values are not bargaining chips,\" New York City Mayor Zohran Mamdani says when asked about President Donald Trump's plan to cut off federal funding to so-called sanctuary cities at t",
       "url": "https://www.bloomberg.com/news/videos/2026-01-29/mamdani-on-trump-s-planned-cuts-we-will-defend-new-york-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "98a652b2a625cbf26b1662ad00ca46ea",
+      "timestamp": "2026-01-30T07:23:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Chip Designer Montage Seeks Up to $902 Million in Hong Kong Listing - Chinese chip designer Montage Technology Co. is seeking to raise as much as HK$7 billion ($902 million) from its Hong Kong listing, adding to what has been the busiest start to the year ever for maide",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/chinese-chip-designer-montage-seeks-up-to-902-million-in-hong-kong-listing",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1919,316 +2205,6 @@
       "related_tickers": [],
       "content": "AMC Agrees on Amendment With Creditors to Clear Refinancing Path - AMC Entertainment Holdings, Inc. reached a deal with a group of creditors to change the terms in one of its notes, making it easier for the cinema chain to refinance its debt, according to a filing on",
       "url": "https://www.bloomberg.com/news/articles/2026-01-29/amc-agrees-on-amendment-with-creditors-to-clear-refinancing-path",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "35551836f070372c987f5cd6023d6818",
-      "timestamp": "2026-01-29T23:00:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Park Commons Plots $500 Million Fund for Its ‘Anti-Accelerator’ - The investors at South Park Commons realize there are a lot of places that promising founders can go for help when they’re starting companies.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/south-park-commons-plots-500-million-fund-for-its-anti-accelerator",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "86c40a33b3b0f5c636438972bc2ac927",
-      "timestamp": "2026-01-29T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Silicon Valley Favorite Jumps Into California Governor’s Race - San Jose Mayor Matt Mahan, a former tech entrepreneur supported by influential Silicon Valley leaders, entered the race for California governor, seeking to channel voter frustration over homelessness ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/san-jose-mayor-a-silicon-valley-darling-announces-run-for-california-governor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6f1f2804ec88ea03ecaad8749e8f6bab",
-      "timestamp": "2026-01-29T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lured by 38% Rates, Carry-Trade Investors Pile Into Milei’s Peso - Having lost more of its value than any other major currency in the world this century, the Argentine peso has long been seen as far too unstable to lure carry-trade investors. But in a sign of just ho",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/ars-usd-milei-s-strong-peso-lures-carry-trade-investors-to-argentina",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7156b71c15a264c8e3e3470793f45a93",
-      "timestamp": "2026-01-29T22:55:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ASML, SAP Show Widening Gap Between AI Winners and Losers - In the space of 48 hours, the fate of Europe’s top two tech stocks has shown how fast the artificial intelligence boom is causing investors to pick winners and losers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/asml-sap-show-widening-gap-between-ai-winners-and-losers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f173ee438a397a9a5371b12920f10241",
-      "timestamp": "2026-01-29T22:52:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s Economic Survey Flags Age-Based Limits for Social Media - India’s Economic Survey raised age-based restrictions on social media use as an issue for discussion, even as several countries have already taken steps to limit minors’ access to social media platfor",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/india-s-economic-survey-flags-age-based-limits-for-social-media",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a1dd1239490b9a0a614211043403a7fd",
-      "timestamp": "2026-01-29T22:50:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bank CEOs Vow to Step Up SRTs in Sign of Accelerating EU Market - Several big European banks said they will expand the use of significant risk transfers, sending a strong signal the asset class will continue to grow at a rapid clip.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/bank-ceos-vow-to-step-up-srts-in-sign-of-accelerating-eu-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3505db1ebbab907f0999c6961b483558",
-      "timestamp": "2026-01-29T22:46:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Paytm Posts Third Straight Profit as Business Bounces Back - Paytm reported a third straight profitable quarter, helped by rising sales and cost cuts that have helped the Indian fintech pioneer rebound from regulatory troubles.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/paytm-posts-third-straight-profit-as-business-bounces-back",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c175b6baf20128aa332351f681a729e",
-      "timestamp": "2026-01-29T22:39:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Deutsche Bank Chief Sees ‘Real Consideration’ to Ease Regulation - Deutsche Bank AG Chief Executive Officer Christian Sewing said Europe is stepping up efforts to streamline financial regulations and boost competitiveness amid recent geopolitical tensions.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/deutsche-bank-chief-sees-real-consideration-to-ease-regulation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4ab9ea0a24c9c282fdfeb6968fbb1377",
-      "timestamp": "2026-01-29T22:37:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SAP CEO on Future of SAP, Cloud - SAP CEO Christian Klein speaks with \"Bloomberg: The Opening Trade\" about the company's results and how AI has become a key driver for growth at SAP. He discusses his optimism in 2026 outlook for the c",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/sap-ceo-on-future-of-sap-cloud-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ab39f5477eab7905970f95591b768fcc",
-      "timestamp": "2026-01-29T22:34:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Trade Deficit Widens From Smallest Since 2009 as Imports Rise - The US trade deficit widened in November from the lowest level since 2009 as imports rebounded and exports fell, highlighting wide monthly swings in response to the Trump administration’s vacillating ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-trade-deficit-widens-from-smallest-since-2009-as-imports-rise",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "de7655945a6b8aee735e4686fe107358",
-      "timestamp": "2026-01-29T22:32:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Ameriprise Financial, Inc. 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4863832-ameriprise-financial-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c5d175aace6e3adf85bccbfce0aaca5",
-      "timestamp": "2026-01-29T22:32:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Deluxe Corporation 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4863831-deluxe-corporation-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "88b5c2f904c1d9466bf981539fe84092",
-      "timestamp": "2026-01-29T22:32:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "IGO Limited (IIDDY) Q2 2026 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4863643-igo-limited-iiddy-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "15ff224ba0de5b077536b0f1278cfa5e",
-      "timestamp": "2026-01-29T22:32:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Swedbank AB (publ) (SWDBY) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4863744-swedbank-ab-publ-swdby-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e5d3a39d2e9bdb5c5980e07232f1202",
-      "timestamp": "2026-01-29T22:32:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Gilat Satellite Networks: Upside Case Built On IFC, Not Momentum",
-      "url": "https://seekingalpha.com/article/4863805-gilat-satellite-networks-upside-case-built-on-ifc-not-momentum?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "18d8673bca2162cd7885216a1958a1a5",
-      "timestamp": "2026-01-29T22:31:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Rogers Communications Inc. 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4863830-rogers-communications-inc-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "16218c6958256d185bcd9949112759c8",
-      "timestamp": "2026-01-29T22:31:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Whistleblower in Bid Rigging Gets DOJ’s First $1 Million Reward - An informant who reported illegal bid-rigging of used car auctions to federal authorities received a $1 million reward, the Justice Department said Thursday, the first antitrust whistleblower award un",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/whistleblower-in-bid-rigging-gets-doj-s-first-1-million-reward",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b833963597f85e930aa1595a4a65e5f8",
-      "timestamp": "2026-01-29T22:31:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Whirlpool Corporation 2025 Q4 - Results - Earnings Call Presentation",
-      "url": "https://seekingalpha.com/article/4863828-whirlpool-corporation-2025-q4-results-earnings-call-presentation?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b388ed48ebd6960b2c83d1784831b946",
-      "timestamp": "2026-01-29T22:27:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Panel Proposes Cutting Share of Volatile Food Prices in Inflation Gauge - An Indian government panel has proposed a sharp reduction in the share of food prices used to determine retail inflation, a move that could help the central bank conduct monetary policy more effective",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/india-panel-proposes-cutting-share-of-volatile-food-prices-in-inflation-gauge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e79a4d91926a59795ca7da3f35943ee3",
-      "timestamp": "2026-01-29T22:27:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "AMN: Management Expects A Recovery, The Stock Is Still Cheap",
-      "url": "https://seekingalpha.com/article/4863801-amn-management-expects-a-recovery-the-stock-is-still-cheap?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1d6ab467ba7a133933c5099e098a759d",
-      "timestamp": "2026-01-29T22:22:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Indutrade AB (publ) (IDDWF) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4863822-indutrade-ab-publ-iddwf-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "794c8f1781015d8e1dc1ac556bad49ee",
-      "timestamp": "2026-01-29T22:22:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Suominen Oyj (SMNCF) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4863821-suominen-oyj-smncf-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30389dd82cdb3c124cde17bb1f01cca1",
-      "timestamp": "2026-01-29T22:22:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Telia Company AB (publ) (TLSNY) Q4 2025 Earnings Call Transcript",
-      "url": "https://seekingalpha.com/article/4863757-telia-company-ab-publ-tlsny-q4-2025-earnings-call-transcript?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3c34b16ed159b9bae6ffa7c1ec3e32ca",
-      "timestamp": "2026-01-29T22:21:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Long-End Treasuries Fluctuate as Traders Await US Jobs Data - US Treasuries fluctuated as investors looked ahead to jobs data for clues on the path of interest rates and surging commodity prices kindled concerns about sticky inflation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/long-end-treasuries-fluctuate-as-traders-await-us-jobs-data",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c85a7d737be750722c6b8bfe43b278a",
-      "timestamp": "2026-01-29T22:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Seeking Alpha",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Pinterest: The 'Year Of Efficiency' Has Arrived, And I'm Loading Up",
-      "url": "https://seekingalpha.com/article/4863733-pinterest-the-year-of-efficiency-has-arrived-and-im-loading-up?source=feed_all_articles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa405089645a6d8dedec384f62c9dd23",
-      "timestamp": "2026-01-29T22:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Top Canada CEOs’ Group Questions Carney’s Strategy With Trump - The head of an organization that represents Canadian chief executives questioned Mark Carney’s handling of the relationship with the White House, calling on the prime minister to focus on salvaging th",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/top-canada-ceos-group-questions-carney-s-strategy-with-trump",
       "sentiment": "NEUTRAL"
     }
   ]
