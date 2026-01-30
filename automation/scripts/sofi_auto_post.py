@@ -369,9 +369,10 @@ def clean_html_tags(content: str) -> str:
     # 문단 끝에 줄바꿈 추가 (헤더/리스트가 아닌 경우)
     content = re.sub(r'([^\n])\n([^\n#\-\*\+])', r'\1\n\n\2', content)
     
-    # References 섹션 정리: 각주 형식 수정
-    # [^n]: 형식을 - [^n]: 형식으로 변경
-    content = re.sub(r'^(\[)\^(\d+)\]:', r'- [^\2]:', content, flags=re.MULTILINE)
+    # References 섹션 정리: 각주 형식은 [^n]: 형식으로 유지 (리스트 형식 아님)
+    # Jekyll/Kramdown은 [^1]: 형식을 자동으로 각주로 변환함
+    # 잘못된 리스트 형식(- [^1]:)을 올바른 형식([^1]:)으로 수정
+    content = re.sub(r'^-\s*(\[\^\d+\]:)', r'\1', content, flags=re.MULTILINE)
     
     return content.strip()
 
@@ -735,9 +736,8 @@ views: 0
 
 """
     
-    footer = f"\n\n---\n\n*이 포스트는 AI가 분석하여 자동으로 생성되었습니다. (생성 시간: {now.strftime('%Y-%m-%d %H:%M:%S KST')})*\n"
-    
-    return front_matter + content + footer
+    # Footer 제거 (사용자 요청)
+    return front_matter + content
 
 
 def main():
