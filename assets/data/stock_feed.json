@@ -1,6 +1,355 @@
 {
-  "last_updated": "2026-01-30T21:11:09.345091+09:00",
+  "last_updated": "2026-01-30T23:14:17.758755+09:00",
   "items": [
+    {
+      "id": "3e055b63be452eeaef9ae863a8b09a4f",
+      "timestamp": "2026-01-30T23:03:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Picks Warsh to Lead the Federal Reserve - President Donald Trump said he intends to nominate Kevin Warsh to be the next chair of the Federal Reserve, according to a post on his Truth Social platform. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/trump-picks-warsh-to-lead-the-federal-reserve-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c5c5be13ea7abd7aeeebfc98a033a54e",
+      "timestamp": "2026-01-30T23:02:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Banks Ready $7.9 Billion Debt Sale to Finance Sealed Air Buyout - Banks are preparing to sell about $7.9 billion in debt as early as February to finance Clayton Dubilier &amp; Rice’s buyout of packaging firm Sealed Air Corp.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/banks-ready-7-9-billion-debt-sale-to-finance-sealed-air-buyout",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f62517b5e25ffc09d242de23ef091d96",
+      "timestamp": "2026-01-30T22:59:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Bostic Says Elevated Inflation Should Keep Rates on Hold - Federal Reserve Bank of Atlanta President Raphael Bostic said elevated inflation means the US central bank should wait before it cuts interest rates again.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/fed-s-bostic-says-elevated-inflation-should-keep-rates-on-hold",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "93f5893e8efe81aa5e5a32c937a16567",
+      "timestamp": "2026-01-30T22:55:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Instacart to Help Costco Take Grocery Orders in Europe in International Push - Costco Wholesale Corp. will use Instacart's technology to power online grocery ordering in Spain and France, extending their partnership beyond North America for the first time as the delivery company",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/instacart-to-help-costco-take-grocery-orders-in-europe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "02320a4a5841bf7ffa4e623d17167671",
+      "timestamp": "2026-01-30T22:51:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Producer Prices Rise More Than Expected in December - US wholesale inflation increased in December by more than forecast as the producer price index rose 0.5% after a 0.2% gain in the prior month, reflecting higher costs for services. Michael McKee repor",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/us-producer-prices-rise-more-than-expected-in-december-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2677aa47acb5af732e3c2cd6798cf119",
+      "timestamp": "2026-01-30T22:47:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cuba Decries Trump’s ‘Genocidal’ Threat and Girds for Calamity - Cuba hit back at Donald Trump’s plans to use tariffs to choke off all oil supplies to the struggling island, calling it “blackmail and coercion” that would force Cubans to live under even more dire co",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/cuba-decries-trump-s-genocidal-threat-and-girds-for-calamity",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aeb020d7301c8c774582fd27d2a7d1bd",
+      "timestamp": "2026-01-30T22:36:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Regulator Clears NSE IPO Plan Ending Decade-Long Wait - National Stock Exchange of India Ltd. has received clearance from the securities market regulator to initiate steps for an initial public offering, the bourse said in a statement.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/nse-s-decade-long-wait-ends-as-india-regulator-clears-ipo-plan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e5bf777e8649d155723397e2b5a4eabb",
+      "timestamp": "2026-01-30T22:30:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil’s Year of The Glut Begins With an Unexpected Price Surge - It was supposed to be the year of glutted oil markets and lower prices, but the first weeks of 2026 have instead been dominated by geopolitical spikes and supply disruption, powering futures to $70 a ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/oil-s-year-of-the-glut-begins-with-an-unexpected-price-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f91e5f7332e570490a14843c7f36ebf8",
+      "timestamp": "2026-01-30T22:17:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Minnesota Businesses Resisted ICE, and Now Face DHS Audits - Employment records of at least two Minneapolis-area businesses are being audited by the Department of Homeland Security, in what state and local officials describe as retaliation over the fallout from",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/minnesota-businesses-resisted-ice-and-now-face-dhs-audits",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f9cd8508309204774f6ca232e0cd2bb3",
+      "timestamp": "2026-01-30T22:16:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Earnings Growth Accelerates, Tops Views On Record Membership Adds - SoFi stock climbed after the fintech reported Q4 earnings and revenue that topped Wall Street targets.",
+      "url": "https://finance.yahoo.com/m/59a54df0-203c-3be6-b425-ce2c8b437c98/sofi-earnings-growth.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e10aa5d07b9b72f2da18f15e37d4e814",
+      "timestamp": "2026-01-30T22:13:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Picks a Reinvented Warsh to Lead the Federal Reserve - President Donald Trump said he intends to nominate Kevin Warsh to be the next chair of the Federal Reserve, according to a post on his Truth Social platform. Warsh, who served on the US central bank’s",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/trump-picks-a-reinvented-warsh-to-lead-the-fed-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "47954862b32c1b7f4f167e54fbafbf46",
+      "timestamp": "2026-01-30T22:01:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Inflation Edges Above 2% Before First ECB Meeting of 2026 - German inflation accelerated slightly after Europe’s largest economy recorded surprisingly strong expansion at the end of last year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/german-inflation-edges-above-2-before-first-ecb-meeting-of-2026",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3f4875cb01fe6331574a0c7f02e49263",
+      "timestamp": "2026-01-30T22:00:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oura CEO Says Its Subscription Model Is Here to Stay - Oura Health Oy, the popular smart ring maker, has no plans to abandon its subscription-based business model even as rivals experiment with cheaper hardware and no recurring fees.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/oura-ceo-doubles-down-on-subscription-model-in-interview",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "943410b67c4f84ea2b3a691d3f834d47",
+      "timestamp": "2026-01-30T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nobel Hacking Likely Leaked Peace Prize Winner Name, Probe Finds - A hacking of the Nobel organization’s computer systems is the most likely cause of last year’s leak of Nobel Peace Prize laureate María Corina Machado’s name, according to the results of an investigat",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/nobel-hacking-likely-leaked-peace-prize-winner-name-probe-finds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "580d8c39cada8db5473725d2d6bdb962",
+      "timestamp": "2026-01-30T21:57:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Had ‘Range of Better Choices’ to Lead Fed, Economist Dutta Says - “I think the President had a range of better choices and he picked the worst one in front of him,” says Neil Dutta, head of US economic research at Renaissance Macro Research. Dutta reacts to Presiden",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/trump-had-range-of-better-choices-to-lead-fed-dutta-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f7408413c799a3d545e9e56c27541c6b",
+      "timestamp": "2026-01-30T21:56:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Colgate’s Sales Growth Beats Estimates on Latam Rebound - Colgate-Palmolive Co. posted stronger-than-expected sales growth in the fourth quarter thanks to a rebound in Latin America after it reformulated a new toothpaste flavor following adverse reactions in",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/colgate-s-sales-growth-beats-estimates-on-latam-rebound",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0293d1c3df577e1faa96968d3b562c64",
+      "timestamp": "2026-01-30T21:47:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Wind Power Output at Four-Year High in January Curbs Prices - UK wind farms are expected to provide the most power in almost four years this month as more turbines and blustery conditions help the country pivot away from fossil fuels.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/uk-wind-power-output-at-four-year-high-in-january-curbs-prices",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0394032320dfb7b0e35db024a00c5fb8",
+      "timestamp": "2026-01-30T21:44:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump's Fed Chair Pick Satisfies No One - Trump's decision to appoint Kevin Warsh as Fed chair clashes with his promise of easier policy. Bloomberg Opinion columnist Jonathan Levin explains. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/opinion-trump-s-fed-chair-pick-satisfies-no-one-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ef8e48862a77f2011f0155f9f7c48d22",
+      "timestamp": "2026-01-30T21:41:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Vanke Warns Losses Widened to Record Last Year - China Vanke Co. reported its losses widened by two-thirds to a record last year, citing a sharp decline in its property developments and additional provisions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-vanke-warns-2025-loss-may-have-widened-to-11-8-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "55758279a6ce304a4edc2776075094df",
+      "timestamp": "2026-01-30T21:37:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi (NASDAQ:SOFI) Surprises With Strong Q4 CY2025, Stock Soars - Digital financial services company SoFi Technologies (NASDAQ:SOFI) announced better-than-expected revenue in Q4 CY2025, with sales up 38.7% year on year to $1.03 billion. Revenue guidance for the full",
+      "url": "https://finance.yahoo.com/news/sofi-nasdaq-sofi-surprises-strong-123755579.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ff6092da77714baa323d4b28696552b9",
+      "timestamp": "2026-01-30T21:35:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Standby for Trump's Fed Chair Pick, Gold Retreats, USD Climbs | The Opening Trade 1/30/2026 - The Trump administration is reportedly preparing for the president to nominate Kevin Warsh to be the next Federal Reserve chair. Warsh, a former Fed governor and one of the four finalists on Trump’s s",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/the-opening-trade-1-30-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bfee5fbb223b5630c04a19418ebcf087",
+      "timestamp": "2026-01-30T21:34:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "These Stocks Are Today’s Movers: Apple, Sandisk, SoFi, Verizon, Amex, Western Digital, KLA Corp., Microsoft, and More - STOCKSTOWATCHTODAY BLOG  Stock futures were falling Friday after President Donald Trump selected Kevin Warsh as his nominee for the next chair of the Federal Reserve, who will take over from Jerome Po",
+      "url": "https://finance.yahoo.com/m/4c0d34bf-cf68-35a6-9cf0-c9a75a0173f9/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "60a7d26ba0d7858c4d1b2ecd9e28029a",
+      "timestamp": "2026-01-30T21:32:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "GetYourGuide Crosses €1B Revenue Milestone - Travel booking platform GetYourGuide crossed €1b revenue and achieved profitability last year. Johannes Reck, Co-Founder and CEO of the platform joins Bloomberg's The Opening Trade to discuss growth f",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/getyourguide-crosses-1b-revenue-milestone-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ba24381b5a8f72d5238b4a1b09d49cdc",
+      "timestamp": "2026-01-30T21:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prison Stocks Tumble With ICE Backlash Stoking Business Angst - Wall Street investors who drove a massive surge in the shares of the two biggest private prison operators when President Donald Trump won the US election are seeing the trade fizzle out barely a year ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/prison-stocks-tumble-with-ice-backlash-stoking-business-angst",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd305e7d0c221544ffc32ec58cfd0dbc",
+      "timestamp": "2026-01-30T21:28:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kevin Warsh Is 'Fantastic' But 'Unpredictable' Says Subramaniam - Subitha Subramaniam, head of investment strategy at Sarasin & Partners, joins Stephen Carroll and Caroline Hepker to discuss reports that the Trump administration is preparing for the president to nom",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/warsh-fantastic-but-unpredictable-says-subramaniam-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c9c11558d029c180c5f5a7680a4b0b54",
+      "timestamp": "2026-01-30T21:26:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What Kevin Warsh Brings to the Federal Reserve - President Donald Trump said he intends to nominate Kevin Warsh to be the next chair of the Federal Reserve. Michael McKee examines Warsh’s career on Wall Street and his positions on monetary policy wh",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/what-kevin-warsh-brings-to-the-federal-reserve-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0cfdbad603c07f8def9b8a7070a4ac8",
+      "timestamp": "2026-01-30T21:16:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Fintech lender SoFi profit jumps on strong growth in fee‑based businesses - SoFi's financial services business, which includes credit card and investing products, posted a 78% rise in revenue in the quarter ended December 31 ⁠to $456.7 million. Founded in 2011 ‌as a student-l",
+      "url": "https://finance.yahoo.com/news/fintech-lender-sofi-profit-jumps-121607707.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "67512ae225c79ba76059a9be10c18b07",
+      "timestamp": "2026-01-30T21:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Europe Gets Deja Vu After Swapping Russian Gas Dependency for US - Diversifying away from American LNG imports won’t be easy",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-30/europe-suffers-energy-deja-vu-after-swapping-russian-gas-dependence-for-us-lng",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be70b122c1600f81b83712278b3d81ed",
+      "timestamp": "2026-01-30T21:13:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine’s Surging Nuclear Risk Triggers Emergency IAEA Session - Ukraine faces serious new nuclear-safety risks as a result of Russian strikes aimed at degrading its power grid, depriving the nation’s three operating atomic plants of stable electricity feeds.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/ukraine-s-surging-nuclear-risk-triggers-emergency-iaea-session",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "61ba781eb1264858b756377ed99e4153",
+      "timestamp": "2026-01-30T21:12:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rush to Cut Costs Fuels Record Week for Europe’s Leveraged Loans - European leveraged loan issuance hit a record this week as a wave of private equity-backed firms tapped ferocious investor demand to cut their borrowing costs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/rush-to-cut-costs-fuels-record-week-for-europe-s-leveraged-loans",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "742cb9d9ef5015b278daf19a595b8095",
+      "timestamp": "2026-01-30T21:11:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Lifts Sanctions on British Parliamentarians It Had Barred - China has lifted restrictions on British parliamentarians it had banned from visiting the country, Prime Minister Keir Starmer said on Friday, as he sought to highlight the gains he’s made by travelin",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-lifts-sanctions-on-british-parliamentarians-it-had-barred",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7a79ebb69ca4cef6e33430b65e202057",
       "timestamp": "2026-01-30T21:07:23+09:00",
@@ -32,6 +381,30 @@
       "related_tickers": [],
       "content": "Tesla Bulls and Bears Reach an Agreement: This Is No Auto Stock - The long-standing debate among investors whether Tesla Inc. should be valued as a carmaker or a technology superpower came close to a resolution this week as the company laid out plans for a dramatic ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/tesla-bulls-and-bears-reach-an-agreement-this-is-no-auto-stock",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1c34c6a1cf59232378cfe619d2fefd64",
+      "timestamp": "2026-01-30T21:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Posts Better-Than-Expected-Earnings. The Fourth Quarter Was ‘Exceptional,’ Says CEO. - SoFi has steadily expanded its offerings in crypto and self-directed investing in its bid to become a ‘one-stop shop’ for customers.",
+      "url": "https://finance.yahoo.com/m/f1ba9361-0d69-3a74-8b89-fbb8ea5fe7a6/sofi-posts.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "42d33ba7d3203b0afe4a12e6fed17802",
+      "timestamp": "2026-01-30T20:48:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Says It’s Ready for Talks If Trump Stands Down Threats - Iran said it was prepared for talks with the US if President Donald Trump ends his threats against the Islamic Republic and warned military strikes could trigger a wide conflagration in the Middle Eas",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/iran-is-prepared-for-fair-and-equitable-negotiations-araghchi",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1840,371 +2213,6 @@
       "related_tickers": [],
       "content": "Siri Co-Founder Says Apple Is in a 'Pretty Good Position' - Dag Kittlaus, Siri co-founder and former CEO, says Apple made some missteps in the development of Siri but is optimistic about where they are today. He speaks on \"Bloomberg The Close.\" (Source: Bloomb",
       "url": "https://www.bloomberg.com/news/videos/2026-01-29/siri-co-founder-says-apple-is-in-pretty-good-position-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "42b3a8c3da68b2189447fe66775c5d93",
-      "timestamp": "2026-01-30T06:55:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Perplexity Inks Microsoft AI Cloud Deal Amid Dispute With Amazon - AI startup Perplexity inked a $750 million deal with Microsoft Corp. to use its Azure cloud service amid a legal feud with Perplexity’s longtime cloud partner, Amazon.com Inc.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/perplexity-inks-microsoft-ai-cloud-deal-amid-dispute-with-amazon",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d94f09e78969279700de20bb0af4ef0a",
-      "timestamp": "2026-01-30T06:55:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Issues License for Oil Companies to Operate in Venezuela - The Trump administration issued a general license expanding the ability of oil companies to operate in Venezuela, marking a significant to step ease sanctions under the new US-backed leadership in Car",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-issues-license-for-oil-companies-to-operate-in-venezuela",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d94f09e78969279700de20bb0af4ef0a",
-      "timestamp": "2026-01-30T06:55:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Issues License for Oil Companies to Operate in Venezuela - The Trump administration issued a general license expanding the ability of oil companies to operate in Venezuela, marking a significant to step ease sanctions under the new US-backed leadership in Car",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-issues-license-for-oil-companies-to-operate-in-venezuela",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "243af5485991158aa4707e50f7c45fa2",
-      "timestamp": "2026-01-30T06:54:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple Sales Trounce Estimates After iPhone Fuels Record Quarter - Bloomberg's Managing Editor for Global Consumer Tech Mark Gurman says today's earnings may be Apple's best quarter ever. \nApple reported holiday period revenue that topped Wall Street estimates, drive",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/apple-sales-trounce-estimates-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e4c59c95359328847f1a6d121974cba9",
-      "timestamp": "2026-01-30T06:53:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Newsom Warns Wealth Tax Might Hurt California, Says Market is Holding Trump Accountable - California Governor Gavin Newsom told Bloomberg's Brad Stone that he believes that in spite of creating a windfall for the state, a tax on California's billionaires would pose longer-term issues, incl",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/newsom-warns-wealth-tax-might-hurt-california-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f10dc6a03cb69f776ec676469e2685c3",
-      "timestamp": "2026-01-30T06:43:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Copper Prices Top $14,500 a Ton For First Time - Copper prices gained as much as 11% to trade above $14,500 a ton for the first time ever Thursday afternoon. Timna Tanners from Wells Fargo talks about the rally in metals and says copper shortages we",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/copper-prices-top-14-500-a-ton-for-first-time-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2feed6147615cc7fdce1e0f841359dde",
-      "timestamp": "2026-01-30T06:34:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple Sales Crush Estimates in Record Quarter for the iPhone - Apple Inc.’s revenue in the holiday quarter trounced Wall Street estimates, driven by strong demand for the new iPhone 17, growth in services and a rebound in China.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/apple-sales-trounce-estimates-after-iphone-fuels-record-quarter",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f209bcf2127de42c576ab3d1109ed344",
-      "timestamp": "2026-01-30T06:32:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Senate, White House Look for a Way Out of ICE Funding Fight - An emerging compromise would temporarily fund the Homeland Security.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-29/senate-white-house-look-for-a-way-out-of-ice-funding-fight",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1606dbbf450647568a21f9509f97811a",
-      "timestamp": "2026-01-30T06:29:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Urges China to Let ‘Substantially Undervalued’ Yuan Rise - The US Treasury characterized the yuan as “substantially undervalued,” and called on China to allow its exchange rate to strengthen in a timely and orderly way.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-calls-on-china-to-strengthen-substantially-undervalued-yuan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c182529cb574790a6716cacb03ba8a39",
-      "timestamp": "2026-01-30T06:22:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Has Investigated Claims That WhatsApp Chats Aren’t Private - US law enforcement has been investigating allegations by former Meta Platforms Inc. contractors that Meta personnel can access WhatsApp messages, despite the company’s statements that the chat service",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-has-investigated-claims-that-whatsapp-chats-aren-t-private",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "014481b437858ec641587710f4d4a586",
-      "timestamp": "2026-01-30T06:17:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Silicon Valley Policy Forum to Stress Preserving US Lead in AI - The Hill and Valley Forum, a closely watched gathering of tech industry leaders and US policymakers, will focus its next summit in Washington on preserving the American lead in artificial intelligence",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/silicon-valley-policy-forum-to-stress-preserving-us-lead-in-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9fd987e5ec2537fdbb0bcebfc105aabd",
-      "timestamp": "2026-01-30T06:16:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pentagon Strikes Deal With Canada’s 5N Plus - The US Department of Defense made an $18 million investment in Canada’s 5N Plus Inc. to help the company expand refining capacity for germanium metal, which is used in night-vision systems and other a",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/pentagon-strikes-deal-with-canada-s-5n-plus-shares-surge-19",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9fd987e5ec2537fdbb0bcebfc105aabd",
-      "timestamp": "2026-01-30T06:16:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pentagon Strikes Deal With Canada’s 5N Plus - The US Department of Defense made an $18 million investment in Canada’s 5N Plus Inc. to help the company expand refining capacity for germanium metal, which is used in night-vision systems and other a",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/pentagon-strikes-deal-with-canada-s-5n-plus-shares-surge-19",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "721d795310b4eb9a1ca9e64d6ea3cc32",
-      "timestamp": "2026-01-30T06:12:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Spending Delivers Mixed Results to Stocks | Bloomberg Tech 1/29/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss AI capital expenditures after Meta, Microsoft and Tesla all reported raising spend in their earnings. Plus, Apple is set to release results after the be",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/bloomberg-tech-1-29-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "530adb2223e008310bbd5914f34b19ae",
-      "timestamp": "2026-01-30T06:09:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fundamentals Of Metal Markets Are Weak Right Now: Layton - Gold fell the most since October, retreating from a record above $5,500 an ounce as risk-off sentiment sparked a selloff in metals with investors using them to cover losses in other assets such as equ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/fundamentals-of-metal-markets-are-weak-right-now-layton-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "62cea6e6e697db79650b81c4bac5fb94",
-      "timestamp": "2026-01-30T06:09:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi GoTu Partnership Expands Workplace Reach As Valuation Concerns Persist - SoFi Technologies (NasdaqGS:SOFI) has entered a partnership with GoTu Technology to bring SoFi at Work financial wellness tools to GoTu professionals. The collaboration focuses on student loan refinan",
-      "url": "https://finance.yahoo.com/news/sofi-gotu-partnership-expands-workplace-210921437.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c32af01c918dd4f2017a8667cad2fd6f",
-      "timestamp": "2026-01-30T06:06:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FedEx Shares Hit First Record Since 2021 on Cost-Cutting Plans - FedEx Corp. shares closed at a record high, putting them on track for a six-month rally amid growing confidence in the company’s cost-cutting efforts and a resilient economic backdrop that’s expected ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/fedex-shares-hit-first-record-since-2021-on-cost-cutting-plans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3333af044e4e70820fb9d67d084b568f",
-      "timestamp": "2026-01-30T06:03:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IBM Kicks Off Big Tech Bond Sales - IBM is poised to borrow nearly $7.5 billion in the corporate bond market, kicking off what is expected to be a flood of borrowing from the tech sector in 2026. Bloomberg's Ronan Martin and Robert Schi",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/ibm-kicks-off-big-tech-bond-sales-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77bf33b7efa153ad6bba829ffce16c08",
-      "timestamp": "2026-01-30T06:03:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Lower as Microsoft Revives AI Spending Angst | Bloomberg Businessweek Daily 01/29/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec speak with Angelo Zino of CFRA Research about Meta and Microsoft's earnings results, including how both tech giants ar",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/bloomberg-businessweek-daily-01-29-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1da478b6240b5dbca1d943ec99f923ee",
-      "timestamp": "2026-01-30T06:02:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "This Is The Right Time To Go Public: Ethos CEO - Insurance platform Ethos Technologies shares dropped in its trading debut, after the company and some of its shareholders raised roughly $200 million in an initial public offering. Peter Colis, Co-Fou",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/this-is-the-right-time-to-go-public-ethos-ceo-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22c57e12c3c9b3f8e0f3c5c88767a7d6",
-      "timestamp": "2026-01-30T06:01:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Viral App Moltbot Offers Imperfect Vision of AI Agent Future - Developers, venture capitalists and early adopters have eagerly tested out the product",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-29/viral-app-moltbot-offers-imperfect-vision-of-ai-agent-future",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa74c8c9b3e3afe33986db719c83aef5",
-      "timestamp": "2026-01-30T06:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Denver Firm Puts $280 Million Toward Pentagon’s Munitions Call - Denver-based Voyager Technologies is adding propulsion systems and other components to its manufacturing capabilities as part of a $280 million investment, with the Pentagon pressing defense contracto",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/denver-firm-puts-280-million-toward-pentagon-s-munitions-call",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a89b9ce2aafcfadb79d027772799feda",
-      "timestamp": "2026-01-30T06:00:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump, Democrats Close to Immigration Deal | Balance of Power: Early Edition 01/29/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discusses the latest from DC. On today's show, Democratic Congressman Gregory Meeks of New York, Bluestack Stra",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/balance-of-power-early-edition-01-29-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d63d7af963570b1c9b7755188ae1184",
-      "timestamp": "2026-01-30T05:53:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon in Talks to Invest $50 Billion in OpenAI, Expand Ties - Amazon.com Inc. is in talks to invest as much as $50 billion in OpenAI and to expand the AI startup’s existing deal for computing power.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/amazon-in-talks-to-invest-up-to-50-billion-in-openai-wsj-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d403c20df73e222d5d69ee0c3fcf692d",
-      "timestamp": "2026-01-30T05:53:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Veja os Três Assuntos Que Marcaram a Semana no Brasil - Os repórteres Beatriz Reis e Daniel Carvalho contam quais foram os \ntrês assuntos que marcaram a semana no Brasil. Com produção de Patricia Xavier e edição de Raphael Almeida.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/veja-os-tres-assuntos-que-marcaram-a-semana-no-brasil-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a4269ca44f6f60ca00633e9da5c9d69c",
-      "timestamp": "2026-01-30T05:51:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Complex History of US-Iran Relations: A Visual Timeline - <p>Tracing the roots of the discord between two of the world’s most bitter foes.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-29/the-complex-history-of-us-iran-relations-a-visual-timeline",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c3e695efc82f8b0d8938a18dfe1890e3",
-      "timestamp": "2026-01-30T05:44:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon Discovered Child Sex Abuse Content in AI Training Data - Amazon discovered child sexual abuse material in its AI data. The content was removed before training the models, but child safety officials say the tech giant won't disclose where it came from, poten",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/amazon-finds-child-sex-abuse-content-in-ai-training-data-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c51c31d284c873f1a53be5d4b05645f",
-      "timestamp": "2026-01-30T05:41:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Newsom Talks Trump, California Economy and Wealth Tax - California Governor Gavin Newsom says there is nothing surprising about the recent events in Minnesota. Speaking with Bloomberg Businessweek Editor Brad Stone in San Francisco, Newsom discusses his cr",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/newsom-talks-trump-california-economy-and-wealth-tax-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "616d9bb060c121aad5259907266bb685",
-      "timestamp": "2026-01-30T05:34:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Newsom on Trump: This Is a Wrecking Ball Presidency - California Governor Gavin Newsom says Donald Trump's \"wrecking ball presidency is jaw dropping in real time.\" He speaks to Brad Stone at a Bloomberg Newsmakers event in San Francisco. (Source: Bloombe",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/newsom-on-trump-this-is-a-wrecking-ball-presidency-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eab3056e4275dcd781877414dc5055bf",
-      "timestamp": "2026-01-30T05:34:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Waller REALLY Wants To Be Fed Chair - Federal Reserve Governor Chris Waller just played politics instead of economics. That’s a bad sign for the future of the institution, says Bloomberg Opinion columnist Jonathan Levin. (Source: Bloomber",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/waller-really-wants-to-be-fed-chair-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "265cb4a758b8c0888054413d020039e1",
-      "timestamp": "2026-01-30T05:29:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple Revenue, iPhone Sales Trounce Estimates",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-01-29/apple-first-quarter-earnings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "68ec5692bd8ff7d0bea5f4d6bbd61186",
-      "timestamp": "2026-01-30T05:22:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Newsom Warns a Wealth Tax Could Hurt California in the Long Term - California Governor Gavin Newsom calls H.R. 1 a \"disaster\" and warns that a wealth tax could end up hurting the state in the long term. He speaks with Bloomberg Businessweek Editor Brad Stone in San F",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-29/newsom-warns-a-wealth-tax-may-hurt-california-long-term-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c64d4a3bbd14dc3d68150ca3bc91283e",
-      "timestamp": "2026-01-30T05:16:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pimco President Says Private Credit Buyers Are ‘Blind’ to Risks - Investors underestimate the hazards when chasing fat yields in private credit, according to Pacific Investment Management Co.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-29/pimco-president-says-private-credit-buyers-are-blind-to-risks",
       "sentiment": "NEUTRAL"
     }
   ]
