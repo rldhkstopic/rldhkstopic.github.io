@@ -663,8 +663,9 @@ def generate_post_with_gemini(items: List[Dict], date_str: str, macro_data: Dict
 - 투자자 행동 가이드
 
 ## References
-- [^1]: [출처](URL)
-- [^2]: [출처](URL)
+
+[^1]: [출처명](URL) - 간단한 설명
+[^2]: [출처명](URL) - 간단한 설명
 
 **⚠️ 중요**: 
 - Front Matter 없이 본문만 작성하세요. 제목(###)부터 시작하세요.
