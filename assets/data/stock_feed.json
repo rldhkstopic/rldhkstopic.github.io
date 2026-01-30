@@ -1,6 +1,425 @@
 {
-  "last_updated": "2026-01-31T05:07:48.056028+09:00",
+  "last_updated": "2026-01-31T07:05:57.040784+09:00",
   "items": [
+    {
+      "id": "b3fb9966429e4e75fa88b482bde55735",
+      "timestamp": "2026-01-31T07:03:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "3D Printing Startup VulcanForms Raises $220 Million for US Manufacturing - Metal parts maker VulcanForms Inc. has raised $220 million in a funding round led by Eclipse and 1789 Capital, the VC firm where Donald Trump Jr. is a partner.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/3d-printing-startup-vulcanforms-raises-220-million-for-us-manufacturing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2a82d134cb2739740a249d327804c068",
+      "timestamp": "2026-01-31T06:45:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi CEO: Fed Chair Powell's legacy is a 'wash' - While CEO Anthony Noto cheers the \"phenomenal\" outcome of the Powell era, a \"touch light\" outlook for 2026 leaves investors questioning the path ahead.",
+      "url": "https://finance.yahoo.com/news/sofi-ceo-fed-chair-powells-legacy-is-a-wash-214529178.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc86e5781f61d18b195454612c5da836",
+      "timestamp": "2026-01-31T06:40:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crowded Wall Street Trades Buckle All at Once in 2026 Warning - In a Wall Street era marked by investor crowding and retail momentum, this week showed how quickly conviction can evaporate.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/crowded-wall-street-trades-show-cracks-in-latest-2026-warning",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f460ae90788e05da508c9da4ba99844",
+      "timestamp": "2026-01-31T06:39:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fidelity-Backed Ad Tech Platform Moloco Is Said to Weigh IPO - Moloco, an advertising technology company, is considering an initial public offering, according to people familiar with the matter, adding to a flurry of potential listings.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/fidelity-backed-ad-tech-platform-moloco-is-said-to-weigh-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9e05a51f16fed84caadc72fff8c6712b",
+      "timestamp": "2026-01-31T06:38:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TLT Traders Got Out Ahead of Trump Tapping Warsh for Fed Chair - ETF investors were offloading long-dated bonds well before Trump tapped Warsh.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-30/tlt-traders-exited-ahead-of-trump-tapping-warsh-for-fed-chair",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "76c24d14d73460260b86104075edd56a",
+      "timestamp": "2026-01-31T06:29:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Looks for a Reset With Warsh Pick for Fed Chair - The president has been trying to keep the focus on what he’s doing for the economy.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-30/trump-looks-to-reset-with-pick-of-kevin-warsh-for-fed-chair",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f7837bdbfaf3ac0637400662680fe2b0",
+      "timestamp": "2026-01-31T06:28:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warsh Isn't a 'Complete Partisan Clown,' Krugman Says - Paul Krugman, Nobel Laureate in economics, says Kevin Warsh, President Donald Trump's pick to lead the Fed, \"is not a complete partisan clown,\" but he is very much a partisan. Krugman speaks on \"Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/warsh-isn-t-a-complete-partisan-clown-krugman-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "041f5695672960e5de498d7bc02d9159",
+      "timestamp": "2026-01-31T06:27:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&P, Nasdaq Fall; Dollar Rallies After Trump Taps Warsh | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/s-p-nasdaq-fall-closing-bell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "619454c2f787040f85eeb4343e2e345c",
+      "timestamp": "2026-01-31T06:20:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Plans to Nominate Brett Matsumoto to Head BLS, Report Says - President Donald Trump plans to nominate Brett Matsumoto to lead the Bureau of Labor Statistics, the Wall Street Journal reported, citing sources familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/trump-plans-to-nominate-brett-matsumoto-to-head-bls-wsj-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eff88bb4124df71f993311c0a031ff52",
+      "timestamp": "2026-01-31T06:10:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hedge Funds Slash Bullish Silver Wagers to 23-Month Low - Money managers slashed their bullish silver wagers to the lowest in nearly two years in the run-up to the metal’s biggest plunge in decades.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/hedge-funds-slash-bullish-silver-wagers-to-23-month-low",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "275d02526ffedaac0d4812f9cbb733ff",
+      "timestamp": "2026-01-31T05:57:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Sell America’ Trade Risk Fades Under Warsh’s Fed, Fulcrum Says - The nomination of Kevin Warsh as the next Federal Reserve chair diminishes the risk of a sweeping selloff in US assets as he is expected to guard against inflation, according to Fulcrum Asset Manageme",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/-sell-america-trade-risk-fades-under-warsh-s-fed-fulcrum-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "275d02526ffedaac0d4812f9cbb733ff",
+      "timestamp": "2026-01-31T05:57:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Sell America’ Trade Risk Fades Under Warsh’s Fed, Fulcrum Says - The nomination of Kevin Warsh as the next Federal Reserve chair diminishes the risk of a sweeping selloff in US assets as he is expected to guard against inflation, according to Fulcrum Asset Manageme",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/-sell-america-trade-risk-fades-under-warsh-s-fed-fulcrum-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "180ca84c01cba6ee732af3538da3ef6f",
+      "timestamp": "2026-01-31T05:57:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Peloton Cuts 11% of Staff, Including From Engineering Teams - Peloton Interactive Inc. cut 11% of its employees, a giant cutback aimed at slashing costs, according to a person with knowledge of the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/peloton-cuts-11-of-staff-including-from-engineering-teams",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "076cc31d1cedb21896040ff4a69e1571",
+      "timestamp": "2026-01-31T05:54:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Earnings Top Views. Fintech Stock Reverses Down. Analyst Defends. - The financial technology company reported Q4 earnings before the market open.  In the December quarter, San Francisco-based SoFi said it earned 13 cents, up 160% from a year earlier, with net adjusted",
+      "url": "https://finance.yahoo.com/m/59a54df0-203c-3be6-b425-ce2c8b437c98/sofi-earnings-top-views..html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "90643765837e63bbbf96dbb87bcc3121",
+      "timestamp": "2026-01-31T05:52:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi CEO talks earnings beat, crypto legislation - SoFi Technologies (SOFI) shares are trading lower on Friday despite posting fourth quarter results that topped Wall Street estimates on both the top and bottom lines. Yahoo Finance Executive Editor Br",
+      "url": "https://finance.yahoo.com/video/sofi-ceo-talks-earnings-beat-crypto-legislation-205200506.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f732876d05f3505e92820ac650d1412b",
+      "timestamp": "2026-01-31T05:47:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Record Labels Still Care About iTunes - Over 80% of iTunes users are not subscribed to Apple Music, representing an untapped market",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-30/why-record-labels-still-care-about-itunes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fc1bec01d5439915288b2e19c40223ef",
+      "timestamp": "2026-01-31T05:47:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed's Miran Weighs In on Warsh, Rate Cuts and Balance Sheet - Federal Reserve Governor Stephen Miran says the Fed can proceed at a slower pace of rate cuts but he still has concerns about the weakness in the labor market. Speaking on \"Bloomberg The Close,\" Miran",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/fed-s-miran-weighs-in-on-warsh-rates-and-balance-sheet-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79408fb191b92e8658b5f0fe9d8d57f0",
+      "timestamp": "2026-01-31T05:46:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Eddie Hearn on the Future of Boxing’s Business - Eddie Hearn, Chairman of Matchroom Sport, discusses venues, media rights, and competition with the UFC with Romaine Bostick and Katie Greifeld on The Close. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/eddie-hearn-on-the-future-of-boxing-s-business-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab687f821c8d6cce4f9333b04ac4634f",
+      "timestamp": "2026-01-31T05:45:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Strong Carry and Careful Selection Still Matter: Bowron - UBS Global Wealth Management’s Head of Taxable Fixed Income Strategy Leslie Falconio and Beach Point Capital’s Portfolio Manager Sinjin Bowron tell Bloomberg that their outlook for fixed income remain",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/strong-carry-and-careful-selection-still-matter-bowron-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7a883a4a0a4e39a42cb5b215f987ac2",
+      "timestamp": "2026-01-31T05:44:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk Empire Merger Possibility, Memory Costs Weigh on Apple | Bloomberg Tech 1/30/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss how President Trump’s selection of Kevin Warsh to be the next chair of the Federal Reserve is affecting tech markets. Plus, Apple reports record sales b",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/bloomberg-tech-1-30-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e994b7a734c719db7d51bfa9d0fdd9c1",
+      "timestamp": "2026-01-31T05:43:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Markets Not Sure What To Make Of Warsh: Goldberg - Gennadiy Goldberg, head of US rates strategy at TD Securities and Gene Tannuzzo, global head of fixed income at Columbia Threadneedle Investments tell Bloomberg that uncertainty around how Kevin Warsh",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/markets-not-sure-what-to-make-of-warsh-goldberg-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "60f5b6d1758ac1f01dd073adc4d7bff5",
+      "timestamp": "2026-01-31T05:42:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "These Stocks Are Today’s Movers: Apple, Verizon, SoFi, Sandisk, Western Digital, Unity Software, Exxon, and More - Verizon stock heads for its largest single-day percent increase since 2008 after earnings top Wall Street’s expectations.",
+      "url": "https://finance.yahoo.com/m/4c0d34bf-cf68-35a6-9cf0-c9a75a0173f9/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "58a571d9cf8b010e1fd4367e8ac8ea67",
+      "timestamp": "2026-01-31T05:41:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Options Trading Compounds Gold’s Biggest Plunge in Decades - Gold’s biggest plunge in decades is being compounded by trading in the options market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/options-trading-compounds-gold-s-biggest-plunge-in-decades",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e28d2b34d0680143932f6bcfa6842db3",
+      "timestamp": "2026-01-31T05:41:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Posts Better-Than-Expected Earnings. The Fourth Quarter Was ‘Exceptional,’ Says CEO. - SoFi has steadily expanded its offerings in crypto and self-directed investing in its bid to become a ‘one-stop shop’ for customers.",
+      "url": "https://finance.yahoo.com/m/f1ba9361-0d69-3a74-8b89-fbb8ea5fe7a6/sofi-posts.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7de49801e59f2cf67c97c7d029c1f4dc",
+      "timestamp": "2026-01-31T05:38:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bezos’ Rocket Firm Blue Origin to Halt Space Tourism Flights - Jeff Bezos’ Blue Origin will pause tourist flights to space for “no less than two years” in order to prioritize development of its moon lander and other lunar technologies.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bezos-rocket-firm-blue-origin-to-halt-space-tourism-flights",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "608b8525f8cacb98303e973546cc1b27",
+      "timestamp": "2026-01-31T05:37:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Miran Says Warsh Will Do a 'Knockout Job' as Fed Chair - Federal Reserve Governor Stephen Miran says he thinks Kevin Warsh is a \"fantastic pick\" to lead the central bank during an interview on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/miran-says-warsh-will-do-a-knockout-job-as-fed-chair",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fecc9a524d3a6bb085d2a7a0c3fee8a0",
+      "timestamp": "2026-01-31T05:31:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bulgarian Ex-President Enters Election Race to Shake Up Politics - Bulgaria’s popular former president, Rumen Radev, announced he’ll run in the eighth election in five years in a bid to shake up the Balkan nation’s political landscape and end an extended period of tu",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bulgarian-ex-president-enters-election-race-to-shake-up-politics",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "590aaa9fa95010a1f399db6f83c72c7b",
+      "timestamp": "2026-01-31T05:30:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Unity, Video Game Stocks Fall as Google AI Tool Sparks Fears - Unity Software Inc. and video game stocks plunge Friday on fears of possible artificial intelligence disruption after Google began to roll out Project Genie.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/unity-video-game-stocks-fall-as-google-s-ai-tool-genie-sparks-fears",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "590aaa9fa95010a1f399db6f83c72c7b",
+      "timestamp": "2026-01-31T05:30:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Unity, Video Game Stocks Fall as Google AI Tool Sparks Fears - Unity Software Inc. and video game stocks plunge Friday on fears of possible artificial intelligence disruption after Google began to roll out Project Genie.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/unity-video-game-stocks-fall-as-google-s-ai-tool-genie-sparks-fears",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "da8922834ed42afc0fa52d025c1268fc",
+      "timestamp": "2026-01-31T05:24:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Wants a Deal With the US, Trump Says - President Donald Trump says there are no plans to stop a US Navy fleet from heading for Iran. “If we do make a deal, that’s good. If we don’t make a deal, we’ll see what happens,” Trump said on Friday",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/iran-wants-a-deal-with-the-us-trump-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "03eac81666781c0c982c049e664bc99e",
+      "timestamp": "2026-01-31T05:23:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Powell Investigation a 'Distraction' That Could Delay Warsh Confirmation, Says French Hill - Chair of the House Financial Services Committee French Hill said that he hopes the DOJ can review data and make a decision about whether to pursue a further investigation of Federal Reserve chair Jero",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/powell-investigation-could-delay-warsh-french-hill-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f6477ba05583c97bfc626c6d09ff5927",
+      "timestamp": "2026-01-31T05:22:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "First Brands, Creditors Start Mediation Over Who Is Owed What - First Brands Group and its main creditors will start confidential mediation sessions to potentially resolve a series of business-crippling disputes that have left the auto-parts maker weeks away from ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/first-brands-creditors-start-mediation-over-who-is-owed-what",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "765b77fb2b561fefbefcbd046e98cefb",
+      "timestamp": "2026-01-31T05:21:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Miran Says Fed Can Proceed at Slower Pace of Rate Cuts - Federal Reserve Governor Stephen Miran says he thinks Fed rates are still too restrictive during an interview with Mike McKee on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/miran-says-fed-can-proceed-at-slower-pace-of-rate-cuts-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ebfed224ceda4ef13a4909f6852271e2",
+      "timestamp": "2026-01-31T05:20:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warsh Set to Face Early Reality Check as Trump’s Man at the Fed - Kevin Warsh waited almost a decade before finally clinching President Donald Trump’s nomination to be chair of the Federal Reserve. He won’t need to wait as long before his first big test in the job.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/warsh-set-to-face-early-reality-check-as-trump-s-man-at-the-fed",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "abcc1c8f9ee4a8d52b907ed800d44f15",
+      "timestamp": "2026-01-31T05:16:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Picks Warsh to Lead Fed | Balance of Power: Early Edition 1/30/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu and Tyler Kendall discuss President Donald Trump's pick to lead the Federal Reserve. On today's show, former W",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-30/balance-of-power-early-edition-1-30-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f3c0996a954be20140962e75e5dbb697",
+      "timestamp": "2026-01-31T05:02:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Canadian Tycoon Nixes Plan to Sell Warehouse for Use as ICE Jail - Canadian billionaire Jimmy Pattison’s development company said Friday it won’t move forward with the sale of a Virginia warehouse that the Department of Homeland Security planned to convert into an IC",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/billionaire-is-third-to-cancel-ice-warehouse-sale-after-protests",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c70fdd5f43499b1e7e4301c9d81e1a2",
+      "timestamp": "2026-01-31T05:01:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Are You A New Investor? Get Up To $1,000 In Free Stock With SoFi - Getting started as an investor usually costs money. SoFi is flipping that idea on its head. For a limited time, SoFi is offering new investors up to $1,000 in stock when they open and fund a self-dire",
+      "url": "https://finance.yahoo.com/news/investor-1-000-free-stock-200107003.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "03904b755fc7b2467917a97f738ee9d5",
       "timestamp": "2026-01-31T05:00:25+09:00",
@@ -1844,415 +2263,6 @@
       "related_tickers": [],
       "content": "Why Indonesia Risks Losing Emerging-Market Status - An MSCI warning of a possible downgrade in Indonesia triggered what was at one point the country’s worst two-day stock market rout in nearly three decades.\n\nIndonesian policymakers are now rushing to ",
       "url": "https://www.bloomberg.com/news/videos/2026-01-30/why-indonesia-risks-losing-emerging-market-status-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d66ad5f464cdd3f918731b2b231c474b",
-      "timestamp": "2026-01-30T19:31:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Euronext CEO Sees Investors Diversify Away from ‘Scary’ US - Investors are increasingly concerned about developments in the US, prompting them to allocate more of their money elsewhere, according to Euronext NV Chief Executive Officer Stephane Boujnah.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/euronext-ceo-sees-investors-diversifying-away-from-scary-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4202570ebfcce587b2ea27534ec46711",
-      "timestamp": "2026-01-30T19:30:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BofA’s Hartnett Warns Overbought Global Stocks Face Sell Signal - Global equities are flashing an overbought warning, with moving averages already at levels that historically mark a sell signal for risk assets, according to strategists at Bank of America Corp.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bofa-s-hartnett-warns-overbought-global-stocks-face-sell-signal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "02491e57c7146d4ac16dd5bde18976b6",
-      "timestamp": "2026-01-30T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Insiders Dump Shares With S&amp;P 500 at Record High - Corporate America is sending a gloomy message when it comes to the sustainability of the record run in US stocks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/wall-street-insiders-dump-shares-with-s-p-500-at-record-high",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "963d943f88c32aa1aab6e3e4cfe0d0b1",
-      "timestamp": "2026-01-30T19:28:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pakistan Is Talking With IMF Over Plan to Boost Economic Growth - Pakistan is in talks with the International Monetary Fund over a plan to boost economic growth after the South Asian nation achieved stability with stringent policy measures, Prime Minister Shehbaz Sh",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/pakistan-is-talking-with-imf-over-plan-to-boost-ecnomoic-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be15a676c7c915bececcc0ed2b23b33f",
-      "timestamp": "2026-01-30T19:28:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Fintech Stock SoFi Technologies Just Proved That the Ultimate Cryptocurrency Has a Clear Use Case - The digital banking platform is constantly focusing on ways to improve its value proposition for users.",
-      "url": "https://www.fool.com/investing/2026/01/30/fintech-stock-sofi-technologies-ultimate-crypto/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2e9432a01371a0ba14b1ecb6062b71f0",
-      "timestamp": "2026-01-30T19:24:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Drinks Maker Eastroc Prices $1.3 Billion Hong Kong Share Sale at Top - Chinese energy-drink maker Eastroc Beverage Group Co. has raised HK$10.1 billion ($1.3 billion) after pricing its Hong Kong share sale at the highest price possible, a sign of rosy demand for new stoc",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/chinese-drinks-maker-eastroc-prices-1-3-billion-hong-kong-share-sale-at-top",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32389efe4cca79ac9bb73cc3be0fc292",
-      "timestamp": "2026-01-30T19:23:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cocoa Slumps Below $4,000 a Ton as Weak Demand Roils Market - Cocoa futures in New York fell below $4,000 per metric ton for the first time since 2023, further erasing much of a blistering rally that has left the chocolate industry grappling with dwindling deman",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/cocoa-slumps-below-4-000-a-ton-as-weak-demand-roils-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7a766f5e85d9e85579253dfd64e65fc",
-      "timestamp": "2026-01-30T19:20:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hong Kong Regulator Ramps Up Warnings Over Poor IPO Filings - Hong Kong’s market regulator stepped up warnings to investment banks over filing sloppy applications for share sales as listings boom.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/hong-hong-regulator-ramps-up-warnings-over-shoddy-ipo-filings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5dbd036c9865bf8eb223208e17eaf033",
-      "timestamp": "2026-01-30T19:00:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump ya coqueteaba con la élite venezolana antes de interesarse en salvar su petróleo - <p>Desde su adolescencia hasta el mundo de los concursos de belleza, el presidente estadounidense se movió entre la jet set venezolana mucho antes de fijar su atención en la industria petrolera del pa",
-      "url": "https://www.bloomberg.com/news/features/2026-01-30/trump-ya-coqueteaba-con-venezuela-antes-de-buscar-capturar-a-maduro",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3d8b77864c67a93f65d56bd303dba8f7",
-      "timestamp": "2026-01-30T19:00:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Mingled With Venezuela’s Elite Long Before He Vowed to Fix the Country - <p>From boarding school to beauty pageants, the US president mingled with Venezuela’s jet set long before he set sights on the country's oil industry.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-30/trump-mingled-with-venezuelan-elites-long-before-he-vowed-to-fix-the-country",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e70469fec690b10c92fe4f7451beee9",
-      "timestamp": "2026-01-30T18:46:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Silver Slumps Below $100 as Dollar Rallies on Fed Nominee Report - Silver fell below $100 an ounce, snapping a blistering rally that saw the white metal smash multiple records through January, as a report the Trump administration is preparing to nominate Kevin Warsh ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/silver-slumps-below-100-as-dollar-rallies-on-fed-nominee-report",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3f6533bb1585e6cb4945121be973e1a0",
-      "timestamp": "2026-01-30T18:42:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Vows to Punish ‘Rats’ Stealing Military Funds After Purge - China’s official military newspaper vowed to punish corrupt officials who misuse military funds, days after a high-profile probe into the nation’s top generals roiled Beijing’s defense establishment.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-vows-to-punish-rats-stealing-military-funds-after-purge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f04b99f6cb3c20ddeae677997fec28be",
-      "timestamp": "2026-01-30T18:40:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Leading Chinese Buyer of Venezuela Crude Bids for Canada Barrels - One of China’s largest regular buyers of Venezuelan crude is making bids for Canadian cargoes as a replacement, after US intervention in the Latin American country upended global flows and lifted pric",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/leading-chinese-buyer-of-venezuela-crude-bids-for-canada-barrels",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b1b596f584256343aafa75a5e23bdf97",
-      "timestamp": "2026-01-30T18:39:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Mortgage Approvals Post Surprise Fall in Month After Budget - UK mortgage approvals unexpectedly fell in December, suggesting the housing market entered 2026 in a cautious mode.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/uk-mortgage-approvals-post-surprise-fall-in-month-after-budget",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3a3afd4ee329c19b5f642ef8fd2cefa3",
-      "timestamp": "2026-01-30T18:39:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Warsh as Fed Chair Wouldn't Change View on Gold: Commerzbank - Thu Lan Nguyen, Commerzbank's commodity and FX research head, discusses market positioning in light of Kevin Warsh's possible nomination as next chair of the Federal Reserve. Asked whether this could ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/warsh-as-chair-wouldn-t-change-view-on-gold-commerzbank-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dee0285219b4cf3aecefc4ed0d4e2080",
-      "timestamp": "2026-01-30T18:32:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Taiwan Showcases its Attack Drones to Deter China for First Time - Taiwan displayed its domestically made suicide drones in military drills for the first time, as the self-ruled democracy ramps up efforts to deter China by bolstering its defenses.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/taiwan-showcases-its-attack-drones-to-deter-china-for-first-time",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "53d81f192a6edce805c15a976276dc3d",
-      "timestamp": "2026-01-30T18:14:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Asta Energy Jumps 46% in Frankfurt Debut After €165 Million IPO - Asta Energy Solutions AG surged in its Frankfurt trading debut on Friday, showing strong demand for the copper-based products maker’s shares.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/asta-energy-jumps-46-in-frankfurt-debut-after-165-million-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "809e6dbca10f5e9f57992f0225732650",
-      "timestamp": "2026-01-30T18:12:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thailand Signals Baht Intervention Room After US Puts It on Currency Watchlist - Thailand’s central bank said it still has scope to manage the baht even after the US added the country to a monitoring list for potential currency manipulators.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/thailand-signals-baht-intervention-room-after-us-puts-it-on-currency-watchlist",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b86a7980595c50a6c85b636b6fac42ea",
-      "timestamp": "2026-01-30T18:02:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Majors Saw Kazakh Sulfur Risk Years Before $5 Billion Fine - Several of the world’s largest oil companies knew for years that they were at risk of being fined for breaching sulfur-stockpiling regulations in Kazakhstan, but didn’t resolve the problem in part due",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/oil-majors-saw-kazakh-sulfur-risk-years-before-5-billion-fine",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8dc5991bbcde5953ae113b90d55a5125",
-      "timestamp": "2026-01-30T18:00:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jeff Currie on the Crazy Surge in Metals, And Why The Supercycle Has Years to Run - <p>An Explanation for the Silver Surge.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/jeff-currie-on-the-crazy-surge-in-metals-and-why-the-supercycle-has-years-to-run",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e953b4eb8a5c182f3fe136876e01651b",
-      "timestamp": "2026-01-30T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Odd Lots: Jeff Currie on the Crazy Surge in Metals (Podcast)",
-      "url": "https://www.bloomberg.com/news/audio/2026-01-30/odd-lots-jeff-currie-on-the-crazy-surge-in-metals-podcast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b1c6b2cbaa8048aa28ee807749cfb27b",
-      "timestamp": "2026-01-30T17:55:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Business Leader Calls on Government to Act More on FX - The leader of one of Japan’s biggest business groups representing smaller firms called on the Japanese government to take more action on currencies, warning that the weak yen is squeezing smaller comp",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/japan-business-leader-calls-on-government-to-act-more-on-fx",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "10e5de07c0ae3410b2daedb82d4d5d8e",
-      "timestamp": "2026-01-30T17:51:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "A Warsh Pick Changes Game Now, Not Later: 3-Minute MLIV - Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/a-warsh-pick-changes-game-now-not-later-3-minute-mliv-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e7fd2e0ef7e7eb23674dc5ff50a5603b",
-      "timestamp": "2026-01-30T17:47:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Bond Lending Plan Said to be Stalled by Tax Uncertainties - India’s plan to allow lending and borrowing of sovereign bonds remains stalled by uncertainty on how taxes will be applied, despite infrastructure being in place for more than 18 months, according to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/india-bond-lending-plan-said-to-be-stalled-by-tax-uncertainties",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "65f201af8dd3d7c8f38c63434e04e356",
-      "timestamp": "2026-01-30T17:42:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "Gold and Silver Plunge as Wild Swings Rock Metals Markets - Gold and silver sold off heavily on Friday, cooling a record-breaking rally, as a report the Trump administration is preparing to nominate Kevin Warsh for Federal Reserve chair boosted the dollar.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/spot-gold-drops-by-5-as-reports-on-fed-nominee-boost-dollar",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "28406744b3e2a19b197fda274d41c794",
-      "timestamp": "2026-01-30T17:33:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hong Kong Economy Grows Most Since 2021 as Trade and IPOs Surge - Hong Kong’s economy staged a powerful comeback last year, growing at its fastest pace since 2021 as resilient trade and a resurgence in investment defied global headwinds.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/hong-kong-economy-grows-most-since-2021-on-exports-investment",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b9b69350d1ec203670ea2b88351ada02",
-      "timestamp": "2026-01-30T17:29:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "China Gold Protests Expose Darker Side of Scorching Metals Rally - Protests outside the premises of a small gold retailer and trader have laid bare the extent of disruption caused by speculative buying across China that is powering a record-breaking metals rally.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-gold-protests-expose-darker-side-of-scorching-metals-rally",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4110ef299a32b32f8c607fc8a18455a5",
-      "timestamp": "2026-01-30T17:29:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Looks Set for Longest Monthly Losing Streak Since 2018 - Bitcoin is heading for its worst streak of monthly losses in about seven years, as a deepening risk-off mood and fierce competition from traditional haven assets sap demand for the token.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bitcoin-btc-slides-toward-longest-monthly-losing-streak-since-2018",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2f6182f0c3c551efa6b6e3bd0e27ee05",
-      "timestamp": "2026-01-30T17:28:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EM Stocks Set for Best Month in Three Years on Stronger Outlook - Emerging markets are starting the year much as they ended 2025, drawing global attention and capital while fiscal and policy risks weigh on advanced economies.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/em-stocks-set-for-best-month-in-three-years-on-stronger-outlook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e4390ed2eb68db81e78c5f71c540f712",
-      "timestamp": "2026-01-30T17:21:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Spain’s Sanchez Takes On Musk Over Plan to Legalize Immigrants - Spain’s Prime Minister Pedro Sanchez defended his plan to welcome a half-million undocumented immigrants after Elon Musk joined critics of the initiative on the billionaire’s X social-media platform.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/spain-s-sanchez-takes-on-musk-over-plan-to-legalize-immigrants",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "26f4c204ef1baefbde47ea0ca754b330",
-      "timestamp": "2026-01-30T17:19:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Czech Economy Picks Up Speed Powered by Robust Household Demand - Economic growth in the Czech Republic accelerated last year, driven mainly by domestic demand as households increased spending fueled by rising incomes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/czech-economy-picks-up-speed-powered-by-robust-household-demand",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "97373f0a05d456107ff879fafcf1d4b2",
-      "timestamp": "2026-01-30T17:18:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Former UK Business Secretary on Starmer's Trip to China - Former UK Secretary of State for Business, Vince Cable, who led the Liberal Democrats from 2017 to 2019, speaks to Bloomberg about the UK's relationship with China, after Prime Minister Keir Starmer's",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/former-uk-business-secretary-on-starmer-s-trip-to-china-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "14c2a466ca23e1b0e94bf2fdb935a328",
-      "timestamp": "2026-01-30T17:11:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Administration Prepares Kevin Warsh Fed Chair Nomination | Daybreak Europe 1/30/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/daybreak-europe-1-30-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9f3f0043882c64907c6d556508d247bd",
-      "timestamp": "2026-01-30T17:05:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Horizons Middle East and Africa 1/30/2026 (Video)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/horizons-middle-east-and-africa-1-30-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2d606a319fdf5ae0c45f0c84afb68a4",
-      "timestamp": "2026-01-30T17:04:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Taiwan Economy Grows at Fastest Quarterly Pace Since 1987 on AI - Taiwan’s economy expanded at the quickest pace for a quarter since 1987, propelled by unquenchable demand for the tech goods needed to develop AI.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/taiwan-s-economy-grows-at-fastest-pace-in-15-years-on-ai-boom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b5da283da9124a13163e4e98f11debbf",
-      "timestamp": "2026-01-30T17:00:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Zelenskiy Says He’ll Accept Energy Strikes Truce If Putin Will - Ukraine is ready to halt strikes on energy infrastructure if Russia agrees to abide by a US proposal for a weeklong truce, President Volodymyr Zelenskiy said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/zelenskiy-says-he-ll-accept-energy-strikes-truce-if-putin-will",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3df774af9346d34b8fb5f105b0feb3bf",
-      "timestamp": "2026-01-30T16:57:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Turkey Deploys F-16s in Somalia to Step Up Strikes on Al-Shabaab - Turkey has sent F-16 fighters and attack helicopters to Somalia to step up strikes on al-Shabaab militants and protect its growing interests in the Horn of Africa country, according to people familiar",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/turkey-deploys-f-16s-in-somalia-to-step-up-strikes-on-al-shabaab",
       "sentiment": "NEUTRAL"
     }
   ]
