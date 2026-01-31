@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-01-31T17:06:47.392159+09:00",
+  "last_updated": "2026-01-31T19:05:20.683074+09:00",
   "items": [
+    {
+      "id": "9c96947aadecb54b7f8aebaf397d4827",
+      "timestamp": "2026-01-31T17:38:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kazakhstan Starts Gradual Restoration of Output at Tengiz Field - The Chevron-led venture Tengizchevroil has started to restore production at the Tengiz oil field, Kazakhstan’s largest, after operations were partially suspended earlier this month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/kazakhstan-starts-gradual-restoration-of-output-at-tengiz-field",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2988759201344c6ff39e1123fec6f51c",
+      "timestamp": "2026-01-31T17:04:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s NSE Targets IPO in Seven to Eight Months, CNBC Says - The National Stock Exchange of India Ltd. plans to launch its initial public offering in the next seven to eight months, CNBC-TV18 reported, citing Chief Executive Officer Ashish Kumar Chauhan.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/india-s-nse-targets-ipo-in-seven-to-eight-months-cnbc-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c0a6963f60db50d3d0214e6b80610a3a",
       "timestamp": "2026-01-31T16:30:00+09:00",
@@ -2233,28 +2255,6 @@
       "related_tickers": [],
       "content": "Cuba Decries Trump’s ‘Genocidal’ Threat and Girds for Calamity - Cuba hit back at Donald Trump’s plans to use tariffs to choke off all oil supplies to the struggling island, calling it “blackmail and coercion” that would force Cubans to live under even more dire co",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/cuba-decries-trump-s-genocidal-threat-and-girds-for-calamity",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aeb020d7301c8c774582fd27d2a7d1bd",
-      "timestamp": "2026-01-30T22:36:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Regulator Clears NSE IPO Plan Ending Decade-Long Wait - National Stock Exchange of India Ltd. has received clearance from the securities market regulator to initiate steps for an initial public offering, the bourse said in a statement.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/nse-s-decade-long-wait-ends-as-india-regulator-clears-ipo-plan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e5bf777e8649d155723397e2b5a4eabb",
-      "timestamp": "2026-01-30T22:30:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil’s Year of The Glut Begins With an Unexpected Price Surge - It was supposed to be the year of glutted oil markets and lower prices, but the first weeks of 2026 have instead been dominated by geopolitical spikes and supply disruption, powering futures to $70 a ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/oil-s-year-of-the-glut-begins-with-an-unexpected-price-surge",
       "sentiment": "NEUTRAL"
     }
   ]
