@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-01T05:05:47.448992+09:00",
+  "last_updated": "2026-02-01T07:05:16.619966+09:00",
   "items": [
+    {
+      "id": "ebcf1c9fcfbeba7d2af433c0531951be",
+      "timestamp": "2026-02-01T06:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Euro Rally Is Latest Risk to ECB’s Inflation Outlook - The surge in the euro is set to loom large over the European Central Bank’s first policy meeting of the year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/euro-rally-is-latest-risk-to-ecb-s-inflation-outlook",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "33f05fb77563172f7503cc54e419caf7",
+      "timestamp": "2026-02-01T05:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Boom Is Triggering a Loan Meltdown for Software Companies: Credit Weekly - Amid broad euphoria in credit markets, one type of debt is facing growing fear.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/ai-boom-is-triggering-a-loan-meltdown-for-software-companies-credit-weekly",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bd5f81b130764bd18557a6a36858a364",
       "timestamp": "2026-02-01T04:14:37+09:00",
@@ -2227,30 +2249,6 @@
       "related_tickers": [],
       "content": "SocGen Plans to Launch US Equities Fund Managed by Goldman - Societe Generale SA’s asset management unit is in discussions with Goldman Sachs about setting up an investment fund focused on US equities, according to people familiar with the matter.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/socgen-plans-to-launch-us-equities-fund-managed-by-goldman",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "677dbc6882dd7de572a97611c1dda190",
-      "timestamp": "2026-01-31T00:15:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fund Beating 99% of Peers Bought the Dip During Microsoft’s Rout - A French fund that has beaten 99% of its peers over the past three years bought into Microsoft Corp.’s $357 billion rout on Thursday, predicting its heavy investments in artificial intelligence will e",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/fund-beating-99-of-peers-bought-the-dip-during-microsoft-s-rout",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0547bf151fca09ff22d58d7306e374fa",
-      "timestamp": "2026-01-31T00:13:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Technologies Q4 Earnings Call Highlights - SoFi Technologies (NASDAQ:SOFI) executives highlighted record quarterly revenue, member growth, and profitability in the company’s fourth-quarter and full-year 2025 earnings call, while outlining an o",
-      "url": "https://www.marketbeat.com/instant-alerts/sofi-technologies-q4-earnings-call-highlights-2026-01-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
       "sentiment": "NEUTRAL"
     }
   ]
