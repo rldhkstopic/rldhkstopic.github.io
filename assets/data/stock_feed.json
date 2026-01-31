@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-01T03:07:01.158171+09:00",
+  "last_updated": "2026-02-01T05:05:47.448992+09:00",
   "items": [
+    {
+      "id": "bd5f81b130764bd18557a6a36858a364",
+      "timestamp": "2026-02-01T04:14:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Waymo Seeking About $16 Billion Near $110 Billion Valuation - Waymo, Alphabet Inc.’s autonomous driving unit, is aiming to raise about $16 billion in a financing round that would value the unit at nearly $110 billion, according to people familiar with the matter",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/waymo-seeking-about-16-billion-near-110-billion-valuation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c1945e9a01a283531cafa08110fdaf0d",
+      "timestamp": "2026-02-01T03:09:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ro Khanna Pushes California Billionaires, Union to Compromise on Wealth Tax Plan - Tech industry and labor leaders plan to meet next month as Representative Ro Khanna pushes for a compromise deal over a proposed billionaire tax that has rattled Silicon Valley, a person familiar with",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/ro-khanna-pushes-compromise-talks-as-california-wealth-tax-rattles-tech-sector",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bc96bd5f4de02b9f28aada63c3c80a08",
       "timestamp": "2026-02-01T02:36:41+09:00",
@@ -2229,28 +2251,6 @@
       ],
       "content": "SoFi Technologies Q4 Earnings Call Highlights - SoFi Technologies (NASDAQ:SOFI) executives highlighted record quarterly revenue, member growth, and profitability in the company’s fourth-quarter and full-year 2025 earnings call, while outlining an o",
       "url": "https://www.marketbeat.com/instant-alerts/sofi-technologies-q4-earnings-call-highlights-2026-01-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "75196ca67102858b593915b8b4435bbe",
-      "timestamp": "2026-01-31T00:11:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South African Stocks Slide Most Since April as Metals Tumble - South African stocks plunged the most in April as mining shares were swept up in the stunning selloff across precious metals.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/south-african-stocks-slide-most-since-april-as-metals-tumble",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7471dcb7ed8119b364e35eca94264b43",
-      "timestamp": "2026-01-31T00:10:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chile President-Elect Kast Visits Bukele’s Mega-Prison to Spotlight Security Push - Chile’s incoming president, José Antonio Kast, will tour El Salvador’s notorious mega-prison on Friday, one stop on a week-long trip focused on showcasing his commitment to beefing up security once he",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/jose-antonio-kast-visits-bukele-s-mega-prison-in-el-salvador",
       "sentiment": "NEUTRAL"
     }
   ]
