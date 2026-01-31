@@ -1,6 +1,107 @@
 {
-  "last_updated": "2026-01-31T21:08:31.123883+09:00",
+  "last_updated": "2026-01-31T23:06:47.249377+09:00",
   "items": [
+    {
+      "id": "ecf118add4c0cf5787cc44e557063bce",
+      "timestamp": "2026-01-31T22:36:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Danish Veterans Protest Against Trump’s Belittling of War Allies - Thousands of Danish veterans and supporters protested at the US embassy in Copenhagen on Saturday over recent remarks by Donald Trump that allied NATO troops “stayed a little back” from the front line",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/danish-veterans-protest-against-trump-s-belittling-of-war-allies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "06bcca5799a916f89894ea61bb431118",
+      "timestamp": "2026-01-31T22:34:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia’s Murmansk Ports Halt Operations Amid Power Disruptions - Operations at Russia’s Murmansk Bulk Terminal and Commercial Seaport were temporarily suspended due to power disruptions in Murmansk and the nearby city of Severomorsk, according to Interfax.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/russia-s-murmansk-ports-halt-operations-amid-power-disruptions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b9839f18de491aa40311f840cca3074d",
+      "timestamp": "2026-01-31T22:33:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia CEO Says It Supports All Developers Amid DeepSeek Claims - Nvidia Corp. supports “every developer” that uses its software, Chief Executive Officer Jensen Huang said, after a US lawmaker accused the chip giant of offering technical support that helped China’s ",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/nvidia-ceo-say-it-supports-all-developers-amid-deepseek-claims",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd4126c4b63c989ba72846b3481d39de",
+      "timestamp": "2026-01-31T22:14:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Week | Trump Picks Warsh, US State Capitalism, SNAP Cuts, Business of Youth Sports - This week, President Trump announces he intends to nominate Kevin Warsh as the next Fed Chair. Then, how government ownership  is changing competition, capital allocation, and the future of US markets",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-31/wall-street-week-snap-cuts-monetizing-youth-sports-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2c4ef1729624e8b11957d426e268bee4",
+      "timestamp": "2026-01-31T22:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The US Government Takes a Bigger Role in Corporate America and Policing Food Assistance - What happens when the government steps up its ownership of private companies and cuts back on its food assistance programs.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-01-31/the-government-s-role-in-our-corporations-and-in-feeding-us",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "470607d7361a314c5cab7bfe55d06aaa",
+      "timestamp": "2026-01-31T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Exxon, Chevron Cautious on Venezuela as Trump Urges Oil Growth - Exxon Mobil Corp. and Chevron Corp. are treading carefully as they weigh President Donald Trump’s call to invest $100 billion to rebuild Venezuela’s oil industry against the disciplined spending model",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/exxon-chevron-cautious-on-venezuela-as-trump-urges-oil-growth",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e484015dc2b2f596c333a6976b4ef7b3",
+      "timestamp": "2026-01-31T21:26:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia Investment in OpenAI Round ‘Nothing Like’ $100 Billion - Nvidia Corp. will “absolutely” be involved in OpenAI’s current funding round, though the investment will be “nothing like” $100 billion, Chief Executive Jensen Huang said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/nvidia-to-join-openai-s-current-funding-round-huang-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3042223163c6ff09d0d116eeefe7757a",
+      "timestamp": "2026-01-31T21:15:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Taps Bitcoin And Stablecoin Push To Expand FinTech Platform - SoFi Technologies (NasdaqGS:SOFI) has partnered with Lightspark to roll out fast, low cost cross border Bitcoin payments using the Lightning network, starting with transfers to Mexico. The company is ",
+      "url": "https://finance.yahoo.com/news/sofi-taps-bitcoin-stablecoin-push-121549003.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c6ff057219f8edb352bb5ce9450debc8",
+      "timestamp": "2026-01-31T20:48:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia to Allow Gasoline Exports for Producers Through July - Russia will allow gasoline exports for fuel producers through July 31, while extending a temporary ban for other suppliers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/russia-to-allow-gasoline-exports-for-producers-through-july-31",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "72ac3ea5f2d97ea6b3f03abcda1f3c77",
       "timestamp": "2026-01-31T19:28:32+09:00",
@@ -2154,107 +2255,6 @@
       "related_tickers": [],
       "content": "Slovak Leader Makes Overtures to EU as Trump Sentiment Sours - Slovak leader Robert Fico, whose allegiance with Donald Trump and running battles with European Union institutions have defined his premiership, is offering an olive branch to EU partners.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/slovak-leader-makes-overtures-to-eu-as-trump-sentiment-sours",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "016aa3a6d721359b936430036389a834",
-      "timestamp": "2026-01-30T23:30:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Technologies (SOFI) Reports Q4 Earnings: What Key Metrics Have to Say - While the top- and bottom-line numbers for SoFi Technologies (SOFI) give a sense of how the business performed in the quarter ended December 2025, it could be worth looking at how some of its key metr",
-      "url": "https://finance.yahoo.com/news/sofi-technologies-sofi-reports-q4-143002585.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7d5c4fe11e807e1595ee91d40121478f",
-      "timestamp": "2026-01-30T23:28:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trafigura Was Victim of a Nickel Fraud on a Grand Scale, Judge Says - Trafigura Group was the victim of a nickel fraud “on a grand scale” perpetrated by tycoon Prateek Gupta, a London judge ruled, giving the trading house a chance to recoup some of the hundreds of milli",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/trafigura-says-it-won-trial-over-millions-in-missing-nickel",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0eca25b1313343b30de7992014607f27",
-      "timestamp": "2026-01-30T23:23:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tillis Won't Move Forward If Powell Case Is Still Open - Republican Sen. Thom Tillis is still vowing to block any nominee to lead the Federal Reserve. \"This is all about sending a signal to the markets and to the business community that Fed independence is ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/tillis-won-t-move-forward-if-powell-case-is-still-open-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1f34446f1718059c87d06c5e05e698e9",
-      "timestamp": "2026-01-30T23:14:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela’s Renewed Dollar Auctions Too Tepid to Fortify Bolivar - Venezuela’s resumption of dollar sales is probably too limited and too unpredictable to stabilize the bolivar, keeping the parallel market for dollars under pressure, analysts say.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/venezuela-s-renewed-dollar-auctions-too-tepid-to-fortify-bolivar",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "05717ac147d120918b4dd58e4c2a0dc0",
-      "timestamp": "2026-01-30T23:14:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "French Stocks’ LVMH Woes Are a Drag Before More Luxury Earnings - LVMH has resurfaced as a problem for French stocks after a brief respite last year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/french-stocks-lvmh-woes-are-a-drag-before-more-luxury-earnings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3c54272a138335fe7644a6dafb840eaf",
-      "timestamp": "2026-01-30T23:10:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Warsh's Fed Nomination Changes Nothing, Says Senator Tillis - Republican Senator Thom Tillis of North Carolina says the nomination of Kevin Warsh to lead the Federal Reserve doesn't change his stance. He still says the criminal investigation into current Chair J",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/warsh-s-fed-nomination-changes-nothing-tillis-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3e055b63be452eeaef9ae863a8b09a4f",
-      "timestamp": "2026-01-30T23:03:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Picks Warsh to Lead the Federal Reserve - President Donald Trump said he intends to nominate Kevin Warsh to be the next chair of the Federal Reserve, according to a post on his Truth Social platform. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/trump-picks-warsh-to-lead-the-federal-reserve-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c5c5be13ea7abd7aeeebfc98a033a54e",
-      "timestamp": "2026-01-30T23:02:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Banks Ready $7.9 Billion Debt Sale to Finance Sealed Air Buyout - Banks are preparing to sell about $7.9 billion in debt as early as February to finance Clayton Dubilier &amp; Rice’s buyout of packaging firm Sealed Air Corp.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/banks-ready-7-9-billion-debt-sale-to-finance-sealed-air-buyout",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f62517b5e25ffc09d242de23ef091d96",
-      "timestamp": "2026-01-30T22:59:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed’s Bostic Says Elevated Inflation Should Keep Rates on Hold - Federal Reserve Bank of Atlanta President Raphael Bostic said elevated inflation means the US central bank should wait before it cuts interest rates again.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/fed-s-bostic-says-elevated-inflation-should-keep-rates-on-hold",
       "sentiment": "NEUTRAL"
     }
   ]
