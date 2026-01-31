@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-31T15:11:54.209156+09:00",
+  "last_updated": "2026-01-31T17:06:47.392159+09:00",
   "items": [
+    {
+      "id": "c0a6963f60db50d3d0214e6b80610a3a",
+      "timestamp": "2026-01-31T16:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Merz Has Activated His Plan to Fix Germany. Now We’ll Find Out If It Works - Friedrich Merz is about to discover whether his plan to reboot Germany will succeed.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/merz-has-activated-his-plan-to-fix-germany-now-we-ll-find-out-if-it-works",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6dabebc7a7ccf46d609d87bbd90b0a49",
+      "timestamp": "2026-01-31T15:13:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Carney’s Conservative Rival Poilievre Wins Fresh Landslide in Party Review - Canada’s opposition Conservative Party voted to hand a fresh endorsement to its leader Pierre Poilievre nine months after a shock election which saw him narrowly lose to Mark Carney’s Liberal Party.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/carney-s-conservative-rival-poilievre-wins-fresh-landslide-in-party-review",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "42bd9d57a305d268a91a4a47a25f4769",
+      "timestamp": "2026-01-31T15:04:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippine Regulator Charges Villar Land on Market Manipulation - The Philippine market regulator has filed a criminal complaint against the property-holding firm of the country’s second-richest man, Manuel Villar.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/philippine-regulator-charges-villar-land-on-market-manipulation",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9adb7473ca003d40b68112c4e2f0108d",
       "timestamp": "2026-01-31T15:00:07+09:00",
@@ -10,6 +43,17 @@
       "related_tickers": [],
       "content": "Africa’s Gambling Boom: Investment, Risk and Regulation - Sports wagering is booming in Africa. Fueled by a young population, and access to latest technology, legal gambling revenues across the continent have nearly tripled in the past decade, turning it int",
       "url": "https://www.bloomberg.com/news/videos/2026-01-31/africa-s-gambling-boom-investment-risk-and-regulation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ff5fb275b2f6bdc8b900f4d43df93603",
+      "timestamp": "2026-01-31T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer’s Labour Heads Into Crunch UK Elections Short of Cash - Prime Minister Keir Starmer gave an alarming explanation when he blocked Manchester Mayor Andy Burnham from seeking a seat in parliament: The Labour Party couldn’t afford to fight the contest to repla",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/starmer-s-labour-heads-into-crunch-uk-elections-short-of-cash",
       "sentiment": "NEUTRAL"
     },
     {
@@ -443,6 +487,17 @@
       ],
       "content": "Financial Services Roundup: Market Talk - Find insight on SoFi Technologies, Raiffeisen Bank International and more in the latest Market Talks covering financial services.",
       "url": "https://finance.yahoo.com/m/1e6b041e-dc09-3974-a72a-c20804e288da/financial-services-roundup%3A.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "59fc9a978c24cccffb29d87ca6c02bbd",
+      "timestamp": "2026-01-31T06:58:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Italy’s Outlook Raised to Positive by S&amp;P in New Meloni Win - Italy’s credit rating outlook was raised to positive from stable by S&amp;P Global Ratings, the latest victory for Prime Minister Giorgia Meloni.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/italy-s-outlook-raised-to-positive-by-s-p-in-new-meloni-win",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2200,65 +2255,6 @@
       "related_tickers": [],
       "content": "Oil’s Year of The Glut Begins With an Unexpected Price Surge - It was supposed to be the year of glutted oil markets and lower prices, but the first weeks of 2026 have instead been dominated by geopolitical spikes and supply disruption, powering futures to $70 a ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/oil-s-year-of-the-glut-begins-with-an-unexpected-price-surge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f91e5f7332e570490a14843c7f36ebf8",
-      "timestamp": "2026-01-30T22:17:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Minnesota Businesses Resisted ICE, and Now Face DHS Audits - Employment records of at least two Minneapolis-area businesses are being audited by the Department of Homeland Security, in what state and local officials describe as retaliation over the fallout from",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/minnesota-businesses-resisted-ice-and-now-face-dhs-audits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9cd8508309204774f6ca232e0cd2bb3",
-      "timestamp": "2026-01-30T22:16:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Earnings Growth Accelerates, Tops Views On Record Membership Adds - SoFi stock climbed after the fintech reported Q4 earnings and revenue that topped Wall Street targets.",
-      "url": "https://finance.yahoo.com/m/59a54df0-203c-3be6-b425-ce2c8b437c98/sofi-earnings-growth.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e10aa5d07b9b72f2da18f15e37d4e814",
-      "timestamp": "2026-01-30T22:13:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Picks a Reinvented Warsh to Lead the Federal Reserve - President Donald Trump said he intends to nominate Kevin Warsh to be the next chair of the Federal Reserve, according to a post on his Truth Social platform. Warsh, who served on the US central bank’s",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/trump-picks-a-reinvented-warsh-to-lead-the-fed-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "435bd6b81f41d18a140c0404f9b8c111",
-      "timestamp": "2026-01-30T22:10:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Technologies, Inc. (SOFI) Surpasses Q4 Earnings and Revenue Estimates - SoFi Technologies (SOFI) delivered earnings and revenue surprises of +9.71% and +3.15%, respectively, for the quarter ended December 2025. Do the numbers hold clues to what lies ahead for the stock?",
-      "url": "https://finance.yahoo.com/news/sofi-technologies-inc-sofi-surpasses-131002675.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "47954862b32c1b7f4f167e54fbafbf46",
-      "timestamp": "2026-01-30T22:01:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Inflation Edges Above 2% Before First ECB Meeting of 2026 - German inflation accelerated slightly after Europe’s largest economy recorded surprisingly strong expansion at the end of last year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/german-inflation-edges-above-2-before-first-ecb-meeting-of-2026",
       "sentiment": "NEUTRAL"
     }
   ]
