@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-01-31T19:05:20.683074+09:00",
+  "last_updated": "2026-01-31T21:08:31.123883+09:00",
   "items": [
+    {
+      "id": "72ac3ea5f2d97ea6b3f03abcda1f3c77",
+      "timestamp": "2026-01-31T19:28:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Filmmaker Laura Poitras on US Actions in Venezuela - \"The US doesn't have the right to steal resources.\"\n\nBAFTA nominated filmmaker Laura Poitras tells Mishal Husain that US action in Venezuela amounts to regime change in pursuit of oil.\n\nSubscribe to T",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-31/filmmaker-laura-poitras-on-us-actions-in-venezuela-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aaf0edf462a3cef48e31d2cece759b58",
+      "timestamp": "2026-01-31T19:22:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Renews Threat to Strike Israel as Fears of US Attack Grow - Iran’s army chief renewed warnings that Tehran could strike Israel, as tensions heighten amid fears of a possible US military attack on the Islamic Republic.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/iran-renews-threat-to-strike-israel-as-fears-of-us-attack-grow",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0ea04df42dee3963de4db66c3dd1f99",
+      "timestamp": "2026-01-31T18:43:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine Faces Widespread Power Outages From Grid Strains - Ukraine’s capital suffered widespread power outages on Saturday in response to what were termed cascading “technical issues” across the nation’s power grid.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/kyiv-seeing-widespread-power-outages-with-metro-also-halted",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9c96947aadecb54b7f8aebaf397d4827",
       "timestamp": "2026-01-31T17:38:36+09:00",
@@ -2222,39 +2255,6 @@
       "related_tickers": [],
       "content": "Fed’s Bostic Says Elevated Inflation Should Keep Rates on Hold - Federal Reserve Bank of Atlanta President Raphael Bostic said elevated inflation means the US central bank should wait before it cuts interest rates again.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/fed-s-bostic-says-elevated-inflation-should-keep-rates-on-hold",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "93f5893e8efe81aa5e5a32c937a16567",
-      "timestamp": "2026-01-30T22:55:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Instacart to Help Costco Take Grocery Orders in Europe in International Push - Costco Wholesale Corp. will use Instacart's technology to power online grocery ordering in Spain and France, extending their partnership beyond North America for the first time as the delivery company",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/instacart-to-help-costco-take-grocery-orders-in-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "02320a4a5841bf7ffa4e623d17167671",
-      "timestamp": "2026-01-30T22:51:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Producer Prices Rise More Than Expected in December - US wholesale inflation increased in December by more than forecast as the producer price index rose 0.5% after a 0.2% gain in the prior month, reflecting higher costs for services. Michael McKee repor",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/us-producer-prices-rise-more-than-expected-in-december-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2677aa47acb5af732e3c2cd6798cf119",
-      "timestamp": "2026-01-30T22:47:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cuba Decries Trump’s ‘Genocidal’ Threat and Girds for Calamity - Cuba hit back at Donald Trump’s plans to use tariffs to choke off all oil supplies to the struggling island, calling it “blackmail and coercion” that would force Cubans to live under even more dire co",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/cuba-decries-trump-s-genocidal-threat-and-girds-for-calamity",
       "sentiment": "NEUTRAL"
     }
   ]
