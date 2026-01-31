@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-02-01T01:06:08.660249+09:00",
+  "last_updated": "2026-02-01T03:07:01.158171+09:00",
   "items": [
+    {
+      "id": "bc96bd5f4de02b9f28aada63c3c80a08",
+      "timestamp": "2026-02-01T02:36:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin Plunges Below $80,000 as the Crypto Slide Accelerates - Bitcoin fell sharply in early Saturday afternoon trading in New York, tumbling below $80,000 mark to hit levels last seen in April 2025.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/bitcoin-plunges-below-80-000-as-the-crypto-slide-accelerates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a90c4a8724298b44c5011628e07355e0",
+      "timestamp": "2026-02-01T02:21:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Says Latest Russia Talks Joined by Bessent Were Constructive - A US delegation including Treasury Secretary Scott Bessent had “productive and constructive meetings” with Russian President Vladimir Putin’s special envoy on Saturday in Florida, an American negotiat",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/us-says-latest-russia-talks-joined-by-bessent-were-constructive",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cff7f7e9b3bb85378be9f9d19124fb3b",
+      "timestamp": "2026-02-01T01:57:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Judge Declines to Halt Minnesota Immigration Agent Surge for Now - A US judge has denied Minnesota’s request to pause the Trump administration’s recent surge of thousands of immigration enforcement agents in the state.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/minnesota-loses-bid-to-block-us-surge-of-immigration-agents",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7cf63ce4d11882ba7bac442ec753c05c",
+      "timestamp": "2026-02-01T01:47:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia CEO Supports All Developers Amid DeepSeek Claims - Nvidia Corp. supports “every developer” that uses its software, Chief Executive Officer Jensen Huang said, after a US lawmaker accused the chip giant of offering technical support that helped China’s ",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-31/nvidia-ceo-supports-all-developers-amid-deepseek-claims-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c5832f932b8d076bf9ddf2e5167d4238",
+      "timestamp": "2026-02-01T01:27:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jensen Huang Speaks on OpenAI Financing - Nvidia CEO Jensen Huang spoke to press in Taipei, Taiwan on OpenAI financing saying \"we'll definitely participate in the next round of financing because it's such a good investment.\" (Source: Bloomber",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-31/jensen-huang-speaks-on-openai-financing-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5fdbb8650111341279201e48d09475f1",
+      "timestamp": "2026-02-01T01:15:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jensen Huang Speaks on OpenAI investment - Nvidia CEO Jensen Huang spoke to press  in Taipei, Taiwan saying their investment in OpenAI will probably be the \"largest investment we've ever made\". (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-01-31/jensen-huang-speaks-on-openai-investment-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f518e1a4811624e9eb376bc3acda98b3",
       "timestamp": "2026-02-01T00:03:42+09:00",
@@ -2185,74 +2251,6 @@
       "related_tickers": [],
       "content": "Chile President-Elect Kast Visits Bukele’s Mega-Prison to Spotlight Security Push - Chile’s incoming president, José Antonio Kast, will tour El Salvador’s notorious mega-prison on Friday, one stop on a week-long trip focused on showcasing his commitment to beefing up security once he",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/jose-antonio-kast-visits-bukele-s-mega-prison-in-el-salvador",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f57f42fbc86b6fefca362da0c5b01a4e",
-      "timestamp": "2026-01-31T00:08:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Don Lemon Arrested After Minnesota Church Protest - US Attorney General Pam Bondi said she ordered the arrest of former CNN anchor Don Lemon in connection with a protest against federal immigration enforcement activities in Minnesota, escalating the Tr",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bondi-says-she-ordered-arrest-of-don-lemon-over-church-attack",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "04f4253877c068c9ae47319b0c2950c8",
-      "timestamp": "2026-01-31T00:03:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Minnesota Woman Says Her Global Entry Nixed After Agent Run-In - A payments director at the Minneapolis-based retail giant Target Corp. said her fast-track credentials for airport security were revoked following an interaction with a federal border patrol agent who",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/minnesota-woman-says-her-global-entry-nixed-after-agent-run-in",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f479df7901c7bcda4ccb89d965a32f92",
-      "timestamp": "2026-01-31T00:01:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Stocks to Watch Friday: Apple, Sandisk, Verizon, Sofi - ↘️ Apple (AAPL): The company posted blowout iPhone sales and quarterly profit, but investors were concerned by rising costs, particularly for memory components. Shares fell more than 1% Friday morning",
-      "url": "https://finance.yahoo.com/m/c262176a-b874-3715-b069-b220896e16e5/stocks-to-watch-friday%3A.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40dec8fee0011a3a8ce86e013a1136bf",
-      "timestamp": "2026-01-31T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Hangs Over Canada Conservatives’ Vote on Divisive Leader - Canadian Conservative Leader Pierre Poilievre has a Donald Trump problem, and it has returned just as he faces a public review from members of his party.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/trump-hangs-over-canada-conservatives-vote-on-divisive-leader",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e57e429df3196f09e6b71fa18dcf9292",
-      "timestamp": "2026-01-30T23:59:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Germany to Push for End of Gas Storage Targets After 2027 Expiry - German officials are preparing to push for the European Union to discontinue its gas storage targets when they expire in 2027, and instead implement an alternative strategic reserve system that would ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/germany-to-push-for-end-of-gas-storage-targets-after-2027-expiry",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1dd48113d240ee537ca3a806b769c4df",
-      "timestamp": "2026-01-30T23:46:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Exxon, Chevron Earnings Beat on Higher Production - Exxon Mobil and Chevron surpassed profit expectations as higher oil production helped offset the blow from lower crude prices. David Wethe has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/exxon-chevron-earnings-beat-on-higher-production-video",
       "sentiment": "NEUTRAL"
     }
   ]
