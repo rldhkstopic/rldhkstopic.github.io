@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-02T05:06:17.286160+09:00",
+  "last_updated": "2026-02-02T07:05:27.968703+09:00",
   "items": [
+    {
+      "id": "6429d2a12fa47913733003e29f8e8f9d",
+      "timestamp": "2026-02-02T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How Thailand’s Election Will Test Old Guard’s Grip on Power - Thailand’s Feb. 8 election will test whether the country can break the cycle of more than a decade of political instability. This upheaval has seen a series of short-lived governments ousted by both t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/thailand-election-what-s-at-stake-for-economy-tourism-and-national-security",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "27e0e5dadb974cb59d05b75c2001689f",
+      "timestamp": "2026-02-02T06:00:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warsh’s Return Revives Tensions Over the Fed’s $6.6 Trillion QE Hangover - For much of the time that President Donald Trump was mulling his potential choice for the next chair of the Federal Reserve, the debate in markets swirled around whether his pick would lower interest ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/warsh-s-return-revives-tensions-over-the-fed-s-6-6-trillion-qe-hangover",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "27e0e5dadb974cb59d05b75c2001689f",
+      "timestamp": "2026-02-02T06:00:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warsh’s Return Revives Tensions Over the Fed’s $6.6 Trillion QE Hangover - For much of the time that President Donald Trump was mulling his potential choice for the next chair of the Federal Reserve, the debate in markets swirled around whether his pick would lower interest ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/warsh-s-return-revives-tensions-over-the-fed-s-6-6-trillion-qe-hangover",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aac943216d5b39b2eecb07b78b364b31",
+      "timestamp": "2026-02-02T06:00:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Home Prices Rising by the Week Shatter Ownership Dreams in Seoul - <p>Seoul's real estate rally is frustrating young workers&nbsp;who see the bottom rung of the property ladder float out of reach&nbsp;</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/apartment-prices-have-risen-every-single-week-for-a-year-in-seoul",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "daac7f1daf3131711267ca575a0763c2",
+      "timestamp": "2026-02-02T05:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Opposition’s Finance Spokesman Attacks Trump’s Trade War - US President Donald Trump’s trade war is “unquestionably a step backwards and will leave everyone worse off,” the UK opposition’s finance spokesman plans to say in a speech on Monday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/uk-opposition-s-finance-spokesman-attacks-trump-s-trade-war",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "2204a8273300772978040fb3383f3ea9",
       "timestamp": "2026-02-02T04:40:19+09:00",
@@ -68,6 +123,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "c83ca739911c49517f1a3c4fbaccea55",
+      "timestamp": "2026-02-02T01:03:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hunger in One of America’s Wealthiest Counties - About one in three families are at risk of hunger in one of America’s wealthiest counties, just north of New York City. Feeding Westchester is the area’s only food bank, delivering more than 20 millio",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-01/hunger-in-one-of-america-s-wealthiest-counties",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "d47d57f791915a29c41abaa2b00e297d",
       "timestamp": "2026-02-02T00:47:26+09:00",
       "source_type": "NEWS",
@@ -101,6 +167,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "0c8f42e8f4d0fccd687ed6a29e17da6b",
+      "timestamp": "2026-02-02T00:05:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Equity, Incentives, and the New Economics of Youth Sports - Youth sports in America have become a massive business, with families now spending an estimated $40 billion a year on travel teams, coaching, and training. We follow one family’s journey and examine h",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-01/private-equity-incentives-and-the-new-economics-of-youth-sports",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "fcac06f4cb700932bfe7a77c8bd37d20",
       "timestamp": "2026-02-02T00:00:00+09:00",
       "source_type": "NEWS",
@@ -109,6 +186,17 @@
       "related_tickers": [],
       "content": "Stock Market Volatility Takes Back Seat to Commodity, FX Swings - Equities have been far less volatile than almost everything else so far this year, with bigger swings racing through the markets for precious metals, currencies and commodities.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-01/stock-market-volatility-takes-back-seat-to-commodity-fx-swings",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7204926ea603404233f33e57620f77ca",
+      "timestamp": "2026-02-01T23:54:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "GIC, Mubadala Said to Be Set to Join KKR in $10 Billion STT Deal - GIC Pte and Mubadala Investment Co. are in talks to join KKR &amp; Co. and Singapore Telecommunications Ltd. in their potential purchase of data center operator STT GDC Pte, people familiar with the m",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/gic-mubadala-said-to-be-set-to-join-kkr-in-10-billion-stt-deal",
       "sentiment": "NEUTRAL"
     },
     {
@@ -145,6 +233,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "a0e04b42865a9d8467fb01945ff87f96",
+      "timestamp": "2026-02-01T22:04:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Cutting SNAP Ripples Far Beyond Families - The Supplemental Nutrition Assistance Program was created to help families put meals on the table, but it has also become a critical pillar of America’s food economy. As Congress considers the largest",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-01/why-cutting-snap-ripples-far-beyond-families",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "3b44741081fa69c91bd03aa50922f97f",
       "timestamp": "2026-02-01T22:01:00+09:00",
       "source_type": "NEWS",
@@ -164,6 +263,17 @@
       "related_tickers": [],
       "content": "Apple’s Historic Quarter Doesn’t Change the Need for AI Reckoning - Apple’s blockbuster holiday quarter was impressive &mdash; but it shouldn’t give cover to avoid an AI reckoning. Also: A new MacBook Pro is planned for the macOS 26.3 release cycle; the company explor",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-01/apple-s-record-quarter-and-ai-changes-macbook-pro-update-clamshell-iphone-fold",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3eed7a8a353bd6c61c3438cebc5816ad",
+      "timestamp": "2026-02-01T21:45:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan Says 145 Militants Killed in 40 Hours in Balochistan - Pakistan’s security forces said it had killed 145 militants in less than two days across the southwestern province of Balochistan, as the country confronts one of the most serious episodes of violence",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/pakistan-says-145-militants-killed-in-40-hours-in-balochistan",
       "sentiment": "NEUTRAL"
     },
     {
@@ -384,6 +494,17 @@
       "related_tickers": [],
       "content": "India to Double Tax Holiday in Finance Hub to Boost Business - India will extend a tax holiday at its international finance hub to boost the appeal for businesses setting up shop there.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-to-double-tax-holiday-in-finance-hub-to-boost-business",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d3c1a68b9bf31cceb783b8337c49834f",
+      "timestamp": "2026-02-01T17:37:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Plans to Spend Less on Fertilizer Subsidy Next Fiscal Year - India has proposed to cut fertilizer subsidy spending in the next financial year starting in April, a move that could help reduce the fiscal deficit but may raise cultivation costs for farmers in the ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-plans-to-spend-less-on-fertilizer-subsidy-next-fiscal-year",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2102,131 +2223,6 @@
       "related_tickers": [],
       "content": "Statistics Canada Changes Inflation Release Date After Criticism - Canada’s central statistics agency changed the date it plans to publish a major inflation print after economists warned against releasing the data while the country’s financial markets are closed for ",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/statistics-canada-changes-inflation-release-date-after-criticism",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aabf698753ab848b2644d7e9fed01706",
-      "timestamp": "2026-01-31T04:07:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Exxon’s Imperial to Shut Norman Wells Oil Site After Century of Output - Imperial Oil Ltd. plans to shut the historic Norman Wells oil production site near the Arctic Circle in Canada after a century of operation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/exxon-s-imperial-to-shut-norman-wells-after-century-of-output",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3aa50aba1a7729198f184d2596c30238",
-      "timestamp": "2026-01-31T04:05:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Metal Parts Startup Raises $220M Led By Eclipse, 1789 Capital - Metal parts maker VulcanForms has closed a $220 million funding round, led by existing investor Eclipse and 1789 Capital, where Donald Trump Jr. is a partner. The company, which uses additive manufact",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/metal-parts-startup-closes-a-220-million-funding-round-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c33e62ec1b159f0b8121bdded2e286f9",
-      "timestamp": "2026-01-31T04:02:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple Has Watched AI From the Stands Says Dan Ives - Apple Inc. enjoyed a sharp rebound in China during the holiday period, when demand for the new iPhone 17 fueled its first $25 billion quarter in the region since the end of 2021.\nThe company generated",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/apple-has-watched-ai-from-the-stands-says-dan-ives-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "27c6a7a64ac8a6ebe088f919056c0942",
-      "timestamp": "2026-01-31T04:00:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Technologies Inc (SOFI) Q4 2025 Earnings Call Highlights: Record Revenue and Member Growth ... - SoFi Technologies Inc (SOFI) reports its first billion-dollar quarter with significant increases in revenue, membership, and product offerings, while navigating competitive and regulatory challenges.",
-      "url": "https://finance.yahoo.com/news/sofi-technologies-inc-sofi-q4-190053590.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "413e3a498865c658d21c0f33a7e7182c",
-      "timestamp": "2026-01-31T03:53:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple Loses More AI Researchers and a Siri Executive in Latest Departures - Apple Inc. has lost at least four more of its artificial intelligence researchers in recent weeks in addition to a top Siri executive, with the staff headed to employers such as Meta Platforms Inc. an",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/apple-loses-more-ai-researchers-and-a-siri-executive-in-latest-departures",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "770d4bcbbb4f42d4b07e0a8123b6cbe6",
-      "timestamp": "2026-01-31T03:45:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What Software Stocks Are Telling Us About the Copper Boom - Hello and welcome to the newsletter, a grab bag of daily content from the Odd Lots universe. Sometimes it's us, Joe Weisenthal and Tracy Alloway, bringing you our thoughts on the most recent developme",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-01-30/what-software-stocks-are-telling-us-about-the-copper-boom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d54129ad595a0963831c05e0ce250a37",
-      "timestamp": "2026-01-31T03:37:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Stocks to Watch Friday: Apple, Sandisk, Verizon, Sofi - ↘️ Apple (AAPL): The company posted blowout iPhone sales and quarterly profit, but investors were concerned by rising costs, particularly for memory components. Shares fell about 1% by midday Friday. ",
-      "url": "https://finance.yahoo.com/m/c262176a-b874-3715-b069-b220896e16e5/stocks-to-watch-friday%3A.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d096f42950faec39b3b4f43b0409ce8d",
-      "timestamp": "2026-01-31T03:34:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bloomberg Surveillance 1/30/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/bloomberg-surveillance-1-30-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "750c4195d093180d2a2c218f17df8ca0",
-      "timestamp": "2026-01-31T03:34:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Shutdown Fallout Will Be Short-Lived If Bill Passes Monday - The 43-day US government shutdown last fall was the longest and most disruptive ever. Now, Washington is on the cusp of a partial federal closure that could be among the shortest.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/us-government-shutdown-impact-limited-if-bill-passes-monday",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f6d8a6e1b174c3e8e70b97163e99ef1a",
-      "timestamp": "2026-01-31T03:28:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Exxon, Chevron Head for Best Month Since 2022 as Crude Surges - Shares of US oil giants Exxon Mobil Corp. and Chevron Corp. are on track for their largest monthly gains in more than three years, boosted by rising energy prices, geopolitical tensions and improving ",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/exxon-chevron-head-for-best-month-since-2022-as-crude-surges",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b460f4c06d4a5e4d30bc4624f3b2cc69",
-      "timestamp": "2026-01-31T03:13:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Warsh Tapped for Fed as Busy Earnings Week Wraps Up | Open Interest 1/30/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" \nPresident Trump taps Kevin Warsh to lead the Fed, a choice viewed as more hawkish than other cont",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/open-interest-1-30-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
