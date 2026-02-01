@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-02-01T21:09:22.094952+09:00",
+  "last_updated": "2026-02-01T23:08:21.792301+09:00",
   "items": [
+    {
+      "id": "bdc9d1797040c1b2f2560b6702e6631e",
+      "timestamp": "2026-02-01T21:40:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran’s Supreme Leader Warns of ‘Regional War’ as US Threat Looms - Iran’s Supreme Leader Ayatollah Ali Khamenei warned of a “regional war” as tensions continued to mount over potential US strikes on Tehran.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/iran-s-supreme-leader-warns-of-regional-war-as-us-threat-looms",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e874bfdff9cd9444c03fc476df895329",
       "timestamp": "2026-02-01T21:00:00+09:00",
@@ -2222,17 +2233,6 @@
       "related_tickers": [],
       "content": "Tariffs Caused $400 Million Hit to Canadian Railways in 2025 - US tariffs on commodities and the resulting uncertainty led to more than C$550 million ($406 million) in forgone revenues last year at Canada’s two largest railroad operators.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/tariffs-caused-400-million-hit-to-canadian-railways-in-2025",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8696390f9d16ec8bb737b76d3524bcae",
-      "timestamp": "2026-01-31T02:01:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Slump Cuts Millions From Winklevoss Super-PAC Donation - The political fundraising group launched by crypto-billionaire brothers Cameron and Tyler Winklevoss raised more than $22 million in the last five months of 2025, but might not get as much bang for it",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bitcoin-slump-cuts-millions-from-winklevoss-super-pac-donation",
       "sentiment": "NEUTRAL"
     }
   ]
