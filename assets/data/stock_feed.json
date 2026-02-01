@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-01T13:45:55.888002+09:00",
+  "last_updated": "2026-02-01T15:18:58.960884+09:00",
   "items": [
+    {
+      "id": "3cae96d9c7c974e9d3521cebf8c5f2a5",
+      "timestamp": "2026-02-01T15:00:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Regulating Africa’s Expanding Gambling Market - Africa is emerging as a major betting powerhouse, but governments across the continent are struggling to keep pace with the regulatory challenges rising alongside it. Bloomberg’s Jennifer Zabasajja sp",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-01/regulating-africa-s-expanding-gambling-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c4d6821a602c3cb4892dc4778754dee",
+      "timestamp": "2026-02-01T14:30:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Druckenmiller Effect: Famed Investor Has Ties to Bessent, Warsh - Bloomberg New Economy Editorial Director Erik Schatzker explains why Stanley Druckenmiller of the Duquesne Family Office may soon see his market principles permeate both US fiscal and monetary policy.",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-01/druckenmiller-effect-investor-s-ties-to-bessent-warsh-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "32df78913ef932dea28df5ecd798e81b",
+      "timestamp": "2026-02-01T14:25:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nuevo Leon's Garcia on Trade, Data Centers and Mexico's Presidency - Nuevo Leon Governor Samuel Garcia discusses how his state is positioning itself as a key technology and data hub in Latin America, as well as his aspirations to reach Mexico's highest political office",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-01/nuevo-leon-s-garcia-on-data-centers-mexico-s-presidency-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16074dc9f19a57c66260ac70006bf009",
+      "timestamp": "2026-02-01T14:09:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesia Permits Elon Musk’s Grok to Resume Service After Ban - Indonesia has permitted the artificial intelligence tool Grok to resume service after Elon Musk’s X provided assurances to the government following its ban for producing sexualized content.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/indonesia-permits-elon-musk-s-grok-to-resume-service-after-ban",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "88d1b629c49f52bb1865c6b129a1dc79",
+      "timestamp": "2026-02-01T13:53:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macau Gaming Revenue Beats Estimate on Entertainment Offerings - Macau’s gaming revenue rose 24% in January, beating analyst estimates as casinos in the world’s biggest gambling hub continued to rely on perks like free concert tickets and entertainment offerings to",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/macau-gaming-revenue-beats-estimate-on-entertainment-offerings",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d8dc26fe8196d85acae0b26080c0519e",
       "timestamp": "2026-02-01T13:23:14+09:00",
@@ -2188,63 +2243,6 @@
       ],
       "content": "SoFi Earnings Top Views On Record Member Adds. Fintech Stock Reverses Down. - SoFi stock climbed after the fintech reported Q4 earnings and revenue that topped Wall Street targets.",
       "url": "https://finance.yahoo.com/m/59a54df0-203c-3be6-b425-ce2c8b437c98/sofi-earnings-top-views-on.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "174e203b73bd642e646e8b99dc058fb5",
-      "timestamp": "2026-01-31T00:55:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bombardier Rally Faces New Hurdle on Trump’s Canadian Jet Threat - Private jet-maker Bombardier Inc.’s bullish run hit a roadblock Friday as President Donald Trump threatened to slap a 50% tariff on aircraft from Canada and decertify all new planes made there.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bombardier-rally-faces-new-hurdle-on-trump-s-canadian-jet-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6710cee3690f368819fca407a96d62df",
-      "timestamp": "2026-01-31T00:55:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Posts Better-Than-Expected Earnings. The Fourth Quarter Was ‘Exceptional,’ Says CEO. - SoFi has steadily expanded its offerings in crypto and self-directed investing in its bid to become a ‘one-stop shop’ for customers.",
-      "url": "https://finance.yahoo.com/m/f1ba9361-0d69-3a74-8b89-fbb8ea5fe7a6/sofi-posts.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "02d4a954973e0ad71c4f93f758e1b627",
-      "timestamp": "2026-01-31T00:42:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan Starts Selling a Chunk of $20 Billion EA Buyout Debt - JPMorgan Chase &amp; Co. is among banks that have begun selling down a highly anticipated $20 billion debt financing backing the acquisition of Electronic Arts Inc., the biggest leveraged buyout on re",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/jpmorgan-starts-selling-a-chunk-of-20-billion-ea-buyout-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b9315c674207fc3722e8d0f791fc8cf0",
-      "timestamp": "2026-01-31T00:40:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Government Poised for Short Shutdown as Congress Talks Drag - The US federal government is poised for a short shutdown with Congress unlikely to meet a midnight Friday deadline to clear a spending package through both legislative chambers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/us-government-poised-for-short-shutdown-as-congress-talks-drag",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "46dd30337ad3c83d31e0a890ad1fdf8b",
-      "timestamp": "2026-01-31T00:38:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer’s China Trip Draws Wins and a Warning From Trump - UK Prime Minister Keir Starmer can count facetime with Xi Jinping, visa-free travel and lower whiskey tariffs as wins from his trip to China.\n\nUpsetting Donald Trump may be one of the drawbacks, as Al",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/starmer-s-china-trip-draws-wins-and-a-warning-from-trump-video",
       "sentiment": "NEUTRAL"
     }
   ]
