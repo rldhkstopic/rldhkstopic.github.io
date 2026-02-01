@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-01T15:18:58.960884+09:00",
+  "last_updated": "2026-02-01T17:08:07.147991+09:00",
   "items": [
+    {
+      "id": "04a61c008008ebcab611bfadcbe20fb1",
+      "timestamp": "2026-02-01T15:52:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Plans to Raise Tax on Stock Derivatives Trading - India raised taxes on some equity transactions in a bid to further stem speculative trading by retail investors.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-raises-tax-on-equity-futures-options-trading",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d312e2f0e3bb0bc63f5302c91c8ec652",
+      "timestamp": "2026-02-01T15:44:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Electronics Manufacturing Shares Jump on Budget Boost - Shares of India’s electronics manufacturing services companies rose on Sunday after the finance minister set aside 400 billion rupees ($4.3 billion) to boost the sector and position the country as a g",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-electronics-manufacturing-shares-jump-on-budget-boost",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e88b4e16da5318ede3385260472da6b7",
+      "timestamp": "2026-02-01T15:31:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Modi’s Record $187 Billion Debt Sales to Pressure Indian Bonds - Prime Minister Narendra Modi’s government plans to sell a record amount of bonds in the coming fiscal year, a move that risks adding further pressure to local debt markets amid waning demand.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/modi-s-record-187-billion-debt-sales-to-pressure-indian-bonds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eecbae12064e8fa218a163bb3c724425",
+      "timestamp": "2026-02-01T15:13:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin’s Break Below $80,000 Signals New Crisis of Confidence - Price, relevance, conviction &mdash; Bitcoin is bleeding all three.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/bitcoin-s-break-below-80-000-signals-new-crisis-of-confidence",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "3cae96d9c7c974e9d3521cebf8c5f2a5",
       "timestamp": "2026-02-01T15:00:05+09:00",
@@ -2193,56 +2237,6 @@
       "related_tickers": [],
       "content": "Governor Gavin Newsom Tells Trump 'Newscum' Isn't Original - Gavin Newsom talks about a recent phone call he had with President Donald Trump. “Whaddya think about Newscum? It’s pretty good, isn’t it?” the California governor recalled Trump asking him, referring",
       "url": "https://www.bloomberg.com/news/videos/2026-01-30/newsom-tells-trump-newscum-isn-t-original-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "db70edf06433562a71a187b99d0765f1",
-      "timestamp": "2026-01-31T01:03:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi (SOFI) Q4 2025 Earnings Call Transcript - Anthony Noto: Thank you, and good morning, everyone.  Together, financial services in our technology platform generated revenue of $579 million, an increase of 61% year-over-year and representing 57% ",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/01/30/sofi-sofi-q4-2025-earnings-call-transcript/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cb92affe40026444ae4d6c0b84fa5fe8",
-      "timestamp": "2026-01-31T01:01:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "French Health Startup Alan in Funding Talks at €5 Billion Value - Alan is in talks to raise funds at a €5 billion ($5.9 billion) valuation as the French health-insurance startup works to expand its customer base, people familiar with the matter said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/french-health-startup-alan-in-funding-talks-at-5-billion-value",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3f917263aea8bd003b8e1941f5ec8bb4",
-      "timestamp": "2026-01-31T01:01:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Stocks to Watch Friday: Apple, Sandisk, Verizon, Sofi - ↘️ Apple (AAPL): The company posted blowout iPhone sales and quarterly profit, but investors were concerned by rising costs, particularly for memory components. Shares fell more than 1% Friday morning",
-      "url": "https://finance.yahoo.com/m/c262176a-b874-3715-b069-b220896e16e5/stocks-to-watch-friday%3A.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e62a5422303542fe7d213eb159d1779",
-      "timestamp": "2026-01-31T00:57:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Earnings Top Views On Record Member Adds. Fintech Stock Reverses Down. - SoFi stock climbed after the fintech reported Q4 earnings and revenue that topped Wall Street targets.",
-      "url": "https://finance.yahoo.com/m/59a54df0-203c-3be6-b425-ce2c8b437c98/sofi-earnings-top-views-on.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     }
   ]
