@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-02-01T19:06:13.544119+09:00",
+  "last_updated": "2026-02-01T21:09:22.094952+09:00",
   "items": [
+    {
+      "id": "e874bfdff9cd9444c03fc476df895329",
+      "timestamp": "2026-02-01T21:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Costa Rica Votes for President as Gang Wars Shatter Serene Image - Costa Ricans are voting for president amid soaring drug violence that has shocked a country historically known as a peaceful tourist haven in a turbulent region.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/costa-rica-votes-for-president-as-gang-wars-shatter-serene-image",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23a04d661c98645bc11c4a3302f2e8f6",
+      "timestamp": "2026-02-01T20:11:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudi Oil-Supply Hikes Power Best Economic Growth Since 2022 - Saudi Arabia’s economy expanded at the fastest pace in three years in 2025, with the oil sector emerging as a stronger engine of growth under new OPEC+ supply policy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/saudi-oil-supply-hikes-power-best-economic-growth-since-2022",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1aa2b7bff907e0196d2f4ad65c488b4a",
+      "timestamp": "2026-02-01T19:58:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OPEC+ on Track to Ratify March Output Pause, Delegates Say - OPEC+ is on track to ratify its plans to pause production increases in March, delegates said ahead of the group’s online meeting on Sunday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/opec-on-track-to-rafity-output-pause-in-march-delegates-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "26dc74e135a39da30639934c9b0e905f",
+      "timestamp": "2026-02-01T19:49:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NCC Said in Talks to Sell Industry Unit to CRH-Heidelberg Group - Nordic construction firm NCC AB is in advanced talks to sell its industry business to a consortium including CRH Plc and Heidelberg Materials AG, two of the world’s biggest building materials companie",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/ncc-said-in-talks-to-sell-industry-unit-to-crh-heidelberg-group",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c58c17d65d897b9e428470df7ea9f264",
+      "timestamp": "2026-02-01T19:06:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Cuts Taxes to Boost Rare Earth Processing to Counter China - India is looking to remove taxes on import of equipment for processing critical minerals and spur manufacturing of rare earth magnets locally, a move aimed at minimizing dependence on China.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-cuts-taxes-to-boost-rare-earth-processing-to-counter-china",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c58c17d65d897b9e428470df7ea9f264",
+      "timestamp": "2026-02-01T19:06:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Cuts Taxes to Boost Rare Earth Processing to Counter China - India is looking to remove taxes on import of equipment for processing critical minerals and spur manufacturing of rare earth magnets locally, a move aimed at minimizing dependence on China.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-cuts-taxes-to-boost-rare-earth-processing-to-counter-china",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6a22be5e6e4106c85ea5f069feba78d5",
       "timestamp": "2026-02-01T18:52:33+09:00",
@@ -24,6 +90,28 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "b5dff3b72c3fa4181c41da1a43e1053d",
+      "timestamp": "2026-02-01T18:36:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Proposes New Incentives to Boost Municipal Bond Market - The Indian government proposed fresh steps to boost the nation’s municipal bond market and encourage civic bodies to issue higher value debt as rising urban infrastructure needs weigh on the federal g",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-proposes-new-incentives-to-boost-municipal-bond-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "751ab2b97589aa8bc66ba8f89e8b2317",
+      "timestamp": "2026-02-01T18:29:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Seeks Diaspora Capital as Foreign Funds Pull Out of Local Stocks - India is seeking to draw more money from its overseas nationals into local equities as global funds pull back amid concerns over corporate earnings and more attractive returns elsewhere.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-seeks-diaspora-capital-as-foreign-funds-pull-out-of-local-stocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "a6fc7d258af0607bb276d3c9b4a176b9",
       "timestamp": "2026-02-01T17:49:17+09:00",
       "source_type": "NEWS",
@@ -32,6 +120,17 @@
       "related_tickers": [],
       "content": "Saudi Stocks Slide Most Since June on Geopolitics, Gold Retreat - Saudi Arabian equities dropped the most in almost eight months on Sunday as a global metals selloff hit local miners and speculation intensified over the possibility of military attacks involving the ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-01/saudi-stocks-slide-most-since-june-on-geopolitics-gold-retreat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0cdc991bb6a33c2cc991a4d151d94657",
+      "timestamp": "2026-02-01T17:46:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Extends Import Tax Waivers on Nuclear Equipment Until 2035 - India will continue to offer the existing tax waivers for imports of nuclear power equipment until 2035, regardless of the size of the projects, Finance Minister Nirmala Sitharaman said in her budget ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-extends-import-tax-waivers-on-nuclear-equipment-until-2035",
       "sentiment": "NEUTRAL"
     },
     {
@@ -153,6 +252,17 @@
       "related_tickers": [],
       "content": "Nuevo Leon's Garcia on Trade, Data Centers and Mexico's Presidency - Nuevo Leon Governor Samuel Garcia discusses how his state is positioning itself as a key technology and data hub in Latin America, as well as his aspirations to reach Mexico's highest political office",
       "url": "https://www.bloomberg.com/news/videos/2026-02-01/nuevo-leon-s-garcia-on-data-centers-mexico-s-presidency-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2920a54d5e044d209181888e74a79ec3",
+      "timestamp": "2026-02-01T14:12:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "URGENT: Democrat Taylor Rehmet wins a reliably Republican Texas state Senate seat, stunning GOP - Democrat Taylor Rehmet won a special election for the Texas state Senate on Saturday, flipping a reliably Republican district that President Donald Trump won by 17 points in 2024.",
+      "url": "https://www.bloomberg.com/en/news/thp/2026-02-01/urgent-democrat-taylor-rehmet-wins-a-reliably-republican-texas-state-senate-seat-stunning-gop",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2123,120 +2233,6 @@
       "related_tickers": [],
       "content": "Bitcoin Slump Cuts Millions From Winklevoss Super-PAC Donation - The political fundraising group launched by crypto-billionaire brothers Cameron and Tyler Winklevoss raised more than $22 million in the last five months of 2025, but might not get as much bang for it",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/bitcoin-slump-cuts-millions-from-winklevoss-super-pac-donation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8696390f9d16ec8bb737b76d3524bcae",
-      "timestamp": "2026-01-31T02:01:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Slump Cuts Millions From Winklevoss Super-PAC Donation - The political fundraising group launched by crypto-billionaire brothers Cameron and Tyler Winklevoss raised more than $22 million in the last five months of 2025, but might not get as much bang for it",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bitcoin-slump-cuts-millions-from-winklevoss-super-pac-donation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "de395677c47c9101bfc929950b48bd3f",
-      "timestamp": "2026-01-31T02:00:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The US Is Flirting With Its First-Ever Population Decline - America’s population wasn’t expected to start falling until 2081. \n\nTrump’s immigration crackdown means it could happen as soon as this year. Shawn Donnan explain. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/us-is-flirting-with-its-first-ever-population-decline-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "185749734a00d175ce05533bf6108977",
-      "timestamp": "2026-01-31T01:52:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "This New App is Combatting Loneliness - China's hottest app is a simple solution to a very real problem, says Bloomberg Opinion columnist Catherine Thorbecke. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/opinion-this-new-app-is-combatting-loneliness-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ee845932fd0d535675b447e351c48190",
-      "timestamp": "2026-01-31T01:45:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon Layoffs Hit 1,400 in Seattle as Local Tech Jobs Wither - Amazon.com Inc.’s 16,000 job cuts announced this week include about 1,400 in Seattle and approximately 700 in the neighboring suburb of Bellevue, according to documents filed with state and local auth",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/amazon-layoffs-hit-1-400-in-seattle-700-in-bellevue-as-tech-jobs-wither",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b0bb1a8d5d8871540b66879073460c7",
-      "timestamp": "2026-01-31T01:42:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Earnings Top Views On Record Member Adds. Fintech Stock Reverses Down. - The financial technology company reported Q4 earnings before the market open.  In the December quarter, San Francisco-based SoFi said it earned 13 cents, up 160% from a year earlier, with net adjusted",
-      "url": "https://finance.yahoo.com/m/59a54df0-203c-3be6-b425-ce2c8b437c98/sofi-earnings-top-views-on.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "49f2596228ad8423dcc46c2d514ef751",
-      "timestamp": "2026-01-31T01:29:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The US Is About to Import the Most Venezuelan Oil in a Year With Trump’s Backing - The US is set to import the most Venezuelan oil in a year after President Donald Trump’s administration moved to control the country’s energy supply.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/us-to-import-the-most-venezuelan-oil-in-a-year-with-trump-s-backing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d6f4f807e22ee82ab3c41f09aa30acd3",
-      "timestamp": "2026-01-31T01:26:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What If Iran Tries to Close the Strait of Hormuz? - Iran’s government has said it will “defend itself and respond like never before” after US President Donald Trump threatened to attack the country if it doesn’t do a deal on its nuclear program. One wa",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/could-iran-block-the-strait-of-hormuz",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dcb8581d7a831ed90a4fd650932bec30",
-      "timestamp": "2026-01-31T01:26:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Technologies Reverses Course and Falls After Beat-and-Raise Q4 - SoFi Technologies (NASDAQ:SOFI) reported impressive fourth-quarter 2025 earnings this morning, significantly exceeding Wall Street estimates and raising its earnings guidance for the coming year ahead",
-      "url": "https://247wallst.com/investing/2026/01/30/sofi-technologies-reverses-course-and-falls-after-beat-and-raise-q4/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4cb1ea9beaea4d1ddfa9ee8f54f99e76",
-      "timestamp": "2026-01-31T01:21:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starbucks CEO on Growth Plans, Pricing and China Market - Starbucks CEO Brian Niccol discusses what is driving the company's recent sales growth. Speaking with Romaine Bostick on \"Bloomberg Open Interest,\" Niccol also comments on the company's pricing strate",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/starbucks-ceo-on-growth-plans-pricing-and-china-market-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "56ee5ec1bea4d342f6b8c2c5c80883f5",
-      "timestamp": "2026-01-31T01:21:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gold, Silver Continue Wild Swings - Wasif Latif, president of Sarmaya Partners, says energy might be a bigger play over the next year and they are overweight on gold, silver and mining companies. He speaks on \"Bloomberg Open Interest.\" ",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/gold-silver-continue-wild-swings-video",
       "sentiment": "NEUTRAL"
     }
   ]
