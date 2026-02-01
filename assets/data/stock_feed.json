@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-01T09:27:21.564210+09:00",
+  "last_updated": "2026-02-01T12:04:54.151520+09:00",
   "items": [
+    {
+      "id": "f813141e144f7d069dd6fdb8414d2cd8",
+      "timestamp": "2026-02-01T09:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Budget Seen Balancing Jobs Push With Fiscal Discipline - India’s Finance Minister Nirmala Sitharaman is expected to prioritize job-creating growth while emphasizing fiscal prudence in Sunday’s budget, as the country grapples with geopolitical risks and stee",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-budget-seen-balancing-jobs-push-with-fiscal-discipline",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ae9cdce5170509efac70b165b3ad040",
+      "timestamp": "2026-02-01T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ruling Thai Party Runs on Nationalist, Establishment Vote Pitch - Just over a week before Thailand’s general election, Prime Minister Anutin Charnvirakul trekked to the Thai-Cambodian border and posed with frontline soldiers as the national flag fluttered in the bre",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/ruling-thai-party-runs-on-nationalist-establishment-vote-pitch",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "ebcf1c9fcfbeba7d2af433c0531951be",
       "timestamp": "2026-02-01T06:00:00+09:00",
@@ -2227,28 +2249,6 @@
       "related_tickers": [],
       "content": "Sandisk Is in 'Uncharted Territory,' Wedbush's Bryson Says - \"Numbers are just going to go higher next quarter,\" Matt Bryson, Wedbush Securities managing director of equity research, says while reacting to Sandisk's strong revenue and earnings outlook on the Ja",
       "url": "https://www.bloomberg.com/news/videos/2026-01-30/sandisk-in-uncharted-territory-wedbush-s-bryson-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3433c99d7d7c21f9f239f80a38390365",
-      "timestamp": "2026-01-31T00:18:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fresh Claims Hang Over Diageo’s East Africa Deal With Asahi - A Kenyan contractor filed a fresh case against Diageo Plc, asking a court to block its proposed sale of East African assets to Asahi Group Holdings Plc until a separate matter is resolved.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/fresh-claims-hang-over-diageo-s-east-africa-deal-with-asahi",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2e58541c136916239f8cd3c140233bef",
-      "timestamp": "2026-01-31T00:16:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SocGen Plans to Launch US Equities Fund Managed by Goldman - Societe Generale SA’s asset management unit is in discussions with Goldman Sachs about setting up an investment fund focused on US equities, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/socgen-plans-to-launch-us-equities-fund-managed-by-goldman",
       "sentiment": "NEUTRAL"
     }
   ]
