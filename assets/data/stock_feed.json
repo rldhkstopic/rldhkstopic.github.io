@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-02-02T01:07:11.884868+09:00",
+  "last_updated": "2026-02-02T03:07:47.400947+09:00",
   "items": [
+    {
+      "id": "59a92db8d9dd5184efc8d710bae966fa",
+      "timestamp": "2026-02-02T02:13:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine Says Russian Drone Strike on Bus Kills 15 Civilians - More than a dozen people were killed on Sunday when a Russian drone struck a bus transporting workers in central Ukraine, officials said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/ukraine-says-russian-drone-strike-on-bus-kills-15-civilians",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7534061de3caf4eefddbbc98e6f3586a",
+      "timestamp": "2026-02-02T01:47:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Amazon’s ‘Melania’ Documentary Opens to $7 Million in Theaters - Melania, a documentary about the first lady and the days leading up to her husband’s second inauguration, took in a stronger-than-expected $7 million at US and Canadian theaters in its opening weekend",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/amazon-s-melania-documentary-opens-to-7-million-in-theaters",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "db07cea44022ad95440efdfdb31c9edc",
+      "timestamp": "2026-02-02T01:11:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Quest for Voter Data Spurs Lawsuits, a Raid and Jail Risk - The recent FBI raid of a Georgia county election office is a precursor to battles ahead as President Donald Trump’s administration steps up efforts to obtain sensitive voter information from states.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/trump-quest-for-voter-data-spurs-lawsuits-a-raid-and-jail-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d47d57f791915a29c41abaa2b00e297d",
+      "timestamp": "2026-02-02T00:47:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Democrat Clinches Shock Win in Texas State Senate Runoff - The Democratic candidate for a Texas state Senate seat in a conservative district near Dallas won a runoff election Saturday, overcoming a late intervention from President Donald Trump in a race viewe",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/democrat-clinches-shock-win-in-north-texas-state-senate-runoff",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "97d8ce0fffc757478db0d86e6e813865",
+      "timestamp": "2026-02-02T00:30:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "GOP’s Johnson Sees Deal Ahead on DHS Immigration Enforcement - House Speaker Mike Johnson voiced confidence that Congress will agree on measures to restrain federal immigration enforcement after a national outcry over the killings of two US citizens in Minnesota.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/gop-s-johnson-sees-deal-ahead-on-dhs-immigration-enforcement",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8701f6e10961e3c41c71af35274ed3f9",
+      "timestamp": "2026-02-02T00:26:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OPEC+ Sticks With Supply Pause Even as Oil Climbs on Iran - OPEC+ ratified plans to keep production steady in March &mdash; the last part of a three-month supply freeze, even after prices hit a four-month high on the prospect of a US strike against Iran.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/opec-sticks-with-supply-pause-even-as-oil-climbs-on-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fcac06f4cb700932bfe7a77c8bd37d20",
+      "timestamp": "2026-02-02T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stock Market Volatility Takes Back Seat to Commodity, FX Swings - Equities have been far less volatile than almost everything else so far this year, with bigger swings racing through the markets for precious metals, currencies and commodities.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/stock-market-volatility-takes-back-seat-to-commodity-fx-swings",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8965bafb993837df513f3d027f252de2",
+      "timestamp": "2026-02-01T23:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Microsoft’s $381 Billion Rout Exposes Dark Side of the AI Binge - Wall Street’s apprehension about the cost of developing artificial intelligence technology has been simmering beneath the surface of the stock market for months. Now it’s starting to boil over.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/microsoft-s-381-billion-rout-exposes-dark-side-of-the-ai-binge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f263538ea4060e47f0d69201827c0e9",
+      "timestamp": "2026-02-01T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bond Buyers Scour Latin America to Bet on Nations Close to Trump - Investors from T. Rowe Price Group Inc. to TCW Group Inc. are embracing a strategy that’s rapidly becoming the norm in emerging markets: pour money into Latin American countries aligned with President",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/bond-buyers-scour-latin-america-to-bet-on-nations-close-to-trump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b44741081fa69c91bd03aa50922f97f",
+      "timestamp": "2026-02-01T22:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia’s Home-Price Gains Accelerate Even as Rate Hike Looms - Australia’s home-price growth gathered pace in January, underscoring the challenge for Reserve Bank policymakers as they weigh interest-rate increases in a property market already grappling with stret",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/australia-s-home-price-gains-accelerate-even-as-rate-hike-looms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9759bf564a241d0a342a98be8be37839",
+      "timestamp": "2026-02-01T22:00:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple’s Historic Quarter Doesn’t Change the Need for AI Reckoning - Apple’s blockbuster holiday quarter was impressive &mdash; but it shouldn’t give cover to avoid an AI reckoning. Also: A new MacBook Pro is planned for the macOS 26.3 release cycle; the company explor",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-01/apple-s-record-quarter-and-ai-changes-macbook-pro-update-clamshell-iphone-fold",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bdc9d1797040c1b2f2560b6702e6631e",
       "timestamp": "2026-02-01T21:40:05+09:00",
@@ -54,6 +175,17 @@
       "related_tickers": [],
       "content": "NCC Said in Talks to Sell Industry Unit to CRH-Heidelberg Group - Nordic construction firm NCC AB is in advanced talks to sell its industry business to a consortium including CRH Plc and Heidelberg Materials AG, two of the world’s biggest building materials companie",
       "url": "https://www.bloomberg.com/news/articles/2026-02-01/ncc-said-in-talks-to-sell-industry-unit-to-crh-heidelberg-group",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a8e8a7484ea1a7c3a1995c110713946",
+      "timestamp": "2026-02-01T19:15:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Danantara to Continue Investing in Indonesian Stocks After Rout - Indonesia’s Danantara has instructed asset managers it places funds with to continue buying local stocks this week, the latest step by the government to restore confidence in its beleaguered capital m",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/danantara-to-continue-investing-in-indonesian-stocks-after-rout",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2097,142 +2229,6 @@
       "related_tickers": [],
       "content": "Coronado on Challenges Facing Trump's Fed Pick Warsh - Julia Coronado, founder and president of Macropolicy Perspectives, says President Trump’s Fed chair pick Kevin Warsh understands the challenges of forging consensus at the central bank. Coronado speak",
       "url": "https://www.bloomberg.com/news/videos/2026-01-30/coronado-on-challenges-facing-trump-s-fed-pick-warsh-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d48f60bf443de30adca457eb2b9fa818",
-      "timestamp": "2026-01-31T02:42:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackBerry Teams Up With BMW on New Vehicle Software - BlackBerry announced its QNX division's software will be integrated into BMW's new vehicle generation \"Neue Klasse.\" CEO John Giamatteo joins \"Bloomberg Open Interest\" to discuss the partnership. (Sou",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/blackberry-teams-up-with-bmw-on-new-vehicle-software-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "946008c7357b44898148653e93c20c16",
-      "timestamp": "2026-01-31T02:33:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "De paraíso turístico a ruta de cocaína: el dilema de Costa Rica de cara a las elecciones - <p>Un puerto inaugurado hace siete años ha impulsado un enorme auge de las exportaciones, pero también ha convertido al país en un centro de tránsito de drogas ilegales.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-01-30/elecciones-en-costa-rica-marcadas-por-narcotrafico-ml15vztu",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "420202b11d5504e132f717204c0b1d8d",
-      "timestamp": "2026-01-31T02:29:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Peru’s Deficit Goal Risks Choking Growth, Finance Chief Says - Peru hit its fiscal target in 2025 for the first time in three years. But now a stricter goal is weighing on an economy that could grow faster with a less stringent cap on deficits, according to its f",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/peru-s-deficit-goal-risks-choking-growth-finance-chief-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "373a47cbea3b2dde6314a41b4246f6c0",
-      "timestamp": "2026-01-31T02:28:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "These Stocks Are Today’s Movers: Apple, Sandisk, SoFi, Verizon, Western Digital, KLA, Unity Software, and More - STOCKSTOWATCHTODAY BLOG  Stocks were falling Friday after President Donald Trump selected Kevin Warsh as his nominee for the next chair of the Federal Reserve and data showed U.S. producer price infla",
-      "url": "https://finance.yahoo.com/m/4c0d34bf-cf68-35a6-9cf0-c9a75a0173f9/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ef05ac1e458096c27563298db6316adb",
-      "timestamp": "2026-01-31T02:26:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Soaring Industrial Shares Face Headwinds From Trump Trade Policy - Earnings reports from some of the largest US manufacturers and transportation companies this week drove home how President Donald Trump’s policies on trade and energy are putting a squeeze on the sect",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/soaring-industrial-shares-face-headwinds-from-trump-trade-policy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b905e263af99caadf883744f0fba9762",
-      "timestamp": "2026-01-31T02:24:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chile’s Fiscal Deficit Exceeds Target for Third Year in a Row - Chile’s fiscal deficit exceeded the government’s target for the third year in a row in 2025, as President-elect Jose Antonio Kast prepares to take office in March with pledges to slash billions from s",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/chile-s-fiscal-deficit-exceeds-target-for-third-year-in-a-row",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f8a7b65d60d1ecf3d83b8dac631f0fe9",
-      "timestamp": "2026-01-31T02:23:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sheinbaum Warns of Deeper Cuban Crisis After US Threat - Mexican President Claudia Sheinbaum warned that the latest US tariffs threatened by Donald Trump on goods from countries that support Cuba with critical energy supplies could lead to a humanitarian di",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/mexico-s-sheinbaum-warns-of-deeper-cuban-crisis-after-us-threat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "90e6147739c0f5108d6b139b2457d87e",
-      "timestamp": "2026-01-31T02:16:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DOJ Conducts Civil Rights Probe in Shooting Death of Alex Pretti - The US Justice Department is conducting a civil rights investigation into the death of Minnesota nurse Alex Pretti, who was shot numerous times by federal agents last week.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/doj-conducts-civil-rights-probe-in-shooting-death-of-alex-pretti",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "21dabd1f03aa8b6b24ccfb71e85bcc4a",
-      "timestamp": "2026-01-31T02:14:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Adopts Global Bond Repos Standard in Move to Boost Yuan - China allowed foreign investors to participate in onshore repo transactions in the cross-border market, using a global set of standards for the contracts, as part of the country’s efforts to open up i",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-adopts-global-bond-repos-standard-in-move-to-boost-yuan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "10771925532c4a50d525ee5148684303",
-      "timestamp": "2026-01-31T02:12:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AC Milan Owner Refinances Elliott Loan With €700 Million Funding - RedBird Capital Partners, the owner of AC Milan, struck a deal for a new debt that will refinance a vendor loan provided by Elliott Management Corp.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/ac-milan-owner-refinances-elliott-loan-with-700-million-funding",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7bd08549263ad28232d65a54bb399d22",
-      "timestamp": "2026-01-31T02:10:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Scorecard: How We Graded SoFi Technologies (SOFI) Q4 2025 Earnings - SoFi Technologies (Nasdaq: SOFI) crossed the $1 billion quarterly revenue threshold for the first time in company history, delivering Q4 2025 results that beat estimates across the board while adding ",
-      "url": "https://247wallst.com/investing/2026/01/30/scorecard-how-we-graded-sofi-technologies-sofi-q4-2025-earnings/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c204137d83e3154f51def29e185fb65e",
-      "timestamp": "2026-01-31T02:04:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tariffs Caused $400 Million Hit to Canadian Railways in 2025 - US tariffs on commodities and the resulting uncertainty led to more than C$550 million ($406 million) in forgone revenues last year at Canada’s two largest railroad operators.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/tariffs-caused-400-million-hit-to-canadian-railways-in-2025",
       "sentiment": "NEUTRAL"
     }
   ]
