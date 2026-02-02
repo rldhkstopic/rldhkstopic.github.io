@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-02-02T13:42:37.588222+09:00",
+  "last_updated": "2026-02-02T15:25:29.180442+09:00",
   "items": [
+    {
+      "id": "51784e13b596ca66437bbd76cec08082",
+      "timestamp": "2026-02-02T15:17:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Gold, Silver Extend Declines - Gold fell, following its biggest plunge in more than a decade. Silver also sank deeper, reversing a record-breaking rally. The metals rally accelerated sharply in January, as investors piled into gold",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-02/gold-silver-extend-declines-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9578400ac1380b946bd9b975c9a46e4b",
+      "timestamp": "2026-02-02T15:10:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Temasek, LIC Are Said to Plan Share Sales in NSE’s India IPO - Temasek Holdings Pte. and Life Insurance Corporation of India Ltd. are likely to be key sellers in the potential $2.5 billion initial public offering of India’s top bourse, the National Stock Exchange",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-02/temasek-lic-are-said-to-plan-share-sales-in-nse-s-india-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "115c1102b4ce14cf6683d109989fdc10",
+      "timestamp": "2026-02-02T14:29:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Credit Firm Ruya Plans $400 Million Fundraise in Middle East - A little-known Abu Dhabi firm is raising capital for what’s set to be one of the Middle East’s largest private credit funds, aiming to fill financing gaps created by a credit squeeze in Saudi Arabia.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-02/private-credit-firm-ruya-plans-400-million-fundraise-in-mideast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a4cb9852eb30d12c55d96bf17f484c9",
+      "timestamp": "2026-02-02T14:00:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why the Price of Gold Reflects a Long-Term Shift - <p>World Gold Council strategist John Reade explains the perfect storm that’s&nbsp;turning gold into a preferred safe haven.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-02/podcast-why-the-price-of-gold-reflects-a-long-term-shift",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ef4b0f9e814b868fe4c9af817914d99c",
+      "timestamp": "2026-02-02T14:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How to Calculate the True Value of Gold | Merryn Talks Money - Investors have flocked to gold in the past year, prompting the precious metal to notch a series of price records and eclipse its inflation-adjusted peak from 1980. Friday’s Fed-announcement drama notw",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-02/gold-prices-hit-record-highs-a-portfolio-wake-up-call-merryn-talks-money",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2b343eed90eaf7c0d650d7565163befc",
+      "timestamp": "2026-02-02T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Britain’s Growing Ranks of Jobless Men Are Flocking to Farage - Nigel Farage’s Reform UK party is appealing to a growing group of voters ahead of a crucial special election this month: men without a job.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-02/britain-s-growing-ranks-of-jobless-men-are-flocking-to-farage",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "07b69c183c4af4b8387c867a4b5e578c",
+      "timestamp": "2026-02-02T13:53:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Markets Fallout Worsens as Gold, Silver Extend Rout",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-02-02/markets-fallout",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "03f1829916f121f6802e59bd8eb1dbd6",
+      "timestamp": "2026-02-02T13:49:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Synspective CEO on Business Outlook - Motoyuki Arai, Founder and CEO of Tokyo-based space technology firm Synspective, discusses his company's business and growth outlook, and addresses the global demand for satellite technology. He speak",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-02/synspective-ceo-on-business-outlook-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b409071bb4b72577faf893cb33dea18",
+      "timestamp": "2026-02-02T13:41:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asset Management One Sees Gains in Yen to 150 on April Rate Hike - Mizuho Financial Group Inc.’s asset management unit expects the yen to strengthen beyond 150 per dollar after an April rate hike by the Bank of Japan, said Shigeki Muramatsu, the firm’s chief investme",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-02/asset-management-one-sees-gains-in-yen-to-150-on-april-rate-hike",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "baea24a8f9a640078eb13201d5d1678d",
       "timestamp": "2026-02-02T13:30:55+09:00",
@@ -2104,111 +2203,6 @@
       "related_tickers": [],
       "content": "Israel Credit Outlook Raised by Moody’s as Conflict Risks Recede - Israel’s credit outlook was raised to stable from negative by Moody’s Ratings, which cited diminished geopolitical risks following the ceasefire with Hamas last October.",
       "url": "https://www.bloomberg.com/news/articles/2026-01-30/israel-credit-outlook-raised-by-moody-s-as-conflict-risks-recede",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b3fb9966429e4e75fa88b482bde55735",
-      "timestamp": "2026-01-31T07:03:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "3D Printing Startup VulcanForms Raises $220 Million for US Manufacturing - Metal parts maker VulcanForms Inc. has raised $220 million in a funding round led by Eclipse and 1789 Capital, the VC firm where Donald Trump Jr. is a partner.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/3d-printing-startup-vulcanforms-raises-220-million-for-us-manufacturing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "28cdb3c89e57d880fbc5839f399ca3f9",
-      "timestamp": "2026-01-31T07:02:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Financial Services Roundup: Market Talk - Find insight on SoFi Technologies, Raiffeisen Bank International and more in the latest Market Talks covering financial services.",
-      "url": "https://finance.yahoo.com/m/1e6b041e-dc09-3974-a72a-c20804e288da/financial-services-roundup%3A.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59fc9a978c24cccffb29d87ca6c02bbd",
-      "timestamp": "2026-01-31T06:58:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Italy’s Outlook Raised to Positive by S&amp;P in New Meloni Win - Italy’s credit rating outlook was raised to positive from stable by S&amp;P Global Ratings, the latest victory for Prime Minister Giorgia Meloni.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/italy-s-outlook-raised-to-positive-by-s-p-in-new-meloni-win",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a5c4544b4def293dc5e5390e70e2bed",
-      "timestamp": "2026-01-31T06:56:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hedge Funds Rush Into Bullish Oil Bets Amid Iran Risk, US Freeze - Hedge funds turned the most bullish on Brent oil since early April as President Donald Trump touted a growing US military presence near Iran and traders monitored the fallout from a sweeping winter st",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/hedge-funds-rush-into-bullish-oil-bets-amid-iran-risk-us-freeze",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dbf6b9206d3e5260f8420142b04bb118",
-      "timestamp": "2026-01-31T06:53:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Andreessen, Coinbase Directors Face Trading Suit for Now - A Delaware judge ruled that a shareholder lawsuit alleging insider trading by several directors of Coinbase Global Inc., including venture capitalist Marc Andreessen, can proceed for now after an inte",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/andreessen-coinbase-directors-face-trading-suit-for-now",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4ac804febc180bf430341132cfa1046d",
-      "timestamp": "2026-01-31T06:50:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Taps Warsh From 'Central Casting' For Fed | Bloomberg Businessweek Daily 1/30/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss President Trump picking former Federal Reserve Governor Kevin Warsh as the next Federal Reserve Chairman.\nBloo",
-      "url": "https://www.bloomberg.com/news/videos/2026-01-30/bloomberg-businessweek-daily-1-30-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2a82d134cb2739740a249d327804c068",
-      "timestamp": "2026-01-31T06:45:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi CEO: Fed Chair Powell's legacy is a 'wash' - While CEO Anthony Noto cheers the \"phenomenal\" outcome of the Powell era, a \"touch light\" outlook for 2026 leaves investors questioning the path ahead.",
-      "url": "https://finance.yahoo.com/news/sofi-ceo-fed-chair-powells-legacy-is-a-wash-214529178.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "574a5cde1f8540b3dea480ac3af8393e",
-      "timestamp": "2026-01-31T06:42:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "These Stocks Are Today’s Movers: Apple, Verizon, SoFi, Sandisk, Western Digital, Unity Software, Exxon, and More - Verizon stock heads for its largest single-day percent increase since 2008 after earnings top Wall Street’s expectations.",
-      "url": "https://finance.yahoo.com/m/4c0d34bf-cf68-35a6-9cf0-c9a75a0173f9/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dc86e5781f61d18b195454612c5da836",
-      "timestamp": "2026-01-31T06:40:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crowded Wall Street Trades Buckle All at Once in 2026 Warning - In a Wall Street era marked by investor crowding and retail momentum, this week showed how quickly conviction can evaporate.",
-      "url": "https://www.bloomberg.com/news/articles/2026-01-30/crowded-wall-street-trades-show-cracks-in-latest-2026-warning",
       "sentiment": "NEUTRAL"
     }
   ]
