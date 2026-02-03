@@ -1,6 +1,347 @@
 {
-  "last_updated": "2026-02-03T19:14:33.322036+09:00",
+  "last_updated": "2026-02-03T21:12:30.543281+09:00",
   "items": [
+    {
+      "id": "6b5457f669ccf5d28f5607d795cad40f",
+      "timestamp": "2026-02-03T21:06:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Risk Hands Oil Algos an Early Test After Three-Year Slump - Algorithmic traders have racked up a third straight year of losses in oil, the longest slump on record, with hopes for a turnaround in 2026 facing an early test amid geopolitical volatility.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/iran-risk-hands-oil-algos-an-early-test-after-three-year-slump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e43784fd09249dbefa0769da96f8cfe0",
+      "timestamp": "2026-02-03T21:02:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple’s iPhone 17 Upgrades Hit the Spot for Chinese Consumers - The seeds for Apple’s best iPhone sales in China were planted years earlier",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-03/apple-s-iphone-17-upgrades-hit-the-spot-for-chinese-consumers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "788f577275c2dd3c517e9d419259030f",
+      "timestamp": "2026-02-03T21:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CAZ Debuts Fund for Wealthy to Buy Stakes of Private-Asset Firms - Alternative money manager CAZ Investments launched a fund for wealthy individuals that will take stakes in private-asset firms, a niche strategy that’s gathering momentum amid a secondaries boom.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/caz-debuts-fund-for-wealthy-to-buy-stakes-of-private-asset-firms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a758a286ad77d2d00ada70ae56c984f1",
+      "timestamp": "2026-02-03T20:55:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Get Me Out’: Traders Dump Software Stocks as AI Fears Take Hold - Wall Street has been skeptical about software stocks for a while, but sentiment has gone from bearish to doomsday lately with traders gripped by fears about the destruction to be wrought by artificial",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/-get-me-out-traders-dump-software-stocks-as-ai-fears-take-hold",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a758a286ad77d2d00ada70ae56c984f1",
+      "timestamp": "2026-02-03T20:55:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Get Me Out’: Traders Dump Software Stocks as AI Fears Take Hold - Wall Street has been skeptical about software stocks for a while, but sentiment has gone from bearish to doomsday lately with traders gripped by fears about the destruction to be wrought by artificial",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/-get-me-out-traders-dump-software-stocks-as-ai-fears-take-hold",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3276e2ad1bfc0e9dcd6802231d697458",
+      "timestamp": "2026-02-03T20:54:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EQT Weighs Sale of Stake in Software Firm Thinkproject - EQT AB is weighing a sale of its stake in software as a service provider Thinkproject, people familiar with the matter said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/eqt-weighs-sale-of-stake-in-software-firm-thinkproject",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16f908863c32ecc6a5e293ac1d6ef1ad",
+      "timestamp": "2026-02-03T20:53:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Equity’s Giant Software Bet Has Been Upended by AI - Apollo Global Management’s John Zito left the audience of investors stunned.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/private-equity-s-giant-software-bet-has-been-upended-by-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16f908863c32ecc6a5e293ac1d6ef1ad",
+      "timestamp": "2026-02-03T20:53:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Equity’s Giant Software Bet Has Been Upended by AI - Apollo Global Management’s John Zito left the audience of investors stunned.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/private-equity-s-giant-software-bet-has-been-upended-by-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a7c6ff4cc2bfab07adc6289dc1639410",
+      "timestamp": "2026-02-03T20:49:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Is Behaving More Like a Meme Stock These Days - Market data as of 06:49 am EST. Market data may be delayed depending on provider agreements.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-03/gold-is-behaving-more-like-a-meme-stock-these-days",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7d039dc8cc3dca2671dc92b144aad61",
+      "timestamp": "2026-02-03T20:48:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks Extend Rebound Rally as Palantir Sparks Tech Momentum | Bloomberg Brief 2/3/2026 - US equity futures rise as Palantir's robust earnings fuel a rally in technology stocks. Gold and silver climb as dip buyers crowd in. Laura Cooper of Nuveen discusses the Federal Reserve's rate path a",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/bloomberg-brief-2-3-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd4c53adb81cee8b70d2015082032899",
+      "timestamp": "2026-02-03T20:47:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Strong Earnings Set the Table for ‘Very Good’ 2026, Evercore’s Emanuel Says - “It is an environment where we are in a state of unprecedented flux and change,” says Julian Emanuel, chief equity and quantitative strategist at Evercore ISI, as he discusses how macro disturbances a",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/strong-earnings-set-the-table-for-2026-julian-emanuel-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e5278b8fafe1a7797e24d38f15ba5c81",
+      "timestamp": "2026-02-03T20:44:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Navy Says Ship Hailed by Armed Small Vessels in Hormuz Strait - A vessel was hailed by smaller armed ships in the Strait of Hormuz, a UK naval group said, with heightened focus on the vital waterway amid tensions between the US and Iran.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/uk-navy-says-ship-hailed-by-armed-small-vessels-in-hormuz-strait",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2935553a80bd745c7d81a730daba3e4c",
+      "timestamp": "2026-02-03T20:34:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Banks Ready $3.75 Billion Debt Sale to Back BP Castrol Buyout - Banks are preparing to sell $3.75 billion in debt to back Stonepeak Partners’ acquisition of a majority stake in BP Plc’s Castrol division, taking advantage of a hot credit market to offload risk long",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/banks-ready-3-75-billion-debt-sale-to-back-bp-castrol-buyout",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c4c6f4c545591aaec425e912f8044d92",
+      "timestamp": "2026-02-03T20:33:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Morocco Looks to Resume $1 Billion LNG Project ‘in Due Course’ - Morocco will issue new tenders to develop a liquefied natural gas terminal on its Mediterranean coast “in due course,” a top official said, signaling the kingdom’s $1 billion energy project is still o",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/morocco-looks-to-resume-1-billion-lng-project-in-due-course",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "21301cf997940258838c9b49041a8b91",
+      "timestamp": "2026-02-03T20:15:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Sways GOP Holdouts Threatening Shutdown Deal - Two conservative holdouts to President Donald Trump’s deal with Democrats to end the partial US government shutdown agreed to end their threatened blockade after a talk with the White House. The move ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/trump-sways-gop-holdouts-threatening-shutdown-deal-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "85b9ede552a8a6c2ebac79c87d908a11",
+      "timestamp": "2026-02-03T20:12:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tradition’s Major Says Get Ready for Warsh’s Fed to Slash Rates - A Kevin Warsh-led Federal Reserve may cut interest rates much further than markets are expecting, according to Steven Major, global macro advisor at broker Tradition Dubai.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/tradition-s-major-says-get-ready-for-warsh-s-fed-to-slash-rates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "82a88be8102118f32e8fb8f302c398ec",
+      "timestamp": "2026-02-03T20:09:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Legal Software Stocks Plunge as Anthropic Releases New AI Tool - Shares of European legal software and publishing firms dropped after US artificial intelligence firm Anthropic unveiled a tool for companies’ in-house lawyers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/legal-software-stocks-plunge-as-anthropic-releases-new-ai-tool",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "82a88be8102118f32e8fb8f302c398ec",
+      "timestamp": "2026-02-03T20:09:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Legal Software Stocks Plunge as Anthropic Releases New AI Tool - Shares of European legal software and publishing firms dropped after US artificial intelligence firm Anthropic unveiled a tool for companies’ in-house lawyers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/legal-software-stocks-plunge-as-anthropic-releases-new-ai-tool",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ed1a5ecb2e37762bc18e4d02a5f1d0dd",
+      "timestamp": "2026-02-03T20:07:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France Eyes Shared Tools at G-7 to Address Economic Imbalances - French Finance Minister Roland Lescure said the Group of 7 should work toward shared tools for tackling global economic imbalances including China’s vast trade surpluses with the rest of the world.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/france-eyes-shared-tools-at-g-7-to-address-economic-imbalances",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ed1a5ecb2e37762bc18e4d02a5f1d0dd",
+      "timestamp": "2026-02-03T20:07:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France Eyes Shared Tools at G-7 to Address Economic Imbalances - French Finance Minister Roland Lescure said the Group of 7 should work toward shared tools for tackling global economic imbalances including China’s vast trade surpluses with the rest of the world.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/france-eyes-shared-tools-at-g-7-to-address-economic-imbalances",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c11fb195f2adce1fb1d660f09045b174",
+      "timestamp": "2026-02-03T20:01:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Abu Dhabi Builds a New Deal Machine Around Its Crown Prince - Donald Trump’s whirlwind tour of the Middle East last year included breakfast with Sheikh Khaled bin Mohammed, Abu Dhabi’s crown prince. The US president was seeking billions of dollars in investment,",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/abu-dhabi-builds-a-new-deal-machine-around-its-crown-prince",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "824dfc6e9e3f3b17f5b1afda58731b39",
+      "timestamp": "2026-02-03T20:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Credit Suisse Nazi Probe Reveals Fresh SS Links, Says Senator - An investigation into ties between Credit Suisse and Nazi Germany has so far revealed hundreds of accounts with potential links to Nazi-era officials and industrialists, including the SS paramilitary ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/credit-suisse-nazi-probe-reveals-fresh-ss-links-says-senator",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "06a5a87658ffb468277c7747471377f9",
+      "timestamp": "2026-02-03T19:59:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Saudi-Israeli Rapprochement Is Looking Increasingly Remote - MBS is shifting strategy in a way that suggests normalization of ties is unlikely anytime soon.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-03/a-saudi-israeli-rapprochement-is-looking-increasingly-remote",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4527d6b91a951df5d55c9f52fbc0bdb9",
+      "timestamp": "2026-02-03T19:48:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Berlin Buys 25% Stake in Tennet’s German Grid for €3.3 Billion - The German government will buy a 25.1% stake in the German unit of power grid operator Tennet Holding BV after years of wrangling between Berlin and The Hague.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/berlin-buys-25-1-stake-in-tennet-s-german-grid-unit-for-3-3b",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "94d02ae471d86c6a1e9506ca23287f3c",
+      "timestamp": "2026-02-03T19:42:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ethiopia Returns to Double-Digit Economic Growth After Reforms - Ethiopia will return to double-digit economic growth this fiscal year after reforms backed by the International Monetary Fund eased foreign exchange constraints and strengthened exports.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/ethiopia-returns-to-double-digit-economic-growth-after-reforms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "225c25b578629708b0ebc139ce0223c4",
+      "timestamp": "2026-02-03T19:37:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk’s French X Office Searched in Prosecutor’s Grok, Bias Probe - Elon Musk’s X offices in Paris were searched by French law enforcement’s cybercrime unit as part of an ongoing probe into alleged misuses of the social media platform.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/musk-s-french-x-office-searched-in-prosecutor-s-grok-bias-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bd6fedbb9ee001da6db31329d11ea780",
+      "timestamp": "2026-02-03T19:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Midterm Stock Trading Themes Emerge, Led by Fintech, Builders - With nine months until the US midterm elections, Wall Street is starting to game out trading scenarios leading up to the November vote.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/midterm-stock-trading-themes-emerge-led-by-fintech-builders",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9508a2a835c84e4ffbbe518b332eefc0",
+      "timestamp": "2026-02-03T19:29:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tradition’s Major Sees as Many as Five US Rate Cuts - Steven Major, global macro adviser at Tradition Dubai Limited, says President Donald Trump’s nominee for Federal Reserve Chair Kevin Warsh may deliver far more interest rate cuts than what's currently",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/tradition-s-major-sees-as-many-as-five-us-rate-cuts-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "758b19b52f82353934bc309900bf7e20",
+      "timestamp": "2026-02-03T19:28:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Turkey Is Preparing to Host US-Iran Talks in Istanbul - Turkey plans to host high-level talks between the US and Iran on Friday aimed at de-escalating tensions between the two countries.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/turkey-is-preparing-to-host-us-iran-talks-in-istanbul",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5c8f121ba6972c6765b3ff89e4950981",
+      "timestamp": "2026-02-03T19:24:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Unloved’ Kiwi Dollar Draws European Funds Betting on Economic Rebound - European fund managers have been buying up New Zealand’s kiwi in a bet that the currency will benefit from an economic revival, the prospect of interest-rate hikes and broad weakness in the US dollar.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/-unloved-kiwi-draws-european-funds-betting-on-economic-rebound",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "96719fa410a30788414f3dfb4c7c613f",
+      "timestamp": "2026-02-03T19:19:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zimbabwe Court Rules Impala Platinum Not Liable for Royalty - Zimbabwe’s High court said Impala Platinum Holdings Ltd.’s local unit is not liable to pay mining royalties of $7.1 million on exports matte and concentrates.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/zimbabwe-court-rules-impala-platinum-not-liable-for-royalty",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "29ce37adb41de491e5e2cc60ff9b877f",
       "timestamp": "2026-02-03T19:10:49+09:00",
@@ -10,6 +351,28 @@
       "related_tickers": [],
       "content": "‘Too Much’ Risk Premium Priced Into Silver, StoneX Says - Rhona O’Connell, head of market analysis for EMEA and Asia at StoneX, discusses volatility in the silver market. She tells Bloomberg Television that the precious metal will “always move by a greater d",
       "url": "https://www.bloomberg.com/news/videos/2026-02-03/-too-much-risk-premium-priced-into-silver-stonex-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "38baff4213983e050ed9037740eaebb6",
+      "timestamp": "2026-02-03T19:08:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spain to Ban Children From Social Platforms Like Grok and TikTok - Prime Minister Pedro Sánchez said Spain would block children from using social media platforms including Instagram and TikTok in a new European push to regulate digital platforms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/spain-to-seek-to-ban-under-16-year-olds-from-social-media",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "38baff4213983e050ed9037740eaebb6",
+      "timestamp": "2026-02-03T19:08:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spain to Ban Children From Social Platforms Like Grok and TikTok - Prime Minister Pedro Sánchez said Spain would block children from using social media platforms including Instagram and TikTok in a new European push to regulate digital platforms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/spain-to-seek-to-ban-under-16-year-olds-from-social-media",
       "sentiment": "NEUTRAL"
     },
     {
@@ -186,6 +549,17 @@
       "related_tickers": [],
       "content": "Odd Lots: The US and Chinese Internets’ Similarities (Podcast) - In the 90s, there was a lot of talk about how the Internet would be a liberalizing force in the world. Bill Clinton famously predicted that it would be impossible for China to lock down the Internet, ",
       "url": "https://www.bloomberg.com/news/audio/2026-02-03/odd-lots-the-us-and-chinese-internets-similarities-podcast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dbf1d74b688c1ceee41335e3b095d4f0",
+      "timestamp": "2026-02-03T17:59:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Sees Strong Revenue, Scope to Trim Borrowing Next Year - India expects revenue collections to be buoyant in the year beginning April, potentially allowing it to scale back its borrowing program, according to a senior finance ministry official.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/india-sees-strong-revenue-scope-to-trim-borrowing-next-year",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1835,388 +2209,6 @@
       "related_tickers": [],
       "content": "Brunswick CEO on Growth, Tariffs, and What Comes Next - Boatmaker Brunswick just posted strong fourth-quarter results, with double-digit revenue growth&mdash;but rising tariff costs are casting a shadow over the outlook. Brunswick CEO Dave Foulkes joined B",
       "url": "https://www.bloomberg.com/news/videos/2026-02-02/brunswick-ceo-on-growth-tariffs-and-what-comes-next-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9088d2c8d507ab1078e849fa24638654",
-      "timestamp": "2026-02-03T03:01:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oracle to Raise Up to $50B in 2026 as Musk's In Talks to Combine SpaceX, xAI - Bloomberg's Mandep Singh joins to discuss the biggest news in the tech sector on Bloomberg Intelligence. Oracle Corp. plans to raise $45 billion to $50 billion this year through a combination of debt ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/oracle-to-raise-up-to-50b-in-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e0fb48eb2d9f118cfd9020a11e755e03",
-      "timestamp": "2026-02-03T02:51:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Investors Hunt for Proof AI Delivering Productivity Gains - Another big week for tech earnings kicks off with investors eyeing the impact of circular AI deals and spending. Natalie Gallagher, principal economist and director at Board, joins Caroline Hyde on “B",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/investors-want-proof-ai-delivering-productivity-gains-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06ce4e858b2a168312887a7a7f8fc9c9",
-      "timestamp": "2026-02-03T02:45:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB Likely to Leave Rate Unchanged: Anderson - Nomura European Economist Josie Anderson looks ahead to this week's ECB meeting with Bloomberg's Lizzy Burden on 'Daybreak Europe.' (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/ecb-likely-to-leave-rate-unchanged-anderson-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fc74e3e042617c89533683bae6a528eb",
-      "timestamp": "2026-02-03T02:45:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Confident Warsh Will Be a Good Fed Chair says Former Atlanta Fed President - Donald Trump named Kevin Warsh to be the next chair of the Federal Reserve, ending months of speculation over who’d take charge of US interest rates as the president pushes for big cuts. \nTrump elevat",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/confident-warsh-will-be-a-good-fed-chair-says-lockhart-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fc295833dae08ded7c46c05f927804b1",
-      "timestamp": "2026-02-03T02:37:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Says US to Remove 25% Penalty for Russia Oil Purchases - The US has agreed to remove a 25% additional tariff imposed on India for buying Russian oil, an official in New Delhi familiar with the matter said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/india-says-us-to-remove-25-penalty-for-russia-oil-purchases",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3d2de4792d11a33a9cb3f765ed7549f3",
-      "timestamp": "2026-02-03T02:34:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Multi-Color Wins Access to Chapter 11 Loan Over Rival Lenders - Private equity owned Multi-Color Corp. won court approval to start tapping a $250 million Chapter 11 loan, defeating an challenge from rival lenders that floated a competing financing.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/multi-color-wins-access-to-chapter-11-loan-over-rival-lenders",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "920581c9667ddd7b93af399b6076ca62",
-      "timestamp": "2026-02-03T02:29:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vanguard CEO Calls Trump Accounts a 'Fabulous Concept' - Vanguard CEO Salim Ramji comments on President Donald Trump’s push to create accounts for children during an interview on \"Bloomberg EF IQ.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/vanguard-ceo-calls-trump-accounts-a-fabulous-concept-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5ed5e47a57cc0634bc1633fa00bf383e",
-      "timestamp": "2026-02-03T02:25:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wheat Down Most Since December as Grains Join Commodities Rout - Wheat fell as much as 2%, pressured by a firmer US dollar with agriculture commodities tracking a broad decline in Monday markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/wheat-down-most-since-december-as-grains-join-commodities-rout",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "37ecd78f4803d31510248d98d1c899bc",
-      "timestamp": "2026-02-03T02:24:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mexican Senate Leader Made Own Call to Step Down, Sheinbaum Says - The embattled Senate leader of Mexico’s ruling Morena party, Adán Augusto López, stepped down on his own accord, President Claudia Sheinbaum told reporters Monday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/mexican-senate-leader-made-own-call-to-step-down-sheinbaum-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3bee7c00ba1d640595ad61bc4c752e33",
-      "timestamp": "2026-02-03T02:21:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vanguard Drops Its Average Fee To Just 0.06% - Vanguard Group has unleashed another round of fee cuts across its lineup of mutual funds and exchange-traded funds, further tightening the screws on an industry already known for its low costs. Vangua",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/vanguard-drops-its-average-fee-to-just-0-06-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ae913836056673ed99ca892cd5b9eced",
-      "timestamp": "2026-02-03T02:21:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BLS Says It Will Delay January Jobs Report Due to Shutdown - The Bureau of Labor Statistics will not release the January jobs report on Friday as scheduled due to the partial government shutdown.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/january-jobs-report-will-be-delayed-due-to-shutdown-bls-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ec057dbe961a3c0b14fc8233bcdedd72",
-      "timestamp": "2026-02-03T02:19:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s 75-Country Green Card Freeze Challenged in Lawsuit - A Trump administration policy suspending green cards over concerns of reliance on public benefits is unlawful, a new lawsuit argues.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/trump-s-75-country-green-card-freeze-challenged-in-lawsuit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4e3c577e0e067f9f5c938627a4e54eba",
-      "timestamp": "2026-02-03T02:16:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morocco Pauses $1 Billion Plan for Mediterranean LNG Import Hub - Morocco paused its plan to develop a liquefied natural gas terminal on the Mediterranean coast that aimed to boost imports and curb the use of dirtier fuels.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/morocco-pauses-1-billion-plan-for-mediterranean-lng-import-hub",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "426265aaab635e6977d395b1cf5dafb0",
-      "timestamp": "2026-02-03T02:15:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bloomberg Surveillance 2/2/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/bloomberg-surveillance-2-2-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fabae8af28a3f6ba53a100bfdd4ae92d",
-      "timestamp": "2026-02-03T02:06:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump, Modi Reach Trade Deal Slashing India Tariffs to 18% - The US and India reached a trade agreement cutting tariffs on Indian goods, US President Donald Trump announced, deescalating tensions between the two countries.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/trump-to-cut-india-tariffs-as-modi-pledges-no-russian-oil-buys",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1382c4801eb817af9704c2b59cae4cca",
-      "timestamp": "2026-02-03T02:01:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Private Credit Defaults Would Hit 13% in UBS Worst Case for AI - Private credit could see default rates surge to as high as 13% in the US if artificial intelligence triggers an “aggressive” disruption among corporate borrowers, according to UBS Group AG.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/private-credit-defaults-would-hit-13-in-ubs-worst-case-for-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "edbe067350bc3d32dc3144766c624f3c",
-      "timestamp": "2026-02-03T01:56:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Field Vendor Nine Files Bankruptcy to Cut $320 Million Debt - Nine Energy Service Inc., a Houston-based oil field vendor, filed for Chapter 11 bankruptcy on Sunday as it struggled with high leverage and a shrinking business amid a slowdown in drilling programs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/oil-field-vendor-nine-files-bankruptcy-to-cut-320-million-debt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "900921061dd6197f20da3c11df1d03e0",
-      "timestamp": "2026-02-03T01:53:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Bed Bath & Beyond stock jumps on deal to tokenize real estate with Tokens.com buy - The new platform, planned to debut by July, will use tools from tZERO and integrate with blockchain firm Figure to offer services such as mortgages and renovation loans.",
-      "url": "https://www.coindesk.com/business/2026/02/02/bed-bath-and-beyond-stock-jumps-on-deal-to-tokenize-real-estate-with-tokens-com-buy?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "62c0d09c997e99eb62c72b9b98a83832",
-      "timestamp": "2026-02-03T01:52:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NASA Starts Fueling Test for Artemis II Ahead of Lunar Launch - NASA began conducting a major fueling test for its Artemis II mission on Monday, the agency said, in a key rehearsal that could pave the way to return astronauts to the vicinity of the moon for the fi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/nasa-starts-fueling-test-for-artemis-ii-ahead-of-lunar-launch",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd126f181cdf6f697b1bb96cd63a416f",
-      "timestamp": "2026-02-03T01:44:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SpaceX-xAI Tieup ‘Muddies the Waters’ for EchoStar, Analysts Say - A potential merger between SpaceX and xAI could create too much uncertainty for EchoStar Corp., according to Wall Street.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/spacex-xai-tieup-muddies-the-waters-for-echostar-analysts-say",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "75b254f4b5c47348d3e61eccf5b61b07",
-      "timestamp": "2026-02-03T01:36:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "Gold and Silver Plunge After Scorching Rally - Gold and silver's record-breaking rally has come to an abrupt halt &mdash; for now.\n\nSkylar Montgomery Koning explains what's behind the slump in precious metals.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/gold-and-silver-plunge-after-scorching-rally-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "105d06e166aa16a71bea3a9cba7361b7",
-      "timestamp": "2026-02-03T01:34:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Copper Plants Buy the Dip After Weeks Out of Market - Chinese copper fabricators and manufacturers are buying the dip to replenish stocks ahead of this month’s holiday, after a price surge driven by speculative trading in Shanghai kept them away from rea",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/chinese-copper-plants-buy-the-dip-after-weeks-out-of-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2315f244fd9948cac07cb34dbc60550a",
-      "timestamp": "2026-02-03T01:25:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morgan Stanley Sees Greater Treasury Volatility Under Warsh Fed - A Federal Reserve led by Kevin Warsh would likely boost volatility in the US Treasury markets due to the central bank’s reduced public communications, according to Morgan Stanley.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/morgan-stanley-sees-greater-treasury-volatility-under-warsh-fed",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c394ea2d7e05d3c7d58aab8ecb0efddd",
-      "timestamp": "2026-02-03T01:13:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Launching $12 Billion Strategic Minerals Stockpile - President Donald Trump is set to launch a strategic critical-minerals stockpile, dubbed Project Vault, in a bid to insulate manufacturers from supply shocks as the US works to slash its reliance on Ch",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/trump-launching-12-billion-strategic-minerals-stockpile-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "99e3068550da47296bea2da01cc8bdfb",
-      "timestamp": "2026-02-03T00:54:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Arabia Opens Stock Market to Foreign Investors - Saudi Arabia's stock market is now open to foreign investors, the latest in a series of reforms ranging from foreign property ownership to liquor laws. Can Crown Prince Mohammed bin Salman turn the ki",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/saudi-arabia-opens-stock-market-to-foreign-investors-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1c03e1d10c3a4fbb16298fad4b1a5c2f",
-      "timestamp": "2026-02-03T00:51:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Regulator Says Foreign Ownership Limits Under Review - Saudi Arabia’s Capital Market Authority said a review of rules that limit foreign ownership in local stocks is underway as the kingdom looks to open further to overseas investors.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/saudi-regulator-says-foreign-stock-ownership-limits-under-review",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cad3a0cd48d0f5c00ece1ac2099cb4ee",
-      "timestamp": "2026-02-03T00:44:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carlyle Group Breaks Into List of Europe’s Top Ten Oil Refiners - The Carlyle Group has entered the ranking of Europe’s top ten fuel makers as Big Oil companies look to tighten up their portfolios and offload major polluting businesses like refineries.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/carlyle-group-breaks-into-list-of-europe-s-top-ten-oil-refiners",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9a49b780f0962041a541647178723b55",
-      "timestamp": "2026-02-03T00:44:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "France Shows Off New Frigate to Sweden Seeking $5 Billion Deal - The French navy sailed its new frigate Amiral Ronarc’h into Sweden’s Gothenburg harbor on Monday as it works to sway the Nordic state into buying four similar models.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/france-shows-off-new-frigate-to-sweden-seeking-5-billion-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "044d3a1ddb91605ac8d30ad5336ac8f6",
-      "timestamp": "2026-02-03T00:38:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi’s Earnings Growth Looks Strong. Is This Dip a Buying Opportunity? - Wall Street analysts are still taking a cautious stance on SOFI stock, maintaining a “Hold” consensus rating even after the company’s latest earnings report.",
-      "url": "https://www.barchart.com/story/news/37360939/sofis-earnings-growth-looks-strong-is-this-dip-a-buying-opportunity?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dbd91082e74746e848fe53ba57256db",
-      "timestamp": "2026-02-03T00:36:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Amasses $483 Million War Chest to Bolster Midterm Chances - President Donald Trump has said the “only thing” he worries about is losing Republican control of Congress in the November elections. The latest campaign finance filings show he’s built an unprecedent",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/trump-amasses-483-million-war-chest-to-bolster-midterm-chances",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0ea0d22b717ab50a6634e274260c7a42",
-      "timestamp": "2026-02-03T00:30:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 31,796,929 2.31",
-      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017511.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be543ba1d6d6807f21809e85f6f18009",
-      "timestamp": "2026-02-03T00:26:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "How Much Bigger Could SoFi's Lending Business Get? You Might Be Surprised - SoFi currently offers three types of loans, all with significant growth potential.",
-      "url": "https://www.fool.com/investing/2026/02/02/how-much-bigger-could-sofis-lending-business-get-y/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ceb6dc154c769126c3f8eb7fcdc9ec73",
-      "timestamp": "2026-02-03T00:24:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Space Boss Resigns After Agency Downgrading, Launch Setbacks - The head of the UK’s space agency has stepped down months after Prime Minister Keir Starmer’s government said it would absorb the independent body into its science department.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/uk-space-boss-resigns-after-agency-downgrading-launch-setbacks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ceb6dc154c769126c3f8eb7fcdc9ec73",
-      "timestamp": "2026-02-03T00:24:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Space Boss Resigns After Agency Downgrading, Launch Setbacks - The head of the UK’s space agency has stepped down months after Prime Minister Keir Starmer’s government said it would absorb the independent body into its science department.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/uk-space-boss-resigns-after-agency-downgrading-launch-setbacks",
       "sentiment": "NEUTRAL"
     }
   ]
