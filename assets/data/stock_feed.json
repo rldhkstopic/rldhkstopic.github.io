@@ -1,6 +1,276 @@
 {
-  "last_updated": "2026-02-03T23:19:17.738721+09:00",
+  "last_updated": "2026-02-04T01:19:12.197466+09:00",
   "items": [
+    {
+      "id": "8c09f6cbc263345f72e87e5c5a0e4e0c",
+      "timestamp": "2026-02-04T01:10:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Overland AI Raises $100 Million to Speed Up Use of Military Land Robots - The Seattle-based defense firm Overland AI Inc. has raised $100 million in new funding to help accelerate the use of robots and other autonomous systems across the US military’s ground forces.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/overland-ai-raises-100m-to-speed-up-use-of-military-land-robots",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e79afa2dc23f3ef66618be0e95f62430",
+      "timestamp": "2026-02-04T01:03:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Siemens Energy CEO Says $1B US Investment 'Absolutely' Makes Sense - Siemens Energy CEO Christian Bruch discusses the company's plans to invest $1 billion (€847 million) in manufacturing capacity in the US over the next two years. He speaks on \"Bloomberg Open Interest.",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/siemens-energy-ceo-says-1b-us-investment-makes-sense-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "668f524fa046cd2cb6a203cd84d5a0a7",
+      "timestamp": "2026-02-04T01:01:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "ChatGPT Thinks Apple Stock Will Close At This Price In The Next 60 Days - Quick Summary ChatGPT thinks Apple stock could trade lower over the next 60 days, projecting an average price around $250 by mid-April. Investors looking to trade the stock can build exposure incremen",
+      "url": "https://finance.yahoo.com/news/chatgpt-thinks-apple-stock-close-160109164.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a464225b814fedff13f5edbbd1a5403d",
+      "timestamp": "2026-02-04T01:00:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "'Bloomberg Deals' Makes Its Debut Feb. 4 - Dani Burger introduces “Bloomberg Deals”. The program makes its debut on Feb. 4th at 12:00pm ET. The first show of its kind. It tracks the key players, major moves and capital flows driving the deals ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/-bloomberg-deals-makes-its-debut-feb-4-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a1241682cc8b5212749413e1679aac0",
+      "timestamp": "2026-02-04T00:57:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Inside Look at 'Bloomberg Deals,' Making Its TV Debut - Dani Burger introduces “Bloomberg Deals.\" The program makes its debut on Feb. 4th at 12:00pm ET. The first show of its kind. It tracks the key players, major moves and capital flows driving the deals ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/inside-look-at-bloomberg-deals-making-its-tv-debut-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d0ac60cfd24aae441cf82a5648d98938",
+      "timestamp": "2026-02-04T00:57:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "African Ratings Reach Highest Since 2020 on Growth, S&amp;P Says - Economic reforms and improved growth have lifted African sovereign credit ratings to their highest level in over five years, and the outlook remains positive, according to S&amp;P Global Ratings.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/african-ratings-reach-highest-since-2020-on-growth-s-p-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5fbc127affc9fbbb134f4036d80983ee",
+      "timestamp": "2026-02-04T00:45:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Italy’s Far-Right Lawmaker Leaves Meloni’s Coalition - A controversial far-right politician has left Giorgia Meloni’s governing coalition, creating a fracture in Matteo Salvini’s League party.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/italy-s-far-right-lawmaker-leaves-meloni-s-coalition",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "27c9dcde94dce99a9f4ffbce89a9d4e9",
+      "timestamp": "2026-02-04T00:37:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Disney's D’Amaro Beat 'All Comers' to Be Next CEO, Gorman Says - Disney Chairman James Gorman says Josh D’Amaro beat out over 100 other candidates to be named the next CEO. He'll take over for Bob Iger in March. Gorman speaks to Bloomberg's Ed Ludlow about the chan",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/d-amaro-beat-all-comers-to-be-disney-ceo-gorman-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "37560065c37e7d09a375bed896532a66",
+      "timestamp": "2026-02-04T00:30:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 3,998,515 1.23",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153020785.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f64ee85b985ff3c4371741c080683069",
+      "timestamp": "2026-02-04T00:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crypto.com Launches Predictions-Only Platform Before Super Bowl - Crypto.com is launching a dedicated platform, OG, for prediction markets just days before the Super Bowl, the company said Tuesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/crypto-com-launches-predictions-only-platform-before-super-bowl",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "724fac84cb5e3eeefb20e5ce22dfbf75",
+      "timestamp": "2026-02-04T00:29:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "D'Amaro Is a Standout Executive, Disney's Gorman Says - Disney Chairman James Gorman talks about selecting Josh D’Amaro to succeed Bob Iger as chief executive officer of the entertainment giant. He'll take over in March. Gorman speaks to Bloomberg's Ed Lud",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/d-amaro-is-a-standout-executive-disney-s-gorman-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "056bb45a9b74f44b93b4517b491d056f",
+      "timestamp": "2026-02-04T00:23:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Don't Go 'Bottom-Fishing' for Stocks, Harvey Says - Chris Harvey, CIBC head of equity strategy, says don't go \"bottom-fishing\" for stocks right now. He expects a melt-up for stocks this summer.  (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/don-t-go-bottom-fishing-for-stocks-harvey-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "77b1781e108d8ca707f8b86e65d2dbe8",
+      "timestamp": "2026-02-04T00:14:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Phil Mickelson-Touted Sable Probed by SEC on Insider Information - The US government has subpoenaed Texas-based oil driller Sable Offshore Corp. following allegations by Hunterbrook Media that the company selectively disclosed information to investors, including pro ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/phil-mickelson-touted-sable-probed-by-sec-on-insider-information",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "139d10b3e048522d9bb8d91d4c2c2b51",
+      "timestamp": "2026-02-04T00:12:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Plans to Issue License for Firms to Pump Venezuelan Oil - The US government is preparing to issue a general license allowing companies to pump oil in Venezuela, part of the Trump administration’s plan to ease sanctions and rebuild the nation’s moribund energ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/us-plans-to-issue-license-for-companies-to-pump-venezuelan-oil",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d1443a40bd1415e5f69cae11af41fea",
+      "timestamp": "2026-02-04T00:08:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PayPal Names New CEO as Profit Misses Targets - PayPal Holdings said HP Inc. CEO Enrique Lores will take the top job from Alex Chriss, whose turnaround plan failed to meet targets. Paige Smith reports on \"Bloomberg Open Interest.\" (Source: Bloomber",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/paypal-names-new-ceo-as-profit-misses-targets-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d6b2b2799bcd1e3c96649fdebcb0b3e6",
+      "timestamp": "2026-02-04T00:06:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesia FM Blasts Citi, Defends MSCI Downgrade - Indonesian Finance Minister Purbaya Yudhi Sadewa defended the country's economic track in the wake of a recent slump in the rupiah and local stocks. In a conversation with Bloomberg's Haslinda Amin at",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/indonesia-fm-blasts-citi-defends-msci-downgrade-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "441d375859d35b680dc1369f023431c5",
+      "timestamp": "2026-02-03T23:58:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa Hotel Firm Buys Stake in Iconic Johannesburg Venues - South African hotel group Southern Sun Ltd. will buy a 50% stake in four properties in Johannesburg’s business hub, including the Sandton Convention Centre, from Liberty Group.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/south-africa-hotel-firm-buys-stake-in-iconic-johannesburg-venues",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5afc1ab7646e67175db78b150e3d7ed8",
+      "timestamp": "2026-02-03T23:57:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Rachets Up Pressure on Iraq Over Post of Prime Minister - A standoff between the White House and Iraqi politicians over who should be the Arab country’s next prime minister is worsening, according to several people, with the rift threatening to destabilize t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/us-rachets-up-pressure-on-iraq-over-post-of-prime-minister",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "46a70b95a22e93c6523e272e2e614078",
+      "timestamp": "2026-02-03T23:54:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Software Stocks Push US Equities Lower Amid AI Disruption Fears - US stocks fell on Tuesday, led by weakness in technology companies seen as vulnerable to disruption from artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/us-stocks-teeter-on-edge-of-record-as-palantir-earnings-shine",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "540423616e14c3aba821ea2f6af66b4b",
+      "timestamp": "2026-02-03T23:52:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Walmart Joins $1 Trillion Club as Tech, Frugal Shoppers Fuel Gains - A rally in Walmart Inc. shares pushed its market capitalization past $1 trillion on Tuesday for the first time ever, vaulting the world’s largest retailer into a category typically occupied by Big Tec",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/walmart-joins-1-trillion-club-as-tech-frugal-shoppers-fuel-gains",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3bf22f315530685de2fb97b6ebbed7ce",
+      "timestamp": "2026-02-03T23:36:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Why SoFi Stock Dropped 13% in January - The company reported another blowout earnings report.",
+      "url": "https://www.fool.com/investing/2026/02/03/why-sofi-stock-dropped-13-in-january/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4d66e1b223e5633848d7fec848b9234c",
+      "timestamp": "2026-02-03T23:24:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia’s Crude Shipments Hold Steady While Flows to India Slump - <p>China resumed its position as the biggest importer of Russian seaborne crude in January</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/russia-s-oil-exports-hold-steady-while-flows-to-india-slump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4d66e1b223e5633848d7fec848b9234c",
+      "timestamp": "2026-02-03T23:24:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia’s Crude Shipments Hold Steady While Flows to India Slump - <p>China resumed its position as the biggest importer of Russian seaborne crude in January</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/russia-s-oil-exports-hold-steady-while-flows-to-india-slump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "373beda66639fd311b8023f5e37821af",
+      "timestamp": "2026-02-03T23:23:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russian Refiners See Relief From Decline in Ukrainian Attacks - Ukrainian drone strikes on Russian refineries dropped to a six-month low in January, allowing the Kremlin to increase fuel supplies to the domestic market and resume gasoline exports.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/russian-refiners-see-relief-from-decline-in-ukrainian-attacks",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "754efea8edb1c69e5c9d9f1a13ceccc3",
       "timestamp": "2026-02-03T23:08:00+09:00",
@@ -1943,274 +2213,6 @@
       "related_tickers": [],
       "content": "Stocks Climb to Start February as Gold and Silver Sell Off | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloom",
       "url": "https://www.bloomberg.com/news/videos/2026-02-02/stocks-climb-to-start-february-closing-bell-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32504e52f295100e3ef461c8eb0d1748",
-      "timestamp": "2026-02-03T07:35:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Launches 'Project Vault' to Stockpile Rare Earths - President Donald Trump unveils \"Project Vault\" to stockpile $12 billion in critical minerals in order to minimize reliance on Chinese rare earths. He said it's meant to “ensure that American businesse",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/trump-launches-project-vault-to-stockpile-rare-earths-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a7efdd0fb70784eecc8e9c58f87760dd",
-      "timestamp": "2026-02-03T07:31:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Accuses Musk’s xAI of Destroying Evidence in Court Fight - OpenAI accused Elon Musk’s artificial intelligence company of “systematic and intentional destruction” of evidence in xAI’s lawsuit accusing the ChatGPT maker of trying to thwart competition in emergi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/openai-accuses-musk-s-xai-of-destroying-evidence-in-court-fight",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d89ae60717ed288d311c2eb884c2596",
-      "timestamp": "2026-02-03T07:31:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pritzker Revives Goal of Fully Funded Illinois Pensions by 2048 - Illinois Governor JB Pritzker said he is reviving a two-year-old proposal to fully fund the state’s pension systems by 2048, tackling one of its largest long-term liabilities as he also works to close",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/pritzker-revives-goal-of-fully-funded-illinois-pensions-by-2048",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2df8bfd51e1536bba0c24a1767607e1a",
-      "timestamp": "2026-02-03T07:27:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dollar Extends Advance to Second Day as Metals Drop - The dollar gained, rounding out its biggest two-day rally since April, as precious metals extended their slump and US manufacturing data came in unexpectedly strong.\nThe world’s primary reserve curren",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/dollar-extends-advance-to-second-day-as-metals-drop-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "271fe27ec6ff466d74204b339c430ef9",
-      "timestamp": "2026-02-03T07:27:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Thinks Deal to End Shutdown Is 'Pretty Close' - President Donald Trump says he thinks a deal to end the partial government shutdown is \"pretty close.\" He speaks in the Oval Office. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/trump-thinks-deal-to-end-shutdown-is-pretty-close-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c805001fbc75ba7c5e9c5b0e93e1829e",
-      "timestamp": "2026-02-03T07:23:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Asian Stocks Climb With Metals as Volatility Eases: Markets Wrap - Asian stocks rose at the open on Tuesday, stabilizing after sharp swings in gold and silver sent ripples through markets, with the precious metals rebounding in early trading.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/asian-stocks-set-to-climb-after-us-data-lifts-mood-markets-wrap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22ddcab9539cfecf78be0b5ba06fc0af",
-      "timestamp": "2026-02-03T07:20:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Palantir Valuation Doesn't Make Sense, Brent Thill Says - Brent Thill, Jefferies software and Internet research tech sector leader, says Palantir Technologies is fundamentally in a great spot on \"Bloomberg The Close.\" Palantir forecast revenue for fiscal 202",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/palantir-valuation-doesn-t-make-sense-brent-thill-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "191168c511cf9afe864d13d5c4f01f5e",
-      "timestamp": "2026-02-03T07:16:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TD’s Bharadwaj Sees Dollar Erasing 2026 Loss With February Bump - The dollar is likely to extend its rebound this month in what is typically a strong part of the year for US economic data, according to Jayati Bharadwaj, a currency strategist at TD Securities.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/td-s-bharadwaj-sees-dollar-erasing-2026-loss-with-february-bump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d2682a40a8fcf29a1f0f3909e58cd6f8",
-      "timestamp": "2026-02-03T07:14:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi And GoTu Alliance Targets Professionals As Valuation Stays Elevated - SoFi Technologies (NasdaqGS: SOFI) has entered an exclusive partnership with Gotu Technology to provide financial wellness tools to GoTu professionals. The offering, delivered through the SoFi at Work",
-      "url": "https://finance.yahoo.com/news/sofi-gotu-alliance-targets-professionals-221451926.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f60906a58181a2f2e81706d5c494595f",
-      "timestamp": "2026-02-03T07:11:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Denies Knowledge of $500 Million Abu Dhabi Crypto Stake - President Donald Trump denied involvement in a deal negotiated between his family and an Abu Dhabi royal to sell a stake in a cryptocurrency venture.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/trump-denies-knowledge-of-500-million-abu-dhabi-crypto-stake",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c32ee9a6a22e41c980e110ec432fe903",
-      "timestamp": "2026-02-03T07:00:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NYC Real Estate Binge Piles Pressure on Germany's BVK - <p>A Bavarian pension fund backed New York developer Michael Shvo.&nbsp;Now the relationship is under strain.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-02/michael-shvo-s-luxury-property-push-leaves-german-backer-bvk-with-hangover",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "29a09a712917577d4a03a36ba40c44e9",
-      "timestamp": "2026-02-03T07:00:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Waymo Raises $16 Billion From Alphabet and Others to Expand - Waymo, Alphabet Inc.’s autonomous driving unit, raised $16 billion at a $126 billion valuation, a funding round that reflects its rapid ascent as a robotaxi pioneer.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/waymo-raises-16-billion-from-alphabet-others-to-expand-service",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "29a09a712917577d4a03a36ba40c44e9",
-      "timestamp": "2026-02-03T07:00:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Waymo Raises $16 Billion From Alphabet and Others to Expand - Waymo, Alphabet Inc.’s autonomous driving unit, raised $16 billion at a $126 billion valuation, a funding round that reflects its rapid ascent as a robotaxi pioneer.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/waymo-raises-16-billion-from-alphabet-others-to-expand-service",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7082fdf50a298407c6392998e57b6eda",
-      "timestamp": "2026-02-03T07:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Private Credit Grows in Singapore as Australia’s IFM Joins List - Singapore has attracted another international asset manager to set up shop, adding to a growing list as the city-state seeks to strengthen its presence in the burgeoning $1.7 trillion private credit m",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/private-credit-grows-in-singapore-as-australia-s-ifm-joins-list",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "886f93da0306298980f629f6d71a06a2",
-      "timestamp": "2026-02-03T06:59:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tourism to Cuba Now in Downward Spiral as Trump Cuts Fuel Supply - One of the few functioning economic engines in Cuba is failing as the US is taking steps to keep fuel and financing from reaching the island.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/tourism-to-cuba-now-in-downward-spiral-as-trump-cuts-fuel-supply",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f238e9a477cc293f6d1aa28c47f1e5c",
-      "timestamp": "2026-02-03T06:45:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Unveils $12 Billion Mineral Reserve to Counter China - President Donald Trump formally announced plans to launch a $12 billion critical minerals stockpile, in his latest effort to aid manufacturers while minimizing reliance on Chinese rare earths.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/trump-unveils-12-billion-mineral-reserve-with-record-ex-im-loan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0842bc9f851ba23320a8d3d7799c7bb3",
-      "timestamp": "2026-02-03T06:44:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Elon Musk Said to Be Merging SpaceX and xAI Ahead of Mega IPO - Elon Musk plans to merge SpaceX with xAI, according to people familiar with the matter. The combined company would have a valuation of $1.25 trillion according to sources. Bloomberg's Ed Ludlow report",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/elon-musk-said-to-be-merging-spacex-and-xai-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9ff1e1e44198c15565252b36cd09143e",
-      "timestamp": "2026-02-03T06:41:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump to Launch $12B Mineral Stockpile to Blunt China Reliance | Bloomberg Businessweek Daily 2/2/26 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss President Trump’s $12 billion ‘Project Vault,’ meant to cut reliance on China rare earths and other metals. Bl",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/bloomberg-businessweek-daily-2-02-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "915c402009255be5b46fe3eadc82fb66",
-      "timestamp": "2026-02-03T06:36:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Federal Agents to Use Body Cameras in Minneapolis, Noem Says - Homeland Security Secretary Kristi Noem said that “every officer” in the field in Minneapolis will wear a body camera after a national outcry over the killings of two US citizens in the city, potentia",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/federal-agents-to-use-body-cameras-in-minneapolis-noem-says-ml5ovz2b",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aad6043573748690fea4b77923c01669",
-      "timestamp": "2026-02-03T06:33:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NXP Automotive Chip Sales Grow More Slowly Than Anticipated - Chipmaker NXP Semiconductors NV reported slightly slower growth in the automotive market than anticipated last quarter as the company pursues a comeback.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/nxp-s-automotive-chip-sales-grow-more-slowly-than-anticipated",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a42d84c7183da6b8c3d740a4f06b8418",
-      "timestamp": "2026-02-03T06:31:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Shutdown Politics Will Give Way to Election Campaign Pressures - There’s friction in both parties over the funding bill, but the midterms loom large.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-02/government-shutdown-politics-will-give-way-to-election-campaign-pressures",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81b7d08bb857f2a31683a3d00d0a408f",
-      "timestamp": "2026-02-03T06:25:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Minnesota Loses Bid to Force US to Preserve Pretti Evidence - A US judge declined to order the Trump administration to preserve evidence tied to the fatal shooting of Minneapolis nurse Alex Pretti by federal immigration agents, a setback for Minnesota state inve",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/minnesota-loses-bid-to-force-noem-to-preserve-shooting-evidence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0dd11c66d3346c00dcb6584874ad1c0a",
-      "timestamp": "2026-02-03T06:23:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Announces Plan to Liquidate and Close the SoFi Next 500 ETF (SFYX) - SAN FRANCISCO, Feb. 02, 2026 (GLOBE NEWSWIRE) -- Social Finance, Inc. (“SoFi”) today announced that the Board of Trustees of Tidal Trust I (the “Trust”) has approved, at the request of Tidal Investmen",
-      "url": "https://finance.yahoo.com/news/sofi-announces-plan-liquidate-close-212300111.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3812770f69d61bb7777ba27d4bbeb6c7",
-      "timestamp": "2026-02-03T06:21:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Latino Voter Shift Drives 31-Point Flip Against GOP in Texas District - Big shifts among Latino voters fueled a Texas Democrat’s upset victory in a state senate district in the Fort Worth area that’s been dominated by Republicans for more than three decades, according to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/latino-shift-drives-31-point-flip-against-gop-in-texas-district",
       "sentiment": "NEUTRAL"
     }
   ]
