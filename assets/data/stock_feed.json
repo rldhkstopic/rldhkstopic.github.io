@@ -1,6 +1,201 @@
 {
-  "last_updated": "2026-02-03T21:12:30.543281+09:00",
+  "last_updated": "2026-02-03T23:19:17.738721+09:00",
   "items": [
+    {
+      "id": "754efea8edb1c69e5c9d9f1a13ceccc3",
+      "timestamp": "2026-02-03T23:08:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German 30-Year Bond Yield Climbs to Highest Level Since 2011 - The yield on Germany’s benchmark 30-year bond climbed to the highest since 2011 as investors demand higher premiums to account for the record debt burden they need to absorb.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/german-30-year-bond-yield-climbs-to-highest-level-since-2011",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "19cdfd1c68a1ac8aab12fcd7d43a550d",
+      "timestamp": "2026-02-03T23:01:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU to Offer US Critical Minerals Partnership to Counter China - The European Union will pitch the US on a critical minerals partnership to curb China’s influence, looking to shape the Trump administration’s push to strike global agreements this week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/eu-to-offer-us-critical-minerals-partnership-to-counter-china",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ea3fad960f358c59d01faadf0cc19394",
+      "timestamp": "2026-02-03T23:01:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "ChatGPT Thinks Tesla Stock Will Close At This Price In The Next 60 Days - Quick Summary ChatGPT thinks Tesla stock could trade lower over the next 60 days, projecting an average price around $456 by mid-April. Investors looking to trade the stock can build exposure incremen",
+      "url": "https://finance.yahoo.com/news/chatgpt-thinks-tesla-stock-close-140108933.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9c8973af88a848b56a0a29c89af215f4",
+      "timestamp": "2026-02-03T22:56:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Disney Says Parks Chief Josh D’Amaro Will Succeed Iger as CEO - Walt Disney Co. said Josh D’Amaro, will succeed Bob Iger as chief executive officer of the entertainment giant, ending a three-year search to replace its long-serving leader.\nD’Amaro, a 28-year-vetera",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/disney-says-parks-chief-josh-d-amaro-will-succeed-iger-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d36ed58518d8a571b5fe04963fb9ee4d",
+      "timestamp": "2026-02-03T22:54:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Disney Selects Parks Chief Josh D’Amaro to Succeed Iger as CEO - Walt Disney Co. said Josh D’Amaro, a 28-year-veteran of the company, will succeed Bob Iger as chief executive officer of the entertainment giant effective March 18. Ed Ludlow reports on Bloomberg Tele",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/disney-picks-parks-chief-d-amaro-to-succeed-iger-as-ceo-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "27c00ae1ac8b57bee5934f70e29c2c26",
+      "timestamp": "2026-02-03T22:51:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Convenience Store Firm Arko’s Fuel Unit Seeks $210M in IPO - Arko Petroleum Corp., the fuel wholesaler subsidiary of convenience store firm Arko Corp., is seeking to raise as much as $210 million in an initial public offering that could value the company close ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/convenience-store-firm-arko-s-fuel-unit-seeks-210m-in-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cf65e2784cbe8be9ee614459e6060cc3",
+      "timestamp": "2026-02-03T22:49:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cipher Taps Junk Debt Market to Fund Amazon-Tied Data Center - Cipher Mining Inc. is seeking to raise $2 billion in the US junk bond market to help fund construction of a data center tied to Amazon.com Inc.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/cipher-taps-junk-debt-market-to-fund-amazon-tied-data-center",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "abb9910c4ac1c2e34124792b486c8378",
+      "timestamp": "2026-02-03T22:40:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Elon Musk’s xAI Faces Second UK Probe for Grok Sexualized Images - Elon Musk’s xAI is under investigation by the UK’s data protection watchdog, as regulatory scrutiny ramps up of the way its artificial intelligence chatbot Grok was used to generate and share sexualiz",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/elon-musk-s-xai-faces-second-uk-probe-for-grok-sexualized-images",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ea9fffb3d1f440fe926e88edbc97359",
+      "timestamp": "2026-02-03T22:26:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Says $500b US Purchase Deal Includes Existing Projects - India’s agreement with the US to buy $500 billion-worth of goods over five years includes an existing pipeline of projects, as well as new areas of spending, such as data centers and energy, an offici",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/india-says-500b-us-purchase-deal-includes-existing-projects",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a3b609b366831b85c4fd7ae501f27365",
+      "timestamp": "2026-02-03T22:25:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Government Refers Market-Sensitive Mandelson Leaks to Police - The UK government has referred communications between former cabinet minister Peter Mandelson and Jeffrey Epstein to the police after it found them to contain market-sensitive information.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/uk-government-refers-market-sensitive-mandelson-leaks-to-police",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1dc3eeff27012e0c13736b0a1f5578bc",
+      "timestamp": "2026-02-03T22:00:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Adobe, Disney, Exxon Mobil, Lockheed Martin, Mastercard, Palantir Technologies, SoFi Technologies, and More - Pre-Market Stock Futures: Futures are trading higher after a strong bounce-back Monday, with all major indices ending the day higher, as we started February on a winning note. Investors were able to l",
+      "url": "https://247wallst.com/investing/2026/02/03/here-are-tuesdays-top-wall-street-analyst-research-calls/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a17b799ae98e5d4c47e50c59dd7ff992",
+      "timestamp": "2026-02-03T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Toronto, BC Pensions Look Abroad for Shelter After Wild US Ride - President Donald Trump sent the US dollar tumbling last week by suggesting he was comfortable with its recent weakness. Some Canadian pension managers are taking him at his word.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/toronto-bc-pensions-look-abroad-for-shelter-after-wild-us-ride",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "514587ff23e23c070ae2d816a37c629f",
+      "timestamp": "2026-02-03T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Mamdani-Style Candidate Looks to Win Over New Jersey’s Suburbs - Analilia Mejia, a longtime labor activist who’s never held elected office, is one of close to a dozen Democrats who are vying for an open Congressional seat in New Jersey.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/nj-house-race-mamdani-style-candidate-analilia-mejia-vies-for-sherrill-s-seat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "633dfd8d7971d616017810bb11902fc0",
+      "timestamp": "2026-02-03T21:35:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Should You Buy SoFi Technologies While It's Below $25? - This thriving fintech stock is taking a double-digit dip in 2026.",
+      "url": "https://www.fool.com/investing/2026/02/03/should-you-buy-sofi-technologies-while-below-25/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a444c6b33446652cee30a468a4c1d864",
+      "timestamp": "2026-02-03T21:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Otro Raises $1.2 Billion for First Buyout Fund Amid Sports Boom - Otro Capital raised $1.2 billion for its first flagship private equity fund, as the sports-focused firm capitalizes on soaring demand from large institutional investors for the burgeoning asset class.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/otro-raises-1-2-billion-for-first-buyout-fund-amid-sports-boom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eaa886d752f60f2a5959fa2301c0560e",
+      "timestamp": "2026-02-03T21:28:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Could SoFi Acquire Another Fintech Company in 2026? Here's What its CEO Just Said. - SoFi has significant excess capital and ambitious plans to expand its product portfolio.",
+      "url": "https://www.fool.com/investing/2026/02/03/could-sofi-acquire-another-fintech-company-in-2026/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0ede52491934f09c1d680d7b899b84f8",
+      "timestamp": "2026-02-03T21:24:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Speculative Gold Rush Tests Risk Appetite in Beijing - While broad market participation is welcomed by officials, any threat to social cohesion is sure to attract negative attention.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-03/china-s-speculative-gold-rush-tests-risk-appetite-in-beijing",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6b5457f669ccf5d28f5607d795cad40f",
       "timestamp": "2026-02-03T21:06:20+09:00",
@@ -21,6 +216,17 @@
       "related_tickers": [],
       "content": "Apple’s iPhone 17 Upgrades Hit the Spot for Chinese Consumers - The seeds for Apple’s best iPhone sales in China were planted years earlier",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-03/apple-s-iphone-17-upgrades-hit-the-spot-for-chinese-consumers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b6b441f850f67a08ff42adf26d366515",
+      "timestamp": "2026-02-03T21:00:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PayPal Shares Plunge After CEO Announcement, Profit Miss - PayPal Holdings Inc. said HP Inc. Chief Executive Officer Enrique Lores will take the top job from Alex Chriss, whose turnaround plan failed to meet targets and streamline the sprawling payments busin",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/paypal-names-hp-s-enrique-lores-to-replace-ceo-alex-chriss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -98,6 +304,17 @@
       "related_tickers": [],
       "content": "Gold Is Behaving More Like a Meme Stock These Days - Market data as of 06:49 am EST. Market data may be delayed depending on provider agreements.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-03/gold-is-behaving-more-like-a-meme-stock-these-days",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "85decddc8a38bc2cacdd8685911fd161",
+      "timestamp": "2026-02-03T20:48:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk's SpaceX Merges with xAI, Gold Bounces Back | The Opening Trade 2/3/2026 - Elon Musk is combining SpaceX and xAI in a deal that values the enlarged entity at $1.25 trillion, as the world’s richest man looks to fuel his increasingly costly ambitions in artificial intelligence",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/the-opening-trade-2-3-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1994,221 +2211,6 @@
       "related_tickers": [],
       "content": "Latino Voter Shift Drives 31-Point Flip Against GOP in Texas District - Big shifts among Latino voters fueled a Texas Democrat’s upset victory in a state senate district in the Fort Worth area that’s been dominated by Republicans for more than three decades, according to ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-02/latino-shift-drives-31-point-flip-against-gop-in-texas-district",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4b0574d0a7e098b3175b4451e6ac7872",
-      "timestamp": "2026-02-03T06:15:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Assessing SoFi Technologies (SOFI) Valuation After Its First Billion Dollar Quarter And Crypto Payment Push - SoFi Technologies (SOFI) is back in the spotlight after reporting its first billion dollar quarter in Q4 2025, paired with positive earnings surprises, upbeat guidance, and fresh crypto focused paymen",
-      "url": "https://finance.yahoo.com/news/assessing-sofi-technologies-sofi-valuation-211554211.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c41999665b096771afd0ef42968b6bc",
-      "timestamp": "2026-02-03T06:06:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Palantir Jumps After Stronger-Than-Expected Sales Outlook - Palantir Technologies Inc. forecast revenue for fiscal 2026 that significantly exceeded Wall Street expectations, a boost for the data analytics company after its shares have gotten off to a lackluste",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/palantir-s-revenue-forecast-for-year-and-quarter-lap-consensus",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ba03e93e4917de2fbb89092267f0869a",
-      "timestamp": "2026-02-03T06:04:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Newsom Offers Tesla, EV Makers a Boost With $200 Million Rebate Plan - Governor Gavin Newsom outlined plans for a $200 million electric vehicle subsidy in California that would represent a major boost to Elon Musk’s Tesla Inc and other EV makers in the state.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/newsom-offers-tesla-ev-makers-a-boost-with-200-million-rebate-plan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7d08af23599d9ed1575c697f181c91ec",
-      "timestamp": "2026-02-03T06:04:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk’s SpaceX Combines With xAI at $1.25 Trillion Valuation - Elon Musk’s SpaceX has acquired xAI, in a deal that encompasses the billionaire’s increasingly costly ambitions to dominate artificial intelligence and space exploration.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9940aeacf699c07a3fc221872839d638",
-      "timestamp": "2026-02-03T06:01:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "ChatGPT Thinks Cloudflare Stock Will Close At This Price In The Next 60 Days - Quick Summary ChatGPT thinks Cloudlfare stock could trade lower over the next 60 days, projecting an average price around $168 by mid-April. Investors looking to trade the stock can build exposure inc",
-      "url": "https://finance.yahoo.com/news/chatgpt-thinks-cloudflare-stock-close-210109240.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d047179d87dabd3fee1ca6dd27def0e7",
-      "timestamp": "2026-02-03T05:32:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Syria Starts Taking Over Kurdish Strongholds on US-Backed Deal - Syria began deploying security forces in Kurdish-controlled areas, implementing a recent US-backed agreement to integrate Kurds with state institutions and take control of northeastern territories in ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/syria-starts-taking-over-kurdish-strongholds-on-us-backed-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b20af36602e9536fab7a82beeee10117",
-      "timestamp": "2026-02-03T05:15:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Launches $12 Billion Minerals Stockpile to Counter China - Bloomberg's Joe Deaux said that the president is preparing to build up the United States' strategic critical-minerals stockpile by launching a $12 billion fund to sure up supply in cases of emergency.",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/trump-launches-12b-minerals-stockpile-to-counter-china-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a722c008b363611934261953baa631d5",
-      "timestamp": "2026-02-03T05:01:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Disney Might Need to Be Broken Up, Ross Gerber Says - Ross Gerber, co-founder and CEO of Gerber Kawasaki Wealth and Investment Management, says the valuation for Walt Disney Co. \"makes no sense\" and it's time for a change there. Disney said it expects ch",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/disney-might-need-to-be-broken-up-ross-gerber-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2b209fb0f418b7e3a4bd4fb500507cc6",
-      "timestamp": "2026-02-03T04:55:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DHS Face-Scanning App Pulls From 1.2 Billion‑Image Database - Federal immigration agents are using facial recognition technology that draws from US government biometric databases containing more than 1.2 billion face images, according to federal records reviewed",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/dhs-face-scanning-app-pulls-from-1-2-billion-image-database",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "60be0a22598a0ed6269971b898aa7a50",
-      "timestamp": "2026-02-03T04:50:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Technologies (SOFI) Stock Down Below $25 -- Time to Buy? - SoFi Technologies is making its mark on the banking scene -- especially with younger people.",
-      "url": "https://www.fool.com/investing/2026/02/02/sofi-technologies-sofi-stock-down-below-25-time-to/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ea30409523fff222e6b5e97b36a856d2",
-      "timestamp": "2026-02-03T04:32:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Dollar Can’t Shake Risks - Currency traders recently unleashed a selloff that drove the dollar into its deepest slide since the US trade war began. Despite some ups and downs, the downward trend seems likely to continue. (Sourc",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/us-dollar-can-t-shake-risks-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "740633844055ac59a4e6bb69ee1d34c7",
-      "timestamp": "2026-02-03T04:00:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Republicans Should Federalize State Voting Rules - President Donald Trump called on Republicans to seize control of election processes from individual states, signaling that he may push for drastic measures to change the dynamics of the midterm electi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/trump-says-republicans-should-nationalize-state-voting-processes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b339df5ee98d27281025507849fcabcf",
-      "timestamp": "2026-02-03T03:52:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk Said to be in Advanced Talks to Combine SpaceX, xAI - Elon Musk is in advanced talks to combine SpaceX with xAI, according to people familiar with the matter. Bloomberg’s Liana Baker discusses the possible consolidation of the billionaire’s empire with C",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/musk-said-to-be-in-advanced-talks-to-combine-spacex-xai-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "98a25b01b41649850b0ed7974ceb624f",
-      "timestamp": "2026-02-03T03:48:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "France Adopts Budget After Premier Wins No-Confidence Votes - France’s parliament adopted a budget for 2026 after Prime Minister Sebastien Lecornu survived two no-confidence votes Monday, bringing the curtain down on months of political upheaval that’s rattled i",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/france-adopts-budget-after-premier-survives-no-confidence-votes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1bb4c0fe9d77772fb34a976dd7f3c0ac",
-      "timestamp": "2026-02-03T03:39:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blue Owl BDC Hits Multi-Year Low on Sector’s Tech Exposure Fears - Shares of business development companies fell on Monday, as concerns over the group’s widespread exposure to software sparked a renewed sell off.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/private-credit-linked-shares-drop-on-software-exposure-concerns",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "baec9c327b6498daf9ea21a13ce294e3",
-      "timestamp": "2026-02-03T03:39:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI's $3 Trillion Buildout Spurs Debt Boom - More than $3 trillion is expected to be spent building the data centers needed for the AI boom, and much of the funding is coming from debt markets. Bloomberg’s Paula Seligson discusses the impact and",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/ai-s-3-trillion-buildout-spurs-debt-boom-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2f82610361d7e94a5380d3f2dc0db64b",
-      "timestamp": "2026-02-03T03:20:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Needs Off-Ramp for Powell Feud to Speed Warsh Into Fed - Before his new Federal Reserve chief can even begin pushing for interest-rate cuts, President Donald Trump may have to give up on punishing the old one.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/trump-needs-an-off-ramp-for-powell-feud-to-speed-warsh-into-fed",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a1509d8201ead40e9f961de89803cdc",
-      "timestamp": "2026-02-03T03:15:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Offshore Wind Ban Blocked for Fifth Time by US Judge - A US judge ruled that a wind farm being developed by Orsted A/S off New York’s Long Island can resume work halted by the federal government, the fifth such court win for an industry President Donald T",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-02/judge-revives-orsted-ny-offshore-wind-project-halted-by-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cab2b52ccad0aafc7fe8f382a80f9258",
-      "timestamp": "2026-02-03T03:10:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brunswick CEO on Growth, Tariffs, and What Comes Next - Boatmaker Brunswick just posted strong fourth-quarter results, with double-digit revenue growth&mdash;but rising tariff costs are casting a shadow over the outlook. Brunswick CEO Dave Foulkes joined B",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-02/brunswick-ceo-on-growth-tariffs-and-what-comes-next-video",
       "sentiment": "NEUTRAL"
     }
   ]
