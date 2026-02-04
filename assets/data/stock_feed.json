@@ -1,6 +1,294 @@
 {
-  "last_updated": "2026-02-05T05:09:48.568191+09:00",
+  "last_updated": "2026-02-05T07:06:27.528896+09:00",
   "items": [
+    {
+      "id": "3fdc6cde3c8d58ca8724a9cce080974d",
+      "timestamp": "2026-02-05T06:59:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia Blasts Big Tech for Child Sexual Abuse Failings - Australia’s online safety regulator blasted major technology companies including Meta Platforms Inc., Apple Inc. and Google for failing to stamp out child sexual exploitation and abuse on their servic",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/australia-blasts-big-tech-for-child-sexual-abuse-failings",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4f0f7dc8e03e402ce3924b69ada3bc2e",
+      "timestamp": "2026-02-05T06:57:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Things Have to Change at Qualcomm, Goldberg Says - Jay Goldberg, senior analyst at Seaport Research Partners, says it's time for things to change at Qualcomm. He explains on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-04/things-have-to-change-at-qualcomm-goldberg-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dda6477c098ed932e0b8bef498fe185a",
+      "timestamp": "2026-02-05T06:53:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tricolor Founder Can Tap Insurance for Fraud Defense, Judge Says - Tricolor Holdings founder Daniel Chu, who faces federal fraud charges related to the collapse of the subprime auto-loan firm, won court approval to use company insurance policies to pay for his defens",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/tricolor-founder-can-tap-insurance-for-fraud-defense-judge-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "afb0cbceb4c456dd1c45b21e52339c8d",
+      "timestamp": "2026-02-05T06:46:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Workday to Cut About 400 Employees Focused on Customer Support - Workday Inc. is cutting about about 400 employees, saying it will help the software company better invest in priority areas.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/workday-to-cut-about-400-employees-focused-on-customer-support",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1d2f89fd68b93a3f9b846a5c8d57757e",
+      "timestamp": "2026-02-05T06:45:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Breaking Down Alphabet's Earnings and AI Spending Plans - Scott Devitt, Wedbush equity research analyst, reacts to Alphabet's fourth-quarter earnings and spending plans on \"Bloomberg The Close.\" The Google parent said it will spend $175 billion to $185 billi",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-04/breaking-down-alphabet-s-earnings-and-spending-plans-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "34909f7dee1c25099fb5c6109bbbe1f9",
+      "timestamp": "2026-02-05T06:39:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Getting a Deal on DHS Funding in 9 Days a Long Stretch for Congress - Democrats and Republicans remain far apart, but public pressure is building.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-04/getting-an-immigration-deal-in-9-days-is-a-long-stretch-for-congress",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "caa52950de877fc5cd8e3e600faf1892",
+      "timestamp": "2026-02-05T06:30:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AMD Forecast Fails to Impress Investors | Bloomberg Tech 2/4/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss AMD’s sales forecast that underwhelmed investors and sent the chipmaker's shares falling. Plus, the selloff continues across tech markets as fears of AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-04/bloomberg-tech-2-4-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3e2b72c72e2feb4924be2d46e8808749",
+      "timestamp": "2026-02-05T06:27:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Snap Reports Strong Holiday Quarter Sales Despite User Decline - Snap Inc. reported better-than-expected holiday quarter sales despite a decline in daily users, a sign of the continued evolution of its advertising business and its growing suite of consumer subscrip",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/snap-reports-strong-holiday-quarter-sales-despite-user-decline",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7346e77067c2db65ce81e42256bfd34a",
+      "timestamp": "2026-02-05T06:11:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Singer’s Elliott Urges Judge to Toss Lawsuit by Texas PE Firm - Paul Singer’s Elliott Investment Management Inc. asked a judge to dismiss a lawsuit by a Texas private equity firm that claims “tens of millions of dollars” are being withheld after the sale of oil an",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/singer-s-elliott-urges-judge-to-toss-lawsuit-by-texas-pe-firm",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "640ef0d736017ac6d18f4e9da5553d0f",
+      "timestamp": "2026-02-05T06:10:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy Asks Trump for More Arms to Force Putin to End the War - Ukrainian President Volodymyr Zelenskiy called on US President Donald Trump to send more weapons for his military to put it in a better position to force Russian President Vladimir Putin to end the wa",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/zelenskiy-asks-trump-for-more-arms-to-force-putin-to-end-the-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b1f74a0e0c79f9d4892be315cf2377b0",
+      "timestamp": "2026-02-05T06:08:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alphabet to Blow Past Investor Expectations for AI Spending - Alphabet Inc. topped projections for quarterly revenue and outlined an ambitious capital spending plan, far surpassing predictions, leveraging its growth to build out the data centers and infrastructu",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/alphabet-to-blow-past-investor-expectations-on-spending",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b74f858a2b485d9d9c0239756077841",
+      "timestamp": "2026-02-05T06:07:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Qualcomm Gives Tepid Forecast in Sign of Shaky Phone Market - Qualcomm Inc., the largest maker of smartphone processors, gave a lackluster revenue forecast for the current period, stoking concern that component shortages will hurt consumer demand by driving pric",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/qualcomm-gives-tepid-forecast-in-sign-of-shaky-phone-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1bf998acd1c9c4e31b00764210dcc467",
+      "timestamp": "2026-02-05T06:05:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Arm Slides After Forecast Fails to Satisfy Skeptical Investors - Arm Holdings Plc shares tumbled in late trading after the chip designer’s sales forecast disappointed investors, who have grown more skeptical of companies tied to artificial intelligence in recent da",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/arm-forecast-disappoints-increasingly-skeptical-investors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5d34739cd4fae068fe5ef20e7cf19136",
+      "timestamp": "2026-02-05T06:00:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How Japan’s Iron Lady Learned to Spend Boldly and Challenge China - <p>Voters look set to back Prime Minister Sanae Takaichi’s vision of a more&nbsp;assertive Japan. Markets are wary.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-02-04/japan-election-set-to-embolden-takaichi-raising-risk-of-boj-bond-market-clash",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f1c89f4d89b75e4cdbe9ba262ab2194e",
+      "timestamp": "2026-02-05T05:57:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump, Xi Discuss Taiwan, Trade Ahead of Planned Summit | Bloomberg Businessweek Daily 2/04/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss President Trump’s call with China’s President Xi Jinping ahead of Trump's expected April visit to China. Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-04/bloomberg-businessweek-daily-2-04-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "603c25d0c6c1ff51f2c0715c468ec8d5",
+      "timestamp": "2026-02-05T05:51:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NYC, NJ Business Groups Urge Trump to Restore Gateway Funds - Business leaders, labor groups and transit advocates are calling on the Trump administration to restore funding to a $16 billion rail tunnel that links New Jersey and Manhattan as work on the project ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/nyc-nj-business-groups-urge-trump-to-restore-gateway-funds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2188a8fe4f6d2175c591e4e97bf79de5",
+      "timestamp": "2026-02-05T05:46:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Colombia Presses Companies on Pricing Data After 23% Wage Hike - Colombia’s antitrust authority is pressing companies to disclose detailed information on profit margins and discount strategies, to address concern over possible price fixing in the wake of the countr",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/colombia-presses-companies-on-pricing-data-after-23-wage-hike",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c5dd2d31c09216cef2bd6177ae4dfe04",
+      "timestamp": "2026-02-05T05:45:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Voya Financial, NerdWallet, SoFi, Sezzle, and Dave Shares Plummet, What You Need To Know - A number of stocks fell in the afternoon session after the market slid following the release of weaker-than-expected private-sector employment data, fueling concerns about a cooling economy.",
+      "url": "https://finance.yahoo.com/news/voya-financial-nerdwallet-sofi-sezzle-204540739.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2222b664716d7dcd509348203a21a366",
+      "timestamp": "2026-02-05T05:42:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macron’s Envoy Traveled to Moscow for Rare Meetings With Russia - French President Emmanuel Macron’s top diplomat traveled to Moscow earlier this week to hold a series of rare face-to-face meetings with Russian officials as Europe seeks closer involvement in Ukraine",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/macron-s-envoy-traveled-to-moscow-for-rare-meetings-with-russia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "91eb4f5a63f0693507a50d2aa3afd79b",
+      "timestamp": "2026-02-05T05:40:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SpaceX Merger Provides Lifeline for Musk’s Debt-Ridden AI Startup - By many counts, SpaceX is the most successful venture Elon Musk ever started. The rocket maker revolutionized the space industry, built a multibillion-dollar business fueled by lucrative government co",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/spacex-merger-provides-lifeline-for-musk-s-debt-ridden-ai-startup",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "14353254c583cb451ede83db4993a4bd",
+      "timestamp": "2026-02-05T05:22:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US to Pull 700 Agents From Minneapolis | Balance of Power: Early Edition 2/04/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondent Joe Mathieu discusses the White House's move to scale down the number of federal agents in Minneapolis. On today's show, fo",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-04/balance-of-power-early-edition-2-04-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "457c742d574ef218e538395db8230484",
+      "timestamp": "2026-02-05T05:20:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Fund Posts Largest Inflow Since 2020 as Iran Risk Simmers - An oil exchange traded fund posted its biggest daily inflow since the pandemic as investors bet that prices will continue to rally as tensions between the US and Iran simmer.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/oil-fund-posts-largest-inflow-since-2020-as-iran-risk-simmers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d985db1b2dac3553c549e9d7aff56749",
+      "timestamp": "2026-02-05T05:13:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Has The AI Reckoning Arrived? - On today’s Big Take podcast: Sarah Frier and Sarah Holder break down why the pressure is building on tech companies to prove their AI investment will pay off &mdash; and soon bit. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-04/has-the-ai-reckoning-arrived-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fec52db9afeab88ccabc86d1f62c461a",
+      "timestamp": "2026-02-05T05:07:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Administration 'Keeping Options Available' on Iran, Says Heather Conley - Heather Conley, nonresident senior fellow at AEI and former deputy assistant secretary of state for the Bureau of European and Eurasian Affairs, said that the Trump administration is engaging in a dan",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-04/us-keeping-options-available-on-iran-conley-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bebaacf2b4f26e42724d73a0a3135a3c",
+      "timestamp": "2026-02-05T05:00:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chile’s Kast Revives Role of Culture Warrior on European Tour - Chile’s President-elect José Antonio Kast is cultivating ties with Europe’s far right on a multi-day tour this week, reviving his socially conservative agenda that he had toned down at home during his",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/chile-s-kast-revives-role-of-culture-warrior-on-european-tour",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "49fc98242d0052a145250d7deec9fbb8",
+      "timestamp": "2026-02-05T05:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Congo to Ship Copper to Saudi Arabia, UAE via US-Backed Venture - The Democratic Republic of Congo will ship copper to Saudi Arabia and the United Arab Emirates through a US-backed partnership with Mercuria Energy Group Ltd., as the Trump administration looks to cha",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/congo-to-ship-copper-to-saudi-arabia-uae-via-us-backed-venture",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c93b9ce4f836164c2e25a57706151b65",
       "timestamp": "2026-02-05T04:59:38+09:00",
@@ -365,6 +653,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "25ab4fe350bf9e9a3f05ab97d602141a",
+      "timestamp": "2026-02-05T02:54:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Amazon’s Former Retail Chief Woos Meta as Customer for Startup - Auger, the logistics software startup founded by former Amazon.com Inc. retail chief Dave Clark, has signed up Meta Platforms Inc. as a customer.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/amazon-s-former-retail-chief-woos-meta-as-customer-for-startup",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "7d891c8014cbd428c2d1876a60d182ac",
       "timestamp": "2026-02-05T02:53:41+09:00",
       "source_type": "NEWS",
@@ -527,6 +826,17 @@
       "related_tickers": [],
       "content": "Microsoft Is Replacing Security Chief Bell With Google’s Gallot - Microsoft Corp. security chief Charlie Bell is moving to a new individual contributor role focused on engineering quality and will be replaced by an executive from Google’s cloud unit.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-04/microsoft-is-replacing-security-chief-bell-with-google-s-gallot",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f6360faf9a4255ef871d63f353626199",
+      "timestamp": "2026-02-05T02:15:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prudential Slumps as Firm Tallies Earnings Hit From Japan - Prudential Financial Inc. shares dropped as the insurer said it expects its decision to halt new life insurance sales in Japan to result in a $300 million to $350 million impact on its profit this yea",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/prudential-sees-up-to-350-million-hit-in-2026-from-japan-halt",
       "sentiment": "NEUTRAL"
     },
     {
@@ -769,6 +1079,19 @@
       "related_tickers": [],
       "content": "China Raises ‘Serious Concerns’ With EU Wind Power Subsidy Probe - China criticized the European Union’s in-depth probe into subsidies for Chinese wind power companies, calling the move protectionist and vowing it would take action to protect the country’s interests.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-04/china-raises-serious-concerns-with-eu-wind-power-subsidy-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a6bc16f75eeb2087dd5ff2d56bf5623",
+      "timestamp": "2026-02-05T00:30:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 104,241,967 2.46",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018513.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1882,327 +2205,6 @@
       "related_tickers": [],
       "content": "Airbus Drone ‘Mothership’ Seen Taking Flight in Three Years - Airbus SE said it’s aiming to deliver a concept version of its “mothership” A400M cargo plane by 2029 after developing it with a European customer to use the aircraft to deploy drones and deep strike ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-04/airbus-drone-mothership-seen-taking-flight-in-three-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "861bf23bf0829f4d59db3253267306d4",
-      "timestamp": "2026-02-04T16:45:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Attempt to Make Drugs Cheaper Is Pushing Up Prices in Other Countries - <p>The president’s order is upending health care in Switzerland.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/trump-s-medicine-price-order-is-upending-health-care-in-switzerland",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7d61727c6a973c6435d0b3926553cc36",
-      "timestamp": "2026-02-04T16:43:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Turkish Defense Firm That Surged 236% in a Year Eyes New Markets - Turkey’s state-run defense contractor Aselsan Elektronik Sanayi plans to expand into at least five new countries this year as surging exports and investor demand push its shares to record gains.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/turkish-defense-firm-that-surged-236-in-a-year-eyes-new-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "44900a1c893a5ab9c6ab33971371ac67",
-      "timestamp": "2026-02-04T16:36:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Horizons Middle East & Africa 2/4/2026 - Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-04/horizons-middle-east-africa-2-4-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dafc98e76d80fa98389a03fa770f67f0",
-      "timestamp": "2026-02-04T16:34:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Takes On Tech With Social Media Bans and Paris Raid on X - European countries are taking their broadest swipe yet at social media, with a growing number weighing bans of the services for minors and setting the stage for a new showdown with some of the biggest",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/europe-takes-on-tech-with-social-media-bans-and-paris-raid-on-x",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d2debc2278a293564ac9beb319f5c5ad",
-      "timestamp": "2026-02-04T16:33:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Wants US Talks Changed to Oman and Limited to Nuclear File - Iran has asked the US to move diplomatic talks originally planned for Turkey to Oman and to limit the agenda to the Islamic Republic’s nuclear program, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/iran-wants-to-change-venue-of-us-talks-to-oman-from-turkey",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "51e8ade52da429bd5cf4753bab741571",
-      "timestamp": "2026-02-04T16:31:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UBS CEO Ermotti Pleased With ‘Very Strong’ Results - UBS Group AG Chief Executive Officer Sergio Ermotti discusses the bank’s performance as it posted profit which beat expectations in the fourth quarter and announced a $3 billion buyback program for 20",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-04/ubs-ceo-ermotti-pleased-with-very-strong-results-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "60d75a78810c762b5e1e0588f2143577",
-      "timestamp": "2026-02-04T16:31:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian IT Firms Hit Hard by Global Software Stock Selloff | Insight with Haslinda Amin 02/04/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-04/insight-with-haslinda-amin-2-4-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "149039884dd895f4aa1f0d956a7eaf83",
-      "timestamp": "2026-02-04T16:20:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hedge Funds Use Leverage to Reap 28% Return From Safest Debt - Among the top-performing European-domiciled bond funds last year, two Danish money managers investing in some of the safest debt in the market stand out.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/hedge-funds-use-leverage-to-reap-28-returns-from-safest-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "71a175f66740a96dade6509dacd8f898",
-      "timestamp": "2026-02-04T16:20:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "The Financial Stock Big Money Managers Are Quietly Buying - As the popular fintech stock trades sideways, institutional investors are increasing their positions.",
-      "url": "https://www.fool.com/investing/2026/02/04/the-financial-stock-big-money-managers-are-quietl/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bbbaf8849169e74e957a4a55b523fbc9",
-      "timestamp": "2026-02-04T16:17:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trafigura CEO Says LNG Projects Need New Financing Playbook - Trafigura Group Chief Executive Officer Richard Holtum said the liquefied natural gas industry needs a “bit of innovation” when it comes to financing projects.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/trafigura-ceo-says-lng-projects-need-new-financing-playbook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c15a0fd176558791326271b39b5486ec",
-      "timestamp": "2026-02-04T16:13:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carlsberg Widens Profit Outlook Range on Demand Uncertainty - Carlsberg A/S widened its operating profit outlook compared with last year in a move reflecting the brewer’s cautious stance over future demand for its drinks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/carlsberg-broadens-profit-outlook-range-on-demand-uncertainty",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "252cb6ace4c4a493a7b837509e8012ee",
-      "timestamp": "2026-02-04T16:11:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kenyan Electoral Agency Chief Exits 18 Months Before Elections - The head of Kenya’s Independent Electoral and Boundaries Commission resigned, 18 months before elections scheduled for August next year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/kenyan-electoral-agency-chief-exits-18-months-before-elections",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ff5ec0df79efbd1b14220c23dd9e0f89",
-      "timestamp": "2026-02-04T16:10:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Myanmar Junta’s Proxy Party Named Winner of Criticized Election - A proxy party for Myanmar’s junta was declared the “landslide” winner of elections that were derided as illegitimate by the United Nations and others, helping the military keep its grip on the war-rav",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/myanmar-junta-s-proxy-party-declared-winner-of-widely-criticized-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6242d22265d4dfc3dc75d2a8a9ce3722",
-      "timestamp": "2026-02-04T16:09:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Food Trucks Held at Vietnam Border After Last-Minute Rule Change - Long lines of produce delivery trucks have been backed up at Vietnam’s borders after the government rushed out new food safety rules, prompting the prime minister to order urgent action ahead of the L",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/food-trucks-held-at-vietnam-border-after-last-minute-rule-change",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8894812359ceddaf79d62fe898d6f4f1",
-      "timestamp": "2026-02-04T16:05:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Marcos Dodges Impeachment Risk as Corruption Complaints Junked - A Philippine congressional committee on Wednesday moved to dismiss impeachment attempts against President Ferdinand Marcos Jr., granting him a one-year reprieve from efforts to remove him from office.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/marcos-dodges-impeachment-risk-as-corruption-complaints-junked",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "399998acb85fe1b0ebb8673cb1234839",
-      "timestamp": "2026-02-04T16:01:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Solar Shares Rally on Report of Musk’s Team Visits - Chinese solar stocks rallied after local media reported that teams from SpaceX and Tesla Inc. had visited domestic companies, buoying sentiment.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/chinese-solar-shares-rally-on-report-of-musk-s-team-visits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3bafc6a5ad3727e538a44ccc729d116c",
-      "timestamp": "2026-02-04T15:47:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin-Led Crypto Rout Continues - Almost half a trillion dollars has been wiped off cryptocurrencies in less than a week as a selloff led by Bitcoin accelerated. The declines follow a volatile week across global markets that also saw ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-04/bitcoin-led-crypto-rout-continues-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3883b88cb39134801265ec2fe8035785",
-      "timestamp": "2026-02-04T15:47:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic AI Tool Sparks Stocks Selloff - A new AI automation tool from Anthropic PBC sparked a $285 billion rout in stocks across the software, financial services and asset management sectors on Tuesday. The selloff started before the US mar",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-04/anthropic-ai-tool-sparks-stocks-selloff-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "871bcdc922d381798823a792dde2f008",
-      "timestamp": "2026-02-04T15:47:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTSE 100 Futures Steady, Pound Rises",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-04/ftse-100-live-pound-gdp-ai-stocks-gsk-novo-boe-what-s-moving-uk-markets-right-now-markets-today-ml7o0fhm",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f92dde04939b1d6e4d56203babbb1a16",
-      "timestamp": "2026-02-04T15:33:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Infineon Forecasts Growing Sales From AI Data Center Demand - Infineon Technologies AG said it would ramp up spending on its technology for data centers to meet growing demand for artificial intelligence solutions.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/infineon-forecasts-growing-revenue-from-ai-data-center-demand",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "caac34b6c2dc29c5c6f6751757f40c3b",
-      "timestamp": "2026-02-04T15:21:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Son of Libyan Dictator Qaddafi Was Shot Dead, Prosecutor Says - Saif Al-Islam Qaddafi, the son and once heir-apparent of Libya’s deposed dictator Muammar Qaddafi, was confirmed killed in a shooting, the North African nation’s chief prosecutor said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/son-of-libyan-dictator-qaddafi-confirmed-dead-prosecutor-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e11b96fe5239243b701975ea57343ea",
-      "timestamp": "2026-02-04T15:10:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Steeper Discounts on Russian Oil Test India Response to US Deal - Discounts on Russian oil being offered to Indian refiners have widened over the past 10 days, raising the question of whether processors will be encouraged to snap up cargoes despite a trade agreement",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/steeper-discounts-on-russian-oil-test-india-response-to-us-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e11b96fe5239243b701975ea57343ea",
-      "timestamp": "2026-02-04T15:10:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Steeper Discounts on Russian Oil Test India Response to US Deal - Discounts on Russian oil being offered to Indian refiners have widened over the past 10 days, raising the question of whether processors will be encouraged to snap up cargoes despite a trade agreement",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/steeper-discounts-on-russian-oil-test-india-response-to-us-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "43dc5ff4eaa3e98714ca8481e0296fba",
-      "timestamp": "2026-02-04T15:09:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tech Stocks Lose Favor in Hong Kong | The China Show 4/2/2026 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, David Ingles and Yvonne Man give global ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-04/the-china-show-2-4-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d6f4b4fb19a5fecead708144a812dc76",
-      "timestamp": "2026-02-04T15:02:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Franklin Templeton on Opportunities in China, Japan - Tariq Ahmad, Head of APAC at Franklin Templeton, discusses growth opportunities for the asset manager in Japan and China. He also shares insights on how institutional investors are looking at de-dolla",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-04/franklin-templeton-on-opportunities-in-china-japan-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "58c609d1043ce6a448e65a6a8f2d0334",
-      "timestamp": "2026-02-04T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fidelity Fund That Sold Gold Before Crash Is Ready to Buy Again - George Efstathopoulos sold a chunk of his gold holdings days before the precious metal’s biggest slide in four decades. Now he’s getting ready to buy again.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/fidelity-fund-that-sold-gold-before-crash-is-ready-to-buy-again",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0014cae9a4203f6eda91c9ecd0aca792",
-      "timestamp": "2026-02-04T14:59:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AllianzGI, NEC Capital Join EdgePoint’s $475 Million Loan - Southeast Asia telecom tower operator EdgePoint Infrastructure has secured a $475 million syndicated loan from a mix of institutional investors and traditional banks, according to people familiar with",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/allianzgi-nec-capital-join-edgepoint-s-475-million-loan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40ade3ea49d1e2a62226b16ac60bc0f4",
-      "timestamp": "2026-02-04T14:59:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Korea’s Top Envoy Meets Rubio as Trump’s New Tariff Looms - South Korea’s top diplomat met with Secretary of State Marco Rubio as the country scrambles to avoid a threatened US tariff hike to 25% while lawmakers in Seoul prepare to review a special bill requir",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/south-korea-s-top-envoy-meets-rubio-as-trump-s-new-tariff-looms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40ade3ea49d1e2a62226b16ac60bc0f4",
-      "timestamp": "2026-02-04T14:59:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Korea’s Top Envoy Meets Rubio as Trump’s New Tariff Looms - South Korea’s top diplomat met with Secretary of State Marco Rubio as the country scrambles to avoid a threatened US tariff hike to 25% while lawmakers in Seoul prepare to review a special bill requir",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-04/south-korea-s-top-envoy-meets-rubio-as-trump-s-new-tariff-looms",
       "sentiment": "NEUTRAL"
     }
   ]
