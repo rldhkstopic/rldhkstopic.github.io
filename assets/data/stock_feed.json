@@ -1,6 +1,237 @@
 {
-  "last_updated": "2026-02-04T07:09:33.135628+09:00",
+  "last_updated": "2026-02-04T09:22:09.733789+09:00",
   "items": [
+    {
+      "id": "3e8b07f86825b7f61b2158b06445742f",
+      "timestamp": "2026-02-04T09:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Looks at Subsidizing Small Modular Reactors to Power AI Boom - The UK is laying out plans to help the development of small nuclear reactors as it seeks to power a boom in artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-04/uk-looks-at-subsidizing-small-modular-reactors-to-power-ai-boom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2f0eda0dc003ebc241f532cb203dc8eb",
+      "timestamp": "2026-02-04T08:49:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rep. Krishnamoorthi on DHS Funding, Project Vault - Representative Raja Krishnamoorthi (D) Illinois discusses what reforms & changes Democrats want to see with ICE that will help Congress reach a compromise on DHS funding. He also voices his reaction t",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/rep-krishnamoorthi-on-dhs-funding-project-vault-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f2b64bed3b1e5c007c162f651bab313d",
+      "timestamp": "2026-02-04T08:48:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Singapore Supports Move To Enshrine Opposition Leader Role, Straits Times Reports - Singapore’s government is supportive of moves to formally enshrine its Leader of the Opposition role, The Straits Times reported Tuesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/singapore-supports-move-to-enshrine-opposition-leader-role-st",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "796909e702139d229247d7f8480da7cd",
+      "timestamp": "2026-02-04T08:32:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Broadening Out of AI Trade Still Happening: Pandit - Meera Pandit, Global Market Strategist at JPMorgan Asset Management, discusses cyclical rotation in equities and opportunities in international markets. She speaks to Bloomberg's Matt Miller and Dani ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/broadening-out-of-ai-trade-still-happening-pandit-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b64c66902bc1095d7f49fc60e96ed5d",
+      "timestamp": "2026-02-04T08:27:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warsh's Nomination Was the Easy Part: RenMac's Dutta - Renaissance Macro Research Head of Economic Research Neil Dutta joins Bloomberg Businessweek Daily to discuss his call that Federal Reserve Chairman nominee Kevin Warsh faces several uphill battles be",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/warsh-s-nomination-was-the-easy-part-renmac-s-dutta-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "13cf7a9a1ba72a943b396da1ee82041c",
+      "timestamp": "2026-02-04T08:26:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Always Testing Us: Sen. Budd on US Shot Down Iranian Drone - Senator Ted Budd (R) North Carolina states 'Iran is always testing us,\" when discussing the US shooting down an Iranian drone headed towards a US Navy ship. He talks about what possible diplomatic sol",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/iran-always-testing-us-sen-budd-on-us-shot-down-drone-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c5ebd06e0ddbc90b0e0494c471df9a0",
+      "timestamp": "2026-02-04T08:22:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Rises on Flare-Up in US-Iran Tensions and Inventory Decline - Oil rose for a second day as geopolitical tensions resurfaced following the US downing of an Iranian drone near an American aircraft carrier in the Arabian Sea.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/latest-oil-market-news-and-analysis-for-feb-3",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d18a9e6fdaf3eee4c62c6ff05703a3de",
+      "timestamp": "2026-02-04T08:22:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed Governor Miran Steps Down From White House CEA Role - Federal Reserve Governor Stephen Miran has stepped down from his post leading the White House’s Council of Economic Advisers, according to a Trump administration official.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/fed-governor-stephen-miran-steps-down-from-white-house-cea-role",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d4c014f08b2451f3bb5fbb2167f15e61",
+      "timestamp": "2026-02-04T08:18:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia Nears Deal to Invest $20 Billion in OpenAI Round - Nvidia Corp. is nearing a deal to invest $20 billion in OpenAI as part of its latest funding round, according to people familiar with the matter, marking the chipmaker’s single biggest investment in t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/nvidia-nears-deal-to-invest-20-billion-in-openai-round",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79352e325492c2721670cf73cff9af56",
+      "timestamp": "2026-02-04T08:17:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Holds Gains After Historic Retreat Lures Back Dip Buyers - Gold steadied, after recovering some losses when dip buyers stepped in following an abrupt retreat from record highs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/gold-holds-gains-after-historic-retreat-lures-back-dip-buyers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8cf4e42ff6b4990c5552319de7ad7a80",
+      "timestamp": "2026-02-04T08:01:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Fills Safety Job Listed at $555,000 With Anthropic Hire - In December, OpenAI made headlines when it posted a job listing for a “head of preparedness” with an eye-watering base pay range of as much as $555,000 a year. On Tuesday, Chief Executive Officer Sam ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/openai-fills-safety-job-listed-at-555-000-with-anthropic-hire",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7fdb5e34ccb4c2404999266a23eaade5",
+      "timestamp": "2026-02-04T07:55:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TINKR Taps Tyler Cameron & Tate Madden to Lead Next Growth Phase - Tyler Cameron, TINKR partner and Head of Product, and Tate Madden, TINKR partner and Head of Creative, discuss the company’s next growth phase and what’s ahead with Romaine Bostick and Katie Greifeld ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/tinkr-taps-tyler-cameron-tate-madden-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a38d28c9849c33c0b6cb2b21e2b2e7e5",
+      "timestamp": "2026-02-04T07:45:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fmr. NEC Director: Jobs Report Delay is ‘Puzzling' - Gene Sperling, former National Economic Council Director under Presidents Clinton and Obama and President of Sperling Economic Strategies, says the delay adds to uncertainty at a time when the labor m",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/fmr-nec-director-jobs-report-delay-is-puzzling-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "64a1f779605c995013269b6b8d0eb1be",
+      "timestamp": "2026-02-04T07:33:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Stocks Fall, Following US Tech-Led Selloff: Markets Wrap - Most Asian stocks dropped after a tech selloff dragged down US benchmarks and saw a rotation into more economically sensitive industries.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/stock-market-today-dow-s-p-live-updates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "22c436ceec93cb651f2ba4fc57468856",
+      "timestamp": "2026-02-04T07:33:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Traders Dump Software Stocks as AI Fears Erupt - Wall Street has been skeptical about software stocks for a while, but sentiment has gone from bearish to doomsday lately with traders dumping shares of companies across the industry as fears about the",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/traders-dump-software-stocks-as-ai-fears-erupt-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2bba56cfa7af0d2e9039c7b6da078a9",
+      "timestamp": "2026-02-04T07:30:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Signs Deal to Fully Reopen Government - The partial US government shutdown ended after President Donald Trump signed a funding deal he negotiated with Senate Democrats. Trump speaks to the reporters in the Oval Office.  (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/trump-signs-deal-to-fully-reopen-government-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e7717f74891198c83c31d6d5cb07ac56",
+      "timestamp": "2026-02-04T07:26:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Signs Funding Package Ending Partial Government Shutdown - The partial US government shutdown ended late Tuesday after President Donald Trump signed into law a funding deal he negotiated with Senate Democrats, overcoming opposition from both ends of the polit",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-03/trump-signs-funding-package-ending-partial-shutdown-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7226aa79e2e72bc54e9587c84b8d8b00",
+      "timestamp": "2026-02-04T07:20:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pipeline Explodes at Delfin LNG Planned Project in Louisiana - A natural gas pipeline connecting to the proposed Delfin LNG project located offshore in southwestern Louisiana exploded Tuesday, according to the local emergency preparedness office.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/pipeline-explodes-at-delfin-lng-planned-project-in-louisiana",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "938a99b9e6c438851f2592fe85fdcb55",
+      "timestamp": "2026-02-04T07:06:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s View of Colombia Leader Swings From ‘Sick’ to ‘Terrific’ - President Donald Trump’s opinion of Colombia’s leader swung from “sick” to “terrific” as a face-to-face White House meeting eased tensions between the ideological foes.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/trump-sees-joint-anti-drugs-efforts-in-thaw-with-colombia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "14e4e58388fd109c019b56baec04185d",
+      "timestamp": "2026-02-04T07:04:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Super Micro Jumps on Strong Outlook Signaling Renewed AI Demand - Super Micro Computer Inc. shares gained in late trading after the company gave a forecast for sales in the current quarter that signaled strong demand for its gear to run AI data centers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/super-micro-projects-strong-sales-on-invigorated-demand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f9f4ead18995dc8d2fcbc8b7b641861f",
+      "timestamp": "2026-02-04T07:03:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk Loses Attempt to Dismiss SEC Twitter Stake Lawsuit - A federal judge rejected Elon Musk’s attempt to throw out a US Securities and Exchange Commission lawsuit alleging he waited too long to disclose his growing stake in Twitter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/musk-loses-attempt-to-dismiss-sec-twitter-stake-lawsuit",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "697cdacccb04c67b132bc356753f1818",
       "timestamp": "2026-02-04T07:01:35+09:00",
@@ -21,6 +252,17 @@
       "related_tickers": [],
       "content": "Musk, The Boring Company Face Nashville Tunnel Criticism - The Boring Co. is about to embark on its most ambitious tunneling project yet, but critics worry the company is woefully underprepared.\n\nKiel Porter explains. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-03/musk-the-boring-company-face-nashville-tunnel-criticism",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "13c4b7d9e744c6fcd95e3929a42c1416",
+      "timestamp": "2026-02-04T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sonos Plans Several New Products This Year After App Debacle - Sonos Inc. plans to release “several” products this year, the clearest indicator yet that the audio company is ready to move past a lengthy period of software-related turmoil and resume consumer hardw",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/sonos-plans-several-new-products-this-year-after-app-debacle",
       "sentiment": "NEUTRAL"
     },
     {
@@ -54,6 +296,17 @@
       "related_tickers": [],
       "content": "AMD Forecast Disappoints as Investors Seek Bigger AI Payoff - Advanced Micro Devices reported first-quarter sales will be roughly $9.8 billion, plus or minus $300 million, the company said in a statement Tuesday. Analysts had estimated $9.39 billion on average, ",
       "url": "https://www.bloomberg.com/news/videos/2026-02-03/amd-forecast-disappoints-as-investors-look-for-ai-payoff-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5cf7022334f527ca250be73907e4f86a",
+      "timestamp": "2026-02-04T06:50:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Salesforce Tableau Chief to Leave Following Slack Executive Exit - The chief of Salesforce Inc.’s data visualization unit, Tableau, has left the company, raising some concerns on Wall Street about executive churn at the software maker.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/salesforce-tableau-chief-to-leave-following-slack-executive-exit",
       "sentiment": "NEUTRAL"
     },
     {
@@ -208,6 +461,32 @@
       "related_tickers": [],
       "content": "Netflix Promises More Content for Less After Proposed Merger With Warner Bros. - Netflix Inc. and Warner Bros. Discovery Inc. executives defended their media merger against lawmakers' concerns about the proposed tie-up and its impact on streaming consumers and Hollywood workers. \n",
       "url": "https://www.bloomberg.com/news/videos/2026-02-03/netflix-promises-more-for-less-after-merger-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb3ab4f32e631dcb134784e242cd339a",
+      "timestamp": "2026-02-04T06:08:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Morgan Stanley Thinks This Stock Is the ‘Best Fintech Asset’ - SoFi stock is upgraded to Overweight from Neutral at J.P. Morgan, but Morgan Stanley has a different favorite.",
+      "url": "https://finance.yahoo.com/m/bd7d547d-2d72-3d8e-9a77-1a1958d8253d/morgan-stanley-thinks-this.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3cc66313325aaa91bc775020f004810f",
+      "timestamp": "2026-02-04T06:06:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "4 Reasons To Buy the Dip in SoFi Stock Right Now - SoFi stock plunged after its Q4 earnings last week. However, the stock looks even better buy now at these levels as the growth story remains intact.",
+      "url": "https://www.barchart.com/story/news/3388/4-reasons-to-buy-the-dip-in-sofi-stock-right-now?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1944,281 +2223,6 @@
       "related_tickers": [],
       "content": "Spain to Ban Children From Social Platforms Like Grok and TikTok - Prime Minister Pedro Sánchez said Spain would block children from using social media platforms including Instagram and TikTok in a new European push to regulate digital platforms.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-03/spain-to-seek-to-ban-under-16-year-olds-from-social-media",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "38baff4213983e050ed9037740eaebb6",
-      "timestamp": "2026-02-03T19:08:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Spain to Ban Children From Social Platforms Like Grok and TikTok - Prime Minister Pedro Sánchez said Spain would block children from using social media platforms including Instagram and TikTok in a new European push to regulate digital platforms.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/spain-to-seek-to-ban-under-16-year-olds-from-social-media",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9f9fcf2dc84b78077046206db159c1d",
-      "timestamp": "2026-02-03T19:01:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi National Bank Explores Foray into Booming SRT Market - Saudi National Bank is considering a foray into the rapidly-growing market for significant risk transfers as it seeks fresh ways to maximize its capacity to bankroll the kingdom’s $2 trillion Vision 2",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/saudi-national-bank-explores-foray-into-booming-srt-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "45514773c3c2581de5ed99a609e1e452",
-      "timestamp": "2026-02-03T19:00:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fusion Startup Raises Funds to Build Desktop-Sized Power Plants - <p>Avalanche Energy wants to use the technology to power satellites and drones, though it remains far from building a commercial prototype.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/washington-fusion-startup-avalanche-energy-raises-29-million",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1069725a8a41f05ba148d4c32dc13255",
-      "timestamp": "2026-02-03T18:53:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indonesia Gold Mine Investors Can Appeal Takeover, Purbaya Says - Investors could appeal Indonesia’s decision to take over a lucrative private gold mine in Sumatra after its permit was revoked due to alleged links to deadly floods last year, according to the country",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/indonesia-gold-mine-investors-can-appeal-takeover-purbaya-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "84941b63a19fc08ee631cddf9792c207",
-      "timestamp": "2026-02-03T18:48:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Severstal Margins Drop to 16-Year Low as Russian Economy Slows - Severstal PJSC, one of Russia’s top steelmakers, posted its lowest profit margin in 16 years, as a slowing domestic economy weighed on demand.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/russian-steelmaker-severstal-posts-lowest-margins-in-16-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c15fdc396db039236a728e92b2b7b55c",
-      "timestamp": "2026-02-03T18:41:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Putin’s Top Security Aide Deepens Ties With Myanmar After Vote - Russia and Myanmar strengthened military ties this week, as President Vladimir Putin’s top security aide visited the Southeast Asian nation after the ruling junta concluded an election that Western de",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/putin-s-top-security-aide-deepens-ties-with-myanmar-after-vote",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6b8c52c1f8d74cefbb17458596f58c3f",
-      "timestamp": "2026-02-03T18:29:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chipmakers, Gold Power Emerging-Market Rebound After Fed Jitters - Emerging-market stocks and currencies rebounded Tuesday, snapping a three-day run of losses, as the dollar weakened and the volatility in precious metals ebbed.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/chipmakers-gold-power-emerging-market-rebound-after-fed-jitters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40945081dbb4b23869a4cc0abde45d05",
-      "timestamp": "2026-02-03T18:23:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NASA Delays Moon Mission Launch After Hydrogen Leaks During Test - NASA is pushing the proposed launch date for its Artemis II lunar mission back to at least March after finding a hydrogen leak during a major fueling test.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/nasa-delays-moon-mission-launch-after-hydrogen-leaks-during-test",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0ea5bd22847f8dd79cc78867c66ea9a3",
-      "timestamp": "2026-02-03T18:21:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tanker Rates Spike as Iran Tensions Run Up Against Tight Supply - Tankers moving crude from the Middle East to China have charged the highest fees in two months this week, after nervousness over Iran tensions combined with tight vessel supply to drive up prices.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/tanker-rates-spike-as-iran-tensions-run-up-against-tight-supply",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a67b85cd8c4e8a1d122b22bd09a9e688",
-      "timestamp": "2026-02-03T18:20:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "French Domestic Stocks Defy Political Risks to Beat Exporters - France’s political upheaval was expected to hit domestic stocks the most. In a counter-intuitive twist, they’ve turned into big winners as exporters were hobbled by the threat of US tariffs, a sluggis",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/french-domestic-stocks-defy-political-risks-to-beat-exporters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0c3e98cd50db30e2a8212d6ba04357e2",
-      "timestamp": "2026-02-03T18:20:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Adani Flagship Posts Record Profit on One-Time Gain - Adani Enterprises Ltd. reported the highest quarterly profit on record, purely on the back of a one-time gain on its exit from a joint venture.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/adani-flagship-posts-record-quarterly-profit-on-one-time-gain",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4f69cd455cebc57a71c2a044257419bf",
-      "timestamp": "2026-02-03T18:16:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa’s Steenhuisen Won’t Seek Reelection as DA Head - The leader of South Africa’s Democratic Alliance plans to step down from the position when it holds internal elections in two months, after facing criticism over his leadership of the country’s second",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/south-africa-s-steenhuisen-to-quit-as-democratic-alliance-leader",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e287cb0a1048b66c1ef296d34090c950",
-      "timestamp": "2026-02-03T18:09:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Refiner Eneos to Expand Oil-Trading Portfolio Outside of Japan - Eneos Holdings Inc. plans to expand its team to handle more oil-derivative trading at its overseas offices including Singapore, as Japan’s largest refiner looks to increase its presence at major tradi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/refiner-eneos-to-expand-oil-trading-portfolio-outside-of-japan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "443b82251258d6b604dce05ea2c3746a",
-      "timestamp": "2026-02-03T18:03:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fuji Media Unveils Big Share Buyback to Push Out Activist - Fuji Media Holdings Inc. has unveiled a massive share buyback plan to repel activist investor Yoshiaki Murakami, effectively ending one of Japan’s most high-profile corporate battles in recent years.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/fuji-media-unveils-massive-share-buyback-to-push-out-activist",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b8f076ca03abe2ba108c7ecfbd20d50",
-      "timestamp": "2026-02-03T18:00:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Surprising Similarity Between the US and Chinese Internets - <p>Despite very different rules, they've converged in important ways</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/the-surprising-similarity-between-the-us-and-chinese-internets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed372e0670be1ec336f97155fa3aaaf1",
-      "timestamp": "2026-02-03T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Euro-Zone Banks Unexpectedly Tighten Firms’ Credit Standards - Euro-zone banks unexpectedly tightened corporate credit standards at the end of 2025, raising doubts about investment and economic activity before the European Central Bank sets interest rates this we",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/euro-zone-banks-unexpectedly-tighten-credit-standards-for-firms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0c53bb7c4b13f7707015897c455eb9ec",
-      "timestamp": "2026-02-03T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Odd Lots: The US and Chinese Internets’ Similarities (Podcast) - In the 90s, there was a lot of talk about how the Internet would be a liberalizing force in the world. Bill Clinton famously predicted that it would be impossible for China to lock down the Internet, ",
-      "url": "https://www.bloomberg.com/news/audio/2026-02-03/odd-lots-the-us-and-chinese-internets-similarities-podcast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dbf1d74b688c1ceee41335e3b095d4f0",
-      "timestamp": "2026-02-03T17:59:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Sees Strong Revenue, Scope to Trim Borrowing Next Year - India expects revenue collections to be buoyant in the year beginning April, potentially allowing it to scale back its borrowing program, according to a senior finance ministry official.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/india-sees-strong-revenue-scope-to-trim-borrowing-next-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5b4080197aff0e340828aab17fec1d26",
-      "timestamp": "2026-02-03T17:56:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "RBA Establishes AUD Hawkish Credentials: 3-Minute MLIV - Anna Edwards, Guy Johnson, Tom Mackenzie and Adam Linton break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-03/rba-establishes-aud-hawkish-credentials-3-minute-mliv-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1d7847def15a9b868c7a098b053c15d0",
-      "timestamp": "2026-02-03T17:55:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dai-ichi Life to Raise Wages by 7% on Average for Third Year - Dai-ichi Life Holdings Inc. plans to raise wages by about 7% on average in the fiscal year starting April 2026, according to a spokesperson.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/dai-ichi-life-to-raise-wages-by-7-on-average-for-third-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e822a77454b7320f108730b45fe5da6",
-      "timestamp": "2026-02-03T17:50:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nintendo’s Quarterly Profit Disappoints - Nintendo Co.’s profit rose a smaller-than-expected 23%, hurt by US tariffs on its Switch 2 console and soaring memory chip prices. After a record-setting summer debut for the flagship console, the Kyo",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-03/nintendo-s-quarterly-profit-disappoints-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b47337c7610e4b981d0122682d3ef81",
-      "timestamp": "2026-02-03T17:40:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Implats Expects 400% Half-Year Profit Surge on Metals Rally - Impala Platinum Holdings Ltd. said its second-half profit likely jumped by about 400% from a year earlier because of the rally in metals.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/implats-expects-400-half-year-profit-surge-on-metals-rally",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8e79185e004221d3173828f5dfe1bdc7",
-      "timestamp": "2026-02-03T17:39:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kuwait to Open Up Key Oil Fields, Pipelines to Foreigners - Kuwait is planning to open up some of its oil fields to overseas firms and lease part of its pipeline network, a significant move by the OPEC member as it looks to position itself as a key investment ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-03/kuwait-opening-up-oil-fields-pipelines-to-foreign-investment",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b7f6fb4273dc003bb7dcff9eab7c661",
-      "timestamp": "2026-02-03T17:33:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Cuts India Tariffs in Russian Oil Deal & Musk's SpaceX-xAI Combine | Daybreak Europe 2/3/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia.\n\nOn today",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-03/daybreak-europe-2-3-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c3e18b5481eed55d4e8be527744e96d9",
-      "timestamp": "2026-02-03T17:29:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BYD Sees ‘No Impact’ From China Ban of Hidden EV Handles - BYD Co. Executive Vice President Stella Li discusses the impact China banning concealed door handles on electric vehicles could have on the company. “There’s no impact,” Li tells Bloomberg Television.",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-03/byd-sees-no-impact-from-china-ban-of-hidden-ev-handles-video",
       "sentiment": "NEUTRAL"
     }
   ]
