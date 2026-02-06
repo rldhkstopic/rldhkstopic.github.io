@@ -1,6 +1,226 @@
 {
-  "last_updated": "2026-02-07T05:08:51.012564+09:00",
+  "last_updated": "2026-02-07T07:05:19.542173+09:00",
   "items": [
+    {
+      "id": "a237f6d32d9d72a712e51e30c342c760",
+      "timestamp": "2026-02-07T06:48:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Betting on Sunday’s game? Here’s who you’re up against - More than $800 million in Super Bowl bets have already come in through prediction markets. On today’s Big Take podcast: how these markets have changed the sports betting landscape &mdash; and how one ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/betting-on-sunday-s-game-here-s-who-you-re-up-against-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eba827d31f8ad0a220de746c1a44286f",
+      "timestamp": "2026-02-07T06:40:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&P Recovers Losses as Bond Yields Move Higher | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/yields-rise-and-s-p-rebounds-closing-bell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "45ad6365934ff590dd0c1fe999be1bf4",
+      "timestamp": "2026-02-07T06:37:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Drama Punishes Speculation and Rewards Steady Bets - For one week on Wall Street at least, steady real-economy assets beat software and speculation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/wall-street-drama-punishes-speculation-and-rewards-steady-bets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8ab11105a7316a0d0549ab6553c31e7a",
+      "timestamp": "2026-02-07T06:37:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Boosts Argentina Beef Imports in Affordability Push - President Donald Trump signed a directive on Friday further increasing the amount of beef imported into the US from Argentina, his latest move to address Americans’ concerns about affordability.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/trump-boosts-argentina-beef-imports-in-affordability-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5260660d5f5f1d8bbd86455942c34ff1",
+      "timestamp": "2026-02-07T06:34:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Michaels’ Comeback Hits New Peak With Bonds Near 100 Cents Again - Just about everything has gone right for Michaels Cos. since it was in dire financial straits over the risk of a US tariff shock.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/michaels-comeback-hits-new-peak-with-bonds-near-100-cents-again",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3ec087c7059c77ac878a465195bc2d4d",
+      "timestamp": "2026-02-07T06:34:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Discloses January Cyberattack That Exposed Some Staff Data - The European Union’s executive arm said it detected a recent cyberattack that may have exposed limited staff contact details, but that no devices were compromised.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/eu-discloses-january-cyberattack-that-exposed-some-staff-data",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c9784220642482e9464b6ba79bf32cff",
+      "timestamp": "2026-02-07T06:32:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Don't See Widespread Contagion Event: Danielle Poli - \"On \"Bloomberg Real Yield\", Danielle Poli, assistant portfolio manager for global credit strategy at Oaktree Capital Management, and Andrzej Skiba, head of BlueBay US fixed income at RBC Global Asset ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/don-t-see-widespread-contagion-event-danielle-poli-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1078399fe60da3af29541541f609b883",
+      "timestamp": "2026-02-07T06:30:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Appears to Shift Tone as the Immigration Debate Goes to Halftime - Bad Bunny’s show marks a political moment for Democrats and the president.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-06/trump-appears-to-shift-tone-as-the-immigration-debate-goes-to-halftime",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0645f75135712f391fd03b15c40f7fb3",
+      "timestamp": "2026-02-07T06:30:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hedge Funds Hike Bullish Oil Bets to 10-Month High on Iran Risks - Hedge funds turned the most bullish on Brent crude since early April as traders hedged against the risk of a military conflict between the US and Iran and potential supply disruptions from the OPEC me",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/hedge-funds-hike-bullish-oil-bets-to-10-month-high-on-iran-risks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a40a2a75f19f79aba83d551e38c639cc",
+      "timestamp": "2026-02-07T06:29:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Real Yield 2/06/2026 - \"Bloomberg Real Yield\" highlights the market-moving news you need to know. Today's guests: JPMorgan Asset Management Oksana Aronov, Doubleline Capital Deputy Chief Investment Officer Jeff Sherman, Oak",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/real-yield-2-06-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ce803ed93a7b271f4250d0440593af9c",
+      "timestamp": "2026-02-07T06:15:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cuba Begins Shutting Resorts as Fuel Crunch Hits Tourism - US President Donald Trump’s efforts to shut off fuel shipments to Cuba are starting to cut into parts of its crucial tourism industry.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/cuba-beach-resorts-closing-as-trump-moves-to-block-fuel-shipments",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "780754f9f7e8bf7893365cbae63f6a70",
+      "timestamp": "2026-02-07T06:10:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dip Buying Lifts Stocks, Dow Hits 50K | Bloomberg Businessweek Daily 2/6/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss US stocks rebounding on Friday following a rocky start to the week across asset classes. Then, Bloomberg's Pat",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/bloomberg-businessweek-daily-2-6-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "645668759a6182776d02c2487f16ec1f",
+      "timestamp": "2026-02-07T06:10:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vanguard’s Average Fee Is Now Just 0.06% With Latest Cut - Vanguard keeps pace in fund fee’s race-to-the-bottom",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-06/vanguard-s-voo-average-fund-fee-drops-to-0-06-with-latest-cut",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "13529c3b757a106a66d76bbcd4a2e852",
+      "timestamp": "2026-02-07T06:09:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hedge Funds Slash Bullish Natural Gas Bets to 13-Month Low - Hedge funds cut bullish bets on US natural gas after forecasts for mild weather triggered the largest single-day price decline in front-month gas futures in 30 years, forcing traders with long positio",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/hedge-funds-slash-bullish-natural-gas-bets-to-13-month-low",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f8c7627292f76195165bc477a0ea6a84",
+      "timestamp": "2026-02-07T05:49:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Google Employees Call on Company to End ICE, CBP Contracts - More than 900 employees at Alphabet Inc.’s Google have signed a petition demanding that the company sever ties with the US Department of Homeland Security in the wake of the Trump administration’s mas",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/google-employees-call-on-company-to-end-ice-cbp-contracts",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "90e850daa6e75ff3a7eece65f33c4d56",
+      "timestamp": "2026-02-07T05:41:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Credit Data Firm 9fin Seeks $1 Billion Valuation in Fund Talks - Debt intelligence provider 9fin Ltd. is in talks to raise fresh capital at a valuation of as much as $1 billion as it seeks to gain a stronger foothold in the highly competitive market for credit rese",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/credit-data-firm-9fin-seeks-1-billion-valuation-in-fund-talks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "90e850daa6e75ff3a7eece65f33c4d56",
+      "timestamp": "2026-02-07T05:41:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Credit Data Firm 9fin Seeks $1 Billion Valuation in Fund Talks - Debt intelligence provider 9fin Ltd. is in talks to raise fresh capital at a valuation of as much as $1 billion as it seeks to gain a stronger foothold in the highly competitive market for credit rese",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/credit-data-firm-9fin-seeks-1-billion-valuation-in-fund-talks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f9ab83ca31808e43f4350bc09e1edb4d",
+      "timestamp": "2026-02-07T05:33:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Amazon's Big Spending Plans and Bitcoin's Rebound | Bloomberg Tech 2/6/2026 - Bloomberg's Caroline Hyde and Ed Ludlow take a look at shares of Amazon dropping after announcing plans to spend $200 billion this year on data centers, chips, and other equipment. Plus, Bitcoin rebou",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/bloomberg-tech-2-6-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2c9d6a195644773f0584ae09777febbb",
+      "timestamp": "2026-02-07T05:31:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BP’s Whiting Refinery USW Workers Authorize Potential Strike - About a quarter of the workers typically stationed at BP Plc’s Whiting, Indiana, refinery are preparing for a strike or lockout, in a move that has the potential to disrupt fuel supplies in the US Mid",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/bp-s-whiting-refinery-usw-workers-authorize-potential-strike",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "539b67b6b050015846f5df65b7aa7ad7",
+      "timestamp": "2026-02-07T05:06:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Boston Scientific’s Worst Day in 25 Years Surprised Analysts - Few analysts foresaw the disappointing results and profit forecast that sent Boston Scientific Corp.’s shares plummeting nearly 20% this week. Even fewer have given up on their bullish calls since.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/boston-scientific-s-worst-day-in-25-years-surprised-analysts",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "46c909c90777fa31c892ae024c756ddf",
       "timestamp": "2026-02-07T05:05:14+09:00",
@@ -760,6 +980,19 @@
       "related_tickers": [],
       "content": "BlackRock's Rieder Is Looking to Emerging Markets - BlackRock CIO of Global Fixed Income Rick Rieder talks about the impact of AI on markets says emerging markets are looking very attractive. He speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-06/blackrock-s-rieder-is-looking-to-emerging-markets-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c54588e18aa36f5c06c52bdfaf62720a",
+      "timestamp": "2026-02-07T00:30:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - CCH Holdings Ltd. 112,627,099 0.7172",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153025680.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1972,237 +2205,6 @@
       "related_tickers": [],
       "content": "Tokyo Electron Lifts Outlook in Sign of AI-Spurred Chip Spending - Tokyo Electron Ltd. raised its full-year outlook even after its quarterly profit missed estimates and said it sees a surge in spending by chipmakers eager to ride an AI spending wave.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-06/tokyo-electron-lifts-outlook-in-sign-of-ai-spurred-chip-spending",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7771a9090093c29e301a57edafeb77c6",
-      "timestamp": "2026-02-06T17:02:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AT&amp;T Debuts Smartphone for Kids That Parents Can Monitor - AT&amp;T Inc. launched a phone geared toward kids on Friday, adding a device aimed at keeping families within its ecosystem.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/at-t-debuts-smartphone-for-kids-that-parents-can-monitor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "245df293b7c748f698dc26651825bc02",
-      "timestamp": "2026-02-06T16:43:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dubai-Based Firm to Invest $1.6 Billion in Africa AI and Farms - Maser Group, a closely held Dubai-based company, is pivoting to investment in farmland and data centers across Africa as demand for technology infrastructure and the need for food security surge.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/dubai-based-firm-to-invest-1-6-billion-in-africa-ai-farmland",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4afda80ad0c43a8a66c3285ffb65dd21",
-      "timestamp": "2026-02-06T16:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Go Against Emerging-Market Rally at Your Peril, Money Manager Warns - Traders should think twice before selling emerging-market debt as funds are prepared to keep pouring money into the asset class, according to Paris-based money manager Carmignac Gestion SA.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/go-against-emerging-market-rally-at-your-peril-carmignac-warns",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b0541bca5b1c269a251a308df78513cb",
-      "timestamp": "2026-02-06T16:28:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB's Stournaras on Euro's Strength, Inflation, Economy - European Central Bank Governing Council member Yannis Stournaras discusses the outlook for the euro, inflation and monetary policy. He speaks on Bloomberg Television after Thursday's decision by the E",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/ecb-s-stournaras-on-euro-s-strength-inflation-economy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "80ca770aa498d63510fa87dd364c0a00",
-      "timestamp": "2026-02-06T16:13:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Toyota Patriarch Taps Former Secretary as Carmaker’s Next CEO - Toyota Motor Corp.’s incoming chief executive officer isn’t just the company’s head of finance. He was the chairman’s personal secretary for almost a decade.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/toyota-patriarch-taps-former-secretary-as-carmaker-s-next-ceo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e6ff2b0735a833d8dd6bca893a3a950",
-      "timestamp": "2026-02-06T16:08:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "VW Sees ‘Make-or-Break’ Year for South Africa Pick-Up Plan - Volkswagen AG said a plan to start producing a new pick-up truck in South Africa will hinge on improved tax breaks and other incentives to boost the industry.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/vw-sees-make-or-break-year-for-south-africa-pick-up-plan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0a653f98768070bea22ca0f5d28bced8",
-      "timestamp": "2026-02-06T16:08:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK House Prices Bounce Back to Hit Record High, Halifax Says - UK house prices bounced back in January, according to one of the country’s largest mortgage lenders, in a sign of returning demand after the Labour government’s budget.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/uk-house-prices-bounce-back-to-hit-record-high-halifax-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9ebc6435ae428d39683215137322e114",
-      "timestamp": "2026-02-06T16:07:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Industrial Production Drops in Setback for Recovery Hopes - German industrial production dropped for the first time since August, a sign of persisting challenges for the sector as it tries to exit a protracted slump.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/german-industrial-production-drops-in-setback-for-recovery-hopes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a1e0402f66f516a75ca6045763298de6",
-      "timestamp": "2026-02-06T16:05:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sharp Turkish Equity Rally Leaves Local Fund Managers Trailing - A strong month for Turkish stocks caught local fund managers off guard as they struggled to keep up with a rally driven by a handful of stocks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/sharp-turkish-equity-rally-leaves-local-fund-managers-trailing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "660b05e340525bfb7539c7a66e61b781",
-      "timestamp": "2026-02-06T15:58:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What to Expect From Iran, US Talks in Oman - Iran said Friday’s talks in Oman with the US could be the first stage of a longer diplomatic process, signaling there won’t be a quick resolution to escalating tensions between the two sides. The US d",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/what-to-expect-from-iran-us-talks-in-oman-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0a09801c3dcd93dfad043e06b46f8208",
-      "timestamp": "2026-02-06T15:55:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB Monitoring Euro But Rally Not Dramatic, Stournaras Says - The European Central Bank is keeping an eye on the euro’s recent rally but Governing Council member Yannis Stournaras sees no cause for alarm.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/ecb-monitoring-euro-but-rally-not-dramatic-stournaras-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2104f33fcb44ccfa63482d5acb3bf4ac",
-      "timestamp": "2026-02-06T15:51:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Tech Stocks Join Global Selloff on AI Jitters | The China Show 2/6/2025 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Annabelle Droulers and Yvonne Man give g",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/the-china-show-2-6-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b29fb88b837d84b1baf6035bf34a05b",
-      "timestamp": "2026-02-06T15:50:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thailand, Japan Prepare for Elections | Insight with Haslinda Amin 2/6/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/insight-with-haslinda-amin-2-6-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77871ca635b8546cfc5b22d4b55bddea",
-      "timestamp": "2026-02-06T15:47:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTSE 100 Falls, Pound Rebounds",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-06/ftse-100-live-glencore-pound-bonds-oil-prices-silver-gold-tech-stocks-bitcoin-what-s-moving-uk-markets-right-now-markets-today-mlaiwbbm",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "86aaa8d5328f14c4042de33e69e9c577",
-      "timestamp": "2026-02-06T15:27:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Signals US Talks on Friday Won’t Lead to Quick Resolution - Iran said Friday’s negotiations with the US could be the first stage of a longer diplomatic process, signaling there won’t be a quick resolution to escalating tensions between the two sides.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/iran-signals-us-talks-on-friday-won-t-lead-to-quick-resolution",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b0c24323d8c2ce841b233df10c8d16ef",
-      "timestamp": "2026-02-06T15:24:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tankers With Russian Oil Flock to East Asia in Race for Buyers - More than a dozen tankers loaded with Russian Urals oil are sailing toward Asia or idling along the route, a sign of producers racing to get cargoes closer to China as India pulls back from the trade.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tankers-with-russian-oil-flock-to-east-asia-in-race-for-buyers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b0c24323d8c2ce841b233df10c8d16ef",
-      "timestamp": "2026-02-06T15:24:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tankers With Russian Oil Flock to East Asia in Race for Buyers - More than a dozen tankers loaded with Russian Urals oil are sailing toward Asia or idling along the route, a sign of producers racing to get cargoes closer to China as India pulls back from the trade.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tankers-with-russian-oil-flock-to-east-asia-in-race-for-buyers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "691ad19134af718af1dd42d70932b550",
-      "timestamp": "2026-02-06T15:19:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s Reliance Buys First Venezuelan Oil Cargo Since Mid-2025 - Reliance Industries Ltd. has returned to Venezuelan crude after a pause that began in the middle of last year, as India seeks to diversify its supply and US intervention brings the South American coun",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/india-s-reliance-buys-first-venezuelan-oil-cargo-since-mid-2025",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b2692d26de0102985022cf00fc2373a0",
-      "timestamp": "2026-02-06T15:17:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Central Bank Set to Allow Banks to Lend to REITs - The Reserve Bank of India plans to permit banks to lend directly to real estate investment trusts, or REITs, a move that could unlock fresh funding for property assets and boost the sector’s growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/india-central-bank-set-to-allow-banks-to-lend-to-reits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ffdf0df353d70b95caf3959bc7ca00e8",
-      "timestamp": "2026-02-06T15:15:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tankers Speed Through Hormuz Chokepoint on US-Iran Tensions - Some supertanker operators, nervous about rising US-Iran tensions and potential risks to shipping in the Strait of Hormuz, are speeding their vessels through the chokepoint.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tankers-speed-through-hormuz-chokepoint-on-rising-iran-tensions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0a0c48ccafe41d8636bc809c27caaa9a",
-      "timestamp": "2026-02-06T15:07:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Former Tech Mahindra CEO on AI Disruption - C.P. Gurnani, Co‑Founder of AIonOS and former CEO of Tech Mahindra, discusses whether AI could replace long‑standing IT workflows, how enterprise adoption is evolving, and why data security, infrastru",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/former-tech-mahindra-ceo-on-ai-disruption-video",
       "sentiment": "NEUTRAL"
     }
   ]
