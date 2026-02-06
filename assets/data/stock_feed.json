@@ -1,6 +1,226 @@
 {
-  "last_updated": "2026-02-06T15:19:50.918702+09:00",
+  "last_updated": "2026-02-06T17:13:50.325568+09:00",
   "items": [
+    {
+      "id": "a7dcd203f28c9d21dd25812fa7d554d3",
+      "timestamp": "2026-02-06T17:03:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tokyo Electron Lifts Outlook in Sign of AI-Spurred Chip Spending - Tokyo Electron Ltd. raised its full-year outlook even after its quarterly profit missed estimates and said it sees a surge in spending by chipmakers eager to ride an AI spending wave.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tokyo-electron-lifts-outlook-in-sign-of-ai-spurred-chip-spending",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "245df293b7c748f698dc26651825bc02",
+      "timestamp": "2026-02-06T16:43:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dubai-Based Firm to Invest $1.6 Billion in Africa AI and Farms - Maser Group, a closely held Dubai-based company, is pivoting to investment in farmland and data centers across Africa as demand for technology infrastructure and the need for food security surge.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/dubai-based-firm-to-invest-1-6-billion-in-africa-ai-farmland",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4afda80ad0c43a8a66c3285ffb65dd21",
+      "timestamp": "2026-02-06T16:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Go Against Emerging-Market Rally at Your Peril, Money Manager Warns - Traders should think twice before selling emerging-market debt as funds are prepared to keep pouring money into the asset class, according to Paris-based money manager Carmignac Gestion SA.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/go-against-emerging-market-rally-at-your-peril-carmignac-warns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0541bca5b1c269a251a308df78513cb",
+      "timestamp": "2026-02-06T16:28:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB's Stournaras on Euro's Strength, Inflation, Economy - European Central Bank Governing Council member Yannis Stournaras discusses the outlook for the euro, inflation and monetary policy. He speaks on Bloomberg Television after Thursday's decision by the E",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/ecb-s-stournaras-on-euro-s-strength-inflation-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "80ca770aa498d63510fa87dd364c0a00",
+      "timestamp": "2026-02-06T16:13:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Toyota Patriarch Taps Former Secretary as Carmaker’s Next CEO - Toyota Motor Corp.’s incoming chief executive officer isn’t just the company’s head of finance. He was the chairman’s personal secretary for almost a decade.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/toyota-patriarch-taps-former-secretary-as-carmaker-s-next-ceo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5e6ff2b0735a833d8dd6bca893a3a950",
+      "timestamp": "2026-02-06T16:08:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "VW Sees ‘Make-or-Break’ Year for South Africa Pick-Up Plan - Volkswagen AG said a plan to start producing a new pick-up truck in South Africa will hinge on improved tax breaks and other incentives to boost the industry.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/vw-sees-make-or-break-year-for-south-africa-pick-up-plan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0a653f98768070bea22ca0f5d28bced8",
+      "timestamp": "2026-02-06T16:08:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK House Prices Bounce Back to Hit Record High, Halifax Says - UK house prices bounced back in January, according to one of the country’s largest mortgage lenders, in a sign of returning demand after the Labour government’s budget.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/uk-house-prices-bounce-back-to-hit-record-high-halifax-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9ebc6435ae428d39683215137322e114",
+      "timestamp": "2026-02-06T16:07:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Industrial Production Drops in Setback for Recovery Hopes - German industrial production dropped for the first time since August, a sign of persisting challenges for the sector as it tries to exit a protracted slump.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/german-industrial-production-drops-in-setback-for-recovery-hopes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a1e0402f66f516a75ca6045763298de6",
+      "timestamp": "2026-02-06T16:05:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sharp Turkish Equity Rally Leaves Local Fund Managers Trailing - A strong month for Turkish stocks caught local fund managers off guard as they struggled to keep up with a rally driven by a handful of stocks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/sharp-turkish-equity-rally-leaves-local-fund-managers-trailing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "660b05e340525bfb7539c7a66e61b781",
+      "timestamp": "2026-02-06T15:58:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What to Expect From Iran, US Talks in Oman - Iran said Friday’s talks in Oman with the US could be the first stage of a longer diplomatic process, signaling there won’t be a quick resolution to escalating tensions between the two sides. The US d",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/what-to-expect-from-iran-us-talks-in-oman-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0a09801c3dcd93dfad043e06b46f8208",
+      "timestamp": "2026-02-06T15:55:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB Monitoring Euro But Rally Not Dramatic, Stournaras Says - The European Central Bank is keeping an eye on the euro’s recent rally but Governing Council member Yannis Stournaras sees no cause for alarm.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/ecb-monitoring-euro-but-rally-not-dramatic-stournaras-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2104f33fcb44ccfa63482d5acb3bf4ac",
+      "timestamp": "2026-02-06T15:51:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Tech Stocks Join Global Selloff on AI Jitters | The China Show 2/6/2025 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Annabelle Droulers and Yvonne Man give g",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/the-china-show-2-6-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0b29fb88b837d84b1baf6035bf34a05b",
+      "timestamp": "2026-02-06T15:50:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thailand, Japan Prepare for Elections | Insight with Haslinda Amin 2/6/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-06/insight-with-haslinda-amin-2-6-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "77871ca635b8546cfc5b22d4b55bddea",
+      "timestamp": "2026-02-06T15:47:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FTSE 100 Falls, Pound Rebounds",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-02-06/ftse-100-live-glencore-pound-bonds-oil-prices-silver-gold-tech-stocks-bitcoin-what-s-moving-uk-markets-right-now-markets-today-mlaiwbbm",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "86aaa8d5328f14c4042de33e69e9c577",
+      "timestamp": "2026-02-06T15:27:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Signals US Talks on Friday Won’t Lead to Quick Resolution - Iran said Friday’s negotiations with the US could be the first stage of a longer diplomatic process, signaling there won’t be a quick resolution to escalating tensions between the two sides.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/iran-signals-us-talks-on-friday-won-t-lead-to-quick-resolution",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0c24323d8c2ce841b233df10c8d16ef",
+      "timestamp": "2026-02-06T15:24:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tankers With Russian Oil Flock to East Asia in Race for Buyers - More than a dozen tankers loaded with Russian Urals oil are sailing toward Asia or idling along the route, a sign of producers racing to get cargoes closer to China as India pulls back from the trade.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tankers-with-russian-oil-flock-to-east-asia-in-race-for-buyers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0c24323d8c2ce841b233df10c8d16ef",
+      "timestamp": "2026-02-06T15:24:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tankers With Russian Oil Flock to East Asia in Race for Buyers - More than a dozen tankers loaded with Russian Urals oil are sailing toward Asia or idling along the route, a sign of producers racing to get cargoes closer to China as India pulls back from the trade.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tankers-with-russian-oil-flock-to-east-asia-in-race-for-buyers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "691ad19134af718af1dd42d70932b550",
+      "timestamp": "2026-02-06T15:19:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Reliance Buys First Venezuelan Oil Cargo Since Mid-2025 - Reliance Industries Ltd. has returned to Venezuelan crude after a pause that began in the middle of last year, as India seeks to diversify its supply and US intervention brings the South American coun",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/india-s-reliance-buys-first-venezuelan-oil-cargo-since-mid-2025",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b2692d26de0102985022cf00fc2373a0",
+      "timestamp": "2026-02-06T15:17:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Central Bank Set to Allow Banks to Lend to REITs - The Reserve Bank of India plans to permit banks to lend directly to real estate investment trusts, or REITs, a move that could unlock fresh funding for property assets and boost the sector’s growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/india-central-bank-set-to-allow-banks-to-lend-to-reits",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ffdf0df353d70b95caf3959bc7ca00e8",
+      "timestamp": "2026-02-06T15:15:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tankers Speed Through Hormuz Chokepoint on US-Iran Tensions - Some supertanker operators, nervous about rising US-Iran tensions and potential risks to shipping in the Strait of Hormuz, are speeding their vessels through the chokepoint.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tankers-speed-through-hormuz-chokepoint-on-rising-iran-tensions",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0a0c48ccafe41d8636bc809c27caaa9a",
       "timestamp": "2026-02-06T15:07:37+09:00",
@@ -186,6 +406,17 @@
       "related_tickers": [],
       "content": "India Holds Rate and Signals Prolonged Pause After US Trade Deal - The Reserve Bank of India kept its benchmark interest rate unchanged on Friday, signaling an end to its easing cycle as the economy gets a boost from higher government spending and a surprise US trade",
       "url": "https://www.bloomberg.com/news/articles/2026-02-06/rbi-keeps-rates-steady-as-us-tariff-cuts-ease-growth-concerns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9dc2b940827299555a249b24a2e1be88",
+      "timestamp": "2026-02-06T13:21:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Easy Money Floods Metals Markets as Real Economy Falters - With ample cash but fewer investment options, Chinese speculators have fanned a rally in global metals prices, underscoring just how difficult it is for authorities to channel capital into the real ec",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-06/china-s-easy-money-floods-metals-markets-as-real-economy-falters",
       "sentiment": "NEUTRAL"
     },
     {
@@ -626,6 +857,17 @@
       "related_tickers": [],
       "content": "BYD’s $60 Billion Wipeout Points to Deeper Turmoil for China EVs - A relentless selloff in BYD Co. shares is laying bare investor anxiety over the profit outlook for China’s electric-vehicle sector, as cooling demand at home and surging raw material costs trigger a b",
       "url": "https://www.bloomberg.com/news/articles/2026-02-05/byd-s-60-billion-wipeout-points-to-deeper-turmoil-for-china-evs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7ec10a0798ce10c249b523ef6d85d000",
+      "timestamp": "2026-02-06T08:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Reviled on Social Media, Statins Shows Few Side Effects in Study - Statins, some of the most widely used medicines in the world, often get blamed for side effects ranging from sexual dysfunction to brain fog. A new study suggests that’s unwarranted.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-05/reviled-on-social-media-statins-shows-few-side-effects-in-study",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1961,250 +2203,6 @@
       "related_tickers": [],
       "content": "France Charges Four in China-Spying Case That Targeted Starlink - French authorities charged four people with spying for China in a case that targeted Elon Musk’s satellite Internet provider Starlink.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-05/france-charges-four-in-china-spying-case-that-targeted-starlink",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dd2b5a27e0a3cd52828f00caea1abc0",
-      "timestamp": "2026-02-06T00:40:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Parliament Restoration Seen Costing £39 Billion Over 60 Years - Plans to carry out a much-needed restoration of the UK Houses of Parliament could cost as much as £39 billion ($53 billion) and take more than six decades, according to a panel set up to examine optio",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/uk-parliament-restoration-seen-costing-39-billion-over-60-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c2158213c79145a165732de4ed142b3",
-      "timestamp": "2026-02-06T00:38:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trafigura in Talks With China’s ITG to Set Up Credit Fund - Commodity trading house Trafigura Group is in talks with Chinese supply chain conglomerate Xiamen ITG Group to form a joint venture to finance commodity deals, according to people familiar with the ma",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/trafigura-in-talks-with-china-s-itg-to-set-up-credit-fund",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a214ff7a98aec8549d408466efe6b53",
-      "timestamp": "2026-02-06T00:33:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lagarde Awaits More AI Gains in Productivity Unleashed in Europe - The euro zone will need time to see further productivity gains from an AI-related investment boom, European Central Bank President Christine Lagarde said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/lagarde-awaits-more-ai-gains-in-productivity-unleashed-in-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a214ff7a98aec8549d408466efe6b53",
-      "timestamp": "2026-02-06T00:33:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lagarde Awaits More AI Gains in Productivity Unleashed in Europe - The euro zone will need time to see further productivity gains from an AI-related investment boom, European Central Bank President Christine Lagarde said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/lagarde-awaits-more-ai-gains-in-productivity-unleashed-in-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "557787e87348a593f48c7f248698e87f",
-      "timestamp": "2026-02-06T00:33:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Arctic Blast Triggers Largest-Ever US Gas Storage Withdrawal - US natural gas consumers withdrew more gas from storage last week than they ever have before as a powerful late-January storm boosted demand for the heating fuel while also disrupting production acros",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/arctic-blast-triggers-largest-ever-us-gas-storage-withdrawal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a5e0fde58a735708e11f6486ab6390d",
-      "timestamp": "2026-02-06T00:32:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Leadership Drama, BOE Surprise Fuel Turbulence For Gilts and Pound - On a day when UK markets were buffeted by political drama and a surprisingly close vote from Bank of England policymakers, it was the pound that proved the weakest link.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/uk-leadership-drama-boe-surprise-whipsaw-gilts-and-punish-pound",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3456b98918411b10db986f89a1512032",
-      "timestamp": "2026-02-06T00:30:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 4,163,035 1.30",
-      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017191.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a745e598bfb0b5f6c70c74c6cb086403",
-      "timestamp": "2026-02-06T00:30:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Estonian Leaders Clash Over Calls for European Talks With Putin - Estonia’s President triggered a backlash from the government of one of the European Union’s biggest Russia hawks by declaring his support for direct talks between the bloc and Moscow.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/estonian-leaders-clash-over-calls-for-european-talks-with-putin",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bd154825e23fc838cc2f2bb015e393c5",
-      "timestamp": "2026-02-06T00:08:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Next AI Catalyst is New Batch of Models: Weaver - Michelle Weaver, Head of US Thematic Research at Morgan Stanley, says the next AI catalyst to watch for is when the next batch of models come out this summer. She speaks to Bloomberg's Jonathan Ferro,",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-05/next-ai-catalyst-is-new-batch-of-models-weaver-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a59affea4dbee8a6537960acce6a4361",
-      "timestamp": "2026-02-05T23:58:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ineos Bonds Rise After EU Cracks Down on Cheap Imports by Rivals - The bonds of chemicals giant Ineos rose after the European Commission ruled companies in China, Saudi Arabia and the US were breaching anti-dumping regulation in the common market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/ineos-bonds-rise-after-eu-cracks-down-on-cheap-imports-by-rivals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed06842e7765dc096bf5132f3b221edf",
-      "timestamp": "2026-02-05T23:58:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nasdaq 100, S&amp;P 500 Drop More Than 1% as Tech Stock Rout Deepens - US stocks continued to slide on Thursday as technology shares fell and private jobs data revived worries of an economic slowdown.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/us-stocks-extend-slump-as-tech-rout-rolls-on-for-third-session",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed06842e7765dc096bf5132f3b221edf",
-      "timestamp": "2026-02-05T23:58:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nasdaq 100, S&amp;P 500 Drop More Than 1% as Tech Stock Rout Deepens - US stocks continued to slide on Thursday as technology shares fell and private jobs data revived worries of an economic slowdown.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/us-stocks-extend-slump-as-tech-rout-rolls-on-for-third-session",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b5930e9d5582cd57a4621081e8f640ea",
-      "timestamp": "2026-02-05T23:57:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Emperor Entertainment Reaps Windfall From Sellling Gold Hoard - Emperor Entertainment Hotel Ltd. found a more profitable use for gold bricks than decorating the sumptuous lobby of its Macau property.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/emperor-entertainment-reaps-windfall-from-sellling-gold-hoard",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "333f669c587b0bbf8fd9d1c84eac6b49",
-      "timestamp": "2026-02-05T23:54:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Zimbabwe Seeks Partners to Develop $500 Million Platinum Mine - Zimbabwe’s state-owned Mutapa Platinum Group said it has approached other miners to help it develop a $500 million mine in the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/zimbabwe-seeks-partners-to-develop-500-million-platinum-mine",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e4b27ffce3ed8bc599cc3c3e76df55dd",
-      "timestamp": "2026-02-05T23:49:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB’s Lagarde to Send EU Leaders Checklist on Strengthening Bloc - European Central Bank President Christine Lagarde vowed to ensure EU heads of government consider a whole list of measures to strengthen the bloc’s long-term resilience before their upcoming summit.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/ecb-s-lagarde-to-send-eu-leaders-checklist-on-strengthening-bloc",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e4b27ffce3ed8bc599cc3c3e76df55dd",
-      "timestamp": "2026-02-05T23:49:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB’s Lagarde to Send EU Leaders Checklist on Strengthening Bloc - European Central Bank President Christine Lagarde vowed to ensure EU heads of government consider a whole list of measures to strengthen the bloc’s long-term resilience before their upcoming summit.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/ecb-s-lagarde-to-send-eu-leaders-checklist-on-strengthening-bloc",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6dfc6e346dec2a4b70f1d73c86af5971",
-      "timestamp": "2026-02-05T23:45:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lagarde Says Inflation, ECB Policy in 'Good Place' - \"We are in a good place and inflation is in a good place,\" European Central Bank President Christine Lagarde told reporters in Frankfurt. She made the comments after the central bank decided to hold i",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-05/lagarde-says-inflation-ecb-policy-in-good-place-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "03fa37655b7a46aa83964bdd9186eb30",
-      "timestamp": "2026-02-05T23:45:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Readies $3.75 Billion Debt Offering for DuPont Unit Deal - Goldman Sachs Group Inc. is readying a revised $3.75 billion financing &mdash; now likely to include a junk bond offering &mdash; to support chemical maker Arclin Inc.’s acquisition of DuPont de Nemou",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/goldman-readies-3-75-billion-debt-offering-for-dupont-unit-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8715d6b5cc1fc5429501ecde9f53fb02",
-      "timestamp": "2026-02-05T23:42:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Liz Ann Sonders Explains Why the Broadening Trade Has Legs - “Rotation is the new momentum trade,” says Liz Ann Sonders, chief investment strategist at Charles Schwab, as she sees the broadening out of markets as a “meaningful shift that probably will continue.",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-05/liz-ann-sonders-says-the-broadening-trade-has-legs-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d821948cacfee281781d3b8743fa9ad0",
-      "timestamp": "2026-02-05T23:24:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bailey Says He's 'Shocked' by Mandelson-Epstein Ties - Bank of England Governor Andrew Bailey said he was “shocked” by Peter Mandelson’s ties with pedophile financier Jeffrey Epstein, adding that society must do some soul searching over the revelations. “",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-05/bailey-says-he-s-shocked-by-mandelson-epstein-ties-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "52982e040a4873d29c619db245f5d2c4",
-      "timestamp": "2026-02-05T23:24:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Winklevosses’ Gemini to Cut 25% of Jobs, Shutter Europe Business - Crypto exchange Gemini Space Station Inc. said it plans to cut up to 25% of its workforce and wind down operations in the UK, European Union and Australia, citing a strategy to reduce costs and improv",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/gemini-to-shutter-uk-eu-australia-customer-accounts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ad4ce7033345e5308af970b7d61653e6",
-      "timestamp": "2026-02-05T23:23:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lagarde: Stronger Euro Could Push Inflation Lower - European Central Bank President Christine Lagarde tells reporters in Frankfurt that a stronger euro could \"bring inflation down beyond current expectations.\" She speaks to reporters in Frankfurt follo",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-05/lagarde-stronger-euro-could-push-inflation-lower-video",
       "sentiment": "NEUTRAL"
     }
   ]
