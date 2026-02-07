@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-07T15:14:39.980741+09:00",
+  "last_updated": "2026-02-07T17:07:18.053524+09:00",
   "items": [
+    {
+      "id": "11cb72c7c0f4868d552cda77ca22514a",
+      "timestamp": "2026-02-07T16:49:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hong Kong Says It Strongly Disagrees With Panama Ruling on Ports - Hong Kong has protested against Panama’s court ruling which struck down the contract granted to Li Ka-shing’s CK Hutchison Holdings Ltd. to operate two ports near the country’s strategic canal.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/hong-kong-says-strongly-disagrees-with-panama-ruling-on-ports",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "afbd0622c04c928f7d9ecb13a4fcf3e3",
+      "timestamp": "2026-02-07T16:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "World’s Central Banks Increasingly Look to Fed for Top Hires - From Istanbul to Rome, central banks with senior vacancies are embracing the pedigree that comes with a career spent in US policymaking.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/world-s-central-banks-increasingly-look-to-fed-for-top-hires",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9847833241528ff2752bbe3ac0234a7e",
+      "timestamp": "2026-02-07T16:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia Turns to India, Sri Lanka for Way Out of Its Labor Crisis - For years, Russia relied on migrants from Central Asia to fill gaps in its workforce. As demographics and the war in Ukraine drive the sharpest labor crisis in decades, recruiters are casting a wider ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/russia-turns-to-india-sri-lanka-for-way-out-of-its-labor-crisis",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "afbd0622c04c928f7d9ecb13a4fcf3e3",
+      "timestamp": "2026-02-07T16:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "World’s Central Banks Increasingly Look to Fed for Top Hires - From Istanbul to Rome, central banks with senior vacancies are embracing the pedigree that comes with a career spent in US policymaking.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/world-s-central-banks-increasingly-look-to-fed-for-top-hires",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "43e3867cbc94d44ca2ea74a5f5474c16",
+      "timestamp": "2026-02-07T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Six Labour Figures Queuing Up to Replace a Weakened Starmer - Discontent over UK Prime Minister Keir Starmer’s handling of revelations about his former US ambassador’s friendship with pedophile financier Jeffrey Epstein has members of the governing Labour Party ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/six-labour-figures-queuing-up-to-replace-a-weakened-starmer",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "cfa8d9c8c252a4edcd4b3cb5327d2157",
       "timestamp": "2026-02-07T13:44:14+09:00",
@@ -2150,61 +2205,6 @@
       "related_tickers": [],
       "content": "Traders Chase ‘AI Resistant’ Stocks as Disruption Fear Hits Tech - A new group of stock winners has emerged as technology shares slide: Companies with businesses that artificial intelligence can’t replicate.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-06/traders-chase-ai-resistant-stocks-as-disruption-fear-hits-tech",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d52f75b4418c7096f21a8d498dc9fd95",
-      "timestamp": "2026-02-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia-Led Boom Set to Turn Chips Into Trillion-Dollar Industry - The semiconductor industry will reach $1 trillion in revenue this year for the first time ever, fueled by artificial intelligence and the spread of computer chips to virtually every part of the econom",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/nvidia-led-boom-set-to-turn-chips-into-trillion-dollar-industry",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "74c078571e258aef19e2df91bbc23828",
-      "timestamp": "2026-02-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TikTok Hit By EU Ultimatum Over Addictive Design Dangers - ByteDance Ltd.’s TikTok has been warned by the European Union that it needs to overhaul the design of its platform over fears addictive features could “harm the physical and mental wellbeing of its us",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tiktok-hit-by-eu-ultimatum-over-addictive-design-dangers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9d36431e366eb79d6b39790297c69db4",
-      "timestamp": "2026-02-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Is Remaking the Global Oil Market, and Exxon and Chevron Want In - Exxon Mobil Corp. and Chevron Corp. are setting their sights on expanding production in nations tied to OPEC, including some of the world’s riskiest geopolitical hotspots, as President Donald Trump’s ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/oil-map-is-redrawn-as-exxon-chevron-push-expansion-under-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "74c078571e258aef19e2df91bbc23828",
-      "timestamp": "2026-02-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TikTok Hit By EU Ultimatum Over Addictive Design Dangers - ByteDance Ltd.’s TikTok has been warned by the European Union that it needs to overhaul the design of its platform over fears addictive features could “harm the physical and mental wellbeing of its us",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tiktok-hit-by-eu-ultimatum-over-addictive-design-dangers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9859ecee7dbe164c644f2eda4ef2b002",
-      "timestamp": "2026-02-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Illinois Sees ‘Unprecedented’ Budget Pressure From Trump Cuts - Illinois Governor JB Pritzker’s budget office is warning that the state is facing higher costs and more uncertainty as President Donald Trump’s administration threatens to pull back federal funding.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/illinois-sees-unprecedented-budget-pressure-from-trump-cuts",
       "sentiment": "NEUTRAL"
     }
   ]
