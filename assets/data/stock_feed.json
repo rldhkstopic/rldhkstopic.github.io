@@ -1,6 +1,41 @@
 {
-  "last_updated": "2026-02-08T01:07:01.659116+09:00",
+  "last_updated": "2026-02-08T03:08:08.511558+09:00",
   "items": [
+    {
+      "id": "f92ccedc01c7d70fc3e5d4336be94d7b",
+      "timestamp": "2026-02-08T01:35:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Technologies, Inc. (SOFI): A Bull Case Theory - We came across a bullish thesis on SoFi Technologies, Inc. on LongYield’s Substack. In this article, we will summarize the bulls’ thesis on SOFI. SoFi Technologies, Inc.’s share was trading at $24.60 ",
+      "url": "https://finance.yahoo.com/news/sofi-technologies-inc-sofi-bull-163522669.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cfec16b6a4b9739cad36c95e2b231603",
+      "timestamp": "2026-02-08T01:25:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hungary’s Opposition Lays Out Plans For the Country After Orban - Hungary’s opposition party published a detailed policy program on Saturday as it seeks to present itself as a credible alternative to Prime Minister Viktor Orban ahead of April elections.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/hungary-s-opposition-lays-out-plans-for-the-country-after-orban",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "af362652bf43fe876f12c8537965d3f3",
+      "timestamp": "2026-02-08T00:44:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Backs Television Broadcaster Nexstar’s Bid for Tegna - President Donald Trump backed television broadcaster Nexstar Media Group’s proposed $3.5 billion acquisition of Tegna Inc., saying it would be good for competition.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/trump-backs-bid-by-conservative-broadcaster-nexstar-to-buy-tegna",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "097868e7531e03371af2a39eca0defd2",
       "timestamp": "2026-02-08T00:04:05+09:00",
@@ -2172,39 +2207,6 @@
       "related_tickers": [],
       "content": "US Stocks Set for Rebound as Market Reassess AI - US stocks are set to recover as some confidence in the AI trade returns, but investors are still grappling with whether high spending and valuations are justified. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-06/us-stocks-set-for-rebound-as-market-reassess-ai-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "451a122449d6eeb4e741d87107d90ff0",
-      "timestamp": "2026-02-06T21:10:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Says Russia Keeps Up Pressure on Frontline Amid Talks - The situation on the frontline in Ukraine’s east “remains difficult” as Russian attacks persist despite talks to end the war, Kyiv’s top military general said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/ukraine-says-russia-keeps-up-pressure-on-frontline-amid-talks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6b971ef3b6e998180a0569fdc888a780",
-      "timestamp": "2026-02-06T21:10:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Reformist Warns Popular Votes May Be Thwarted - Pita Limjaroenrat, the prime ministerial candidate sidelined after the 2023 vote has said that the popular choice in Thailand’s general election on Sunday could again be thwarted as the establishment ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/thai-reformist-warns-popular-votes-may-be-thwarted-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77128c73c655038c54eb6d82e4db1228",
-      "timestamp": "2026-02-06T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon and Google Picked a Bad Time to Announce Extraordinary Spending - US hyperscalers announced huge expansions in capex, which Wall Street greeted with suspicion",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-06/amazon-meta-microsoft-and-google-s-huge-capex-plans-got-a-sour-reception",
       "sentiment": "NEUTRAL"
     }
   ]
