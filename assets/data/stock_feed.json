@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-02-07T13:33:21.956962+09:00",
+  "last_updated": "2026-02-07T15:14:39.980741+09:00",
   "items": [
+    {
+      "id": "cfa8d9c8c252a4edcd4b3cb5327d2157",
+      "timestamp": "2026-02-07T13:44:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Seeks to Tax Jane Street’s Profits, Economic Times Says - Indian officials recommended denying Jane Street Group LLC’s benefits under a tax treaty with Singapore, the Economic Times newspaper reported, threatening to compound the trading firm’s challenges in",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/india-seeks-to-tax-jane-street-s-profits-economic-times-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d940207eea1b75d4e091dc331d8d26e9",
       "timestamp": "2026-02-07T12:49:29+09:00",
@@ -2194,17 +2205,6 @@
       "related_tickers": [],
       "content": "Illinois Sees ‘Unprecedented’ Budget Pressure From Trump Cuts - Illinois Governor JB Pritzker’s budget office is warning that the state is facing higher costs and more uncertainty as President Donald Trump’s administration threatens to pull back federal funding.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-06/illinois-sees-unprecedented-budget-pressure-from-trump-cuts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ba9b511738e41ab21b771540007537f",
-      "timestamp": "2026-02-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s NASA Chief Wants Astronauts to Bring iPhones to Space - NASA astronauts venturing deeper in space than any human has traveled will be able to document and share images from the landmark moon mission next month using NASA-provided Apple Inc. iPhones.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/trump-s-nasa-chief-wants-astronauts-to-bring-iphones-to-space",
       "sentiment": "NEUTRAL"
     }
   ]
