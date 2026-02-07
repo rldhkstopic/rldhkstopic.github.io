@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-07T17:07:18.053524+09:00",
+  "last_updated": "2026-02-07T19:06:02.877198+09:00",
   "items": [
+    {
+      "id": "d98b0d6ac7fd9dc56ef1e4e7dcd3f52f",
+      "timestamp": "2026-02-07T18:14:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Malaysia Draws First Data Center Protest Over Pollution, Water - The rapid increase in data centers in Malaysia came under the microscope on Saturday, with the AI-driven buildout drawing its first public protest in the Southeast Asian country.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/malaysia-draws-first-data-center-protest-over-pollution-water",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "90c994d083df40a41c09907c2dd2d2f1",
+      "timestamp": "2026-02-07T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Considers More Defense Funds After €150 Billion Loan Ends - The European Union is exploring possibilities for fresh defense funding after an initial €150 billion ($177 billion) loan program was oversubscribed, according to people familiar with the talks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/eu-considers-more-defense-funds-after-150-billion-loan-ends",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cb15b0ad8b889d4532570017c5a3c523",
+      "timestamp": "2026-02-07T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy Says US Looks For Deal Ending Russia’s War by June - Ukraine’s President Volodymyr Zelenskiy says the US is proposing to finish all necessary negotiations and have all needed documents signed to end Russia’s invasion of Ukraine in June.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/zelenskiy-says-us-looks-for-deal-ending-russia-s-war-by-june",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be6045a6aaf5fcb5c05052e4dc4e2abd",
+      "timestamp": "2026-02-07T17:18:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Top Bank Beats Profit Forecast on Strong Credit Demand - State Bank of India reported stronger-than-expected profit as rising retail consumption demand boosted credit growth, helping the state-owned lender take on its private peers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/india-s-top-bank-beats-profit-forecast-on-strong-credit-demand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "36f9f14f41230ba634b849c6a8a0ab82",
+      "timestamp": "2026-02-07T17:00:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine Makes Emergency Power Cuts After New Missile Strikes - Emergency power cuts were imposed across much of Ukraine on Saturday after Russian drone and missile attacks on major energy facilities, especially in the nation’s west, grid operator Ukrenergo said i",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/ukraine-makes-emergency-power-cuts-after-latest-strikes-on-grid",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "11cb72c7c0f4868d552cda77ca22514a",
       "timestamp": "2026-02-07T16:49:02+09:00",
@@ -43,6 +98,17 @@
       "related_tickers": [],
       "content": "World’s Central Banks Increasingly Look to Fed for Top Hires - From Istanbul to Rome, central banks with senior vacancies are embracing the pedigree that comes with a career spent in US policymaking.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-07/world-s-central-banks-increasingly-look-to-fed-for-top-hires",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "efde2ae4c494403aa6e9e0f57994d050",
+      "timestamp": "2026-02-07T15:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Online Cannabis Sales Are Booming in Germany&mdash;and the Government Is Racing to Catch Up - <p>Doctors all over Europe are writing&nbsp;prescriptions&nbsp;for mail-order marijuana</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-02-07/online-cannabis-sales-are-booming-in-germany",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2139,72 +2205,6 @@
       "related_tickers": [],
       "content": "Goldman and Nomura See Pound Sliding to Three-Year Low Against Euro - Goldman Sachs Group Inc. and Nomura Holding Inc. strategists predict the pound will slide to a three-year low against the euro as UK political turmoil deepens and interest-rate cuts loom.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-06/goldman-nomura-see-pound-sliding-to-three-year-low-against-euro",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0d8af987c32bd3dc82dd4ed7aee1b2c5",
-      "timestamp": "2026-02-06T20:03:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mercuria to Start Joint Venture With Tata’s Trading Unit - Mercuria Energy Group has entered into a joint venture with the trading and marketing arm of Indian steel giant Tata Group, both companies said on Friday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/mercuria-to-start-joint-venture-with-tata-s-trading-unit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "76efe464680a3e86c4f5ecc34bb3fd40",
-      "timestamp": "2026-02-06T20:01:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Epstein Fallout Puts UK Premier on the Brink - Keir Starmer’s handling of a scandal surrounding his pick of US ambassador threatens to topple the Labour leader’s government.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-06/epstein-fallout-puts-uk-premier-starmer-on-the-brink",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f7f933433bdd8e9d8090a95018b39eaa",
-      "timestamp": "2026-02-06T20:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carlyle Profit Beats Estimates as CEO Schwartz Tops 2025 Targets - Carlyle Group Inc. exceeded the goals that Chief Executive Officer Harvey Schwartz had set for fee-related earnings and asset growth in 2025, while posting fourth-quarter results that surpassed Wall S",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/carlyle-profit-beats-estimates-as-ceo-schwartz-tops-2025-targets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ba5f606318a98d25cb418f58fb745257",
-      "timestamp": "2026-02-06T20:00:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Reformist Warns Establishment May Again Thwart Popular Vote - The popular choice in Thailand’s general election on Sunday could again be thwarted as the establishment that opposes reforms could still influence the final outcome, according to Pita Limjaroenrat, t",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/thai-reformist-warns-establishment-may-again-thwart-popular-vote",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "67a0e5237574ff21e73bc2fa84bc3d71",
-      "timestamp": "2026-02-06T20:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tesla Weighs New York, Arizona, Idaho to Lift Solar Cell Output - Tesla Inc. isn’t waiting around to see if Elon Musk’s 100-gigawatt solar ambition is feasible &mdash; it’s already acting on it. The company is evaluating multiple sites across the US to begin manufac",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tesla-weighs-new-york-arizona-idaho-to-lift-solar-cell-output",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aeb1608e839fcf3a290a0ea64b4f6144",
-      "timestamp": "2026-02-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders Chase ‘AI Resistant’ Stocks as Disruption Fear Hits Tech - A new group of stock winners has emerged as technology shares slide: Companies with businesses that artificial intelligence can’t replicate.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/traders-chase-ai-resistant-stocks-as-disruption-fear-hits-tech",
       "sentiment": "NEUTRAL"
     }
   ]
