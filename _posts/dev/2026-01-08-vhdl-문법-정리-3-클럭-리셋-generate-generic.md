@@ -7,7 +7,7 @@ category: dev
 subcategory: "VHDL"
 tags: [VHDL, VHDL-2008, reset, clock, generate, generic, RTL]
 views: 0
-permalink: /dev/14/
+permalink: /dev/19/
 series: "VHDL 문법 정리"
 series_order: 3
 ---

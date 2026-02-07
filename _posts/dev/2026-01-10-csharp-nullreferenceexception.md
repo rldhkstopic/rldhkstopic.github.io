@@ -7,7 +7,7 @@ category: dev
 subcategory: "C#"
 tags: [C#, .NET, NullReferenceException, 오류해결, null체크]
 views: 0
-permalink: /dev/9/
+permalink: /dev/18/
 post_number: 9
 ---
 

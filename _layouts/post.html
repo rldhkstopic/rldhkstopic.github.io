@@ -19,7 +19,40 @@ layout: default
         </nav>
       {% endif %}
       <h1 class="post-title">{{ page.title | escape }}</h1>
-      <div class="post-meta">
+      <div class="doc-meta-row">
+        {%- assign _tz = page.date | date: "%z" -%}
+        <span class="doc-badge" title="게시일">
+          <time datetime="{{ page.date | date_to_xmlschema }}">
+            {%- if _tz == "+0900" -%}
+              {{ page.date | date: "%Y.%m.%d" }}
+            {%- else -%}
+              {{ page.date | date: "%s" | plus: 32400 | date: "%Y.%m.%d" }}
+            {%- endif -%}
+          </time>
+        </span>
+        {% if page.category %}
+          {% assign category_names = 'daily:일기,dev:개발,document:문서,study:학습,stock:주식' | split: ',' %}
+          {% assign category_display = page.category %}
+          {% for cat_pair in category_names %}
+            {% assign cat_data = cat_pair | split: ':' %}
+            {% if cat_data[0] == page.category %}
+              {% assign category_display = cat_data[1] %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          <a href="{{ page.category | prepend: '/' | append: '/' | relative_url }}" class="doc-badge">{{ category_display }}</a>
+        {% endif %}
+        {% if page.author %}
+          <span class="doc-badge">작성자: {{ page.author }}</span>
+        {% endif %}
+        {% if page.last_modified_at %}
+          {%- assign _mtz = page.last_modified_at | date: "%z" -%}
+          <span class="doc-badge doc-badge-muted" title="수정일">
+            수정: {%- if _mtz == "+0900" -%}{{ page.last_modified_at | date: "%Y.%m.%d" }}{%- else -%}{{ page.last_modified_at | date: "%s" | plus: 32400 | date: "%Y.%m.%d" }}{%- endif -%}
+          </span>
+        {% endif %}
+      </div>
+      <div class="post-meta post-meta-fallback" aria-hidden="true">
         {% if page.author %}
           <span class="author">작성자: {{ page.author }}</span>
         {% endif %}

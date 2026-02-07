@@ -108,6 +108,18 @@ bundle exec jekyll serve
 ### 3. 서버 중지
 터미널에서 `Ctrl + C`를 누르세요.
 
+### Docker로 서버 실행 (선택)
+Ruby를 로컬에 설치하지 않고 Docker로 실행할 수 있다.
+
+```bash
+docker compose up --build
+```
+
+접속: `http://localhost:4000` (LiveReload 포트 35729)
+
+백그라운드 실행: `docker compose up -d --build`  
+중지: `docker compose down`
+
 ### ⚠️ 로컬 서버와 Vercel 배포의 관계
 
 - **로컬 서버 (`bundle exec jekyll serve`)**: 로컬 컴퓨터에서만 작동하는 개발 서버

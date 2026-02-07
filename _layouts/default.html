@@ -58,14 +58,14 @@
     
     <!-- 로그인/OAuth 기반 관리자 기능은 사용하지 않으므로 기본 레이아웃에서 제외한다. -->
   </head>
-  <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}">
-    <header class="site-header">
-      <div class="wrapper">
+  <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %} layout-lobehub">
+    <header class="site-header lobehub-header">
+      <div class="header-inner">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
           <div class="trigger" style="position: relative;">
-            <!-- 상단 네비게이션 텍스트 링크 제거, 사이트 타이틀만 홈으로 사용 -->
-            <!-- 라이트/다크 모드 토글 (Uiverse RiccardoRapelli jolly-chicken-91) -->
+            <span class="header-search-hint" aria-hidden="true"><kbd>Ctrl</kbd> <kbd>K</kbd></span>
+            <!-- 라이트/다크 모드 토글 -->
             <label class="switch theme-toggle" aria-label="테마 전환">
               <input id="themeToggleInput" type="checkbox" />
               <div class="slider round">
@@ -128,14 +128,14 @@
       </div>
     </header>
 
-    <main class="page-content">
-      <div class="wrapper">
+    <main class="page-content lobehub-main">
+      <div class="wrapper content-wrapper">
         {{ content }}
       </div>
     </main>
 
     {% unless page.url == '/' or page.url == '/index.html' %}
-    <footer class="site-footer">
+    <footer class="site-footer lobehub-footer">
       <div class="wrapper">
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
       </div>

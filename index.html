@@ -2,15 +2,60 @@
 layout: default
 ---
 
-<div class="home">
-  <!-- 좌측 사이드바 -->
-  <aside class="sidebar">
-    <!-- 프로필 섹션 -->
-    <div class="sidebar-section profile-section">
+<div class="home home-single">
+  <!-- 히어로: 아이콘 + 제목 + 부제 + 메타 (LobeHub 스타일) -->
+  <header class="home-header hero-section">
+    <div class="sidebar-section profile-section profile-card hero-card">
       {% assign github_username = site.github | split: '/' | last %}
       {% assign github_avatar = github_username | prepend: 'https://github.com/' | append: '.png' %}
-      <div class="profile-avatar">
-        <img src="{{ github_avatar }}" alt="Profile" id="profile-avatar-img" />
+      <div class="profile-card-inner">
+        <div class="profile-card-left">
+          <div class="profile-card-avatar hero-avatar" aria-hidden="true">
+            <img src="{{ github_avatar }}" alt="" id="profile-avatar-img" />
+          </div>
+          <div class="profile-card-body">
+            <div class="profile-card-head">
+              <div class="profile-card-head-col1">
+                <h1 class="profile-card-title hero-title">나의 기술 블로그</h1>
+                <p class="profile-card-subtitle hero-subtitle">내가 살아가는 이야기</p>
+                <div class="profile-meta-row">
+                  <span class="profile-version">v{{ site.time | date: "%y.%-m.%-d" }}</span>
+                  <a href="{{ site.github }}" target="_blank" rel="noopener" class="profile-publisher">{{ github_username }}</a>
+                  <div class="profile-stats-row">
+                    <span class="profile-stat">
+                      <svg class="profile-stat-icon profile-stat-icon-person" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                      <span>총 <span id="total-visitors">-</span></span>
+                    </span>
+                    <span class="profile-stat profile-stat-no-icon">어제 <span id="yesterday-visitors">-</span></span>
+                    <span class="profile-stat profile-stat-no-icon">오늘 <span id="today-visitors">-</span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="profile-card-head-col2">
+                <div class="profile-head-right-row">
+                  <a href="{{ site.github }}" target="_blank" rel="noopener" class="profile-contributions-link profile-contributions-head" title="GitHub Contributions">
+                    <img src="https://ghchart.rshah.org/{{ github_username }}" alt="GitHub Contributions (최근 7일)" class="profile-contributions-chart" loading="lazy" />
+                  </a>
+                  <div class="profile-card-links">
+                    <a href="{{ site.github }}" target="_blank" rel="noopener" class="profile-link-icon" title="GitHub" aria-label="GitHub">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                      </svg>
+                    </a>
+                    <a href="mailto:{{ site.email }}" class="profile-link-icon" title="Email" aria-label="Email">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="profile-meta-bottom">
+              <p class="profile-intro-text">FPGA와 VHDL 기반 디지털 설계, 바이브코딩, 시퀀스 설계, RTL 설계 등 하드웨어 엔지니어링과 코딩에 관심을 두고 있습니다.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -18,631 +63,313 @@ layout: default
           if (img) {
             img.onerror = function() {
               this.style.display = 'none';
-              this.parentElement.innerHTML = '❤️';
+              this.parentElement.innerHTML = '<span aria-hidden="true">❤️</span>';
             };
           }
         });
       </script>
-      <div class="profile-social">
-        <a href="{{ site.github }}" target="_blank" class="social-link" title="GitHub">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-          </svg>
-        </a>
-        {% if site.youtube != "" %}
-        <a href="{{ site.youtube }}" target="_blank" class="social-link" title="YouTube">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-          </svg>
-        </a>
-        {% endif %}
-        <a href="mailto:{{ site.email }}" class="social-link" title="Email">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-          </svg>
-        </a>
-      </div>
-      <div class="profile-name">{{ site.title }}</div>
-      <div class="profile-bio">{{ site.bio | newline_to_br }}</div>
-
-      <!-- 방문자 통계 (assets/analytics.json 기반) -->
-      <div class="profile-visitors">
-        <div class="visitor-stats-simple" aria-label="방문자 통계">
-          <div class="visitor-stats-title">방문자</div>
-          <div class="visitor-stats-numbers">
-            <span class="visitor-stat-value">전체 <span id="total-visitors">-</span></span>
-            <span class="visitor-stats-separator">|</span>
-            <span class="visitor-stat-value">오늘 <span id="today-visitors">-</span></span>
-            <span class="visitor-stats-separator">|</span>
-            <span class="visitor-stat-value">어제 <span id="yesterday-visitors">-</span></span>
-          </div>
-        </div>
-      </div>
     </div>
+  </header>
 
-    <!-- 카테고리 섹션 -->
-    <div class="sidebar-section sidebar-categories">
-      <div class="sidebar-section-header">
-        <div class="sidebar-section-title">카테고리</div>
-      </div>
-      <ul class="category-list">
-        <li class="category-item">
-          <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">
-              <span class="sidebar-category-icon-wrapper icon-daily">
-                <i data-lucide="calendar" class="sidebar-category-icon"></i>
-              </span> 일기
-            </span>
-            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </a>
-          <ul class="sub-category-list">
-            <li class="sub-category-item">
-              <a href="/daily/" class="sub-category-link">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                  <line x1="16" y1="13" x2="8" y2="13"></line>
-                  <line x1="16" y1="17" x2="8" y2="17"></line>
-                  <polyline points="10 9 9 9 8 9"></polyline>
-                </svg>
-                나의 일기
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="category-item">
-          <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">
-              <span class="sidebar-category-icon-wrapper icon-study">
-                <i data-lucide="book-open" class="sidebar-category-icon"></i>
-              </span> 학습
-            </span>
-            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </a>
-          <ul class="sub-category-list">
-            <li class="sub-category-item">
-              <a href="#" class="sub-category-link" onclick="event.preventDefault(); toggleSubCategory(this);">
-                <i data-lucide="code" class="sub-category-icon"></i>
-                개발
-                <svg class="sub-category-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <polyline points="9 18 15 12 9 6"></polyline>
-                </svg>
-              </a>
-              <ul class="sub-sub-category-list">
-                <li class="sub-sub-category-item">
-                  <a href="/dev/" class="sub-sub-category-link">
-                    <i data-lucide="file-text" class="sub-sub-category-icon"></i>
-                    개발일지
-                  </a>
-                </li>
-                <li class="sub-sub-category-item">
-                  <a href="/dev/vhdl/" class="sub-sub-category-link">
-                    <i data-lucide="circuit-board" class="sub-sub-category-icon"></i>
-                    VHDL
-                  </a>
-                </li>
-                <li class="sub-sub-category-item">
-                  <a href="/dev/csharp/" class="sub-sub-category-link">
-                    <i data-lucide="code-2" class="sub-sub-category-icon"></i>
-                    C#
-                  </a>
-                </li>
-                <li class="sub-sub-category-item">
-                  <a href="/dev/ai/" class="sub-sub-category-link">
-                    <i data-lucide="brain" class="sub-sub-category-icon"></i>
-                    AI
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="sub-category-item">
-              <a href="/study/" class="sub-category-link">
-                <i data-lucide="cpu" class="sub-category-icon"></i>
-                FPGA
-              </a>
-            </li>
-            <li class="sub-category-item">
-              <a href="/study/" class="sub-category-link">
-                <i data-lucide="help-circle" class="sub-category-icon"></i>
-                모르는 개념
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="category-item">
-          <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">
-              <span class="sidebar-category-icon-wrapper icon-stock">
-                <i data-lucide="trending-up" class="sidebar-category-icon"></i>
-              </span> 주식
-            </span>
-            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </a>
-          <ul class="sub-category-list">
-            <li class="sub-category-item">
-              <a href="/stock/" class="sub-category-link">
-                <i data-lucide="rss" class="sub-category-icon"></i>
-                실시간 뉴스 피드
-              </a>
-            </li>
-            <li class="sub-category-item">
-              <a href="/stock/" class="sub-category-link">
-                <i data-lucide="star" class="sub-category-icon"></i>
-                관심 종목
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="category-item">
-          <a href="#" class="category-link" onclick="event.preventDefault(); toggleCategory(this);">
-            <span class="category-title">
-              <span class="sidebar-category-icon-wrapper icon-document">
-                <i data-lucide="file-text" class="sidebar-category-icon"></i>
-              </span> 문서
-            </span>
-            <svg class="category-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- 인기글 -->
-    <div class="sidebar-section">
-      <div class="sidebar-section-title">인기글</div>
-      <div class="post-list">
-        {% assign popular_posts = site.posts | sort: "views" | reverse | limit: 5 %}
-        {% for post in popular_posts limit: 5 %}
-          <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-            <div class="post-list-title-wrapper">
-              <span class="post-list-title">{{ post.title | escape }}</span>
+  <div class="tab-panels">
+    <!-- 개요: 카드 그리드 (블로그 소개·빠른이동·최신글) -->
+    <div class="tab-panel active" data-panel="overview" role="tabpanel">
+      <div class="tab-panel-content overview-panel">
+        <div class="overview-grid">
+          <article class="overview-card overview-card-intro">
+            <h2 class="overview-card-title">이 블로그는</h2>
+            <p class="overview-card-body">FPGA·VHDL·RTL·바이브코딩 등 하드웨어 설계와 코딩 관심사를 정리한 기술 블로그입니다. 공부한 내용을 기록하고, 나중에 다시 찾아보기 쉽게 두는 걸 목표로 씁니다.</p>
+          </article>
+          <article class="overview-card overview-card-quick">
+            <h2 class="overview-card-title">빠른 이동</h2>
+            <div class="overview-quick-links">
+              <a href="/dev/" class="overview-quick-link"><i data-lucide="code" class="overview-quick-icon"></i><span>개발</span></a>
+              <a href="/dev/vhdl/" class="overview-quick-link"><i data-lucide="circuit-board" class="overview-quick-icon"></i><span>VHDL</span></a>
+              <a href="/document/" class="overview-quick-link"><i data-lucide="file-text" class="overview-quick-icon"></i><span>문서</span></a>
+              <a href="/study/" class="overview-quick-link"><i data-lucide="book-open" class="overview-quick-icon"></i><span>학습</span></a>
+              <a href="/daily/" class="overview-quick-link"><i data-lucide="calendar" class="overview-quick-icon"></i><span>일기</span></a>
+              <a href="/stock/" class="overview-quick-link"><i data-lucide="trending-up" class="overview-quick-icon"></i><span>주식</span></a>
             </div>
-            <div class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</div>
-          </a>
-        {% endfor %}
-      </div>
-    </div>
-  </aside>
-
-  <!-- 메인 콘텐츠 영역 -->
-  <main class="main-content">
-    <!-- 소개글 패널 -->
-    <div class="intro-panel">
-      <div class="intro-content">
-        <h2 class="intro-title">{{ site.description | default: "기술 블로그" }}</h2>
-        <p class="intro-text">{{ site.bio | default: "개발과 학습을 기록하는 공간입니다." }}</p>
-      </div>
-    </div>
-
-    <!-- 첫 번째 행: 블로그 컨테이너 -->
-    <div class="blog-container">
-      <!-- 좌측: 최신글 -->
-      <div class="blog-container-left">
-        <!-- 전체 글 리스트 -->
-        <div class="content-section all-posts-section">
-          <div class="section-header">
-            <h2 class="section-title">
-              <span class="category-icon-wrapper icon-latest">
-                <i data-lucide="file-text" class="category-icon"></i>
-              </span> 최신글
-            </h2>
-        {% if site.posts.size > 6 %}
-        <a href="/blog/" class="section-more" title="전체 글 보기">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="12" y1="5" x2="12" y2="19"></line>
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-              </svg>
-            </a>
-            {% endif %}
-          </div>
-          <div class="post-list all-posts-list">
-            {% assign all_posts = site.posts | limit: 6 %}
-            {% if all_posts.size > 0 %}
-              {% for post in all_posts limit: 6 %}
-                <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-                  <div class="post-list-title-wrapper">
-                    <span class="post-list-title">{{ post.title | escape }}</span>
-                  </div>
-                  <div class="post-list-meta">
-                    {% assign category_names = 'daily:일기,dev:개발,document:문서,study:학습' | split: ',' %}
-                    {% assign category_display = post.category | capitalize %}
-                    {% for cat_pair in category_names %}
-                      {% assign cat_data = cat_pair | split: ':' %}
-                      {% if cat_data[0] == post.category %}
-                        {% assign category_display = cat_data[1] %}
-                        {% break %}
-                      {% endif %}
-                    {% endfor %}
-                    <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                    {% if post.subcategory %}
-                    <span class="post-list-category-path">{{ category_display }} > {{ post.subcategory }}</span>
-                    {% else %}
-                    <span class="post-list-category-path">{{ category_display }}</span>
-                    {% endif %}
-                    <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-                  </div>
-                </a>
-              {% endfor %}
-            {% else %}
-              <div class="post-list-item empty">
-                <span>아직 포스트가 없습니다.</span>
-              </div>
-            {% endif %}
-          </div>
+          </article>
+          <article class="overview-card overview-card-latest">
+            <div class="overview-card-head">
+              <h2 class="overview-card-title">최신글</h2>
+              {% if site.posts.size > 5 %}
+              <a href="/blog/" class="overview-card-more" title="전체 글 보기">전체</a>
+              {% endif %}
+            </div>
+            <ul class="overview-post-list">
+              {% assign all_posts = site.posts | limit: 5 %}
+              {% if all_posts.size > 0 %}
+                {% for post in all_posts %}
+                  <li>
+                    <a href="{{ post.url | relative_url }}" class="overview-post-item" data-post-date="{{ post.date | date_to_xmlschema }}">
+                      <span class="overview-post-title">{{ post.title | escape }}</span>
+                      <span class="overview-post-meta">{{ post.date | date: "%Y.%m.%d" }} · {% assign cat_map = 'daily:일기,dev:개발,document:문서,study:학습,stock:주식' | split: ',' %}{% assign cat_display = post.category %}{% for p in cat_map %}{% assign kv = p | split: ':' %}{% if kv[0] == post.category %}{% assign cat_display = kv[1] %}{% break %}{% endif %}{% endfor %}{{ cat_display }}{% if post.subcategory %} › {{ post.subcategory }}{% endif %}</span>
+                    </a>
+                  </li>
+                {% endfor %}
+              {% else %}
+                <li class="overview-post-empty">아직 포스트가 없습니다.</li>
+              {% endif %}
+            </ul>
+          </article>
         </div>
       </div>
+    </div>
 
-      <!-- 우측: Daily (위), Document (아래) -->
-      <div class="blog-container-right">
-        <!-- 일상 -->
-        <div class="content-section">
-          <div class="section-header">
-            <h2 class="section-title">
-              <span class="category-icon-wrapper icon-daily">
-                <i data-lucide="calendar" class="category-icon"></i>
-              </span> 일기
-            </h2>
-            <a href="/daily/" class="section-more" title="더보기">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="12" y1="5" x2="12" y2="19"></line>
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-              </svg>
-            </a>
+    <!-- 일기 -->
+    <div class="tab-panel" data-panel="daily" role="tabpanel" hidden>
+      <div class="tab-panel-content">
+        <article class="tab-content-card">
+          <div class="tab-content-card-head">
+            <h2 class="tab-content-card-title"><i data-lucide="calendar" class="tab-content-card-icon icon-daily"></i> 일기</h2>
+            <a href="/daily/" class="tab-content-card-more" title="더보기">전체</a>
           </div>
-          <div class="post-list">
-            {% assign daily_posts = site.posts | where: "category", "daily" | limit: 5 %}
+          <ul class="tab-content-post-list">
+            {% assign daily_posts = site.posts | where: "category", "daily" %}
             {% if daily_posts.size > 0 %}
               {% for post in daily_posts limit: 5 %}
-                <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-                  <div class="post-list-title-wrapper">
-                    <span class="post-list-title">{{ post.title | escape }}</span>
-                  </div>
-                  <div class="post-list-meta">
-                    <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                    {% if post.subcategory %}
-                    <span class="post-list-category-path">일기 > {{ post.subcategory }}</span>
-                    {% else %}
-                    <span class="post-list-category-path">일기</span>
-                    {% endif %}
-                    <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-                  </div>
-                </a>
+                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
               {% endfor %}
             {% else %}
-              <div class="post-list-item empty">
-                <span>아직 포스트가 없습니다.</span>
-              </div>
+              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
             {% endif %}
-          </div>
-        </div>
+          </ul>
+        </article>
+      </div>
+    </div>
 
-        <!-- 문서 -->
-        <div class="content-section">
-          <div class="section-header">
-            <h2 class="section-title">
-              <span class="category-icon-wrapper icon-document">
-                <i data-lucide="file-text" class="category-icon"></i>
-              </span> 문서
-            </h2>
-            <a href="/document/" class="section-more" title="더보기">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="12" y1="5" x2="12" y2="19"></line>
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-              </svg>
-            </a>
+    <!-- 개발 -->
+    <div class="tab-panel" data-panel="dev" role="tabpanel" hidden>
+      <div class="tab-panel-content">
+        <article class="tab-content-card">
+          <div class="tab-content-card-head">
+            <h2 class="tab-content-card-title"><i data-lucide="code" class="tab-content-card-icon icon-dev"></i> 개발</h2>
+            <a href="/dev/" class="tab-content-card-more" title="더보기">전체</a>
           </div>
-          <div class="post-list">
-            {% assign document_posts = site.posts | where: "category", "document" | limit: 2 %}
+          <div class="tab-content-subcats">
+            {% assign dev_structure = site.data.dev_structure %}
+            {% for subcat in dev_structure.subcategories %}
+              {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title %}
+              <a href="/dev/{{ subcat.id }}/" class="tab-content-subcat-link"><span class="tab-content-subcat-title">{{ subcat.title }}</span><span class="tab-content-subcat-count">{{ subcat_posts.size }}</span></a>
+            {% endfor %}
+          </div>
+          <ul class="tab-content-post-list">
+            {% assign dev_posts = site.posts | where: "category", "dev" %}
+            {% if dev_posts.size > 0 %}
+              {% for post in dev_posts limit: 5 %}
+                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}{% if post.subcategory %} · {{ post.subcategory }}{% endif %}</span></a></li>
+              {% endfor %}
+            {% else %}
+              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
+            {% endif %}
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <!-- VHDL -->
+    <div class="tab-panel" data-panel="vhdl" role="tabpanel" hidden>
+      <div class="tab-panel-content">
+        <article class="tab-content-card">
+          <div class="tab-content-card-head">
+            <h2 class="tab-content-card-title"><i data-lucide="circuit-board" class="tab-content-card-icon icon-dev"></i> VHDL</h2>
+            <a href="/dev/vhdl/" class="tab-content-card-more" title="더보기">전체</a>
+          </div>
+          <ul class="tab-content-post-list">
+            {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" %}
+            {% if vhdl_posts.size > 0 %}
+              {% for post in vhdl_posts limit: 5 %}
+                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
+              {% endfor %}
+            {% else %}
+              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
+            {% endif %}
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <!-- 문서 -->
+    <div class="tab-panel" data-panel="document" role="tabpanel" hidden>
+      <div class="tab-panel-content">
+        <article class="tab-content-card">
+          <div class="tab-content-card-head">
+            <h2 class="tab-content-card-title"><i data-lucide="file-text" class="tab-content-card-icon icon-document"></i> 문서</h2>
+            <a href="/document/" class="tab-content-card-more" title="더보기">전체</a>
+          </div>
+          <ul class="tab-content-post-list">
+            {% assign document_posts = site.posts | where: "category", "document" %}
             {% if document_posts.size > 0 %}
-              {% for post in document_posts limit: 2 %}
-                <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-                  <div class="post-list-title-wrapper">
-                    <span class="post-list-title">{{ post.title | escape }}</span>
-                  </div>
-                  <div class="post-list-meta">
-                    <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                    {% if post.subcategory %}
-                    <span class="post-list-category-path">문서 > {{ post.subcategory }}</span>
-                    {% else %}
-                    <span class="post-list-category-path">문서</span>
-                    {% endif %}
-                    <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-                  </div>
-                </a>
+              {% for post in document_posts limit: 5 %}
+                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
               {% endfor %}
             {% else %}
-              <div class="post-list-item empty">
-                <span>아직 포스트가 없습니다.</span>
-              </div>
+              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
             {% endif %}
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <!-- 학습 -->
+    <div class="tab-panel" data-panel="study" role="tabpanel" hidden>
+      <div class="tab-panel-content">
+        <article class="tab-content-card">
+          <div class="tab-content-card-head">
+            <h2 class="tab-content-card-title"><i data-lucide="book-open" class="tab-content-card-icon icon-study"></i> 학습</h2>
+            <a href="/study/" class="tab-content-card-more" title="더보기">전체</a>
           </div>
-        </div>
+          <ul class="tab-content-post-list">
+            {% assign study_posts = site.posts | where: "category", "study" %}
+            {% if study_posts.size > 0 %}
+              {% for post in study_posts limit: 5 %}
+                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
+              {% endfor %}
+            {% else %}
+              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
+            {% endif %}
+          </ul>
+        </article>
       </div>
     </div>
 
-    <!-- 두 번째 행: 개발 (좌측), 주식 (우측) -->
-    <div class="bottom-sections">
-      <!-- 개발 -->
-      <div class="content-section">
-        <div class="section-header">
-          <h2 class="section-title">
-            <span class="category-icon-wrapper icon-dev">
-              <i data-lucide="code" class="category-icon"></i>
-            </span> 개발
-          </h2>
-          <a href="/dev/" class="section-more" title="더보기">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="12" y1="5" x2="12" y2="19"></line>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-            </svg>
-          </a>
-        </div>
-        <div class="dev-subcategories">
-          {% assign dev_structure = site.data.dev_structure %}
-          {% for subcat in dev_structure.subcategories %}
-            {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title %}
-            <a href="/dev/{{ subcat.id }}/" class="dev-subcategory-link">
-              <span class="dev-subcategory-icon-wrapper">
-                {% if subcat.id == 'vhdl' %}
-                  <i data-lucide="circuit-board" class="dev-subcategory-icon"></i>
-                {% elsif subcat.id == 'csharp' %}
-                  <i data-lucide="code-2" class="dev-subcategory-icon"></i>
-                {% elsif subcat.id == 'vivado' %}
-                  <i data-lucide="settings" class="dev-subcategory-icon"></i>
-                {% else %}
-                  <i data-lucide="code" class="dev-subcategory-icon"></i>
+    <!-- 주식 -->
+    <div class="tab-panel" data-panel="stock" role="tabpanel" hidden>
+      <div class="tab-panel-content">
+        <article class="tab-content-card">
+          <div class="tab-content-card-head">
+            <h2 class="tab-content-card-title"><i data-lucide="trending-up" class="tab-content-card-icon icon-stock"></i> 주식</h2>
+            <a href="/stock/" class="tab-content-card-more" title="더보기">전체</a>
+          </div>
+          <ul class="tab-content-post-list">
+            {% assign stock_posts = site.posts | where: "category", "stock" %}
+            {% if stock_posts.size == 0 %}
+              {% assign all_docs = site.posts | where: "category", "document" %}
+              {% assign stock_posts = "" | split: "" %}
+              {% for post in all_docs %}
+                {% if post.tags contains '주식' or post.tags contains 'Stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '경제' %}
+                  {% assign stock_posts = stock_posts | push: post %}
                 {% endif %}
-              </span>
-              <span class="dev-subcategory-title">{{ subcat.title }}</span>
-              <span class="dev-subcategory-count">{{ subcat_posts.size }}</span>
-            </a>
-          {% endfor %}
-        </div>
-      </div>
-
-      <!-- 주식 관련 -->
-      <div class="content-section">
-        <div class="section-header">
-          <h2 class="section-title">
-            <span class="category-icon-wrapper icon-stock">
-              <i data-lucide="trending-up" class="category-icon"></i>
-            </span> 주식
-          </h2>
-          <a href="/stock/" class="section-more" title="더보기">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="12" y1="5" x2="12" y2="19"></line>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-            </svg>
-          </a>
-        </div>
-        <div class="post-list">
-          {% assign stock_posts = site.posts | where: "category", "stock" | limit: 5 %}
-          {% if stock_posts.size == 0 %}
-            {% assign all_docs = site.posts | where: "category", "document" %}
-            {% assign stock_posts = "" | split: "" %}
-            {% for post in all_docs %}
-              {% if post.tags contains '주식' or post.tags contains 'Stock' or post.tags contains 'stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '블룸버그' or post.title contains 'Bloomberg' or post.title contains '경제' %}
-                {% assign stock_posts = stock_posts | push: post %}
-              {% endif %}
-            {% endfor %}
-            {% assign stock_posts = stock_posts | limit: 5 %}
-          {% endif %}
-          {% if stock_posts.size > 0 %}
-            {% for post in stock_posts limit: 5 %}
-              <a href="{{ post.url | relative_url }}" class="post-list-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-                <div class="post-list-title-wrapper">
-                  <span class="post-list-title">{{ post.title | escape }}</span>
-                </div>
-                <div class="post-list-meta">
-                  <span class="post-list-date" data-post-date="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</span>
-                  {% if post.subcategory %}
-                  <span class="post-list-category-path">Document > {{ post.subcategory }}</span>
-                  {% else %}
-                  <span class="post-list-category-path">Document</span>
-                  {% endif %}
-                  <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
-                </div>
-              </a>
-            {% endfor %}
-          {% else %}
-            <div class="post-list-item empty">
-              <span>아직 포스트가 없습니다.</span>
-            </div>
-          {% endif %}
-        </div>
+              {% endfor %}
+            {% endif %}
+            {% if stock_posts.size > 0 %}
+              {% for post in stock_posts limit: 5 %}
+                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
+              {% endfor %}
+            {% else %}
+              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
+            {% endif %}
+          </ul>
+        </article>
       </div>
     </div>
-
-    <!-- 모바일/태블릿 상단 1줄 프로필 바 -->
-    <div class="mobile-profile-bar" aria-label="프로필">
-      {% assign github_username = site.github | split: '/' | last %}
-      {% assign github_avatar = github_username | prepend: 'https://github.com/' | append: '.png' %}
-      <div class="mobile-profile-top">
-        <div class="mobile-profile-top-left">
-          <img src="{{ github_avatar }}" alt="Profile" class="mobile-profile-avatar" id="mobile-profile-avatar-img" />
-          <div class="mobile-profile-title">{{ site.title }}</div>
-        </div>
-        <div class="mobile-profile-top-right">
-          <a href="{{ site.github }}" target="_blank" class="mobile-profile-icon" title="GitHub" aria-label="GitHub">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-            </svg>
-          </a>
-          <a href="mailto:{{ site.email }}" class="mobile-profile-icon" title="Email" aria-label="Email">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="mobile-profile-bottom" aria-label="상태 및 방문자">
-        <div class="mobile-profile-status">
-          {{ site.bio | strip_html | strip_newlines | truncate: 80 }}
-        </div>
-        <div class="mobile-profile-visitors" aria-label="오늘 방문자 수">
-          오늘 <span class="mobile-profile-visitors-value" id="today-visitors-mobile">-</span>
-        </div>
-      </div>
-    </div>
-    <script>
-      // 모바일 프로필 아바타 로드 실패 시 폴백
-      document.addEventListener('DOMContentLoaded', function() {
-        const img = document.getElementById('mobile-profile-avatar-img');
-        if (img) {
-          img.onerror = function() {
-            this.style.display = 'none';
-            const left = this.closest('.mobile-profile-top-left');
-            if (left) {
-              const fallback = document.createElement('div');
-              fallback.className = 'mobile-profile-avatar-fallback';
-              fallback.textContent = '❤️';
-              left.insertBefore(fallback, left.firstChild);
-            }
-          };
-        }
-      });
-    </script>
-
-    <!-- 모바일/태블릿 카테고리 슬라이더: 한 줄, 좌우 스와이프, 하위 없음 -->
-    <nav class="mobile-category-slider" aria-label="카테고리">
-      <div class="mobile-category-track">
-        <a class="mobile-category-pill" href="/daily/">
-          <i class="ph ph-calendar-blank mobile-category-icon" aria-hidden="true"></i>
-          <span class="mobile-category-text">Daily</span>
-        </a>
-        <a class="mobile-category-pill" href="/dev/">
-          <i class="ph ph-code mobile-category-icon" aria-hidden="true"></i>
-          <span class="mobile-category-text">Dev</span>
-        </a>
-        <a class="mobile-category-pill" href="/dev/vhdl/">
-          <i class="ph ph-cpu mobile-category-icon" aria-hidden="true"></i>
-          <span class="mobile-category-text">VHDL</span>
-        </a>
-        <a class="mobile-category-pill" href="/document/">
-          <i class="ph ph-file-text mobile-category-icon" aria-hidden="true"></i>
-          <span class="mobile-category-text">Document</span>
-        </a>
-        <a class="mobile-category-pill" href="/study/">
-          <i class="ph ph-book-open mobile-category-icon" aria-hidden="true"></i>
-          <span class="mobile-category-text">Study</span>
-        </a>
-      </div>
-    </nav>
-
-  </main>
+  </div>
 </div>
 
 <script>
-  // 상대 시간 계산 및 "new" 배지 표시
+  // 카테고리 탭: 같은 페이지에서 탭 전환 시 해당 패널만 표시 (개요만 로컬 전환, 나머지는 링크)
+  (function() {
+    function initCategoryTabs() {
+      var tabs = document.querySelectorAll('.category-tab');
+      var panels = document.querySelectorAll('.tab-panel');
+      if (!tabs.length || !panels.length) return;
+
+      tabs.forEach(function(tab) {
+        var isLink = tab.tagName === 'A';
+        var tabId = tab.getAttribute('data-tab');
+        if (!tabId) return;
+        tab.setAttribute('role', 'tab');
+
+        tab.addEventListener('click', function(e) {
+          if (isLink) e.preventDefault();
+          setActiveTab(tabId);
+          setActivePanel(tabId);
+          history.replaceState({ tab: tabId }, '', tabId === 'overview' ? window.location.pathname : '#' + tabId);
+        });
+      });
+
+      function setActiveTab(id) {
+        tabs.forEach(function(t) {
+          var active = t.getAttribute('data-tab') === id;
+          t.classList.toggle('active', active);
+          t.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+      }
+      function setActivePanel(id) {
+        panels.forEach(function(p) {
+          var match = p.getAttribute('data-panel') === id;
+          p.classList.toggle('active', match);
+          p.hidden = !match;
+        });
+      }
+
+      // 초기: URL 해시 또는 개요
+      var hash = (window.location.hash || '').replace(/^#/, '');
+      var validIds = ['overview', 'daily', 'dev', 'vhdl', 'document', 'study', 'stock'];
+      var initial = validIds.indexOf(hash) >= 0 ? hash : 'overview';
+      setActiveTab(initial);
+      setActivePanel(initial);
+      if (initial !== 'overview') history.replaceState({ tab: initial }, '', '#' + initial);
+
+      window.addEventListener('popstate', function(e) {
+        var tab = e.state && e.state.tab;
+        if (tab && validIds.indexOf(tab) >= 0) {
+          setActiveTab(tab);
+          setActivePanel(tab);
+        }
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initCategoryTabs);
+    } else {
+      initCategoryTabs();
+    }
+  })();
+
+  // 상대 시간 및 N 배지
   (function() {
     function formatRelativeTime(dateString) {
-      const postDate = new Date(dateString);
-      const now = new Date();
-      const diffMs = now - postDate;
-      const diffSec = Math.floor(diffMs / 1000);
-      const diffMin = Math.floor(diffSec / 60);
-      const diffHour = Math.floor(diffMin / 60);
-      const diffDay = Math.floor(diffHour / 24);
-      
-      if (diffSec < 60) {
-        return diffSec + '초 전';
-      } else if (diffMin < 60) {
-        return diffMin + '분 전';
-      } else if (diffHour < 24) {
-        return diffHour + '시간 전';
-      } else if (diffDay < 7) {
-        return diffDay + '일 전';
-      } else {
-        return postDate.toLocaleDateString('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\./g, '.').replace(/\s/g, '');
-      }
+      var postDate = new Date(dateString);
+      var now = new Date();
+      var diffMs = now - postDate;
+      var diffSec = Math.floor(diffMs / 1000);
+      var diffMin = Math.floor(diffSec / 60);
+      var diffHour = Math.floor(diffMin / 60);
+      var diffDay = Math.floor(diffHour / 24);
+      if (diffSec < 60) return diffSec + '초 전';
+      if (diffMin < 60) return diffMin + '분 전';
+      if (diffHour < 24) return diffHour + '시간 전';
+      if (diffDay < 7) return diffDay + '일 전';
+      return postDate.toLocaleDateString('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\./g, '.').replace(/\s/g, '');
     }
-    
     function updatePostTimes() {
-      // 모든 포스트 아이템 처리 (인기글 섹션 제외)
-      const postItems = document.querySelectorAll('.post-list-item[data-post-date]');
-      postItems.forEach(item => {
-        // 인기글 섹션(.sidebar-section) 내부의 포스트는 제외
-        if (item.closest('.sidebar-section')) {
-          return;
-        }
-        
-        const postDateStr = item.getAttribute('data-post-date');
+      document.querySelectorAll('.post-list-item[data-post-date]').forEach(function(item) {
+        var postDateStr = item.getAttribute('data-post-date');
         if (!postDateStr) return;
-        
-        const postDate = new Date(postDateStr);
-        const now = new Date();
-        const diffMs = now - postDate;
-        const diffHour = Math.floor(diffMs / (1000 * 60 * 60));
-        
-        // 24시간 이내면 "N" 배지 표시
+        var postDate = new Date(postDateStr);
+        var now = new Date();
+        var diffHour = Math.floor((now - postDate) / (1000 * 60 * 60));
+        var badge = item.querySelector('.post-new-badge');
         if (diffHour < 24) {
-          let badge = item.querySelector('.post-new-badge');
           if (!badge) {
             badge = document.createElement('span');
             badge.className = 'post-new-badge';
             badge.textContent = 'N';
             badge.setAttribute('aria-label', '새 글');
-            const titleWrapper = item.querySelector('.post-list-title-wrapper');
-            if (titleWrapper) {
-              titleWrapper.appendChild(badge);
-            }
+            var tw = item.querySelector('.post-list-title-wrapper');
+            if (tw) tw.appendChild(badge);
           }
-        } else {
-          // 24시간 지나면 배지 제거
-          const badge = item.querySelector('.post-new-badge');
-          if (badge) {
-            badge.remove();
-          }
-        }
-        
-        // 날짜를 상대 시간으로 변경
-        const dateElement = item.querySelector('.post-list-date[data-post-date]');
-        if (dateElement) {
-          dateElement.textContent = formatRelativeTime(postDateStr);
-        }
-      });
-      
-      // 인기글 섹션 등 다른 날짜 요소들도 업데이트 (post-list-item이 아닌 경우)
-      const allDateElements = document.querySelectorAll('.post-list-date[data-post-date]');
-      allDateElements.forEach(dateEl => {
-        // 이미 처리된 요소는 스킵
-        if (dateEl.closest('.post-list-item[data-post-date]')) return;
-        
-        const postDateStr = dateEl.getAttribute('data-post-date');
-        if (postDateStr) {
-          dateEl.textContent = formatRelativeTime(postDateStr);
-        }
+        } else if (badge) badge.remove();
+        var dateEl = item.querySelector('.post-list-date[data-post-date]');
+        if (dateEl) dateEl.textContent = formatRelativeTime(postDateStr);
       });
     }
-    
-    // 페이지 로드 시 실행
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', updatePostTimes);
-    } else {
-      updatePostTimes();
-    }
-    
-    // 1분마다 업데이트 (상대 시간 갱신)
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', updatePostTimes);
+    else updatePostTimes();
     setInterval(updatePostTimes, 60000);
   })();
 
-  // Initialize Lucide Icons
-  if (typeof lucide !== 'undefined') {
-    lucide.createIcons();
-  }
-
-  // 3단계 카테고리 토글 함수
-  function toggleSubCategory(element) {
-    const subCategoryItem = element.closest('.sub-category-item');
-    if (subCategoryItem) {
-      subCategoryItem.classList.toggle('active');
-    }
-  }
+  if (typeof lucide !== 'undefined') lucide.createIcons();
 </script>
