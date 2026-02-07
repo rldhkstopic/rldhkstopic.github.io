@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-02-07T11:56:56.182356+09:00",
+  "last_updated": "2026-02-07T13:33:21.956962+09:00",
   "items": [
+    {
+      "id": "d940207eea1b75d4e091dc331d8d26e9",
+      "timestamp": "2026-02-07T12:49:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "All Major Australian Iron Ore Ports Shut as Cyclone Approaches - All of Australia’s major iron ore ports have been shut as Tropical Cyclone Mitchell approaches the coast.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/all-major-australian-iron-ore-ports-shut-as-cyclone-approaches",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7fcbcce9847af80c2185ccb60215afb4",
+      "timestamp": "2026-02-07T12:07:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "High-Stakes Thai Vote Tests Appetite for Political Reform - Thailand’s major political parties staged final rallies ahead of an election that pits the status quo against sweeping political and economic reform.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/high-stakes-thai-vote-tests-appetite-for-political-reform",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7fcbcce9847af80c2185ccb60215afb4",
+      "timestamp": "2026-02-07T12:07:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "High-Stakes Thai Vote Tests Appetite for Political Reform - Thailand’s major political parties staged final rallies ahead of an election that pits the status quo against sweeping political and economic reform.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/high-stakes-thai-vote-tests-appetite-for-political-reform",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3bd886bf7c508332917ce280bcff699b",
+      "timestamp": "2026-02-07T11:57:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apollo, BlackRock, Oaktree Ask Judge to Toss Altice Lawsuit - Lenders to Altice USA Inc., including Apollo Capital Management, BlackRock Financial Management and Oaktree Capital Management, asked a federal judge to dismiss a lawsuit accusing them of colluding to",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/apollo-blackrock-oaktree-ask-judge-to-toss-altice-lawsuit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "41fbce00d1083f326c3d3f3d50e62b05",
+      "timestamp": "2026-02-07T11:39:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "China Central Bank Keeps Buying Gold as Bull Run Hits Brakes - China’s central bank extended its gold-buying streak to 15 months, underscoring resilient official demand as bullion’s record-breaking rally was hit by a sharp market selloff late last month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/china-central-bank-keeps-buying-gold-as-bull-run-hits-brakes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "877e3aa8d0fcb9097b7848706f06383a",
+      "timestamp": "2026-02-07T11:34:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IJM Chair Released After Detention By Malaysia’s MACC, Edge Says - IJM Corp Bhd.’s chairman was released after overnight detention by Malaysian anti-graft officials who are investigating money laundering claims, the Edge reported.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/ijm-chair-released-after-detention-by-malaysia-s-macc-edge-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0f5f75255458c6136962248b56e85840",
       "timestamp": "2026-02-07T10:28:03+09:00",
@@ -2139,72 +2205,6 @@
       "related_tickers": [],
       "content": "Trump’s NASA Chief Wants Astronauts to Bring iPhones to Space - NASA astronauts venturing deeper in space than any human has traveled will be able to document and share images from the landmark moon mission next month using NASA-provided Apple Inc. iPhones.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-06/trump-s-nasa-chief-wants-astronauts-to-bring-iphones-to-space",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a510b3d72a581810e929ec7c0ced77ca",
-      "timestamp": "2026-02-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nuveen Takes Majority Stake in Crestview-Backed Water Firm - Investment manager Nuveen is acquiring a majority stake in TurnClear, a water and wastewater treatment company owned by Crestview Partners-backed Upwell Water.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/nuveen-takes-majority-stake-in-crestview-backed-water-firm",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bebb4a5de2407e98366e8798e09b0c94",
-      "timestamp": "2026-02-06T19:59:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What's Behind the Software-as-a-Service Selloff? - Since ChatGPT's debut three years ago, warnings of AI-driven industry disruption have been constant. However, a combination of weak earnings, advancing models, and a new tool from Anthropic recently t",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/what-s-behind-the-software-as-a-service-selloff-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f45797cc0b2936425976aae68879bdfb",
-      "timestamp": "2026-02-06T19:45:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "'AI Jesus' Can't Help You - Religious chatbots may be gaining popularity. But a prophet with a subscription model is just a salesperson, Bloomberg Opinion columnist Catherine Thorbecke says. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/opinion-ai-jesus-can-t-help-you-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1bdb9cbc5ece543a2a1044f0c4dc21f1",
-      "timestamp": "2026-02-06T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Momentum Trade Suffers Historic Drawdown Amid Rotation to Value - For years, chasing momentum on the stock market has been a winning strategy. It’s come asunder in the past week.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/momentum-trade-suffers-historic-drawdown-amid-rotation-to-value",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "207cf2000abf166eddcba4db610f3328",
-      "timestamp": "2026-02-06T19:18:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "Gold Fields Says Profit Almost Tripled on Bullion Price Rally - Gold Fields Ltd. said profit last year likely almost tripled as the miner benefited from bullion’s record-breaking rally.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/gold-fields-says-profit-almost-tripled-on-bullion-price-rally",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3d437c86e7d6df317200a339917d86f4",
-      "timestamp": "2026-02-06T19:14:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "French Champagne and Perfume Feel the Pain of Trump Tariffs - France’s exports to the US of signature products including champagne and perfume slumped at the end of last year, weighed by President Donald Trump’s tariffs and a weaker dollar.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/french-champagne-and-perfume-feel-the-pain-of-trump-tariffs",
       "sentiment": "NEUTRAL"
     }
   ]
