@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-07T23:08:21.722697+09:00",
+  "last_updated": "2026-02-08T01:07:01.659116+09:00",
   "items": [
+    {
+      "id": "097868e7531e03371af2a39eca0defd2",
+      "timestamp": "2026-02-08T00:04:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How the Debt Problem is Fueling the Gold Market - The price of gold has experienced significant volatility this year, rising past $5,500 an ounce before plummeting in a matter of days. Yet overall, gold prices remain elevated from recent years and th",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-07/how-the-debt-problem-is-fueling-the-gold-market-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f760393c12b07a8e013965ccd0696c9f",
+      "timestamp": "2026-02-08T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ICE Protests, Bad Bunny Flip Script on Trump’s Midterms Playbook - Republicans are increasingly nervous that President Donald Trump’s slipping support on immigration and the economy &mdash; two key issues that helped him win in 2024 &mdash; could cost them the midter",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/bad-bunny-super-bowl-show-ice-protests-to-undercut-trump-s-midterm-message",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac370b3db858028a559fe024b2959679",
+      "timestamp": "2026-02-07T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wild Week of Trading Leaves Pockmarks Across US Equity Landscape - Precious metals memed out, Bitcoin flamed out and the labor market looks like it’s petering out. None of it started in the equities market, but together it was enough &mdash; along with a reckoning fo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/wild-week-of-trading-leaves-pockmarks-across-us-equity-landscape",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "66256178d3ca4b4270882f3896067a0c",
+      "timestamp": "2026-02-07T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Buried in Debt, Chicago’s Last Racetrack Is Running Out of Time - Horse racing was never really a glamorous business at Hawthorne Race Course. Built in 1891, it’s a hardscrabble, little track tucked into an industrial zone just outside Chicago, a companion venue to ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-07/buried-in-debt-chicago-s-last-racetrack-is-running-out-of-time",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "20254d4247c34a8140d2a26991b3df0f",
       "timestamp": "2026-02-07T22:38:38+09:00",
@@ -2161,50 +2205,6 @@
       "related_tickers": [],
       "content": "Amazon and Google Picked a Bad Time to Announce Extraordinary Spending - US hyperscalers announced huge expansions in capex, which Wall Street greeted with suspicion",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-06/amazon-meta-microsoft-and-google-s-huge-capex-plans-got-a-sour-reception",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77ee4693066df8f6c986dea467bb2cd6",
-      "timestamp": "2026-02-06T20:55:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tech Selloff Deepens, Stellantis Faces Billions in Charges | The Opening Trade 2/6/2026 - Amazon shares dropped after the company announced plans to spend $200 billion this year on data centers, chips and other equipment. The proposal further ignited AI bubble fears, with the Wall Street t",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/the-opening-trade-2-6-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "08f777424068ad657a0d1af0216306f9",
-      "timestamp": "2026-02-06T20:46:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street’s Selloff Turned Into a Stampede This Week - <p>Rather than a single trigger, anxiety&nbsp;has been stoked by a steady drumbeat of negative news.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-06/wall-street-s-selloff-turned-into-a-stampede-this-week",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "06f3add3b74559d136ada5422a442065",
-      "timestamp": "2026-02-06T20:36:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Norway Spy Agency Says US Change Risks Russia and China Power Moves - Norway’s foreign intelligence service sees a growing risk of a more assertive Russia and China as the US pulls back from international cooperation and institutions.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/norway-spy-agency-says-us-change-risks-russia-china-power-moves",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b125fb2d980ef6b1c8dbe226d0fb5ab7",
-      "timestamp": "2026-02-06T20:33:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon's $200B Capex Plans Cap Tough Week for Tech | The Pulse 2/6/2026 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/the-pulse-2-6-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
