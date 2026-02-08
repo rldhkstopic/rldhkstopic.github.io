@@ -3,12 +3,13 @@ title: "rldhkstopic"
 description: "개인 블로그"
 author: "kiwanPark"
 email: "rldhks6899@hanyang.ac.kr"
-url: "https://rldhkstopic.github.io"  # GitHub Pages URL
-baseurl: ""  # 리포지토리 이름이 baseurl인 경우 여기에 입력
+url: "https://rldhkstopic.github.io" # GitHub Pages URL
+baseurl: "" # 리포지토리 이름이 baseurl인 경우 여기에 입력
 
 # Social links
 github: "https://github.com/rldhkstopic"
-youtube: ""  # YouTube 채널 URL 추가
+github_repo: "rldhkstopic/GithubPage_rldhkstopic" # owner/repo for commit count (profile version)
+youtube: "" # YouTube 채널 URL 추가
 subtitle: "MS of HYU"
 bio: "내가 살아가는 이야기"
 
@@ -36,7 +37,7 @@ paginate: 10
 paginate_path: "/blog/page:num/"
 
 # Permalink structure
-# 각 포스트의 front matter에서 permalink를 직접 지정하되, 
+# 각 포스트의 front matter에서 permalink를 직접 지정하되,
 # 기본값은 날짜 기반으로 설정 (각 포스트의 permalink가 우선됨)
 # category가 없는 포스트를 위해 기본값은 날짜 기반 사용
 permalink: /:year/:month/:day/:title.html
@@ -98,6 +99,5 @@ admin:
   # admin_password: "선택사항: 비밀번호 해시 (SHA-256)"
   # GitHub OAuth App 설정 (선택사항)
   github_oauth:
-    client_id: "Ov23lisMUemA9EpUyk3Q"  # GitHub OAuth App Client ID
+    client_id: "Ov23lisMUemA9EpUyk3Q" # GitHub OAuth App Client ID
     # client_secret은 서버 사이드에서만 사용하므로 여기에 저장하지 않음
-

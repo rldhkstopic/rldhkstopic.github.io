@@ -63,8 +63,16 @@
       <div class="header-inner">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
+          <div class="nav-links">
+            <a class="nav-link" href="{{ '/' | relative_url }}">홈</a>
+            <a class="nav-link" href="/blog/">블로그</a>
+            <a class="nav-link" href="/dev/">개발</a>
+            <a class="nav-link" href="/document/">문서</a>
+            <a class="nav-link" href="/daily/">일기</a>
+            <a class="nav-link" href="/study/">학습</a>
+            <a class="nav-link" href="/stock/">주식</a>
+          </div>
           <div class="trigger" style="position: relative;">
-            <span class="header-search-hint" aria-hidden="true"><kbd>Ctrl</kbd> <kbd>K</kbd></span>
             <!-- 라이트/다크 모드 토글 -->
             <label class="switch theme-toggle" aria-label="테마 전환">
               <input id="themeToggleInput" type="checkbox" />
@@ -129,7 +137,12 @@
     </header>
 
     <main class="page-content lobehub-main">
-      <div class="wrapper content-wrapper">
+      <div class="wrapper content-wrapper{% if page.layout == 'post' %} content-wrapper-with-hero{% endif %}">
+        {% if page.layout == 'post' %}
+          <div class="home home-single">
+            {% include hero-card.html %}
+          </div>
+        {% endif %}
         {{ content }}
       </div>
     </main>
@@ -152,6 +165,113 @@
       if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
         document.documentElement.classList.add('home-page');
       }
+
+      // 개요 문서 목록 정렬 및 더보기 모달 (메인·포스트 페이지 공통)
+      (function() {
+        var DOC_VISIBLE = 10;
+        var listEl = document.getElementById('overview-document-list');
+        var modalEl = document.getElementById('document-more-modal');
+        var modalListEl = document.getElementById('document-more-modal-list');
+        var moreBtn = document.getElementById('document-more-btn');
+
+        function getItems(container) {
+          container = container || listEl;
+          return container ? Array.prototype.slice.call(container.querySelectorAll('.js-document-item')) : [];
+        }
+
+        function sortItems(items, sortType) {
+          if (!items.length) return items;
+          if (sortType === 'date-desc') {
+            return items.sort(function(a, b) {
+              return new Date(b.getAttribute('data-sort-date')) - new Date(a.getAttribute('data-sort-date'));
+            });
+          }
+          if (sortType === 'date-asc') {
+            return items.sort(function(a, b) {
+              return new Date(a.getAttribute('data-sort-date')) - new Date(b.getAttribute('data-sort-date'));
+            });
+          }
+          if (sortType === 'title') {
+            return items.sort(function(a, b) {
+              return (a.getAttribute('data-sort-title') || '').localeCompare(b.getAttribute('data-sort-title') || '', 'ko');
+            });
+          }
+          return items;
+        }
+
+        function applyOrder(container, items) {
+          if (!container || !items.length) return;
+          items.forEach(function(node) { container.appendChild(node); });
+        }
+
+        function updateVisibility(container, visibleCount) {
+          visibleCount = visibleCount != null ? visibleCount : DOC_VISIBLE;
+          getItems(container).forEach(function(node, i) {
+            node.classList.toggle('overview-document-item-hidden', i >= visibleCount);
+          });
+        }
+
+        function applySortToList(container, sortType) {
+          if (!container) return;
+          var items = getItems(container);
+          applyOrder(container, sortItems(items, sortType));
+          if (container === listEl) updateVisibility(listEl);
+        }
+
+        function initDocumentSort() {
+          if (!listEl) return;
+          var headerSelect = document.getElementById('document-sort-select');
+          if (headerSelect) {
+            headerSelect.addEventListener('change', function() {
+              applySortToList(listEl, headerSelect.value);
+            });
+          }
+
+          if (modalEl) {
+            var modalSelect = document.getElementById('document-more-sort-select');
+            var modalClose = modalEl.querySelector('.document-more-modal-close');
+            var backdrop = modalEl.querySelector('.document-more-modal-backdrop');
+            if (modalSelect) {
+              modalSelect.addEventListener('change', function() {
+                applySortToList(modalListEl, modalSelect.value);
+              });
+            }
+            function closeModal() {
+              modalEl.classList.remove('is-open');
+              modalEl.setAttribute('aria-hidden', 'true');
+              document.body.style.overflow = '';
+              if (moreBtn) moreBtn.setAttribute('aria-expanded', 'false');
+            }
+            if (modalClose) modalClose.addEventListener('click', closeModal);
+            if (backdrop) backdrop.addEventListener('click', closeModal);
+            modalEl.addEventListener('keydown', function(e) {
+              if (e.key === 'Escape') closeModal();
+            });
+          }
+
+          if (moreBtn && modalListEl) {
+            moreBtn.addEventListener('click', function() {
+              var headerSelect = document.getElementById('document-sort-select');
+              var currentSort = (headerSelect && headerSelect.value) ? headerSelect.value : 'date-desc';
+              var modalSelect = document.getElementById('document-more-sort-select');
+              if (modalSelect) modalSelect.value = currentSort;
+              var items = getItems(listEl);
+              var sorted = sortItems(items.map(function(n) { return n.cloneNode(true); }), currentSort);
+              modalListEl.innerHTML = '';
+              sorted.forEach(function(n) { modalListEl.appendChild(n); });
+              document.body.style.overflow = 'hidden';
+              modalEl.classList.add('is-open');
+              modalEl.setAttribute('aria-hidden', 'false');
+              moreBtn.setAttribute('aria-expanded', 'true');
+              var closeBtn = modalEl.querySelector('.document-more-modal-close');
+              if (closeBtn) closeBtn.focus();
+            });
+          }
+        }
+
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initDocumentSort);
+        else initDocumentSort();
+      })();
 
       // 카테고리 토글 함수
       function toggleCategory(link) {
@@ -1185,8 +1305,26 @@
             headings.forEach(heading => observer.observe(heading));
           } else {
             if (postTOC) postTOC.style.display = 'none';
+            const postSidebar = document.querySelector('.post-sidebar');
+            if (postSidebar) postSidebar.style.display = 'none';
           }
         }
+      })();
+
+      // GitHub 스타 수 표시 (사이드바 버튼)
+      (function() {
+        const el = document.getElementById('githubStarCount');
+        if (!el) return;
+        const repo = el.getAttribute('data-repo');
+        if (!repo) return;
+        fetch('https://api.github.com/repos/' + repo, { headers: { 'Accept': 'application/vnd.github.v3+json' } })
+          .then(function(r) { return r.json(); })
+          .then(function(data) {
+            if (data && typeof data.stargazers_count === 'number') {
+              el.textContent = data.stargazers_count;
+            }
+          })
+          .catch(function() {});
       })();
 
       // 공유 기능

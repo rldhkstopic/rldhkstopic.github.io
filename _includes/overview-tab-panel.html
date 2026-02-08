@@ -1,0 +1,156 @@
+<div class="tab-panel active" data-panel="overview" role="tabpanel">
+  <div class="tab-panel-content overview-panel">
+    <div class="overview-layout">
+      <section class="overview-main">
+        {% assign project_post = site.posts | where: "category", "dev" | where: "subcategory", "개발일지" | first %}
+        {% if project_post %}
+        <a href="{{ project_post.url | relative_url }}" class="overview-card overview-project-card">
+          <span class="overview-project-label">개발 중인 프로젝트</span>
+          <h2 class="overview-project-title">{{ project_post.title | escape }}</h2>
+          <span class="overview-project-meta">{{ project_post.date | date: "%Y.%m.%d" }}</span>
+        </a>
+        {% endif %}
+        {% assign document_posts = site.categories.document %}
+        {% assign doc_total_count = 0 %}
+        {% for post in document_posts %}
+          {% assign is_economy = false %}
+          {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
+          {% unless is_economy %}{% assign doc_total_count = doc_total_count | plus: 1 %}{% endunless %}
+        {% endfor %}
+        <div class="overview-document-section" id="overview-document-section">
+          <header class="overview-document-header">
+            <h2 class="overview-document-title">전체글 {{ doc_total_count }}건</h2>
+            <div class="overview-document-sort" aria-label="정렬 방식">
+              <label for="document-sort-select" class="overview-document-sort-label">정렬</label>
+              <select id="document-sort-select" class="overview-document-sort-select" aria-label="정렬 방식 선택">
+                <option value="date-desc" selected>최신순</option>
+                <option value="date-asc">오래된순</option>
+                <option value="title">제목순</option>
+              </select>
+            </div>
+          </header>
+          <ul class="overview-document-list tab-panel-post-list" id="overview-document-list">
+            {% assign doc_visible_index = 0 %}
+            {% for post in document_posts %}
+              {% assign is_economy = false %}
+              {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
+              {% unless is_economy %}
+                {% assign doc_visible_index = doc_visible_index | plus: 1 %}
+                <li class="tab-panel-card js-document-item {% if doc_visible_index > 10 %}overview-document-item-hidden{% endif %}" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
+                  <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
+                    <div class="tab-panel-card-top">
+                      <span class="tab-panel-card-avatar" aria-hidden="true">📄</span>
+                      <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
+                      <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
+                      <span class="tab-panel-card-cat">· Published in {{ post.subcategory | default: "문서" }}</span>
+                    </div>
+                    <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
+                    <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
+                  </a>
+                </li>
+              {% endunless %}
+            {% endfor %}
+            {% if doc_total_count == 0 %}
+              <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
+            {% endif %}
+          </ul>
+          {% if doc_total_count > 10 %}
+          {% assign doc_remaining = doc_total_count | minus: 10 %}
+          <div class="overview-document-more-wrap">
+            <button type="button" class="overview-document-more-btn" id="document-more-btn" aria-haspopup="dialog" aria-expanded="false">더보기 ({{ doc_remaining }}건)</button>
+          </div>
+          {% endif %}
+        </div>
+        <div id="document-more-modal" class="document-more-modal" role="dialog" aria-modal="true" aria-labelledby="document-more-modal-title" aria-hidden="true">
+          <div class="document-more-modal-backdrop"></div>
+          <div class="document-more-modal-content">
+            <div class="document-more-modal-header">
+              <h3 id="document-more-modal-title" class="document-more-modal-title">문서 전체</h3>
+              <div class="document-more-modal-sort">
+                <label for="document-more-sort-select" class="overview-document-sort-label">정렬</label>
+                <select id="document-more-sort-select" class="overview-document-sort-select" data-modal="1" aria-label="정렬 방식 선택">
+                  <option value="date-desc" selected>최신순</option>
+                  <option value="date-asc">오래된순</option>
+                  <option value="title">제목순</option>
+                </select>
+              </div>
+              <button type="button" class="document-more-modal-close" aria-label="닫기">닫기</button>
+            </div>
+            <div class="document-more-modal-body">
+              <ul class="overview-document-list tab-panel-post-list" id="document-more-modal-list"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="overview-sidebar">
+        {% assign watchlist = site.data.stock_watchlist | first %}
+        <div class="overview-mini-cards">
+          <div class="overview-mini-card overview-mini-card-lang lang-doc-card">
+            <header class="lang-doc-header">
+              <h3 class="lang-doc-title">개발문서</h3>
+              <a href="{{ '/dev/wiki/' | relative_url }}" class="lang-doc-more" title="개발 문서 전체">전체</a>
+            </header>
+            <div class="lang-doc-body">
+              <section class="lang-doc-group">
+                <a href="{{ '/dev/vhdl/' | relative_url }}" class="lang-doc-group-label">VHDL</a>
+                <nav class="lang-doc-links" aria-label="VHDL 문서">
+                  <a href="{{ '/dev/vhdl/syntax/' | relative_url }}" class="lang-doc-link">문법</a>
+                  <a href="{{ '/dev/vhdl/errors/' | relative_url }}" class="lang-doc-link">오류 해결</a>
+                </nav>
+              </section>
+              <section class="lang-doc-group">
+                <a href="{{ '/dev/csharp/' | relative_url }}" class="lang-doc-group-label">C#</a>
+                <nav class="lang-doc-links" aria-label="C# 문서">
+                  <a href="{{ '/dev/csharp/guide/' | relative_url }}" class="lang-doc-link">가이드</a>
+                </nav>
+              </section>
+            </div>
+          </div>
+          <div class="overview-mini-card overview-mini-card-stock stock-job-theme">
+            <div class="stock-card-list-section">
+              <ul class="stock-card-posts">
+                {% for post in site.categories.stock limit: 3 %}
+                  {% assign stock_title = post.title | split: "]" | last | strip %}
+                  <li>
+                    <a href="{{ post.url | relative_url }}" class="stock-card-post-link">{% if stock_title != "" %}{{ stock_title | escape }}{% else %}{{ post.title | escape }}{% endif %}</a>
+                    <span class="stock-card-post-date">{{ post.date | date: "%m.%d" }}</span>
+                  </li>
+                {% endfor %}
+              </ul>
+              {% if site.categories.stock.size == 0 %}
+                <p class="stock-card-empty">최신 소식 없음</p>
+              {% endif %}
+            </div>
+            <div class="stock-card-footer">
+              <span class="stock-card-meta">
+                {% if watchlist %}<img class="stock-card-logo" src="{% if watchlist.logo_url %}{{ watchlist.logo_url }}{% else %}https://www.google.com/s2/favicons?domain={{ watchlist.domain | default: 'sofi.com' }}&sz=128{% endif %}" data-domain="{{ watchlist.domain | default: 'sofi.com' }}" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain='+(this.getAttribute('data-domain')||'sofi.com')+'&sz=128'"/>{% endif %}
+                <span class="stock-card-meta-text">{% if watchlist %}{{ watchlist.name }}{% else %}—{% endif %}</span>
+              </span>
+            </div>
+          </div>
+          <div class="overview-mini-card overview-mini-card-market">
+            <div class="overview-mini-card-header">
+              <span class="overview-mini-card-header-left">
+                <span class="overview-market-name">경제뉴스 정리</span>
+              </span>
+              {% for post in site.categories.document limit: 1 %}
+              <span class="overview-mini-card-date"><svg class="overview-mini-card-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>{{ post.date | date: "%b %d" }}</span>
+              {% endfor %}
+            </div>
+            {% for post in site.categories.document limit: 1 %}
+              <a href="{{ post.url | relative_url }}" class="overview-mini-card-body overview-stock-latest">
+                <p class="overview-mini-card-text">{{ post.title | escape }}</p>
+              </a>
+            {% endfor %}
+            {% if site.categories.document.size == 0 %}
+              <p class="overview-mini-card-empty">최신 글 없음</p>
+            {% endif %}
+            <div class="overview-mini-card-bottom">
+              <span class="overview-mini-card-menu" aria-hidden="true">⋯</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>

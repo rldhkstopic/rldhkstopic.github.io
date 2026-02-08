@@ -19,7 +19,7 @@ layout: default
                 <h1 class="profile-card-title hero-title">나의 기술 블로그</h1>
                 <p class="profile-card-subtitle hero-subtitle">내가 살아가는 이야기</p>
                 <div class="profile-meta-row">
-                  <span class="profile-version">v{{ site.time | date: "%y.%-m.%-d" }}</span>
+                  <span id="profile-version" class="profile-version" data-github-repo="{{ site.github_repo | default: 'rldhkstopic/GithubPage_rldhkstopic' }}">v--.--.--</span>
                   <a href="{{ site.github }}" target="_blank" rel="noopener" class="profile-publisher">{{ github_username }}</a>
                   <div class="profile-stats-row">
                     <span class="profile-stat">
@@ -66,6 +66,29 @@ layout: default
               this.parentElement.innerHTML = '<span aria-hidden="true">❤️</span>';
             };
           }
+          (function() {
+            var el = document.getElementById('profile-version');
+            if (!el) return;
+            var repo = el.getAttribute('data-github-repo') || 'rldhkstopic/GithubPage_rldhkstopic';
+            var now = new Date();
+            var y = now.getFullYear().toString().slice(-2);
+            var m = now.getMonth() + 1;
+            var d = now.getDate();
+            var datePart = 'v' + y + '.' + m + '.' + d;
+            var startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            var since = startOfDay.toISOString();
+            var apiUrl = 'https://api.github.com/repos/' + repo + '/commits?since=' + encodeURIComponent(since) + '&per_page=100';
+            fetch(apiUrl, { headers: { 'Accept': 'application/vnd.github.v3+json' } })
+              .then(function(r) { return r.json(); })
+              .then(function(arr) {
+                var n = Array.isArray(arr) ? arr.length : 0;
+                el.textContent = datePart + '.' + n;
+              })
+              .catch(function() {
+                el.textContent = datePart + '.0';
+              });
+            el.textContent = datePart + '.-';
+          })();
         });
       </script>
     </div>
@@ -75,45 +98,168 @@ layout: default
     <!-- 개요: 카드 그리드 (블로그 소개·빠른이동·최신글) -->
     <div class="tab-panel active" data-panel="overview" role="tabpanel">
       <div class="tab-panel-content overview-panel">
-        <div class="overview-grid">
-          <article class="overview-card overview-card-intro">
-            <h2 class="overview-card-title">이 블로그는</h2>
-            <p class="overview-card-body">FPGA·VHDL·RTL·바이브코딩 등 하드웨어 설계와 코딩 관심사를 정리한 기술 블로그입니다. 공부한 내용을 기록하고, 나중에 다시 찾아보기 쉽게 두는 걸 목표로 씁니다.</p>
-          </article>
-          <article class="overview-card overview-card-quick">
-            <h2 class="overview-card-title">빠른 이동</h2>
-            <div class="overview-quick-links">
-              <a href="/dev/" class="overview-quick-link"><i data-lucide="code" class="overview-quick-icon"></i><span>개발</span></a>
-              <a href="/dev/vhdl/" class="overview-quick-link"><i data-lucide="circuit-board" class="overview-quick-icon"></i><span>VHDL</span></a>
-              <a href="/document/" class="overview-quick-link"><i data-lucide="file-text" class="overview-quick-icon"></i><span>문서</span></a>
-              <a href="/study/" class="overview-quick-link"><i data-lucide="book-open" class="overview-quick-icon"></i><span>학습</span></a>
-              <a href="/daily/" class="overview-quick-link"><i data-lucide="calendar" class="overview-quick-icon"></i><span>일기</span></a>
-              <a href="/stock/" class="overview-quick-link"><i data-lucide="trending-up" class="overview-quick-icon"></i><span>주식</span></a>
-            </div>
-          </article>
-          <article class="overview-card overview-card-latest">
-            <div class="overview-card-head">
-              <h2 class="overview-card-title">최신글</h2>
-              {% if site.posts.size > 5 %}
-              <a href="/blog/" class="overview-card-more" title="전체 글 보기">전체</a>
-              {% endif %}
-            </div>
-            <ul class="overview-post-list">
-              {% assign all_posts = site.posts | limit: 5 %}
-              {% if all_posts.size > 0 %}
-                {% for post in all_posts %}
-                  <li>
-                    <a href="{{ post.url | relative_url }}" class="overview-post-item" data-post-date="{{ post.date | date_to_xmlschema }}">
-                      <span class="overview-post-title">{{ post.title | escape }}</span>
-                      <span class="overview-post-meta">{{ post.date | date: "%Y.%m.%d" }} · {% assign cat_map = 'daily:일기,dev:개발,document:문서,study:학습,stock:주식' | split: ',' %}{% assign cat_display = post.category %}{% for p in cat_map %}{% assign kv = p | split: ':' %}{% if kv[0] == post.category %}{% assign cat_display = kv[1] %}{% break %}{% endif %}{% endfor %}{{ cat_display }}{% if post.subcategory %} › {{ post.subcategory }}{% endif %}</span>
-                    </a>
-                  </li>
+        <div class="overview-layout">
+          <!-- 왼쪽: 메인 (개발 프로젝트 + 개발/문법 글) -->
+          <section class="overview-main">
+            {% assign project_post = site.posts | where: "category", "dev" | where: "subcategory", "개발일지" | first %}
+            {% if project_post %}
+            <a href="{{ project_post.url | relative_url }}" class="overview-card overview-project-card">
+              <span class="overview-project-label">개발 중인 프로젝트</span>
+              <h2 class="overview-project-title">{{ project_post.title | escape }}</h2>
+              <span class="overview-project-meta">{{ project_post.date | date: "%Y.%m.%d" }}</span>
+            </a>
+            {% endif %}
+            {% assign document_posts = site.categories.document %}
+            {% assign doc_total_count = 0 %}
+            {% for post in document_posts %}
+              {% assign is_economy = false %}
+              {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
+              {% unless is_economy %}{% assign doc_total_count = doc_total_count | plus: 1 %}{% endunless %}
+            {% endfor %}
+            <div class="overview-document-section" id="overview-document-section">
+              <header class="overview-document-header">
+                <h2 class="overview-document-title">전체글 {{ doc_total_count }}건</h2>
+                <div class="overview-document-sort" aria-label="정렬 방식">
+                  <label for="document-sort-select" class="overview-document-sort-label">정렬</label>
+                  <select id="document-sort-select" class="overview-document-sort-select" aria-label="정렬 방식 선택">
+                    <option value="date-desc" selected>최신순</option>
+                    <option value="date-asc">오래된순</option>
+                    <option value="title">제목순</option>
+                  </select>
+                </div>
+              </header>
+              <ul class="overview-document-list tab-panel-post-list" id="overview-document-list">
+                {% assign doc_visible_index = 0 %}
+                {% for post in document_posts %}
+                  {% assign is_economy = false %}
+                  {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
+                  {% unless is_economy %}
+                    {% assign doc_visible_index = doc_visible_index | plus: 1 %}
+                    <li class="tab-panel-card js-document-item {% if doc_visible_index > 10 %}overview-document-item-hidden{% endif %}" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
+                      <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
+                        <div class="tab-panel-card-top">
+                          <span class="tab-panel-card-avatar" aria-hidden="true">📄</span>
+                          <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
+                          <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
+                          <span class="tab-panel-card-cat">· Published in {{ post.subcategory | default: "문서" }}</span>
+                        </div>
+                        <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
+                        <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
+                      </a>
+                    </li>
+                  {% endunless %}
                 {% endfor %}
-              {% else %}
-                <li class="overview-post-empty">아직 포스트가 없습니다.</li>
+                {% if doc_total_count == 0 %}
+                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
+                {% endif %}
+              </ul>
+              {% if doc_total_count > 10 %}
+              {% assign doc_remaining = doc_total_count | minus: 10 %}
+              <div class="overview-document-more-wrap">
+                <button type="button" class="overview-document-more-btn" id="document-more-btn" aria-haspopup="dialog" aria-expanded="false">더보기 ({{ doc_remaining }}건)</button>
+              </div>
               {% endif %}
-            </ul>
-          </article>
+            </div>
+            <!-- 문서 더보기 모달 (JS로 내용 채움) -->
+            <div id="document-more-modal" class="document-more-modal" role="dialog" aria-modal="true" aria-labelledby="document-more-modal-title" aria-hidden="true">
+              <div class="document-more-modal-backdrop"></div>
+              <div class="document-more-modal-content">
+                <div class="document-more-modal-header">
+                  <h3 id="document-more-modal-title" class="document-more-modal-title">문서 전체</h3>
+                  <div class="document-more-modal-sort">
+                    <label for="document-more-sort-select" class="overview-document-sort-label">정렬</label>
+                    <select id="document-more-sort-select" class="overview-document-sort-select" data-modal="1" aria-label="정렬 방식 선택">
+                      <option value="date-desc" selected>최신순</option>
+                      <option value="date-asc">오래된순</option>
+                      <option value="title">제목순</option>
+                    </select>
+                  </div>
+                  <button type="button" class="document-more-modal-close" aria-label="닫기">닫기</button>
+                </div>
+                <div class="document-more-modal-body">
+                  <ul class="overview-document-list tab-panel-post-list" id="document-more-modal-list"></ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- 오른쪽: 미니 카드 (참고 이미지 스타일) -->
+          <aside class="overview-sidebar">
+            <!-- 검색 트리거: 개발문서 카드 위 -->
+            <div class="nav-search-wrap">
+              <button type="button" class="nav-search-trigger" id="navSearchTrigger" aria-label="문서 검색">
+                <span class="nav-search-label-lg">Search docs...</span>
+                <span class="nav-search-label-sm">Search...</span>
+                <kbd class="nav-search-kbd"><span>⌘</span>K</kbd>
+              </button>
+            </div>
+            {% assign watchlist = site.data.stock_watchlist | first %}
+            <div class="overview-mini-cards">
+              <div class="overview-mini-card overview-mini-card-lang lang-doc-card">
+                <header class="lang-doc-header">
+                  <h3 class="lang-doc-title">개발문서</h3>
+                  <a href="{{ '/dev/wiki/' | relative_url }}" class="lang-doc-more" title="개발 문서 전체">전체</a>
+                </header>
+                <div class="lang-doc-body">
+                  <section class="lang-doc-group">
+                    <a href="{{ '/dev/vhdl/' | relative_url }}" class="lang-doc-group-label">VHDL</a>
+                    <nav class="lang-doc-links" aria-label="VHDL 문서">
+                      <a href="{{ '/dev/vhdl/syntax/' | relative_url }}" class="lang-doc-link">문법</a>
+                      <a href="{{ '/dev/vhdl/errors/' | relative_url }}" class="lang-doc-link">오류 해결</a>
+                    </nav>
+                  </section>
+                  <section class="lang-doc-group">
+                    <a href="{{ '/dev/csharp/' | relative_url }}" class="lang-doc-group-label">C#</a>
+                    <nav class="lang-doc-links" aria-label="C# 문서">
+                      <a href="{{ '/dev/csharp/guide/' | relative_url }}" class="lang-doc-link">가이드</a>
+                    </nav>
+                  </section>
+                </div>
+              </div>
+              <div class="overview-mini-card overview-mini-card-stock stock-job-theme">
+                <div class="stock-card-list-section">
+                  <ul class="stock-card-posts">
+                    {% for post in site.categories.stock limit: 3 %}
+                      {% assign stock_title = post.title | split: "]" | last | strip %}
+                      <li>
+                        <a href="{{ post.url | relative_url }}" class="stock-card-post-link">{% if stock_title != "" %}{{ stock_title | escape }}{% else %}{{ post.title | escape }}{% endif %}</a>
+                        <span class="stock-card-post-date">{{ post.date | date: "%m.%d" }}</span>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  {% if site.categories.stock.size == 0 %}
+                    <p class="stock-card-empty">최신 소식 없음</p>
+                  {% endif %}
+                </div>
+                <div class="stock-card-footer">
+                  <span class="stock-card-meta">
+                    {% if watchlist %}<img class="stock-card-logo" src="{% if watchlist.logo_url %}{{ watchlist.logo_url }}{% else %}https://www.google.com/s2/favicons?domain={{ watchlist.domain | default: 'sofi.com' }}&sz=128{% endif %}" data-domain="{{ watchlist.domain | default: 'sofi.com' }}" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain='+(this.getAttribute('data-domain')||'sofi.com')+'&sz=128'"/>{% endif %}
+                    <span class="stock-card-meta-text">{% if watchlist %}{{ watchlist.name }}{% else %}—{% endif %}</span>
+                  </span>
+                </div>
+              </div>
+              <div class="overview-mini-card overview-mini-card-market">
+                <div class="overview-mini-card-header">
+                  <span class="overview-mini-card-header-left">
+                    <span class="overview-market-name">경제뉴스 정리</span>
+                  </span>
+                  {% for post in site.categories.document limit: 1 %}
+                  <span class="overview-mini-card-date"><svg class="overview-mini-card-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>{{ post.date | date: "%b %d" }}</span>
+                  {% endfor %}
+                </div>
+                {% for post in site.categories.document limit: 1 %}
+                  <a href="{{ post.url | relative_url }}" class="overview-mini-card-body overview-stock-latest">
+                    <p class="overview-mini-card-text">{{ post.title | escape }}</p>
+                  </a>
+                {% endfor %}
+                {% if site.categories.document.size == 0 %}
+                  <p class="overview-mini-card-empty">최신 글 없음</p>
+                {% endif %}
+                <div class="overview-mini-card-bottom">
+                  <span class="overview-mini-card-menu" aria-hidden="true">⋯</span>
+                </div>
+              </div>
+            </div>
+          </aside>
         </div>
       </div>
     </div>
@@ -121,148 +267,214 @@ layout: default
     <!-- 일기 -->
     <div class="tab-panel" data-panel="daily" role="tabpanel" hidden>
       <div class="tab-panel-content">
-        <article class="tab-content-card">
-          <div class="tab-content-card-head">
-            <h2 class="tab-content-card-title"><i data-lucide="calendar" class="tab-content-card-icon icon-daily"></i> 일기</h2>
-            <a href="/daily/" class="tab-content-card-more" title="더보기">전체</a>
-          </div>
-          <ul class="tab-content-post-list">
-            {% assign daily_posts = site.posts | where: "category", "daily" %}
-            {% if daily_posts.size > 0 %}
-              {% for post in daily_posts limit: 5 %}
-                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
-              {% endfor %}
-            {% else %}
-              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
-            {% endif %}
-          </ul>
-        </article>
+        <header class="tab-panel-header">
+          <h2 class="tab-panel-title"><i data-lucide="calendar" class="tab-panel-icon icon-daily"></i> 일기</h2>
+          <a href="/daily/" class="tab-panel-more" title="더보기">전체</a>
+        </header>
+        <ul class="tab-panel-post-list">
+          {% assign daily_posts = site.categories.daily %}
+          {% if daily_posts.size > 0 %}
+            {% for post in daily_posts limit: 3 %}
+              <li class="tab-panel-card">
+                <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="tab-panel-card-top">
+                    <span class="tab-panel-card-avatar" aria-hidden="true">📝</span>
+                    <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
+                    <span class="tab-panel-card-cat">· Published in 일기</span>
+                  </div>
+                  <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
+                  <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
+                  <div class="tab-panel-card-bottom">
+                    <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  </div>
+                </a>
+              </li>
+            {% endfor %}
+          {% else %}
+            <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
+          {% endif %}
+        </ul>
       </div>
     </div>
 
     <!-- 개발 -->
     <div class="tab-panel" data-panel="dev" role="tabpanel" hidden>
       <div class="tab-panel-content">
-        <article class="tab-content-card">
-          <div class="tab-content-card-head">
-            <h2 class="tab-content-card-title"><i data-lucide="code" class="tab-content-card-icon icon-dev"></i> 개발</h2>
-            <a href="/dev/" class="tab-content-card-more" title="더보기">전체</a>
-          </div>
-          <div class="tab-content-subcats">
-            {% assign dev_structure = site.data.dev_structure %}
-            {% for subcat in dev_structure.subcategories %}
-              {% assign subcat_posts = site.posts | where: "category", "dev" | where: "subcategory", subcat.title %}
-              <a href="/dev/{{ subcat.id }}/" class="tab-content-subcat-link"><span class="tab-content-subcat-title">{{ subcat.title }}</span><span class="tab-content-subcat-count">{{ subcat_posts.size }}</span></a>
+        <header class="tab-panel-header">
+          <h2 class="tab-panel-title"><i data-lucide="code" class="tab-panel-icon icon-dev"></i> 개발</h2>
+          <a href="/dev/" class="tab-panel-more" title="더보기">전체</a>
+        </header>
+        <ul class="tab-panel-post-list">
+          {% assign dev_posts = site.categories.dev %}
+          {% if dev_posts.size > 0 %}
+            {% for post in dev_posts limit: 3 %}
+              <li class="tab-panel-card">
+                <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="tab-panel-card-top">
+                    <span class="tab-panel-card-avatar" aria-hidden="true">💻</span>
+                    <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
+                    <span class="tab-panel-card-cat">· Published in 개발{% if post.subcategory %} · {{ post.subcategory }}{% endif %}</span>
+                  </div>
+                  <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
+                  <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
+                  <div class="tab-panel-card-bottom">
+                    <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  </div>
+                </a>
+              </li>
             {% endfor %}
-          </div>
-          <ul class="tab-content-post-list">
-            {% assign dev_posts = site.posts | where: "category", "dev" %}
-            {% if dev_posts.size > 0 %}
-              {% for post in dev_posts limit: 5 %}
-                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}{% if post.subcategory %} · {{ post.subcategory }}{% endif %}</span></a></li>
-              {% endfor %}
-            {% else %}
-              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
-            {% endif %}
-          </ul>
-        </article>
+          {% else %}
+            <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
+          {% endif %}
+        </ul>
       </div>
     </div>
 
     <!-- VHDL -->
     <div class="tab-panel" data-panel="vhdl" role="tabpanel" hidden>
       <div class="tab-panel-content">
-        <article class="tab-content-card">
-          <div class="tab-content-card-head">
-            <h2 class="tab-content-card-title"><i data-lucide="circuit-board" class="tab-content-card-icon icon-dev"></i> VHDL</h2>
-            <a href="/dev/vhdl/" class="tab-content-card-more" title="더보기">전체</a>
-          </div>
-          <ul class="tab-content-post-list">
-            {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" %}
-            {% if vhdl_posts.size > 0 %}
-              {% for post in vhdl_posts limit: 5 %}
-                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
-              {% endfor %}
-            {% else %}
-              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
-            {% endif %}
-          </ul>
-        </article>
+        <header class="tab-panel-header">
+          <h2 class="tab-panel-title"><i data-lucide="circuit-board" class="tab-panel-icon icon-dev"></i> VHDL</h2>
+          <a href="/dev/vhdl/" class="tab-panel-more" title="더보기">전체</a>
+        </header>
+        <ul class="tab-panel-post-list">
+          {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" %}
+          {% if vhdl_posts.size > 0 %}
+            {% for post in vhdl_posts limit: 3 %}
+              <li class="tab-panel-card">
+                <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="tab-panel-card-top">
+                    <span class="tab-panel-card-avatar" aria-hidden="true">🔌</span>
+                    <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
+                    <span class="tab-panel-card-cat">· Published in VHDL</span>
+                  </div>
+                  <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
+                  <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
+                  <div class="tab-panel-card-bottom">
+                    <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  </div>
+                </a>
+              </li>
+            {% endfor %}
+          {% else %}
+            <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
+          {% endif %}
+        </ul>
       </div>
     </div>
 
     <!-- 문서 -->
     <div class="tab-panel" data-panel="document" role="tabpanel" hidden>
       <div class="tab-panel-content">
-        <article class="tab-content-card">
-          <div class="tab-content-card-head">
-            <h2 class="tab-content-card-title"><i data-lucide="file-text" class="tab-content-card-icon icon-document"></i> 문서</h2>
-            <a href="/document/" class="tab-content-card-more" title="더보기">전체</a>
-          </div>
-          <ul class="tab-content-post-list">
-            {% assign document_posts = site.posts | where: "category", "document" %}
-            {% if document_posts.size > 0 %}
-              {% for post in document_posts limit: 5 %}
-                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
-              {% endfor %}
-            {% else %}
-              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
-            {% endif %}
-          </ul>
-        </article>
+        <header class="tab-panel-header">
+          <h2 class="tab-panel-title"><i data-lucide="file-text" class="tab-panel-icon icon-document"></i> 문서</h2>
+          <a href="/document/" class="tab-panel-more" title="더보기">전체</a>
+        </header>
+        <ul class="tab-panel-post-list">
+          {% assign document_posts = site.categories.document %}
+          {% assign doc_tab_shown = 0 %}
+          {% for post in document_posts %}
+            {% assign is_economy = false %}
+            {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" or post.title contains "SOFI" or post.title contains "소식 분석" %}{% assign is_economy = true %}{% endif %}
+            {% unless is_economy %}
+              {% if doc_tab_shown < 3 %}
+              <li class="tab-panel-card">
+                <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="tab-panel-card-top">
+                    <span class="tab-panel-card-avatar" aria-hidden="true">📄</span>
+                    <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
+                    <span class="tab-panel-card-cat">· Published in 문서</span>
+                  </div>
+                  <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
+                  <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
+                  <div class="tab-panel-card-bottom">
+                    <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  </div>
+                </a>
+              </li>
+              {% assign doc_tab_shown = doc_tab_shown | plus: 1 %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+          {% if doc_tab_shown == 0 %}
+            <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
+          {% endif %}
+        </ul>
       </div>
     </div>
 
     <!-- 학습 -->
     <div class="tab-panel" data-panel="study" role="tabpanel" hidden>
       <div class="tab-panel-content">
-        <article class="tab-content-card">
-          <div class="tab-content-card-head">
-            <h2 class="tab-content-card-title"><i data-lucide="book-open" class="tab-content-card-icon icon-study"></i> 학습</h2>
-            <a href="/study/" class="tab-content-card-more" title="더보기">전체</a>
-          </div>
-          <ul class="tab-content-post-list">
-            {% assign study_posts = site.posts | where: "category", "study" %}
-            {% if study_posts.size > 0 %}
-              {% for post in study_posts limit: 5 %}
-                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
-              {% endfor %}
-            {% else %}
-              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
-            {% endif %}
-          </ul>
-        </article>
+        <header class="tab-panel-header">
+          <h2 class="tab-panel-title"><i data-lucide="book-open" class="tab-panel-icon icon-study"></i> 학습</h2>
+          <a href="/study/" class="tab-panel-more" title="더보기">전체</a>
+        </header>
+        <ul class="tab-panel-post-list">
+          {% assign study_posts = site.categories.study %}
+          {% if study_posts.size > 0 %}
+            {% for post in study_posts limit: 3 %}
+              <li class="tab-panel-card">
+                <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="tab-panel-card-top">
+                    <span class="tab-panel-card-avatar" aria-hidden="true">📚</span>
+                    <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
+                    <span class="tab-panel-card-cat">· Published in 학습</span>
+                  </div>
+                  <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
+                  <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
+                  <div class="tab-panel-card-bottom">
+                    <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  </div>
+                </a>
+              </li>
+            {% endfor %}
+          {% else %}
+            <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
+          {% endif %}
+        </ul>
       </div>
     </div>
 
     <!-- 주식 -->
     <div class="tab-panel" data-panel="stock" role="tabpanel" hidden>
       <div class="tab-panel-content">
-        <article class="tab-content-card">
-          <div class="tab-content-card-head">
-            <h2 class="tab-content-card-title"><i data-lucide="trending-up" class="tab-content-card-icon icon-stock"></i> 주식</h2>
-            <a href="/stock/" class="tab-content-card-more" title="더보기">전체</a>
-          </div>
-          <ul class="tab-content-post-list">
-            {% assign stock_posts = site.posts | where: "category", "stock" %}
-            {% if stock_posts.size == 0 %}
-              {% assign all_docs = site.posts | where: "category", "document" %}
-              {% assign stock_posts = "" | split: "" %}
-              {% for post in all_docs %}
-                {% if post.tags contains '주식' or post.tags contains 'Stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '경제' %}
-                  {% assign stock_posts = stock_posts | push: post %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-            {% if stock_posts.size > 0 %}
-              {% for post in stock_posts limit: 5 %}
-                <li><a href="{{ post.url | relative_url }}" class="tab-content-post-item" data-post-date="{{ post.date | date_to_xmlschema }}"><span class="tab-content-post-title">{{ post.title | escape }}</span><span class="tab-content-post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></a></li>
-              {% endfor %}
-            {% else %}
-              <li class="tab-content-post-empty">아직 포스트가 없습니다.</li>
-            {% endif %}
-          </ul>
-        </article>
+        <header class="tab-panel-header">
+          <h2 class="tab-panel-title"><i data-lucide="trending-up" class="tab-panel-icon icon-stock"></i> 주식</h2>
+          <a href="/stock/" class="tab-panel-more" title="더보기">전체</a>
+        </header>
+        <ul class="tab-panel-post-list">
+          {% assign stock_posts = site.categories.stock %}
+          {% if stock_posts.size == 0 %}
+            {% assign all_docs = site.categories.document %}
+            {% assign stock_posts = "" | split: "" %}
+            {% for post in all_docs %}
+              {% if post.tags contains '주식' or post.tags contains 'Stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '경제' %}
+                {% assign stock_posts = stock_posts | push: post %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if stock_posts.size > 0 %}
+            {% for post in stock_posts limit: 3 %}
+              <li class="tab-panel-card">
+                <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
+                  <div class="tab-panel-card-top">
+                    <span class="tab-panel-card-avatar" aria-hidden="true">📈</span>
+                    <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
+                    <span class="tab-panel-card-cat">· Published in 주식</span>
+                  </div>
+                  <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
+                  <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
+                  <div class="tab-panel-card-bottom">
+                    <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
+                  </div>
+                </a>
+              </li>
+            {% endfor %}
+          {% else %}
+            <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
+          {% endif %}
+        </ul>
       </div>
     </div>
   </div>
@@ -369,6 +581,114 @@ layout: default
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', updatePostTimes);
     else updatePostTimes();
     setInterval(updatePostTimes, 60000);
+  })();
+
+  (function() {
+    var DOC_VISIBLE = 10;
+    var listEl = document.getElementById('overview-document-list');
+    var modalEl = document.getElementById('document-more-modal');
+    var modalListEl = document.getElementById('document-more-modal-list');
+    var moreBtn = document.getElementById('document-more-btn');
+
+    function getItems(container) {
+      container = container || listEl;
+      return container ? Array.prototype.slice.call(container.querySelectorAll('.js-document-item')) : [];
+    }
+
+    function sortItems(items, sortType) {
+      if (!items.length) return items;
+      if (sortType === 'date-desc') {
+        return items.sort(function(a, b) {
+          return new Date(b.getAttribute('data-sort-date')) - new Date(a.getAttribute('data-sort-date'));
+        });
+      }
+      if (sortType === 'date-asc') {
+        return items.sort(function(a, b) {
+          return new Date(a.getAttribute('data-sort-date')) - new Date(b.getAttribute('data-sort-date'));
+        });
+      }
+      if (sortType === 'title') {
+        return items.sort(function(a, b) {
+          return (a.getAttribute('data-sort-title') || '').localeCompare(b.getAttribute('data-sort-title') || '', 'ko');
+        });
+      }
+      return items;
+    }
+
+    function applyOrder(container, items) {
+      if (!container || !items.length) return;
+      items.forEach(function(node) { container.appendChild(node); });
+    }
+
+    function updateVisibility(container, visibleCount) {
+      visibleCount = visibleCount != null ? visibleCount : DOC_VISIBLE;
+      getItems(container).forEach(function(node, i) {
+        node.classList.toggle('overview-document-item-hidden', i >= visibleCount);
+      });
+    }
+
+    function applySortToList(container, sortType) {
+      if (!container) return;
+      var items = getItems(container);
+      applyOrder(container, sortItems(items, sortType));
+      if (container === listEl) updateVisibility(listEl);
+    }
+
+    function initDocumentSort() {
+      if (!listEl) return;
+      var section = document.getElementById('overview-document-section');
+      var headerSelect = document.getElementById('document-sort-select');
+      if (headerSelect) {
+        headerSelect.addEventListener('change', function() {
+          var sortType = headerSelect.value;
+          applySortToList(listEl, sortType);
+        });
+      }
+
+      if (modalEl) {
+        var modalSelect = document.getElementById('document-more-sort-select');
+        var modalClose = modalEl.querySelector('.document-more-modal-close');
+        var backdrop = modalEl.querySelector('.document-more-modal-backdrop');
+        if (modalSelect) {
+          modalSelect.addEventListener('change', function() {
+            applySortToList(modalListEl, modalSelect.value);
+          });
+        }
+        function closeModal() {
+          modalEl.classList.remove('is-open');
+          modalEl.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+          if (moreBtn) moreBtn.setAttribute('aria-expanded', 'false');
+        }
+        if (modalClose) modalClose.addEventListener('click', closeModal);
+        if (backdrop) backdrop.addEventListener('click', closeModal);
+        modalEl.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') closeModal();
+        });
+      }
+
+      if (moreBtn && modalListEl) {
+        moreBtn.addEventListener('click', function() {
+          var headerSelect = document.getElementById('document-sort-select');
+          var currentSort = (headerSelect && headerSelect.value) ? headerSelect.value : 'date-desc';
+          var modalSelect = document.getElementById('document-more-sort-select');
+          if (modalSelect) modalSelect.value = currentSort;
+          var items = getItems(listEl);
+          var sorted = sortItems(items.map(function(n) { return n.cloneNode(true); }), currentSort);
+          modalListEl.innerHTML = '';
+          sorted.forEach(function(n) { modalListEl.appendChild(n); });
+          document.body.style.overflow = 'hidden';
+          modalEl.classList.add('is-open');
+          modalEl.setAttribute('aria-hidden', 'false');
+          moreBtn.setAttribute('aria-expanded', 'true');
+          var closeBtn = modalEl.querySelector('.document-more-modal-close');
+          if (closeBtn) closeBtn.focus();
+        });
+      }
+    }
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initDocumentSort);
+    else initDocumentSort();
   })();
 
   if (typeof lucide !== 'undefined') lucide.createIcons();

@@ -1,0 +1,89 @@
+<header class="home-header hero-section">
+  <div class="sidebar-section profile-section profile-card hero-card">
+    {% assign github_username = site.github | split: '/' | last %}
+    {% assign github_avatar = github_username | prepend: 'https://github.com/' | append: '.png' %}
+    <div class="profile-card-inner">
+      <div class="profile-card-left">
+        <div class="profile-card-avatar hero-avatar" aria-hidden="true">
+          <img src="{{ github_avatar }}" alt="" id="profile-avatar-img" />
+        </div>
+        <div class="profile-card-body">
+          <div class="profile-card-head">
+            <div class="profile-card-head-col1">
+              <h1 class="profile-card-title hero-title">나의 기술 블로그</h1>
+              <p class="profile-card-subtitle hero-subtitle">내가 살아가는 이야기</p>
+              <div class="profile-meta-row">
+                <span id="profile-version" class="profile-version" data-github-repo="{{ site.github_repo | default: 'rldhkstopic/GithubPage_rldhkstopic' }}">v--.--.--</span>
+                <a href="{{ site.github }}" target="_blank" rel="noopener" class="profile-publisher">{{ github_username }}</a>
+                <div class="profile-stats-row">
+                  <span class="profile-stat">
+                    <svg class="profile-stat-icon profile-stat-icon-person" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>총 <span id="total-visitors">-</span></span>
+                  </span>
+                  <span class="profile-stat profile-stat-no-icon">어제 <span id="yesterday-visitors">-</span></span>
+                  <span class="profile-stat profile-stat-no-icon">오늘 <span id="today-visitors">-</span></span>
+                </div>
+              </div>
+            </div>
+            <div class="profile-card-head-col2">
+              <div class="profile-head-right-row">
+                <a href="{{ site.github }}" target="_blank" rel="noopener" class="profile-contributions-link profile-contributions-head" title="GitHub Contributions">
+                  <img src="https://ghchart.rshah.org/{{ github_username }}" alt="GitHub Contributions (최근 7일)" class="profile-contributions-chart" loading="lazy" />
+                </a>
+                <div class="profile-card-links">
+                  <a href="{{ site.github }}" target="_blank" rel="noopener" class="profile-link-icon" title="GitHub" aria-label="GitHub">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                  </a>
+                  <a href="mailto:{{ site.email }}" class="profile-link-icon" title="Email" aria-label="Email">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-meta-bottom">
+            <p class="profile-intro-text">FPGA와 VHDL 기반 디지털 설계, 바이브코딩, 시퀀스 설계, RTL 설계 등 하드웨어 엔지니어링과 코딩에 관심을 두고 있습니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const img = document.getElementById('profile-avatar-img');
+        if (img) {
+          img.onerror = function() {
+            this.style.display = 'none';
+            this.parentElement.innerHTML = '<span aria-hidden="true">❤️</span>';
+          };
+        }
+        (function() {
+          var el = document.getElementById('profile-version');
+          if (!el) return;
+          var repo = el.getAttribute('data-github-repo') || 'rldhkstopic/GithubPage_rldhkstopic';
+          var now = new Date();
+          var y = now.getFullYear().toString().slice(-2);
+          var m = now.getMonth() + 1;
+          var d = now.getDate();
+          var datePart = 'v' + y + '.' + m + '.' + d;
+          var startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+          var since = startOfDay.toISOString();
+          var apiUrl = 'https://api.github.com/repos/' + repo + '/commits?since=' + encodeURIComponent(since) + '&per_page=100';
+          fetch(apiUrl, { headers: { 'Accept': 'application/vnd.github.v3+json' } })
+            .then(function(r) { return r.json(); })
+            .then(function(arr) {
+              var n = Array.isArray(arr) ? arr.length : 0;
+              el.textContent = datePart + '.' + n;
+            })
+            .catch(function() {
+              el.textContent = datePart + '.0';
+            });
+          el.textContent = datePart + '.-';
+        })();
+      });
+    </script>
+  </div>
+</header>

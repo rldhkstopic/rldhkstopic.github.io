@@ -1,0 +1,6 @@
+# 메인 개요 카드에 표시할 관심종목 (첫 번째만 사용)
+# logo_url 실패 시 domain으로 Google favicon 자동 fallback
+- ticker: SOFI
+  name: SoFi Technologies, Inc.
+  domain: sofi.com
+  logo_url: "https://logo.clearbit.com/sofi.com"
