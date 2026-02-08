@@ -1,6 +1,140 @@
 {
-  "last_updated": "2026-02-08T23:09:55.711429+09:00",
+  "last_updated": "2026-02-09T01:08:21.275269+09:00",
   "items": [
+    {
+      "id": "cba601ec9664f9e00b07d7f04bdddde1",
+      "timestamp": "2026-02-09T01:04:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bangkok Voters at Polling Station in Thailand - Thai voters headed to the polls on Sunday in a three-cornered contest between the ruling Bhumjaithai Party, the progressive People’s Party and the populist Pheu Thai Party. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-08/bangkok-voters-at-polling-station-in-thailand-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5b4b8ce0ac08e3f5f80599d9602a5796",
+      "timestamp": "2026-02-09T00:56:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Voters at Tokyo Polling Station in 2026 Election - Voters cast ballots at a Tokyo Polling Station for Japan's 2026 snap election. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-08/japan-voters-at-tokyo-polling-station-in-2026-election-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5c31268d22594562002eb96a05c60d5d",
+      "timestamp": "2026-02-09T00:40:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Eskom Can Raise $3.4 Billion From Tariffs After Regulator Error - South Africa’s energy regulator has allowed state-owned Eskom Holdings SOC Ltd. to raise tariffs and recover 54.7 billion rand ($3.4 billion) over three years after a series of pricing errors and a fa",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/eskom-can-raise-3-4-billion-from-tariffs-after-regulator-error",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "56c985889b03527b5565a27b64bf7a86",
+      "timestamp": "2026-02-09T00:30:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Technologies (SOFI) Receives Price Target Cuts Post Earnings - SoFi Technologies, Inc. (NASDAQ:SOFI) is one of the 10 best financial stocks to buy for the long term. Despite beating Wall Street estimates in the fourth quarter, SoFi Technologies, Inc. (NASDAQ:SOFI",
+      "url": "https://finance.yahoo.com/news/sofi-technologies-sofi-receives-price-153001575.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4b2cbc5bee089a2dfafa22990c70c1b2",
+      "timestamp": "2026-02-09T00:26:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thai Reformist Pita on Election, Hopes for Thai - Pita Limjaroenrat, the prime ministerial candidate sidelined after the 2023 vote speaks on his hopes for the future of Thailand. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-08/thai-reformist-pita-on-election-hopes-for-thai-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "07455ced1415afdb393489a968acd315",
+      "timestamp": "2026-02-09T00:04:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Inside the Risks of Investing in Art - Once seen as a pure passion play, art has become deeply intertwined with finance, credit, and wealth planning. As prices fluctuate and liquidity tightens, collectors face new risks alongside opportuni",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-08/inside-the-risks-of-investing-in-art-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ae0f6c4807c07e02e3fb77afb7989ba1",
+      "timestamp": "2026-02-09T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gambling Stocks Sag as Prediction Markets Steal Super Bowl Bets - The Super Bowl is supposed to be the highlight of the calendar for gambling companies. This year, though, a cloud has descended over the industry as the big game approached.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/gambling-stocks-sag-as-prediction-markets-steal-super-bowl-bets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0927b065d47a23921d5bd78cafb6f38c",
+      "timestamp": "2026-02-09T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wild Stock Swings Keep Favorite Wall Street Option Trade Humming - The volatility in pockets of the European and US equity markets has yet to engulf the broader indexes, boosting demand for option strategies betting on further dispersion.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/wild-stock-swings-keep-favorite-wall-street-option-trade-humming",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0339b8a2ac1139a1e29dc8deb49c6c5",
+      "timestamp": "2026-02-08T23:54:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudis to Unveil Updated Strategy for $2 Trillion Economic Plan - Saudi Arabia plans to release an updated strategy for Crown Prince Mohammed bin Salman’s $2 trillion economic diversification agenda as the kingdom adjusts its policies and spending priorities amid fi",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/saudis-to-unveil-updated-strategy-for-2-trillion-economic-plan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "87eacccd22da724bc7342e7d7d765e12",
+      "timestamp": "2026-02-08T23:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "KKR Sees Arctos as Linchpin for Building a $100 Billion Business - KKR &amp; Co.’s leaders see their acquisition of Arctos Partners as key to helping the firm capitalize on two growing business lines while strengthening its newfound position as a dominant institution",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/kkr-sees-arctos-as-linchpin-for-building-a-100-billion-business",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0b66d2c96cc30cbfe90f3cc0236f9608",
+      "timestamp": "2026-02-08T23:17:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer’s Chief of Staff Quits as Mandelson Furor Engulfs PM - Keir Starmer’s Chief of Staff Morgan McSweeney quit his post on Sunday, amid a furor over the decision to appoint his ally Peter Mandelson as the UK’s ambassador to Washington.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/starmer-s-chief-of-staff-quits-as-mandelson-furor-endangers-pm",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "848d0c9af987a8b300b453f638c08feb",
+      "timestamp": "2026-02-08T23:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Fear Grips Wall Street as a New Stock Market Reality Sets In - For months, investors have been growing increasingly anxious about how artificial intelligence will potentially transform the economy. Last week, those concerns suddenly spilled over into the stock ma",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/ai-fear-grips-wall-street-as-a-new-stock-market-reality-sets-in",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8724455b8bebedfb0fcb4cb68d1a25ac",
       "timestamp": "2026-02-08T22:55:59+09:00",
@@ -2075,140 +2209,6 @@
       "related_tickers": [],
       "content": "Sanctions Sank Lukoil-Linked Grain Trader Before It Got Started - Lukoil PJSC attempted a surprise push into grains trading from Dubai last year, before the plan was quickly scuppered by US sanctions on the Russian oil giant, according to people familiar with the ma",
       "url": "https://www.bloomberg.com/news/articles/2026-02-06/sanctions-sank-lukoil-linked-grain-trader-before-it-got-started",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f68124ab4aa9384a7f8b5440d2b0478a",
-      "timestamp": "2026-02-07T00:32:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NY-NJ River Tunnel Project Suspended After Trump Blocked Funding - Construction of a $16 billion rail tunnel that would connect northern New Jersey with Midtown Manhattan has been put on hold after efforts to restore funding frozen last year by the Trump administrati",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/ny-nj-river-tunnel-project-suspended-after-trump-blocked-funding",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ac9938a51a091fdf93615f3916dd8777",
-      "timestamp": "2026-02-07T00:32:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Consumer Sentiment Climbs to a Six-Month High - US consumer sentiment unexpectedly surpassed all estimates as the preliminary February sentiment index increased to 57.3 from 56.4 in January, according to the University of Michigan. Michael McKee re",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/us-consumer-sentiment-climbs-to-a-six-month-high-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a61f560d7baae707a679fa8accc5d50c",
-      "timestamp": "2026-02-07T00:32:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock's Rieder Is Looking to Emerging Markets - BlackRock CIO of Global Fixed Income Rick Rieder talks about the impact of AI on markets says emerging markets are looking very attractive. He speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/blackrock-s-rieder-is-looking-to-emerging-markets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c54588e18aa36f5c06c52bdfaf62720a",
-      "timestamp": "2026-02-07T00:30:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BC-Most Active Stocks - CCH Holdings Ltd. 112,627,099 0.7172",
-      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153025680.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "600e33f5932f9dba53d62e0b39cd1d47",
-      "timestamp": "2026-02-07T00:17:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Man Suspected of 2012 Benghazi Attack in Libya Is in US Custody - A man suspected of being responsible for the deadly 2012 attack against the American embassy in Benghazi, Libya, is in US custody, FBI Director Kash Patel and Attorney General Pam Bondi said Friday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/man-suspected-of-2012-benghazi-attack-in-libya-is-in-us-custody",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "39ee853faf3a4d4756760bfb0f447fa3",
-      "timestamp": "2026-02-07T00:15:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Driving Services Firm RAC Said to Add Banks to London IPO - Driving services provider RAC has appointed more advisers to help arrange its potential initial public offering in London, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/driving-services-firm-rac-said-to-add-more-banks-to-london-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c6c6abcebc246a2fe94124ea7f9ae1e2",
-      "timestamp": "2026-02-07T00:12:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Atlanta’s Rise as a Black Economic Capital - Former mayor and civil rights leader Andrew Young reflects on the decisions that helped turn Atlanta into a national model for Black entrepreneurship. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/atlanta-s-rise-as-a-black-economic-capital-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e0b46d0024d8a493eed51ce69dbfa968",
-      "timestamp": "2026-02-07T00:04:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Says Talks With US to De-Escalate Tensions Had ‘Good Start’ - Iran said it agreed with the US to continue indirect talks to de-escalate tensions and avert a military confrontation, with Tehran describing the first day as positive.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/iran-says-talks-with-us-to-de-escalate-tensions-had-good-start-mlb106se",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "655b58bcb087b5cbdee303ba776b7297",
-      "timestamp": "2026-02-07T00:02:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bostic Talks Career With Fed, Inflation Risk and Warsh - Federal Reserve Bank of Atlanta President Raphael Bostic discusses current sentiment about the US economy, the importance of returning to the central bank's 2% inflation goal and Kevin Warsh's views o",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/bostic-talks-career-with-fed-inflation-risk-and-warsh-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "01f941f465e96072f4b6fe5e07e72375",
-      "timestamp": "2026-02-07T00:01:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Funeral for Qaddafi’s Slain Son Shows Libya’s Divides - A tightly secured funeral was held for the slain son of ousted Libyan dictator Muammar Qaddafi on Friday, an event that highlighted the gaping political divisions in the major gas and oil exporter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/funeral-for-son-of-ousted-libyan-dictator-shows-internal-divide",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a99901c8a91c0ab43f9ab63d30341ce6",
-      "timestamp": "2026-02-07T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Consumer Sentiment Unexpectedly Rises to a Six-Month High - US consumer sentiment unexpectedly improved to the highest in six months, largely propelled by wealthier Americans who have benefited from stock-market gains.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/us-consumer-sentiment-unexpectedly-rises-to-a-six-month-high",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f87df661d12ca25f14eb5a6504c0cb4a",
-      "timestamp": "2026-02-06T23:55:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed's Bostic Says It's 'Paramount' to Return to 2% Inflation Goal - Federal Reserve Bank of Atlanta President Raphael Bostic says that it’s important to keep interest rates at a level that restricts economic activity and returns inflation to 2%.  He speaks during an i",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/fed-s-bostic-paramount-to-return-to-2-inflation-goal-video",
       "sentiment": "NEUTRAL"
     }
   ]
