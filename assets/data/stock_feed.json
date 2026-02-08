@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-02-08T09:31:06.328660+09:00",
+  "last_updated": "2026-02-08T12:04:58.212690+09:00",
   "items": [
+    {
+      "id": "3bee5380bfefde3764ca280c489cca64",
+      "timestamp": "2026-02-08T11:19:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia Opposition Groups Revive Alliance After Dramatic Split - Australia’s two main opposition parties have revived their long-standing coalition after it fractured due to a disagreement over a new anti-hate speech law.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/australia-opposition-groups-revive-alliance-after-dramatic-split",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a2e9ed00901240989b43e201628d9b0b",
+      "timestamp": "2026-02-08T10:00:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thailand Votes as Three-Way Race Raises Risk of Political Drift - Thai voters headed to the polls on Sunday in what is seen as a three-cornered contest, with most pre-poll surveys signaling a fractured mandate that could trigger a fresh bout of political paralysis.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/thailand-votes-as-three-way-race-raises-risk-of-political-drift",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c86fabd8acf13d662b8bbfd700b7f4f9",
+      "timestamp": "2026-02-08T09:11:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "'We will pay,' Savannah Guthrie says in desperate video plea to potential kidnappers of her mother - TUCSON, Ariz. (AP) &mdash; Savannah Guthrie told the potential kidnappers of her mother Nancy Guthrie on Saturday that the family is prepared to pay for her safe return, as the frantic search for the ",
+      "url": "https://www.bloomberg.com/en/news/thp/2026-02-08/urgent-we-will-pay-savannah-guthrie-says-in-desperate-video-plea-to-potential-kidnappers-of-her-mother",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "87eac29beb18d874ffc496f8ef6e1f68",
       "timestamp": "2026-02-08T09:04:11+09:00",
@@ -2174,39 +2207,6 @@
       "related_tickers": [],
       "content": "New AI Tool Pressures Indian IT Firms - Shares of India’s top IT firms slid as fears grow that AI could undercut the traditional software services model, raising questions about jobs, growth and the future of outsourcing.\n\n (Source: Bloombe",
       "url": "https://www.bloomberg.com/news/videos/2026-02-06/new-ai-tool-pressures-indian-it-firms-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c86f1ea3773c37d9d2563c94be8d9d1b",
-      "timestamp": "2026-02-06T22:19:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Bars Unapproved Issuance of Yuan Stablecoins Abroad - China tightened curbs on cryptocurrencies and tokenized real-world assets, barring domestic entities from issuing digital tokens overseas and banning the offshore issuance of yuan-linked stablecoins w",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/china-bars-unapproved-issuance-of-yuan-linked-stablecoins-abroad",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "97195885a6b742b11a94524dea026f00",
-      "timestamp": "2026-02-06T21:54:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mandelson's Fall May Topple Starmer Says Adrian Wooldridge - The challenges for Prime Minister Keir Starmer are piling up. He now faces another blow to his leadership, as further details about ties between Britain's former Ambassador to the US, Peter Mandelson,",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/mandelson-s-fall-may-topple-starmer-adrian-wooldridge-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bd0b1be83274d7d16e2f19448f2dccd2",
-      "timestamp": "2026-02-06T21:52:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Novo’s Stratospheric Rise Has Turned Into a $460 Billion Wipeout - Just last month, Novo Nordisk A/S shares seemed to be turning a corner. Analysts were optimistic about the pill version of the Danish drugmaker’s blockbuster Wegovy obesity shot, while investors seeme",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/novo-s-stratospheric-rise-has-turned-into-a-450-billion-wipeout",
       "sentiment": "NEUTRAL"
     }
   ]
