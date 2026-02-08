@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-08T21:09:41.925907+09:00",
+  "last_updated": "2026-02-08T23:09:55.711429+09:00",
   "items": [
+    {
+      "id": "8724455b8bebedfb0fcb4cb68d1a25ac",
+      "timestamp": "2026-02-08T22:55:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan’s Takaichi Vows Fiscal Sustainability, Fast Tax Cut Talks - Japanese Prime Minister Sanae Takaichi stuck to a cautious line on fiscal policy and a sales tax reduction in her first comments since polls closed with her ruling party on track for a landslide victo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/japan-s-takaichi-vows-fiscal-sustainability-fast-tax-cut-talks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0b34dfd26d2f552ee26953aa2c836c5d",
+      "timestamp": "2026-02-08T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Some Emerging Corporates Look Like a Safer Bet than Governments - Growing numbers of emerging-market companies are borrowing overseas at cheaper rates than their countries of origin, a sign that sovereign risk is becoming less of a drag for the stronger, export-focu",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/from-mexico-to-ukraine-some-corporates-can-borrow-cheaper-than",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2437d9f4f039e494535b52e097055ae2",
+      "timestamp": "2026-02-08T22:09:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa to Pull Troops from UN’s Congo Peacekeeping Mission - South Africa will withdraw its troops from the United Nation’s peacekeeping mission in the Democratic Republic of Congo as the continent’s largest economy seeks to “realign” the resources of its armed",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/south-africa-to-pull-troops-from-un-s-congo-peacekeeping-mission",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1fc0d3a424f30188d382187b7bea2989",
+      "timestamp": "2026-02-08T22:04:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Second China Shock: How Europe Is Being Tested - China’s first trade shock hit the United States after it joined the WTO in 2001, hollowing out parts of American manufacturing. Now a new wave of Chinese exports is reshaping global trade with Europe ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-08/the-second-china-shock-how-europe-is-being-tested-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b073cc54482119bdf2af22af1d40fb06",
+      "timestamp": "2026-02-08T22:00:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Prepares to Kick Off 2026 With the iPhone 17e, New iPads and Macs - Apple is going to begin a 2026 product blitz with the iPhone 17e, updated iPads and fresh Macs. Also: Here’s exactly what CEO Tim Cook told employees about immigration, artificial intelligence and the",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-08/apple-readies-iphone-17e-new-siri-entry-level-ipad-ipad-air-and-macbook-pro-mldr3hpk",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "30e6ecf80d46661a6d84cd306b589fee",
       "timestamp": "2026-02-08T20:44:30+09:00",
@@ -72,6 +127,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "cc20cc7667c331242c87ac13e8e07bf0",
+      "timestamp": "2026-02-08T19:09:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mandelson Payoff Under Scrutiny as Scandal Threatens Starmer - Former envoy Peter Mandelson is under pressure to return the money he received as part of his sacking as UK ambassador to the US, as the crisis over his ties to the disgraced pedophile Jeffrey Epstein",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/mandelson-payoff-under-scrutiny-as-scandal-threatens-starmer",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "ea0d91c16f8cd70f34fa2ad37d071821",
       "timestamp": "2026-02-08T19:01:21+09:00",
       "source_type": "NEWS",
@@ -102,6 +168,17 @@
       "related_tickers": [],
       "content": "Ukraine’s Naftogaz Says Russia Attacked Facilities Overnight - Russia launched a large-scale drone attack overnight, striking facilities operated by state-owned Naftogaz Group in the Poltava region of central Ukraine, the company said.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-08/ukraine-s-naftogaz-says-russia-attacked-facilities-overnight",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "93fcabbfd15afa9d0ae7f20ae1d27705",
+      "timestamp": "2026-02-08T18:02:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thai Ruling Party Has Surprise Lead in Early Vote Count",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-02-08/thailand-general-election",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2132,83 +2209,6 @@
       "related_tickers": [],
       "content": "Fed's Bostic Says It's 'Paramount' to Return to 2% Inflation Goal - Federal Reserve Bank of Atlanta President Raphael Bostic says that it’s important to keep interest rates at a level that restricts economic activity and returns inflation to 2%.  He speaks during an i",
       "url": "https://www.bloomberg.com/news/videos/2026-02-06/fed-s-bostic-paramount-to-return-to-2-inflation-goal-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "37dd0c75d3c3c8363c0e51cbf7434944",
-      "timestamp": "2026-02-06T23:52:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Natural Gas Inches Up on Lingering Cold, Higher LNG Exports - US natural gas futures rose as liquefied natural gas terminals took in higher volumes of domestic gas supply, and weather forecasts shifted to show slightly colder weather than previously expected.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/us-natural-gas-inches-up-on-lingering-cold-higher-lng-exports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e3ea59b2d6f8f5d19161f666f0ae1395",
-      "timestamp": "2026-02-06T23:44:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "S&amp;P 500, Nasdaq 100 Advance as AI-Fueled Tech-Stock Rout Eases - US stocks started to rebound on Friday as dip buyers capitalized on the artificial intelligence-fueled plunge in technology stocks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/s-p-500-nasdaq-100-advance-as-ai-fueled-tech-stock-rout-eases",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b6f4362eef4a5e524e91a1de744ed6c",
-      "timestamp": "2026-02-06T23:37:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Expect Broadening Out in Labor Demand: Watt - UBS US Economist Abigail Watt sees US unemployment peaking at 4.6% by June, then a normalization through a broadening out of growth in labor demand. She speaks to Bloomberg's Jonathan Ferro, Lisa Abra",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/expect-broadening-out-in-labor-demand-watt-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "46aca8480b6f21850a324ef1a93f72ed",
-      "timestamp": "2026-02-06T23:35:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU to Push for ‘Trusted’ Chips as Part of New Drone Strategy - The European Union will propose the use of so-called trusted semiconductors in drone systems as part of its upcoming strategy aimed at ramping up drone production for both civilian and defense purpose",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/eu-to-push-for-trusted-chips-as-part-of-new-drone-strategy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "68b732aa74a4ca365a73ac67b04e154f",
-      "timestamp": "2026-02-06T23:35:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB Will Focus on Strong Domestic Resilience: Kumra - Pooja Kumra, European and UK Rates Senior Strategist at TD Securities, says while there are downside risks to Europe inflation, the ECB will linger on the core strength of the EU economy. She discusse",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/ecb-will-focus-on-strong-domestic-resilience-kumra-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3d0d67c24528c8dc9ed0ae6b9ed386f3",
-      "timestamp": "2026-02-06T23:30:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bloomberg's Best of Davos 2026 - A recap of Bloomberg Television's coverage of Davos 2026 featuring interviews with global leaders in business, finance and politics. Hosted by Francine Lacqua. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/bloomberg-s-best-of-davos-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e07a3044aeb1607d509d728ffcdd3197",
-      "timestamp": "2026-02-06T23:29:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UBS Downgraded by Goldman Sachs as Shares Drop 8% in Week - UBS Group AG was downgraded by a pair of analysts on Friday as shares head for their worst week in nearly 10 months, after outflows at the bank’s US wealth business took the shine off earnings.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/ubs-loses-two-bulls-as-analysts-turn-most-bearish-since-2017",
       "sentiment": "NEUTRAL"
     }
   ]
