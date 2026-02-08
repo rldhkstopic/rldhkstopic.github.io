@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-09T05:06:16.130196+09:00",
+  "last_updated": "2026-02-09T07:06:26.675283+09:00",
   "items": [
+    {
+      "id": "5ffc14366df96848f1693a99766a276c",
+      "timestamp": "2026-02-09T06:39:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spain’s Ruling Party Suffers Second Ballot Loss in Two Months - Spanish Prime Minister Pedro Sánchez’s Socialist party sustained its second major loss in two months in a snap regional election, underlining the government’s waning support in large parts of the coun",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/spain-s-ruling-party-suffers-second-ballot-loss-in-two-months",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e01aacfea0a852b7fa2b6191893b9ff1",
+      "timestamp": "2026-02-09T06:38:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer’s UK Premiership Teeters on Brink After Key Aide Quits - Keir Starmer’s future is the balance after a crisis over the appointment of Peter Mandelson as ambassador to Washington claimed the UK prime minister’s closest aide.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/starmer-s-uk-premiership-teeters-on-brink-after-key-aide-quits",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a14bd7594800848b448b34b0df65010d",
+      "timestamp": "2026-02-09T06:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Homegrown Startups Outperform Returnee Tech Talent, Study Shows - India’s fiercely competitive startup field has provided evidence to suggest that homegrown entrepreneurs fare better over the long run than returning diaspora with overseas experience, contradicting w",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/homegrown-startups-outperform-returnee-tech-talent-study-shows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "776ac2e02e7f019323f62b81bbef368b",
+      "timestamp": "2026-02-09T05:47:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Czech Prime Minister Supports Social Media Ban for Under-15s - Czech Prime Minister Andrej Babis said he supports banning social media use for children under 15, citing France as an example of a country that has recently moved to impose limits on young users.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/czech-prime-minister-supports-social-media-ban-for-under-15s",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0bf43b1c1f9045f4609f957ca3bbcc3f",
+      "timestamp": "2026-02-09T05:03:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Portugal Elects Seguro as President, Beating Far-Right Leader - Socialist António José Seguro won the race to be Portugal’s president, defeating far-right challenger André Ventura in a runoff that reaffirmed the country’s tradition of consensus-driven leadership a",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/portugal-elects-seguro-as-president-beating-far-right-leader",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "3baec066a0bed8c3ac39b81829f8d764",
       "timestamp": "2026-02-09T05:00:00+09:00",
@@ -2156,61 +2211,6 @@
       "related_tickers": [],
       "content": "Bond Traders Await Big Data Week Catalyst to Spark Yield Swings - A week of modest gains in the $30 trillion Treasury market is setting investors up for a trio of upcoming economic releases that stand to offer further reason to price in a Federal Reserve interest-ra",
       "url": "https://www.bloomberg.com/news/articles/2026-02-06/bond-traders-await-big-data-week-catalyst-to-spark-yield-swings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "410219d903b34491f6ed7a4478edfed5",
-      "timestamp": "2026-02-07T02:31:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "H&amp;F Said In Talks for Buyout of Payments Firm Bill Holdings - Hellman &amp; Friedman has been in talks to acquire business payments firm Bill Holdings Inc., people familiar with the matter said, in what would be another sizable buyout of a financial software com",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/h-f-said-in-talks-for-buyout-of-payments-firm-bill-holdings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f3c173bf657e3b4a52558111e1dd3890",
-      "timestamp": "2026-02-07T02:25:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Bounces Back After Touching $60,000 - Bitcoin reclaimed almost all of the losses registered during Thursday’s crypto market meltdown. Other tokens also recovered. Bloomberg's Emily Nicolle reports.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/bitcoin-bounces-back-after-touching-60-000-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40e39d1f938377fb07804085c59d174a",
-      "timestamp": "2026-02-07T02:23:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Eye Care Firm SpyGlass Pharma Soars 50% After $150 Million IPO - SpyGlass Pharma Inc. shares jumped 50% in the biopharmaceutical firm’s trading debut after it raised $150 million in an initial public offering.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/eye-care-firm-spyglass-pharma-soars-50-after-150-million-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d18ae2a8bd527b969d339c03d0823dd1",
-      "timestamp": "2026-02-07T02:19:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock’s Rieder Dumps US Credit in Favor of Emerging Markets - BlackRock Inc.’s Rick Rieder said he’s reducing exposure to US investment-grade and high-yield bonds while increasing holdings of emerging-market debt, citing favorable valuations and a soft dollar.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/blackrock-s-rieder-dumps-us-credit-in-favor-of-emerging-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3da5d90afe80fd3c5c1a24f077e3dfe6",
-      "timestamp": "2026-02-07T02:17:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Did BitcoinCrash, and WhenWill Crypto Recover? - Bitcoin has fallen about 50% since its October peak. What went wrong for the world's biggest cryptocurrency? Anna Irrera explains. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/why-did-bitcoin-crash-and-when-will-crypto-recover-video",
       "sentiment": "NEUTRAL"
     }
   ]
