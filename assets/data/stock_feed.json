@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-08T17:08:50.374144+09:00",
+  "last_updated": "2026-02-08T19:06:52.633223+09:00",
   "items": [
+    {
+      "id": "3585b7ee5daf71cb6aa790b563b13781",
+      "timestamp": "2026-02-08T18:43:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Vote Puts PM Takaichi's Election Gamble to the Test",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-02-08/japan-general-election",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e34293a89c253a7387cd0e6fa5da649f",
+      "timestamp": "2026-02-08T18:40:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine’s Naftogaz Says Russia Attacked Facilities Overnight - Russia launched a large-scale drone attack overnight, striking facilities operated by state-owned Naftogaz Group in the Poltava region of central Ukraine, the company said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/ukraine-s-naftogaz-says-russia-attacked-facilities-overnight",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9596b18780ee64c743cd0d7194fd65d0",
+      "timestamp": "2026-02-08T17:57:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Calls US Nuclear Talks a ‘Step Forward’ as Caution Lingers - Iran’s President Masoud Pezeshkian described the Friday nuclear talks with Washington as “a step forward,” even as he pushed back against any attempts at intimidation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/iran-calls-us-nuclear-talks-a-step-forward-as-caution-lingers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "17ebcf4f0ca0459c629d0e950fcb054a",
+      "timestamp": "2026-02-08T17:10:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prabowo’s Approval Rating Rises in Survey Before Market Turmoil - Indonesian President Prabowo Subianto saw his approval rating climb to almost 80% in a survey last month that was carried out before one of the country’s biggest market selloffs since the 1998 Asian F",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-08/prabowo-s-approval-rating-rises-in-survey-before-market-turmoil",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "3bee5380bfefde3764ca280c489cca64",
       "timestamp": "2026-02-08T11:19:17+09:00",
@@ -2163,50 +2207,6 @@
       ],
       "content": "Is Most-Watched Stock SoFi Technologies, Inc. (SOFI) Worth Betting on Now? - SoFi Technologies (SOFI) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
       "url": "https://finance.yahoo.com/news/most-watched-stock-sofi-technologies-140004005.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5352cae7c1e25c4d95c10fc9d9054dac",
-      "timestamp": "2026-02-06T22:58:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What kind of  Fed chair will  Kevin Warsh be? - If Kevin Warsh becomes Fed chair there could be major market implications. How will Trump's nomination balance independence with politics?\n\nRichard Clarida, former Fed vice-chair and now global econom",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/what-kind-of-fed-chair-will-kevin-warsh-be",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "841d96f291343f4eea4ae48ff46837b4",
-      "timestamp": "2026-02-06T22:40:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TPG Seals $3.5 Billion Deal for Power Infra Firm Sabre - TPG Inc. has struck a deal to acquire a majority stake in Sabre Industries, one of the largest providers of critical infrastructure for power utilities, telecoms and data centers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/tpg-seals-3-5-billion-deal-for-power-infrastructure-firm-sabre",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b186d0d4987469fc1609aa7c30bc7214",
-      "timestamp": "2026-02-06T22:33:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NJ Democratic Race for Suburban House Seat Too Close to Call - The Democratic primary race to fill New Jersey Governor Mikie Sherrill’s US congressional seat is too close to call after progressive candidate Analilia Mejia surged in parts of the suburban district.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-06/nj-democratic-race-for-suburban-house-seat-too-close-to-call",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "867cd88b18c4710ecd2d40142d995c86",
-      "timestamp": "2026-02-06T22:21:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "New AI Tool Pressures Indian IT Firms - Shares of India’s top IT firms slid as fears grow that AI could undercut the traditional software services model, raising questions about jobs, growth and the future of outsourcing.\n\n (Source: Bloombe",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-06/new-ai-tool-pressures-indian-it-firms-video",
       "sentiment": "NEUTRAL"
     }
   ]
