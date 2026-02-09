@@ -1,6 +1,320 @@
 {
-  "last_updated": "2026-02-09T23:25:07.319130+09:00",
+  "last_updated": "2026-02-10T01:22:59.686186+09:00",
   "items": [
+    {
+      "id": "823a6e3e4312e9f52146359af1d05f3d",
+      "timestamp": "2026-02-10T01:18:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Will Starmer Resign? PM Clings to Power - UK Prime Minister Keir Starmer is edging closer to the exit &mdash; and now the pressure is growing from inside his own party. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/will-starmer-resign-pm-clings-to-power-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e2ba5fa97f5dd39124a41b5718a13ae1",
+      "timestamp": "2026-02-10T01:14:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China's Property Crisis - China's property crisis may be hanging over the economy, but AIA Group CIO Mark Konyn says market confidence is \"palpable\", with foreign investors seeking opportunities.  (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/china-s-property-crisis",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8ea6fe84deba7da399bfc4c18ba2894b",
+      "timestamp": "2026-02-10T01:01:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "ChatGPT Thinks GLD Will Trade At This Price By March 20, And You Can Trade With Leverage After One Evaluation - Quick Summary Gold has entered a highly volatile phase, with sharp swings creating opportunity for traders but uncertainty for long-term investors. ChatGPT's model projects moderate upside for GLD int",
+      "url": "https://finance.yahoo.com/news/chatgpt-thinks-gld-trade-price-160113992.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "adc8a1ef90d17d48637cd4763586d70c",
+      "timestamp": "2026-02-10T00:55:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spanish Train Drivers Call Off Three-Day Strike - Spanish train drivers called off a planned three-day strike after unions reached a deal with the government, following calls for change after two deadly accidents in January.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/spanish-train-drivers-call-off-three-day-strike-mlfcs6qk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c5ecf5830eb30e6b546c580a009b3632",
+      "timestamp": "2026-02-10T00:53:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Takaichi’s Election Gamble Paid Off - Takaichi called a snap election expecting a risk. Instead, it strengthened her position in Parliament. Bloomberg Opinion columnist Gearoid Reidy explains what the result means for her agenda and Japan",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/opinion-takaichi-s-election-gamble-paid-off-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0c43ff6a9b4ecf52eefcc5e0a7935d6a",
+      "timestamp": "2026-02-10T00:51:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Maxwell Invokes Right to Silence on Lawmakers’ Epstein Questions - Ghislaine Maxwell, the convicted accomplice of disgraced financier Jeffrey Epstein refused on Monday to answer any questions from a House panel investigating Epstein’s sex-trafficking operation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/maxwell-invokes-right-to-silence-on-lawmakers-epstein-questions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2e6770fe050d18372f31105192aa0370",
+      "timestamp": "2026-02-10T00:51:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Creative Leadership In the Age of AI - Francine Lacqua speaks to global fashion brand CEO Dame Anya Hindmarch about her career and creativity in this moment before examining how AI is changing expectations for consumers and employees with ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/creative-leadership-in-the-age-of-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a9ce703a73f8ab88332212495d919a35",
+      "timestamp": "2026-02-10T00:44:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How Trump’s Call to ‘Nationalize’ Elections Runs Into the Constitution - President Donald Trump’s call for Republicans to “nationalize” voting rules has revived a long-running constitutional debate over how much influence the federal government should have in US elections.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/can-trump-nationalize-elections-how-the-constitution-limits-presidential-power",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "75c3379c01e783752dbe9c8603b2dd9f",
+      "timestamp": "2026-02-10T00:35:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apollo Global Sets Lending Record - Apollo Global Management set a record in its business of making loans. The firm originated a record $97 billion in the fourth quarter, totaling $309 billion for the year, almost $100 billion more than",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/apollo-global-sets-lending-record-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "af962e73989a6f014a80068a0384e132",
+      "timestamp": "2026-02-10T00:30:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Microsoft Hit With Second Downgrade as Melius Warns on AI Risks - Microsoft Corp. shares were downgraded for the second time in less than a week as Wall Street grows increasingly wary about the potential disruption software stocks face from artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/microsoft-hit-with-second-downgrade-as-melius-warns-on-ai-risks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb72f83052abadd1494181114b9bba63",
+      "timestamp": "2026-02-10T00:11:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk Shifts Focus to Moon as Mars Mission Remains Years Away - While most Americans were transfixed by this year’s Super Bowl proceedings on Sunday night, Elon Musk took to X to proclaim that SpaceX would focus on building out a base on the moon before sending hu",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/musk-shifts-focus-to-moon-as-mars-mission-remains-years-away",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "38af352ae9403d585cd9cae8df121cc7",
+      "timestamp": "2026-02-10T00:07:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What Next for Thailand After Anutin’s Surprise Election Win? - An unexpected election victory for the pro-royalist Bhumjaithai Party led by Prime Minister Anutin Charnvirakul is set to bring some stability to Thailand following years of political upheaval that le",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/who-is-thai-pm-anutin-charnvirakul-what-does-his-election-win-mean-for-country",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "99a58c139e2175c42a803e540650dcba",
+      "timestamp": "2026-02-10T00:06:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kyndryl Shares Sink as CFO Departs, Accounting Review Disclosed - Shares of Kyndryl Holdings Inc., an International Business Machines Corp. spinoff, plunged Monday morning after the company announced key leadership exits and a review of its accounting practices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/kyndryl-shares-sink-as-cfo-departs-accounting-review-disclosed",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2dd12f9c9e66c0cc8aa36000294de500",
+      "timestamp": "2026-02-10T00:05:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Social Networks Face Big Tobacco Moment Over Addiction Claims - Facebook, Google and other tech giants for more than a decade have rejected allegations that they build products deliberately to get kids addicted to social media.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/social-networks-face-big-tobacco-moment-over-addiction-claims",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d89757813258ee4a0f2f0afbd97113c7",
+      "timestamp": "2026-02-10T00:05:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Strategists See US IPO Volume Surging From 2025 Levels - US initial public offerings are poised to rebound this year, Goldman Sachs Group Inc. strategists said, citing tailwinds including a solid economic backdrop, rising boardroom confidence and supportive",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/goldman-strategists-see-us-ipo-volume-surging-from-2025-levels",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5b3361ac83ca797acbf11bd36ba90669",
+      "timestamp": "2026-02-10T00:03:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Tells American Ships to Keep Away From Iran Amid Tensions - The US said in an advisory that American-flagged ships should stay as far as possible from Iranian waters when navigating the Strait of Hormuz after a vessel was harassed last week, with tensions rema",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/marad-tells-us-ships-to-avoid-iran-waters-after-feb-3-incident",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79960fedc38cc5eb0456facca98903b6",
+      "timestamp": "2026-02-10T00:02:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Boards Sanctioned Venezuela-Linked Oil Tanker in Indian Ocean - US forces boarded an oil tanker after a cat-and-mouse chase from the Caribbean to the Indian Ocean, the Pentagon said, as Washington expands its geographic scope in an ongoing crackdown on a global sh",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/us-boards-sanctioned-venezuela-linked-oil-tanker-in-indian-ocean",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab92704a9b60a3b53f4fa3b7a8fdb30f",
+      "timestamp": "2026-02-10T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB’s Kazimir Would Only Change Rates on ‘Major’ Outlook Shift - The European Central Bank should only alter interest rates if its outlook for the economy shifts significantly, according to Governing Council member Peter Kazimir.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/ecb-s-kazimir-would-only-change-rates-on-major-outlook-shift",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2d4e662919ab9134dd92aefeafdb9550",
+      "timestamp": "2026-02-09T23:58:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alphabet Looks to Raise $15 Billion From US Bond Sale - Alphabet Inc. is looking to raise about $15 billion from a US high-grade dollar bond sale, according to people with knowledge of the matter. Caroline Hyde reports on Bloomberg Open Interest. (Source: ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/alphabet-hope-to-raise-15-billion-from-us-bond-sale-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "39f340e23dd9ae8ef45a714236e95711",
+      "timestamp": "2026-02-09T23:58:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Workday Co-Founder Returns as CEO Amid Steep Share Decline - Workday Inc. announced co-founder Aneel Bhusri is returning to head the software company, replacing chief executive officer Carl Eschenbach after the company’s shares have plummeted over the past year",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/workday-co-founder-returns-as-ceo-amid-steep-share-decline",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bb69ae115eaec96375e4146f3954b03e",
+      "timestamp": "2026-02-09T23:55:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stocks Gain as Big Week of Economic Data Gets Underway - US stocks gained on Monday, recovering from a rocky start, as traders geared up for a busy week of economic data.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/us-stocks-edge-lower-as-traders-await-key-economic-data",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "21b54f0e01772c571150e4b5f47e1af7",
+      "timestamp": "2026-02-09T23:51:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Apollo and Schroders Are Joining Forces - Apollo Global Management s teaming up with Schroders to develop funds for wealth and pension clients in a strategic partnership. Silas Brown has more on \"Bloomberg Open Interest.\" Why Apollo and Schro",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/why-apollo-and-schroders-are-joining-forces-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bcf3ab635e0f32064d51783958c2b67e",
+      "timestamp": "2026-02-09T23:45:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hims & Hers Stops Selling Wegovy Copycat Weight-Loss Pill - Novo Nordisk A/S shares rose after Hims & Hers Health Inc. agreed to stop selling a copycat version of the new Wegovy weight-loss pill following US government threats to crack down on knockoffs. Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/hims-hers-stops-selling-wegovy-copycat-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "14824d8bcbe6b15f64ab346c9c395dfd",
+      "timestamp": "2026-02-09T23:38:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Scottish Labour Leader Calls on Starmer to Quit Over Mandelson - Scottish Labour Leader Anas Sarwar urged UK Prime Minister Keir Starmer to quit his post over his controversial appointment of Peter Mandelson as US ambassador, becoming the most senior party figure s",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/scottish-labour-leader-calls-on-starmer-to-quit-over-mandelson",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b013d3c384ad13916a56f11fc83cce6e",
+      "timestamp": "2026-02-09T23:36:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Oracle gets upgrade and downgrade: Wall Street's top analyst calls - Oracle gets upgrade and downgrade: Wall Street's top analyst calls",
+      "url": "https://finance.yahoo.com/news/oracle-gets-upgrade-downgrade-wall-143651083.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "18321dc1f0f82af2e44033d498962424",
+      "timestamp": "2026-02-09T23:31:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Clarida: This Will Be the Warsh Fed - Former Federal Reserve Vice Chairman Richard Clarida talks about how Kevin Warsh could shape monetary policy at the Federal Reserve if he's confirmed as the next chair. Clarida speaks on \"Bloomberg Su",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/clarida-this-will-be-the-warsh-fed-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8bcb5214035b42cfc4d7df7770ee0a83",
+      "timestamp": "2026-02-09T23:26:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Congo to Enforce Local Ownership Rule for Copper, Cobalt Miners - Democratic Republic of Congo will enforce a long-dormant rule requiring local employee ownership for mines in a move that may rebalance shareholdings in some of the world’s biggest copper and cobalt p",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/congo-to-enforce-local-ownership-rule-for-copper-cobalt-miners",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ec79c2869df4499e8709df44e9b395f1",
+      "timestamp": "2026-02-09T23:18:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Technologies Stock Could Rise 40%, Say Analysts. The Fintech Is a Buy. - A selloff has created an opportunity to own ‘one of the most compelling long-term compounders in fintech,’ says Citizens JMP.",
+      "url": "https://finance.yahoo.com/m/307a30f4-6cc5-3bd3-9751-9a86874d5a87/sofi-technologies-stock-could.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7d69fc4454369fc8ac66fc8bb02f2018",
       "timestamp": "2026-02-09T22:44:03+09:00",
@@ -43,6 +357,17 @@
       "related_tickers": [],
       "content": "Italy Prosecutors Put Delivery Hero Unit Under Judicial Control - Italian prosecutors have placed Delivery Hero SE’s Italian food-delivery unit under judicial control as part of a criminal investigation into alleged labor exploitation.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-09/italy-prosecutors-put-delivery-hero-unit-under-judicial-control",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2f4cfef285468f5b169fed3f0d3871be",
+      "timestamp": "2026-02-09T22:17:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Raízen Hiring Advisers as Bonds Slump on Debt Concerns - Raízen SA’s credit scored was slashed deep into junk from investment grade by Fitch Ratings as controllers Cosan SA and Shell Plc fail to come to an agreement on how to rescue the joint-venture, worse",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/raizen-hiring-advisers-as-bonds-slump-amid-debt-concerns",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1886,329 +2211,6 @@
       "related_tickers": [],
       "content": "Bessent Suggests Warsh Nomination Hearings Alongside DOJ Probe - Treasury Secretary Scott Bessent suggested the Senate start hearings on Donald Trump’s pick to lead the Federal Reserve despite a vow from a key Republican to block all such nominations from advancing",
       "url": "https://www.bloomberg.com/news/articles/2026-02-08/bessent-suggests-warsh-nomination-hearings-alongside-doj-probe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2ae64441e2a2d9973e3d5ecf0f75825",
-      "timestamp": "2026-02-09T02:58:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Who Is Thailand’s Leader Anutin and How Did He Seal a Clear Win? - Thailand’s Prime Minister Anutin Charnvirakul’s pro-royalist party scored a resounding win in Sunday’s election over a progressive group seen as a pre-poll favorite.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/who-is-thailand-s-leader-anutin-and-how-did-he-seal-a-clear-win",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b2d9c1e64994edde39659d6f6ddda35",
-      "timestamp": "2026-02-09T02:53:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Election: PM Sanae Takaichi Wins Landslide Victory - Japanese Prime Minister Sanae Takaichi’s election gamble paid off with a stunning landslide victory.\n\nThis means a green light from voters for her vision of a more assertive, powerful Japan. Sakura Mu",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/japan-election-pm-sanae-takaichi-wins-landslide-victory-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6b2e10ba2710baf16636a62ee14a6a14",
-      "timestamp": "2026-02-09T02:44:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Creditors Take Stake in Allianca and Light After Collateral Call - Creditors who financed troubled-asset investor Nelson Tanure moved to seize part of his stakes in Allianca Saude e Participacoes SA and Light SA after executing shares pledged as collateral in a trans",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/creditors-take-stake-in-allianca-and-light-after-collateral-call",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b0c5fbb3ecb80b0db4b2c6da1b99b4f",
-      "timestamp": "2026-02-09T02:12:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Clear Thai Election Victory to Give Investors Policy Continuity - A convincing win by Thailand’s ruling Bhumjaithai Party in Sunday’s election should boost the country’s stock market and currency, according to some strategists and economists, with the potential for ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/clear-thai-election-victory-to-give-investors-policy-continuity",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b0c5fbb3ecb80b0db4b2c6da1b99b4f",
-      "timestamp": "2026-02-09T02:12:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Clear Thai Election Victory to Give Investors Policy Continuity - A convincing win by Thailand’s ruling Bhumjaithai Party in Sunday’s election should boost the country’s stock market and currency, according to some strategists and economists, with the potential for ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/clear-thai-election-victory-to-give-investors-policy-continuity",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f6660acd6d97d4a8764b1d7aa5be5b5c",
-      "timestamp": "2026-02-09T02:12:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Takaichi Set for Super Majority in Japan Election Win - Japanese Prime Minister Sanae Takaichi is poised for a resounding election victory, positioning her to become the nation’s strongest leader in years. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/takaichi-set-for-super-majority-in-japan-election-win-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0563456a3e4581719a901738836914c1",
-      "timestamp": "2026-02-09T02:06:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi (SOFI) Is Down 8.5% After GAAP Profit Fell Despite Strong Adjusted Growth And Membership Expansion - In late January 2026, SoFi Technologies reported fourth-quarter 2025 net income of US$173.55 million, down from US$332.47 million a year earlier, alongside continued strong growth in adjusted net reve",
-      "url": "https://finance.yahoo.com/news/sofi-sofi-down-8-5-170647687.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "044083e84f4b91aac2c1bd8a8fe5162a",
-      "timestamp": "2026-02-09T01:57:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thailand Takes First Step to Replace Military-Era Constitution - The majority of Thais voted in favor of replacing the country’s military-drafted constitution in a referendum, a move that could open the door to deeper political reform even though the main party bac",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/thailand-takes-first-step-to-replace-military-era-constitution",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b30b4e75060db0ad7946169227be499b",
-      "timestamp": "2026-02-09T01:42:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Sees ‘Unruly’ Chinese Trading Behind Gold Price Swings - Treasury Secretary Scott Bessent cited Chinese traders as a reason behind last week’s wild swings in the gold market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/bessent-sees-unruly-chinese-trading-behind-gold-price-swings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b30b4e75060db0ad7946169227be499b",
-      "timestamp": "2026-02-09T01:42:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Sees ‘Unruly’ Chinese Trading Behind Gold Price Swings - Treasury Secretary Scott Bessent cited Chinese traders as a reason behind last week’s wild swings in the gold market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/bessent-sees-unruly-chinese-trading-behind-gold-price-swings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b4b2aaf68a14e517b59a4a291b8c84be",
-      "timestamp": "2026-02-09T01:34:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jeffries Says Democrats Won’t Pass DHS Deal Without ICE Reforms - House Minority Leader Hakeem Jeffries said Democrats are insisting on their full list of demands to reform Immigration and Customs Enforcement before agreeing to pass the remaining government funding ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/jeffries-says-democrats-won-t-pass-dhs-deal-without-ice-reforms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d3b8c5c975fa0078552f16adbb258ae3",
-      "timestamp": "2026-02-09T01:25:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ocado May Cut Up to 1,000 Jobs in Cost-Cutting Drive: Times - Ocado Group Plc is planning to slash a significant number of jobs as the grocery technology firm renews efforts to cut costs, the Times newspaper reported.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/ocado-may-cut-up-to-1-000-jobs-in-cost-cutting-drive-times",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "854d28203ae59de356a11ad510a0ecbb",
-      "timestamp": "2026-02-09T01:22:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Leader Natthaphong Ruengpanyawut Voting - Thai People Party leader Natthaphong Ruengpanyawut casts vote in Bangkok, Thailand on Sunday, February 8, 2026. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/thai-leader-natthaphong-ruengpanyawut-voting-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "570186081c92ca4ce3e51f03a4326384",
-      "timestamp": "2026-02-09T01:16:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Finance Minister on Priorities & Planning - Finance Minister Mohammed Al-Jadaan speaks on Saudi Arabian economic priorities & planning. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/saudi-finance-minister-on-priorities-planning-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "35360e2b65b948b568461c17c044eacd",
-      "timestamp": "2026-02-09T01:11:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Minister on Private Capital & Foreign Investment - Saudi Arabian Finance Minister Mohammed Al-Jadaan speaks on drawing more private capital & foreign investment. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/saudi-minister-on-private-capital-foreign-investment-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bddb3defb6d79e3f7fc14fa53833c28c",
-      "timestamp": "2026-02-09T01:05:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Taiwan President Lai Congratulates Japan’s Takaichi on Election - Taiwanese President Lai Ching-te congratulated Japanese Prime Minister Sanae Takaichi for an anticipated sweeping election victory, a reflection of close ties between Taipei and Tokyo under the two le",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/taiwan-president-lai-congratulates-japan-s-takaichi-on-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cba601ec9664f9e00b07d7f04bdddde1",
-      "timestamp": "2026-02-09T01:04:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bangkok Voters at Polling Station in Thailand - Thai voters headed to the polls on Sunday in a three-cornered contest between the ruling Bhumjaithai Party, the progressive People’s Party and the populist Pheu Thai Party. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/bangkok-voters-at-polling-station-in-thailand-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d908cb2705d102bf5a1c2b2de3e734af",
-      "timestamp": "2026-02-09T01:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Traders Warn Stock Selling Isn’t Over in Choppy Market - After rebounding Friday to nearly erase a brutal mid-week slide, US stocks are facing more selling this week from trend-following algorithmic funds, according to Goldman Sachs Group Inc.’s trading des",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/goldman-traders-warn-stock-selling-isn-t-over-in-choppy-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5b4b8ce0ac08e3f5f80599d9602a5796",
-      "timestamp": "2026-02-09T00:56:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Voters at Tokyo Polling Station in 2026 Election - Voters cast ballots at a Tokyo Polling Station for Japan's 2026 snap election. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/japan-voters-at-tokyo-polling-station-in-2026-election-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5c31268d22594562002eb96a05c60d5d",
-      "timestamp": "2026-02-09T00:40:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Eskom Can Raise $3.4 Billion From Tariffs After Regulator Error - South Africa’s energy regulator has allowed state-owned Eskom Holdings SOC Ltd. to raise tariffs and recover 54.7 billion rand ($3.4 billion) over three years after a series of pricing errors and a fa",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/eskom-can-raise-3-4-billion-from-tariffs-after-regulator-error",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "56c985889b03527b5565a27b64bf7a86",
-      "timestamp": "2026-02-09T00:30:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Technologies (SOFI) Receives Price Target Cuts Post Earnings - SoFi Technologies, Inc. (NASDAQ:SOFI) is one of the 10 best financial stocks to buy for the long term. Despite beating Wall Street estimates in the fourth quarter, SoFi Technologies, Inc. (NASDAQ:SOFI",
-      "url": "https://finance.yahoo.com/news/sofi-technologies-sofi-receives-price-153001575.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4b2cbc5bee089a2dfafa22990c70c1b2",
-      "timestamp": "2026-02-09T00:26:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Reformist Pita on Election, Hopes for Thai - Pita Limjaroenrat, the prime ministerial candidate sidelined after the 2023 vote speaks on his hopes for the future of Thailand. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/thai-reformist-pita-on-election-hopes-for-thai-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "07455ced1415afdb393489a968acd315",
-      "timestamp": "2026-02-09T00:04:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Inside the Risks of Investing in Art - Once seen as a pure passion play, art has become deeply intertwined with finance, credit, and wealth planning. As prices fluctuate and liquidity tightens, collectors face new risks alongside opportuni",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/inside-the-risks-of-investing-in-art-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ae0f6c4807c07e02e3fb77afb7989ba1",
-      "timestamp": "2026-02-09T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gambling Stocks Sag as Prediction Markets Steal Super Bowl Bets - The Super Bowl is supposed to be the highlight of the calendar for gambling companies. This year, though, a cloud has descended over the industry as the big game approached.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/gambling-stocks-sag-as-prediction-markets-steal-super-bowl-bets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0927b065d47a23921d5bd78cafb6f38c",
-      "timestamp": "2026-02-09T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wild Stock Swings Keep Favorite Wall Street Option Trade Humming - The volatility in pockets of the European and US equity markets has yet to engulf the broader indexes, boosting demand for option strategies betting on further dispersion.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/wild-stock-swings-keep-favorite-wall-street-option-trade-humming",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a0339b8a2ac1139a1e29dc8deb49c6c5",
-      "timestamp": "2026-02-08T23:54:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudis to Unveil Updated Strategy for $2 Trillion Economic Plan - Saudi Arabia plans to release an updated strategy for Crown Prince Mohammed bin Salman’s $2 trillion economic diversification agenda as the kingdom adjusts its policies and spending priorities amid fi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/saudis-to-unveil-updated-strategy-for-2-trillion-economic-plan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "87eacccd22da724bc7342e7d7d765e12",
-      "timestamp": "2026-02-08T23:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "KKR Sees Arctos as Linchpin for Building a $100 Billion Business - KKR &amp; Co.’s leaders see their acquisition of Arctos Partners as key to helping the firm capitalize on two growing business lines while strengthening its newfound position as a dominant institution",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/kkr-sees-arctos-as-linchpin-for-building-a-100-billion-business",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b66d2c96cc30cbfe90f3cc0236f9608",
-      "timestamp": "2026-02-08T23:17:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer’s Chief of Staff Quits as Mandelson Furor Engulfs PM - Keir Starmer’s Chief of Staff Morgan McSweeney quit his post on Sunday, amid a furor over the decision to appoint his ally Peter Mandelson as the UK’s ambassador to Washington.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/starmer-s-chief-of-staff-quits-as-mandelson-furor-endangers-pm",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "848d0c9af987a8b300b453f638c08feb",
-      "timestamp": "2026-02-08T23:00:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Fear Grips Wall Street as a New Stock Market Reality Sets In - For months, investors have been growing increasingly anxious about how artificial intelligence will potentially transform the economy. Last week, those concerns suddenly spilled over into the stock ma",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/ai-fear-grips-wall-street-as-a-new-stock-market-reality-sets-in",
       "sentiment": "NEUTRAL"
     }
   ]
