@@ -1,6 +1,197 @@
 {
-  "last_updated": "2026-02-09T21:17:45.668387+09:00",
+  "last_updated": "2026-02-09T23:25:07.319130+09:00",
   "items": [
+    {
+      "id": "7d69fc4454369fc8ac66fc8bb02f2018",
+      "timestamp": "2026-02-09T22:44:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NJ Transit, Amtrak Trains to NYC See Long Delays on Wire Issues - Monday morning commuters on New Jersey Transit and Amtrak trains are experiencing extended delays because of downed overhead wires, the passenger-rail providers said in social media posts.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/nj-transit-amtrak-trains-to-nyc-see-long-delays-on-wire-issues",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9f0221cd92ff1d787af04d479c0029fb",
+      "timestamp": "2026-02-09T22:39:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brazil Tapping Global Debt Markets After Busiest Year in Decades - Brazil is returning to international debt markets following its busiest issuance year in more than two decades.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/brazil-tapping-global-debt-markets-after-busiest-year-in-decades",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b647d5e48aad13789e77c440e7c2767b",
+      "timestamp": "2026-02-09T22:24:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nordic Power Prices Jump to Highest Since Energy Crisis in 2022 - Nordic power prices surged to their highest level since the height of the energy crisis in late 2022 as a severe cold snap boosts demand and low wind levels squeeze supplies.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/nordic-power-prices-jump-to-highest-since-energy-crisis-in-2022",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "44876bd24a10d6e5347f15ce9302e7ba",
+      "timestamp": "2026-02-09T22:23:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Italy Prosecutors Put Delivery Hero Unit Under Judicial Control - Italian prosecutors have placed Delivery Hero SE’s Italian food-delivery unit under judicial control as part of a criminal investigation into alleged labor exploitation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/italy-prosecutors-put-delivery-hero-unit-under-judicial-control",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d87ecbaaa384def5239546a22d0bdf75",
+      "timestamp": "2026-02-09T22:13:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IMF Chief Plays Down the Dollar’s ‘Short Term Variations’ - The head of the International Monetary Fund downplayed the dollar’s decline over the past year, saying the US currency will probably retain its preeminent position.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/imf-chief-plays-down-the-dollar-s-short-term-variations",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3564ba17b3c8248df23fd8552f980c76",
+      "timestamp": "2026-02-09T22:12:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Here Are Monday’s Top Wall Street Analyst Research Calls: Autozone, Doximity, Li Auto, Oracle, Robinhood Markets, Roblox, SoFi Technolgy, Terawulf and More - Pre-Market Stock Futures: Futures are trading lower after an incredible turnaround on Friday, with all major indices surging higher following a three-day massive sell-off that had pushed the stock mar",
+      "url": "https://247wallst.com/investing/2026/02/09/here-are-mondays-top-wall-street-analyst-research-calls-autozone-doximity-li-auto-oracle-robinhood-markets-roblox-sofi-technolgy-terawulf-and-more/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "48474f0e2dad230c543af5eb9386f853",
+      "timestamp": "2026-02-09T22:06:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Transocean to Buy Valaris in $5.8 Billion Offshore Oil Deal - Deep-water oil rig owner Transocean Ltd. agreed to acquire rival Valaris Ltd. in an all-stock deal valued at $5.8 billion as offshore drilling activity heats up.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/transocean-agrees-to-buy-valaris-in-5-8-billion-all-stock-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "797d3ad010223049091870509fd98e5e",
+      "timestamp": "2026-02-09T22:01:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Villeroy Quits Bank of France, Letting Macron Pick Governor - Bank of France Governor Francois Villeroy de Galhau unexpectedly quit early in a move that leaves the choice of his successor to Emmanuel Macron instead of a possible future president from the far rig",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/villeroy-quits-bank-of-france-letting-macron-pick-next-governor",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "797d3ad010223049091870509fd98e5e",
+      "timestamp": "2026-02-09T22:01:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Villeroy Quits Bank of France, Letting Macron Pick Governor - Bank of France Governor Francois Villeroy de Galhau unexpectedly quit early in a move that leaves the choice of his successor to Emmanuel Macron instead of a possible future president from the far rig",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/villeroy-quits-bank-of-france-letting-macron-pick-next-governor",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "95f00276d6355095927603c75ea1d771",
+      "timestamp": "2026-02-09T22:00:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "This Is the Inside of the Jony Ive-Designed Electric Ferrari Luce - Former Apple Inc. design chief Jony Ive spent years helping conceptualize what a car from the iPhone maker might look like. Before the project was ultimately scrapped, Apple had settled on a vision of",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/ferrari-luce-interior-photos-of-electric-ferrari-co-designed-by-jony-ive",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cf68f298474980616111b02e057feb31",
+      "timestamp": "2026-02-09T21:55:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Cutting Its US Treasury Holdings Is Nothing New, Newedge Says - The \"sell America trade\" isn't playing out in practice, says Cameron Dawson, CIO at Newedge Wealth. She speaks on Bloomberg Television after China advised banks to rein in their holdings of US governm",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/china-cutting-its-us-treasury-holdings-is-nothing-new-newedge-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6427d534576b6688cf05d93e2435c85c",
+      "timestamp": "2026-02-09T21:51:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alphabet Looks to Raise About $15 Billion From US Bond Sale - Alphabet Inc. is looking to raise about $15 billion from a US high-grade dollar bond sale, according to people with knowledge of the matter, adding to a borrowing spree by companies at the forefront o",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/google-parent-alphabet-kicks-off-seven-part-us-bond-sale",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "924d572c0da470a8038383ba9e62c150",
+      "timestamp": "2026-02-09T21:37:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "This Week In Digital Payment - Transforming Asia-Pacific B2B Payments With Innovation and Growth - The Asia-Pacific B2B digital payments market is undergoing a significant transformation driven by rapid digital adoption and advancements in payment technologies. Key technological trends such as AI a",
+      "url": "https://finance.yahoo.com/news/week-digital-payment-transforming-asia-123733708.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2e2b3d0d91232ee78ab111949c5044f6",
+      "timestamp": "2026-02-09T21:31:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dollar, Treasuries Slide as China Flags US Debt Risks; Yen Gains | Bloomberg Brief 2/9/2026 - US equity futures drop along with the dollar and Treasuries ahead of a busy week of economic data. China is said to have urged banks to scale back on US Treasury holdings, citing concerns over volatil",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/bloomberg-brief-2-9-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "438399d8a393f09d93d4e63257fa1ce0",
+      "timestamp": "2026-02-09T21:31:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US-Iran Talks Make a Good Start But Oil Markets Can’t Relax Just Yet - There are still plenty of potential sticking points.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-09/us-iran-nuclear-talks-make-good-start-but-oil-markets-can-t-relax-yet",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d83fe255e7ca6acb666a08e1e72a2d86",
+      "timestamp": "2026-02-09T21:31:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IMF's Georgieva on the Growing Influence of EM, Decline of US Dollar - IMF Managing Director Kristalina Georgieva speaks about the waning strength of the US dollar and the fragile relationship between investors and borrowers. She speaks to Joumanna Bercetche on the sidel",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/imf-s-kristalina-georgieva-on-emerging-markets-usd-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9de54d4eab33ec0de53f419ef39837e5",
+      "timestamp": "2026-02-09T21:30:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Says Hedge Funds Add Record Shorts on US Stocks in Rout - Hedge funds piled into short positions on US stocks as concerns about disruption to business models from artificial intelligence reverberated through markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/goldman-says-hedge-funds-add-record-shorts-on-us-stocks-in-rout",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6d84e1ce504b8fd64ce9b41297990340",
       "timestamp": "2026-02-09T21:12:06+09:00",
@@ -10,6 +201,17 @@
       "related_tickers": [],
       "content": "Lilly Strikes Deal for Orna Therapeutics for Up to $2.4 Billion - Eli Lilly &amp; Co agreed to buy US biotech Orna Therapeutics Inc. for up $2.4 billion in cash in the latest deal by the company best known for its weight-loss drug Zepbound.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-09/lilly-strikes-deal-for-orna-therapeutics-for-up-to-2-4-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5335f1a534fabbeda9c8f319c65b5af1",
+      "timestamp": "2026-02-09T21:10:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CLO Deals Are Booming Even When the Math Says They Shouldn’t - In the $1.3 trillion market for collateralized loan obligations &mdash; where money managers sell bonds to finance buying pools of buyout loans &mdash; ugly math used to kill a deal.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/clo-deals-are-booming-even-when-the-math-says-they-shouldn-t",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2007,208 +2209,6 @@
       "related_tickers": [],
       "content": "AI Fear Grips Wall Street as a New Stock Market Reality Sets In - For months, investors have been growing increasingly anxious about how artificial intelligence will potentially transform the economy. Last week, those concerns suddenly spilled over into the stock ma",
       "url": "https://www.bloomberg.com/news/articles/2026-02-08/ai-fear-grips-wall-street-as-a-new-stock-market-reality-sets-in",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8724455b8bebedfb0fcb4cb68d1a25ac",
-      "timestamp": "2026-02-08T22:55:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Takaichi Vows Fiscal Sustainability, Fast Tax Cut Talks - Japanese Prime Minister Sanae Takaichi stuck to a cautious line on fiscal policy and a sales tax reduction in her first comments since polls closed with her ruling party on track for a landslide victo",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/japan-s-takaichi-vows-fiscal-sustainability-fast-tax-cut-talks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b34dfd26d2f552ee26953aa2c836c5d",
-      "timestamp": "2026-02-08T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Some Emerging Corporates Look Like a Safer Bet than Governments - Growing numbers of emerging-market companies are borrowing overseas at cheaper rates than their countries of origin, a sign that sovereign risk is becoming less of a drag for the stronger, export-focu",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/from-mexico-to-ukraine-some-corporates-can-borrow-cheaper-than",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2437d9f4f039e494535b52e097055ae2",
-      "timestamp": "2026-02-08T22:09:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa to Pull Troops from UN’s Congo Peacekeeping Mission - South Africa will withdraw its troops from the United Nation’s peacekeeping mission in the Democratic Republic of Congo as the continent’s largest economy seeks to “realign” the resources of its armed",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/south-africa-to-pull-troops-from-un-s-congo-peacekeeping-mission",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1fc0d3a424f30188d382187b7bea2989",
-      "timestamp": "2026-02-08T22:04:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Second China Shock: How Europe Is Being Tested - China’s first trade shock hit the United States after it joined the WTO in 2001, hollowing out parts of American manufacturing. Now a new wave of Chinese exports is reshaping global trade with Europe ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-08/the-second-china-shock-how-europe-is-being-tested-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b073cc54482119bdf2af22af1d40fb06",
-      "timestamp": "2026-02-08T22:00:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple Prepares to Kick Off 2026 With the iPhone 17e, New iPads and Macs - Apple is going to begin a 2026 product blitz with the iPhone 17e, updated iPads and fresh Macs. Also: Here’s exactly what CEO Tim Cook told employees about immigration, artificial intelligence and the",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-08/apple-readies-iphone-17e-new-siri-entry-level-ipad-ipad-air-and-macbook-pro-mldr3hpk",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30e6ecf80d46661a6d84cd306b589fee",
-      "timestamp": "2026-02-08T20:44:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Takaichi Win Primes Japan Stocks for Gains, Damps Yen and Bonds - Japan’s stock market is poised to extend its rally in the weeks and months ahead while the nation’s currency and bonds are vulnerable to further declines after a strong showing by Prime Minister Sanae",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/takaichi-win-primes-japan-stocks-for-gains-damps-yen-and-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30e6ecf80d46661a6d84cd306b589fee",
-      "timestamp": "2026-02-08T20:44:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Takaichi Win Primes Japan Stocks for Gains, Damps Yen and Bonds - Japan’s stock market is poised to extend its rally in the weeks and months ahead while the nation’s currency and bonds are vulnerable to further declines after a strong showing by Prime Minister Sanae",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/takaichi-win-primes-japan-stocks-for-gains-damps-yen-and-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "462432814c379a037d0b6d36eb046384",
-      "timestamp": "2026-02-08T20:20:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "This Superstar Fintech's Profits Are Expected to Skyrocket 72% This Year - After this company posted sizable losses years ago, investors are encouraged by an expanding bottom line.",
-      "url": "https://www.fool.com/investing/2026/02/08/superstar-fintech-stock-profits-skyrocket-2026/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "385acfc7934511997299ad288c3a35c2",
-      "timestamp": "2026-02-08T20:03:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Takaichi Set for Resounding Election Win, NHK Poll Shows - Japanese Prime Minister Sanae Takaichi is set to secure a resounding victory, with polls showing her party on track to emerge from Sunday’s parliamentary election with a standalone majority in the low",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/japan-s-takaichi-set-for-resounding-election-win-nhk-poll-shows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd18cb18218c1cf6e227c5e5e1934508",
-      "timestamp": "2026-02-08T19:54:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Firms Agree to Rebuild Syrian Aviation and Mobile Networks - Saudi firms have struck deals to help support Syria’s telecommunications and aviation industries, as the country looks to rebuild core infrastructure after years of war.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/saudi-firms-agree-to-rebuild-syrian-aviation-and-mobile-networks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9caf5f341ce049df908ef087f26ef863",
-      "timestamp": "2026-02-08T19:20:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "UBS Lowers SoFi Technologies (SOFI) PT to $24.50 Following Mixed Performance - SoFi Technologies Inc. (NASDAQ:SOFI) is one of the worst AI stocks to invest in according to Reddit. On February 2, UBS lowered its price target for SoFi Technologies from $27.50 to $24.50 with a Neut",
-      "url": "https://finance.yahoo.com/news/ubs-lowers-sofi-technologies-sofi-102011508.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cc20cc7667c331242c87ac13e8e07bf0",
-      "timestamp": "2026-02-08T19:09:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mandelson Payoff Under Scrutiny as Scandal Threatens Starmer - Former envoy Peter Mandelson is under pressure to return the money he received as part of his sacking as UK ambassador to the US, as the crisis over his ties to the disgraced pedophile Jeffrey Epstein",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/mandelson-payoff-under-scrutiny-as-scandal-threatens-starmer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ea0d91c16f8cd70f34fa2ad37d071821",
-      "timestamp": "2026-02-08T19:01:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thailand’s Next Prime Minister to Emerge After Wide-Open Election - Thailand’s next leader is set to emerge as polls closed Sunday and counting of votes started in a contest between pro-democracy reformers and status-quo conservatives that risks deepening the country’",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/thailand-s-next-prime-minister-to-emerge-as-votes-counted-in-wide-open-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3585b7ee5daf71cb6aa790b563b13781",
-      "timestamp": "2026-02-08T18:43:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Vote Puts PM Takaichi's Election Gamble to the Test",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-08/japan-general-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e34293a89c253a7387cd0e6fa5da649f",
-      "timestamp": "2026-02-08T18:40:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine’s Naftogaz Says Russia Attacked Facilities Overnight - Russia launched a large-scale drone attack overnight, striking facilities operated by state-owned Naftogaz Group in the Poltava region of central Ukraine, the company said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/ukraine-s-naftogaz-says-russia-attacked-facilities-overnight",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "93fcabbfd15afa9d0ae7f20ae1d27705",
-      "timestamp": "2026-02-08T18:02:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Ruling Party Has Surprise Lead in Early Vote Count",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-08/thailand-general-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9596b18780ee64c743cd0d7194fd65d0",
-      "timestamp": "2026-02-08T17:57:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Calls US Nuclear Talks a ‘Step Forward’ as Caution Lingers - Iran’s President Masoud Pezeshkian described the Friday nuclear talks with Washington as “a step forward,” even as he pushed back against any attempts at intimidation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/iran-calls-us-nuclear-talks-a-step-forward-as-caution-lingers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "17ebcf4f0ca0459c629d0e950fcb054a",
-      "timestamp": "2026-02-08T17:10:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Prabowo’s Approval Rating Rises in Survey Before Market Turmoil - Indonesian President Prabowo Subianto saw his approval rating climb to almost 80% in a survey last month that was carried out before one of the country’s biggest market selloffs since the 1998 Asian F",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-08/prabowo-s-approval-rating-rises-in-survey-before-market-turmoil",
       "sentiment": "NEUTRAL"
     }
   ]
