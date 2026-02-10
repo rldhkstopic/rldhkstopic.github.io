@@ -1,6 +1,206 @@
 {
-  "last_updated": "2026-02-10T09:30:02.996180+09:00",
+  "last_updated": "2026-02-10T12:04:56.880167+09:00",
   "items": [
+    {
+      "id": "5a9c7e8184b018d6dee3f03b322e2ab5",
+      "timestamp": "2026-02-10T11:48:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IPO-Bound NSE Says Traders Seeking Reprieve on India Securities Transaction Tax Hike - Market participants have made a representation to the government to review its decision.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-10/ipo-bound-nse-hopes-for-review-of-stt-hike-sbi-earnings-boost-state-run-banks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "858c446ca275e985f5f9143441ccef97",
+      "timestamp": "2026-02-10T11:44:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China to Deepen HK Security Focus as Jimmy Lai Case Stirs Outcry - China signaled greater efforts to protect national security in Hong Kong after the sentencing of Jimmy Lai renewed foreign governments’ calls for the former media mogul’s release.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/china-to-deepen-hk-security-focus-as-jimmy-lai-case-stirs-outcry",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cd19e963491d91c85afbe7f16562e78e",
+      "timestamp": "2026-02-10T11:36:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why China Is Urging Banks to Limit US Treasury Holdings - Chinese regulators have advised financial institutions to rein in their holdings of US Treasuries, citing concerns over concentration risks and market volatility, according to people familiar with the",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-10/why-china-is-urging-banks-to-limit-us-treasury-holdings-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1f854ebcbc25f36557accb5b568bf3e4",
+      "timestamp": "2026-02-10T11:33:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia Ramps Up Roblox Pressure Over Child-Grooming Reports - Australia’s government ramped up pressure on Roblox Corp., summoning executives to explain reports that have alleged children as young as four years old have been sexually groomed on the gaming servic",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/australia-ramps-up-roblox-pressure-over-child-grooming-reports",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d67795aceada61dab34bba94cd123656",
+      "timestamp": "2026-02-10T11:27:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Alphabet Bets Big on 100 Years of Debt - Alphabet is breaking new ground with plans to sell a rare 100‑year bond - the first ultra‑long debt sale by a technology firm since Motorola in 1997. Bloomberg’s Peter Elstrom explains why this centur",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-10/alphabet-bets-big-on-100-years-of-debt-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "57cadce032608588ca8eea52a76979c0",
+      "timestamp": "2026-02-10T11:19:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Could Lift Coal Output This Year Due to Indonesian Curbs - China’s main coal industry body sees a drop in imports this year and potentially higher domestic production after Indonesia moved to restrict shipments in an attempt to boost prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/china-could-lift-coal-output-this-year-due-to-indonesian-curbs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a7d7587c96c483dfe56930bd4367d240",
+      "timestamp": "2026-02-10T11:13:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yuan Strongest Since 2023 as Dollar Wobbles on Treasuries Report - The yuan surged to its strongest level since May 2023 after China was said to have asked banks to limit their holdings of US Treasuries.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/yuan-advances-to-strongest-since-2023-amid-report-on-treasuries",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "62d1f09fe745fa3015e1e2d3d1661fd5",
+      "timestamp": "2026-02-10T10:46:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Steps Up Carbon Reporting for Petchems, Copper, Airlines - The Chinese environment ministry has asked petrochemicals plants, copper smelters, airlines and other heavy polluters to report their emissions, a key step to expanding the nation’s carbon market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/china-steps-up-carbon-reporting-for-petchems-copper-airlines",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2180270597acc56bb814035196c6f9da",
+      "timestamp": "2026-02-10T10:44:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FTSE Russell Joins MSCI to Halt Index Review of Indonesia Stocks - FTSE Russell became the latest index provider to raise concerns over the investability of Indonesia, following warnings from MSCI Inc. that dealt a heavy blow to the market last month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/ftse-russell-postpones-march-index-review-on-indonesia-stocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "931ec82900dc4dc89274566444f67a13",
+      "timestamp": "2026-02-10T10:31:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Takaichi May Beat Abe in Luring Global Money to Japan Stocks - The flow of foreign funds into Japanese stocks is poised to accelerate after the Liberal Democratic Party’s landslide election, with analysts forecasting as much as a five-fold rise in buying over the",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/takaichi-may-beat-abe-in-luring-global-money-to-japan-stocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d51c5489580dc0c0ef62aeb4204248ad",
+      "timestamp": "2026-02-10T10:05:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lawmakers Review Epstein Documents at DOJ | Balance of Power: Late Edition 02/09/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Rep. Troy Downing (R) Montana discusses if the government will shut down later this week ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-10/balance-of-power-late-edition-02-09-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4bfcdac14b727503f2d5ed09bed4b20c",
+      "timestamp": "2026-02-10T09:53:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "House Republicans Move to Keep Putting Off Vote on Trump Tariffs - House Republicans on Monday advanced a procedural motion to block a vote on President Donald Trump’s tariff agenda, potentially delaying a politically uncomfortable vote on his most prominent economic",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/house-republicans-move-to-keep-putting-off-vote-on-trump-tariffs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "028cc1a57f1bc9413a28831a6f1f8dc8",
+      "timestamp": "2026-02-10T09:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Quant Manager Qube Grows China Fund 10-Fold to Above $2 Billion - Quantitative hedge fund giant Qube Research &amp; Technologies grew assets in its China long-only equity fund more than 10-fold over the past year, as more global investors warmed to Asia’s largest ma",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/quant-manager-qube-grows-china-fund-10-fold-to-above-2-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a9636c83949097e709d5cd186fdc9b6c",
+      "timestamp": "2026-02-10T09:24:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Drone Firm EOS Shares Gyrate After Short Seller Response - Electro Optic Systems Holdings Ltd. shares swung after the Australian defense company responded to a short-seller report from Grizzly Research.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/electro-optic-systems-shares-plunge-16-after-short-seller-reply",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0e973dde58907c34d71f40eff6506ba",
+      "timestamp": "2026-02-10T09:21:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Analyst Upgrade And Insider Signals Reframe SoFi’s Long Term Valuation - Citizens upgraded SoFi Technologies (NasdaqGS:SOFI) to Outperform, describing the recent share price decline as technical and highlighting the company as a long term fintech compounder. J.P. Morgan an",
+      "url": "https://finance.yahoo.com/news/analyst-upgrade-insider-signals-reframe-002147398.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "17fa395e106688db4167abcedc0fc6c1",
+      "timestamp": "2026-02-10T09:20:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Enforcement of California’s ICE Mask Ban Blocked by Judge - California may not enforce its mask ban against federal immigration agents, a Los Angeles federal judge ruled Monday, though she left intact other provisions in new state laws requiring officers to id",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/enforcement-of-california-s-ice-agent-mask-ban-blocked-by-judge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "582ad061ebcad4121164e7539c7214cf",
+      "timestamp": "2026-02-10T09:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Top UBS Fund Manager Says Asia Junk Bond Rally Has Further to Go - Asian junk bonds are poised to rally again this year and extend their outperformance over US peers, as lower leverage keeps default risks in check, according to a top regional investor.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/asia-junk-bonds-set-to-outperform-us-peers-again-ubs-s-gui-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "054bcfaa8de4841e2aeb79cd01c4344f",
+      "timestamp": "2026-02-10T09:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer Is Helming an Economic Revival He May Not Get to Enjoy - Things ought to be looking rosy for Prime Minister Keir Starmer, who began the year begging a dissatisfied public to judge him on his ability to turn around the UK economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-10/starmer-is-helming-an-economic-revival-he-may-not-get-to-enjoy",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d4e03bd3449b587490f4514499c21d59",
       "timestamp": "2026-02-10T09:00:00+09:00",
@@ -21,6 +221,28 @@
       "related_tickers": [],
       "content": "Malaysian Anti-Graft Chief Returns to Stock Market After Outcry - Malaysian anti-corruption chief Azam Baki held millions of shares in a financial-services company, a corporate filing shows, the first public disclosure of a major stake in his name since an uproar ov",
       "url": "https://www.bloomberg.com/news/articles/2026-02-10/macc-head-azam-baki-returns-to-malaysia-stock-market-years-after-public-outcry",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6bb6cd1285cefcd54c547de1c276468e",
+      "timestamp": "2026-02-10T08:57:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela Steps Up Dollar Sales to Shore Up the Bolivar - Venezuela’s interim government is selling more dollars through private banks as part of an ongoing effort to keep the currency stable amid political uncertainty.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/venezuela-steps-up-dollar-sales-to-shore-up-the-bolivar",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4e4b6eddfd683c61d84a9a831b962185",
+      "timestamp": "2026-02-10T08:48:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&P, Nasdaq Rise as Tech Rebounds Ahead of Earnings, Data | The Close 2/9/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Morgan Stanley’s Andrew Sl",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-09/the-close-2-9-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -340,6 +562,17 @@
       "related_tickers": [],
       "content": "Australian Police Arrest 27 Protesting Israeli President’s Visit - Some 27 people were arrested in Sydney on Monday evening after police cracked down on protesters trying to move beyond a designated zone during demonstrations against the visit of Israeli President Is",
       "url": "https://www.bloomberg.com/news/articles/2026-02-09/australian-police-arrest-27-protesting-israeli-president-s-visit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b68b757db8fa38e980e8f9c5fa98cab",
+      "timestamp": "2026-02-10T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Robot and AI Training Are Opportunities for Korea, LG CNS Says - Global manufacturers looking to add a humanoid robot to their factory floor will likely discover they need to be trained and managed much like human employees. South Korea’s IT solutions firm LG CNS C",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/how-to-train-your-robot-south-korea-s-lg-cns-wants-to-help",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1990,237 +2223,6 @@
       "related_tickers": [],
       "content": "Iran Hardens Crackdown on Political Dissidents After US Talks - Iran extended the prison sentence of a Nobel peace laureate and detained several prominent reformist figures, escalating a crackdown on dissents weeks after security forces killed thousands of people ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-09/iran-hardens-crackdown-on-political-dissidents-after-us-talks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1df98283409f8a23d2ff1c604d11b3f0",
-      "timestamp": "2026-02-09T19:39:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Eritrea Denies Incursion Into Ethiopia Amid Rising Tensions - Eritrea has denied claims its troops are occupying Ethiopian regions along their common border, amid rising tensions between the neighbors and fears of a resumption of conflict.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/eritrea-denies-incursion-into-ethiopia-amid-rising-tensions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89a22c01aaf8066a626f21c229d652dd",
-      "timestamp": "2026-02-09T19:39:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Reformist Politicians Face Lifetime Ban After Election Loss - More than three dozen former lawmakers of a pro-democracy party in Thailand face a lifetime ban from politics after the nation’s anti-graft agency found them in breach of ethical standards over a fail",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/thai-reformist-politicians-face-lifetime-ban-after-election-loss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6eb874837ffa2c2779529cd542a24869",
-      "timestamp": "2026-02-09T19:31:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Santander Plans SRT Tied to £1 Billion Loan Pool Amid M&amp;A Push - Banco Santander SA, the Spanish lender expanding via acquisitions in US and the UK, is planning to issue a significant risk transfer tied to a pool of over £1 billion ($1.4 billion) loans.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/santander-plans-srt-tied-to-1-billion-loan-pool-amid-m-a-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe0f13fdf386c6f58a5b8bdf52274faa",
-      "timestamp": "2026-02-09T19:30:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Élite cubana en Miami sueña con reconstruir Cuba pero teme que ya sea demasiado tarde - <p>La política de la isla está más arraigada, por lo que es probable que la estrategia que EE.UU. utilizó en Venezuela no funcione.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-09/trump-presiona-un-cambio-en-cuba-que-el-capital-privado-duda-en-financiar",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eb31291365a910fbb3d909a03dcd5197",
-      "timestamp": "2026-02-09T19:30:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Miami Elites Who Dream of Rebuilding Cuba Fear It’s Too Far Gone - <p>The regime is so entrenched that the playbook the US used in Venezuela isn't likely to work on the island.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-09/trump-s-cuba-turnaround-plans-have-miami-s-business-elites-and-exiles-wary",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "150e29f32ace50bf836a50e17d2fdd1f",
-      "timestamp": "2026-02-09T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "S&amp;P 500’s $1 Trillion Rebound Offers Wall Street Little Solace - Stock pros are signaling limited conviction in the US equity market’s ability to build on its $1 trillion rebound from last week’s artificial intelligence-driven rout.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/s-p-500-s-1-trillion-rebound-offers-wall-street-little-solace",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2cdb9a2407ea26e55c9e3957d90de7fc",
-      "timestamp": "2026-02-09T19:27:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Qatar Pushes Start of Its Massive LNG Expansion to End-2026 - QatarEnergy is pushing the start of its multibillion-dollar liquefied natural gas expansion project to as late as the end of the year, a move that’s likely to keep global markets tighter for longer.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/qatar-pushes-start-of-its-massive-lng-expansion-to-end-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b55ad0b5209014495698d84cf0bddfaf",
-      "timestamp": "2026-02-09T19:24:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Muted Pound Reaction Shows Uncertainty in Starmer Speculation - Speculation over the future of Prime Minister Keir Starmer is adding to pressure on the pound and gilts, but the market reaction is relatively muted in context, with monetary policy divergence with th",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-09/pound-reaction-after-uncertainty-in-starmer-speculation-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7676f73d41950745b0bb221391e5662d",
-      "timestamp": "2026-02-09T19:24:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Palm Oil May Drop Below 4,000 Ringgit on Soy Oil Supply Surge - Palm oil may drop below 4,000 ringgit ($1,017) a ton by April as it competes with a flood of South American soy oil in price-sensitive markets like India, according to veteran trader, Dorab Mistry.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/palm-oil-may-drop-below-4-000-ringgit-on-soy-oil-supply-surge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "05b05d9db8a782908d6d8568528f517c",
-      "timestamp": "2026-02-09T19:16:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Says Meta Warning Is About Protecting Consumers - European Union Competition Commissioner Teresa Ribera discusses the EU's warning given to Meta Platforms Inc. over policies that block the use of rival Artificial Intelligence assistants on WhatsApp, ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-09/eu-says-meta-warning-is-about-protecting-consumers-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1c2e5eb532e07834d27ae33188ae45a7",
-      "timestamp": "2026-02-09T19:05:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia’s Crude Output Shrinks as US Raises Energy Pressure - Russia’s crude output declined for a second straight month in January as the world’s third largest oil producer faces difficulty in marketing its barrels because of US sanctions.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/russia-s-crude-output-shrinks-as-us-raises-energy-pressure",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "972e303f4e35db440d3bea0a5698939d",
-      "timestamp": "2026-02-09T19:04:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Newmont Wants Barrick to Fix Nevada Operations Before IPO - Newmont Corp., a partner with Barrick Mining Corp. in its most important mines, wants the Canadian company to improve the operations before it spins off the assets and believes it has the power to pot",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/newmont-wants-barrick-to-fix-nevada-operations-before-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b99367dee0561660fa84e53ffd2dd2db",
-      "timestamp": "2026-02-09T19:03:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Redraws Rules For Deep Tech Funding To Spur Innovation - India has redefined what qualifies as a deep tech startup and extended eligibility to 20 years, a move aimed at boosting frontier innovation by offering tax incentives and government funding.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/india-redraws-rules-for-deep-tech-funding-to-spur-innovation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cbbdef7345d243694192cf51c77f4ab2",
-      "timestamp": "2026-02-09T19:00:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Small Caps Flourish as US Earnings Growth Broadens Beyond Tech - Smaller US companies are enjoying a robust earnings season amid resilient economic growth, suggesting a recent market rotation away from technology heavyweights has further to run.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/small-caps-flourish-as-us-earnings-growth-broadens-beyond-tech",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c563ba64fea9f92251aa9f4ce0834dcb",
-      "timestamp": "2026-02-09T19:00:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada’s Race to Rebuild Military Triggers a Defense-Tech Gold Rush - <p>Mark Carney has promised to spend big on defense. Canadian technology companies sense opportunity.&nbsp;</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-09/canada-s-race-to-rebuild-military-triggers-a-defense-tech-gold-rush",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f671ad66741b3cf9744b8daf6efc6359",
-      "timestamp": "2026-02-09T19:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Deutsche Bank, BlackRock Merge FX Tech in Bid to Automate Flows - Deutsche Bank AG and BlackRock Inc. are teaming up to help make foreign exchange easier for investors, as asset managers look to cut costs and streamline their operations.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/deutsche-bank-blackrock-merge-fx-tech-in-bid-to-automate-flows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e69b0c8daee0dacb3eeae034b080415e",
-      "timestamp": "2026-02-09T19:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Regulator Fast Tracks Defense Funds as Europe Rushes to Rearm - The Financial Conduct Authority will prioritize applications from defense-focused funds as the UK looks to bolster national security in the face of an increasingly uncertain geopolitical landscape.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/uk-regulator-fast-tracks-defense-funds-as-europe-rushes-to-rearm",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b138206183978cfa68459ea212831479",
-      "timestamp": "2026-02-09T19:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Xi Faces Dilemma Over Japan After Takaichi Wins Historic Mandate - Prime Minister Sanae Takaichi’s election victory is handing Chinese leader Xi Jinping a dilemma: Engage with Japan’s most popular post-war leader or continue a deep freeze with the US’s top ally in As",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/xi-faces-dilemma-over-japan-after-takaichi-wins-historic-mandate",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1bdecef0ad482ad8e10f9402cb98d23c",
-      "timestamp": "2026-02-09T18:59:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Urges Banks to Limit Exposure to US Treasuries - EXCLUSIVE - Chinese regulators advised financial institutions to limit their holdings of US Treasuries.\n\nThe People’s Bank of China and the National Financial Regulatory Administration didn’t immediat",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-09/china-urges-banks-to-limit-exposure-to-us-treasuries-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "86108812d577222ae8c5af7365359976",
-      "timestamp": "2026-02-09T18:56:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Takaichi Hails Japan Mandate, Wants to Build Trust With Markets - Japanese Prime Minister Sanae Takaichi hailed her strong mandate in an election win on Monday and vowed to build trust with financial markets as concerns grow over how she’ll pay for a planned tax cut",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-09/takaichi-hails-japan-mandate-wants-to-build-trust-with-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6072f574511765b440167bad72342c0a",
-      "timestamp": "2026-02-09T18:41:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stability Drives Thailand’s Election Surprise - An election night surprise in Thailand. Prime Minister Anutin Charnvirakul’s party is outperforming expectations, riding incumbency and a nationalist surge after border tensions with Cambodia.\n\n\n\n (So",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-09/stability-drives-thailand-s-election-surprise-video",
       "sentiment": "NEUTRAL"
     }
   ]
