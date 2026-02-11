@@ -1,6 +1,173 @@
 {
-  "last_updated": "2026-02-11T13:46:08.667369+09:00",
+  "last_updated": "2026-02-11T15:26:36.093694+09:00",
   "items": [
+    {
+      "id": "013845b8b1e5a12729979ff7bdab8eb2",
+      "timestamp": "2026-02-11T15:14:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Has The Market Run Too Far With SoFi Technologies (SOFI) After Its Recent Surge In Price? - If you are wondering whether SoFi Technologies' current share price lines up with its underlying worth, you are not alone in trying to make sense of where value really sits here. The stock recently cl",
+      "url": "https://finance.yahoo.com/news/market-run-too-far-sofi-061447618.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "67aec510ef1c3bce87a3a229e7b25889",
+      "timestamp": "2026-02-11T15:01:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU’s Costa on Single Market, US Relations, Ukraine - European Council President Antonio Costa speaks to Bloomberg Television about Europe’s competitiveness. relations with the US and the prospects for EU nations unifying their markets to compete globall",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-11/european-president-costa-on-competitiveness-us-ukraine-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b9892d84099f29c8670a2ef104fbba9b",
+      "timestamp": "2026-02-11T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Siemens Energy Books Record Gas Turbine Orders on Power Boom - Siemens Energy AG is on track for another year of rising revenue as surging electricity demand continues to bolster sales of its gas turbines and power-grid products.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/siemens-energy-books-record-gas-turbine-orders-on-power-boom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca0600f0278a8248a56c4c0e6d05c2cf",
+      "timestamp": "2026-02-11T14:59:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold demand surges in Hong Kong ahead of Lunar New Year - As gold and silver prices hold near record highs, dealers in Hong Kong say demand is surging ahead of Lunar New Year. Retail clients are snapping up small bars and coins as gifts, while trading volume",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-11/gold-demand-surges-in-hong-kong-ahead-of-lunar-new-year-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "220244f59613b4f30512da554329e819",
+      "timestamp": "2026-02-11T14:59:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netanyahu, in Hasty Trip, to Warn Trump Against Narrow Iran Deal - Benjamin Netanyahu is set to meet Donald Trump in the White House on Wednesday as Israel’s concerns over a potential diplomatic deal between Iran and the US mount.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/netanyahu-in-hasty-trip-to-warn-trump-against-narrow-iran-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "51af1c49c3514c9da48aba0088f8445a",
+      "timestamp": "2026-02-11T14:33:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Top Chipmaker Warns Rushed AI Capacity Could Sit Idle - China’s top chipmaker has warned that breakaway spending on artificial intelligence chips is bringing forward years of future demand, raising the risk that some data centers could sit idle.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/china-s-top-chipmaker-warns-rushed-ai-capacity-could-sit-idle",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "44ba6485e6d91cac0311c761cf2bbc3a",
+      "timestamp": "2026-02-11T14:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Loser Software Stocks Overshadowed as Hardware Earnings Jump - Europe’s software companies are set for slower earnings growth than their hardware counterparts this year, compounding fears in global markets that artificial intelligence will reshape software firms’",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/ai-loser-software-stocks-overshadowed-as-hardware-earnings-jump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "44ba6485e6d91cac0311c761cf2bbc3a",
+      "timestamp": "2026-02-11T14:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Loser Software Stocks Overshadowed as Hardware Earnings Jump - Europe’s software companies are set for slower earnings growth than their hardware counterparts this year, compounding fears in global markets that artificial intelligence will reshape software firms’",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/ai-loser-software-stocks-overshadowed-as-hardware-earnings-jump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c1597046fc1d3aa8c913c115a652c0c2",
+      "timestamp": "2026-02-11T14:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Poland’s Bulging Debt Pushes Tusk to Shelve Central Banker Probe - The Polish government has quietly abandoned plans to put central bank governor Adam Glapinski on trial due to concerns that a legal battle could unsettle foreign investors, according to people familia",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/poland-s-bulging-debt-pushes-tusk-to-shelve-central-banker-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b224a6e8b5d789a01a779fd0269d50cf",
+      "timestamp": "2026-02-11T14:08:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How Jack Ma's Ant Plans to Reinvent Healthcare with AI - Ant Group, the company behind payments platform AliPay, is investing heavily in healthcare powered by AI to fuel its next growth phase. The Jack Ma-backed firm plans to reach most of China’s 1.4 billi",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-11/how-jack-ma-s-ant-plans-to-reinvent-healthcare-with-ai-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d01c8bf687934b7481a116d791e8ad25",
+      "timestamp": "2026-02-11T14:01:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippine Peso Rises to Highest Since October as Stock Gains Lure Inflows - The Philippine peso climbed to its strongest almost four months on stock inflows and rising expectations the central bank is close to the end of its easing cycle.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/php-usd-philippine-peso-at-highest-since-october-as-stock-gains-lure-inflows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f9ce050726d44b888ef240dfc81f1914",
+      "timestamp": "2026-02-11T14:01:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What It’s Like to Be a Banker in Russia During Wartime - <p>The Russian unit of Austria’s Raiffeisen is immensely profitable, but it can’t get the money out of the country.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/raiffeisen-bank-ceo-johann-strobl-is-struggling-to-sell-his-russian-unit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fbe5f254eecd3e17c8b8221b0e25c0d1",
+      "timestamp": "2026-02-11T13:55:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sitara Petroleum Plans Pakistan IPO to Raise Funds for Expansion - Pakistan fuel station operator and transporter Sitara Petroleum Services Ltd. is planning an initial public offering next month to expand its outlets, fleet and storage capacity.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/sitara-petroleum-plans-pakistan-ipo-to-raise-funds-for-expansion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d059de68f4ac2ef3e27f0fa49cca65ab",
+      "timestamp": "2026-02-11T13:50:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Power Engineering Firm Solv Energy Raises $512.5 Million in IPO - Solv Energy Inc. raised $512.5 million in a US initial public offering, pricing its shares at the top of the marketed range.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/power-engineering-firm-solv-energy-raises-512-5-million-in-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "173eaa4ae4149ddbee5d40aea410714d",
+      "timestamp": "2026-02-11T13:43:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ChinaAMC Eyes Value Stocks and Large Blue Chips in ’26 - ChinaAMC says it sees investment opportunities in value stocks and large blue-chip names.\nIts CEO Yimei Li says international investors are showing strong interest in Chinese assets, adding that solid",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-11/chinaamc-eyes-value-stocks-and-large-blue-chips-in-26-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6092cda52b362a818981a2b1152a47a2",
       "timestamp": "2026-02-11T13:29:15+09:00",
@@ -2040,171 +2207,6 @@
       "related_tickers": [],
       "content": "How to Tax a Trillionaire - <p>It’s time to move past the hysteria over wealth taxes&nbsp;and find a durable way forward.</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-02-10/how-to-tax-a-trillionaire-elon-musk-and-the-wealth-fight-in-california",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6f9760b5914e3432d46b37f745db4ddb",
-      "timestamp": "2026-02-10T22:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How to Tax a Trillionaire - Last summer a California group launched an initiative called the 2026 Billionaire Tax Act, a one-time 5% levy on the assets of residents with a net worth of $1.1 billion or more. Then all hell broke l",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-10/how-to-tax-a-trillionaire",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0f7fa3d64f9b18dac57e5492e923a871",
-      "timestamp": "2026-02-10T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cadence Touts AI as Way to Speed Design, Cope With Labor Crunch - Cadence Design Systems Inc. is introducing a new AI tool that can help speed the design of semiconductors, arguing that such technology is necessary to keep up with demand for chips and cope with shor",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/cadence-touts-ai-as-way-to-speed-design-cope-with-labor-crunch",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b9ec977f2b61cd8b55e9b21ad7851d75",
-      "timestamp": "2026-02-10T21:47:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer Seeks to Heal Labour Rift After Surviving Day of Drama - Keir Starmer thanked his cabinet for keeping him in his job and praised Labour’s Scottish leader, Anas Sarwar, a day after surviving his call for the prime minister to go.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/starmer-seeks-to-heal-labour-rift-after-surviving-day-of-drama",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5f034e42f6903eefb992ff67a3845b38",
-      "timestamp": "2026-02-10T21:46:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "McKinsey Hands Over Its $20 Billion Investment Arm to Neuberger - McKinsey &amp; Co. agreed to hand control of its $20 billion investment arm to Neuberger Berman, after decades of managing the fortunes of the consulting firm’s current and former partners in sophisti",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/mckinsey-hands-over-its-20-billion-investment-arm-to-neuberger",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9c285b8d266ae9f7eb4ab6b6c9a83e3",
-      "timestamp": "2026-02-10T21:40:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Should Soften Caps in Emissions Market, Key Lawmaker Says - The planned reform of the European Union’s carbon market should involve a slower annual pace of emissions reductions for industries from chemicals to cement, according to a member of the biggest polit",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/eu-should-soften-caps-in-emissions-market-key-lawmaker-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "761cfe2e77a5db372f64490ee3fb650f",
-      "timestamp": "2026-02-10T21:37:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan Strategists Say AI Fears on Software Stocks Overblown - Software stocks have the scope to rebound from their historic slide as the market is pricing in unrealistic near-term disruption from artificial intelligence, according to JPMorgan strategists.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/jpmorgan-strategists-say-ai-fears-on-software-stocks-overblown",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "761cfe2e77a5db372f64490ee3fb650f",
-      "timestamp": "2026-02-10T21:37:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan Strategists Say AI Fears on Software Stocks Overblown - Software stocks have the scope to rebound from their historic slide as the market is pricing in unrealistic near-term disruption from artificial intelligence, according to JPMorgan strategists.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/jpmorgan-strategists-say-ai-fears-on-software-stocks-overblown",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "903a4371844e1022e29b1b53f302dc26",
-      "timestamp": "2026-02-10T21:36:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fintech Agibank Slashes Price, Size of US IPO Hours Before Sale - Agi Inc. lowered the price range and slashed the planned size of its initial public offering in the US by half just hours ahead of the sale amid a 20% drop in shares of competitor PicS NV.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/fintech-agibank-slashes-price-size-of-us-ipo-hours-before-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5707f5d793ee46cf8b1851479bf7456b",
-      "timestamp": "2026-02-10T21:30:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Immigration Policies, Peso to Drag Down Remittances - Donald Trump’s immigration crackdown and the fast-strengthening peso are putting additional pressure on Mexico’s economy by slowing the flow of money into the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/trump-immigration-policies-peso-to-drag-down-mexico-remittances",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5707f5d793ee46cf8b1851479bf7456b",
-      "timestamp": "2026-02-10T21:30:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Immigration Policies, Peso to Drag Down Remittances - Donald Trump’s immigration crackdown and the fast-strengthening peso are putting additional pressure on Mexico’s economy by slowing the flow of money into the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/trump-immigration-policies-peso-to-drag-down-mexico-remittances",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "45da20d220000801b0b9e525383b0450",
-      "timestamp": "2026-02-10T21:28:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Alphabet 100-Year Bond Gets Most Demand in Sterling Sale - Alphabet Inc. has received close to ten times orders for a £1 billion ($1.4 billion) sale of an ultra rare 100-year bond, a landmark transaction in the debt-fueled race for artificial intelligence sup",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/alphabet-s-100-year-bond-gets-highest-demand-in-sterling-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "45da20d220000801b0b9e525383b0450",
-      "timestamp": "2026-02-10T21:28:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Alphabet 100-Year Bond Gets Most Demand in Sterling Sale - Alphabet Inc. has received close to ten times orders for a £1 billion ($1.4 billion) sale of an ultra rare 100-year bond, a landmark transaction in the debt-fueled race for artificial intelligence sup",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/alphabet-s-100-year-bond-gets-highest-demand-in-sterling-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "48a99701bceae663bd81bb736f9768ec",
-      "timestamp": "2026-02-10T21:28:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What an Era of Jobless Growth Means for the US Economy - “This is jobless growth that’s coming through into America,” says Frances Donald, chief economist at Royal Bank of Canada, as she sees US economic growth in 2026 driven by capex and government spendin",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-10/what-an-era-of-jobless-growth-means-for-the-us-economy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b1071594e44bf56b5e2e8105dc4c0ec8",
-      "timestamp": "2026-02-10T21:28:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Qatar’s LNG Growth Puts Long-Term Sales Plan to the Test - The Gulf nation needs to clinch more supply deals to keep pace with expected capacity expansion.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-10/qatar-s-lng-growth-puts-long-term-sales-plan-to-the-test",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4adaa42a8b3241bff22ae87c1ebe0871",
-      "timestamp": "2026-02-10T21:23:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "European Parliament Backs Online and Offline Digital Euro - The European Parliament supported issuing an online and offline digital euro – breaking with a proposal by the leading lawmaker on the topic to only create the latter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-10/european-parliament-backs-online-and-offline-digital-euro",
       "sentiment": "NEUTRAL"
     }
   ]
