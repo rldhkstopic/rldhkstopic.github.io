@@ -1,6 +1,336 @@
 {
-  "last_updated": "2026-02-13T03:21:31.378063+09:00",
+  "last_updated": "2026-02-13T05:10:50.320282+09:00",
   "items": [
+    {
+      "id": "eb7a4e4f2af5051ab215ce6c62fb6158",
+      "timestamp": "2026-02-13T05:04:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Completes Deal to Raise $30 Billion in Funding - Anthropic has completed a deal to raise $30 billion in funding from investors at a $380 billion valuation, including the money raised. Ed Ludlow has more. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/anthropic-completes-deal-to-raise-30-billion-in-funding-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "101b6607bf0e5159dd001b88302acc58",
+      "timestamp": "2026-02-13T04:58:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Plays Risky Political Game on Tariffs Ahead of Midterms - President Donald Trump did himself no favors Wednesday night when he used public calls for retribution to strong-arm most House Republicans into backing his tariff agenda despite widespread voter disc",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/trump-plays-risky-political-game-on-tariffs-ahead-of-midterms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bbddbcafec21990c6b4164a7aabf9bc3",
+      "timestamp": "2026-02-13T04:58:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI 'Scare Trade' Hits Real Estate Stocks - Real estate services stocks sank on Wednesday as investors assessed the companies’ vulnerability to AI  tools. But analysts note that the selloff may overstate the immediate risks. Bloomberg Managing ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/ai-scare-trade-hits-real-estate-stocks-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f0f0c07097db8c8b430789ce94f88947",
+      "timestamp": "2026-02-13T04:48:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Finalizes $30B Funding - Bloomberg Tech host Ed Ludlow reports on the funding deal.\nAnthropic has completed a deal to raise $30 billion in funding from investors at a $380 billion valuation, including the money raised, bolste",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/anthropic-finalizes-30b-funding",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7be977528c0ed02578e24e77233c5ed4",
+      "timestamp": "2026-02-13T04:43:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Supreme Court will Answer All Questions on Tariffs Says Rep. Flood - Six Republicans joined with all-but-one House Democrat on a vote to rein in Trump’s power to impose tariffs on Canada. The result sets up political battle lines over one of Trump’s signature policies ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/high-court-will-answer-all-questions-on-tariffs-flood-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "deb822084b030c470aed3aee2fa7cd65",
+      "timestamp": "2026-02-13T04:38:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Real Estate Stocks Sink on Worry About AI Risk to Office Demand - Commercial real estate stocks nosedived Thursday as traders worried about risk to demand for office space from higher use of artificial intelligence tools, broadening a selloff that began Wednesday in",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/real-estate-stocks-sink-on-worry-about-ai-risk-to-office-demand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "38b0f9fccd1fed0fd87dcccd589b19b9",
+      "timestamp": "2026-02-13T04:37:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlueCrest Senior Gas Trader, Analysts Depart as Prices Whipsaw - BlueCrest Capital Management’s senior natural gas trader Alex Watson and several analysts have left the firm as extreme price moves in markets dented profitability, people familiar with the matter sai",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/bluecrest-senior-gas-trader-analysts-depart-as-prices-whipsaw",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b97a6c4bafdf801e327de7959a563564",
+      "timestamp": "2026-02-13T04:34:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to End Minnesota Immigration Blitz - Republican Senator Shelley Moore Capito said that while Congress can make improvements in immigration enforcement, the work of removing people who are in the country illegally is important and must go",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/trump-to-end-minnesota-immigration-blitz-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2d3446c1c0c171ba5c7d89e9c6deb530",
+      "timestamp": "2026-02-13T04:24:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He Sees Iran Talks Resolving ‘Over The Next Month’ - US President Donald Trump said that he could see negotiations with Iran stretching for as long as a month, as he seeks a diplomatic agreement that would roll back Tehran’s nuclear ambitions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/trump-says-he-sees-iran-talks-resolving-over-the-next-month",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0a6b6404a2046fca381ae36dcf01c4a5",
+      "timestamp": "2026-02-13T04:24:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Sec. of Energy Wright Tours Venezuelan Oil Fields - US Secretary of Energy Chris Wright toured oil fields and Chevron facilities in Venezuela with acting president Delcy Rodríguez (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/us-sec-of-energy-wright-tours-venezuelan-oil-fields-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a293e40b77a257b4d631c2a831d4b34f",
+      "timestamp": "2026-02-13T04:15:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Announces Repeal of Climate Endangerment Finding - President Donald Trump announces his administration has rescinded the endangerment finding, a landmark scientific determination that greenhouse gases pose a threat to human health and welfare. (Source",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/trump-announces-repeal-of-climate-endangerment-finding-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5feccf05351ac7ba2fe072880a8e305a",
+      "timestamp": "2026-02-13T04:08:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Syrian Army Takes Charge of Military Base Long Controlled by US - The Syrian army took control of the Al-Tanf military base from US troops, ending an American military presence that lasted for a decade at a key site in the country’s southeast.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/syrian-army-takes-charge-of-military-base-long-controlled-by-us",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "72cf7affb06d3510ac06290070372703",
+      "timestamp": "2026-02-13T04:03:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuelan Protests Revive as Repression Ebbs After Maduro Raid - Venezuela is experiencing a surge in protests as the socialist regime eases up on political repression following the capture of President Nicolás Maduro by US forces.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/venezuelan-protests-revive-as-repression-ebbs-after-maduro-raid",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f28e32d6c0efed3489bc0ce8e0694714",
+      "timestamp": "2026-02-13T04:01:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DHS Shutdown Looms as Senate Fails to Cut Deal, Heads to Recess - A Saturday shutdown of the Department of Homeland Security is all but inevitable after the Senate failed to advance a funding bill and headed out on a week-long recess without a deal on new limits on ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/dhs-shutdown-looms-as-senate-fails-to-cut-deal-heads-to-recess",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "82dea777f5fab94c116f5eb8ca851ed9",
+      "timestamp": "2026-02-13T04:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Maker of Penfolds Wine Eyes Turnaround Plan for a Sober World - Sam Fischer, the new boss of Treasury Wine Estates Ltd., wants to convince bruised investors that less is more.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/maker-of-penfolds-wine-eyes-turnaround-plan-for-a-sober-world",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "66c9fca46573eabd8d2b948fad5ac639",
+      "timestamp": "2026-02-13T04:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Finalizes $30 Billion Funding at $380 Billion Value - Anthropic has completed a deal to raise $30 billion in funding from investors at a $380 billion valuation, including the money raised, bolstering the artificial intelligence company as it gains ground",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/anthropic-finalizes-30-billion-funding-at-380-billion-value",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7ab92de33864a8f65b8ea7aca57f9edd",
+      "timestamp": "2026-02-13T03:51:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa President Overrules Eskom Revised Breakup Plan - South Africa is on track to set up an independent power-transmission company, President Cyril Ramaphosa said, countering assertions that the state is revising the plan.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/south-africa-president-overrules-eskom-revised-breakup-plan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d872a044e6138bf8379fb295684467b1",
+      "timestamp": "2026-02-13T03:47:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Startup Aims to Predict Human Behavior - AI startup Simile has raised $100 million to help companies predict human behavior, including by guessing items customers might purchase and questions that might get asked on earnings calls. Joon Park",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/ai-startup-aims-to-predict-human-behavior-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "927f96e28a5fecc7444621ad46cd8a98",
+      "timestamp": "2026-02-13T03:41:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela to Grant More Oil Drilling Blocks to Chevron, Repsol - Venezuela plans to grant more oil-production land to Chevron Corp. and Spain’s Repsol SA as the Trump administration pushes for private companies to rebuild the nation’s energy sector, according to pe",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/venezuela-to-grant-more-oil-drilling-blocks-to-chevron-repsol",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "927f96e28a5fecc7444621ad46cd8a98",
+      "timestamp": "2026-02-13T03:41:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela to Grant More Oil Drilling Blocks to Chevron, Repsol - Venezuela plans to grant more oil-production land to Chevron Corp. and Spain’s Repsol SA as the Trump administration pushes for private companies to rebuild the nation’s energy sector, according to pe",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/venezuela-to-grant-more-oil-drilling-blocks-to-chevron-repsol",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1220821cbd0fd5e8aa38ce857d47e9a3",
+      "timestamp": "2026-02-13T03:35:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Altruist CEO on Why AI Tools Are Rattling Markets - Shares of wealth management stocks tumbled after AI startup Altruist released a tax planning tool, Hazel. Altruist CEO Jason Wenk explains what makes his company’s tools different from traditional sof",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/altruist-ceo-on-why-ai-tools-are-rattling-markets-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dbd452cabac3f201ee11d5b781b43434",
+      "timestamp": "2026-02-13T03:33:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "McDonald’s Sales Surge Most in Two Years on $5 Meal Push - McDonald’s Corp.’s US sales grew at the fastest pace in more than two years in the fourth quarter as value meals continued to resonate with cost-conscious diners.  \nSales from established US restauran",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/mcdonald-s-sales-surge-most-in-two-years-on-5-meal-push-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ec4a094e8a3ec67f253f3df34da1e25",
+      "timestamp": "2026-02-13T03:32:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tillis Rejects Idea for Clearing Path to Warsh Fed Confirmation - Republican Senator Thom Tillis rejected a suggestion that the Senate Banking Committee conduct its own investigation into Federal Reserve Chair Jerome Powell to supplant a probe by the Justice Departm",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/tillis-rejects-idea-for-clearing-path-to-warsh-fed-confirmation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7567a135defa759a7860a5e670c8a22",
+      "timestamp": "2026-02-13T03:27:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Slashed Valuations, Postponed Deal Puncture US IPO Optimism - The US IPO market was jolted over the past week as companies going public delivered losses to investors that piled into technology upstarts, threatening the buoyant mood ahead of mega-listings expecte",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/slashed-valuations-postponed-deal-puncture-us-ipo-optimism",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7567a135defa759a7860a5e670c8a22",
+      "timestamp": "2026-02-13T03:27:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Slashed Valuations, Postponed Deal Puncture US IPO Optimism - The US IPO market was jolted over the past week as companies going public delivered losses to investors that piled into technology upstarts, threatening the buoyant mood ahead of mega-listings expecte",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/slashed-valuations-postponed-deal-puncture-us-ipo-optimism",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4df6cdcf11808afc60f26da7db36d2a2",
+      "timestamp": "2026-02-13T03:26:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bank of Canada’s Rogers Urges Small and Medium Firms to Invest in AI - The Bank of Canada’s second-in-command is warning of future inflation risks if investment in artificial intelligence is concentrated among the country’s big companies.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/bank-of-canada-s-rogers-urges-small-and-medium-firms-to-invest-in-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6e112e8b5509a26e21a9b07705044e32",
+      "timestamp": "2026-02-13T03:24:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blackstone Names Ex-Lego Family Money Manager as Senior Adviser - Blackstone Inc. has named Thomas Schleicher, who used to manage money for the billionaire owners of Lego A/S, as a senior adviser for the Nordic region.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/blackstone-names-ex-lego-family-money-manager-as-senior-adviser",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3a8547d9c3aa4c6cb102bda31b9185ef",
+      "timestamp": "2026-02-13T03:24:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Vision Pro Gets YouTube App Two Years After Device’s Debut - Alphabet Inc.’s YouTube released a dedicated app for Apple Inc.’s Vision Pro on Thursday, filling a notable gap in the headset’s lineup of entertainment options two years after its debut.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/apple-vision-pro-gets-youtube-app-two-years-after-device-s-debut",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "df311cc92013e082c3674a0074e94832",
+      "timestamp": "2026-02-13T03:18:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tillis Shuts Down Idea of Clearing the Way for Warsh - Republican Senator Thom Tillis tells Bloomberg's Tyler Kendall that the White House was likely caught off guard by the Justice Department's criminal investigation of Fed Chair Jerome Powell. Tillis sa",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/tillis-shuts-down-idea-of-clearing-the-way-for-warsh-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5c8b42d289f817d42377eac6ad56c6f7",
+      "timestamp": "2026-02-13T03:18:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa President Vows Renewed Growth Drive as Markets Soar - South African President Cyril Ramaphosa pledged to accelerate measures to fire up the economy, draw investment and make the government more efficient, an undertaking that will provide further impetus ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/ramaphosa-says-more-reform-to-come-as-south-african-markets-soar",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b7500a2ec76a4ea24549b0e5cf06c62b",
       "timestamp": "2026-02-13T03:03:12+09:00",
@@ -21,6 +351,17 @@
       "related_tickers": [],
       "content": "PointsBet to Be Suspended in Ontario on NBA Bet-Rigging Fallout - Ontario’s gambling regulator moved to temporarily suspend the registration of PointsBet’s Canada subsidiary after the online sportsbook operator allegedly failed to report suspicious wagers related to",
       "url": "https://www.bloomberg.com/news/articles/2026-02-12/pointsbet-to-be-suspended-in-ontario-on-nba-bet-rigging-fallout",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f3a4a10bec5d44c1d1ceb8aa38fbaf8e",
+      "timestamp": "2026-02-13T03:01:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Old Economy Stocks Surge Again | Open Interest 2/12/20212 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" The “old economy” is hot again. As AI anxiety spreads, money is rotating back into the Dow Transpo",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-12/open-interest-2-12-20212-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -156,6 +497,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "87f429185ecd0fa7ae8127a82e3bbc4b",
+      "timestamp": "2026-02-13T02:31:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Can’t Punish Mark Kelly for ‘Illegal Orders’ Video - Defense Secretary Pete Hegseth can’t penalize Sen. Mark Kelly over a video in which the Arizona Democrat and military veteran told service members they can refuse “illegal orders,” a Washington federa",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/mark-kelly-can-t-be-punished-by-pentagon-for-video-judge-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "f0f1b52b5b342aab70ac7aad631a2a84",
       "timestamp": "2026-02-13T02:25:41+09:00",
       "source_type": "NEWS",
@@ -241,6 +593,17 @@
       "related_tickers": [],
       "content": "$38.5M Ferrari Stuns Collectors - Ferraris are flying off the auction block at record speed. In just two hours, the “Ferrari Five” shatter expectations &mdash; helping push Mecum’s Florida auction to a staggering $445 million in sales",
       "url": "https://www.bloomberg.com/news/videos/2026-02-12/-38-5m-ferrari-stuns-collectors-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b74ff858664b5bfb9657c281624513ca",
+      "timestamp": "2026-02-13T01:55:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Logistics Stocks Sink as AI Fear Trade Finds Latest Victim - Logistics stocks sank Thursday as investors rushed to exit the group amid fears over disruption from artificial intelligence, making it the latest casualty of the “AI scare trade.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/logistics-stocks-plunge-as-latest-victim-in-ai-disruption-trade",
       "sentiment": "NEUTRAL"
     },
     {
@@ -428,6 +791,17 @@
       "related_tickers": [],
       "content": "Why Cardi B’s Halftime Show Cameo Matters to Prediction Markets - During the recent Super Bowl, the big prediction market platforms didn't just offer bets on the game itself, but also on more exotic facets &mdash; one example? Who would join Bad Bunny in the perform",
       "url": "https://www.bloomberg.com/news/videos/2026-02-12/why-cardi-b-s-halftime-show-cameo-matters-to-prediction-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "92bff32c5f4756f78c237f5cdd6d6ca9",
+      "timestamp": "2026-02-13T00:47:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Coinbase Takes Fresh Blows With the Crypto Rout Deepening - A drumbeat of bearish signals is building across the crypto industry, with Standard Chartered slashing its Bitcoin price target and Coinbase Global Inc. getting cut to sell as momentum traders struggl",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/crypto-gloom-endures-on-price-cuts-downgrades-stalled-momentum",
       "sentiment": "NEUTRAL"
     },
     {
@@ -837,6 +1211,17 @@
       "related_tickers": [],
       "content": "Mercuria Buys Back Minority Stake From Chinese State-Backed Fund - Mercuria Energy Group Ltd. has bought back its shares that were held by CNIC Corp., marking an end to a decade of minority ownership in one of the world’s biggest commodity traders by companies linked",
       "url": "https://www.bloomberg.com/news/articles/2026-02-12/mercuria-buys-back-shares-owned-by-chinese-state-backed-fund-cnic",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a2ff77b25946af4f6123cac79b88f70",
+      "timestamp": "2026-02-12T22:49:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BAT Warned South Africa for Years Over Illicit Tobacco: CEO - British American Tobacco Plc warned South Africa’s government for years that it would be forced to end production there if illegal cigarette sales weren’t stamped out, according to the chief executive",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/bat-warned-south-africa-for-years-over-illicit-tobacco-ceo-says",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1709,6 +2094,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "138b5604c67629de53508a45a308ea94",
+      "timestamp": "2026-02-12T17:29:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Stocks Decline as Broad Risk-Off Mood Grips Markets - European shares reversed course to post declines, tracking a slide in US peers amid broader worries around disruption from artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-12/european-stocks-rise-to-fresh-record-schroders-soars-on-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "4aac81ffa0d7245096189143217e70e1",
       "timestamp": "2026-02-12T17:27:56+09:00",
       "source_type": "NEWS",
@@ -1805,402 +2201,6 @@
       "related_tickers": [],
       "content": "Seoul Spy Agency Says Kim’s Daughter Enters Succession Stage - North Korean leader Kim Jong Un’s teenage daughter appears to have entered a phase of being designated as his successor, South Korea’s National Intelligence Service told lawmakers, offering Seoul’s cl",
       "url": "https://www.bloomberg.com/news/articles/2026-02-12/seoul-spy-agency-says-kim-s-daughter-enters-succession-stage",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fff034654f6c526bdeaed387ff13c109",
-      "timestamp": "2026-02-12T16:43:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Rebuked Over Canada Tariffs as Midterm Anxieties Grow | Daybreak Europe 02/12/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-12/daybreak-europe-2-12-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4bcabfa475fa4e344b2ac0f70ce012d0",
-      "timestamp": "2026-02-12T16:40:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Malaysia Reviews Shareholding Rules for Officials, Report Says - Malaysia’s civil service is reviewing rules on stock ownership for public officials, Malaysiakini reported, days after a report on the anti-graft chief’s shareholdings caused an outcry in the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/malaysia-reviews-shareholding-rules-for-officials-report-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "13df03eb34556568f989adf6074ffb37",
-      "timestamp": "2026-02-12T16:31:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "LexisNexis Owner RELX’s Sales Growth Misses Analyst Estimates - RELX Plc, the British information and analytics company that owns the LexisNexis and Elsevier brands, reported annual revenue growth that missed analysts’ estimates as investors watch for signs of how",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/lexisnexis-owner-relx-s-sales-growth-misses-analyst-estimates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "13df03eb34556568f989adf6074ffb37",
-      "timestamp": "2026-02-12T16:31:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "LexisNexis Owner RELX’s Sales Growth Misses Analyst Estimates - RELX Plc, the British information and analytics company that owns the LexisNexis and Elsevier brands, reported annual revenue growth that missed analysts’ estimates as investors watch for signs of how",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/lexisnexis-owner-relx-s-sales-growth-misses-analyst-estimates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1efdb638efb79e7de97b741338515658",
-      "timestamp": "2026-02-12T16:18:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Insight with Haslinda Amin 2/12/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-12/insight-with-haslinda-amin-2-12-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "39391916b1efccd4b0ae227fdff392c4",
-      "timestamp": "2026-02-12T16:03:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Growth Disappoints at End of Year as Services Stagnate - The UK economy grew less than forecast in the fourth quarter as business investment shrank and services stagnated, adding to pressure on embattled Prime Minister Keir Starmer.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/uk-economy-grows-less-than-forecast-in-fresh-setback-for-starmer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "afe4f7edde586ab2d9a5f14fbd80975a",
-      "timestamp": "2026-02-12T16:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China's Zhipu Jolts AI Race as 'Scare Trade' Grips US | The China Show 2/12/2026 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, David Ingles and Annabelle Droulers give",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-12/the-china-show-2-12-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dbc643afc088ef11c41d7953293c4fb",
-      "timestamp": "2026-02-12T15:55:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Singapore Boosts Fund to Attract More Stock Listings",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-12/singapore-budget-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed1c3b2dd1b390bf965d5d3aef115db8",
-      "timestamp": "2026-02-12T15:54:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Siemens CEO Says Demand From US Data Centers Is 'Very Strong' - Siemens CEO Roland Busch discusses the firm's growing factory automation business and demand for electrification products from data centers. He speaks to Bloomberg's Tom Mackenzie after first-quarter ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-12/siemens-ceo-sees-very-strong-demand-from-us-data-centers-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a5aa10788664a9df7a6dcbfe8bbcfe5",
-      "timestamp": "2026-02-12T15:51:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SoftBank Swings to Profit on Valuation Boost From OpenAI Bet - SoftBank Group Corp. sprang back to a quarterly profit after Masayoshi Son’s bet on OpenAI paid off in valuation gains, cementing the Japanese company’s position as an investment proxy for the ChatGPT",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/softbank-swings-to-profit-on-valuation-boost-from-its-openai-bet",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a5aa10788664a9df7a6dcbfe8bbcfe5",
-      "timestamp": "2026-02-12T15:51:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SoftBank Swings to Profit on Valuation Boost From OpenAI Bet - SoftBank Group Corp. sprang back to a quarterly profit after Masayoshi Son’s bet on OpenAI paid off in valuation gains, cementing the Japanese company’s position as an investment proxy for the ChatGPT",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/softbank-swings-to-profit-on-valuation-boost-from-its-openai-bet",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4b34e1b921ac0235ac1d4ea74c777499",
-      "timestamp": "2026-02-12T15:43:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTSE 100 Hits Fresh Record in Broad Equities Rally",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-12/ftse-100-live-uk-gdp-unilever-trump-tariffs-pound-gilts-gbp-usd-what-s-moving-uk-markets-right-now-markets-today",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "03112528ca8619d04e82739ab317f752",
-      "timestamp": "2026-02-12T15:42:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sanofi Pushes Out CEO Paul Hudson After R&D Setbacks - Sanofi abruptly replaced Chief Executive Officer Paul Hudson after a massive spending boost on research and development failed to deliver rapid results, appointing Merck KGaA’s Belén Garijo to succeed",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/sanofi-pushes-out-paul-hudson-in-sudden-leadership-change",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e571a6afcabac2859f11f22a2b7ffd66",
-      "timestamp": "2026-02-12T15:24:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Citi Expects India Investment Boost From Trade Deals - Citi India CEO, K Balasubramanian, discusses the bank’s India strategy and the opportunities they see across institutional and commercial banking. He speaks with Paul Allen on Bloomberg’s Insight with",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-12/citi-expects-india-investment-boost-from-trade-deals-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d953e5e1572f7ba38af2a8a51fcd53d1",
-      "timestamp": "2026-02-12T15:22:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Samsung Claims Lead in Race to Ship AI Memory Chips to Nvidia - Samsung Electronics Co. claimed an early lead in the race to supply memory chips for Nvidia Corp. AI accelerators, a milestone for a Korean company that’s seeking to displace its rivals in a pivotal m",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/samsung-says-it-starts-commercial-shipment-of-hbm4-to-customer-mlj2njno",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d953e5e1572f7ba38af2a8a51fcd53d1",
-      "timestamp": "2026-02-12T15:22:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Samsung Claims Lead in Race to Ship AI Memory Chips to Nvidia - Samsung Electronics Co. claimed an early lead in the race to supply memory chips for Nvidia Corp. AI accelerators, a milestone for a Korean company that’s seeking to displace its rivals in a pivotal m",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/samsung-says-it-starts-commercial-shipment-of-hbm4-to-customer-mlj2njno",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "05cf4e7eda52ca2e9908e330052d9a99",
-      "timestamp": "2026-02-12T15:10:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Insurer Scandals Deepen as Dai-ichi Reveals Misconduct - Japan’s insurance industry is reeling from a raft of scandals that have exposed companies’ lax supervision of its employees, undermining trust in the sector at a time when the government is trying to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/japan-insurer-scandals-deepen-as-dai-ichi-reveals-misconduct",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "29a7faa8e1e7089c629fa0caa5700616",
-      "timestamp": "2026-02-12T15:05:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AB InBev Offsets Beer Slump With Non-Alcoholic, Premium Sales - Anheuser-Busch InBev offset weaker volumes in Europe and North America with growth in other regions and stronger sales of premium products.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/ab-inbev-offsets-beer-slump-with-non-alcoholic-premium-sales",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d621a6d6386315eee9f2a73123633b78",
-      "timestamp": "2026-02-12T15:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Siemens Boosts Outlook After Automation Demand Offsets FX Drag - Siemens AG raised its outlook after demand for factory automation and electrification products boosted returns to help cushion negative currency effects.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/siemens-boosts-outlook-after-automation-demand-offsets-fx-drag",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a2c45909adbd6ab3b7103bd3b00c73b",
-      "timestamp": "2026-02-12T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thyssenkrupp Maintains Earnings Outlook Despite Weak Economy - Thyssenkrupp AG reaffirmed its full-year outlook despite restructuring costs at its steel division and a weak industrial backdrop weighing on performance.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/thyssenkrupp-maintains-earnings-outlook-despite-weak-economy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "df2c7d8fab4a95595385a8f1710dc358",
-      "timestamp": "2026-02-12T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mercedes Sees at Best Flat Margins This Year on China Pressures - Mercedes-Benz Group AG expects margins to remain under pressure this year as it grapples with tariffs and fierce competition in China.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/mercedes-sees-at-best-flat-margins-this-year-on-china-pressures",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9ede02179a3b0a7484ee95970a25b55c",
-      "timestamp": "2026-02-12T14:52:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Binance Pushes Back Against Blame Over October Crash - Richard Teng, Co-CEO at Binance, says a record spree of liquidations that wiped out $19 billion in leveraged crypto positions in October was “a crypto event, not a Binance event.” The world’s largest ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-12/binance-pushes-back-against-blame-over-october-crash-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "31b5a12c7aa86c0e372e360a994be739",
-      "timestamp": "2026-02-12T14:34:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Banking Cash Glut Opens Up Arbitrage for Lenders - The surge in India’s banking liquidity has opened up an arbitrage opportunity for lenders, enabling them to borrow cheaply and park the money with the central bank at a higher rate.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/india-banking-cash-glut-opens-up-arbitrage-for-lenders",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "818c469b92cd8b6c02333b07a0432b55",
-      "timestamp": "2026-02-12T14:28:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Bans Below-Cost Car Sales to End Prolonged Price War - China has banned carmakers from pricing vehicles below cost, intensifying its crackdown on a persistent price war that’s engulfed the world’s largest auto market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/china-bans-below-cost-car-sales-to-end-prolonged-price-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "572b0007ffbeaa5e3456e007462f767b",
-      "timestamp": "2026-02-12T14:28:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "GQG Holds Over $24 Billion in India as ‘Perfect Storm’ for Stocks Eases - The steepest underperformance of Indian stocks in decades isn’t deterring GQG Partners LLC as it bets on banks to lead a recovery in earnings.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/gqg-partners-holds-24-billion-in-india-as-perfect-storm-for-stocks-eases",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e53bfc01cbac88973a3addbda1d8b3c8",
-      "timestamp": "2026-02-12T14:20:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Toyota Delays Deadline for $35 Billion Deal Opposed by Elliott - The Toyota group extended the tender period for its bid to privatize a key unit, signaling the Japanese conglomerate needs more time to rally shareholder support in the face of an aggressive push by E",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/toyota-delays-deadline-for-35-billion-deal-opposed-by-elliott",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5fe984c5278f0118322deea853125410",
-      "timestamp": "2026-02-12T14:11:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Omani Stocks Head for Best Week Since 2014 on Bid for EM Status - Omani stocks are heading for their best week in more than a decade as optimism builds that the Gulf bourse’s push to be classified as an emerging market would unlock fresh investor inflows.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/omani-stocks-head-for-best-week-since-2014-on-bid-for-em-status",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1ca21db816dd2c2564cb627b062982b3",
-      "timestamp": "2026-02-12T14:10:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lubin on Crypto Market Outlook - Joe Lubin, Founder & CEO of Consensys, discusses his outlook for crypto markets and the digital assets economy. He says he doesn't think that Bitcoin should act as a safe haven while it is still in a ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-12/lubin-on-crypto-market-outlook-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "69201ab7277f3be29bc7fcff088f78c2",
-      "timestamp": "2026-02-12T14:00:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "iPhone 17 Bucked China Mobile Lull in January, Counterpoint Says - Apple Inc.’s iPhone was the only smartphone line to register growth in China sales in January, according to Counterpoint Research.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/iphone-17-bucked-china-mobile-lull-in-january-counterpoint-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "abe0351fed7231eebac525478dd96cf6",
-      "timestamp": "2026-02-12T14:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Foreigners Pile Into Zambia’s Bonds After Auction Rules Eased - Foreigners have piled into Zambia’s local bond market following the government’s move to lift a cap on non-resident participation in debt auctions, as money shifts from dollar-denominated assets into ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/zambia-kwacha-s-rally-gets-lift-from-foreigners-piling-into-local-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0323d0f29aadf5b416a1ae76f9b93f68",
-      "timestamp": "2026-02-12T14:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer Risks a Migration Backlash, But This Time From the Left - Keir Starmer said he wants to take the battle to Nigel Farage, rather than feuding with his own Labour Party. Instead the prime minister looks set to be tested by a brewing rebellion over his efforts ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/starmer-risks-a-migration-backlash-but-this-time-from-the-left",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7c6df8dea68a6b7483195ea872785b31",
-      "timestamp": "2026-02-12T13:57:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US House Defies Trump on Canada Tariffs | The Asia Trade 2/12/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Singapore with Shery Ahn and Avril Hong, getting ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-12/the-asia-trade-2-12-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0684778478a3bad906d1755c5fae6b11",
-      "timestamp": "2026-02-12T13:49:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian Farmers Protest Against Modi’s Trade Agreement With Trump - Thousands of farmers across India are set to gather for large-scale protests against the country’s long-awaited trade deal with the United States, an agreement that organizers say could pave the way f",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/indian-farmers-protest-against-modi-s-trade-agreement-with-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0684778478a3bad906d1755c5fae6b11",
-      "timestamp": "2026-02-12T13:49:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian Farmers Protest Against Modi’s Trade Agreement With Trump - Thousands of farmers across India are set to gather for large-scale protests against the country’s long-awaited trade deal with the United States, an agreement that organizers say could pave the way f",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/indian-farmers-protest-against-modi-s-trade-agreement-with-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "28aa9d7f54164e63ad26d4baec334a9a",
-      "timestamp": "2026-02-12T13:47:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lenovo Shares Sink After Profit Hit by Surging Memory Prices - Lenovo Group Ltd. reported a 21% decline in net income over the December quarter, despite a better-than-expected rise in revenue to $22.2 billion.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/lenovo-s-sales-lifted-by-ai-and-rush-to-beat-memory-price-hikes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "28aadb1928f59f9fbf6b533853beb10c",
-      "timestamp": "2026-02-12T13:35:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Argentina Senators Pass Milei’s Labor Reform in Key First Step - Senators in Argentina passed President Javier Milei’s signature labor reform bill early Thursday, a key step forward for the libertarian’s ambitious agenda that could support his government’s return t",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-12/argentina-senators-pass-milei-s-labor-reform-in-key-first-step",
       "sentiment": "NEUTRAL"
     }
   ]
