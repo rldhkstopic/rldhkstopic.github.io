@@ -1,6 +1,153 @@
 {
-  "last_updated": "2026-02-14T05:10:59.094209+09:00",
+  "last_updated": "2026-02-14T07:09:56.083955+09:00",
   "items": [
+    {
+      "id": "461eae387f82bf1f71f1e986843d75d2",
+      "timestamp": "2026-02-14T07:03:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "MAIA: Credit Spreads Widen Amid AI Concerns and Tech Bond Discounts - The segment discusses the recent modest widening of credit spreads, driven by both AI-related market fears and a surge in debt issuance. While the overall index shows little change, there is significa",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/ai-angst-issuance-wave-widen-credit-spreads-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e8f9027fe58723b652aa61e864c03030",
+      "timestamp": "2026-02-14T06:59:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wasserman Shultz: Need 'Comprehensive Agreement' on ICE - Rep. Debbie Wasserman Shultz (D-FL) said  before Democrats vote to fund DHS there needs to be a \"comprehensive agreement\" that reins in immigration agents and stops abusive actions like those seen in ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/wasserman-shultz-need-comprehensive-agreement-on-ice-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d9696a6ed0094c3f8d66910b1c7f069c",
+      "timestamp": "2026-02-14T06:49:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Corporate Debt Sales Surge in Europe - A rush of reverse Yankee debt sales have hit the European primary market, with five borrowers set to make it the busiest start to the year ever for the deals. Ronan Martin joins Scarlet Fu to discuss ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/us-corporate-debt-sales-surge-in-europe-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "34cd13a29a8c9743de5c6368e9be58ec",
+      "timestamp": "2026-02-14T06:39:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What Do You Need to Launch an ETF? At Least $250,000 and an Idea - White-label firms can help you build your own ETF, for a price",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/want-to-start-your-own-etf-you-ll-need-at-least-250-000",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8bee61c7477c4f6f81f02a735ac39fde",
+      "timestamp": "2026-02-14T06:38:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Regime Change in Iran ‘Best Thing That Could Happen’ - President Donald Trump said regime change would be the best outcome for Iran, ratcheting up pressure on the Islamic Republic in talks over its nuclear program as he builds up the US military presence ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/trump-says-regime-change-in-iran-best-thing-that-could-happen",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1d63aee43ce63e6884fefeb21f434c21",
+      "timestamp": "2026-02-14T06:31:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump at Another Shutdown Standoff With Democrats - The future of DHS funding depends on finding a way to a deal.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/trump-at-another-shutdown-standoff-with-democrats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cd6038db37a344a6b596f820dc082d2c",
+      "timestamp": "2026-02-14T06:27:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine Needs US to End War, Lithuania's Leader Says - President Gitanas Nauseda of Lithuania talks about diplomatic relations with the United States, security in Europe and ending the war in Ukraine. He speaks to Bloomberg's Oliver Crook.\n\n(Video has bee",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/ukraine-needs-us-to-end-war-lithuania-s-leader-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fed62debfd1c6dc8bcc100a748c46641",
+      "timestamp": "2026-02-14T06:10:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "2 Brilliant Growth Stocks to Buy Now and Hold for the Long Term - SoFi and Adyen are still worth buying in this frothy market.",
+      "url": "https://www.fool.com/investing/2026/02/13/2-brilliant-growth-stocks-to-buy-now-and-hold-for/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "797d27c7b14d3fc5717abf4ce2ca0564",
+      "timestamp": "2026-02-14T06:07:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DHS Heads Towards Partial Shutdown | Balance of Power: Early Edition 2/13/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu and Kailey Leinz discuss the possible lapse in funding for the Department of Homeland Security. On today's sho",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/balance-of-power-early-edition-2-13-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f22a533844d7b457fb18b69395a238f4",
+      "timestamp": "2026-02-14T06:00:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Retires Controversial 4o AI Model, Angering Loyal Users - GPT-4o showed the unique attachment that people can form with chatbots",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/openai-retires-controversial-4o-ai-model-angering-loyal-users",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bc327ce9f2483f6d4dd3deac5509000d",
+      "timestamp": "2026-02-14T05:55:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Should You Invest $1,000 in SoFi Technologies Right Now? - This top fintech stock is trading at a discount, down 34% from its record high.",
+      "url": "https://www.fool.com/investing/2026/02/13/should-you-invest-1000-sofi-technologies-stock/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "763fd4fb0b3f8bb52994672497fe3862",
+      "timestamp": "2026-02-14T05:30:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Pulls List of Tech Firms Linked to China’s Military | Bloomberg Tech 2/13/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss earnings from Rivian, Coinbase, Instacart, and Airbnb. Plus, the US Defense Department added Alibaba, Baidu and others to a list of firms it says are co",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/bloomberg-tech-2-13-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3639fe8a920c6dcf4f23d5040d46ccb2",
+      "timestamp": "2026-02-14T05:29:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK and European Allies Weigh Seizing Russian Shadow Fleet Ships - British Defense Secretary John Healey met with counterparts from Baltic and Nordic nations to discuss seizing oil tankers linked to Russia’s shadow fleet, as Europe seeks to tighten curbs on Moscow’s ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/uk-and-european-allies-weigh-seizing-russian-shadow-fleet-ships",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b6898d5e14ed7f9e8e90f2766a6391fc",
       "timestamp": "2026-02-14T05:02:05+09:00",
@@ -35,6 +182,28 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "a3bf6ddff4954d9e8fa04f82141d0eb6",
+      "timestamp": "2026-02-14T04:51:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US CPI Fuels Fed Wagers, US Inflation Comes In Cooler Than Expected | Real Yield 2/13/2025 - \"Bloomberg Real Yield\" highlights the market-moving news you need to know. Today's guests: Schwab Center for Financial Research Chief Fixed Income Strategist Kathy Jones, JPMorgan Private Bank Global ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/real-yield-2-13-2025-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8898b371bf5f3dbef1e32b9ee7f30737",
+      "timestamp": "2026-02-14T04:51:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Clash of Cultures With Trump World Sees Europeans Gang Together - If there was one moment on day one that captured the essence of this year’s Munich Security Conference, it came from Mike Waltz, US ambassador to the United Nations.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/clash-of-cultures-with-trump-world-sees-europeans-gang-together",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "006fc45f2f1452bbdfa517db6a6dce6f",
       "timestamp": "2026-02-14T04:34:35+09:00",
       "source_type": "NEWS",
@@ -54,6 +223,17 @@
       "related_tickers": [],
       "content": "Amazon-Backed Nuclear Company Gets US Approval for Reactor Fuel - X-Energy Reactor Co., an advanced nuclear company backed by Amazon.com Inc., received federal approval to make uranium fuel for advanced reactors, the first such new license in more than 50 years.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/amazon-backed-nuclear-company-gets-us-approval-for-reactor-fuel",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a3e7c4a08d996670aee22602b58b6579",
+      "timestamp": "2026-02-14T04:26:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Inflation Data Calms Markets | Bloomberg Open Interest 2/13/2026 - Inflation closing out a high-stakes week &mdash; with CPI coming in fairly mild. Meanwhile, the \"AI trade scare\" rattled markets this week. Today, logistics stocks are caught in the crossfire.\nAnd pri",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/bloomberg-open-interest-2-13-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2023,182 +2203,6 @@
       "related_tickers": [],
       "content": "BOJ Hawk Tamura Flags Spring as Possible Timing for Rate Hike - One of the Bank of Japan’s most hawkish members indicated that conditions for the central bank’s next interest rate hike could be in place by spring, a comment that is likely to fuel further speculati",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/boj-hawk-tamura-flags-spring-as-possible-timing-for-rate-hike",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ae737b7ea8637d02f4840ba642ff036a",
-      "timestamp": "2026-02-13T15:02:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian Hotels CEO on outlook for travel demand - Luxury hotel rates in New Delhi have surged to as high as 33,000 dollars a night ahead of the India AI Impact Summit, underscoring explosive demand as global tech leaders and heads of state arrive in ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/indian-hotels-ceo-on-outlook-for-travel-demand-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4607f3507f14304b38df2a0293d5d9e2",
-      "timestamp": "2026-02-13T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Boerse Stuttgart to Merge Crypto Arm with Trading Firm Tradias - German stock exchange operator Boerse Stuttgart Group is set to merge its crypto operations with Frankfurt-based digital asset trader Tradias.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/boerse-stuttgart-to-merge-crypto-arm-with-trading-firm-tradias",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "60b4b6377f73cf5c4ca366b273050223",
-      "timestamp": "2026-02-13T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crypto’s Libertarian Dream Helps Power a Darknet Money Machine - In early January, hackers drained over $200 million from a crypto wallet and swapped some of the loot into Monero, a type of digital token designed to be near-impossible to trace. To Monero’s most dev",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/darknet-demand-for-monero-xmr-rises-stumping-crime-fighters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "60b4b6377f73cf5c4ca366b273050223",
-      "timestamp": "2026-02-13T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crypto’s Libertarian Dream Helps Power a Darknet Money Machine - In early January, hackers drained over $200 million from a crypto wallet and swapped some of the loot into Monero, a type of digital token designed to be near-impossible to trace. To Monero’s most dev",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/darknet-demand-for-monero-xmr-rises-stumping-crime-fighters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "063e09bf2ae1a03de9920fc919897c81",
-      "timestamp": "2026-02-13T14:55:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Takes Aim at Screen-Heavy Car Dashboards in Safety Push - China is taking aim at stripped-down, screen-dominated car interiors favored by the likes of Tesla Inc. and Xiaomi Corp., requiring that essential safety functions be controlled by physical switches o",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/china-takes-aim-at-screen-heavy-car-dashboards-in-safety-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d4d05953f95ea40157b82379a9f187d3",
-      "timestamp": "2026-02-13T14:29:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hong Kong's Banker Shortage - Hong Kong firms are on the hunt for more bankers to lead a booming pipeline of initial public offering deals after a years-long dry spell. Bloomberg's Dave Sebastian shares the latest. (Source: Bloomb",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/hong-kong-s-banker-shortage-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a9ec2a6a50e59d6719dff60e99e280cf",
-      "timestamp": "2026-02-13T14:23:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Malaysia’s Cabinet Orders Probe Into Anti-Graft Chief Azam - Malaysia’s cabinet has ordered an investigation into the allegations surrounding anti-graft chief Azam Baki, days after a report said he had shareholdings that were higher than allowed limits for publ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/malaysia-s-cabinet-orders-probe-into-anti-graft-chief-azam-baki",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a9ec2a6a50e59d6719dff60e99e280cf",
-      "timestamp": "2026-02-13T14:23:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Malaysia’s Cabinet Orders Probe Into Anti-Graft Chief Azam - Malaysia’s cabinet has ordered an investigation into the allegations surrounding anti-graft chief Azam Baki, days after a report said he had shareholdings that were higher than allowed limits for publ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/malaysia-s-cabinet-orders-probe-into-anti-graft-chief-azam-baki",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a60997a4f1bf2f027e3b4577fed57d09",
-      "timestamp": "2026-02-13T14:15:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Rethinks Nuclear Weapons After US Delivers Reality Check - <p>For the first time since the end of the Cold War, European capitals are discussing how to develop their own&nbsp;deterrent.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/europe-rethinks-nuclear-weapons-after-us-delivers-reality-check",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1fa0e0e29a6ebfc72f6048b255a341bd",
-      "timestamp": "2026-02-13T14:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nestlé Running 24 Hours to Avert Formula Shortages After Recall - Nestlé SA is ramping up production of infant formula to avert a shortage, after a contamination crisis led the Swiss foodmaker and rival producers Danone SA and Groupe Lactalis to recall hundreds of b",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/nestle-running-24-hours-to-avert-formula-shortages-after-recall",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b4685368cc6997efcb59b18adf67ced",
-      "timestamp": "2026-02-13T14:07:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India's Garg On CPI Revamp Impact on Consumption - India Ministry of Statistics and Programme Implementation Secretary Saurabh Garg discusses the impact of India's new inflation index on consumption patterns. He speaks with Menaka Doshi and Paul Allen",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/india-s-garg-on-cpi-revamp-impact-on-consumption-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0083b83032df4a7a318728dd1b07eff4",
-      "timestamp": "2026-02-13T14:01:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ajay Banga on the Youth Jobs Time Bomb - Francine Lacqua speaks to Ajay Banga about growing up in India, rising through the private sector and leading the World Bank as emerging markets brace for a youth jobs crisis of historic proportions.\n",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/ajay-banga-on-india-migration-and-youth-jobs-time-bomb-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "64359bc502213cf4bb5b7df20af354da",
-      "timestamp": "2026-02-13T14:01:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Do You Steal an Airplane? One Piece at a Time - <p>Looking to reduce China’s reliance on Western aviation technologies, Beijing had spies spend years accumulating knowledge about the industry’s secrets.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/how-chinese-spies-stole-us-aviation-secrets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0e8a8d9c59b1aec5d5920b3a6b344b10",
-      "timestamp": "2026-02-13T14:00:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "World Bank Chief Banga Says Multilateralism Has a Role to Play in Tumultuous Times - World Bank President Ajay Banga defended multilateralism at a time when global initiatives and international organizations are being tested.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/world-bank-chief-banga-says-multilateralism-has-a-role-to-play-in-tumultuous-times",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0da36f7dd540274cbba7628b31a9a578",
-      "timestamp": "2026-02-13T14:00:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "World Bank's Banga Says Multilateralism Is Not Dead - World Bank Group President Ajay Banga rejects the idea that multilateralism is dead, despite the backdrop of political uncertainty and volatile trade relations across the globe. Speaking on Bloomberg'",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/multilateralism-is-not-dead-says-world-bank-s-banga",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6f1db63ab21f5b93dfb3b520a769e620",
-      "timestamp": "2026-02-13T14:00:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia’s Invasion of Ukraine Changed Europe Forever. Here’s How - <p>Four years on from Russia’s full-scale invasion, the economic, political and security&nbsp;fallout is&nbsp;reverberating&nbsp;far beyond Ukraine’s borders.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-13/russia-s-invasion-of-ukraine-changed-europe-forever-here-s-how",
       "sentiment": "NEUTRAL"
     }
   ]
