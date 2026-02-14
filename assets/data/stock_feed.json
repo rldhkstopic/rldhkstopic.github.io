@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-14T13:34:15.270646+09:00",
+  "last_updated": "2026-02-14T15:15:20.512626+09:00",
   "items": [
+    {
+      "id": "c2cf0bbb59cc97e50c69290cad6b85a9",
+      "timestamp": "2026-02-14T15:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK By-Election Exposes Green-Reform Squeeze on Starmer’s Labour - <p>A special election in the Manchester district of Gorton and Denton is shaping up to be a three-way fight that highlights the fracturing of British politics.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-02-14/gorton-and-denton-by-election-exposes-green-reform-squeeze-on-uk-s-labour-party",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "470bca0a00cfbe447584cd79fb1e005e",
+      "timestamp": "2026-02-14T14:01:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Homeland Security Department Shuts Down Amid ICE Raid Impasse - The Department of Homeland Security shut down early Saturday amid a congressional funding impasse that shows no sign of ending soon, touched off by backlash over the Trump administration’s widespread ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/dhs-government-shutdown-starts-amid-ice-raid-impasse",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "57557f0497224ec1b84e0550153f3e3f",
       "timestamp": "2026-02-14T11:31:01+09:00",
@@ -2183,28 +2205,6 @@
       "related_tickers": [],
       "content": "India’s Revamped Data Addresses IMF Concerns, Official Says - India’s consumer inflation index based on the new series addresses the International Monetary Fund’s concerns about the country’s data integrity, a top official said Friday.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/india-s-revamped-data-addresses-imf-concerns-official-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32279c35ea5bc46b2eca89622987a2a4",
-      "timestamp": "2026-02-13T17:17:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indonesian Media Firm Tied to Trump’s Business Partner Is Said to Weigh Hong Kong Listing - PT MNC Digital Entertainment, the media and entertainment unit of Indonesian conglomerate MNC Group is considering a second listing in Hong Kong, according to people familiar with the matter, in what ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/media-firm-tied-to-trump-s-business-partner-is-said-to-weigh-hong-kong-listing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bb29e86b3d4f24146ba1a88cb2ddd4f8",
-      "timestamp": "2026-02-13T17:15:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "European Stocks Muted on Pressure From Banks, L’Oreal Earnings - European stocks were subdued on Friday, weighed down by a broad retreat across banking shares and disappointing sales growth at L’Oreal SA.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/european-stocks-steady-with-earnings-in-focus-l-oreal-slumps",
       "sentiment": "NEUTRAL"
     }
   ]
