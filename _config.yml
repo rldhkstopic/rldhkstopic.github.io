@@ -45,6 +45,9 @@ permalink: /:year/:month/:day/:title.html
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 # Show future-dated posts
 future: true
