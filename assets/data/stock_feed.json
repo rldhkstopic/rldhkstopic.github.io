@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T11:58:55.178345+09:00",
+  "last_updated": "2026-02-14T13:34:15.270646+09:00",
   "items": [
     {
       "id": "57557f0497224ec1b84e0550153f3e3f",
@@ -10,6 +10,17 @@
       "related_tickers": [],
       "content": "China’s Wang Yi Meets US’ Rubio Ahead of Planned Trump-Xi Summit - Chinese Foreign Minister Wang Yi met with US Secretary of State Marco Rubio in Munich, as the two countries prepare for a planned visit by President Donald Trump to Beijing in April.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-14/china-s-wang-yi-meets-us-rubio-ahead-of-planned-trump-xi-summit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2b96720e45c9bb0ba42184198cc422dd",
+      "timestamp": "2026-02-14T10:36:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippines’ First Gen to Buy Into Hydropower Business for $1.3 Billion - First Gen Corp. will buy a 40% stake in Prime Infrastructure Capital Inc.’s hydropower portfolio in a deal worth 75 billion pesos ($1.3 billion), the Philippine companies said in a statement late Frid",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/philippines-first-gen-to-buy-into-hydropower-business-for-1-3-billion",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2194,17 +2205,6 @@
       "related_tickers": [],
       "content": "European Stocks Muted on Pressure From Banks, L’Oreal Earnings - European stocks were subdued on Friday, weighed down by a broad retreat across banking shares and disappointing sales growth at L’Oreal SA.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/european-stocks-steady-with-earnings-in-focus-l-oreal-slumps",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1fd5c5843623bc19949f5dd231132a67",
-      "timestamp": "2026-02-13T17:10:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Heathrow Airport CEO Still Skeptical On Third Runway Project - The head of London Heathrow Airport expressed doubt about whether a billion-dollar project to build a third runway will go ahead, saying planning complexities this year could hinder progress.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/heathrow-airport-ceo-still-skeptical-on-third-runway-project",
       "sentiment": "NEUTRAL"
     }
   ]
