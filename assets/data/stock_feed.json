@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-02-14T23:08:58.569225+09:00",
+  "last_updated": "2026-02-15T01:07:39.609307+09:00",
   "items": [
+    {
+      "id": "7e35e5def71a456e4f798727a28efd7f",
+      "timestamp": "2026-02-15T00:46:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump's Caribbean Surge Nears $3 Billion Price Tag So Far - <p>The operations around Venezuela that eventually led to the capture of its president pulled in nearly a fifth of the US Navy’s surface fleet at a cost of more than $20 million a day.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/us-military-s-venezuela-operations-most-likely-cost-billions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a159ac1a1b492c90694a5608a9a3abbe",
+      "timestamp": "2026-02-15T00:04:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Is Trump’s Manufacturing Comeback Real? - Steve Rattner of Willett Advisors examines whether tariffs and trade policy are actually changing the trajectory of US manufacturing. He discusses the data behind industrial output, the consumer cost ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/is-trump-s-manufacturing-comeback-real-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a8fb2521bcafe0af5c19fef12a80f680",
+      "timestamp": "2026-02-15T00:02:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer Speaks at MSC, on Independence From the US - UK PM Keir Starmer speaks alongside EU Commission President Ursula von der Leyen at the Munich Security Conference, 14 Feb 2026. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/starmer-speaks-at-msc-on-independence-from-the-us-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4e020591f72ae88702c183b62e138e5a",
+      "timestamp": "2026-02-14T23:46:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Senator Slotkin Speaks on US Relationship with Europe - Sen. Elissa Slotkin (D) Michigan speaks on the US's standing on the global stage and relationship with Europe, tariffs, and more. She speaks with Bloomberg's Oliver Crook from the sidelines of the Mun",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/us-senator-slotkin-speaks-on-us-relationship-with-europe-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a92d4002dfa8a28b96a5f03a6b71526f",
+      "timestamp": "2026-02-14T23:01:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Orban Promises Crackdown On ‘Fake’ NGOs If He Wins Hungary Vote - Hungarian Prime Minister Viktor Orban said he would move to stamp out what he described as “fake” opposition forces funded by Brussels if voters return him to power in a national election eight weeks ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/orban-promises-crackdown-on-fake-ngos-if-he-wins-hungary-vote",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c6516e40973d555dc1855992494d0f9d",
+      "timestamp": "2026-02-14T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bankers’ Winter Getaway to Sunny Florida Is Upended By AI Chaos - It was supposed to be a relatively relaxing work week in the South Florida sun for the hundreds of bankers, brokers, advisers, portfolio managers, analysts and investors attending a series of financia",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/bankers-winter-getaway-to-sunny-florida-is-upended-by-ai-chaos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "28d06c23f76c75150ce3c85e484a1eb1",
+      "timestamp": "2026-02-14T22:56:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Turkish Broker With 2,400% Stock Surge Reports Huge Profit Jump - Turkish brokerage Tera Yatirim Menkul Degerler AS, which has seen its share-price surge over the past year, reported a nearly 70-fold jump in profit for 2025.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/turkish-broker-with-2-400-stock-surge-reports-huge-profit-jump",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "12e05c5d27a246f7ef6b8d998cda7e95",
       "timestamp": "2026-02-14T22:47:33+09:00",
@@ -21,6 +98,17 @@
       "related_tickers": [],
       "content": "Iranian Internet Goes Dark as US Agencies Clash Over VPN Funding - US agencies are struggling to find the best method to fund additional software for millions of Iranian civilians to get around their government’s strict internet censors, amid a surge in demand over w",
       "url": "https://www.bloomberg.com/news/articles/2026-02-14/iranian-internet-goes-dark-as-us-agencies-clash-over-vpn-funding",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a24c60b01ff6599a3b660a5f9123f331",
+      "timestamp": "2026-02-14T22:25:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Defense Chief Isn’t Ready to Drop French Jet Alliance Yet - German Defense Minister Boris Pistorius insisted that a troubled plan to develop a new fighter jet in partnership with France is “not dead yet” as he set out plans to expand the military and make its ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/german-defense-chief-isn-t-ready-to-drop-french-jet-alliance-yet",
       "sentiment": "NEUTRAL"
     },
     {
@@ -120,6 +208,17 @@
       "related_tickers": [],
       "content": "Bangladesh PM-Elect Says Economy Faces Serious Challenges - Bangladesh’s Prime Minister-elect Tarique Rahman said his incoming administration will begin its work to fix a fragile economy that’s beset by weakened institutions and deteriorating law and order.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-14/bangladesh-pm-elect-says-economy-faces-serious-challenges",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2ed307211f490ce2eeade93a48f85d43",
+      "timestamp": "2026-02-14T20:03:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Wang Warns Takaichi Over Japan’s ‘Ghosts of Militarism’ - Chinese Foreign Minister Wang Yi invoked Japan’s World War II history of aggression and warned Prime Minister Sanae Takaichi against a return to militarism as he blasted her support for Taiwan as “a v",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/china-s-wang-warns-takaichi-over-japan-s-ghosts-of-militarism",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2106,105 +2205,6 @@
       "related_tickers": [],
       "content": "World Leaders Gather at Munich Security Conference",
       "url": "https://www.bloomberg.com/news/live-blog/2026-02-13/munich-security-conference-2026-rubio-merz-speak-live-updates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7c2ae6b1b41c1ee79c8a4e2d34df3783",
-      "timestamp": "2026-02-13T19:56:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Andrey Kurkov Says Russia Isn’t Winning in Ukraine - Ukrainian writer Andrey Kurkov rejects the Kremlin's propaganda about its progress after four years of war.\n\nHe tells Mishal Husain that President Trump sees Ukraine as an \"obstacle\" to business ties ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/andrey-kurkov-says-russia-isn-t-winning-in-ukraine-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd8785b8b43437085d62d87bdf442bb1",
-      "timestamp": "2026-02-13T19:53:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Rethinks Nuclear Weapons After US Reality Check - Europe is considering its own nuclear deterrent, as trust in the US falters and fears of Russia grow.\n\nBut a viable alternative to America's \"nuclear umbrella\" is far from obvious, as Alex Morgan expl",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/europe-rethinks-nuclear-weapons-after-us-reality-check-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "336ce1f5482888bea89f806c0b170f06",
-      "timestamp": "2026-02-13T19:53:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CATL, CMOC, Laopu Gold to Join Hong Kong’s Stock Benchmark Index - Hang Seng Indexes Co. is adding electric-vehicle battery-maker Contemporary Amperex Technology Co., miner CMOC Group Ltd. and jeweler Laopu Gold Co. to Hong Kong’s equity benchmark gauge, the index co",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/catl-cmoc-laopu-gold-to-join-hong-kong-s-stock-benchmark-index",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1f32560402ee38df3bdf4b48dcc11199",
-      "timestamp": "2026-02-13T19:50:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Ban on Palestine Action Group Was Unlawful, Judges Rule - A British government ban on Palestine Action under anti-terror laws was unlawful, London judges ruled, throwing hundreds of prosecutions against supporters of the group into doubt.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/uk-ban-on-palestine-action-group-was-unlawful-judges-rule",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9e4c851b5eaebf094cbc4b6b7a1fd4b3",
-      "timestamp": "2026-02-13T19:31:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa President Vows Renewed Growth Drive - South African president has pledged to accelerate reforms aimed at boosting growth, attracting investment and improving government efficiency. Bloomberg’s  Jennifer Zabasajja reports on Cyril Ramaphos",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/south-africa-president-vows-renewed-growth-drive",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7ddc7579a0048e1c6b1c0aac9878b694",
-      "timestamp": "2026-02-13T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The 21% Surge in Oil Stocks Is Making Analysts Bullish on 2026 - Oil-company stocks have surged sharply since the start of the year &mdash; and analysts see that as a bullish sign for the rest of it.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/the-21-surge-in-oil-stocks-is-making-analysts-bullish-on-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4c981870b8f19a1fdd6daff142432e46",
-      "timestamp": "2026-02-13T19:10:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland’s Sikorski Says Europe Deserves Role in Ukraine Talks - Europe’s funding for Ukraine’s defense means it has a right to a seat at the table in US-brokered peace negotiations, according to Polish Foreign Minister Radoslaw Sikorski.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/europe-deserves-role-in-ukraine-talks-poland-s-sikorski-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5178cb03822b8efdacdfc2dba191d60c",
-      "timestamp": "2026-02-13T19:03:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mubadala Capital Chases ‘Complexity’ After Clear Channel Deal - Mubadala Capital is embracing a more aggressive stance on dealmaking, wading into complicated transactions shunned by the titans of private equity and participating in multibillion-dollar buyouts that",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/abu-dhabi-mubadala-capital-chases-complexity-after-clear-channel-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6542d76714f1332d6e721e86bbb32936",
-      "timestamp": "2026-02-13T19:02:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Veja os Três Assuntos que Marcaram a Semana no Brasil - A repórter Patricia Xavier traz os assuntos que foram destaque da semana. Com produção de Barbara Nascimento.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/veja-os-tres-assuntos-que-marcaram-a-semana-no-brasil-video",
       "sentiment": "NEUTRAL"
     }
   ]
