@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-15T03:07:33.640250+09:00",
+  "last_updated": "2026-02-15T05:05:54.411087+09:00",
   "items": [
+    {
+      "id": "c759d982ba314bc5ad97c8cfc1309985",
+      "timestamp": "2026-02-15T04:44:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Newsom Pleads With US Allies in Europe to See Trump as Temporary - California Governor Gavin Newsom told a panel at the Munich Security Conference Saturday that he traveled there to reassure European allies that “Trump is temporary.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/newsom-pleads-with-us-allies-in-europe-to-see-trump-as-temporary",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d9ac9bdedf00da0622643bce6e3f407f",
+      "timestamp": "2026-02-15T03:41:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukrainian Anti-Corruption Chair Radina Speaks on Ceasefire - Ukrainian parliament’s anti-corruption committee chair, Anastasiya Radina speaks on Russia-Ukraine peace talks and the prospect of a ceasefire at the 2026 Munich Security Conference. (Source: Bloomber",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/ukrainian-anti-corruption-chair-radina-on-ceasefire-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7499c6270733b17d24cedd2122dfa8ee",
       "timestamp": "2026-02-15T02:41:38+09:00",
@@ -2183,28 +2205,6 @@
       "related_tickers": [],
       "content": "Nvidia Shares Go Cold Even as Big Tech Spending on AI Balloons - Big Tech keeps raising its spending plans for artificial intelligence infrastructure, yet shares of Nvidia Corp., one of the biggest beneficiaries of that flood of cash, have been largely stagnant for",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/nvidia-shares-go-cold-even-as-big-tech-spending-on-ai-balloons",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b73de7745ffaf5d25c3e6b3d3ed80d5f",
-      "timestamp": "2026-02-13T20:20:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The AI Scare Trade Has Now Come for Trucking Stocks - <p>The selloff rolls on as investors take fright at the disruptive technology.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/the-ai-scare-trade-has-now-come-for-trucking-stocks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "57bc59a595297d7aae60561040167105",
-      "timestamp": "2026-02-13T20:17:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Who Is Bangladesh’s Next Leader Rahman and What Are His Plans? - Tarique Rahman is Bangladesh’s presumptive next leader after his party swept Thursday’s general election, easily overcoming an alliance of Islamist parties and student leaders.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/who-is-bangladesh-s-next-leader-rahman-and-what-are-his-plans",
       "sentiment": "NEUTRAL"
     }
   ]
