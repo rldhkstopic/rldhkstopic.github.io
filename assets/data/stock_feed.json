@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-02-15T01:07:39.609307+09:00",
+  "last_updated": "2026-02-15T03:07:33.640250+09:00",
   "items": [
+    {
+      "id": "7499c6270733b17d24cedd2122dfa8ee",
+      "timestamp": "2026-02-15T02:41:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy Says He Cannot Imagine Putin Without War - Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying Putin is a \"slave to war\". (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-says-he-cannot-imagine-putin-without-war-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac922ea6f31c5f00db28c2dd3b60f4ce",
+      "timestamp": "2026-02-15T02:34:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy Open to Elections if Ceasefire Is Reached - Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0812047ba4f2aaff8e14f954ebd4b455",
+      "timestamp": "2026-02-15T02:29:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy Speaks on Iran Supplying Russia With Drones - Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, criticizing Iran for supplying Russia with drones. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-speaks-on-iran-for-supplying-russia-with-drone-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bdeb265ad90a8391b2866ce18f8f0401",
+      "timestamp": "2026-02-15T01:36:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Peru’s Sovereignty Not at Risk With Chinese Port, Minister Says - Peru rejected concerns that operations at Chinese-owned Chancay port near Lima threaten its sovereignty, days after US officials warned that fresh regulatory exemptions granted to the port could under",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/peru-s-sovereignty-not-at-risk-with-chinese-port-minister-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "634e052f470bec5d098cfa879d6b82e8",
+      "timestamp": "2026-02-15T01:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB Revamps Euro Liquidity Offer to Boost Currency’s Appeal - The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and increase global use of the single currency.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "634e052f470bec5d098cfa879d6b82e8",
+      "timestamp": "2026-02-15T01:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB Revamps Euro Liquidity Offer to Boost Currency’s Appeal - The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and increase global use of the single currency.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fc3134c2889fd989a6d04321523d1201",
+      "timestamp": "2026-02-15T01:14:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Airstrikes in Syria Target Dozens More Islamic State Sites - US forces struck more than 30 Islamic State targets in Syria over the last two weeks, extending the military response to a deadly attack on American and Syrian troops in December.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/us-airstrikes-in-syria-target-dozens-more-islamic-state-sites",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7e35e5def71a456e4f798727a28efd7f",
       "timestamp": "2026-02-15T00:46:48+09:00",
@@ -2128,83 +2205,6 @@
       "related_tickers": [],
       "content": "Who Is Bangladesh’s Next Leader Rahman and What Are His Plans? - Tarique Rahman is Bangladesh’s presumptive next leader after his party swept Thursday’s general election, easily overcoming an alliance of Islamist parties and student leaders.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/who-is-bangladesh-s-next-leader-rahman-and-what-are-his-plans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "55a3995b2a6fcb39bf48e577d0d0134e",
-      "timestamp": "2026-02-13T20:16:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Disruption Trade Drives Divide in Travel and Leisure Stocks - Fears around AI disruption have created a dramatic divide in the travel and leisure sector, with the stocks of online-booking platforms collapsing while traditional hotel operators have rallied.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ai-disruption-trade-drives-divide-in-travel-and-leisure-stocks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c9b5ace8a729197a14fdc395f8e68dd",
-      "timestamp": "2026-02-13T20:12:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland’s Sikorski on Ukraine Peace Talks, US Troops - Polish Foreign Minister Radoslaw Sikorski says Europe’s funding for Ukraine’s defense means it should get a seat at the table in US-brokered peace negotiations. He speaks to Bloomberg's Francine Lacqu",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/poland-s-sikorski-on-ukraine-peace-talks-us-troops-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "84aae86627bd45fd551127efde0e43ba",
-      "timestamp": "2026-02-13T20:00:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Detroit’s Ex-Mayor Bets That Michigan Voters Are Sick of Party Politics - <p>Mike Duggan was a Democratic star in his decade leading the Motor City. Now, he’s running for governor &mdash;&nbsp;as an independent.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-13/detroit-former-mayor-mike-duggan-leaves-democrats-and-runs-for-michigan-governor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "19da712a709038d4e44000c85f129d4c",
-      "timestamp": "2026-02-13T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB Adds to Push for Joint Oversight of Top Money Managers - European Central Bank staff added their support to a controversial call for more centralized supervision of the European Union’s largest asset managers as the bloc seeks to deepen its capital markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ecb-joins-push-for-joint-oversight-of-largest-eu-money-managers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "307250f9239de4370c41e648b29c5c60",
-      "timestamp": "2026-02-13T19:59:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Fears a Future Exposed by Putin’s War - While pouring billions into Ukraine’s defense, Europe has little influence on the US-led peace talks.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/europe-fears-a-future-exposed-by-putin-s-war-in-ukraine",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fad050d67ad7d7204b835f6f3db47d2b",
-      "timestamp": "2026-02-13T19:59:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Prabowo Defends Free Meals as Growth Driver Amid Fiscal Concerns - President Prabowo Subianto has doubled down on his signature free meals program, touting it as a vital engine for economic growth after Moody’s Ratings cut the country’s credit rating outlook over fis",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/prabowo-defends-free-meals-as-growth-driver-amid-fiscal-concerns",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "288ed19dea9af8c2e579602f48371855",
-      "timestamp": "2026-02-13T19:58:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "World Leaders Gather at Munich Security Conference",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-13/munich-security-conference-2026-rubio-merz-speak-live-updates",
       "sentiment": "NEUTRAL"
     }
   ]
