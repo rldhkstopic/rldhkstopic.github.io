@@ -1,6 +1,217 @@
 {
-  "last_updated": "2026-02-14T07:09:56.083955+09:00",
+  "last_updated": "2026-02-14T09:24:43.199961+09:00",
   "items": [
+    {
+      "id": "7a4ed7cb66a13c09c7a9e6712c38d1f2",
+      "timestamp": "2026-02-14T08:40:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Call Could Stop Russia in Ukraine, US NATO Envoy Says - China is providing crucial support for Russia’s aggression in Ukraine and could end the war with a phone call, US Ambassador to NATO Matthew Whitaker said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/china-call-could-stop-russia-in-ukraine-us-nato-envoy-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e998e6a78f637609a982c37054517d0d",
+      "timestamp": "2026-02-14T08:40:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "President Trump Will Strike Iran Again: Michael Allen - Michael Allen, Beacon Global Strategies Managing Director, states he does think President Trump will strike Iran and explains why the President will & what will make this strike different than the one",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/president-trump-will-strike-iran-again-michael-allen-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "40a8a29ac16679afdd5b490894908535",
+      "timestamp": "2026-02-14T08:24:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBS' Mish on Private Credit AI Disruption Risk - Matthew Mish, Head of Public and Private Credit Strategy at UBS, discusses the evolving impact of AI disruption on credit markets. He tells Katie Greifeld and Bailey Lipschultz on \"The Close\" that mar",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/ubs-mish-on-private-credit-ai-disruption-risk-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "912c1b076b209f1ba7114ecba136e65f",
+      "timestamp": "2026-02-14T08:21:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia-Leased Data Center Wraps Up In-Demand $3.8B Bond - A data center project expected to be leased by Nvidia Corp. sold $3.8 billion of junk bonds on Friday after receiving about $14 billion of orders from investors, an indication that lenders are eager t",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/nvidia-leased-data-center-wraps-up-in-demand-3-8b-bond-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "084f0b26d10f513b1f5710c3f586fad9",
+      "timestamp": "2026-02-14T08:10:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "White House Orders Homeland Security Shutdown as Funding Lapses - The White House ordered the Department of Homeland Security to begin shutdown procedures as its funding from Congress expires at midnight &mdash; the third time parts of the US government will have sh",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/white-house-orders-homeland-security-shutdown-as-funding-lapses",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b33571b23143420c320a9addbe3b7d1c",
+      "timestamp": "2026-02-14T08:10:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Expands Into Crypto And Payments Seeking More Fee Based Growth - SoFi Technologies (NasdaqGS: SOFI) has launched crypto trading on its platform, reentering the digital asset space. The company introduced SoFiUSD, a fully reserved stablecoin designed to be backed 1:",
+      "url": "https://finance.yahoo.com/news/sofi-expands-crypto-payments-seeking-231040834.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b37ec572379a452e0c96b50b883ac0f7",
+      "timestamp": "2026-02-14T08:10:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Peru’s Congress Schedules Vote on Motions to Oust President - Lawmakers in Peru will vote on a series of motions early next week that seek the ouster of interim President Jose Jeri, who has been in office for barely four months.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/peru-s-congress-schedules-vote-on-motions-to-oust-president",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3638e79269956f7acbe6c8c2eb95f24e",
+      "timestamp": "2026-02-14T08:09:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Farmgirl Flowers CEO: Valentine's Day is Mother's Day \"Warm-Up\" - Christina Stembel, Founder & CEO of Farmgirl Flowers joins Bloomberg Businessweek Daily to discuss her company's busy season, saying that Valentine's Day is actually a \"warm-up\" ahead of expected dema",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/farmgirl-flowers-ceo-on-valentine-s-day-demand-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9c5ca4f407e001f7461f2a68fb54bea9",
+      "timestamp": "2026-02-14T08:09:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "No Evidence of Massive Voter Fraud: Scully on Trump's Voter ID Threat - Bloomberg’s Megan Scully states there is no evidence of massive voter fraud when discussing President Trump threatening an executive order on Voter ID in time for the 2026 Midterm Elections. She menti",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/trump-threatens-executive-order-on-vote-id-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e337481616180309ea84cd85063b3ebd",
+      "timestamp": "2026-02-14T08:08:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Companies May 'Spend to Defend' AI Risk: Moody's Pinto - Marc Pinto, Moody’s Global Head of Private Credit, discusses rising investor anxiety amid a year-to-date decline in software stocks. He speaks with Katie Greifeld and Bailey Lipschultz on The Close. (",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/companies-may-spend-to-defend-ai-risk-moody-s-pinto-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7690042187d8ee3cef92bee598ceaff",
+      "timestamp": "2026-02-14T08:02:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New Podcast \"The Sixth Bureau\" Explores China Spycraft - Bloomberg News Technology Reporter Drake Bennett and Senior Cybersecurity Reporter Jordan Robertson join Bloomberg Businessweek Daily to discuss the launch of their limited podcast series, \"The Sixth ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/new-podcast-the-sixth-bureau-explores-china-spycraft-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d9d726d5d0607f87bc34e0dd9d4cce3d",
+      "timestamp": "2026-02-14T08:01:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "1-800-Flowers CEO on Retail Expansion Strategy - Adolfo Villagomez, CEO of 1-800-Flowers.com, discusses the company’s performance and outlook ahead of Valentine’s Day, its third-biggest holiday after Christmas and Mother’s Day, as the company marks ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/1-800-flowers-ceo-on-retail-expansion-strategy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "58c013b4dba7cd2fe3b606c82607aec9",
+      "timestamp": "2026-02-14T07:54:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Midas Auto Repair Brand Owner Mavis Tire Is Said to Weigh US IPO - Mavis Tire Express Services Corp., an auto repair and tire service provider that counts Midas and Tuffy among its brands, is considering a US initial public offering, according to people familiar with",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/midas-auto-repair-brand-owner-mavis-tire-is-said-to-weigh-us-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "77f2380b4023156268a74ab7bb1f0efc",
+      "timestamp": "2026-02-14T07:52:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mark Kelly Sees Trump Trying Anew to Punish Him After Court Flop - Senator Mark Kelly doesn’t expect President Donald Trump administration’s failure to convince a grand jury to indict him and other Democratic lawmakers for a video that told federal troops they can re",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/mark-kelly-sees-trump-trying-anew-to-punish-him-after-court-flop",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9c971e2bcc419da9578ada921e92005a",
+      "timestamp": "2026-02-14T07:51:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Briefly Names Alibaba, Baidu as Firms Aiding China’s Military - The Pentagon added Alibaba, BYD, Baidu and TP-Link Technologies Co. to a list of companies that aid the Chinese military – before withdrawing it minutes later without explanation. The moves on Friday ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/us-briefly-names-firms-aiding-china-s-military-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f989a34bfc7a4edeb5d7b908e3114d5b",
+      "timestamp": "2026-02-14T07:43:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "See Potential for 4% Inflation in 2026: PIIE's Posen - Adam Posen, President of the Peterson Institute for International Economics, joins Bloomberg Businessweek Daily to discuss the US geopolitical and economic outlook, including his recent call that he s",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/see-potential-for-4-inflation-in-2026-piie-s-posen-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "07518f8a3d761028228cbf3bf9e1397a",
+      "timestamp": "2026-02-14T07:43:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks Steady as Treasury Yields Slip After CPI | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Katie Greifeld, Bailey Lipschultz, Carol Massar and Tim Stenovec. (Source: Blo",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/stocks-steady-as-treasury-yields-slip-closing-bell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8541d4ecfcbd47800eab979c233ccde5",
+      "timestamp": "2026-02-14T07:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer Urges Europe to End Reliance on Trump’s America - After a year of refusing to choose between Washington and Brussels, Keir Starmer will shift tone in Munich by edging Britain closer to the European Union and calling for an end to over-reliance on Ame",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/starmer-urges-europe-to-end-reliance-on-trump-s-america",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c1a21b8f0a5261b6cd9c2a60dec6ef76",
+      "timestamp": "2026-02-14T07:26:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tamer Inflation Boosts Fed-Cut Bets | Bloomberg Businessweek Daily 2/13/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss a tamer-than-expected January CPI print and what it means for Fed cut bets with Bloomberg's Mike McKee. Then, ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-13/bloomberg-businessweek-daily-2-13-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "461eae387f82bf1f71f1e986843d75d2",
       "timestamp": "2026-02-14T07:03:06+09:00",
@@ -10,6 +221,17 @@
       "related_tickers": [],
       "content": "MAIA: Credit Spreads Widen Amid AI Concerns and Tech Bond Discounts - The segment discusses the recent modest widening of credit spreads, driven by both AI-related market fears and a surge in debt issuance. While the overall index shows little change, there is significa",
       "url": "https://www.bloomberg.com/news/videos/2026-02-13/ai-angst-issuance-wave-widen-credit-spreads-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b2f26b31e0cd035ee6696e96b2fc156",
+      "timestamp": "2026-02-14T07:02:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Humana Buys Clinic Operator MaxHealth From Arsenal Capital - Humana Inc. has acquired MaxHealth in a deal that will combine the Florida operator of health-care clinics with the insurer’s CenterWell Senior Primary Care division.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/humana-buys-clinic-operator-maxhealth-from-arsenal-capital",
       "sentiment": "NEUTRAL"
     },
     {
@@ -57,6 +279,28 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "cc7c4682789ef29155b6c52137553279",
+      "timestamp": "2026-02-14T06:33:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "High-Conviction Bets Turn Toxic in Week of Wall Street Reversals - Wall Street entered 2026 all-in &mdash; record-low cash, minimal hedging, maximum conviction. Six weeks later, a slew of consensus trades are misfiring.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/high-conviction-bets-turn-toxic-in-week-of-wall-street-reversals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cc7c4682789ef29155b6c52137553279",
+      "timestamp": "2026-02-14T06:33:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "High-Conviction Bets Turn Toxic in Week of Wall Street Reversals - Wall Street entered 2026 all-in &mdash; record-low cash, minimal hedging, maximum conviction. Six weeks later, a slew of consensus trades are misfiring.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/high-conviction-bets-turn-toxic-in-week-of-wall-street-reversals",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "1d63aee43ce63e6884fefeb21f434c21",
       "timestamp": "2026-02-14T06:31:57+09:00",
       "source_type": "NEWS",
@@ -65,6 +309,17 @@
       "related_tickers": [],
       "content": "Trump at Another Shutdown Standoff With Democrats - The future of DHS funding depends on finding a way to a deal.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/trump-at-another-shutdown-standoff-with-democrats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ab5cf0fb2098b59b31b8a4fd37a3fe9",
+      "timestamp": "2026-02-14T06:28:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ad Platform Moloco Said to Pick Goldman Sachs, JPMorgan for IPO - Advertising technology company Moloco has selected banks to arrange an initial public offering of the company, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ad-platform-moloco-said-to-pick-goldman-sachs-jpmorgan-for-ipo",
       "sentiment": "NEUTRAL"
     },
     {
@@ -89,6 +344,17 @@
       ],
       "content": "2 Brilliant Growth Stocks to Buy Now and Hold for the Long Term - SoFi and Adyen are still worth buying in this frothy market.",
       "url": "https://www.fool.com/investing/2026/02/13/2-brilliant-growth-stocks-to-buy-now-and-hold-for/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c02cee271575e125cd4a41f7509880f5",
+      "timestamp": "2026-02-14T06:09:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Don Lemon Pleads Not Guilty to Charges Over ICE Protest Coverage - Former CNN anchor Don Lemon pleaded not guilty to criminal charges stemming from his coverage of a protest against federal immigration enforcement activities in Minnesota, in a case that has escalated",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-13/don-lemon-pleads-not-guilty-to-charges-over-ice-protest-coverage",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1939,270 +2205,6 @@
       "related_tickers": [],
       "content": "NatWest CEO on Earnings, AI in Finance, UK Economy - Paul Thwaite, chief executive officer of NatWest Group Plc, discusses the lender’s fourth-quarter earnings which beat estimates with a 30% jump in pretax income. Speaking on Bloomberg Television, he a",
       "url": "https://www.bloomberg.com/news/videos/2026-02-13/natwest-ceo-on-earnings-ai-in-finance-uk-economy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a5f512a9aeaa295c647ad2ce668a869d",
-      "timestamp": "2026-02-13T16:46:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "More Dark Tankers Arrive at India Scrapyards as Trade Expands - Three US-sanctioned tankers have arrived for demolition on India’s west coast in under a month, an unusually strong start to the year for a ship-breaking trade that is increasing its acceptance of dar",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/more-dark-tankers-arrive-at-india-scrapyards-as-trade-expands",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a5f512a9aeaa295c647ad2ce668a869d",
-      "timestamp": "2026-02-13T16:46:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "More Dark Tankers Arrive at India Scrapyards as Trade Expands - Three US-sanctioned tankers have arrived for demolition on India’s west coast in under a month, an unusually strong start to the year for a ship-breaking trade that is increasing its acceptance of dar",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/more-dark-tankers-arrive-at-india-scrapyards-as-trade-expands",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "15753cf0cf69d7448de12c78975cac58",
-      "timestamp": "2026-02-13T16:46:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Fear Drives Rout & Goldman Lawyer Quits Over Epstein Ties | Daybreak Europe 02/13/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/daybreak-europe-2-13-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "156ebbd0c88e493421a4d1c13a9a40c2",
-      "timestamp": "2026-02-13T16:45:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kazakhstan Railway Operator Weighs $1 Billion IPO as Soon as May - Kazakhstan Temir Zholy, the Central Asian country’s sole railway operator, is considering an initial public offering as soon as May to raise about $1 billion as part of its broad expansion drive, acco",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/kazakhstan-railway-operator-weighs-1-billion-ipo-as-soon-as-may",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89cd155014150e80d3529c3abccdba0e",
-      "timestamp": "2026-02-13T16:35:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Swiss Inflation Stays Positive in Limited Relief for SNB - Swiss inflation stayed just above zero in January, offering limited respite to the Swiss National Bank from pressure to reintroduce negative interest rates.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/swiss-inflation-rate-drops-below-zero-in-new-setback-for-snb",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1944510202111628f8f1e991b14e4978",
-      "timestamp": "2026-02-13T16:33:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "African Startups Double Debt Funding as Equity Investment Drops - African startups almost doubled their debt fundraising in 2025, even as equity financing from venture capital firms declined.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/african-startups-double-debt-funding-as-equity-investors-demur",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fa73e68a07b0da2f0423d916f1d51508",
-      "timestamp": "2026-02-13T16:21:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Trade Team Working to Narrow Scope of Metals Tariffs - The Trump administration is working to narrow its broad tariffs on steel and aluminum products that companies find difficult to calculate and the European Union wants reined in as part of its pending ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/trump-trade-team-working-to-scale-back-scope-of-metals-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fa73e68a07b0da2f0423d916f1d51508",
-      "timestamp": "2026-02-13T16:21:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Trade Team Working to Narrow Scope of Metals Tariffs - The Trump administration is working to narrow its broad tariffs on steel and aluminum products that companies find difficult to calculate and the European Union wants reined in as part of its pending ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/trump-trade-team-working-to-scale-back-scope-of-metals-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "266e5212a76a6806983b9166ab483ef3",
-      "timestamp": "2026-02-13T16:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB Has Yet to See Full Impact of Euro Appreciation, Kazaks Says - The European Central Bank is still waiting to see how severely the economy will be affected by the ascent of the euro that started in 2025, according to Governing Council member Martins Kazaks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ecb-has-yet-to-see-full-impact-of-euro-appreciation-kazaks-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "266e5212a76a6806983b9166ab483ef3",
-      "timestamp": "2026-02-13T16:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB Has Yet to See Full Impact of Euro Appreciation, Kazaks Says - The European Central Bank is still waiting to see how severely the economy will be affected by the ascent of the euro that started in 2025, according to Governing Council member Martins Kazaks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ecb-has-yet-to-see-full-impact-of-euro-appreciation-kazaks-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e7017a3ce61b03496be3a23039792dd",
-      "timestamp": "2026-02-13T16:14:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Stocks Can't Wait for Holiday Break, Except Zhipu | The China Show 2/13/2026 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and David Ingles give global ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/the-china-show-2-13-2025-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a24f5f906b52fe516dd9a7f0270aba80",
-      "timestamp": "2026-02-13T16:13:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "InsuranceDekho Owner Is Said to Plan $250 Million India IPO - Girnar Insurance Brokers Pvt., which operates insurance tech startup InsuranceDekho, is weighing an initial public offering in Mumbai that could raise as much as $250 million, according to people fami",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/insurancedekho-owner-is-said-to-plan-250-million-india-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a24f5f906b52fe516dd9a7f0270aba80",
-      "timestamp": "2026-02-13T16:13:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "InsuranceDekho Owner Is Said to Plan $250 Million India IPO - Girnar Insurance Brokers Pvt., which operates insurance tech startup InsuranceDekho, is weighing an initial public offering in Mumbai that could raise as much as $250 million, according to people fami",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/insurancedekho-owner-is-said-to-plan-250-million-india-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6a8d2d1329154da397c066f5a4f7bc8f",
-      "timestamp": "2026-02-13T15:54:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How AI Is Proving to Be a Double-Edged Sword for Equities | Insight with Haslinda Amin 02/13/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/insight-with-haslinda-amin-2-13-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1c82ef32492887bd486a6e076e47d1ca",
-      "timestamp": "2026-02-13T15:52:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "HKEX Weighs Expanding Private IPO Filings to Boost Listings - Hong Kong is considering a plan to allow a broader range of companies to file for initial public offerings confidentially, according to people familiar with the matter, as the city seeks to cement its",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/hkex-mulls-expanding-confidential-ipo-filings-to-boost-listings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d6381204139f22f915853f1d1f206e5f",
-      "timestamp": "2026-02-13T15:51:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Weighs How to Develop Its Own Nuclear Deterrent - Nuclear deterrence is set to be a hot topic at the Munich Security Conference, which starts on Friday. Europe depends on the US for its so-called nuclear umbrella, comprised of American weapons based ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/europe-weighs-how-to-develop-its-own-nuclear-deterrent-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "07e46e804ffa111aea7ed9b17c87486a",
-      "timestamp": "2026-02-13T15:49:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTSE 100 Rebounds to Defy AI Fears Rattling Markets",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-13/ftse-100-live-pound-gilts-gold-prices-usd-natwest-what-s-moving-uk-markets-right-now-markets-today-mlkj1qwa",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a53400d376a55332c74aca529fad41ed",
-      "timestamp": "2026-02-13T15:38:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘Capitulation Camouflaged as Peace’: Warning on Ukraine - Tension looms over the Munich Security Conference as Russia’s war on Ukraine nears its fourth anniversary. Celebrated Ukrainian author Andrey Kurkov tells Mishal Husain of his hopes for peace. (Source",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/-capitulation-camouflaged-as-peace-warning-on-ukraine-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4602670bd9fc2954d320f1c4478da490",
-      "timestamp": "2026-02-13T15:32:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Taiwan Weighs Capital Charges on Insurer Sovereign Bond Holdings - Taiwan’s financial regulator is considering requiring life insurers to hold additional capital against certain lower-rated government bond holdings as authorities move to tighten risk controls over th",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/taiwan-weighs-capital-charges-on-insurer-sovereign-bond-holdings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30d7da90a6ebfe4e350c51a664c357d8",
-      "timestamp": "2026-02-13T15:22:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Greenlights 40 Billion Upgrade to Its Air Defense - India has approved one of its largest military aviation upgrades, clearing 40 billion dollars in purchases that include US-made P-8 maritime surveillance aircraft and 114 French Rafale fighter jets. T",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/india-greenlights-40-billion-dollars-upgrade-to-its-air-defense",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "188c5b85cbe9dae28fc861a2022316e7",
-      "timestamp": "2026-02-13T15:18:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Norway Wealth Fund Fires Manager in Turkey After Trading Fines - Norges Bank Investment Management, Norway’s $2.1 trillion sovereign wealth fund, cut ties with a finance firm in Turkey after regulators fined one of its top managers for improper trading.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/norway-wealth-fund-fires-manager-in-turkey-after-trading-fines",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c2dcc1c26b2ced99609e9a0bbd88b87",
-      "timestamp": "2026-02-13T15:15:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Capgemini Says AI Pivot, Sovereignty Push Will Drive Growth - Capgemini Chief Executive Officer Aiman Ezzat said the French IT company is “clearly pivoting” to facilitate artificial intelligence adoption, which will fuel sales this year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/capgemini-says-ai-pivot-sovereignty-push-will-drive-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c2dcc1c26b2ced99609e9a0bbd88b87",
-      "timestamp": "2026-02-13T15:15:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Capgemini Says AI Pivot, Sovereignty Push Will Drive Growth - Capgemini Chief Executive Officer Aiman Ezzat said the French IT company is “clearly pivoting” to facilitate artificial intelligence adoption, which will fuel sales this year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/capgemini-says-ai-pivot-sovereignty-push-will-drive-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5936c1cf27ff6a7f1bbec2a588f8a3bf",
-      "timestamp": "2026-02-13T15:12:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BOJ Hawk Tamura Flags Spring as Possible Timing for Rate Hike - One of the Bank of Japan’s most hawkish members indicated that conditions for the central bank’s next interest rate hike could be in place by spring, a comment that is likely to fuel further speculati",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/boj-hawk-tamura-flags-spring-as-possible-timing-for-rate-hike",
       "sentiment": "NEUTRAL"
     }
   ]
