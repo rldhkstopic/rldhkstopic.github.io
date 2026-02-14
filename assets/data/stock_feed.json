@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-02-14T21:08:21.071255+09:00",
+  "last_updated": "2026-02-14T23:08:58.569225+09:00",
   "items": [
+    {
+      "id": "12e05c5d27a246f7ef6b8d998cda7e95",
+      "timestamp": "2026-02-14T22:47:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Says Russia Poisoned Navalny in Prison With Dart Frog Toxin - Russian opposition leader Alexey Navalny was poisoned with a deadly toxin found in the skin of Ecuador dart frogs, the UK’s foreign office said on Saturday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/uk-says-russia-poisoned-navalny-in-prison-with-dart-frog-toxin",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a1bede8d72758471e30950d7e4100653",
+      "timestamp": "2026-02-14T22:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iranian Internet Goes Dark as US Agencies Clash Over VPN Funding - US agencies are struggling to find the best method to fund additional software for millions of Iranian civilians to get around their government’s strict internet censors, amid a surge in demand over w",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/iranian-internet-goes-dark-as-us-agencies-clash-over-vpn-funding",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d268e40fb5e4c112f0b25ae72fb9bea3",
+      "timestamp": "2026-02-14T22:03:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why The Ultra Rich Are Moving to Milan - Milan’s hosting of the Winter Olympics comes as the city is emerging as a new hub for global wealth. Originally driven by Italy’s favorable flat-tax regime, the city is now benefiting from stability, ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/why-the-ultra-rich-are-moving-to-milan-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0692fd4514955063a22feaa0baa9aa4",
+      "timestamp": "2026-02-14T21:53:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kenya Cuts Gasoline Pump Prices by 2.3% From Feb. 15 - Kenya’s price for super petrol will be reduced by four shillings and 24 cents per liter to 178.26 shillings in the capital, Nairobi, the Energy and Petroleum Regulatory Authority said in a statement o",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/kenya-cuts-gasoline-pump-prices-by-2-3-from-feb-15",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3496241c351e45a5a1cd82f16625df39",
+      "timestamp": "2026-02-14T21:40:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rubio Says It's Important That Cubans Have 'More Freedom' - Secretary of State Marco Rubio declined to say whether the US is prepared to push for regime change in Cuba. \"I'm not going to tell you or announce this in an interview here, because obviously these t",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/rubio-it-s-important-that-cubans-have-more-freedom-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ad14f62d10f0de42ac20bb4873a4061f",
+      "timestamp": "2026-02-14T21:15:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rubio Says Cuba’s Only Path Forward Is to Open Its Economy - Secretary of State Marco Rubio said Cuba’s Communist regime will need to give its people political and economic freedom for the US to ease pressure that’s recently led to blackouts and disrupted daily",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-14/rubio-says-cuba-s-only-path-forward-is-to-open-its-economy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8134505741379e825aeb7b8beecfcb44",
+      "timestamp": "2026-02-14T21:07:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Germany to Decide on FCAS in 'Weeks to Come,' Pistorius Says - Defense Minister Boris Pistorius says Germany will decide on the future of the Fighter Combat Air System (FCAS) project \"in the weeks to come\" but that it would not be the \"end of the French relations",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-14/germany-to-decide-on-fcas-in-weeks-to-come-pistorius-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c398f4e7f6a54592d7f5acc8e16083cb",
       "timestamp": "2026-02-14T20:36:15+09:00",
@@ -2128,83 +2205,6 @@
       "related_tickers": [],
       "content": "Veja os Três Assuntos que Marcaram a Semana no Brasil - A repórter Patricia Xavier traz os assuntos que foram destaque da semana. Com produção de Barbara Nascimento.  (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-13/veja-os-tres-assuntos-que-marcaram-a-semana-no-brasil-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83eb4d83ec7c3ebbb171a2681e871bf9",
-      "timestamp": "2026-02-13T19:00:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Much of Cuba Goes Dark as Trump Chokes Oil Supply - A Bloomberg News analysis of satellite imagery finds the level of light at night has dropped as much as 50% across Cuba amid Trump's oil blockade",
-      "url": "https://www.bloomberg.com/graphics/2026-cuba-oil-supply-power-grid-blackout/",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e69dc66ff26dff971d440ab67018eeef",
-      "timestamp": "2026-02-13T19:00:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Epstein Paid Reputation Firms to Suppress Child Sex Offenses Online - Jeffrey Epstein tapped online reputation management firms to bury negative coverage of his 2008 sex offense conviction and flood the internet with favorable content in a years-long effort to rehabilit",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/epstein-paid-reputation-firms-to-suppress-child-sex-offenses-online",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "73599f4d334c2148c42e1bac1223de0e",
-      "timestamp": "2026-02-13T18:54:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Next Tech Dawn: Quantum Computing & Real-World Applications - December 9, 2024 marked a turning point for quantum computing, when Google unveiled its Willow chip - triggering a surge in investor interest and sending publicly traded quantum stocks soaring. More t",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/quantum-computing-real-world-applications-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "616e00a6c0b0ca4443365cc17ef64f33",
-      "timestamp": "2026-02-13T18:52:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lufthansa Poised for DAX Index Return Following Six-Year Absence - Deutsche Lufthansa AG is on the cusp of returning to Germany’s top stock benchmark, almost six years on from losing its spot due to a stock plunge spurred by the outbreak of Covid-19.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/lufthansa-poised-for-dax-index-return-following-six-year-absence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b35fc8a428b8a64ade6f53ba3260aa9a",
-      "timestamp": "2026-02-13T18:51:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Quantum Computing and AI Boom: Inside the High-Stakes Tech Race | Bloomberg Tech: Europe 2/13/2026 - In this episode of \"Bloomberg Tech: Europe,\" Tom Mackenzie explores the race to unlock quantum computing &mdash; a technology promising exponential leaps in processing power. As venture capital floods",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/quantum-computing-race-bloomberg-tech-europe-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "642abdea81c6988a20b0d271029d2a8d",
-      "timestamp": "2026-02-13T18:45:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Austria Will Ease Exports of Some Defense Goods to Catch Spending Wave - Austria’s government is looking to loosen decades-old limits on the export of weapons and dual-use goods to help manufacturers profit from a European defense boom.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/austria-will-ease-exports-of-some-defense-goods-to-catch-spending-wave",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ce934f6d4a1fb169fd55f230e5c7b77a",
-      "timestamp": "2026-02-13T18:42:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Steps Up Push for Israel President to Pardon Netanyahu - US President Donald Trump stepped up his push for Israel’s president to pardon Prime Minister Benjamin Netanyahu, who’s facing charges of bribery, fraud and breach of trust.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/trump-steps-up-push-for-israel-president-to-pardon-netanyahu",
       "sentiment": "NEUTRAL"
     }
   ]
