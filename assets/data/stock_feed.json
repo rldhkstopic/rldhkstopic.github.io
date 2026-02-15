@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-02-16T01:07:10.278786+09:00",
+  "last_updated": "2026-02-16T03:08:17.118443+09:00",
   "items": [
+    {
+      "id": "743d2f09c082f2e0c3baa0b7c1cf0dd6",
+      "timestamp": "2026-02-16T02:45:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Sanctions Chief Poised to Leave After Tension With Bessent - John Hurley, the Trump administration’s top sanctions official, is set to leave his post after friction with Treasury Secretary Scott Bessent, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/trump-sanctions-chief-poised-to-leave-after-tension-with-bessent",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bf383240b9126dab4b534dbb23d8b66c",
+      "timestamp": "2026-02-16T01:39:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Board of Peace Members Pledged More Than $5 Billion - President Donald Trump said founding member countries of his Board of Peace have pledged more than $5 billion toward humanitarian efforts and reconstruction in Gaza.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/trump-says-board-of-peace-members-pledged-more-than-5-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "da51a6bdc4d88f17319e12922b6b3437",
+      "timestamp": "2026-02-16T01:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gasoline-Starved California Is Turning to Fuel From the Bahamas - US supplies of gasoline are being shipped out of the country to travel thousands of miles via the Bahamas before finally ending up in California, a state battling shrinking fuelmaking capacity and hig",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/gasoline-starved-california-is-turning-to-fuel-from-the-bahamas",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "eb880f95f028e80a425dbb04da467659",
       "timestamp": "2026-02-16T00:53:29+09:00",
@@ -2176,39 +2209,6 @@
       "related_tickers": [],
       "content": "Colombian Court Suspends Petro’s 23% Minimum Wage Hike - A Colombian high court suspended the record 23% minimum wage increase which spooked the central bank and caused inflation expectations to soar.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/court-suspends-colombia-s-23-minimum-wage-increase-decree",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a120a5d752a358170997131ccf146943",
-      "timestamp": "2026-02-13T22:42:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders Price 50% Odds of Third Fed Rate Cut as Inflation Ebbs - US Treasuries jumped and investors priced in higher expectations that the Federal Reserve will lower interest rates three times in 2026 after a reading of US inflation came in below forecasts.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/traders-boost-bets-to-50-for-fed-to-cut-three-times-this-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "218a00d0ec192029f188e9777235a956",
-      "timestamp": "2026-02-13T22:38:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Adds Alibaba, BYD to List of Firms Aiding China’s Military - The Pentagon added Alibaba Group Holding Ltd., Baidu Inc. and BYD Co. to a list of companies that aid the Chinese military, a move that amounts to a US government warning for investors even though it ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/us-to-put-alibaba-on-list-for-aiding-china-s-military-reuters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "218a00d0ec192029f188e9777235a956",
-      "timestamp": "2026-02-13T22:38:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Adds Alibaba, BYD to List of Firms Aiding China’s Military - The Pentagon added Alibaba Group Holding Ltd., Baidu Inc. and BYD Co. to a list of companies that aid the Chinese military, a move that amounts to a US government warning for investors even though it ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/us-to-put-alibaba-on-list-for-aiding-china-s-military-reuters",
       "sentiment": "NEUTRAL"
     }
   ]
