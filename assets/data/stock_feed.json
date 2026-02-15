@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-02-15T23:09:50.138507+09:00",
+  "last_updated": "2026-02-16T01:07:10.278786+09:00",
   "items": [
+    {
+      "id": "eb880f95f028e80a425dbb04da467659",
+      "timestamp": "2026-02-16T00:53:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Magyar Sees Hungary on Cusp of Pro-EU Turn as Election Nears - Hungarian opposition leader Peter Magyar kicked off the final stretch of campaigning for April’s election on Sunday, asserting that he’s on the cusp of ending Prime Minister Viktor Orban’s rule after ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/magyar-sees-hungary-on-cusp-of-pro-eu-turn-as-election-nears",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0fd5821d41bc0f400cadc1fedb235015",
+      "timestamp": "2026-02-16T00:39:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Forces Board Second Sanctioned Oil Tanker in Indian Ocean - The US military boarded an oil tanker in the Indian Ocean after tracking the vessel for thousands of miles, saying it tried to circumvent President Donald Trump’s energy blockade in the Caribbean agai",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/us-forces-board-second-sanctioned-oil-tanker-in-indian-ocean",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a82d1d8e06d9f1b5b84707ef20330207",
+      "timestamp": "2026-02-16T00:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "El Paso Shutdown Puts Focus on Army’s Struggle to Counter Drones - The US military has spent years working to defeat increasingly numerous and capable drones with directed-energy systems that cost less and offer more rounds than traditional missiles. One of those sys",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/el-paso-shutdown-puts-focus-on-army-s-struggle-to-counter-drones",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "71e5ddacfef67af40fb207ee5899fcc0",
+      "timestamp": "2026-02-16T00:03:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why WALL-E is 'The Good Scenario' from AI Disruption - AI is already reshaping the value of human expertise, but its effects on workers aren’t predetermined. MIT professor David Autor says the key question isn’t what jobs can be automated, but which tasks",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-15/why-wall-e-is-the-good-scenario-from-ai-disruption-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a1d9bf2110b4e6a98dc6ed452da6d81",
+      "timestamp": "2026-02-16T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Options Exchanges Want to Scrap Fee Model That Makes ‘No Sense’ - US equity options exchanges are seeking to change the way that regulatory fees are charged, moving away from a decades-old practice that allows them to pick up fees for business transacted on rival bo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/options-exchanges-want-to-scrap-fee-model-that-makes-no-sense",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca01df6684bb89206c8a7eb88fc4fab6",
+      "timestamp": "2026-02-16T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mexico’s Cuba Obsession Puts Its President in a Bind With Trump - Claudia Sheinbaum’s decision to halt oil shipments to Cuba is testing her standing within Mexico’s ruling party just over a year into her presidency, even as it staves off confrontation with Donald Tr",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/mexico-s-cuba-obsession-puts-its-president-in-a-bind-with-trump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "067a4879b35016ae4b75bf1816f8a9fc",
+      "timestamp": "2026-02-15T23:37:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Israel Plans Airports for its Shaken Frontiers in Post-War Boom - Israel’s cabinet approved the construction of a new international airport on the Gaza periphery and said another is in the works for the north, near the Lebanese border.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/israel-plans-airports-for-its-shaken-frontiers-in-post-war-boom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c57f108a107c9f0592143211ce81b8ee",
+      "timestamp": "2026-02-15T23:05:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DOJ Tells Lawmakers Epstein File Redactions Complied With Law - The Justice Department sent a letter to US lawmakers summarizing redactions in the so-called Epstein Files, as political pressure swirls around decisions to withhold some information.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/doj-tells-lawmakers-epstein-file-redactions-complied-with-law",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "df5fddac78e3a77f68c2919790840b9f",
       "timestamp": "2026-02-15T23:00:40+09:00",
@@ -10,6 +98,17 @@
       "related_tickers": [],
       "content": "Carney Plots ‘Buy Canada’ Defense Strategy to Unlock Billions in Investment - Canada will spend more of its growing military budget with domestic firms under a defense-industrial strategy that’s meant to unleash more than C$500 billion ($369 billion) in investment over a decade",
       "url": "https://www.bloomberg.com/news/articles/2026-02-15/carney-plots-buy-canada-defense-strategy-to-unlock-billions-in-investment",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a0f3250b9a1cda2905e66da1e9f83ab",
+      "timestamp": "2026-02-15T23:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Stock Market Doom Loop Is Hitting Everything That Touches AI - The stock market turmoil unleashed by the artificial-intelligence industry reflects two fears that are increasingly at odds.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/a-stock-market-doom-loop-is-hitting-everything-that-touches-ai",
       "sentiment": "NEUTRAL"
     },
     {
@@ -78,6 +177,17 @@
       "related_tickers": [],
       "content": "With Gaza in Limbo, Israel Asserts Ownership Rights in West Bank - With Gaza stuck in post-war limbo, Israel is pursuing West Bank administrative measures meant to assert ownership over land and further sideline Palestinian authorities.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-15/with-gaza-in-limbo-israel-asserts-ownership-rights-in-west-bank",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f4bc244eefb208c862115b9ef2bd94f2",
+      "timestamp": "2026-02-15T21:41:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lebanon Confident It Can Bridge Gaps With IMF on Recovery Plan - Lebanon’s premier said his government can overcome differences with the International Monetary Fund over a proposed law that would let depositors recover billions of dollars trapped in the country’s b",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/lebanon-confident-it-can-bridge-gaps-with-imf-on-recovery-plan",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2099,116 +2209,6 @@
       "related_tickers": [],
       "content": "US Adds Alibaba, BYD to List of Firms Aiding China’s Military - The Pentagon added Alibaba Group Holding Ltd., Baidu Inc. and BYD Co. to a list of companies that aid the Chinese military, a move that amounts to a US government warning for investors even though it ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/us-to-put-alibaba-on-list-for-aiding-china-s-military-reuters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3c7ca16475bb4b360ca5f58517c708d3",
-      "timestamp": "2026-02-13T22:31:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Congo Strikes Ceasefire With Rwanda-Backed M23 in Breakthrough - Democratic Republic of Congo President Felix Tshisekedi agreed in principle to a ceasefire with Rwanda-backed M23 rebels who control large swaths of the country’s east.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/congo-strikes-ceasefire-with-rwanda-backed-m23-in-breakthrough",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "62baf82c4d0ac19fcb7bba9e077d688e",
-      "timestamp": "2026-02-13T22:25:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan’s Berro Sees Fixed Income Traders as Focused, Not Relaxed - Kelsey Berro, fixed income portfolio manager at JPMorgan Asset Management, discusses the relative calm in fixed income as opposed to the AI-related selloff in stocks. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/fixed-income-traders-are-focused-not-relaxed-berro-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e3f71c01edb582bcc342c516f8bcbfa",
-      "timestamp": "2026-02-13T22:16:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Merz Cites Nuclear Talks in Call to Reorder Trump-Era Relations - German Chancellor Friedrich Merz said he’s in talks with France over potential European nuclear defense as he made a call to reorder the transatlantic relationship amid the turmoil of Donald Trump’s s",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/merz-says-transatlantic-alliance-must-evolve-to-respond-to-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e3eadb1454ddbe004d15be6d7effd6c",
-      "timestamp": "2026-02-13T22:16:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Merz Says He’s Held Talks With Macron on Nuclear Deterrence - Chancellor Friedrich Merz said he’s in discussions with French President Emmanuel Macron about the future of Europe’s nuclear weapons.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/merz-says-he-s-held-talks-with-macron-on-nuclear-deterrence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30e22dd8952143a0b8efa49933fbde53",
-      "timestamp": "2026-02-13T22:14:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fuel Blockade Taking ‘Increasingly Severe’ Toll on Cuba, UN Says - The US campaign to starve Cuba of fuel is having “an increasingly severe impact” on the island, affecting hospitals, public sanitation, water delivery and food distribution, the United Nations warned.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/fuel-blockade-taking-increasingly-severe-toll-on-cuba-un-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30e22dd8952143a0b8efa49933fbde53",
-      "timestamp": "2026-02-13T22:14:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fuel Blockade Taking ‘Increasingly Severe’ Toll on Cuba, UN Says - The US campaign to starve Cuba of fuel is having “an increasingly severe impact” on the island, affecting hospitals, public sanitation, water delivery and food distribution, the United Nations warned.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/fuel-blockade-taking-increasingly-severe-toll-on-cuba-un-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "af84160ec4b3479f1bbf2d97353f5588",
-      "timestamp": "2026-02-13T22:05:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rotation Trade About Investors Being Long the Wrong Stuff, Says HSBC’s Kettner - Max Kettner, chief multi-asset strategist at HSBC, examines the rotation trade and signals from the current market selloff. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/rotation-about-people-being-long-the-wrong-stuff-hsbc-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "badeac67e372aeabff759d7e90603f44",
-      "timestamp": "2026-02-13T22:02:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Can Quantum Computing Power the AI Boom? - Quantum computing is being hailed at the next frontier in high-performance processing. But can the technology live up to the hype? Tom Mackenzie breaks down the global race for quantum supremacy, and ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/can-quantum-computing-power-the-ai-boom-video-mlkwd6w2",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "72c24014fa1188400a3a492c188c3771",
-      "timestamp": "2026-02-13T22:00:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Superpowers, Secrets and the Chinese Spy Who Got Caught - Superpowers, secrets and the Chinese spy who got caught. Listen to The Sixth Bureau on the iHeartRadio App, Apple Podcasts, or wherever you get your podcasts. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/superpowers-secrets-and-the-chinese-spy-who-got-caught",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed0b74480179020854a105c4f11cfca5",
-      "timestamp": "2026-02-13T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Spent $133,333 for Each Deportation to Third Party Countries - The Trump administration spent more than $40 million to deport roughly 300 migrants to countries they had no connection to, doling out millions of dollars in lump-sum transfers to foreign governments ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/us-spent-133-333-for-each-deportation-to-third-party-countries",
       "sentiment": "NEUTRAL"
     }
   ]
