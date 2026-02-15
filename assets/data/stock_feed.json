@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-02-15T07:05:08.540947+09:00",
+  "last_updated": "2026-02-15T09:25:46.112598+09:00",
   "items": [
+    {
+      "id": "d1c46e11b290943ddee8bba9b80f4b54",
+      "timestamp": "2026-02-15T09:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Stock Bull Run Falters With Earnings Set to Underwhelm - A worsening earnings picture is darkening the outlook for Chinese equities, leaving investors wary that Lunar New Year holiday spending may not be enough to reignite a rally.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/china-s-stock-bull-run-falters-with-earnings-set-to-underwhelm",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f5c08042e3598f8009ebc2ca1276f700",
       "timestamp": "2026-02-15T06:00:00+09:00",
@@ -2194,17 +2205,6 @@
       "related_tickers": [],
       "content": "DP World Names New Chiefs Amid Fallout Over Epstein Files - DP World Ltd. named a new chief executive officer and chairman. Both positions were held by Sultan Ahmed Bin Sulayem, whose alleged ties to disgraced financier Jeffrey Epstein resulted in two companie",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/dp-world-names-yuvraj-narayan-as-ceo-essa-kazim-as-chairman",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a9645fa06cf43dd512a0f8dce968754",
-      "timestamp": "2026-02-13T20:40:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Rethinks Nuclear Weapons After US Reality Check - Europe is considering its own nuclear deterrent, as trust in the US falters and fears of Russia grow.\n\nBut a viable alternative to America's \"nuclear umbrella\" is far from obvious, as Alex Morgan expl",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/europe-rethinks-nuclear-weapons-after-us-reality-check-video-mlktgutz",
       "sentiment": "NEUTRAL"
     }
   ]
