@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-15T17:08:15.481384+09:00",
+  "last_updated": "2026-02-15T19:06:43.891914+09:00",
   "items": [
+    {
+      "id": "a569a612fb190b30deb19ca559143721",
+      "timestamp": "2026-02-15T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rich World’s Growing Civil Unrest Comes With an Insurance Sting - A category of insurance risk that hardly existed a little over a decade ago has morphed into a meaningful source of losses for the industry.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/rich-world-s-growing-civil-unrest-comes-with-an-insurance-sting",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "797f5cd2cfb011766594e027586f8ade",
+      "timestamp": "2026-02-15T17:52:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pirelli Holder Sinochem Mulls Bond to Cut Direct Stake: Corriere - Pirelli &amp; C. SpA’s Chinese investor is weighing the sale of a convertible bond that would temporarily reduce its holding to ease US government scrutiny of the Italian tiremaker, Corriere della Ser",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/pirelli-holder-sinochem-mulls-bond-to-cut-direct-stake-corriere",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9c9bf02f8b7e1eccf76bb3e5892f3bc1",
       "timestamp": "2026-02-15T15:56:35+09:00",
@@ -2185,28 +2207,6 @@
       "related_tickers": [],
       "content": "Nvidia’s Upstart Rivals See Cracks in AI Chip Market Leader’s Dominance - Recent moves hint at competition in a new slice of the market",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/ai-chip-startups-hope-to-compete-with-nvidia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e7e337c32945b97747c7ba66ac29ea82",
-      "timestamp": "2026-02-13T21:01:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Kingpins Adopt Crypto’s Playbook in Bid to Get Allies Elected to Congress - <p>As voters grow concerned over AI's impact, a new industry-backed super PAC is helping candidates who favor a lighter regulatory touch.&nbsp;</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-13/ai-kingpins-adopt-crypto-s-playbook-in-bid-to-get-allies-elected-to-congress",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e7e337c32945b97747c7ba66ac29ea82",
-      "timestamp": "2026-02-13T21:01:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Kingpins Adopt Crypto’s Playbook in Bid to Get Allies Elected to Congress - <p>As voters grow concerned over AI's impact, a new industry-backed super PAC is helping candidates who favor a lighter regulatory touch.&nbsp;</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-13/ai-kingpins-adopt-crypto-s-playbook-in-bid-to-get-allies-elected-to-congress",
       "sentiment": "NEUTRAL"
     }
   ]
