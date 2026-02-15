@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-16T03:08:17.118443+09:00",
+  "last_updated": "2026-02-16T05:05:57.728801+09:00",
   "items": [
+    {
+      "id": "097e16476103bd037e13d128ba5ab460",
+      "timestamp": "2026-02-16T05:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bond Traders Look to Jobs Data, Stocks for Gut Check on Rally - US bond traders will be watching the trajectory of stocks this week and economic releases such as private payrolls data to see whether the rally in Treasuries has legs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/bond-traders-look-to-jobs-data-stocks-for-gut-check-on-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ef88670a319d09ca39d7097d9db26fb",
+      "timestamp": "2026-02-16T04:36:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warner Bros. Weighs Reopening Sale Negotiations With Paramount - Warner Bros Discovery Inc. is considering reopening sale talks with rival Hollywood studio Paramount Skydance Corp. after receiving its hostile suitor’s most recent amended offer, people with knowledg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/warner-bros-weighs-reopening-sale-negotiations-with-paramount",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a041a370b218e05b68c8b3a9ca897eab",
+      "timestamp": "2026-02-16T04:16:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netanyahu Says Iran Deal Has to Strip Away Nuclear Capabilities - Israeli Prime Minister Benjamin Netanyahu said he proposed terms for any deescalation deal with Iran during a meeting with US President Donald Trump last week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/netanyahu-says-iran-deal-has-to-strip-away-nuclear-capabilities",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "48ea9d2fda2c4c496bc4c6aea8f95c6b",
+      "timestamp": "2026-02-16T03:18:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hungary Seeks Russian Crude Shipments Via Croatia, Minister Says - Hungary requested that Croatia allow the shipment of Russian crude via the Adriatic pipeline while a key route through Ukraine remains blocked.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/hungary-seeks-russian-crude-shipments-via-croatia-minister-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "743d2f09c082f2e0c3baa0b7c1cf0dd6",
       "timestamp": "2026-02-16T02:45:16+09:00",
@@ -2165,50 +2209,6 @@
       "related_tickers": [],
       "content": "Shield AI in Talks to Raise $1 Billion at $12 Billion Valuation - Defense startup Shield AI is in talks to raise as much as $1 billion in a deal that would more than double its valuation in less than a year, according to people familiar with the efforts.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/shield-ai-in-talks-to-raise-1-billion-at-12-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "207945da9dda0ac0353725ba435a167a",
-      "timestamp": "2026-02-13T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada’s Top Bank Regulator Says Capital Is in ‘Goldilocks Zone’ - Peter Routledge, who leads Canada’s bank regulator, fired back against criticisms that the country’s biggest lenders face onerous capital burdens, arguing that current regulations are instead in a “Go",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/canada-s-top-bank-regulator-says-capital-is-in-goldilocks-zone",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89f3ff4f3c0f94ef1f464515282bc660",
-      "timestamp": "2026-02-13T22:54:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jerry Rice Says Data Could Have Let Him Set More Records - NFL Hall of Famer and three-time Super Bowl Champion Jerry Rice joined Netapp Chief Marketing Officer Gabie Boko to talk to Bloomberg's Randall Williams about how data is helping to enhance football b",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/jerry-rice-on-how-data-is-helping-football-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1f2e060465f57de80ddba94966f2e01f",
-      "timestamp": "2026-02-13T22:53:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Core CPI Rises in January on Firmer Services Costs - Underlying US inflation accelerated in January by the most since August as the core consumer price index increased 0.3% from December, boosted by a pickup in services costs. Compared with January of l",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/us-core-cpi-rises-in-january-on-firmer-services-costs-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e932558f76a957a5d5190a770b9ed75",
-      "timestamp": "2026-02-13T22:43:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Colombian Court Suspends Petro’s 23% Minimum Wage Hike - A Colombian high court suspended the record 23% minimum wage increase which spooked the central bank and caused inflation expectations to soar.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/court-suspends-colombia-s-23-minimum-wage-increase-decree",
       "sentiment": "NEUTRAL"
     }
   ]
