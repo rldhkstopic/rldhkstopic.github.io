@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-02-15T09:25:46.112598+09:00",
+  "last_updated": "2026-02-15T12:04:40.108044+09:00",
   "items": [
+    {
+      "id": "54fc33554f0a6a5629b5b3df51700e13",
+      "timestamp": "2026-02-15T10:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes - India’s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clients, the latest measure aimed at reducing speculati",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d1c46e11b290943ddee8bba9b80f4b54",
       "timestamp": "2026-02-15T09:00:00+09:00",
@@ -2194,17 +2205,6 @@
       "related_tickers": [],
       "content": "Apollo in Talks to Offer Funds to Revolut Customers in Europe - Apollo Global Management Inc. is in early talks to partner with Revolut Ltd. and offer its funds to retail customers in Europe through the fintech’s platform.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/apollo-in-talks-to-offer-funds-to-revolut-customers-in-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9adfb97d0dad7457ff4f9cc2b12a1658",
-      "timestamp": "2026-02-13T20:41:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DP World Names New Chiefs Amid Fallout Over Epstein Files - DP World Ltd. named a new chief executive officer and chairman. Both positions were held by Sultan Ahmed Bin Sulayem, whose alleged ties to disgraced financier Jeffrey Epstein resulted in two companie",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/dp-world-names-yuvraj-narayan-as-ceo-essa-kazim-as-chairman",
       "sentiment": "NEUTRAL"
     }
   ]
