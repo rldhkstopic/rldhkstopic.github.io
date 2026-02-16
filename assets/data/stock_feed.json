@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-02-16T07:05:51.502100+09:00",
+  "last_updated": "2026-02-16T09:24:49.081247+09:00",
   "items": [
+    {
+      "id": "1a6ef02800770c55bdb56a7e63680a16",
+      "timestamp": "2026-02-16T09:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK House Prices Stall as Buyers Enjoy Most Choice in a Decade - UK home sellers refrained from increasing prices further this month as an abundance of properties on estate agents’ books strengthened the bargaining power of buyers, according to a survey by Rightmov",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/uk-house-prices-stall-as-buyers-enjoy-most-choice-in-a-decade",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "93ad8a9651eebd2aaa6a475975ef3e02",
+      "timestamp": "2026-02-16T09:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Merger Involving $61 Billion of Debt to Help India Credit Market - A recently announced merger of Indian lenders to the power sector is fueling hope that financing will get a boost for energy and other key drivers of the world’s fastest growing major economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/merger-involving-61-billion-of-debt-to-help-india-credit-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "805f4d29fac86e49576908984164a80b",
+      "timestamp": "2026-02-16T08:16:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Steady With Focus on Geopolitical Risk Before Iran Talks - Oil was little changed at the start of the week, as traders monitored geopolitical risk before talks between the US and Iran resume on Tuesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/latest-oil-market-news-and-analysis-for-feb-16",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3a5f3564dcd83fd003383ba79949c9ef",
+      "timestamp": "2026-02-16T08:16:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Edges Lower as Traders Lock In Gains Above $5,000 an Ounce - Gold slipped, as traders booked profits after mild US inflation data pushed the metal back above $5,000 an ounce.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/gold-retreats-as-traders-lock-in-gains-above-5-000-an-ounce",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "69bc34511264678491cb82ece85ed36c",
+      "timestamp": "2026-02-16T08:01:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Hires OpenClaw AI Agent Developer Peter Steinberg - Peter Steinberger, creator of popular open-source artificial intelligence program OpenClaw, will be joining OpenAI Inc. to help bolster the ChatGPT developer’s product offerings.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/openai-hires-openclaw-ai-agent-developer-peter-steinberg",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b75dd32045d5ba68de51695e88b8beb6",
+      "timestamp": "2026-02-16T08:00:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macquarie-Led Group to Buy Qube Holdings for $8.3 Billion - A group led by Macquarie Asset Management will buy Qube Holdings Ltd. in a deal worth around A$11.7 billion ($8.3 billion), as the Australian firm adds a ports and rail operator to its vast swath of i",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/macquarie-led-group-agrees-to-buy-qube-holdings-for-8-3-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "35ea8c45dc6293f9be7791ae0879be3c",
+      "timestamp": "2026-02-16T08:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Family Fights to Keep Control of 157-Year-Old Firm in Japan - Ishikawa is a remote, mountainous prefecture bordering the Sea of Japan, but the fate of a drug store chain whose local roots go back to 1869 has implications for Tokyo’s financial markets hundreds of",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/a-family-fights-to-keep-control-of-157-year-old-firm-in-japan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ee804b1832208e27c16ab0e66701b5b9",
+      "timestamp": "2026-02-16T07:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rampant AI Demand for Memory Is Fueling a Growing Chip Crisis - A growing procession of tech industry leaders including Elon Musk and Tim Cook are warning about a global crisis in the making: A shortage of memory chips is beginning to hammer profits, derail corpor",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/rampant-ai-demand-for-memory-is-fueling-a-growing-chip-crisis",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "423c2c95f4c257e79c25bd6e9e3b1ae8",
+      "timestamp": "2026-02-16T07:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK’s Starmer Wants AI Chatbots to Follow Online Safety Rules - UK Prime Minister Keir Starmer is cracking down on AI chatbots sharing harmful content, pledging to ensure they comply with laws designed to protect children online.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/uk-s-starmer-wants-ai-chatbots-to-follow-online-safety-rules",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "423c2c95f4c257e79c25bd6e9e3b1ae8",
+      "timestamp": "2026-02-16T07:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK’s Starmer Wants AI Chatbots to Follow Online Safety Rules - UK Prime Minister Keir Starmer is cracking down on AI chatbots sharing harmful content, pledging to ensure they comply with laws designed to protect children online.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/uk-s-starmer-wants-ai-chatbots-to-follow-online-safety-rules",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a93941c546d6ea41bfcaba5d4244944f",
+      "timestamp": "2026-02-16T07:25:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Stocks Edge Up After US CPI Lifts Mood: Markets Wrap - Asian equities posted a modest gain at the open after recent selling pressure eased and US inflation data supported the outlook for the Federal Reserve to cut interest rates this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5c530d77e538f95d20e4155d610a7b6a",
+      "timestamp": "2026-02-16T06:53:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Earnings Beats Fuel Australian Bank Stocks’ Best Week Since 2022 - Australian banking shares capped their biggest weekly jump in almost four years on better-than-expected earnings updates.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/earnings-beats-fuel-australian-bank-stocks-best-week-since-2022",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "cf0150fc9c55bccacb446e8f217adda1",
       "timestamp": "2026-02-16T06:00:03+09:00",
@@ -120,6 +252,17 @@
       "related_tickers": [],
       "content": "Magyar Sees Hungary on Cusp of Pro-EU Turn as Election Nears - Hungarian opposition leader Peter Magyar kicked off the final stretch of campaigning for April’s election on Sunday, asserting that he’s on the cusp of ending Prime Minister Viktor Orban’s rule after ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-15/magyar-sees-hungary-on-cusp-of-pro-eu-turn-as-election-nears",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d66dac09b081bbe40254357cf8c98d79",
+      "timestamp": "2026-02-16T00:44:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AOC Tests Foreign-Policy Waters at Munich Conference - Representative Alexandria Ocasio-Cortez is better known for her strong progressive stances than her foreign policy views over the course of her seven years in Congress. An appearance at this weekend’s",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-15/ocasio-cortez-tests-foreign-policy-waters-at-munich-conference",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2066,149 +2209,6 @@
       "related_tickers": [],
       "content": "Hungary Accuses Ukraine of Blocking Oil Following Russian Strike - Ukraine denied a Hungarian accusation that it had blocked Russian crude shipments for political reasons as flows through a key pipeline remain suspended following an attack by Moscow’s forces.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/hungary-accuses-ukraine-of-blocking-oil-following-russian-strike",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bcb02a7faa0e27cc2fe42681ca0dadb5",
-      "timestamp": "2026-02-14T00:15:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTC Ratchets Up Microsoft Probe, Queries Rivals on Cloud, AI - The US Federal Trade Commission is accelerating scrutiny of Microsoft Corp. as part of an ongoing probe into whether the company illegally monopolizes large swaths of the enterprise computing market w",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ftc-ratchets-up-microsoft-probe-queries-rivals-on-cloud-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ef07a975b7727170f04ca70ba312dfc",
-      "timestamp": "2026-02-14T00:12:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lithuania May Sign Minerals Deal With US If EU Moves Too Slowly - The Lithuanian government may opt to sign a bilateral deal with the US on critical minerals if the European Union fails to finalize a joint partnership quickly enough, the Baltic nation’s top diplomat",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/lithuania-may-sign-minerals-deal-with-us-if-eu-moves-too-slowly",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd6603ffead68e5dd8e4ca5f0bb872aa",
-      "timestamp": "2026-02-14T00:12:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed Can Cut as Tariff Impact Fades, Pimco's Wilding Says - Pimco Economist Tiffany Wilding says the inflationary impact of tariffs are fading and the Federal Reserve should feel comfortable cutting interest rates on \"Bloomberg Surveillance.\" (Source: Bloomber",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/fed-can-cut-as-tariff-impact-fades-pimco-s-wilding-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2f89546903893d9b1b668b41347ce7c6",
-      "timestamp": "2026-02-14T00:10:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Brands Are Stealing the Show in Luxury Retail - Chinese manufacturers are increasing pressure on Western luxury brands, as consumers grow more skeptical about the value of traditional high-end products.\n\nLauren Sherman, business journalist and host",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/chinese-brands-are-stealing-the-show-in-luxury-retail",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "97217232b138e321a32f8b5b193cb2ad",
-      "timestamp": "2026-02-14T00:05:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Coinbase Shares Jump as Dip Buyers Bet on Crypto Market Bottom - Coinbase Global Inc. shares found firmer footing a day after the largest US crypto exchange reported weak quarterly results, as a cohort of dip buyers concluded the worst had already been priced in.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/coinbase-shares-jump-as-dip-buyers-bet-on-crypto-market-bottom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e3627c6127214d4cc65035127e731431",
-      "timestamp": "2026-02-13T23:59:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DOJ Sues Harvard Over Access to Data on Race in Admissions - The Justice Department sued Harvard University for allegedly failing to hand over documents related to investigations into racial discrimination in admissions, the latest legal clash between the Trump",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/doj-sues-harvard-for-withholding-records-on-race-in-admissions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca8bcde10de8b37f6c06e669e3a6bf82",
-      "timestamp": "2026-02-13T23:58:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Tech Basket of Stocks Is 'Incredibly Attractive,' Golub Says - Jonathan Golub of Seaport Research Partners says the tech basket of stocks is \"incredibly attractive.\"  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/the-tech-basket-is-incredibly-attractive-golub-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e62851ebaca940f238e9ccefda2bd91e",
-      "timestamp": "2026-02-13T23:53:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Drift as AI Fears Linger After Inflation Reading - Stocks struggled for direction Friday as fears of AI disruptions weigh against the potential for more interest rate cuts after a cooler-than-expected inflation reading.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/stocks-drift-as-ai-fears-linger-after-inflation-reading",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "014c243fd67437055b3d9f00fddb9180",
-      "timestamp": "2026-02-13T23:48:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Powell Probe Just a 'Flex,' Say Senator Tillis - Republican Senator Thom Tillis is sticking to his guns and says he won't approve any nominee to lead the Federal Reserve until a Justice Department probe into the Fed’s renovations is over. “We could ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/powell-probe-just-a-flex-say-senator-tillis-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5b8118b303fbec9abe391597e7915565",
-      "timestamp": "2026-02-13T23:44:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Merz Says He Had Talks With Macron on Nuclear Weapons - German Chancellor Friedrich Merz says he’s in discussions with French President Emmanuel Macron about the future of Europe’s nuclear weapons. Speaking at the Munich Security Conference, he also commen",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/merz-says-he-had-talks-with-macron-on-nuclear-weapons-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2bdb230b0569e4ac9735f05d97ae1cee",
-      "timestamp": "2026-02-13T23:28:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Traders Warn the $60,000 Mark Is a Liquidation Trigger - As Bitcoin struggles to climb out of its current funk, several indicators suggest any breach of the $60,000 level would unleash a fresh bout of extreme turbulence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/bitcoin-falling-to-60-000-could-spark-fresh-liquidation-spiral",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8eb8cd1417b361edd6e643ddc5fcebad",
-      "timestamp": "2026-02-13T23:25:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Infleqtion’s Public Debut to Test Quantum Frenzy’s Staying Power - Shareholders in the blank-check vehicle taking quantum computing firm Infleqtion Inc. public have approved the tie-up, setting the stage for more debuts in the sector and piling pressure on companies ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/infleqtion-s-public-debut-to-test-quantum-frenzy-s-staying-power",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8eb8cd1417b361edd6e643ddc5fcebad",
-      "timestamp": "2026-02-13T23:25:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Infleqtion’s Public Debut to Test Quantum Frenzy’s Staying Power - Shareholders in the blank-check vehicle taking quantum computing firm Infleqtion Inc. public have approved the tie-up, setting the stage for more debuts in the sector and piling pressure on companies ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/infleqtion-s-public-debut-to-test-quantum-frenzy-s-staying-power",
       "sentiment": "NEUTRAL"
     }
   ]
