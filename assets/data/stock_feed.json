@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-17T03:13:45.090476+09:00",
+  "last_updated": "2026-02-17T05:07:58.859677+09:00",
   "items": [
+    {
+      "id": "1dd5071d68b35b602fedfd59b1864e44",
+      "timestamp": "2026-02-17T04:31:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Military Advisers Arrive in Nigeria as Deadly Attacks Worsen - Nigeria confirmed US military personnel have arrived as militant violence worsens, even as both countries deepen their cooperation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/us-military-advisers-arrive-in-nigeria-as-deadly-attacks-worsen",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6e79008ddae3083b76174617cc5514d5",
+      "timestamp": "2026-02-17T04:09:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mexico Election Reform Stalls as Sheinbaum’s Junior Coalition Partners Object - President Claudia Sheinbaum is struggling to align congressional allies behind a push to reform Mexican elections, threatening to derail her party’s efforts to overhaul another major institution and e",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/mexico-election-reform-stalls-as-sheinbaum-s-junior-coalition-partners-object",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4fe500071ac5b0230469adb1e81a4714",
+      "timestamp": "2026-02-17T04:02:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Revamps Video Podcasts as Industry Shifts Toward Visuals - Apple Inc. is revamping its video offering in Apple Podcasts as part of a broader industry shift toward visuals in the once audio-only medium.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/apple-revamps-video-podcasts-as-industry-shifts-toward-visuals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "18efc8a6f8bcd5a6d40d8244bb9894d0",
+      "timestamp": "2026-02-17T03:24:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SpaceX to Compete in Pentagon Contest for Autonomous Drone Tech - Elon Musk’s SpaceX and wholly owned subsidiary xAI are competing in a secretive new Pentagon contest to produce voice-controlled, autonomous drone swarming technology, according to people familiar wit",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/spacex-to-compete-in-pentagon-contest-for-autonomous-drone-tech",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1b038af72af5e9f5388764b0c59b3353",
+      "timestamp": "2026-02-17T03:04:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Carney Taps Veteran Charette as Chief Trade Negotiator to US - Canadian Prime Minister Mark Carney appointed a veteran public servant as his government’s next chief trade negotiator with the US, putting her at the center of a review of the North American trade pa",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/carney-taps-veteran-charette-as-chief-trade-negotiator-to-us",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "75ea9ee3591dfd28fda80f19b3ce0225",
       "timestamp": "2026-02-17T02:45:00+09:00",
@@ -852,6 +907,17 @@
       "related_tickers": [],
       "content": "Alibaba Unveils Major AI Model Upgrade Ahead of DeepSeek Release - Alibaba Group Holding Ltd. unveiled a major upgrade of its flagship AI model, accelerating a race with a panoply of startups and sectoral leaders aiming to get in ahead of Chinese sensation DeepSeek’s",
       "url": "https://www.bloomberg.com/news/articles/2026-02-16/alibaba-unveils-major-ai-model-upgrade-ahead-of-deepseek-release",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d4c59c6ff649fb436b3f666d03f80bfa",
+      "timestamp": "2026-02-16T17:30:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Stocks Muted as Tech Suffers; Dassault Systemes Falls - European stocks were subdued as fears about the disruptive impact of artificial intelligence on industrial software canceled out a rebound in bank shares. Dassault Systemes dropped 10%.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/european-stocks-gain-as-banks-rebound-earnings-remain-in-focus",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2143,72 +2209,6 @@
       "related_tickers": [],
       "content": "Ukrainian Anti-Corruption Chair Radina Speaks on Ceasefire - Ukrainian parliament’s anti-corruption committee chair, Anastasiya Radina speaks on Russia-Ukraine peace talks and the prospect of a ceasefire at the 2026 Munich Security Conference. (Source: Bloomber",
       "url": "https://www.bloomberg.com/news/videos/2026-02-14/ukrainian-anti-corruption-chair-radina-on-ceasefire-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7499c6270733b17d24cedd2122dfa8ee",
-      "timestamp": "2026-02-15T02:41:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Zelenskiy Says He Cannot Imagine Putin Without War - Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying Putin is a \"slave to war\". (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-says-he-cannot-imagine-putin-without-war-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ac922ea6f31c5f00db28c2dd3b60f4ce",
-      "timestamp": "2026-02-15T02:34:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Zelenskiy Open to Elections if Ceasefire Is Reached - Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0812047ba4f2aaff8e14f954ebd4b455",
-      "timestamp": "2026-02-15T02:29:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Zelenskiy Speaks on Iran Supplying Russia With Drones - Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, criticizing Iran for supplying Russia with drones. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-speaks-on-iran-for-supplying-russia-with-drone-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bdeb265ad90a8391b2866ce18f8f0401",
-      "timestamp": "2026-02-15T01:36:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Peru’s Sovereignty Not at Risk With Chinese Port, Minister Says - Peru rejected concerns that operations at Chinese-owned Chancay port near Lima threaten its sovereignty, days after US officials warned that fresh regulatory exemptions granted to the port could under",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-14/peru-s-sovereignty-not-at-risk-with-chinese-port-minister-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "634e052f470bec5d098cfa879d6b82e8",
-      "timestamp": "2026-02-15T01:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB Revamps Euro Liquidity Offer to Boost Currency’s Appeal - The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and increase global use of the single currency.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "634e052f470bec5d098cfa879d6b82e8",
-      "timestamp": "2026-02-15T01:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB Revamps Euro Liquidity Offer to Boost Currency’s Appeal - The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and increase global use of the single currency.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
       "sentiment": "NEUTRAL"
     }
   ]
