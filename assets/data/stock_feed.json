@@ -1,6 +1,270 @@
 {
-  "last_updated": "2026-02-16T17:15:43.639774+09:00",
+  "last_updated": "2026-02-16T19:20:57.149624+09:00",
   "items": [
+    {
+      "id": "02ccf9e722869d42dcc8760bf4018998",
+      "timestamp": "2026-02-16T19:12:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk, Cook Warn of Memory Chip Crisis as Demand From AI Grows - A growing procession of tech industry leaders including Elon Musk and Tim Cook are warning about a global crisis in the making: A shortage of memory chips is beginning to hammer profits, derail corpor",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-16/musk-cook-warn-of-chip-crisis-as-demand-from-ai-grows-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ceb692c8475738f4af45976ce5e0d2a4",
+      "timestamp": "2026-02-16T19:04:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rosebank in Talks to Buy Two US Companies for Over $3 Billion - Rosebank Industries Plc, the latest buyout vehicle of former Melrose Industries Plc executives, is in advanced discussions to acquire two US businesses for a total of $3.05 billion including debt.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/rosebank-in-talks-to-buy-two-us-companies-for-over-3-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6ea50897501c2a17808000068beeb739",
+      "timestamp": "2026-02-16T19:04:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Markets Data Void Obscures Hunt for Next Crash - The rise of private markets has obscured data which regulators and economists rely on to identify risks in the global economy, as Bloomberg's Laura Noonan explains. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-16/private-markets-data-void-obscures-hunt-for-next-crash-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a503ced81923f95706833fda4e843bb8",
+      "timestamp": "2026-02-16T19:02:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mubadala, Saudi Billionaire Family Invest in Egypt’s Breadfast - The United Arab Emirates’ $330 billion sovereign wealth fund, a Saudi billionaire family and Japan’s SBI Investment Co. have backed Egyptian startup Breadfast in its latest financing round, as the e-c",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/mubadala-saudi-billionaire-family-invest-in-egypt-s-breadfast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6c19838bf859363d488e861574d9cdd4",
+      "timestamp": "2026-02-16T18:56:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin Looks for Direction After Four Straight Weekly Losses - Bitcoin fluctuated after posting its fourth consecutive weekly loss, with the cryptocurrency struggling to find clear direction as a weekend rally fizzled.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/bitcoin-looks-for-direction-after-four-straight-weekly-losses",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f816115b54015cd9cc246a1b34704ea0",
+      "timestamp": "2026-02-16T18:55:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan’s Imran Khan Seeks Release From Jail on Medical Grounds - Pakistan’s former Prime Minister Imran Khan is pressing for his release, citing a deteriorating eye condition in prison, as his allies enter the third day of a sit-in protest in parliament.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/pakistan-s-imran-khan-seeks-release-from-jail-on-medical-grounds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e96c24ae91535e0887fb5056453500cd",
+      "timestamp": "2026-02-16T18:48:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lebanon PM, Syria Foreign Min Exclusives at Munich Security Conf. - Lebanese Prime Minister Nawaf Salam says his government can overcome differences with the IMF over a proposed law that would let depositors recover billions of dollars trapped in the country's beleagu",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-16/lebanon-prime-minister-syria-foreign-min-exclusives-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "831ab29a8662b3db180ee6dc87720702",
+      "timestamp": "2026-02-16T18:43:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AMD Takes on Nvidia in India With Expanded Tata AI Partnership - Advanced Micro Devices Inc. is partnering with Tata Consultancy Services Ltd. to deploy the US chipmaker’s latest AI data center technology in India, challenging Nvidia Corp. in one of the world’s fas",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/amd-takes-on-nvidia-in-india-with-expanded-tata-ai-partnership",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d3019dd87ab0dca75400ee2d467ab03c",
+      "timestamp": "2026-02-16T18:38:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Horizons Middle East & Africa 2/16/2026 - Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-16/horizons-middle-east-africa-2-16-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f84a52769980410491ed00c9d209feb5",
+      "timestamp": "2026-02-16T18:18:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Says No Government Links to Man Guilty of US Murder Plot - Indian officials reiterated their position that New Delhi wasn’t involved in the alleged plot to kill a US citizen and vocal critic of Prime Minister Narendra Modi in New York in 2023.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/india-says-no-government-links-to-man-guilty-of-us-murder-plot",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "14c29dfd6d25f9bd1ce0f67a18c4657b",
+      "timestamp": "2026-02-16T18:14:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Boosts India AI Push Via Flag Airline, Cognizant Pacts - Anthropic PBC is embedding its marquee AI coding agent within prominent Indian firms including its flag carrier and an outsourcing giant, aiming to quicken artificial intelligence adoption across the ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/anthropic-boosts-india-ai-push-via-flag-airline-cognizant-pacts",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aef09c07ba5551a8d525d9735553464e",
+      "timestamp": "2026-02-16T18:13:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ray Wang on How AI Is Causing DRAM Prices to Surge | Odd Lots - For years, DRAM &mdash; or Dynamic Random Access Memory &mdash; was kind of a sleepy, commoditized aspect of chip industry. Growth was steady, but modest, and prices just generally drifted lower. Sudd",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-16/ray-wang-on-how-ai-is-causing-dram-prices-to-surge-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cee7a7a52f092a2d45173f9578f6fa64",
+      "timestamp": "2026-02-16T18:11:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Records Lowest-Ever Price for Green Hydrogen in Tender - India has recorded the country’s lowest-ever bid for the supply of green hydrogen, according to Renewable Energy Minister Pralhad Joshi.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/india-records-lowest-ever-price-for-green-hydrogen-in-tender",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3975456b8d20e8de12f645c81d8f1365",
+      "timestamp": "2026-02-16T18:03:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan Sees 'Inflection Point' for Health Care Stocks - JPMorgan Private Bank’s Nataliia Lipikhina discusses equity market sector rotation and why she likes industrials, health care and financials. She speaks on Bloomberg Television. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-16/jpmorgan-sees-inflection-point-for-health-care-stocks-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a52af2ff8b8dd91125274acc3c4741cf",
+      "timestamp": "2026-02-16T18:02:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine’s Graft Probe Engulfs Ex-Minister After Failed Escape - A former Ukrainian energy minister has become a suspect in a far-reaching corruption investigation that shook the administration of President Volodymyr Zelenskiy and forced out his top aide last year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/ukraine-s-graft-probe-engulfs-ex-minister-after-failed-escape",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0b51ecdbb636c77d0bb16c9cb6d5953b",
+      "timestamp": "2026-02-16T18:02:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Legal Funder Stung by Car Finance Saga Is Raising Cash Again - A UK litigation funder is seeking fresh capital less than six months after it liquidated a key fund, the latest twist for a firm that’s navigated a bumpy year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/uk-litigation-funder-makes-new-pitch-after-liquidating-key-fund",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "120db8b17301c35bb54825bd97c45e8f",
+      "timestamp": "2026-02-16T18:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ray Wang on How AI Is Causing DRAM Prices to Surge - <p>Another supply&nbsp;shortage.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/ai-is-causing-the-price-of-computer-memory-to-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "120db8b17301c35bb54825bd97c45e8f",
+      "timestamp": "2026-02-16T18:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ray Wang on How AI Is Causing DRAM Prices to Surge - <p>Another supply&nbsp;shortage.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/ai-is-causing-the-price-of-computer-memory-to-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ed061b32964ec932f001a3f2541319c8",
+      "timestamp": "2026-02-16T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Odd Lots: How AI Is Causing DRAM Prices to Surge (Podcast) - For years, DRAM &mdash; or Dynamic Random Access Memory &mdash; was kind of a sleepy, commoditized aspect of chip industry. Growth was steady, but modest, and prices just generally drifted lower. Sudd",
+      "url": "https://www.bloomberg.com/news/audio/2026-02-16/ai-is-causing-computer-dram-prices-to-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6053f10bbe1c6ec76971a0d44f222a52",
+      "timestamp": "2026-02-16T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fund Beating 99% of Peers Sees Few Software Firms Surviving AI - Selling software stocks before the crowd paid off for Nick Evans, a Polar Capital fund manager. His warning to potential bargain hunters: most shares are still toxic and few firms will survive.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/fund-beating-99-of-peers-sees-few-software-firms-surviving-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ed061b32964ec932f001a3f2541319c8",
+      "timestamp": "2026-02-16T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Odd Lots: How AI Is Causing DRAM Prices to Surge (Podcast) - For years, DRAM &mdash; or Dynamic Random Access Memory &mdash; was kind of a sleepy, commoditized aspect of chip industry. Growth was steady, but modest, and prices just generally drifted lower. Sudd",
+      "url": "https://www.bloomberg.com/news/audio/2026-02-16/ai-is-causing-computer-dram-prices-to-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2d2e4aa36af52a5ce8981c91dae94817",
+      "timestamp": "2026-02-16T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alibaba Unveils Major AI Model Upgrade Ahead of DeepSeek Release - Alibaba Group Holding Ltd. unveiled a major upgrade of its flagship AI model, accelerating a race with a panoply of startups and sectoral leaders aiming to get in ahead of Chinese sensation DeepSeek’s",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/alibaba-unveils-major-ai-model-upgrade-ahead-of-deepseek-release",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "58b499908cc7389da5667cbe8d3136a7",
+      "timestamp": "2026-02-16T17:19:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stocks to Lag European Peers on AI - Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\"  (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-16/us-stocks-to-lag-european-peers-on-ai-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "97f8c182a7c920267a27d800cc58259e",
+      "timestamp": "2026-02-16T17:11:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Foreign Minister to Meet UN Nuclear Chief Before US Talks - Iran’s Foreign Minister Abbas Araghchi is set to meet the head of the United Nations’ nuclear watchdog, ahead of a second round of talks with the US.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/iran-foreign-minister-to-meet-un-nuclear-chief-before-us-talks",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d626c20de7f625a4cd3719d687ab63dc",
       "timestamp": "2026-02-16T17:00:00+09:00",
@@ -10,6 +274,17 @@
       "related_tickers": [],
       "content": "Swiss Economy Resumes Growth in Rebound From US Tariff Shock - Switzerland’s economy rebounded at the end of last year, partially shaking off the impact of outsized tariffs inflicted by US President Donald Trump.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-16/swiss-economy-resumes-growth-in-rebound-from-us-tariff-shock",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ea617d55b40b2cfab6b99d9f0f359149",
+      "timestamp": "2026-02-16T16:54:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rubio Warns Europe & Warner Bros. Mulls New Paramount Talks | Daybreak Europe 02/16/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-16/daybreak-europe-2-16-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1930,285 +2205,6 @@
       "related_tickers": [],
       "content": "Midas Auto Repair Brand Owner Mavis Tire Is Said to Weigh US IPO - Mavis Tire Express Services Corp., an auto repair and tire service provider that counts Midas and Tuffy among its brands, is considering a US initial public offering, according to people familiar with",
       "url": "https://www.bloomberg.com/news/articles/2026-02-13/midas-auto-repair-brand-owner-mavis-tire-is-said-to-weigh-us-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77f2380b4023156268a74ab7bb1f0efc",
-      "timestamp": "2026-02-14T07:52:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mark Kelly Sees Trump Trying Anew to Punish Him After Court Flop - Senator Mark Kelly doesn’t expect President Donald Trump administration’s failure to convince a grand jury to indict him and other Democratic lawmakers for a video that told federal troops they can re",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/mark-kelly-sees-trump-trying-anew-to-punish-him-after-court-flop",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c971e2bcc419da9578ada921e92005a",
-      "timestamp": "2026-02-14T07:51:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Briefly Names Alibaba, Baidu as Firms Aiding China’s Military - The Pentagon added Alibaba, BYD, Baidu and TP-Link Technologies Co. to a list of companies that aid the Chinese military – before withdrawing it minutes later without explanation. The moves on Friday ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/us-briefly-names-firms-aiding-china-s-military-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f989a34bfc7a4edeb5d7b908e3114d5b",
-      "timestamp": "2026-02-14T07:43:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "See Potential for 4% Inflation in 2026: PIIE's Posen - Adam Posen, President of the Peterson Institute for International Economics, joins Bloomberg Businessweek Daily to discuss the US geopolitical and economic outlook, including his recent call that he s",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/see-potential-for-4-inflation-in-2026-piie-s-posen-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "07518f8a3d761028228cbf3bf9e1397a",
-      "timestamp": "2026-02-14T07:43:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Steady as Treasury Yields Slip After CPI | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Katie Greifeld, Bailey Lipschultz, Carol Massar and Tim Stenovec. (Source: Blo",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/stocks-steady-as-treasury-yields-slip-closing-bell-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8541d4ecfcbd47800eab979c233ccde5",
-      "timestamp": "2026-02-14T07:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer Urges Europe to End Reliance on Trump’s America - After a year of refusing to choose between Washington and Brussels, Keir Starmer will shift tone in Munich by edging Britain closer to the European Union and calling for an end to over-reliance on Ame",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/starmer-urges-europe-to-end-reliance-on-trump-s-america",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c1a21b8f0a5261b6cd9c2a60dec6ef76",
-      "timestamp": "2026-02-14T07:26:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tamer Inflation Boosts Fed-Cut Bets | Bloomberg Businessweek Daily 2/13/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss a tamer-than-expected January CPI print and what it means for Fed cut bets with Bloomberg's Mike McKee. Then, ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/bloomberg-businessweek-daily-2-13-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "461eae387f82bf1f71f1e986843d75d2",
-      "timestamp": "2026-02-14T07:03:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "MAIA: Credit Spreads Widen Amid AI Concerns and Tech Bond Discounts - The segment discusses the recent modest widening of credit spreads, driven by both AI-related market fears and a surge in debt issuance. While the overall index shows little change, there is significa",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/ai-angst-issuance-wave-widen-credit-spreads-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b2f26b31e0cd035ee6696e96b2fc156",
-      "timestamp": "2026-02-14T07:02:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Humana Buys Clinic Operator MaxHealth From Arsenal Capital - Humana Inc. has acquired MaxHealth in a deal that will combine the Florida operator of health-care clinics with the insurer’s CenterWell Senior Primary Care division.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/humana-buys-clinic-operator-maxhealth-from-arsenal-capital",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e8f9027fe58723b652aa61e864c03030",
-      "timestamp": "2026-02-14T06:59:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wasserman Shultz: Need 'Comprehensive Agreement' on ICE - Rep. Debbie Wasserman Shultz (D-FL) said  before Democrats vote to fund DHS there needs to be a \"comprehensive agreement\" that reins in immigration agents and stops abusive actions like those seen in ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/wasserman-shultz-need-comprehensive-agreement-on-ice-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d9696a6ed0094c3f8d66910b1c7f069c",
-      "timestamp": "2026-02-14T06:49:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Corporate Debt Sales Surge in Europe - A rush of reverse Yankee debt sales have hit the European primary market, with five borrowers set to make it the busiest start to the year ever for the deals. Ronan Martin joins Scarlet Fu to discuss ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/us-corporate-debt-sales-surge-in-europe-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "34cd13a29a8c9743de5c6368e9be58ec",
-      "timestamp": "2026-02-14T06:39:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What Do You Need to Launch an ETF? At Least $250,000 and an Idea - White-label firms can help you build your own ETF, for a price",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/want-to-start-your-own-etf-you-ll-need-at-least-250-000",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8bee61c7477c4f6f81f02a735ac39fde",
-      "timestamp": "2026-02-14T06:38:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Regime Change in Iran ‘Best Thing That Could Happen’ - President Donald Trump said regime change would be the best outcome for Iran, ratcheting up pressure on the Islamic Republic in talks over its nuclear program as he builds up the US military presence ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/trump-says-regime-change-in-iran-best-thing-that-could-happen",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cc7c4682789ef29155b6c52137553279",
-      "timestamp": "2026-02-14T06:33:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "High-Conviction Bets Turn Toxic in Week of Wall Street Reversals - Wall Street entered 2026 all-in &mdash; record-low cash, minimal hedging, maximum conviction. Six weeks later, a slew of consensus trades are misfiring.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/high-conviction-bets-turn-toxic-in-week-of-wall-street-reversals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cc7c4682789ef29155b6c52137553279",
-      "timestamp": "2026-02-14T06:33:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "High-Conviction Bets Turn Toxic in Week of Wall Street Reversals - Wall Street entered 2026 all-in &mdash; record-low cash, minimal hedging, maximum conviction. Six weeks later, a slew of consensus trades are misfiring.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/high-conviction-bets-turn-toxic-in-week-of-wall-street-reversals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1d63aee43ce63e6884fefeb21f434c21",
-      "timestamp": "2026-02-14T06:31:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump at Another Shutdown Standoff With Democrats - The future of DHS funding depends on finding a way to a deal.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/trump-at-another-shutdown-standoff-with-democrats",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5ab5cf0fb2098b59b31b8a4fd37a3fe9",
-      "timestamp": "2026-02-14T06:28:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ad Platform Moloco Said to Pick Goldman Sachs, JPMorgan for IPO - Advertising technology company Moloco has selected banks to arrange an initial public offering of the company, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/ad-platform-moloco-said-to-pick-goldman-sachs-jpmorgan-for-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cd6038db37a344a6b596f820dc082d2c",
-      "timestamp": "2026-02-14T06:27:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Needs US to End War, Lithuania's Leader Says - President Gitanas Nauseda of Lithuania talks about diplomatic relations with the United States, security in Europe and ending the war in Ukraine. He speaks to Bloomberg's Oliver Crook.\n\n(Video has bee",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/ukraine-needs-us-to-end-war-lithuania-s-leader-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fed62debfd1c6dc8bcc100a748c46641",
-      "timestamp": "2026-02-14T06:10:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "2 Brilliant Growth Stocks to Buy Now and Hold for the Long Term - SoFi and Adyen are still worth buying in this frothy market.",
-      "url": "https://www.fool.com/investing/2026/02/13/2-brilliant-growth-stocks-to-buy-now-and-hold-for/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c02cee271575e125cd4a41f7509880f5",
-      "timestamp": "2026-02-14T06:09:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Don Lemon Pleads Not Guilty to Charges Over ICE Protest Coverage - Former CNN anchor Don Lemon pleaded not guilty to criminal charges stemming from his coverage of a protest against federal immigration enforcement activities in Minnesota, in a case that has escalated",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/don-lemon-pleads-not-guilty-to-charges-over-ice-protest-coverage",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "797d27c7b14d3fc5717abf4ce2ca0564",
-      "timestamp": "2026-02-14T06:07:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DHS Heads Towards Partial Shutdown | Balance of Power: Early Edition 2/13/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu and Kailey Leinz discuss the possible lapse in funding for the Department of Homeland Security. On today's sho",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/balance-of-power-early-edition-2-13-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f22a533844d7b457fb18b69395a238f4",
-      "timestamp": "2026-02-14T06:00:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Retires Controversial 4o AI Model, Angering Loyal Users - GPT-4o showed the unique attachment that people can form with chatbots",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/openai-retires-controversial-4o-ai-model-angering-loyal-users",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bc327ce9f2483f6d4dd3deac5509000d",
-      "timestamp": "2026-02-14T05:55:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Should You Invest $1,000 in SoFi Technologies Right Now? - This top fintech stock is trading at a discount, down 34% from its record high.",
-      "url": "https://www.fool.com/investing/2026/02/13/should-you-invest-1000-sofi-technologies-stock/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "763fd4fb0b3f8bb52994672497fe3862",
-      "timestamp": "2026-02-14T05:30:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Pulls List of Tech Firms Linked to China’s Military | Bloomberg Tech 2/13/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss earnings from Rivian, Coinbase, Instacart, and Airbnb. Plus, the US Defense Department added Alibaba, Baidu and others to a list of firms it says are co",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-13/bloomberg-tech-2-13-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3639fe8a920c6dcf4f23d5040d46ccb2",
-      "timestamp": "2026-02-14T05:29:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK and European Allies Weigh Seizing Russian Shadow Fleet Ships - British Defense Secretary John Healey met with counterparts from Baltic and Nordic nations to discuss seizing oil tankers linked to Russia’s shadow fleet, as Europe seeks to tighten curbs on Moscow’s ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-13/uk-and-european-allies-weigh-seizing-russian-shadow-fleet-ships",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b6898d5e14ed7f9e8e90f2766a6391fc",
-      "timestamp": "2026-02-14T05:02:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Everyone Has to Be Feeling Anxious Right Now - There’s pain and anxiety all around.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-13/everyone-has-to-be-feeling-anxious-right-now",
       "sentiment": "NEUTRAL"
     }
   ]
