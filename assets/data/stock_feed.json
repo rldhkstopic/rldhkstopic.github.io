@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-02-17T13:38:32.563335+09:00",
+  "last_updated": "2026-02-17T15:22:46.752634+09:00",
   "items": [
+    {
+      "id": "d9c072e3b1320367de70c781cf856c47",
+      "timestamp": "2026-02-17T14:46:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Treasuries Rally on Reopen With 10-Year Yield Falling Toward 4% - Last week’s Treasuries rally extended into Tuesday as the US bond market reopened after a holiday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/treasuries-rally-on-reopen-with-10-year-yield-falling-toward-4",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2b47b4e9063cad66d9874ee676ed4bf3",
+      "timestamp": "2026-02-17T14:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Want to Sell Arms to Poland? Then Invest Here, Minister Says - Poland has a message for foreign companies interested in a piece of its 1 trillion zloty ($281 billion) defense spending plan: “If you want to sell here, invest here.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/want-to-sell-arms-to-poland-then-invest-in-the-nato-member-s-defense-industry",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b009355c8c3ee8c9393edd216044b868",
+      "timestamp": "2026-02-17T14:21:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China AI Startup Moonshot Targets $10 Billion Valuation - Moonshot is targeting a valuation of $10 billion in an expansion of a funding round already backed by Alibaba Group Holding Ltd. and Tencent Holdings Ltd., seeking to tap strong interest in Chinese st",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/china-ai-startup-moonshot-seeks-10-billion-value-in-new-funding",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "70add4b231e366a6d5909f20b813f6c3",
+      "timestamp": "2026-02-17T14:15:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "After Greenland, Denmark’s ‘Queen of Crises’ Looks to Election - For Denmark’s prime minister, Donald Trump’s Greenland grab now looks like a crisis too good to waste.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/denmark-pm-frederiksen-finds-upside-in-trump-s-greenland-grab",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "db65d689d888f2226fbca5787c0f00f9",
+      "timestamp": "2026-02-17T14:08:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BHP Group CFO on Bumper Copper Profits, M&A Outlook - BHP Group posted earnings at the upper end of analyst expectations, driven by a historic metals rally and a years-long effort to shore up copper production. CFO Vandita Pant discusses the details with",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/bhp-cfo-on-bumper-copper-profits-m-a-outlook-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "13b40c77b8f1f2a476e92747725793e1",
+      "timestamp": "2026-02-17T14:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Owners of Polish Fintech Blik Discuss Potential Warsaw IPO - The owners of Polish fintech Blik held preliminary discussions about the merits of holding an initial public offering in Warsaw, according to a person familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/owners-of-polish-fintech-blik-discuss-potential-warsaw-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7746e4eca7a298b96763938d5c13136",
+      "timestamp": "2026-02-17T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Egyptian Stocks Soar as Investors Take Note of Economic Renewal - Egypt’s benchmark stock index is soaring ahead of developing-nation peers, buoyed by growing investor interest in a market that’s seen benefiting from government measures to revive the economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/egyptian-stocks-soar-as-investors-take-note-of-economic-renewal",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "05a1582158e218b78476ff550c8397d0",
       "timestamp": "2026-02-17T13:00:02+09:00",
@@ -2130,85 +2207,6 @@
       "related_tickers": [],
       "content": "Israel Plans Airports for its Shaken Frontiers in Post-War Boom - Israel’s cabinet approved the construction of a new international airport on the Gaza periphery and said another is in the works for the north, near the Lebanese border.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-15/israel-plans-airports-for-its-shaken-frontiers-in-post-war-boom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c57f108a107c9f0592143211ce81b8ee",
-      "timestamp": "2026-02-15T23:05:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DOJ Tells Lawmakers Epstein File Redactions Complied With Law - The Justice Department sent a letter to US lawmakers summarizing redactions in the so-called Epstein Files, as political pressure swirls around decisions to withhold some information.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/doj-tells-lawmakers-epstein-file-redactions-complied-with-law",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "df5fddac78e3a77f68c2919790840b9f",
-      "timestamp": "2026-02-15T23:00:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carney Plots ‘Buy Canada’ Defense Strategy to Unlock Billions in Investment - Canada will spend more of its growing military budget with domestic firms under a defense-industrial strategy that’s meant to unleash more than C$500 billion ($369 billion) in investment over a decade",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/carney-plots-buy-canada-defense-strategy-to-unlock-billions-in-investment",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a0f3250b9a1cda2905e66da1e9f83ab",
-      "timestamp": "2026-02-15T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "A Stock Market Doom Loop Is Hitting Everything That Touches AI - The stock market turmoil unleashed by the artificial-intelligence industry reflects two fears that are increasingly at odds.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/a-stock-market-doom-loop-is-hitting-everything-that-touches-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cb94ed672045fde76d5b6ca119492e04",
-      "timestamp": "2026-02-15T22:41:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "JPMorgan Upgrades SoFi Technologies (SOFI) to Overweight After Q4 Results and 2026 Guidance - SoFi Technologies, Inc. (NASDAQ:SOFI) ranks among the best innovative stocks to buy according to Wall Street analysts. On February 3, JPMorgan raised SoFi Technologies, Inc. (NASDAQ:SOFI) to Overweigh",
-      "url": "https://finance.yahoo.com/news/jpmorgan-upgrades-sofi-technologies-sofi-134152304.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ce4a5f55f4b66aa900b7561629a81fe",
-      "timestamp": "2026-02-15T22:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carry Trade, Commodities Make EM Currencies More Stable Than G-7 - Emerging-market currencies are proving more stable than those in developed nations, a streak some investors say could become the longest in more than two decades.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/carry-trade-commodities-make-em-currencies-more-stable-than-g-7",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9647d79d23f3838a48f35b992b71f6d",
-      "timestamp": "2026-02-15T22:04:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why US Public Transit Is Overpaying for Buses - Public transit is essential for millions of Americans, but the way buses are procured may be limiting how much service cities can afford. Harvard professor Ed Glaeser says agencies often order highly-",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-15/why-us-public-transit-is-overpaying-for-buses-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a4159a51c4bb776b66aa58c5af56d51",
-      "timestamp": "2026-02-15T22:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tesla CarPlay Held Back by Need for Wider Adoption of Apple’s iOS 26 - Tesla’s plan to start supporting CarPlay in its vehicles has been held back by the need for changes in iOS 26’s Maps app. Also: Apple hits fresh snags with its attempt to revamp Siri; new details on i",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-15/tesla-carplay-delays-related-to-ios-26-and-fsd-apple-s-new-siri-delays-ios-27",
       "sentiment": "NEUTRAL"
     }
   ]
