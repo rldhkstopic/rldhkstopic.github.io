@@ -1,6 +1,107 @@
 {
-  "last_updated": "2026-02-17T07:07:38.011225+09:00",
+  "last_updated": "2026-02-17T09:25:16.024005+09:00",
   "items": [
+    {
+      "id": "8ae9472eb44c40c7fbd11fc73ae858e8",
+      "timestamp": "2026-02-17T09:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Topshop Opens in John Lewis in Bid to Regain UK Clothing Appeal - Topshop and Topman clothing is set to go on sale at John Lewis Partnership Plc on Tuesday, marking the brands’ first large-scale appearance on British high streets in five years.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/topshop-opens-in-john-lewis-in-bid-to-regain-uk-clothing-appeal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c612573ab587a406786d5325b9e51f19",
+      "timestamp": "2026-02-17T09:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk’s X Probed by Irish Data Watchdog Over Grok Sexual Images - Ireland’s data protection watchdog has launched an investigation into X over concerns about sexualized images created and published using the Grok AI chatbot.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/musk-s-x-probed-by-irish-data-watchdog-over-grok-sexual-images",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9cee3404310eec0948ab606d3197aa51",
+      "timestamp": "2026-02-17T09:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Modi Seizes AI Summit to Assert India’s Global Ambitions After Tough Year - Six months ago, Indian Prime Minister Narendra Modi was fending off verbal attacks from US President Donald Trump, trying to regain the upper hand over Pakistan after an armed conflict, and facing que",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/modi-seizes-ai-summit-to-assert-india-s-global-ambitions-after-tough-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9cee3404310eec0948ab606d3197aa51",
+      "timestamp": "2026-02-17T09:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Modi Seizes AI Summit to Assert India’s Global Ambitions After Tough Year - Six months ago, Indian Prime Minister Narendra Modi was fending off verbal attacks from US President Donald Trump, trying to regain the upper hand over Pakistan after an armed conflict, and facing que",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/modi-seizes-ai-summit-to-assert-india-s-global-ambitions-after-tough-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "55ebc750dce7c42a7ff38c9feb7c6032",
+      "timestamp": "2026-02-17T08:31:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Offers Aid for Potomac River Spill in Clash With Democrats - President Donald Trump pledged federal aid to stem a Potomac River sewage spill near Washington and blamed Democrats for an environmental “calamity,” prompting a rebuttal by Maryland Governor Wes Moor",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/trump-offers-aid-for-potomac-river-spill-in-clash-with-democrats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "340c4757866cc1281b234e3d8a2805bd",
+      "timestamp": "2026-02-17T08:24:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Holds Near $5,000 as Lunar New Year Holiday Mutes Trade - Gold was little changed in early trade, with much of Asia closed for the Lunar New Year and after a US holiday on Monday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/gold-holds-near-5-000-as-lunar-new-year-holiday-mutes-trade",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1e1fbf5386b1ab5027e16b81d3909072",
+      "timestamp": "2026-02-17T08:16:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Rises as Iran Conducts Naval Drills Before Talks With US - Oil advanced from Friday’s close after Iran carried out naval drills near a major regional transit chokepoint before talks with the US are set to resume later Tuesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/latest-oil-market-news-and-analysis-for-feb-17",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4dd9ba458f2431fe971e2eb130f841b3",
+      "timestamp": "2026-02-17T08:05:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Technologies Just Proved Bitcoin Has a Clear Use Case for Fintech - The world's leading digital asset is in the early innings of its evolution away from financial speculation.",
+      "url": "https://www.fool.com/investing/2026/02/16/sofi-stock-proved-bitcoin-clear-use-case-fintech/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "72d9f404737678c6ff80021b93fb92a8",
+      "timestamp": "2026-02-17T07:33:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asia Stocks Seen Muted on Holiday Trade, Oil Gains: Markets Wrap - Asian stocks were poised for a subdued start Tuesday, with holiday-thinned trading keeping volumes light as investors await a fresh round of economic data later this week for direction.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "38bbc4f668312a757d57c5a3d3357604",
       "timestamp": "2026-02-17T07:00:02+09:00",
@@ -2108,107 +2209,6 @@
       "related_tickers": [],
       "content": "Rich World’s Growing Civil Unrest Comes With an Insurance Sting - A category of insurance risk that hardly existed a little over a decade ago has morphed into a meaningful source of losses for the industry.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-15/rich-world-s-growing-civil-unrest-comes-with-an-insurance-sting",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "797f5cd2cfb011766594e027586f8ade",
-      "timestamp": "2026-02-15T17:52:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pirelli Holder Sinochem Mulls Bond to Cut Direct Stake: Corriere - Pirelli &amp; C. SpA’s Chinese investor is weighing the sale of a convertible bond that would temporarily reduce its holding to ease US government scrutiny of the Italian tiremaker, Corriere della Ser",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/pirelli-holder-sinochem-mulls-bond-to-cut-direct-stake-corriere",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c9bf02f8b7e1eccf76bb3e5892f3bc1",
-      "timestamp": "2026-02-15T15:56:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macron to Meet India’s Modi as Tech, Defense Ties Deepen - French President Emmanuel Macron will attend the India AI Impact Summit this week and meet Prime Minister Narendra Modi as the two countries deepen ties.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/france-s-macron-to-attend-india-ai-summit-as-defense-ties-deepen",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c9bf02f8b7e1eccf76bb3e5892f3bc1",
-      "timestamp": "2026-02-15T15:56:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macron to Meet India’s Modi as Tech, Defense Ties Deepen - French President Emmanuel Macron will attend the India AI Impact Summit this week and meet Prime Minister Narendra Modi as the two countries deepen ties.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/france-s-macron-to-attend-india-ai-summit-as-defense-ties-deepen",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1240ff765d375ec8039bffd94495ea0e",
-      "timestamp": "2026-02-15T15:20:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Isn't the Only Digital Banking Stock Available in the Market. This Fintech Stock Trades at a Fraction of the Valuation and Is Growing Earnings Fast. - Investors should try to look beyond the more popular names in the market. There are often better opportunities hiding in plain sight.",
-      "url": "https://www.fool.com/investing/2026/02/15/sofi-isnt-the-only-digital-banking-stock-available/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a2cbd2dbee133a3136f29f4cac1d0dcd",
-      "timestamp": "2026-02-15T15:04:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russian Port, Fuel Tanks Hit in Drone Attack on Black Sea Region - Russia’s Black Sea coastal region came under heavy drone attack overnight, with damage reported on infrastructure at the Taman seaport and fuel tanks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/russian-port-fuel-tanks-hit-in-drone-attack-on-black-sea-region",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5386d8a3dc793bee20efc0e214718401",
-      "timestamp": "2026-02-15T14:01:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus - Goldman Sachs Group Inc. revised its forecast for China’s current-account surplus this year after incorporating data for the fourth quarter, when the measure of trade in goods and services rose to a r",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "404ccd70f5a7c642f24d0c6e5438aff6",
-      "timestamp": "2026-02-15T14:00:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US, Japan Commit to Deepening Ties as Tokyo Faces China Pressure - US Secretary of State Marco Rubio and Japanese Foreign Minister Toshimitsu Motegi reaffirmed their commitment to deepen bilateral ties in a meeting Saturday, as the Asian nation faces escalating tensi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/us-japan-commit-to-deepening-ties-as-tokyo-faces-china-pressure",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "54fc33554f0a6a5629b5b3df51700e13",
-      "timestamp": "2026-02-15T10:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes - India’s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clients, the latest measure aimed at reducing speculati",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d1c46e11b290943ddee8bba9b80f4b54",
-      "timestamp": "2026-02-15T09:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Stock Bull Run Falters With Earnings Set to Underwhelm - A worsening earnings picture is darkening the outlook for Chinese equities, leaving investors wary that Lunar New Year holiday spending may not be enough to reignite a rally.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/china-s-stock-bull-run-falters-with-earnings-set-to-underwhelm",
       "sentiment": "NEUTRAL"
     }
   ]
