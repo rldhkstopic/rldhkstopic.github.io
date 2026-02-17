@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-17T12:02:07.564328+09:00",
+  "last_updated": "2026-02-17T13:38:32.563335+09:00",
   "items": [
+    {
+      "id": "05a1582158e218b78476ff550c8397d0",
+      "timestamp": "2026-02-17T13:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bondi Beached &mdash; OK, Let’s Talk About the Dow - <p>The market’s performance under Trump 2.0&nbsp;is no better than other recent presidencies.</p>",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-02-17/bondi-beached-ok-let-s-talk-about-the-dow",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0a8b79ded290e2dcb0c097edf78f59e",
+      "timestamp": "2026-02-17T13:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Romania to Hold Rates as Sticky Inflation Prevents Debate on Cut - Romania is poised to keep one of the highest interest rates in the European Union as the fight against elevated inflation takes precedence over easing the strain on the recession-hit economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/romania-to-hold-interest-rates-as-sticky-inflation-prevents-debate-on-cut",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "33ffaa6c98d296c859b3b295caecf30c",
+      "timestamp": "2026-02-17T12:53:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Industrial Metals Decline in Thin Lunar New Year Holiday Trading - Copper and aluminum edged lower as rising stockpiles of the red metal and tariff uncertainty weighed on sentiment, with many Asian traders away from their desks for the Lunar New Year break.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/industrial-metals-decline-in-thin-lunar-new-year-holiday-trading",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f8cb94981b328d4edf82a25a3d68922e",
+      "timestamp": "2026-02-17T12:41:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan 5-Year Bond Sale Sees Weaker Demand Than 12-Month Average - Japan’s five-year government bond auction drew weaker demand than its 12-month average as investors mull the outlook for fiscal policy and the Bank of Japan’s rate-hike path.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/japan-5-year-bond-sale-sees-weaker-demand-than-12-month-average-mlq244lx",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9548e99dd4ec27b89e3f91730768acca",
       "timestamp": "2026-02-17T11:46:31+09:00",
@@ -2165,50 +2209,6 @@
       "related_tickers": [],
       "content": "Tesla CarPlay Held Back by Need for Wider Adoption of Apple’s iOS 26 - Tesla’s plan to start supporting CarPlay in its vehicles has been held back by the need for changes in iOS 26’s Maps app. Also: Apple hits fresh snags with its attempt to revamp Siri; new details on i",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-15/tesla-carplay-delays-related-to-ios-26-and-fsd-apple-s-new-siri-delays-ios-27",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0f9283b1e0f8181ec3e5849ce6065d5c",
-      "timestamp": "2026-02-15T21:47:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s World View Is Forcing a Transatlantic Realignment for Europe - Marc Rubio offered a hand of partnership to Europe, but on US terms.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-15/marco-rubio-s-munich-appeal-to-europe-can-t-stop-transatlantic-realignment",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77f64ce0adc5b37d0ab75c963b1f3ba1",
-      "timestamp": "2026-02-15T21:46:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "With Gaza in Limbo, Israel Asserts Ownership Rights in West Bank - With Gaza stuck in post-war limbo, Israel is pursuing West Bank administrative measures meant to assert ownership over land and further sideline Palestinian authorities.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/with-gaza-in-limbo-israel-asserts-ownership-rights-in-west-bank",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f4bc244eefb208c862115b9ef2bd94f2",
-      "timestamp": "2026-02-15T21:41:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lebanon Confident It Can Bridge Gaps With IMF on Recovery Plan - Lebanon’s premier said his government can overcome differences with the International Monetary Fund over a proposed law that would let depositors recover billions of dollars trapped in the country’s b",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/lebanon-confident-it-can-bridge-gaps-with-imf-on-recovery-plan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d376f935b1cf99c22535169a6a62a32b",
-      "timestamp": "2026-02-15T21:34:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kallas Says EU Can Work With US Despite Differences on Values - The European Union’s top diplomat Kaja Kallas rejected the picture of the bloc’s decline painted by the Trump administration and urged member states to accelerate Ukraine’s membership bid as a sign of",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-15/kallas-says-eu-can-work-with-us-despite-differences-on-values",
       "sentiment": "NEUTRAL"
     }
   ]
