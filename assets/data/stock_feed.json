@@ -1,6 +1,318 @@
 {
-  "last_updated": "2026-02-17T23:20:47.254322+09:00",
+  "last_updated": "2026-02-18T01:20:42.638926+09:00",
   "items": [
+    {
+      "id": "1496f1fece6c12754e472712f34c1ae8",
+      "timestamp": "2026-02-18T01:17:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Palantir Moves Headquarters to Miami From Denver - Palantir Technologies Inc. said it’s moved its headquarters to Miami from Denver as more tech firms seek to base themselves in Florida.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/palantir-moves-headquarters-to-miami-from-denver",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d50434c3d8c079e7360ea4a39af3790b",
+      "timestamp": "2026-02-18T01:12:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Could AI Overspending Spark a Credit Crisis? - Investors are worried companies are overspending &mdash; especially on AI. Thirty percent say it could trigger a credit crisis according to Bank of America's latest fund manager survey. David Manlowe,",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/could-ai-overspending-spark-a-credit-crisis-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "340db6201192452cd3ba269405a4b433",
+      "timestamp": "2026-02-18T01:11:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street’s New Game: Sports Investing - Sports investing is turning into a private capital arms race. KKR has doubled down on its push into the sector, buying Arctos, as Apollo Global Management and Ares Management outline major investment ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/wall-street-s-new-game-sports-investing-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "932659dd3b20758749c213142033978b",
+      "timestamp": "2026-02-18T01:11:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Average Tax Refunds Up More than $200 as Filing Season Opens - Average tax refunds increased more than $200 in the first two weeks of filing season compared to the same time last year, as Republicans pin their midterm pitch to voters on delivering big tax savings",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/average-tax-refunds-up-more-than-200-as-filing-season-opens-irs-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "066a672407d00a7b73d071fcbaceba3f",
+      "timestamp": "2026-02-18T01:06:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lancôme Bets Big on Longevity Science - As L’Oréal reports softer sales growth,  with its luxury division hit by weaker travel retail demand in Asia, one of its biggest brands is betting on science to reignite momentum. Lancôme is launching",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/lancome-bets-big-on-longevity-science-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f90ec219dd0ca0fbe069c1238726a027",
+      "timestamp": "2026-02-18T01:00:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Quantum Firm Infleqtion Jumps in Debut After Klein-Led SPAC Deal - Infleqtion Inc. shares climbed on Tuesday in their public debut after merging with a blank-check company sponsored by serial dealmaker Michael Klein.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/quantum-firm-infleqtion-jumps-in-debut-after-klein-led-spac-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "608bcd282ab7d7448fb32428b3d4da6a",
+      "timestamp": "2026-02-18T01:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Manager of Internet’s Biggest Stars Raises $70 Million to Expand - Night Media Inc., the talent management firm that represents social media celebrities such as popular Twitch streamer Kai Cenat, has raised $70 million to fund acquisitions and expand into gaming, spo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/manager-of-internet-s-biggest-stars-raises-70-million-to-expand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f55dafe5fa2b1bdb4f982c322aa00961",
+      "timestamp": "2026-02-18T00:55:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Guyana Plans New Gas Project ‘Very Soon’ to Diversify From Oil - Guyana is preparing a second pipeline that will bring natural gas from its deepwater oil fields to the shore where it will be used for power and other industrial development.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/guyana-plans-new-gas-project-very-soon-to-diversify-from-oil",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc81207c165ee83d9f633878aaca710a",
+      "timestamp": "2026-02-18T00:54:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Carney Promises Billions for Canada Military Gear in Pivot from US - Prime Minister Mark Carney said Canada will invest hundreds of billions of dollars in defense over the next decade, as he outlined a strategy to divert more of that money to domestic firms rather than",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/carney-promises-billions-for-canada-military-gear-in-pivot-from-us",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0ea34d9965d69671c44a759d08d84c8f",
+      "timestamp": "2026-02-18T00:48:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tech Stocks Dip as AI Doubts Linger on Wall Street - Dan Skelly, head of market research & strategy at Morgan Stanley Wealth Management, discusses AI capex expansion and valuation pressures as a selloff in several tech giants weighs on stocks amid linge",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/tech-stocks-dip-as-ai-doubts-linger-on-wall-street-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d0925395d36951c4d6569fecfecd57b7",
+      "timestamp": "2026-02-18T00:43:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Agent OpenClaw Puts Raspberry Pi Shares on Investor Radars - Tech enthusiasts’ craze for artificial intelligence program OpenClaw has sparked a blistering rally in shares of Raspberry Pi Holdings Plc, the company that makes one of the simplest forms of personal",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/ai-agent-openclaw-puts-raspberry-pi-shares-on-investor-radars",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "475afe2db0b110d2b18bf70eaafcabea",
+      "timestamp": "2026-02-18T00:19:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Google Secures Ormat Geothermal for US Data Centers - Alphabet Inc.’s Google plans to draw on geothermal power from renewable energy company Ormat Technologies to help fuel its fleet of data centers in Nevada.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/google-secures-ormat-geothermal-power-for-nevada-data-centers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "039b707a4d59f114be3af1a6e42a3484",
+      "timestamp": "2026-02-18T00:18:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "A Look At SoFi Technologies (SOFI) Valuation As Mixed Returns Contrast With Overvalued Fair Value Estimate - SoFi Technologies overview and recent performance snapshot SoFi Technologies (SOFI) has drawn fresh attention as investors reassess its diversified financial services model, which spans lending, a tec",
+      "url": "https://finance.yahoo.com/news/look-sofi-technologies-sofi-valuation-151841062.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b7c4cace25e5094f9d9e494b5b79873b",
+      "timestamp": "2026-02-18T00:18:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "MTN Agrees to Buy IHS Towers at $6.2 Billion Value - MTN Group Ltd., Africa’s biggest wireless carrier, has agreed to take over the remaining stake in IHS Holding Ltd. it doesn’t already own in a deal that values the mobile infrastructure company at abo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/africa-s-mtn-agrees-to-buy-ihs-towers-at-6-2-billion-value",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "575e2f30cef37a5a999b55f0de9fb93e",
+      "timestamp": "2026-02-18T00:15:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blackstone-Backed Ad Tech Firm Liftoff Withdraws IPO Filing - Liftoff Mobile Inc. withdrew its IPO filing, less than two weeks after the mobile advertising platform operator said it was postponing plans to raise as much as $762 million.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/blackstone-backed-ad-tech-firm-liftoff-withdraws-ipo-filing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "575e2f30cef37a5a999b55f0de9fb93e",
+      "timestamp": "2026-02-18T00:15:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blackstone-Backed Ad Tech Firm Liftoff Withdraws IPO Filing - Liftoff Mobile Inc. withdrew its IPO filing, less than two weeks after the mobile advertising platform operator said it was postponing plans to raise as much as $762 million.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/blackstone-backed-ad-tech-firm-liftoff-withdraws-ipo-filing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1a0b0ffb34de709e9722edd9082bf7b6",
+      "timestamp": "2026-02-18T00:08:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Big Bank CEO Compensation Passes 2006, 2021 Records - Chief executive officers at the top US banks all received annual compensation of at least $40 million, with their total pay surpassing records set in 2006 and 2021. Katherine Doherty reports on \"Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/big-bank-ceo-compensation-passes-2006-2021-records-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2e69d907ff88cb8f50e7803fa44d88b3",
+      "timestamp": "2026-02-18T00:03:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Memani Says the Soft Landing Is Arriving - Lafayette College CIO Krishna Memani says we've been waiting for a soft landing for three years and it's finally arriving.  (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/memani-says-the-soft-landing-is-arriving-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f1bcfb9d15fd8d5fc1705833c4034e7",
+      "timestamp": "2026-02-18T00:01:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France Fines Russia-Linked Oil Tanker in Shadow Fleet Crackdown - France will release a tanker after hitting it with a multimillion-euro fine for flouting European sanctions on Russian oil, following its seizure in the Mediterranean Sea last month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/france-fines-russia-linked-oil-tanker-in-shadow-fleet-crackdown",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8448c6f66867f3170f147fd74b9ed519",
+      "timestamp": "2026-02-18T00:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Firms Boost Currency Hedging as Tariffs Spark Losses - Tariffs and a sliding US dollar are driving companies to ramp up currency hedging after absorbing multi-million-dollar hits last year, a sign that trade wars are squeezing profits and reshaping corpor",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/companies-ramp-up-currency-hedging-as-trump-tariffs-spark-losses",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "24edf23f89004c590d04c61ee771b4dc",
+      "timestamp": "2026-02-17T23:57:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan Analysts See AI Disruption Spurring Small Bank Mergers - Smaller US banks struggling to keep up with artificial-intelligence spending may be pushed into mergers to offset the impact on their revenues, according to analysts at JPMorgan &amp; Chase &amp; Co.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/jpmorgan-analysts-see-ai-disruption-spurring-small-bank-mergers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "41b4da1a9df00e483f0d98faa297d0c1",
+      "timestamp": "2026-02-17T23:55:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lufthansa Expands Air India Partnership Under Pressure From Gulf - Deutsche Lufthansa AG expanded its partnership with Air India Ltd. as the German carrier pushes to extend its footprint amid heavy competition in one of the world’s biggest aviation markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/lufthansa-expands-air-india-partnership-under-pressure-from-gulf",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0447692c6672be8c5c55e75baa32621",
+      "timestamp": "2026-02-17T23:43:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German AfD Party Labeled Right-Wing Extremist by Western Region - The Alternative for Germany (AfD) has for the first time been classified as right-wing extremist by a federal state in the west of the country, giving authorities there enhanced powers to monitor the ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/german-afd-party-labeled-right-wing-extremist-by-western-region",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "946ba41cd532c9d1b4364c7bc6455ee8",
+      "timestamp": "2026-02-17T23:43:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stocks Slump as AI Concerns Continue to Weigh on Sentiment - US equities slid at the start of the holiday-shortened week as worries that artificial-intelligence technology may upend a large swathe of industries continued to ripple through the market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/us-stocks-waver-as-dip-buyers-wade-in-after-week-of-ai-wreckage",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7aaff6ca8d80f0d90a1f3a4a8bd41e2",
+      "timestamp": "2026-02-17T23:37:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warner Bros. Reopens Talks With Rival Paramount - Warner Bros. Discovery is talking to Paramount Skydance again after the studio sweetened its offer setting up a showdown with Netflix. Ed Ludlow has more. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/warner-bros-reopens-talks-with-rival-paramount-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cb3b39511b4f8ba991da7bcc44c38a01",
+      "timestamp": "2026-02-17T23:34:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Panama Taps Global Bond Markets for First Time Under Mulino - Panama is selling global bonds for the first time since President Jose Raul Mulino took office almost two years ago, ending a hiatus during which the government had negotiated a series of bank loans.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/panama-taps-global-bond-markets-for-first-time-under-mulino",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0f911528f8ce41d7e70103a0d8c4d063",
+      "timestamp": "2026-02-17T23:29:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BGN Hires More Trading Veterans and Eyes Oil, Refining Assets - A low-profile commodities trading house is adding more industry veterans to its roster as it looks to scale up operations and compete with bigger rivals.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/bgn-hires-more-trading-veterans-and-eyes-oil-refining-assets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3f5ad474d990bd55376e3c89359f1b71",
+      "timestamp": "2026-02-17T23:15:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi vs Ally Financial: Which Financial Stock Is the Better Buy After 2026’s Selloff? - SoFi Technologies (NASDAQ: SOFI) and Ally Financial (NYSE: ALLY) both delivered fourth-quarter earnings recently, but the market’s reaction tells two different stories. SoFi beat estimates with $1.03 ",
+      "url": "https://247wallst.com/investing/2026/02/17/sofi-vs-ally-financial-which-financial-stock-is-the-better-buy-after-2026s-selloff/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "27c0ce7cf9a3c1835975246f6e48c870",
       "timestamp": "2026-02-17T23:12:26+09:00",
@@ -10,6 +322,17 @@
       "related_tickers": [],
       "content": "Activist Investor Jana Partners Takes Stake in Fiserv - Jana Partners is a shareholder in payments processor Fiserv Inc. and is pushing for changes at the company, according to a person familiar with the matter.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-17/activist-investor-jana-partners-takes-stake-in-fiserv",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aee1b1512c86194bb8c3c5e8f139d360",
+      "timestamp": "2026-02-17T23:10:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Seeks Role in AI Future As Modi Hosts France's Macron | The Pulse 2/17 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-17/the-pulse-2-17-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -188,6 +511,17 @@
       "related_tickers": [],
       "content": "US Premarket Movers: Danaher, Fiserv, General Mills, Masimo, Zim - S&amp;P 500 Index futures fall 0.4% as of 7:45 a.m. in New York. The search for stocks on the right side of the artificial intelligence trade is front and center for investors at the start of a shorte",
       "url": "https://www.bloomberg.com/news/articles/2026-02-17/us-stock-futures-today-danaher-fiserv-general-mills-masimo-zim",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aa6b292d7c9c728f948bbdd4af720415",
+      "timestamp": "2026-02-17T21:43:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cuba Fuel Squeeze to Halt Sherritt’s Nickel-Cobalt Operations - Sherritt International Corp. plans to suspend nickel and cobalt production in Cuba as fuel supply constraints affect the struggling communist-run island. The company’s shares fell.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-17/cuba-fuel-squeeze-to-shutter-nickel-cobalt-mining-sherritt-says",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1877,340 +2211,6 @@
       "related_tickers": [],
       "content": "Rubio Says US, Hungary Are Entering 'Golden Era' of Relations - Secretary of State Marco Rubio says that the US and Hungary are entering a \"golden era\" of relations. \"President Trump is deeply committed to your success,” Rubio said at a joint news conference along",
       "url": "https://www.bloomberg.com/news/videos/2026-02-16/rubio-us-hungary-entering-golden-era-of-relations-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "09a89791fc5eddd9f6d776d599491ba5",
-      "timestamp": "2026-02-16T21:37:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "This Week In Digital Payment - Fiserv's Strategic Growth Amidst Digital Payments Evolution - Recent developments in the digital payment sector highlight the evolving landscape of financial services technology. Fiserv, a leader in payments and financial technology solutions, has reported its f",
-      "url": "https://finance.yahoo.com/news/week-digital-payment-fiservs-strategic-123751405.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4f7d9dd2d638108cb65b15de49dc6c80",
-      "timestamp": "2026-02-16T21:25:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fortress’ Latest Private Debt Fund Seeks to Lure Insurance Firms - Fortress Investment Group is adding an insurer-friendly feature to its latest fund, which will primarily invest in direct corporate loans, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/fortress-latest-private-debt-fund-seeks-to-lure-insurance-firms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e6e046d4840bc3bfe70e73e8d0c5d7d6",
-      "timestamp": "2026-02-16T21:25:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Prediction: These Could Be the Best-Performing Bank Stocks Through 2030 - These two stocks are the future of finance.",
-      "url": "https://www.fool.com/investing/2026/02/16/prediction-the-best-performing-bank-stocks-2030/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d50628f74de23da76da5540b5e0aaaa2",
-      "timestamp": "2026-02-16T21:13:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rubio to Hungary's Orban: 'Your Success Is Our Success' - US Secretary of State, speaking at a news conference in Budapest alongside Hungarian Prime Minister Viktor Orban, says, \"I can say to you with confidence that President Trump is deeply committed to yo",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-16/rubio-to-hungary-s-orban-your-success-is-our-success-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "708e803c8a50178bc0fba84e62a18ae5",
-      "timestamp": "2026-02-16T21:11:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe’s Flagship Climate Tool Tests Political Limits - The region’s market for carbon permits is drawing attention from governments wary of voter backlash.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-16/europe-s-flagship-climate-tool-tests-political-limits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "631325dd80b703d4d082b40b00cb03e7",
-      "timestamp": "2026-02-16T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk Merger Puts New Twist on X as Everything App - Social platform in different position after combination of SpaceX-xAI",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-16/musk-s-spacex-xai-merger-puts-new-twist-on-x-as-an-everything-app",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "90bbc71be988c3a7e076b4ef937e0a79",
-      "timestamp": "2026-02-16T21:00:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "'Shared Values' discussed in Munich; RAM Concerns Tech Investors | The Opening Trade 2/16/2026 - Secretary of State Marco Rubio said Europe’s fate is intertwined with the US while faulting the continent for what he said was a drift away from their shared Western values.\nThe double-edged message o",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-16/the-opening-trade-2-16-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "577ceab1f5beeb763450cadf20140aef",
-      "timestamp": "2026-02-16T21:00:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "From Tea to Tech: UK’s Halma Rides Wave of Hyperscaler Spending - A FTSE 100 company whose origins trace back to 19th-century tea plantations is riding the wave of AI-driven data center spending.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/from-tea-to-tech-uk-s-halma-rides-wave-of-hyperscaler-spending",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "577ceab1f5beeb763450cadf20140aef",
-      "timestamp": "2026-02-16T21:00:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "From Tea to Tech: UK’s Halma Rides Wave of Hyperscaler Spending - A FTSE 100 company whose origins trace back to 19th-century tea plantations is riding the wave of AI-driven data center spending.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/from-tea-to-tech-uk-s-halma-rides-wave-of-hyperscaler-spending",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2629060fd986c6cf7fbd039760a226df",
-      "timestamp": "2026-02-16T20:51:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Memory Chip Shortage is Global Crisis in the Making | The Pulse 2/16/2026 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-16/the-pulse-2-16-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0abd80fb522ff38e03e653476108ab8e",
-      "timestamp": "2026-02-16T20:48:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Contradiction at the Heart of the AI Selloff - <p>The stock market turmoil unleashed by AI reflects two distinct theories. Both can’t be right.&nbsp;</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-16/the-contradiction-at-the-heart-of-the-ai-selloff",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "31940b0095c9b1e7d7e59408441a0257",
-      "timestamp": "2026-02-16T20:36:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morgan Stanley Shuffles Investment Banking Leaders in Europe - Morgan Stanley has made a raft of changes to its European investment banking leadership, ahead of an anticipated surge in mergers and acquisitions in the region.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/morgan-stanley-names-bertagna-deputy-emea-investment-bank-head",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9402e73cb2b696e7316f80d545bfaef",
-      "timestamp": "2026-02-16T20:20:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Highway Authority Plans Infra Trust IPO in March - The National Highways Authority of India is preparing to launch an initial public offering of its infrastructure investment trust, which could raise as much as 57 billion rupees ($629 million), as soo",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/india-highway-authority-is-said-to-plan-infra-trust-ipo-in-march",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "731fa0939b86ed1ff978a2dbf63dc8b1",
-      "timestamp": "2026-02-16T20:18:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morgan Stanley Sees South African Budget Extending Bond Surge - The rally in South African bonds is set to gain further impetus when Finance Minister Enoch Godongwana unveils his budget later this month, according to analysts at Morgan Stanley.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/morgan-stanley-sees-south-african-budget-extending-bond-surge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "01d4978118df936d7154ca21184c6723",
-      "timestamp": "2026-02-16T20:14:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rubio Pledges US Support for Hungary’s Orban Ahead of Tight Vote - US President Donald Trump would be ready to provide assistance if Hungary had any financial trouble, Secretary of State Marco Rubio said at a joint press conference with Prime Minister Viktor Orban in",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/rubio-pledges-us-support-for-hungary-s-orban-ahead-of-tight-vote",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a3514d4ba034be6ad26a53a9c3b9896a",
-      "timestamp": "2026-02-16T19:59:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macron in India Joins Race for Global Allies - France sees a shared ambition with India of greater sovereignty and independence in defense.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-16/macron-on-indian-mission-as-transatlantic-ties-fray",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ad38a5bfda609ffe5527696fca43ed9c",
-      "timestamp": "2026-02-16T19:42:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Says Gilts to Look Past Political Risk in Strong 2026 - UK bonds will rally in 2026 to send government borrowing costs to the lowest since 2024, driven by Bank of England interest-rate cuts, according to a Goldman Sachs Group Inc. strategist.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/goldman-says-gilts-to-look-past-political-risk-in-strong-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6a82169bdd611fc16c82b7f70e2cd45a",
-      "timestamp": "2026-02-16T19:30:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Submarine Tech-Firm Gabler Group Plans IPO in Frankfurt - Gabler Group, a maker of submarine technology components that derives most of its revenue from defense contracts, announced plans for an initial public offering in Frankfurt.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/submarine-tech-firm-gabler-group-plans-ipo-in-frankfurt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "758e07d00503903205ce7c004418139f",
-      "timestamp": "2026-02-16T19:13:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman’s Snider Says Analysts Turn Positive on Software Profits - Analysts are lifting earnings estimates for software stocks, undeterred by the selloff over artificial intelligence disruption worries, according to Goldman Sachs Group Inc. strategists.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/goldman-s-snider-says-analysts-turn-positive-on-software-profits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "758e07d00503903205ce7c004418139f",
-      "timestamp": "2026-02-16T19:13:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman’s Snider Says Analysts Turn Positive on Software Profits - Analysts are lifting earnings estimates for software stocks, undeterred by the selloff over artificial intelligence disruption worries, according to Goldman Sachs Group Inc. strategists.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/goldman-s-snider-says-analysts-turn-positive-on-software-profits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "02ccf9e722869d42dcc8760bf4018998",
-      "timestamp": "2026-02-16T19:12:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk, Cook Warn of Memory Chip Crisis as Demand From AI Grows - A growing procession of tech industry leaders including Elon Musk and Tim Cook are warning about a global crisis in the making: A shortage of memory chips is beginning to hammer profits, derail corpor",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-16/musk-cook-warn-of-chip-crisis-as-demand-from-ai-grows-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3616ed28b3e751d0ccdb7dde6ba9a64c",
-      "timestamp": "2026-02-16T19:10:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brokers Forced to Rethink Funding Playbook as India Curbs Loans - India’s move to tighten bank lending norms for firms engaged in proprietary trading of shares and commodities is set to push these companies toward alternative sources of capital.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/brokers-forced-to-rethink-funding-playbook-as-india-curbs-loans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ceb692c8475738f4af45976ce5e0d2a4",
-      "timestamp": "2026-02-16T19:04:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rosebank in Talks to Buy Two US Companies for Over $3 Billion - Rosebank Industries Plc, the latest buyout vehicle of former Melrose Industries Plc executives, is in advanced discussions to acquire two US businesses for a total of $3.05 billion including debt.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/rosebank-in-talks-to-buy-two-us-companies-for-over-3-billion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ea50897501c2a17808000068beeb739",
-      "timestamp": "2026-02-16T19:04:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Private Markets Data Void Obscures Hunt for Next Crash - The rise of private markets has obscured data which regulators and economists rely on to identify risks in the global economy, as Bloomberg's Laura Noonan explains. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-16/private-markets-data-void-obscures-hunt-for-next-crash-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a503ced81923f95706833fda4e843bb8",
-      "timestamp": "2026-02-16T19:02:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mubadala, Saudi Billionaire Family Invest in Egypt’s Breadfast - The United Arab Emirates’ $330 billion sovereign wealth fund, a Saudi billionaire family and Japan’s SBI Investment Co. have backed Egyptian startup Breadfast in its latest financing round, as the e-c",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/mubadala-saudi-billionaire-family-invest-in-egypt-s-breadfast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c19838bf859363d488e861574d9cdd4",
-      "timestamp": "2026-02-16T18:56:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Looks for Direction After Four Straight Weekly Losses - Bitcoin fluctuated after posting its fourth consecutive weekly loss, with the cryptocurrency struggling to find clear direction as a weekend rally fizzled.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/bitcoin-looks-for-direction-after-four-straight-weekly-losses",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f816115b54015cd9cc246a1b34704ea0",
-      "timestamp": "2026-02-16T18:55:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pakistan’s Imran Khan Seeks Release From Jail on Medical Grounds - Pakistan’s former Prime Minister Imran Khan is pressing for his release, citing a deteriorating eye condition in prison, as his allies enter the third day of a sit-in protest in parliament.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/pakistan-s-imran-khan-seeks-release-from-jail-on-medical-grounds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e96c24ae91535e0887fb5056453500cd",
-      "timestamp": "2026-02-16T18:48:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lebanon PM, Syria Foreign Min Exclusives at Munich Security Conf. - Lebanese Prime Minister Nawaf Salam says his government can overcome differences with the IMF over a proposed law that would let depositors recover billions of dollars trapped in the country's beleagu",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-16/lebanon-prime-minister-syria-foreign-min-exclusives-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "831ab29a8662b3db180ee6dc87720702",
-      "timestamp": "2026-02-16T18:43:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AMD Takes on Nvidia in India With Expanded Tata AI Partnership - Advanced Micro Devices Inc. is partnering with Tata Consultancy Services Ltd. to deploy the US chipmaker’s latest AI data center technology in India, challenging Nvidia Corp. in one of the world’s fas",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-16/amd-takes-on-nvidia-in-india-with-expanded-tata-ai-partnership",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d3019dd87ab0dca75400ee2d467ab03c",
-      "timestamp": "2026-02-16T18:38:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Horizons Middle East & Africa 2/16/2026 - Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-16/horizons-middle-east-africa-2-16-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
