@@ -9,7 +9,7 @@ layout: default
         <nav class="post-breadcrumb">
           <a href="{{ '/' | relative_url }}">홈</a>
           <span class="breadcrumb-separator">›</span>
-          {% assign category_names = 'study:📖 Study,dev:💻 Dev,daily:👋 Daily,document:📑 Document' | split: ',' %}
+          {% assign category_names = 'study:📖 Study,dev:💻 Dev,daily:👋 Daily,document:📑 Document,project:📂 Project' | split: ',' %}
           {% for cat_pair in category_names %}
             {% assign cat_data = cat_pair | split: ':' %}
             {% if cat_data[0] == page.category %}
@@ -17,6 +17,13 @@ layout: default
             {% endif %}
           {% endfor %}
         </nav>
+      {% endif %}
+      {% if page.tags and page.tags.size > 0 %}
+      <div class="post-header-tags">
+        {% for tag in page.tags limit: 2 %}
+          <span class="post-header-tag">#{{ tag }}</span>
+        {% endfor %}
+      </div>
       {% endif %}
       <h1 class="post-title">{{ page.title | escape }}</h1>
       <div class="doc-meta-row">
@@ -31,7 +38,7 @@ layout: default
           </time>
         </span>
         {% if page.category %}
-          {% assign category_names = 'daily:일기,dev:개발,document:문서,study:학습,stock:주식' | split: ',' %}
+          {% assign category_names = 'daily:일기,dev:개발,document:문서,study:학습,stock:주식,project:프로젝트' | split: ',' %}
           {% assign category_display = page.category %}
           {% for cat_pair in category_names %}
             {% assign cat_data = cat_pair | split: ':' %}
@@ -82,6 +89,17 @@ layout: default
     <div class="post-content" id="post-content">
       {{ content }}
     </div>
+
+    {% if page.tags and page.tags.size > 0 %}
+    <div class="post-tags-bottom">
+      <strong class="post-tags-label">Tags</strong>
+      <div class="post-tags-list">
+        {% for tag in page.tags %}
+          <span class="post-tag-pill">#{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
 
   <div class="post-footer-info">
     <!-- 좋아요 및 공유 버튼 -->
@@ -191,15 +209,7 @@ layout: default
       </a>
     </div>
 
-    {% if page.tags.size > 0 %}
-      <div class="sidebar-tags-bar">
-        <div class="sidebar-tags">
-          {% for tag in page.tags %}
-            <span class="sidebar-tag">{{ tag }}</span>{% unless forloop.last %} · {% endunless %}
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
+    {% comment %} 태그는 본문 하단에 모아서 표시하므로 사이드바에서는 숨김 {% endcomment %}
 
     <nav class="post-toc" id="postTOC">
       <div class="toc-header">

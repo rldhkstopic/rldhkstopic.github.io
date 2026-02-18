@@ -1,0 +1,28 @@
+---
+layout: default
+title: 디지털 빔조향
+permalink: /project/digital-beam-steering/
+---
+
+<div class="category-page">
+  <h1 class="category-page-title">📂 프로젝트 › 디지털 빔조향</h1>
+  
+  {% assign beam_posts = site.posts | where: "category", "project" | where: "subcategory", "디지털 빔조향" %}
+  {% if beam_posts.size > 0 %}
+    <div class="post-list">
+      {% for post in beam_posts %}
+        <a href="{{ post.url | relative_url }}" class="post-list-item">
+          <span class="post-list-title">{{ post.title | escape }}</span>
+          <div class="post-list-meta">
+            <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+            <span class="post-list-views">조회 {{ post.views | default: 0 }}</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="post-list-item empty">
+      <span>아직 포스트가 없습니다.</span>
+    </div>
+  {% endif %}
+</div>

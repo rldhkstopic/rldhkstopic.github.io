@@ -61,7 +61,7 @@
   <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %} layout-lobehub">
     <header class="site-header lobehub-header">
       <div class="header-inner">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a class="site-title" href="{{ '/' | relative_url }}">DevLogs</a>
         <nav class="site-nav">
           <div class="nav-links">
             <a class="nav-link" href="{{ '/' | relative_url }}">홈</a>
@@ -71,6 +71,7 @@
             <a class="nav-link" href="/daily/">일기</a>
             <a class="nav-link" href="/study/">학습</a>
             <a class="nav-link" href="/stock/">주식</a>
+            <a class="nav-link" href="/project/">프로젝트</a>
           </div>
           <div class="trigger" style="position: relative;">
             <!-- 라이트/다크 모드 토글 -->
@@ -137,12 +138,7 @@
     </header>
 
     <main class="page-content lobehub-main">
-      <div class="wrapper content-wrapper{% if page.layout == 'post' %} content-wrapper-with-hero{% endif %}">
-        {% if page.layout == 'post' %}
-          <div class="home home-single">
-            {% include hero-card.html %}
-          </div>
-        {% endif %}
+      <div class="wrapper content-wrapper{% if page.url == '/' or page.url == '/index.html' %} content-wrapper-with-hero{% endif %}">
         {{ content }}
       </div>
     </main>
@@ -267,6 +263,19 @@
               if (closeBtn) closeBtn.focus();
             });
           }
+
+          // 카테고리 탭 패널(일기/개발/VHDL/문서/학습/주식) 내 정렬 셀렉트 바인딩
+          document.querySelectorAll('.overview-document-section').forEach(function(section) {
+            if (section.id && section.id.indexOf('category-') === 0) {
+              var catList = section.querySelector('ul.overview-document-list');
+              var catSelect = section.querySelector('select.overview-document-sort-select');
+              if (catList && catSelect) {
+                catSelect.addEventListener('change', function() {
+                  applySortToList(catList, catSelect.value);
+                });
+              }
+            }
+          });
         }
 
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initDocumentSort);

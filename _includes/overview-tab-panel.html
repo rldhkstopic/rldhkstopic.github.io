@@ -29,27 +29,59 @@
               </select>
             </div>
           </header>
-          <ul class="overview-document-list tab-panel-post-list" id="overview-document-list">
-            {% assign doc_visible_index = 0 %}
-            {% for post in document_posts %}
-              {% assign is_economy = false %}
-              {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
-              {% unless is_economy %}
-                {% assign doc_visible_index = doc_visible_index | plus: 1 %}
-                <li class="tab-panel-card js-document-item {% if doc_visible_index > 10 %}overview-document-item-hidden{% endif %}" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                  <a href="{{ post.url | relative_url }}" class="tab-panel-card-link" data-post-date="{{ post.date | date_to_xmlschema }}">
-                    <div class="tab-panel-card-top">
-                      <span class="tab-panel-card-avatar" aria-hidden="true">📄</span>
-                      <time class="tab-panel-card-time">{{ post.date | date: "%Y.%m.%d" }}</time>
-                      <span class="tab-panel-card-by">{{ post.author | default: site.title }}</span>
-                      <span class="tab-panel-card-cat">· Published in {{ post.subcategory | default: "문서" }}</span>
+        <ul class="overview-document-list tab-panel-post-list" id="overview-document-list">
+          {% assign doc_visible_index = 0 %}
+          {% for post in document_posts %}
+            {% assign is_economy = false %}
+            {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
+            {% unless is_economy %}
+              {% assign doc_visible_index = doc_visible_index | plus: 1 %}
+              <li class="tab-panel-card js-document-item {% if doc_visible_index > 10 %}overview-document-item-hidden{% endif %}" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
+                <article class="overview-doc-card">
+                  <div class="overview-doc-breadcrumb">
+                    <span class="overview-doc-breadcrumb-item">
+                      <a href="{{ '/' | relative_url }}">Home</a>
+                    </span>
+                    <span class="overview-doc-breadcrumb-sep">/</span>
+                    {% assign main_cat = post.category | default: 'document' %}
+                    <span class="overview-doc-breadcrumb-item">
+                      {% case main_cat %}
+                      {% when 'dev' %}Dev
+                      {% when 'daily' %}Daily
+                      {% when 'study' %}Study
+                      {% when 'stock' %}Stock
+                      {% else %}Document
+                      {% endcase %}
+                    </span>
+                    {% if post.subcategory %}
+                      <span class="overview-doc-breadcrumb-sep">/</span>
+                      <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">{{ post.subcategory }}</span>
+                    {% endif %}
+                  </div>
+                  <div class="overview-doc-main">
+                    <h3 class="overview-doc-title">
+                      <a class="overview-doc-title-link" href="{{ post.url | relative_url }}" data-post-date="{{ post.date | date_to_xmlschema }}">
+                        {{ post.title | escape }}
+                      </a>
+                    </h3>
+                    <p class="overview-doc-excerpt">
+                      {% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}
+                    </p>
+                    <div class="overview-doc-meta-row">
+                      <span class="overview-doc-meta-item">{{ post.subcategory | default: "문서" }}</span>
+                      {% if post.tags and post.tags.size > 0 %}
+                        <div class="overview-doc-tags">
+                          {% for tag in post.tags limit: 2 %}
+                            <span class="overview-doc-tag">#{{ tag }}</span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
                     </div>
-                    <h3 class="tab-panel-card-title">{{ post.title | escape }}</h3>
-                    <p class="tab-panel-card-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 90 }}{% else %}{{ post.content | strip_html | truncate: 90 }}{% endif %}</p>
-                  </a>
-                </li>
-              {% endunless %}
-            {% endfor %}
+                  </div>
+                </article>
+              </li>
+            {% endunless %}
+          {% endfor %}
             {% if doc_total_count == 0 %}
               <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
             {% endif %}
@@ -86,25 +118,120 @@
         {% assign watchlist = site.data.stock_watchlist | first %}
         <div class="overview-mini-cards">
           <div class="overview-mini-card overview-mini-card-lang lang-doc-card">
-            <header class="lang-doc-header">
-              <h3 class="lang-doc-title">개발문서</h3>
-              <a href="{{ '/dev/wiki/' | relative_url }}" class="lang-doc-more" title="개발 문서 전체">전체</a>
-            </header>
-            <div class="lang-doc-body">
-              <section class="lang-doc-group">
-                <a href="{{ '/dev/vhdl/' | relative_url }}" class="lang-doc-group-label">VHDL</a>
-                <nav class="lang-doc-links" aria-label="VHDL 문서">
-                  <a href="{{ '/dev/vhdl/syntax/' | relative_url }}" class="lang-doc-link">문법</a>
-                  <a href="{{ '/dev/vhdl/errors/' | relative_url }}" class="lang-doc-link">오류 해결</a>
-                </nav>
-              </section>
-              <section class="lang-doc-group">
-                <a href="{{ '/dev/csharp/' | relative_url }}" class="lang-doc-group-label">C#</a>
-                <nav class="lang-doc-links" aria-label="C# 문서">
-                  <a href="{{ '/dev/csharp/guide/' | relative_url }}" class="lang-doc-link">가이드</a>
-                </nav>
-              </section>
-            </div>
+            <nav class="dev-explorer-nav" aria-label="카테고리 탐색">
+              <ul class="dev-explorer-root">
+                <li>
+                  <details class="dev-explorer-group">
+                    <summary class="dev-explorer-summary">
+                      <span class="dev-explorer-summary-left">
+                        <span class="dev-explorer-chevron" aria-hidden="true">›</span>
+                        <span class="dev-explorer-summary-icon">📂</span>
+                        <span class="dev-explorer-summary-label">프로젝트</span>
+                      </span>
+                    </summary>
+                    <ul class="dev-explorer-children">
+                      <li><a class="dev-explorer-leaf-link" href="{{ '/project/' | relative_url }}">프로젝트</a></li>
+                      <li><a class="dev-explorer-leaf-link" href="{{ '/project/digital-beam-steering/' | relative_url }}">디지털 빔조향</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details class="dev-explorer-group">
+                    <summary class="dev-explorer-summary">
+                      <span class="dev-explorer-summary-left">
+                        <span class="dev-explorer-chevron" aria-hidden="true">›</span>
+                        <span class="dev-explorer-summary-icon">☕</span>
+                        <span class="dev-explorer-summary-label">일상</span>
+                      </span>
+                    </summary>
+                    <ul class="dev-explorer-children">
+                      <li><a class="dev-explorer-leaf-link" href="{{ '/daily/' | relative_url }}">Diary</a></li>
+                      <li><a class="dev-explorer-leaf-link" href="#">Travel</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details class="dev-explorer-group" open>
+                    <summary class="dev-explorer-summary">
+                      <span class="dev-explorer-summary-left">
+                        <span class="dev-explorer-chevron" aria-hidden="true">›</span>
+                        <span class="dev-explorer-summary-icon">&lt;/&gt;</span>
+                        <span class="dev-explorer-summary-label">개발일지</span>
+                      </span>
+                    </summary>
+                    <ul class="dev-explorer-children">
+                      <li>
+                        <details class="dev-explorer-subgroup" open>
+                          <summary class="dev-explorer-subsummary">
+                            <span class="dev-explorer-chevron" aria-hidden="true">›</span>
+                            <span class="dev-explorer-subsummary-label">VHDL</span>
+                          </summary>
+                          <ul class="dev-explorer-leaf-list">
+                            <li><a class="dev-explorer-leaf-link" href="{{ '/dev/vhdl/syntax/' | relative_url }}">Grammar</a></li>
+                            <li><a class="dev-explorer-leaf-link" href="{{ '/dev/vhdl/guide/' | relative_url }}">Guide</a></li>
+                            <li><a class="dev-explorer-leaf-link" href="{{ '/dev/vhdl/errors/' | relative_url }}">Errors</a></li>
+                          </ul>
+                        </details>
+                      </li>
+                      <li>
+                        <details class="dev-explorer-subgroup">
+                          <summary class="dev-explorer-subsummary">
+                            <span class="dev-explorer-chevron" aria-hidden="true">›</span>
+                            <span class="dev-explorer-subsummary-label">C#</span>
+                          </summary>
+                          <ul class="dev-explorer-leaf-list">
+                            <li><a class="dev-explorer-leaf-link" href="{{ '/dev/csharp/guide/' | relative_url }}">Syntax</a></li>
+                            <li><a class="dev-explorer-leaf-link" href="{{ '/dev/csharp/examples/' | relative_url }}">.NET Core</a></li>
+                          </ul>
+                        </details>
+                      </li>
+                      <li>
+                        <details class="dev-explorer-subgroup">
+                          <summary class="dev-explorer-subsummary">
+                            <span class="dev-explorer-chevron" aria-hidden="true">›</span>
+                            <span class="dev-explorer-subsummary-label">Python</span>
+                          </summary>
+                          <ul class="dev-explorer-leaf-list">
+                            <li><a class="dev-explorer-leaf-link" href="#">Scripts</a></li>
+                            <li><a class="dev-explorer-leaf-link" href="#">Pandas</a></li>
+                          </ul>
+                        </details>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details class="dev-explorer-group">
+                    <summary class="dev-explorer-summary">
+                      <span class="dev-explorer-summary-left">
+                        <span class="dev-explorer-chevron" aria-hidden="true">›</span>
+                        <span class="dev-explorer-summary-icon">🛠️</span>
+                        <span class="dev-explorer-summary-label">Tools</span>
+                      </span>
+                    </summary>
+                    <ul class="dev-explorer-children">
+                      <li><a class="dev-explorer-leaf-link" href="{{ '/dev/vivado/' | relative_url }}">Vivado</a></li>
+                      <li><a class="dev-explorer-leaf-link" href="{{ '/editor/' | relative_url }}">VS Code</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details class="dev-explorer-group">
+                    <summary class="dev-explorer-summary">
+                      <span class="dev-explorer-summary-left">
+                        <span class="dev-explorer-chevron" aria-hidden="true">›</span>
+                        <span class="dev-explorer-summary-icon">₩</span>
+                        <span class="dev-explorer-summary-label">경제공부</span>
+                      </span>
+                    </summary>
+                    <ul class="dev-explorer-children">
+                      <li><a class="dev-explorer-leaf-link" href="{{ '/stock/' | relative_url }}">Stocks</a></li>
+                      <li><a class="dev-explorer-leaf-link" href="#">Savings</a></li>
+                    </ul>
+                  </details>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div class="overview-mini-card overview-mini-card-stock stock-job-theme">
             <div class="stock-card-list-section">
