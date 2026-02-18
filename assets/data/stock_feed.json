@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-02-18T13:40:03.905186+09:00",
+  "last_updated": "2026-02-18T15:25:07.917270+09:00",
   "items": [
+    {
+      "id": "d012aab8ca84ab50214f84042e3823e3",
+      "timestamp": "2026-02-18T15:13:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cheveley: Copper Being Dragged to US by Tariff Threats - Gold advanced back above $4,900 an ounce as dip-buyers snapped up the metal after a two-day drop. Meanwhile copper rose, trimming losses earlier in the week, as risk assets including equities advanced",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-18/cheveley-copper-being-dragged-to-us-by-tariff-threats-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "52b7b0d1e642fe1e9ecb12b7ecc926a9",
+      "timestamp": "2026-02-18T15:04:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Takaichi Formally Elected PM, Eyes Expedited Budget Deliberation - Sanae Takaichi was formally reelected as Japan’s Prime Minister on Wednesday following her resounding electoral win, a formality that allows her to turn her attention to expediting budget deliberation",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/takaichi-formally-elected-pm-eyes-expedited-budget-deliberation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5fb083f14e38395f5d33c08600d1e5ec",
+      "timestamp": "2026-02-18T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Top-Tier Patek Philippe Models Drive Gains in Second-Hand Market - Ultra-high-end Patek Philippe timepieces made from precious metals are driving a sustained recovery in the used watch market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/top-tier-patek-philippe-models-drive-gains-in-second-hand-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "832403746d35b2accfee3f17f57d34b5",
+      "timestamp": "2026-02-18T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Novo Holdings, ACS Back $260 Million Quantonation Fund - Quantum investment firm Quantonation Ventures has raised €220 million ($260 million) for its second fund devoted to physics-based technologies, backed by data center builder ACS SA and Novo Nordisk A/",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/novo-holdings-acs-back-220-million-quantonation-ventures-fund",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "5714860ce4fb50e4acef92c8c1cfeab3",
       "timestamp": "2026-02-18T13:00:04+09:00",
@@ -2161,50 +2205,6 @@
       "related_tickers": [],
       "content": "Carlyle, BlackRock Buy Cheap Software Loans to Boost CLO Profits - As managers of collateralized loan obligations sell a rash of bank loans seen as vulnerable to AI, some buyers are seeking to pry profits out of a market that’s been squeezed by rock-bottom margins fo",
       "url": "https://www.bloomberg.com/news/articles/2026-02-17/carlyle-blackrock-buy-cheap-software-loans-to-boost-clo-profits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca2aa78f2607455fd6bfec61bce6871c",
-      "timestamp": "2026-02-17T20:36:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hungary Bond Rally Looks Frothy After Rubio’s Pledge, Aviva Says - Hungarian bonds extended gains after the latest US pledge of financial support for Prime Minister Viktor Orban, raising new questions about the sustainability of the rally, according to asset manager ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/hungary-bond-rally-looks-frothy-after-rubio-s-pledge-aviva-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca2aa78f2607455fd6bfec61bce6871c",
-      "timestamp": "2026-02-17T20:36:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hungary Bond Rally Looks Frothy After Rubio’s Pledge, Aviva Says - Hungarian bonds extended gains after the latest US pledge of financial support for Prime Minister Viktor Orban, raising new questions about the sustainability of the rally, according to asset manager ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/hungary-bond-rally-looks-frothy-after-rubio-s-pledge-aviva-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1206f9eea841b7daafd0903c5f7a0f80",
-      "timestamp": "2026-02-17T20:30:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Investors Pile Into South African Bonds at Weekly Debt Sale - Demand surged at South Africa’s weekly government bond auction as investor optimism grew ahead of next week’s budget.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/investors-pile-into-south-african-bonds-at-weekly-debt-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ae7b5045596f239dbacae4a5c18a565",
-      "timestamp": "2026-02-17T20:30:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Colombian Candidates Retreat as Violence Shakes 2026 Election - <p>US demands to hunt down and extradite warlords threaten&nbsp;to unleash more violence before May’s&nbsp;vote</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-17/colombia-election-2026-violence-is-surging-as-candidates-face-gang-threats",
       "sentiment": "NEUTRAL"
     }
   ]
