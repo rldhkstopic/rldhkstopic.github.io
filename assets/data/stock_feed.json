@@ -1,6 +1,239 @@
 {
-  "last_updated": "2026-02-19T01:21:41.662171+09:00",
+  "last_updated": "2026-02-19T03:17:04.025934+09:00",
   "items": [
+    {
+      "id": "a0f0e5b10859e6d6e129dd69fe21f901",
+      "timestamp": "2026-02-19T03:09:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Truth About AI Panic - A list of all the ways AI will decimate jobs went viral. The truth is much more boring, Bloomberg Opinion columnist Parmy Olson says. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-18/opinion-the-truth-about-ai-panic-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "602a3c8ab2476e45eb7967ee92c53ce1",
+      "timestamp": "2026-02-19T03:02:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB Is Putting Independence at Risk With Lagarde Exit Maneuvers - European leaders may be about to get the chance to decide on one of the region’s most influential jobs before a possible far-right win in French elections next year. It’s a huge opportunity that also ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/ecb-is-putting-independence-at-risk-with-lagarde-exit-maneuvers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "96b18f7f54b7dc290c7327049faf94bb",
+      "timestamp": "2026-02-19T03:00:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pritzker Proposes $56 Billion Budget Amid Threat of Federal Cuts - Illinois Governor JB Pritzker proposed an approximately $56 billion budget for the coming year as the state faces higher costs and more uncertainty around federal funding under President Donald Trump.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/pritzker-proposes-56-billion-budget-amid-threat-of-federal-cuts",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a90c5ae9b0533011e9cd84b7b7c1ca0",
+      "timestamp": "2026-02-19T02:58:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nestlé Weighs Reducing Exposure to Ice Cream Business - Nestlé SA is considering further reducing its footprint in the ice cream business, as new Chief Executive Officer Philipp Navratil reviews the company’s sprawling operations, people with knowledge of ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/nestle-weighs-reducing-exposure-to-ice-cream-business",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8eecb62fc8a6a63db59a5f3af490a400",
+      "timestamp": "2026-02-19T02:41:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ivory Coast Raises $1.3 Billion as African Issuers Tap Eurobonds - Ivory Coast raised $1.3 billion in eurobonds on Wednesday to help finance its budget, as African nations exploit lower borrowing costs and risk-on investor sentiment to tap markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/ivory-coast-raises-1-3-billion-as-african-issuers-tap-eurobonds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b909d4d044a6a80621058bb4cea7066",
+      "timestamp": "2026-02-19T02:29:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer Seeks New Money to Accelerate Defense Spending Uplift - Keir Starmer is pushing the Treasury to accelerate plans to increase UK defense spending, after being persuaded by military chiefs that swifter action is needed to restore the country’s hollowed-out f",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/starmer-seeks-new-money-to-accelerate-defense-spending-uplift",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9c2b9d9309dfe6d3c45994263cb8360d",
+      "timestamp": "2026-02-19T02:23:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI’s Shale Moment - Death of a capex boom.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-18/ai-s-shale-moment",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a803d3e401455959c62be84c2adc3ad5",
+      "timestamp": "2026-02-19T02:20:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB’s Schnabel Sees No Need to Leave Her Board Seat Early - Isabel Schnabel said she’s committed to serving out her term on the European Central Bank’s Executive Board.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/ecb-s-schnabel-sees-no-need-to-leave-her-board-seat-early",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3ab566b2b59b8a2f2f0e2501fa249b80",
+      "timestamp": "2026-02-19T02:07:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Software Stocks Lure Retail Dip Buyers at Record Pace, Citadel Securities Says - With Wall Street frantically repricing shares in software makers threatened by AI tools, one group of investors is lining up to buy the dip.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/software-stocks-lure-retail-dip-buyers-at-record-pace-citadel-securities-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3834fef360dd24e56c126dbc91c1475d",
+      "timestamp": "2026-02-19T02:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Teenage Intern Helped Netgear Stop Scammers from Ripping Off Customers - Lawyers ultimately traced scammers’ money back to the source.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-18/teenage-intern-helped-netgear-stop-scammers-from-ripping-off-customers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "130d6cdf9249c11f386f2a12870234df",
+      "timestamp": "2026-02-19T01:51:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spain Floats Plan to Allow Indra Defense Deal, Maintain Control - The Spanish government has floated a proposal to move Indra Sistemas SA’s defense assets into a new subsidiary that could participate in consolidation, while maintaining state control over the parent ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/spain-floats-plan-to-allow-indra-defense-deal-maintain-control",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c370393852a0fde9279f38b4a229d20",
+      "timestamp": "2026-02-19T01:48:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How the Super Bowl Came Back to San Francisco - Super Bowl 60 was played in Levi Stadium in Santa Clara, California. The city had only hosted two other Super Bowls prior &mdash; and had to make a ton of upgrades to the stadium to bring the game bac",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-18/how-the-super-bowl-came-back-to-san-francisco-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7343c44cce4ab0afb580f71c164a445d",
+      "timestamp": "2026-02-19T01:48:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "This Fintech Uses Blockchain to Streamline Lending. Its Stock Is Up 50% Since Its IPO. - Figure says blockchain technology will slash transaction costs and prove to be a cheaper way to show ownership of assets.",
+      "url": "https://finance.yahoo.com/m/3d22156f-0a3b-3a79-837e-bb5330483192/this-fintech-uses-blockchain.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "902edc909f5f1bcc84e3de5b89e63d8f",
+      "timestamp": "2026-02-19T01:46:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Growth Will Slow, But There is Still Value: Oden - HSBC Head of Wealth and Private Banking Racquel Oden says there are still opportunities in the current repricing moment, such as Asian emerging markets and the 'forgotten 493' in the S&P 500. She spea",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-18/growth-will-slow-but-there-is-still-value-oden-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3925ded33b145084acf3e85192469aff",
+      "timestamp": "2026-02-19T01:45:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Story Isn't Dead: Lovell - Nadia Lovell, Head of Global Equity Strategy at UBS Global Wealth, is still constructive on the US and areas in tech that will be beneficiaries of capex spending. She speaks to Bloomberg's Dani Burger",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-18/ai-story-isn-t-dead-lovell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "df2e087478ad1362052fcf5a64baffc1",
+      "timestamp": "2026-02-19T01:37:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Romania Premier Vows to Press Ahead With Reforms After Court Win - Romanian Prime Minister Ilie Bolojan scored a victory after a top court backed his government’s bill to overhaul judicial pensions &mdash; and vowed to press on with further public sector reforms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/romanian-premier-vows-to-press-head-with-reforms-after-court-win",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e9dc8b5f09d93c340b37a0650c61322f",
+      "timestamp": "2026-02-19T01:35:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zuckerberg to Defend Meta’s Youth Strategy at Social Media Addiction Trial - Mark Zuckerberg is set to take the stand at a landmark trial over social media addiction and face a barrage of questions about how Meta Platforms Inc. balances protecting young users on its platforms ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/zuckerberg-to-defend-meta-s-youth-strategy-at-addiction-trial",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "943e721b563e130ada95fb55914851b6",
+      "timestamp": "2026-02-19T01:31:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bloomberg Surveillance 2/18/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-18/bloomberg-surveillance-2-18-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "20a52c68e70f8ebb1aacf3bdcac6914a",
+      "timestamp": "2026-02-19T01:26:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Pioneer Fei-Fei Li’s Startup World Labs Raises $1 Billion - World Labs, a startup from artificial intelligence pioneer Fei-Fei Li, raised $1 billion in a new round of funding to pursue a novel approach to AI development.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b181c0bd2fde0db5a652211534ec1631",
+      "timestamp": "2026-02-19T01:24:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Billionaire Les Wexner Says He Visited Epstein’s Private Island - Billionaire retail tycoon Leslie Wexner told a US House panel Wednesday that he visited disgraced financier Jeffrey Epstein’s private Caribbean island but said he wasn’t aware of Epstein’s sex traffic",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/billionaire-les-wexner-says-he-visited-epstein-s-private-island",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d2afea0bb1dbb1da6ebd3c690e33d0d",
+      "timestamp": "2026-02-19T01:22:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Just Officially Ushered in Podcasting’s Generational Shift - Apple Podcasts’ fresh leap into video podcasts refocuses the audio medium on visuals",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-18/apple-just-officially-ushered-in-podcasting-s-generational-shift",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b74bb32f725ba1812cd59a02c2ac77fb",
       "timestamp": "2026-02-19T01:17:24+09:00",
@@ -13,6 +246,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "9769de8177244099ef723652c34f43dd",
+      "timestamp": "2026-02-19T01:16:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Rout Has Europe Looking to Old Economy IPOs for Revival - A long-awaited recovery in European initial public offerings appears set to hinge on traditional sectors like defense and industrials for now, as investors rush to cut their exposure to anything in th",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/ai-rout-has-europe-looking-to-old-economy-ipos-for-revival",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "136138e46ba8ba8a9fd6b9ec6a26b3e7",
       "timestamp": "2026-02-19T01:13:18+09:00",
       "source_type": "NEWS",
@@ -21,6 +265,17 @@
       "related_tickers": [],
       "content": "Setting Up An AI Taskforce:  TPG CEO - TPG CEO Jon Winkelried speaks with Dani Burger on \"Bloomberg Deals\". TPG manages more than $300 billion across a range of strategies,  including private equity and credit, and software is one of the f",
       "url": "https://www.bloomberg.com/news/videos/2026-02-18/setting-up-an-ai-taskforce-tpg-ceo-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5f557f0fa856f9329c7ce76ae1c6dd15",
+      "timestamp": "2026-02-19T01:11:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Luxury Retailer Ssense’s Founders Get Buyout Approval, Deal Closes - A founder-led buyout of Canadian luxury fashion retailer Ssense obtained court approval, despite a group of lenders seeking to block the deal and pushing for a liquidation process to recover more mone",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/luxury-retailer-ssense-s-founders-get-buyout-approval-deal-closes",
       "sentiment": "NEUTRAL"
     },
     {
@@ -398,6 +653,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "be295a57377ce543fccb905738b41d7d",
+      "timestamp": "2026-02-18T23:04:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Italy to Strip Carbon Costs From Power Bills, Jolts Markets - Italy is preparing a sweeping overhaul of its electricity market that would strip carbon costs from power bills, a move that has sent shock waves through energy markets and driven a sharp selloff in f",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/italy-s-plan-to-strip-carbon-cost-from-power-bills-jolts-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "7df5a944a4b697da2b85b89c4643349a",
       "timestamp": "2026-02-18T23:00:04+09:00",
       "source_type": "NEWS",
@@ -477,6 +743,28 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "9d3213596274eb3f8ea4ec8bf65812d0",
+      "timestamp": "2026-02-18T22:09:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wingstop Pops on Results Beat as Smart Kitchens Lift Visits - Wingstop Inc. shares rose as much as 20% Wednesday after the company reported better-than-expected results, easing fears of a marked slowdown at the chicken chain.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/wingstop-jumps-on-better-than-expected-same-store-sales-profit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5113669a05d35422fdfc39786cfb3b5b",
+      "timestamp": "2026-02-18T21:45:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rio Tinto Boosts Stake in Canada Miner in Lithium Expansion - Rio Tinto Group took majority control of Canada’s Nemaska Lithium as part of a push to invest more in Quebec projects tied to the battery metal.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/rio-tinto-raises-stake-in-canada-miner-to-boost-lithium-output",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "30633ada3dcfc4976284fab3eb102458",
       "timestamp": "2026-02-18T21:35:58+09:00",
       "source_type": "NEWS",
@@ -496,6 +784,28 @@
       "related_tickers": [],
       "content": "US Treasuries Extend Dip as Data Signals Resilient Economy - Treasuries extended losses after upbeat housing and durable goods data reinforced signs of resilience in the US economy, tempering expectations for more aggressive rate cuts this year.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-18/traders-look-to-data-fed-minutes-to-gauge-scope-for-fed-easing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "53008d36e6ee4dfa3b33224e7944a210",
+      "timestamp": "2026-02-18T21:12:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spain and India Agree to Expand Economic and Tech Partnership - Spain and India agreed to deepen economic and technological ties as the global competition over artificial intelligence heats up, following a bilateral meeting between Prime Minister Pedro Sánchez and",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/spain-and-india-agree-to-expand-economic-and-tech-partnership",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "53008d36e6ee4dfa3b33224e7944a210",
+      "timestamp": "2026-02-18T21:12:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spain and India Agree to Expand Economic and Tech Partnership - Spain and India agreed to deepen economic and technological ties as the global competition over artificial intelligence heats up, following a bilateral meeting between Prime Minister Pedro Sánchez and",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/spain-and-india-agree-to-expand-economic-and-tech-partnership",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1895,314 +2205,6 @@
       "related_tickers": [],
       "content": "Toll Brothers Misses Orders Estimates Amid Slow Housing Market - Toll Brothers Inc. fell short of analysts’ estimates for quarterly orders, signaling that fewer people are signing contracts to build homes as high prices and economic uncertainty hold some buyers bac",
       "url": "https://www.bloomberg.com/news/articles/2026-02-17/toll-brothers-misses-orders-estimates-amid-slow-housing-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4e1755c8f95e286cd5a8f6dbd36a61d6",
-      "timestamp": "2026-02-18T06:39:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Palo Alto Networks Falls After Disappointing Profit Forecast - Palo Alto Networks Inc. shares fell more than 5% in extended trading after the cybersecurity company released a forecast for adjusted earnings that was weaker than anticipated.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/palo-alto-networks-falls-after-disappointing-profit-forecast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d694e5bd86933396d6d9982d9b4566b1",
-      "timestamp": "2026-02-18T06:37:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Trusted Envoys, Kushner and Witkoff, Handle a Trio of Crises - President’s representatives have Iran, Ukraine and Gaza in porfolios.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-17/trump-s-trusted-envoys-kushner-and-witkoff-handle-a-trio-of-crises",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "946beb7d1e8328de47c1ab88658cd1f2",
-      "timestamp": "2026-02-18T06:37:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Stocks Climb as Gold and Silver Slip | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloom",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/us-stocks-climb-as-gold-and-silver-slip-closing-bell-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7dbeffb04319994a3e2fc198aec627ce",
-      "timestamp": "2026-02-18T06:36:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CFTC Faces More Pushback From States Over Prediction Markets - The Commodity Futures Trading Commission is facing more opposition from states over the agency’s bid to be the sole regulator of prediction markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/cftc-faces-more-pushback-from-states-over-prediction-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0864697cbbe60b6ea59c880068a57e58",
-      "timestamp": "2026-02-18T06:20:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman's Minnis: Blurred Lines in Public, Private Credit to Persist - Christina Minnis, global head of Goldman Sachs' Alternatives Origination Group and head of credit and asset finance, discusses her expanded responsibilities within the Capital Solutions Group and the ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/goldman-s-minnis-sees-public-private-credit-converging-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b488fd6f0dc3b9a4c3183385aa26d57",
-      "timestamp": "2026-02-18T06:16:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple Ramps Up Wearables for AI Era | Bloomberg Businessweek Daily 2/17/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss Apple reportedly accelerating work on glasses, a pendant device, and AirPods as part of a larger AI-focused sh",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/bloomberg-businessweek-daily-2-17-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c1949d2a1847e3780b37fd56954744d9",
-      "timestamp": "2026-02-18T06:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta Deepens Nvidia Ties With Pact for ‘Millions’ of Chips - Meta Platforms Inc. has agreed to deploy “millions” of Nvidia Corp. processors over the next few years, tightening an already close relationship between two of the biggest companies in the artificial ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/meta-deepens-nvidia-ties-with-pact-to-use-millions-of-chips",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "936015d27aca06754e171d3c2d5bf5b9",
-      "timestamp": "2026-02-18T06:05:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Eric Trump Backs Drone Company, Adding to Family’s Defense Ties - Eric Trump is backing a drone company, adding to his family’s defense portfolio at a moment when his father’s administration is bolstering the industry.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/eric-trump-backs-drone-company-adding-to-family-s-defense-ties",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1ed18d9d0a11de9a79d406b42578685c",
-      "timestamp": "2026-02-18T06:03:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US, Iran Make Progress in Nuclear Talks After Trump Threats - The US and Iran made progress in nuclear talks in Geneva on Tuesday, with Tehran’s negotiators scheduled to return with a new proposal in two weeks. Tyler Kendall explains,\n (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/us-iran-in-talks-after-trump-threats-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "33521235e1ed3c2a12ff338a21af597a",
-      "timestamp": "2026-02-18T05:58:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "A Moment of Peak Human Population? - Bloomberg's Merryn Somerset Webb discusses the correlation between falling fertility rates and the number of robots in a country. Filmed at a subscriber event held on June 4, 2025. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/a-moment-of-peak-human-population-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "976afbd30fdf7fac05c9d737fa0effcc",
-      "timestamp": "2026-02-18T05:58:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Teachers Unions Ask SEC to Scrutinize Apollo’s Epstein Ties - Teachers unions are asking the US Securities &amp; Exchange Commission to consider whether a 2021 statement from Apollo Global Management Inc. about the extent of its contact with late sex offender Je",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/teachers-unions-ask-sec-to-scrutinize-apollo-s-epstein-ties",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5d73d6566c90a23f9ce54937dcf619c5",
-      "timestamp": "2026-02-18T05:56:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nakamoto's Bailey 'Eager to Buy Bitcoin' Even Amid Rout - Bitcoin extended a four-week slide as fund flows remain a headwind. US-listed Bitcoin exchange-traded funds notched a fourth straight week of net outflows, with $360 million withdrawn last week. On \"B",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/nakamoto-s-bailey-eager-to-buy-bitcoin-even-amid-rout-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "10563c29001b3e2c3f8b3a27a0bcdf9f",
-      "timestamp": "2026-02-18T05:53:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "England Is a Poor Country That Thinks It's Rich, Opinion's Woolridge Says - Bloomberg Opinion's Global Business Columnist Adrian Wooldridge says England's misperception of its own wealth leads it to take on responsibilities it shouldn't. This was filmed at a subscriber event ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/england-is-a-poor-country-opinion-s-woolridge-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83ecca98ec2ba549501fcaac5da8762c",
-      "timestamp": "2026-02-18T05:48:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "'See You in Court', CFTC Chair Sides with Prediction Markets - Prediction market platforms operate exchanges that allow customers to bet on the outcome of a wide range of future events, from presidential elections to college basketball games. The CFTC said recent",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/cftc-chair-sides-with-prediction-markets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3d8a2fbfef7f99fec5f1cdc07edfd473",
-      "timestamp": "2026-02-18T05:46:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed's Daly Says Hard to Assess AI's Impact on Productivity - Federal Reserve Bank of San Francisco President Mary Daly talks with Bloomberg's Ed Ludlow about the impact of AI on the US economy during an event at San Jose State University. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/fed-s-daly-says-hard-to-assess-ai-impact-on-productivity-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "401efdc6cb17959f8ecfc1fa4747d619",
-      "timestamp": "2026-02-18T05:44:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US, Iran Hail Progress in Nuclear Talks | Balance of Power: Early Edition 2/17/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu and Kailey Leinz discuss the ongoing shutdown at the Department of Homeland Security. On today's show, Arizona",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/balance-of-power-early-edition-2-17-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b357fa4f8a0bb3ddb1defcbb087ac97",
-      "timestamp": "2026-02-18T05:42:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Benchmark Hires Jack Altman, Sees Recent AI Bets Surge - Venture capitalist and entrepreneur Jack Altman has been hired by Benchmark as a general partner, just two years after he became a full-time investor and started his own firm, Alt Capital.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/benchmark-hires-jack-altman-sees-recent-ai-bets-surge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "91d654fcb7f4a02a71e5eaa34033a235",
-      "timestamp": "2026-02-18T05:38:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blue Origin CEO Vows All-In Effort to Beat SpaceX in Moon Race - Jeff Bezos’ space company Blue Origin “will move heaven and Earth” to get to the moon before rival SpaceX, said Chief Executive Officer Dave Limp.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/blue-origin-ceo-vows-all-in-effort-to-beat-spacex-in-moon-race",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0318911e887a5ec7451e04eff8580e69",
-      "timestamp": "2026-02-18T05:31:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan to Invest $36 Billion in US Projects Under Trump Deal - Japan plans to invest $36 billion in US oil, gas and critical mineral projects, the first tranche of its $550 billion commitment under the trade agreement it struck with President Donald Trump.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/trump-announces-first-japan-investments-under-trade-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "00f84c0c5fa82d59d203fe1c3a0d27b1",
-      "timestamp": "2026-02-18T05:25:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blue Origin Focused on 'Lunar Permanence' Says CEO Limp - David Limp, CEO of Blue Origin, says that the company is focused 'lunar permanence,' aiming to send people to the moon and keep them there for a prolonged period of time. Speaking to Bloomberg's Annma",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/blue-origin-focused-on-lunar-permanence-says-ceo-limp-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "291d3d4823147ca6244eec0b05aa4f90",
-      "timestamp": "2026-02-18T05:16:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stablecoins Pose Risks Under Stress: MIT's Neha Narula - As GENIUS-compliant stablecoins scale into mainstream use, a new MIT paper evaluates the financial, technological, and regulatory risks that may arise. One of the paper's authors, Neha Narula, says no",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/stablecoins-pose-risks-under-stress-mit-s-neha-narula-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eb7212460cc1ef08afcbfc73a2f21d98",
-      "timestamp": "2026-02-18T05:14:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stripe’s Bridge Joins Crypto Firms Securing Nod for Bank Charter - Stripe Inc.’s stablecoin arm Bridge received conditional approval from a US regulator to become a national trust bank, the latest in a string of firms getting the green light to offer banking services",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/stripe-s-bridge-joins-crypto-firms-securing-nod-for-bank-charter",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d430b432ca071f6c0b2fc49a6fcfb9c9",
-      "timestamp": "2026-02-18T05:08:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Wants to Bring Election Bets Into Brokerage Accounts - Roundhill Investments has asked the US Securities and Exchange Commission for permission to launch six ETFs that would let investors wager on US election outcomes through standard brokerage accounts &",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/wall-street-wants-to-bring-election-bets-into-brokerage-accounts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d430b432ca071f6c0b2fc49a6fcfb9c9",
-      "timestamp": "2026-02-18T05:08:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Wants to Bring Election Bets Into Brokerage Accounts - Roundhill Investments has asked the US Securities and Exchange Commission for permission to launch six ETFs that would let investors wager on US election outcomes through standard brokerage accounts &",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/wall-street-wants-to-bring-election-bets-into-brokerage-accounts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b590729965b9f7ddb2d6a08ecbf81532",
-      "timestamp": "2026-02-18T05:02:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blockchain Can Mitigate Counterparty Risk: DTCC CEO - The Depository Trust & Clearing Corporation (DTCC) plays a major role in the plumbing of the US financial system as the central clearing and settlement hub for equities and fixed-income products. In D",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/blockchain-can-mitigate-counterparty-risk-dtcc-ceo-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "00baa1f2e9e654bcd15e24cec6e0d373",
-      "timestamp": "2026-02-18T05:00:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bank of Ireland to Pull Back From US Leveraged Finance Market - Bank of Ireland Group Plc is withdrawing from the US market for leveraged acquisition financings as private credit has started to chip away at fees historically collected by traditional banks.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/bank-of-ireland-to-pull-back-from-us-leveraged-finance-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e08e7f7a425bda9d2e7033f02041a944",
-      "timestamp": "2026-02-18T05:00:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nuclear Fusion Startup Claims Major Advance in New Zealand Trial - <p>Founder&nbsp;Ratu Mataira is convinced OpenStar can outpace rivals with its cheaper reactor&nbsp;design.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/nuclear-fusion-startup-claims-major-advance-in-new-zealand-trial",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78931b7d7b00d5442f3580df601a853f",
-      "timestamp": "2026-02-18T04:58:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blue Origin Will Likely Go Back Into Space Tourism, CEO Says - Blue Origin CEO Dave Limp says the company is likely to get back into the space tourism business, but he's focused on getting back to the moon. He speaks to Bloomberg's Annmarie Horden at the Defense ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-17/blue-origin-will-likely-go-back-into-tourism-ceo-says-video",
       "sentiment": "NEUTRAL"
     }
   ]
