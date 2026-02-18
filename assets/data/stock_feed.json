@@ -1,6 +1,105 @@
 {
-  "last_updated": "2026-02-18T09:25:09.640896+09:00",
+  "last_updated": "2026-02-18T12:03:04.766244+09:00",
   "items": [
+    {
+      "id": "c2c6411af7e5c69b2f54a8558a797879",
+      "timestamp": "2026-02-18T11:57:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "YouTube Outage Affects 340,000 Users While Other Sites Disrupted - YouTube was down for nearly 340,000 users, internet monitor Downdetector said, while the streaming site reported an issue with its recommendations system.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/youtube-outage-affects-340-000-users-while-other-sites-disrupted",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "685f7497a7d09bacea1983f45b09c7d7",
+      "timestamp": "2026-02-18T11:57:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippines to Auction First Jumbo Peso Bonds Since April - The Philippines will sell large-sized bonds on Wednesday for the first time since April, as the government ramps up spending to spur economic growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/php-usd-philippines-set-to-auction-jumbo-peso-bonds-first-since-april",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "527322357d8a3e964d0688701b3b2886",
+      "timestamp": "2026-02-18T11:47:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bulls Warming Up to India Small Caps as Earnings Improve - Smaller firms posted a 29% jump in December-quarter earnings.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-18/small-caps-in-demand-metal-stocks-likely-to-have-a-strong-quarter",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65100c7520fdda9ffb62bd55ee7281a3",
+      "timestamp": "2026-02-18T11:24:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Accounting Group Seeks to Ease Rule on Insurer Bond Losses - A Japanese accounting group is seeking to ease rules on how life insurers book paper losses on government bonds.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/japan-accounting-group-seeks-to-ease-rule-on-insurer-bond-losses",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "99c2e75f4f5277b84bb2e0da2af44361",
+      "timestamp": "2026-02-18T10:01:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starboard Urges Bitcoin Miner Riot to Speed Up Shift to Data Centers - Activist investor Starboard Value is asking Riot Platforms Inc. to speed up its transition from Bitcoin miner to a data center company that could house hyperscaler tenants, according to a letter revie",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/starboard-is-said-to-urge-riot-to-speed-up-shift-to-data-centers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "99c2e75f4f5277b84bb2e0da2af44361",
+      "timestamp": "2026-02-18T10:01:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starboard Urges Bitcoin Miner Riot to Speed Up Shift to Data Centers - Activist investor Starboard Value is asking Riot Platforms Inc. to speed up its transition from Bitcoin miner to a data center company that could house hyperscaler tenants, according to a letter revie",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/starboard-is-said-to-urge-riot-to-speed-up-shift-to-data-centers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2c61659ca1500028a225653b65ce2aa6",
+      "timestamp": "2026-02-18T09:59:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Partial Shutdown Drags on Over DHS Funding | Balance of Show: Late Edition 02/17/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show,  Rep. Raja Krishnamoorthi (D-IL) discusses if he thinks Congress will be warned if Trump ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-18/balance-of-show-late-edition-02-17-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "680489ea0ec2d5d5955282edf6a340fa",
+      "timestamp": "2026-02-18T09:29:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Elliott Builds Norwegian Cruise Stake, Alleges Overspending on Katy Perry Concert - Activist investor Elliott Investment Management has built a stake of more than 10% in Norwegian Cruise Line Holdings Ltd., citing concerns about management and spending on events including a Katy Perr",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/elliott-builds-norwegian-cruise-stake-cites-spending-on-katy-perry-concert",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6345fdb13766f8c9afa787906f99ae9c",
+      "timestamp": "2026-02-18T09:17:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Billionaire Paulson Sells Stake in Alaska-Focused Trilogy Metals - Billionaire hedge-fund manager John Paulson has sold his stake in Trilogy Metals Inc. after more than a decade as an investor in the Alaska-focused mining company, which recently secured US government",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/billionaire-paulson-sells-stake-in-alaska-focused-trilogy-metals",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c13e8b2978aff6c0433e37b922d3b601",
       "timestamp": "2026-02-18T09:01:59+09:00",
@@ -2108,105 +2207,6 @@
       "related_tickers": [],
       "content": "Goldman Sees More Dollar Weakness, Two Fed Cuts in Second Half - Goldman Sachs FX strategist Kamakshya Trivedi discuses the outlook for the US economy, Federal Reserve policy and the dollar. He tells Bloomberg Television the Fed is likely to reduce interest rates t",
       "url": "https://www.bloomberg.com/news/videos/2026-02-17/goldman-sees-more-dollar-weakness-two-fed-cuts-in-second-half",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2bebbb8b5b7d3298b68718e58b0f3e5b",
-      "timestamp": "2026-02-17T20:12:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stock Pickers Spot Opportunity in the AI Disruption - <p>Selloffs have been overdone for some stocks on fears of AI’s impact, bulls say.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-17/stock-pickers-spot-opportunity-in-the-ai-disruption",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8bd8eca2f55b2324b1ba27235e558bbf",
-      "timestamp": "2026-02-17T20:07:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Ballot Controversy Casts Shadow Over Government Formation - Thailand’s election agency is facing allegations of ballot traceability in the Feb. 8 election, with growing calls from activists and politicians for the vote to be annulled potentially delaying the f",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/thai-ballot-controversy-casts-shadow-over-government-formation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a19bade30a6bef07894504d405b8f15",
-      "timestamp": "2026-02-17T20:00:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada Embraces Asia to Save Auto Heartland Squeezed by US Tariffs - <p>US automakers now make just a quarter of the cars assembled in Canada. They’re losing influence with Mark Carney’s government, which is looking overseas.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-17/canada-embraces-asia-to-save-auto-heartland-squeezed-by-us-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a19bade30a6bef07894504d405b8f15",
-      "timestamp": "2026-02-17T20:00:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada Embraces Asia to Save Auto Heartland Squeezed by US Tariffs - <p>US automakers now make just a quarter of the cars assembled in Canada. They’re losing influence with Mark Carney’s government, which is looking overseas.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-17/canada-embraces-asia-to-save-auto-heartland-squeezed-by-us-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "02f2fe4f000e2fab1c41791a05252cf5",
-      "timestamp": "2026-02-17T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela’s Cisneros to Raise $1 Billion for Reconstruction Fund - Adriana Cisneros, head of one of the Venezuelan business community’s most powerful families, is leading efforts to raise $1 billion for a private equity fund to invest in the crisis-ravaged nation as ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/venezuela-s-cisneros-to-raise-1-billion-for-reconstruction-fund",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "751d9f7f201f6c591b0e4602a1794b35",
-      "timestamp": "2026-02-17T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Shein Risks Fines as EU Probes Sale of Child-Like Sex Dolls - Shein risks hefty European Union penalties after regulators opened a full-scale probe into sales of child-like sex dolls on the Chinese e-commerce platform.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/shein-risks-fines-as-eu-probes-sale-of-child-like-sex-dolls",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "13d4d447b79e89e061c75eaa2810ce8a",
-      "timestamp": "2026-02-17T19:59:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia Resorts to Religion for Sway in Africa - Lacking the money of geopolitical rivals such as China and the US, Moscow deploys the church.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-17/russia-resorts-to-religion-for-sway-in-africa",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8b42b569bec0fb5dd00a79d5288299ee",
-      "timestamp": "2026-02-17T19:58:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vattenfall to Exit French Energy Retail Market as Rules Change - Swedish utility Vattenfall AB is poised to exit the French energy retail market, as prices decline and suppliers no longer have the option to buy discounted power from Electricite de France SA.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/vattenfall-to-exit-french-energy-retail-market-as-rules-change",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f14af8481e477567b4329144de3862d",
-      "timestamp": "2026-02-17T19:54:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US to Deploy More Cutting-Edge Missile Systems to Philippines - The US will deploy more missile systems to the Philippines, a move that will potentially anger China, as the two allies boost their defense ties.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-17/us-to-deploy-more-cutting-edge-missile-systems-to-philippines",
       "sentiment": "NEUTRAL"
     }
   ]
