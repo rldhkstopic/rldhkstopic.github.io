@@ -1,6 +1,206 @@
 {
-  "last_updated": "2026-02-20T03:19:46.737663+09:00",
+  "last_updated": "2026-02-20T05:10:24.181258+09:00",
   "items": [
+    {
+      "id": "6b4ef2261bbc6d1130fcf650d7356f16",
+      "timestamp": "2026-02-20T04:55:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Time Spent’ on Instagram Still Important: EMARKETER’s Smiley - Meta says it no longer focuses on how much time users spend on Instagram, but Minda Smiley, senior analyst at EMARKETER, says the metric is still crucial for social networks and their bottom lines. Sh",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-19/-time-spent-on-instagram-still-important-minda-smiley-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f3e1e1e01c6f79cf175a1d9d893847ff",
+      "timestamp": "2026-02-20T04:42:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zuckerberg Says ‘Difficult’ to Enforce Instagram Age Limits - Meta CEO Mark Zuckerberg told a jury it is ‘difficult’ to enforce age restrictions on teens using Instagram. Mary Anne Franks, George Washington University Law School Professor in Intellectual Propert",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-19/zuckerberg-difficult-to-enforce-instagram-age-limits-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2198361661be443df3d5199c99207cb8",
+      "timestamp": "2026-02-20T04:42:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DHS Pushes for Detention of Refugees While Cases Are Reviewed - The Trump administration is seeking to detain legal refugees who have been in the US for a year and haven’t obtained permanent resident status, a policy shift that would threaten thousands with long-t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/dhs-pushes-for-detention-of-refugees-while-cases-are-reviewed",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ffd9eb910d6e45ad858b585b469bc79a",
+      "timestamp": "2026-02-20T04:40:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Obama ‘Gave Classified Information’ in Comments on Aliens - President Donald Trump accused former President Barack Obama of giving away classified information when he discussed aliens during a recent podcast appearance.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/trump-says-obama-gave-classified-information-in-alien-comments",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a62bf4e70f37b4f7a340be8bbce773ae",
+      "timestamp": "2026-02-20T04:29:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ByteDance Hiring for Its AI Division in the US - Chinese tech giant ByteDance is hiring for nearly 100 open roles within its artificial intelligence division in the US, as it aims to compete with American firms. Bloomberg’s Alexandra Levine discusse",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-19/bytedance-hiring-for-its-ai-division-in-the-us-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "92ad8528f4c95131ea964a859c3cbad6",
+      "timestamp": "2026-02-20T04:28:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Walmart Issues Cautious Outlook | Open Interest 2/19/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" Walmart waving a warning flag &mdash; the world’s largest retailer citing trade and labor concerns",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-19/open-interest-2-19-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9620a4809b82ad0ad73639ebb48cfac9",
+      "timestamp": "2026-02-20T04:16:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "J&amp;J Explores $20 Billion-Plus Sale of Orthopedics Unit - Johnson &amp; Johnson is preparing a potential sale of the orthopedics unit that it has been planning to separate, with big buyout firms already circling, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/j-j-explores-20-billion-plus-sale-of-orthopedics-unit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0e4814879136b798e4e175e1aa2a3b0f",
+      "timestamp": "2026-02-20T04:08:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Taps Bitcoin Lightning For Remittances As Valuation Signals Mixed - SoFi Technologies (NasdaqGS:SOFI) has launched cross-border payments using the Bitcoin Lightning network. The new service enables low-cost, near-instant transfers to more than 30 countries directly fr",
+      "url": "https://finance.yahoo.com/news/sofi-taps-bitcoin-lightning-remittances-190800820.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d95a8c1294ee4c74018e698d1568a8bb",
+      "timestamp": "2026-02-20T03:52:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Seen Driving US Convertible Bond Sales to Another Banner Year - Artificial intelligence-linked companies fueled US convertible bond volume to a record haul and that trend will likely continue this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/ai-seen-driving-us-convertible-bond-sales-to-another-banner-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d95a8c1294ee4c74018e698d1568a8bb",
+      "timestamp": "2026-02-20T03:52:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Seen Driving US Convertible Bond Sales to Another Banner Year - Artificial intelligence-linked companies fueled US convertible bond volume to a record haul and that trend will likely continue this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/ai-seen-driving-us-convertible-bond-sales-to-another-banner-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7e8c4a7348fcb4ce7d9b96d0581d794f",
+      "timestamp": "2026-02-20T03:50:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sony Shuts Down Video-Game Studio Bluepoint - <p>The PlayStation subsidiary previously made remakes of games like ‘Demon’s Souls’</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/sony-is-shutting-down-the-playstation-studio-bluepoint",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f4c2da4b6c319bfbb5dadcc387f6551d",
+      "timestamp": "2026-02-20T03:49:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Royals Face Biggest Challenge in Decades With Andrew’s Arrest - Until Thursday morning, it had been nearly four centuries since the arrest of a senior British royal.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/keep-calm-carry-on-andrew-arrest-deals-uk-royals-major-crisis",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "53b83e1d57e42f308fdf7e64d41f82c1",
+      "timestamp": "2026-02-20T03:47:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "YPF Chief Readies War Chest for Shale Push as Milei Bolsters Oil - YPF SA is setting aside funds to keep spending in the fast-growing Vaca Muerta basin even if oil prices fall this year as management handpicked by libertarian President Javier Milei looks to build the",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/ypf-chief-readies-war-chest-for-shale-push-as-milei-bolsters-oil",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "303fb6aba6fb2cde610089be4c47b3a0",
+      "timestamp": "2026-02-20T03:40:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Walmart’s Cautious Outlook Reflects Uneven State of US Economy - Walmart Inc. forecast less growth in earnings this year than Wall Street was expecting, citing the need for flexibility in unpredictable times for consumers.\nThe world’s largest retailer said it expec",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-19/walmart-s-outlook-reflects-uneven-state-of-us-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3393311b5ceffa2b878d65f1168a36f3",
+      "timestamp": "2026-02-20T03:38:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "H.I.G. Opts for Middle-Market Hard Assets as Software Swoons - Berman sees a market splitting in two.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-19/h-i-g-opts-for-middle-market-hard-assets-as-software-swoons",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "acb3a83f56cf2f0995db1055670cf03a",
+      "timestamp": "2026-02-20T03:36:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sarandos Says Warner Bros. Purchase Will Accelerate Netflix Growth - Netflix co-CEO Ted Sarandos tells Bloomberg he is \"highly confident\" the deal for Warner Bros. Discovery will close. Netflix granted a seven-day waiver to Warner Bros. to reopen talks with Paramount S",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-19/sarandos-warner-purchase-will-accelerate-netflix-growth-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f44c788ba7ba45fb6d3cfe96cf2bbe1c",
+      "timestamp": "2026-02-20T03:26:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Janus Henderson Launches New CLO ETF, The Commodities Comeback | ETF IQ 2/19/2026 - \"Bloomberg ETF IQ\" focuses on the opportunities, risks and current trends tied to the trillions of dollars in the global exchange traded funds industry. Today's guests: Janus Henderson Global Head of ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-19/etf-iq-2-19-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3953e2fe9f6d14c3b68982c4eff29997",
+      "timestamp": "2026-02-20T03:16:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Vaccine Panel Meeting Delayed as RFK Jr. Pushed on Shots - A panel that drives US vaccine policy will delay its upcoming meeting to the middle of March, according to a person familiar with the matter, as a legal challenge over the committee’s validity plays o",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/us-vaccine-panel-meeting-delayed-as-rfk-jr-pressured-over-shots",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b2b4f2c93a050de19ea84391cb0847fb",
       "timestamp": "2026-02-20T03:16:38+09:00",
@@ -54,6 +254,17 @@
       "related_tickers": [],
       "content": "Netflix's Sarandos: Acquiring Warner a 'Great Long-Term Outcome' - Netflix co-CEO Ted Sarandos says the company feels \"really good\" about their chances of acquiring Warner Bros. Discovery. He speaks with Ed Ludlow and Lucas Shaw on Bloomberg Television. (Source: Bloo",
       "url": "https://www.bloomberg.com/news/videos/2026-02-19/sarandos-acquiring-warner-a-great-long-term-outcome-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8506317cf0a9792c3fa5ba0fcc52b5a9",
+      "timestamp": "2026-02-20T02:56:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IEA Meeting Ends Without Unity as US Pushes to Scrap Net Zero - The conflicting positions of US President Donald Trump and major European governments came to the fore at a meeting of the west’s most important energy forecaster.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/iea-meeting-ends-without-unity-as-us-pushes-to-scrap-net-zero",
       "sentiment": "NEUTRAL"
     },
     {
@@ -419,6 +630,19 @@
       "related_tickers": [],
       "content": "Trump Voices ‘Total’ Endorsement for Hungary’s Premier Orban - Donald Trump offered some of his strongest backing yet to Hungary’s Prime Minister Viktor Orban, a longstanding ally who’s on the back foot in the run-up to a close election on April 12.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-19/trump-voices-complete-and-total-endorsement-of-hungary-s-orban",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9526b0982112e98ec9dd2ed363eda3c1",
+      "timestamp": "2026-02-20T00:30:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Nu Holdings Ltd. 24,285,789 17.44",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018452.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1502,6 +1726,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "1fc0ead2864daf69ec06681626063190",
+      "timestamp": "2026-02-19T17:15:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Stocks Decline as Airbus, Renault Earnings Disappoint - European stocks retreated from Wednesday’s record close after underwhelming earnings from the likes of Airbus SE and Renault SA, with investors also monitoring geopolitical risks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-19/european-stocks-steady-after-mixed-earnings-from-nestle-airbus",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "06965e46be09c6aa3f4ccc3697d667f8",
       "timestamp": "2026-02-19T17:03:20+09:00",
       "source_type": "NEWS",
@@ -1972,237 +2207,6 @@
       "related_tickers": [],
       "content": "ServiceNow Sees AI Adoption Driving Enterprise Growth - ServiceNow President & COO Amit Zavery discusses key impacts of artificial intelligence for business growth. He speaks with Haslinda Amin from the sidelines of India AI Impact Summit. (Source: Bloombe",
       "url": "https://www.bloomberg.com/news/videos/2026-02-19/servicenow-sees-ai-adoption-driving-enterprise-growth-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8acb8f0036152af139467bb887e4527f",
-      "timestamp": "2026-02-19T13:11:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bill Gates Pulls Out of India AI Summit Amid Epstein Criticism - Microsoft Corp. co-founder Bill Gates backed out of a keynote address at a high-profile Indian AI summit just hours before he was due to speak.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/bill-gates-pulls-out-of-address-at-high-profile-india-ai-summit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81985b004d05608d21a8466511b7de16",
-      "timestamp": "2026-02-19T13:04:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI to Partner With Tata for AI Data Center Buildout in India - OpenAI is partnering with the Tata Group in India on artificial intelligence technologies, including data center infrastructure that could become one of the largest in the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/openai-to-partner-with-tata-for-ai-data-center-buildout-in-india",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e3d2fb9bbc13110edb77178ba547944",
-      "timestamp": "2026-02-19T13:00:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Modi, Macron and Global Tech Leaders to Speak at India's AI Summit",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-19/india-ai-impact-summit-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c6ceec8221a3fd931c87e0aab74435df",
-      "timestamp": "2026-02-19T13:00:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "PLS CEO Henderson on 1H Earnings - Dale Henderson, Managing Director & CEO of PLS, discusses the company's business outlook and growth strategy after his firm, Australia's biggest pure-play lithium producer, reported a first-half profi",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-19/pls-ceo-henderson-on-1h-earnings-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9ee830b8d22cb6aa012ff8c9db30e717",
-      "timestamp": "2026-02-19T13:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "If You Can't Follow Iran, at Least Watch the Oil Price - <p>The calm&nbsp;around the risk of a potential US attack is unnerving.</p>",
-      "url": "https://www.bloomberg.com/opinion/newsletters/2026-02-19/if-you-can-t-follow-iran-at-least-watch-the-oil-price",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5be855c9874650708d5e634d47a12787",
-      "timestamp": "2026-02-19T12:53:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kospi Hits Record on Reopen, Asian Stocks Rally | The Asia Trade 2/19/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Singapore with Shery Ahn and Avril Hong, getting ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-19/the-asia-trade-2-19-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "26ce30c3a8538ab3afb2c300d6a2ac5f",
-      "timestamp": "2026-02-19T12:51:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "DC Mayor Asks Trump for Disaster Declaration Over Potomac Spill - DC Mayor Muriel Bowser on Wednesday declared a public emergency regarding the massive discharge of raw sewage into the Potomac River after a section of sewer line collapsed in January.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/dc-mayor-asks-trump-for-disaster-declaration-over-potomac-spill",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a1613cdbd822321f939ea9bd026081f",
-      "timestamp": "2026-02-19T12:43:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Market Absorbs Latest Bond Auction in Sign of Confidence - Japan’s bond market was steady even after demand fell at an auction of 20-year debt in a sign of confidence among investors.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/japan-20-year-bond-sale-sees-weaker-demand-than-12-month-average-mlsx1tg0",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3d2e6180343e31eb9a5c2ae43179827a",
-      "timestamp": "2026-02-19T12:26:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mexico’s Plata Wins Banking License, Heating Up Fintech Race - Mexico-based Plata said it received final approval for a banking license, leapfrogging peers including Nubank and Mercado Pago that are still in the process of getting the coveted authorization.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/mexico-s-plata-wins-banking-license-heating-up-fintech-race",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f3a15ee1296b58d5f4c901709f681bfa",
-      "timestamp": "2026-02-19T12:04:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Peru Congress Picks Balcazar, Fifth President in Five Years - Peruvian lawmakers selected Jose Maria Balcazar to be the nation’s next interim president, succeeding Jose Jeri, who lasted four months in office before joining a long line of leaders who failed to co",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/peru-congress-picks-balcazar-as-fifth-president-in-five-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "254bb308ee2e11151d74ce445a277c2f",
-      "timestamp": "2026-02-19T12:03:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Samsung Shares Surge to Record After Report on Higher Chip Price - Samsung Electronics Co. shares jumped to a fresh record high Thursday, after local media reported that the firm is negotiating a price for its latest artificial intelligence memory chip that’s up to 3",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/samsung-shares-rise-to-record-after-report-on-higher-chip-price",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "254bb308ee2e11151d74ce445a277c2f",
-      "timestamp": "2026-02-19T12:03:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Samsung Shares Surge to Record After Report on Higher Chip Price - Samsung Electronics Co. shares jumped to a fresh record high Thursday, after local media reported that the firm is negotiating a price for its latest artificial intelligence memory chip that’s up to 3",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/samsung-shares-rise-to-record-after-report-on-higher-chip-price",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "25f4b9bf1d0e4233f013f8e0992e281a",
-      "timestamp": "2026-02-19T11:50:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Fund Houses Rush to List as Retail Money Pours In - SBI Funds’ filing follows ICICI Prudential’s listing in December.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-19/sbi-funds-files-for-ipo-bandhan-bullish-on-paytm-info-edge-indiamart",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b3291d6ec19c233ec155132309a5c88a",
-      "timestamp": "2026-02-19T11:50:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "It Is a Stock Picker's Market, Pepperstone's Weston Says - Pepperstone Group's Chris Weston says investors \"are seeing a more sort of universal earnings breadth and that means a stock picker's market.\" He tells Bloomberg Television that people are also findin",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-19/it-is-a-stock-picker-s-market-pepperstone-s-weston-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "84f52a7477721d52339888585d07bcb5",
-      "timestamp": "2026-02-19T11:47:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Copper Declines as Fed Minutes Show Officials Wary of Rate Cuts - Copper declined as minutes from the Federal Reserve’s last meeting dimmed the prospect for more interest-rate cuts and weighed on the outlook for demand.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/copper-declines-as-fed-minutes-show-officials-wary-of-rate-cuts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "48e8efa774e67d76c32d6f0dae31ee0d",
-      "timestamp": "2026-02-19T11:35:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kirin's Yoshimura on Health Science Business Strategy - Toru Yoshimura, Senior Executive Officer at Kirin, discusses the company's business strategy and expansion plans for its health science business. He speaks with Shery Ahn and Avril Hong on Bloomberg: ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-19/kirin-s-yoshimura-on-health-science-business-strategy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61871cd76fe8760d796da13b74441321",
-      "timestamp": "2026-02-19T11:29:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippines Raises $4.1 Billion in Jumbo Peso Bond Offering - The Philippines raised 235 billion pesos ($4.1 billion) of bonds from a large-scale local debt offering targeting institutional investors, lower than what it sold in April.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/philippines-raises-4-1-billion-in-jumbo-peso-bond-offering",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bcf43d50d2f710e977d091b0550acca8",
-      "timestamp": "2026-02-19T11:27:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kim Jong Un Shows Off Missile Launchers as Party Congress Nears - North Korean leader Kim Jong Un showcased dozens of new rocket launchers designed for a “strategic mission” as the country prepares to hold a rare party congress in the coming days to lay out its key ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/kim-jong-un-shows-off-missile-launchers-as-party-congress-nears",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "970c791eeb34c2ccf453144d3dfcddc6",
-      "timestamp": "2026-02-19T11:11:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "OpenAI Funding on Track to Top $100 Billion With Latest Round - OpenAI is close to finalizing the first phase of a new funding round that is likely to bring in more than $100 billion, according to people familiar with the matter, a record-breaking financing deal t",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/openai-funding-on-track-to-top-100-billion-with-latest-round",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cc264862c9731c015cef3889b2472765",
-      "timestamp": "2026-02-19T11:01:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Google Executives Hail India's AI Potential - Demis Hassabis, Google DeepMind CEO says that India has huge potential in AI, backed up the research and talent building up in the country. James Manyika, Google and Alphabet's Senior Vice President I",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-19/google-executives-hail-india-s-ai-potential-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "00d1e18a980e792a730dc51067a45e43",
-      "timestamp": "2026-02-19T10:50:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "RBNZ Faces ‘Anathema’ of Growing Economy, Slowing Inflation - New Zealand’s central bank is in the unusual position this year of expecting a strong economic recovery without triggering inflation pressures, according to Assistant Governor Karen Silk.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/rbnz-faces-anathema-of-growing-economy-and-slowing-inflation",
       "sentiment": "NEUTRAL"
     }
   ]
