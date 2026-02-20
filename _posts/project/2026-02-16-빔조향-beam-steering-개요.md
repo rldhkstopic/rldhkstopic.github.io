@@ -7,6 +7,7 @@ category: project
 subcategory: 디지털 빔조향
 tags: ["빔조향", "위상배열", "안테나", "빔포밍", "5G", "레이더"]
 views: 0
+published: false
 ---
 
 ## 빔조향(Beam Steering)이란
