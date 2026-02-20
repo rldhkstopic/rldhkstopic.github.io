@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-02-20T13:35:46.139117+09:00",
+  "last_updated": "2026-02-20T15:20:50.058678+09:00",
   "items": [
+    {
+      "id": "a0916841e7cf6e327ac5757939e544f0",
+      "timestamp": "2026-02-20T15:00:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "She Bet on K-Pop. Netflix Got Its Biggest Movie Ever - “KPop Demon Hunters” by Korean-Canadian animator Maggie Kang is Netflix’s biggest film ever. Mishal Husain asks the Oscar nominee about the girl band trying to save the world, and any sequel plans. (S",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-20/she-bet-on-k-pop-netflix-got-its-biggest-movie-ever",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8482c8e363beee44449d67bcb3f8e2fe",
+      "timestamp": "2026-02-20T14:43:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudi Oil Surge to India Narrows Gap With Top Supplier Russia - India is set to import the most crude from Saudi Arabia in more than six years this month, as the South Asian nation faces sustained US pressure to reduce purchases of Russian barrels.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/saudi-oil-surge-to-india-narrows-gap-with-top-supplier-russia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dceb6a9b8379f31106c00af51594364f",
+      "timestamp": "2026-02-20T14:22:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Malaysia January Exports Post Fastest Growth in Over Three Years - Malaysian exports, driven by a surge in electronics shipments, rose at the fastest pace in over three years in January, according to data released by the Ministry of Investment, Trade and Industry on ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/malaysia-january-exports-post-fastest-growth-in-over-three-years",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "db09651bfd9afb7102f5513db17c32a6",
+      "timestamp": "2026-02-20T14:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France’s Ascendant Far Right Has Europe Seeking Out Firewalls - Europe is rushing to safeguard its most critical institutions ahead of a presidential election in France in which surveys show a commanding lead for the far-right National Rally.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/france-s-ascendant-far-right-has-europe-seeking-out-firewalls",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b7144e0a2188cf426089b793388c1541",
+      "timestamp": "2026-02-20T14:07:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Soaring Yields Drew Near-Record Inflow to Japan Bonds in January - Overseas investors purchased the second-largest amount of Japanese government bonds on record last month, as higher yields compensated buyers for the risk of a blowout in government spending.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/soaring-yields-drew-near-record-inflow-to-japan-bonds-in-january",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ebd92ed8240ee60076a7fb7a71a95b42",
+      "timestamp": "2026-02-20T14:05:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EM Stocks, Currencies Decline as Iran Tensions Build, Oil Spikes - Emerging Asian stocks and currencies fell as tensions in Iran intensified, pushing up oil prices to their highest in six months and eroding risk appetite.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/em-stocks-currencies-decline-as-iran-tensions-build-oil-spikes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac7604fd5e8c053dffedd87c4374cd2d",
+      "timestamp": "2026-02-20T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spain Courts China in New Asia Strategy as US Ties Sour - Spain is planning to build more political and financial links to China as US President Donald Trump upends the global economic order.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/spain-courts-china-in-new-asia-strategy-as-us-ties-sour",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac7604fd5e8c053dffedd87c4374cd2d",
+      "timestamp": "2026-02-20T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Spain Courts China in New Asia Strategy as US Ties Sour - Spain is planning to build more political and financial links to China as US President Donald Trump upends the global economic order.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/spain-courts-china-in-new-asia-strategy-as-us-ties-sour",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "404e0e9d7078aea06764de4259160024",
+      "timestamp": "2026-02-20T13:53:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Wants a 'Real' Iran Nuclear Deal, Former US Ambassador Says - James Jeffrey, former US ambassador to Iraq and Turkey, says President Trump wants a \"real deal\" with Iran and \"is willing to roll the dice on military action.\" (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-20/iran-doesn-t-really-get-trump-ex-us-ambassador-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c05c9d7d6643bb2cb0da1d58bb7a2eb4",
+      "timestamp": "2026-02-20T13:53:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UPL Bets on Seed Unit IPO, Supply-Chain Tweaks to Trim Debt - UPL Ltd., one of the world’s largest generic crop-protection suppliers, is counting on a seeds-unit listing and tighter execution to rebuild investor confidence after a debt-fueled expansion collided ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/upl-bets-on-seed-unit-ipo-supply-chain-tweaks-to-trim-debt",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b9777966f2e7c719d7457239fb01dc7a",
+      "timestamp": "2026-02-20T13:45:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brazil and India to Deepen Critical Mineral and Technology Ties - Brazil and India are set to strengthen cooperation on critical minerals and artificial intelligence when President Luiz Inacio Lula da Silva meets Prime Minister Narendra Modi, as the two nations posi",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-20/brazil-and-india-to-deepen-critical-mineral-and-technology-ties",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4df525095387dd35da5ccf6a6f622edc",
+      "timestamp": "2026-02-20T13:09:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US-Iran Jitters Shake Asian Markets, Oil Surges | The Asia Trade 2/20/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Singapore with Shery Ahn and Avril Hong, getting ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-20/the-asia-trade-2-20-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bc14fdd705eb56381ae5facdb6b0ddd2",
       "timestamp": "2026-02-20T13:08:27+09:00",
@@ -2075,138 +2207,6 @@
       "related_tickers": [],
       "content": "Market Rotation Makes HSBC’s Kettner Decisively Bullish - Max Kettner, chief multi-asset strategist at HSBC Global Investment Research, explains the market signals he sees constraining further downside to AI-related stocks. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-19/market-rotation-makes-hsbc-s-kettner-decisively-bullish-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0db2671e47b7aa51e107825f6d600886",
-      "timestamp": "2026-02-19T20:50:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Gaza Peace at Risk of Stagnating With Hamas Still Armed - US President Donald Trump’s Board of Peace &mdash; set up to secure a durable end to the war in Gaza &mdash; will hold its inaugural meeting in Washington on Thursday with multiple barriers to overcom",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/trump-s-gaza-peace-at-risk-of-stagnating-with-hamas-still-armed",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f95e3d5ea1ba2517ffad948cc4c79e6b",
-      "timestamp": "2026-02-19T20:33:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Renault Group CEO: 'We'll Continue to Invest in EVs in Europe' - Renault Group CEO Francois Provost speaks exclusively to Bloomberg TV in his first television interview in the role after the automaker reported today that it expects profitability to decline this yea",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-19/renault-group-ceo-on-investing-in-evs-in-europe-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8585914e4c1fed824e9e2d69331e6ff9",
-      "timestamp": "2026-02-19T20:32:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "There's a 'Genuine Demand Story' in Gold's Rise, Deutsche Bank Says - Evy Hambro, head of fundamental equities thematic and sector investing at BlackRock, and Jim Reid, head of macro and thematic research at Deutsche Bank, speak on Bloomberg Television about the price o",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-19/deutsche-bank-sees-genuine-demand-story-in-gold-s-rise-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "42114313697260a40717d3e20329353d",
-      "timestamp": "2026-02-19T20:21:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ineos Cut Deeper Into Junk by S&amp;P, Recovery Not Seen Before 2028 - Chemicals giant Ineos had its credit score cut by S&amp;P Global Ratings, which said a sustained recovery for the business owned by UK billionaire Jim Ratcliffe won’t come before 2028.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/ineos-cut-deeper-into-junk-by-s-p-recovery-not-seen-before-2028",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8bc3109e2e3ef1fa2ee008fdd138da74",
-      "timestamp": "2026-02-19T20:15:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders Left With ‘Unscratchable Itch’ for Anthropic Exposure - Anthropic PBC’s artificial intelligence tools sent a shock wave through markets, but for equity investors looking to capitalize on the newfound prominence of the closely held startup, there aren’t man",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/traders-left-with-unscratchable-itch-for-anthropic-exposure",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8bc3109e2e3ef1fa2ee008fdd138da74",
-      "timestamp": "2026-02-19T20:15:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders Left With ‘Unscratchable Itch’ for Anthropic Exposure - Anthropic PBC’s artificial intelligence tools sent a shock wave through markets, but for equity investors looking to capitalize on the newfound prominence of the closely held startup, there aren’t man",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/traders-left-with-unscratchable-itch-for-anthropic-exposure",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a2dbe0c4b4f28826caa8da4937bdf430",
-      "timestamp": "2026-02-19T20:12:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Deere Lifts Profit Outlook With Improving Farm Conditions - Deere &amp; Co. boosted its annual profit outlook as the world’s largest farm-machinery maker anticipates the agriculture economy will get better soon.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/deere-lifts-annual-profit-outlook-with-improving-farm-conditions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1ed8ba1f33cacc672d45b22161347038",
-      "timestamp": "2026-02-19T20:07:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Buy America Is Still the Go-To Trade for Global Investors - <p>Overseas investors purchased an increased amount of US stocks and bonds last year.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-19/buy-america-is-still-the-go-to-trade-for-global-investors",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a2c67cacf682344f909f3addfb7cf74",
-      "timestamp": "2026-02-19T20:05:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Epstein Waged a Years-Long Quest to Meet Putin and Talk Finance - Jeffrey Epstein was on a mission to meet with Vladimir Putin when an intriguing proposal dropped into his email.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/epstein-waged-a-years-long-quest-to-meet-putin-and-talk-finance",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "907e14a032c1ad4bddc969bfbf2f4842",
-      "timestamp": "2026-02-19T20:05:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Modi Bets on AI Revolution With a Human Face - The Indian premier sought to lay out a vision of an AI that is ethical and human-first.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-19/india-s-modi-touts-a-more-human-side-for-ai-at-new-delhi-summit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "504fda16a8df92c8d8399b7b05ccfd32",
-      "timestamp": "2026-02-19T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Wage Growth Quickened at Year-End, Bundesbank Says - German wage growth quickened at the end of 2025, though recent agreements point to smaller salary increases ahead, according to the Bundesbank.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/german-wage-growth-quickened-at-year-end-bundesbank-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "678e583b1e61504656e5fec2e9ac8834",
-      "timestamp": "2026-02-19T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump-Backed Gas Project Has Competitors Rattled Over Risks - US President Donald Trump’s plan for Japan to build a massive gas power plant in Ohio promises a flood of electricity in a region desperate for it. It also heralds risks for others eager to meet the d",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-19/trump-backed-gas-project-has-competitors-rattled-over-risks",
       "sentiment": "NEUTRAL"
     }
   ]
