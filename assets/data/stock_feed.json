@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-02-21T11:56:08.489027+09:00",
+  "last_updated": "2026-02-21T13:33:07.260358+09:00",
   "items": [
+    {
+      "id": "efb2c0fe46b46d70bcd2c03f06dfa52c",
+      "timestamp": "2026-02-21T11:50:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Korea Says US Trade Deal Still Intact After Tariff Ruling - South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump’s emergency powers would not derail its broader trade agreement with Washington.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "35a3f0eeda5f272d5105bc738ad5809d",
       "timestamp": "2026-02-21T11:25:30+09:00",
@@ -2192,17 +2203,6 @@
       "related_tickers": [],
       "content": "US Envoy Warns ‘Made In Europe’ Plan Will Damage Allied Defense - US President Donald Trump’s envoy to the European Union denounced a forthcoming “Made in Europe” plan, warning that it could damage allies’ defense efforts and weaken Ukraine’s ability to fight Russia",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/us-envoy-warns-made-in-europe-plan-will-damage-allied-defense",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "839d9c962fde4d731b640dc46ef31e22",
-      "timestamp": "2026-02-20T19:08:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Euro-Zone Wage Growth Quickens, Backing ECB Caution on More Cuts - A key measure of euro-area pay growth quickened, supporting the European Central Bank’s view that there’s currently no need to lower interest rates further.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/euro-zone-wage-growth-quickens-backing-ecb-caution-on-more-cuts",
       "sentiment": "NEUTRAL"
     }
   ]
