@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-02-22T01:06:36.991542+09:00",
+  "last_updated": "2026-02-22T03:08:10.641558+09:00",
   "items": [
+    {
+      "id": "a7dab2379d41fa9514d0a7c0a8929a6a",
+      "timestamp": "2026-02-22T02:07:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Supreme Court Draws a Line With Trump by Curbing Tariff Powers - President Donald Trump finally pushed the US Supreme Court too far.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-21/supreme-court-tariff-ruling-shows-willingness-to-push-back-on-trump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eb2bc145683803fae9ecfd5bc57ec515",
+      "timestamp": "2026-02-22T01:33:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NASA Delays Moon Mission to Fix Rocket, Rules Out March Launch - NASA is preparing to remove its massive moon rocket from its launchpad to fix a technical issue, delaying the agency’s much-anticipated mission to send a crew of four around the moon.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-21/nasa-likely-to-delay-moon-mission-after-newly-found-rocket-issue",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d75f9b8048d4181bea0f8738e7bea63b",
+      "timestamp": "2026-02-22T01:08:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says He Will Increase Global Tariffs to 15% From 10% - President Donald Trump said he will increase the global 10% tariff he announced one day ago to 15% as he lashed out at the US Supreme Court over its ruling that his mechanism for applying tariffs was ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-21/trump-says-he-will-increase-global-tariffs-to-15-from-10",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "ceaf21f3ddd113123d5972bb4086d1b6",
       "timestamp": "2026-02-22T00:35:06+09:00",
@@ -2172,39 +2205,6 @@
       "related_tickers": [],
       "content": "US Premarket Movers: Akamai, Grail, Hudbay, Newmont, Opendoor - S&amp;P 500 Index futures decline 0.2% as of 7:42 a.m. in New York as traders assessed the potential impact of conflict in the Middle East and awaited a slate of US economic data.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/us-stock-futures-today-akamai-grail-hudbay-newmont-opendoor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "28e784f67e2fb2ef08c350f9e8fdf067",
-      "timestamp": "2026-02-20T21:45:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blue Owl Found Buyers for Portfolio of Private Loans - Blue Owl Capital found four buyers for a $1.4 billion portfolio of loans to help pay out investors, part of a plan to return cash to investors in the firm’s Blue Owl Capital Corp II, which was hit wit",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/blue-owl-found-buyers-for-portfolio-of-private-loans-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d90835aef74a1a2ac86acfb2905c2234",
-      "timestamp": "2026-02-20T21:45:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa Cattle Virus Response in ‘Shambles’ Says Dairy Firm - Restrictions placed on the dairy industry by the South African government to curb an outbreak of foot-and-mouth disease places it at serious risk, said one of the country’s leading dairy companies.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/south-africa-cattle-virus-response-in-shambles-says-dairy-firm",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "09985bfff43fa305e4a63417d3dd6067",
-      "timestamp": "2026-02-20T21:43:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "S&amp;P Signals High-Grade Rating on EA Bonds, Risking Debtor Payout - S&amp;P Global Ratings has signaled to some investors privately that it may grant a high-grade rating to $1.5 billion of Electronic Arts bonds, a move that would effectively block debt investors from ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/s-p-signals-high-grade-rating-on-ea-bonds-risking-debtor-payout",
       "sentiment": "NEUTRAL"
     }
   ]
