@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-02-21T21:08:44.225507+09:00",
+  "last_updated": "2026-02-21T23:07:34.670541+09:00",
   "items": [
+    {
+      "id": "c19330cbdbe09f522b946c12e78851be",
+      "timestamp": "2026-02-21T22:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apollo’s Marc Rowan Says Japan Is Poised for a Big Comeback - The alternative asset manager brought its partners to Tokyo to see the changes firsthand.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-21/apollo-s-marc-rowan-says-japan-is-poised-for-a-big-comeback",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "997ab0c8b5be9d92d685072221bada03",
+      "timestamp": "2026-02-21T21:35:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lutnick’s Davos Speech Was ‘Just Too Much,’ Lagarde Tells WSJ - European Central Bank President Christine Lagarde said she walked out of a speech by US Commerce Secretary Howard Lutnick at the World Economic Forum because she found his anti-European rhetoric inapp",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-21/lutnick-s-davos-speech-was-just-too-much-lagarde-tells-wsj",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1a985ba91289c34ec5374bf52b44aacb",
+      "timestamp": "2026-02-21T21:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Traders Rush to Hedge Iran Risk After Wild Start to Year - The oil market is in the middle of its strongest start to a year since 2022 as supply shocks and sanctions confound expectations of a glut. Now traders are racing to cover themselves against the prosp",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-21/oil-traders-rush-to-hedge-iran-risk-after-wild-start-to-year",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "5799aa5d9ab535f52370f18a78557582",
       "timestamp": "2026-02-21T19:24:24+09:00",
@@ -2172,39 +2205,6 @@
       "related_tickers": [],
       "content": "Warren Demands Trump’s Fed Nominees Vow to Protect Research - Senator Elizabeth Warren is demanding that Federal Reserve nominees commit to protect independent research after National Economic Council Director Kevin Hassett said the authors of a New York Fed stu",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/warren-demands-trump-s-fed-nominees-vow-to-protect-research",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "534c708871aedb8226bf8a3b05d6fe7c",
-      "timestamp": "2026-02-20T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NJ Transit Riders See Simple Commutes Turn Into Hours of Agony - Danny Wild is a senior coordinator for digital operations at Major League Baseball’s office in Manhattan and he’s experiencing what can best be described as commuter misery.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/nj-transit-s-call-for-work-from-home-goes-unheeded-by-employers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a8d20e1143e0bdda84fc74efdc64e8f",
-      "timestamp": "2026-02-20T20:53:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "LyondellBasell Slashes Dividend, Citing Challenging Markets - LyondellBasell Industries NV slashed its fourth-quarter dividend by almost half as the chemical maker cited challenging market conditions.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/lyondellbasell-slashes-dividend-citing-challenging-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "98784926a54c59e0391fd7587499f845",
-      "timestamp": "2026-02-20T20:49:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Ups Pressure on Iran; Blue Owl Sold Private Loans to Pay Investors | Bloomberg Brief 2/20/2026 - US equity futures climb as markets await the December PCE inflation data. President Trump urges Iran to reach a deal over its nuclear program in 15 days, while the US carries out the biggest military ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/bloomberg-brief-2-20-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
