@@ -1,6 +1,41 @@
 {
-  "last_updated": "2026-02-21T15:14:08.013550+09:00",
+  "last_updated": "2026-02-21T17:07:42.799289+09:00",
   "items": [
+    {
+      "id": "d813b4ba2385e50a315e7d7180b77eae",
+      "timestamp": "2026-02-21T16:05:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia’s FSB Says Ukraine Can Tap Front-Line Data Via Telegram - Russia said Ukraine can obtain sensitive information from troops using the Telegram app on the front line, signaling tightening scrutiny over a platform used by millions of Russians.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-21/russia-s-fsb-says-ukraine-can-tap-front-line-data-via-telegram",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "480e1bb7de8edf3cf181872e7628324e",
+      "timestamp": "2026-02-21T16:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Merz Will Struggle to Defy Economic Gravity on First China Trip - During his campaign, German Chancellor Friedrich Merz signaled a radical change from previous leaders’ cheerleading for trade with China: He warned business chiefs against bigger investments there and",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-21/merz-will-struggle-to-defy-economic-gravity-on-first-china-trip",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "675a194a5fa2a715f3b9d4836e8e3cc6",
+      "timestamp": "2026-02-21T15:27:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "2 Stocks Under $30 to Buy in 2026 - Not every stock under $30 is cheap, but these two winners look ready to soar in the long run.",
+      "url": "https://www.fool.com/investing/2026/02/21/2-stocks-under-30-to-buy-in-2026/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a2ad5f83eb2eb82758003462c4b52b6b",
       "timestamp": "2026-02-21T14:21:27+09:00",
@@ -2170,39 +2205,6 @@
       "related_tickers": [],
       "content": "Treasuries Dip Before PCE as Fed Hawks, Iran Put Traders on Edge - Treasuries fell as investors braced for key US inflation data, capping a week shaped by hawkish signals from the Federal Reserve and tensions between the US and Iran that sent oil prices higher.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/treasuries-dip-before-pce-as-fed-hawks-iran-put-traders-on-edge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "58ad32a5377bf2fc43d28ab34231bad3",
-      "timestamp": "2026-02-20T19:30:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Primark Under Pressure From Budget Rivals Shein and Temu - Primark is under extreme pressure from Shein and Temu as cash-strapped customers hunt for deals.\n\nAfter decades as the high street's go-to for budget clothing, Primark's owners could make some big cha",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/primark-under-pressure-from-budget-rivals-shein-and-temu-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c928754cfe576425d19f8bf5e589d5f",
-      "timestamp": "2026-02-20T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "At Long Last, Being Underweight Tech Is a Winning Stock Strategy - For years, loading up on the biggest US technology stocks delivered a steady stream of riches &mdash; and avoiding them was a surefire ticket to the unemployment rolls. In 2026, the opposite has been ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/at-long-last-being-underweight-tech-is-a-winning-stock-strategy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b521f4f5310ad32c5e20d2b5c4f8f48",
-      "timestamp": "2026-02-20T19:29:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Big Tech’s Soaring Spending on AI Is Eating Into Stock Buybacks - After years of funneling cash to investors through stock buybacks, big technology companies are reining in that spending as they race to sink more money into artificial intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/big-tech-s-soaring-spending-on-ai-is-eating-into-stock-buybacks",
       "sentiment": "NEUTRAL"
     }
   ]
