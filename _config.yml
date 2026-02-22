@@ -21,6 +21,34 @@ google_analytics: "G-LY54J8KM1X"
 # plugins는 GitHub Pages가 자동으로 관리
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from # 포스트 제목 변경 시 리다이렉션 지원
+
+# Visualization Settings
+mathjax: true
+mermaid: true
+
+# Extended Taxonomy (Subcategories)
+subcategories:
+  - 디지털 빔조향
+  - FPGA
+  - AESA
+  - DSP
+  - Calibration
+
+# Giscus Comment System Configuration
+giscus:
+  repo: "rldhkstopic/rldhkstopic.github.io"
+  repo_id: "R_kgDN928UuA" # 실제 ID는 설정 페이지에서 확인 필요
+  category: "General"
+  category_id: "DIC_kwDON928uM4Cm09t" # 실제 ID는 설정 페이지에서 확인 필요
+  mapping: "pathname"
+  strict: "0"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "bottom"
+  theme: "light"
+  lang: "ko"
+  loading: "lazy"
 
 # Timezone (GitHub Pages default is UTC)
 timezone: Asia/Seoul
