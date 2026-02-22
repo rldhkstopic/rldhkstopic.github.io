@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-22T21:08:54.792305+09:00",
+  "last_updated": "2026-02-22T23:08:46.422874+09:00",
   "items": [
+    {
+      "id": "77bc75cd98394ed6d8398c1e0a2dee60",
+      "timestamp": "2026-02-22T22:00:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple’s Next Big Thing Is a Push Into Visual Artificial Intelligence - Apple CEO Tim Cook is signaling that Visual Intelligence will be the defining feature of the company’s push into wearable AI devices. Also: What to expect from Apple’s first product launches of the ye",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-22/apple-s-ai-wearables-push-what-to-expect-from-march-4-low-end-macbook-launch",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a7653220d8439e4520dbcca78d09e4a4",
+      "timestamp": "2026-02-22T20:55:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hungary to Block EU Sanctions, Loans Over Druzhba Standoff - Hungary plans to block every European Union decision concerning Ukraine, including a new sanctions package against Russia and key loans, until oil starts flowing again through the Druzhba pipeline in ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/szijjarto-says-hungary-to-block-eu-sanctions-package-on-monday",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9c8b5394b7d601c47d7c6f9e0fe185f5",
       "timestamp": "2026-02-22T20:44:39+09:00",
@@ -2183,28 +2205,6 @@
       "related_tickers": [],
       "content": "US Consumer Sentiment Rises Less Than Expected in February - US consumer sentiment rose less than expected in February as optimism among wealthier Americans was offset by declining confidence among people who haven’t benefited from stock-market gains.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/us-consumer-sentiment-rises-less-than-expected-in-february",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d57e8f0c795e169b21dae20a2b3cbaa7",
-      "timestamp": "2026-02-20T23:57:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Madagascan President Breaks Tradition With First Trip to Moscow - Madagascan President Michael Randrianirina, who came to power in a coup last year, has broken tradition by visiting Russia rather than former colonial power France on his first official trip abroad.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/madagascan-president-breaks-tradition-with-first-trip-to-moscow",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78b98155e80ba763b27b21a1159d030b",
-      "timestamp": "2026-02-20T23:55:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "France’s SNCF Weighs Stake Sale for Rail Logistics Europe - French state-owned transport group SNCF is considering the sale of a stake in its Rail Logistics Europe unit, people with knowledge of the matter said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/france-s-sncf-weighs-stake-sale-for-rail-logistics-europe",
       "sentiment": "NEUTRAL"
     }
   ]
