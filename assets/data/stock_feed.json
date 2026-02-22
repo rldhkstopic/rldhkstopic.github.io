@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-02-22T09:24:08.162326+09:00",
+  "last_updated": "2026-02-22T12:03:24.732701+09:00",
   "items": [
+    {
+      "id": "e7626dc1ea7a40a0e8d3c442017423c3",
+      "timestamp": "2026-02-22T09:26:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia’s Albanese Rejects Immigration Cuts as Far-Right Grows - Australian Prime Minister Anthony Albanese dismissed the idea of immigration cuts or tighter border checks, even as electoral polls show a surge in support for the country’s hard-right One Nation Part",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/australia-s-albanese-rejects-immigration-cuts-as-far-right-grows",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "0deb248a1b7b19d0b1b0b6650cb1a002",
       "timestamp": "2026-02-22T09:00:00+09:00",
@@ -2194,17 +2205,6 @@
       "related_tickers": [],
       "content": "Goldman Raises US High-Grade Debt Sales View to $2.1 Trillion - Goldman Sachs Group Inc. has boosted its investment-grade bond sale forecasts for the US and Europe after a strong start to the year for issuance and on expectations of a stronger economic outlook.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/goldman-raises-us-high-grade-debt-sales-view-to-2-1-trillion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c0b4f81c4cdbd2001da680b8d51c823",
-      "timestamp": "2026-02-20T23:13:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Partners Group Seeks to Reassure on AI, Private Credit Exposure - Partners Group Holding AG sought to send a calming message about its investments after the stocks of other alternative asset managers suffered in recent weeks over their exposures to private credit an",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/partners-group-seeks-to-reassure-on-ai-private-credit-exposure",
       "sentiment": "NEUTRAL"
     }
   ]
