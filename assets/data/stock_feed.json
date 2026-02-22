@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-22T19:05:56.423462+09:00",
+  "last_updated": "2026-02-22T21:08:54.792305+09:00",
   "items": [
+    {
+      "id": "9c8b5394b7d601c47d7c6f9e0fe185f5",
+      "timestamp": "2026-02-22T20:44:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU May Freeze US Trade Deal Approval on Trump Tariff ‘Chaos’ - The European Parliament’s trade chief will propose freezing the ratification process of the European Union’s trade deal with the US until they’ve received details from President Donald Trump’s adminis",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/eu-may-freeze-us-trade-deal-approval-over-trump-s-tariff-chaos",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "39a26008f39b58b1ca662a563f21847a",
+      "timestamp": "2026-02-22T19:50:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Poland’s Azoty Seeks 83% Debt Writedown in Polymer Restructuring - Grupa Azoty SA seeks to settle just about 17% of debt taken to build the biggest propylene and polypropylene complex in central and eastern Europe.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/poland-s-azoty-seeks-83-debt-writedown-in-polymer-restructuring",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac5d74c760f9985f0fd351cf0c7024d6",
+      "timestamp": "2026-02-22T19:13:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Malaysia Islamist Party Ascends in Opposition Coalition Shake-Up - Malaysia’s Islamist party is taking control of the opposition coalition following months of internal rift, a move that could increase its influence and disrupt the political landscape ahead of a gener",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/malaysia-s-islamist-party-rises-to-lead-in-opposition-shake-up",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "433d7eddb8eaf8d91b7c7fe31a1fcca0",
+      "timestamp": "2026-02-22T18:59:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Opposition to EU Debt Hasn’t Changed, Klingbeil Tells FAZ - German Finance Minister Lars Klingbeil said Germany sees no need to revise its stance on common European debt, backing Chancellor Friedrich Merz in opposing recent calls for more joint borrowing.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/german-opposition-to-eu-debt-hasn-t-changed-klingbeil-tells-faz",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e833158572032588680fe5f33c8c533a",
+      "timestamp": "2026-02-22T18:40:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macron Asks Trump to Lift Sanctions on European Officials - French President Emmanuel Macron wrote to Donald Trump asking his US counterpart to lift sanctions imposed on officials including former European Union Commissioner Thierry Breton.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/macron-asks-trump-to-lift-sanctions-on-european-officials",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "5faf64166ad602988d04fb363ce537a3",
       "timestamp": "2026-02-22T17:59:41+09:00",
@@ -2150,61 +2205,6 @@
       "related_tickers": [],
       "content": "France’s SNCF Weighs Stake Sale for Rail Logistics Europe - French state-owned transport group SNCF is considering the sale of a stake in its Rail Logistics Europe unit, people with knowledge of the matter said.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/france-s-sncf-weighs-stake-sale-for-rail-logistics-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4837e61db8677da602b10ea9fa227aab",
-      "timestamp": "2026-02-20T23:50:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "France Clears Sale of EDF Data Center Unit to Bitcoin Miner MARA - US Bitcoin miner MARA Holdings Inc. completed its purchase of a majority stake in a data center unit owned by Electricite de France SA, with the government signing off on condition that a French inves",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/france-clears-sale-of-edf-data-center-unit-to-bitcoin-miner-mara",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5156e87cee6c1b595599b059f5e1c61b",
-      "timestamp": "2026-02-20T23:49:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Fiber Network DNS:NET Picks Advisers For Debt Talks - German fiber operator DNS:NET Internet Service GmbH and its creditors have appointed advisers to prepare for debt talks as the Berlin-based firm struggles to fund the roll-out of its network.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/german-fiber-network-dns-net-picks-advisers-for-debt-talks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "048848741e2bd361a31876b31dd6a6fb",
-      "timestamp": "2026-02-20T23:49:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Yes, the Ultra-Rich Can Be Taxed. Here’s How - The ultra wealthy of the world have long avoided paying income taxes by not having much of an income at all. Instead, their wealth is generally tied up in things like stock options, family trusts, hou",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/yes-the-ultra-rich-can-be-taxed-here-s-how-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0983a6f1c2dc35dc16e5189d10475e56",
-      "timestamp": "2026-02-20T23:46:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Won’t Rule Out Limited Iran Strike as Forces Gather - President Donald Trump said he’s considering a limited military strike on Iran, ratcheting up pressure on the regime to come to a quick deal over its nuclear program as he masses military forces in th",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/trump-won-t-rule-out-limited-iran-strike-as-forces-gather",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e0bae8bdbe1ba8bcc7f762ec3dddaa78",
-      "timestamp": "2026-02-20T23:39:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Businesses Welcome the Startups They Once Shunned - Japan Inc. is banishing the old stereotypes of immobile salarymen and the shunning of startups as CEOs adapt to workers' new expectations -- and the need to partner with businesses of all sizes. Hirom",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/japan-businesses-welcome-the-startups-they-once-shunned-video",
       "sentiment": "NEUTRAL"
     }
   ]
