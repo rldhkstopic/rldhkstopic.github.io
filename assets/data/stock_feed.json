@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-23T05:05:57.742978+09:00",
+  "last_updated": "2026-02-23T07:05:57.307606+09:00",
   "items": [
+    {
+      "id": "5956a3a75f1c9403c0ed898d05392d08",
+      "timestamp": "2026-02-23T07:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blue Owl Anxiety Rattles the $1.8 Trillion Private Credit Market - <p>Despite years of solid returns, direct lenders can't shake concerns about the once-niche corner of global finance.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-02-22/blue-owl-redemptions-halt-intensifies-private-credit-fears",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16890c12577432b65647019f205b4d22",
+      "timestamp": "2026-02-23T06:03:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dollar Trades Within Range Amid Tariff Uncertainty: Markets Wrap - The US dollar traded in a tight range early Monday as uncertainty lingered after President Donald Trump lashed out at the US Supreme Court for striking down his use of emergency powers to impose so-ca",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/dollar-trades-within-range-amid-tariff-uncertainty-markets-wrap",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7d45c212ac161de25a2e22f4e3c90071",
       "timestamp": "2026-02-23T04:12:57+09:00",
@@ -197,6 +219,17 @@
       "related_tickers": [],
       "content": "Apple’s Next Big Thing Is a Push Into Visual Artificial Intelligence - Apple CEO Tim Cook is signaling that Visual Intelligence will be the defining feature of the company’s push into wearable AI devices. Also: What to expect from Apple’s first product launches of the ye",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-22/apple-s-ai-wearables-push-what-to-expect-from-march-4-low-end-macbook-launch",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc0a303844c2fbd2a73ab3fd673f819f",
+      "timestamp": "2026-02-22T21:53:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France to Summon US Ambassador Over Comments on Activist Killing - French Foreign Affairs Minister Jean-Noel Barrot will summon US Ambassador Charles Kushner over comments made on the killing of a man in clashes between far-right and far-left activists.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/france-to-summon-us-ambassador-over-comments-on-activist-killing",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2172,39 +2205,6 @@
       "related_tickers": [],
       "content": "Raw Sugar Finds Support After Supreme Court Tariff Ruling - Raw sugar futures briefly extended gains after the Supreme Court struck down President Donald Trump’s global tariffs, as the move could allow top producer Brazil to export more sugar and ethanol to th",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/raw-sugar-finds-support-after-supreme-court-tariff-ruling",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c2f77fef1de4125bd385a6544ddf8feb",
-      "timestamp": "2026-02-21T01:06:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Copper Climbs as Supreme Court Strikes Down Trump’s Tariffs - Copper climbed in London, tracking gains in US stock markets after the Supreme Court struck down President Donald Trump’s sweeping reciprocal tariffs, which have weighed heavily on the outlook for glo",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/copper-climbs-as-supreme-court-strikes-down-trump-s-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ee9ebee98e1319102969212ed145f92f",
-      "timestamp": "2026-02-21T01:04:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Will Travel to China in Late March for High-Stakes Xi Meet - US President Donald Trump plans to travel to China from March 31 to April 2 for a meeting with his counterpart Xi Jinping as the two leaders will look to navigate a trade relationship again plunged in",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/trump-will-travel-to-china-in-late-march-for-high-stakes-xi-meet",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d36da5cf89e3430e888709504354357",
-      "timestamp": "2026-02-21T01:04:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Schumer Calls Tariff Ruling a Victory for Consumer Wallets - Senator Chuck Schumer, a Democrat from New York, calls the Supreme Court ruling on tariffs a victory for consumers' wallets. Annmarie Hordern reports.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/schumer-calls-tariff-ruling-a-victory-for-consumer-video",
       "sentiment": "NEUTRAL"
     }
   ]
