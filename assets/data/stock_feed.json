@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-02-23T01:06:56.156675+09:00",
+  "last_updated": "2026-02-23T03:08:00.257510+09:00",
   "items": [
+    {
+      "id": "bf8063370e3d804e9248778424bf0390",
+      "timestamp": "2026-02-23T02:54:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bond Market Momentum Shifts Bears’ Way as Sell Signals Flash - From the Supreme Court’s decision against Donald Trump’s tariffs to the threat of Federal Reserve rate hikes and signs of labor-market resilience, a range of pressures are forcing a sentiment shift in",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/bond-market-momentum-shifts-bears-way-as-sell-signals-flash",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e2d1925d8be296fb9121c2997925fea8",
+      "timestamp": "2026-02-23T02:53:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Colombia Lacks License to Import Venezuelan Gas, Minister Says - Colombia’s state oil company is unable to import natural gas from Venezuela because it lacks a license from the US required to do so, the Andean nation’s energy chief said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/colombia-lacks-license-to-import-venezuelan-gas-minister-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7be4a2eb7b26e38cece3c50ce6a3b543",
+      "timestamp": "2026-02-23T02:46:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Leader of Mexico’s Jalisco Cartel Reported Slain in Federal Raid - A top cartel leader was killed during a raid carried out by Mexican authorities in the western state of Jalisco, according to local media.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/leader-of-mexico-s-jalisco-cartel-reported-slain-in-federal-raid",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2bed16be34ce07bd15c60a33af2f0e02",
+      "timestamp": "2026-02-23T02:32:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Says Nuclear Talks With Trump’s Envoy to Resume This Week - Iranian Foreign Minister Abbas Araghchi said he’s likely to meet US special envoy Steve Witkoff Thursday in Geneva, seeking a diplomatic resolution for the latest standoff over Tehran’s nuclear progra",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/iran-says-nuclear-talks-with-trump-s-envoy-to-resume-this-week",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e12c527395901c1da2f03a13b1267714",
+      "timestamp": "2026-02-23T02:21:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Risks Being the Biggest Loser From Trump’s Tariff Changes - After boasting for months about its preferential trade deal with US President Donald Trump, the UK is at risk of becoming the biggest loser in the aftermath of the Supreme Court’s decision to strike d",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/uk-risks-being-the-biggest-loser-from-trump-s-tariff-changes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9b4579db8a74a5d926514efc5ae37629",
+      "timestamp": "2026-02-23T02:06:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lagarde Says US Tariff Moves Risk Upsetting Equilibrium With EU - President Donald Trump’s latest tariff moves risk upsetting the previously negotiated “equilibrium” between the European Union and the US and could pose a new headwind to the economy, European Central",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/lagarde-says-us-tariff-moves-risk-upsetting-equilibrium-with-eu",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9b4579db8a74a5d926514efc5ae37629",
+      "timestamp": "2026-02-23T02:06:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lagarde Says US Tariff Moves Risk Upsetting Equilibrium With EU - President Donald Trump’s latest tariff moves risk upsetting the previously negotiated “equilibrium” between the European Union and the US and could pose a new headwind to the economy, European Central",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/lagarde-says-us-tariff-moves-risk-upsetting-equilibrium-with-eu",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e7de1e3479db89953d03354e443f59d2",
+      "timestamp": "2026-02-23T01:43:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Macron Picks New Budget Minister in Shuffle of Top State Jobs - French President Emmanuel Macron appointed a new budget minister on Sunday in part of a reshuffle of senior positions in his administration that has drawn criticism from opposition parties.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/macron-picks-new-budget-minister-in-shuffle-of-top-state-jobs",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "4b95c59b7dcc477ee57e256b1f5abf46",
       "timestamp": "2026-02-23T00:00:00+09:00",
@@ -2117,94 +2205,6 @@
       "related_tickers": [],
       "content": "How Will Trump Respond to the Supreme Court Tariff Ruling? - The US Supreme Court struck down President Donald Trump’s global tariffs, saying he exceeded his authority. Bloomberg's Nathan Dean and Mike McKee discuss how President Trump may respond to the decisi",
       "url": "https://www.bloomberg.com/news/videos/2026-02-20/how-will-trump-respond-to-supreme-court-tariff-ruling-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "71b652b9547756557be81899e036ac08",
-      "timestamp": "2026-02-21T00:49:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "New York Faces Late-Weekend Snow as East Coast Storm Builds - A late-weekend storm could blanket parts of the Eastern Seaboard with snow, with several inches possible in New York and southern New England through Monday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/new-york-faces-late-weekend-snow-as-east-coast-storm-builds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b6b983772035ee1a4fe9b9fda5f078c7",
-      "timestamp": "2026-02-21T00:36:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What the Supreme Court Ruling Means for Stocks - The US Supreme Court struck down President Donald Trump's global tariffs. John Stoltzfus of Oppenheimer talks about how the ruling could impact markets.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/what-the-supreme-court-ruling-means-for-stocks-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a01939f5961e48a26fdf2ce7208c102",
-      "timestamp": "2026-02-21T00:24:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Supreme Court Strikes Down Trump Tariffs, Wall Street React - Treasuries and a Bloomberg gauge of the dollar fell after the US Supreme Court struck down President Donald Trump’s sweeping global tariffs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/us-supreme-court-strikes-down-trump-tariffs-wall-street-reacts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "05c58ba3029e0fa755a5005be1b56be1",
-      "timestamp": "2026-02-21T00:19:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Treasuries Fall After Supreme Court Scraps Trump’s Tariffs - Treasuries declined after the Supreme Court struck down President Donald Trump’s sweeping global tariffs that have improved the US fiscal position this year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/us-treasuries-fall-after-supreme-court-scraps-trump-s-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b299328d2dd5295da636255ad16695b4",
-      "timestamp": "2026-02-21T00:19:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump's Global Tariffs Struck Down by Supreme Court - The US Supreme Court struck down President Donald Trump’s sweeping global tariffs. Voting 6-3, the court said Trump exceeded his authority by invoking a federal emergency-powers law to impose his “rec",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/trump-s-global-tarffs-struck-down-by-supreme-court-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "08d57bd7a9d0c4fe88838e347fad8b9d",
-      "timestamp": "2026-02-21T00:18:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Price of Musk’s Starlink Kits in Iran Soars as US Threatens War - The biggest US troop deployment in the Middle East since the Iraq War is sending the black market price for Elon Musk’s Starlink terminals soaring in Iran, where people fear a war would trigger anothe",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/iran-war-fears-trigger-price-surge-for-musk-s-starlink-kits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ee2894655c3bdbab71f36f7acd0cf141",
-      "timestamp": "2026-02-21T00:10:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Does India’s AI Push Signal Real Promise? - From Adani and Ambani racing to outspend each other to fresh deals with OpenAI and Anthropic, India is going all in on AI. But will it finally turn ambition into reality?\n\n (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/does-india-s-ai-push-signal-real-promise-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f4ecb37cd6042b3609eb9d8ffb0b9a2a",
-      "timestamp": "2026-02-21T00:08:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Aston Martin Owner’s F1 Deal With Himself Shows Turnaround Pain - Looking for momentum in a turnaround that has run out of steam, Aston Martin Chairman Lawrence Stroll is making deals with himself.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/aston-martin-owner-s-f1-deal-with-himself-shows-turnaround-pain",
       "sentiment": "NEUTRAL"
     }
   ]
