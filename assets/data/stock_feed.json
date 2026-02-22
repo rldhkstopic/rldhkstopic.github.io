@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-02-22T12:03:24.732701+09:00",
+  "last_updated": "2026-02-22T13:36:53.835801+09:00",
   "items": [
+    {
+      "id": "b56add2cf272af2ea6f46e48fe1dd8ac",
+      "timestamp": "2026-02-22T13:18:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia Says Weighing All Options After ‘Unjustified’ Tariffs - Australia’s government said it will “examine all options” after US President Donald Trump imposed a 15% tariff on foreign imports.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/australia-says-weighing-all-options-after-unjustified-tariffs",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e7626dc1ea7a40a0e8d3c442017423c3",
       "timestamp": "2026-02-22T09:26:00+09:00",
@@ -2194,17 +2205,6 @@
       "related_tickers": [],
       "content": "Canada’s Oil Sands Poised for Mega Merger After Busy 2025 - Canada’s oil patch is ripe for a mega merger, analysts say, after a bumper year for deals has left relatively few smaller targets available.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/alberta-oil-sands-poised-for-mega-merger-after-busy-2025",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0781a57091306e57fdde12b2f01b011c",
-      "timestamp": "2026-02-20T23:18:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Raises US High-Grade Debt Sales View to $2.1 Trillion - Goldman Sachs Group Inc. has boosted its investment-grade bond sale forecasts for the US and Europe after a strong start to the year for issuance and on expectations of a stronger economic outlook.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/goldman-raises-us-high-grade-debt-sales-view-to-2-1-trillion",
       "sentiment": "NEUTRAL"
     }
   ]
