@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-02-23T03:08:00.257510+09:00",
+  "last_updated": "2026-02-23T05:05:57.742978+09:00",
   "items": [
+    {
+      "id": "7d45c212ac161de25a2e22f4e3c90071",
+      "timestamp": "2026-02-23T04:12:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Asks Citizens in Mexico to Shelter After Cartel Leader Killed - The US Department of State issued a “shelter in place” alert for US citizens in parts of Mexico affected by criminal activity and road blockages after a top cartel leader was killed by local authoriti",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/us-asks-citizens-in-mexico-to-shelter-after-cartel-leader-killed",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f1ee33a1b93b56cf1c2b8101ffdc0e3e",
+      "timestamp": "2026-02-23T03:45:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rolls-Royce Plans a £1.5 Billion Stock Buyback, Sky News Says - Rolls-Royce Holdings PLC is set to announce a share buyback worth as much as £1.5 billion ($2 billion), Sky News reported.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/rolls-royce-plans-a-1-5-billion-stock-buyback-sky-news-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "772b87e19d67a7c3571a7a9846e6afbb",
+      "timestamp": "2026-02-23T03:44:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brazil Soybean Terminal Seized by Protesters in Harvest Season - Local protesters have occupied a Cargill Inc. export terminal in Brazil’s Amazon region at the height of the soybean harvest, escalating a standoff that has affected shipments from one of the country’",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/brazil-soybean-terminal-seized-by-protesters-in-harvest-season",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "bf8063370e3d804e9248778424bf0390",
       "timestamp": "2026-02-23T02:54:22+09:00",
@@ -2172,39 +2205,6 @@
       "related_tickers": [],
       "content": "Schumer Calls Tariff Ruling a Victory for Consumer Wallets - Senator Chuck Schumer, a Democrat from New York, calls the Supreme Court ruling on tariffs a victory for consumers' wallets. Annmarie Hordern reports.  (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-20/schumer-calls-tariff-ruling-a-victory-for-consumer-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0c6186af87d7d722e4ffaeddbca1ac0a",
-      "timestamp": "2026-02-21T01:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vanguard Eyes Non-US Markets to Hedge High-Grade Debt Exposure - Vanguard is looking at overseas markets to help hedge exposure to US investment-grade corporate debt, as elevated valuations and expectations of higher supply leave the market vulnerable to repricing ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/vanguard-eyes-non-us-markets-to-hedge-high-grade-debt-exposure",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9a9f6249e4ed98fafef4089a6f6a0375",
-      "timestamp": "2026-02-21T00:58:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canadian Stocks Whipsaw After Trump Tariffs Struck Down - Canada’s stocks benchmark briefly spiked higher Friday morning after the US Supreme Court struck down President Donald Trump’s global tariffs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/canadian-stocks-whipsaw-after-trump-tariffs-struck-down",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e47c44aba21da7ebe78cc24bdb3991bb",
-      "timestamp": "2026-02-21T00:54:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Will Trump Respond to the Supreme Court Tariff Ruling? - The US Supreme Court struck down President Donald Trump’s global tariffs, saying he exceeded his authority. Bloomberg's Nathan Dean and Mike McKee discuss how President Trump may respond to the decisi",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/how-will-trump-respond-to-supreme-court-tariff-ruling-video",
       "sentiment": "NEUTRAL"
     }
   ]
