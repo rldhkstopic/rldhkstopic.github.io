@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-02-22T15:17:08.779864+09:00",
+  "last_updated": "2026-02-22T17:07:49.964250+09:00",
   "items": [
+    {
+      "id": "481aa1b7686b905134ed0722bccb7e32",
+      "timestamp": "2026-02-22T15:57:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Postpones US Trip to Finalize Trade Pact on Tariff Ruling - Indian trade officials will postpone a trip to the US aimed at finalizing their interim deal after a US Supreme Court ruling that struck down many of President Donald Trump’s tariffs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/india-postpones-us-trip-to-finalize-trade-pact-on-tariff-ruling",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "97ccca761282318ba35799bfc72a1607",
+      "timestamp": "2026-02-22T14:56:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan’s Ruling Party Tax Chief Calls US Tariff Situation ‘Messy’ - A heavyweight of Japan’s ruling Liberal Democratic Party called US tariffs “a real mess” after President Donald Trump hiked levies in response to a Supreme Court decision that his previous tariffs wer",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-22/japan-s-ruling-party-tax-chief-calls-us-tariff-situation-messy",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b56add2cf272af2ea6f46e48fe1dd8ac",
       "timestamp": "2026-02-22T13:18:44+09:00",
@@ -2183,28 +2205,6 @@
       "related_tickers": [],
       "content": "Apollo's Rowan Says Japan Is Poised for a Big Comeback - Marc Rowan, chief executive officer of Apollo Global Management Inc., says Japan learned tough lessons during three decades of economic stagnation and is poised to come roaring back. He speaks with Bl",
       "url": "https://www.bloomberg.com/news/videos/2026-02-20/apollo-s-rowan-says-japan-is-poised-for-a-big-comeback-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b30ffbdc62b08b90e928337c1a1edf91",
-      "timestamp": "2026-02-20T23:27:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Q4 GDP Grows Smaller-Than-Forecast 1.4% on Shutdown Impact - The US economy grew less than expected at the end of last year, as inflation-adjusted gross domestic product increased an annualized 1.4% in the fourth quarter. Overall, the economy expanded 2.2% last",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/us-q4-gdp-grows-smaller-than-forecast-1-4-on-shutdown-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "68d3672771a067f05c8604fc7bf50261",
-      "timestamp": "2026-02-20T23:24:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada’s Oil Sands Poised for Mega Merger After Busy 2025 - Canada’s oil patch is ripe for a mega merger, analysts say, after a bumper year for deals has left relatively few smaller targets available.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/alberta-oil-sands-poised-for-mega-merger-after-busy-2025",
       "sentiment": "NEUTRAL"
     }
   ]
