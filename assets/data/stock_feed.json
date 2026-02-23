@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-02-23T12:04:16.957035+09:00",
+  "last_updated": "2026-02-23T13:43:10.478659+09:00",
   "items": [
+    {
+      "id": "7657e58bcc99e74d87f447d3b93138c9",
+      "timestamp": "2026-02-23T13:18:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IDFC First Bank Tumbles 15% After India State Flags Account Gaps - IDFC First Bank Ltd. shares tumbled the most in nearly six years after the mid-sized Indian lender disclosed suspected fraud in accounts linked to a state government and said the Haryana state asked t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/idfc-first-bank-tumbles-15-after-india-state-flags-account-gaps",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "86b61be31517fe5824665a34e2cbfd1e",
+      "timestamp": "2026-02-23T13:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BofA, StanChart See Upgrade to South Africa Outlook After Budget - Finance Minister Enoch Godongwana will this week outline improvements in South Africa’s public finances that pave the way for a sovereign credit-rating outlook upgrade, a Bloomberg survey shows.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/bofa-stanchart-see-upgrade-to-south-africa-outlook-after-budget",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a45962aecdab7eec24650aa8600063db",
+      "timestamp": "2026-02-23T12:40:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asset Managers Turn Long Aussie for First Time Since Late 2024 - Institutional investors have turned long the Australian dollar for the first time in more than a year, driven by the combination of a hawkish Reserve Bank and weak greenback.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/asset-managers-turn-long-aussie-for-first-time-since-late-2024",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "27644da45cd311f03422cda198dc6202",
+      "timestamp": "2026-02-23T12:40:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SK Hynix Boss Pledges to Boost Output of AI Memory Chips - Chairman Chey Tae-won of SK Hynix Inc.’s parent SK Group pledged to grow production of AI memory chips to meet a surge in demand from the global data center buildout.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/sk-hynix-boss-pledges-to-boost-output-of-ai-memory-chips",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d90cfa823431be820e2f89c986fe20ec",
+      "timestamp": "2026-02-23T11:55:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Monitoring Trump’s New Trade Moves After US Court Defeat - China said it’s closely monitoring the Trump administration’s plan to push forward his tariff regime with other trade tools, in its first official remarks since the Supreme Court invalidated the presi",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/china-monitoring-trump-s-new-trade-moves-after-us-court-defeat",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "9d4448d282e22316931739a2b79f692f",
       "timestamp": "2026-02-23T11:46:38+09:00",
@@ -10,6 +65,39 @@
       "related_tickers": [],
       "content": "Tariff Turmoil Brings India Uncertainty, But Consumer Staples are Stirring - Centrum is bullish on Dabur, Marico, Nestle, Britannia, HUL, Godrej Consumer and Emami.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-02-23/india-consumer-staples-show-signs-of-recovery-centrum-bullish-on-nestle-dabur",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2a63d1c8efc8107d1b10f44c9306e11f",
+      "timestamp": "2026-02-23T11:43:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Stocks in Hong Kong Jump as US Court Strikes Down Tariffs - Chinese stocks in Hong Kong rallied after the US Supreme Court struck down President Donald Trump’s emergency tariffs, putting China among the countries set to face lower duties on shipments to the US",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/china-stocks-in-hong-kong-jump-as-us-court-strikes-down-tariffs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "854619db7e9ec587be9411938157abfe",
+      "timestamp": "2026-02-23T11:40:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Natural Gas Jumps on Powerful Blizzard and Higher LNG Exports - US natural gas prices rose as a powerful winter storm sweeping through the northeastern region was set to boost heating demand, while exports of LNG also climbed.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/us-natural-gas-jumps-on-powerful-blizzard-and-higher-lng-exports",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e45bc9f99d9bc425a022eb863505e476",
+      "timestamp": "2026-02-23T11:36:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Copper Advances as US Tariff Muddle Spurs Decline in the Dollar - Copper rose for a second day as uncertainty around US tariff policy and its impact on broader markets drove a decline in the dollar.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/copper-advances-as-us-tariff-muddle-spurs-decline-in-the-dollar",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2117,94 +2205,6 @@
       "related_tickers": [],
       "content": "FAA Resources ‘Insufficient’ to Oversee Safety Risks at United - The US Federal Aviation Administration’s oversight of United Airlines Holdings Inc.’s maintenance practices suffers from a lack of resources, meaning some safety risks remain, a government watchdog sa",
       "url": "https://www.bloomberg.com/news/articles/2026-02-20/faa-resources-insufficient-to-oversee-safety-risks-at-united",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d040ac8258d190a19d133c9fa78c1c60",
-      "timestamp": "2026-02-21T02:53:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Inside the US Effort to Rebuild Venezuela's Oil Industry - Bloomberg Television recently traveled to Venezuela with Energy Secretary Chris Wright as he became the highest ranking US official in the country since the capture of Nicolás Maduro. Annmarie Hordern",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/inside-the-us-effort-to-rebuild-venezuela-s-oil-industry-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4eca0530be17b0ed0182e92f909a2ada",
-      "timestamp": "2026-02-21T02:49:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "This is a Tremendous Day For The Constitution Says Treyz - The US Supreme Court struck down President Donald Trump’s sweeping global tariffs, undercutting his signature economic policy and delivering his biggest legal defeat since he returned to the White Hou",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/this-is-a-tremendous-day-for-the-constitution-says-treyz-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fc453d20f8ea0577477ee9580ae03579",
-      "timestamp": "2026-02-21T02:45:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Targets Italy in His Push to Halt Cuba’s Export of Doctors - President Donald Trump is taking his pressure campaign against Cuba to Europe, mounting a renewed US push for Italy to halt its use of doctors from the struggling Caribbean nation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/trump-targets-italy-in-his-push-to-halt-cuba-s-export-of-doctors",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9fcd75bcc7abc5e315ca510da67e6aca",
-      "timestamp": "2026-02-21T02:40:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bolivia Steelmaker Weighs Deducting Mill Losses From China Loan - Bolivia’s state steel company is feuding with the Chinese engineering firm that built its flagship plant, and says it may seek to deduct some of the $100 million in losses from repayments to its lende",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/bolivia-steelmaker-weighs-deducting-mill-losses-from-china-loan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9fcd75bcc7abc5e315ca510da67e6aca",
-      "timestamp": "2026-02-21T02:40:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bolivia Steelmaker Weighs Deducting Mill Losses From China Loan - Bolivia’s state steel company is feuding with the Chinese engineering firm that built its flagship plant, and says it may seek to deduct some of the $100 million in losses from repayments to its lende",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/bolivia-steelmaker-weighs-deducting-mill-losses-from-china-loan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9961a049ec09d1df4f09702d30d5afd6",
-      "timestamp": "2026-02-21T02:35:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Tariffs Ruled Unlawful | Open Interest 2/20/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" A major ruling from the Supreme Court as President Trump’s global tariffs were struck down in a de",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/open-interest-2-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c9723236f4c4f318e124b5f02c0fc26c",
-      "timestamp": "2026-02-21T02:35:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fact That The Court's Willing To Stand Up To Trump Is Striking Says Mukunda - Gautam Mukunda, Lecturer at Yale School of Management and Bloomberg Opinion contributor joined Paul Sweeney and Scarlet Fu to discuss the recent ruling from the Supreme Court.   The US Supreme Court s",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/fact-the-court-stood-up-to-trump-is-striking-mukunda-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "de4ad361a3179d1191d92882eec9fd5d",
-      "timestamp": "2026-02-21T02:33:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mexico Renews Push on Peru to Allow Departure of Holed-Up Ex PM - Mexican President Claudia Sheinbaum is applying renewed pressure on Peru to allow an ideological ally to exit the South American nation, after the country inaugurated a new left-leaning leader.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/mexico-renews-push-on-peru-to-allow-departure-of-holed-up-ex-pm",
       "sentiment": "NEUTRAL"
     }
   ]
