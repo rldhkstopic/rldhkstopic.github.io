@@ -1,6 +1,206 @@
 {
-  "last_updated": "2026-02-23T19:20:21.652044+09:00",
+  "last_updated": "2026-02-23T21:14:55.308328+09:00",
   "items": [
+    {
+      "id": "ea1f8c58a1356a6cb104346dba89622d",
+      "timestamp": "2026-02-23T21:02:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Miami’s Latest Hype Cycle Is Rooted in Silicon Valley - Some tech leaders and companies cast off ties to home in exodus to South Florida",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-23/silicon-valley-companies-keep-threatening-exodus-to-miami-texas-and-elsewhere",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4d9827daf6503840639d54cdc4408256",
+      "timestamp": "2026-02-23T20:43:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi's Next Breakout: The 2X Leveraged Play for Aggressive FinTech Investors - There's a leveraged ETF that could magnify SoFi's returns in your portfolio.",
+      "url": "https://www.fool.com/investing/2026/02/23/sofis-next-breakout-the-2x-leveraged-play-for-aggr/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4602a7f15c57a082621ddf8fd7cf41f4",
+      "timestamp": "2026-02-23T20:40:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blue Owl’s Woes Cloud the Outlook for Private Credit - <p>Opaque assets become a tougher sell when investors can’t pull their cash out.</p>",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-23/blue-owl-s-woes-cloud-the-outlook-for-private-credit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cedb991efdfa22a2fe7fc6e0be2e81a7",
+      "timestamp": "2026-02-23T20:33:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tariffs Front and Center Again for Markets, Says Peter Tchir - “This 10% or 15%, it’s not done,” says Peter Tchir, head of macro strategy at Academy Securities, as he explains his market fears related to the Supreme Court striking down President Donald Trump’s gl",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-23/tariffs-front-and-center-again-for-markets-peter-tchir-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a89fe50cb3f6e525fcea7aecb95f4b37",
+      "timestamp": "2026-02-23T20:29:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Portugal Appoints Ex-Police Chief Neves as Interior Minister - Portugal has named former national criminal police chief Luís Neves as interior minister, as the government prepares to channel billions of euros into rebuilding infrastructure and homes destroyed by ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/portugal-appoints-ex-police-chief-neves-as-interior-minister",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3ddd9d1d529c88da2a7a133c31f4c4ed",
+      "timestamp": "2026-02-23T20:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Trade Confusion Returns as Trump Overhauls Tariff Toolkit - The Supreme Court’s nixing of US President Donald Trump’s “reciprocal” tariffs is throwing fresh confusion over the raft of trade deals negotiated by global partners as the inescapable reality of ongo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/global-trade-confusion-returns-as-trump-overhauls-tariff-toolkit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "413de601b01daf6e257f2586bd055dec",
+      "timestamp": "2026-02-23T20:09:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Set to Freeze US Trade Deal Approval Over Trump Tariff Risk - The European Union is poised to halt the ratification process of its trade deal with the US as it awaits more details on the new tariff program from President Donald Trump’s administration. Kasia Klim",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-23/eu-set-to-freeze-us-trade-deal-approval-over-tariff-risk-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7fcd042147b1d3dcd1a276ca09645ba6",
+      "timestamp": "2026-02-23T20:00:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Novo Nordisk Trial Flop Ripples Through Denmark’s Stock Market - Disappointing data from Novo Nordisk A/S is sending shockwaves across equities in Denmark, dragging the wider market down and underscoring how tightly the country’s fortunes are tied to the obesity-dr",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/novo-nordisk-trial-flop-ripples-through-denmark-s-stock-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c5759f0982243efc906a2a2b18a649be",
+      "timestamp": "2026-02-23T20:00:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Wins as Trump Is Forced to Rejig Tariffs - President Xi will host a US counterpart next month who has been suddenly denied his favored means of leverage.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-23/china-wins-as-trump-is-forced-to-rejig-tariffs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "07de7f1830036ef6e0bbbf69fad6fe07",
+      "timestamp": "2026-02-23T20:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Millennium Exit Spawns Two New Hedge Funds Seeking $1.4 Billion - Two new commodities hedge funds are seeking to raise a collective $1.4 billion in assets after Millennium Management pulled the plug on the founders’ previous fund last year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/millennium-exit-spawns-two-new-hedge-funds-seeking-1-4-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3a9356de693bc2758f9e2aef40bd7b0f",
+      "timestamp": "2026-02-23T19:55:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Estée Lauder Eyes M&amp;A Opportunities to Help Turnaround, CEO Says - Estée Lauder Cos. is open to acquisitions as the owner of the Jo Malone and Le Labo brands enters the second year of a turnaround plan under Chief Executive Officer Stéphane de La Faverie.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/estee-lauder-eyes-m-a-opportunities-to-help-turnaround-ceo-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5c5d23f0f485600529683e43cc3c4285",
+      "timestamp": "2026-02-23T19:49:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Satellite Operator Eutelsat Seeks €1.5 Billion to Refinance Debt - Eutelsat Communications SA is seeking to raise €1.5 billion ($1.8 billion) as the satellite company looks to refinance outstanding debt after government rescue.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/satellite-operator-eutelsat-seeks-1-5-billion-to-refinance-debt",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ff0d69d8291972d9f90e55e27576e3a",
+      "timestamp": "2026-02-23T19:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Quirky Gauge Sees Stock Bullishness in Worries Among Wealthy - For all the forces driving the US stock market &mdash; from AI to fresh uncertainty on tariffs to geopolitical angst &mdash; the health of the American consumer remains a key determinant for whether t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/quirky-gauge-sees-stock-bullishness-in-worries-among-wealthy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "709356beaddf077da983717f5235fda6",
+      "timestamp": "2026-02-23T19:29:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Winter Snow Storm Sweeps US East Coast, Impacts Travel - A powerful blizzard has isolated New York City and hobbled transport networks, threatening to be among the worst on record. Major snowfall of as much as 30 inches is expected across the East Coast in ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-23/winter-snow-storm-sweeps-us-east-coast-impacts-travel-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "21a993daa43d9d73f197e6cbf44a25c4",
+      "timestamp": "2026-02-23T19:26:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Set to Halt US Trade Deal Approval Over Trump Tariff Risk - The European Union is poised to freeze the ratification process of its trade deal with the US and is seeking more details from President Donald Trump’s administration on its new tariff program.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/eu-set-to-freeze-us-trade-deal-approval-over-trump-tariff-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5a3d2ea2971dbbd2c58c5d1ba2834919",
+      "timestamp": "2026-02-23T19:19:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Regroups After Supreme Court Loss, Bitcoin Falls Below $65,000 | The Opening Trade 2/23/2026 - Senior US officials said President Donald Trump’s tariff defeat at the Supreme Court won’t unravel deals negotiated with US partners as they sought to defend the administration’s assertive trade polic",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-23/the-opening-trade-2-23-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c3dcbc1998db9f221dca86c7bef8599f",
+      "timestamp": "2026-02-23T19:17:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Qatar Lender Readies AT1 Deal as Sales Boom in Middle East - Qatar’s oldest private lender plans to sell its first Additional Tier 1 bond since 2021 as it joins a spate of issuers offering the risky bank debt in the region.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/commercial-bank-of-qatar-readies-first-at1-bond-in-five-years",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1487f6212507bd5e2ed2eb6a1ec88703",
+      "timestamp": "2026-02-23T19:13:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Carlsberg Said to Begin $700 Million IPO Process for India Unit - Carlsberg A/S has appointed three banks and begun preparations for a potential listing of its India unit that could raise as much as $700 million, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-23/carlsberg-said-to-begin-700-million-ipo-process-for-india-unit",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "056afacddf68f0a7bdee6a661c25d86e",
       "timestamp": "2026-02-23T19:09:06+09:00",
@@ -2005,206 +2205,6 @@
       "related_tickers": [],
       "content": "Colombia Notches Progress With Venezuela on Natural Gas Trade - Senior officials from Venezuela and Colombia met in Caracas as the government of outgoing Colombian President Gustavo Petro seeks to secure natural gas imports to help plug a growing shortfall of the ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-21/colombia-notches-progress-with-venezuela-on-natural-gas-trade",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7d47364f4ee4fd35d52e79e3e9c1f970",
-      "timestamp": "2026-02-21T09:30:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Flagged Canada Suspect Eight Months Before Mass Shooting - OpenAI flagged and banned the suspect in one of Canada’s worst-ever mass shootings for violating ChatGPT’s usage policy June last year, without referring her to police.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-21/openai-flagged-canada-suspect-eight-months-before-mass-shooting",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "26909825f3aaf45b8e0d618f12f6c112",
-      "timestamp": "2026-02-21T09:19:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Supreme Court Strikes Down Trump's Tariffs | Balance of Power: Late Edition 2/20/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, House Budget Committee Member Marlin Stutzman, Susan Schwab, Mayer Brown LLP Strategic Ad",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-21/balance-of-power-late-edition-2-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ef05f24a044dfc32ed6c17901f0069cc",
-      "timestamp": "2026-02-21T09:18:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Gain as Court Blocks Tariffs; Yields Climb | The Close 2/20/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Former US secretary of Com",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-21/the-close-2-20-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "77d1e737abc8ec9f3fe5a6fda8838e29",
-      "timestamp": "2026-02-21T09:13:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Week | Japan’s New Investment Horizon - This week, we travel to Japan to bring you stories of how its economy could be turning the page after 30 years of stagnation. After the so-called ‘lost decades,’ Apollo Global Management’s Marc Rowan ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-21/wall-street-week-japan-s-new-investment-horizon-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5cf7f4be67799a7c78e49368751058f6",
-      "timestamp": "2026-02-21T09:08:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sony Says Diverse Capital Sources Key for Acquisition - Sony CEO Hiroki Totoki speaks to David Westin on Wall Street Week about the company’s funding options for its acquisition plans.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-21/sony-says-diverse-capital-sources-key-for-acquisition-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d13f799d85716717716f0490d3a9702",
-      "timestamp": "2026-02-21T09:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wikipedia Founder Sees No Threat From Musk’s Grokipedia - The founder of Wikipedia said he isn’t worried about the threat posed to the free online encyclopedia from AI-generated content, including from Elon Musk’s Grokipedia, because of how error-prone the i",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-21/wikipedia-founder-sees-no-threat-from-musk-s-grokipedia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fa0e5d7cc9846acf89c3ac339c3c8b3b",
-      "timestamp": "2026-02-21T08:53:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Imposes 10% Global Tariff in Bid to Salvage Trade Plans - President Donald Trump signed an executive order Friday imposing a 10% global tariff on foreign goods, moving quickly to preserve his trade agenda after the US Supreme Court struck down many of the le",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/trump-imposes-10-global-tariff-in-bid-to-salvage-trade-plans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "889614d3d987996ac2d20ba0fa5f091a",
-      "timestamp": "2026-02-21T08:47:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Akamai CEO: Our Security Services Not Disrupted by AI - Dr. Tom Leighton, CEO and co-founder of Akamai Technologies, says the company’s security business is resilient to AI disruption and that rising enterprise adoption of AI and SaaS is boosting demand fo",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/akamai-ceo-our-security-services-not-disrupted-by-ai-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f8700eb2f1cb768a815aa17db4ee921e",
-      "timestamp": "2026-02-21T08:45:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Paramount Says Regulatory Waiting Period for Warner Bid Ends - Paramount Skydance said it has “no statutory impediment” in the US to closing its proposed $77.9 billion acquisition of Warner Bros. Discovery Inc. after clearing a US antitrust hurdle. Paramount said",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/paramount-regulatory-waiting-period-for-warner-bid-ends-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3ed93e827b17e1cce825ae739053ccec",
-      "timestamp": "2026-02-21T08:42:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rep. Marlin Stutzman on Supreme Court Ruling on Tariffs - House Financial Services Committee Member Rep. Marlin Stutzman (R-IN) discusses the Supreme Court ruling on tariffs and says it is not good for farmers in Indiana, and that he would be happy to help P",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/rep-marlin-stutzman-on-supreme-court-ruling-on-tariffs-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "57e32c47eb4f2bba6b9a2e295602cf7c",
-      "timestamp": "2026-02-21T08:39:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Susan Schwab on Expectations of Tariffs After Supreme Court Ruling - Mayer Brown LLP Strategic Advisor and Former US Trade Representative Susan Schwab discusses the Treasury Secretary’s saying it’s possible to keep the 2026 tariff take virtually unchanged. In an interv",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/schwab-on-tarrif-expectations-after-supreme-court-ruling-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d0a14a8d19eec15b37d63a5f39608e94",
-      "timestamp": "2026-02-21T08:35:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Investor Matt Shumer on Viral Essay on AI Risks - Matt Shumer, AI entrepreneur and investor, discusses the economic and labor-market implications of advanced AI models. He speaks with Romaine Bostick and Katie Greifeld on \"The Close.\" (Source: Bloomb",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/ai-investor-matt-shumer-on-viral-essay-on-ai-risks-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2bc64361999aeb14a22822d8fa2d1ee7",
-      "timestamp": "2026-02-21T08:32:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Former Defense Sec. on Iran Strike Timeline - Former Secretary of Defense Mark Esper, who served in President Donald Trump's first administration, joins Balance of Power to discuss the likelihood of a U.S. strike against Iran this weekend. Interv",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/former-defense-sec-on-iran-strike-timeline-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f5ac0a34d398eee24bc9df4e63d3c62e",
-      "timestamp": "2026-02-21T08:30:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed's Preferred Inflation Gauge Comes In At 3% as Expected - US inflation was higher in December, with core PCE rising 0.4% month-over-month and 3% year-over-year. The Federal Reserve's preferred inflation gauge suggesting that reining in higher prices is provi",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/fed-s-preferred-inflation-gauge-comes-in-at-3-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d295fac2bbc54fcf0f564a823ff7a5b",
-      "timestamp": "2026-02-21T08:26:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Teneo's Kajiwara on SCOTUS Tariff Impact, Iran Concerns - Kevin Kajiwara, Co-President of Political Risk Advisory at Teneo, says while tariffs have already weighed on corporate income statements and balance sheets, the ruling adds a new layer of market uncer",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/teneo-s-kajiwara-on-scotus-tariff-impact-iran-concerns-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f74c39ec9a4668056f1cab2311209ad8",
-      "timestamp": "2026-02-21T08:20:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "1 Financial Services Stock That Could Turn $1,000 Per Month Into $1 Million - The stock has averaged annual gains of 42.6% over the past three years.",
-      "url": "https://www.fool.com/investing/2026/02/20/1-financial-services-stock-could-turn-1000-sofi/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bcb856c310c494a71dbffcfc34bf598d",
-      "timestamp": "2026-02-21T08:19:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Detroit Automakers Ask White House to Be Spared From New Tariffs - Detroit’s automakers asked the White House to shield them from new tariffs that President Donald Trump vowed to impose after the Supreme Court struck down most of his global duties.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-20/detroit-automakers-ask-white-house-to-be-spared-from-new-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7531eecbc30f8d8cd24959f9b45a2c02",
-      "timestamp": "2026-02-21T08:16:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Toymaker Behind Trump's Supreme Court Tariff Loss - Sarah Holder talks to the CEO who took his case against tariffs all the way to the Supreme Court – and asks SCOTUS reporter Greg Stohr and global trade editor Brendan Murray what's next.  (Source: Blo",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-20/the-toymaker-behind-trump-s-supreme-court-tariff-loss-video",
       "sentiment": "NEUTRAL"
     }
   ]
