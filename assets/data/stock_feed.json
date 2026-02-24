@@ -1,6 +1,292 @@
 {
-  "last_updated": "2026-02-25T05:11:21.326752+09:00",
+  "last_updated": "2026-02-25T07:09:50.075402+09:00",
   "items": [
+    {
+      "id": "c889cf54c177d14063fc3677ab036d43",
+      "timestamp": "2026-02-25T07:02:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Brands Spend So Much on the Super Bowl - Let's talk about all the brands you saw during Super Bowl and why these companies are so ready and willing to drop enormous sums of money to run a commercial during the biggest sporting event of the y",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/why-brands-spend-so-much-on-the-super-bowl-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "81b7bd16f517283984f02d3a721aa24a",
+      "timestamp": "2026-02-25T07:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rebel Startups Challenge Conglomerates in Korea’s ‘AI Squid Game’ - <p>Motif Technologies and Upstage take on SK and LG in the race&nbsp;for a national AI foundation model.&nbsp;</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-02-24/south-korea-s-ai-startups-challenge-sk-lg-for-tech-dominance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "52b9e8e33d5f4feaee6de002df4b9071",
+      "timestamp": "2026-02-25T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Drive to Unlock $840 Billion in Cash Lifts Japan Stocks Outlook - A new revision to Japan’s corporate governance code may free up some of the $840 billion in cash held by listed companies and drive another wave of Japanese stock market buying.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/drive-to-unlock-840-billion-in-cash-lifts-japan-stocks-outlook",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8bff2d2acb85e6b7ecfe9d21da200876",
+      "timestamp": "2026-02-25T06:50:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Harvard's Real Estate Headache - For decades, Harvard has sought to develop land in Boston's Allston neighborhood, looking to turn the area into a science hub with innovative labs that could spur local economic growth. Now a perfect ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/harvard-s-real-estate-headache-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "53124bd382e981e76961be923ac5626a",
+      "timestamp": "2026-02-25T06:48:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Paramount Raises Offer for Warner Bros. to $31-a-Share - Warner Bros. says this new offer could lead to a better deal than its existing agreement with Netflix Inc., kicking off another potential bidding battle for the famed Hollywood studio. Chris Palmeri h",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/paramount-raises-offer-for-warner-bros-to-31-a-share-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6dcb93640e9894747cb14b8f19870936",
+      "timestamp": "2026-02-25T06:46:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Officials Briefed Lawmakers on Iran as US Weighs Strikes - Secretary of State Marco Rubio and CIA Director John Ratcliffe briefed senior lawmakers about Iran Tuesday, amid growing demands for the White House to explain its rationale for a massive military bui",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/trump-officials-briefed-lawmakers-on-iran-as-us-weighs-strikes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "014facfa0051a128a01f8fe41e08552e",
+      "timestamp": "2026-02-25T06:30:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bond Traders Are Betting on Fed Rate Cuts Spilling Into 2027 - Traders in US futures and options markets are piling on bets that the Federal Reserve will continue cutting rates into next year instead of raising them.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/bond-traders-are-betting-on-fed-rate-cuts-spilling-into-2027",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "896dfc80d56dbdbc218d6f9d0ab92fe1",
+      "timestamp": "2026-02-25T06:30:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Speech Set to Preview Midterms With Sparring on Energy - The president is expected to tout cheaper gasoline as Democrats point to power prices.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-24/state-of-the-union-trump-democrats-to-preview-midterm-energy-message",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cdf8da6925d74497b2a3b2beb3dee022",
+      "timestamp": "2026-02-25T06:25:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Citrini Founder Shocked His AI Prediction Spurred Stocks Selloff - The last thing James van Geelen expected to do on Monday was trigger a stock market meltdown. But that’s what he did.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/citrini-founder-shocked-his-ai-prediction-spurred-stocks-selloff",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "af3f35e50eb0f54c193f4a703cd7ca2b",
+      "timestamp": "2026-02-25T06:21:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HP Projects Annual Profit at Low End of Outlook on Memory Prices - HP Inc. gave a profit outlook for the current quarter that may fall short of estimates and said full-year earnings will likely hit the lower end of a previously forecast range as the company copes wit",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/hp-projects-annual-profit-at-low-end-of-outlook-on-memory-prices",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aad7f8161ace34512d4e77353208c5e7",
+      "timestamp": "2026-02-25T06:19:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Abstention on UN’s Ukraine Peace Vote Prompt’s Ex-Envoy’s Ire - The US abstained from a UN vote supporting a lasting peace in Ukraine, prompting criticism from President Donald Trump’s former Ukraine envoy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/us-abstention-on-un-s-ukraine-peace-vote-prompt-s-ex-envoy-s-ire",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "82f768f75b9a7b4ab7deaa4b1e0bad9b",
+      "timestamp": "2026-02-25T06:13:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&P 500 Rebounds, Anthropic Update Tempers AI Concerns  | Bloomberg Businessweek Daily 2/24/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss JPMorgan CEO Jamie Dimon seeing pre-2008 crisis parallels amid AI and private credit scares with Bloomberg's K",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/bloomberg-businessweek-daily-2-24-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2d79fe3d54df73a175891bb1f05eaac",
+      "timestamp": "2026-02-25T06:11:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Collins Says Rates Likely on Hold ‘For Some Time’ - Federal Reserve Bank of Boston President Susan Collins said interest rates are likely to stay unchanged “for some time” as recent economic data shows an improvement in the labor market, while risks to",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/fed-s-collins-says-interest-rates-likely-on-hold-for-some-time",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fb78c53254631251b7e38a3f030b59ae",
+      "timestamp": "2026-02-25T06:09:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI-for-Accounting Startup Basis Hits $1.15B Valuation - AI-for-accounting startup Basis has raised $100 million from investors at a $1.15 billion valuation. Basis CEO Matt Harpe joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech” to talk about the compan",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/ai-for-accounting-startup-basis-hits-1-15b-valuation-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b82bc7b20837d4c876d6199fce514cc",
+      "timestamp": "2026-02-25T06:09:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Warned Kyiv Over Russian Oil Port Attack, Citing Economic Hit - Ukraine’s envoy to the US said the Trump administration protested its attack on an oil pipeline terminal on Russia’s Black Sea coast that disrupted oil flows from US energy majors in Kazakhstan.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/us-warned-kyiv-over-russian-oil-port-attack-citing-economic-hit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7e9d325215acb03c7618e52833a99932",
+      "timestamp": "2026-02-25T06:03:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Senator Opens Binance Probe Into Alleged Iran, Russia Violations - A senior US senator opened an inquiry into crypto exchange Binance Holdings Ltd. following news reports of its involvement in funneling nearly $2 billion to Iranian government groups designated as ter",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/senator-opens-binance-probe-into-alleged-iran-russia-violations",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7e9d325215acb03c7618e52833a99932",
+      "timestamp": "2026-02-25T06:03:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Senator Opens Binance Probe Into Alleged Iran, Russia Violations - A senior US senator opened an inquiry into crypto exchange Binance Holdings Ltd. following news reports of its involvement in funneling nearly $2 billion to Iranian government groups designated as ter",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/senator-opens-binance-probe-into-alleged-iran-russia-violations",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a18dd64721dd42abb48e389ec5b96ca2",
+      "timestamp": "2026-02-25T05:54:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple’s Touch-Screen MacBook Pro to Have Dynamic Island, New Interface - Apple Inc.’s long-awaited foray into touch-screen laptops will bring major changes to the Mac interface, including the addition of the iPhone’s Dynamic Island feature, according to people familiar wit",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/apple-s-touch-screen-macbook-pro-to-have-dynamic-island-new-interface",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4505e0f9ca1762487913f4df83fb50e8",
+      "timestamp": "2026-02-25T05:34:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crypto.com Joins Circle, Paxos in Conditional US Bank Charter Approval - Crypto.com received conditional approval for a national trust bank charter in the US, allowing it to offer crypto services as a federally regulated institution. Bloomberg reporter Emily Mason joined \"",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/going-to-see-more-stablecoins-in-alts-morgan-krupetsky-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b86b77fb473ec0b10fb47447f784c104",
+      "timestamp": "2026-02-25T05:33:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Google Alum Raises $500M to Compete With Nvidia - AI chip startup MatX has raised more than $500 million in a new funding round to produce hardware that competes with Nvidia. CEO Reiner Pope discusses what the funding will be used for and how its AI ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/google-alum-raises-500m-to-compete-with-nvidia-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "70a15ad615dc9ed12bd8f56e23692a10",
+      "timestamp": "2026-02-25T05:23:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Going to See More Stablecoins in Alts: Krupetsky - Amid a broad decline in the stocks of money managers with exposure to the private credit market, Ava Labs Vice President of Onchain Finance Morgan Krupetsky says tokenization can help address underlyi",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/going-to-see-more-stablecoins-in-alts-krupetsky-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a3cea5e4a81fc420a4539bceb1d3da51",
+      "timestamp": "2026-02-25T05:20:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Hasn't Soured on Crypto: Smith - Ahead of President Trump's State of the Union Address, Solana Policy Institute President Kristin Smith discussed Trump's commitment to furthering crypto policy. Smith appeared on \"Bloomberg Crypto\" wi",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/trump-hasn-t-soured-on-crypto-smith-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7e0951fcb16ec47f9660fc8e875e1618",
+      "timestamp": "2026-02-25T05:20:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "WisdomTree Gets Nod for Tokenized Fund to Trade 24/7 - A new breed of money-market fund has arrived on Wall Street.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/wisdomtree-gets-sec-nod-for-tokenized-money-fund-to-trade-24-7",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d2011d1d6ca471883478b20eeb9a9618",
+      "timestamp": "2026-02-25T05:13:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CoreWeave Seeks $8.5 Billion Loan From Banks Backed by Meta Deal - CoreWeave Inc. is looking to raise about $8.5 billion from banks including Morgan Stanley and Mitsubishi UFJ Financial Group Inc. to help finance a buildout of cloud computing capacity for Meta Platfo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/coreweave-seeks-8-5-billion-loan-from-banks-backed-by-meta-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3cb34f23ed9cc4fc69e8b7c7f0e9acfc",
+      "timestamp": "2026-02-25T05:10:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "After Trump's Major Tariff Setback, The World Asks: What Now? - <p>Trade partners across Asia are reacting to the Supreme Court’s ruling on Trump’s tariffs: We look at the impact on pending deals and the US-China summit on the&nbsp;Big Take Asia podcast.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/what-trump-s-tariff-setback-means-for-china-global-trade",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3cb34f23ed9cc4fc69e8b7c7f0e9acfc",
+      "timestamp": "2026-02-25T05:10:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "After Trump's Major Tariff Setback, The World Asks: What Now? - <p>Trade partners across Asia are reacting to the Supreme Court’s ruling on Trump’s tariffs: We look at the impact on pending deals and the US-China summit on the&nbsp;Big Take Asia podcast.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/what-trump-s-tariff-setback-means-for-china-global-trade",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f6597c14f5de2147f2f25b18f0bd0d44",
       "timestamp": "2026-02-25T05:03:31+09:00",
@@ -10,6 +296,28 @@
       "related_tickers": [],
       "content": "Bitcoin Thesis Never Been Stronger: Bitwise - Bitcoin remained tethered near the the lower end of its recent trading range even as global financial markets showed signs of a renewal of risk appetite, keeping the token on course for its steepest m",
       "url": "https://www.bloomberg.com/news/videos/2026-02-24/bitcoin-thesis-never-been-stronger-bitwise-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5a84e405310e181078913be3be7321b2",
+      "timestamp": "2026-02-25T04:58:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump To Make Economic Pitch | Balance of Power: Early Edition 2/24/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu and Kailey Leinz discuss President Donald Trump's State of the Union address Tuesday night. On today's show, f",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/balance-of-power-early-edition-2-24-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2fa6d713e1a3345a5e752db13b937c20",
+      "timestamp": "2026-02-25T04:57:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Traders Rush to Dump Software Loans That Began Year at 100 Cents - Leveraged-loan traders are slashing their exposure to software debt &mdash; much of which entered 2026 priced at or near par &mdash; in a sign of how artificial-intelligence fears are rippling across ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/traders-rush-to-dump-software-loans-that-began-year-at-100-cents",
       "sentiment": "NEUTRAL"
     },
     {
@@ -334,6 +642,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "0cb9082b21c04a3f8c79e835d7bde261",
+      "timestamp": "2026-02-25T02:28:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Options After the Supreme Court Said His Tariffs Are Illegal - President Donald Trump has already leaned on alternative legislation to try to rebuild his tariff wall, after the US Supreme Court ruled that he can’t use a 1977 emergency law to impose import taxes.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/trump-s-tariff-options-after-supreme-court-defeat-sections-122-338-and-more",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "f064437d0225d1b03e64259aabe6d02a",
       "timestamp": "2026-02-25T02:22:51+09:00",
       "source_type": "NEWS",
@@ -608,6 +927,19 @@
       "related_tickers": [],
       "content": "Trump’s Ambassador Strikes Softer Tone in South Africa Debut - America’s new ambassador to South Africa struck a conciliatory note in a video message to the country that contrasted sharply with the bellicose comments by President Donald Trump.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-24/trump-s-ambassador-strikes-softer-tone-in-south-africa-debut",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c8ec99bd3569e1ace8a3fc1044a7de9e",
+      "timestamp": "2026-02-25T00:30:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 49,425,228 0.49",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018180.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1873,338 +2205,6 @@
       "related_tickers": [],
       "content": "German Defense Chief Chides Trump Over Strategy Toward Putin - German Defense Minister Boris Pistorius criticized US President Donald Trump over his strategy toward Vladimir Putin and the Russian leader’s war on Ukraine.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-24/german-defense-chief-chides-trump-over-strategy-toward-putin",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5495165fda16fdb7b858ecf221727d14",
-      "timestamp": "2026-02-24T17:29:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Horizons Middle East & Africa 2/24/2026 - Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/horizons-middle-east-africa-2-24-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40793a2a1d4c64c2c846b187232dc664",
-      "timestamp": "2026-02-24T17:29:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Arini CIO Expects Disruption in Credit Markets - “We will not need to see the disruption to see some of the issues,” said Hamza Lemssouguer, founder and chief investment officer of Arini Capital Management, in an interview. “The market always gets a",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/arini-cio-expects-defaults-disruption-in-credit-markets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "800b2c6c31bdcb4d0b57973fb38a111b",
-      "timestamp": "2026-02-24T17:27:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Souring Bond Deals Threaten to Undermine a Nordic Credit Boom - A succession of Nordic bond deals that sank after issuance is leading long term investors to fret about the reputation of this rapidly burgeoning market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/souring-bond-deals-threaten-to-undermine-a-nordic-credit-boom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8e00a5143a4aff07618794c4bf5ff82d",
-      "timestamp": "2026-02-24T17:21:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Stocks to Continue Lagging Peers: 3-Minutes MLIV - Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/us-stocks-to-continue-lagging-peers-3-minutes-mliv-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3a887ec6ca7c23f4ce16f6806d3f50f2",
-      "timestamp": "2026-02-24T17:18:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "European Stocks Gain as Upbeat Earnings Outweigh Drop in Banks - European shares gained as positive earnings boosted chemicals and utilities. Bank stocks slid after JPMorgan Chase &amp; Co.’s Jamie Dimon said he’s seeing parallels to the era before the 2008 financi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/european-stocks-decline-with-focus-on-new-us-tariffs-earnings",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "23069bccd9af4b2e0de5c21d610f047c",
-      "timestamp": "2026-02-24T17:17:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Shein Pledges China Supply Chain Upgrade in Bid to Woo Beijing - Shein plans to invest over 10 billion yuan ($1.45 billion) to strengthen its supply chain in Southern China, as the fast‑fashion online retailer seeks to reinforce ties with Beijing amid a stalled Hon",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/shein-pledges-china-supply-chain-upgrade-in-bid-to-woo-beijing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e3874686c6fad26b018bffe3c3b6c94e",
-      "timestamp": "2026-02-24T17:15:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU's Kallas Says US Should Put More Pressure on Russia - European Union Foreign Policy Chief Kaja Kallas discusses the outlook for peace between Russia and Ukraine as the war enters its fifth year. \"America has been very clear that they want this war to end",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/eu-s-kallas-says-us-should-put-more-pressure-on-russia-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b1e8cffefda31dae4fb384b2f822c072",
-      "timestamp": "2026-02-24T17:13:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Direxion Delivers Four New 2X Bull Single Stock Leveraged ETFs for High Conviction Stock Traders - Direxion Delivers Four New 2X Bull Single Stock Leveraged ETFs for High Conviction Stock Traders Direxion Delivers Four New 2X Bull Single Stock Leveraged ETFs for High Conviction Stock Traders New Yo",
-      "url": "https://finance.yahoo.com/news/direxion-delivers-four-2x-bull-081300956.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32c01a7ea02c23c1a440d60234799132",
-      "timestamp": "2026-02-24T17:08:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kenya Secures Uganda’s Crunch-Time Pipeline-Stake Purchase - Uganda will own a fifth of Kenya’s oil-products pipeline through an initial public offering that some analysts have said was overpriced.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/kenya-secures-uganda-s-crunch-time-pipeline-stake-purchase",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c8c35e6f5b5d6f40091c9f1f1c2a6f78",
-      "timestamp": "2026-02-24T17:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SpaceX’s Mega IPO Redraws 2026 Road Map for Listing Hopefuls - Billionaire Elon Musk planning the largest initial public offering of all time for SpaceX is great news for existing backers and banks that would reap astronomical fees.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/spacex-s-mega-ipo-redraws-2026-road-map-for-listing-hopefuls",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c8c35e6f5b5d6f40091c9f1f1c2a6f78",
-      "timestamp": "2026-02-24T17:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SpaceX’s Mega IPO Redraws 2026 Road Map for Listing Hopefuls - Billionaire Elon Musk planning the largest initial public offering of all time for SpaceX is great news for existing backers and banks that would reap astronomical fees.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/spacex-s-mega-ipo-redraws-2026-road-map-for-listing-hopefuls",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a8b3c4493bb56a5e965118b09d3dca3b",
-      "timestamp": "2026-02-24T16:59:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump's 10% Global Tariffs Kick In | Daybreak Europe 2/24/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/daybreak-europe-2-24-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "097b8e521c7fd109b55d7a37fdcd0bca",
-      "timestamp": "2026-02-24T16:50:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bain, Lone Star Are Said to Eye Mitsubishi Electric’s Auto Unit - Bain Capital and Lone Star Funds have advanced to a second round of bidding for Mitsubishi Electric Corp.’s automotive equipment business, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/bain-lone-star-are-said-to-eye-mitsubishi-electric-s-auto-unit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa7e3635118ca51ea303449895fb544a",
-      "timestamp": "2026-02-24T16:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Muni Returns to Improve as Market Steadies, BlackRock Head Says - Municipal bonds are poised for a solid year after lagging US Treasuries in 2025 as market conditions stabilize, according to Pat Haskell, head of the municipal bond group at BlackRock Inc.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/muni-returns-to-improve-as-market-steadies-blackrock-head-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b73859f0c58640d767789586792ab0b",
-      "timestamp": "2026-02-24T16:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock Sees Europe Credit Spreads Steady in Face of AI Angst - BlackRock Inc. sees European credit spreads staying range-bound this year as attractive fixed-income yields are likely to offset worries around the potential disruption from artificial intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/blackrock-sees-europe-credit-spreads-steady-in-face-of-ai-angst",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9db7c086d58e6a855fcb62ea6cfaa1fe",
-      "timestamp": "2026-02-24T16:29:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indonesian Wealth Fund Co-CIO Resigns as Leadership Gap Widens - Indonesia Investment Authority’s Co-Chief Investment Officer Andry Setiawan has resigned, deepening a leadership vacuum at the country’s first sovereign wealth fund and raising questions about its fut",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/indonesian-wealth-fund-co-cio-resigns-as-leadership-gap-widens",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e17a367c41d96980e716ccb6a0bee931",
-      "timestamp": "2026-02-24T16:28:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippines May Draw $3 Billion If Added to JPMorgan Bond Index - The Philippines may see inflows of about $3 billion if the nation’s government bonds are added to JPMorgan Chase &amp; Co.’s benchmark emerging-market index this year, according to National Treasurer ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/philippines-may-draw-3-billion-if-added-to-jpmorgan-bond-index",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0faab6463a62b7088bb251ba85c11918",
-      "timestamp": "2026-02-24T16:26:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Yen Extends Decline After Report on Takaichi’s Rate Hike View - The yen extended declines on Tuesday after local media reported that Japanese Prime Minister Sanae Takaichi voiced apprehension over more rate hikes in a meeting with Bank of Japan Governor Kazuo Ueda",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/yen-extends-decline-after-report-on-takaichi-s-rate-hike-view",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0faab6463a62b7088bb251ba85c11918",
-      "timestamp": "2026-02-24T16:26:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Yen Extends Decline After Report on Takaichi’s Rate Hike View - The yen extended declines on Tuesday after local media reported that Japanese Prime Minister Sanae Takaichi voiced apprehension over more rate hikes in a meeting with Bank of Japan Governor Kazuo Ueda",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/yen-extends-decline-after-report-on-takaichi-s-rate-hike-view",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8df1769a2f7f0eacd216844863b0f8b3",
-      "timestamp": "2026-02-24T16:15:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "StanChart CEO Winters Says Bank 'Not Missing a Beat' After CFO Exit - Standard Chartered Chief Executive Officer Bill Winters discusses the departure of the lender's chief financial officer, financial targets and its strategic outlook. Speaking on Bloomberg Television a",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/stanchart-not-missing-a-beat-after-cfo-exit-winters-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e736bc6f0cf2f2b1b78b8722ef18be17",
-      "timestamp": "2026-02-24T16:12:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nippon Steel Plans $3.5 Billion Bond Sale for US Steel Loans - Nippon Steel Corp. intends to sell 550 billion yen ($3.5 billion) of convertible bonds in overseas markets, to help repay loans taken out for its acquisition of United States Steel Corp.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/nippon-steel-to-sell-3-5-billion-worth-of-convertible-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c8f9b6ede2be20cb2b9f2090623bd7ee",
-      "timestamp": "2026-02-24T16:07:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Shock And Tariff Fears Split Markets Winners And Losers | Insight with Haslinda Amin 02/24/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/insight-with-haslinda-amin-2-24-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7e573242b3ad4a8a4b771a84e13bb5c1",
-      "timestamp": "2026-02-24T15:58:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Siow: Tariffs Impact Clearer for China - China says it is closely watching the US government's plans to push ahead with levies using other trade tools. President Trump announced 10% global tariffs after the Supreme Court struck down his orig",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/siow-tariffs-impact-clearer-for-china-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "967709f1e5b71ebed69a16ddaeae8ec8",
-      "timestamp": "2026-02-24T15:47:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hong Kong Bank Tries to Sell Mansion It Bought at Huge Discount - A Hong Kong bank that failed to sell a seized mansion at a steep discount last year is trying again as the luxury real estate market swings back to life.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/hong-kong-bank-tries-to-sell-mansion-it-bought-at-huge-discount",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b0c8647e32b6d0bd575314623e562ea7",
-      "timestamp": "2026-02-24T15:47:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Extend Declines on Lingering Tariff, AI Anxieties",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-24/ftse-100-live-trump-tariffs-pound-dollar-gilts-gold-oil-prices-what-s-moving-uk-markets-right-now-markets-today",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1865064e26a079470d2d67ffd9ec2725",
-      "timestamp": "2026-02-24T15:42:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia-Ukraine War Enters Its Fifth Year - On Feb. 24, 2022, Russia invaded Ukraine. As the war enters its fifth year, peace talks are stalling and the fighting is largely at a stalemate despite President Donald Trump's peace efforts. Allies s",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/russia-ukraine-war-enters-its-fifth-year-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aebdcf385acfdb62c96b65487690bc6e",
-      "timestamp": "2026-02-24T15:41:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Wants Iran Deal But Says Any Conflict Would Be 'Easily Won' - US President Donald Trump says his preference is still to strike a diplomatic deal with Iran, but that any military action against the Islamic Republic is something that would be “easily won.” Bloombe",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/trump-wants-iran-deal-but-says-any-conflict-easily-won-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d964653ff5cd31a75fc4d391509c2a60",
-      "timestamp": "2026-02-24T15:41:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ayub: US Assets Not the Same Safe Haven Status - President Donald Trump’s new 10% global tariffs went into effect on Tuesday, kicking off a White House effort to preserve his trade agenda after the Supreme Court struck down his original sweeping dut",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/ayub-us-assets-not-the-same-safe-haven-status-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "412f38721f8410f8266fffcc9482ca93",
-      "timestamp": "2026-02-24T15:36:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Telefónica’s Earnings Bolstered By Growth in Spain, Brazil - Telefónica SA posted fourth-quarter earnings that met analyst estimates as growth in Spain and Brazil offset weakness in other European markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/telefonica-s-earnings-bolstered-by-growth-in-spain-brazil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8ba0b091d904024f8e60b006bc2badba",
-      "timestamp": "2026-02-24T15:24:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Citrini’s Dystopia Fuels Asia’s Breakaway From Global AI Gloom - Citrini Research’s vision of a dystopian future shaped by artificial intelligence is reinforcing bets that Asia will emerge as a winner of the AI disruption, thanks to its wealth of companies like chi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/citrini-s-dystopia-fuels-asia-s-breakaway-from-global-ai-gloom",
       "sentiment": "NEUTRAL"
     }
   ]
