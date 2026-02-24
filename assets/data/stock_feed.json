@@ -1,6 +1,160 @@
 {
-  "last_updated": "2026-02-24T13:38:00.963449+09:00",
+  "last_updated": "2026-02-24T15:23:44.746053+09:00",
   "items": [
+    {
+      "id": "8ed3aff2633ae99323431c352bb806ad",
+      "timestamp": "2026-02-24T14:38:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "LNG Glut May Pressure Prices But Demand Is Strong, Woodside Says - A forecast global glut of liquefied natural gas may weigh on prices, but demand growth is strong and supply additions aren’t certain, according to Australia’s biggest LNG producer.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/lng-glut-may-pressure-prices-but-demand-is-strong-woodside-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e4d900f123364d15338feb8950b0d43f",
+      "timestamp": "2026-02-24T14:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Air France, Accor to Pay Bond Penalty for Missing Climate Goals - Air France-KLM and hotelier Accor SA will need to cough up financial penalties to bondholders because they failed to meet greenhouse gas targets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/air-france-accor-to-pay-bond-penalty-for-missing-climate-goals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b7d63fb08697036541f612b32dd25bb",
+      "timestamp": "2026-02-24T14:29:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "TITLE: Japan, China return amid tech & trade woes | The Asia Trade 2/24/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, get",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/the-asia-trade-2-24-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b5bc14b3272ea5f35b38d886a51d663f",
+      "timestamp": "2026-02-24T14:22:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump's New Global Tariff Takes Effect for 150 Days - President Donald Trump’s new baseline global tariff of 10% comes into effect after the Supreme Court struck down his earlier, sweeping levies. The White House said he could impose this under the 1974 ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/trump-s-new-global-tariff-takes-effect-for-150-days-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "50ee104d139c827e979b866c6824ce8e",
+      "timestamp": "2026-02-24T14:10:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Avoiding Japan, Chinese Tourists Fuel Rebound in Thai Tourism - Chinese travelers now account for roughly a quarter of Thailand’s weekly arrivals, underscoring the return of the country’s most important tourism market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/avoiding-japan-chinese-tourists-fuel-rebound-in-thai-tourism",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "797ca8dfa70eb87354e297911fe0f593",
+      "timestamp": "2026-02-24T14:08:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin Heads for Worst Month Since Crypto Collapse of June 2022 - Bitcoin extended its decline on Tuesday, putting the token on course for its steepest monthly drop since the industry suffered a slew of corporate collapses in 2022.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "68a6cd5d45973655b836d3d981466a62",
+      "timestamp": "2026-02-24T14:01:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s 10% Levy Takes Effect as US Rebuilds Tariff Wall - Donald Trump’s new 10% global tariffs went into effect on Tuesday, kicking off a White House effort to preserve the president’s trade agenda after the Supreme Court struck down his original sweeping d",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/trump-s-10-global-levy-takes-effect-as-us-rebuilds-tariff-wall",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "55c8d0b18555d61db9047f32ec2ed99b",
+      "timestamp": "2026-02-24T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa Traders Are Most Bearish on Rand in Three Years - Bearish options bets on the rand are at the highest in almost three years as traders start to question whether the South African currency’s headlong rally has further to run.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/south-africa-traders-are-most-bearish-on-rand-in-three-years",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "54f3a2185886c45dcf214c757e797734",
+      "timestamp": "2026-02-24T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Four Years Into Putin’s War, the Ukraine Peace Push Is Stalling - President Donald Trump’s efforts to end Russia’s invasion of Ukraine are stalling with peace talks deadlocked and the fighting largely at a stalemate after four years of war.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/four-years-into-putin-s-war-the-ukraine-peace-push-is-stalling",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "30a8a3948559e238cc595a58b1202c2d",
+      "timestamp": "2026-02-24T13:58:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian IT Stock Selloff Deepens on AI Scare After Citrini Report - A rout in Indian software services stocks deepened after a report from Citrini Research amplified worries about businesses that are vulnerable to the growing influence of artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/indian-it-stock-selloff-deepens-on-ai-scare-after-citrini-report",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "30a8a3948559e238cc595a58b1202c2d",
+      "timestamp": "2026-02-24T13:58:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian IT Stock Selloff Deepens on AI Scare After Citrini Report - A rout in Indian software services stocks deepened after a report from Citrini Research amplified worries about businesses that are vulnerable to the growing influence of artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/indian-it-stock-selloff-deepens-on-ai-scare-after-citrini-report",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "47304337f9a0f12d1e6fbcae3093abc8",
+      "timestamp": "2026-02-24T13:55:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australian Exporters Brace for Trump Policy Shifts - The Australian Chamber of Commerce and Industry says that while the US Supreme Court decision on US tariffs was widely anticipated, many businesses may still be caught off guard by renewed uncertainty",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/australian-exporters-brace-for-trump-policy-shifts-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ed957f2dabafaa0cbdaed294cc5e697",
+      "timestamp": "2026-02-24T13:37:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Lower Steel Data Scrutinized as Analysts Flag Output Gap - Chinese steel output is drawing scrutiny as some analysts question whether it fell last year as sharply as official figures show, highlighting a discrepancy that could upend views on the country’s app",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/china-s-lower-steel-data-scrutinized-as-analysts-flag-output-gap",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2a630ae4975640872817cf8c05b9b73",
+      "timestamp": "2026-02-24T13:34:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "LA Port: Importers Faced With Significant Uncertainty - Port of Los Angeles Executive Director Eugene Seroka thinks importers are faced with significant uncertainty due to shifts in US trade policy. He also discusses tariffs impact on trade volumes at the ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/la-port-importers-faced-with-significant-uncertainty-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "55f4c285c68f6b6a00357e6c0efbbf78",
       "timestamp": "2026-02-24T13:21:08+09:00",
@@ -2049,162 +2203,6 @@
       "related_tickers": [],
       "content": "Finland’s IQM Set for Public Debut as Quantum Frenzy Continues - IQM Quantum Computers will go public through a merger with a blank-check vehicle in a deal expected to value the Finnish quantum computing firm at $1.8 billion, the company said Monday.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-23/finland-s-iqm-set-for-public-debut-as-quantum-frenzy-continues",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a3296f0be1c149c49dbe9b34437910d5",
-      "timestamp": "2026-02-23T21:38:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bangladesh’s New Government Plans to Revise Adani Power Deal - Bangladesh plans to renegotiate its power purchase deal with India’s Adani Power Ltd. in order to seek lower prices, according to people familiar with the matter, marking one of the newly elected gove",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-23/bangladesh-s-new-government-plans-to-revise-adani-power-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1181779391c4f915ec556c880e8a099f",
-      "timestamp": "2026-02-23T21:32:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Estée Lauder CEO: Open to More M&A - \"We will always be part of the M&A discussion,\" says Stéphane de La Faverie, CEO of The Estée Lauder Companies, as the company explores different strategies to rebuild profitability and regain market ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-23/estee-lauder-ceo-open-to-more-m-a-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd7617322cd06e077a60cd7f70c1d136",
-      "timestamp": "2026-02-23T21:29:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russian Oil Most Discounted Since 2023 on Western Sanctions - Russia’s flagship crude is selling at the deepest discount in the international marketplace in almost three years as western sanctions deter trade with Moscow.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-23/russian-oil-most-discounted-since-2023-on-western-sanctions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "87abe2ee325eb21558af35851052a749",
-      "timestamp": "2026-02-23T21:20:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Effort to Remove Andrew From Line of Succession Gathers Pace - A UK government proposal to remove King Charles III’s brother, Andrew Mountbatten-Windsor, from the line of succession to the monarchy gained momentum as Australian Prime Minister Anthony Albanese bac",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-23/uk-effort-to-remove-andrew-from-line-of-succession-gathers-pace",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "70397a16351e7f031c73e150fd660e61",
-      "timestamp": "2026-02-23T21:15:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dollar Falls Amid Trade Uncertainty; NYC Disrupted Due to Blizzard | Bloomberg Brief 2/23/2026 - US equity futures and the dollar drop amid renewed uncertainty around tariffs. The European Union is set to freeze its approval of trade deal with the US as it seeks more details from the Trump admini",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-23/bloomberg-brief-2-23-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "529e5c598c5999f480e7769a2a4ae6a8",
-      "timestamp": "2026-02-23T21:15:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "West African Oil Prices Hammered by High Freight Costs, Spread - West African crude traders are being forced into offering deep discounts by soaring freight costs and an unfavorable price spread that is eroding Asian buyers’ appetite for the region’s cargoes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-23/west-african-oil-prices-hammered-by-high-freight-costs-spread",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "931be50143b210eb8b40c1dfe71e1149",
-      "timestamp": "2026-02-23T21:10:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gold-Like Swiss Franc May Surge 17%, Morgan Stanley’s Adams Says - The Swiss franc could surge as much as 17% to the dollar amid growing confidence in the currency’s haven status in the face of US policy uncertainty, according to Morgan Stanley strategists.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-23/gold-like-swiss-franc-may-surge-17-morgan-stanley-s-adams-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "93e01e57821d4c6ee2841260544fd5ad",
-      "timestamp": "2026-02-23T21:08:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Majors Seek Arbitration Over $5 Billion Kazakh Sulfur Fine - The oil majors that operate Kazakhstan’s second-largest field, Kashagan, have filed for international arbitration of their dispute with the government over a $5 billion environmental fine, according t",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-23/oil-majors-seek-arbitration-over-5-billion-kazakh-sulfur-fine",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ea1f8c58a1356a6cb104346dba89622d",
-      "timestamp": "2026-02-23T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Miami’s Latest Hype Cycle Is Rooted in Silicon Valley - Some tech leaders and companies cast off ties to home in exodus to South Florida",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-23/silicon-valley-companies-keep-threatening-exodus-to-miami-texas-and-elsewhere",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d9827daf6503840639d54cdc4408256",
-      "timestamp": "2026-02-23T20:43:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi's Next Breakout: The 2X Leveraged Play for Aggressive FinTech Investors - There's a leveraged ETF that could magnify SoFi's returns in your portfolio.",
-      "url": "https://www.fool.com/investing/2026/02/23/sofis-next-breakout-the-2x-leveraged-play-for-aggr/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4602a7f15c57a082621ddf8fd7cf41f4",
-      "timestamp": "2026-02-23T20:40:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blue Owl’s Woes Cloud the Outlook for Private Credit - <p>Opaque assets become a tougher sell when investors can’t pull their cash out.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-23/blue-owl-s-woes-cloud-the-outlook-for-private-credit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cedb991efdfa22a2fe7fc6e0be2e81a7",
-      "timestamp": "2026-02-23T20:33:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tariffs Front and Center Again for Markets, Says Peter Tchir - “This 10% or 15%, it’s not done,” says Peter Tchir, head of macro strategy at Academy Securities, as he explains his market fears related to the Supreme Court striking down President Donald Trump’s gl",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-23/tariffs-front-and-center-again-for-markets-peter-tchir-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a89fe50cb3f6e525fcea7aecb95f4b37",
-      "timestamp": "2026-02-23T20:29:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Portugal Appoints Ex-Police Chief Neves as Interior Minister - Portugal has named former national criminal police chief Luís Neves as interior minister, as the government prepares to channel billions of euros into rebuilding infrastructure and homes destroyed by ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-23/portugal-appoints-ex-police-chief-neves-as-interior-minister",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3ddd9d1d529c88da2a7a133c31f4c4ed",
-      "timestamp": "2026-02-23T20:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Trade Confusion Returns as Trump Overhauls Tariff Toolkit - The Supreme Court’s nixing of US President Donald Trump’s “reciprocal” tariffs is throwing fresh confusion over the raft of trade deals negotiated by global partners as the inescapable reality of ongo",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-23/global-trade-confusion-returns-as-trump-overhauls-tariff-toolkit",
       "sentiment": "NEUTRAL"
     }
   ]
