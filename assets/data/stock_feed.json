@@ -1,6 +1,250 @@
 {
-  "last_updated": "2026-02-25T03:22:03.269120+09:00",
+  "last_updated": "2026-02-25T05:11:21.326752+09:00",
   "items": [
+    {
+      "id": "f6597c14f5de2147f2f25b18f0bd0d44",
+      "timestamp": "2026-02-25T05:03:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin Thesis Never Been Stronger: Bitwise - Bitcoin remained tethered near the the lower end of its recent trading range even as global financial markets showed signs of a renewal of risk appetite, keeping the token on course for its steepest m",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/bitcoin-thesis-never-been-stronger-bitwise-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "18a8e36bc693343520914b72429da9c2",
+      "timestamp": "2026-02-25T04:51:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Scandal in Texas After Aide’s Suicide Roils Congressional Race - US Representative Tony Gonzales is facing calls to resign as he tries to fend off a serious Republican primary challenge amid allegations that he had an affair with a staffer who later died by suicide",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/scandal-in-texas-after-aide-s-suicide-roils-congressional-race",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8a1e800a79d9ec8b4d2b7259626b69e2",
+      "timestamp": "2026-02-25T04:46:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Threatens to End Anthropic Work in Feud Over AI Terms - The Pentagon warned Anthropic PBC that it would terminate the company’s military contracts on Friday if the artificial intelligence startup failed to meet government terms for use of its technology, a",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/pentagon-threatens-to-end-anthropic-work-in-feud-over-ai-terms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b52a618e33e2aee70ed6e4bc45911b78",
+      "timestamp": "2026-02-25T04:36:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Vision of Private Credit’s Future - Blue-Owl’s band-aid is a solution with a systemic problem.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-24/a-vision-of-private-credit-s-future",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "551ca66acbc32b8a05f9ff3ae3cacc60",
+      "timestamp": "2026-02-25T04:34:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Weighs Bank Citizenship Data Requirements, Reports Say - The Trump administration is discussing an executive order designed to force banks to collect citizenship data alongside other identification information from customers, according to multiple media rep",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/us-weighs-requiring-banks-collect-citizenship-data-reports-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "228c460cb4ad4dc4bde1a1574cd43c9a",
+      "timestamp": "2026-02-25T04:33:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "I Still Like Nu Holdings Stock, But Right Now, I Like This Alternative Even Better - All other things being equal, it just makes more sense to step into the bargain-priced option.",
+      "url": "https://www.fool.com/investing/2026/02/24/nu-holdings-stock-alternative-sofi-better/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "246c1747f7faa18a207ed3966e8a3891",
+      "timestamp": "2026-02-25T04:29:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mandelson Arrest Driven by ‘Baseless’ Flee Fear, His Lawyers Say - Lawyers acting for Peter Mandelson, the former UK ambassador to Washington who was linked to convicted sex offender Jeffrey Epstein, said his arrest at home was prompted by a “baseless” suggestion tha",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/mandelson-arrest-driven-by-baseless-flee-fear-his-lawyers-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c8f1bee3fdc15cdd30d64836c00f1382",
+      "timestamp": "2026-02-25T04:27:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "House Rejects Aviation Safety Bill After Pentagon Flags Concerns - The US House of Representatives voted down a Senate-backed bill that supporters said would improve aviation safety but was opposed by the Defense Department.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/house-rejects-aviation-safety-bill-after-pentagon-flags-concerns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "733325075395c6d66bb1667c3ce64073",
+      "timestamp": "2026-02-25T04:23:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "VoltaGrid Weighs Public Listing or Sale as It Rides the AI Wave - VoltaGrid, a startup that offers tech companies a shortcut to the energy needed to run artificial-intelligence systems, is exploring ways to raise billions of dollars to sustain its growth.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/voltagrid-weighs-public-listing-or-sale-as-it-rides-the-ai-wave",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "89e5eec032665d76e8380aa5fc3d6820",
+      "timestamp": "2026-02-25T04:02:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "White House Economist Calls Citrini AI Report ‘Science Fiction’ - A top White House economist dubbed the weekend report about artificial intelligence risks that had roiled the stock market “science fiction.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/white-house-economist-calls-citrini-ai-report-science-fiction",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "49c0b452deff33809171bf4cb1902c9f",
+      "timestamp": "2026-02-25T03:55:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What Trump’s Tariff Setback Means for China, Global Trade - From China to the EU, US trading partners are reacting to Trump’s tariff setback &mdash; and his threats to impose new levies. On today’s Big Take Asia podcast, Bloomberg’s K. Oanh Ha, Brendan Murray ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/what-trump-s-tariff-setback-means-for-china-trade-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "63f3c1e2acc56a430cf20ba6dc46e8d7",
+      "timestamp": "2026-02-25T03:53:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Government Waters Down Controversial Heating Law - The German government agreed to abolish a controversial ban on new gas and oil heating systems as Chancellor Friedrich Merz’ conservatives rush to deliver on a key electoral promise.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/german-government-waters-down-controversial-heating-law",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "63f3c1e2acc56a430cf20ba6dc46e8d7",
+      "timestamp": "2026-02-25T03:53:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Government Waters Down Controversial Heating Law - The German government agreed to abolish a controversial ban on new gas and oil heating systems as Chancellor Friedrich Merz’ conservatives rush to deliver on a key electoral promise.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/german-government-waters-down-controversial-heating-law",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "848b40146e4d1908f90d3e342cce49a4",
+      "timestamp": "2026-02-25T03:51:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Baker Hughes CEO on Market Uncertainty on Oil - Oil is holding near a seven-month high as investors await the next round of US-Iran talks.\nPrices have climbed this year on concerns about the potential fallout from a US strike on Iran, even as forec",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/baker-hughes-ceo-on-market-uncertainty-on-oil-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6ea90ca09baef05d787b79faef30427d",
+      "timestamp": "2026-02-25T03:50:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Telecom Italia Sets €400 Million Stock Buyback, Reverse Split - Telecom Italia SpA’s board proposed an up to €400 million ($471 million) stock buyback and a 1-for-10 reverse stock split, moving to overhaul its equity profile after selling off assets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/telecom-italia-sets-400-million-stock-buyback-reverse-split",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f40fa22f3e8e4bc7b0584aacd201d50a",
+      "timestamp": "2026-02-25T03:49:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "State of Crypto industry, Crypto.com Wins US Bank Charter Nod | Bloomberg Crypto 2/24/2026 - \"Bloomberg Crypto\" covers the people, transactions, and technology shaping the world of decentralized finance. Today's guests: Bitwise Head of Research Ryan Rasmussen, Solana Policy Institute Presiden",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/bloomberg-crypto-2-24-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "de701648c669c545dc30b5fbae881014",
+      "timestamp": "2026-02-25T03:44:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Democrat Says DOJ Withheld Epstein Files on Trump Abuse Claim - The Department of Justice appears to have withheld from disclosure files on disgraced financier Jeffrey Epstein related to a claim that President Donald Trump sexually abused a minor, a top Democratic",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/democrat-says-doj-withheld-epstein-files-on-trump-abuse-claim",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "df79f9b1d2e90b17e3e15834da7e763b",
+      "timestamp": "2026-02-25T03:44:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Shout-Out Makes Thomson Reuters Stock Latest AI Winner - Jittery investors scanning the horizon for winning artificial intelligence bets glommed on to Thomson Reuters Corp. after its legal tools earned kudos from AI juggernaut Anthropic PBC.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/anthropic-shout-out-makes-thomson-reuters-tri-stock-the-latest-ai-winner",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "df79f9b1d2e90b17e3e15834da7e763b",
+      "timestamp": "2026-02-25T03:44:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Shout-Out Makes Thomson Reuters Stock Latest AI Winner - Jittery investors scanning the horizon for winning artificial intelligence bets glommed on to Thomson Reuters Corp. after its legal tools earned kudos from AI juggernaut Anthropic PBC.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/anthropic-shout-out-makes-thomson-reuters-tri-stock-the-latest-ai-winner",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1984efebf33c2af74b0389432a03d599",
+      "timestamp": "2026-02-25T03:37:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saks Global CEO on Bankruptcy, Path to Profitability - Geoffroy van Raemdonck, CEO of Saks Global, discusses his vision for the company with Romaine Bostick on \"The Close.\" He says he aims to build a profitable and sustainable Saks Global, with an initial",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/saks-global-ceo-on-bankruptcy-path-to-profitability-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16b116ad9a6cbc5da7d63f914e286d94",
+      "timestamp": "2026-02-25T03:33:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Finds That India, Indonesia, Laos Unfairly Subsidized Solar - The Trump administration determined that India, Indonesia and Laos unfairly subsidized solar manufacturing, a decision that will likely boost US producers’ competitiveness but threatens to increase co",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/us-finds-that-india-indonesia-laos-unfairly-subsidized-solar",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca09ab01002a37e5d1e21be099d8e20a",
+      "timestamp": "2026-02-25T03:19:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta, AMD Deal Fuels AI Spending Surge | Open Interest 2/24/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" AI anxiety is back&mdash;and markets are feeling it. Anthropic demonstrates Claude’s newest capabi",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/open-interest-2-24-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c06415e36c3207715b57b2604d08c8f7",
       "timestamp": "2026-02-25T03:15:54+09:00",
@@ -87,6 +331,17 @@
       "related_tickers": [],
       "content": "Meta to Spend Billions of Dollars on AMD Gear, Buy Stock - Meta Platforms Inc. will deploy 6 gigawatts’ worth of data center gear based on processors from Advanced Micro Devices Inc., a blockbuster deal that marks a win for the chipmaker’s attempts to catch u",
       "url": "https://www.bloomberg.com/news/videos/2026-02-24/meta-to-spend-billions-of-dollars-on-amd-gear-buy-stock-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f064437d0225d1b03e64259aabe6d02a",
+      "timestamp": "2026-02-25T02:22:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bloomberg Surveillance 2/24/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/bloomberg-surveillance-2-24-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1665,6 +1920,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "3a887ec6ca7c23f4ce16f6806d3f50f2",
+      "timestamp": "2026-02-24T17:18:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Stocks Gain as Upbeat Earnings Outweigh Drop in Banks - European shares gained as positive earnings boosted chemicals and utilities. Bank stocks slid after JPMorgan Chase &amp; Co.’s Jamie Dimon said he’s seeing parallels to the era before the 2008 financi",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/european-stocks-decline-with-focus-on-new-us-tariffs-earnings",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "23069bccd9af4b2e0de5c21d610f047c",
       "timestamp": "2026-02-24T17:17:53+09:00",
       "source_type": "NEWS",
@@ -1939,270 +2205,6 @@
       "related_tickers": [],
       "content": "Citrini’s Dystopia Fuels Asia’s Breakaway From Global AI Gloom - Citrini Research’s vision of a dystopian future shaped by artificial intelligence is reinforcing bets that Asia will emerge as a winner of the AI disruption, thanks to its wealth of companies like chi",
       "url": "https://www.bloomberg.com/news/articles/2026-02-24/citrini-s-dystopia-fuels-asia-s-breakaway-from-global-ai-gloom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8ba0b091d904024f8e60b006bc2badba",
-      "timestamp": "2026-02-24T15:24:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Citrini’s Dystopia Fuels Asia’s Breakaway From Global AI Gloom - Citrini Research’s vision of a dystopian future shaped by artificial intelligence is reinforcing bets that Asia will emerge as a winner of the AI disruption, thanks to its wealth of companies like chi",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/citrini-s-dystopia-fuels-asia-s-breakaway-from-global-ai-gloom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "853a63cc867e96f2c7116dbc1cc14fb3",
-      "timestamp": "2026-02-24T15:19:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "HK-Based Stablecoin Payments Firm RedotPay Is Said to Consider $1 Billion US IPO - RedotPay, a stablecoin payments company based in Hong Kong, is considering an initial public offering in the US to potentially raise over $1 billion, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/hk-based-stablecoin-payments-firm-redotpay-is-said-to-consider-1-billion-us-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8ed3aff2633ae99323431c352bb806ad",
-      "timestamp": "2026-02-24T14:38:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "LNG Glut May Pressure Prices But Demand Is Strong, Woodside Says - A forecast global glut of liquefied natural gas may weigh on prices, but demand growth is strong and supply additions aren’t certain, according to Australia’s biggest LNG producer.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/lng-glut-may-pressure-prices-but-demand-is-strong-woodside-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e4d900f123364d15338feb8950b0d43f",
-      "timestamp": "2026-02-24T14:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Air France, Accor to Pay Bond Penalty for Missing Climate Goals - Air France-KLM and hotelier Accor SA will need to cough up financial penalties to bondholders because they failed to meet greenhouse gas targets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/air-france-accor-to-pay-bond-penalty-for-missing-climate-goals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7b7d63fb08697036541f612b32dd25bb",
-      "timestamp": "2026-02-24T14:29:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TITLE: Japan, China return amid tech & trade woes | The Asia Trade 2/24/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, get",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/the-asia-trade-2-24-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b5bc14b3272ea5f35b38d886a51d663f",
-      "timestamp": "2026-02-24T14:22:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump's New Global Tariff Takes Effect for 150 Days - President Donald Trump’s new baseline global tariff of 10% comes into effect after the Supreme Court struck down his earlier, sweeping levies. The White House said he could impose this under the 1974 ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/trump-s-new-global-tariff-takes-effect-for-150-days-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "50ee104d139c827e979b866c6824ce8e",
-      "timestamp": "2026-02-24T14:10:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Avoiding Japan, Chinese Tourists Fuel Rebound in Thai Tourism - Chinese travelers now account for roughly a quarter of Thailand’s weekly arrivals, underscoring the return of the country’s most important tourism market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/avoiding-japan-chinese-tourists-fuel-rebound-in-thai-tourism",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "797ca8dfa70eb87354e297911fe0f593",
-      "timestamp": "2026-02-24T14:08:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Heads for Worst Month Since Crypto Collapse of June 2022 - Bitcoin extended its decline on Tuesday, putting the token on course for its steepest monthly drop since the industry suffered a slew of corporate collapses in 2022.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "68a6cd5d45973655b836d3d981466a62",
-      "timestamp": "2026-02-24T14:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s 10% Levy Takes Effect as US Rebuilds Tariff Wall - Donald Trump’s new 10% global tariffs went into effect on Tuesday, kicking off a White House effort to preserve the president’s trade agenda after the Supreme Court struck down his original sweeping d",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/trump-s-10-global-levy-takes-effect-as-us-rebuilds-tariff-wall",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "55c8d0b18555d61db9047f32ec2ed99b",
-      "timestamp": "2026-02-24T14:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa Traders Are Most Bearish on Rand in Three Years - Bearish options bets on the rand are at the highest in almost three years as traders start to question whether the South African currency’s headlong rally has further to run.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/south-africa-traders-are-most-bearish-on-rand-in-three-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "54f3a2185886c45dcf214c757e797734",
-      "timestamp": "2026-02-24T14:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Four Years Into Putin’s War, the Ukraine Peace Push Is Stalling - President Donald Trump’s efforts to end Russia’s invasion of Ukraine are stalling with peace talks deadlocked and the fighting largely at a stalemate after four years of war.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/four-years-into-putin-s-war-the-ukraine-peace-push-is-stalling",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30a8a3948559e238cc595a58b1202c2d",
-      "timestamp": "2026-02-24T13:58:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian IT Stock Selloff Deepens on AI Scare After Citrini Report - A rout in Indian software services stocks deepened after a report from Citrini Research amplified worries about businesses that are vulnerable to the growing influence of artificial intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/indian-it-stock-selloff-deepens-on-ai-scare-after-citrini-report",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30a8a3948559e238cc595a58b1202c2d",
-      "timestamp": "2026-02-24T13:58:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian IT Stock Selloff Deepens on AI Scare After Citrini Report - A rout in Indian software services stocks deepened after a report from Citrini Research amplified worries about businesses that are vulnerable to the growing influence of artificial intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/indian-it-stock-selloff-deepens-on-ai-scare-after-citrini-report",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "47304337f9a0f12d1e6fbcae3093abc8",
-      "timestamp": "2026-02-24T13:55:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Australian Exporters Brace for Trump Policy Shifts - The Australian Chamber of Commerce and Industry says that while the US Supreme Court decision on US tariffs was widely anticipated, many businesses may still be caught off guard by renewed uncertainty",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/australian-exporters-brace-for-trump-policy-shifts-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5ed957f2dabafaa0cbdaed294cc5e697",
-      "timestamp": "2026-02-24T13:37:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Lower Steel Data Scrutinized as Analysts Flag Output Gap - Chinese steel output is drawing scrutiny as some analysts question whether it fell last year as sharply as official figures show, highlighting a discrepancy that could upend views on the country’s app",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/china-s-lower-steel-data-scrutinized-as-analysts-flag-output-gap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c2a630ae4975640872817cf8c05b9b73",
-      "timestamp": "2026-02-24T13:34:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "LA Port: Importers Faced With Significant Uncertainty - Port of Los Angeles Executive Director Eugene Seroka thinks importers are faced with significant uncertainty due to shifts in US trade policy. He also discusses tariffs impact on trade volumes at the ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/la-port-importers-faced-with-significant-uncertainty-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "55f4c285c68f6b6a00357e6c0efbbf78",
-      "timestamp": "2026-02-24T13:21:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Seeks Vows from Tech Executives to Cover Data Center Costs - White House officials are asking technology companies to pledge that their data centers won’t increase electricity prices and cause other burdens for consumers, according to two people familiar with t",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/trump-seeks-vows-from-tech-executives-to-cover-data-center-costs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d957057452a89de15f2d5c9df24e24f",
-      "timestamp": "2026-02-24T13:02:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MAJOR",
-      "related_tickers": [],
-      "content": "Malaysia Minister Calls for Royal Commission Into Graft Watchdog - A senior Malaysian minister said he will push cabinet to establish a Royal Commission of Inquiry to investigate alleged abuses of power by the Malaysian Anti-Corruption Commission, breaking ranks with",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/malaysia-minister-calls-for-royal-commission-into-graft-watchdog",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dec92aae80da986363f0c308272dadc4",
-      "timestamp": "2026-02-24T12:26:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dimon Sees Parallels to Pre-Crisis Era, Rivals Doing 'Dumb Things' - JPMorgan CEO Jamie Dimon, asked about fierce competition across the financial industry, said he’s starting to see parallels to the era before the 2008 financial crisis, when a rush to make loans ended",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/dimon-sees-pre-crisis-parallels-dumb-things-by-rivals-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d0105c3345db6db57cbc95d44f1c720",
-      "timestamp": "2026-02-24T11:56:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Marsh Mulls Sale of PCS, Financial Risk Manager for Super Rich Asians - Marsh is exploring a sale of its financial risk manager and life insurance broker for high-net-worth individuals in Asia, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/marsh-mulls-sale-of-pcs-financial-risk-manager-for-super-rich-asians",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "98d7cbe0a5f32d079ca78eb6185819ee",
-      "timestamp": "2026-02-24T11:50:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cautious Foreign Investors Are Getting Their India Stock Calls Right - Retail investors’ favorite stocks are down a median 20% since January 2025.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-24/foreign-investors-stocks-score-better-rbi-s-dollar-rupee-strategy-in-focus",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a5985633cf03fe2be0082a895932f8dd",
-      "timestamp": "2026-02-24T11:49:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Copper Jumps as China Traders Cheer Prospect of Lower US Levies - Base metals gained as China’s markets reopened after the Lunar New Year break, with the country potentially facing lower US tariffs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/copper-jumps-as-china-traders-cheer-prospect-of-lower-us-levies",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b1ef3b57d79dce40359baedfbc7993d3",
-      "timestamp": "2026-02-24T11:49:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Citrini Report Author Sees AI Disrupting Global Economy - Governments should consider taxing incremental or windfall gains from AI to help offset the impact of job losses, according to Alap Shah, chief investment officer of Lotus Technology Management and co",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/lotus-cio-on-how-ai-could-disrupt-the-global-economy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9369814ce5ae74ef6de91857846ced70",
-      "timestamp": "2026-02-24T11:47:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Australian Real Estate Firms Buoyed by Staff Returning to Office - Office landlords in Australia’s two biggest cities stand to gain as workers return to the office more often than required, according to Bloomberg Intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/australian-real-estate-firms-buoyed-by-staff-returning-to-office",
       "sentiment": "NEUTRAL"
     }
   ]
