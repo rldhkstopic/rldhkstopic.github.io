@@ -1,6 +1,160 @@
 {
-  "last_updated": "2026-02-25T09:26:17.514816+09:00",
+  "last_updated": "2026-02-25T12:02:45.866931+09:00",
   "items": [
+    {
+      "id": "6fd4925c3be8e69703041bc0cad732eb",
+      "timestamp": "2026-02-25T11:53:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Currencies Hit 16-Month High on Weak Dollar, Yuan Gains - Asian currencies rose to a 16-month high on Wednesday, supported by a weaker dollar and steady yuan appreciation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/weak-dollar-yuan-gain-propel-asian-currencies-to-16-month-high",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d1d3c9462ff0dd0dd276207d4685bc8f",
+      "timestamp": "2026-02-25T11:50:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "This Is the Golden Age of America, Trump Says - President Donald Trump starts his State of the Union saying our nation is back. “You’ve seen nothing yet. We’re going to do better and better,” Trump adds. “This is the golden age of America.” (Source",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/this-is-the-golden-age-of-america-trump-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dd7132a65e19db88616491f6ad04d487",
+      "timestamp": "2026-02-25T11:49:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesia Offers Offshore Yuan Bond as Fiscal Concerns Grow - Indonesia began marketing bonds denominated in the offshore yuan Wednesday, testing global investors’ appetite amid concerns over fiscal woes in Southeast Asia’s largest economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/indonesia-offers-offshore-yuan-bond-as-fiscal-concerns-grow",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "917545748b1ca68abc84ca004d13d780",
+      "timestamp": "2026-02-25T11:46:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Software Rout Ripples Through India’s Consumer Tech, Real Estate - The Nifty Realty Index is the worst performer so far this year after IT.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-25/real-estate-stocks-zomato-feel-the-heat-of-ai-led-selloff",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fdd84b25a53116a2b506e52eff3cb3cf",
+      "timestamp": "2026-02-25T11:45:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says US Winning, Introduces Olympic Hockey Team - \"The state of our Union is strong,\" President Donald Trump says before introducing the gold medal-winning men’s Olympic hockey team during his State of the Union address. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/trump-says-us-winning-introduces-olympic-hockey-team-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "678114e69203d1d36810a7f7651284db",
+      "timestamp": "2026-02-25T11:42:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Stock Market Hit 53 New Highs on His Watch - President Donald Trump touted stock market records reached during his administration. “The stock market is at 53 all-time record highs since the election,\" he said during his State of the Union addres",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/trump-says-stock-market-hit-53-new-highs-on-his-watch-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e2749823ad91dde07a4b7858c2fd8013",
+      "timestamp": "2026-02-25T10:40:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Korea’s $2.2 Trillion Rally Takes Market Value Above France’s - South Korea has surged past France in stock market value, propelled by gains in technology shares riding the global boom in artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/korea-s-2-2-trillion-rally-takes-market-value-above-france-s",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "48603b8e1b7efcbff1a7195cbc6ebbb0",
+      "timestamp": "2026-02-25T10:37:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Declares US Richer and Stronger, Defending His Economy - President Donald Trump offered a defiant defense of his policies and economic record, declaring the nation is “back bigger, better, richer and stronger than ever before” in Tuesday’s State of the Unio",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/trump-to-defend-economic-record-demand-shutdown-end-in-address",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0b9dae78258ff936913d65dd5a9f6285",
+      "timestamp": "2026-02-25T10:23:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US, South Korea in Rare Clash Over US Air Drills Held Near China - The US and South Korea engaged in a rare public display of friction after it was reported that American and Chinese fighter jets briefly faced off over waters near the Korean Peninsula last week, expo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/us-south-korea-in-rare-clash-over-us-air-drills-held-near-china",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5ae7446c6b887d28968edb3babf8f939",
+      "timestamp": "2026-02-25T10:01:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Peru’s New President in Surprise Move Changes Mind About PM Pick - Peru’s new president in a surprise move appointed Denisse Miralles as prime minister on Tuesday, almost a week into his abridged term, despite saying just days ago that he planned to name a different ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/peru-s-new-president-in-surprise-move-changes-mind-about-pm-pick",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "337e2ecf005185247c43cb539094179a",
+      "timestamp": "2026-02-25T09:37:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Polymarket, Kalshi Gamify Truth With Bets on Politics, News - Mention markets are the high-octane, fast-twitch speed competitions of the prediction market world. But they’re just one corner of it. Users of Kalshi and its primary rival, Polymarket, can bet on eve",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/polymarket-kalshi-gamify-truth-with-bets-on-politics-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f156830112ac3cf73ea5e68e6cf56f68",
+      "timestamp": "2026-02-25T09:32:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Highlights Tax Cuts as Signature Win in Speech",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-02-25/trump-s-state-of-the-union-address",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "40488a9c9f8a89e6a51b1dfe1333029e",
+      "timestamp": "2026-02-25T09:30:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hong Kong Budget Set to Narrow Deficit With Tech Bets in Focus - Hong Kong Financial Secretary Paul Chan is set to report a significant narrowing of the city’s budget deficit in an annual address, raising expectations for modest relief measures and further investme",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/hong-kong-budget-set-to-narrow-deficit-with-tech-bets-in-focus",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4576a21d5f976dc28336ec44f9a86dfe",
+      "timestamp": "2026-02-25T09:13:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump to Address Affordability in State of the Union | Balance of Power: Late Edition 2/24/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Rep. Pete Aguilar (D) of California joins Balance of Power to discuss DHS funding talks, ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/balance-of-power-late-edition-2-24-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8a1ae2ec5711d2f5c61df43161c1ca59",
       "timestamp": "2026-02-25T09:09:37+09:00",
@@ -10,6 +164,17 @@
       "related_tickers": [],
       "content": "Nippon Steel Shares Tumble on Concern Over Massive Bond Sale - Nippon Steel Corp. shares slumped after the company said it planned to sell almost $4 billion of bonds to help fund the acquisition of United States Steel Corp.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-25/nippon-steel-shares-tumble-on-concern-over-massive-bond-sale",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9c0b197150ba51e08ef1c44d21750a73",
+      "timestamp": "2026-02-25T09:06:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Memory Boom Drives Korean Stocks’ Breakthrough Past 6,000 Level - South Korea’s equity benchmark has crossed a new milestone just a month after surpassing the once-unthinkable 5,000 mark, as surging global memory demand powers the country’s biggest chipmakers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
       "sentiment": "NEUTRAL"
     },
     {
@@ -43,6 +208,17 @@
       "related_tickers": [],
       "content": "Self-Driving Startup Wayve Raises $1.5 Billion for Robotaxi Wars - Wayve, the UK autonomous driving software startup, has raised $1.5 billion in funding at an $8.6 billion valuation as it prepares to go up against Chinese and US rivals to roll out self-driving taxis.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-25/self-driving-startup-wayve-raises-1-5-billion-for-robotaxi-wars",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9f312a50deb5eef8a9c816bc5aa7fa15",
+      "timestamp": "2026-02-25T08:51:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks Rebound After AI Selloff; Health Care Slips Before SOTU | The Close 2/24/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are ProShares’ Mo Haghbin, Jef",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-24/the-close-2-24-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2031,182 +2207,6 @@
       "related_tickers": [],
       "content": "Meta to Spend Billions of Dollars on AMD Gear, Buy Stock - Meta Platforms Inc. will deploy 6 gigawatts’ worth of data center gear based on processors from Advanced Micro Devices Inc., a blockbuster deal that marks a win for the chipmaker’s attempts to catch u",
       "url": "https://www.bloomberg.com/news/articles/2026-02-24/meta-to-spend-tens-of-billions-of-dollars-on-amd-gear-buy-stock",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f38a29a1f08641c69ee8e7f390dccd6c",
-      "timestamp": "2026-02-24T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mexico’s Big Cartel Win Also Risks More Violence Ahead - The killing of “El Mencho,” one of Mexico’s most wanted drug lords, risks being both a blessing and curse for President Claudia Sheinbaum.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/mexico-s-big-jalisco-cartel-win-also-risks-more-violence-ahead",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "56bbe3f69ee0372c1607de62b26c21c8",
-      "timestamp": "2026-02-24T20:57:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Treasury Gains Fizzle With Key Yield Hovering Near 4% Level - US Treasuries steadied as demand for havens eased and investors focused on the near-term risks for bonds.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/us-treasury-gains-fizzle-with-key-yield-hovering-near-4-level",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e98012fc28fdb0b5ac1cf79375ba0a36",
-      "timestamp": "2026-02-24T20:53:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump's New 10% Tariff Takes Effect; Dimon Warns on Credit Risks | Bloomberg Brief 2/24/2026 - US equity futures rise after stocks sold off following a Citrini Research report that fueled AI disruption concerns. President Trump's 10% global levies kick in as the administration efforts to preser",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/bloomberg-brief-2-24-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "adbda987b66f1a74e99e56dd6cb1eb0c",
-      "timestamp": "2026-02-24T20:44:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Swiss Bond Market Eyes Blowout Sales Boosted by Alphabet’s Debut - Corporate bond sales in Swiss francs could top 25 billion this year, far beyond the market’s normal volumes if the haven currency’s low interest rates spur more international borrowers to follow Googl",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/swiss-bond-market-eyes-blowout-sales-boosted-by-alphabet-s-debut",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d068cb3a05e2b7eea597974a8f0bc8f",
-      "timestamp": "2026-02-24T20:43:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Is More Attractive as Inflows Rise, Deutsche Bank CIO Says - China’s tech prowess is making the country an increasingly attractive investment destination, according to Christian Nolting, Deutsche Bank AG’s global chief investment officer for private banking.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/deutsche-bank-cio-says-china-is-more-attractive-as-inflows-rise",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d068cb3a05e2b7eea597974a8f0bc8f",
-      "timestamp": "2026-02-24T20:43:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Is More Attractive as Inflows Rise, Deutsche Bank CIO Says - China’s tech prowess is making the country an increasingly attractive investment destination, according to Christian Nolting, Deutsche Bank AG’s global chief investment officer for private banking.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/deutsche-bank-cio-says-china-is-more-attractive-as-inflows-rise",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b7d89836913e3474348d7d225795f5da",
-      "timestamp": "2026-02-24T20:40:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amer Sports Drops as Tepid Outlook Raises Cost Concerns - Amer Sports Inc. shares fell after the company issued a first-quarter outlook that trailed expectations, raising concerns on higher costs to promote its Salomon footwear and Arc’teryx apparel brands.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/amer-sports-drops-as-tepid-outlook-raises-cost-concerns",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "efbb3af2194516589b4bde96ddf2b175",
-      "timestamp": "2026-02-24T20:36:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "European Banks Tell ECB That They’re Set to Benefit From AI - A top European Central Bank official said lenders from the region expect to benefit as artificial intelligence shakes up their business models.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/european-banks-tell-ecb-that-they-re-set-to-benefit-from-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "efbb3af2194516589b4bde96ddf2b175",
-      "timestamp": "2026-02-24T20:36:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "European Banks Tell ECB That They’re Set to Benefit From AI - A top European Central Bank official said lenders from the region expect to benefit as artificial intelligence shakes up their business models.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/european-banks-tell-ecb-that-they-re-set-to-benefit-from-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e2f06f4198171a3d3d20163da19b6104",
-      "timestamp": "2026-02-24T20:23:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa Wins Release of Men Tricked Into Fighting for Russia - South Africa’s President Cyril Ramaphosa said his government has secured the release of the remaining citizens whose families said they were duped into fighting for Russia.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/s-africa-wins-release-of-men-tricked-into-fighting-for-russia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e353217cb137497b26dc81187b6b7daa",
-      "timestamp": "2026-02-24T20:21:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Can Sell More T-Bills to Offset Lost Tariff Revenue, BNY Says - The US is likely to issue more short-dated notes to make up for lost revenues after the Supreme Court overturned President Donald Trump’s tariffs, according to a BNY strategist.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/us-can-sell-more-t-bills-to-offset-lost-tariff-revenue-bny-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0d7ebddd242cf3fd093f2efa64427c27",
-      "timestamp": "2026-02-24T20:16:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fire, Power Outage Disrupt Operations at Cape Town Airport - A fire and a power outage disrupted operations at Cape Town International Airport on Tuesday, leading to delays and the suspension of international flights at the gateway to South Africa’s main touris",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/fire-power-outage-disrupt-operations-at-cape-town-airport",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7bc23081bf77aeb57d8042dc8f557523",
-      "timestamp": "2026-02-24T20:06:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Old-Economy Stocks Are Looking Pretty Good Right About Now - <p>A basket of capital-intensive stocks is rallying as investors flee AI disruption.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-24/old-economy-stocks-are-looking-pretty-good-right-about-now",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f8ca62b8314795576e56a386eed09ab3",
-      "timestamp": "2026-02-24T20:00:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tata Defers Vote on Chairman’s New Term, Signaling Power Tussle - The board of Tata Sons Pvt. deferred a decision on granting a third term to Chairman Natarajan Chandrasekaran, people familiar said, in the latest sign that another leadership tussle could be brewing ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/tata-defers-vote-on-chairman-s-new-term-signaling-power-tussle",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ee0948d926dbddc3b7cd5c74bf397420",
-      "timestamp": "2026-02-24T20:00:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "America’s Ube Obsession Is Straining Supplies - Ube has officially gone viral. Purple lattes, cheesecakes and pancakes are increasingly cropping up on dessert menus, but as a result, supplies are tightening. Ilena Peng has more. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/america-s-ube-obsession-is-straining-supplies",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9c2be19226fa7e49dcd4edf9da0ea03e",
-      "timestamp": "2026-02-24T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meat Snack Maker Archer Gets $100 Million Loan as Demand From Women Grows - Archer Meat Snacks secured a credit facility for nearly $100 million from JPMorgan Chase &amp; Co., allowing it to ramp up production as demand surges for its high-protein snacks &mdash; particularly ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/meat-snack-maker-archer-gets-100-million-loan-as-demand-from-women-grows",
       "sentiment": "NEUTRAL"
     }
   ]
