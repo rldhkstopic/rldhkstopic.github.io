@@ -1,6 +1,316 @@
 {
-  "last_updated": "2026-02-26T03:24:23.087581+09:00",
+  "last_updated": "2026-02-26T05:11:48.294304+09:00",
   "items": [
+    {
+      "id": "b352a47e9c2abf109166755ccfd3b2d9",
+      "timestamp": "2026-02-26T05:03:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zelenskiy, Trump Discuss Next Steps for Peace Talks in Call - Ukrainian President Volodymyr Zelenskiy said he and US President Donald Trump discussed preparations for a meeting between negotiators from their countries planned for Thursday in Geneva, as well as f",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/zelenskiy-trump-discuss-next-steps-for-peace-talks-in-call",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c5b5e6cd52300fcf4fe14455e375ecb9",
+      "timestamp": "2026-02-26T04:55:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Gold Bugs Are Already Fighting Back - More going on than just AI.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-25/the-gold-bugs-are-already-fighting-back",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b7ea0d3f9f1280eb6c6ce3d378d8e129",
+      "timestamp": "2026-02-26T04:49:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Intuitive Machines Shares Plunge After $175 Million Placement - Intuitive Machines Inc. shares plunged after the space company announced a $175 million strategic equity investment to support projects such as an expansion into technology for orbital data centers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/intuitive-machines-shares-plunge-after-175-million-placement",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4392e49d4d6becfbc57a0cfe8dc64340",
+      "timestamp": "2026-02-26T04:49:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "French Premier Survives Censure Votes Over 2035 Energy Roadmap - French Prime Minister Sebastien Lecornu survived two censure motions Wednesday that aimed to oust him over his government’s new energy roadmap.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/french-premier-survives-censure-votes-over-2035-energy-roadmap",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "48db84cf851eb87a0bbb05141e6c9165",
+      "timestamp": "2026-02-26T04:42:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musalem Says Fed Rate Is Near Neutral, Risks Balanced - Federal Reserve Bank of St. Louis President Alberto Musalem says the labor market has cooled but is stabilizing and inflation is on a trajectory downward during an event in St. Louis. (Source: Bloombe",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/musalem-says-fed-rate-is-near-neutral-risks-balanced-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be0dc447e46a7340d390b103852dcea8",
+      "timestamp": "2026-02-26T04:36:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Traders Pile Into Bearish Yuan Bets to Hedge Downside Risks - Traders have boosted bearish wagers on the yuan to the highest since April, looking to protect against downside risks in the wake of a strong rally and ahead of a period of traditional weakness in the",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/traders-pile-into-bearish-yuan-bets-to-hedge-downside-risks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "731e4899ef8771a7095f2ef9e28586f5",
+      "timestamp": "2026-02-26T04:28:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PayPal Attracting Takeover Interest, Meta to Spend Billions on AMD Gear | Bloomberg Deals 2/25/2026 - A weekly, midday program that delivers high-impact, editorially driven coverage of the most important corporate transactions shaping the global market. Today's guests: Lightspeed Venture Partners Part",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/bloomberg-deals-2-25-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9f9847e523213651f4cca0839e4e63b0",
+      "timestamp": "2026-02-26T04:25:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "It’s Hard to Do Deals Right Now, Kindler Says - Robert Kindler, Paul Weiss global chair of M&amp;A, explains why he thinks it’s too hard to do deals right now. He speaks to Dani Burger.",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/it-s-hard-to-deals-right-now-kindler-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e9b0aa3a2a8b5ea396a796166f1933ee",
+      "timestamp": "2026-02-26T04:21:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Levels New Sanctions on Iran’s Missile Program, Shadow Fleet - The Trump administration imposed sanctions on more than 30 entities that support Iranian oil and weapons sales, ramping up pressure on Tehran amid nuclear talks and the looming threat of US airstrikes",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/us-levels-new-sanctions-on-iran-s-missile-program-shadow-fleet",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "401f1494e7bd037a351b78533d324730",
+      "timestamp": "2026-02-26T04:14:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BDC With 2% Software Exposure Pitches Itself as a ‘Safe Haven’ - As concerns continue to mount about loans to software companies, one private credit fund is calling itself a relative “safe haven” due to lack of exposure.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/bdc-with-2-software-exposure-pitches-itself-as-a-safe-haven",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a248afa4220d74f588a893418b235156",
+      "timestamp": "2026-02-26T04:12:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oaktree Said to Weigh Sale, IPO of £2 Billion UK Wealth Manager Utmost - Oaktree Capital Management is exploring options for Utmost Group Plc, a UK-based provider of insurance-based wealth management solutions, including a sale and an initial public offering in London, acc",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/oaktree-said-to-weigh-sale-ipo-of-2-billion-uk-wealth-manager-utmost",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c03ab0f1531830d0ef82f97f2cd74660",
+      "timestamp": "2026-02-26T04:07:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NFL Renewal Worries Spur Double Downgrade of Fox Shares by BofA - The National Football League’s grip on US audiences keeps growing and that could spell trouble for Fox Corp. when it comes back to the negotiating table, according to the stock’s lone bear.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/nfl-renewal-worries-spur-double-downgrade-of-fox-shares-by-bofa",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a04e665003fe61ab9b3981828223cc8d",
+      "timestamp": "2026-02-26T04:02:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Harvard’s Massive Bet on Land Hits Harsh Real Estate Reality - A biotech downturn and pulled federal funds have stymied the university’s property bet in Boston’s Allston neighborhood &mdash; while nearby MIT has thrived. Harvard had little room for growth in Camb",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/harvard-s-bet-on-land-hits-harsh-real-estate-reality-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "472a658f26e98ac1a7c5f47146c7f70c",
+      "timestamp": "2026-02-26T03:51:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sequoia’s Lin Is Optimistic About AI’s Impact - Sequoia Partner Alfred Lin says the venture firm is optimistic about the changes AI will bring. He discusses why Sequoia backed startup Rowspace, which builds AI tools for financial services companies",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/sequoia-s-lin-is-optimistic-about-ai-s-impact-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a06ed68ed3ac87ee39d97aafb98d7032",
+      "timestamp": "2026-02-26T03:45:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Government Bonds’ Shrinking Appeal Has Cost, New York Fed Says - A key interest rate is rising globally, and the chief culprit appears to be the declining appeal of government bonds for safety and liquidity, according to Federal Reserve Bank of New York researchers",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/government-bonds-shrinking-appeal-has-cost-new-york-fed-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7698dc699d38df608b7c65d8f81e80c9",
+      "timestamp": "2026-02-26T03:44:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Bull Case for Bitcoin Is Hiding in the $1 Trillion Wreckage - Bitcoin has been cut almost in half since its October high. By almost every measure, the selloff is the worst since the collapse of FTX. But there is a puzzle at the center of the wreckage: the instit",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/the-bull-case-for-bitcoin-is-hiding-in-the-1-trillion-wreckage",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4dd02bac40422126ec15e631067146eb",
+      "timestamp": "2026-02-26T03:44:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Summons Amazon, Google, Meta to Sign Power-Cost Pledge - President Donald Trump is convening technology executives at the White House next week to sign pledges committing their companies to foot the electricity bill for energy-hungry data centers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/trump-summons-amazon-google-meta-to-sign-power-cost-pledge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4dd02bac40422126ec15e631067146eb",
+      "timestamp": "2026-02-26T03:44:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Summons Amazon, Google, Meta to Sign Power-Cost Pledge - President Donald Trump is convening technology executives at the White House next week to sign pledges committing their companies to foot the electricity bill for energy-hungry data centers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/trump-summons-amazon-google-meta-to-sign-power-cost-pledge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "711dfc9b9242ada6ee636f62c1fc336a",
+      "timestamp": "2026-02-26T03:37:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FBI Raids Los Angeles School District Chief’s Home, Office - Federal agents executed search warrants at the Los Angeles Unified School District’s headquarters and at the home of Superintendent Alberto Carvalho, according to the FBI, which declined to describe t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/fbi-raids-los-angeles-school-district-chief-s-home-and-office",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "515a608cd1e8dd48b06c6c16cdf1534c",
+      "timestamp": "2026-02-26T03:34:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Markets Eye Nvidia Earnings Amid AI, Credit Concerns | Open Interest 2/25/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interes",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/open-interest-2-25-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "69a948d2e169a9d93e3d361d080a2770",
+      "timestamp": "2026-02-26T03:29:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CME Restarts Natural Gas Futures After Glitch Halts Trading - CME Group Inc. restarted trading on its main natural gas futures and options contracts after a brief halt due to technical issues, marking the second disruption in about a month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/cme-halts-globex-metals-natural-gas-futures-on-technical-issues",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2b94dda1035961d13ebfb981adf46ecd",
+      "timestamp": "2026-02-26T03:28:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FIS CEO Bullish on 2026, Cites AI as Growth Driver - Stephanie Ferris, CEO and President of FIS, is bullish on the company’s prospects for 2026 and beyond, calling AI is a strategic accelerant. She speaks with Bloomberg’s Dani Burger and Matt Miller on ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/fis-ceo-bullish-on-2026-cites-ai-as-growth-driver",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8830cb462788c3ad6b5b19c3f803ea01",
+      "timestamp": "2026-02-26T03:26:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia Earnings to Test AI Outlook - Joshua Buchalter, Senior Equity Research Analyst at TD Cowen, previews Nvidia’s latest quarterly results. He speaks with Bloomberg’s Dani Burger and Matt Miller on Open Interest. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/nvidia-earnings-to-test-ai-outlook-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0b7c8f697d424eb56ba5d861de50eed2",
+      "timestamp": "2026-02-26T03:25:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tikehau's Chabran Weighs In as Private Credit Concerns Rise - Mathieu Chabran, Co-Founder of Tikehau Capital, weighs in on mounting private credit fears as warnings of rising defaults and AI-driven disruption rattle investors. He speaks with Bloomberg’s Dani Bur",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/tikehau-s-chabran-on-private-credit-concerns-rise-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "960a877f380dca2a00e1de8ae85481a2",
+      "timestamp": "2026-02-26T03:18:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman’s Snider: Economic Acceleration Offsets AI Jitters - Ben Snider, Chief US Equity Strategist at Goldman Sachs, says economic acceleration is the clearest tailwind for markets amid jitters over AI disruption. He speaks with Bloomberg’s Dani Burger and Mat",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/economic-acceleration-offsets-ai-jitters-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be0f78f4b1cbf238860d48d0850d5da9",
+      "timestamp": "2026-02-26T03:17:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Coinbase Soars After Launching 24-Hour Stock Trading. Why Robinhood Shares Are Jumping, Too. - Stock and ETF trading is available 24 hours a day, five days a week for U.S. investors on Coinbase’s platform.",
+      "url": "https://finance.yahoo.com/m/18db5a1b-db41-33e5-a5f6-430b8f4dfbed/coinbase-soars-after.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c54cf650914b4302101c31ac9dd07062",
+      "timestamp": "2026-02-26T03:15:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brookfield’s CDK Posts 18% Earnings Drop as Software Fears Grow - Brookfield Business Partners-backed CDK Global reported a double-digit earnings decline in the fourth quarter, a sign of struggles at the company right as Wall Street scrutinizes how the software sect",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/brookfield-s-cdk-posts-18-earnings-drop-as-software-fears-grow",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "032a7f5674d717bbd51313bda4600eef",
+      "timestamp": "2026-02-26T03:11:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iceland Premier Signals Earlier Referendum on Resuming EU Talks - Iceland’s Prime Minister Kristrun Frostadottir said her nation will hold a referendum on reopening talks with the European Union on potential membership in “the next few months.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/iceland-premier-signals-earlier-referendum-on-resuming-eu-talks",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c5bc2d13a41c4b4c25a9ea1c74d8f0e4",
       "timestamp": "2026-02-26T03:08:40+09:00",
@@ -355,6 +665,19 @@
       "related_tickers": [],
       "content": "North Sea Oil Signals Weakness as Vitol, Total Buying Spree Ends - The North Sea crude market is flashing signs of weakness as heavy buying from Vitol Group and TotalEnergies SE subsides, removing a key pillar of support just as more supply is set to return to the At",
       "url": "https://www.bloomberg.com/news/articles/2026-02-25/north-sea-oil-signals-weakness-as-vitol-total-buying-spree-ends",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f2e6049f141fd0ab2a9233c68f3f97d9",
+      "timestamp": "2026-02-26T00:30:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Nu Holdings Ltd. 36,765,272 16.85",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017209.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1884,327 +2207,6 @@
       "related_tickers": [],
       "content": "Australia Ships LNG 16,000 Miles to Canada as Asia Demand Slumps - Australia is shipping LNG much further than its main buyers in Asia as demand for the super-chilled fuel in the region falters.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-25/australia-ships-lng-16-000-miles-to-canada-as-asia-demand-slumps",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8ebe4577e3c95ad927df295938673131",
-      "timestamp": "2026-02-25T15:09:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Balance of Power: State of the Union 2/24/2026 - On this special edition of 'Balance of Power', Bloomberg's team of political correspondents discuss the leadup and aftermath of President Donald Trump's State of the Union address. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/balance-of-power-state-of-the-union-2-24-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "44a0d2013fa47f8497e8b26fe5817c62",
-      "timestamp": "2026-02-25T15:00:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Offers Rose-Colored Glasses in Economic-Focused Speech - Addressing one of his biggest audiences at perhaps the lowest moment of his second term, President Donald Trump returned again and again in his State of the Union speech to the same message on the eco",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/state-of-the-union-2026-analysis",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eb658c61775e31f3570d09147b9bc310",
-      "timestamp": "2026-02-25T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Inside Ares Management’s Risky Bet on a Maverick Football Mogul - Around three years ago, after deciding it wanted to start placing bigger sports bets, Ares Management Corp. wrote a check for over $400 million to a maverick investor pushing a new model of football o",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/inside-ares-management-s-risky-bet-on-a-maverick-football-mogul",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0d45db94342eec8d1b92ea4514a3760e",
-      "timestamp": "2026-02-25T14:45:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘Rainy Day’ Fund to Funnel Zambia’s Copper Bounty From This Year - Zambia, Africa’s second-biggest copper producer, will use larger-than-expected mining revenues to start a stabilization fund this year, a senior treasury official said, ensuring the government has a b",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/zambia-s-rainy-day-fund-to-funnel-copper-bounty-from-this-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0149c1b13c8b575bba1c17657074cc24",
-      "timestamp": "2026-02-25T14:40:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "HSBC Bonus Pool Rises to Highest in at Least a Decade - HSBC Holdings Plc overall bonus pool rose 10% to $3.93 billion, the highest in at least a decade after the bank delivered full year results that beat analyst estimates.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/hsbc-bonus-pool-rises-to-highest-in-at-least-a-decade",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9e5341a336a9bdb7857c998703122d83",
-      "timestamp": "2026-02-25T14:38:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Shanghai Eases Homebuying Rules in Sign of China Property Relief - China’s financial hub of Shanghai eased homebuying rules, in the latest attempt by authorities to contain the nation’s prolonged property slump.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/shanghai-eases-homebuying-rules-in-sign-of-china-property-relief",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "48584dd3acf7aa0397142f09b15cbbee",
-      "timestamp": "2026-02-25T14:38:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Grindr, Blued Blocked in Malaysia as Anti-LGBTQ+ Push Widens - Malaysia has blocked access to LGBTQ+ networking and dating sites Grindr and Blued, with authorities reviewing legal measures to curb their apps in the Muslim-majority nation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/grindr-blued-blocked-in-malaysia-as-anti-lgbtq-push-widens",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cffa7162ea89f8823b1616edb7405d15",
-      "timestamp": "2026-02-25T14:33:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Stages State of the Union Pep Rally as Economic Mood Sours - President Donald Trump delivered the longest State of the Union address of the television age Tuesday, declaring “a turnaround for the ages” as he tried to sell Americans on his economic program ahead",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/key-takeaways-from-trump-s-state-of-the-union-address-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2706256246e14980281e58e278b2ce77",
-      "timestamp": "2026-02-25T14:26:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Albanese Evacuated Over Threats To China Dance Group, ABC Says - Australian Prime Minister Anthony Albanese evacuated his official residence in Canberra for a few hours on Tuesday evening following a bomb scare connected to a religious group that’s banned in China,",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/albanese-evacuated-over-threats-to-china-dance-group-abc-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "416f7b46c1c1a425563ca35037b1c866",
-      "timestamp": "2026-02-25T14:25:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "HSBC CEO Elhedery on Earnings, Wealth Business, AI Impact - HSBC Chief Executive Officer Georges Elhedery discusses the bank's better-than-estimated earnings for 2025 in an interview with Bloomberg Television. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/hsbc-ceo-on-earnings-wealth-business-ai-impact-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "81e964982cfbb75ed16c1140b5d30b77",
-      "timestamp": "2026-02-25T14:24:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hong Kong Hikes Stamp Duty for Luxury Homes as Sales Rebound - Hong Kong is hiking stamp duty for luxury home transactions following a recent flurry of activity in the market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/hong-kong-hikes-stamp-duty-for-luxury-homes-as-sales-rebound",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a484a745d152c7d5bcbc4d115169dc7",
-      "timestamp": "2026-02-25T14:14:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Niche Australian Metals Miner Lynas Has Grown Bigger Than Qantas - Lynas Rare Earths Ltd. has overtaken Australian blue-chip stalwart Qantas Airways Ltd. by market capitalization, as concerns about China’s dominance of critical minerals lift the miner’s stock.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/australian-rare-earths-miner-lynas-has-grown-bigger-than-qantas",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "074e626d4c254d8c0e23fcc02e2a477c",
-      "timestamp": "2026-02-25T14:07:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Leveraged SoFi ETF Highlights Growing Interest In Digital Banking Platform - Direxion has launched the Direxion Daily SoFi Bull 2X ETF, offering leveraged exposure to SoFi Technologies (NasdaqGS:SOFI). The ETF is designed to provide 2x daily exposure to the performance of SoFi",
-      "url": "https://finance.yahoo.com/news/leveraged-sofi-etf-highlights-growing-050757649.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ae3e2c989040891d32e58066120be75f",
-      "timestamp": "2026-02-25T14:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NATO Hunts Submarines in Arctic to Show Trump It Means Business - NATO forces are practicing hunting Russian submarines in the Arctic, the latest show of commitment to a skeptical Donald Trump. Ellen Milligan explains what's at stake. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/nato-hunts-submarines-in-arctic-to-show-trump-it-means-business",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8228efc0126520ac925e0d14a44604c7",
-      "timestamp": "2026-02-25T14:00:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Spain’s Housing Chaos Pits Squatters Against Stranded Owners - <p>Tens of thousands of occupied homes are for sale as Spain’s housing market reaches a boiling point.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-25/spain-s-housing-market-pits-home-owners-against-squatters",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0279c73e93767995a31674523036794f",
-      "timestamp": "2026-02-25T14:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NATO’s Naval Forces Are Demonstrating Their Arctic Commitment for Trump - <p>The Alliance’s value to the US was a key&nbsp;theme&nbsp;of exercise “Arctic Dolphin”&nbsp;in the Norwegian Sea. But officials also recognize the Greenland question&nbsp;is not shelved.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-25/nato-naval-forces-are-showing-trump-their-arctic-commitment",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b40d386e40ef2f1d9d36c77856b710f1",
-      "timestamp": "2026-02-25T14:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South African Stocks’ Heady Rally Faces GDP Growth Hurdle - South African markets are riding a wave of optimism that hasn’t been seen in years. Whether that lasts depends on one thing: economic growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/south-african-stocks-heady-rally-faces-economic-growth-hurdle",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c8047de7aec4d8f9ee85d7bc170df78b",
-      "timestamp": "2026-02-25T13:59:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Malaysia’s Zetrix Raises Funds, Plans to List AI Unit on Nasdaq - Zetrix AI Bhd., a publicly traded Malaysian provider of digital infrastructure, raised about $40 million from the World Bank’s investment arm and is preparing to list its artificial intelligence unit ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/malaysia-s-zetrix-raises-funds-plans-to-list-ai-unit-on-nasdaq",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a183c554899d324edea4e0284d971283",
-      "timestamp": "2026-02-25T13:58:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Äthiopiens E-Autos - Äthiopien ist eines der einkommensschwächsten Länder der Erde - und neuerdings Elektroauto-Hotspot. In dem afrikanischen Land steigen die Zulassungszahlen für E-Autos kräftig an.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/athiopiens-e-autos-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a639ef04c8f6f3e56d1273c173b2c79",
-      "timestamp": "2026-02-25T13:47:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sensible Energy Policies Will Help Win the AI Race, Burgum Says - Interior Secretary Doug Burgum talks about the importance of having sensible energy policies that will attract investment and help the US win the AI race. He speaks to Joe Mathieu after the State of t",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/burgum-on-winning-the-ai-race-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ca8b9d0cb77346905da31571a652e808",
-      "timestamp": "2026-02-25T13:43:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Virginia's Spanberger Delivers Democratic Response to Trump Address - Virginia Governor Abigail Spanberger delivers the Democratic Party’s response to President Donald Trump’s State of the Union address to a joint session of Congress. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/spanberger-delivers-democratic-response-to-trump-address-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be8be11c840e6240cb077a10cec4fd44",
-      "timestamp": "2026-02-25T13:37:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Softens Criticism of Supreme Court Over Tariff Ruling - Four days after deriding the US Supreme Court justices who struck down most of his signature tariffs, President Donald Trump was far milder in his criticism with some of them in the room.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/trump-softens-criticism-of-supreme-court-over-tariff-ruling",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bbe0740a066b89493fb1139df13c5e99",
-      "timestamp": "2026-02-25T13:36:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What’s at Stake for Oil If Iran-US Tensions Escalate - Rising tensions between the US and Iran have already driven oil prices to a six-month high. Oil traders are watching for any escalation that could disrupt crude production in Iran or prompt its govern",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/oil-at-six-month-high-what-us-iran-conflict-could-mean-for-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "55ab028dfc43675cd93401e068360d15",
-      "timestamp": "2026-02-25T13:36:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tariffs, 401(k)s, Shouting: Key Takeaways From Trump’s Speech - President Donald Trump delivered the longest State of the Union address of the television age Tuesday, declaring “a turnaround for the ages” as he tried to sell Americans on his economic program ahead",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/state-of-the-union-2026-key-takeaways-tariffs-401-k-s-shouting",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f46ccf8322cc8c8ad04886a725deb3c",
-      "timestamp": "2026-02-25T13:23:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Tongwei Bids to Buy Rival and Hasten Solar Consolidation - Chinese polysilicon giant Tongwei Co. plans to buy a smaller domestic rival, as the industry bids to shrink chronic oversupply of the solar-panel material.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/china-s-tongwei-bids-to-buy-rival-and-hasten-solar-consolidation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "73f8fb96877c82a406a11c0fb0eae418",
-      "timestamp": "2026-02-25T13:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Africa Debt Risk Perceptions ‘Overblown,’ Zambian Official Says - Mispriced risk in African sovereign debt is costing the continent billions of dollars in additional debt-service payments and constraining critical economic growth, according to a Zambian Treasury off",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/africa-debt-risk-perceptions-overblown-zambian-official-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "958e42a7b891f5f39c3a74582dbd92cf",
-      "timestamp": "2026-02-25T12:54:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Funds Beat Local Buyers of Indian Stocks After 17 Months - Foreign inflows into Indian equities in February are set to surpass domestic institutional demand for the first time in 17 months, aided by signs of improving earnings momentum and easing valuations.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/global-funds-beat-local-buyers-of-indian-stocks-after-17-months",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b19248d5d9c59ac14c307f79d7ca6a2d",
-      "timestamp": "2026-02-25T12:53:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic Adds Caveat to AI Safety Policy in Race Against Rivals - Anthropic PBC, known for its commitment to artificial intelligence safeguards, has loosened its central safety policy, saying the change is necessary to remain competitive.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7c1c1781545706531d6ec1f65557bef8",
-      "timestamp": "2026-02-25T12:48:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Cargo Gap Shows Record US Tariff Evasion | The Asia Trade 2/25/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, get",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/the-asia-trade-2-25-2026-video",
       "sentiment": "NEUTRAL"
     }
   ]
