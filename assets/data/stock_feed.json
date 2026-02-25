@@ -1,6 +1,336 @@
 {
-  "last_updated": "2026-02-25T15:26:09.701551+09:00",
+  "last_updated": "2026-02-25T17:16:07.606659+09:00",
   "items": [
+    {
+      "id": "628247d1c02d0f894d2b8b806f8c4cc1",
+      "timestamp": "2026-02-25T17:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Germany Set to Approve €540 Million in Kamikaze Drone Orders - German lawmakers are set to approve two orders Wednesday for attack drones, each worth about €270 million ($319 million), from local startups Helsing and Stark Defence as Berlin seeks to strengthen NA",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/germany-set-to-approve-540-million-in-kamikaze-drone-orders",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2de7f868592c41c4cf7cabb3ef35b717",
+      "timestamp": "2026-02-25T16:57:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US to End Zimbabwe Health Aid as Talks on $367 Million Deal Fail - The US is ending its health aid programs in Zimbabwe after Harare withdrew from talks over a bilateral deal with Washington.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/us-to-end-zimbabwe-health-aid-as-talks-on-367-million-deal-fail",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fe2d580fcaf5361778aa747b2faa77c3",
+      "timestamp": "2026-02-25T16:56:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Nippon Steel’s $3.9 Billion Deal Jumpstarts Japan’s Convertible Bond Market - Nippon Steel Corp.’s record-breaking convertible bond offering is highlighting the quest of Japanese companies for cheaper funding than increasingly expensive traditional debt, which sets the stage fo",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/nippon-steel-s-3-9-billion-deal-jumpstarts-japan-s-convertible-bond-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b13a18466ec11bd4333b1417e15dde53",
+      "timestamp": "2026-02-25T16:44:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hong Kong Seeks to Attract More Borrowers in Offshore Yuan Push - Hong Kong is seeking to attract more yuan borrowers and expand trading products in the Chinese currency, as officials capitalize on de‑dollarization trends and China’s push to build a global yuan.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/hong-kong-seeks-to-attract-more-borrowers-in-offshore-yuan-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "afbc9de5af6b55e48381812afb9aa1b3",
+      "timestamp": "2026-02-25T16:42:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Bond Bankers Push Regulator for More Funding Flexibility - Indian bankers that specialize in selling corporate debt securities are asking the financial regulator for permission to borrow funds against bonds, according to people familiar with the matter, as au",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/india-s-bond-bankers-push-regulator-for-more-funding-flexibility",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "da254633453e27d4e2504d3967616e70",
+      "timestamp": "2026-02-25T16:40:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "GSK Secures High Blood Pressure Drug in $950 Million Deal - GSK Plc agreed to buy 35Pharma Inc., a biotech with an early-stage high blood pressure drug, as the UK pharmaceutical company expands into cardiovascular medicine.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/gsk-secures-high-blood-pressure-drug-in-950-million-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f7e44464048a7bfce5b937dd881b8561",
+      "timestamp": "2026-02-25T16:36:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kenya Pipeline’s Initial Offer Oversubscribed, Adviser Says - Kenya has reached its target 106.3 billion shillings ($824.1 million) from the initial public offering of its state-run pipeline company, the first such sale for the East African nation in more than a",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/kenya-pipeline-s-initial-offer-oversubscribed-adviser-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "482a1bd701f7ce2ae9849c32cd62813d",
+      "timestamp": "2026-02-25T16:35:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DoorDash to Exit Four Asian Countries as Competition Heats Up - DoorDash Inc. is pulling out of four countries in Asia, a sign that fierce competition and thin margins across food delivery are weighing on its overseas ambitions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/doordash-to-exit-four-asian-countries-as-competition-heats-up",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "50c1b5d784e6ad99235d521ba2f04c18",
+      "timestamp": "2026-02-25T16:27:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "These Are the Winners and Losers From Hong Kong’s 2026 Budget - Hong Kong’s technology and financial companies are poised to benefit from the city’s spending plan as the government accelerates artificial intelligence adoption across sectors.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/these-are-the-winners-and-losers-from-hong-kong-s-2026-budget",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "50c1b5d784e6ad99235d521ba2f04c18",
+      "timestamp": "2026-02-25T16:27:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "These Are the Winners and Losers From Hong Kong’s 2026 Budget - Hong Kong’s technology and financial companies are poised to benefit from the city’s spending plan as the government accelerates artificial intelligence adoption across sectors.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/these-are-the-winners-and-losers-from-hong-kong-s-2026-budget",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6843cce922a49857415d3f7de7e08670",
+      "timestamp": "2026-02-25T16:24:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Valterra Dividend Tops Estimates After Platinum Prices Surge - Valterra Platinum Ltd. declared a dividend that smashed analyst expectations as earnings jumped last year on soaring metals prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/valterra-dividend-beats-estimates-after-platinum-prices-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e4e1ea1f95f32f7e8f2a13eec6b6d502",
+      "timestamp": "2026-02-25T16:24:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Horizons Middle East & Africa 2/25/2026 - Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/horizons-middle-east-africa-2-25-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "507b61ad7b77de0638bd6a97b7dce3db",
+      "timestamp": "2026-02-25T16:18:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Orban’s Poll Support Crumbles as Hungary Opposition Widens Lead - The Hungarian opposition Tisza party has widened its lead against Prime Minister Viktor Orban’s ruling Fidesz to an unprecedented 20 percentage points among decided voters after a series of recent sca",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/orban-s-poll-support-crumbles-as-hungary-opposition-widens-lead",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0369e7c0f5838ff54f6ad4bed7b2a1f3",
+      "timestamp": "2026-02-25T16:17:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EGA CFO: Sourcing Bauxite From Others to Replace Guinea - Emirates Global Aluminium has reported FY underlying profit of AED 4.93 billion, a jump of 16% y/y. The UAE producer says the bottom line was lifted by record sales, favorable aluminum prices and cost",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/ega-cfo-sourcing-bauxite-from-others-to-replace-guinea-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0b19aecf039ee4c75430aac636fadbc",
+      "timestamp": "2026-02-25T16:14:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Former Norway Premier Jagland Hospitalized Amid Epstein Scandal - Thorbjørn Jagland, the former prime minister of Norway who is under investigation for corruption over revelations in the Epstein files, has been hospitalized.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/norway-s-former-pm-jagland-hospitalized-amid-epstein-scandal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0c2faae09deede6efba621b5c581ca4a",
+      "timestamp": "2026-02-25T16:11:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Energy Bills Hit Almost Two-Year Low Amid Green Cost Shakeup - UK energy bills will drop to the lowest in almost two years in April, after the government moved part of the cost of supporting renewable energy from household bills to general taxation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/uk-energy-bills-hit-almost-two-year-low-amid-green-cost-shakeup",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8173f425680f403c6e7742c678f2ec26",
+      "timestamp": "2026-02-25T16:11:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Santander Vows €20 Billion in 2028 Profit After Webster Deal - Banco Santander SA vowed to grow net income to more than €20 billion ($23.6 billion) in 2028, ratcheting up its financial goals shortly after announcing the acquisition of US lender Webster Financial ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/santander-pledges-over-20-billion-in-profit-after-webster-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b1ba7a2ed0ca6cfeb6d9fa1377e358eb",
+      "timestamp": "2026-02-25T16:10:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SAP Users Question Value-for-Money of Firm’s AI Tools - SAP SE’s investors and partners are raising doubts about a suite of artificial intelligence products that Europe’s most valuable software company is relying on to reignite growth and stay ahead of bud",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/sap-users-question-value-for-money-of-firm-s-ai-tools",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "71913bce887f53adf9c70cc1e76cf969",
+      "timestamp": "2026-02-25T16:09:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German Rebound Driven by Domestic Demand as Trade Damps Growth - Spending by German consumers, businesses and the government sparked an economic recovery at the end of last year that’s expected to strengthen as the country invests heavily into infrastructure and de",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/german-rebound-driven-by-domestic-demand-as-trade-damps-growth",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "72455715aaa1074e46a590bae419da57",
+      "timestamp": "2026-02-25T16:07:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Diageo Cuts Outlook in Early Challenge for New CEO Lewis - Diageo Plc cut its guidance for the second time this fiscal year as the British distiller struggles to revive demand in the US and China, in an early challenge for new Chief Executive Officer Dave Lew",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "18bb5e5b0076229776dd051492aa73dd",
+      "timestamp": "2026-02-25T16:04:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Delivers Economy-Focused State of the Union Speech - President Donald Trump delivered a State of the Union address defending his administration and economic record, saying the US is “bigger, better, richer and stronger than ever before.” The high-profil",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/trump-delivers-economy-focused-state-of-the-union-speech-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0299936de2714ea06c716d7b026e1e28",
+      "timestamp": "2026-02-25T16:04:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AppliedAI CEO: UAE Will Play Outsized Role in AI - The AI disruption fears that have rattled markets for weeks, are receding slightly as tech shares in the US & Asia rallied.  The AI scare trade that's driven selloffs across multiple industries was sp",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/appliedai-ceo-uae-will-play-outsized-role-in-ai-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b9571d05fea8b8bf4fd03f36c24cce42",
+      "timestamp": "2026-02-25T16:03:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mexico Passes 40-Hour Workweek in Legislative Win for Sheinbaum - Mexican lawmakers unanimously approved a worker-friendly labor reform that will gradually reduce the workweek, notching a fresh victory for the ruling leftist coalition.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/mexico-passes-40-hour-workweek-in-legislative-win-for-sheinbaum",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e95a2b9e04ce745e4c24a3a58d522280",
+      "timestamp": "2026-02-25T16:01:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bank of Thailand Surprises With 4-2 Vote to Cut Key Rate - The Bank of Thailand unexpectedly lowered its key interest rate in a split decision, with policymakers acting to shore up the fragile recovery amid persistent domestic and external uncertainty. The ba",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/thailand-surprises-with-rate-cut-to-bolster-fragile-recovery",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "592910b192f83634dd0e9c5eb5e89bd6",
+      "timestamp": "2026-02-25T15:56:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What's Driving the Dollar Lower? - The dollar fell and US equity-index futures trimmed most of their earlier gains after President Donald Trump delivered his State of the Union address. Bloomberg's Mark Cranfield discusses what factors",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/what-s-driving-the-dollar-lower-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5609bd1437e933271523f9048e44b5fc",
+      "timestamp": "2026-02-25T15:51:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Insight with Haslinda Amin 02/25/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/insight-with-haslinda-amin-2-25-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6b1ea3fce9ba4a7fba866d163cb8deb4",
+      "timestamp": "2026-02-25T15:46:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Pledges New Retirement Savings Plan for Workers Without 401(k)s - Millions of private-sector workers without employer-sponsored retirement savings plans could gain access to  new tax-advantaged plans similar to one in place for federal workers, President Donald Trum",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/trump-pledges-new-retirement-savings-plan-for-workers-without-401-k-s",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0de65e1c9e70c8327510bd016e8daa97",
+      "timestamp": "2026-02-25T15:45:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FTSE 100 Hits Record as HSBC Gains on Earnings",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-02-25/ftse-100-live-trump-tariffs-pound-gilts-hsbc-diageo-what-s-moving-uk-markets-right-now-markets-today",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a7fb0e33842e02684939afd46c699e27",
+      "timestamp": "2026-02-25T15:38:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia Ships LNG 16,000 Miles to Canada as Asia Demand Slumps - Australia is shipping LNG much further than its main buyers in Asia as demand for the super-chilled fuel in the region falters.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/australia-ships-lng-16-000-miles-to-canada-as-asia-demand-slumps",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8ebe4577e3c95ad927df295938673131",
+      "timestamp": "2026-02-25T15:09:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Balance of Power: State of the Union 2/24/2026 - On this special edition of 'Balance of Power', Bloomberg's team of political correspondents discuss the leadup and aftermath of President Donald Trump's State of the Union address. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-25/balance-of-power-state-of-the-union-2-24-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "44a0d2013fa47f8497e8b26fe5817c62",
       "timestamp": "2026-02-25T15:00:23+09:00",
@@ -54,6 +384,17 @@
       "related_tickers": [],
       "content": "Shanghai Eases Homebuying Rules in Sign of China Property Relief - China’s financial hub of Shanghai eased homebuying rules, in the latest attempt by authorities to contain the nation’s prolonged property slump.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-25/shanghai-eases-homebuying-rules-in-sign-of-china-property-relief",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "48584dd3acf7aa0397142f09b15cbbee",
+      "timestamp": "2026-02-25T14:38:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Grindr, Blued Blocked in Malaysia as Anti-LGBTQ+ Push Widens - Malaysia has blocked access to LGBTQ+ networking and dating sites Grindr and Blued, with authorities reviewing legal measures to curb their apps in the Muslim-majority nation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-25/grindr-blued-blocked-in-malaysia-as-anti-lgbtq-push-widens",
       "sentiment": "NEUTRAL"
     },
     {
@@ -807,6 +1148,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "5640ec695b31f6c43d454531ea517d2f",
+      "timestamp": "2026-02-25T07:40:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s $112 Billion Cargo Gap Shows Record US Tariff Evasion - <p>Phantom importers, sky high tariffs and suspiciously cheap shipping offers are fueling a surge in trade fraud, leaving law-abiding American businesses to foot the bill.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-02-24/china-s-112-billion-cargo-gap-shows-record-us-tariff-evasion",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "8ce98b75e3fb639807ff9b69335fb89d",
       "timestamp": "2026-02-25T07:37:11+09:00",
       "source_type": "NEWS",
@@ -1037,6 +1389,17 @@
       "related_tickers": [],
       "content": "Citrini Founder Shocked His AI Prediction Spurred Stocks Selloff - The last thing James van Geelen expected to do on Monday was trigger a stock market meltdown. But that’s what he did.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-24/citrini-founder-shocked-his-ai-prediction-spurred-stocks-selloff",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "60ed8a6607c14072b0a78a935855cbc0",
+      "timestamp": "2026-02-25T06:25:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Workday Falls on Weak Outlook, Fueling Investors’ AI Concern - Workday Inc. shares dropped in late trading after the software company gave an outlook for quarterly subscription sales that fell just short of estimates, renewing investor anxiety about its ability t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/workday-gives-weak-outlook-fueling-investors-ai-skepticism",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1515,6 +1878,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "f7e4044b72c7fe9fdcd3cbeb16dbab89",
+      "timestamp": "2026-02-25T03:06:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Turkish Halkbank Sanctions Case Back on Agenda of US Court - The US criminal case against Turkish state lender Halk Bankasi AS is back on the agenda of a US court that abruptly canceled a hearing in the case last month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/turkish-halkbank-sanctions-case-back-on-agenda-of-us-court",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "536313b68b0c9087cc5bd6077dad923b",
       "timestamp": "2026-02-25T02:56:11+09:00",
       "source_type": "NEWS",
@@ -1833,382 +2207,6 @@
       "related_tickers": [],
       "content": "Trump to Make Economic Sales Pitch to Congress as Headwinds Grow - When President Donald Trump delivers his State of the Union address in the US Capitol, he will be doing so in front of a backdrop of a hobbled economic agenda, sinking approval ratings and fresh rebuk",
       "url": "https://www.bloomberg.com/news/articles/2026-02-24/trump-to-make-economic-sales-pitch-to-congress-as-headwinds-grow",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1fe5a9d75ca739c06941a3f1cda2cf91",
-      "timestamp": "2026-02-25T00:37:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Sachs Set to Move Into Credit Suisse’s Milan Office - Goldman Sachs Group Inc. is set to move into the landmark Milan office that was Credit Suisse Group AG’s headquarters in Italy, underscoring the US bank’s growing footprint in the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/goldman-sachs-set-to-move-into-credit-suisse-s-iconic-milan-hq",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "25ce4cbc5f7e97f193f19875694de012",
-      "timestamp": "2026-02-25T00:37:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Sudan Picks Ninth Finance Minister in Less Than Six Years - South Sudan’s President Salva Kiir appointed Salvatore Garang Mabiordit as finance minister, the ninth time he’s replaced the head of the oil-producing nation’s Treasury in less than six years.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/south-sudan-picks-ninth-finance-minister-in-less-than-six-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2073458379648828895805867d7b0f83",
-      "timestamp": "2026-02-25T00:33:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Consumer Confidence Ticks Up on Stronger Job Prospects - The Conference Board’s gauge of consumer confidence increased to 91.2, from an upwardly revised 89 last month, data out Tuesday showed. The median estimate in a Bloomberg survey of economists called f",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/consumer-confidence-ticks-up-on-stronger-job-prospects-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83cff2b5409cc0c74c0945bb368d66ca",
-      "timestamp": "2026-02-25T00:30:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Ambassador Strikes Softer Tone in South Africa Debut - America’s new ambassador to South Africa struck a conciliatory note in a video message to the country that contrasted sharply with the bellicose comments by President Donald Trump.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/trump-s-ambassador-strikes-softer-tone-in-south-africa-debut",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c8ec99bd3569e1ace8a3fc1044a7de9e",
-      "timestamp": "2026-02-25T00:30:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 49,425,228 0.49",
-      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153018180.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ec31d715030cb75a182ec29740cbe96d",
-      "timestamp": "2026-02-25T00:24:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "French Power Prices Drop to Lowest Since June as Solar Surges - French month-ahead power slid to the lowest since June as a surge in solar generation pushed down spot prices.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/french-power-prices-drop-to-lowest-since-june-as-solar-surges",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f3bc6ff8f76e53e7d2cdfb4d54cddb2e",
-      "timestamp": "2026-02-25T00:24:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed's Goolsbee on Inflation Risk, Tariffs and Powell - Federal Reserve Bank of Chicago President Austan Goolsbee says he is more concerned about inflation amid a \"steady\" job market. Speaking with Mike McKee on \"Bloomberg Open Interest,\" Goolsbee also com",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/fed-s-goolsbee-on-inflation-risk-tariffs-and-powell-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3ebcb1c20fb5e0b5181cca42808b3b65",
-      "timestamp": "2026-02-25T00:20:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lisa Cook Warns on Fed’s Ability to Counter AI-Driven Unemployment - Federal Reserve Governor Lisa Cook said the US central bank may not be able to counter rising unemployment driven by adoption of artificial intelligence. Cook warned, “our normal demand-side monetary ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/cook-warns-on-fed-countering-ai-driven-unemployment-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1bbaa5af18460bc99243e56278fc3f13",
-      "timestamp": "2026-02-25T00:17:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Colombia Slaps 30% Reciprocal Tariffs on Ecuador to Ramp Up Spat - Colombia slapped 30% reciprocal tariffs on more than 60 goods from Ecuador, escalating a trade dispute between the two neighboring countries.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/colombia-slaps-30-reciprocal-tariffs-on-ecuador-to-ramp-up-spat",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8c9c136060ab77d6b7ff693936870d9e",
-      "timestamp": "2026-02-25T00:13:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mandelson Scandal Causes Headache for Starmer - The fallout from the Peter Mandelson scandal continues to cause a headache for embattled Prime Minister Keir Starmer.\n\nLizzy Burden explains. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/mandelson-scandal-causes-headache-for-starmer-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e25e4d70839ab0af4f610b0fc484da98",
-      "timestamp": "2026-02-25T00:11:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NATO Said to Step Up Iran Surveillance as Tensions With US Mount - The focus of NATO’s air surveillance in Turkey has shifted from Russia to Iran as the risk of a US-led military campaign against Tehran mounts, people familiar with the matter said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/nato-said-to-step-up-iran-surveillance-as-tensions-with-us-mount",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be909c9bd971ccd0184dfe4f2a5e7f27",
-      "timestamp": "2026-02-25T00:08:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goolsbee Calls Powell a 'First Ballot Hall of Fame Fed Chair' - \"I'm a big supporter of his,\" Federal Reserve Bank of Chicago President Austan Goolsbee says when asked about Fed Chair Jerome Powell staying on the central bank's board during an interview with Mike ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/goolsbee-powell-a-first-ballot-hall-of-fame-fed-chair-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5308c7031677552b12b6cab29b117423",
-      "timestamp": "2026-02-25T00:07:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "MAGA Meets Europe: Trump’s Envoys Rip Up Diplomatic Playbook - At least Bill White, Donald Trump’s ambassador to Brussels, showed up when summoned by the foreign ministry over some undiplomatic interventions into Belgian politics.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/maga-meets-europe-trump-s-envoys-rip-up-diplomatic-playbook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5308c7031677552b12b6cab29b117423",
-      "timestamp": "2026-02-25T00:07:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "MAGA Meets Europe: Trump’s Envoys Rip Up Diplomatic Playbook - At least Bill White, Donald Trump’s ambassador to Brussels, showed up when summoned by the foreign ministry over some undiplomatic interventions into Belgian politics.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/maga-meets-europe-trump-s-envoys-rip-up-diplomatic-playbook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9ec50629dda1db1ae155f832c1e30ae7",
-      "timestamp": "2026-02-25T00:00:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Banks Show Gains in Key Metrics Despite Profit Dip, FDIC Says - US banks showed broad gains in key metrics during the fourth quarter despite a modest decline in overall profit, and the bedrock deposit insurance fund’s balance continued to tick higher, according th",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/us-banks-show-gains-in-key-metrics-despite-profit-dip-fdic-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7962167920a146c734ae248c2cb5255e",
-      "timestamp": "2026-02-25T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hyundai Pitches Hydrogen Transport Tied to Canada Submarine Bid - Hyundai Motor Co. has proposed building hydrogen fuel-cell infrastructure in Canada as part of South Korea’s bid for a contract to build a new submarine fleet, according to an executive at Hanwha Ocea",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/hyundai-pitches-hydrogen-transport-tied-to-canada-submarine-bid",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "976314fe615ac7c746680ec275c2a0fe",
-      "timestamp": "2026-02-24T23:50:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "S&amp;P 500 Rises as Traders Assess Fallout From AI-Fueled Slump - US stocks edged higher at the open on Tuesday as traders assessed the outlook for the artificial-intelligence “scare trade” that pummeled the market the prior session.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/s-p-500-rises-as-traders-assess-fallout-from-ai-fueled-slump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "93b319065a6672f238e05d3e41ce6a94",
-      "timestamp": "2026-02-24T23:50:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed's Goolsbee Says Job Market, Growth 'Pretty Steady' - Federal Reserve Bank of Chicago President Austan Goolsbee says he is a little more concerned about inflation right now because the job market appears \"pretty steady\" during an interview with Mike McKe",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/fed-s-goolsbee-says-job-market-growth-pretty-steady-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b6c8beb906164071ba67b85a13a4d15d",
-      "timestamp": "2026-02-24T23:49:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada Greenlights All Gulfstream Jets After Trump Threats - Canada’s aviation regulator certified the remaining Gulfstream private jet models that US President Donald Trump said the country had declined to approve, and warned of tariffs and other retaliatory m",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/canada-greenlights-all-gulfstream-jets-after-trump-threats",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ecf333819fd26082f7a4345dca1e4fd6",
-      "timestamp": "2026-02-24T23:45:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Natural Gas Falls in Thin Trading as Forecasts Shift Warmer - US natural gas futures declined in thin trading as weather forecasts shifted warmer, indicating lower demand for the heating and power-plant fuel.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/us-natural-gas-falls-in-thin-trading-as-forecasts-shift-warmer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e0d4d8dfc5a7c7cf6def3a892b5344e3",
-      "timestamp": "2026-02-24T23:38:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta to Commit Billions of Dollars on AMD Gear, Stock - Meta Platforms will buy AMD chips and computers designed to run artificial intelligence models over a five-year stretch, beginning in the second half of 2026. Ed Ludlow reports on Bloomberg Television",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-24/meta-to-commit-billions-of-dollars-on-amd-gear-stock-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c4dd85e48da53febd751737e40a97b17",
-      "timestamp": "2026-02-24T23:34:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU Trade Chief Presses for March Approval of US Deal - The European Union’s trade chief urged the bloc’s lawmakers to approve a trade deal with the US in March, as long as there is certainty by then on President Donald Trump’s new tariff plans.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/eu-trade-chief-presses-for-march-approval-of-us-trade-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "52af8f5c7d086b4a0762cab4d99e7e4a",
-      "timestamp": "2026-02-24T23:31:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Norway Trade Minister Signals Draft US Tariff Deal Remains Alive - Norway’s trade minister indicated the nation isn’t walking away from a draft tariff deal with the US, negotiated last summer, even as President Donald Trump’s policy moves add uncertainty.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/norway-trade-minister-signals-draft-us-tariff-deal-remains-alive",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d703f8e9a3319beac97b83d20d70f704",
-      "timestamp": "2026-02-24T23:30:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gunvor Names Top Team, Adds More Partners After Törnqvist Exit - Gunvor Group has established a new management board and expanded its employee ownership following the abrupt departure of billionaire cofounder Torbjörn Törnqvist last year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/gunvor-names-top-team-adds-more-partners-after-tornqvist-exit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b95f2186103e72b843afbd2f77f6e3f7",
-      "timestamp": "2026-02-24T23:30:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic Links AI Agent With Tools for Investment Banking, HR - Anthropic PBC is expanding the reach of its Claude chatbot into new sectors, weeks after the startup sparked a market meltdown with the release of tools that raised questions about AI’s potential to r",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/anthropic-links-ai-agent-with-tools-for-investment-banking-hr",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ddaf18774f98057130878c68dc22f69b",
-      "timestamp": "2026-02-24T23:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cook Says Fed May Not Be Able to Counter AI-Driven Job Loss - Federal Reserve Governor Lisa Cook warned the US central bank may not be able to counter rising unemployment driven by adoption of artificial intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/cook-says-fed-may-not-be-able-to-counter-ai-driven-unemployment",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7920ae1804eeaa151d9e3440dbbf76fd",
-      "timestamp": "2026-02-24T23:17:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU to Propose Russian Oil Ban Three Days After Hungary Election - The European Union will on April 15 unveil a proposal to ban the remaining imports of Russian oil, just three days after elections in Hungary, one of the last nations still reliant on the supplies, ac",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/eu-to-propose-russian-oil-ban-three-days-after-hungary-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7920ae1804eeaa151d9e3440dbbf76fd",
-      "timestamp": "2026-02-24T23:17:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU to Propose Russian Oil Ban Three Days After Hungary Election - The European Union will on April 15 unveil a proposal to ban the remaining imports of Russian oil, just three days after elections in Hungary, one of the last nations still reliant on the supplies, ac",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/eu-to-propose-russian-oil-ban-three-days-after-hungary-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0c309c391547d9a41ee61ca2398846e7",
-      "timestamp": "2026-02-24T23:15:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dutch Pension Shift Avoided a ‘Cliff Effect,’ Central Bank Says - The overhaul of the €1.6 trillion ($1.9 trillion) Dutch pension system and its huge shift in investment allocations is proceeding smoothly without causing substantial volatility in financial markets, ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/dutch-pension-shift-avoided-a-cliff-effect-central-bank-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1750ede5ce28cc317ca8e101fd70f423",
-      "timestamp": "2026-02-24T23:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sonos Plans Changes to Its App &mdash; The Right Way This Time - Sonos Inc. plans to simplify its iPhone and Android app in the coming months with an update that focuses on improved navigation and easier-to-use controls. But after a botched app release in 2024 near",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/sonos-plans-another-app-revamp-everything-we-should-have-done-the-first-time",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "51841f8e46fa3c734d703ccb7d657c78",
-      "timestamp": "2026-02-24T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Waymo to Debut in Biggest Texas Cities After New York Setback - Alphabet Inc.’s Waymo will start offering commercial robotaxi service in the three biggest cities in Texas, pushing ahead with its aggressive expansion plan after a recent setback in New York.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/waymo-to-debut-in-biggest-texas-cities-after-new-york-setback",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "426ea582f3ac760a2dd9b7590e357605",
-      "timestamp": "2026-02-24T22:56:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Harvard-Led Study Says AI Can Predict 71% of Active-Fund Trades - Day after day, Wall Street investors fret that artificial intelligence could disrupt white-collar industries by turning expert human judgment into code.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/harvard-led-study-says-ai-can-predict-71-of-active-fund-trades",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "426ea582f3ac760a2dd9b7590e357605",
-      "timestamp": "2026-02-24T22:56:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Harvard-Led Study Says AI Can Predict 71% of Active-Fund Trades - Day after day, Wall Street investors fret that artificial intelligence could disrupt white-collar industries by turning expert human judgment into code.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/harvard-led-study-says-ai-can-predict-71-of-active-fund-trades",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "36e7aba5f6c1bca342bfc1d2d4d79f73",
-      "timestamp": "2026-02-24T22:55:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘AI Bubble’ Becomes Credit’s Biggest Scare, BofA Survey Shows - An ‘AI bubble’ is the biggest concern of credit investors for the first time ever, according to a survey among Bank of America Corp.’s clients.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-24/-ai-bubble-becomes-credit-s-biggest-scare-bofa-survey-shows",
       "sentiment": "NEUTRAL"
     }
   ]
