@@ -1,6 +1,171 @@
 {
-  "last_updated": "2026-02-26T12:00:17.197515+09:00",
+  "last_updated": "2026-02-26T13:36:55.060821+09:00",
   "items": [
+    {
+      "id": "f32715ce00b83e36c1577c500001048d",
+      "timestamp": "2026-02-26T13:15:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBS Sees 20% Upside for China Stocks on Reflationary Potential - Chinese stocks may gain another 20% as rising inflation expectations translate into better earnings, according to UBS Securities Asia Ltd.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/ubs-sees-20-upside-for-china-stocks-on-reflationary-potential",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "482a186575801fee8ddee8ceda9bc587",
+      "timestamp": "2026-02-26T13:08:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Locked Doors Trapped Driver in Fatal Xiaomi Crash, Caixin Says - The door handles of a bestselling Xiaomi Corp. electric vehicle failed and trapped its driver in an inferno during a fatal 2025 crash, Caixin reported, a development likely to intensify pressure for C",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/locked-doors-trapped-driver-in-fatal-xiaomi-crash-caixin-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9bed1b84a7d49da5c9e43dca2aefe605",
+      "timestamp": "2026-02-26T12:56:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hong Kong’s Jimmy Lai Wins Rare Appeal Over 2022 Fraud Case - A Hong Kong court has overturned former media mogul Jimmy Lai’s conviction in a fraud case, in a rare win for the pro-democracy advocate serving a 20-year sentence for national security charges.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/hong-kong-s-jimmy-lai-wins-rare-appeal-over-fraud-conviction",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f0d4aaa48ce4c8d7f36d37751577175",
+      "timestamp": "2026-02-26T12:40:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yuan Extends Advance After PBOC Sets Another Stronger Fixing - The offshore yuan reached its strongest level in nearly three years versus the dollar after China signaled tolerance for a managed appreciation via the daily fix.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/yuan-extends-advance-after-pboc-sets-another-stronger-fixing",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "92fddb1297c156aa1c5eb32a45016d6b",
+      "timestamp": "2026-02-26T12:38:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Counterpoint's Einstein on Why Nvidia Needs to Diversify - Counterpoint's Research Director Marc Einstein explains why Nvidia needs to keep diversifying in order to convince investors about its prospects, despite the strong numbers in its latest forecast,. (S",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/counterpoint-s-einstein-on-why-nvidia-needs-to-diversify-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6258dc1cb48cc9b0db6085f4cf5719fb",
+      "timestamp": "2026-02-26T12:25:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Toyota Plans $19 Billion Share Sale as Soon as 2026: Reuters - Toyota Motor Corp. is planning to unwind about ¥3 trillion ($19 billion) of strategic shareholdings held by banks and other financial institutions, in a major boost to Japan’s corporate reform efforts",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/toyota-plans-19-billion-share-sale-reuters-reports",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc6bb87049f77fc894f958ae6026e51e",
+      "timestamp": "2026-02-26T12:13:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan's Chow on Navigating AI Disruption Fears - JPMorgan's Marcella Chow explains how market reactions to earning reports from tech firms such as Nvidia have been tempered by concerns over how AI disruption may affect the global economy, while dema",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/jpmorgan-s-chow-on-navigating-ai-disruption-fears-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ff94bd228a606e154dfe68e3690440d0",
+      "timestamp": "2026-02-26T12:11:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yen Outperforms G-10 Peers After Report Sustains Rate Hike Bets - The yen led gains among Group-of-10 currencies as a media report backed expectations that the Bank of Japan remains on a tightening path.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/yen-outperforms-g-10-peers-on-boj-member-takata-s-hawkish-speech",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "20568571ec366961cb4d40a43281824d",
+      "timestamp": "2026-02-26T12:11:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Copper Eases as Traders Await Return of China Industrial Demand - Copper fell as investors waited for demand from industrial users in top buyer China to rebound after the Lunar New Year break.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/copper-eases-as-traders-await-return-of-china-industrial-demand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "00829ca36657e139291926a6bb145cca",
+      "timestamp": "2026-02-26T12:08:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia Gets US License to Ship Some H200 Chips to China - Nvidia Corp. says it secured a license to ship a small number of its less advanced H200 chips to customers in China, inching forward in its bid to return to the world’s largest semiconductor market. B",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/nvidia-gets-us-license-to-ship-some-h200-chips-to-china-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6f8ad7fe954ab436aa512055347a190e",
+      "timestamp": "2026-02-26T12:02:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesia Raises $4.5 Billion to Defy Fiscal Health Concerns - Indonesia pulled off its biggest global bond sale since at least 2017, overcoming the threat of a credit rating downgrade and signaling easing investor concerns about fiscal woes in Southeast Asia’s l",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/indonesia-raises-4-5-billion-to-rebuff-credit-outlook-concerns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dafeb771e4b5a3f24ee2f32c04d03b1f",
+      "timestamp": "2026-02-26T12:01:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "World’s Biggest Money Managers Favor Emerging Markets, Citi Says - Emerging markets are shaping up to be one of this year’s standout trades.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/world-s-biggest-money-managers-favor-emerging-markets-citi-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3c26ac5750f870ed1b1b223c1b71abc9",
+      "timestamp": "2026-02-26T11:52:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Former US Air Force Major Accused of Training Chinese Pilots - A retired US Air Force major has been arrested over accusations that he trained Chinese military pilots, the Justice Department said on Wednesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/former-us-air-force-major-accused-of-training-chinese-pilots",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8d0a01fa7d92d0db4c17b2925af61695",
+      "timestamp": "2026-02-26T11:52:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Warner Bros. Says Paramount’s New Offer May Top Netflix - Warner Bros. Discovery Inc. said a new $31-a-share buyout offer from Paramount Skydance Corp. could lead to a better deal than its existing agreement with Netflix Inc., kicking off another potential r",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-says-paramount-s-new-offer-may-top-netflix-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b0b7c4ad2e65d76a1700b4e5a6e95890",
+      "timestamp": "2026-02-26T11:50:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian Banks Snap Up Bonds as Holdings Approach Regulatory Floor - Indian banks’ bond holdings have neared the regulatory minimum threshold, prompting some to speed up purchases, with the treasurer at the country’s second-largest state lender saying higher yields are",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/indian-banks-snap-up-bonds-as-holdings-approach-regulatory-floor",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c7f3429d1ca95d49ee0a88c2c82a88fc",
       "timestamp": "2026-02-26T11:47:26+09:00",
@@ -13,6 +178,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "8ff415c86ee61fd626e2e6fc5e471f35",
+      "timestamp": "2026-02-26T11:44:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asia’s Biggest Banks Line Up Bids for HSBC Indonesia Assets - Some of Asia’s biggest banks are working on bids for HSBC Holdings Plc’s retail assets in Indonesia, according to people familiar with the matter, helping them to forge ahead in Southeast Asia’s large",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/asia-s-biggest-banks-line-up-bids-for-hsbc-assets-in-indonesia",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "5ba0717857cde6f147ff94e5ab6fc7fb",
       "timestamp": "2026-02-26T11:36:51+09:00",
       "source_type": "NEWS",
@@ -21,6 +197,17 @@
       "related_tickers": [],
       "content": "Egypt Unlocks Around $2.3 Billion in IMF Funding After Reviews - Egypt unlocked about $2.3 billion in loans after clearing reviews of an International Monetary Fund program that was expanded in 2024, a boost for a country whose currency and bonds have felt jitters ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-26/egypt-unlocks-around-2-3-billion-in-imf-funding-after-reviews",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "900ec0b89b5fdb5deb03e6c18a889927",
+      "timestamp": "2026-02-26T11:33:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australian Capex Powered by Renewables, Backing RBA Stance - Australian business investment rose more than expected in the final three months of last year, buoyed by a surge in renewable energy projects and suggesting the economy was on a solid footing before t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/australian-capex-powered-by-renewables-backing-hawkish-rba-tilt",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2022,193 +2209,6 @@
       "related_tickers": [],
       "content": "Trump Touts Economic Policies at State of the Union | Bloomberg Brief 2/25/2026 - US equity futures rally as investors await quarterly results from Nvidia. President Trump delivers his State of the Union address hailing his economic policies. Anthropic loosens its safety policy to ",
       "url": "https://www.bloomberg.com/news/videos/2026-02-25/bloomberg-brief-2-25-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ecf835b0937969b727d687a7201722d4",
-      "timestamp": "2026-02-25T21:21:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Peru Goes on Alert as Heavy Rains May Signal Start of El Niño - Peru’s government has gone on alert as heavy and intense rainfall that’s hit the country’s coast in recent weeks shows no sign of letting up, potentially signaling the start of the El Niño weather phe",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/peru-goes-on-alert-as-heavy-rains-may-signal-start-of-el-nino",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "52ab9e9fb668504f72e14737de946598",
-      "timestamp": "2026-02-25T21:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Resurrection of Keystone XL Oil Pipeline Threatens to Reignite Controversy - Political winds have shifted again in favor of the failed project.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-25/resurrection-of-the-keystone-xl-oil-pipeline-threatens-to-reignite-controversy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5311ebc152a13e4476aaf18e05abb944",
-      "timestamp": "2026-02-25T21:12:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What the Options Market Is Signaling About US-Iran Tensions - “The options market is telling you right now that investors are very hedged for a more challenging outcome in Iran,” says Julian Emanuel, chief equity and quantitative strategist at Evercore ISI, as h",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/what-the-options-market-signals-about-us-iran-tensions-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5bf02473ed1302e3e82885a7bf4abb0f",
-      "timestamp": "2026-02-25T21:09:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Liontrust Sees ‘Not Enough Compute’ for Citrini Scenario - Clare Pleydell-Bouverie, Liontrust fund manager, discusses market concerns following a report by Citrini Research that described a hypothetical economic plunge in which mass white-collar layoffs creat",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-25/liontrust-sees-not-enough-compute-for-citrini-scenario-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "04a7e4a1ffc49a3569a45cf95a682137",
-      "timestamp": "2026-02-25T21:07:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa Annual Budget Highlights: Debt Peak, Tax Relief - South Africa’s National Treasury said public debt as a percentage of gross domestic product will peak this year, as it announced better-than-expected revenue collection and relief for taxpayers to sup",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/south-african-annual-budget-highlights-debt-peak-tax-relief",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "75e07aeeb3bd49412e379b6e758a1d09",
-      "timestamp": "2026-02-25T21:06:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Eskom to Distribute Power in Debt-Stricken South African Towns - Eskom Holdings SOC Ltd. will be allowed to take over the distribution of electricity in South African municipalities that collectively owed the state utility 85.2 billion rand ($5.4 billion) at the en",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/eskom-to-distribute-power-in-debt-stricken-south-african-towns",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f390986b6853c4c06b2fbc682062967",
-      "timestamp": "2026-02-25T21:06:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Winners and Losers in South Africa’s Annual Budget - South African Finance Minister Enoch Godongwana delivered his annual budget to lawmakers in Cape Town on Wednesday. The country’s macroeconomic position improved markedly from a year ago, with public ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/the-winners-and-losers-in-south-africa-s-annual-budget",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0f5aa70016e69cc64ecb119d9c46ee6f",
-      "timestamp": "2026-02-25T21:06:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa’s Budget Marks Turning Point With Debt Set to Peak - South Africa’s debt will peak this fiscal year after rising for nearly two decades, a turning point that creates space to support the economy through tax relief and infrastructure investment.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/south-africa-s-budget-marks-turning-point-with-debt-set-to-peak",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7654c9873862d19d11b840881b8c0426",
-      "timestamp": "2026-02-25T21:04:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Panic Is Opportunity for Stock Pickers, Morgan Stanley Says - Excessive selloffs across sectors triggered by fears of artificial intelligence disruption create opportunities for stock pickers, according to Morgan Stanley strategists.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/ai-panic-is-opportunity-for-stock-pickers-morgan-stanley-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22ae4604af0a24614db2e2a8eae36b23",
-      "timestamp": "2026-02-25T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Korean Memory Makers Pursue Next Breakthrough With HBF Idea - High-bandwidth flash has everyone in the home of memory chipmakers buzzing",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-25/korean-memory-makers-look-to-next-memory-breakthrough-with-hbf",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "036875c9e42a58e03cab6cc683fc98ca",
-      "timestamp": "2026-02-25T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Mortgage Rates Reach Lowest Since 2022, Boosting Refinancing - US mortgage rates slipped last week to the lowest level since 2022, generating more refinancing activity.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/us-mortgage-rates-reach-lowest-since-2022-boosting-refinancing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4fdcd9fd534ed75c0080cf39a5f550d1",
-      "timestamp": "2026-02-25T20:57:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macron Names New Louvre Boss Months After Jewel Heist - French President Emmanuel Macron named an art historian with extensive experience managing cultural institutions as the new head of the Louvre months after jewel thieves struck the Paris museum in a b",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/macron-names-new-louvre-boss-months-after-jewel-heist",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "434025465242f9602274eb6b1c3e6f58",
-      "timestamp": "2026-02-25T20:50:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Circle’s Shares Surge After Profit, Revenue Top Estimates - Circle Internet Group Inc.’s profit and revenue increased more than estimated while the amount of its USDC stablecoin in circulation jumped 72% to $75.3 billion in the fourth quarter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/circle-s-shares-surge-after-profit-revenue-top-estimates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "db1e7622d9ecd41d75e9d1af4d090cd7",
-      "timestamp": "2026-02-25T20:50:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "National Bank Beats Estimates as CWB Boosts Major Business Lines - National Bank of Canada beat analyst estimates in its fiscal first quarter after it reported stronger results across the board, boosted by the bank’s purchase of Canadian Western Bank.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/national-bank-beats-estimates-as-cwb-boosts-major-business-lines",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5d95e58bf9d45a1d2cd4607d8214eba1",
-      "timestamp": "2026-02-25T20:49:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thailand’s $4 Billion Rice Exports Seen Strained by Baht Rally - Thailand’s rice exports are set to drop to a five-year low as a surge in the local currency dents the country’s competitiveness, according to a trade group, threatening incomes in a sector that employ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/thailand-s-4-billion-rice-exports-seen-strained-by-baht-rally",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b40d0470cf8fdd53f8c0a5d417484ccf",
-      "timestamp": "2026-02-25T20:46:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cocoa Sales Resume in Ivory Coast After Regulator Drops Premium - Some traders have resumed buying cocoa from top grower Ivory Coast after the local regulator agreed to sell at par with global prices, a shift from a policy that led to a standoff with buyers and left",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/cocoa-sales-resume-in-ivory-coast-after-regulator-drops-premium",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "25c4023ccae056409d574cc34838d90e",
-      "timestamp": "2026-02-25T20:30:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Romania Taps Foreign Debt Market After Approving Budget Reforms - Romania is selling bonds on international markets for the first time this year to capitalize on improved sentiment after the government pushed through reforms needed to reduce the budget deficit.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-25/romania-taps-foreign-debt-market-after-approving-budget-reforms",
       "sentiment": "NEUTRAL"
     }
   ]
