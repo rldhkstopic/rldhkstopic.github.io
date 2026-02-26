@@ -1,6 +1,237 @@
 {
-  "last_updated": "2026-02-27T03:17:09.385542+09:00",
+  "last_updated": "2026-02-27T05:12:00.205892+09:00",
   "items": [
+    {
+      "id": "7f939a3f4db06c92ddab4a97924de515",
+      "timestamp": "2026-02-27T04:46:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "All the World Is Korea Now - There’s almost no precedent for the KOSPI surge",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-02-26/all-the-world-is-korea-now",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bc41bc03f60d58d5244aaba3b9395521",
+      "timestamp": "2026-02-27T04:37:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Hardens Its Ultimatum to Anthropic in Feud Over AI Use - The Pentagon escalated its ongoing dispute with Anthropic PBC on Thursday, making public a threat to effectively ban the artificial intelligence startup from the US military’s vast supply chain.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/pentagon-hardens-its-ultimatum-to-anthropic-in-feud-over-ai-use",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bc41bc03f60d58d5244aaba3b9395521",
+      "timestamp": "2026-02-27T04:37:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Hardens Its Ultimatum to Anthropic in Feud Over AI Use - The Pentagon escalated its ongoing dispute with Anthropic PBC on Thursday, making public a threat to effectively ban the artificial intelligence startup from the US military’s vast supply chain.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/pentagon-hardens-its-ultimatum-to-anthropic-in-feud-over-ai-use",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23c36a324d7966c65c892976e7610199",
+      "timestamp": "2026-02-27T04:36:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chime Attracts Digital-Savvy, Less Affluent Customers - Chime issued guidance that topped analyst expectations, driven by rising user growth and strong demand for its digital banking products. Chime CEO Chris Britt joins Caroline Hyde and Ed Ludlow on “Blo",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/chime-attracts-digital-savvy-less-affluent-customers-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "32ef975bbc68996dcf7aee5146538e07",
+      "timestamp": "2026-02-27T04:25:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Calpers Unfazed by Software Stress in Private Credit, CEO Says - The largest US public pension isn’t fazed about tremors in the private credit market driven by artificial intelligence’s potential threat to software, according to its chief executive officer, Marcie ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/calpers-unfazed-by-software-stress-in-private-credit-ceo-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "06b2d1dc17ec0292fd4008cc02e35c0f",
+      "timestamp": "2026-02-27T04:20:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Snowflake Earnings Ease AI Fears - Snowflake CEO Sridhar Ramaswamy called the current AI-driven moment ‘magical.’ Snowflake projected product revenue for the current quarter of around $1.26 billion. Ramaswamy discusses the company’s re",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/snowflake-earnings-ease-ai-fears-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "74e6dccd9d2c8244ad2549db6c221fda",
+      "timestamp": "2026-02-27T04:18:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "7 of 11 Major S&P 500 Groups Lower, 30-Year Mortgage Rate Below 6% | Bloomberg Markets  |  2/26/2026 - \"Bloomberg Markets\" follows the market moves across every global asset class and discusses the biggest issues for Wall Street. Today's guests: IonQ CEO Niccolo De Masi, CalPERS CEO Marcie Frost, and C",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/bloomberg-markets-2-26-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9e403932f7b203093d56f4c846427608",
+      "timestamp": "2026-02-27T04:16:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Paramount ‘Must Have’ Warner Bros.: Needham’s Martin - Paramount Skydance needs Warner Bros. Discovery to seriously compete against Google, Amazon, and Netflix, says Laura Martin, entertainment and internet analyst at Needham & Co. She joins Caroline Hyde",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/paramount-must-have-warner-bros-needham-s-martin-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6cd0d69daf9bf3f964187bdef602a5e0",
+      "timestamp": "2026-02-27T04:13:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Howard Marks Says Great Investors Are Strong Where AI Is Weakest - Artificial intelligence will probably push many investors out of the asset management business, the same way index funds have, because it is so adept at absorbing data and seeing patterns, according t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/howard-marks-says-great-investors-are-strong-where-ai-is-weakest",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6cd0d69daf9bf3f964187bdef602a5e0",
+      "timestamp": "2026-02-27T04:13:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Howard Marks Says Great Investors Are Strong Where AI Is Weakest - Artificial intelligence will probably push many investors out of the asset management business, the same way index funds have, because it is so adept at absorbing data and seeing patterns, according t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/howard-marks-says-great-investors-are-strong-where-ai-is-weakest",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "671fc9bf89df6907e530627a28c7daaf",
+      "timestamp": "2026-02-27T04:13:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "First Brands Executive Brumbergs Detailed Fraud in Guilty Plea - A former First Brands Group executive told a judge last month that he falsified financial statements, inflated invoices and double-pledged collateral to help the auto-parts supply firm get billions of",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/first-brands-executive-brumbergs-detailed-fraud-in-guilty-plea",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dfe4567244db5299f067ef66f1a6ec43",
+      "timestamp": "2026-02-27T04:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Smartphone Market Set to Shrink 13% Due to Memory Chip Crisis, IDC Says - The global smartphone market will contract 12.9% in 2026 because of the unprecedented memory chip shortage, marking “a crisis like no other,” according to researcher IDC.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/idc-sees-13-collapse-in-smartphone-market-due-to-memory-crisis",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dfe4567244db5299f067ef66f1a6ec43",
+      "timestamp": "2026-02-27T04:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Smartphone Market Set to Shrink 13% Due to Memory Chip Crisis, IDC Says - The global smartphone market will contract 12.9% in 2026 because of the unprecedented memory chip shortage, marking “a crisis like no other,” according to researcher IDC.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/idc-sees-13-collapse-in-smartphone-market-due-to-memory-crisis",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "682ca61ce7cc0163c4cd47bd97c11384",
+      "timestamp": "2026-02-27T03:57:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bold Supertanker Bet Keeps Growing With US Gulf Coast Locked Up - A shipowner’s once-in-a-generation wager on oil tankers has made it so powerful that it controls an overwhelming majority of supertankers that can collect American oil next month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/bold-supertanker-bet-keeps-growing-with-us-gulf-coast-locked-up",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d75efd2409eae3f7b6eee2c8e317986f",
+      "timestamp": "2026-02-27T03:46:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Barnes &amp; Noble Owner Elliott Is Said to Seek London IPO Pitches - Elliott Management Corp., the owner of Barnes &amp; Noble Inc. and Waterstones Booksellers Ltd., has invited investment banks to pitch for roles on an initial public offering of the book retailers, ac",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/barnes-noble-and-waterstones-owner-elliott-said-to-screen-banks-for-london-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bc63fdef006b5db1d1b1b3b999a1b06f",
+      "timestamp": "2026-02-27T03:44:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US, Iran to Hold Talks Next Week After Progress in Geneva - The US and Iran will continue nuclear talks next week after making “significant progress” in Switzerland, mediator Oman said, easing concerns about the potential for imminent military action by Washin",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/us-iran-to-hold-talks-at-technical-level-next-week-oman-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a7589d23ef47519a81340e8511b97b7d",
+      "timestamp": "2026-02-27T03:41:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Corporate Treasuries Are Slow to Adopt AI, Survey Finds - Treasury departments in global companies are struggling to adopt artificial intelligence tools, according to a Crisil Coalition Greenwich survey, underscoring how slowly the technology is penetrating ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/corporate-treasuries-are-slow-to-adopt-ai-survey-finds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "14fa084b429c55dd071b49cdf475b1fa",
+      "timestamp": "2026-02-27T03:29:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia Forecast Underwhelms | Open Interest 2/26/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" \nNvidia’s strong forecast still isn’t convincing investors the AI boom will pay off. Private credi",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/open-interest-2-26-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6709cebab899eb1fb7e60fef2dbf6960",
+      "timestamp": "2026-02-27T03:16:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NASA's SpaceX Dragon Spacecraft Departs From ISS - NASA’s SpaceX CRS-33 Dragon spacecraft undocked and successfully departed from the International Space Station and is scheduled to splash down off the coast of California on Friday morning. (Source: B",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/nasa-s-spacex-dragon-spacecraft-departs-from-iss-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "13a78cbebc692c266d4ffa07644cf38e",
+      "timestamp": "2026-02-27T03:10:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Commission Asks Anti-Fraud Watchdog to Probe Mandelson - The European Union’s anti-fraud office has been asked to “look into” the conduct of Peter Mandelson during his time as the bloc’s trade chief, after further details of the British politician’s links w",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/eu-commission-asks-anti-fraud-watchdog-to-probe-mandelson",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7401131ef04874198186a24d0bcfbd00",
+      "timestamp": "2026-02-27T03:09:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "First US Kamikaze Drone Unit Ready in Middle East - The Pentagon’s first kamikaze drone unit is ready to participate if President Donald Trump decides to launch strikes on Iran, according to US officials and analysts.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/pentagon-s-first-kamikaze-drone-unit-ready-for-any-iran-strikes",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d6ec34139349a2e2d9b3b02f0a9876a7",
       "timestamp": "2026-02-27T03:09:07+09:00",
@@ -21,6 +252,17 @@
       "related_tickers": [],
       "content": "Trump Aims to Steer Cuba Toward Greater Dependence on the US - The Trump administration’s move to ease fuel shipments to Cuba’s nascent private sector is part of a plan to make the island more reliant on the US for supplies, increasing Washington’s leverage to br",
       "url": "https://www.bloomberg.com/news/articles/2026-02-26/trump-aims-to-steer-cuba-toward-greater-dependence-on-the-us",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "77a71a4d351e36c2dbc1a4052a781ffb",
+      "timestamp": "2026-02-27T03:03:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Holds Talks With Oil and Gas Producers on Ending Windfall Tax - The UK Treasury is considering scrapping a windfall tax on North Sea oil and gas following persistent pushback from producers, according to a person familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/uk-holds-talks-with-oil-and-gas-producers-on-ending-windfall-tax",
       "sentiment": "NEUTRAL"
     },
     {
@@ -87,6 +329,28 @@
       "related_tickers": [],
       "content": "Warner Bros. Posts Lower Sales, Profit Amid Takeover Fight - Warner Bros. Discovery reported lower fourth-quarter sales and earnings, with fourth-quarter revenue declining 6% to $9.46 billion and adjusted earnings before interest, taxes depreciation and amortiz",
       "url": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-posts-lower-sales-amid-takeover-fight-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f17f21b32ab30f7a5d100a6c2fd741ca",
+      "timestamp": "2026-02-27T02:30:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bloomberg Surveillance 2/26/2026 - Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-26/bloomberg-surveillance-2-26-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "39590645e7e8ae17a5088c4275dd089f",
+      "timestamp": "2026-02-27T02:28:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Waltz Says UN Needs ‘Tough Love’ and Reforms to Get More US Cash - The Trump administration will pay more of the dues it owes to the United Nations as long as the world body keeps enacting reforms demanded by Washington, US Ambassador to the United Nations Mike Waltz",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/waltz-says-un-needs-tough-love-and-reforms-to-get-more-us-cash",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1676,6 +1940,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "6a2930c91c787881bacf560cf19e644d",
+      "timestamp": "2026-02-26T17:27:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Shares Steady as Nvidia Drop Sparks AI-Focused Rotation - European stocks traded little changed on Thursday as Nvidia Corp.’s uninspiring results prompted investors to sell high-flying chip machinery stocks and rotate into shares that have been battered by c",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/european-stocks-steady-on-mixed-earnings-lingering-ai-jitters",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "440bedfdb3391227d8ffca30d7369429",
       "timestamp": "2026-02-26T17:00:46+09:00",
       "source_type": "NEWS",
@@ -1926,281 +2201,6 @@
       "related_tickers": [],
       "content": "WPP Eyes £500 Million in Annual Savings in Restructuring Drive - WPP Plc is targeting £500 million ($678 million) in annual cost savings by 2028 as part of a sweeping restructuring that the embattled British advertising group hopes will help it to return to growth ",
       "url": "https://www.bloomberg.com/news/articles/2026-02-26/wpp-eyes-500-million-in-annual-savings-in-restructuring-drive",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ba4657ef0af854d0fcbc4d0ab09dbb7f",
-      "timestamp": "2026-02-26T16:03:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran-US Talks to Resume in Geneva - US and Iranian diplomats are in Geneva in an effort to avert renewed hostilities. If negotiations collapse, US President Donald Trump has signaled he’s prepared to escalate, backed by a large military",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/iran-us-talks-to-resume-in-geneva-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e4adedc93c793b10d6601047afb17e7b",
-      "timestamp": "2026-02-26T16:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Did Romania’s ‘King of TikTok’ Really Sway a Presidential Election? - <p>Authorities say a citizen spent almost a million dollars promoting a pro-Russia candidate by giving in-app gifts.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-26/tiktok-influencer-accused-of-swaying-romanian-presidential-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e4adedc93c793b10d6601047afb17e7b",
-      "timestamp": "2026-02-26T16:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Did Romania’s ‘King of TikTok’ Really Sway a Presidential Election? - <p>Authorities say a citizen spent almost a million dollars promoting a pro-Russia candidate by giving in-app gifts.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-26/tiktok-influencer-accused-of-swaying-romanian-presidential-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89fbdeb0944dd464baf76b729fad0cd7",
-      "timestamp": "2026-02-26T16:00:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dubai Aerospace to Buy Macquarie AirFinance for $7 Billion - Dubai Aerospace Enterprise agreed to buy Macquarie AirFinance Ltd. for an enterprise value of about $7 billion, expanding its fleet of aircraft to more than 1,000 units and extending consolidation in ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/dubai-aerospace-to-buy-macquarie-airfinance-for-7-billion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4dafd6e4d96ccdd6b250820f4ba27731",
-      "timestamp": "2026-02-26T15:54:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump's State Of The Union 'Avoided Issues' Says Tim O'Brien - Addressing one of his biggest audiences at perhaps the lowest moment of his second term, President Donald Trump returned again and again in his State of the Union speech to the same message on the eco",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/state-of-the-union-avoided-issues-says-tim-o-brien-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5b633c8969b7d395fa07884c88707f21",
-      "timestamp": "2026-02-26T15:50:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indonesia’s Land Crackdown Dents Genting Plantations’ Profits - Indonesia’s drive to fine resource companies over alleged misuse of lands cut into Genting Plantations Bhd.’s earnings in the latest quarter, with the Malaysian-listed planter forking over about $25 m",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/indonesia-s-land-crackdown-dents-genting-plantations-profits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e184dc98062577c2875c5edcf36a0cb0",
-      "timestamp": "2026-02-26T15:49:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FTSE 100 Holds Near Record as Rolls-Royce Surges",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-02-26/ftse-100-live-pound-trump-tariffs-lseg-wpp-what-s-moving-uk-markets-right-now-markets-today",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cfe988cadd55db4a898c05c598594485",
-      "timestamp": "2026-02-26T15:49:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sony Expands Buyback Plan Through May to $1.6 Billion - Sony Group Corp. is expanding its ongoing share buyback program to as much as ¥250 billion ($1.6 billion), more than double its previously announced ¥100 billion, as part of a push to increase capital",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/sony-expands-buyback-plan-through-may-to-1-6-billion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cfe988cadd55db4a898c05c598594485",
-      "timestamp": "2026-02-26T15:49:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sony Expands Buyback Plan Through May to $1.6 Billion - Sony Group Corp. is expanding its ongoing share buyback program to as much as ¥250 billion ($1.6 billion), more than double its previously announced ¥100 billion, as part of a push to increase capital",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/sony-expands-buyback-plan-through-may-to-1-6-billion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dbdd4f8f5c85633d37649fa09a3ab615",
-      "timestamp": "2026-02-26T15:40:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Yuan at 35-Month High as Dollar Weakens | The China Show 2/26/2026 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, David Ingles and Yvonne Man give global ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/the-china-show-2-26-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c64e75d04d27dff10dcdea8069733c99",
-      "timestamp": "2026-02-26T15:37:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Modi Meets Netanyahu to Strengthen Defense, Trade Ties - Indian Prime Minister Narendra Modi announced a strengthening of defense, trade and counter-terrorism ties with Israel during a rare visit &mdash; his first in nine years. Defense relations between th",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/modi-meets-netanyahu-to-strengthen-defense-trade-ties-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ccd2a2ade3a77e9857a31702868b41e9",
-      "timestamp": "2026-02-26T15:15:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jihadists Turn Coastal West Africa Borderlands Into Strongholds - The tri-border region of Nigeria, Benin and Niger is becoming a new stronghold for jihadists, as militants turn forests and pastoral networks in West Africa into bases for recruitment and internationa",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/nigeria-benin-niger-tri-border-area-becomes-jihadist-stronghold",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c4ede8b1e22fd92e45f658a942a024df",
-      "timestamp": "2026-02-26T15:14:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apple in Talks With Banks to Start Payment Service in India - Apple Inc. is in discussions with key Indian banks and global card networks in preparation to start Apple Pay in the world’s most populous country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/apple-in-talks-with-banks-to-start-payment-service-in-india",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3d8c9d15ee72657a82231acde7c2e7bb",
-      "timestamp": "2026-02-26T15:13:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Outlook for HK Property Market Optimistic, JLL Says - Alex Barnes, Greater China Co-CEO at JLL, expects Hong Kong residential prices to rise by around 5% in 2026, thanks to the financial hub’s economic recovery. He also discusses the outlook for the luxu",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/outlook-for-hk-property-market-optimistic-jll-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd2a82c70e203569abb8cee3138191e3",
-      "timestamp": "2026-02-26T15:08:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Thai Air Eyes 5% Revenue Growth as It Adds Jets, Expands in Asia - Thai Airways International Pcl expects revenue to grow 5% this year as it adds new aircraft and expands in key Asian markets, including India and China.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/thai-air-eyes-5-revenue-growth-as-it-adds-jets-expands-in-asia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "97f11f3d4bfa0077f57cee6402d04033",
-      "timestamp": "2026-02-26T15:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Deutsche Telekom Forecast Beats Estimates on German, US Growth - Deutsche Telekom AG forecast 2026 earnings that beat analysts’ estimates as Europe’s biggest phone carrier adds new customers in its home market and the US.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/deutsche-telekom-forecast-beats-estimates-on-german-us-growth",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3726f7ae48f1f05acc6f972a9dbf1f31",
-      "timestamp": "2026-02-26T14:51:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NSE Is Said to Invite Banks to Pitch for $2.5 Billion India IPO - National Stock Exchange of India Ltd. has issued a request for proposals to investment banks, inviting them to pitch for roles on its long-awaited initial public offering, according to people familiar",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/nse-is-said-to-invite-banks-to-pitch-for-2-5-billion-india-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4aeb652adf0daa083f172565c8bfaf58",
-      "timestamp": "2026-02-26T14:40:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Qantas Airways CEO on Future Plans and Record Earnings - Vanessa Hudson, Qantas Group CEO & Managing Director, speaks with Bloomberg's Haslinda Amin, saying she's \"proud\" of her company's performance as shares slide despite record earnings. (Source: Bloombe",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/qantas-airways-ceo-on-future-plans-and-record-earnings-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3ecf38d7659d431293d62b6f218b9549",
-      "timestamp": "2026-02-26T14:38:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Soy Complex Holds Near Highs as US Biofuel Decision Approaches - Soy futures &mdash; from beans to oil &mdash; traded near record highs ahead of the expected submission of biofuel blending quotas by the US Environmental Protection Agency.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/soy-complex-holds-near-highs-as-us-biofuel-decision-approaches",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "659061cffa51fd4403b5bb671cf59c54",
-      "timestamp": "2026-02-26T14:05:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s Births Fall for 10th Year Adding to Demographic Strain - Births in Japan fell for a 10th straight year in 2025 underscoring the demographic strain Japan faces as Prime Minister Sanae Takaichi pursues new measures to counter the decline.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/japan-s-births-fall-for-10th-year-adding-to-demographic-strain",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b75d766e0fc783c11b0fc5f066415257",
-      "timestamp": "2026-02-26T14:00:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Satellite Images Expose Trump’s Claim of ‘Easy’ Victory in Iran - <p>If it&nbsp;decides to attack, the US&nbsp;would face a complicated&nbsp;set of targets because of&nbsp;Iran’s rugged geography and its efforts to protect military assets.</p>",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-protects-nuclear-sites/",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0cbb3c489deec3c1774ddcdc2375c395",
-      "timestamp": "2026-02-26T13:41:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia Fails to Impress Investors With Forecast | The Asia Trade 2/26/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, get",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/the-asia-trade-2-26-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "abad65e27aca1452a81f4ace5e0a89ab",
-      "timestamp": "2026-02-26T13:20:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hong Kong Exchange’s Quarterly Profit Rises 15% on Trading Jump - Hong Kong’s stock exchange posted a 15% gain in net income as a flood Chinese firms sought to sell shares and trading jumped.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/hong-kong-exchange-s-quarterly-profit-rises-15-on-trading-jump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f32715ce00b83e36c1577c500001048d",
-      "timestamp": "2026-02-26T13:15:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UBS Sees 20% Upside for China Stocks on Reflationary Potential - Chinese stocks may gain another 20% as rising inflation expectations translate into better earnings, according to UBS Securities Asia Ltd.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/ubs-sees-20-upside-for-china-stocks-on-reflationary-potential",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "482a186575801fee8ddee8ceda9bc587",
-      "timestamp": "2026-02-26T13:08:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Locked Doors Trapped Driver in Fatal Xiaomi Crash, Caixin Says - The door handles of a bestselling Xiaomi Corp. electric vehicle failed and trapped its driver in an inferno during a fatal 2025 crash, Caixin reported, a development likely to intensify pressure for C",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/locked-doors-trapped-driver-in-fatal-xiaomi-crash-caixin-says",
       "sentiment": "NEUTRAL"
     }
   ]
