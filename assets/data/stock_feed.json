@@ -1,6 +1,362 @@
 {
-  "last_updated": "2026-02-27T23:16:18.307659+09:00",
+  "last_updated": "2026-02-28T01:11:57.974420+09:00",
   "items": [
+    {
+      "id": "89a08f8de87c7459de5dbc84e85cc6b9",
+      "timestamp": "2026-02-28T00:54:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Seeks Forfeiture of Seized Tanker Carrying Venezuelan Oil - The US government has filed a forfeiture complaint for a seized oil tanker holding 1.8 million barrels of crude, alleging the ship transported oil from Iran and Venezuela to rogue regimes.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/us-seeks-forfeiture-of-seized-tanker-carrying-venezuelan-oil",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e996c8c3da3bf16fe32843c608a193c6",
+      "timestamp": "2026-02-28T00:52:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pemex Annual Loss Reaches $2.6 Billion Despite State Support - Petroleos Mexicanos posted an annual loss of 45.2 billion pesos ($2.6 billion), stoking concerns that President Claudia Sheinbaum’s massive financial support package isn’t turning around the debt-burd",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/pemex-annual-loss-reaches-2-6-billion-despite-state-support",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0944022f1c9075d8be7fee42168f3881",
+      "timestamp": "2026-02-28T00:48:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NASA Shakes Up Its Artemis Mission to the Moon - NASA is shaking up its Artemis mission to the moon, cancelling a huge Boeing upgrade and moving up an Artemis III launch. This is NASA Administrator Jared Isaacman speaking to reporters.  (Source: Blo",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-27/nasa-shakes-up-its-artemis-mission-to-the-moon-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab7abd0bffd60715a2d147c0d4ca31ec",
+      "timestamp": "2026-02-28T00:47:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Credit Firm Invico Calls Investors to Manage Exodus Risk - Private credit manager Invico Capital Corp. has crafted a plan for one of its funds to deal with redemption requests from large investors, as firms face elevated withdrawal pressure across the broader",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/private-credit-firm-invico-calls-investors-to-manage-exodus-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cac57f28135d5b3dcab41492d362a80c",
+      "timestamp": "2026-02-28T00:45:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Sees Support From Other Tech Workers in Feud With Pentagon - Anthropic PBC got a vote of support from Silicon Valley workers for its increasingly contentious public-relations battle with the Pentagon over how the military can use artificial intelligence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/anthropic-s-feud-with-pentagon-mushrooms-into-broader-battle",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9747cafe1418c069b01f8ce0d1ea85a6",
+      "timestamp": "2026-02-28T00:41:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Monroe Capital CEO Concerned About 'Herd Mentality' in Private Credit - Monroe Capital Chair and CEO Ted Koenig discusses the state of the private credit market and expresses his concern about private assets in 401(k) plans on \"Bloomberg Open Interest.\" (Source: Bloomberg",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-27/monroe-ceo-worried-about-private-credit-herd-mentality-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a5bea7c1ee85ed698e706293ebeb6335",
+      "timestamp": "2026-02-28T00:36:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Swiss Bank MBaer Gets Shut Down Over Alleged Sanction Breach - Swiss authorities revoked the license of MBaer Merchant Bank AG over evidence it helped clients evade sanctions, saying it had been a risk to the country and its financial system.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/swiss-bank-mbaer-gets-shut-down-over-alleged-sanction-breaches",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ddbc64ac2fdafd72251a9062fcaec0d2",
+      "timestamp": "2026-02-28T00:35:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Where Will SoFi Technologies Be in 3 Years? - Even though shares are taking a hit, they have performed exceptionally well in recent years.",
+      "url": "https://www.fool.com/investing/2026/02/27/where-will-sofi-technologies-be-in-3-years/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c2d11759dcf71a4bdc5452683ae5ee9a",
+      "timestamp": "2026-02-28T00:30:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 7,989,630 0.1358",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017058.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1529d3ee181eb892681b1c5b47caa0bf",
+      "timestamp": "2026-02-28T00:25:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "New Pokemon Titles Wind and Waves Mark 30 Years for Nintendo’s Hit Franchise - One of the longest-running franchises in video gaming is once again hoping to catch them all.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/pokemon-wind-and-waves-games-will-arrive-for-switch-2-in-2027",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "72fe4325fd8fba26b61e814044aafa3b",
+      "timestamp": "2026-02-28T00:20:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Okapi's Goldfarb Weighs In on Warner Bros., Proxy Season - Okapi Partners CEO Bruce Goldfarb reacts to Netflix dropping out of the fight to buy Warner Bros. Discovery and Elliott Investment Management building a stake of more than 10% in Norwegian Cruise Line",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-27/okapi-s-goldfarb-weighs-in-on-warner-bros-proxy-season-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2a55d2336c2e20b2a5dc92e27cc4083d",
+      "timestamp": "2026-02-28T00:14:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Fears Set to Raise Cost of Private Loan for Insurance Broker - Private credit lenders to a German insurance broker are pushing for a higher margin on a €1.2 billion ($1.4 billion) loan due to fears of the risks AI poses to the sector.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/ai-fears-set-to-raise-cost-of-private-loan-for-insurance-broker",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fa3e8558bc5a15d398ef898f0764fce0",
+      "timestamp": "2026-02-28T00:14:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How The \"Power Game\" Is Reshaping Venezuela - The Big Take podcast: Listen as host David Gura and Caracas-based analyst Phil Gunson break down what's happened politically in Venezuela since US forces captured Nicolas Madura in January. (Source: B",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-27/how-the-power-game-is-reshaping-venezuela-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac966eed8a550017d47bf7e39d360f03",
+      "timestamp": "2026-02-28T00:14:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Faces Multi-Billion Pound Hit From Student Loans Overhaul - Proposals to cut repayments on student loans made by certain graduates could cost above £10 billion ($13.5 billion) as pressure mounts on the Labour government to stem an exodus of young voters to the",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/uk-faces-multi-billion-pound-hit-from-student-loans-overhaul",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "778dc2295038511ebfa5b2b24ffda14b",
+      "timestamp": "2026-02-28T00:08:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Billionaire Yandex Founder Volozh Renounces Russian Citizenship - Yandex founder Arkady Volozh has renounced his Russian citizenship nearly two years after he sold his interest in the country’s leading search engine to focus fully on developing his Dutch neocloud co",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/billionaire-yandex-founder-volozh-renounces-russian-citizenship",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "32fc0640c6ee5a431832ffd877f5fd64",
+      "timestamp": "2026-02-28T00:07:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela Nixed Sale of Halliburton’s Assets at US Request - Venezuela canceled an auction of assets seized from Halliburton Co. after the Trump administration intervened to stop the sale, as President Donald Trump seeks to smooth the return of US oil companies",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/venezuela-nixed-sale-of-halliburton-s-assets-at-us-request",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "32fc0640c6ee5a431832ffd877f5fd64",
+      "timestamp": "2026-02-28T00:07:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela Nixed Sale of Halliburton’s Assets at US Request - Venezuela canceled an auction of assets seized from Halliburton Co. after the Trump administration intervened to stop the sale, as President Donald Trump seeks to smooth the return of US oil companies",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/venezuela-nixed-sale-of-halliburton-s-assets-at-us-request",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6c3eb416ed2b6c32d78956a4980b0f0e",
+      "timestamp": "2026-02-28T00:07:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Labour Loss to Greens in Manchester Raises Pressure on Starmer - Prime Minister Keir Starmer is under pressure to shift to the left after his governing Labour Party was defeated by the Greens in Manchester. Lizzy Burden explains. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-27/labour-loss-to-greens-raises-pressure-on-starmer-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "196d12845d548724990bb6a758fc7c7e",
+      "timestamp": "2026-02-28T00:05:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Africa Offers Glencore Smelters Cheaper Power to Save Jobs - South Africa has offered Glencore Plc’s ferrochrome smelting venture and Samancor Chrome Ltd.’s operations cheaper electricity in a bid to save jobs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/south-africa-offers-glencore-smelters-cheaper-power-to-save-jobs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "55c2ce641a21365c0eaf41288b067007",
+      "timestamp": "2026-02-27T23:52:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Jilted Economist Ponders How He Came So Close to Power in Peru - Hernando de Soto was all set to finally have his turn in Peru’s government after a long career in economics and some failed presidential bids. Then something went wrong.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/hernando-de-soto-misses-chance-at-power-in-peru-as-balcazar-changes-mind",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8d55c7b133778c272c6f6eec315d6f64",
+      "timestamp": "2026-02-27T23:51:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "S&amp;P 500 Falls as Risk Off Prevails, Block Cuts Spur AI Anxiety - US stocks opened lower as risk-off sentiment swept through markets and fintech Block Inc.’s massive layoffs fanned angst that artificial-intelligence is poised to upend broad sections of the economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/s-p-500-falls-as-risk-off-prevails-block-cuts-spur-ai-anxiety",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2de5f507d80fa44a1b3a2b7e10567251",
+      "timestamp": "2026-02-27T23:50:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "MFS Creditors Warn of £930 Million Shortfall From Double Pledges - Some creditors of Market Financial Solutions Ltd., the failed UK mortgage firm backed by Wall Street lenders including Barclays Plc, warned there may be a £930 million ($1.3 billion) shortfall in coll",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/mfs-creditors-warn-of-930-million-shortfall-from-double-pledges",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "df5e45479c7b0d6ebe79e020cfd46bd2",
+      "timestamp": "2026-02-27T23:50:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s GDP Revisions Mean It Will Take Longer to Overtake Japan - Major revisions to India’s gross domestic product data Friday showed it will take longer than expected to surpass Japan as the world’s fourth-largest economy.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/india-s-gdp-revisions-mean-it-will-take-longer-to-overtake-japan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a02483aaa1796103c4c778f699cb067f",
+      "timestamp": "2026-02-27T23:41:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Sudan Risks Returning to ‘Full-Scale’ War, UN Says - South Sudan’s political and military leaders are dismantling a 2018 peace agreement, driving the country toward “full-scale war” and making elections this year increasingly unlikely.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/south-sudan-risks-returning-to-full-scale-war-un-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1916d64bcdd442e67166dc125a6ab294",
+      "timestamp": "2026-02-27T23:38:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why the AI ‘Scare Trade’ Keeps Spooking Markets - Over the past three years, investors have sought exposure to all things artificial intelligence, including high-flying tech stocks behind some of the leading AI technology. Recently, though, the marke",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/what-is-the-ai-scare-trade-why-it-s-spooking-the-stock-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "85808a6bb9399cbc2cc08b13826abe10",
+      "timestamp": "2026-02-27T23:32:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sell German Bunds After Best Start in Six Years, Barclays Says - It’s time to go short German government debt, according to strategists at Barclays.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/sell-german-bunds-after-best-start-in-six-years-barclays-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2a8f07f483323377f6791d37a7708883",
+      "timestamp": "2026-02-27T23:24:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zurich Said to Near Deal for Beazley Funded by Equity Sale - Zurich Insurance Group AG is nearing an agreement to acquire UK specialty insurer Beazley Plc and raise billions of dollars in equity to help fund the deal, according to people familiar with the matte",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/zurich-said-to-near-beazley-deal-funded-by-equity-sale-next-week",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a9d75c69de2e417101427ca2b1a942e3",
+      "timestamp": "2026-02-27T23:22:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Producer Prices Climb in January, Pushed Higher by Services - Prices paid to US producers rose in January by more than forecast as the producer price index increased 0.5%, the most since September. An underlying gauge that excludes food and energy advanced by th",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-27/us-producer-prices-climb-in-january-on-services-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5e0a0373940cf1ccc3bd06a4e7612976",
+      "timestamp": "2026-02-27T23:20:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Finalizes Funding Round at $730 Billion Valuation - OpenAI raised $110 billion in funding. Investors include Amazon, SoftBank and Nvidia. It's part of the ChatGPT maker's push to secure more computing power and talent for AI development. Mandeep Singh ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-27/openai-finalizes-funding-round-at-730-billion-valuation-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dda37bc16dc8c0fe571c53f547ad976e",
+      "timestamp": "2026-02-27T23:19:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic Escalates Pentagon AI Feud - Anthropic has rejected the Pentagon’s latest offer in a dispute over safeguards around the use of its AI technology by the US military. The company continues to insist on two specific restrictions: It",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-27/anthropic-escalates-pentagon-ai-feud-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e12cb7c6d6c40c6a604ebc5a9639eab0",
+      "timestamp": "2026-02-27T23:16:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock Private Debt Fund Slumps After Slashing Dividend - A BlackRock Inc. private debt fund sank after cutting its dividend, as declining rates and losses on soured loans pressured results.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/blackrock-private-debt-fund-slumps-after-slashing-dividend",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e3a418467392fd03a5b2776cf637ad54",
+      "timestamp": "2026-02-27T23:16:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Media In Talks to Spin Off Social Platform Truth Social - Trump Media &amp; Technology Group Corp., which last year announced a $6 billion merger with a nearly three-decade-old nuclear fusion company, said it is in talks to spin off its Truth Social unit int",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/trump-media-in-talks-to-spin-off-social-platform-truth-social",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d6ee0faaee627b20b7bc03ffbc6bfb46",
       "timestamp": "2026-02-27T23:05:54+09:00",
@@ -112,6 +468,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "e6abcadf6fdcd6591130388a5da2e962",
+      "timestamp": "2026-02-27T22:28:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pearson CEO Takes Aim at ‘Short-Term’ Investors Over AI Hit - Pearson Plc has been unfairly punished by short-term investors as the education publisher gets caught up in a broader artificial intelligence selloff, according to its chief executive officer.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/pearson-ceo-takes-aim-at-short-term-investors-after-ai-selloff",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "5d3888e00bf0d8cdc9f8808de0d93823",
       "timestamp": "2026-02-27T22:27:32+09:00",
       "source_type": "NEWS",
@@ -142,6 +509,17 @@
       "related_tickers": [],
       "content": "A $40 Billion Copper Boom in Argentina Hinges on Revamped Glacier Law - <p>Javier Milei’s push to unlock billions in mining investment requires easing strict protections that are being defended by environmental groups.</p>",
       "url": "https://www.bloomberg.com/news/features/2026-02-27/a-40-billion-copper-boom-in-argentina-hinges-on-revamped-glacier-law",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0abb817f01d8b79d2daabd8d97c4ce5a",
+      "timestamp": "2026-02-27T22:05:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Online Broker XTB Says Poland’s Crypto Gridlock Risks Expansion - Fast-growing trading platform XTB SA said its expansion plans are at risk from Poland’s political deadlock over regulating crypto assets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-27/online-broker-xtb-says-poland-s-crypto-gridlock-risks-expansion",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1827,382 +2205,6 @@
       "related_tickers": [],
       "content": "China Seeks to Slow Yuan Gains by Cutting Cost to Short Currency - China stepped up efforts to temper the yuan’s advance by removing the additional charge for betting against the currency in the derivatives market.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/china-seeks-to-slow-yuan-gains-by-cutting-cost-to-short-currency",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5349a51edeb3d6e47b46d7b48f14eb50",
-      "timestamp": "2026-02-27T09:21:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Backs Argentina in Discovery Fight in $18 Billion YPF Case - The US government urged a federal judge not to find Argentina in contempt for allegedly failing to turn over officials’ texts and emails to former YPF SA shareholders seeking to collect a $18 billion ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/us-backs-argentina-in-discovery-fight-in-18-billion-ypf-case",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f34f6c97b45281ffee6c670dbc8d6f61",
-      "timestamp": "2026-02-27T09:08:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apollo Private Credit Fund Marks Down Portfolio on Soured Loans - A private credit fund overseen by Apollo Global Management Inc. cut its dividend and marked down the value of its assets amid signs of strain in parts of its loan book.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/apollo-private-credit-fund-marks-down-portfolio-on-soured-loans",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "90f184b4159c2e1b4fbbb7d716ff9e54",
-      "timestamp": "2026-02-27T08:38:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Maduro Seeks to Toss US Charges Over Blocked Payments to Lawyer - Ousted Venezuelan leader Nicolás Maduro asked a federal judge to dismiss drug-trafficking charges against him, claiming the US government is blocking funds for his legal defense from the Venezuelan go",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/maduro-seeks-to-toss-us-charges-over-blocked-payments-to-lawyer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e433bca0346ee9f841ff695f2ba042c",
-      "timestamp": "2026-02-27T08:33:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Steadies as Traders Weigh Fresh US-Iran Nuclear Discussions - Oil steadied after the US and Iran agreed to more nuclear talks next week following a round of discussions on Thursday, as a huge deployment of American forces in the Middle East kept the market on ed",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/latest-oil-market-news-and-analysis-for-feb-26",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fdc3b788820595b8d94debba19526c3e",
-      "timestamp": "2026-02-27T08:32:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gold Little Changed as US and Iran Agree to Extend Nuclear Talks - Gold steadied after the US and Iran agreed to prolong nuclear talks, keeping markets on edge about the potential for conflict in the Middle East.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/gold-little-changed-as-us-and-iran-agree-to-extend-nuclear-talks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3a97be23e3e527c2e1f3743b84d1de40",
-      "timestamp": "2026-02-27T08:31:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hillary Clinton Says She Denied Ever Knowing Jeffrey Epstein - Former US Secretary of State Hillary Clinton says she repeatedly told congressional investigators that she never met Jeffrey Epstein or had any connection with him. The former first lady was deposed b",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/hillary-clinton-says-she-denied-ever-knowing-epstein-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cdb5131472a6b04f05014e2ac64e318c",
-      "timestamp": "2026-02-27T08:25:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Drop as Nvidia-Led Chip Selloff Weighs on Market | The Close 2/26/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Richard Bernstein Advisors",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/the-close-2-26-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cb2dd9e677a33725381dc7dc950e47b6",
-      "timestamp": "2026-02-27T08:22:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Drops Out of Fight to Buy Warner Bros. - Netflix has decided not to increase its bid for Warner Brothers Discovery, citing that the deal is no longer financially attractive despite previously considering it value-creating. This announcement ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/netflix-drops-out-of-fight-to-buy-warner-bros-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e989738ee47c22873681325219b25649",
-      "timestamp": "2026-02-27T08:18:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Would’ve Flagged Canada Mass Shooting Suspect Under New Rules - OpenAI Inc. told Canadian lawmakers it would have referred a banned ChatGPT user who later became the chief suspect in one of the country’s worst-ever mass shootings to police under newly updated poli",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/openai-would-ve-flagged-tumbler-ridge-suspect-to-police-under-new-rules",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "479bb0200fe822bd29eeb5207e28ca85",
-      "timestamp": "2026-02-27T08:10:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia Shares Slide After Forecast Underwhelms Investors - Nvidia, the dominant maker of artificial intelligence chips, suffered its worst stock decline in 10 months after the company’s latest forecast failed to dispel fears of an AI bubble. The shares fell 5",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/nvidia-shares-slide-after-forecast-underwhelms-investors-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "08a0d9d9f718562f4c8b65cc49543e6c",
-      "timestamp": "2026-02-27T08:08:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Warner Bros. Says Paramount’s $111 Billion Deal Tops Netflix - Warner Bros. Discovery said a new $111 billion offer from Paramount Skydance is a better deal for shareholders than the one it agreed to earlier with Netflix. Netflix will now have four business days ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-says-paramount-s-111b-deal-tops-netflix-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c71669f6fa98710946a1a806880be757",
-      "timestamp": "2026-02-27T08:01:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Two-Year Bond Sale in Focus as Investors Mull BOJ Outlook - Japan’s sale of two-year government bonds on Friday will reveal the appetite for the policy-sensitive debt as investors deliberate over the latest signals from the Bank of Japan.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/japan-two-year-bond-sale-in-focus-as-investors-mull-boj-outlook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1f21502392c1c5b0ed2c215b59dd1fbb",
-      "timestamp": "2026-02-27T08:00:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic Rejects Pentagon's Latest Offer - Anthropic said that new language proposed by the Pentagon as a compromise failed to satisfy the firm’s desire to preserve key safeguards that it has sought for any military use of its AI tools. Joe Ma",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/anthropic-rejects-pentagon-s-latest-offer-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d7d62f6b85dde5ade1c970201077b879",
-      "timestamp": "2026-02-27T08:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tanger CEO: Lululemon, Coach ‘Anchors' at Our Outlets - Stephen Yalof, President and CEO of Tanger, discusses what differentiates the online experience from in-store retail, saying customer service is the key advantage. He tells Romaine Bostick and Bailey ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/tanger-ceo-lululemon-coach-anchors-at-our-outlets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e9ba4cda5f08dc0c49cbb3e139584525",
-      "timestamp": "2026-02-27T08:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tencent-Backed Broker Aims to Expand in Japan’s Options Market - Moomoo Securities Japan Co., a digital brokerage, plans to expand its business in single-stock options for Japanese equities to capitalize on growing demand from the country’s retail investors.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/tencent-backed-broker-aims-to-expand-in-japan-s-options-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b9eb13012656c46c4ee410decbfafb5",
-      "timestamp": "2026-02-27T08:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Funds Return to India as Earnings Outlook Improves - Foreign investors are returning to Indian stocks at the fastest pace in eight months, supported by stabilizing corporate earnings and a US trade deal that improves the outlook for the months ahead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/global-funds-return-to-india-as-earnings-outlook-improves",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "46a6af069d602827c7ad2fccc9f5bbb9",
-      "timestamp": "2026-02-27T07:58:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Flexport Rolls Out AI Agents to Aid with Tariff Refunds - Ryan Petersen, Founder and CEO of Flexport, discusses the implications of tariffs for businesses and the potential for refunds. He tells Romaine Bostick and Bailey Lipschultz on “The Close” that the c",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/flexport-rolls-out-ai-agents-to-aid-with-tariff-refunds-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7a0b8d77e3d1325ce2ec05a4d5a74770",
-      "timestamp": "2026-02-27T07:57:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CoStar CEO On Their AI Strategy, State Of Housing Market - Andy Florance, CEO of CoStar Group, discusses the company’s new AI initiative in real estate, Home AI, a fully integrated native AI solution designed specifically for the sector, with Romaine Bostick ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/costar-ceo-on-their-ai-strategy-state-of-housing-market-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "826b37b7b3f9ffa9b8f8f9de93a1c619",
-      "timestamp": "2026-02-27T07:56:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic Spurns Latest Pentagon Bid to Defuse Feud Over AI Work - Anthropic PBC rejected the Pentagon’s latest offer to defuse a standoff over conditions the company has sought governing the use of its artificial intelligence software by the military, a confrontatio",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/anthropic-spurns-latest-pentagon-bid-to-defuse-feud-over-ai-work",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5323ff9826bdcb2cf82ddb0363f0bd46",
-      "timestamp": "2026-02-27T07:52:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Drops Warner Bros. Bid, Leaving Paramount the Winner - Netflix Inc. dropped out of the fight to buy Warner Bros. Discovery Inc., clearing the way for rival bidder Paramount Skydance Corp. to clinch its $111 billion deal for the historic Hollywood studio.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/netflix-drops-warner-bros-offer-leaving-paramount-the-winner",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4007580acec6e8067b447dd91de2ccf3",
-      "timestamp": "2026-02-27T07:46:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hillary Clinton Deposed by House Panel About Epstein - Former Secretary of State Hillary Clinton was deposed behind closed doors by the House Oversight Committee about her ties to disgraced financier Jeffrey Epstein. Her husband, former President Bill Cli",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/hillary-clinton-testifies-before-house-about-epstein-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3df8bc9ef10d68057f842b02905d413c",
-      "timestamp": "2026-02-27T07:46:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Federal Bank Regulator Moves to Restrict US Stablecoin Rewards - The Office of the Comptroller of the Currency proposed rules that would restrict companies from launching branded stablecoins through white-label platforms and offering rewards tied to them, the agenc",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/federal-bank-regulator-moves-to-restrict-us-stablecoin-rewards",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d254fca2ee4a30f33a6021adeef8c06",
-      "timestamp": "2026-02-27T07:45:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Democrats Demand Trump Follow Clintons on Epstein Testimony - House Democrats on Thursday demanded President Donald Trump follow the Clintons in testifying to congressional investigators on ties to disgraced financier Jeffrey Epstein. Secretary of State Hillary ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/democrats-want-trump-to-testify-about-epstein-ties-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "828330816e66536b56f17bb21ab44eb4",
-      "timestamp": "2026-02-27T07:31:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Asian Stocks to Ebb as Nvidia’s Drop Dulls Mood: Markets Wrap - Asian stocks looked set to pull back modestly from record levels after a lackluster day for Nvidia Corp. dulled Wall Street sentiment after its results. Treasuries rose and oil whipsawed.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/asian-stocks-to-ebb-as-nvidia-decline-dulls-mood-markets-wrap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dae0993abdb894b74828069bec1772b2",
-      "timestamp": "2026-02-27T07:24:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Stock Market Today, Feb. 26: Nu Holdings Drops After Investors React to Earnings - Investors are weighing record profits against fresh questions on costs, credit risk, and growth ambitions, today, Feb. 26, 2026.",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/02/26/stock-market-today-feb-26-nu-holdings-drops-after-investors-react-to-earnings/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4d660e85514798d2f0f45338a9bce135",
-      "timestamp": "2026-02-27T07:05:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jack Dorsey's Block Plans to Cut Nearly Half of Workforce in AI Bet - Jack Dorsey's Block aims to improve efficiency by reducing headcount and leveraging artificial intelligence tools. A key focus is on an internal AI tool called Goose, which the company plans to rely o",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/jack-dorsey-s-block-to-cut-nearly-half-of-workforce-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2c1f85737fd0c1ee6ec7a0c93d199187",
-      "timestamp": "2026-02-27T07:03:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What Trump’s Venezuela Plan Looks Like From Caracas - <p>On today’s Big Take podcast: Trump said the US would “run” Venezuela after capturing Nicolás Maduro in January. What’s actually happened since?</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/venezuela-after-maduro-from-international-crisis-group-s-caracas-analyst",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d12a2cb187a3b3e6768bd51644ef67a6",
-      "timestamp": "2026-02-27T07:00:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Trump's Tariffs Got a Reality Check - The Supreme Court’s decision blocking Donald Trump’s tariff strategy has thrown US trade policy into turmoil. As he scrambles for a new path, we look at what his trade war has accomplished. (Source: B",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/how-trump-s-tariffs-got-a-reality-check",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7ed563c53092ab8796cea91c3f487d58",
-      "timestamp": "2026-02-27T06:53:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Drone Maker Kratos Defense Seeks $1 Billion in Share Sale - Kratos Defense &amp; Security Solutions Inc. is seeking to raise $1 billion in a share sale, as government spending on defense ramps up.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/drone-maker-kratos-defense-seeks-1-billion-in-share-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f16f1de39a078bbc1344b85b7168a846",
-      "timestamp": "2026-02-27T06:52:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Warner Bros. Says Paramount Offer Is Superior to Netflix Proposal - Warner Brothers Discovery's board has officially recognized Paramount's acquisition proposal as a superior offer compared to Netflix's earlier deal. Lucas Shaw reports on \"Bloomberg The Close.\" (Sourc",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-says-paramount-offer-is-superior-proposal-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1721226b9586ea9af25b4509bb78b833",
-      "timestamp": "2026-02-27T06:43:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Coupang Posts Surprise Loss After Data Breach Fallout Deepens - Coupang Inc. reported a surprise loss in the fourth quarter, underscoring the strain facing the company following a massive data breach in South Korea, its main market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-26/coupang-posts-surprise-loss-after-data-breach-fallout-deepens",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d90103e03f8109a52ce5b49a8f339636",
-      "timestamp": "2026-02-27T06:43:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Slip as Nvidia Drops Despite Earnings Beat | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Bailey Lipschultz, Carol Massar and Tim Stenovec. (Source: Bl",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/stocks-slip-as-nvidia-drops-closing-bell-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bbffa4c59a0b5dcff45d260eef2473a9",
-      "timestamp": "2026-02-27T06:38:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia Forecast Fails to Relieve Concerns | Bloomberg Businessweek Daily 2/26/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss Hillary Clinton’s Jeffrey Epstein testimony to congressional investigators with Bloomberg News National Securi",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-26/bloomberg-businessweek-daily-2-26-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3548c6fd281cd35772599d0a0b935040",
-      "timestamp": "2026-02-27T06:31:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Looks to Leverage Cuba’s Energy Crisis to Gain Influence - The US is easing the way for American companies to sell fuel to private Cuban businesses.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-26/trump-looks-to-leverage-cuba-s-energy-crisis-to-gain-influence",
       "sentiment": "NEUTRAL"
     }
   ]
