@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-02-28T11:49:40.161324+09:00",
+  "last_updated": "2026-02-28T13:27:28.163123+09:00",
   "items": [
+    {
+      "id": "e63e6edf5d8aa47873ae1a13fdeec908",
+      "timestamp": "2026-02-28T12:59:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Fundraising Jumps as Refinancing and Bond Issuance Boom - China’s capital markets rebounded last year, fueled by a surge in equity refinancing and bond issuance, according to the National Bureau of Statistics.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/china-fundraising-jumps-as-refinancing-and-bond-issuance-boom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "836716f8b3752d52a1e4cf89dad762e0",
+      "timestamp": "2026-02-28T12:55:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CP Group to Sell 10% Stake in True Corp. With UBS as Main Buyer - Thai business conglomerate Charoen Pokphand Group plans to sell a 10% stake in its telecommunications affiliate True Corp., with most of the shares going to UBS Group AG.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/cp-group-to-sell-10-stake-in-true-corp-with-ubs-as-main-buyer",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e0d2ea9ad1200bf4cea2a31ace257a57",
+      "timestamp": "2026-02-28T12:12:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Reaches Agreement With Pentagon to Deploy AI Models - OpenAI said it has reached an agreement with the US Department of War to deploy its models in their classified network.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/openai-reaches-agreement-with-pentagon-to-deploy-ai-models",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fe72dfb6b4298093c5b89b154a771e76",
+      "timestamp": "2026-02-28T11:58:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bolivia Plane Carrying Bank Cash Crashes, Killing at Least 10 - A Bolivian military aircraft transporting cash for the central bank crashed near El Alto International Airport in the western part of the country, leaving more than 10 people dead and an unspecified n",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/bolivia-plane-carrying-bank-cash-crashes-killing-at-least-10",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "606809dfd4e81feccdae6c0b3d57deb2",
+      "timestamp": "2026-02-28T11:40:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Casts Cloud of Doubt Over Anthropic’s AI Business - Anthropic PBC started this year on a winning streak, with surging sales, multiple viral products and a large funding round all giving the startup a big advantage in the costly global AI race.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/pentagon-casts-cloud-of-doubt-over-anthropic-s-ai-business",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "606809dfd4e81feccdae6c0b3d57deb2",
+      "timestamp": "2026-02-28T11:40:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Casts Cloud of Doubt Over Anthropic’s AI Business - Anthropic PBC started this year on a winning streak, with surging sales, multiple viral products and a large funding round all giving the startup a big advantage in the costly global AI race.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/pentagon-casts-cloud-of-doubt-over-anthropic-s-ai-business",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "ccc3b98091f607be58751b0f22825d49",
       "timestamp": "2026-02-28T09:26:48+09:00",
@@ -2139,72 +2205,6 @@
       "related_tickers": [],
       "content": "Danish Premier Bets on $1 Billion Wealth Tax to Keep Her Job - <p>Almost half the voters back reinstating the tax but critics fear an exodus of the rich</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/denmark-s-premier-mette-frederiksen-bets-on-wealth-tax-to-stay-in-power",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa66995a42703b44fd474bbe7ec9741f",
-      "timestamp": "2026-02-27T17:48:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Bondholders Seek Improved Terms After GDP Warrant Swap - Some holders of Ukraine’s dollar bonds are exploring ways to win more favorable terms from the government, arguing that last year’s restructuring of GDP-linked securities undermined their position, ac",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/ukraine-bondholders-seek-improved-terms-after-gdp-warrant-swap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "272c3aab1dce872e3ab54d413d6a22c2",
-      "timestamp": "2026-02-27T17:46:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Drops Warner Bros. Fight, Paramount Wins Bid - Netflix has dropped out of the fight to buy Warner Bros., leaving Paramount the winner in the bidding war.\n\nThis clears the way for Paramount to clinch its $111 billion deal for the historic Hollywood",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/netflix-drops-warner-bros-fight-paramount-wins-bid-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f5a6ce5a9f798c61641afebcd296a072",
-      "timestamp": "2026-02-27T17:44:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Look Beyond AI to 'Textbook' Cyclical Recovery, HSBC Says - Max Kettner, chief multi-asset strategist at HSBC Global Investment Research, says investors are too focused on the artificial intelligence trade. \"We're probably missing that, under the hood, there i",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/hsbc-says-look-beyond-ai-to-textbook-cyclical-recovery-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "41469b6513acbb3738719f8b9cd81236",
-      "timestamp": "2026-02-27T17:37:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pound Hits Two-Month Low Versus Euro as UK Politics Spurs Hedges - The pound fell to its lowest level against the euro in more than two months and traders paid for protection against further losses after a special election in Manchester signaled trouble ahead for the",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/pound-hits-two-month-low-versus-euro-as-uk-politics-spurs-hedges",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "adda8bf7168c9a4544a08b3d1cdeee91",
-      "timestamp": "2026-02-27T17:37:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "New World Development Posts First-Half Loss as Woes Persist - New World Development Co. posted a loss in the first half as Hong Kong’s property downturn continued to weigh on the distressed developer.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/new-world-development-posts-first-half-loss-as-woes-persist",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3f7fe3210504318c717bfac44ac285b8",
-      "timestamp": "2026-02-27T17:32:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cape Town Mayor to Run for Leadership of Democratic Alliance - Cape Town Mayor Geordin Hill-Lewis said he’ll stand for election as leader of the Democratic Alliance, South Africa’s second-biggest political party, a contest he’s widely expected to win.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/cape-town-mayor-to-run-for-leadership-of-democratic-alliance",
       "sentiment": "NEUTRAL"
     }
   ]
