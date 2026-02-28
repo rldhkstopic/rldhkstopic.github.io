@@ -1,6 +1,85 @@
 {
-  "last_updated": "2026-03-01T01:06:09.722370+09:00",
+  "last_updated": "2026-03-01T03:06:59.533060+09:00",
   "items": [
+    {
+      "id": "ce1adaebe3adbba3c9278950e3bfe69b",
+      "timestamp": "2026-03-01T02:48:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What It Takes for Regime Change in Iran: John Bolton - Former National Security Advisor John Bolton discusses regime change in Iran. John Bolton joined David Gura and Christina Ruffini on “This Weekend.” (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/what-it-takes-for-regime-change-in-iran-john-bolton-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c45449fd845fb91c0990170c5a929626",
+      "timestamp": "2026-03-01T02:46:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Missile Strikes Dubai Hotel After Us-Israeli Attack on Iran - From Kuwait to Saudi Arabia and the United Arab Emirates, all countries hosting US military assets reported Iranian missile attacks on their territories.\n\nResidents in Dubai, an emerging global financ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/missile-strikes-dubai-hotel-after-us-israeli-attack-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "67f892c46f17cd6281d4bc43d2b58e19",
+      "timestamp": "2026-03-01T02:29:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iranian Missile Attacks Set to Strain US Interceptor Stockpiles - The ability of the US, Israel and Gulf Arab states to weather Iran’s retaliatory strikes will depend on how many missile interceptors they have &mdash; and stocks are most likely dangerously low after",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/iranian-missile-attacks-set-to-strain-us-interceptor-stockpiles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c747833e707688d6921a66b490ddeb80",
+      "timestamp": "2026-03-01T02:20:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Jim Cramer Recommends Affirm and SoFi Over Klarna - Klarna Group plc (NYSE:KLAR) is one of the stocks Jim Cramer Recently Discussed. A caller inquired about the stock, and here’s what Cramer had to say: Yeah… Klarna was just kind of not great, you know",
+      "url": "https://finance.yahoo.com/news/jim-cramer-recommends-affirm-sofi-172053035.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "85471d0e631e65847df657dbf84f283a",
+      "timestamp": "2026-03-01T02:05:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK’s Starmer Urges Return to Diplomatic Process for US, Iran - UK Prime Minister Keir Starmer comments following US and Israeli strikes on Iran. Starmer extended the UK’s support and solidarity to its allies in the region and urged Tehran to avoid further escalat",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/uk-s-starmer-urges-return-to-diplomacy-for-us-iran-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2fcacabfeb6d8a0cec91b3318ac27bf3",
+      "timestamp": "2026-03-01T01:51:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US, Israel Start Attacks on Iran in War That’s Engulfing Region - The US and Israel launched strikes against targets across Iran, with President Donald Trump urging Iranians to overthrow the government in a conflict that’s already spiraling across the oil-rich Middl",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/us-israel-start-attacks-on-iran-in-war-that-s-engulfing-region",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4369fdce854626e45d8face2f23f9692",
+      "timestamp": "2026-03-01T01:21:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Key Things to Know About the US-Israel Conflict With Tehran - The US and Israel launched coordinated, massive missile attacks on Iran, vowing to destroy the country’s military and prevent it from developing a nuclear weapon. Reaction was swift, but the geopoliti",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/iran-strikes-key-things-to-know-about-the-us-israel-conflict-with-tehran",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "1f62567810613d6c43a85d2294437387",
       "timestamp": "2026-03-01T00:36:49+09:00",
@@ -2128,83 +2207,6 @@
       "related_tickers": [],
       "content": "US Envoy Warns Czechs on Possible NATO Spending Gap, Denik N Reports - The US ambassador to Prague warned Prime Minister Andrej Babis that the Czech Republic may fail to meet its defense spending commitments to NATO, according to a local media report.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/us-envoy-warns-czechs-on-possible-nato-spending-gap-denik-n-reports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ad4209452ab64f05ae03423a1b7ecd81",
-      "timestamp": "2026-02-27T23:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How<em> Businessweek</em> Analyzed Slots Gameplay by Stake’s Star Influencers - <p>The investigation found that top streamers paid by the crypto casino won big more often than others.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-27/how-businessweek-analyzed-crypto-casino-stake-s-slots-gameplay",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b548108d5550e14a6951ec62778ff066",
-      "timestamp": "2026-02-27T22:51:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pentagon Open to Continue Anthropic AI Talks Before Deadline - US Under Secretary of Defense for Research and Engineering Emil Michael says the Pentagon is open to more talks with Anthropic PBC ahead of a 5 pm ET deadline to loosen restrictions on the use of its ",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/pentagon-open-to-continue-anthropic-talks-through-today-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7488f61c7dd3c98ddc53c0ecca110e1f",
-      "timestamp": "2026-02-27T22:51:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Barclays Considers Blockchain Platform for Payments, Deposits - Barclays Plc is sounding out technology providers on creating a blockchain platform for handling processes like payments, joining global rivals like JPMorgan Chase &amp; Co. in exploring the use of di",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/barclays-considers-blockchain-platform-for-payments-deposits",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8fd682f54eb7a6e1b5681589f344e9f8",
-      "timestamp": "2026-02-27T22:44:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pentagon Open to Talks With Anthropic Ahead of Friday Deadline - The Pentagon is open to more talks with Anthropic PBC ahead of a 5 pm Friday deadline to loosen restrictions on the use of its artificial intelligence technology, a senior Defense Department official ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/pentagon-open-to-ai-talks-with-anthropic-before-friday-deadline",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dcc775b13555fffba3da9bb0bfcdbf98",
-      "timestamp": "2026-02-27T22:41:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meloni Calls Trump’s Tariffs a Mistake, Seeks Free-Trade Zone - Italy’s Prime Minister Giorgia Meloni would like the European Union to form a free-trade zone with the US in order to get past the transatlantic tariff fight.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/meloni-calls-trump-s-tariffs-a-mistake-seeks-free-trade-zone",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0a9027c50e164801b6f99e6d9fe25720",
-      "timestamp": "2026-02-27T22:34:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Finalizes $110 Billion Funding at $730 Billion Value - OpenAI has raised $110 billion in a deal that values the startup at $730 billion, representing the ChatGPT maker’s largest funding round to date and bolstering its costly push to secure more computing",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/openai-finalizes-110-billion-funding-at-730-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "48fc210d774d211104aa56264ed8b42f",
-      "timestamp": "2026-02-27T22:28:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Math Behind Drake’s Lucky Spins - Videos of influencers hitting it big on Stake.com are all over the internet. But at least some of those wins are statistically unlikely, a Bloomberg analysis showed. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/the-math-behind-drake-s-lucky-spins-video",
       "sentiment": "NEUTRAL"
     }
   ]
