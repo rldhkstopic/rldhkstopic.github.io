@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-02-28T09:21:14.270357+09:00",
+  "last_updated": "2026-02-28T11:49:40.161324+09:00",
   "items": [
+    {
+      "id": "ccc3b98091f607be58751b0f22825d49",
+      "timestamp": "2026-02-28T09:26:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks Slide as Credit Stress, War and AI Fears Weigh | The Close 2/27/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Robinhood Markets’ Stephan",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/the-close-2-27-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e7fc91c4b87fc798b4cea6a0af13fed0",
+      "timestamp": "2026-02-28T09:15:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ex-Moelis Banker to Plead Guilty in Global Insider Trading Case - A former Moelis &amp; Co. investment banker plans to return to the US from France to plead guilty to tipping off members of a global insider-trading ring.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/ex-moelis-banker-to-plead-guilty-in-global-insider-trading-case",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "599117905f50a4cdf865a6bbc81ba42e",
+      "timestamp": "2026-02-28T09:11:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Week | Trump’s Economy, Mistakes Made & Lessons Learned, Sweden’s Modular Homes - This week, President Trump says the economy is roaring, but Harvard’s Jason Furman says the economy is performing at a more slow and steady rate. And, former Sony executive Michael Lynton revisits the",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/wall-street-week-mistakes-made-sweden-s-modular-homes-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "1f3e81a0637148e32c13e2a6e60ebb13",
       "timestamp": "2026-02-28T09:04:08+09:00",
@@ -2172,39 +2205,6 @@
       "related_tickers": [],
       "content": "Cape Town Mayor to Run for Leadership of Democratic Alliance - Cape Town Mayor Geordin Hill-Lewis said he’ll stand for election as leader of the Democratic Alliance, South Africa’s second-biggest political party, a contest he’s widely expected to win.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/cape-town-mayor-to-run-for-leadership-of-democratic-alliance",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f76e3280f06f83c2913397b369db78b3",
-      "timestamp": "2026-02-27T17:32:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nigeria’s Electoral Body Shifts 2027 National Elections Earlier - Nigeria will hold next year’s presidential and National Assembly elections a month earlier than planned, after the electoral commission revised the polling schedule.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/nigeria-s-electoral-body-shifts-2027-national-elections-earlier",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5dd6b0c22070c0bc722da51f6e214d93",
-      "timestamp": "2026-02-27T17:24:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "European Stocks Eye Longest Monthly Winning Streak Since 2013 - European shares rose in February’s final trading session as they headed for the longest monthly winning streak since 2013, with the region increasingly popular as investors seek alternatives to the US",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/european-stocks-eye-longest-monthly-winning-streak-since-2013",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4c51f7c7c442d3f6fc873e52c99dce48",
-      "timestamp": "2026-02-27T17:23:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rightmove CEO Sees AI Opportunities, Says Peers Will Survive - Rightmove Plc and its property portal peers will survive the artificial intelligence wave, with the technology presenting more of an opportunity than a threat for the sector, according to Chief Execut",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/rightmove-ceo-sees-ai-opportunities-says-peers-will-survive",
       "sentiment": "NEUTRAL"
     }
   ]
