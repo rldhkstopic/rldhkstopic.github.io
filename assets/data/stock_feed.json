@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-02-28T13:27:28.163123+09:00",
+  "last_updated": "2026-02-28T15:09:36.910000+09:00",
   "items": [
+    {
+      "id": "aba8dcc7b2c73ea75d09f8b956de4d8e",
+      "timestamp": "2026-02-28T15:07:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Africa's Critical Mineral Moment | Bloomberg Next Africa (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/africa-s-critical-mineral-moment-bloomberg-next-africa-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "074079da33a377cb04e6906853e9c0c8",
+      "timestamp": "2026-02-28T14:58:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Deutscher Rüstungsboom - Die Aufrüstung der Bundeswehr beflügelt die deutsche Wirtschaft mehr als viele erwartet hatten. Die Investitionen könnten möglicherweise sogar wichtiger sein als das Infrastrukturpaket. (Source: Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/deutscher-rustungsboom-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b5a58b0169281a845eec273cd61e7c5f",
+      "timestamp": "2026-02-28T14:16:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lithium Producer SQM Sees Global Demand Growing 25% This Year - Top lithium producer SQM said it sees world demand for the battery metal growing about 25% this year, after reporting record quarterly sales volume as the industry emerges from a global glut.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/lithium-producer-sqm-sees-global-demand-growing-25-this-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cab459748eaa1feee9f5695992613bba",
+      "timestamp": "2026-02-28T14:13:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Malaysia’s Largest Pension Fund Sets 6.15% Dividend for 2025 - Malaysia’s largest pension fund declared a 6.15% dividend for both its conventional and Shariah savings accounts for 2025, a year where unpredictable trade policies whipsawed markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/malaysia-s-largest-pension-fund-sets-6-15-dividend-for-2025",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f6f29c9d5496e7ed4721fa268699d266",
+      "timestamp": "2026-02-28T13:53:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan, Afghanistan Threaten War in Region Eyed by Superpowers - Pakistan and Afghanistan edged closer to all-out war this week, escalating tensions in a region where the world’s economic superpowers are vying for influence.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/pakistan-afghanistan-threaten-war-in-region-eyed-by-superpowers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "74be94c4ea29e27fc001220d39c3cc1d",
+      "timestamp": "2026-02-28T13:14:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Gives Pentagon AI Model Access After Anthropic Dustup - OpenAI has agreed to deploy its own artificial intelligence models within the Defense Department’s classified network after rival Anthropic PBC saw its relationship with the Pentagon implode over surv",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/openai-gives-pentagon-access-to-models-after-anthropic-dustup",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e63e6edf5d8aa47873ae1a13fdeec908",
       "timestamp": "2026-02-28T12:59:37+09:00",
@@ -2139,72 +2205,6 @@
       "related_tickers": [],
       "content": "Middle East Airlines in Talks for Airbus Jets as Travel Recovers - Lebanon’s national airline is in talks to expand its fleet of Airbus SE jets to capitalize on increased demand and to build out its new low-cost subsidiary.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/middle-east-airlines-in-talks-for-airbus-jets-as-travel-recovers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22008c9c26a1802e8d79c534fb130dc5",
-      "timestamp": "2026-02-27T18:15:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Revs Up Support for Offshore Yuan Funding With New Rules - China’s central bank announced a new set of rules to facilitate cross-border yuan funding between local and foreign financial institutions, paving the way to boost the currency’s usage abroad.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/china-revs-up-support-for-offshore-yuan-funding-with-new-rules",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e2609df63130b4d1a93557e30d350ff2",
-      "timestamp": "2026-02-27T18:05:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine to Boost Patriot Missile Production, Defense Chief Says - The Ukrainian military wants to accelerate the production of anti-ballistic missiles for Patriot air-defense systems to help protect against Russian attacks, according to Defense Minister Mykhailo Fed",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/ukraine-to-boost-patriot-missile-production-defense-chief-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0b3299572d16fea2afb4fedd4153f6c1",
-      "timestamp": "2026-02-27T18:00:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Scramble Is On for Businesses to Get Their Tariff Refund Checks - <p>Time to file your claims.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/will-anyone-get-refunds-for-trump-s-illegal-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed82885d8aa6cbcaf3a24fa3d59060c1",
-      "timestamp": "2026-02-27T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Odd Lots: The Scramble Is On for Tariff Refund Checks (Podcast) - Earlier this month, the Supreme Court ruled that Trump’s “Liberation Day” tariffs were illegal. And now basically every importer who paid those tariffs will be rushing to get their refunds. But will b",
-      "url": "https://www.bloomberg.com/news/audio/2026-02-27/the-scramble-for-trump-tariff-refund-checks-podcast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed82885d8aa6cbcaf3a24fa3d59060c1",
-      "timestamp": "2026-02-27T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Odd Lots: The Scramble Is On for Tariff Refund Checks (Podcast) - Earlier this month, the Supreme Court ruled that Trump’s “Liberation Day” tariffs were illegal. And now basically every importer who paid those tariffs will be rushing to get their refunds. But will b",
-      "url": "https://www.bloomberg.com/news/audio/2026-02-27/the-scramble-for-trump-tariff-refund-checks-podcast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6206c43f99e9f39e8a279bd3368eaa31",
-      "timestamp": "2026-02-27T17:55:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Danish Premier Bets on $1 Billion Wealth Tax to Keep Her Job - <p>Almost half the voters back reinstating the tax but critics fear an exodus of the rich</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/denmark-s-premier-mette-frederiksen-bets-on-wealth-tax-to-stay-in-power",
       "sentiment": "NEUTRAL"
     }
   ]
