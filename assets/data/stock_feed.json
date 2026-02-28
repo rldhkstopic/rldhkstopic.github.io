@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-02-28T23:05:18.059839+09:00",
+  "last_updated": "2026-03-01T01:06:09.722370+09:00",
   "items": [
+    {
+      "id": "1f62567810613d6c43a85d2294437387",
+      "timestamp": "2026-03-01T00:36:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Attack Is 'Nightmare Scenario' For Gulf Countries - The US and Israel struck targets across Iran, with President Donald Trump urging Iranians to overthrow the government in a conflict that is already spiraling across the oil-rich Middle East.\nMona Yaco",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/iran-attack-is-nightmare-scenario-for-gulf-countries-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "be9dba492552870681b74f55ef9ad992",
+      "timestamp": "2026-03-01T00:36:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UAE, Saudi Leaders Break Ice to Discuss Iran Missile Attacks - Leaders of the United Arab Emirates and Saudi Arabia spoke by phone in the wake of Iran’s retaliatory attacks on US bases in the Gulf, as security concerns outweighed a feud between the two regional p",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/uae-saudi-leaders-break-ice-to-discuss-iran-missile-attacks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "51be4e752d4d101f7c2971b9bfbd739a",
+      "timestamp": "2026-03-01T00:23:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Attack a 'Nightmare Scenario' for Neighboring Countries: Yacoubian - Center for Strategic and International Studies Middle East Program Director and Senior Advisor Mona Yacoubian discusses the attack on Iran and says ‘No doubt that this is a nightmare scenario for the ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/iran-attack-impact-on-neighboring-countries-yacoubian-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e52f0fb172e76c1897773413384eb1db",
+      "timestamp": "2026-03-01T00:13:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Former UN Ambassador Bolton Concerned About Iran Regime Change - Former US Ambassador to the UN John Bolton agrees with the objectives of the US, Israeli strikes on Iran but has concerns about the regime change in Iran. He speaks on \"Bloomberg This Weekend.\" (Sourc",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/former-amb-bolton-concerned-about-iran-regime-change-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2421d496e903e719f53d4f64504e15cd",
+      "timestamp": "2026-03-01T00:02:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Puck News’ Ioffe on How Europe Might React to Iran Attack - Puck News Washington Correspondent Julia Ioffe discusses the attack on Iran and says it reminds her of 2021-2022 US engagements with Russia regarding Ukraine. She speaks with David Gura and Christina ",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/puck-news-ioffe-how-europe-might-react-to-iran-attack-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "463ea199c2118b1aa34a8cae6a5031de",
+      "timestamp": "2026-02-28T23:43:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Democrats Push for War Powers Vote Over Trump Iran Strikes - Democrats are pushing for a vote next week on a resolution to curtail President Donald Trump’s authority to conduct strikes in Iran, a move that would reassert Congress’ role in approving the use of m",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/democrats-push-for-war-powers-vote-to-curtail-trump-iran-strikes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "89071c9a6678784f048783672ff05eb0",
+      "timestamp": "2026-02-28T23:33:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Israel Shuts Down Natural Gas Fields as Iran Attack Unfolds - Israel ordered the temporary shutdown of some natural gas fields after launching an attack on Iran in a joint operation with the US.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/israel-shuts-down-natural-gas-fields-as-iran-attack-unfolds",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7395ea922fc2846c96690d8cb16ce07c",
+      "timestamp": "2026-02-28T23:31:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "What Iran Attack Means For Oil - Bloomberg Economics Chief Emerging Markets Economist Ziad Daoud, PhD discusses the impact of oil following attacks on Iran. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/what-iran-attack-means-for-oil-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "26fe79cbd9a6a0c52da0f4b4b3b6a98e",
+      "timestamp": "2026-02-28T23:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Farmers See New Trump Tariffs as Yet Another Round of Instability - US farmers have been looking for some stability after a mercurial year under President Donald Trump’s tariffs. But after new trade upheaval last week, it’s becoming increasingly clear that uncertainty",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/us-farmers-see-new-trump-tariffs-as-yet-another-round-of-instability",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "26fe79cbd9a6a0c52da0f4b4b3b6a98e",
+      "timestamp": "2026-02-28T23:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Farmers See New Trump Tariffs as Yet Another Round of Instability - US farmers have been looking for some stability after a mercurial year under President Donald Trump’s tariffs. But after new trade upheaval last week, it’s becoming increasingly clear that uncertainty",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/us-farmers-see-new-trump-tariffs-as-yet-another-round-of-instability",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "78927f55b7eb9c5e8e38b2c2130c056b",
+      "timestamp": "2026-02-28T23:26:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Calls For Immediate Ceasefire After US, Israel Bomb Iran - China called for an immediate ceasefire following the US and Israel’s attacks on Iran, as President Xi Jinping’s government weighs its options in the Middle East.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/china-calls-for-immediate-ceasefire-after-us-israel-bomb-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "67249b9dbcda9a5a21afb44d55d7e9ae",
+      "timestamp": "2026-02-28T23:12:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rep. Auchincloss Calls for Clear Rationale on Iran - Rep. Jake Auchincloss, a Massachusetts Marine Corps veteran, emphasized the importance of clear communication and defined objectives from the president regarding military actions. He speaks with David",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/rep-auchincloss-calls-for-clear-rationale-on-iran",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "995a3495ce1527bef65b8a6dd5b7ef92",
       "timestamp": "2026-02-28T22:53:24+09:00",
@@ -604,6 +736,17 @@
       "related_tickers": [],
       "content": "Pentagon Casts Cloud of Doubt Over Anthropic’s AI Business - Anthropic PBC started this year on a winning streak, with surging sales, multiple viral products and a large funding round all giving the startup a big advantage in the costly global AI race.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-28/pentagon-casts-cloud-of-doubt-over-anthropic-s-ai-business",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2f5fa0ad69f32bd696ae9ea105ceb084",
+      "timestamp": "2026-02-28T11:20:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Administration Seeks Delay in Tariff Refund Fight - The Trump administration is seeking to delay court proceedings over whether it must refund importers billions of dollars in tariffs recently struck down by the US Supreme Court, marking a contentious ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/trump-administration-seeks-delay-in-tariff-refund-court-fight",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2062,149 +2205,6 @@
       "related_tickers": [],
       "content": "The Math Behind Drake’s Lucky Spins - Videos of influencers hitting it big on Stake.com are all over the internet. But at least some of those wins are statistically unlikely, a Bloomberg analysis showed. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-27/the-math-behind-drake-s-lucky-spins-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e6abcadf6fdcd6591130388a5da2e962",
-      "timestamp": "2026-02-27T22:28:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pearson CEO Takes Aim at ‘Short-Term’ Investors Over AI Hit - Pearson Plc has been unfairly punished by short-term investors as the education publisher gets caught up in a broader artificial intelligence selloff, according to its chief executive officer.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/pearson-ceo-takes-aim-at-short-term-investors-after-ai-selloff",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5d3888e00bf0d8cdc9f8808de0d93823",
-      "timestamp": "2026-02-27T22:27:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Equinor to Trim Angolan Holdings as Output Grows From Brazil, US - Equinor ASA, Norway’s biggest oil and gas producer, is looking to sell a number of Angolan fields, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/equinor-to-trim-angolan-holdings-as-output-grows-from-brazil-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d5a2c2beeca79ad49e114fcf7cc73b6f",
-      "timestamp": "2026-02-27T22:08:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "A $40 Billion Copper Boom in Argentina Hinges on Revamped Glacier Law - <p>Javier Milei’s push to unlock billions in mining investment requires easing strict protections that are being defended by environmental groups.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-27/a-40-billion-copper-boom-in-argentina-hinges-on-revamped-glacier-law",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d5a2c2beeca79ad49e114fcf7cc73b6f",
-      "timestamp": "2026-02-27T22:08:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "A $40 Billion Copper Boom in Argentina Hinges on Revamped Glacier Law - <p>Javier Milei’s push to unlock billions in mining investment requires easing strict protections that are being defended by environmental groups.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-02-27/a-40-billion-copper-boom-in-argentina-hinges-on-revamped-glacier-law",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0abb817f01d8b79d2daabd8d97c4ce5a",
-      "timestamp": "2026-02-27T22:05:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Online Broker XTB Says Poland’s Crypto Gridlock Risks Expansion - Fast-growing trading platform XTB SA said its expansion plans are at risk from Poland’s political deadlock over regulating crypto assets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/online-broker-xtb-says-poland-s-crypto-gridlock-risks-expansion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a3b12c474e39ed23013090a0485cec8",
-      "timestamp": "2026-02-27T22:03:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "German Inflation Eases to 2% as Economic Recovery Starts Slowly - German inflation unexpectedly slowed to the European Central Bank’s target as the economy recovered only slowly at the start of 2026.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/german-inflation-eases-to-2-as-economic-recovery-starts-slowly",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e8cb68e1938b3a4c00071b87916ab4b7",
-      "timestamp": "2026-02-27T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Clinton to Become First Ex-President Forced to Testify to House - Bill Clinton is to become the first former US president forced to testify to Congress as he faces questioning Friday on connections to disgraced financier Jeffrey Epstein.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/clinton-to-become-first-ex-president-forced-to-testify-to-house",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2c5ed8b7dc95f0161cdcfcf1f89213de",
-      "timestamp": "2026-02-27T21:47:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Premarket Movers: CoreWeave, Dell, Flutter, Kore, NCR Atleos - S&amp;P 500 Index futures are down 0.5% as of 7:39 a.m. in New York, set to notch a monthly loss.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/us-stock-futures-today-coreweave-dell-flutter-kore-ncr-atleos",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5c2d34905f57541926aca0549ed910bb",
-      "timestamp": "2026-02-27T21:34:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Corporate Golden Age Isn't Helping Workers - The US has never seen corporate profits like it has recently. Bloomberg Opinion columnist and economist Kathryn Anne Edwards explains why that's not helping workers. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/opinion-the-corporate-golden-age-is-here-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ad591565fb094b9c49fd67f4357e1ca7",
-      "timestamp": "2026-02-27T21:31:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OPEC+ Looks Willing to Defy Oil Bears’ Warnings Again - The group has gained room to maneuver thanks to factors beyond its control.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-02-27/opec-looks-willing-to-defy-oil-bears-warnings-again",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f51cfc03426dbdd68f2adf9fb4a539b0",
-      "timestamp": "2026-02-27T21:22:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Federated Slashes S&P 500 Target, But Isn’t Bearish - Stephen Auth, CIO, equity at Federated Hermes, explains the factors behind his firm’s decision to trim their 2026 target for the S&P 500 to 7,500. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/federated-slashes-s-p-500-target-but-isn-t-bearish-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2b623c1ae4ccf10be4a38386abe2110f",
-      "timestamp": "2026-02-27T21:16:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Reserves Climb to Highest Since 2022 on Oil, Debt Sales - Saudi Arabia’s international reserves rose to the highest level since 2022 last month, boosted by increased oil revenues and elevated foreign-debt issuance.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/saudi-reserves-climb-to-highest-since-2022-on-oil-debt-sales",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "932a5658a2d17b9daba968b53e677877",
-      "timestamp": "2026-02-27T21:16:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic Faces US Deadline Over Pentagon AI Feud | The Pulse 2/27 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/the-pulse-2-27-video",
       "sentiment": "NEUTRAL"
     }
   ]
