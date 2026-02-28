@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-03-01T05:05:34.459056+09:00",
+  "last_updated": "2026-03-01T07:05:15.825580+09:00",
   "items": [
+    {
+      "id": "77f4d311732fd299441c0027b4def1be",
+      "timestamp": "2026-03-01T06:26:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Reports of Khamenei’s Death Appear to Be ‘Correct’ - President Donald Trump told NBC News that reports of Iran’s supreme leader Ayatollah Ali Khamenei’s death appear to be a “correct story.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/trump-says-reports-of-khamenei-s-death-appear-to-be-correct",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "530b4c4f6b2e7416c649ec8d88758b3e",
+      "timestamp": "2026-03-01T06:24:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Polymarket Iran Bets Hit $529 Million as New Wallets Draw Notice - As US and Israeli bombs fell on Iran this weekend, bettors on Polymarket &mdash; where $529 million was traded on contracts tied to the timing of the strikes &mdash; were cashing in. Almost immediatel",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/polymarket-iran-bets-hit-529-million-as-new-wallets-draw-notice",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "73166ffc470449ba929ce267dfeecf26",
+      "timestamp": "2026-03-01T06:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Job Growth Seen Moderating After Robust January - US payrolls growth probably settled back in February after the strongest month of hiring in a year, returning to a more moderate and likely sustainable pace of hiring.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/us-job-growth-seen-moderating-after-robust-january",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "012241da02719c3ae0431938c2ced768",
+      "timestamp": "2026-03-01T05:36:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Egypt Seeks Earlier LNG Imports as Israel Cuts Gas Amid Iran War - Egypt is seeking to bring forward imports of some liquefied natural gas cargoes after energy supplier Israel shuttered some fields following its strikes on Iran, according to people familiar with the ",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/egypt-seeks-earlier-lng-imports-as-israel-cuts-gas-amid-iran-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "12a8b327bf7bac396cf3b73e6923cac0",
+      "timestamp": "2026-03-01T05:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Credit Stocks Signal More Pain Is Coming: Credit Weekly - Falling income, slashed dividends and loan markdowns: the results from some of the most transparent private credit funds this week have done little to soothe investors concerned about cockroaches in t",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/private-credit-stocks-signal-more-pain-is-coming-credit-weekly",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8e43247a90b4fc7659eb8537a13cf864",
+      "timestamp": "2026-03-01T04:15:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bloomberg This Weekend 2/28/2026 - The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity and context to this weekend's biggest news, US and Israel's attack on Iran, LIVE from New Yor",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/bloomberg-this-weekend-2-28-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "6a81c9526acd36e207a4bae5341394bf",
       "timestamp": "2026-03-01T04:07:36+09:00",
@@ -2143,72 +2209,6 @@
       "related_tickers": [],
       "content": "Jilted Economist Ponders How He Came So Close to Power in Peru - Hernando de Soto was all set to finally have his turn in Peru’s government after a long career in economics and some failed presidential bids. Then something went wrong.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/hernando-de-soto-misses-chance-at-power-in-peru-as-balcazar-changes-mind",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d55c7b133778c272c6f6eec315d6f64",
-      "timestamp": "2026-02-27T23:51:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "S&amp;P 500 Falls as Risk Off Prevails, Block Cuts Spur AI Anxiety - US stocks opened lower as risk-off sentiment swept through markets and fintech Block Inc.’s massive layoffs fanned angst that artificial-intelligence is poised to upend broad sections of the economy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/s-p-500-falls-as-risk-off-prevails-block-cuts-spur-ai-anxiety",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2de5f507d80fa44a1b3a2b7e10567251",
-      "timestamp": "2026-02-27T23:50:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "MFS Creditors Warn of £930 Million Shortfall From Double Pledges - Some creditors of Market Financial Solutions Ltd., the failed UK mortgage firm backed by Wall Street lenders including Barclays Plc, warned there may be a £930 million ($1.3 billion) shortfall in coll",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/mfs-creditors-warn-of-930-million-shortfall-from-double-pledges",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "df5e45479c7b0d6ebe79e020cfd46bd2",
-      "timestamp": "2026-02-27T23:50:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s GDP Revisions Mean It Will Take Longer to Overtake Japan - Major revisions to India’s gross domestic product data Friday showed it will take longer than expected to surpass Japan as the world’s fourth-largest economy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/india-s-gdp-revisions-mean-it-will-take-longer-to-overtake-japan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a02483aaa1796103c4c778f699cb067f",
-      "timestamp": "2026-02-27T23:41:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Sudan Risks Returning to ‘Full-Scale’ War, UN Says - South Sudan’s political and military leaders are dismantling a 2018 peace agreement, driving the country toward “full-scale war” and making elections this year increasingly unlikely.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/south-sudan-risks-returning-to-full-scale-war-un-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1916d64bcdd442e67166dc125a6ab294",
-      "timestamp": "2026-02-27T23:38:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why the AI ‘Scare Trade’ Keeps Spooking Markets - Over the past three years, investors have sought exposure to all things artificial intelligence, including high-flying tech stocks behind some of the leading AI technology. Recently, though, the marke",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/what-is-the-ai-scare-trade-why-it-s-spooking-the-stock-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "85808a6bb9399cbc2cc08b13826abe10",
-      "timestamp": "2026-02-27T23:32:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sell German Bunds After Best Start in Six Years, Barclays Says - It’s time to go short German government debt, according to strategists at Barclays.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/sell-german-bunds-after-best-start-in-six-years-barclays-says",
       "sentiment": "NEUTRAL"
     }
   ]
