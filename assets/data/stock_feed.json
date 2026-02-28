@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-02-28T15:09:36.910000+09:00",
+  "last_updated": "2026-02-28T17:07:04.908723+09:00",
   "items": [
+    {
+      "id": "ac4fc22ee7f3d75cb3b3d75eb189937d",
+      "timestamp": "2026-02-28T16:35:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin Slides Below $64,000 After Explosions Reported in Tehran - Bitcoin and other digital assets fell sharply after Israel said it launched a preemptive strike on Iran on Saturday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/bitcoin-slides-below-64-000-after-explosions-reported-in-tehran-mm60ajtz",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "49a466efbd2e00728379f3a931c771b9",
+      "timestamp": "2026-02-28T16:31:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia Weighs Halt to Peace Talks Unless Ukraine Cedes Territory - Russian officials increasingly consider there’s no point to continue US-led peace talks with Ukraine unless Kyiv is willing to cede territory to reach a deal, according to people familiar with the neg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/russia-weighs-halt-to-peace-talks-unless-ukraine-cedes-territory",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "95efa54fb9d0a59353161aaef66c0337",
+      "timestamp": "2026-02-28T16:23:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OPEC+ to Weigh Bigger Hike After Iran Strike, Delegate Says - OPEC+ will consider the option of a larger supply increase when key members meet on Sunday, after Israel launched airstrikes on targets in Iran, according to a delegate.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/opec-to-consider-bigger-hike-after-iran-strike-delegate-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eba654a1bdea0696b605c3d6d800f720",
+      "timestamp": "2026-02-28T16:16:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Smoke Rises Over Tehran Following Israeli Attack - Video shows smoke rising from an area of southern Tehran on Saturday after Israel launched an attack on Iran's capital. (Source: Associated Press)",
+      "url": "https://www.bloomberg.com/news/videos/2026-02-28/smoke-rises-over-tehran-following-israeli-attack-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "898f9b5aab241d1e92c3eee934cbdfc3",
+      "timestamp": "2026-02-28T16:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Zack Polanski Is Making the Once-Fringe Greens a Political Force - Zack Polanski’s path from influencer to UK political leader has reached a key milestone: His Greens won a seat in the Manchester constituency of Gorton and Denton, its first major electoral triumph si",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/zack-polanski-who-is-green-party-s-eco-populist-leader",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e01b849821c94b9a95a42e0a3330ddd5",
+      "timestamp": "2026-02-28T15:26:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Delays Taiwan Arm Sales as Beijing Visit Nears, NYT Says - The Trump administration is delaying a multi-billion dollars arms sales to Taiwan to ensure President Donald Trump’s visit to Beijing is successful, the New York Times reported.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/trump-delays-taiwan-arm-sales-as-beijing-visit-nears-nyt-says",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "aba8dcc7b2c73ea75d09f8b956de4d8e",
       "timestamp": "2026-02-28T15:07:01+09:00",
@@ -10,6 +76,17 @@
       "related_tickers": [],
       "content": "Africa's Critical Mineral Moment | Bloomberg Next Africa (Video)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-28/africa-s-critical-mineral-moment-bloomberg-next-africa-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9c99a523e3f6dfac5a99a303c2411e67",
+      "timestamp": "2026-02-28T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Starmer’s Day of Reckoning Draws Nearer After Election Rout - The strategy that brought Keir Starmer to Downing Street ran out of road this week. Its architects have left the building. The question now is what takes its place &mdash; and whether members of Parli",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-28/starmer-s-day-of-reckoning-draws-nearer-after-election-rout",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2128,83 +2205,6 @@
       "related_tickers": [],
       "content": "UK’s February Gas Exports to EU Hit Three-Year Seasonal High - Natural gas exports from the UK to continental Europe in February rose to the highest level for this time of year since 2023, as the country benefited from ample supply and milder weather.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/uk-s-february-gas-exports-to-eu-hit-three-year-seasonal-high",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b55a2150ccf609db4a1dd8192340091f",
-      "timestamp": "2026-02-27T18:41:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tusk Says EU Loans Won’t Impact Polish Defense Deals With US - The European Union’s defense loan program won’t affect Polish purchases of US weapons or cooperation between Warsaw and Washington, Prime Minister Donald Tusk said on Friday.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/tusk-says-eu-loans-won-t-impact-polish-defense-deals-with-us",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c7c997095dc1571b0866ae3544f161c6",
-      "timestamp": "2026-02-27T18:41:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Halts Canada Canola Meal Tariffs, Adding to Trade Thaw - China said it would drop tariffs on Canadian rapeseed meal and lobsters, easing disruptions to agricultural trade after Prime Minister Mark Carney’s January visit.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/china-halts-canada-canola-meal-tariffs-adding-to-trade-thaw",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a50fba5a13459c167d956cdc3f1445c",
-      "timestamp": "2026-02-27T18:40:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India in Talks With US as Court Overturns Sweeping Trump Tariffs - India is in discussions with the US on the evolving tariff situation and will ensure that its interests are protected under the recently concluded trade deal, Commerce and Industry Minister Piyush Goy",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/india-in-talks-with-us-as-court-overturns-sweeping-trump-tariffs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f10ed1e84371c1c40106fac37673cfae",
-      "timestamp": "2026-02-27T18:33:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wizz Air Drops After Anchor Investor Sells 10% Stake in Carrier - Wizz Air Holdings Plc stock fell the most since July after its key shareholder sold a 10% stake in the budget carrier.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/wizz-air-drops-after-anchor-investor-sells-10-stake-in-carrier",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b776a9c93f3cabbc99b81a5283fc8260",
-      "timestamp": "2026-02-27T18:27:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hungary, Slovakia Demand Ukraine Let In Pipeline Inspection Team - Hungary and Slovakia are seeking to send a team of inspectors to Ukraine to examine the condition of the Druzhba oil pipeline, Prime Minister Viktor Orban said after a phone call with his Slovak count",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/hungary-slovakia-demand-ukraine-let-in-pipeline-inspection-team",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd4bfa6cfef679d545c99b7d548d6fca",
-      "timestamp": "2026-02-27T18:27:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gallego: Strong Demand in North Atlantic - IAG CEO, Luis Gallego, on transatlantic demand and the return of business traffic. He speaks with Bloomberg's Tom Mackenzie, Anna Edwards and Lizzy Burden on 'The Opening Trade'. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/gallego-strong-demand-in-north-atlantic-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "550c17d345fe67355aadc8c579a5dcb3",
-      "timestamp": "2026-02-27T18:16:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Middle East Airlines in Talks for Airbus Jets as Travel Recovers - Lebanon’s national airline is in talks to expand its fleet of Airbus SE jets to capitalize on increased demand and to build out its new low-cost subsidiary.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/middle-east-airlines-in-talks-for-airbus-jets-as-travel-recovers",
       "sentiment": "NEUTRAL"
     }
   ]
