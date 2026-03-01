@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-03-01T09:26:43.387228+09:00",
+  "last_updated": "2026-03-01T12:04:46.164654+09:00",
   "items": [
+    {
+      "id": "25c04e330dbb5aa7b417f62621e1bab2",
+      "timestamp": "2026-03-01T11:53:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran’s Supreme Leader Ali Khamenei Dead at 86 - Ali Khamenei, Iran’s anti-Western supreme leader who dominated the Islamic Republic for more than three decades, has died at 86. Bloomberg's Haslinda Amin explains. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-01/iran-s-supreme-leader-ali-khamenei-dead-at-86-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a3bfc970fac131b15def5faa93acf3f3",
+      "timestamp": "2026-03-01T10:58:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iranians on Khamenei’s Death: Mourning on State TV, Public Joy - Millions of Iranians have lived their entire lives under the thumb of Ayatollah Ali Khamenei, the supreme leader of Iran. When reports of his demise began to trickle in, the response in the streets of",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/iranians-on-khamenei-s-death-mourning-on-state-tv-public-joy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "33af881c08fe225e26a0f8891a602e20",
+      "timestamp": "2026-03-01T10:30:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran State TV Confirms Khamenei’s Death - Ayatollah Ali Khamenei, the Supreme Leader of Iran, is dead, Iran state TV confirms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/iran-state-tv-confirms-khamenei-s-death",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dd349652271985bb4df6a7167c2fa603",
+      "timestamp": "2026-03-01T09:53:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Korea Export Momentum Continues, Easing Monetary Policy Pressure - South Korea’s exports accelerated in February, reinforcing the central bank’s view that solid semiconductor demand is helping cushion the economy as it maintains a neutral policy stance while monitori",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/korea-export-momentum-continues-easing-monetary-policy-pressure",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d2644dcf06d42eae17b621cfa6b6f23c",
       "timestamp": "2026-03-01T09:00:01+09:00",
@@ -2165,50 +2209,6 @@
       "related_tickers": [],
       "content": "UK Faces Multi-Billion Pound Hit From Student Loans Overhaul - Proposals to cut repayments on student loans made by certain graduates could cost above £10 billion ($13.5 billion) as pressure mounts on the Labour government to stem an exodus of young voters to the",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/uk-faces-multi-billion-pound-hit-from-student-loans-overhaul",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "778dc2295038511ebfa5b2b24ffda14b",
-      "timestamp": "2026-02-28T00:08:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Billionaire Yandex Founder Volozh Renounces Russian Citizenship - Yandex founder Arkady Volozh has renounced his Russian citizenship nearly two years after he sold his interest in the country’s leading search engine to focus fully on developing his Dutch neocloud co",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/billionaire-yandex-founder-volozh-renounces-russian-citizenship",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32fc0640c6ee5a431832ffd877f5fd64",
-      "timestamp": "2026-02-28T00:07:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela Nixed Sale of Halliburton’s Assets at US Request - Venezuela canceled an auction of assets seized from Halliburton Co. after the Trump administration intervened to stop the sale, as President Donald Trump seeks to smooth the return of US oil companies",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/venezuela-nixed-sale-of-halliburton-s-assets-at-us-request",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "32fc0640c6ee5a431832ffd877f5fd64",
-      "timestamp": "2026-02-28T00:07:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Venezuela Nixed Sale of Halliburton’s Assets at US Request - Venezuela canceled an auction of assets seized from Halliburton Co. after the Trump administration intervened to stop the sale, as President Donald Trump seeks to smooth the return of US oil companies",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/venezuela-nixed-sale-of-halliburton-s-assets-at-us-request",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c3eb416ed2b6c32d78956a4980b0f0e",
-      "timestamp": "2026-02-28T00:07:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Labour Loss to Greens in Manchester Raises Pressure on Starmer - Prime Minister Keir Starmer is under pressure to shift to the left after his governing Labour Party was defeated by the Greens in Manchester. Lizzy Burden explains. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/labour-loss-to-greens-raises-pressure-on-starmer-video",
       "sentiment": "NEUTRAL"
     }
   ]
