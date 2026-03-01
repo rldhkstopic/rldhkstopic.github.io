@@ -1,6 +1,61 @@
 {
-  "last_updated": "2026-03-02T03:07:14.707545+09:00",
+  "last_updated": "2026-03-02T05:05:45.354314+09:00",
   "items": [
+    {
+      "id": "2d5671055fe8a873d92a21631e47db70",
+      "timestamp": "2026-03-02T04:43:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FBI Probes Whether Austin Mass Shooting Tied to Iran Conflict - Federal authorities are investigating whether a mass shooting outside a bar in Austin, Texas, early Sunday was a reaction to the US-Israeli strikes on Iran, people familiar with the investigation said",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/fbi-probes-whether-austin-mass-shooting-tied-to-iran-conflict",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "603bfcaad596fa387ff9ff0f965dae44",
+      "timestamp": "2026-03-02T04:35:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UAE Shuts Embassy in Tehran in Response to Iranian Strikes - United Arab Emirates closed its embassy in Tehran and withdrawn all its diplomatic mission in response to Iranian missile strikes targeting the Gulf country, condemning the attacks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/uae-shuts-embassy-in-tehran-in-response-to-iranian-strikes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ee4c5ac291c44260d600f4e494a4c4cd",
+      "timestamp": "2026-03-02T03:33:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South African Budget Chief Resigns After Helping Stabilize Debt - The head of South Africa’s budget office resigned last week, after helping the National Treasury stabilize public debt.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/south-african-budget-chief-resigns-after-helping-stabilize-debt",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4ac1b080374120411d2f23e09867b781",
+      "timestamp": "2026-03-02T02:54:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Market’s ‘Worst Fears’ Are Here as Gulf Conflict Hits Hormuz - The oil market’s nightmare scenario came true this weekend. Now the race is on to deal with it.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-s-worst-nightmare-is-here-as-gulf-conflict-hits-hormuz",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4ac1b080374120411d2f23e09867b781",
+      "timestamp": "2026-03-02T02:54:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Market’s ‘Worst Fears’ Are Here as Gulf Conflict Hits Hormuz - The oil market’s nightmare scenario came true this weekend. Now the race is on to deal with it.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/oil-s-worst-nightmare-is-here-as-gulf-conflict-hits-hormuz",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "83218737032593839f5fd1a601429180",
       "timestamp": "2026-03-02T02:53:02+09:00",
@@ -2148,61 +2203,6 @@
       "related_tickers": [],
       "content": "SpaceX Said to Target Confidential IPO Filing as Soon as March - SpaceX is targeting filing confidentially for an initial public offering as soon as next month, according to people familiar with the matter. Bailey Lipschultz has more on \"Bloomberg The Close.\" (Sour",
       "url": "https://www.bloomberg.com/news/videos/2026-02-27/spacex-said-to-target-ipo-filing-as-soon-as-march-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6aebc672e7ebe467142fbecf6b2e66cc",
-      "timestamp": "2026-02-28T06:02:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Lower on Block, Credit Jitters | Bloomberg Businessweek Daily 2/27/2025 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss today's hotter-than-expected PPI print and stock reaction, with the S&P 500 on track for its worst month since",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/bloomberg-businessweek-daily-2-27-2025-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "689df95bf5d404bcbae9fe53351e2ae2",
-      "timestamp": "2026-02-28T06:02:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hedge Funds Hike Bullish Oil Bets to 22-Month High on Iran Risks - Hedge funds turned the most bullish on Brent crude since April 2024 as investors grew more concerned that US military action in the Middle East could be imminent and disrupt oil supplies flowing out o",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/hedge-funds-hike-bullish-oil-bets-to-22-month-high-on-iran-risks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "16f0c039ed1b48ddc47d37cbcaad7d1a",
-      "timestamp": "2026-02-28T06:00:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What's Next for the Super Bowl? - What’s in store for the future of the Super Bowl? Randall Williams dives into what the league is looking for from cities that want to host the big game in the years to come. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/what-s-next-for-the-super-bowl-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bf334e8ab6ebfa62ca3deaa49d956d76",
-      "timestamp": "2026-02-28T05:53:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Orders US Agencies to Drop Anthropic After Pentagon Feud - President Donald Trump directed US government agencies to stop using Anthropic PBC’s products, capping a feud between the artificial intelligence giant and the Pentagon over safeguards on its technolo",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/trump-orders-us-government-to-drop-anthropic-after-pentagon-feud",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a5cc909fb03d8cab08e9232f47b524e3",
-      "timestamp": "2026-02-28T05:50:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Treasury Takes Aim at Booming ETF Move That’s Slashing Tax Bills - The US Treasury Department is in early discussions about increasing scrutiny of one of the fastest-growing tax strategies in the $14 trillion ETF industry.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/treasury-takes-aim-at-booming-etf-move-that-s-slashing-tax-bills",
       "sentiment": "NEUTRAL"
     }
   ]
