@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-03-01T17:07:31.128021+09:00",
+  "last_updated": "2026-03-01T19:06:06.808521+09:00",
   "items": [
+    {
+      "id": "a68155639172ed10ab9f870d6312c1f0",
+      "timestamp": "2026-03-01T17:41:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Turns to ‘Haven-First’ Strategy Amid Iran Crisis - The fast‑moving conflict across the Middle East is heightening investor anxiety and strengthening the case for safe‑haven trades such as Treasuries, gold and the Swiss franc.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/wall-street-turns-to-haven-first-strategies-amid-iran-attacks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b171052c324da0ff4d13168def66b197",
+      "timestamp": "2026-03-01T17:41:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran-Linked Oil Tanker Targeted Near Strait of Hormuz - A small oil tanker, which appears to be sanctioned by the US for helping Iran export fuels, was targeted off Oman’s northern coast, the first maritime attack since war broke out in the Middle East ove",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/oman-says-oil-tanker-targeted-off-its-north-coast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc96589908714eedfec83b25b7c4a04d",
+      "timestamp": "2026-03-01T17:22:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nine Killed in Pro-Iran Protests at US Consulate in Pakistan - At least nine pro-Iranian protesters were killed in clashes with police as they tried to storm the gates of the US Consulate in Pakistan’s main port city of Karachi on Sunday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/nine-killed-as-protesters-try-to-storm-us-consulate-in-pakistan",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "793c4c65fc751e855b978e7dbc7fa709",
       "timestamp": "2026-03-01T16:00:00+09:00",
@@ -2172,39 +2205,6 @@
       "related_tickers": [],
       "content": "Pemex Annual Loss Reaches $2.6 Billion Despite State Support - Petroleos Mexicanos posted an annual loss of 45.2 billion pesos ($2.6 billion), stoking concerns that President Claudia Sheinbaum’s massive financial support package isn’t turning around the debt-burd",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/pemex-annual-loss-reaches-2-6-billion-despite-state-support",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0944022f1c9075d8be7fee42168f3881",
-      "timestamp": "2026-02-28T00:48:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NASA Shakes Up Its Artemis Mission to the Moon - NASA is shaking up its Artemis mission to the moon, cancelling a huge Boeing upgrade and moving up an Artemis III launch. This is NASA Administrator Jared Isaacman speaking to reporters.  (Source: Blo",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/nasa-shakes-up-its-artemis-mission-to-the-moon-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ab7abd0bffd60715a2d147c0d4ca31ec",
-      "timestamp": "2026-02-28T00:47:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Private Credit Firm Invico Calls Investors to Manage Exodus Risk - Private credit manager Invico Capital Corp. has crafted a plan for one of its funds to deal with redemption requests from large investors, as firms face elevated withdrawal pressure across the broader",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/private-credit-firm-invico-calls-investors-to-manage-exodus-risk",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cac57f28135d5b3dcab41492d362a80c",
-      "timestamp": "2026-02-28T00:45:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic Sees Support From Other Tech Workers in Feud With Pentagon - Anthropic PBC got a vote of support from Silicon Valley workers for its increasingly contentious public-relations battle with the Pentagon over how the military can use artificial intelligence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/anthropic-s-feud-with-pentagon-mushrooms-into-broader-battle",
       "sentiment": "NEUTRAL"
     }
   ]
