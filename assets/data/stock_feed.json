@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-03-01T19:06:06.808521+09:00",
+  "last_updated": "2026-03-01T21:08:49.120208+09:00",
   "items": [
+    {
+      "id": "5e6628e5de14a95a96e62629916dfa78",
+      "timestamp": "2026-03-01T20:37:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Condemns ‘Unacceptable’ US, Israeli Strikes on Iran - China criticized the US and Israeli military action against Iran, warning that it risks plunging the Middle East into deeper instability and undermining international law.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/china-condemns-unacceptable-us-israeli-strikes-on-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "31d8cd72bfc863f54c2cdc804656cef3",
+      "timestamp": "2026-03-01T20:18:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Return to Your Senses’: Gulf States Ramp Up Criticism of Iran - Saudi Arabia and the United Arab Emirates stepped up their criticism of Iran’s strikes across the Gulf.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/-return-to-your-senses-gulf-states-ramp-up-criticism-of-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cfdf2c3b183d2a393ff732c61820a061",
+      "timestamp": "2026-03-01T20:14:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Death Toll Rises as Pakistan, Afghan Forces Keep Up Clashes - Pakistan said its ongoing campaign against Afghan militants have left more than 350 Taliban dead, as clashes between the two sides continued for a fourth day and showed few signs of easing.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/death-toll-rises-as-pakistan-afghan-forces-keep-up-clashes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a1b26292cf6b142148a862b58176f767",
+      "timestamp": "2026-03-01T19:51:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OPEC+ Confirms 206k Barrel-a-Day Production Hike for April - OPEC+ agreed to resume oil production increases next month as a conflict sparked by US-Israeli strikes on Iran threatened to bolster a rally in crude prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/opec-agrees-in-principle-to-206k-b-d-hike-for-april-delegates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5867620e7f26dabed19ab54217d60afa",
+      "timestamp": "2026-03-01T19:12:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Belgium Seizes Russian ‘Shadow Fleet Tanker’ in North Sea - Belgium’s special forces on Sunday boarded and seized an oil tanker from the “shadow fleet” that Russia uses to circumvent Western sanctions imposed over its war in Ukraine.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/belgian-forces-seize-russian-shadow-fleet-tanker-in-north-sea",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "86fb8c2d610b45eb7addea4965d5b1bd",
+      "timestamp": "2026-03-01T19:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Earnings Underscore Shift From US as S&amp;P 500 Slumped - As the latest earnings season wraps, investors could be forgiven for missing some of the fireworks, what with AI’s stranglehold on the market narrative, geopolitical angst and renewed trade uncertaint",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/global-earnings-underscore-shift-from-us-as-s-p-500-slumped",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a68155639172ed10ab9f870d6312c1f0",
       "timestamp": "2026-03-01T17:41:58+09:00",
@@ -2139,72 +2205,6 @@
       "related_tickers": [],
       "content": "Houston to Sell Munis for $1 Billion Convention Center Expansion - Houston is counting on municipal bond investors to help fund a multibillion-dollar convention center expansion that is crucial to boosting downtown economic activity.",
       "url": "https://www.bloomberg.com/news/articles/2026-02-27/houston-to-sell-munis-for-1-billion-convention-center-expansion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e29c33c77a97537d0de91a78eb777d25",
-      "timestamp": "2026-02-28T01:32:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tricolor Noteholders Sue JPMorgan, Barclays and Fifth Third - Holders of notes issued by Tricolor Holdings sued JPMorgan Chase &amp; Co., Barclays Plc and Fifth Third Bancorp., accusing the banks of helping to perpetuate a fraud at the now-bankrupt used-car deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/tricolor-noteholders-sue-jpmorgan-barclays-and-fifth-third",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6768d0a213d29dd779ffff999a1d1301",
-      "timestamp": "2026-02-28T01:24:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bank Shares Walloped by Credit Woes and AI Hit Three-Month Low - Heightened anxiety about the threat from artificial intelligence and suddenly shaky bets on private credit delivered another bruising selloff in shares of banks and asset managers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/financial-shares-walloped-by-ai-credit-woes-hit-three-month-low",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a3dddb5eb2c202646cd290d8f593ef1a",
-      "timestamp": "2026-02-28T01:10:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Faces 2,000 Tariff Lawsuits Following Supreme Court Loss - In the days since the US Supreme Court declared most of President Donald Trump’s global tariffs illegal, more than 100 companies filed new lawsuits, underscoring widespread concerns that the administr",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/trump-faces-2-000-tariff-lawsuits-following-supreme-court-loss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a3dddb5eb2c202646cd290d8f593ef1a",
-      "timestamp": "2026-02-28T01:10:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Faces 2,000 Tariff Lawsuits Following Supreme Court Loss - In the days since the US Supreme Court declared most of President Donald Trump’s global tariffs illegal, more than 100 companies filed new lawsuits, underscoring widespread concerns that the administr",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/trump-faces-2-000-tariff-lawsuits-following-supreme-court-loss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "89a08f8de87c7459de5dbc84e85cc6b9",
-      "timestamp": "2026-02-28T00:54:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Seeks Forfeiture of Seized Tanker Carrying Venezuelan Oil - The US government has filed a forfeiture complaint for a seized oil tanker holding 1.8 million barrels of crude, alleging the ship transported oil from Iran and Venezuela to rogue regimes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/us-seeks-forfeiture-of-seized-tanker-carrying-venezuelan-oil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e996c8c3da3bf16fe32843c608a193c6",
-      "timestamp": "2026-02-28T00:52:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pemex Annual Loss Reaches $2.6 Billion Despite State Support - Petroleos Mexicanos posted an annual loss of 45.2 billion pesos ($2.6 billion), stoking concerns that President Claudia Sheinbaum’s massive financial support package isn’t turning around the debt-burd",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/pemex-annual-loss-reaches-2-6-billion-despite-state-support",
       "sentiment": "NEUTRAL"
     }
   ]
