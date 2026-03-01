@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-03-01T07:05:15.825580+09:00",
+  "last_updated": "2026-03-01T09:26:43.387228+09:00",
   "items": [
+    {
+      "id": "d2644dcf06d42eae17b621cfa6b6f23c",
+      "timestamp": "2026-03-01T09:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Policy Summit Puts Tech, Stimulus in Focus for Investors - China kicks off its most important annual political meeting next week, with investors seeking clarity on how Beijing intends to press ahead with its tech ambitions while reviving a fragile consumer ec",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/china-s-policy-summit-puts-tech-stimulus-in-focus-for-investors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79e6ca29c1a43d01b7f5b2214a46d735",
+      "timestamp": "2026-03-01T09:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thai Gold-Trading Curbs Take Effect as Authorities Rein in Baht - Thailand will implement tough new rules governing retail gold-trading from March 1, hoping to curb speculative activity that’s fueled gains in the baht and weakened the nation’s competitiveness.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/thai-gold-trading-curbs-take-effect-as-authorities-rein-in-baht",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "77f4d311732fd299441c0027b4def1be",
       "timestamp": "2026-03-01T06:26:13+09:00",
@@ -2187,28 +2209,6 @@
       "related_tickers": [],
       "content": "Labour Loss to Greens in Manchester Raises Pressure on Starmer - Prime Minister Keir Starmer is under pressure to shift to the left after his governing Labour Party was defeated by the Greens in Manchester. Lizzy Burden explains. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-02-27/labour-loss-to-greens-raises-pressure-on-starmer-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "196d12845d548724990bb6a758fc7c7e",
-      "timestamp": "2026-02-28T00:05:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Africa Offers Glencore Smelters Cheaper Power to Save Jobs - South Africa has offered Glencore Plc’s ferrochrome smelting venture and Samancor Chrome Ltd.’s operations cheaper electricity in a bid to save jobs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/south-africa-offers-glencore-smelters-cheaper-power-to-save-jobs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "55c2ce641a21365c0eaf41288b067007",
-      "timestamp": "2026-02-27T23:52:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Jilted Economist Ponders How He Came So Close to Power in Peru - Hernando de Soto was all set to finally have his turn in Peru’s government after a long career in economics and some failed presidential bids. Then something went wrong.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/hernando-de-soto-misses-chance-at-power-in-peru-as-balcazar-changes-mind",
       "sentiment": "NEUTRAL"
     }
   ]
