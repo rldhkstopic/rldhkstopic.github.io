@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-03-01T13:39:54.699295+09:00",
+  "last_updated": "2026-03-01T15:16:31.746001+09:00",
   "items": [
+    {
+      "id": "3cdca2e0694b722db5c81ec72038809a",
+      "timestamp": "2026-03-01T15:03:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Botswana Eyes Critical Minerals Boom - Botswana is looking to pivot toward a more diversified minerals future. Bloomberg's Jennifer Zabasajja speaks with Minister of Minerals and Energy Bogolo Kenewendo on what comes next and how the natio",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-01/botswana-eyes-critical-minerals-boom-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f0ca69c9c78049b5ff3ba58b8134c530",
+      "timestamp": "2026-03-01T14:17:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "France’s CMA CGM Suspends Vessels’ Passage Through Suez Canal - France’s CMA CGM SA, the world’s third-largest container line, told vessels in the Persian Gulf to take shelter immediately and suspended passage through the Suez Canal.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/france-s-cma-cgm-suspends-vessels-passage-through-suez-canal",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "8c8c01dcf1d1facf345a352e7e1b8d17",
       "timestamp": "2026-03-01T13:09:52+09:00",
@@ -2187,28 +2209,6 @@
       ],
       "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 7,989,630 0.1358",
       "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017058.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1529d3ee181eb892681b1c5b47caa0bf",
-      "timestamp": "2026-02-28T00:25:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "New Pokemon Titles Wind and Waves Mark 30 Years for Nintendo’s Hit Franchise - One of the longest-running franchises in video gaming is once again hoping to catch them all.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/pokemon-wind-and-waves-games-will-arrive-for-switch-2-in-2027",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2ad038eb4d5e425a5d1801a74db2b780",
-      "timestamp": "2026-02-28T00:25:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Option Trader Sitting on $16 Million Paper Gain After Warner Bros. Bid Pulled - An options trader who bet big on a Netflix Inc. rally is sitting on a roughly $16 million paper gain as shares soared after the streaming giant pulled its bid for Warner Bros. Discovery Inc.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/bullish-netflix-option-trader-sitting-on-16-million-paper-gain",
       "sentiment": "NEUTRAL"
     }
   ]
