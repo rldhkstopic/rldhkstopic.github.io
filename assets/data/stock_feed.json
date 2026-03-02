@@ -1,6 +1,193 @@
 {
-  "last_updated": "2026-03-02T09:23:42.340941+09:00",
+  "last_updated": "2026-03-02T12:00:30.966681+09:00",
   "items": [
+    {
+      "id": "9f88218308898a0f8a56d43e297afba0",
+      "timestamp": "2026-03-02T11:54:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Traders Look to Commodities for Cues as Stocks Fall - BNP Paribas' Jason Lui says traders are looking to commodity markets for cues as to the duration of the conflict following US and Israeli strikes on Iran. He speaks as stocks fall and crude oil rally ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-02/traders-look-to-commodities-for-cues-as-stocks-fall-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "074035ba357427017662e9a9bfe0cb79",
+      "timestamp": "2026-03-02T11:46:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Surge on Iran Conflict Threatens Fresh Blow to Indian Rupee, Stocks - Sectors such as aviation, paints, tires, and specialty chemicals may come under pressure.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-02/indian-stock-market-nifty-rupee-at-risk-as-oil-jumps-on-iran-conflict-inr-usd",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b5ff4d76e4349d202bf03e1ed4ffd0f6",
+      "timestamp": "2026-03-02T11:35:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran's Regime Will Not Splinter Easily, Former US Diplomat Says - Wendy Sherman, former US Deputy Secretary of State, shares her views on the US-Israel conflict with Iran. She tells Bloomberg Television that \"Iran has many layers, it has succession plans. It will ha",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-02/iran-s-regime-will-not-splinter-easily-sherman-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "10664d28af2db6caf55cfbc821e46667",
+      "timestamp": "2026-03-02T11:35:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesia Central Bank Intervenes as Iran Crisis Hits Rupiah - Indonesia’s central bank said it is intervening in the foreign-exchange markets as the US-Israeli war sapped sentiment for the currency.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/idr-usd-indonesia-central-bank-intervenes-as-iran-war-hits-rupiah",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5f1887ab7a25a087758cc5e005d7e8f5",
+      "timestamp": "2026-03-02T11:27:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nvidia-Backed AI Startup Firmus Signs New Contract Ahead of IPO - Australian artificial-intelligence startup Firmus Technologies Pty. has signed a new agreement with a global technology firm for a new data center in Melbourne, as the company prepares for an expected",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/nvidia-backed-ai-startup-firmus-signs-new-contract-ahead-of-ipo",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f4f5442457395516f862ac3ac0d391c",
+      "timestamp": "2026-03-02T11:07:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Emerging Market Currencies, Stocks Fall on Iran Conflict Worries - Emerging-market currencies and stocks slumped in Asia trading on Monday as worries over Iran conflict and surging oil prices weigh on sentiment for risky assets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/emerging-market-currencies-stocks-fall-on-iran-conflict-worries",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "075fbd018541fc24c5c372ac9b318841",
+      "timestamp": "2026-03-02T11:07:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Treasuries Edge Lower as Traders Hold Back from Haven Buying - Treasuries pushed lower across the curve as reports of conciliatory messages from both the US and Iran damped demand for haven assets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/treasuries-swing-to-losses-as-reports-of-talks-damp-haven-demand",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9a5d4f4e57081e062017d5566d65a69f",
+      "timestamp": "2026-03-02T10:32:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rising Oil Prices Threaten Takaichi’s Agenda, Says Monex’s Koll - Rising oil prices risk delivering a fresh inflation shock to Japan, complicating Prime Minister Sanae Takaichi’s efforts to ease cost-of-living pressures, according to Monex Group’s Jesper Koll.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/rising-oil-prices-threaten-takaichi-s-agenda-says-monex-s-koll",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9d50cdeab3c3b9d7c00760c5c0e6bb64",
+      "timestamp": "2026-03-02T10:31:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US, Israel Conflict With Iran | Balance of Show 3/1/2026 - On a special edition of \"Balance of Power\" we focus the US and Israel's attack on Iran which could lead to a surge in energy prices, further conflict and a nightmare scenario for neighboring Gulf coun",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-02/balance-of-show-special-edition-3-1-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65abf9682243112e40fe429dc0a04cf8",
+      "timestamp": "2026-03-02T10:29:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Top Chinese Liquor Maker Wuliangye Says Chairman Under Detention - The chairman of one of China’s top liquor makers has been placed under detention by local authorities, the company said, dealing another blow to a Chinese baijiu industry already struggling with saggi",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/top-chinese-liquor-maker-wuliangye-says-chairman-under-detention",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e8eab3ff71e0d49624a4884023a3d370",
+      "timestamp": "2026-03-02T10:27:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australian LNG Shares Jump as Iran Crisis Hinders Global Supply - Shares in Australian liquefied natural gas exporters surged after tankers stopped crossing the Strait of Hormuz, hampering about a fifth of global supply and threatening to raise prices of the fuel.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/australian-lng-shares-jump-as-iran-crisis-hinders-global-supply",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "47b29de8cc245df55acdd636771ad106",
+      "timestamp": "2026-03-02T10:26:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Aluminum Rises as Middle East War Threatens Supply Disruptions - Aluminum climbed on concerns that critical supply routes for Middle Eastern producers will be disrupted by conflict in a region responsible for a significant chunk of global output.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/aluminum-jumps-as-middle-east-war-threatens-supply-disruptions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "014e7cbe5514afeb9d620af8dc826af9",
+      "timestamp": "2026-03-02T10:15:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Prices Could Rise Further on Hormuz Delays, Analysts Say - Brent jumped by as much as 13% to above $82 a barrel at the open on Monday, and oil markets are now bracing for prolonged volatility and sustained disruptions in the Strait of Hormuz.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/oil-prices-could-rise-further-on-hormuz-delays-analysts-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d2237d0a0a38045ffad33359caa5413c",
+      "timestamp": "2026-03-02T10:08:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Conflict’s ‘Huge’ Potential Impact on Oil: Analyst - Julius Baer Head of Asia Research Mark Matthews shares his views on how US actions in Iran could reshape American influence over global oil flows, saying the impact could be “huge”.",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-02/iran-conflict-s-huge-potential-impact-on-oil-baer-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "41a014869d397fbaf49fd5775da90a5d",
+      "timestamp": "2026-03-02T10:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SocGen Taps UBS’s Cheung to Lead APAC Equity Capital Markets - Societe Generale SA has appointed Selina Cheung as head of equity capital markets in Asia Pacific, as the French lender looks to bolster its business advising on share sales.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/socgen-taps-ubs-s-cheung-to-lead-apac-equity-capital-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab6489b779972a62390de01a097c950f",
+      "timestamp": "2026-03-02T09:40:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran's Nuclear Materials a Risk: Ex-US Energy Secretary - Former US Energy Secretary Ernest Moniz speaks on Bloomberg TV about the risk of Iranian nuclear material being used for offensive purposes as the US continues its operations in Iran. (Source: Bloombe",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-02/iran-s-nuclear-materials-a-risk-ex-us-energy-secretary-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d2e479a042c417d24fb22fa13602522d",
+      "timestamp": "2026-03-02T09:32:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Economists Gauge Hit From Mideast War as China Seen Among Losers - For the past year, economists have modeled the impact of US President Donald Trump’s chaotic trade war. Now, it’s a real war they’re assessing.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-02/economists-gauge-hit-from-mideast-war-as-china-seen-among-losers",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "84cf37a8e4a22f0fe999fe774c491d5a",
       "timestamp": "2026-03-02T09:01:20+09:00",
@@ -13,6 +200,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "fb634b723c20d99c6113d585402b4356",
+      "timestamp": "2026-03-02T08:51:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Aussie to Ride Crowded Bullish Bets for More Gains, Analysts Say - The Australian dollar has scope to extend its advance versus the greenback, strategists say, even as speculative bullish bets on the currency stay near the highest level in more than eight years.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/aussie-to-ride-crowded-bullish-bets-for-more-gains-analysts-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "3dfae529510ab935f9ed6a0dc889f759",
       "timestamp": "2026-03-02T08:46:00+09:00",
       "source_type": "NEWS",
@@ -21,6 +219,17 @@
       "related_tickers": [],
       "content": "Iran War Is 50 Years in the Making, Rep. Darrell Issa Says - Rep. Darrell Issa, a Republican from California and a member of the House Judiciary Committee, discusses the ability of Congress to block further US military action in Iran and says President Donald T",
       "url": "https://www.bloomberg.com/news/videos/2026-03-01/iran-war-is-50-years-in-the-making-rep-issa-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "08d042a75e4ed223f511d4a2ef1c4b83",
+      "timestamp": "2026-03-02T08:36:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "More LNG Tankers Divert From Hormuz in Widening Iran Crisis - Liquefied natural gas tankers set to load shipments in Qatar or the United Arab Emirates appear to be temporarily abandoning those plans, as most shipowners and traders avoid the Strait of Hormuz.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-01/more-lng-tankers-divert-from-hormuz-in-widening-iran-crisis",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1994,215 +2203,6 @@
       "related_tickers": [],
       "content": "Deutscher Rüstungsboom - Die Aufrüstung der Bundeswehr beflügelt die deutsche Wirtschaft mehr als viele erwartet hatten. Die Investitionen könnten möglicherweise sogar wichtiger sein als das Infrastrukturpaket. (Source: Bloom",
       "url": "https://www.bloomberg.com/news/videos/2026-02-28/deutscher-rustungsboom-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b5a58b0169281a845eec273cd61e7c5f",
-      "timestamp": "2026-02-28T14:16:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lithium Producer SQM Sees Global Demand Growing 25% This Year - Top lithium producer SQM said it sees world demand for the battery metal growing about 25% this year, after reporting record quarterly sales volume as the industry emerges from a global glut.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/lithium-producer-sqm-sees-global-demand-growing-25-this-year",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cab459748eaa1feee9f5695992613bba",
-      "timestamp": "2026-02-28T14:13:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Malaysia’s Largest Pension Fund Sets 6.15% Dividend for 2025 - Malaysia’s largest pension fund declared a 6.15% dividend for both its conventional and Shariah savings accounts for 2025, a year where unpredictable trade policies whipsawed markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/malaysia-s-largest-pension-fund-sets-6-15-dividend-for-2025",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f6f29c9d5496e7ed4721fa268699d266",
-      "timestamp": "2026-02-28T13:53:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pakistan, Afghanistan Threaten War in Region Eyed by Superpowers - Pakistan and Afghanistan edged closer to all-out war this week, escalating tensions in a region where the world’s economic superpowers are vying for influence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/pakistan-afghanistan-threaten-war-in-region-eyed-by-superpowers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "74be94c4ea29e27fc001220d39c3cc1d",
-      "timestamp": "2026-02-28T13:14:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Gives Pentagon AI Model Access After Anthropic Dustup - OpenAI has agreed to deploy its own artificial intelligence models within the Defense Department’s classified network after rival Anthropic PBC saw its relationship with the Pentagon implode over surv",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/openai-gives-pentagon-access-to-models-after-anthropic-dustup",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e63e6edf5d8aa47873ae1a13fdeec908",
-      "timestamp": "2026-02-28T12:59:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Fundraising Jumps as Refinancing and Bond Issuance Boom - China’s capital markets rebounded last year, fueled by a surge in equity refinancing and bond issuance, according to the National Bureau of Statistics.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/china-fundraising-jumps-as-refinancing-and-bond-issuance-boom",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "836716f8b3752d52a1e4cf89dad762e0",
-      "timestamp": "2026-02-28T12:55:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CP Group to Sell 10% Stake in True Corp. With UBS as Main Buyer - Thai business conglomerate Charoen Pokphand Group plans to sell a 10% stake in its telecommunications affiliate True Corp., with most of the shares going to UBS Group AG.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/cp-group-to-sell-10-stake-in-true-corp-with-ubs-as-main-buyer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e0d2ea9ad1200bf4cea2a31ace257a57",
-      "timestamp": "2026-02-28T12:12:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "OpenAI Reaches Agreement With Pentagon to Deploy AI Models - OpenAI said it has reached an agreement with the US Department of War to deploy its models in their classified network.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/openai-reaches-agreement-with-pentagon-to-deploy-ai-models",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe72dfb6b4298093c5b89b154a771e76",
-      "timestamp": "2026-02-28T11:58:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bolivia Plane Carrying Bank Cash Crashes, Killing at Least 10 - A Bolivian military aircraft transporting cash for the central bank crashed near El Alto International Airport in the western part of the country, leaving more than 10 people dead and an unspecified n",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/bolivia-plane-carrying-bank-cash-crashes-killing-at-least-10",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "606809dfd4e81feccdae6c0b3d57deb2",
-      "timestamp": "2026-02-28T11:40:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pentagon Casts Cloud of Doubt Over Anthropic’s AI Business - Anthropic PBC started this year on a winning streak, with surging sales, multiple viral products and a large funding round all giving the startup a big advantage in the costly global AI race.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/pentagon-casts-cloud-of-doubt-over-anthropic-s-ai-business",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "606809dfd4e81feccdae6c0b3d57deb2",
-      "timestamp": "2026-02-28T11:40:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pentagon Casts Cloud of Doubt Over Anthropic’s AI Business - Anthropic PBC started this year on a winning streak, with surging sales, multiple viral products and a large funding round all giving the startup a big advantage in the costly global AI race.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/pentagon-casts-cloud-of-doubt-over-anthropic-s-ai-business",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2f5fa0ad69f32bd696ae9ea105ceb084",
-      "timestamp": "2026-02-28T11:20:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Administration Seeks Delay in Tariff Refund Fight - The Trump administration is seeking to delay court proceedings over whether it must refund importers billions of dollars in tariffs recently struck down by the US Supreme Court, marking a contentious ",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/trump-administration-seeks-delay-in-tariff-refund-court-fight",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ccc3b98091f607be58751b0f22825d49",
-      "timestamp": "2026-02-28T09:26:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Slide as Credit Stress, War and AI Fears Weigh | The Close 2/27/2026 - Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Robinhood Markets’ Stephan",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-28/the-close-2-27-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e7fc91c4b87fc798b4cea6a0af13fed0",
-      "timestamp": "2026-02-28T09:15:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ex-Moelis Banker to Plead Guilty in Global Insider Trading Case - A former Moelis &amp; Co. investment banker plans to return to the US from France to plead guilty to tipping off members of a global insider-trading ring.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-28/ex-moelis-banker-to-plead-guilty-in-global-insider-trading-case",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "599117905f50a4cdf865a6bbc81ba42e",
-      "timestamp": "2026-02-28T09:11:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Week | Trump’s Economy, Mistakes Made & Lessons Learned, Sweden’s Modular Homes - This week, President Trump says the economy is roaring, but Harvard’s Jason Furman says the economy is performing at a more slow and steady rate. And, former Sony executive Michael Lynton revisits the",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-28/wall-street-week-mistakes-made-sweden-s-modular-homes-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1f3e81a0637148e32c13e2a6e60ebb13",
-      "timestamp": "2026-02-28T09:04:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "President Trump’s Economy: Boom, Bust, or Business as Usual? - President Trump says inflation is plunging, incomes are rising, and the economy is “roaring.” Former Obama economic adviser Jason Furman offers a reality check. Growth has been steady and unemployment",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-28/trump-s-economy-boom-bust-or-business-as-usual-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a432ee970b2ef95295d4100e0859dc3",
-      "timestamp": "2026-02-28T08:56:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Key to a Healthy Woman's Heart - February is American Heart Month, known as a critical time for bringing increased attention to cardiovascular health and the prevention of heart disease, which is the leading cause of death in the US.",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/the-key-to-a-healthy-woman-s-heart-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "af935dcd358e523182a86748851dfd99",
-      "timestamp": "2026-02-28T08:52:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Raising Cane's CEO on International Expansion Plans - AJ Kumaran, COO and Co-CEO of Raising Cane’s, discusses the restaurant chain’s growth. He tells Romaine Bostick and Bailey Lipschultz on “The Close” that the company has no plans to go public. (Source",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/raising-cane-s-ceo-on-international-expansion-plans-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a07a7a23f4d68131347ae2a67346d53",
-      "timestamp": "2026-02-28T08:51:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Charlotte Hornets Aim to Generate Buzz Under New Owners - Shelly Cayette-Weston, President of Business Operations for the Charlotte Hornets, discusses the team’s strategic initiatives to enhance the fan experience and drive economic development in Charlotte.",
-      "url": "https://www.bloomberg.com/news/videos/2026-02-27/charlotte-hornets-aim-to-generate-buzz-under-new-owners-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6529c307d654262504a4b72a294caa1c",
-      "timestamp": "2026-02-28T08:51:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Paramount’s $57.5 Billion of Warner Debt to Mix Junk, High Grade - Paramount Skydance Corp.’s takeover of Warner Bros. Discovery Inc. is expected to feature an unusual combination of investment-grade and junk-rated debt, as Wall Street banks turn to as many markets a",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-27/paramount-s-57-5-billion-of-warner-debt-to-mix-junk-high-grade",
       "sentiment": "NEUTRAL"
     }
   ]
