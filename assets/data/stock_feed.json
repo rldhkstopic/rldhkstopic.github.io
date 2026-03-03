@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-03-03T12:02:16.643222+09:00",
+  "last_updated": "2026-03-03T13:35:40.282602+09:00",
   "items": [
+    {
+      "id": "d990b9568155d5c886c70abe35c4d4b4",
+      "timestamp": "2026-03-03T13:21:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Drone Strikes Damage Amazon Data Centers in the UAE and Bahrain - Amazon.com Inc.’s cloud unit warned of prolonged disruptions to its services after revealing that drone strikes damaged three of its data centers in the Middle East in recent days.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/drone-strikes-damage-amazon-data-centers-in-the-uae-and-bahrain",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ec088fdc8aa45c857e945b22a5ce663a",
+      "timestamp": "2026-03-03T13:15:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US, China Trade Chiefs to Meet Mid-March Before Trump-Xi Summit - US and Chinese trade negotiators are slated to meet in mid-March, according to people familiar with the matter, signaling a planned summit between Donald Trump and Xi Jinping is pushing ahead despite ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/us-china-trade-chiefs-to-meet-mid-march-before-trump-xi-summit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9abad92987d04c14a397396549d157c2",
+      "timestamp": "2026-03-03T13:09:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Traders Stick With Hong Kong Stocks as ETF Inflows Surge - Chinese mainland investors persist in buying Hong Kong stocks, despite their underperformance in Asia, chasing dip-buying opportunities.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/china-traders-stick-with-hong-stocks-as-etf-inflows-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dce98b58877a0463bac3217fd75532b1",
+      "timestamp": "2026-03-03T13:00:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Headless Iran Is Still Dangerous for Markets - <p>Until now, there had been no significant military reprisals to Trump 2.0’s actions.</p>",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-03/iran-war-a-headless-regime-is-still-dangerous-for-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "047a2777ddee7dce5bebfc0289bf1ee1",
+      "timestamp": "2026-03-03T12:51:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Damaged Buildings, Vehicles Seen After Strikes on Iran - President Donald Trump has vowed to do “whatever it takes” in the ongoing war with Iran.\n\nIn Tehran, footage shows damaged buildings and vehicles as well as rescue crew on the ground in the aftermath ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-03/damaged-buildings-vehicles-seen-after-strikes-on-iran-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fef8710ffad33311aa23c4832e765a35",
+      "timestamp": "2026-03-03T12:43:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Singapore’s AI Mission Includes Training Lawyers, Prison Inmates - Singapore is on a quest to uplift its workforce by equipping lawyers, accountants and even prisoners with artificial intelligence skills.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/singapore-s-ai-mission-includes-training-lawyers-prison-inmates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c8b00b3d4df4c1645de9b3ca5fb2c27d",
+      "timestamp": "2026-03-03T12:40:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan 10-Year Bond Sale Steady Amid Shaky Geopolitical Backdrop - Japan’s 10-year government bond auction drew steady demand, offering some relief as a widening conflict in the Middle East revives inflation concerns across global markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/japan-10-year-bond-sale-demand-stronger-than-12-month-average",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "82c428f1d53b4e7cc89bab641f26fde0",
+      "timestamp": "2026-03-03T12:17:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Marcos Says Philippines Has Ample Oil as Conflict Roils Markets - Philippine President Ferdinand Marcos Jr. said his country has ample stockpiles of oil as the conflict in the Middle East raises fears of supply disruptions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/marcos-says-philippines-has-ample-oil-as-conflict-roils-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "82c428f1d53b4e7cc89bab641f26fde0",
+      "timestamp": "2026-03-03T12:17:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Marcos Says Philippines Has Ample Oil as Conflict Roils Markets - Philippine President Ferdinand Marcos Jr. said his country has ample stockpiles of oil as the conflict in the Middle East raises fears of supply disruptions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/marcos-says-philippines-has-ample-oil-as-conflict-roils-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6d9df584c788669f5c8a3bf387418868",
+      "timestamp": "2026-03-03T12:08:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Petronas Sees No Disruption from Mideast Conflict for Now - Malaysian energy giant Petroliam Nasional Bhd. said it is closely monitoring the conflict in the Middle East even though it has seen no direct impact on its operations so far.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/malaysia-s-petronas-monitors-mideast-conflict-with-concern",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9f93a5209ecd44e4e83b80ac25dcf728",
+      "timestamp": "2026-03-03T12:01:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Singapore Taps JPMorgan, UBS to Push Regional Gold Hub Ambition - Singapore is cranking up efforts to turn itself into a regional gold hub, tapping local and international banks including JPMorgan Chase &amp; Co. and UBS Group AG to help boost liquidity and make the",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/singapore-taps-jpmorgan-ubs-to-push-regional-gold-hub-ambition",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "a0083a6eb5d817a34217a7279f0f5e8a",
       "timestamp": "2026-03-03T11:57:24+09:00",
@@ -10,6 +131,28 @@
       "related_tickers": [],
       "content": "'Lack of Clarity' On US Iran Goals, No Off Ramp: Analyst - Mona Yacoubian, Director and Senior Adviser of the Middle East Program at the Center for Strategic and International Studies, discusses the limitations of the US administration's policy towards the co",
       "url": "https://www.bloomberg.com/news/videos/2026-03-03/-lack-of-clarity-on-us-iran-goals-no-off-ramp-analyst-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "136db859f1c8914be50fd9edcccc0c0b",
+      "timestamp": "2026-03-03T11:55:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s AI Listings Boom Leaves Investors Flying Blind - A flurry of stock market listings by Chinese artificial intelligence companies has opened up a gap in analyst coverage as brokerages struggle to keep up with the breakneck pace of the debuts.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-03/china-s-ai-listings-boom-leaves-investors-flying-blind",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f36bd9972fafb1b3b2b714f810f2f5d3",
+      "timestamp": "2026-03-03T11:48:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Vows ‘Whatever It Takes’ on Iran as Conflict Widens - The US sent conflicting messages about how long a war with Iran might last as Israel launched new airstrikes on Monday, with the widening conflict reverberating across the Middle East and upending ene",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-03/trump-whatever-it-takes-on-iran-as-conflict-widens-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2064,149 +2207,6 @@
       "related_tickers": [],
       "content": "Oracle Loses Health Unit Leaders With Ellison’s Bet Struggling - Oracle Corp.’s health records division has lost multiple senior leaders in recent months while the company works to modernize its software in the face of steep customer loses.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-02/oracle-loses-health-unit-leaders-with-ellison-s-bet-struggling",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b5580d27315b988f431784bb4a02089e",
-      "timestamp": "2026-03-02T22:30:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Caisse Executive Says Private Credit Concerns Are Overblown - Pension manager Caisse de Depot et Placement du Quebec missed many of its return benchmarks last year &mdash; but not in credit, where the group earned a 9.6% return.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/caisse-markets-head-says-private-credit-concerns-are-overblown",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "143c0da867c79cd72bb699b4b97f4416",
-      "timestamp": "2026-03-02T22:30:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bulgaria’s Ex-President Launches Coalition to Run in Snap Vote - Bulgaria’s former President Rumen Radev took the first formal step to running in the next general election in a bid to end the Balkan nation’s years-long political turmoil.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/bulgaria-s-ex-president-launches-coalition-to-run-in-snap-vote",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "461113868ad616e5f2d378b3721253b7",
-      "timestamp": "2026-03-02T22:26:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hegseth Denies That Iran Campaign Will Turn Into Endless War - Defense Secretary Pete Hegseth rejected the idea that the war against Iran would be the sort of endless conflict that President Donald Trump swore to avoid when he took office a second time, saying “o",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/hegseth-denies-that-iran-campaign-will-turn-into-endless-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "201c12a5420454670504f3f14c897eb5",
-      "timestamp": "2026-03-02T22:17:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nvidia to Invest $4 Billion in Data Center Optics Companies - Nvidia Corp. agreed to invest $4 billion in two companies that develop data center optics that are essential for artificial intelligence systems.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/nvidia-to-invest-4-billion-in-data-center-optics-companies",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b37bee09e4d7ac67ee4491f9f5a1a810",
-      "timestamp": "2026-03-02T22:15:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Crisis: Oil Spikes, Trump Says Iran Attacks May Last Weeks | The Opening Trade 3/2/2026 - Oil surged the most in four years as traders gauged the impact of the effective closure of the Strait of Hormuz triggered by US and Israeli strikes against Iran, with hostilities escalating across the",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-02/the-opening-trade-3-2-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c71597dcc4648792eee2410731fb065a",
-      "timestamp": "2026-03-02T22:08:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Crisis Is Intensifying the Oil Market’s Bullish Turn - Expectations for a glut of barrels are shifting to concerns about their safety.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-02/iran-crisis-is-intensifying-the-oil-market-s-bullish-turn",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "92731782c463a76248ff85ae46f72408",
-      "timestamp": "2026-03-02T22:05:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Iran Bombing Could Last Weeks, Tehran Defiant | The Pulse 3/2/2026 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-02/the-pulse-3-2-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6d6d2261bdc2fd4d246c176a03cd0e8e",
-      "timestamp": "2026-03-02T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Travel-Booking Platform Navan Unveils AI ‘Executive Assistant’ - Navan Inc. is rolling out an artificial-intelligence assistant aimed at helping the corporate travel-booking platform win more business customers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/travel-booking-platform-navan-unveils-ai-executive-assistant",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "601b1a8387d33e988be80c5d6cfc813d",
-      "timestamp": "2026-03-02T21:57:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders Trim BOE Bets, See Less Than 50% Chance of Cut in March - Traders aggressively trimmed bets on Bank of England interest-rate cuts, after soaring energy prices fueled inflation fears.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/traders-trim-boe-bets-see-less-than-50-chance-of-cut-in-march",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "58e078094dccdb01763ff406e7a96b56",
-      "timestamp": "2026-03-02T21:45:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Premarket Movers: AES, Amazon, American Air, Exxon, UniQure - S&amp;P 500 Index futures are down 1.2% as of 7:45 a.m. in New York as the eruption of military conflict in Iran rattled global markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/us-stock-futures-today-aes-amazon-american-air-exxon-uniqure",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "35e261a0cdf148365f02a425f09ce467",
-      "timestamp": "2026-03-02T21:31:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blackstone’s BREIT Records Net Inflows for First Time Since 2022 - Blackstone Inc.’s $55 billion real estate fund for wealthy individuals last month took in more money from investors than it paid out for the first time since 2022, a sign of rebounding sentiment in th",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/blackstone-s-breit-records-net-inflows-for-first-time-since-2022",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fdee601fa3de4b36f4cb59b39fafcd75",
-      "timestamp": "2026-03-02T21:31:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Crisis Latest: US Fighter Jets Downed in Kuwait - The US says three fighter jets were downed in “friendly fire” over Kuwait as strikes across the Middle East continued for a third day. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-02/iran-crisis-latest-us-fighter-jets-downed-in-kuwait-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d6b9d758b79424ff781926b23e612e58",
-      "timestamp": "2026-03-02T21:30:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia, Ukraine Plan for US-Led Peace Talks Despite War in Iran - Russia and Ukraine still expect planned US-led peace talks to take place this week, even as President Donald Trump’s administration continues a military campaign against Iran.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-02/russia-ukraine-plan-for-us-led-peace-talks-despite-war-in-iran",
       "sentiment": "NEUTRAL"
     }
   ]
