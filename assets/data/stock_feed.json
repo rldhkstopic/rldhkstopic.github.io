@@ -1,6 +1,338 @@
 {
-  "last_updated": "2026-03-04T21:11:54.205579+09:00",
+  "last_updated": "2026-03-04T23:16:17.298044+09:00",
   "items": [
+    {
+      "id": "0810a30ce3b07a5a5065c21840d9d1b5",
+      "timestamp": "2026-03-04T23:11:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Operatives Made Offer to Discuss Ending War: NYT - Iranian operatives made indirect contact with the US the day after attacks began to negotiate an end to the conflict, according to a report in the New York Times. Tyler Kendall reports on Bloomberg Te",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/iran-operatives-made-offer-to-discuss-ending-war-nyt-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7c1934ee327f5e53e2e77c78c225fec",
+      "timestamp": "2026-03-04T23:10:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed's Miran Still Wants Rate Cuts Despite Iran War - Federal Reserve Governor Stephen Miran says it's still appropriate to cut interest rates despite the war with Iran. He speaks on Bloomberg Surveillance. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/fed-s-miran-still-wants-rate-cuts-despite-iran-war-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3b28ca87897e46bdb4f07b0f5a3431b9",
+      "timestamp": "2026-03-04T22:57:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Expects to Be Exempt from US Universal Tariff Boost to 15% - The European Union expects that the US won’t increase its universal tariff on the bloc to 15%, even after Treasury Secretary Scott Bessent said the higher rate would likely go into effect this week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/eu-expects-to-be-exempt-from-us-universal-tariff-boost-to-15",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3265224d96a09606b50cd7ad80cafd5b",
+      "timestamp": "2026-03-04T22:45:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Cuba Allows Public-Private Ventures as US Pushes to Open Economy - Cuba authorized private companies to partner with state-run enterprises, a tentative step to loosen its grip on the economy as Havana struggles to provide basic services under intense pressure from Wa",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/cuba-allows-public-private-ventures-as-us-pushes-to-open-economy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65eeb09fe38c278e480a4686a9157b7e",
+      "timestamp": "2026-03-04T22:44:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hegseth Boasts of ‘Historic’ Campaign Against Iranian Military - Defense Secretary Pete Hegseth said the US and Israel are on the cusp of taking complete control of Iran’s airspace as he laid out plans to step up attacks deeper in the country as its defenses are de",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/hegseth-boasts-of-historic-campaign-against-iranian-military",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aeaf87bd94b008a871efc8fbf7b11c09",
+      "timestamp": "2026-03-04T22:30:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Airlines Based in the Gulf Are ‘Living the Worst-Case Scenario’ - Every airline has contingency plans to manage disruptions from extreme weather or mechanical failures, but those based in the Middle East always have another item on their list: war.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/airlines-based-in-the-gulf-are-living-the-worst-case-scenario",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "afa72fe5d26db79ecb1e16edf50db0a7",
+      "timestamp": "2026-03-04T22:30:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sony Pulls Back From PlayStation Games on PC - <p>The video-game publisher no longer plans to put out PC ports of PlayStation games such as ‘Ghost of Yotei’</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/sony-pulls-back-from-playstation-games-on-pc",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a1d2f1e41840da097ed3ef0789f39bec",
+      "timestamp": "2026-03-04T22:28:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Small Container Ship Struck While Transiting Hormuz, UK Says - The UK Navy said that a container ship was a hit by an unknown projectile while transiting the Strait of Hormuz as conflict continues to menace commercial shipping in the region.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/small-container-ship-struck-while-transiting-hormuz-uk-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2823bd0341c17dee8eafb37827baefb7",
+      "timestamp": "2026-03-04T22:22:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Leaders Set to Call for Measures to Lower Power Prices - European Union leaders will direct the bloc’s executive arm to propose measures to lower power prices to aid local industries when they meet at a summit later this month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/eu-leaders-set-to-call-for-measures-to-lower-power-prices",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2823bd0341c17dee8eafb37827baefb7",
+      "timestamp": "2026-03-04T22:22:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Leaders Set to Call for Measures to Lower Power Prices - European Union leaders will direct the bloc’s executive arm to propose measures to lower power prices to aid local industries when they meet at a summit later this month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/eu-leaders-set-to-call-for-measures-to-lower-power-prices",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "48b7e6ace6bab7b1a53e56d54d7a3e7c",
+      "timestamp": "2026-03-04T22:17:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russian Oil Remains Cheap Even as War Threatens Global Supplies - Russia’s flagship crude blend is still trading at deep discounts despite a global oil rally driven by the growing escalation in the Middle East.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/russian-oil-remains-cheap-even-as-war-threatens-global-supplies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd86d63461a2873ecf38e34beaf39638",
+      "timestamp": "2026-03-04T22:16:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russian Support for Peace With Ukraine Hits New High, Poll Shows - A record number of Russians favor peace negotiations over continuing the Kremlin’s war on Ukraine, even as support for the military action remains high, according to an opinion poll.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/russian-support-for-peace-with-ukraine-hits-new-high-poll-shows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f6ed7d61919444dfc924c639c07c4a18",
+      "timestamp": "2026-03-04T22:10:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Traders Look to Ukraine Conflict to Map Out Market Risks From Iran - Uncertainty about how long the conflict in Iran could last is forcing investors to look to recent history as a guide for markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/traders-turn-to-2022-playbook-to-map-out-market-risks-from-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ad67c31322721109635a0519c47f3708",
+      "timestamp": "2026-03-04T22:06:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stock Futures Erase Gains as Bessent Signals Tariffs Coming - Stock futures erased earlier gains after the Trump administration signaled that global 15% tariff on US imports would likely take effect this week, adding a further potential disruption to markets alr",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/stock-futures-erase-gains-as-bessent-signals-tariffs-coming",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1de0efedadcb8619b2c0f25eee7f2cd8",
+      "timestamp": "2026-03-04T22:05:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Pledges Safe Passage of Oil, US Allies Question War - Oil pared gains and markets steadied after the NYT reported of Iran’s attempted outreach with an offer to discuss terms for ending the war. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/trump-pledges-oil-s-safe-passage-us-allies-question-war-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d2cb2780452a4854fe98ab3988c3fedf",
+      "timestamp": "2026-03-04T22:00:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hormuz Convoys Won’t Fix Vital Oil and Gas Flows Overnight - US military escorts are urgently needed, but it’s ultimately the ship captains who decide whether to sail.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-04/iran-war-hormuz-convoys-won-t-fix-vital-oil-and-gas-flows-overnight",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c9ebe1f3c667aba9bf5463e7971ae779",
+      "timestamp": "2026-03-04T22:00:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran’s $7.8 Billion Crypto Market Draws Fresh Attention in War - The US-Israeli war on Iran is putting renewed focus on the country’s $7.8 billion cryptocurrency market, which citizens and authorities there have increasingly turned to for storing and sending money ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/iran-s-7-8-billion-crypto-market-draws-fresh-attention-in-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7fd3b9004533a729042934ecf77e034c",
+      "timestamp": "2026-03-04T22:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Messi’s Inter Miami Inks Stadium Deal With Brazilian Fintech Nu - Inter Miami CF, the home of superstar Lionel Messi, signed a deal with Nu Holdings that gives the financial technology behemoth naming rights for the team’s new stadium and space on its famous pink je",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/messi-s-inter-miami-inks-stadium-deal-with-brazilian-fintech-nu",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7a2f506b340092821918a0a367350aa4",
+      "timestamp": "2026-03-04T21:51:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Financial Leaders Speak at Bloomberg Invest Summit",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-03-04/bloomberg-invest-conference-day-2",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "273b20d306c5ee17a071d0d17b2decf8",
+      "timestamp": "2026-03-04T21:47:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippines Arrests Filipino Nationals Accused of Spying for China - The Philippine government has apprehended Filipino nationals found to be allegedly engaged in espionage activities on behalf of China, according the state’s security agency.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/philippines-arrests-filipino-nationals-accused-of-spying-for-china",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e24a44ceacd7790677cba88aebcec19a",
+      "timestamp": "2026-03-04T21:42:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stock Crash Wipes Out Leveraged Bets in Korea, Sowing Panic - As South Korean stocks crashed Wednesday afternoon, panic spread through Seoul’s financial district. At the small downtown office of Mirae Asset Securities, scores of clients hurriedly lined up to get",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/stock-crash-wipes-out-leveraged-bets-in-korea-sowing-panic",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cdf3a2482b69561e51e6108a1f995e17",
+      "timestamp": "2026-03-04T21:32:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bessent Says Trump’s Tariff Hike to 15% Likely This Week - Treasury Secretary Scott Bessent said that President Donald Trump’s plan to increase a 10% universal tariff up to 15% will likely be done this week.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/bessent-says-trump-s-tariff-hike-to-15-likely-coming-this-week",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9609e07b58e28943b8bc6361a99c5f44",
+      "timestamp": "2026-03-04T21:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Argentina’s Ualá Reaches $3.2 Billion Valuation in New Funding Round - Argentine fintech Ualá said it has raised $195 million in an equity funding round led by Allianz X, the venture capital arm of Germany’s insurance giant Allianz SE, that values the company at $3.2 bil",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/uala-reaches-3-2-billion-valuation-in-195-million-round-led-by-allianz-x",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b289dd0de4de1f1afd32923cdfc87d3f",
+      "timestamp": "2026-03-04T21:29:40+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US to Exempt Rosneft’s German Unit From Sanctions Indefinitely - The US will exempt the German unit of Rosneft PJSC from sanctions against the Russian oil major indefinitely, according to a person familiar with the matter, marking a win for Berlin after intense dip",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/us-to-exempt-rosneft-s-german-unit-from-sanctions-indefinitely",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c5d44c9d8c7ca0a9eba4fb1913fe1d79",
+      "timestamp": "2026-03-04T21:26:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Labour MP’s Partner Arrested on Suspicion of Assisting China - UK police arrested three men accused of assisting China’s foreign intelligence service &mdash; one of whom is married to a sitting Labour member of parliament &mdash; highlighting Britain’s ongoing ch",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/uk-police-arrest-three-men-accused-of-helping-chinese-spies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a43779c07c6a69f429e2962621e5eed4",
+      "timestamp": "2026-03-04T21:20:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NATO Shoots Down Iranian Ballistic Missile Headed for Turkey - The North Atlantic Treaty Organization shot down a ballistic missile that was fired from Iran and headed toward Turkish airspace on Wednesday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/nato-shoots-down-iranian-ballistic-missile-headed-for-turkey",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "442eb9add02193f2966a3681e782b069",
+      "timestamp": "2026-03-04T21:15:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi CEO Just Bought $1 Million of His Own Stock — And Analysts Think It Could Hit $26 - SoFi Technologies (NASDAQ: SOFI) has had a rough start to 2026. Shares are down 28.9% year-to-date, pulling back from a 52-week high of $32.73 to around $18.61. But when a CEO spends $1 million of his",
+      "url": "https://247wallst.com/investing/2026/03/04/sofi-ceo-just-bought-1-million-of-his-own-stock-and-analysts-think-it-could-hit-26/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "05f07d4f7f728c6e3aabb2f1790c9f75",
+      "timestamp": "2026-03-04T21:12:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Budget Is Vulnerable to Stock-Market Correction, OBR Warns - UK Chancellor of the Exchequer Rachel Reeves’ budget plans are highly vulnerable to a stock market correction amid an equities rout after the outbreak of war in the Middle East.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/reeves-vulnerable-to-stock-market-correction-uk-watchdog-warns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dd8526e25ffb5ddb20aa72ae154c40a8",
+      "timestamp": "2026-03-04T21:10:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Facing ‘Crisis of Shipping’ With No Obvious Solution, Analyst Sankey Says - Paul Sankey, president at Sankey Research, says the global oil market needs to see a resolution reached by Friday to guarantee the movement of oil tankers through the Strait of Hormuz. (Source: Bloomb",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/oil-facing-crisis-of-shipping-analyst-sankey-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dd416437e403281e4d3782f6d36857a7",
+      "timestamp": "2026-03-04T21:07:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War: Major German Company Warns Investors Of Conflict Risk | The Pulse 3/4 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/the-pulse-3-4-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d5e58cf3fd4e07b53f7e5c9a85d85cd2",
       "timestamp": "2026-03-04T21:06:25+09:00",
@@ -13,6 +345,28 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "4d5e2f3d91a89b1d3e8b0845bc0b8a2e",
+      "timestamp": "2026-03-04T21:03:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Pledges Safe Mideast Oil Transit, Chance of Quick Iran War Fades | The Opening Trade 3/4/2026 - Stocks deepened losses as fading hopes for a swift end to the war in Iran amplified concerns about a spike in the price of oil and its knock-on effect on the economy.\n\nPresident Donald Trump said the ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/the-opening-trade-3-4-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7d454ffcf053f19b3d85613d148ee9d",
+      "timestamp": "2026-03-04T21:02:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Futures Rise on Iran Contact Report; Primary Election Results | Bloomberg Brief 3/4/2026 - US equity futures rebound and oil pare gains after a report that Iran made indirect contact with the US to negotiate an end to the war with Iran. US primary election results signal the road for Republ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/bloomberg-brief-3-4-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "74ea7c1fce9992be3b05ba3c9a9c8cec",
       "timestamp": "2026-03-04T21:02:01+09:00",
       "source_type": "NEWS",
@@ -21,6 +375,39 @@
       "related_tickers": [],
       "content": "Anthropic-Pentagon Dispute Sparks Debate on Limits of Battlefield AI - How much autonomy is too much for weapons directed by AI?",
       "url": "https://www.bloomberg.com/news/newsletters/2026-03-04/anthropic-pentagon-dispute-raises-issue-of-deadly-ai-on-the-battlefield",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5dfdede6ba67ff4c90ab7180e5faffd9",
+      "timestamp": "2026-03-04T21:00:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prediction Markets Roll Out New War Bets Beyond Washington’s Reach - Polymarket opened more than a dozen new contracts tied to the Iran conflict since Saturday, including bets on regime change and Houthi strikes on Israel, as geopolitical wagers hit a record.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/prediction-markets-roll-out-new-war-bets-beyond-washington-reach",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5dfdede6ba67ff4c90ab7180e5faffd9",
+      "timestamp": "2026-03-04T21:00:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prediction Markets Roll Out New War Bets Beyond Washington’s Reach - Polymarket opened more than a dozen new contracts tied to the Iran conflict since Saturday, including bets on regime change and Houthi strikes on Israel, as geopolitical wagers hit a record.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/prediction-markets-roll-out-new-war-bets-beyond-washington-reach",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1b10ed8d1d35a374410f9a20942566cf",
+      "timestamp": "2026-03-04T21:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Soaring Power Prices Have US Politicians Searching for Solutions - US politicians are scrambling to tame the soaring cost of electricity that threatens to upend this year’s congressional elections.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/soaring-power-prices-have-us-politicians-searching-for-solutions",
       "sentiment": "NEUTRAL"
     },
     {
@@ -76,6 +463,17 @@
       "related_tickers": [],
       "content": "Germany Names Felbermayr as New Adviser to Merz on Economy - Germany picked Gabriel Felbermayr to succeed Ulrike Malmendier on the council of economic experts, which advises the government.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-04/germany-names-felbermayr-as-new-adviser-to-merz-on-economy",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "67cc096043ace5751cc06cf2996b07c7",
+      "timestamp": "2026-03-04T20:23:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Banco Master Owner Sent Back to Jail in Brazil, Report Says - Brazil Supreme Court Justice André Mendonça ordered the arrest of Banco Master SA owner Daniel Vorcaro, citing the risk that he would meddle in investigations into the failed lender and evidence that ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/banco-master-owner-sent-back-to-jail-in-brazil-newspaper-says",
       "sentiment": "NEUTRAL"
     },
     {
@@ -483,6 +881,17 @@
       "related_tickers": [],
       "content": "US Tells Non-Emergency Lahore, Karachi Staff to Leave Pakistan - The US ordered its non-emergency staff and their family members working at its consulates in Lahore and Karachi to leave Pakistan, citing the risk of terrorist attacks after deadly protests erupted fo",
       "url": "https://www.bloomberg.com/news/articles/2026-03-04/us-tells-non-emergency-lahore-karachi-staff-to-leave-pakistan",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1ed9d6d40a90bee97cbb6d4884087cbe",
+      "timestamp": "2026-03-04T17:26:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Stocks Rebound on Hopes of Quick Iran War Resolution - European stocks saw their biggest gain since May on increased investor optimism for a short-lived conflict in the Middle East.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/european-stocks-post-modest-rebound-after-steep-two-day-drop",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1798,415 +2207,6 @@
       ],
       "content": "Assessing SoFi Technologies (SOFI) Valuation After Recent Share Price Swings - SoFi Technologies (SOFI) is back in focus after recent share price swings, with the stock showing gains over the past year but declines over the past month and over the past three months. See our late",
       "url": "https://finance.yahoo.com/news/assessing-sofi-technologies-sofi-valuation-220551352.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3c56e28fdfc2caadc05c8b982ca172ef",
-      "timestamp": "2026-03-04T07:05:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AllianceBernstein's Andrew Chin on Efficiency, Use Cases and AI Guardrails - Andrew Chin, AllianceBernstein Chief AI Officer, discusses efficiency, use cases and AI guardrails. He speaks with Bloomberg’s Tim Stenovec and Carol Massar from the Bloomberg Invest conference in New",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/andrew-chin-on-efficiency-use-cases-and-ai-guardrails-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ed1a5e6341378234f4d031ae67b7a6a1",
-      "timestamp": "2026-03-04T07:01:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carney Says Middle East War Shows Failure of Rules-Based Order - Canadian Prime Minister Mark Carney said his support for US military action in Iran came “with regret” because the current conflict is another example of the failure of the international order.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/carney-urges-us-israel-to-respect-rules-of-engagement-in-iran",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b4272c51d0bb8b3856bdef7eb2ffe14",
-      "timestamp": "2026-03-04T07:01:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How the Investing World Is Reacting to Iran War - President Donald Trump warns strikes on Iran could last weeks &mdash; and tells Tehran to stand down. Oil surges the most in four years as tanker traffic stalls in the Strait of Hormuz and a key Saudi",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/how-the-investing-world-is-reacting-to-iran-war-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3bdd9004d2722adf994e4eabe3b0db69",
-      "timestamp": "2026-03-04T06:59:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Blackstone Senior Staff Opened Wallets With Flagship Private Credit Fund Under Pressure - Executives at Blackstone Inc. had a decision to make.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/blackstone-senior-staff-opened-wallets-with-bcred-under-pressure",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c63a03683b084e1b468895bccc06c46",
-      "timestamp": "2026-03-04T06:53:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Clerical Body Targeted; Trump Spars With UK, Spain - President Trump said Tuesday that an attack on Iran’s leadership was “pretty substantial,” but declined to provide further details. Meanwhile, during a White House meeting with German Chancellor Fried",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/iran-clerical-body-targeted-trump-spars-with-uk-spain-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "51d4bfa5dbfc1cc4e96c164c35165da8",
-      "timestamp": "2026-03-04T06:53:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Citi's Chronert Expects Stock Volatility to Persist Near Term - Scott Chronert, Citi US equity strategist, says the duration of the conflict in Iran is critical for stocks and will lead to short-term volatility but overall stocks are in good shape. He speaks on \"B",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/citi-s-chronert-expects-short-term-volatility-to-persist-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ff056bb822d66640c80018505b31002",
-      "timestamp": "2026-03-04T06:48:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The White House’s Shifting Explanations for the Iran War - <p>On today’s Big Take: As the war with Iran widens in the Middle East, tensions are rising on Capitol Hill.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/white-house-seeks-congress-s-support-for-iran-war-big-take-podcast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c4f70cd03ea414d5953a77eddb0a496e",
-      "timestamp": "2026-03-04T06:46:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Worried an Even Worse Leader Could Take Over Iran - President Donald Trump is worried about who could run Iran next. “I guess the worst case would be, we do this, and then somebody takes over, who’s as bad as the previous person, right? That could happ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/trump-worried-an-even-worse-leader-could-take-over-iran-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7b8948fea1ae83249b306dad387b751c",
-      "timestamp": "2026-03-04T06:34:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "On CEO: See Incredible Demand Across Asia - On Holdings shares dipped Tuesday following a net sales outlook falling short of estimates. Despite the company having its worst trading day since August, On Holdings CEO Martin Hoffmann believes dema",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/on-ceo-see-incredible-demand-across-asia-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "314b1e8d73071c4f2fb47c3360d3f5f1",
-      "timestamp": "2026-03-04T06:31:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ross’ Sales Growth View Beats As Off-Price Goods Win Consumers - Ross Stores Inc. forecast same-store sales growth for its upcoming fiscal year that topped analyst estimates as the off-price retailer continues to capitalize on affordability woes by selling luxury i",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/ross-sales-growth-view-beats-as-off-price-goods-win-consumers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cd059b240a9a8ae782b222c4c0fb2695",
-      "timestamp": "2026-03-04T06:30:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump’s Fed Chair Pick Faces Obstacles to Delivering on Rate Cuts - War and the economy may make some Fed policymakers more cautious.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-03/trump-s-fed-chair-pick-faces-obstacles-to-delivering-on-rate-cuts",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2ef6cdfe2b24414e565d7a15fe1807e3",
-      "timestamp": "2026-03-04T06:30:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bond Traders Curb Rate Cut Bets as War Stokes Inflation Worries - Traders in the futures markets are sharply reducing expectations for interest rate cuts from the Federal Reserve, as the war with Iran drives fears of an inflationary resurgence.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/bond-traders-curb-rate-cut-bets-as-war-stokes-inflation-worries",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a31cb61952a65d259545a5336454aece",
-      "timestamp": "2026-03-04T06:27:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lula’s Son Has Bank Secrecy Lifted by Senate in Fraud Probe - President Luiz Inacio Lula da Silva’s son is facing mounting scrutiny from a congressional committee probing alleged fraud in Brazil’s national pension system, posing risk to the leftist leader ahead ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/lula-s-son-has-bank-secrecy-lifted-by-senate-in-fraud-probe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0386e09bc5a4b0ed80fb7f6dca8ee11d",
-      "timestamp": "2026-03-04T06:19:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Businessweek Live at Bloomberg Invest | Bloomberg Businessweek Daily 3/03/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss a risk-off move gripping markets to start Tuesday as investors digest Iran war headwinds. Brookfield Asset Man",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/bloomberg-businessweek-daily-3-03-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f38d2cbebf7af37c71c59341e71d1546",
-      "timestamp": "2026-03-04T06:16:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Fall as Middle East War Widens | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Bailey Lipschultz and Michael Ball. (Source: ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/stocks-fall-as-middle-east-war-widens-closing-bell-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "653185b6eb01207fb4ed9b9f4a631d16",
-      "timestamp": "2026-03-04T06:15:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Merz Says EU Won’t Accept US Trade Deal on Worse Tariff Terms - German Chancellor Friedrich Merz told President Donald Trump that he wants the European Union’s trade agreement with the US to be implemented quickly but the bloc can’t accept a deal with worse condit",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/merz-says-eu-won-t-accept-us-trade-deal-on-worse-tariff-terms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa35116fd20366507e315a1179194897",
-      "timestamp": "2026-03-04T06:14:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Drone Attack Causes ‘Limited’ Fire Near US Consulate in Dubai - A drone attack caused a “limited” fire near the US consulate in Dubai, the latest American diplomatic facility in the Persian Gulf to be targeted during the war with Iran.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/drone-attack-causes-limited-fire-near-us-consulate-in-dubai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6176f10cc6cbcca2f3d54f2e57937520",
-      "timestamp": "2026-03-04T06:12:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CrowdStrike Issues Sales Outlook Matching Wall Street Estimates - CrowdStrike Holdings Inc. projected quarterly sales that were roughly in line with analysts’ estimates, signaling steady demand in an era when artificial intelligence has heightened concerns over cybe",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/crowdstrike-issues-sales-outlook-matching-wall-street-estimates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7d1c97e18ea9997139d0b596cf0e40cf",
-      "timestamp": "2026-03-04T06:06:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Alex Rodriguez on Sports Investing and Latest Episode of 'The Deal' Podcast - Alex Rodriguez, A-Rod Corp Chairman and CEO, discusses sports investing in 2026 and the latest episode of 'The Deal' podcast. He speaks with Bloomberg’s Tim Stenovec and Carol Massar from the Bloomber",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/alex-rodriguez-on-sports-investing-and-the-deal-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "85fa83343e8cf1bfb3375142d599fc93",
-      "timestamp": "2026-03-04T06:02:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock's Samara Cohen on Public Markets and Role of Tokenization - Samara Cohen, BlackRock's Global Head of Market Development, discusses public markets and the role of Tokenization. She speaks with Bloomberg’s Tim Stenovec and Carol Massar from the Bloomberg Invest ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/blackrock-s-samara-cohen-on-public-markets-tokenization-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3a618648f9ef68ac095e5180822b2f95",
-      "timestamp": "2026-03-04T06:02:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Intel Names Barratt as Its Next Chairman, Replacing Frank Yeary - Intel Corp. named Craig H. Barratt as its next chairman, putting a tech veteran in the role at a time when the company is trying to reassert its chipmaking prowess.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/intel-names-barratt-as-its-next-chairman-replacing-frank-yeary",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "098d9685fc11fceb93538b457c4fd38f",
-      "timestamp": "2026-03-04T05:58:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ariel Chairman and Co-CEO John Rogers on US Consumer, 'K-Shaped' Economy - John Rogers, Ariel Investments Founder, Chairman and CO-CEO, discusses US consumer, \"K-Shaped\" economy. He speaks with Bloomberg’s Tim Stenovec and Carol Massar from the Bloomberg Invest conference in",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/john-rogers-on-us-consumer-k-shaped-economy-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "00fd745a44e42a72b05ae2bdb1ee80ac",
-      "timestamp": "2026-03-04T05:56:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Target’s New CEO Outlines Overhaul Plans, From Beauty to Babies - Target Corp.’s new chief executive officer is setting big expectations for Wall Street and pledging a return to growth powered by trendy new food products, in-store beauty services and other changes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/target-s-new-ceo-outlines-overhaul-plans-from-beauty-to-babies",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61e13527012699b5a4fa986e76153c2d",
-      "timestamp": "2026-03-04T05:56:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fleet of AI Bots Will Supercharge Hedge Fund Power, Nettimi Says - In just three to five years, hedge funds could have fleets of artificial intelligence bots helping them research and trade hundreds of stocks, according to hedge fund founder Divya Nettimi.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/fleet-of-ai-bots-will-supercharge-hedge-fund-power-nettimi-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5fd2eb8163140a73737179a4b2dde66d",
-      "timestamp": "2026-03-04T05:53:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brookfield’s Connor Teskey on State of Private Credit - Connor Teskey, CEO of Brookfield Asset Management, discusses state of private credit, how Brookfield is positioning capital amid higher rates and shifting exit markets. He speaks with Bloomberg’s Tim ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/brookfield-s-connor-teskey-on-state-of-private-credit-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c07f86eff626b649b757d7b20fac6498",
-      "timestamp": "2026-03-04T05:52:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Promises to Secure Oil Tankers Through Hormuz Amid Iran War - President Donald Trump says the US will escort oil tankers and other vessels through the Strait of Hormuz if needed. Energy prices stabilized. Rebecca Babin of CIBC Private Wealth says \"crude needed t",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/trump-promises-to-secure-oil-tankers-through-hormuz-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a1c9c362f885d1bb5ed7efd98651f6cf",
-      "timestamp": "2026-03-04T05:48:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Elon Musk’s SpaceX Is Said to Add Citigroup to IPO Bank Lineup - SpaceX has added Citigroup Inc. to the banks leading its initial public offering, according to people familiar with the matter, as billionaire Elon Musk’s rocket and satellite company moves closer to ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/elon-musk-s-spacex-is-said-to-add-citigroup-to-ipo-bank-lineup",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "38f60f1421b9865febefacd6158b0201",
-      "timestamp": "2026-03-04T05:45:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Mastercard, Visa make deals to jolt stablecoins - In separate arrangements, Mastercard is working with SoFi and Visa is working with Bridge to build scale in anticipation of greater demand for the digital asset.",
-      "url": "https://www.americanbanker.com/payments/news/mastercard-visa-make-deals-to-jolt-stablecoins?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ab34d7205a0ed88486382641c9de38a3",
-      "timestamp": "2026-03-04T05:44:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Santander's Botin on US-Spain Ties, M&A and Hiring - Banco Santander Executive Chair Ana Botin plays down the rift that has opened between the US and Spain following US President Donald Trump’s threats to cut trade with the country. In an interview with",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/santander-s-botin-on-us-spain-ties-m-a-and-hiring-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4c4234aa81900eedc5aa6092c7fc557a",
-      "timestamp": "2026-03-04T05:40:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Questions Future Iran Leaders | Balance of Power: Early Edition 3/03/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu and Kailey Leinz discuss the continued conflict in the Middle East. On today's show, Stimson Center Senior Fel",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/balance-of-power-early-edition-3-03-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c9e4bfd694e039ccaa7284dc558fb344",
-      "timestamp": "2026-03-04T05:40:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Allspring Sponsor Spotlight: The Magic of Munis - Nicholos Venditti, CFA, Head of Municipal Fixed Income, Allspring speaks about the magic of munis at Bloomberg Invest 2026 in New York.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/allspring-sponsor-spotlight-the-magic-of-munis-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "10e63c4b70ee3cd7b0fbd168781f215e",
-      "timestamp": "2026-03-04T05:39:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BAM, Invesco CEOs Discuss Private Market Opportunities - Invesco President & CEO, Andrew Schlossberg and Brookfield Asset Management CEO, Connor Teskey share ways they are delivering personalized investments at scale and where private markets opportunities ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/bam-invesco-ceos-discuss-private-market-opportunities-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dddd55f862539e76dc51f09e77081faa",
-      "timestamp": "2026-03-04T05:33:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brookfield Says Iran War Won’t Affect Its $20 Billion Qatar Deal - The US war in Iran hasn’t changed Brookfield Asset Management’s plans to build data centers with the Qatar Investment Authority or curbed its appetite for investing in the Middle East, Chief Executive",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/brookfield-says-iran-war-won-t-affect-its-20-billion-qatar-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dddd55f862539e76dc51f09e77081faa",
-      "timestamp": "2026-03-04T05:33:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brookfield Says Iran War Won’t Affect Its $20 Billion Qatar Deal - The US war in Iran hasn’t changed Brookfield Asset Management’s plans to build data centers with the Qatar Investment Authority or curbed its appetite for investing in the Middle East, Chief Executive",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/brookfield-says-iran-war-won-t-affect-its-20-billion-qatar-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "426e431ddb159164a22ce092420d9e5a",
-      "timestamp": "2026-03-04T05:26:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lutnick Plans to Testify About Epstein Ties to House Panel - US Commerce Secretary Howard Lutnick has agreed to an interview with the House Oversight Committee over his ties to disgraced financier Jeffrey Epstein, the panel’s chairman said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/lutnick-plans-to-testify-about-epstein-ties-to-house-panel",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "42d6ce11aab53d2b6c2525478d45e2d1",
-      "timestamp": "2026-03-04T05:21:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "D’Ieteren Taps Rothschild to Explore Belron Stake Options - D’Ieteren Group has appointed Rothschild &amp; Co. to explore strategic options for its controlling stake in Belron, a global car glass replacement and repair business, according to people familiar wi",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/d-ieteren-taps-rothschild-to-explore-options-for-stake-in-belron",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7a8fd96785b5f1af5edd13458b8e0359",
-      "timestamp": "2026-03-04T05:20:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pat McGrath to Cede Control of Cosmetics Brand in Restructuring - Pat McGrath, the makeup artist behind Taylor Swift’s famous red lipstick, has agreed to a deal to pull her cosmetics company out of bankruptcy, but she has to give up control.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/pat-mcgrath-to-cede-control-of-cosmetics-brand-in-restructuring",
       "sentiment": "NEUTRAL"
     }
   ]
