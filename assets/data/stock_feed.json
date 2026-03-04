@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-03-04T13:34:19.100848+09:00",
+  "last_updated": "2026-03-04T15:16:42.215732+09:00",
   "items": [
+    {
+      "id": "964ddbda43f763d8b14f5fe4dfe2d3f7",
+      "timestamp": "2026-03-04T15:05:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UAE Stocks Slide As Trading Resumes After Iran Conflict Closure - Equities in the United Arab Emirates tumbled as trading resumed on Wednesday, following a two-day closure aimed at protecting the Gulf state’s key markets amid the US-Israeli attacks on Iran.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/uae-stocks-slide-as-trading-resumes-after-iran-conflict-closure",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "28c532ec3585be318e50a3a425af2e17",
+      "timestamp": "2026-03-04T15:03:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Markets In Free Fall as Iran Saps Sentiment - Korean stocks recorded their worst two-day drop since the 2008 financial crisis as the Iran conflict weighed on investor sentiment across the region. That's dragged down the Asian equity benchmark to ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/asian-markets-in-free-fall-as-iran-saps-sentiment-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5fde3f1a628b12e412a367267b714604",
+      "timestamp": "2026-03-04T14:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nigeria Enters Election Season With Opposition Playing Catch Up - Nigeria brought the timetable for next year’s election forward and announced new rules that appeared to catch the opposition off guard.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/nigeria-enters-election-season-with-opposition-playing-catch-up",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6e96de123e35594af7374ed9318abfd7",
+      "timestamp": "2026-03-04T14:29:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Thailand’s Stock Index Drops 8% to Trigger Trading Halt - Thailand’s benchmark stock gauge plunged 8%, triggering a suspension in market trading, as escalating tensions in the Middle East dampened sentiment.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/thailand-s-stock-index-drops-8-to-trigger-trading-halt-mmbljzy2",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aee72260881007bf52c786b6e122d4eb",
+      "timestamp": "2026-03-04T14:12:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Hormuz Assurances Are Only a Partial Fix, Shippers Say - President Donald Trump says the US will ensure the free flow of energy through the Persian Gulf with insurance guarantees and even naval escorts. But the shipping industry sees it &mdash; at best &mda",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/trump-s-hormuz-assurances-would-be-a-partial-fix-shippers-say",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "805de201c5e6f2b964a6a3f162806949",
+      "timestamp": "2026-03-04T14:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Reeves’ Say-Nothing Moment Left Britain’s Big Challenges Unanswered - Rachel Reeves had promised to deliver a nothing-to-see-here spring forecast this week, an event to be celebrated for its uneventfulness. After war erupted in the Middle East, however, Tuesday’s statem",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/rachel-reeves-say-nothing-moment-left-uk-s-big-challenges-unanswered",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3d877b7ef8c15c82efa0bb15cefc4056",
+      "timestamp": "2026-03-04T13:55:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Signals Stability in US Ties Before Xi-Trump Summit - China’s legislature signaled a desire for steady relations with the US as the countries prepare for a planned summit between Chinese leader Xi Jinping and President Donald Trump in coming weeks.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-04/china-signals-stability-in-ties-with-us-before-xi-trump-summit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cbecc1215498535dc4819ebdff6ac95c",
+      "timestamp": "2026-03-04T13:46:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Delta Thailand Sees Strong Data Center Product Demand - Delta Electronics Thailand CEO Victor Cheng says he sees data center product demand staying strong. He speaks with Haslinda Amin on \"Insight with Haslinda Amin.\" (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/delta-thailand-sees-strong-data-center-product-demand-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e44cb1578a542e35c625f4ad39926962",
+      "timestamp": "2026-03-04T13:29:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan: Iran War A 'Modest Macro-Economic Shock' - JPMorgan Head of Asia Economics and Chief India Economist Sajjid Chinoy says the conflict in Iran represents a 'modest macro-economic shock', that's unlikely to derail global expansion. He speaks with",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/jpmorgan-iran-war-a-modest-macro-economic-shock-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b1f2a02caf16c35b9b126b233a4a057f",
+      "timestamp": "2026-03-04T13:28:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Barclays: Market Direction Will Be Down For a Bit - Barclays Global Chairman of Research Ajay Rajadhyaksha expects markets to be down for a bit amid tensions in the Middle East. He speaks with Haslinda Amin on \"Insight with Haslinda Amin.\" (Source: Blo",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/barclays-market-direction-will-be-down-for-a-bit-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "beada19c23b01a4feb217d0a99ef7970",
+      "timestamp": "2026-03-04T13:27:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Former US Ambassador to Yemen on Iran Developments - Barbara Bodine, Former US Ambassador to Yemen and Director & Distinguished Professor in the Practice of Diplomacy at Georgetown University says she is observing an ad hoc, \"make it up as you go along,",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-04/former-us-ambassador-to-yemen-on-iran-developments-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "f16b5151aa59bd56384fa6c249f2cfe5",
       "timestamp": "2026-03-04T13:25:21+09:00",
@@ -2086,129 +2207,6 @@
       "related_tickers": [],
       "content": "Lula Government Reluctant to Aid BRB After Banco Master Losses - President Luiz Inacio Lula da Silva’s government is resisting the idea of extending a financial lifeline to BRB, a state-owned bank controlled by a political adversary and under pressure to bolster ca",
       "url": "https://www.bloomberg.com/news/articles/2026-03-03/lula-government-reluctant-to-aid-brb-after-banco-master-losses",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "12ed5083073ca02454f92c83fc80e41e",
-      "timestamp": "2026-03-04T00:59:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland Will Eventually Seek Its Own Nuclear Weapons, Tusk Says - Polish Prime Minister Donald Tusk signaled his country will eventually try to obtain its own nuclear weapons as Europe strengthens deterrence amid doubts over US commitment to defending the continent.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/poland-will-eventually-seek-its-own-nuclear-weapons-tusk-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "98f641ecd3f16cdc63cf56f35d404ccc",
-      "timestamp": "2026-03-04T00:56:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia Gets a Chance to Boost Oil Income as War Disrupts Hormuz - <p>Soaring prices and potential for&nbsp;renewed Indian buying could boost&nbsp;Kremlin’s war chest</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/moscow-to-get-a-boost-from-hormuz-closure-amid-stable-russian-oil-exports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "98f641ecd3f16cdc63cf56f35d404ccc",
-      "timestamp": "2026-03-04T00:56:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia Gets a Chance to Boost Oil Income as War Disrupts Hormuz - <p>Soaring prices and potential for&nbsp;renewed Indian buying could boost&nbsp;Kremlin’s war chest</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/moscow-to-get-a-boost-from-hormuz-closure-amid-stable-russian-oil-exports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0dba07da00ddb782f6c246a8fc97e6c3",
-      "timestamp": "2026-03-04T00:51:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apollo's Rowan Warns About 'Shakeout' in Private Markets - “This will be a shakeout. I don’t think it is going to be short term,” Marc Rowan, CEO and co-founder of Apollo Global Management, says during a discussion with Bloomberg News Editor-in-Chief John Mic",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/apollo-s-rowan-warns-about-shakeout-in-private-markets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3a3b87866a7e87b499e10c8b5c2eaaba",
-      "timestamp": "2026-03-04T00:51:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chile Transition Tainted by Rare Acrimony Over China Cable Plan - Chile’s outgoing and incoming presidents clashed over a proposed Chinese fiber-optic cable fiercely opposed by the US, tainting what is normally a staid transition with rare acrimony days before a hig",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/chile-transition-tainted-by-rare-acrimony-over-china-cable-plan",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ccfdac4519a8a3df9aa584758e08e30f",
-      "timestamp": "2026-03-04T00:46:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Milei’s Expanded Incentive Plan Set to Draw Shale Oil Investors - President Javier Milei’s marquee program for luring investment into Argentina is poised to attract a new round of applications from crude producers after his administration broadened it to include sha",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/milei-s-expanded-incentive-plan-set-to-draw-shale-oil-investors",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78ae86753c02f7d8e6d02c0d26262396",
-      "timestamp": "2026-03-04T00:43:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vale Base Metals Aims to Be IPO-Ready by Midyear, CEO Says - Vale Base Metals is working to get its sprawling nickel-and-copper business ready for a potential initial public offering by midyear, sooner than previously indicated.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/vale-base-metals-aims-to-be-ipo-ready-by-midyear-ceo-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "69af9f502a53b4851a7978445fc83047",
-      "timestamp": "2026-03-04T00:39:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Apollo’s Rowan Sees Shakeout Coming for Private Markets Firms - Apollo Global Management Inc. Chief Executive Officer Marc Rowan warned that a shakeout is coming for private credit firms as the industry faces a wave of concerns about rising defaults on loans to so",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-03/apollo-s-rowan-sees-shakeout-coming-for-private-markets-firms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aed26f5820f14f01497cd3cac9174861",
-      "timestamp": "2026-03-04T00:38:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mistral AI, Citi Discuss Applying Models in Finance - Mistral AI Chief Revenue Officer, Marjorie Janiewicz and Citi Global Head of AI, Shobhit Varshney discuss how advanced AI models are being implemented across financial services, how firms are measurin",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/mistral-ai-citi-discuss-applying-models-in-finance-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c68e766ae369de9af6d65a5cc974d953",
-      "timestamp": "2026-03-04T00:30:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BC-Most Active Stocks - Robin Energy Ltd. 2,902,774 3.3981",
-      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153020904.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4e3695f12d4fd1330534c64c2cb29d8c",
-      "timestamp": "2026-03-04T00:28:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says Iran's Air Force and Navy Are Gone - Israel begins another wave of attacks on Iran as President Donald Trump said on Truth Social that it's too late for negotiations. Tyler Kendall reports from the White House. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-03/trump-says-iran-s-air-force-and-navy-are-gone-video",
       "sentiment": "NEUTRAL"
     }
   ]
