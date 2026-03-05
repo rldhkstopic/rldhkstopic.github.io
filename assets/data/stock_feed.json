@@ -1,6 +1,338 @@
 {
-  "last_updated": "2026-03-06T01:19:22.180632+09:00",
+  "last_updated": "2026-03-06T03:37:42.230883+09:00",
   "items": [
+    {
+      "id": "28aab3ee5cf57db73207846ae872b585",
+      "timestamp": "2026-03-06T03:27:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Leaning Toward Removing Noem as Homeland Security Chief - President Donald Trump is leaning toward removing Homeland Security Secretary Kristi Noem after months of controversy, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-leaning-toward-removing-noem-as-homeland-security-chief",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "da3912a7d9e3b5f7f38f23ba1fe79fef",
+      "timestamp": "2026-03-06T03:26:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Oil Tops $80 a Barrel for First Time Since January 2025 - Oil surged as the deepening conflict in the Middle East disrupted crude flows to key buyers, with top importer China seeking to conserve fuel as Iran and the US and Israel vowed to press on with hosti",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-oil-tops-80-a-barrel-for-first-time-since-january-2025",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d63b54d55d7e30f2f32ae7c2a876f191",
+      "timestamp": "2026-03-06T03:15:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Proposes Rule Requiring Licenses for AI Chip Exports - The US government drafted a rule requiring export licenses for AI chip shipments, including those from major companies like Nvidia and AMD, to all countries worldwide. Ed Ludlow has more on \"Bloomberg",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/us-proposes-rule-requiring-licenses-for-ai-chip-exports-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "86952922e6467a847a4168c14c84b54e",
+      "timestamp": "2026-03-06T03:00:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Says It’s Told Anthropic the Firm Is Supply-Chain Risk - The Pentagon said it has formally notified Anthropic PBC that it’s deemed the artificial intelligence company and its products a risk to the US supply chain, according to a senior defense official.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/pentagon-says-it-s-told-anthropic-the-firm-is-supply-chain-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0e7bf150c55439d96acbba95f7174ed4",
+      "timestamp": "2026-03-06T03:00:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Releases New Financial-Services Tools, Rivaling Anthropic - OpenAI is releasing a new flagship artificial intelligence model and a suite of financial-services tools that are meant to be better at tackling office work, ramping up competition with Anthropic PBC ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/openai-releases-new-financial-services-tools-rivaling-anthropic",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16f5f62d039888ab5c81170b900decd8",
+      "timestamp": "2026-03-06T02:55:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oracle Plans Thousands of Job Cuts in Face of AI Cash Crunch - Oracle Corp. is planning to ax thousands of jobs, among its moves to handle a cash crunch from a massive AI data center expansion effort.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/oracle-layoffs-to-impact-thousands-in-ai-cash-crunch",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "018312f1f71f551e9443c78f5856a903",
+      "timestamp": "2026-03-06T02:30:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Mulls Requiring Permits for Global Nvidia, AMD AI Chip Sales - Nvidia Corp. has long been the world’s AI kingmaker. Now, the Trump administration is considering taking a formal role in the industry that would include similarly sweeping powers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-drafts-rules-for-sweeping-power-over-nvidia-s-global-sales",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "018312f1f71f551e9443c78f5856a903",
+      "timestamp": "2026-03-06T02:30:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Mulls Requiring Permits for Global Nvidia, AMD AI Chip Sales - Nvidia Corp. has long been the world’s AI kingmaker. Now, the Trump administration is considering taking a formal role in the industry that would include similarly sweeping powers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-drafts-rules-for-sweeping-power-over-nvidia-s-global-sales",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "05b3e15c993a283e70ea6c3612e8cc50",
+      "timestamp": "2026-03-06T02:29:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s New Tariffs Face Legal Challenge by Group of States - President Donald Trump is facing a major legal challenge to the fresh global tariffs he imposed on goods entering the US after the Supreme Court struck down his earlier sweeping duties last month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-s-new-tariffs-face-legal-challenge-by-group-of-states",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f763c71b9341e4fe1e7f225b2a76ab5d",
+      "timestamp": "2026-03-06T02:11:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "2 Growth Stocks Down 33% and 8% This Year to Buy and Hold for a Decade - It's a great time to buy low.",
+      "url": "https://www.fool.com/investing/2026/03/05/2-growth-stocks-down-33-and-8-this-year-to-buy-and/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eb4a57ad5d5047599a522f662cda6761",
+      "timestamp": "2026-03-06T02:05:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Israel Opens Way to Bring Kurdish Forces Into War Against Iran - <p>Entering the conflict&nbsp;could have cross-border&nbsp;repercussions and the prospect is already alarming Iraq and Turkey.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/israel-opens-way-to-bring-kurdish-forces-into-war-against-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4c9caa3ba0868e0af964ecaf307bef7b",
+      "timestamp": "2026-03-06T02:01:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Sees Khamenei’s Son as Unacceptable for Iran, Report Says - US President Donald Trump said Mojtaba Khamenei, the son of Iran’s late ayatollah, is an unacceptable successor and insisted on being personally involved in picking the country’s next leader.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-sees-khamenei-s-son-as-unacceptable-for-iran-axios-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2460bd5acb4b8a52395de9e0cedb5544",
+      "timestamp": "2026-03-06T02:00:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Feud With Anthropic Shines Light on AI’s Role in Mass Surveillance - Anthropic PBC’s clash with the Pentagon is drawing fresh attention to a lightly regulated practice: the US government’s purchase of commercially available information, such as browsing histories and l",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/pentagon-feud-with-anthropic-shines-light-on-mass-surveillance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "adbf111879e1636a04daffd7ead3213a",
+      "timestamp": "2026-03-06T02:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sub-6% Mortgage Rates Vanish as Iran War Sparks Inflation Fears - US homebuyers had to act fast last week to nab the first sub-6% mortgage rates in more than three years. Now they’re up, and the new conflict in the Middle East threatens to nudge them higher.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/sub-6-mortgage-rates-vanish-as-iran-war-sparks-inflation-fears",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e6d10a4236d753bc905dde437326cd88",
+      "timestamp": "2026-03-06T02:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Powers Must Cooperate or Face Self-Harm, ECB’s Lagarde Says - European Central Bank President Christine Lagarde urged global leaders to find a “basic code of conduct” to work with each other at a time when technological innovation needs cooperation and geopoliti",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/global-powers-must-cooperate-or-face-self-harm-lagarde-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1bb8402df529ccdd2194b051ab8b6817",
+      "timestamp": "2026-03-06T02:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Finds He Needs Europe Now That He’s Waging War in Iran - For years, Europe has endured President Donald Trump’s complaints that it is a complacent continent hiding under America’s security umbrella. Now, as he launches the first open-ended military campaign",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-finds-he-needs-europe-now-that-he-s-waging-war-in-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc0a36676abcd448733321af7dded37f",
+      "timestamp": "2026-03-06T01:51:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Is Undoing Trades He Pushed as Oil, Yields, Dollar Surge - Until the conflict with Iran broke out, President Donald Trump was getting &mdash; by design or by chance &mdash; what he appeared to want in three pivotal financial markets: lower oil prices and Trea",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-is-undoing-trades-he-pushed-as-oil-yields-dollar-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc0a36676abcd448733321af7dded37f",
+      "timestamp": "2026-03-06T01:51:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Is Undoing Trades He Pushed as Oil, Yields, Dollar Surge - Until the conflict with Iran broke out, President Donald Trump was getting &mdash; by design or by chance &mdash; what he appeared to want in three pivotal financial markets: lower oil prices and Trea",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-is-undoing-trades-he-pushed-as-oil-yields-dollar-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d9f866e14d0939b5b00be3d8a94a3d2a",
+      "timestamp": "2026-03-06T01:50:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Intensifies Attacks Across Gulf as Israel Hits Tehran - Iran launched a fresh wave of missile and drone strikes across the Gulf on Thursday evening, with attacks reported in the United Arab Emirates, Bahrain and Qatar.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iran-intensifies-attacks-across-gulf-as-israel-bombards-tehran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "63880ee2539be299f39193a6bdff1fb3",
+      "timestamp": "2026-03-06T01:49:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Hidden AI Risk in Portfolios - Arjun Raghavan, the CEO of Partners Capital, a firm that manages $75 billion for families and foundations worldwide &mdash; and he says AI is the largest risk factor in markets right now. Arjun joined",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/the-hidden-ai-risk-in-portfolios-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a60f5770db7dbb7402562884a04bbc23",
+      "timestamp": "2026-03-06T01:43:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Senate Democrats Aim Bill at Breakup of Meatpacking Companies - The US meatpacking industry faces a fresh wave of scrutiny, this time from Senate Democrats seeking to allow companies to process only one type of meat and set stricter limits on the beef market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/senate-democrats-aim-bill-at-breakup-of-meatpacking-companies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d5834ac2f4780bae562d5b3d68435907",
+      "timestamp": "2026-03-06T01:40:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Finland to Lift Nuclear Weapons Restrictions in Major Shift - Finland’s government wants to remove some restrictions on nuclear weapons, allowing such arms to be brought to its territory, marking a major shift for the Nordic nation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/finland-proposes-lifting-some-nuclear-weapons-restrictions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "78853ea120132db571824f68707817d5",
+      "timestamp": "2026-03-06T01:39:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Presenting FedLock, A New Way to Measure Fedspeak With LLMs - Check it out.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-05/presenting-fedlock-a-new-way-to-measure-fedspeak-with-llms",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d4c40d3bdff229f7727b97b57e5919b3",
+      "timestamp": "2026-03-06T01:32:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FBI Nabs Contractor for Allegedly Stealing Crypto From Marshals - John Daghita, a government contractor accused of stealing more than $46 million in cryptocurrency from the US Marshals Service, was arrested late Wednesday on the island of Saint Martin in the Caribbe",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/fbi-arrests-contractor-in-alleged-crypto-theft-held-by-marshals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "95441f8281e6416d91e4626d3eb754d5",
+      "timestamp": "2026-03-06T01:32:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine Offers Help Downing Iran Drones in Exchange for Patriot Missiles - Ukrainian President Volodymyr Zelenskiy is trying to leverage his nation’s war savvy to keep it on the world’s agenda as the Iran conflict increasingly absorbs the attention of President Donald Trump,",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/ukraine-offers-help-downing-iran-drones-in-exchange-for-patriots",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "074dddd074a018ed301b987c008d04f7",
+      "timestamp": "2026-03-06T01:22:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ChatGPT Backlash Reveals New Pitfalls in Aligning With Trump - <p>Downloads of rival AI tool Claude soar amid feud with the Pentagon.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/why-are-people-deleting-chatgpt-claude-has-the-answer",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "074dddd074a018ed301b987c008d04f7",
+      "timestamp": "2026-03-06T01:22:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ChatGPT Backlash Reveals New Pitfalls in Aligning With Trump - <p>Downloads of rival AI tool Claude soar amid feud with the Pentagon.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/why-are-people-deleting-chatgpt-claude-has-the-answer",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4c71c10c415945f7f0323bba4eaafe6a",
+      "timestamp": "2026-03-06T01:21:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ring Founder on AI's Role in Modern Home Security - Jamie Siminoff, Ring founder and chief inventor, discusses the growing role of AI in home security, highlighting Ring's new Super Bowl ad that features AI technology to help find lost pets. He speaks ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/ring-founder-on-ai-s-role-in-modern-home-security-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd45dd0ec48ca84b38ac6bef65fc3084",
+      "timestamp": "2026-03-06T01:21:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Set to Launch Strikes Deeper Into Iran - The US-Israeli war with Iran enters its sixth day and shows no sign of ending. US officials say we're about to enter a new phase of the conflict and launch strikes deeper into Iran. Tyler Kendall has ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/us-set-to-launch-strikes-deeper-into-iran-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac2ca61baad3afd231fd971c8469b48d",
+      "timestamp": "2026-03-06T01:13:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Weather Agency Targets AI Upgrades in Plans for Overhaul - The US science agency that oversees the National Weather Service plans to prioritize the development of advanced weather models while reorganizing into a leaner structure in the months ahead.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-weather-agency-targets-ai-upgrades-in-plans-for-overhaul",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "559c499e0633ca645c6a955e41fd9216",
       "timestamp": "2026-03-06T01:00:00+09:00",
@@ -545,6 +877,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "35f7a29d0bf354676ca7408028160126",
+      "timestamp": "2026-03-05T21:23:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock Slashed Private Loan Value From 100 to Zero - BlackRock Inc. slashed the value of a private loan to zero at the end of 2025, just three months after assessing it at 100 cents on the dollar, marking the second sudden wipeout to recently hit its pr",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/blackrock-slashes-another-private-loan-value-from-100-to-zero",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "590138bd2c3c2b73cd81bc274e9697e0",
       "timestamp": "2026-03-05T21:16:34+09:00",
       "source_type": "NEWS",
@@ -850,6 +1193,19 @@
       "related_tickers": [],
       "content": "JD.com Posts First Loss in Four Years on Weak Chinese Spending - JD.com Inc. reported its first quarterly loss in nearly four years following a costly foray into food delivery, despite government subsidies aimed at boosting demand for big-ticket items like home app",
       "url": "https://www.bloomberg.com/news/articles/2026-03-05/jd-com-posts-first-loss-in-four-years-on-weak-chinese-spending",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2e5af6487ea97c5741eaeb741ca6a356",
+      "timestamp": "2026-03-05T19:21:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi’s stablecoin joins Mastercard’s network - The card company is fulfilling its ambitions to bring more stablecoins into its payment network.",
+      "url": "https://www.paymentsdive.com/news/sofis-stablecoin-joins-mastercards-network/813859/?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1851,362 +2207,6 @@
       "related_tickers": [],
       "content": "India’s Rupee Advances Most in Asia as RBI Supports Currency - India’s rupee advanced the most in Asia on Thursday as the central bank stepped in to shore up the currency after it weakened to a record low in the previous session.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-05/inr-usd-india-s-rupee-rebounds-from-record-low-as-rbi-defends-currency",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8ed4fb7d539c97400bbc38b600b37c4f",
-      "timestamp": "2026-03-05T12:40:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Targets Steel, Refining Capacity After Mixed Success - Chinese overcapacity in steelmaking and oil refining is once again in the government’s crosshairs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-targets-steel-and-refining-capacity-after-mixed-success",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0ab9e65446266e722cfad11e1034003d",
-      "timestamp": "2026-03-05T12:40:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan’s 30-Year Bond Sale Draws Solid Demand Despite Iran War - Japan’s 30-year government bond auction Thursday drew solid demand, underscoring resilient investor appetite even as tensions in the Middle East cloud the macro outlook.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/japan-s-30-year-bond-sale-demand-stronger-than-12-month-average",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bd3e51fad938250f20a684defd4eb5f1",
-      "timestamp": "2026-03-05T12:35:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IMF Says Mideast War to Test World Economy, Expecting New Shocks - International Monetary Fund Managing Director Kristalina Georgieva said the war in the Middle East will test global economic resilience and warned that “new shocks in different shapes and sizes” will ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/imf-says-mideast-war-to-test-world-economy-expecting-new-shocks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd8c99493d04632ac1ca3dd00b1aa232",
-      "timestamp": "2026-03-05T12:30:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Sachs's Reynolds on Private Credit Outlook - James Reynolds, Goldman Sachs Asset Management Co-Head of Private Credit, said the private credit sector remains resilient, with few borrowers struggling to meet loan payments, and that fundamentals l",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/goldman-sachs-s-reynolds-on-private-credit-outlook-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eb78aa8f8ffbfa7f1a95dffd6ece407c",
-      "timestamp": "2026-03-05T12:18:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Tells Top Refiners to Halt Diesel and Gasoline Exports - China’s government has told the country’s largest oil refiners to suspend exports of diesel and gasoline as an escalating conflict in the Persian Gulf disrupts the arrival of crude from one of the wor",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-tells-top-refiners-to-suspend-diesel-and-gasoline-exports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a4310b0b385942ff123123943356af2c",
-      "timestamp": "2026-03-05T12:00:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pop Mart Shares Rise as China Voices Support for IP Consumption - Shares of Chinese toy retailers including Labubu maker Pop Mart International Group Ltd. rose Thursday in Hong Kong after China’s top economic planner signaled support for the sector in a key policy r",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/pop-mart-shares-rise-as-china-voices-support-for-ip-consumption",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1394ea275d9ab8b6ea8a13d5cde4fd18",
-      "timestamp": "2026-03-05T11:51:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Adnoc Boss and UAE Minister Al Jaber in Japan to Meet Takaichi - Abu Dhabi National Oil Co. Chief Executive Officer Sultan Al Jaber will meet Japanese Prime Minister Sanae Takaichi in Tokyo on Thursday as the war in the Middle East chokes energy flows to Asia.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/adnoc-boss-and-uae-minister-al-jaber-in-japan-to-meet-takaichi",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "47ef1d5548ff4ce83b10cb9298d0cdf1",
-      "timestamp": "2026-03-05T11:50:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russia LNG Tanker Halts in Mediterranean After Another Attacked - A Russian liquefied natural gas tanker sanctioned by the US halted its journey in the Mediterranean Sea after a nearby ship was allegedly attacked by Ukrainian drone boats.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/russia-lng-tanker-halts-in-mediterranean-after-another-attacked",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e261d408af95ecc1fc8a4411e7acb3c6",
-      "timestamp": "2026-03-05T11:48:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "What Does China's GDP Target Reveal? - Xiaojia Zhi, Credit Agricole Chief China economist, tells Bloomberg TV that China's modest GDP growth targets reflects a desire to boost domestic demand while limiting fiscal support to those sectors ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/what-does-china-s-gdp-target-reveal-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e5238bc8f88bfaf977db0f93cef031e1",
-      "timestamp": "2026-03-05T11:45:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fear Index Shows Traders Bracing For More Selling in Indian Shares As War Rages - Traders are buying protection against fresh uncertainty from the Middle East conflict.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-05/rupee-hits-record-low-versus-dollar-ipo-plans-may-get-deferred",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "72f021283a1d3403dd1d9dee4caa52a9",
-      "timestamp": "2026-03-05T11:36:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carney Won’t Rule Out Military Action If Mideast Conflict Widens - Canadian Prime Minister Mark Carney said “one can never categorically rule out” participation in military action resulting from the war in Iran, and the country will stand by its allies if necessary.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/carney-won-t-rule-out-military-action-if-mideast-conflict-widens",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1d06d6ddc86076918c4a17a11346d671",
-      "timestamp": "2026-03-05T11:34:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iron Ore Rises as Beijing Vows Measures to Support Steel Sector - Iron ore rose as China renewed a pledge to tackle overcapacity in its world-leading steel sector and set a widely anticipated economic growth target for the year ahead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iron-ore-rises-as-beijing-vows-measures-to-support-steel-sector",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fdbd5be5e758d3268273520a88e52943",
-      "timestamp": "2026-03-05T11:26:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canada's Carney on Middle Powers, Iran Conflict - Canada and Australia are middle powers charting their own course \"in a more uncertain, more divided world,\" Canadian Prime Minister Mark Carney said during a joint press conference with Australia's An",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/canada-s-carney-on-middle-powers-charting-own-course-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1fe5d1c0f17bed146f0e549a5bdbf5db",
-      "timestamp": "2026-03-05T11:15:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Pledges to Maintain Strong Military Force in Korean Peninsula - The US military said it remained committed to defending South Korea against the nuclear-armed North after local media reported that Washington was considering redeploying regional US military assets t",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-pledges-to-maintain-strong-military-force-in-korean-peninsula",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3aa288ece3632b2a45a6965d72d054d8",
-      "timestamp": "2026-03-05T11:11:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Steady Debt Plan Calms Bond Market on Ample Liquidity - China’s 2026 debt issuance target is aligning with market expectations, easing concerns among bond traders who are supported by ample liquidity and growing bets on policy easing.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-s-steady-debt-plan-calms-bond-market-on-ample-liquidity",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "42bd028caac719bc09292ebab868c8e0",
-      "timestamp": "2026-03-05T11:00:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Anthropic Reopens Talks with Pentagon After Feud Over AI Safety - Anthropic PBC chief Dario Amodei has resumed discussions with the Pentagon about the way its AI models are used by the US military, raising the possibility that the two sides can resolve a feud that’s",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/anthropic-s-amodei-reopens-ai-discussions-with-pentagon-ft-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9feaf3813cc8daf2b81438312481e9b3",
-      "timestamp": "2026-03-05T11:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Billionaire Sitting On 16,000 Kilos of Gold Says Price Will Rise - Joy Alukkas, an Indian tycoon who built one of the world’s biggest family-owned jewelers, sees gold prices tracking higher over the coming years in response to a world hit by geopolitical and economic",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/indian-jewelry-billionaire-joy-alukkas-sees-further-rise-in-gold-price-xau-usd",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ff6d8a41072ae8efb7c1665f1803ba3e",
-      "timestamp": "2026-03-05T10:52:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Endorses Alme for Montana Senate as Daines Steps Aside - President Donald Trump has endorsed US Attorney Kurt Alme to run as the Republican contender for a Montana Senate seat, after the incumbent, Steve Daines, made the surprising announcement, minutes bef",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-endorses-alme-for-montana-senate-as-daines-steps-aside",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c277c8dec40c8d2e4e5c3ce82d42a8cf",
-      "timestamp": "2026-03-05T10:36:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Sachs AM Says Non-Payment in Private Credit Remains Low - Goldman Sachs Asset Management LP Global Co-Head of Private Credit James Reynolds said the private credit sector remains resilient, with few borrowers struggling to meet loan payments.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/goldman-sachs-am-says-non-payment-in-private-credit-remains-low",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ef7c5b5e03b88ce7935a77cb09ea8ea8",
-      "timestamp": "2026-03-05T10:35:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Vows to Tackle Property Crunch With City-Specific Policies - Chinese officials pledged to stabilize the real estate sector at a crucial political meeting, but stopped short of announcing major policies some economists think are needed to turn around a yearslong",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-vows-to-tackle-property-crunch-with-city-specific-policies",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a806e38e9d8a73d40dcf09daf5c0521a",
-      "timestamp": "2026-03-05T10:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Uses Record Bond Swaps to Tackle Looming Maturity Wall - India is moving to ease pressure from a heavy pipeline of debt liabilities coming due in the years ahead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/india-uses-record-bond-swaps-to-tackle-looming-maturity-wall",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2eb1978fff4709747fb590f898c198c",
-      "timestamp": "2026-03-05T10:29:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Medline’s Buyout Firm Backers Raise $3.1 Billion in Share Sale - Some of Medline Inc.’s biggest shareholders raised $3.1 billion in a share sale, capitalizing on the medical supplier’s strong trading since its initial public offering in December.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/medline-s-buyout-firm-backers-raise-3-1-billion-in-share-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e14c18233646913b5d783955ea245019",
-      "timestamp": "2026-03-05T10:22:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why China's Growth Target Is the Lowest Since 1991 - China set its most modest growth target in more than three decades, a range of 4.5% to 5%, in a tacit acknowledgment that the model powering the country’s rapid rise is showing strains. Bloomberg's St",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/why-china-s-growth-target-is-the-lowest-since-1991-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa9118e475cead946bbbd492055aa94f",
-      "timestamp": "2026-03-05T10:22:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tech Groups Urge Trump to Drop Anthropic Supply-Chain Risk Label - Tech groups representing major companies including Alphabet Inc.’s Google and Apple Inc. are urging President Donald Trump to reconsider designating Anthropic PBC a national security risk, arguing the",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/tech-groups-urge-trump-to-drop-anthropic-supply-chain-risk-label",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aa9118e475cead946bbbd492055aa94f",
-      "timestamp": "2026-03-05T10:22:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tech Groups Urge Trump to Drop Anthropic Supply-Chain Risk Label - Tech groups representing major companies including Alphabet Inc.’s Google and Apple Inc. are urging President Donald Trump to reconsider designating Anthropic PBC a national security risk, arguing the",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/tech-groups-urge-trump-to-drop-anthropic-supply-chain-risk-label",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d352f72831f59e9ac4897c67fd881022",
-      "timestamp": "2026-03-05T10:11:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk Says Judge’s Bias Forced Him to Pay Full Price for Twitter - Elon Musk testified he had to pay full price to buy Twitter Inc. in 2022 because the Delaware judge in the company’s lawsuit to make him consummate the $44 billion deal was “biased” against him.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/musk-says-judge-s-bias-forced-him-to-pay-full-price-for-twitter",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9cb4712132850752c76097c2d07823d3",
-      "timestamp": "2026-03-05T10:08:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "2 Monster Stocks to Hold for the Next 10 Years - A long-term focus and consistency are key to investing success.",
-      "url": "https://www.fool.com/investing/2026/03/04/2-monster-stocks-to-hold-for-the-next-10-years/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9faa017bcf02a4e447d855fb25ca0f40",
-      "timestamp": "2026-03-05T10:03:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippine Inflation Hits One-Year High, May Curb Further Easing - The Philippines’ inflation rate rose to the fastest pace in over a year in February, putting the Southeast Asian economy in a delicate position ahead of the expected surge in prices of goods in the wa",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/philippine-inflation-quickens-seen-continuing-on-iran-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cd749c78ffa311d917db7627b5a11ee6",
-      "timestamp": "2026-03-05T09:56:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "War Powers Resolution Fails Vote in Senate | Balance of Show: Late Edition 03/04/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Dana Stroul, Research Director at The Washington Institute for Near East Policy and forme",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/balance-of-show-late-edition-03-04-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "30539339abc30947827a03d01b0ae98a",
-      "timestamp": "2026-03-05T09:52:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Raízen Mulls Out-of Court Restructuring as Holders Pledge Cash - Troubled Brazilian sugar and ethanol producer Raízen SA said it could go into an out-of-court restructuring process as it looks for a solution for its debt woes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/raizen-mulls-out-of-court-restructuring-as-holders-pledge-cash",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c14e219dcf5a1538fc9c7957c254158c",
-      "timestamp": "2026-03-05T09:46:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Plans $44 Billion Bonds to Boost Capital at Top Banks - China will issue special sovereign bonds to recapitalize some of its largest banks, marking an expansion of Beijing’s efforts to fortify the nation’s $69 trillion financial system against a cooling ec",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-plans-44-billion-in-bonds-to-boost-capital-at-top-banks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4ff1c14111f10e223889add2264ca308",
-      "timestamp": "2026-03-05T09:43:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Analyst Opinion Mixed on SoFi Technologies (SOFI) Stock in February - SoFi Technologies, Inc. (NASDAQ:SOFI) is one of the best WallStreetBets stocks to buy according to analysts. According to a report released on February 18, Truist Financial analyst Matthew Coad reaffi",
-      "url": "https://finance.yahoo.com/news/analyst-opinion-mixed-sofi-technologies-004339711.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     }
   ]
