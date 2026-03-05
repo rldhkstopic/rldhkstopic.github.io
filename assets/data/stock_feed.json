@@ -1,6 +1,116 @@
 {
-  "last_updated": "2026-03-05T11:59:27.698880+09:00",
+  "last_updated": "2026-03-05T13:35:07.160032+09:00",
   "items": [
+    {
+      "id": "b8b6fd5a9968dad88ae8fb05a03a6b49",
+      "timestamp": "2026-03-05T13:03:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Military Relying on AI as Key Tool to Speed Iran Operations - US military forces are turning to a range of artificial intelligence tools to quickly manage enormous amounts of data for operations against Iran, according to US Central Command, highlighting the eme",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-military-relying-on-ai-as-key-tool-to-speed-iran-operations",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5760b60dfd99caddd964e4ad7a23f2bd",
+      "timestamp": "2026-03-05T12:59:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Top Lawmakers Meeting Is Smallest Ever Under Xi Amid Purge - Attendance at China’s National People’s Congress in Beijing fell to its lowest level since President Xi Jinping came to power in 2012, highlighting the churn inside the country’s top legislature as a ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-top-lawmakers-meeting-is-smallest-ever-under-xi-amid-purge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3572ff51935066913029514e2509b76e",
+      "timestamp": "2026-03-05T12:43:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s Rupee Advances Most in Asia as RBI Supports Currency - India’s rupee advanced the most in Asia on Thursday as the central bank stepped in to shore up the currency after it weakened to a record low in the previous session.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/inr-usd-india-s-rupee-rebounds-from-record-low-as-rbi-defends-currency",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8ed4fb7d539c97400bbc38b600b37c4f",
+      "timestamp": "2026-03-05T12:40:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Targets Steel, Refining Capacity After Mixed Success - Chinese overcapacity in steelmaking and oil refining is once again in the government’s crosshairs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-targets-steel-and-refining-capacity-after-mixed-success",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0ab9e65446266e722cfad11e1034003d",
+      "timestamp": "2026-03-05T12:40:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan’s 30-Year Bond Sale Draws Solid Demand Despite Iran War - Japan’s 30-year government bond auction Thursday drew solid demand, underscoring resilient investor appetite even as tensions in the Middle East cloud the macro outlook.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/japan-s-30-year-bond-sale-demand-stronger-than-12-month-average",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bd3e51fad938250f20a684defd4eb5f1",
+      "timestamp": "2026-03-05T12:35:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "IMF Says Mideast War to Test World Economy, Expecting New Shocks - International Monetary Fund Managing Director Kristalina Georgieva said the war in the Middle East will test global economic resilience and warned that “new shocks in different shapes and sizes” will ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/imf-says-mideast-war-to-test-world-economy-expecting-new-shocks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd8c99493d04632ac1ca3dd00b1aa232",
+      "timestamp": "2026-03-05T12:30:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman Sachs's Reynolds on Private Credit Outlook - James Reynolds, Goldman Sachs Asset Management Co-Head of Private Credit, said the private credit sector remains resilient, with few borrowers struggling to meet loan payments, and that fundamentals l",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/goldman-sachs-s-reynolds-on-private-credit-outlook-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eb78aa8f8ffbfa7f1a95dffd6ece407c",
+      "timestamp": "2026-03-05T12:18:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Tells Top Refiners to Halt Diesel and Gasoline Exports - China’s government has told the country’s largest oil refiners to suspend exports of diesel and gasoline as an escalating conflict in the Persian Gulf disrupts the arrival of crude from one of the wor",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-tells-top-refiners-to-suspend-diesel-and-gasoline-exports",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a4310b0b385942ff123123943356af2c",
+      "timestamp": "2026-03-05T12:00:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pop Mart Shares Rise as China Voices Support for IP Consumption - Shares of Chinese toy retailers including Labubu maker Pop Mart International Group Ltd. rose Thursday in Hong Kong after China’s top economic planner signaled support for the sector in a key policy r",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/pop-mart-shares-rise-as-china-voices-support-for-ip-consumption",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1394ea275d9ab8b6ea8a13d5cde4fd18",
+      "timestamp": "2026-03-05T11:51:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Adnoc Boss and UAE Minister Al Jaber in Japan to Meet Takaichi - Abu Dhabi National Oil Co. Chief Executive Officer Sultan Al Jaber will meet Japanese Prime Minister Sanae Takaichi in Tokyo on Thursday as the war in the Middle East chokes energy flows to Asia.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/adnoc-boss-and-uae-minister-al-jaber-in-japan-to-meet-takaichi",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "47ef1d5548ff4ce83b10cb9298d0cdf1",
       "timestamp": "2026-03-05T11:50:24+09:00",
@@ -142,6 +252,17 @@
       "related_tickers": [],
       "content": "China Vows to Tackle Property Crunch With City-Specific Policies - Chinese officials pledged to stabilize the real estate sector at a crucial political meeting, but stopped short of announcing major policies some economists think are needed to turn around a yearslong",
       "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-vows-to-tackle-property-crunch-with-city-specific-policies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a806e38e9d8a73d40dcf09daf5c0521a",
+      "timestamp": "2026-03-05T10:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Uses Record Bond Swaps to Tackle Looming Maturity Wall - India is moving to ease pressure from a heavy pipeline of debt liabilities coming due in the years ahead.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/india-uses-record-bond-swaps-to-tackle-looming-maturity-wall",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2084,127 +2205,6 @@
       "related_tickers": [],
       "content": "US Services Activity Expands in February as Demand Grows - The US service economy expanded in February at the fastest pace since mid-2022, as the Institute for Supply Management’s services index rose 2.3 points to 56.1,  exceeding all projections in a Bloombe",
       "url": "https://www.bloomberg.com/news/videos/2026-03-04/us-services-activity-expands-in-february-as-demand-grows-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5a80e51698e575227dab943c1ddcaf8d",
-      "timestamp": "2026-03-05T00:26:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI Will Have Profound Impact on Pharma and Biotech, Temasek CEO Says - Temasek CEO Dilhan Pillay Sandrasegara says AI will not eliminate the need for software during a discussion with Bloomberg's Lisa Abramowicz at Bloomberg Invest. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-04/ai-to-have-profound-impact-on-biotech-temasek-ceo-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "265e141a6b26d90eafc7e86d908afbe0",
-      "timestamp": "2026-03-05T00:26:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lending Markets Will Be Friendly, Ares' Solomon Says - Ares Management Partner and Head of Real Estate Julie Solomon says this higher interest rate environment has created a lot of discipline in real estate markets. She speaks at Bloomberg Invest on Bloom",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-04/lending-markets-will-be-friendly-ares-solomon-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e2cfc8aa2f94cc055779c1bb72ba2984",
-      "timestamp": "2026-03-05T00:18:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How the Iran War Will Impact India - If the Iran War doesn’t end swiftly, the impact on India will be much more than oil prices, Bloomberg Opinion columnist Andy Mukherjee says. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-04/opinion-how-the-iran-war-will-impact-india-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "973c44ad77dd2ab81d60712a951a615d",
-      "timestamp": "2026-03-05T00:14:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hands-On: Apple’s New MacBook Neo, iPhone 17e and Other New Products - Apple Inc. this week unveiled a slate of new products, including the $599 MacBook Neo &mdash; its first true low-end laptop &mdash; and the iPhone 17e. The company also announced updated versions of t",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/hands-on-apple-s-new-iphone-17e-m5-macbook-pro-studio-display",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c5757254367dfb4baab90a8a261d9105",
-      "timestamp": "2026-03-05T00:14:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "African Dollar Bonds Hit by Iran War as Investors Take Flight - Spreads on African dollar bonds are widening as the Iran war drives investors into the safety of the US dollar, lifting borrowing costs across the continent.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/african-dollar-bonds-hit-by-iran-war-as-investors-take-flight",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e9ec1b96da3de302c1a644018ff29439",
-      "timestamp": "2026-03-05T00:13:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Approaches French Nuclear Offer With Caution and Optimism - France’s historic move to bolster its atomic arsenal and offer nuclear arms cooperation to European partners has left the continent divided, with capitals eager for a deterrent separate from an errati",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/europe-approaches-french-nuclear-offer-with-caution-and-optimism",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0f42261e73b7b1caff9091e7e443f7d5",
-      "timestamp": "2026-03-05T00:11:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Citadel Securities’ Rubner Lifts Bearish Call, Sees March Bounce - As US stock investors endure bouts of volatility in the wake of the US war on Iran, Citadel Securities’ Scott Rubner said his fundamental analysis of the market signals now is a time to turn bullish o",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/citadel-securities-rubner-lifts-bearish-call-sees-march-bounce",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1195d452ef70bd36590cef72253054f3",
-      "timestamp": "2026-03-05T00:05:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Denies It Reached Out to the US About Peace Talks - Iran denied a report that its Ministry of Intelligence reached out to the US to negotiate an end to the Middle East war.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/iran-denies-it-reached-out-to-the-us-about-peace-talks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b6eda400179499542663a435c28ec0d5",
-      "timestamp": "2026-03-05T00:05:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Storage Is Filling Fast in Middle East With Hormuz Blocked - Oil producers across the Middle East face a tense countdown as the Iran war blocks the region’s main export artery, filling the countries’ storage tanks and threatening output cuts if the situation pe",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/oil-storage-is-filling-fast-in-middle-east-with-hormuz-blocked",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "af8a54448431ec895cf807c2c13a263b",
-      "timestamp": "2026-03-05T00:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Musk to Testify in Twitter Investor Case Accusing Him of Fraud - Elon Musk is slated to testify Wednesday in a jury trial over allegations that he manipulated Twitter Inc.’s stock price with his public tweets to try to get himself a better deal to buy the social ne",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/musk-to-testify-in-twitter-investor-case-accusing-him-of-fraud",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cf7d66b5641bb1b30dd5c2f655cf0597",
-      "timestamp": "2026-03-04T23:58:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carney Hires BlackRock’s Purves to Help Run Trade Department - Canadian Prime Minister Mark Carney appointed BlackRock Inc. economist Glenn Purves as deputy minister of international trade, a job that will give him responsibility for helping the country boost its",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/carney-hires-blackrock-s-purves-to-help-run-trade-department",
       "sentiment": "NEUTRAL"
     }
   ]
