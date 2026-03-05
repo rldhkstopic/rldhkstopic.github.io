@@ -1,6 +1,151 @@
 {
-  "last_updated": "2026-03-05T23:18:16.307142+09:00",
+  "last_updated": "2026-03-06T01:19:22.180632+09:00",
   "items": [
+    {
+      "id": "559c499e0633ca645c6a955e41fd9216",
+      "timestamp": "2026-03-06T01:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Netflix Acquires Ben Affleck-Founded AI Moviemaking Business - Netflix Inc. acquired InterPositive, an AI filmmaking technology business founded four years ago by actor Ben Affleck.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/netflix-acquires-ben-affleck-founded-ai-moviemaking-business",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f7d0b9d3082870094d0521b9026a0d98",
+      "timestamp": "2026-03-06T00:41:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU to Consider Options to Cut Energy Prices This Decade - The European Union is set to discuss short-term options to lower energy prices in the coming years, while the green transition takes effect.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/eu-to-consider-options-to-cut-energy-prices-this-decade",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a8c18c8908b960e5fb2afb06dd22923c",
+      "timestamp": "2026-03-06T00:20:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Traffic Through Strait of Hormuz Comes to Near Halt - Aramco's shift to using the Red Sea route for shipments underscores the risks associated with the Strait of Hormuz, a critical chokepoint through which about 20% of global oil trade passes. Alaric Nig",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/traffic-through-strait-of-hormuz-comes-to-near-halt-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a07cf8c26d78461f368780994b0c2af3",
+      "timestamp": "2026-03-06T00:01:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Monetary Policy Is Modestly Restrictive, Barkin Says - Federal Reserve Bank of Richmond President Tom Barkin says monetary policy is modestly restrictive for now. He speaks to Bloomberg's Michael McKee in Richmond. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/monetary-policy-is-modestly-restrictive-barkin-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "adf5763c9874a46d684784fc3dba653a",
+      "timestamp": "2026-03-06T00:01:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Swiss Lawmakers Want to Keep Neutrality Flexible Amid Isolationist Push - Swiss lawmakers recommended that voters reject a proposal from right-wing groups to enshrine permanent neutrality in the constitution, a plan that would limit the country’s ability to impose economic ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/swiss-lawmakers-want-to-keep-neutrality-flexible-amid-isolationist-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9fc3b76edd3ddce9aa3fe05192d8eaeb",
+      "timestamp": "2026-03-05T23:52:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Seeks to Quiet Accusations Its Iran Response Was Flat-Footed - Keir Starmer addressed criticism that the UK government has been slow in its response to the conflict in the Middle East, saying “we are and we have done everything we can at speed.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/uk-seeks-to-quiet-accusations-its-iran-response-was-flat-footed",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9fca2d612aaed3917464e5671d3814a0",
+      "timestamp": "2026-03-05T23:48:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Shifts From Using Missiles to Drones in Gulf Strikes - Iran is increasingly relying on drones rather than missiles to attack Gulf states as the war in the Middle East drags on.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iran-shifts-from-using-missiles-to-drones-in-gulf-strikes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "80a3645ad99f176e8163c0339e214314",
+      "timestamp": "2026-03-05T23:46:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed's Barkin Says Price at the Pump Matters a Lot - Federal Reserve Bank of Richmond President Tom Barkin says it's too soon to say how policymakers will respond to the war in Iran, but they're tracking the impact on oil now. “Gas prices, obviously, if",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/fed-s-barkin-price-at-the-pump-matters-a-lot-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a156f3a4b70ffe344f7fd7451f6c8993",
+      "timestamp": "2026-03-05T23:39:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed Is Still Assessing Impact of Iran War, Barkin Says - Federal Reserve Bank of Richmond President Tom Barkin says it's too soon to tell how policymakers will respond to the Iran war, but he says they are tracking the price of gasoline closely. He also say",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/fed-is-still-assessing-impact-of-iran-war-barkin-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "348e71c7b255f56898aac160ceec3219",
+      "timestamp": "2026-03-05T23:25:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan’s 3,500-Person Leveraged Finance Event Jolted by War Reality Check - There was already a sense of unease about the roughly $3 trillion leveraged finance market as thousands of bankers, investors and analysts descended on Miami Beach for JPMorgan Chase &amp; Co.’s annua",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/jpmorgan-s-3-500-person-levfin-event-jolted-by-war-reality-check",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9b46ffb137eeecca366d46a0107db028",
+      "timestamp": "2026-03-05T23:15:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trafigura Strikes Deal to Buy Venezuela Gold in US Pact - The Trump administration has struck a deal that would see Venezuela’s state mining company sell as much as 1,000 kilograms of gold to commodities trader Trafigura, according to people familiar with th",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trafigura-said-to-strike-deal-to-buy-venezuela-gold-in-us-pact",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f303d1e1b30dc7bdd7609d9405639acd",
+      "timestamp": "2026-03-05T23:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Templum to Offer Premier Private Market Investment Opportunities in Perplexity AI, OpenAI, and Colossal Biosciences to SoFi Members - Templum, a leading infrastructure provider for private markets and SoFi (NASDAQ: SOFI), the one-stop shop for digital financial services, today announced the launch of a limited-time private market in",
+      "url": "https://finance.yahoo.com/news/templum-offer-premier-private-market-141500015.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5c8393b4ef0fb53b65b322a0289128b6",
+      "timestamp": "2026-03-05T23:13:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "World Bank Plans $500 Million to Upgrade Kenya’s Commuter Rail - The World Bank has earmarked $500 million to rehabilitate the commuter rail network in Kenya’s capital.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/world-bank-plans-500-million-to-upgrade-kenya-s-commuter-rail",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c1a20a14c5efcacceebad5b4e02a57db",
       "timestamp": "2026-03-05T23:13:01+09:00",
@@ -10,6 +155,30 @@
       "related_tickers": [],
       "content": "Iran Vows to Intensify Retaliation While Trump Hails War Gains - The US-Israeli war on Iran entered a sixth day with little sign of easing, as the Islamic Republic vowed to intensify its retaliation and oil extended gains. (Source: Bloomberg)",
       "url": "https://www.bloomberg.com/news/videos/2026-03-05/iran-vows-intensified-retaliation-trump-hails-war-gains-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7468cf1b6dc227a1bcbf7dfb58fb8849",
+      "timestamp": "2026-03-05T23:11:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gulf Frustrated at Being the Center of War That’s Not Theirs - Gulf Arab states have been taking the brunt of Iranian attacks in a war they didn’t start and never chose.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/gulf-frustrated-at-being-the-center-of-war-that-s-not-theirs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dc7318bfe5fe3c6dca0e66a83663f0cb",
+      "timestamp": "2026-03-05T23:00:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Here is What to Know Beyond Why SoFi Technologies, Inc. (SOFI) is a Trending Stock - Recently, Zacks.com users have been paying close attention to SoFi Technologies (SOFI). This makes it worthwhile to examine what the stock has in store.",
+      "url": "https://finance.yahoo.com/news/know-beyond-why-sofi-technologies-140005845.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2038,171 +2207,6 @@
       ],
       "content": "Analyst Opinion Mixed on SoFi Technologies (SOFI) Stock in February - SoFi Technologies, Inc. (NASDAQ:SOFI) is one of the best WallStreetBets stocks to buy according to analysts. According to a report released on February 18, Truist Financial analyst Matthew Coad reaffi",
       "url": "https://finance.yahoo.com/news/analyst-opinion-mixed-sofi-technologies-004339711.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fa137523713ce4a466619b4e83d1580e",
-      "timestamp": "2026-03-05T09:41:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Sinking of Iran Ship Piles Pressure on India’s Modi, BE Says - The US sinking of an Iranian warship off Sri Lanka’s coast has unsettled India’s calibrated response to the war in the Middle East and could strain the government in New Delhi, according to Bloomberg ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-sinking-of-iran-ship-piles-pressure-on-india-s-modi-be-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2253b227e189d2a74d3e537e901c6567",
-      "timestamp": "2026-03-05T09:37:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Australia Household Spending Rebounds as RBA Weighs Another Hike - Australia’s household spending rebounded in January, signaling resilient consumer demand even as the outlook is clouded by the risk of further interest-rate increases and higher energy costs stemming ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/australia-household-spending-rebounds-as-rba-weighs-another-hike",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "db3a3fe0ce5d0e24c89c6c9ab6282f7b",
-      "timestamp": "2026-03-05T09:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Taps Space Startups for Launching ‘Bodyguard’ Satellites - India’s security agencies have asked private startups to develop so-called bodyguard satellites as the country accelerates efforts to protect space assets at a time of heightened geopolitical tensions",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/india-taps-space-startups-for-launching-bodyguard-satellites",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "03df788bab6ce84e475777dc0f5018b4",
-      "timestamp": "2026-03-05T09:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nepal Election Pits Ex-Rapper Against Old Guard Vying for Gen Zs - Nepal kicks off its first general election since a Gen Z-led uprising that ousted the former government last year, with a new crop of young candidates emerging to challenge the old guard’s grip on pow",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/nepal-election-pits-ex-rapper-against-old-guard-vying-for-gen-zs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4195c0deed8edf7e6ad0517715306b51",
-      "timestamp": "2026-03-05T09:23:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman's Solomon on Iran, AI and Private Credit - Goldman Sachs Chair and CEO David Solomon discusses the market reaction to the Iran attacks, his views on AI and why he is keeping an eye on the private credit market. He speaks with Haidi Stroud-Watt",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/goldman-s-solomon-on-iran-ai-and-private-credit-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "90209f4712b7b48d2fbb574b6499058d",
-      "timestamp": "2026-03-05T09:20:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japanese Stocks Rebound From Market Rout After Iran Attack - Japanese stocks rebounded from a market rout triggered by the US-Israeli attack on Iran, as strong US economic data boosted sentiment.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/japan-korea-stocks-rebound-from-market-rout-after-iran-attack",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7916c7a23d4481696706948e22fb4fac",
-      "timestamp": "2026-03-05T09:06:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Cuba Is the 'Mothership of Evil,' Rep. Salazar Says - US Representative Maria Elvira Salazar, a Florida Republican, urges the US government to take decisive action against the Cuban regime, describing it as the \"mothership of evil\" in the Western Hemisph",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/cuba-is-the-mothership-of-evil-rep-salazar-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4357dcee62d0cdd4eae3bbe2aebba08d",
-      "timestamp": "2026-03-05T09:06:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Korean Stocks Surge by Most Since 2008 in Roller Coaster Week - South Korean equities bounced back after their biggest one-day slump on record, as bargain hunters returned to a market battered by panic selling.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/korean-stocks-rebound-as-chipmakers-gain-after-record-selloff",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8252effc3d62ee7acfe015b80a14c46e",
-      "timestamp": "2026-03-05T09:06:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Plans Slowest Boost to Defense Spending Since 2022 at 7% - China’s defense spending will grow by 7% in 2026 &mdash; the slowest pace since 2022 &mdash; a figure that comes as officials from Washington to Berlin to Tokyo boost their own outlays.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-lifts-defense-spending-by-7-after-big-surge-by-trump",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c78fce26919407709bffd264787597ba",
-      "timestamp": "2026-03-05T08:57:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Sets Lowest Growth Target Since 1991 as Old Model Falters - China set its most modest growth target in more than three decades, in a tacit acknowledgment that the model powering the country’s rapid rise for four decades is showing strains.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/china-softens-gdp-goal-to-range-of-4-5-to-5-as-growth-slows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4fb922c0fb714a7557e65dd8aaa92d5f",
-      "timestamp": "2026-03-05T08:49:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman's Solomon Watching Credit Markets for 'Frothiness' - \"We’re watching very closely to see if there’s been a little bit too much aggression, frothiness,\" Goldman Sachs Chair and CEO David Solomon says when asked about credit markets during an interview wi",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-04/goldman-s-solomon-watching-credit-markets-for-frothiness-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0e18adc4f4e46ecf6828580f73aa4a63",
-      "timestamp": "2026-03-05T08:49:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Carney Calls for Canada, Australia to Lead Middle-Power Blocs - Canada and Australia should use their reputations as stable, trustworthy democracies to lead coalitions that can resist domination by the US, China and other great powers, Prime Minister Mark Carney t",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/carney-calls-for-canada-australia-to-lead-middle-power-blocs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9924143ee971f8a3aeb1fe0676b589aa",
-      "timestamp": "2026-03-05T08:44:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "'Cuba is the Mothership of Evil:' Rep. Maria Salazar - Representative Maria Elvira Salazar (R-FL) discusses why she doesn’t support the War Powers Act and shares her thoughts on the US-Israel strikes on Iran. She also talks about whether or not she will s",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-04/-cuba-is-the-mothership-of-evil-rep-maria-salazar-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a6da84a50fc0775a449127827642f6f2",
-      "timestamp": "2026-03-05T08:41:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman's Solomon Sees Glass Half Full on AI Prospects - Goldman Sachs Chair and CEO David Solomon says AI will drive massive productivity gains during an interview with Haidi Stroud-Watts on \"Bloomberg: The Asia Trade.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-04/goldman-s-solomon-sees-glass-half-full-on-ai-prospects-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dc4028dbf7515c86ce580957225246c3",
-      "timestamp": "2026-03-05T08:40:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s $600 Billion Tech Stock Rout Risks Deepening on AI Costs - The ongoing selloff in China’s megacap technology stocks shows little sign of easing, as investors fret over spiraling spending amid heated competition.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-04/china-s-600-billion-tech-stock-rout-risks-deepening-on-ai-costs",
       "sentiment": "NEUTRAL"
     }
   ]
