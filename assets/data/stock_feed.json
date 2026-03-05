@@ -1,6 +1,292 @@
 {
-  "last_updated": "2026-03-06T05:13:10.335038+09:00",
+  "last_updated": "2026-03-06T07:08:27.156010+09:00",
   "items": [
+    {
+      "id": "2afa332d8d4df3e4fc8716de0018b718",
+      "timestamp": "2026-03-06T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yuan Funding Hits Record $200 Billion as China’s Ambitions Grow - Yuan financing has never been as popular as it is now, with more countries and foreign companies tapping the market, in a sign that China’s ambition to internationalize its currency is bearing fruit.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/yuan-funding-hits-record-200-billion-as-china-s-ambitions-grow",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b332d87b203a18c537482cd12971551c",
+      "timestamp": "2026-03-06T06:59:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "SEC Ends Case Against Crypto Billionaire Justin Sun - The US Securities and Exchange Commission will end its lawsuit against crypto billionaire Justin Sun.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/sec-ends-case-against-crypto-billionaire-justin-sun",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a7d0c863cf7ccd0e5b4827be0e96c0dd",
+      "timestamp": "2026-03-06T06:52:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Moniz: Triple-digit Oil Possible if Hormuz Stays Closed - Former US Energy Secretary and CEO of the EFI Foundation Ernest Moniz discusses the potential impact of ongoing tensions in the Middle East on global energy markets. Moniz sees multiple options on the",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/moniz-triple-digit-oil-possible-if-hormuz-stays-closed-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c8da1d0cfa308aae5491aa2c67b1b7ef",
+      "timestamp": "2026-03-06T06:48:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War Provides a Large-Scale Test for AI-Assisted Warfare - Technology is being used to help humans ‘make smarter decisions faster.’",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-05/iran-war-provides-a-large-scale-test-for-ai-assisted-warfare",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79a189ec34bde2bf2fa362f25f4a93b9",
+      "timestamp": "2026-03-06T06:38:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US House Rejects War Critics’ Bid to Halt Strikes on Iran - The US House voted down legislation to force a halt to US strikes on Iran as a handful of Democrats joined a nearly united Republican party in rejecting the measure.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-house-rejects-war-critics-bid-to-halt-strikes-on-iran",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c45d916aeebb513b2c120569a3e7757f",
+      "timestamp": "2026-03-06T06:34:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How Netflix’s Push into Podcasts Looks on YouTube - Podcasters exclusive to Netflix are seeing their channel growth slow by as much as 50% compared to the year prior",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-05/how-netflix-s-push-into-podcasts-looks-on-youtube",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "56265d5c708502dfe97b1cc72d120a8e",
+      "timestamp": "2026-03-06T06:30:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Buying Into Close Lifts Flailing Markets | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloom",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/buying-into-close-lifts-markets-closing-bell-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1bf4783c02b8f407dc23ac54fe806c15",
+      "timestamp": "2026-03-06T06:25:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Could Top $100 If Traffic Through Hormuz Remains Restricted, Moniz Says - Former U.S. Energy Secretary Ernest Moniz says oil could top $100 per barrel if tanker traffic through the Strait of Hormuz remains restricted over the next few weeks. The Trump administration says it",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/oil-could-top-100-if-hormuz-stays-closed-moniz-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "331b9c71a42c75be6b993a87e94be04c",
+      "timestamp": "2026-03-06T06:20:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CVS Health & Google Cloud Partner on Launch of Health100 - CVS Health is partnering with Google Cloud to launch an AI-powered platform aimed at providing a \"one stop destination\" to healthcare for consumers.  CVS Health Chief Experience & Technology Officer T",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/cvs-health-google-cloud-partner-on-launch-of-health100-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2fbc6ee7d1d97b4ff97bceb090fdd431",
+      "timestamp": "2026-03-06T06:00:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic’s Pentagon Feud Accelerates Its Consumer Push - The Claude maker gains new traction with everyday users while its enterprise business is under pressure",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-05/anthropic-s-pentagon-feud-accelerates-push-into-consumer-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "619281292afff5468ad240d4e8070b72",
+      "timestamp": "2026-03-06T06:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War Shows Limits of High-end Air Defense, Anduril Exec Says - The conflict with Iran has underscored the limitations of relying on existing high-end air defense systems against sustained waves of cheaper enemy missiles, drones and guided bombs, the chief strateg",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iran-war-shows-limits-of-high-end-air-defense-anduril-exec-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9dad7de1f67c8f5067f14e957b02d05b",
+      "timestamp": "2026-03-06T06:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CK Hutchison Looks to Trump-Xi Summit as Ports Deal Drags On - CK Hutchison Holdings Ltd.’s plans to sell its suite of global ports are at an impasse a year after the deal was announced, with hopes now pinned on an upcoming meeting between Donald Trump and Chines",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/ck-hutchison-looks-to-trump-xi-summit-as-ports-deal-drags-on",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9cd7847edd6c746324afb948291a97d2",
+      "timestamp": "2026-03-06T05:59:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FBI Found ‘Suspicious’ Activity on Its Computer Networks - The FBI said Thursday that it had found “suspicious” activity on its computer systems, but didn’t provide further details.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/fbi-found-suspicious-activity-on-its-computer-networks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "72be06b0f052a37d9b23011c7c7d78f7",
+      "timestamp": "2026-03-06T05:59:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Tells Anthropic It Is a Supply-Chain Risk - The Pentagon has formally notified Anthropic PBC that it has determined the company and its products pose a risk to the US supply chain. Michael Shepard reports on \"Balance of Power.\" (Source: Bloombe",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/pentagon-tells-anthropic-it-is-a-supply-chain-risk-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "82f04ac2aa1a94856c90265b008a0449",
+      "timestamp": "2026-03-06T05:57:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk’s $10 Million Backing of Kentucky Candidate Falls Flat - Elon Musk has donated $10 million to a Super PAC backing a former tech CEO in Kentucky’s Republican Senate primary. Bloomberg’s Max Chafkin discusses why that big bet may not pay off. He joins Carolin",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/musk-s-10-million-backing-of-candidate-falls-flat-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "beffb790d2489e38b70d84972d50d194",
+      "timestamp": "2026-03-06T05:54:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sen. Mullin Says Noem Had a Very Difficult Job - Oklahoma Senator Markwayne Mullin, a Republican, speaks to reporters on Capitol Hill after being named the new Homeland Security secretary. He'll replace Kristi Noem. Mullin is set to take over on Mar",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/sen-mullin-says-noem-had-a-very-difficult-job-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3acab220bf8bfbd9c4d337284ea56215",
+      "timestamp": "2026-03-06T05:48:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Tops $81, Trump Replaces Noem at DHS | Bloomberg Businessweek Daily 3/5/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss today's market action with stocks moving lower, bonds sliding, and oil topping $80 a barrel for the first time",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/bloomberg-businessweek-daily-3-05-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9fe209ffc5119e2f7cabb016f4112093",
+      "timestamp": "2026-03-06T05:38:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Amazon’s Online Store Malfunctions for Some Users in the US - Amazon.com Inc.’s website and mobile app malfunctioned for some users on Thursday, with critical features like product listings and checkout options producing error pages.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/amazon-s-online-store-malfunctions-for-some-users-in-the-us",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "278276f8cc896c6667819db794d719d6",
+      "timestamp": "2026-03-06T05:34:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Replaces Noem as Homeland Chief | Balance of Power: Early Edition 3/05/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu discusses the latest from DC. On today's show, Israel's Ambassador to the US Michael Leiter, Stonecourt Capita",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/balance-of-power-early-edition-3-05-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fc53478d7c06072c2fc80333875462df",
+      "timestamp": "2026-03-06T05:26:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Founders Fund Leads $80 Million Bet on AI Manufacturing Unicorn - Industrial software startup Nominal raised an $80 million Series B extension led by Founders Fund. That brings the company's valuation to $1 billion, at a time when the US is increasingly focused on m",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/founders-fund-leads-80-million-bet-on-ai-unicorn-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9a43674c04cc178a00a0409827b663a0",
+      "timestamp": "2026-03-06T05:20:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta, Google Online Child Safety Rules Advanced by House Panel - A key House committee on Thursday advanced a package of bills aimed at improving children’s safety online, injecting fresh momentum for a light-touch US effort as countries race to create new protecti",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/meta-google-online-child-safety-rules-advanced-by-house-panel",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9a43674c04cc178a00a0409827b663a0",
+      "timestamp": "2026-03-06T05:20:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta, Google Online Child Safety Rules Advanced by House Panel - A key House committee on Thursday advanced a package of bills aimed at improving children’s safety online, injecting fresh momentum for a light-touch US effort as countries race to create new protecti",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/meta-google-online-child-safety-rules-advanced-by-house-panel",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d1c00e1cd8f01261112450b9e554d5e3",
+      "timestamp": "2026-03-06T05:19:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudi Arabia Hikes Oil Prices to Asia as Iran War Roils Market - Saudi Arabia raised the price of its main oil grade for buyers in Asia for April by the most since August 2022 as the widening Middle East conflict and effective closure of the shipping chokepoint at ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/saudi-arabia-hikes-oil-prices-to-asia-as-iran-war-roils-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8f5bc4613b1cf33a6a153bf0181ee66c",
+      "timestamp": "2026-03-06T05:15:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CH Robinson CEO Says AI Is Boosting Its Bottom Line - As the conflict in Iran disrupts global supply chains and AI shakes up industries, logistics firm CH Robinson is getting credit with investors for dealing well with both. Dave Bozeman, the company’s C",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/ch-robinson-ceo-says-ai-is-boosting-its-bottom-line-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c55e5572a3c77d2004498b2346f4c7c2",
+      "timestamp": "2026-03-06T05:14:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Administration Eyes All Options to Tame Oil Prices - The Trump administration is weighing a range of options for addressing the spike in oil and gasoline prices amid the war in Iran, Interior Secretary Doug Burgum said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-administration-eyes-all-options-to-cut-oil-prices-amid-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2623932ca80752b41e55b1593789f1bb",
+      "timestamp": "2026-03-06T05:12:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Kristi Noem Out at DHS After Months of Controversy - Bloomberg News White House Correspondent Jeff Mason has the latest on why President Donald Trump fired Kristi Noem as Homeland Security secretary.  Oklahoma Senator Markwayne Mullin a Republican, will",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-05/noem-to-be-replaced-as-homeland-security-chief-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "77f0a693f243bcad7cc791620fea0529",
       "timestamp": "2026-03-06T05:02:16+09:00",
@@ -43,6 +329,17 @@
       "related_tickers": [],
       "content": "Wall Street Assessing War Risks to US Economy, Homeowners Stay Out | Bloomberg Markets 3/5/2026 - \"Bloomberg Markets\" follows the market moves across every global asset class and discusses the biggest issues for Wall Street. Today's guests: Charles Schwab Chief Investment Strategist Liz Ann Sonder",
       "url": "https://www.bloomberg.com/news/videos/2026-03-05/bloomberg-markets-3-5-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e23b2634ddc1a16bb225e87fb500d2e9",
+      "timestamp": "2026-03-06T04:21:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "RBC Almost Doubled McKay’s Short-Term Bonus on Record Year - Royal Bank of Canada Chief Executive Officer Dave McKay received C$23.76 million ($17.3 million) in total compensation last year, a pay package that included a short-term bonus that was 86% above his ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/rbc-almost-doubled-dave-mckay-s-bonus-on-record-earnings",
       "sentiment": "NEUTRAL"
     },
     {
@@ -565,6 +862,19 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "229c489b39d16a6390526446e24dcd42",
+      "timestamp": "2026-03-06T00:30:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 329,453,698 0.1034",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017681.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "a8c18c8908b960e5fb2afb06dd22923c",
       "timestamp": "2026-03-06T00:20:21+09:00",
       "source_type": "NEWS",
@@ -797,6 +1107,17 @@
       "related_tickers": [],
       "content": "EQT Buys East Coast Warehouses From Mapletree for $575 Million - Mapletree Investments Pte agreed to sell a portfolio of East Coast warehouses to EQT Real Estate for $575 million.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-05/eqt-buys-east-coast-warehouses-from-mapletree-for-575-million",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a147f7d5213f76d76390a5e6a9cb8e2",
+      "timestamp": "2026-03-05T22:28:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Stock Selloff Shows No Signs of Easing as Iran War Grinds On - US stocks slid Thursday, rocked by another turbulent session as the escalating conflict in the Middle East raised the prospect of sustained disruptions to energy markets and oil prices, with implicati",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/stock-futures-slip-on-oil-surge-fears-of-iran-war-disruptions",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1888,325 +2209,6 @@
       "related_tickers": [],
       "content": "Iran War: Trump Says US Doing ‘Very Well’ & Iran Vows Retaliation | Daybreak Europe 03/05/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
       "url": "https://www.bloomberg.com/news/videos/2026-03-05/daybreak-europe-3-05-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "29e02d61d9108e7e16ec2584666c2031",
-      "timestamp": "2026-03-05T16:44:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canal+’s MultiChoice to End Loss-Making Showmax Platform - Canal+ SA will discontinue the loss-making Showmax streaming service developed by South African pay-TV operator MultiChoice Group, which the French firm bought last year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/canal-s-multichoice-to-end-loss-making-showmax-platform",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fb7e24facae94433f4efd7f051c62c8e",
-      "timestamp": "2026-03-05T16:41:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK’s CMA to Review Private Dentistry Market After Price Hikes - The UK’s antitrust watchdog will carry out a market study of the £8.4 billion ($11.2 billion) private dentistry sector to assess whether consumers are getting value for money.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/uk-s-cma-to-review-private-dentistry-market-after-price-hikes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e63e2617587ece1163df68135519be8c",
-      "timestamp": "2026-03-05T16:37:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why a US Torpedo Strike Sinking an Iranian Warship Puts India in a Bind - A rare US torpedo strike on an Iranian warship near Sri Lanka has raised difficult questions for India. The vessel had just taken part in a major Indian naval review, leaving New Delhi uncertain about",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/why-india-is-in-a-bind-after-torpedo-strike-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "181c12a18b025281cab13910e71b6470",
-      "timestamp": "2026-03-05T16:35:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India’s Powerful State Leader to Resign, Boosting Modi’s Grip - Narendra Modi’s key ally in Bihar is set to step down as chief minister, a move that could give the prime minister’s ruling party greater scope to consolidate its control in the politically crucial st",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/india-s-powerful-state-leader-to-resign-boosting-modi-s-grip",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78c6370d4135a62a361023ede08057a3",
-      "timestamp": "2026-03-05T16:33:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Qatar Starts Relief Flights as Middle East Skies Remain Closed - Qatar Airways said it’s starting a limited number of relief flights today to help passengers stranded in the Middle East get out, as commercial services remain suspended due to the closed airspace.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/qatar-starts-relief-flights-as-middle-east-skies-remain-closed",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "186c6901ac0367eca8bccf36002a26fd",
-      "timestamp": "2026-03-05T16:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Battlefield Tech Firm UFORCE Nears $1 Billion Valuation - A defense-technology startup born out of Ukraine’s battlefield is emerging with a valuation topping $1 billion, according to people familiar with the matter, as Western and Gulf militaries scramble fo",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/ukraine-battlefield-tech-firm-uforce-nears-1-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "186c6901ac0367eca8bccf36002a26fd",
-      "timestamp": "2026-03-05T16:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Battlefield Tech Firm UFORCE Nears $1 Billion Valuation - A defense-technology startup born out of Ukraine’s battlefield is emerging with a valuation topping $1 billion, according to people familiar with the matter, as Western and Gulf militaries scramble fo",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/ukraine-battlefield-tech-firm-uforce-nears-1-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "23909ccc237336559bee94f2bdddd4d9",
-      "timestamp": "2026-03-05T16:25:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Europe Gas Resumes Scorching Rally as War Disrupts Energy Flows - European natural gas prices resumed their sharpest rally in years as uncertainty around the war in the Middle East continues to rattle energy markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/europe-gas-resumes-scorching-rally-as-war-disrupts-energy-flows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dfbe339a6f75040180ba1a12a617865b",
-      "timestamp": "2026-03-05T16:22:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dettol-Maker Reckitt Keeps Outlook on Emerging Market Growth - Reckitt Benckiser Group Plc said its revenue growth targets for 2026 remain on track, after demand for its cleaning and health products in markets like China and India fueled better-than-expected sale",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/reckitt-maintains-outlook-on-strong-demand-in-developing-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5237473869024e899a76b4945c2d3f61",
-      "timestamp": "2026-03-05T16:21:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Says US 'Doing Well' In Iran War | Horizons Middle East & Africa 3/5/2026 - President Donald Trump says the US is doing \"very well\" in its military campaign against Iran,. Also on the show: the US sinks an Iranian warship in international waters; Asian stocks rebound with the",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/horizons-middle-east-africa-03-05-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a4cda44fabcd989e2a07b17983e15363",
-      "timestamp": "2026-03-05T16:21:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Treasury Yields Climb to Three-Week High as Inflation Fears Grow - Treasuries fell for a fourth day as rising crude oil prices due to the Iran war added to concern that inflation will accelerate.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/treasury-yields-climb-to-three-week-high-as-inflation-fears-grow",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1852992be493ac1f5ed35c146691f753",
-      "timestamp": "2026-03-05T16:13:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Sets Lowest Growth Target Since 1991 | The China Show 3/5/2026 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, David Ingles and Yvonne Man give global ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/the-china-show-3-5-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "331f44a14d7d233a471d86beba37ad77",
-      "timestamp": "2026-03-05T16:04:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Canceled Flights to Mideast Top 23,000 Since War Started - The conflict in the Middle East is causing logistical and financial troubles to the aviation industry. The number of canceled flights to Middle East hubs surpassed 23,000 since fighting began last wee",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/canceled-flights-to-mideast-top-23-000-since-war-started-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3e847b8b86a9410ef5a2fa4f5deeed2d",
-      "timestamp": "2026-03-05T16:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Malaysia Holds Rate, Warns Middle East War Intensifies Risks - Malaysia kept its benchmark interest rate unchanged as it warned that downside risks have risen from the deepening conflict in the Middle East.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/malaysia-holds-key-rate-warns-middle-east-war-intensifies-risks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d752f72e5a96e815fd00b1649f267220",
-      "timestamp": "2026-03-05T16:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Israel, Iran Continue Strikes as Middle East Conflict Enters Sixth Day",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-03-05/trump-iran-war-middle-east-conflict-latest-updates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d752f72e5a96e815fd00b1649f267220",
-      "timestamp": "2026-03-05T16:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Israel, Iran Continue Strikes as Middle East Conflict Enters Sixth Day",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-03-05/trump-iran-war-middle-east-conflict-latest-updates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "faddd80d55fe7f0787316a7793382d0d",
-      "timestamp": "2026-03-05T15:58:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Lauds US War Effort as Iran Vows to Escalate Retaliation - The US-Israeli war on Iran entered a sixth day with no sign of easing, as the Islamic Republic said its retaliation against American strikes would escalate.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-lauds-us-war-effort-as-iran-vows-to-escalate-retaliation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "555f4af1b359896342d9ce126e5322cd",
-      "timestamp": "2026-03-05T15:49:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Honda to Boost Japan Lineup by Importing Cars From the US, China - Honda Motor Co. will import cars from the US and China to sell in its home market as the Japanese carmaker looks to beef up its domestic lineup in the face of mounting losses from its auto business.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/honda-to-boost-japan-lineup-by-importing-cars-from-the-us-china",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "63eb7071cf6ba96d26dbe5d4853b10ac",
-      "timestamp": "2026-03-05T15:48:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FirstRand Interim Profit Rises to Record as Loans, Fees Climb - FirstRand Ltd.’s interim profit rose to a record as Africa’s biggest bank by market value earned more from fees and commissions and as growth in loans boosted revenue.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/firstrand-interim-profit-rises-to-record-as-loans-fees-climb",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4e5fc3eaca9c9f7e24d817b197bc14db",
-      "timestamp": "2026-03-05T15:48:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bond Markets Drop as Inflation Fears Rekindled",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-03-05/ftse-100-live-trump-iran-oil-gold-prices-pound-gilts-bonds-what-s-moving-uk-markets-right-now-markets-today",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cb1d0bbb5341330b5c815b534ba0e49f",
-      "timestamp": "2026-03-05T15:40:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Says Peace Talks With Russia on Hold Due to Iran War - US-brokered peace talks between Kyiv and Moscow initially planned for this week are postponed indefinitely due to the war in Iran, according to Ukrainian President Volodymyr Zelenskiy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/ukraine-says-peace-talks-with-russia-on-hold-due-to-iran-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4c17ed792b49398d432568cbf94b9f1d",
-      "timestamp": "2026-03-05T15:33:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "MacCarley: Difficult to Maintain Operational Tempo of Iran War - US President Donald Trump expressed confidence in the US military campaign against Iran even as the duration of military operations remains uncertain. But former Secretary of State Antony Blinken says",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/maccarley-difficult-for-us-to-maintain-iran-war-tempo-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7108f34fd7c2e09b1085eadb68f221ce",
-      "timestamp": "2026-03-05T15:28:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SoftBank Group CDS Rises to Near Year-High on S&amp;P Outlook Cut - SoftBank Group Corp.’s credit default swaps widened to an 11-month high and remained the widest among Japanese corporates as its heavy investment in artificial intelligence weighs on its credit profil",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/softbank-group-cds-rises-to-near-year-high-on-s-p-outlook-cut",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7108f34fd7c2e09b1085eadb68f221ce",
-      "timestamp": "2026-03-05T15:28:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SoftBank Group CDS Rises to Near Year-High on S&amp;P Outlook Cut - SoftBank Group Corp.’s credit default swaps widened to an 11-month high and remained the widest among Japanese corporates as its heavy investment in artificial intelligence weighs on its credit profil",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/softbank-group-cds-rises-to-near-year-high-on-s-p-outlook-cut",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e721c2f488db5c0255113f2f86f7018",
-      "timestamp": "2026-03-05T15:22:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran War Punctures Favored Strategy of ‘Sell America, Buy Asia’ - The war in Iran is forcing investors to reevaluate one of their most profitable stock strategies, leading some to conclude that the “Sell America, Buy Asia” trade has reached an inflection point.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iran-war-punctures-favored-strategy-of-sell-america-buy-asia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1a975ee8fefeaabedef75bcc5b1e39b3",
-      "timestamp": "2026-03-05T14:56:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran War Shakes Region As Trump Expresses Confidence - President Donald Trump expressed confidence in the US military campaign against Iran even as the timeline for operations remained deeply unclear on the fifth day of the Middle East war. Bloomberg's St",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/iran-war-shakes-region-as-trump-expresses-confidence-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e699193d79b3dfb7f95f342b0d5e53f1",
-      "timestamp": "2026-03-05T14:30:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Korea LIG Nex1 Soars on Reports of New Defense Orders From Gulf - Shares of South Korean defense contractor LIG Nex1 Co. jumped on reports that Gulf nations may expand orders for its missile interceptors to fend off Iranian strikes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/korea-lig-nex1-soars-on-reports-of-new-defense-orders-from-gulf",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a49bf3e738c63fa886293db927a5ec55",
-      "timestamp": "2026-03-05T14:30:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "From Roaring Economy to Recession, Romania Confronts New Reality - <p>The country used to be one of the most dynamic in the region. Now it’s faced with some of the worst metrics in Europe.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/romania-grapples-with-recession-as-iran-war-upends-emerging-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "536108509f246b545abbd98dc243e032",
-      "timestamp": "2026-03-05T14:15:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nintendo Switch 2 Users Face Storage Woes as Memory Crisis Bites - Demand for Nintendo Co.’s profit-earning game software is under threat from soaring prices for data storage, clouding efforts to build a Switch 2 ecosystem that’s resilient to tariffs and military con",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/nintendo-switch-2-users-face-storage-woes-as-memory-crisis-bites",
       "sentiment": "NEUTRAL"
     }
   ]
