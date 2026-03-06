@@ -1,6 +1,259 @@
 {
-  "last_updated": "2026-03-06T17:10:36.082260+09:00",
+  "last_updated": "2026-03-06T19:11:36.992986+09:00",
   "items": [
+    {
+      "id": "154129ca2256d07af6cd7e6ef0de9f67",
+      "timestamp": "2026-03-06T19:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Panama Surprised by Higher Canal Traffic Amid Trump’s Trade Wars - The Panama Canal is reporting an unexpected jump in revenue, confounding its own forecasts that Donald Trump’s trade wars would cause traffic to drop.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/panama-surprised-by-higher-canal-traffic-amid-trump-s-trade-wars",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "25745f78f213c00bd2930ccd8e91b297",
+      "timestamp": "2026-03-06T18:52:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PBOC Vows to Support Yuan Stability as Global Volatility Rises - China’s central bank governor reiterated a pledge to keep the yuan stable and vowed to insulate the nation’s financial markets from volatility spurred by the war in the Middle East.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/pboc-vows-to-support-yuan-stability-as-global-volatility-rises",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b83061152b533c39a8b1c6cc46819738",
+      "timestamp": "2026-03-06T18:51:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Platts Changes to Middle East Oil Pricing Causing Trader Angst - Middle Eastern benchmark crude oil prices have surged this week, as an Iran-war driven rule change affecting a key pricing window resulted in market dislocations that have drawn complaints from trader",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/platts-changes-to-middle-east-oil-pricing-causing-trader-angst",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d1b8870e4f46cfda815864fc6a2a585c",
+      "timestamp": "2026-03-06T18:44:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lanxess Slumps as Failed Asset Sale Raises Risk of Junk Rating - Lanxess AG shares fell to their lowest since 2009 after the German chemicals company failed to complete an asset sale, raising concerns it could lose its investment-grade credit rating.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/lanxess-slumps-as-failed-asset-sale-raises-risk-of-junk-rating",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b41e93f07b1ca8f1d339c27a4f977d14",
+      "timestamp": "2026-03-06T18:41:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bonds Slide as War Takes ECB Hike From Fringe to Fully Priced - A week ago, anyone betting on a European Central Bank interest-rate hike was staking out a lonely, contrarian position. Now, with the Iran war threatening to stoke inflation, the trade is the consensu",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/bonds-slide-as-war-takes-ecb-rate-hike-from-fringe-to-mainstream",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fdabe6f314f9167f1f3ebb364cb85e22",
+      "timestamp": "2026-03-06T18:23:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesia Says Pakistan, UAE Back Prabowo Bid for Iran Mediation - Indonesian President Prabowo Subianto’s offer to mediate in the Iran conflict has backing from countries including Pakistan and the United Arab Emirates, an official said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/indonesia-says-pakistan-uae-back-prabowo-bid-for-iran-mediation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dd4e9067d163599a377a9a21c3db9606",
+      "timestamp": "2026-03-06T18:21:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Missile Interceptor Shortage Worries Flare in World’s Capitals - As drones and missiles target cities and critical infrastructure in Ukraine and the Gulf, the world is scrambling to secure supplies of the air defense interceptors needed to stop them.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/missile-interceptor-shortage-worries-flare-in-world-s-capitals",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "847994e4d48a8c89a5422f80c8fb6912",
+      "timestamp": "2026-03-06T18:16:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Czech Rate Cut Odds Get Fresh Blow With Unexpected Wage Spike - Czech wage growth unexpectedly accelerated in the fourth quarter, dealing a fresh blow to chances that the central bank will be able to cut interest rates this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/czech-rate-cut-odds-get-fresh-blow-with-unexpected-wage-spike",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "494a00f44830d9e51a6fded33b7c332c",
+      "timestamp": "2026-03-06T18:02:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Gasoline Pump Prices Advance to Highest Level Since 2024 - US gasoline pump prices advanced to the highest level since September 2024, as the conflict in the Middle East disrupts energy supplies from the region.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-gasoline-pump-prices-advance-to-highest-level-since-2024",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e885449d191f42f82930f5a9c132b5f3",
+      "timestamp": "2026-03-06T18:00:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Energy Prices Could Rally Further if Disruptions Continue: Energy Aspects' Livia Gallarati - Disruption to Qatari LNG exports is the \"big ticket item\" for gas markets, according to Energy Aspects Global Gas Head, Livia Gallarati. In an interview on Bloomberg Daybreak Europe, Gallariti said it",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/energy-aspects-livia-gallarati-on-maritime-traffic-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0985d666346649b018c6430f149b109",
+      "timestamp": "2026-03-06T18:00:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lots More on the Seaborne Chaos Around the Strait of Hormuz - <p>It's more than just oil that's being affected.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/lots-more-on-the-seaborne-chaos-around-the-strait-of-hormuz",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0985d666346649b018c6430f149b109",
+      "timestamp": "2026-03-06T18:00:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Lots More on the Seaborne Chaos Around the Strait of Hormuz - <p>It's more than just oil that's being affected.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/lots-more-on-the-seaborne-chaos-around-the-strait-of-hormuz",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ec283e57570bb55a1597a0b7a73be12e",
+      "timestamp": "2026-03-06T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Lots More on Seaborne Chaos Around the Persian Gulf (Podcast) - With war breaking out in Iran, the price of oil is surging, in part due to the destruction of oil energy infrastructure, but also the ability of anything to get through the Strait of Hormuz. But it’s ",
+      "url": "https://www.bloomberg.com/news/audio/2026-03-06/iran-war-creates-shipping-chaos-in-persian-gulf",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ec283e57570bb55a1597a0b7a73be12e",
+      "timestamp": "2026-03-06T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MAJOR",
+      "related_tickers": [],
+      "content": "Lots More on Seaborne Chaos Around the Persian Gulf (Podcast) - With war breaking out in Iran, the price of oil is surging, in part due to the destruction of oil energy infrastructure, but also the ability of anything to get through the Strait of Hormuz. But it’s ",
+      "url": "https://www.bloomberg.com/news/audio/2026-03-06/iran-war-creates-shipping-chaos-in-persian-gulf",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e7466175c42954864ab19f6b6de0ec23",
+      "timestamp": "2026-03-06T17:45:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gold Stuck in Dubai Is Being Sold at a Discount as War Widens - Gold is being offered at a steep discount in Dubai, as the war in the Middle East grounds flights and hampers suppliers’ ability to move bullion out of the key trading hub.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/gold-stuck-in-dubai-is-being-sold-at-a-discount-as-war-widens",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "51a3dfb90f8780968a7293970ae71cad",
+      "timestamp": "2026-03-06T17:39:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gulf’s Investcorp Gets Commitments of Over $1.1 Billion For Fund - Bahrain-based alternative asset management giant Investcorp closed a fund that buys minority stakes in private investment firms, drawing commitments of over $1.1 billion in the latest Gulf deal to con",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/gulf-s-investcorp-gets-commitments-of-over-1-1-billion-for-fund",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0dddb2c1815571b49cc625da7b5eb07",
+      "timestamp": "2026-03-06T17:32:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Faces Sweltering Summer Nights as Iran War Hits Gas Supply - India is facing sweltering nights this summer as conflict in the Middle East crimps natural gas supply, which could curtail electricity generation from a key source used to cool homes during the eveni",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/india-faces-sweltering-summer-nights-as-iran-war-hits-gas-supply",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f15a4543236a5283c49b553883c23e2a",
+      "timestamp": "2026-03-06T17:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Generic Ozempic Could Cost Less Than $3 a Month, Study Shows - Generic versions of Novo Nordisk A/S’s hit shots Ozempic and Wegovy could be sold for under $3 a month, a new study showed, underscoring their potential to unlock global access to powerful weight-loss",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/generic-ozempic-could-cost-less-than-3-a-month-study-shows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "efe6e17e1af0ce36460f057c811c302c",
+      "timestamp": "2026-03-06T17:26:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Reliance Seeks Russian Oil After US Gives India Temporary Waiver - Reliance Industries Ltd. is seeking to buy Russian oil after the US granted India a license to temporarily acquire cargoes, according to a person familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/reliance-seeks-russian-oil-after-us-gives-india-temporary-waiver",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ecd7377a577dc7fe17c053dafeeac78b",
+      "timestamp": "2026-03-06T17:24:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Europe Stocks Set for Worst Weekly Drop Since April on Iran War - European shares headed for their steepest weekly decline since April as the war in Iran showed no sign of nearing a resolution.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/europe-stocks-set-for-worst-weekly-drop-since-april-on-iran-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "850d2b4b4cf418b2d31d3970b7abce8b",
+      "timestamp": "2026-03-06T17:23:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hong Kong CBD’s Largest Landlord Sees Commercial Rebound - Hongkong Land Holdings Limited Chief Executive Michael Smith tells BTV the commercial property market in Hong Kong is seeing a 'great rebound.' (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/hong-kong-cbd-s-largest-landlord-sees-commercial-rebound-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e0187d393a4b79dc05052a9bd6513426",
+      "timestamp": "2026-03-06T17:22:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War: Trump Weighs Range of Options to Counter Oil Price Spike | Daybreak Europe 03/06/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/daybreak-europe-3-06-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b2905b107c7aa4fb8ed50dec4c6939cd",
+      "timestamp": "2026-03-06T17:19:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UK Arrests Four Men Accused of Assisting Iranian Spies - UK police arrested four men under the National Security Act accused of assisting Iran’s foreign intelligence service.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/uk-arrests-four-men-accused-of-assisting-iranian-spies",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e83ee34fafbbb57063b1dc382e78a4a2",
       "timestamp": "2026-03-06T17:00:00+09:00",
@@ -57,6 +310,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "e5619489a10c97f793361b45263330db",
+      "timestamp": "2026-03-06T16:36:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Gas Set for Biggest Weekly Gain Since Energy Crisis - European natural gas prices are poised for their biggest weekly gain since the energy crisis as the war in the Middle East continues to cloud the outlook for global flows.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/european-gas-set-for-biggest-weekly-gain-since-energy-crisis",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "982bd1d8d8b864b5838c91d5b0aad2ff",
       "timestamp": "2026-03-06T16:31:46+09:00",
       "source_type": "NEWS",
@@ -109,6 +373,17 @@
       "related_tickers": [],
       "content": "Trump Weighs Range of Options to Counter Oil Price Spike - US President Donald Trump is weighing a range of options for addressing the spike in oil and gasoline prices as the war in the Middle East continues. Trump has spoken with top advisers including Inter",
       "url": "https://www.bloomberg.com/news/videos/2026-03-06/trump-weighs-range-of-options-to-counter-oil-price-spike-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fbe2a5106a1f9db8e66b27fdd5ac9606",
+      "timestamp": "2026-03-06T16:19:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Defense Firm Vincorion Plans Frankfurt IPO as Sales Rise - German defense technology company Vincorion is planning to list in Frankfurt, looking to tap investor appetite for defense stocks in an increasingly unstable world.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/star-capital-backed-defense-firm-vincorion-plans-a-frankfurt-ipo",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1579,6 +1854,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "1b0647dac64d99a91fead37c79fb4f7f",
+      "timestamp": "2026-03-06T05:10:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bitcoin’s Latest Rally Fails to Convince Nervous Options Traders - Traders in the Bitcoin options market continue to price in downside risk and remain pessimistic about the cryptocurrency despite a recent surge in prices.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/bitcoin-options-traders-remain-skeptical-despite-recent-rally",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "77f0a693f243bcad7cc791620fea0529",
       "timestamp": "2026-03-06T05:02:16+09:00",
       "source_type": "NEWS",
@@ -1854,6 +2140,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "15b0aba30fadfd2736ba1a7c60ed5729",
+      "timestamp": "2026-03-06T02:37:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "A Copper Market Awash With Metal Sours Traders’ Bullish Mood - A bearish mood is sweeping through the physical copper market.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/a-copper-market-awash-with-metal-sours-traders-bullish-mood",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "018312f1f71f551e9443c78f5856a903",
       "timestamp": "2026-03-06T02:30:09+09:00",
       "source_type": "NEWS",
@@ -1908,305 +2205,6 @@
       "related_tickers": [],
       "content": "Israel Opens Way to Bring Kurdish Forces Into War Against Iran - <p>Entering the conflict&nbsp;could have cross-border&nbsp;repercussions and the prospect is already alarming Iraq and Turkey.</p>",
       "url": "https://www.bloomberg.com/news/articles/2026-03-05/israel-opens-way-to-bring-kurdish-forces-into-war-against-iran",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4c9caa3ba0868e0af964ecaf307bef7b",
-      "timestamp": "2026-03-06T02:01:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Sees Khamenei’s Son as Unacceptable for Iran, Report Says - US President Donald Trump said Mojtaba Khamenei, the son of Iran’s late ayatollah, is an unacceptable successor and insisted on being personally involved in picking the country’s next leader.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-sees-khamenei-s-son-as-unacceptable-for-iran-axios-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2460bd5acb4b8a52395de9e0cedb5544",
-      "timestamp": "2026-03-06T02:00:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pentagon Feud With Anthropic Shines Light on AI’s Role in Mass Surveillance - Anthropic PBC’s clash with the Pentagon is drawing fresh attention to a lightly regulated practice: the US government’s purchase of commercially available information, such as browsing histories and l",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/pentagon-feud-with-anthropic-shines-light-on-mass-surveillance",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "adbf111879e1636a04daffd7ead3213a",
-      "timestamp": "2026-03-06T02:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sub-6% Mortgage Rates Vanish as Iran War Sparks Inflation Fears - US homebuyers had to act fast last week to nab the first sub-6% mortgage rates in more than three years. Now they’re up, and the new conflict in the Middle East threatens to nudge them higher.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/sub-6-mortgage-rates-vanish-as-iran-war-sparks-inflation-fears",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e6d10a4236d753bc905dde437326cd88",
-      "timestamp": "2026-03-06T02:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Powers Must Cooperate or Face Self-Harm, ECB’s Lagarde Says - European Central Bank President Christine Lagarde urged global leaders to find a “basic code of conduct” to work with each other at a time when technological innovation needs cooperation and geopoliti",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/global-powers-must-cooperate-or-face-self-harm-lagarde-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1bb8402df529ccdd2194b051ab8b6817",
-      "timestamp": "2026-03-06T02:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Finds He Needs Europe Now That He’s Waging War in Iran - For years, Europe has endured President Donald Trump’s complaints that it is a complacent continent hiding under America’s security umbrella. Now, as he launches the first open-ended military campaign",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-finds-he-needs-europe-now-that-he-s-waging-war-in-iran",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dc0a36676abcd448733321af7dded37f",
-      "timestamp": "2026-03-06T01:51:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Is Undoing Trades He Pushed as Oil, Yields, Dollar Surge - Until the conflict with Iran broke out, President Donald Trump was getting &mdash; by design or by chance &mdash; what he appeared to want in three pivotal financial markets: lower oil prices and Trea",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-is-undoing-trades-he-pushed-as-oil-yields-dollar-surge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dc0a36676abcd448733321af7dded37f",
-      "timestamp": "2026-03-06T01:51:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Is Undoing Trades He Pushed as Oil, Yields, Dollar Surge - Until the conflict with Iran broke out, President Donald Trump was getting &mdash; by design or by chance &mdash; what he appeared to want in three pivotal financial markets: lower oil prices and Trea",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-is-undoing-trades-he-pushed-as-oil-yields-dollar-surge",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d9f866e14d0939b5b00be3d8a94a3d2a",
-      "timestamp": "2026-03-06T01:50:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Intensifies Attacks Across Gulf as Israel Hits Tehran - Iran launched a fresh wave of missile and drone strikes across the Gulf on Thursday evening, with attacks reported in the United Arab Emirates, Bahrain and Qatar.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iran-intensifies-attacks-across-gulf-as-israel-bombards-tehran",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "63880ee2539be299f39193a6bdff1fb3",
-      "timestamp": "2026-03-06T01:49:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "The Hidden AI Risk in Portfolios - Arjun Raghavan, the CEO of Partners Capital, a firm that manages $75 billion for families and foundations worldwide &mdash; and he says AI is the largest risk factor in markets right now. Arjun joined",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/the-hidden-ai-risk-in-portfolios-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a60f5770db7dbb7402562884a04bbc23",
-      "timestamp": "2026-03-06T01:43:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Senate Democrats Aim Bill at Breakup of Meatpacking Companies - The US meatpacking industry faces a fresh wave of scrutiny, this time from Senate Democrats seeking to allow companies to process only one type of meat and set stricter limits on the beef market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/senate-democrats-aim-bill-at-breakup-of-meatpacking-companies",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d5834ac2f4780bae562d5b3d68435907",
-      "timestamp": "2026-03-06T01:40:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Finland to Lift Nuclear Weapons Restrictions in Major Shift - Finland’s government wants to remove some restrictions on nuclear weapons, allowing such arms to be brought to its territory, marking a major shift for the Nordic nation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/finland-proposes-lifting-some-nuclear-weapons-restrictions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78853ea120132db571824f68707817d5",
-      "timestamp": "2026-03-06T01:39:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Presenting FedLock, A New Way to Measure Fedspeak With LLMs - Check it out.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-05/presenting-fedlock-a-new-way-to-measure-fedspeak-with-llms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d4c40d3bdff229f7727b97b57e5919b3",
-      "timestamp": "2026-03-06T01:32:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FBI Nabs Contractor for Allegedly Stealing Crypto From Marshals - John Daghita, a government contractor accused of stealing more than $46 million in cryptocurrency from the US Marshals Service, was arrested late Wednesday on the island of Saint Martin in the Caribbe",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/fbi-arrests-contractor-in-alleged-crypto-theft-held-by-marshals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "95441f8281e6416d91e4626d3eb754d5",
-      "timestamp": "2026-03-06T01:32:35+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Offers Help Downing Iran Drones in Exchange for Patriot Missiles - Ukrainian President Volodymyr Zelenskiy is trying to leverage his nation’s war savvy to keep it on the world’s agenda as the Iran conflict increasingly absorbs the attention of President Donald Trump,",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/ukraine-offers-help-downing-iran-drones-in-exchange-for-patriots",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "074dddd074a018ed301b987c008d04f7",
-      "timestamp": "2026-03-06T01:22:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ChatGPT Backlash Reveals New Pitfalls in Aligning With Trump - <p>Downloads of rival AI tool Claude soar amid feud with the Pentagon.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/why-are-people-deleting-chatgpt-claude-has-the-answer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "074dddd074a018ed301b987c008d04f7",
-      "timestamp": "2026-03-06T01:22:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ChatGPT Backlash Reveals New Pitfalls in Aligning With Trump - <p>Downloads of rival AI tool Claude soar amid feud with the Pentagon.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/why-are-people-deleting-chatgpt-claude-has-the-answer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4c71c10c415945f7f0323bba4eaafe6a",
-      "timestamp": "2026-03-06T01:21:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ring Founder on AI's Role in Modern Home Security - Jamie Siminoff, Ring founder and chief inventor, discusses the growing role of AI in home security, highlighting Ring's new Super Bowl ad that features AI technology to help find lost pets. He speaks ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/ring-founder-on-ai-s-role-in-modern-home-security-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd45dd0ec48ca84b38ac6bef65fc3084",
-      "timestamp": "2026-03-06T01:21:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Set to Launch Strikes Deeper Into Iran - The US-Israeli war with Iran enters its sixth day and shows no sign of ending. US officials say we're about to enter a new phase of the conflict and launch strikes deeper into Iran. Tyler Kendall has ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/us-set-to-launch-strikes-deeper-into-iran-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ac2ca61baad3afd231fd971c8469b48d",
-      "timestamp": "2026-03-06T01:13:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Weather Agency Targets AI Upgrades in Plans for Overhaul - The US science agency that oversees the National Weather Service plans to prioritize the development of advanced weather models while reorganizing into a leaner structure in the months ahead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-weather-agency-targets-ai-upgrades-in-plans-for-overhaul",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "559c499e0633ca645c6a955e41fd9216",
-      "timestamp": "2026-03-06T01:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Netflix Acquires Ben Affleck-Founded AI Moviemaking Business - Netflix Inc. acquired InterPositive, an AI filmmaking technology business founded four years ago by actor Ben Affleck.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/netflix-acquires-ben-affleck-founded-ai-moviemaking-business",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dffab8aa54d9335e9fc0be07081dafb6",
-      "timestamp": "2026-03-06T00:51:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Lloyd Blankfein Is Happy Elon Musk Is Backing the US - \"They're on the cutting edge and they're still motivated to work. Thank goodness.\"\n\nFormer Goldman Sachs CEO Lloyd Blankfein joins Joe Weisenthal and Tracy Alloway on this live recording of the Odd Lo",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/why-lloyd-blankfein-is-happy-elon-musk-is-backing-the-us-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f7d0b9d3082870094d0521b9026a0d98",
-      "timestamp": "2026-03-06T00:41:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EU to Consider Options to Cut Energy Prices This Decade - The European Union is set to discuss short-term options to lower energy prices in the coming years, while the green transition takes effect.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/eu-to-consider-options-to-cut-energy-prices-this-decade",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "229c489b39d16a6390526446e24dcd42",
-      "timestamp": "2026-03-06T00:30:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 329,453,698 0.1034",
-      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017681.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a8c18c8908b960e5fb2afb06dd22923c",
-      "timestamp": "2026-03-06T00:20:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traffic Through Strait of Hormuz Comes to Near Halt - Aramco's shift to using the Red Sea route for shipments underscores the risks associated with the Strait of Hormuz, a critical chokepoint through which about 20% of global oil trade passes. Alaric Nig",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/traffic-through-strait-of-hormuz-comes-to-near-halt-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a07cf8c26d78461f368780994b0c2af3",
-      "timestamp": "2026-03-06T00:01:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Monetary Policy Is Modestly Restrictive, Barkin Says - Federal Reserve Bank of Richmond President Tom Barkin says monetary policy is modestly restrictive for now. He speaks to Bloomberg's Michael McKee in Richmond. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/monetary-policy-is-modestly-restrictive-barkin-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "adf5763c9874a46d684784fc3dba653a",
-      "timestamp": "2026-03-06T00:01:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Swiss Lawmakers Want to Keep Neutrality Flexible Amid Isolationist Push - Swiss lawmakers recommended that voters reject a proposal from right-wing groups to enshrine permanent neutrality in the constitution, a plan that would limit the country’s ability to impose economic ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/swiss-lawmakers-want-to-keep-neutrality-flexible-amid-isolationist-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9fc3b76edd3ddce9aa3fe05192d8eaeb",
-      "timestamp": "2026-03-05T23:52:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Seeks to Quiet Accusations Its Iran Response Was Flat-Footed - Keir Starmer addressed criticism that the UK government has been slow in its response to the conflict in the Middle East, saying “we are and we have done everything we can at speed.”",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/uk-seeks-to-quiet-accusations-its-iran-response-was-flat-footed",
       "sentiment": "NEUTRAL"
     }
   ]
