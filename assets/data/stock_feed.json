@@ -1,6 +1,281 @@
 {
-  "last_updated": "2026-03-06T15:16:12.445349+09:00",
+  "last_updated": "2026-03-06T17:10:36.082260+09:00",
   "items": [
+    {
+      "id": "e83ee34fafbbb57063b1dc382e78a4a2",
+      "timestamp": "2026-03-06T17:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Putin to Press On With War Despite Economy Woes, Lithuania Warns - Vladimir Putin is determined to keep spending on strengthening Russia’s military despite a weakening economy, according to a Lithuanian intelligence assessment.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/putin-to-press-on-with-war-despite-economy-woes-lithuania-warns",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b412edc7150f6e93330397c9dc2f9105",
+      "timestamp": "2026-03-06T16:53:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Calculating Iran’s Missile Math After First Week of War - A crucial question for how the war will play out is understanding Iran’s missile depth &mdash;  its ability to strike US military bases in the Middle East, Israel, and America’s partners in the Gulf. ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/calculating-iran-s-missile-math-after-first-week-of-war-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3dd87343c3bf4433b75cf3f896047451",
+      "timestamp": "2026-03-06T16:48:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Horizons Middle East & Africa 03/06/2026 (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/horizons-middle-east-africa-03-06-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9e723973d4ec1a0c8c7641cec3db9554",
+      "timestamp": "2026-03-06T16:46:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan Rules Out Talks With Afghanistan After Ongoing Clashes - Pakistan won’t begin talks to end clashes with Afghanistan until Kabul stops supporting and harboring militant groups that launch cross-border attacks from its territory, a spokesman for Prime Ministe",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/pakistan-rules-out-talks-with-afghanistan-after-ongoing-clashes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "963707d15cb2337ac81468f752958b6b",
+      "timestamp": "2026-03-06T16:42:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sports Brands Bet on Marathons for Loyalty, Growth - Global sportswear makers are banking on the post-pandemic running boom to continue in 2026. As the year’s racing season shifts into gear, players like Japan’s ASICS are looking to the world’s biggest ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/sports-brands-bet-on-marathons-for-loyalty-growth-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "982bd1d8d8b864b5838c91d5b0aad2ff",
+      "timestamp": "2026-03-06T16:31:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War Tests Asia’s Resilience | Insight with Haslinda Amin 03/06/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/insight-with-haslinda-amin-03-06-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ce8d86c81ed4f0e275cec573374245b4",
+      "timestamp": "2026-03-06T16:30:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Missing Foreign Investor Stalls Nigeria Firm’s Revival Plan - A little known publicly traded company in Nigeria said its revival plan has stalled because it can’t trace its biggest shareholder.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/nigerian-firm-s-revival-plan-stalled-by-a-missing-foreign-investor",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5d15739fffb32ebaa743a7d4d0470039",
+      "timestamp": "2026-03-06T16:26:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Satterfield: Iran Concessions to End War Unlikely - A barrage of Iranian missiles and drones targetted at least five Mideast countries where citizens were urged to take shelter. Earlier this week, NATO forces shot down a ballistic missile headed toward",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/satterfield-iran-concessions-to-end-war-unlikely-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7bc44c7b03ca28cc7a930ab725c6dd65",
+      "timestamp": "2026-03-06T16:24:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War: Can Ukraine Conflict Serve as a Market Guide? - Uncertainty about how long the war in Iran could last is forcing investors to look back to Russia’s invasion of Ukraine.\n\nBack then in 2022, everything from oil prices to bonds were affected. Ruth Car",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/iran-war-can-ukraine-conflict-serve-as-a-market-guide-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cd6559ea410a66c88968e1cf7e539ea8",
+      "timestamp": "2026-03-06T16:21:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Weighs Range of Options to Counter Oil Price Spike - US President Donald Trump is weighing a range of options for addressing the spike in oil and gasoline prices as the war in the Middle East continues. Trump has spoken with top advisers including Inter",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/trump-weighs-range-of-options-to-counter-oil-price-spike-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b9a3906d8f04df4931d237a592ce744d",
+      "timestamp": "2026-03-06T16:08:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War May Trigger African Currency Devaluations, BMI Says - The conflict in the Middle East could spark another round of devaluations in Africa as rising energy costs limit authorities’ ability to defend their currencies, according to BMI, a unit of Fitch Solu",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/iran-war-may-trigger-african-currency-devaluations-bmi-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1722fcc0af63607bf0f37f6f43246659",
+      "timestamp": "2026-03-06T16:02:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Mysteriously Cuts PLA Flights Into Sensitive Taiwan Areas - China hasn’t dispatched a single warplane near Taiwan for the past seven days, a mysterious absence that amounts to Beijing’s longest spell away from the sensitive area since Taiwan started regularly ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/china-mysteriously-cuts-pla-flights-into-sensitive-taiwan-areas",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "16865cfe0af7c13c66efc8b0eb1013f6",
+      "timestamp": "2026-03-06T15:57:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dollar Strength Offsets War Premium as Treasuries Fall - The dollar is among the few major assets to have rallied this week, while traditional safe havens such as Treasuries, the yen, the Swiss franc and gold offered no refuge to investors amid the ongoing ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/dollar-strength-offsets-war-premium-as-treasuries-fall-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "991f97f679e3ed547080f410557de39d",
+      "timestamp": "2026-03-06T15:56:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Israel Has Launched a \"Broad\" Wave of Attacks on Tehran - The Israel Defense Forces said overnight it was carrying out a “broad” wave of attacks on Iran, as tensions continue to escalate on the seventh day of war. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/israel-has-launched-a-broad-wave-of-attacks-on-tehran-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9125265171eea37b1ff3151850c4744e",
+      "timestamp": "2026-03-06T15:46:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "FTSE 100 Rebounds But Set for Worst Week Since Tariff Chaos",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-03-06/ftse-100-live-trump-iran-war-pound-gilts-oil-gold-prices-bonds-what-s-moving-uk-markets-right-now-markets-today",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9a7fff2e868f9cf5f5834588fc8a6cdc",
+      "timestamp": "2026-03-06T15:45:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Hochstein: Trust Between Iran & GCC Neighbors Gone - A barrage of Iranian missiles and drones targeted at least five Mideast countries where citizens were urged to take shelter. Meanwhile the US granted a temporary license allowing Indian refiners to ta",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/hochstein-trust-between-iran-gcc-neighbors-gone-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ad8f4b6b7c5c3b91bde09b1df6e0a527",
+      "timestamp": "2026-03-06T15:44:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How US Sub Strike Threatens India’s Economy - A U.S. submarine strike on an Iranian warship in the Indian Ocean has pushed the Middle East conflict to India’s doorstep, raising fresh questions about New Delhi’s security and diplomatic strategy. O",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-us-sub-strike-threatens-india-s-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3498bac3f6b4bd714d69354e76bd5354",
+      "timestamp": "2026-03-06T15:43:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ukraine Accuses Hungary of Seizing Bank Staff in Fresh Spat - Ukrainian Foreign Minister Andrii Sybiha accused Hungary of unlawfully detaining seven employees of its state-owned Oschadbank in Budapest, the latest in a series of disputes between the neighboring s",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/ukraine-accuses-hungary-of-seizing-seven-bank-staff-in-new-spat",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "39ac30e923107aae2b204edeeed81719",
+      "timestamp": "2026-03-06T15:42:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BSP Says $100 Oil May Force Rate Hike - The Philippine Central Bank Governor Eli Remolona Jr. warns that oil rising toward $100 per barrel could push Philippine inflation beyond the BSP’s 2%-4% target range. On Insight with Haslinda Amin, h",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/bsp-says-100-oil-may-force-rate-hike-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d2df608bd96cfbde6567b9c75ffa1d55",
+      "timestamp": "2026-03-06T15:39:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ICTSI Growth Plans Amid Mideast Turmoil - International Container Terminal Services Executive VP Christian Gonzalez joins Haslinda Amin on Insight to discuss how the escalating Middle East conflict is reshaping global shipping routes and impa",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/ictsi-growth-plans-amid-mideast-turmoil-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3828b601b87ca1bc75ea2484cc254cb9",
+      "timestamp": "2026-03-06T15:37:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Markets Weather Iran War Turmoil Better Than Asian Peers - Chinese markets have held up better than their Asian peers during the global market selloff caused by the war in Iran.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/chinese-markets-weather-iran-war-turmoil-better-than-asian-peers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "05a7be332b4a72430378af6923485e95",
+      "timestamp": "2026-03-06T15:35:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pfizer Secures China Nod for Obesity Drug as Generics Loom - China has approved a new obesity treatment from Pfizer Inc., heightening competition in a market poised to become even more crowded with the looming entry of generics.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/pfizer-secures-china-nod-for-obesity-drug-as-generics-loom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4bdaabe4f78282ea37d9599afdd9846e",
+      "timestamp": "2026-03-06T15:30:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Team Downplays Treasury Oil Futures Trades as Prices Surge - The Trump administration is ruling out deploying the Treasury Department to trade oil futures for now, according to a person familiar with the matter, as government officials look tame energy prices t",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/trump-team-downplays-treasury-oil-futures-trades-as-prices-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "376e640c4f482918d95da1e96b973d4f",
+      "timestamp": "2026-03-06T15:30:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Top Manganese Firms Mull Bid for New South Africa Export Hub - Top producers of manganese ore in South Africa, the world’s biggest producer of the steelmaking ingredient, intend to bid for a new export terminal at the southeastern port of Ngqura.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/top-manganese-firms-mull-bid-for-new-south-africa-export-hub",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bb69a4ad9614e91dc859e495fd239d9d",
+      "timestamp": "2026-03-06T15:20:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Malaysia's Economy, Currency Remain Resilient, Amir Says - Malaysia’s Second Finance Minister Amir Hamzah Azizan says his country is within the safe zone of its economic forecasts. He also discusses the outlook for the currency, which has come under pressure ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/malaysia-s-economy-currency-remain-resilient-amir-says-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d32ea08c56450b0e5d2934e3b855ab06",
       "timestamp": "2026-03-06T15:09:37+09:00",
@@ -13,6 +288,50 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "e65b3124396cb9f429a88c15b3812c1b",
+      "timestamp": "2026-03-06T15:07:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Texas Congressman Gonzales Drops Reelection Bid Amid Scandal - US Representative Tony Gonzales announced Thursday night that he would not run again, days after the Texas Republican acknowledged an affair with a member of his staff who killed herself.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/texas-congressman-gonzales-drops-reelection-bid-amid-scandal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "272a26c2141c15ce7886d7e864cc9291",
+      "timestamp": "2026-03-06T15:04:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippines’ ICTSI Seeking Acquisitions, Expansion Despite Middle East Conflict - The Philippines’ International Container Terminal Services Inc., undeterred by the Middle East conflict, continues to search for acquisitions and expansion opportunities in Africa, Latin America and S",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/philippines-ictsi-seeking-acquisitions-expansion-despite-middle-east-conflict",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f7e349dc69add28000fbac9b8d989310",
+      "timestamp": "2026-03-06T15:00:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Poland to Avoid Rate Cuts Until Iran War Ends, Wnorowski Says - Poland will likely abstain from interest-rate cuts for as long as the armed conflict in Iran lasts, according to policymaker Henryk Wnorowski.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/poland-to-avoid-rate-cuts-until-iran-war-ends-wnorowski-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ffc424db3a5ed5bd046d11eeb3268133",
+      "timestamp": "2026-03-06T14:51:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Philippines Probing More Filipinos After Alleged Leak of Sensitive Data to China - The Philippines’ top security official said more people are being probed after authorities apprehended three Filipino nationals for allegedly leaking sensitive information to Beijing, including data o",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/philippines-probing-more-filipinos-after-alleged-leak-of-sensitive-data-to-china",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "ca2d715a7c6806b03c3a844a2139c131",
       "timestamp": "2026-03-06T14:51:08+09:00",
       "source_type": "NEWS",
@@ -21,6 +340,17 @@
       "related_tickers": [],
       "content": "IMF's Georgieva on Mideast Oil Shock - IMF Managing Director, Kristalina Georgieva, says they're ready to assist countries facing balance of payment concerns amid heightened uncertainty from the Middle East conflict. She spoke exclusively ",
       "url": "https://www.bloomberg.com/news/videos/2026-03-06/imf-s-georgieva-on-mideast-oil-shock-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "64147dcb57c154034cea5dd97ebfb846",
+      "timestamp": "2026-03-06T14:49:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Ambani’s Record India IPO of Jio Delayed by Regulatory Limbo - The Indian government’s delays in formalizing changes to listing rules are threatening to force Asia’s richest person, Mukesh Ambani, to miss the targeted timeline for an initial public offering of sh",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/ambani-s-record-india-ipo-of-jio-delayed-by-regulatory-limbo",
       "sentiment": "NEUTRAL"
     },
     {
@@ -963,6 +1293,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "5ea34fe99bab94853743ab73b5fdd785",
+      "timestamp": "2026-03-06T07:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asics Bets on Marathon Infrastructure as Turnaround Gains Pace - Asics Corp. is accelerating its global expansion by taking greater control of marathon infrastructure, a strategy executives say will deepen engagement with runners and convert that access into faster",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-05/asics-bets-on-marathon-infrastructure-as-turnaround-gains-pace",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "b332d87b203a18c537482cd12971551c",
       "timestamp": "2026-03-06T06:59:01+09:00",
       "source_type": "NEWS",
@@ -1866,351 +2207,6 @@
       "related_tickers": [],
       "content": "UK Seeks to Quiet Accusations Its Iran Response Was Flat-Footed - Keir Starmer addressed criticism that the UK government has been slow in its response to the conflict in the Middle East, saying “we are and we have done everything we can at speed.”",
       "url": "https://www.bloomberg.com/news/articles/2026-03-05/uk-seeks-to-quiet-accusations-its-iran-response-was-flat-footed",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9fca2d612aaed3917464e5671d3814a0",
-      "timestamp": "2026-03-05T23:48:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Shifts From Using Missiles to Drones in Gulf Strikes - Iran is increasingly relying on drones rather than missiles to attack Gulf states as the war in the Middle East drags on.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iran-shifts-from-using-missiles-to-drones-in-gulf-strikes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "80a3645ad99f176e8163c0339e214314",
-      "timestamp": "2026-03-05T23:46:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed's Barkin Says Price at the Pump Matters a Lot - Federal Reserve Bank of Richmond President Tom Barkin says it's too soon to say how policymakers will respond to the war in Iran, but they're tracking the impact on oil now. “Gas prices, obviously, if",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/fed-s-barkin-price-at-the-pump-matters-a-lot-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a156f3a4b70ffe344f7fd7451f6c8993",
-      "timestamp": "2026-03-05T23:39:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed Is Still Assessing Impact of Iran War, Barkin Says - Federal Reserve Bank of Richmond President Tom Barkin says it's too soon to tell how policymakers will respond to the Iran war, but he says they are tracking the price of gasoline closely. He also say",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/fed-is-still-assessing-impact-of-iran-war-barkin-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "348e71c7b255f56898aac160ceec3219",
-      "timestamp": "2026-03-05T23:25:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan’s 3,500-Person Leveraged Finance Event Jolted by War Reality Check - There was already a sense of unease about the roughly $3 trillion leveraged finance market as thousands of bankers, investors and analysts descended on Miami Beach for JPMorgan Chase &amp; Co.’s annua",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/jpmorgan-s-3-500-person-levfin-event-jolted-by-war-reality-check",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9b46ffb137eeecca366d46a0107db028",
-      "timestamp": "2026-03-05T23:15:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trafigura Strikes Deal to Buy Venezuela Gold in US Pact - The Trump administration has struck a deal that would see Venezuela’s state mining company sell as much as 1,000 kilograms of gold to commodities trader Trafigura, according to people familiar with th",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trafigura-said-to-strike-deal-to-buy-venezuela-gold-in-us-pact",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f303d1e1b30dc7bdd7609d9405639acd",
-      "timestamp": "2026-03-05T23:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Templum to Offer Premier Private Market Investment Opportunities in Perplexity AI, OpenAI, and Colossal Biosciences to SoFi Members - Templum, a leading infrastructure provider for private markets and SoFi (NASDAQ: SOFI), the one-stop shop for digital financial services, today announced the launch of a limited-time private market in",
-      "url": "https://finance.yahoo.com/news/templum-offer-premier-private-market-141500015.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5c8393b4ef0fb53b65b322a0289128b6",
-      "timestamp": "2026-03-05T23:13:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "World Bank Plans $500 Million to Upgrade Kenya’s Commuter Rail - The World Bank has earmarked $500 million to rehabilitate the commuter rail network in Kenya’s capital.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/world-bank-plans-500-million-to-upgrade-kenya-s-commuter-rail",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c1a20a14c5efcacceebad5b4e02a57db",
-      "timestamp": "2026-03-05T23:13:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Vows to Intensify Retaliation While Trump Hails War Gains - The US-Israeli war on Iran entered a sixth day with little sign of easing, as the Islamic Republic vowed to intensify its retaliation and oil extended gains. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/iran-vows-intensified-retaliation-trump-hails-war-gains-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7468cf1b6dc227a1bcbf7dfb58fb8849",
-      "timestamp": "2026-03-05T23:11:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gulf Frustrated at Being the Center of War That’s Not Theirs - Gulf Arab states have been taking the brunt of Iranian attacks in a war they didn’t start and never chose.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/gulf-frustrated-at-being-the-center-of-war-that-s-not-theirs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dc7318bfe5fe3c6dca0e66a83663f0cb",
-      "timestamp": "2026-03-05T23:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Here is What to Know Beyond Why SoFi Technologies, Inc. (SOFI) is a Trending Stock - Recently, Zacks.com users have been paying close attention to SoFi Technologies (SOFI). This makes it worthwhile to examine what the stock has in store.",
-      "url": "https://finance.yahoo.com/news/know-beyond-why-sofi-technologies-140005845.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7bf338b080a13d6288521aa2034d1b7a",
-      "timestamp": "2026-03-05T22:50:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon Bets on Health Care AI With Tools for Patients, Doctors - Amazon.com Inc.’s cloud unit is launching AI tools for medical practices, the company’s latest effort to broaden the reach of its cloud-computing business into workplace applications.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/amazon-bets-on-health-care-ai-with-tools-for-patients-doctors",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6e8e9a5a93f389a871499d4b707e27bd",
-      "timestamp": "2026-03-05T22:49:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Berkshire Has No Plans for Kraft Heinz Stake With Split Halted - Berkshire Hathaway Inc. Chief Executive Officer Greg Abel said the conglomerate has no immediate plans to alter its stake in Kraft Heinz Co. after the food company paused its plans to split in two.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/berkshire-has-no-plans-for-kraft-heinz-stake-with-split-halted",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "18078be6e271d5d3f7b7e45d04f4d2ad",
-      "timestamp": "2026-03-05T22:47:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Barkin Says Fed Response to Iran War Depends on Length of Shock - Federal Reserve Bank of Richmond President Tom Barkin said the US central bank’s response to the US-Israel war with Iran will depend on how long the impact on the US economy lasts.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/barkin-says-fed-response-to-iran-war-depends-on-length-of-shock",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "18078be6e271d5d3f7b7e45d04f4d2ad",
-      "timestamp": "2026-03-05T22:47:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Barkin Says Fed Response to Iran War Depends on Length of Shock - Federal Reserve Bank of Richmond President Tom Barkin said the US central bank’s response to the US-Israel war with Iran will depend on how long the impact on the US economy lasts.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/barkin-says-fed-response-to-iran-war-depends-on-length-of-shock",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0ce23d6c17c02851f5ca371a57327d93",
-      "timestamp": "2026-03-05T22:45:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Brain Tech Startup Science Corp. Raises $230 Million to Treat Blindness - Neurotechnology company Science Corp. raised $230 million from investors to commercialize its implant for blindness and develop even more advanced brain devices.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/brain-tech-startup-science-corp-raises-230-million-to-treat-blindness",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd4d7ab13a502618ea63846301b45723",
-      "timestamp": "2026-03-05T22:37:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Germany’s KfW Said to Tap JPMorgan for Potential KNDS Stake Deal - State-owned lender KfW is working with JPMorgan Chase &amp; Co. on the potential purchase of a stake in KNDS NV, people familiar with the matter said, in a sign that Berlin is moving ahead with plans ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/germany-s-kfw-said-to-tap-jpmorgan-for-potential-knds-stake-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a980330cf812fc55313fa38f2243e93",
-      "timestamp": "2026-03-05T22:30:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EQT Buys East Coast Warehouses From Mapletree for $575 Million - Mapletree Investments Pte agreed to sell a portfolio of East Coast warehouses to EQT Real Estate for $575 million.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/eqt-buys-east-coast-warehouses-from-mapletree-for-575-million",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a147f7d5213f76d76390a5e6a9cb8e2",
-      "timestamp": "2026-03-05T22:28:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Stock Selloff Shows No Signs of Easing as Iran War Grinds On - US stocks slid Thursday, rocked by another turbulent session as the escalating conflict in the Middle East raised the prospect of sustained disruptions to energy markets and oil prices, with implicati",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/stock-futures-slip-on-oil-surge-fears-of-iran-war-disruptions",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3dba670b1f059469c580f9dc64b61314",
-      "timestamp": "2026-03-05T22:23:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Defense Department Seeks Information to Expand Metal Stockpiles - The US Defense Department is seeking information for the potential stockpiling of five critical minerals, as the country steps up efforts to reduce risks in the supply chain and bolster domestic feeds",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-defense-dept-seeks-information-to-expand-metal-stockpiles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3dba670b1f059469c580f9dc64b61314",
-      "timestamp": "2026-03-05T22:23:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Defense Department Seeks Information to Expand Metal Stockpiles - The US Defense Department is seeking information for the potential stockpiling of five critical minerals, as the country steps up efforts to reduce risks in the supply chain and bolster domestic feeds",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-defense-dept-seeks-information-to-expand-metal-stockpiles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "14da48272e8bc8bf439225d310966e1e",
-      "timestamp": "2026-03-05T22:16:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Poland’s Central Bank Chief Weighs Gold Sales to Finance Defense - Poland’s central bank chief laid out a proposal to generate as much as 48 billion zloty ($13 billion) from the sale of gold reserves to finance defense spending as part of a plan backed by the nation’",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/poland-s-central-bank-chief-weighs-gold-sales-to-finance-defense",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "386ac79997bdd89e9023ab1b35ccc1ab",
-      "timestamp": "2026-03-05T22:10:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran War Gives Russia Brief Window to Rebuild Reserves - A surge in oil prices driven by the US-Israel war on Iran won’t solve the Kremlin’s budget problem, but it could help Russia replenish rapidly depleting rainy-day reserves.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iran-war-gives-russia-brief-window-to-rebuild-reserves",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8836f901ebc62bacf8bb3e1768cee3bf",
-      "timestamp": "2026-03-05T22:06:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Middle East War Could Expose AI Risks | The Pulse 3/5 - \"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/the-pulse-3-5-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fba44442707d2ce5f9463fb13cf01a36",
-      "timestamp": "2026-03-05T22:05:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Mortgages About to Get Pricier as Swap Rates Rise on Iran War - A key gauge that reflects expectations for the future path of UK interest rates has risen to the highest this year, fueling fears over a fresh increase in mortgage costs.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/uk-mortgages-about-to-get-pricier-as-swap-rates-rise-on-iran-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "34b3ccd5dc2d04fe25f292f25cbedd39",
-      "timestamp": "2026-03-05T22:01:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB’s Nagel on Inflation, Iran War Risks, Gold - Bundesbank President and European Central Bank Governing Council Member Joachim Nagel tells Bloomberg’s Lizzy Burden that the duration of the Iran war will likely be the main driver of the inflation o",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-05/ecb-governing-council-member-nagel-on-gold-iran-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "594f5a56a967c899354585b0e561dacd",
-      "timestamp": "2026-03-05T22:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Founders Fund Leads $80 Million Bet on Manufacturing Unicorn - Founders Fund is leading an $80 million investment in Nominal Inc., a startup aiming to modernize factories and make manufacturing more efficient.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/founders-fund-leads-80-million-bet-on-manufacturing-unicorn",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cf0df072dc61e80a9b7f0f98750da0e1",
-      "timestamp": "2026-03-05T22:00:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Poised to Name New Supreme Leader With US Watching Closely - Iran‘s top clerics are nearing a decision on the country’s next supreme leader after Ali Khamenei was killed in the US-Israeli war on the Islamic Republic, with the wartime council laying bare divisio",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/iran-s-next-leader-assembly-of-experts-nears-naming-khamenei-s-successor",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6fffee28cd2cf5d4922693e8cd2b1241",
-      "timestamp": "2026-03-05T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Inflation More Worrying Than Growth on Iran War, ECB’s Nagel Says - Inflation is a bigger concern than economic growth as the European Central Bank assesses the implications of the war in Iran, according to Governing Council member Joachim Nagel.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/ecb-s-nagel-says-inflation-more-worrying-than-growth-on-iran-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e3281ccd89fcefbd3a74efe40e087c62",
-      "timestamp": "2026-03-05T22:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Companies Stare Down $100,000 Fee With New H-1B Visa Rules - The Trump administration’s overhaul of the US visa system for highly skilled immigrants is about to get its first major test.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/trump-s-new-h-1b-visa-requirements-favor-well-paid-workers",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4b0979bfcb4b7c3dd05cb620df87e133",
-      "timestamp": "2026-03-05T21:56:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NYSE Owner Invests in Crypto Exchange at $25 Billion Valuation - Intercontinental Exchange Inc. is acquiring a stake in OKX in a deal that values the cryptocurrency exchange operator at $25 billion.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/nyse-owner-invests-in-crypto-exchange-at-25-billion-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5ed9246d3e0c0c7979b9864411020acd",
-      "timestamp": "2026-03-05T21:55:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sierra Space Raises $550 Million, Lifting Value to $8 Billion - Sierra Space Corp. has raised $550 million, fueling its drive to become a defense contractor for the US government.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/sierra-space-raises-550-million-lifting-value-to-8-billion",
       "sentiment": "NEUTRAL"
     }
   ]
