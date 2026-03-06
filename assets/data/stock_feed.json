@@ -1,6 +1,285 @@
 {
-  "last_updated": "2026-03-07T03:13:18.367311+09:00",
+  "last_updated": "2026-03-07T05:08:50.530620+09:00",
   "items": [
+    {
+      "id": "ac1718817907650151bb3bfde1ccea40",
+      "timestamp": "2026-03-07T05:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘MAGA Is Split’: Trump’s War in Iran Divides America First Loyalists - <p>The military strikes &mdash;&nbsp;and their impact on the economy &mdash; have&nbsp;emerged as a grave political vulnerability for Republicans ahead of midterm elections.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-03-06/iran-war-trump-rejects-peace-talks-maga-splits-on-us-israel-military-action",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2adc80bcd93135aa8a566c17808a0cc9",
+      "timestamp": "2026-03-07T04:57:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi (SOFI), Mastercard (MA) Partner to Integrate SoFiUSD Stablecoin for Global Settlement - SoFi Technologies Inc. (NASDAQ:SOFI) is one of the stocks that should double in 3 years. On March 3, SoFi Technologies and Mastercard (NYSE:MA) announced an enhanced partnership to integrate SoFiUSD a",
+      "url": "https://finance.yahoo.com/news/sofi-sofi-mastercard-ma-partner-195710866.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fbc987d1f54f043541ecb44ba11f2a6f",
+      "timestamp": "2026-03-07T04:50:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Liquidity Stress in HY Bond Market: Gomez-Bravo - Kelly Burton, portfolio manager at Barings High Yield, and Pilar Gomez-Bravo, co-chief investment officer of fixed income at MFS Investment Management, joins Caroline Hyde and Isabelle Lee on \"Bloombe",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/liquidity-stress-in-hy-bond-market-gomez-bravo-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "655fe28d08f6dbc2c2ccad5c9e7ff2b9",
+      "timestamp": "2026-03-07T04:42:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "'Oil North of $100' Would Be Concern: Janet Rilling - Janet Rilling, senior portfolio manager and the head of the Plus Fixed Income team at Allspring Global, joins Caroline Hyde and Isabelle Lee on \"Bloomberg Real Yield.\" They discussed the growing choru",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/-oil-north-of-100-would-be-concern-janet-rilling-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c83369be4a561a97ee9ab67f8132fddb",
+      "timestamp": "2026-03-07T04:41:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Bonds See Worst Week Since April on Inflation Concerns - Vineer Bhansali, founder of LongTail Alpha, joins Caroline Hyde and Isabelle Lee on \"Bloomberg Real Yield.\" Treasuries are heading for their biggest weekly loss since April 2025 as surging oil prices ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/us-bonds-see-worst-week-since-april-on-inflation-concern-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "88d6814f472323c4b4e5388cce5de198",
+      "timestamp": "2026-03-07T04:40:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Energy Secretary Wright Calls to Reopen Indian Point Nuclear Plant - US Energy Secretary Chris Wright is calling to restart a shuttered nuclear plant north of New York City, saying it is needed to meet surging demand for power.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/energy-secretary-wright-calls-to-reopen-indian-point-nuke-plant",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "88d6814f472323c4b4e5388cce5de198",
+      "timestamp": "2026-03-07T04:40:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Energy Secretary Wright Calls to Reopen Indian Point Nuclear Plant - US Energy Secretary Chris Wright is calling to restart a shuttered nuclear plant north of New York City, saying it is needed to meet surging demand for power.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/energy-secretary-wright-calls-to-reopen-indian-point-nuke-plant",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0413316947d09ca4e455d84b6433d00",
+      "timestamp": "2026-03-07T04:36:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic at Risk of Huawei-Like Ban After Pentagon Punishment - Anthropic PBC runs the risk of losing a wide range of US government business after the Defense Department declared it a supply-chain risk, a rare designation that until now has only been assigned to c",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/anthropic-risks-pariah-status-after-pentagon-calls-it-a-supply-chain-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0413316947d09ca4e455d84b6433d00",
+      "timestamp": "2026-03-07T04:36:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Anthropic at Risk of Huawei-Like Ban After Pentagon Punishment - Anthropic PBC runs the risk of losing a wide range of US government business after the Defense Department declared it a supply-chain risk, a rare designation that until now has only been assigned to c",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/anthropic-risks-pariah-status-after-pentagon-calls-it-a-supply-chain-risk",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "caeebcf8be0709ece379744a7fadbf73",
+      "timestamp": "2026-03-07T04:23:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudi Arabia Has Intensified Direct Line to Iran to Defuse War - Saudi Arabia has stepped up direct engagement with Iran to try and contain a war in the Middle East that is causing havoc and stressing global markets, according to several European officials.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/saudi-arabia-has-intensified-direct-line-to-iran-to-defuse-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "14a29e5f2c924fde31c25be28c057f02",
+      "timestamp": "2026-03-07T04:13:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BlackRock $26B Private Credit Fund Limits Withdrawals - Olivia Fishlow and James Crombie, Bloomberg Reporters, joins Caroline Hyde and Isabelle Lee on \"Bloomberg Real Yield.\" BlackRock curbed withdrawals from one of its biggest private credit funds after c",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/blackrock-26b-private-credit-fund-limits-withdrawals-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "210f511c54665fce4baae94a58c0a812",
+      "timestamp": "2026-03-07T04:11:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Surging Tanker Rates Push US Crude Shippers to Use Small Vessels - In a desperate bid to transport oil from the US Gulf Coast to Asia, shippers have taken the unusual step of booking smaller vessels as costs soar for the massive tankers typically used.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/surging-tanker-rates-push-us-crude-shippers-to-use-small-vessels",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3647a07f119653611e8da3514eadf240",
+      "timestamp": "2026-03-07T04:06:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Inside Look at Collapsed Lender MFS CEO - Bloomberg's Donal Griffin joins Caroline Hyde and Isabelle Lee on \"Bloomberg Real Yield\" to discuss the collapse of Market Financial Solutions. Founder Paresh Raja has withdrawn from public view, with",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/inside-look-at-collapsed-lender-mfs-ceo-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "69dfd5ac80d154a5f9d4cb39cd4a25b2",
+      "timestamp": "2026-03-07T04:03:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Brazil Antitrust Regulator Clears Sale of Braskem Shares to IG4 - Brazil’s antitrust authority has approved a proposed transaction that would allow asset manager IG4 Capital to buy a controlling stake in petrochemicals producer Braskem SA.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/brazil-antitrust-regulator-clears-sale-of-braskem-shares-to-ig4",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "21b750b3274f8df9b88ca9d09d487e68",
+      "timestamp": "2026-03-07T04:00:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Private Debt Should Face ‘Full-Blown Default Cycle,’ Pimco Says - With record fundraising after the 2008 financial crisis, direct-lending vehicles have loosened their underwriting standards and are due for a stress test, according to a Pacific Investment Management ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/pimco-says-private-debt-should-face-full-blown-default-cycle",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "537115326dd13d5bf1d7df1718c1493b",
+      "timestamp": "2026-03-07T04:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Top Korea Power Firm Revs Up US Growth Betting on AI Supercycle - South Korea’s top power equipment maker, HD Hyundai Electric Co., is accelerating its US expansion, betting that demand for transformers and switchgear will surge as the artificial intelligence “super",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/top-korea-power-firm-revs-up-us-growth-betting-on-ai-supercycle",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "74f81030c31f94c905c11192daf80daa",
+      "timestamp": "2026-03-07T03:39:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Data Centers Are ‘Inevitable’ Target in Conflict - The conflict in Iran is underscoring the risks of building data centers in the Gulf region, says Sam Winter-Levy, a fellow in the Technology and International Affairs Program at the Carnegie Endowment",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/data-centers-are-inevitable-target-in-conflict-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7aebe9f0337660a4920318a1b1c67285",
+      "timestamp": "2026-03-07T03:34:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How Much Higher Can Oil Go? - Brent crude futures hit $90 a barrel for the first time since October 2023 as war rages on in the Middle East. Ship traffic through the Strait of Hormuz has practically stopped. Some traders warn oil ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/brent-oil-surges-as-middle-east-war-paralyzes-hormuz-traffic",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3a74d569f0715053650d059e2be96617",
+      "timestamp": "2026-03-07T03:31:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Data Doesn’t Show AI Taking Jobs Just Yet - Oracle is planning to cut thousands of jobs as it looks to manage a cash crunch driven by AI spending, according to sources. It's the latest major tech company to link layoffs to AI in some way. But M",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/data-doesn-t-show-ai-taking-jobs-just-yet-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cad21a1df2303c82db7649b3acf711f1",
+      "timestamp": "2026-03-07T03:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fed’s Hammack Says She Sees Two-Sided Risks to Interest Rates - Federal Reserve Bank of Cleveland President Beth Hammack reiterated that interest rates could be on hold for quite some time, but signaled officials should be ready to respond to other outcomes.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/fed-s-hammack-says-she-sees-two-sided-risks-to-interest-rates",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f2c07b767dd928105a48891e2f88529b",
+      "timestamp": "2026-03-07T03:18:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bosch CEO on Iran Conflict, Energy Costs, Supply Chains - Bosch CEO and Chairman of the Management Board Stefan Hartung discusses how the conflict in the Middle East is impacting supply chains and how the world’s largest automotive supplier is dealing with r",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/bosch-ceo-on-iran-conflict-energy-costs-supply-chains-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "658a1af23a620aa44f8820f344172b4c",
+      "timestamp": "2026-03-07T03:16:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Mastercard's Stablecoin Moment: SoFiUSD Gets Global Settlement Rails - MA expands its SoFi partnership to enable SoFiUSD stablecoin settlements across its global network, aiming to speed cross-border and B2B payments.",
+      "url": "https://finance.yahoo.com/news/mastercards-stablecoin-moment-sofiusd-gets-181600802.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a9a48f927efadf39409cdefeee98da1b",
+      "timestamp": "2026-03-07T03:14:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "How High Could Oil Prices Go If the Conflict with Iran Continues? - Could oil prices spike over $200 a barrel if the Middle East conflict continues to escalate?\n\nOn this episode of the Everybody's Business podcast, Bloomberg Opinion's Javier Blas joins Stacey Vanek Sm",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-high-could-oil-prices-go-if-the-conflict-with-iran-continues",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8d7f09444f9141ca4ca31479e634507c",
+      "timestamp": "2026-03-07T03:08:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Payrolls Shock Wall Street | Open Interest 3/6/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" The job market saw one of its biggest declines since the pandemic. Is this a temporary stumble… or",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-06/open-interest-3-6-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f02ce4d2e68bf5cb83dfd95467869191",
+      "timestamp": "2026-03-07T03:07:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Qatar’s Main LNG Equipment Intact, Satellite Analysis Shows - Qatar’s massive LNG export facility remains largely intact, according to a Bloomberg analysis of satellite data, indicating that recent drone strikes missed key production equipment.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/qatar-s-main-lng-equipment-intact-satellite-analysis-shows",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "54e7ceea33c3f37c8c7e9989dba277fd",
       "timestamp": "2026-03-07T03:02:47+09:00",
@@ -332,6 +611,19 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "03d21eaf2cdbf2d62fb272373eec1ddb",
+      "timestamp": "2026-03-07T01:02:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Just Landed a New Stablecoin Partnership with Mastercard. Does That Make SOFI Stock a Buy Here? - The stablecoin deal may not move the needle for SOFI stock.",
+      "url": "https://www.barchart.com/story/news/609824/sofi-just-landed-a-new-stablecoin-partnership-with-mastercard-does-that-make-sofi-stock-a-buy-here?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "050467b2487392c7b850900adba29894",
       "timestamp": "2026-03-07T00:42:53+09:00",
       "source_type": "NEWS",
@@ -384,6 +676,19 @@
       "related_tickers": [],
       "content": "Samsung’s Galaxy S26 Ultra Is a Privacy-First Powerhouse - You don’t have to completely redesign a smartphone to make the latest version a solid upgrade over its predecessor. While Apple Inc. went with a bold new look for its Pro models last year and has enjo",
       "url": "https://www.bloomberg.com/news/features/2026-03-06/samsung-s-galaxy-s26-ultra-offers-an-innovative-take-on-privacy-review",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ffd3607971a3d71b0993e5443b22b0da",
+      "timestamp": "2026-03-07T00:30:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 90,597,029 0.0506",
+      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017544.html?.tsrc=rss",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1902,303 +2207,6 @@
       "related_tickers": [],
       "content": "China Makes Stability No. 1 Priority Amid Iran War | The China Show 3/6/2026 - “Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, David Ingles and Yvonne Man give global ",
       "url": "https://www.bloomberg.com/news/videos/2026-03-06/the-china-show-3-6-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ab9df8a1f4850a58802e7c266db7f14a",
-      "timestamp": "2026-03-06T14:48:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Strait of Hormuz Shipping Is at Near-Total Halt, JMIC Says - Ship traffic in the Strait of Hormuz has ground to a near-complete halt as the Middle East conflict disrupts the key global artery for commodities from oil to fertilizers.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/strait-of-hormuz-shipping-traffic-at-near-total-halt-jmic-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "05af8682e8f7d09f9a23722d53cb810e",
-      "timestamp": "2026-03-06T14:45:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Conflict Enters Seventh Day With No Reprieve - The US and Israel continue airstrikes on Tehran as President Donald Trump vows to \"totally demolish\" Iranian forces. Bloomberg’s Patrick Sykes and Dan Williams break down the latest escalation and the",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/iran-conflict-enters-seventh-day-with-no-reprieve-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7155913eae7b5788a3ce8e43fd0a391f",
-      "timestamp": "2026-03-06T14:23:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hong Kong’s Jimmy Lai Decides Against Appealing 20-Year Sentence - Former Hong Kong media mogul Jimmy Lai has decided not to appeal his 20-year prison sentence, a move that may cement the pro-democracy activist’s fate behind bars for what could be the remainder of hi",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/hong-kong-s-jimmy-lai-decides-against-appealing-20-year-sentence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "48171e4929b54107b365d8d962732eb1",
-      "timestamp": "2026-03-06T14:21:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Sub That Torpedoed Iranian Ship Included Australians, PM Says - Three Australian Defence Force personnel were among the crew of a US submarine that torpedoed and sank an Iranian vessel in the Indian Ocean, Prime Minister Anthony Albanese said, while adding that no",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-sub-that-torpedoed-iranian-ship-included-australians-pm-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a9403747e5c27b43cdea24b97d10578",
-      "timestamp": "2026-03-06T14:15:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Switzerland’s Voters Are About to Put Cash in the Constitution - The Swiss may be about to reaffirm their fondness for cash with a vote that would give the francs in their wallets a place in the constitution.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/switzerland-s-voters-are-about-to-put-cash-in-the-constitution",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c9c1da4ef739ed506b57f62cb923c0ec",
-      "timestamp": "2026-03-06T14:10:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Global Funds Pull Money From Asia at Fastest Pace in Four Years - Overseas investors are pulling money out of emerging Asian stocks at the fastest pace in nearly four years as the escalating conflict in Iran triggers a reassessment of risk across global markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/global-funds-pull-money-from-asia-at-fastest-pace-in-four-years",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "276c5f700f7a7f32a46fc02c2ca0b7fa",
-      "timestamp": "2026-03-06T14:07:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Emerging Currencies, Equities Set for Worst Week Since Pandemic - Emerging-market equities and currencies are set for the biggest weekly decline since the height of the pandemic in 2020.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/emerging-currencies-equities-set-for-worst-week-since-pandemic",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2602cf4cc5dbc66e9f4f1943c957e24b",
-      "timestamp": "2026-03-06T14:05:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Elevated Oil, Chip Woes Weigh on Asian Stocks | The Asia Trade 3/6/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Sydney and Singapore with Haidi Stroud-Watts and Avril Hong",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/the-asia-trade-3-6-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "71ba3f4ead9bd1979633884b99377a13",
-      "timestamp": "2026-03-06T14:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Turkey Spends $12 Billion to Defend Lira From War-Fueled Turmoil - Turkey has spent $12 billion, equal to roughly 15% of its foreign-currency reserves, to keep the lira stable during a week of global market volatility triggered by the war in Iran.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/turkey-spends-12-billion-to-defend-lira-from-war-fueled-turmoil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2636e041379f495f6b140424a3c1d86c",
-      "timestamp": "2026-03-06T14:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Top EU Official Wants New Rules to Let Ukraine Join Faster - The European Union’s enlargement chief said the destabilized world requires new rules to accelerate Ukraine’s membership bid, confirming the country won’t be able to join by its 2027 goal under the cu",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/top-eu-official-wants-new-rules-to-let-ukraine-join-faster",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fc8f0675f3531ff9843efe505044391e",
-      "timestamp": "2026-03-06T13:51:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Qatar Offers to Lease LNG Ships as Top Exporter Stays Shut - Qatar is now offering a total of 10 liquefied natural gas tankers that it controls for lease, as the country’s massive export facility in the Persian Gulf remains shut due to the ongoing war in the Mi",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/qatar-offers-to-lease-lng-tankers-as-top-export-plant-stays-shut",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "02b81f46ad09554e0641516c03bdba3f",
-      "timestamp": "2026-03-06T13:39:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IMF Ready to Help Economies Squeezed by Mideast Oil Shock - The International Monetary Fund said it stands ready to assist countries facing balance of payment concerns amid heightened uncertainty from the Middle East conflict.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/imf-says-ready-to-help-economies-squeezed-by-mideast-oil-shock",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "02b81f46ad09554e0641516c03bdba3f",
-      "timestamp": "2026-03-06T13:39:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IMF Ready to Help Economies Squeezed by Mideast Oil Shock - The International Monetary Fund said it stands ready to assist countries facing balance of payment concerns amid heightened uncertainty from the Middle East conflict.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/imf-says-ready-to-help-economies-squeezed-by-mideast-oil-shock",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a0e169da625b4dbe292fcf878352fc70",
-      "timestamp": "2026-03-06T13:33:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Millions of Barrels of Russian Oil Are Already Close to India - More than 15 million barrels of Russian oil are floating within easy reach of India, offering the nation a quick fix to Middle East supply shortages after the US issued a temporary license allowing pu",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/millions-of-barrels-of-russian-oil-are-already-close-to-india",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "412611565b6181b7fcc8dc05fc434118",
-      "timestamp": "2026-03-06T13:30:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Submarine Strike in the Indian Ocean Raises Risks for Asia - The US submarine strike on an Iranian warship in the Indian Ocean marked a sharp escalation in the war between the two nations, raising fresh security and economic risks for governments across the Ind",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-submarine-strike-in-the-indian-ocean-raises-risks-for-asia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f29c98964854aaf6c7845627e1f69fe1",
-      "timestamp": "2026-03-06T13:14:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How One Ship Navigated Hormuz Amid Iran War - As vessels try to ensure safe passage through the Strait of Hormuz this week, one bulk carrier signaled it was Chinese-owned as it transited. The Iron Maiden changed its destination signal to 'CHINA O",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-one-ship-navigated-hormuz-amid-iran-war-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "99bd8195728aba242e2b95492ddf93fd",
-      "timestamp": "2026-03-06T13:06:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SoftBank Seeks Record Loan of Up to $40 Billion for OpenAI Stake - SoftBank Group Corp. is seeking a loan of as much as $40 billion to mostly help finance its investment in US tech giant OpenAI, according to people familiar with the matter, in what would be its large",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/softbank-seeks-record-loan-of-up-to-40-billion-for-openai-stake",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5c64bebc9e501b1d7c637f4b8e7a0bd9",
-      "timestamp": "2026-03-06T12:50:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Seoul Confirms US Talks on Moving Weapons as Iran War Escalates - South Korea’s Foreign Minister Cho Hyun said Seoul is in talks with United States Forces Korea about the possible redeployment of weapons including Patriot air defense systems, as Washington’s conflic",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/seoul-confirms-us-talks-on-moving-weapons-as-iran-war-escalates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4550d620862073debc91298f83d79780",
-      "timestamp": "2026-03-06T12:25:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Five-Year Plan Downplays Solar After Rapid Deployment - China has refrained from setting ambitious goals for solar energy in its latest five-year plan, highlighting the sector’s mounting challenges after years of explosive growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/china-s-five-year-plan-downplays-solar-after-rapid-deployment",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "593dc0ecded1e61e76e3409808457281",
-      "timestamp": "2026-03-06T12:15:19+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Asian Junk Bonds Trail Peers as War Spotlights Oil Dependence - Asian high-yield dollar bonds are getting disproportionately hit compared with global peers as the escalating Iran conflict underscores the region’s reliance on imported energy, in sharp contrast with",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/asian-junk-bonds-trail-peers-as-war-spotlights-oil-dependence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d2938d7bbc80161924d78b5160546ff1",
-      "timestamp": "2026-03-06T12:14:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Rohm Shares Set to Surge on Report Denso Made $8 Billion Offer - Rohm Co. shares are set to surge by their daily limit in Tokyo trading Friday after Nikkei reported Denso Corp. has made a takeover approach valuing the chipmaker at around ¥1.3 trillion ($8.3 billion",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/denso-offered-to-buy-chipmaker-rohm-for-8-billion-nikkei-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c5811da8b3bfcde11343d64d8f0197cb",
-      "timestamp": "2026-03-06T12:13:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why China Aims for 'Quality' Growth, Spending Control - Peking University Professor and PBOC adviser Huang Yiping discusses China's shift toward sustainable growth following Premier Li Qiang’s latest address to lawmakers. Speaking exclusively with Bloomber",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/why-china-aims-for-quality-growth-spending-control-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1f3358a363ffee86976adbaa3e419433",
-      "timestamp": "2026-03-06T12:07:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "TA Associates Said to Be Considering Sale of Bubble-Tea Maker Gong Cha - TA Associates is considering selling bubble-tea maker Gong cha, according to people with knowledge of the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/ta-associates-said-to-be-considering-sale-of-bubble-tea-maker-gong-cha",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0184ae1ad2020a2f7fa4331a7559c3c0",
-      "timestamp": "2026-03-06T12:03:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘As Dead As Fried Chicken’: Why Trump Finally Fired Kristi Noem - Kristi Noem’s 13-month tenure leading the Department of Homeland Security was marked by controversy. But it wasn’t the two American citizens’ deaths at the hands of federal immigration agents that ult",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/-as-dead-as-fried-chicken-why-trump-finally-fired-kristi-noem",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "be13b125d863e27912a4229bd66b2628",
-      "timestamp": "2026-03-06T12:00:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Teck Charges Korea Zinc More on Silver, Germanium in 2026 - Canadian miner Teck Resources agreed with Korea Zinc Co. to sell its zinc concentrates at a slightly higher processing fee in 2026, while charging more on silver and germanium after a surge in prices ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/teck-charges-korea-zinc-more-on-silver-germanium-in-2026",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eb6589004968dd4a7b74be42dc717dd0",
-      "timestamp": "2026-03-06T12:00:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Aluminum Heads for Biggest Weekly Gain Since 2024 on Iran Crisis - Aluminum was set to post its biggest weekly gain since September 2024 as the deepening conflict in the Middle East snarled shipments from the region and upended physical markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/aluminum-heads-for-biggest-weekly-gain-since-2024-on-iran-crisis",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b04333a2f0146e92ef1650ef27348fc",
-      "timestamp": "2026-03-06T11:57:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "KKR in $235 Million SK Eternix Deal as Iran War Roils Markets - KKR &amp; Co. will acquire a 348 billion won ($235 million) stake in South Korean renewable energy firm SK Eternix Co., stepping up its climate and environmental investments and underscoring its appet",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/kkr-in-235-million-sk-eternix-deal-as-iran-war-roils-markets",
       "sentiment": "NEUTRAL"
     }
   ]
