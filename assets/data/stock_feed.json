@@ -1,6 +1,94 @@
 {
-  "last_updated": "2026-03-07T17:07:08.878460+09:00",
+  "last_updated": "2026-03-07T19:05:43.935103+09:00",
   "items": [
+    {
+      "id": "ed5e8c8baf84b7894e4a3d20336e4e89",
+      "timestamp": "2026-03-07T18:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump’s Attacks on Spain Hand Struggling Sanchez Unlikely Boost - Spain’s Prime Minister Pedro Sánchez, written off numerous times since taking office in 2018, is grabbing the political lifeline unwittingly thrown his way by Donald Trump.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/trump-s-attacks-on-spain-hand-struggling-sanchez-unlikely-boost",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7d13813cd5ec2883a3b2a0faec3722da",
+      "timestamp": "2026-03-07T18:15:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russian Strike on Kharkiv Kills Seven as Part of Major Barrage - A Russian ballistic missile strike leveled much of a residential building in Kharkiv overnight, part of a massive drone and missile attack across Ukraine that shattered days of relative calm.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/russian-strike-on-kharkiv-kills-seven-as-part-of-major-barrage",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "624a31b481364e881f5967e5bee7f157",
+      "timestamp": "2026-03-07T18:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Henry Blodget on the Software Selloff Hysteria and the Problem for OpenAI - <p>How AI will affect both media and software.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/henry-blodget-on-ai-hysteria-software-and-bubbles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "624a31b481364e881f5967e5bee7f157",
+      "timestamp": "2026-03-07T18:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Henry Blodget on the Software Selloff Hysteria and the Problem for OpenAI - <p>How AI will affect both media and software.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/henry-blodget-on-ai-hysteria-software-and-bubbles",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4521de99ff0b3643cfd19bdbff784903",
+      "timestamp": "2026-03-07T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Odd Lots: Henry Blodget on the Problem for OpenAI (Podcast) - A year ago, all of the talk was about how the big AI companies were wildly overvalued. Everyone was calling it a bubble. Fast forward to now, and a dominant idea in the markets is that AI is so powerf",
+      "url": "https://www.bloomberg.com/news/audio/2026-03-07/henry-blodget-on-the-problem-for-openai-podcast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c95b549143024f64301689569e3bc76d",
+      "timestamp": "2026-03-07T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Energy Price Shock From Iran War Exposes Europe’s Weakness - Underneath the glass and wrought iron ceiling of Antwerp’s stock exchange last month, French President Emmanuel Macron addressed a hall full of executives from heavy industries. He wasted no time in d",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/iran-war-energy-fallout-is-exposing-another-european-weakness",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4521de99ff0b3643cfd19bdbff784903",
+      "timestamp": "2026-03-07T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Odd Lots: Henry Blodget on the Problem for OpenAI (Podcast) - A year ago, all of the talk was about how the big AI companies were wildly overvalued. Everyone was calling it a bubble. Fast forward to now, and a dominant idea in the markets is that AI is so powerf",
+      "url": "https://www.bloomberg.com/news/audio/2026-03-07/henry-blodget-on-the-problem-for-openai-podcast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9f7d7aa8622a6e0cffd49260cb555b09",
+      "timestamp": "2026-03-07T17:11:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Gave Another Iranian Ship Safe Harbor Before US Strike - India has said it allowed an Iranian naval vessel to dock in its port, days before a frigate from the Persian Gulf nation was sunk by a US submarine.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/india-says-it-allowed-iranian-ship-safe-harbor-before-us-strike",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "37f65d90bc9b0def76da60c17b48ea89",
       "timestamp": "2026-03-07T17:00:00+09:00",
@@ -21,6 +109,17 @@
       "related_tickers": [],
       "content": "Iran President Says Tehran Has No Intention of Hitting Neighbors - Iran’s president said he has instructed the military not to attack any country that isn’t striking the Islamic Republic, even as projectiles continued to be fired at the United Arab Emirates and other",
       "url": "https://www.bloomberg.com/news/articles/2026-03-07/iran-president-says-tehran-has-no-intention-of-hitting-neighbors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2a0fdde921332cbc1ce9248f01ca87c8",
+      "timestamp": "2026-03-07T16:55:27+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "NetEase to Stop Funding Nagoshi Studio as It Cuts Back on Gaming - NetEase Inc. will cut off funding to the studio led by Yakuza franchise creator Toshihiro Nagoshi, the latest to be affected by the Chinese company’s broader strategy to shrink game development activi",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/netease-to-stop-funding-nagoshi-studio-as-it-cuts-back-on-gaming",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2114,105 +2213,6 @@
       "related_tickers": [],
       "content": "Swiss Still Aim for US Trade Accord After Supreme Court Decision - Switzerland wants to continue talks with the US on a legally binding trade agreement even after the Supreme Court scrapped the legal base for most of Donald Trump’s sweeping tariffs.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/swiss-still-aim-for-us-trade-accord-after-supreme-court-decision",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a7ab1cc372300e2679a49d4283707270",
-      "timestamp": "2026-03-06T20:33:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why Did the US Give India a Pass on Russian Oil? - The US just gave India a 30-day waiver to buy Russian oil, a temporary fix with the Strait of Hormuz effectively closed. But does it address broader disruptions in energy flows?\n\n (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/why-did-the-us-give-india-a-pass-on-russian-oil-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "00d16b47787ec7dffad28de923b763a2",
-      "timestamp": "2026-03-06T20:26:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nepal’s Pro-Gen Z Party Leads Vote by Wide Margin in Election - The party led by a 35-year-old rapper-turned-politician is leading in national elections in Nepal, putting it on track to break the traditional political establishment’s grip on the Himalayan nation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/nepal-s-pro-gen-z-party-leads-vote-by-wide-margin-in-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d10c6787f557d018895dee0aed73f8c1",
-      "timestamp": "2026-03-06T20:25:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran’s Attacks on the UAE Are Costing It Access to Vital Imports - Iran’s drone and missile strikes targeting Gulf countries in response to US and Israel attacks are rebounding on its own economy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/iran-s-attacks-on-the-uae-are-costing-it-access-to-vital-imports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a9c02d8c8e0b29e46a4cd9cb6e1280cf",
-      "timestamp": "2026-03-06T20:24:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Direct Lenders Have Taken Keys to Nearly 150 Companies in Europe - Some 146 companies in Europe have ceded control to direct-lending funds after they could no longer afford to pay their debts, according to Goldman Sachs Group Inc.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/direct-lenders-have-taken-keys-to-nearly-150-companies-in-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "295670d0fad4958c9697735447e4dca7",
-      "timestamp": "2026-03-06T20:17:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Is Roiling the Markets He Cares About the Most - <p>Inflation and higher bond yields pose peril for Trump as midterm elections loom.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-06/trump-is-roiling-the-markets-he-cares-about-the-most",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "26175f72526900783e0f3a2afe3f11a6",
-      "timestamp": "2026-03-06T20:01:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Veja os Três Assuntos que Marcaram a Semana no Brasil - Patricia Xavier traz os assuntos que foram destaque da semana. Com produção de Barbara Nascimento e edição de Raphael Almeida.  (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/veja-os-tres-assuntos-que-marcaram-a-semana-no-brasil-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a9b5c4a5fe2aab8443806166e22aa63b",
-      "timestamp": "2026-03-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wary Shoppers Drag Consumer Discretionary Earnings to 2020 Low - Large-cap consumer discretionary companies posted their weakest earnings season in almost six years, as high fixed costs, softer demand and still-elevated prices weighed on results.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/wary-shoppers-drag-consumer-discretionary-earnings-to-2020-low",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aaeb746323f7ed2e5ea671250266e887",
-      "timestamp": "2026-03-06T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Woos Venezuela With Potential Deals as Relations Reset - Interior Secretary Doug Burgum was still flying back from Venezuela when the Trump administration made it official: The US would re-establish diplomatic relations with the South American country, seve",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/trump-woos-venezuela-with-potential-deals-as-relations-reset",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "de04c126570d36348d07601328da1770",
-      "timestamp": "2026-03-06T19:59:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Reinsurers Scrap War-Risk Cover After US Torpedoes Iranian Ship - London-based reinsurers are issuing seven-day cancellation notices on marine war-risk coverage after a US submarine torpedoed an Iranian warship off Sri Lanka, amplifying risk perception, according to",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/reinsurers-scrap-war-risk-cover-after-us-torpedoes-iranian-ship",
       "sentiment": "NEUTRAL"
     }
   ]
