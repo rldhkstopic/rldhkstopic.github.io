@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-03-08T03:07:08.537870+09:00",
+  "last_updated": "2026-03-08T05:05:22.903820+09:00",
   "items": [
+    {
+      "id": "02cf4257e2538c4d742104965e9410b9",
+      "timestamp": "2026-03-08T04:42:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Flávio Bolsonaro Narrows Gap Against Lula, DataFolha Poll Shows - Senator Flávio Bolsonaro is narrowing his gap with President Luiz Inacio Lula da Silva in Brazil’s looming election, with a new poll showing both effectively tied in a potential runoff vote.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/flavio-bolsonaro-narrows-gap-against-lula-datafolha-poll-shows",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "45a62f1c7010ddb341c7e2a02e0e1ed0",
       "timestamp": "2026-03-08T02:40:21+09:00",
@@ -21,6 +32,17 @@
       "related_tickers": [],
       "content": "Polymarket Founder Says War Bets Are Facing Growing Resistance - Polymarket founder and CEO Shayne Coplan said the prediction market industry’s war-related contracts face growing risks and acknowledged that rising visibility brings “more money, more problems” &mdas",
       "url": "https://www.bloomberg.com/news/articles/2026-03-07/polymarket-founder-says-war-bets-are-facing-growing-resistance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "70af10ef5621924d496a46e4ff202810",
+      "timestamp": "2026-03-08T02:39:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bloomberg This Weekend 3/7/2026 - The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity and context to the weekend’s biggest headlines, LIVE from New York. Joined by Global Affairs ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-07/bloomberg-this-weekend-03-07-2026-video",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2191,28 +2213,6 @@
       "related_tickers": [],
       "content": "Dealmakers See Iran War Stymieing M&amp;A With Delays, Diligence - Dealmakers are, for the second year in a row, seeing their chances of a record haul of mergers and acquisitions potentially fizzle out before the end of the first quarter.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/dealmakers-see-iran-war-stymieing-m-a-with-delays-diligence",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9061fa967aaa07b1c779e7078f8c4b7a",
-      "timestamp": "2026-03-06T23:57:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hassett Calls the Feb. Jobs Report Loss an 'Outlier' - White House National Economic Council Director Kevin Hassett says the February jobs report is an \"outlier.\" He says bad weather impacted the numbers. Nonfarm payrolls fell by 92,000.  (Source: Bloombe",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/hassett-calls-the-jobs-report-loss-an-outlier-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f63cfa2cf912e21c9d84caf9b8631b92",
-      "timestamp": "2026-03-06T23:57:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IG4 Tells Banks It May Abandon Braskem Talks, Valor Says - Asset manager IG4 Capital signaled it may abandon talks to acquire a controlling stake in Brazilian petrochemical giant Braskem SA as the nation’s antitrust watchdog delays its analysis on the deal, a",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/ig4-tells-banks-it-may-abandon-braskem-talks-valor-says",
       "sentiment": "NEUTRAL"
     }
   ]
