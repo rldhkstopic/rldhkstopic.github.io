@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-03-07T13:31:55.729916+09:00",
+  "last_updated": "2026-03-07T15:11:01.560403+09:00",
   "items": [
+    {
+      "id": "933378fdd508c04fe1f702f238654c82",
+      "timestamp": "2026-03-07T15:02:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Critical Minerals: Africa’s Role in the New Global Economy - The global race to secure critical minerals is reshaping economies around the world, redrawing trade relationships and shifting geopolitical power. Africa sits at the center of that shift as countries",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-07/critical-minerals-africa-s-role-in-new-global-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2997ec575d686722be05a0fba96f015f",
+      "timestamp": "2026-03-07T12:53:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Turns to AI as Jobseeker Numbers Top Belgium’s Population - China will harness artificial intelligence to create jobs as the number of university graduates poised to enter the labor market this year will reach 12.7 million &mdash; more than the population of c",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/china-turns-to-ai-as-jobseeker-numbers-top-belgium-s-population",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b66b93d052f3e48485e11c42106ba939",
       "timestamp": "2026-03-07T12:34:52+09:00",
@@ -2191,28 +2213,6 @@
       "related_tickers": [],
       "content": "US Stocks Flip Narrative, Beating Rest of World as War Drags On - US stocks have flipped the script for international investors since war erupted in the Mideast, handily outpacing the rest of the world after trailing their global peers badly last month.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-stocks-flip-narrative-beating-rest-of-world-as-war-drags-on",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2bff3aa839b92f3a88a372e6c307a64c",
-      "timestamp": "2026-03-06T19:29:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US-Sanctioned Gas Tanker Sails Through Strait of Hormuz - A US-sanctioned tanker blacklisted for handling Iranian liquefied petroleum gas crossed the Strait of Hormuz on Friday, one of only a handful of vessels to make it through the waterway in recent days.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-sanctioned-gas-tanker-sails-through-strait-of-hormuz",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "38885d2938a0ad0f36bd0e1bb5ea28e6",
-      "timestamp": "2026-03-06T19:20:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Embraer Tops Estimates, Sets Ambitious 2026 Guidance - Embraer SA reported fourth-quarter revenue of 14.3 billion reais ($2.7 billion) and adjusted earnings before interest, taxes, depreciation and amortization of 1.6 billion reais, beating analyst estima",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/embraer-tops-estimates-sets-ambitious-2026-guidance",
       "sentiment": "NEUTRAL"
     }
   ]
