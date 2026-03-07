@@ -1,6 +1,120 @@
 {
-  "last_updated": "2026-03-07T09:23:35.436483+09:00",
+  "last_updated": "2026-03-07T11:52:49.767407+09:00",
   "items": [
+    {
+      "id": "06164c960097b4d233623c97ee5aff52",
+      "timestamp": "2026-03-07T11:17:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Greer, Schwarzman Lined Up for Australia Pensions Summit in US - Representatives of the A$4.5 trillion ($3.2 trillion) Australian pensions industry will head to the US next week, seeking to showcase the scale of the sector’s investments in the world’s largest econo",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/greer-schwarzman-lined-up-for-australia-pensions-summit-in-us",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e41f3ebe6f041cf6dfb4b14327b542d8",
+      "timestamp": "2026-03-07T10:48:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Rebellions Eyes Competition With Nvidia, AMD in AI Chips - Rebellions CEO Sunghyun Park discusses how his AI semiconductor startup plans to compete with the likes of Nvidia and AMD in the AI chip space. He speaks with Haslinda Amin from the sidelines of 'IMF ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-07/rebellions-eyes-competition-with-nvidia-amd-in-ai-chips-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b84fdef236994a13f6d1922d1ce19bb",
+      "timestamp": "2026-03-07T10:30:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sri Lanka: In 'Good Position' to Absorb Oil Price Shocks - Central Bank of Sri Lanka Governor P Nandalal Weerasinghe believes his country is in a 'good position' to be able to absorb the price shocks from the Middle East conflict. He speaks with Haslinda Amin",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-07/sri-lanka-in-good-position-to-absorb-oil-price-shocks-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5a9ac8c8d75f7d375020fb85fa7b84d0",
+      "timestamp": "2026-03-07T10:20:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Wants Unconditional Iran Surrender | Balance of Show: Late Edition 03/06/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Rep. Debbie Wasserman Schultz (D-FL) shares her reaction to the ongoing conflict in the M",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-07/balance-of-show-late-edition-03-06-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ccb679f4d1c46ac632be43fd7a57245e",
+      "timestamp": "2026-03-07T10:12:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi Mastercard Stablecoin Deal Puts SoFiUSD And Valuation In Focus - SoFi Technologies (NasdaqGS:SOFI) has partnered with Mastercard to use SoFiUSD, its fully reserved U.S. dollar stablecoin, as a settlement option across Mastercard’s global payments network. This mark",
+      "url": "https://finance.yahoo.com/news/sofi-mastercard-stablecoin-deal-puts-011220969.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1a7d0b9f1891b7af1975c6e9600e0edc",
+      "timestamp": "2026-03-07T10:05:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Queues, Price Hikes and Shortages as Asia Battles Fuel Crunch - From Thai farmers racing for diesel to Indian refinery executives monitoring the Persian Gulf through the night, energy buyers across import-dependent Asia are feeling the impact of a dramatic crunch.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/queues-price-hikes-and-shortages-as-asia-battles-fuel-crunch",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "dfccf8be8b6891015bea70c4dc947ac7",
+      "timestamp": "2026-03-07T09:46:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Musk’s Spam Frustration Was ‘Confusing’ to Ex-Twitter Executives - Two former top executives at Twitter Inc. sought to beat back Elon Musk’s narrative at a jury trial that they lied to him about the makeup of the platform’s user base when he was purchasing the compan",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/musk-s-spam-frustration-was-confusing-to-ex-twitter-executives",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4f8f536ca7ea04151bcbb8e283459122",
+      "timestamp": "2026-03-07T09:31:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Novo and Hims End Feud, Will Sell Obesity Drugs Together - Novo Nordisk A/S plans to sell its weight-loss drugs on Hims &amp; Hers Health Inc.’s platform, according to a person familiar with the matter, ending a highly public feud between the two companies th",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/novo-and-hims-end-feud-will-sell-obesity-drugs-together",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "877b44e9d74ac0216ec9ec337b3373db",
+      "timestamp": "2026-03-07T09:22:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Mastercard Expands SoFiUSD Stablecoin Use As Shares Trade Below Targets - Mastercard and SoFi are expanding their partnership to let SoFiUSD, a bank-issued stablecoin, be used for settlement on Mastercard’s global payments network. This marks the first time a stablecoin fro",
+      "url": "https://finance.yahoo.com/news/mastercard-expands-sofiusd-stablecoin-shares-002213692.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c6f24bfbdfd607d059c09659f757292c",
+      "timestamp": "2026-03-07T09:15:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Week | Lloyd Blankfein, Ukraine’s Tech, Big Tobacco’s Future, Building Data Centers - This week, from Iran to inflation, former Goldman Sachs CEO Lloyd Blankfein explains why risk management matters most when markets appear stable and confident. And, From digital IDs to AI agents, Ukra",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-07/wall-street-week-ukraine-s-tech-future-of-nicotine-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "73fc0e53dd1be1065e5212e3227d0198",
       "timestamp": "2026-03-07T09:01:17+09:00",
@@ -76,6 +190,17 @@
       "related_tickers": [],
       "content": "'Triple-Digit' Oil Prices Possible if Iran War Extends: Transversal's Wald - A week into one of the biggest ever disruptions to global energy markets, oil prices still remain far below levels seen in previous crises. But a growing chorus of energy executives and traders is war",
       "url": "https://www.bloomberg.com/news/videos/2026-03-06/traders-warn-100-oil-imminent-if-iran-war-keeps-raging-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ec73d2253ae4e11b64ac25877618d7a8",
+      "timestamp": "2026-03-07T08:33:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Blue Owl Leads $750 Million Debt Deal for Vista Nexthink Buyout - Blue Owl Capital Inc. led a $750 million debt financing for Vista Equity Partners’ buyout of software company Nexthink SA, underscoring the private lender’s continued appetite for software deals even ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-06/blue-owl-leads-750-million-debt-deal-for-vista-nexthink-buyout",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2088,127 +2213,6 @@
       "related_tickers": [],
       "content": "Goldman Says Stocks May Suffer Correction, But 'Nothing Systemic' - Peter Oppenheimer, chief global equity strategist at Goldman Sachs, discusses the impact of war in the Middle East on inflation, the economy and equity markets. \"Financial conditions have been tighten",
       "url": "https://www.bloomberg.com/news/videos/2026-03-06/stocks-may-see-correction-but-nothing-systemic-goldman-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "76bbac11d22360efcb8cf66157dcdc55",
-      "timestamp": "2026-03-06T19:11:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Euro-Zone GDP Grew Less Than Initially Thought at End-2025 - The euro-area economy expanded less than initially reported at the end of last year, with trade weighing on growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/euro-zone-economy-grew-less-than-initially-thought-at-end-2025",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "154129ca2256d07af6cd7e6ef0de9f67",
-      "timestamp": "2026-03-06T19:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Panama Surprised by Higher Canal Traffic Amid Trump’s Trade Wars - The Panama Canal is reporting an unexpected jump in revenue, confounding its own forecasts that Donald Trump’s trade wars would cause traffic to drop.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/panama-surprised-by-higher-canal-traffic-amid-trump-s-trade-wars",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "25745f78f213c00bd2930ccd8e91b297",
-      "timestamp": "2026-03-06T18:52:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "PBOC Vows to Support Yuan Stability as Global Volatility Rises - China’s central bank governor reiterated a pledge to keep the yuan stable and vowed to insulate the nation’s financial markets from volatility spurred by the war in the Middle East.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/pboc-vows-to-support-yuan-stability-as-global-volatility-rises",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b83061152b533c39a8b1c6cc46819738",
-      "timestamp": "2026-03-06T18:51:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Platts Changes to Middle East Oil Pricing Causing Trader Angst - Middle Eastern benchmark crude oil prices have surged this week, as an Iran-war driven rule change affecting a key pricing window resulted in market dislocations that have drawn complaints from trader",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/platts-changes-to-middle-east-oil-pricing-causing-trader-angst",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d1b8870e4f46cfda815864fc6a2a585c",
-      "timestamp": "2026-03-06T18:44:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Lanxess Slumps as Failed Asset Sale Raises Risk of Junk Rating - Lanxess AG shares fell to their lowest since 2009 after the German chemicals company failed to complete an asset sale, raising concerns it could lose its investment-grade credit rating.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/lanxess-slumps-as-failed-asset-sale-raises-risk-of-junk-rating",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b41e93f07b1ca8f1d339c27a4f977d14",
-      "timestamp": "2026-03-06T18:41:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bonds Slide as War Takes ECB Hike From Fringe to Fully Priced - A week ago, anyone betting on a European Central Bank interest-rate hike was staking out a lonely, contrarian position. Now, with the Iran war threatening to stoke inflation, the trade is the consensu",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/bonds-slide-as-war-takes-ecb-rate-hike-from-fringe-to-mainstream",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fdabe6f314f9167f1f3ebb364cb85e22",
-      "timestamp": "2026-03-06T18:23:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indonesia Says Pakistan, UAE Back Prabowo Bid for Iran Mediation - Indonesian President Prabowo Subianto’s offer to mediate in the Iran conflict has backing from countries including Pakistan and the United Arab Emirates, an official said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/indonesia-says-pakistan-uae-back-prabowo-bid-for-iran-mediation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dd4e9067d163599a377a9a21c3db9606",
-      "timestamp": "2026-03-06T18:21:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Missile Interceptor Shortage Worries Flare in World’s Capitals - As drones and missiles target cities and critical infrastructure in Ukraine and the Gulf, the world is scrambling to secure supplies of the air defense interceptors needed to stop them.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/missile-interceptor-shortage-worries-flare-in-world-s-capitals",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "847994e4d48a8c89a5422f80c8fb6912",
-      "timestamp": "2026-03-06T18:16:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Czech Rate Cut Odds Get Fresh Blow With Unexpected Wage Spike - Czech wage growth unexpectedly accelerated in the fourth quarter, dealing a fresh blow to chances that the central bank will be able to cut interest rates this year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/czech-rate-cut-odds-get-fresh-blow-with-unexpected-wage-spike",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "494a00f44830d9e51a6fded33b7c332c",
-      "timestamp": "2026-03-06T18:02:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Gasoline Pump Prices Advance to Highest Level Since 2024 - US gasoline pump prices advanced to the highest level since September 2024, as the conflict in the Middle East disrupts energy supplies from the region.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-gasoline-pump-prices-advance-to-highest-level-since-2024",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e885449d191f42f82930f5a9c132b5f3",
-      "timestamp": "2026-03-06T18:00:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Energy Prices Could Rally Further if Disruptions Continue: Energy Aspects' Livia Gallarati - Disruption to Qatari LNG exports is the \"big ticket item\" for gas markets, according to Energy Aspects Global Gas Head, Livia Gallarati. In an interview on Bloomberg Daybreak Europe, Gallariti said it",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/energy-aspects-livia-gallarati-on-maritime-traffic-video",
       "sentiment": "NEUTRAL"
     }
   ]
