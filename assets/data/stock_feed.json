@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-03-07T11:52:49.767407+09:00",
+  "last_updated": "2026-03-07T13:31:55.729916+09:00",
   "items": [
+    {
+      "id": "b66b93d052f3e48485e11c42106ba939",
+      "timestamp": "2026-03-07T12:34:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nintendo Files Lawsuit Seeking Refunds on Trump’s Tariffs - Nintendo Co. filed a lawsuit in the US Court of International Trade on Friday, seeking a refund for duties it paid to the US government as a result of President Donald Trump’s Tariffs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/nintendo-files-lawsuit-seeking-refunds-on-trump-s-tariffs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "181b449664d10b814d0b73d2a55afdd3",
+      "timestamp": "2026-03-07T11:44:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s PBOC Extends Gold Buying as Middle East Tension Simmers - China’s central bank bought more gold in February, extending its streak of purchasing to 16 months, as bullion climbs amid escalating Middle East tensions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/china-s-pboc-extends-gold-buying-as-middle-east-tension-simmers",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "06164c960097b4d233623c97ee5aff52",
       "timestamp": "2026-03-07T11:17:54+09:00",
@@ -2191,28 +2213,6 @@
       "related_tickers": [],
       "content": "Embraer Tops Estimates, Sets Ambitious 2026 Guidance - Embraer SA reported fourth-quarter revenue of 14.3 billion reais ($2.7 billion) and adjusted earnings before interest, taxes, depreciation and amortization of 1.6 billion reais, beating analyst estima",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/embraer-tops-estimates-sets-ambitious-2026-guidance",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1d2d5f1ad956866affc4cd31889f1f06",
-      "timestamp": "2026-03-06T19:17:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Embraces Thrift With Vow to Stem Wasteful Budget Spending - China will root out wasteful spending and strive to boost government revenue, Finance Minister Lan Fo’an said on Friday, sending a strong message of frugality soon after unveiling a more modest fiscal",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/china-embraces-thrift-with-vow-to-stem-wasteful-budget-spending",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c81430be41679fb49edf1d0a6607065a",
-      "timestamp": "2026-03-06T19:14:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goldman Says Stocks May Suffer Correction, But 'Nothing Systemic' - Peter Oppenheimer, chief global equity strategist at Goldman Sachs, discusses the impact of war in the Middle East on inflation, the economy and equity markets. \"Financial conditions have been tighten",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/stocks-may-see-correction-but-nothing-systemic-goldman-video",
       "sentiment": "NEUTRAL"
     }
   ]
