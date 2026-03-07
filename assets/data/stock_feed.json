@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-03-07T15:11:01.560403+09:00",
+  "last_updated": "2026-03-07T17:07:08.878460+09:00",
   "items": [
+    {
+      "id": "37f65d90bc9b0def76da60c17b48ea89",
+      "timestamp": "2026-03-07T17:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ECB Rate-Hike Bets Test Officials’ Attempts to Keep Their Cool - European Central Bank efforts to project calm over war and inflation are being tested as markets price in a hike in interest rates this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/ecb-rate-hike-bets-test-officials-attempts-to-keep-their-cool",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "86e4934cd12a85ac6905e91e856be003",
+      "timestamp": "2026-03-07T16:55:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran President Says Tehran Has No Intention of Hitting Neighbors - Iran’s president said he has instructed the military not to attack any country that isn’t striking the Islamic Republic, even as projectiles continued to be fired at the United Arab Emirates and other",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/iran-president-says-tehran-has-no-intention-of-hitting-neighbors",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd530da7b1abdad553a1601f8ecd5f50",
+      "timestamp": "2026-03-07T16:23:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Saudi Arabia Intercepts Drones Heading Toward Shaybah Oil Field - Saudi Arabia intercepted drones in the Empty Quarter desert that were heading toward the Shaybah oil field, which has the capacity to produce 1 million barrels of crude a day, according to state-run S",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/saudi-arabia-intercepts-drones-heading-toward-shaybah-oil-field",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "89cac6a25a72b564500fd672800d8434",
+      "timestamp": "2026-03-07T16:22:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War Latest: Iran Tells Forces Not to Strike Neighboring Countries",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-03-07/iran-latest",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4962720e03b17288469039fbf78ec857",
+      "timestamp": "2026-03-07T16:20:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dubai’s Emirates Suspends Flights Again Amid Missile Threats - Dubai’s Emirates suspended flights again on Saturday after another round of interceptions further disrupted operations at the world’s largest airline.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/dubai-s-emirates-suspends-flights-again-amid-missile-threats",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c36cfa0875011633583379ae60d26c3a",
+      "timestamp": "2026-03-07T16:15:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Merz Conservatives Face Stiff Test in One-Time German Stronghold - Chancellor Friedrich Merz’s conservatives are facing an unexpected challenge in their bid to wrest back power in a wealthy southwestern region from the Greens, the first in a series of state electoral",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/merz-conservatives-face-stiff-test-in-one-time-german-stronghold",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "831a7494eaa88a57be627da0a9883d9f",
+      "timestamp": "2026-03-07T15:07:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Raises LPG Prices as Hormuz Crisis Chokes Flows - India raised prices of its most widely used cooking gas for the first time in a year, as the Iran war disrupted Middle East energy flows and sent global fuel costs higher.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/india-raises-lpg-prices-as-hormuz-crisis-chokes-flows",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "933378fdd508c04fe1f702f238654c82",
       "timestamp": "2026-03-07T15:02:54+09:00",
@@ -10,6 +87,28 @@
       "related_tickers": [],
       "content": "Critical Minerals: Africa’s Role in the New Global Economy - The global race to secure critical minerals is reshaping economies around the world, redrawing trade relationships and shifting geopolitical power. Africa sits at the center of that shift as countries",
       "url": "https://www.bloomberg.com/news/videos/2026-03-07/critical-minerals-africa-s-role-in-new-global-economy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2a989602a83a7f0abc933f212cef985f",
+      "timestamp": "2026-03-07T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The UK’s Polarized Cities Spell More Third-Place Finishes for Labour - Britain’s post-industrial cities are abandoning the center ground for insurgents on both the left and the right, in a warning that the government’s third-place finish in last week’s Manchester by-elec",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/reform-and-greens-are-replacing-labour-and-tories-in-the-uk-s-cities",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "92a4de18c67ca1cc6d8e208176eb4f0b",
+      "timestamp": "2026-03-07T14:28:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Urges At-Risk People to Undergo Screening Tests for Cancer - China’s health ministry urged people at potential risk to undergo cancer screenings as part of a broader push to improve prevention and control of the disease.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/china-urges-at-risk-people-to-undergo-screening-tests-for-cancer",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2114,105 +2213,6 @@
       "related_tickers": [],
       "content": "Reinsurers Scrap War-Risk Cover After US Torpedoes Iranian Ship - London-based reinsurers are issuing seven-day cancellation notices on marine war-risk coverage after a US submarine torpedoed an Iranian warship off Sri Lanka, amplifying risk perception, according to",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/reinsurers-scrap-war-risk-cover-after-us-torpedoes-iranian-ship",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "72e735a70208937ab9e96df39e249c3f",
-      "timestamp": "2026-03-06T19:59:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Modi Feels the Heat From Trump’s War on Iran - Strike by US submarine of Iranian vessel near Sri Lanka hurts PM’s position.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-06/indian-pm-modi-feels-the-heat-from-us-and-israel-s-war-on-iran",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "42f22552afebf383080c9bb42b709ca8",
-      "timestamp": "2026-03-06T19:52:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Germany’s Solar Boom Eases Power Costs as Gas Price Jumps - Germany is seeing unusually strong solar power output in March, helping to cap electricity prices even as the conflict in the Middle East drives up the cost of energy worldwide.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/germany-s-solar-boom-eases-power-costs-as-gas-price-jumps",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61a6e489fac895b78a29c7cefad086c4",
-      "timestamp": "2026-03-06T19:51:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran War: US Grants India Russian Oil Waver, Hormuz in Near-Total Halt | The Opening Trade 3/6/2026 - The US has cleared the way for India to temporarily increase its purchases of Russian oil, reversing months of pressure on the world’s third-largest crude importer as an escalating conflict in the Per",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/the-opening-trade-3-6-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f0c7957f8a5ec3dde2337a6858f33be5",
-      "timestamp": "2026-03-06T19:46:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran and Israel Trade Fire as War Impacts Global Supply Chains - Israel and Iran exchanged missile fire as the war in the Middle East entered a seventh day, with the impact rippling across global supply chains and energy markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/iran-and-israel-trade-fire-as-war-impacts-global-supply-chains",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6584302352e68391afab7e02ae3a14b3",
-      "timestamp": "2026-03-06T19:39:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BofA’s Hartnett Sees European, Japanese Stocks at Risk From War - A prolonged Iran war is a risk to the bank-stock powered rallies in Japan and Europe as investors abandon these markets in favor of exposure to oil and the US dollar, Bank of America’s Michael Hartnet",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/bofa-s-hartnett-sees-european-japanese-stocks-at-risk-from-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fb8091670a7a4162b5ce94eb84fcbaa5",
-      "timestamp": "2026-03-06T19:36:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Why the Iranian Regime Could Survive - \"This is a very tough regime...willing to kill to remain in power.\"\n\nPrinceton University Prof. Bernard Haykel tells Mishal Husain why the Iranian regime could survive the war &mdash; despite much of ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/why-the-iranian-regime-could-survive-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "05a6fc8c5c000959b932c1206d10d36e",
-      "timestamp": "2026-03-06T19:31:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Big Tech Stocks Were Expensive. Then the Market Turned on AI - For most of the past decade, investors have had to pay exorbitant prices to own a piece of the world’s biggest technology companies. But that’s changing as AI euphoria gives way to skepticism.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/big-tech-stocks-were-expensive-then-the-market-turned-on-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fb604cd01160b26a87c2c12d1f1e5c4e",
-      "timestamp": "2026-03-06T19:30:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Three Big Questions Facing FEMA With Kristi Noem Out - <p>The Department of Homeland Security oversees the nation’s main disaster response agency, which has undergone turmoil under Noem.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/what-kristi-noem-s-firing-means-for-the-future-of-fema",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cfb97607b9828029e72be91b26e42814",
-      "timestamp": "2026-03-06T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Stocks Flip Narrative, Beating Rest of World as War Drags On - US stocks have flipped the script for international investors since war erupted in the Mideast, handily outpacing the rest of the world after trailing their global peers badly last month.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-stocks-flip-narrative-beating-rest-of-world-as-war-drags-on",
       "sentiment": "NEUTRAL"
     }
   ]
