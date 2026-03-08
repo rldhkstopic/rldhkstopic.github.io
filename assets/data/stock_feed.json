@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-03-08T12:01:26.035681+09:00",
+  "last_updated": "2026-03-08T13:34:29.854001+09:00",
   "items": [
+    {
+      "id": "00ad2f4f11e4f79effaa3b2171ee1d49",
+      "timestamp": "2026-03-08T12:07:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Eyes ‘Landmark’ Year for US Ties, Urges End to Iran War - China’s top diplomat called for an immediate end to hostilities in the Middle East, criticizing US actions while signaling that the turmoil won’t derail steadying ties with Washington.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/china-eyes-landmark-year-for-us-ties-urges-end-to-iran-war",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "1f44e13042cb2ac422db2a63920f5c59",
       "timestamp": "2026-03-08T09:04:35+09:00",
@@ -2200,17 +2211,6 @@
       "related_tickers": [],
       "content": "Trump Wants ‘Unconditional Surrender’ From Iran - President Donald Trump said he won’t seek a negotiated end to the war with Iran, demanding in a post on social media that Tehran capitulate as US and Israeli airstrikes continue. Michelle Jamrisko rep",
       "url": "https://www.bloomberg.com/news/videos/2026-03-06/trump-wants-unconditional-surrender-from-iran-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "885643697fda80b4613ba455ebd7e53d",
-      "timestamp": "2026-03-07T00:39:40+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dollar Heads for Best Week Since 2024 as Oil Surge Trims Fed Bet - The dollar is wrapping up its best week in more than a year, rallying as the ultimate safe haven amid the conflict in the Middle East and skyrocketing oil prices.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/dollar-heads-for-best-week-since-2024-as-oil-surge-trims-fed-bet",
       "sentiment": "NEUTRAL"
     }
   ]
