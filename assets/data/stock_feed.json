@@ -1,6 +1,28 @@
 {
-  "last_updated": "2026-03-08T17:07:38.687948+09:00",
+  "last_updated": "2026-03-08T19:06:04.732277+09:00",
   "items": [
+    {
+      "id": "2d482e165204c12d5bde958fa3263032",
+      "timestamp": "2026-03-08T18:26:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Polish Rate-Setter Urges Clarity on Plan to Use Gold for Defense - A proposal to finance Poland’s defense expenditure by using profits from its gold reserves needs to be clearly communicated to markets, a central bank policymaker said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/polish-rate-setter-urges-clarity-on-plan-to-use-gold-for-defense",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e287cdd9aaf6d3a77e43db1315038c05",
+      "timestamp": "2026-03-08T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russian Oil Shutdown Troubles Putin’s Allies in Heart of Europe - With the world riveted on the war engulfing OPEC’s biggest members, the tankers en route to Croatia are on few people’s radar. But the deliveries to the energy backwater represent a tentative step tow",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/russian-oil-shutdown-troubles-putin-s-allies-in-heart-of-europe",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b136327df054405af554bd4cf63cf758",
       "timestamp": "2026-03-08T16:42:48+09:00",
@@ -2187,28 +2209,6 @@
       "related_tickers": [],
       "content": "Waving Goodbye to a Major Source of Global Capital - Markets might miss those petrodollars.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-03-06/waving-goodbye-to-a-major-source-of-global-capital",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3ba8cb799662c19b152d44edf8fc3d2d",
-      "timestamp": "2026-03-07T01:23:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Weighing Ukraine Trade Pact and Recovery Fund, Minister Says - US and Ukrainian negotiators discussed forging a free-trade agreement between their countries as well as a sovereign fund to aid the country’s postwar recovery, according to a top official in Kyiv.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-weighing-ukraine-trade-pact-and-recovery-fund-minister-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "562a3ac9e21d395a4f168419f2c79300",
-      "timestamp": "2026-03-07T01:11:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Israel’s Currency and Stock Market Surge, Even as War Rages - Israel’s stocks and currency are rallying after almost a week of war with Iran, even as markets elsewhere retreat amid soaring energy prices and mounting concern about a prolonged conflict.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/israel-s-currency-and-stock-market-surge-even-as-war-rages",
       "sentiment": "NEUTRAL"
     }
   ]
