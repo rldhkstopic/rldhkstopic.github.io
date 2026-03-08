@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-03-09T03:07:20.203523+09:00",
+  "last_updated": "2026-03-09T05:05:38.447855+09:00",
   "items": [
+    {
+      "id": "ace8d45ab12c05cdb644403424293b2c",
+      "timestamp": "2026-03-09T05:00:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "<strong>Why the AI Boom Will Make Phones, Cars and Electronics More Expensive</strong> - <p>AI demand is triggering a historic memory-chip shortage. Meeting exponential demand for chips will be expensive and maybe even impossible.</p>",
+      "url": "https://www.bloomberg.com/graphics/2026-ai-boom-memory-chip-shortage/",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5121d5d7de6158b59d2683ed514356cb",
+      "timestamp": "2026-03-09T04:23:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US May Announce Economic Deal With Cuba Soon, USA Today Says - The Trump administration may announce an economic deal with Cuba soon, USA Today reports citing two unidentified people with knowledge of the plans.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/us-may-announce-economic-deal-with-cuba-soon-usa-today-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b4a42219deb4edcd14ac08bd034a8d0",
+      "timestamp": "2026-03-09T04:17:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stock and Bond Traders Eye Another Volatile Open - Escalating hostilities in the Middle East and widening stress on oil shipping and infrastructure had global investors braced for more turbulence when trading resumes Sunday.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/stock-and-bond-traders-eye-another-volatile-open-markets-wrap",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c11d8c36e1142119eb9e4b6932c3951f",
+      "timestamp": "2026-03-09T04:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bond Traders Await US Inflation Data With Oil Rise in Focus - Bond investors are looking ahead to a series of inflation reports, including the consumer price index for February, at a moment when surging oil prices are largely dictating flows in the $31 trillion ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/bond-traders-await-us-inflation-data-with-oil-rise-in-focus",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "21bc7b58c3b2e6086c2b4d6b82f420ae",
       "timestamp": "2026-03-09T02:02:11+09:00",
@@ -2163,50 +2207,6 @@
       "related_tickers": [],
       "content": "Brazil Antitrust Regulator Clears Sale of Braskem Shares to IG4 - Brazil’s antitrust authority has approved a proposed transaction that would allow asset manager IG4 Capital to buy a controlling stake in petrochemicals producer Braskem SA.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/brazil-antitrust-regulator-clears-sale-of-braskem-shares-to-ig4",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "21b750b3274f8df9b88ca9d09d487e68",
-      "timestamp": "2026-03-07T04:00:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Private Debt Should Face ‘Full-Blown Default Cycle,’ Pimco Says - With record fundraising after the 2008 financial crisis, direct-lending vehicles have loosened their underwriting standards and are due for a stress test, according to a Pacific Investment Management ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/pimco-says-private-debt-should-face-full-blown-default-cycle",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "537115326dd13d5bf1d7df1718c1493b",
-      "timestamp": "2026-03-07T04:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Top Korea Power Firm Revs Up US Growth Betting on AI Supercycle - South Korea’s top power equipment maker, HD Hyundai Electric Co., is accelerating its US expansion, betting that demand for transformers and switchgear will surge as the artificial intelligence “super",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/top-korea-power-firm-revs-up-us-growth-betting-on-ai-supercycle",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "74f81030c31f94c905c11192daf80daa",
-      "timestamp": "2026-03-07T03:39:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Data Centers Are ‘Inevitable’ Target in Conflict - The conflict in Iran is underscoring the risks of building data centers in the Gulf region, says Sam Winter-Levy, a fellow in the Technology and International Affairs Program at the Carnegie Endowment",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/data-centers-are-inevitable-target-in-conflict-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7aebe9f0337660a4920318a1b1c67285",
-      "timestamp": "2026-03-07T03:34:55+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How Much Higher Can Oil Go? - Brent crude futures hit $90 a barrel for the first time since October 2023 as war rages on in the Middle East. Ship traffic through the Strait of Hormuz has practically stopped. Some traders warn oil ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/brent-oil-surges-as-middle-east-war-paralyzes-hormuz-traffic",
       "sentiment": "NEUTRAL"
     }
   ]
