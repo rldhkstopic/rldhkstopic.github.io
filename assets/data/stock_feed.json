@@ -1,6 +1,72 @@
 {
-  "last_updated": "2026-03-08T07:05:18.215785+09:00",
+  "last_updated": "2026-03-08T09:23:45.902780+09:00",
   "items": [
+    {
+      "id": "1f44e13042cb2ac422db2a63920f5c59",
+      "timestamp": "2026-03-08T09:04:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Six Arrested After Explosive Devices Tossed Near Mamdani’s Home - Authorities arrested six people connected to unrest during an anti-Muslim protest outside the residence of New York City Mayor Zohran Mamdani that prompted a bomb-squad response and a terrorism invest",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/six-arrested-after-explosive-devices-tossed-near-nyc-mayor-mamdani-residence",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d0eb1cfed91661448ace331a9eebacb4",
+      "timestamp": "2026-03-08T08:26:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Iran Launched Deadly Strike That Hit Girls’ School - President Donald Trump said that Iran is responsible for the bombing of an all-girls school that killed about 180 people during the first day of the US-Israeli strikes.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/trump-says-iran-launched-deadly-strike-that-hit-girls-school",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c837b99c469d99cfe8013d1b4a2f02a2",
+      "timestamp": "2026-03-08T07:52:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela’s Machado Fights to Be Heard as Trump Embraces Rival - Venezuela’s opposition leader María Corina Machado held private talks in the White House Friday as she struggles to retain her political voice in the face of the Trump administration’s growing support",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/venezuela-s-machado-fights-to-be-heard-as-trump-embraces-rival",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2e7ecf7cdf261c2f1a61a17e3958d4b5",
+      "timestamp": "2026-03-08T07:25:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI’s Head of Robotics Resigns Over Company’s Pentagon Deal - The head of OpenAI’s robotics team resigned Saturday, citing the company’s deal to deploy its artificial intelligence models within the Pentagon’s classified network as the cause.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/openai-s-head-of-robotics-resigns-over-company-s-pentagon-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2e7ecf7cdf261c2f1a61a17e3958d4b5",
+      "timestamp": "2026-03-08T07:25:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI’s Head of Robotics Resigns Over Company’s Pentagon Deal - The head of OpenAI’s robotics team resigned Saturday, citing the company’s deal to deploy its artificial intelligence models within the Pentagon’s classified network as the cause.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/openai-s-head-of-robotics-resigns-over-company-s-pentagon-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4712142ca722319bf43c3754e54f7cf7",
+      "timestamp": "2026-03-08T06:50:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says Good Reason Needed to Deploy Ground Troops To Iran - There would have to be a “very good reason” for the US to deploy ground troops to Iran, President Donald Trump says in a meeting with the press on Air Force One.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-07/trump-says-good-reason-needed-to-deploy-ground-troops-to-iran",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "712a9623d113344d03e9446c69b23ea3",
       "timestamp": "2026-03-08T06:46:01+09:00",
@@ -2145,74 +2211,6 @@
       "related_tickers": [],
       "content": "Dollar Heads for Best Week Since 2024 as Oil Surge Trims Fed Bet - The dollar is wrapping up its best week in more than a year, rallying as the ultimate safe haven amid the conflict in the Middle East and skyrocketing oil prices.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/dollar-heads-for-best-week-since-2024-as-oil-surge-trims-fed-bet",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5e1d40cff1118ecbfc0b9e24d6e20798",
-      "timestamp": "2026-03-07T00:34:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Samsung’s Galaxy S26 Ultra Is a Privacy-First Powerhouse - You don’t have to completely redesign a smartphone to make the latest version a solid upgrade over its predecessor. While Apple Inc. went with a bold new look for its Pro models last year and has enjo",
-      "url": "https://www.bloomberg.com/news/features/2026-03-06/samsung-s-galaxy-s26-ultra-offers-an-innovative-take-on-privacy-review",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ffd3607971a3d71b0993e5443b22b0da",
-      "timestamp": "2026-03-07T00:30:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 90,597,029 0.0506",
-      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-153017544.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "83a7a7eb7324bde45b361d613a5f585a",
-      "timestamp": "2026-03-07T00:22:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Goolsbee Hopeful Fed Rate Cuts Can Start by End of Year - Federal Reserve Bank of Chicago President Austan Goolsbee calls the employment report a \"tough miss\" and says it would be a concern if the US sees several months of similar jobs data during an intervi",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/goolsbee-hopeful-fed-rate-cuts-can-start-by-end-of-year-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "36c796b1b3e53cf1c90dbaa42b6b563e",
-      "timestamp": "2026-03-07T00:22:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hassett on Oil Price Pressure, US Jobs Report - National Economic Director Kevin Hassett says the White House has no plans to tap the Strategic Petroleum Reserve to bring down oil prices. He says the US nonfarm payrolls report for February, which s",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/hassett-on-oil-price-pressure-us-jobs-report-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e3592638a11c4712ceb2b51cff400a1d",
-      "timestamp": "2026-03-07T00:21:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "AI ‘Man Camps’ Offer Golf, Free Steaks to Lure Workers in Texas - <p>As data centers boom, developers are rushing to build housing and amenities in remote locales</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-03-06/the-700-billion-ai-data-center-boom-is-fueling-a-boom-in-man-camp-housing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5c87d2f8c47f8c8b2afaeed44bb615c5",
-      "timestamp": "2026-03-07T00:18:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crude Prices Surge in Europe as Asian Buying Tightens Market - Crude prices in Europe &mdash; which initially showed a muted reaction to the war in the Middle East &mdash; are now surging as aggressive buying by Asian refiners tightens the global market.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/crude-prices-surge-in-europe-as-asian-buying-tightens-market",
       "sentiment": "NEUTRAL"
     }
   ]
