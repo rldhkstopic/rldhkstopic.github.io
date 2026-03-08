@@ -1,6 +1,39 @@
 {
-  "last_updated": "2026-03-08T15:14:36.001082+09:00",
+  "last_updated": "2026-03-08T17:07:38.687948+09:00",
   "items": [
+    {
+      "id": "b136327df054405af554bd4cf63cf758",
+      "timestamp": "2026-03-08T16:42:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Taiwan Premier Makes First Japan Visit Since 1972, Defying China - Taiwan’s premier made a personal trip to Japan and appeared in public to watch the island’s baseball team in action, a rare visit that risks deteriorating Tokyo’s ties with China further.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/taiwan-premier-makes-first-japan-visit-since-1972-defying-china",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "81008d0f85c1c90556bcec262f77cd8b",
+      "timestamp": "2026-03-08T15:46:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Foreign Minister Seeks Stable US Ties - Despite the conflict in Iran and recent tariff shakeups, China remains committed to keeping relations with Washington on a stable track. Foreign Minister Wang Yi's 1.5-hour briefing makes it clear: fo",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-08/china-foreign-minister-seeks-stable-us-ties-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c25d5e79a49fd4920d1a068e1797a06c",
+      "timestamp": "2026-03-08T15:46:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Sustains Strikes on Arab States, Oil Supply Shock Deepens - Arab states along the Persian Gulf contended with a ninth day of incoming missiles and drones from Iran, which said it had the capacity to sustain the war for months. President Donald Trump said the U",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/iran-sustains-strikes-on-arab-states-oil-supply-shock-deepens",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "15e58728c42c48253e34f8404bfb72b4",
       "timestamp": "2026-03-08T15:03:01+09:00",
@@ -10,6 +43,17 @@
       "related_tickers": [],
       "content": "China Steps Up Investment in Africa's Railway Infrastructure - Railways are becoming strategic assets in the race for critical minerals. China is stepping up investment to overhaul projects like the Tazara railway, which was first built during the Mao era, to mov",
       "url": "https://www.bloomberg.com/news/videos/2026-03-08/china-ups-investment-in-africa-s-railway-infrastructure-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "511fadcc569d5c7070694c9ddf4cfddf",
+      "timestamp": "2026-03-08T14:43:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Women in China Run Nearly $1 Trillion of Funds, Cailian Reports - Female fund managers in China oversaw a total of 6.8 trillion yuan ($984 billion) in assets as of March 6, Cailian reported on Sunday, citing data from Wind Information Co.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/china-female-fund-managers-aum-almost-1-trillion-report-says",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2165,52 +2209,6 @@
       "related_tickers": [],
       "content": "Israel’s Currency and Stock Market Surge, Even as War Rages - Israel’s stocks and currency are rallying after almost a week of war with Iran, even as markets elsewhere retreat amid soaring energy prices and mounting concern about a prolonged conflict.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/israel-s-currency-and-stock-market-surge-even-as-war-rages",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cdde8e238bd4148d6a2a8aabcedf4f3b",
-      "timestamp": "2026-03-07T01:06:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NYSE to Pay SEC $9 Million Tied to 2023 Market Outage Turmoil - The New York Stock Exchange agreed to pay a $9 million to settle US Securities and Exchange Commission allegations that an internal malfunction led to a botched market open and wild price swings on a ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/nyse-to-pay-sec-9-million-tied-to-2023-market-outage-turmoil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "03d21eaf2cdbf2d62fb272373eec1ddb",
-      "timestamp": "2026-03-07T01:02:37+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "SoFi Just Landed a New Stablecoin Partnership with Mastercard. Does That Make SOFI Stock a Buy Here? - The stablecoin deal may not move the needle for SOFI stock.",
-      "url": "https://www.barchart.com/story/news/609824/sofi-just-landed-a-new-stablecoin-partnership-with-mastercard-does-that-make-sofi-stock-a-buy-here?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "050467b2487392c7b850900adba29894",
-      "timestamp": "2026-03-07T00:42:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Says It Has ‘Enough Munitions’ as Trump Summons Defense Firms - President Donald Trump is set to host executives from top Pentagon contractors, amid worries around depleting stockpiles as the war on Iran approaches the one-week mark with no clear end in sight.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-says-it-has-enough-munitions-as-trump-summons-defense-firms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8a02bad808f0f3e74ad2749c1a94b35c",
-      "timestamp": "2026-03-07T00:41:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Aluminum Supply Shock Brings Massive Options Bet Into the Money - A huge aluminum options trade has come into the money this week as the war in Iran sparked a sharp rally in prices, delivering a windfall after the appearance of the position stunned dealers last week",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/aluminum-supply-shock-brings-massive-options-bet-into-the-money",
       "sentiment": "NEUTRAL"
     }
   ]
