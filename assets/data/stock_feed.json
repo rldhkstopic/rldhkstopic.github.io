@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-03-08T13:34:29.854001+09:00",
+  "last_updated": "2026-03-08T15:14:36.001082+09:00",
   "items": [
+    {
+      "id": "15e58728c42c48253e34f8404bfb72b4",
+      "timestamp": "2026-03-08T15:03:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Steps Up Investment in Africa's Railway Infrastructure - Railways are becoming strategic assets in the race for critical minerals. China is stepping up investment to overhaul projects like the Tazara railway, which was first built during the Mao era, to mov",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-08/china-ups-investment-in-africa-s-railway-infrastructure-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "00ad2f4f11e4f79effaa3b2171ee1d49",
       "timestamp": "2026-03-08T12:07:32+09:00",
@@ -2200,17 +2211,6 @@
       "related_tickers": [],
       "content": "Aluminum Supply Shock Brings Massive Options Bet Into the Money - A huge aluminum options trade has come into the money this week as the war in Iran sparked a sharp rally in prices, delivering a windfall after the appearance of the position stunned dealers last week",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/aluminum-supply-shock-brings-massive-options-bet-into-the-money",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b97e371e8fc3e0cc2e034eb3f9214b77",
-      "timestamp": "2026-03-07T00:40:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Wants ‘Unconditional Surrender’ From Iran - President Donald Trump said he won’t seek a negotiated end to the war with Iran, demanding in a post on social media that Tehran capitulate as US and Israeli airstrikes continue. Michelle Jamrisko rep",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/trump-wants-unconditional-surrender-from-iran-video",
       "sentiment": "NEUTRAL"
     }
   ]
