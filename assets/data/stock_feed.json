@@ -1,6 +1,83 @@
 {
-  "last_updated": "2026-03-09T01:06:25.506261+09:00",
+  "last_updated": "2026-03-09T03:07:20.203523+09:00",
   "items": [
+    {
+      "id": "21bc7b58c3b2e6086c2b4d6b82f420ae",
+      "timestamp": "2026-03-09T02:02:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Merz’s CDU Set to Be Defeated by Greens in German State Vote - Chancellor Friedrich Merz’s Christian Democratic Union was headed for defeat against the Greens in a wealthy southwestern German state that was once a conservative stronghold.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/merz-s-cdu-set-to-be-defeated-by-greens-in-german-state-vote",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "10f741b4d49cf73ef49f3db6cf117304",
+      "timestamp": "2026-03-09T02:01:09+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bloomberg This Weekend 3/8/2026 - The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-08/bloomberg-this-weekend-3-8-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7b0d9bef18cd771e0b1a814d1f630606",
+      "timestamp": "2026-03-09T01:59:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Considers Idea of Special Operation to Seize Iran’s Uranium - <p>The strikes on atomic facilities last June&nbsp;complicated the task of tracking the Islamic Republic’s stockpile.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/iran-war-us-mulls-idea-of-special-operation-to-seize-tehran-s-uranium",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d883aca649610da302081fe9ec3afc96",
+      "timestamp": "2026-03-09T01:25:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "HORMUZ TRACKER: Iran-Linked Ships Are the Only Ones to Transit - Strait of Hormuz transit remains near a standstill for a seventh day, with Iran-linked ships the only commercial vessels making the crossing in the past 24 hours.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/hormuz-tracker-iran-linked-ships-are-the-only-ones-to-transit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d527c78434830d540e39660713552962",
+      "timestamp": "2026-03-09T01:08:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Threatens to Stall Bills Until His Voting Measure Passes - President Donald Trump threatened to avoid signing any bill into law until a package of voting reforms is passed, his latest pressure tactic as the Republican-controlled Senate balks at the measure.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/trump-threatens-to-stall-bills-until-his-voting-measure-passes",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "da111b2f0c2a4fde69f47d8dc8824989",
+      "timestamp": "2026-03-09T00:54:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "‘Hoppers’ Opens to $46 Million in Comeback for Disney’s Pixar - Hoppers, the new animated picture from Walt Disney Co.’s Pixar studio, debuted as the highest-grossing film in US and Canadian theaters, delivering $46 million in ticket sales.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/-hoppers-opens-to-46-million-in-comeback-for-disney-s-pixar",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ba984c238685ed1a32009e2efd8cd05e",
+      "timestamp": "2026-03-09T00:47:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Canada’s Carney Calls Vote in Three Seats in Hunt for Majority - Prime Minister Mark Carney called special elections to fill three vacant seats next month, setting up a high-stakes political fight as he seeks a majority in Canada’s House of Commons.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-08/canada-s-carney-calls-vote-in-three-seats-in-hunt-for-majority",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "63a7226fddcc8ee30be972e1ef534969",
       "timestamp": "2026-03-09T00:02:09+09:00",
@@ -2130,85 +2207,6 @@
       "related_tickers": [],
       "content": "How Much Higher Can Oil Go? - Brent crude futures hit $90 a barrel for the first time since October 2023 as war rages on in the Middle East. Ship traffic through the Strait of Hormuz has practically stopped. Some traders warn oil ",
       "url": "https://www.bloomberg.com/news/videos/2026-03-06/brent-oil-surges-as-middle-east-war-paralyzes-hormuz-traffic",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3a74d569f0715053650d059e2be96617",
-      "timestamp": "2026-03-07T03:31:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Data Doesn’t Show AI Taking Jobs Just Yet - Oracle is planning to cut thousands of jobs as it looks to manage a cash crunch driven by AI spending, according to sources. It's the latest major tech company to link layoffs to AI in some way. But M",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/data-doesn-t-show-ai-taking-jobs-just-yet-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cad21a1df2303c82db7649b3acf711f1",
-      "timestamp": "2026-03-07T03:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed’s Hammack Says She Sees Two-Sided Risks to Interest Rates - Federal Reserve Bank of Cleveland President Beth Hammack reiterated that interest rates could be on hold for quite some time, but signaled officials should be ready to respond to other outcomes.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/fed-s-hammack-says-she-sees-two-sided-risks-to-interest-rates",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2c07b767dd928105a48891e2f88529b",
-      "timestamp": "2026-03-07T03:18:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bosch CEO on Iran Conflict, Energy Costs, Supply Chains - Bosch CEO and Chairman of the Management Board Stefan Hartung discusses how the conflict in the Middle East is impacting supply chains and how the world’s largest automotive supplier is dealing with r",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/bosch-ceo-on-iran-conflict-energy-costs-supply-chains-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "658a1af23a620aa44f8820f344172b4c",
-      "timestamp": "2026-03-07T03:16:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Mastercard's Stablecoin Moment: SoFiUSD Gets Global Settlement Rails - MA expands its SoFi partnership to enable SoFiUSD stablecoin settlements across its global network, aiming to speed cross-border and B2B payments.",
-      "url": "https://finance.yahoo.com/news/mastercards-stablecoin-moment-sofiusd-gets-181600802.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a9a48f927efadf39409cdefeee98da1b",
-      "timestamp": "2026-03-07T03:14:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "How High Could Oil Prices Go If the Conflict with Iran Continues? - Could oil prices spike over $200 a barrel if the Middle East conflict continues to escalate?\n\nOn this episode of the Everybody's Business podcast, Bloomberg Opinion's Javier Blas joins Stacey Vanek Sm",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-high-could-oil-prices-go-if-the-conflict-with-iran-continues",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8d7f09444f9141ca4ca31479e634507c",
-      "timestamp": "2026-03-07T03:08:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Payrolls Shock Wall Street | Open Interest 3/6/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" The job market saw one of its biggest declines since the pandemic. Is this a temporary stumble… or",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/open-interest-3-6-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f02ce4d2e68bf5cb83dfd95467869191",
-      "timestamp": "2026-03-07T03:07:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Qatar’s Main LNG Equipment Intact, Satellite Analysis Shows - Qatar’s massive LNG export facility remains largely intact, according to a Bloomberg analysis of satellite data, indicating that recent drone strikes missed key production equipment.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/qatar-s-main-lng-equipment-intact-satellite-analysis-shows",
       "sentiment": "NEUTRAL"
     }
   ]
