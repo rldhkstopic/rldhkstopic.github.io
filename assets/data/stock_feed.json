@@ -1,6 +1,316 @@
 {
-  "last_updated": "2026-03-10T03:18:05.025110+09:00",
+  "last_updated": "2026-03-10T05:08:43.608455+09:00",
   "items": [
+    {
+      "id": "5d2ff67e3332782e7fc26f8cc8d52fb3",
+      "timestamp": "2026-03-10T05:05:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UN's Kirsi Madi: Gender Equality is Smart Business - United Nations Assistant Secretary General Kirsi Madi discusses the importance of women's economic empowerment, saying that gender equality is 'not only a basic human right, not only the right thing t",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/un-s-kirsi-madi-gender-equality-is-smart-business-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "95f0c3b4cb450388976c75a135e9336e",
+      "timestamp": "2026-03-10T05:00:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says War With Iran Is 'Very Complete' - President Donald Trump said the US war on Iran could be ending soon, stating the operation is ahead of schedule. He told CBS the war is \"very complete.\" Kailey Leinz reports.  (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/trump-says-war-with-iran-is-very-complete-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "56e9b8023e96a6f25c6c7201007de3b1",
+      "timestamp": "2026-03-10T04:59:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Putin and Trump Discuss Iran in First Phone Call This Year - Russian President Vladimir Putin and his US counterpart Donald Trump discussed Iran in their first phone talk this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/putin-and-trump-discuss-iran-in-first-phone-call-this-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bbed035fc8d4edad6ace87fe05d6c3e8",
+      "timestamp": "2026-03-10T04:55:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU’s Dombrovskis Says Release of Oil Reserves Would Be Warranted - The current situation in energy markets &mdash; triggered by the war in Iran &mdash; would allow for the release of strategic oil reserves, according to European Union Economy Commissioner Valdis Domb",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/eu-s-dombrovskis-says-release-of-oil-reserves-would-be-warranted",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bbed035fc8d4edad6ace87fe05d6c3e8",
+      "timestamp": "2026-03-10T04:55:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU’s Dombrovskis Says Release of Oil Reserves Would Be Warranted - The current situation in energy markets &mdash; triggered by the war in Iran &mdash; would allow for the release of strategic oil reserves, according to European Union Economy Commissioner Valdis Domb",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/eu-s-dombrovskis-says-release-of-oil-reserves-would-be-warranted",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f1e77435a4eef19a113a302471bb1266",
+      "timestamp": "2026-03-10T04:53:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alger's Ankur Crawford: Demand for Compute is Insatiable - Alger Executive Vice President and Portfolio Manager Ankur Crawford discusses an insatiable demand for AI computing, gold, and a \"directionless\" and \"choppy\" market. She talks with Romaine Bostick and",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/alger-s-ankur-crawford-demand-for-compute-is-insatiable-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "03d92521d6d677b13e7175d4cf789410",
+      "timestamp": "2026-03-10T04:45:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Everything Is Pointing to More Commodity Hoarding - Everything is pointing to more commodity hoarding",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-09/everything-is-pointing-to-more-commodity-hoarding",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "596d2d3e3208a0dc633f39d949e16f34",
+      "timestamp": "2026-03-10T04:45:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Oil Declines in After-Close Trading on Trump Remarks - Oil erased gains in after-settlement trading after President Donald Trump told CBS the Iran war is “very complete, pretty much.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/us-oil-declines-in-after-close-trading-on-trump-remarks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "73f21c4e02c5bc116a7b2ce82125fd42",
+      "timestamp": "2026-03-10T04:41:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Could Spike Again, Babin Says - CIBC Private Wealth Managing Director Rebecca Babin says oil prices could spike again if there's no timeline about when the war with Iran could end. She says \"panic could resume.\" Oil pared back below",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/oil-could-spike-again-babin-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9f810ceb8e6747e76b032b0206e06f5d",
+      "timestamp": "2026-03-10T04:24:25+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ETF IQ 3/9/2026 - \"Bloomberg ETF IQ\" focuses on the opportunities, risks and current trends tied to the trillions of dollars in the global exchange traded funds industry. Today's guests: Innovator CEO and Co-Founder Br",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/etf-iq-3-9-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "47d94811bdcaf88049755b62d30c1a85",
+      "timestamp": "2026-03-10T04:03:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Africa’s Pasta Capital Bans Land Imports to Protect New Factory - Ghana has banned land imports of pasta to prevent smuggling, days after inaugurating its first domestic processing plant.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/africa-s-pasta-capital-bans-land-imports-to-protect-new-factory",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "148b23ad712d2b448709c39c7842eb5c",
+      "timestamp": "2026-03-10T04:00:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Test Your ETF Knowledge in Our IQ Test - Bloomberg's Joel Weber puts Katie Greifeld, Scarlet Fu and Eric Balchunas to the test on \"Bloomberg ETF IQ\" in this week's edition of \"IQ Test.\"\n\n\n (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/test-your-etf-knowledge-in-our-iq-test-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23b557e9db5fecff43bc97ade26e6e78",
+      "timestamp": "2026-03-10T03:58:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Wall Street Tail-Risk Hedges Rally as Conflict Shakes Markets - For months, Wall Street’s panoply of risk-hedging strategies did little but lose money. Now, as uncertainty sparked by the war with Iran hits the market’s most popular trades, investors that loaded up",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/wall-street-tail-risk-hedges-rally-as-conflict-shakes-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "caae3a92339d404faa9ba0db50b1392e",
+      "timestamp": "2026-03-10T03:57:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trend Riders Max Out on Bullish Oil for First Time Since 2021 - Algorithmic traders, the speculators known for riding trends and accelerating price momentum, have maxed out on bullish US oil bets for the first time in more than four years &mdash; a move that’s lik",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/traders-max-out-on-bullish-oil-for-first-time-since-2021-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9d5d825aa30608aeca94788be0d1f120",
+      "timestamp": "2026-03-10T03:57:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The ETF Powered by Women-Led Companies - Patricia Lizarraga, founder and CIO of Hypatia Capital, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ\" to discuss the only ETF that invests in companies run by women CEO's:",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/the-etf-powered-by-women-led-companies-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6770f7b071f3f07af6dc8b6e45fd8de0",
+      "timestamp": "2026-03-10T03:55:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Venezuela Oil Shipment Booked for China as US Sanctions Ease - A company backed by US energy magnate Harry Sargeant III has moved to export Venezuelan crude to Asia as US sanctions ease, with oil prices soaring to near $100 a barrel amid escalating turmoil in the",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/venezuela-oil-shipment-booked-for-china-as-iran-roils-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0df4741269a8838642a72384c4c53e5e",
+      "timestamp": "2026-03-10T03:55:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "War Triggers Tumult in Oil Market | Balance of Power: Early Edition 3/09/2026 - On the early edition of Balance of Power, Bloomberg Washington Correspondents Joe Mathieu and Kailey Leinz discuss the spike in oil prices as war in Iran continues. On today's show, former Democratic ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/balance-of-power-early-edition-3-09-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b7f161d03082d2a9c38024346eeb6050",
+      "timestamp": "2026-03-10T03:53:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "ETF Billionaire Bruce Bond Talks Buffer Funds - Bruce Bond, co-founder & CEO at Innovator ETFs, joins Katie Greifeld, Scarlet Fu and Eric Balchunas on \"Bloomberg ETF IQ.\" They discuss whether buffer ETFs offer better value for investors and his rec",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/etf-billionaire-bruce-bond-talks-buffer-funds-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "162e81b252621005f02ab2f2e9f81062",
+      "timestamp": "2026-03-10T03:46:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "No Plan to Sell SpaceX: Shulman - EntrepreneurShares Founder and CIO Joel Shulman joins Katie Greifeld and Scarlet Fu on \"Bloomberg ETF IQ.\" They discuss his the ERShares Private-Public Crossover ETF, which has taken in more than $470",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/no-plan-to-sell-spacex-shulman-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "411cef72de8f0a5ce2b587fee276203f",
+      "timestamp": "2026-03-10T03:42:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Postpones Smart Home Display Launch as It Waits for New AI and Siri - Apple Inc.’s artificial intelligence struggles are rippling through its product plans, forcing the company to delay a long-in-the-works smart home display until later this year, according to people wi",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/apple-postpones-smart-home-display-launch-as-it-waits-for-new-ai-and-siri",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cd6df2492338466df2a3941ea1851c5f",
+      "timestamp": "2026-03-10T03:40:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Consumers Embrace More Gen-AI Apps - OpenAI and Anthropic are becoming their own artificial intelligence app stores and consumers are embracing a wider number of generative AI tools, according to Andreessen Horowitz’s “Top 100 Gen AI Con",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/consumers-embrace-more-gen-ai-apps-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7718fe2a9394790c9b3530854114fc2",
+      "timestamp": "2026-03-10T03:40:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Signals No Letup in War as Khamenei’s Son Made Leader - Iran chose Mojtaba Khamenei, the hardline son of the assassinated Ayatollah Ali Khamenei, as its new supreme leader, signaling Tehran won’t back down in a war raging across the Middle East and causing",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/iran-signals-no-letup-as-khamenei-s-son-made-leader-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "07d9167cb72bb3436247706b87424a5a",
+      "timestamp": "2026-03-10T03:39:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Madagascar Leader Dissolves Government, New Premier to Be Named - Madagascar’s military ruler Michael Randrianirina has dissolved the government and will appoint a new prime minister in the coming days in accordance with the country’s laws, the presidency said in a ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/madagascar-leader-dissolves-government-new-premier-to-be-named",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e12af7c0c6017ff736cb0c740b9df993",
+      "timestamp": "2026-03-10T03:35:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Harvey Adds AI Agent Builder for Law Firms - Harvey, an AI provider for legal services, unveiled a tool allowing law firms to build custom agents. Harvey CEO Winston Weinberg explains why the startup is betting it can win the legal market by sta",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/harvey-adds-ai-agent-builder-for-law-firms-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "56a2222f4ebfe68580279dcdaefc15ca",
+      "timestamp": "2026-03-10T03:31:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AI Startup ElevenLabs Aims to Be IPO-Ready in Two or Three Years - AI voice startup ElevenLabs plans to be ready for an initial public offering in two to three years, according to Chief Executive Officer Mati Staniszewski, potentially making it one of the first artif",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/ai-startup-elevenlabs-aims-to-be-ipo-ready-in-two-or-three-years",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "951cbe9b57d0cabaf8d023fe775e6347",
+      "timestamp": "2026-03-10T03:26:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Nuclear Power in the Spotlight as Energy Prices Climb - The conflict in the Middle East has pushed oil prices above $100 a barrel. That has some calling for greater investment in nuclear plants in the US and Europe. Juliann Edwards, chief development offic",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/nuclear-power-in-the-spotlight-as-energy-prices-climb-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "daff989af19075157e06726a92add2b4",
+      "timestamp": "2026-03-10T03:12:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Mastercard Tests Bank Issued Stablecoin Rail With SoFiUSD Integration - Mastercard and SoFi are expanding their partnership to allow settlement of transactions using SoFiUSD, a stablecoin issued by a U.S. chartered, insured bank. The stablecoin will be used across Masterc",
+      "url": "https://finance.yahoo.com/news/mastercard-tests-bank-issued-stablecoin-181237271.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "942b8fa71e28fd00dbb95d58a0b8305a",
+      "timestamp": "2026-03-10T03:03:56+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Democrats Seize on Iran-Driven Gas Prices in Appeals to Voters - Just a couple of weeks ago, President Donald Trump was touting lower gas prices during his State of the Union. Now, after his war on Iran drove oil prices above $100 a barrel, Democrats are turning th",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/democrats-seize-on-iran-driven-gas-prices-in-appeals-to-voters",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "b124bfa767a6dafb693369728b32e2e3",
       "timestamp": "2026-03-10T03:00:08+09:00",
@@ -182,6 +492,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "4aa204f59d05fd1b1b8099a0eb073cfb",
+      "timestamp": "2026-03-10T01:32:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Italy’s Giorgetti Cautions Against Temptation to Raise ECB Rates - Italian Finance Minister Giancarlo Giorgetti cautioned against the temptation to hike interest rates in response to fallout from the conflict in the Middle East.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/italy-s-giorgetti-cautions-against-temptation-to-raise-ecb-rates",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "d082b7988f3703b12b1f128063877e6e",
       "timestamp": "2026-03-10T01:17:23+09:00",
       "source_type": "NEWS",
@@ -234,6 +555,17 @@
       "related_tickers": [],
       "content": "Mexico Trade Consulations Favor Tweaking USMCA Over Major Revamp - The US-Mexico-Canada free trade deal shouldn’t undergo a major renegotiation but instead be improved and strengthened, according to consultations with key economic sectors overseen by the Mexican gove",
       "url": "https://www.bloomberg.com/news/articles/2026-03-09/mexico-trade-consulations-favor-tweaking-usmca-over-major-revamp",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "664ab447b85ca620af2f976c453600a2",
+      "timestamp": "2026-03-10T00:30:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Spain’s Sanchez Is Standing Up to Trump on the Iran War - Spain’s Prime Minister Pedro Sánchez has stood out among European leaders in his willingness to go toe-to-toe with US President Donald Trump. His latest stand &mdash; barring American forces from usin",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/why-spain-s-pm-pedro-sanchez-is-standing-up-to-trump-on-iran-war",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1877,338 +2209,6 @@
       "related_tickers": [],
       "content": "Former Google AI Researcher Sets Up AI Robotics Startup in Tokyo - A Silicon Valley-born AI startup is turning to Japan to prove AI can reshape one of the world’s largest industrial robot supply chains.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-09/ex-google-researcher-seeks-to-transform-japan-s-robots-with-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "29ec6dbdf59b37d3f5f202ab9941b656",
-      "timestamp": "2026-03-09T13:13:02+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "S. Korean President Urges Fuel Price Cap as Oil Jumps Near $120 - South Korean President Lee Jae Myung called for the quick launch of a cap on fuel prices as the government moves to contain a spike in energy costs triggered by escalating conflict in the Middle East.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/s-korean-president-urges-fuel-price-cap-as-oil-jumps-near-120",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2711eefdcc3f69a635f765a42e0b814b",
-      "timestamp": "2026-03-09T13:04:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "A Longer War Is Already Here for Markets - <p>Bad midterms news for Trump: Both fuel and food inflation are now under pressure.</p>",
-      "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-09/iran-war-a-longer-conflict-is-already-here-for-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eb68927be06574517a58bb0a832254b4",
-      "timestamp": "2026-03-09T13:01:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "This Maker of $4 Million Sports Cars Is Weighing an IPO - <p>Koenigsegg says it’s in no hurry, but might want extra cash to boost production of its road rockets that can hit 250 mph.</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/koenigsegg-makes-4-million-cars-and-is-weighing-an-ipo",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "adbca31ced3087c48cc17e20b00812ca",
-      "timestamp": "2026-03-09T13:00:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kalshi Teams Up With Brazil’s XP for First International Push - Prediction market platform Kalshi Inc. is expanding outside the US for the first time, partnering with Brazil’s XP Inc. to list event contracts.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/kalshi-teams-up-with-brazil-s-xp-for-first-international-push",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a4b9c469894921775067103719974237",
-      "timestamp": "2026-03-09T12:58:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Markets Are Repricing More Prolonged Middle East Conflict, JPMorgan Says - Sylvia Sheng of JPMorgan Asset Management says Asian markets are seeing \"a de-risking event happening\" in light of the ongoing conflict in the Middle East. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/market-is-repricing-more-prolonged-mideast-conflict-jpm-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ebb1e107d26940408eee04790fc184c4",
-      "timestamp": "2026-03-09T12:58:09+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Surges Above $100, Stocks Slump | The Asia Trade 3/9/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Sydney and Singapore with Haidi Stroud-Watts and Avril Hong",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/the-asia-trade-3-9-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "860108e3aad1a73a8e2b38d8d9ae6687",
-      "timestamp": "2026-03-09T12:43:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Vietnam Plans to Scrap Fuel Import Curbs to Keep Supply Flowing - Vietnam will remove import tariffs on fuel and make it easier for state giant PetroVietnam to buy and sell crude and oil products, as an expanding war in the Middle East heightens energy-security worr",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/vietnam-plans-to-scrap-fuel-import-curbs-to-keep-supply-flowing",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dbc4ee728286a6981fc3d605d61c72a1",
-      "timestamp": "2026-03-09T12:23:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Taiwan to Cap Oil-Price Rises and Doesn’t See Power Shortages - Taiwan has set a weekly cap on oil-price increases as it seeks to cushion the economy from the impact of the Middle East war, according to the Commercial Times.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/taiwan-to-cap-oil-price-rises-and-doesn-t-see-power-shortages",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dec5fae1373600845fbfd53fc12b7255",
-      "timestamp": "2026-03-09T12:12:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s OpenClaw-Tied Stocks Rise on Policy Support, Adoption - Chinese companies linked to open-source AI agent software OpenClaw advanced after Shenzhen authorities offered measures to support further development of tools using the technology.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-s-openclaw-tied-stocks-rise-on-policy-support-adoption",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "98b00e902ba16c39da8ff09b3e31dc91",
-      "timestamp": "2026-03-09T12:08:39+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US, South Korea Hold Reduced Drills as China Prepares Trump Trip - The US and South Korea reduced the scale of annual springtime joint military drills long denounced by North Korea, as Seoul attempts to ease tensions with Pyongyang ahead of President Donald Trump’s p",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/us-south-korea-hold-reduced-drills-as-china-prepares-trump-trip",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5b74c8064d7d895469a4ccf4c18549ab",
-      "timestamp": "2026-03-09T12:08:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Stock Fear Gauges Soar as Oil Spike Upends Bull Scenario - A gauge of fear in Japanese stock markets has surged to the highest level since the Covid crisis in 2020 as a sharp spike in oil prices dampens optimism about the country’s economic outlook and corpor",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/japan-stock-fear-gauges-soar-as-oil-spike-upends-bull-scenario",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0eb6b6db6973189fe2a3c26ff18c366c",
-      "timestamp": "2026-03-09T11:49:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bitcoin Drops to 7-Day Low as Oil Surges on Iran War Concerns - Bitcoin fell to its lowest price in a week during early Asia trading, as oil prices surged due to the escalating war with Iran.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/bitcoin-drops-to-7-day-low-as-oil-surges-on-iran-war-concerns",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2e68278d7d7c1f2d39db02e7e0478c51",
-      "timestamp": "2026-03-09T11:49:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "1 Million Reasons to Buy SoFi Stock Like There's No Tomorrow - SoFi CEO Anthony Noto just bought $1 million worth of stock in the open market.",
-      "url": "https://www.fool.com/investing/2026/03/08/1-million-reasons-to-buy-sofi-stock-like-theres-no/?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5c4ea885c96029b955c4a954755d3666",
-      "timestamp": "2026-03-09T11:45:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Spike Is Clouding the Outlook for Indian Bank Earnings, Interest Rates - Lenders’ profits could fall by 4% to 8% in the year to March 2027: UBS",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-09/ubs-sees-risks-to-indian-banks-profits-from-oil-rbi-supports-bond-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4f78a316be12a5312aca1861e85a853c",
-      "timestamp": "2026-03-09T11:44:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Keeps Pushing Nuclear Power With Ambitious Growth Target - China is maintaining the pressure on its nuclear power giants to deliver more reactors with an ambitious new target, despite a string of misses in recent years.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-keeps-pushing-nuclear-power-with-ambitious-growth-target",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2cda12188b19fdb8c72d8a58df10643d",
-      "timestamp": "2026-03-09T11:30:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tencent Is Said to Be Back On Paramount-Warner Bros Deal With Fresh Funding - Tencent Holdings Ltd. intends to invest several hundred million dollars in Paramount Skydance Corp.’s acquisition of Warner Bros. Discovery Inc., according to people familiar with the situation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/tencent-is-said-to-be-back-on-paramount-warner-bros-deal-with-fresh-funding",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "39c2e66c94b446bbbcb8d9c90f8070e4",
-      "timestamp": "2026-03-09T11:19:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "EM Stocks Down 10% From Peak as Oil Surges, Currencies Slide - An emerging-market stock index dropped more than 10% from its recent peak as escalating Middle East tensions drove oil prices sharply higher and dented risk appetite. Most emerging-market currencies a",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/em-stocks-down-10-from-peak-as-oil-surges-currencies-slide",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "79fdc2a389d5a838a9b45b071f702e51",
-      "timestamp": "2026-03-09T11:12:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indonesian Stocks, Rupiah Slump as Iran Conflict Escalates - Indonesia’s stocks and currency slid toward new bearish milestones as rising Middle East conflict dragged on regional assets, compounding concerns over the country’s investability and policy direction",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/indonesian-stocks-rupiah-slump-as-iran-conflict-escalates-mmijqagt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1d2539a32bf8cf620e55a100c4208a1d",
-      "timestamp": "2026-03-09T11:08:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chinese Sovereign Bonds Slump as Oil Surge Fans Inflation Worry - Chinese government bonds slumped on Monday, joining a global debt selloff as surging oil prices spur concern over imported inflation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/chinese-sovereign-bonds-slump-as-oil-surge-fans-inflation-worry",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "63ca3884d6109119e7f87aefc43f2907",
-      "timestamp": "2026-03-09T11:02:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Middle East Conflict: How Much Further Can Oil Prices Rise? - Oil prices have jumped above $100 a barrel as major Middle East producers curbed production and the Strait of Hormuz remained all but closed. Bloomberg's Stephen Stapczynski discusses the outlook for ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/how-much-further-can-oil-prices-rise-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5eb19bd8813b606a900bf3ef40a23768",
-      "timestamp": "2026-03-09T11:01:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Qatar LNG Outage Erases 2026 Supply Surplus, Morgan Stanley Says - The halt of production in major liquefied natural gas exporter Qatar is likely to remove most of a glut forecast for this year, according to Morgan Stanley.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/qatar-lng-outage-erases-2026-supply-surplus-morgan-stanley-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "20e82a582b143bf0c1765adee31bd162",
-      "timestamp": "2026-03-09T10:46:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Aluminum Rises to 2022 High as Iran War Stokes Supply Crunch - Aluminum rose to the highest in almost four years as escalating hostilities in the Middle East worsened the supply outlook from the region, while copper and other industrial metals fell on falling ris",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/aluminum-rises-to-2022-high-as-iran-war-stokes-supply-crunch",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0255fae01ebf17537fbaf533d78de3c6",
-      "timestamp": "2026-03-09T10:45:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "PAG Is Said to Explore Sale of Chicken Meat Producer Fengxiang - PAG is considering a sale of poultry meat producer Shandong Fengxiang Co. after taking it private last year, people familiar with the matter said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/pag-is-said-to-explore-sale-of-chicken-meat-producer-fengxiang",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eaf89446d5a50ad78b3f85ba90304ef8",
-      "timestamp": "2026-03-09T10:41:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fosun International Slumps After Warning Loss May Widen - Fosun International Ltd. fell the most in months in Hong Kong trading after warning its annual loss may widen by as much as fivefold, driven by impairment charges on property projects and other assets",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/fosun-international-slumps-after-warning-loss-may-widen",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5fdf1ce8fd36b6f93740722e3fcf7e7b",
-      "timestamp": "2026-03-09T10:37:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Inflation Jumps as Oil Adds to Record Holiday Spending - China’s consumer-price growth accelerated to the quickest in over three years and factory deflation moderated again, after a rally in energy markets and as household spending boomed during a later-tha",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-consumer-prices-rebound-driven-by-record-holiday-spending",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fd097b7fec1db0d0fb3b601e739526c0",
-      "timestamp": "2026-03-09T10:29:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Yardeni Raises Odds of US Market Meltdown to 35% on Iran War - US stocks are facing a growing risk of a sharp selloff this year as the escalating war in Iran hurts global markets, according to veteran strategist Ed Yardeni, updating his outlook for what he descri",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "96973f66eb3881512bb07885d7641eb7",
-      "timestamp": "2026-03-09T10:08:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Punches Above $100 as Iran War Forces More Cuts - Oil smashed through $100 a barrel as more major Middle East producers curbed production, the Strait of Hormuz remained all but closed and the US threatened to deepen a conflict that has upended energy",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/oil-punches-above-100-as-iran-war-forces-more-cuts-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "847bf301f412ebef12fe42153959d889",
-      "timestamp": "2026-03-09T10:05:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Tennis Is Having a Moment. Can the Tennis Channel Capitalize? - A niche TV network for tennis diehards is trying to capitalize on growing interest in the sport",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-09/tennis-is-having-a-moment-can-the-tennis-channel-capitalize",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "096a2c252e24e88115c5d4fc86fd62d8",
-      "timestamp": "2026-03-09T09:19:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Crop Prices Jump as War Snarls Trade and Risks Tightening Supply - Soybean oil jumped more than 4% while wheat neared a two-year peak, as the Middle East conflict drove energy and fertilizer costs higher and threatened to tighten supplies across agricultural markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/chicago-soy-oil-jumps-4-as-crude-s-rally-boosts-biofuel-demand",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c729fcac690d7e4434287ae225b7fc9a",
-      "timestamp": "2026-03-09T09:11:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South Korea Stocks Slide as Oil Spike on Iran War Hurts Outlook - South Korean equities fell, extending last week’s losses, as geopolitical tensions continued to escalate in the Middle East and oil surged on reduced production due to the Iran war.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/south-korea-stocks-plunge-as-oil-spike-on-iran-war-hurts-outlook",
       "sentiment": "NEUTRAL"
     }
   ]
