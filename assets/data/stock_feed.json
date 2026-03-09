@@ -1,6 +1,184 @@
 {
-  "last_updated": "2026-03-09T09:23:54.232901+09:00",
+  "last_updated": "2026-03-09T12:02:43.845639+09:00",
   "items": [
+    {
+      "id": "2e68278d7d7c1f2d39db02e7e0478c51",
+      "timestamp": "2026-03-09T11:49:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "1 Million Reasons to Buy SoFi Stock Like There's No Tomorrow - SoFi CEO Anthony Noto just bought $1 million worth of stock in the open market.",
+      "url": "https://www.fool.com/investing/2026/03/08/1-million-reasons-to-buy-sofi-stock-like-theres-no/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5c4ea885c96029b955c4a954755d3666",
+      "timestamp": "2026-03-09T11:45:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Spike Is Clouding the Outlook for Indian Bank Earnings, Interest Rates - Lenders’ profits could fall by 4% to 8% in the year to March 2027: UBS",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-09/ubs-sees-risks-to-indian-banks-profits-from-oil-rbi-supports-bond-market",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2cda12188b19fdb8c72d8a58df10643d",
+      "timestamp": "2026-03-09T11:30:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tencent Is Said to Be Back On Paramount-Warner Bros Deal With Fresh Funding - Tencent Holdings Ltd. intends to invest several hundred million dollars in Paramount Skydance Corp.’s acquisition of Warner Bros. Discovery Inc., according to people familiar with the situation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/tencent-is-said-to-be-back-on-paramount-warner-bros-deal-with-fresh-funding",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "39c2e66c94b446bbbcb8d9c90f8070e4",
+      "timestamp": "2026-03-09T11:19:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EM Stocks Down 10% From Peak as Oil Surges, Currencies Slide - An emerging-market stock index dropped more than 10% from its recent peak as escalating Middle East tensions drove oil prices sharply higher and dented risk appetite. Most emerging-market currencies a",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/em-stocks-down-10-from-peak-as-oil-surges-currencies-slide",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79fdc2a389d5a838a9b45b071f702e51",
+      "timestamp": "2026-03-09T11:12:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indonesian Stocks, Rupiah Slump as Iran Conflict Escalates - Indonesia’s stocks and currency slid toward new bearish milestones as rising Middle East conflict dragged on regional assets, compounding concerns over the country’s investability and policy direction",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/indonesian-stocks-rupiah-slump-as-iran-conflict-escalates-mmijqagt",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1d2539a32bf8cf620e55a100c4208a1d",
+      "timestamp": "2026-03-09T11:08:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Sovereign Bonds Slump as Oil Surge Fans Inflation Worry - Chinese government bonds slumped on Monday, joining a global debt selloff as surging oil prices spur concern over imported inflation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/chinese-sovereign-bonds-slump-as-oil-surge-fans-inflation-worry",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "63ca3884d6109119e7f87aefc43f2907",
+      "timestamp": "2026-03-09T11:02:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Middle East Conflict: How Much Further Can Oil Prices Rise? - Oil prices have jumped above $100 a barrel as major Middle East producers curbed production and the Strait of Hormuz remained all but closed. Bloomberg's Stephen Stapczynski discusses the outlook for ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/how-much-further-can-oil-prices-rise-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5eb19bd8813b606a900bf3ef40a23768",
+      "timestamp": "2026-03-09T11:01:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Qatar LNG Outage Erases 2026 Supply Surplus, Morgan Stanley Says - The halt of production in major liquefied natural gas exporter Qatar is likely to remove most of a glut forecast for this year, according to Morgan Stanley.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/qatar-lng-outage-erases-2026-supply-surplus-morgan-stanley-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "20e82a582b143bf0c1765adee31bd162",
+      "timestamp": "2026-03-09T10:46:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Aluminum Rises to 2022 High as Iran War Stokes Supply Crunch - Aluminum rose to the highest in almost four years as escalating hostilities in the Middle East worsened the supply outlook from the region, while copper and other industrial metals fell on falling ris",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/aluminum-rises-to-2022-high-as-iran-war-stokes-supply-crunch",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0255fae01ebf17537fbaf533d78de3c6",
+      "timestamp": "2026-03-09T10:45:17+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "PAG Is Said to Explore Sale of Chicken Meat Producer Fengxiang - PAG is considering a sale of poultry meat producer Shandong Fengxiang Co. after taking it private last year, people familiar with the matter said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/pag-is-said-to-explore-sale-of-chicken-meat-producer-fengxiang",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eaf89446d5a50ad78b3f85ba90304ef8",
+      "timestamp": "2026-03-09T10:41:31+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Fosun International Slumps After Warning Loss May Widen - Fosun International Ltd. fell the most in months in Hong Kong trading after warning its annual loss may widen by as much as fivefold, driven by impairment charges on property projects and other assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/fosun-international-slumps-after-warning-loss-may-widen",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5fdf1ce8fd36b6f93740722e3fcf7e7b",
+      "timestamp": "2026-03-09T10:37:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Inflation Jumps as Oil Adds to Record Holiday Spending - China’s consumer-price growth accelerated to the quickest in over three years and factory deflation moderated again, after a rally in energy markets and as household spending boomed during a later-tha",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-consumer-prices-rebound-driven-by-record-holiday-spending",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fd097b7fec1db0d0fb3b601e739526c0",
+      "timestamp": "2026-03-09T10:29:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yardeni Raises Odds of US Market Meltdown to 35% on Iran War - US stocks are facing a growing risk of a sharp selloff this year as the escalating war in Iran hurts global markets, according to veteran strategist Ed Yardeni, updating his outlook for what he descri",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/yardeni-raises-odds-of-markets-meltdown-to-35-on-iran-war-risks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "96973f66eb3881512bb07885d7641eb7",
+      "timestamp": "2026-03-09T10:08:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Punches Above $100 as Iran War Forces More Cuts - Oil smashed through $100 a barrel as more major Middle East producers curbed production, the Strait of Hormuz remained all but closed and the US threatened to deepen a conflict that has upended energy",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/oil-punches-above-100-as-iran-war-forces-more-cuts-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "847bf301f412ebef12fe42153959d889",
+      "timestamp": "2026-03-09T10:05:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tennis Is Having a Moment. Can the Tennis Channel Capitalize? - A niche TV network for tennis diehards is trying to capitalize on growing interest in the sport",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-09/tennis-is-having-a-moment-can-the-tennis-channel-capitalize",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "096a2c252e24e88115c5d4fc86fd62d8",
+      "timestamp": "2026-03-09T09:19:07+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crop Prices Jump as War Snarls Trade and Risks Tightening Supply - Soybean oil jumped more than 4% while wheat neared a two-year peak, as the Middle East conflict drove energy and fertilizer costs higher and threatened to tighten supplies across agricultural markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/chicago-soy-oil-jumps-4-as-crude-s-rally-boosts-biofuel-demand",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "c729fcac690d7e4434287ae225b7fc9a",
       "timestamp": "2026-03-09T09:11:10+09:00",
@@ -2027,182 +2205,6 @@
       "related_tickers": [],
       "content": "South Korean EV Battery Maker SK Lays Off 958 Workers in Georgia - The battery unit of SK Innovation Co. is laying off more than a third of the workforce at its plant in Georgia as the South Korean manufacturer navigates a slowdown in electric vehicle sales.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-06/south-korean-ev-battery-maker-sk-lays-off-958-workers-in-georgia",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e771deeb5ea3b89123513e6df5f8ab4b",
-      "timestamp": "2026-03-07T07:00:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fmr. Iran, Venezuela Envoy: Don't Expect Troops in Iran - Council on Foreign Relations Senior Fellow for Middle Eastern Studies Elliott Abrams believes that despite the tensions in Iran, President Trump will not put US boots on the ground, drawing a contrast",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/fmr-iran-venezuela-envoy-don-t-expect-troops-in-iran-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9953f76b50292454454be4266a882a71",
-      "timestamp": "2026-03-07T06:57:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kennedy-Wilson Bondholders Organize to Push Back on Tender Offer - A group of investors holding a majority of Kennedy-Wilson Inc. bonds plan to skip the company’s debt exchange offer and instead seek a cash payment, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/kennedy-wilson-bondholders-organize-to-push-back-on-tender-offer",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5334c781c2cbad0f21d21640063c4a9f",
-      "timestamp": "2026-03-07T06:55:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Bessent Says US May ‘Unsanction’ More Russia Oil Post India Move - Treasury Secretary Scott Bessent said the US may lift sanctions on further Russian oil supply after a move Thursday to give Indian refiners the green light to purchase crude from the nation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/bessent-says-us-may-unsanction-more-russia-oil-post-india-move",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0d5f473f4de2842dd6439225f5511d30",
-      "timestamp": "2026-03-07T06:49:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gap CEO Wants to Control the Controllable - Gap reported fourth-quarter sales and profit that came in slightly below expectations, as two of its apparel chains underperformed. But CEO Richard Dickson says it was a successful quarter and they ha",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/gap-ceo-wants-to-control-the-controllable-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b3a0b4f6c93d631e9d8a763fb741f8b5",
-      "timestamp": "2026-03-07T06:31:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Tries to Keep Business-as-Usual Approach Amid War Turmoil - White House events continue, though the conflict with Iran is ever-present.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-06/trump-tries-to-keep-business-as-usual-approach-amid-war-turmoil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "418fce21bebba5e9a92b0c4f9864ad1b",
-      "timestamp": "2026-03-07T06:30:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Putin Urges End to Hostilities in Call With Iran’s Pezeshkian - Russian President Vladimir Putin emphasized the need for an immediate halt to hostilities in the Middle East during a phone call Friday with Iranian President Masoud Pezeshkian, according to the state",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/putin-urges-end-to-hostilities-in-call-with-iran-s-pezeshkian",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a2b6987b02ce55455bb24aaa38557b41",
-      "timestamp": "2026-03-07T06:30:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Demands Iran Surrender as War Upends Global Markets - US President Donald Trump demanded Iran surrender as the war on the Islamic Republic continued to rage, with the impact reverberating across global supply chains and energy markets. (Source: Bloomberg",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/trump-demands-iran-surrender-war-upends-global-markets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dcf18bc36880c362cd9963f9841014f0",
-      "timestamp": "2026-03-07T06:27:24+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street’s Safety Net Is Giving Way as Iran War Hits Markets - The Iran war rattled but didn’t break Wall Street this week. Instead it exposed the limits of diversification strategies built to cushion investors against chaos.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/wall-street-s-safety-net-is-giving-way-as-iran-war-hits-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d9f502a57259e7a16d0bff71de18bf47",
-      "timestamp": "2026-03-07T06:24:47+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wall Street Rattled by Weak Jobs Report | Closing Bell - Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloom",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/wall-street-rattled-by-weak-jobs-report-closing-bell-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dafa6de6ca2baa53e1c262c21617394f",
-      "timestamp": "2026-03-07T06:22:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed's Hammack Sees Two-Sided Risks to Interest Rates - Federal Reserve Bank of Cleveland President Beth Hammack said interest rates could be on hold for quite some time as inflation comes down and the labor market stabilizes further. She says the economy ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/fed-s-hammack-sees-two-sided-risks-to-interest-rates-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5bf13a8da6560e57f2ea7beec29bd4da",
-      "timestamp": "2026-03-07T06:21:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Considers Permits for Global Nvidia, AMD AI Chip Sales | Bloomberg Tech 3/6/2026 - Bloomberg’s Caroline Hyde and Ed Ludlow discuss reports that the US Commerce Department has drafted regulations restricting AI chip shipments to anywhere in the world without American approval. Plus, ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/bloomberg-tech-3-6-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a2583aaf0a3f5f29b51e1a5f293f6011",
-      "timestamp": "2026-03-07T06:18:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Demands Iran Relent While US Aims to Calm Energy Markets - President Donald Trump demanded Iran capitulate in the war’s seventh day, suggesting a longer timeframe for the conflict even amid energy-market tumult and worries about whether the US has the militar",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/trump-demands-iran-relent-while-us-aims-to-calm-energy-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "252668065f0a5e65860652f41204ba4b",
-      "timestamp": "2026-03-07T06:02:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stocks Lower on $90 Oil, Weak Payrolls | Bloomberg Businessweek Daily 3/6/2026 - On today's episode of Bloomberg Businessweek Daily, Carol Massar and Tim Stenovec discuss today's trade as stocks stay under pressure with oil hitting $90 a barrel and a weak February payrolls report ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/bloomberg-businessweek-daily-3-06-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "71c8299220cda1fca7ba165f62e7bceb",
-      "timestamp": "2026-03-07T06:02:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed’s Hammack Expects Rates to Be On Hold for Some Time - Cleveland Fed President Beth Hammack expects interest rates to be on hold for quite some time. She speaks to Bloomberg's Michael McKee in New York. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-06/fed-s-hammack-expects-rates-to-be-on-hold-for-some-time-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "878acab9b73e7ca17fcd19e1c6b3de92",
-      "timestamp": "2026-03-07T05:54:05+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPMorgan Shifts More of EA Buyout Financing Toward Junk Bonds - JPMorgan Chase &amp; Co. is shifting more of the debt financing for the record leveraged buyout of Electronic Arts Inc. toward junk bonds, according to people with knowledge of the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/jpmorgan-shifts-more-of-ea-buyout-financing-toward-junk-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e3ceeeebbd09498377e5c6de609f1f1e",
-      "timestamp": "2026-03-07T05:53:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Launches $20 Billion Reinsurance Plan to Ease Gulf Oil Trade - The Trump administration announced a $20 billion reinsurance program aimed at reviving shipping in the Strait of Hormuz, where traffic has all but stopped amid the US and Israeli attacks on Iran.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/us-launches-20-billion-reinsurance-plan-to-ease-gulf-oil-trade",
       "sentiment": "NEUTRAL"
     }
   ]
