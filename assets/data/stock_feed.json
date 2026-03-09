@@ -1,6 +1,197 @@
 {
-  "last_updated": "2026-03-10T01:23:21.191207+09:00",
+  "last_updated": "2026-03-10T03:18:05.025110+09:00",
   "items": [
+    {
+      "id": "b124bfa767a6dafb693369728b32e2e3",
+      "timestamp": "2026-03-10T03:00:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Meta, Google Pivot in Addiction Trial to Accuser’s Home Life - As Meta Platforms Inc. and Google start presenting their defense in a landmark trial over social media addiction, the companies are seeking to show the mental health struggles suffered by the 20-year-",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/meta-google-pivot-in-addiction-trial-to-accuser-s-home-life",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aba6a6c18e8395c1616dd0cccf68bcc3",
+      "timestamp": "2026-03-10T02:47:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chicago Tests War-Rattled Muni Market With $800 Million Bond Sale - Chicago is set to test the municipal bond market as war in the Middle East upends global markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/chicago-to-pitch-800-million-bond-sale-amid-march-muni-slump",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0cb42bca0d45b0de042e859bda419d13",
+      "timestamp": "2026-03-10T02:39:22+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trend Riders Max Out on Bullish US Oil Bets for First Time Since 2021 - Algorithmic traders, the speculators known for riding trends and accelerating price momentum, have maxed out on bullish US oil bets for the first time in more than four years &mdash; a move that’s lik",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/ctas-max-out-on-bullish-us-oil-bets-for-first-time-since-2021",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "faeccbba30e827307591b2765232b992",
+      "timestamp": "2026-03-10T02:36:45+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Putin Asks Russian Oil, Gas Firms to Use High Prices to Cut Debt - Russia’s President Vladimir Putin urged nation’s oil and gas producers to take advantage of sky-rocketing commodities prices to reduce their debt, because the spike will be temporary.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/putin-asks-russian-oil-gas-firms-to-use-high-prices-to-cut-debt",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "77586bfa392a8f6eead63e858630cd1a",
+      "timestamp": "2026-03-10T02:24:44+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "SoFi CEO Loads Up $1 Million Worth of Shares - SoFi Insider Move: CEO Anthony Noto Scoops Up 56,000 Shares",
+      "url": "https://finance.yahoo.com/news/sofi-ceo-loads-1-million-172444658.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "aa2648fc2d89b58669417895725cb449",
+      "timestamp": "2026-03-10T02:21:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Petrobras Holds the Line on Brazil Fuel Prices as War Spikes Oil - Petrobras is holding off on retail fuel price increases in Brazil despite the war-driven surge in global oil markets, said Chief Executive Officer Magda Chambriard.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/petrobras-holds-the-line-on-brazil-fuel-prices-as-war-spikes-oil",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0210ff003d064f37d37cc5c0346e36b1",
+      "timestamp": "2026-03-10T02:11:16+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Beaten Down IPOs Face ‘Negative Feedback Loop’ After Lock-Ups - A handful of the worst performing companies in the IPO class of 2025 are staring down the risk of a “negative feedback loop” as selling restrictions for long-term investors and management teams are li",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/beaten-down-ipos-face-negative-feedback-loop-after-lock-ups",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b24a12ba99133078dd647cec57120c35",
+      "timestamp": "2026-03-10T02:09:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War Sparks Bond Market Jitters and Rethink on Rates - An energy price shock caused by the Iran war has led to jitters in global bond markets and a rethink on the outlook for interest rates.\n\nAlice Atkins explains why inflation is worrying traders. (Sourc",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/iran-war-sparks-bond-market-jitters-and-rethink-on-rates-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cde827a9222301126715436a4f17f447",
+      "timestamp": "2026-03-10T02:06:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Says ‘I Have a Plan’ as War Triggers Tumult in Oil Market - US President Donald Trump confronted mounting pressures on the 10th day of the Iran war as oil prices surged past $100 and the Islamic Republic announced the hardline son of the assassinated Ayatollah",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/trump-insists-i-have-a-plan-as-oil-prices-surge-on-iran-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ee7dd6d892eff6e089480e261293078e",
+      "timestamp": "2026-03-10T02:04:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "G-7 Ready to Help Stabilize Energy Prices - Group of Seven finance ministers said they were ready to take any steps needed to support global energy supply, including releasing strategic oil reserves &mdash; but the group is not ready to do that",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/g-7-ready-to-help-stabilize-energy-prices-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ee201f591b33a21eb8678bdfb935d6aa",
+      "timestamp": "2026-03-10T02:00:03+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "OpenAI Buying AI Security Startup Promptfoo to Safeguard AI Agents - OpenAI has agreed to buy Promptfoo, a startup that enables large businesses to find and fix security issues in artificial intelligence models during their development, part of a push to help corporate",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/openai-buying-ai-security-startup-promptfoo-to-safeguard-ai-agents",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "77302a0d460a72ce8b15241216cd041c",
+      "timestamp": "2026-03-10T01:55:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Gas Prices Are Rising&mdash;and So Are the Iran War Stakes for Trump - <p>Cheap fuel had been a bright spot for the US economy before tankers stopped moving through the Middle East.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/iran-war-raises-us-gas-prices-above-3-40-testing-trump-on-inflation",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8dd559f1c9329f383dbceeef99ac55a6",
+      "timestamp": "2026-03-10T01:47:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Above $100: What’s Next? | Open Interest 3/9/2026 - Get a jump start on the US trading day with Matt Miller and Dani Burger on \"Bloomberg Open Interest.\" Iran picks a new leader,  signaling Tehran won’t back down as war spreads across the Middle East. ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-09/open-interest-3-9-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a3fdb8c4f4cdf8ac0f3a2d38dbdf8fb2",
+      "timestamp": "2026-03-10T01:44:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Citadel Securities Sees Markets Mispricing Fed, ECB Rate Paths - Investors are wrong to bet the European Central Bank will raise interest rates this year while the Federal Reserve cuts, Citadel Securities said, arguing that the oil-price surge makes such policy div",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/citadel-securities-sees-markets-mispricing-fed-ecb-rate-paths",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "725fd259b2cd5c162bbc86276a256b07",
+      "timestamp": "2026-03-10T01:40:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "‘Big Short’ investor Michael Burry made a million-dollar bet on gold and won. Will the gold rush continue in 2026? - A bullish bet on a safe haven asset.",
+      "url": "https://finance.yahoo.com/news/big-short-investor-michael-burry-164000671.html?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "15f7badece9b16974f4c7d248aae44ca",
+      "timestamp": "2026-03-10T01:32:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "First Brazil IPO in Five Years at Risk With BRK Mulling Delay - BRK Ambiental Participações, which had begun early discussions for an initial public offering, is considering delaying its debut as market conditions grow more challenging, according to people familia",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/first-brazil-ipo-in-five-years-at-risk-with-brk-mulling-delay",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d082b7988f3703b12b1f128063877e6e",
+      "timestamp": "2026-03-10T01:17:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan Is Bullish on Blue-Chip Bonds, Says Spreads to Tighten - JPMorgan Chase &amp; Co. has turned bullish on US investment-grade bonds and now expects spreads on the securities to tighten by 12 basis points &mdash; a reversal from its November projection.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/jpmorgan-is-bullish-on-blue-chip-bonds-says-spreads-to-tighten",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "4a6591d6ed76aca5b3dac24777860b02",
       "timestamp": "2026-03-10T01:00:25+09:00",
@@ -10,6 +201,17 @@
       "related_tickers": [],
       "content": "Anthropic Sues US for Being Labeled Supply Chain Risk - Anthropic PBC is suing the Defense Department after it said the company is a supply chain risk. Anthropic and the Pentagon have been in a dispute over safeguards on its AI technology. Seth Fiegerman r",
       "url": "https://www.bloomberg.com/news/videos/2026-03-09/anthropic-sues-us-for-being-labeled-supply-chain-risk-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "07fe54f580ea6ed784b2200a8bb70438",
+      "timestamp": "2026-03-10T00:56:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Goldman-Led Lenders Brace for Loss on Arclin Debt as Demand Cools - A group of banks led by Goldman Sachs Group Inc. is bracing for losses on a debt deal backing chemical maker Arclin Inc.’s acquisition of DuPont de Nemours Inc.’s Aramids business after investors balk",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/goldman-led-lenders-gird-for-loss-on-arclin-debt-as-demand-cools",
       "sentiment": "NEUTRAL"
     },
     {
@@ -2007,204 +2209,6 @@
       "related_tickers": [],
       "content": "South Korea Stocks Slide as Oil Spike on Iran War Hurts Outlook - South Korean equities fell, extending last week’s losses, as geopolitical tensions continued to escalate in the Middle East and oil surged on reduced production due to the Iran war.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-09/south-korea-stocks-plunge-as-oil-spike-on-iran-war-hurts-outlook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "61dd6f982fa0091f5dc7d224f4ce8435",
-      "timestamp": "2026-03-09T09:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s ‘Smart Economy’ Push Spurs Hunt for New Stock Winners - Investors are growing more upbeat about China’s push to build a “smart economy,” with AI, semiconductors and a range of frontier technology sectors emerging as beneficiaries of the policy drive.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-s-smart-economy-push-spurs-hunt-for-new-stock-winners",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "410eefa47323eff2812311ce097331c5",
-      "timestamp": "2026-03-09T08:54:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Australia Pressured to Protect Iran Soccer Team After Backlash - Australia is facing pressure to protect the Iranian women’s soccer team, the Lionesses, as the squad faces criticism at home over their failure to sing the national anthem at a Women’s Asian Cup match",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/australia-pressured-to-protect-iran-soccer-team-after-backlash",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c653da79bc884f82a063e5932334d790",
-      "timestamp": "2026-03-09T08:49:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Elevates Khamenei's Son as New Strikes Shake Region - Iran named the son of the late Ayatollah Ali Khamenei as its new supreme leader as Tehran kept up its attacks on several countries on the ninth day of the war in the Middle East. Bloomberg's Wendy Ben",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-08/iran-elevates-khamenei-s-son-as-new-strikes-shake-region-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2b69f2c6c5012f5238eeba2429d98670",
-      "timestamp": "2026-03-09T08:48:22+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Valencia Set For Landslide in Colombian Presidential Primaries - Senator Paloma Valencia is on track for a landslide in the primary held by Colombia’s conservative movements, positioning among the favorites to become the nation’s next president.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/valencia-set-for-landslide-in-colombian-presidential-primaries",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "88f3da84bc518b8be23b631cee884d59",
-      "timestamp": "2026-03-09T08:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CATL’s Results May Widen $120 Billion Market Cap Lead Over BYD - Strong quarterly results expected from Contemporary Amperex Technology Co. Ltd. may widen its market-capitalization lead over electric-vehicle maker BYD Co., reinforcing the companies’ diverging traje",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/catl-s-results-may-widen-120-billion-market-cap-lead-over-byd",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4b13fc785aa578e8c26b178d42a6871e",
-      "timestamp": "2026-03-09T08:18:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japanese Stocks Sink as Oil Spikes, Mideast Tensions Escalate - Japanese equities dropped in Tokyo as oil prices surged amid an escalating conflict in the Middle East escalates and after US employment data stoked concerns about growth.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/japan-equities-set-to-resume-fall-on-escalating-middle-east-woes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dcde12ec9e118db801a770ebf531c7dc",
-      "timestamp": "2026-03-09T08:16:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dollar Rises on Haven Bid, Oil as Iran War Rips Across Markets - The dollar strengthened against all of its major peers as a deepening war in the Middle East pushed oil prices above $100 per barrel and boosted demand for havens.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fc00972e1c257bed2d3f3f1080d24b3e",
-      "timestamp": "2026-03-09T08:01:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Germany’s BaFin Head Sees More Risk With Smaller Property Funds - Germany’s top financial watchdog BaFin sees considerable risks for private investors in open-ended real estate funds and other such financial products, its president was quoted as saying.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/germany-s-bafin-head-sees-more-risk-with-smaller-property-funds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5287589472d0d5e143e70eb7b1771d4c",
-      "timestamp": "2026-03-09T08:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Korean Bond Yields Look Capped as BOK to Push Back Rate Hikes - South Korea’s shorter-maturity bond yields are unlikely to revisit their February highs as the central bank prioritizes steadying markets over delivering near-term interest-rate hikes, strategists say",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/korean-bond-yields-look-capped-as-bok-to-push-back-rate-hikes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e6c2587f5f1cf3945f7b7185974c3780",
-      "timestamp": "2026-03-09T08:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran-Led Rout Tempts Dip Buyers’ Bets on Asia Chip Stock Rebound - A war‑driven meltdown in Asian shares is spurring global investors’ interest in adding exposure to major chip firms, reflecting confidence that the artificial intelligence boom can withstand the Middl",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/iran-led-rout-tempts-dip-buyers-bets-on-asia-chip-stock-rebound",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "de8876a9819ab2491d79ddd30e6edc89",
-      "timestamp": "2026-03-09T07:49:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chilean Women Warn of Rights Risks Before Kast Takes Power - Tens of thousands of mothers, daughters and friends gathered in downtown Santiago early Sunday for an annual Women’s Day march, days before arch-conservative José Antonio Kast takes office in Latin Am",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/chilean-women-warn-of-rights-risks-before-kast-takes-power",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a27b5f37e254efed8ec1976fc97d5dbb",
-      "timestamp": "2026-03-09T07:35:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gold Slumps as Oil Surge Stokes Fears of Higher Interest Rates - Gold tumbled, pressured by a stronger US dollar and concerns over higher interest rates, as the war in the Middle East extended into a second week and oil surged above $100 a barrel.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/gold-extends-decline-as-oil-tops-110-and-inflation-fears-mount",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a27b5f37e254efed8ec1976fc97d5dbb",
-      "timestamp": "2026-03-09T07:35:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gold Slumps as Oil Surge Stokes Fears of Higher Interest Rates - Gold tumbled, pressured by a stronger US dollar and concerns over higher interest rates, as the war in the Middle East extended into a second week and oil surged above $100 a barrel.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/gold-extends-decline-as-oil-tops-110-and-inflation-fears-mount",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22248ea5991dc026eb4e7f7c54774dfd",
-      "timestamp": "2026-03-09T07:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer Pledges Support for UK Households as Oil Hits $100 - UK Prime Minister Keir Starmer raised the prospect of intervening to help households with soaring energy bills as oil prices hit $100-a-barrel for the first time since 2022, with little sign that the ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/starmer-pledges-support-for-uk-households-on-fears-of-100-oil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22248ea5991dc026eb4e7f7c54774dfd",
-      "timestamp": "2026-03-09T07:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Starmer Pledges Support for UK Households as Oil Hits $100 - UK Prime Minister Keir Starmer raised the prospect of intervening to help households with soaring energy bills as oil prices hit $100-a-barrel for the first time since 2022, with little sign that the ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/starmer-pledges-support-for-uk-households-on-fears-of-100-oil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bebc45adb8387b60b19b4acad70da5ab",
-      "timestamp": "2026-03-09T07:03:17+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Tops $100, Stocks Slump as Iran War Escalates: Markets Wrap - Crude oil climbed above $100 a barrel for the first time since 2022 and stocks retreated as escalating hostilities in the Middle East and worsening strain on oil shipping and infrastructure have inves",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/oil-tops-100-as-war-rages-stocks-set-to-fall-markets-wrap",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3d8095a9485b45f52a9c38fd50947872",
-      "timestamp": "2026-03-09T07:03:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Punches Above $100 as Iran War Forces More Production Cuts - Oil smashed through $100 a barrel as more major Middle East producers curbed production, the Strait of Hormuz remained all but closed and the US threatened to deepen a conflict that has upended energy",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1b9afabbf75a8e85de70fbabdac8bab5",
-      "timestamp": "2026-03-09T07:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Xi’s Central Asia Outreach Pays Off With a Fundraising Blitz - Weeks ago, a group of Kazakh bankers traveled to Hong Kong to lay the groundwork for a series of yuan-denominated bond deals that could take place later in the year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-08/xi-s-central-asia-outreach-pays-off-with-a-fundraising-blitz",
       "sentiment": "NEUTRAL"
     }
   ]
