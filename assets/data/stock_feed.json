@@ -1,6 +1,215 @@
 {
-  "last_updated": "2026-03-10T09:21:21.291677+09:00",
+  "last_updated": "2026-03-10T11:57:31.227874+09:00",
   "items": [
+    {
+      "id": "e6268bdeea19b3dd2a4a1743c9d1cfd3",
+      "timestamp": "2026-03-10T11:47:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Apple Now Makes About 25% of iPhones in India After China Pivot - Apple Inc. increased iPhone production in India by about 53% last year and now makes a quarter of its marquee devices there, reflecting the US company’s efforts to avoid tariffs on China.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/apple-now-makes-about-25-of-iphones-in-india-after-china-pivot",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1098230345b5b6abb57a10562235a4ce",
+      "timestamp": "2026-03-10T11:47:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Investors Cut Leverage as Iran Conflict, Oil Spike Roil Indian Markets - Margin funding has dropped to the lowest since November.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-03-10/india-investors-pare-margin-funded-positions-rbi-acts-to-protect-rupee",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4d2a0d5b7cb67797dacb62b50ae1e0f6",
+      "timestamp": "2026-03-10T11:45:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia Gives Asylum to Five Iranian Footballers - Australia has granted humanitarian visas to five Iranian female football players who sought asylum, citing fears for their safety after the team declined to sing the national anthem during a match las",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-10/australia-gives-asylum-to-five-iranian-footballers-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f8a85aacf2d2201977f04e74dbc0417b",
+      "timestamp": "2026-03-10T11:28:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War Impact Felt Through Energy Prices, UBS Says - UBS’ Adrian Zuercher says the global macroeconomic impact of the Middle East crisis is “very small” but the “transmission is through high energy prices.”",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-10/iran-war-impact-felt-through-energy-prices-ubs-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f79faccfbfeaee5627f83a4cb4e61777",
+      "timestamp": "2026-03-10T11:11:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Markets Buffeted by War, AI Stress and Credit Cracks All at Once - <p>Multiple forces are colliding in ways that defy easy fixes &mdash; and the old playbook of buying the dip is far from guaranteed to work.</p>",
+      "url": "https://www.bloomberg.com/news/features/2026-03-10/iran-war-ai-disruption-private-credit-shock-markets-at-the-same-time",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d2a091e3d0d8146092b840cb148c942f",
+      "timestamp": "2026-03-10T11:04:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Democrats Vow to Stall Senate Until Trump Team Explains Iran War - Several Senate Democrats are threatening to force numerous war powers votes and otherwise disrupt the chamber unless Republicans agree to hold public hearings with key Trump administration officials o",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/democrats-vow-to-stall-senate-until-trump-team-explains-iran-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6e18b58f98a7493f32832211cc2ba431",
+      "timestamp": "2026-03-10T10:53:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Carmignac to Support Activist Palliser’s LG Chem Campaign - Carmignac Gestion is supporting a campaign by UK-based activist fund Palliser Capital to try to improve corporate governance and boost shareholder value at South Korea’s LG Chem Ltd.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/carmignac-to-support-activist-palliser-s-lg-chem-campaign-at-agm",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7684d0542ade71b3e255e3d05451629",
+      "timestamp": "2026-03-10T10:41:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Aluminum Extends Retreat as Middle East Supply Concerns Ease - Aluminum extended its retreat from a four-year high after US President Donald Trump signaled a possible end to the Iran war, which has disrupted supplies of the metal from the Middle East.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/aluminum-extends-retreat-as-middle-east-supply-concerns-ease",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4eaeb5cc3adbbe30fcfc3c72dcce6ba8",
+      "timestamp": "2026-03-10T10:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India’s RBI Steps Up Support for Rupee, Bonds as Oil Swings - India’s central bank may play a bigger role in both currency and bond markets as volatility in crude oil prices raises the risk of higher inflation and putting pressure on government finances, analyst",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/india-s-rbi-steps-up-support-for-rupee-bonds-as-oil-tops-100",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "acbeabdeb6a4225302a61ea02a703288",
+      "timestamp": "2026-03-10T10:23:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Bank Indonesia May Defend Rupiah Amid Volatile Oil, Analysts Say - Indonesia’s central bank may continue to defend the rupiah around a key threshold as volatile oil prices, a stronger dollar and risk-off flows tied to the Iran conflict deepen concerns over the nation",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/bank-indonesia-to-defend-rupiah-as-oil-volatility-jolts-markets",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0983922f291eaf5e30dd36a437a337e",
+      "timestamp": "2026-03-10T10:20:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Planet Labs Extends Middle East Satellite Imagery Delay on Iran Risks - Planet Labs PBC is extending its delay on commercial satellite imagery in the Middle East to two weeks from four days over concerns that the intelligence could be used to target North Atlantic Treaty ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/planet-labs-extends-middle-east-satellite-imagery-delay-on-iran-risks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a0983922f291eaf5e30dd36a437a337e",
+      "timestamp": "2026-03-10T10:20:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Planet Labs Extends Middle East Satellite Imagery Delay on Iran Risks - Planet Labs PBC is extending its delay on commercial satellite imagery in the Middle East to two weeks from four days over concerns that the intelligence could be used to target North Atlantic Treaty ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/planet-labs-extends-middle-east-satellite-imagery-delay-on-iran-risks",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4f6a3781c8f8f58b0b587f936548a9c4",
+      "timestamp": "2026-03-10T10:15:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Australia to See Budget Gain, Household Hit in Iran War, BE Says - Australia’s fiscal coffers are set to be boosted by higher liquefied natural gas and coal export prices fueled by the war in Iran, while households will be hit by surging gasoline costs, according to ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/australia-to-see-budget-gain-household-hit-in-iran-war-be-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b2c21f8ac9898e000e0e92059f4497d5",
+      "timestamp": "2026-03-10T10:05:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Official Sees Little Chance to Revive Anthropic AI Deal - A top Pentagon official sees little chance of resuming negotiations with Anthropic PBC over military use of its artificial intelligence tools following the company’s legal challenge of an unprecedente",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/pentagon-official-sees-little-chance-to-revive-anthropic-ai-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b2c21f8ac9898e000e0e92059f4497d5",
+      "timestamp": "2026-03-10T10:05:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pentagon Official Sees Little Chance to Revive Anthropic AI Deal - A top Pentagon official sees little chance of resuming negotiations with Anthropic PBC over military use of its artificial intelligence tools following the company’s legal challenge of an unprecedente",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/pentagon-official-sees-little-chance-to-revive-anthropic-ai-deal",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f224bf47747e04ccdec2cbb79c295ade",
+      "timestamp": "2026-03-10T10:04:28+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asian Stocks Rise as Trump Reassures Iran War to End - Asian stocks rebounded from Monday’s selloff and crude oil fell, as President Donald Trump signaled the Iran war may be ending soon. Bloomberg's Michael Heath has the latest. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-10/asian-stocks-rise-as-trump-reassures-iran-war-to-end-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c7e5464aa8154774619a11eb9f645c4b",
+      "timestamp": "2026-03-10T10:03:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mongolia Seeks to Amend Rio’s Oyu Tolgoi Mine Loan, FT Reports - Mongolia’s government is seeking to renegotiate a loan from Rio Tinto Group, which the nation used to fund its share of building one of the world’s biggest copper deposits, the Financial Times reporte",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/mongolia-seeks-to-amend-rio-s-oyu-tolgoi-mine-loan-ft-reports",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ac016f1886bc3d1a7aa7aeb21b1a7d92",
+      "timestamp": "2026-03-10T09:39:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Aluminum’s Surge Propels Chinese Tycoon to $48 Billion Fortune - When Zhang Bo took over his father’s industrial empire in 2019, it was already a sprawling industrial giant and one of the world’s biggest producers of aluminum.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/aluminum-s-surge-propels-chinese-tycoon-to-48-billion-fortune",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5849efdb34a3335d7028552eb204fbbd",
+      "timestamp": "2026-03-10T09:37:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump: Waiving Some Oil-Related Sanctions | Balance of Show: Late Edition 03/09/2026 - \"Balance of Power: Late Edition\" focuses on the intersection of politics and global business. On today's show, Former US Ambassador to NATO Julianne Smith says continued ballistic missile attacks on T",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-10/balance-of-show-late-edition-03-09-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "7deddad68e5dd890d62d17fdb07f46e1",
       "timestamp": "2026-03-10T09:09:32+09:00",
@@ -65,6 +274,17 @@
       "related_tickers": [],
       "content": "Senate Agriculture Chair Urges Farm Rescue After Oil Price Surge - The Republican Senate Agriculture Committee chair called for new federal aid to farmers in the wake of a spike in gasoline, diesel and fertilizer prices driven by the US military offensive against Ira",
       "url": "https://www.bloomberg.com/news/articles/2026-03-09/senate-agriculture-chair-urges-farm-rescue-after-oil-price-surge",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a55e7c76e45aa4ce248a26c47b4b0747",
+      "timestamp": "2026-03-10T08:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asia Private Credit Chases Gains as Stress Mounts for US Peers - Asia-based private credit funds are emerging as a possible hedge against turmoil gripping the $1.8 trillion industry, as investors seek safer alternatives in the asset class.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/asia-private-credit-chases-gains-as-stress-mounts-for-us-peers",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1649,6 +1869,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "c13bd9802d24f39174de1b5e56556659",
+      "timestamp": "2026-03-09T21:14:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "CATL Shares Rally on Profit Beat Fueled by Energy Storage Boom - Contemporary Amperex Technology Co. Ltd. shares jumped the most in about six months on Tuesday after the world’s largest maker of electric-vehicle batteries’ earnings beat analyst estimates.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-09/catl-defies-ev-price-war-as-energy-storage-boom-bolsters-profit",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "832d83b02726b25a5cc1fa30baf930e5",
       "timestamp": "2026-03-09T21:14:10+09:00",
       "source_type": "NEWS",
@@ -1978,237 +2209,6 @@
       "related_tickers": [],
       "content": "Farage Invests in Kwarteng’s Bitcoin Treasury Firm Stack BTC - Nigel Farage invested in the Bitcoin treasury firm Stack BTC Plc run by former Chancellor of the Exchequer Kwasi Kwarteng, the latest push by the poll-topping Reform UK leader in support of cryptoasse",
       "url": "https://www.bloomberg.com/news/articles/2026-03-09/farage-invests-in-kwarteng-s-bitcoin-treasury-firm-stack-btc",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2d517530acf0508203a06d628645939b",
-      "timestamp": "2026-03-09T18:40:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Apparel Makers Brace for Price Hikes as Oil Surges - Chinese clothing suppliers are bracing for higher apparel prices as the Iran war-induced surge in crude oil prices pushes up raw-material costs across the supply chain.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-apparel-makers-brace-for-price-hikes-as-oil-surges",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6958ef6e52d4d35b5d97d92bab3c67f8",
-      "timestamp": "2026-03-09T18:36:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Names Khamenei’s Son as New Supreme Leader - Iran has named the son of the late Ayatollah Ali Khamenei as its new supreme leader.\n\nAs he steps into his father’s shoes, he faces a US and Israeli war machine bent on his downfall and his own popula",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/iran-names-khamenei-s-son-as-new-supreme-leader-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ab15a1bb9a8aca78acf6fc43878cd647",
-      "timestamp": "2026-03-09T18:32:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Qatar Said to Push LNG Expansion to 2027 After Iran Drone Attack - QatarEnergy is pushing back the start of a major liquefied natural gas expansion project to at least 2027 after a drone attack last week that forced the unprecedented closure of its Ras Laffan plant.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/qatar-said-to-push-lng-expansion-to-2027-after-iran-drone-attack",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "18dd9e7eff9e5081a63a195aa302ac7b",
-      "timestamp": "2026-03-09T18:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Investor Confidence in Euro-Zone Economy Plummets on Iran War - Investor confidence in the euro-area economy slumped due to the Iran war, clouding what had been an improving outlook.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/investor-confidence-in-euro-zone-economy-plummets-on-iran-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "88ba601f63ec81ad0e029bca9ef096c7",
-      "timestamp": "2026-03-09T18:25:49+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Gabler’s Shares Rise as Europe’s Defense IPO Run Continues - Submarine components supplier Gabler Group AG’s shares rose as much as 13.6% on their first day of trading in Germany, buoyed by strong demand among investors for European defense firms.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/gabler-s-shares-rise-as-europe-s-defense-ipo-run-continues",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fe0121d72f590eb74e74b045d22fff8d",
-      "timestamp": "2026-03-09T18:24:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Al-Abdulqader: More Motivation to Diversify GCC Economies - The US State Department ordered non-emergency American employees and diplomats in Saudi Arabia to leave the country, citing safety risks. The move comes as Iranian attacks across the Gulf continued wi",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/al-abdulqader-motivation-to-diversify-gcc-economies-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59995f3fb60f1852492ad7d65fbbe0f9",
-      "timestamp": "2026-03-09T18:14:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Philippine Firms Brace for Rising Costs as Oil Surge Drags Peso - Philippine companies are bracing for higher costs as oil’s spike above $100 a barrel drags the peso to a record low, heightening the risks for an economy heavily reliant on fuel imports from the Middl",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/philippine-firms-brace-for-rising-costs-as-oil-surge-drags-peso",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1d24a42d7e8cbedbf69061e439d08dbe",
-      "timestamp": "2026-03-09T18:13:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BlackRock's Jewell Warns 'Don't Get Macro Complacent' - Helen Jewell, CIO of fundamental equities at BlackRock, discusses the potential for dip buying opportunities as the war in the Middle East rattles global markets. Speaking on Bloomberg Television, she",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/blackrock-s-jewell-warns-don-t-get-macro-complacent-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "33c635b47b976965a4723a51fedcd13c",
-      "timestamp": "2026-03-09T18:05:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China Warns Japan Over Taiwan Premier’s First Visit Since 1972 - China warned Japan of consequences after it allowed a rare visit by Taiwan’s No. 3 official, accusing Tokyo of fanning “provocations” as tensions between the top Asian economies continue to simmer.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-warns-japan-over-taiwan-premier-s-first-visit-since-1972",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9e34b74996729bef02cfe3e4f82b447",
-      "timestamp": "2026-03-09T18:03:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Euro Options Turn Most Bearish Since 2022 on Fear of Long War - Traders have turned the most pessimistic on the euro since Russia invaded Ukraine four years ago as the war in the Middle East drags on, sending energy prices soaring and threatening Europe’s economy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/euro-options-turn-most-bearish-since-2022-on-fear-of-long-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3f5201763f16c4dcdcd05c99122b709f",
-      "timestamp": "2026-03-09T18:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Banks Top Estimates in Otherwise Mixed European Earnings Season - European banks exceeded expectations in the fourth quarter, buoyed by trading income and cost discipline, standing out in an earnings season marked by tariffs and consumer weakness.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/banks-top-estimates-in-otherwise-mixed-european-earnings-season",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8643746d6c97ddc4a2a87df9695b9d57",
-      "timestamp": "2026-03-09T17:57:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sensitive Crude Off China Swells to Record as War Roils Market - A record volume of so-called illicit crude is being held on tankers off China’s coast, representing a potential buffer for the country’s private refiners as the war in the Middle East disrupts wider f",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/sensitive-crude-off-china-swells-to-record-as-war-roils-market",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2a88bd87b850c83e2ce1bfca4e05fc13",
-      "timestamp": "2026-03-09T17:47:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Stock Markets Still Look Complacent: 3-Minutes MLIV - Anna Edwards, Lizzy Burden, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/stock-markets-still-look-complacent-3-minutes-mliv-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "59f8589b2264f2e42c81995917846d95",
-      "timestamp": "2026-03-09T17:40:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Nscale Raises $2 Billion and Adds Sandberg, Clegg to Board - Nscale, a UK developer for artificial intelligence data centers, has raised $2 billion in funding and added a trio of high-profile business leaders as directors, including former Meta Platforms Inc. e",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/nscale-raises-2-billion-and-adds-sandberg-clegg-to-board",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "506da7a38513710d461b4dbd2c992145",
-      "timestamp": "2026-03-09T17:36:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Horizons Middle East & Africa 3/9/2026 - Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/horizons-middle-east-africa-3-9-2026-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7f0f52184fb0a9fa0809ebc2dec403d7",
-      "timestamp": "2026-03-09T17:27:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Norway Police Probe If Ayatollah Video Tied to US Embassy Blast - Norway’s police are investigating whether a video posted on a social media site of the US embassy in Oslo is linked to the weekend’s explosion outside the embassy.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/norway-police-probe-if-ayatollah-video-tied-to-us-embassy-blast",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1bec3903ebf104d51af00794fa1b6193",
-      "timestamp": "2026-03-09T17:23:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mainland Investors Buy Record Hong Kong Stocks Via Trading Link - Mainland Chinese investors purchased a record HK$37.2 billion ($4.8 billion) worth of Hong Kong shares through a key trading link on Monday, reversing their unprecedented sale last week.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/mainland-investors-buy-record-hong-kong-stocks-via-trading-link",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a09ff49f721a286fcf7eeb99d6d0115f",
-      "timestamp": "2026-03-09T17:22:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meloni Readies Law to Tackle Energy Price Spikes in Italy - Italy’s Prime Minister Giorgia Meloni plans to fast-track a new law decree to tackle the spike in energy prices resulting from the war in the Middle East, Italian media including La Stampa report.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/meloni-readies-law-to-tackle-energy-price-spikes-in-italy",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bf54881deb935a658d1407e9b42847fb",
-      "timestamp": "2026-03-09T17:14:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Planes Fly Out of Korea as Asset Redeployment Reports Grow - US military transport planes have flown out of South Korea in recent days, flight-tracking data showed, after Seoul confirmed it was discussing the possible redeployment of American military assets as",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/us-planes-fly-out-of-korea-as-asset-redeployment-reports-grow",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0dc772982a1d9f3d63c44f990c9c2ffc",
-      "timestamp": "2026-03-09T17:14:14+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Robinhood CEO Vlad Tenev on Tokenization and Prediction Markets for Everything | Odd Lots - Last year we had Robinhood CEO Vlad Tenev on the podcast to talk to us about his company's plans to tokenize shares of private companies. The idea is that retail investors want to participate in hot n",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/robinhood-ceo-on-tokenization-and-prediction-markets-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5093f003bf67e544a5f11358bc70a556",
-      "timestamp": "2026-03-09T17:09:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Trump Mulls Using Special Forces to Seize Iran's Uranium (Video)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-09/trump-mulls-using-special-forces-to-seize-iran-s-uranium-video",
       "sentiment": "NEUTRAL"
     }
   ]
