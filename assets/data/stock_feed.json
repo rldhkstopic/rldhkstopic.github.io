@@ -1,6 +1,215 @@
 {
-  "last_updated": "2026-03-10T11:57:31.227874+09:00",
+  "last_updated": "2026-03-10T13:34:40.784493+09:00",
   "items": [
+    {
+      "id": "f1a84432cee5679fd8d93ce671e11762",
+      "timestamp": "2026-03-10T13:18:18+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Crops Swing to Losses as Trump Signals Possible End to Iran War - Crop prices fell alongside a slump in crude oil, after comments from US President Donald Trump eased concerns the war in the Middle East would be long-lasting.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/crops-swing-to-losses-as-trump-signals-possible-end-to-iran-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "497af2d844d7551ff5e38311056667c4",
+      "timestamp": "2026-03-10T13:01:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Gen Z Day Traders Trust in Chatbots and Move Markets - <p>This cohort has become an increasingly important driver of investment growth in the world’s second-largest economy.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/china-s-gen-z-stock-traders-pick-ai-high-growth-equities",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "497af2d844d7551ff5e38311056667c4",
+      "timestamp": "2026-03-10T13:01:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Gen Z Day Traders Trust in Chatbots and Move Markets - <p>This cohort has become an increasingly important driver of investment growth in the world’s second-largest economy.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/china-s-gen-z-stock-traders-pick-ai-high-growth-equities",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "75bf1e790075e98ef294d55c5bfac675",
+      "timestamp": "2026-03-10T13:00:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Enough Cool Heads Are Pulling Back From the Brink - <p>Sentiment is driving the market gyrations, with Asia and Europe most exposed.</p>",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-10/iran-oil-panic-enough-cool-heads-are-pulling-back-from-the-brink",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "28001e9fbf990b6b8f0d350a33cd413a",
+      "timestamp": "2026-03-10T12:59:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Yuan Advances as PBOC Strengthens Fixing by Most Since January - The onshore yuan rose after the People’s Bank of China strengthened the daily reference rate for the managed currency by the most since January 2025.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/yuan-advances-as-pboc-strengthens-fixing-by-most-since-january",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "553fa450766ebc8680522af5104b523d",
+      "timestamp": "2026-03-10T12:50:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Vast Ship Clusters and Speeding Tankers Point to Hormuz Jamming - At least a dozen clusters of ships have appeared near the Strait of Hormuz, a likely sign of elevated electronic interference around the waterway that’s central to the US and Israeli war against Iran.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/vast-ship-clusters-and-speeding-tankers-point-to-hormuz-jamming",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d0c8aceef8c0dad41bbc8a71e9553d34",
+      "timestamp": "2026-03-10T12:45:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Raises Oil Imports to Guard Against Supply Disruptions - China purchased more crude in the first two months of the year as the country continued to hoard oil to guard against supply disruptions.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/china-raises-crude-imports-to-guard-against-supply-disruptions",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c437a9160f46b2942a5e822603830eba",
+      "timestamp": "2026-03-10T12:41:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Rebounds as Trump Signals Possible End to Iran War | The Asia Trade 3/10/2026 - \"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Sydney and Singapore with Haidi Stroud-Watts and Avril Hong",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-10/the-asia-trade-3-10-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "391519070fd35457e9a6fb615331dd66",
+      "timestamp": "2026-03-10T12:39:55+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "No Jet-Fuel Hedge Makes AirAsia Worst-Performing Airline Stock - Low-cost carrier AirAsia X Bhd is paying a steep price for its wrong-way bet on jet fuel. Management’s decision not to hedge when oil was cheap has backfired after the Iran war, and the company is now",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/no-jet-fuel-hedge-makes-airasia-worst-performing-airline-stock",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e04b02ef99e65b9e3170b6b1dac670b4",
+      "timestamp": "2026-03-10T12:36:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tencent, Zhipu Shares Jump on Launches of AI Agents Tapping Into OpenClaw - China’s enthusiasm for OpenClaw is igniting a stock rally in local technology firms moving swiftly to embrace the open-source artificial intelligence program.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/tencent-zhipu-shares-jump-on-launches-of-ai-agents-tapping-into-openclaw",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e04b02ef99e65b9e3170b6b1dac670b4",
+      "timestamp": "2026-03-10T12:36:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tencent, Zhipu Shares Jump on Launches of AI Agents Tapping Into OpenClaw - China’s enthusiasm for OpenClaw is igniting a stock rally in local technology firms moving swiftly to embrace the open-source artificial intelligence program.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/tencent-zhipu-shares-jump-on-launches-of-ai-agents-tapping-into-openclaw",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "1e9983d4fa0b44bf18bceab820586a8a",
+      "timestamp": "2026-03-10T12:30:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China’s Yield Curve Hits Steepest in Four Years on Oil Jitters - China’s government bond yield curve reached its steepest level in about four years, as inflation concerns triggered by the Iran war pile pressure on longer‑term debt.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/china-s-yield-curve-hits-steepest-in-four-years-on-oil-jitters",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "96a166ffb76de11bd14fa75b34fd8e6e",
+      "timestamp": "2026-03-10T12:27:12+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Eyes End to Iran War, But How Soon? - President Donald Trump has signaled a potential end to the conflict by proposing to waive sanctions and deploy the US Navy to protect tankers. Bloomberg’s Laura Davison and Nicholas Lua debate whether",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-10/trump-eyes-end-to-iran-war-but-how-soon",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "db41018a1386b79c9f52118b2aa10987",
+      "timestamp": "2026-03-10T12:13:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Direxion CEO Yones Discusses ETF Strategy - Direxion, one of the biggest leveraged and inverse ETF providers, says it saw the most inflows last week to its semiconductor and South Korea ETFs. Speaking on Bloomberg's The China Show, CEO Douglas ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-10/direxion-ceo-yones-discusses-etf-strategy-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a240a779d42538bad53a7420c901dc13",
+      "timestamp": "2026-03-10T12:10:47+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "DHL Express CEO on Impact from Geopolitics, Jet Fuel - John Pearson, CEO at DHL Express, discusses the company's business strategy amid the rising geopolitical tensions and jet fuel prices. He speaks with Avril Hong and Haidi Stroud-Watts on Bloomberg: Th",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-10/dhl-express-ceo-on-impact-from-geopolitics-jet-fuel-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "44bd9c21c68ab62fb44e49fdd2e292a1",
+      "timestamp": "2026-03-10T12:08:10+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Chinese Exports Soared 22% Before Middle East War Broke Out - China’s export growth accelerated far faster than expected in the first two months of the year, putting shipments on a record path before US and Israeli strikes on Iran disrupted global trade.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/china-s-exports-surge-tops-forecasts-as-iran-war-threatens-trade",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3a75c5835d85fc9fa85f98f18f82109f",
+      "timestamp": "2026-03-10T11:57:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Palm Oil Futures Fall More Than 4% at the Open in Malaysia - Palm oil futures in Kuala Lumpur fell as much as 4.3% at the open on Tuesday, tracking a slump in crude oil prices after President Donald Trump said the war in the Middle East may end soon.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/palm-oil-futures-fall-more-than-4-at-the-open-in-malaysia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "25f4ba73276befa909493e17c1e540c6",
+      "timestamp": "2026-03-10T11:54:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Sembcorp’s $2 Billion Alinta Loan Fuels Australia’s Funding Boom - Singapore’s Sembcorp Industries Ltd. is seeking a loan of around A$3 billion ($2.1 billion) to back its purchase of power generator and retailer Alinta Energy Pty., according to people familiar with t",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/sembcorp-s-2-billion-alinta-loan-fuels-australia-s-funding-boom",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "23a45713c8dd6e469ba13a3644e818d8",
+      "timestamp": "2026-03-10T11:48:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "South Korea’s Lee Says Security Intact Even if US Weapons Moved - President Lee Jae Myung said that even if the US military moves air defense assets out of South Korea as the Iran conflict widens, it won’t seriously affect Seoul’s ability to defend itself against nu",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/south-korea-s-lee-says-security-intact-even-if-us-weapons-moved",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "e6268bdeea19b3dd2a4a1743c9d1cfd3",
       "timestamp": "2026-03-10T11:47:37+09:00",
@@ -32,6 +241,28 @@
       "related_tickers": [],
       "content": "Australia Gives Asylum to Five Iranian Footballers - Australia has granted humanitarian visas to five Iranian female football players who sought asylum, citing fears for their safety after the team declined to sing the national anthem during a match las",
       "url": "https://www.bloomberg.com/news/videos/2026-03-10/australia-gives-asylum-to-five-iranian-footballers-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fedb2125e07b1df92d540a6420d0fb93",
+      "timestamp": "2026-03-10T11:43:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Billionaire-Backed Kotak Bank Open to Deals as CEO Touts Capital - Kotak Mahindra Bank Ltd. is on the lookout for acquisitions as the billionaire Uday Kotak-backed lender seeks to deploy its excess capital to scale up amid a transformation of India’s financial indust",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/billionaire-backed-kotak-bank-open-to-deals-as-ceo-touts-capital",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eb407166432124a2efc88dfc04080e57",
+      "timestamp": "2026-03-10T11:39:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Asia Credit Risk Gauge Drops as Trump Signals Possible War End - The cost of credit protection fell by the most in over eight months in Asia, after President Donald Trump signaled the Iran war may be nearing an end.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/asia-credit-risk-gauge-drops-as-trump-signals-possible-war-end",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1976,239 +2207,6 @@
       "related_tickers": [],
       "content": "Saudi Arabia Begins Oil Output Cuts as Storage Fills Up - Saudi Arabia has started reducing oil production, following similar moves by the United Arab Emirates, Kuwait and Iraq, as the near-blockage of the critical Strait of Hormuz starts filling up storage ",
       "url": "https://www.bloomberg.com/news/videos/2026-03-09/saudi-arabia-begins-oil-output-cuts-as-storage-fills-up-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bae52f2e164af44d3860a374b5c33a8e",
-      "timestamp": "2026-03-09T20:19:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Malaysia’s Anwar Set to Drop Anti-Graft Chief in Wake of Probe - Malaysian Prime Minister Anwar Ibrahim is poised to drop anti-graft chief Azam Baki after a probe into his shareholdings, people familiar with the matter said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/malaysia-s-anwar-is-set-to-drop-anti-graft-chief-straits-times",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "78b499e8cb6e59efdd9651ccb79afa87",
-      "timestamp": "2026-03-09T20:17:31+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "2 Mid-Cap Stocks with Promising Prospects and 1 We Brush Off - Mid-cap stocks have the best odds of scaling into $100 billion corporations thanks to their tested business models and large addressable markets. But the many opportunities in front of them attract si",
-      "url": "https://finance.yahoo.com/news/2-mid-cap-stocks-promising-111731855.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f154f1c5a43e12674e32f7d32840150e",
-      "timestamp": "2026-03-09T20:17:06+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dangote Fertiliser Says It’s Seeing Surge in Orders on Iran War - Dangote Fertiliser Ltd., one of Africa’s biggest producers of crop nutrients, has seen a substantial increase in demand for its products as the US-Israel war on Iran disrupts supplies.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/dangote-fertiliser-says-it-s-seeing-surge-in-orders-on-iran-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "50c928691bcbadb64d2f4e76910d3057",
-      "timestamp": "2026-03-09T20:15:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran Loaded Crude From Its Kharg Island Terminal on Saturday - Iran continued loading crude onto tankers at its Kharg Island oil terminal on Saturday, a week after the US and Israel launched air attacks against the Persian Gulf country. It’s unclear whether loadi",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/iran-loaded-crude-from-its-kharg-island-terminal-on-saturday",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e7ac6f42928476ca79e226b8a534b1f0",
-      "timestamp": "2026-03-09T20:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Dorsey Wobbles on Question of AI’s Benefits Versus Loss of Jobs - After job cuts, the Block chairman wasn’t sure whether AI would help or hurt workers",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-09/dorsey-wobbles-on-question-of-ai-s-effects-after-major-job-cuts-at-block",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a597d2c32c0fa42696ee885dbcbb7d09",
-      "timestamp": "2026-03-09T20:01:44+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Iran’s Regime Digs In Against Trump’s Demands - The Islamic Republic has defied the US president by picking a hardliner as the new supreme leader.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-09/iran-s-regime-digs-in-against-trump-s-demands",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9a325b34d6841c987b4fb683885304c2",
-      "timestamp": "2026-03-09T20:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Agentic AI Startup Lyzr Raises Funds at $250 Million Valuation - Lyzr AI, a startup that builds infrastructure for enterprise AI agents, closed a funding round led by Accenture Plc that quintupled its valuation to $250 million.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/agentic-ai-startup-lyzr-raises-funds-at-250-million-valuation",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "076113b3bda20b1221a177b4945f2bb2",
-      "timestamp": "2026-03-09T19:57:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Italy Risks Iran Setback in Bid to Exit EU Scrutiny, Scope Says - Italy’s push to shake off fiscal scrutiny by the European Union is in danger of being jolted by an extended Middle East crisis, Scope Ratings said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/italy-risks-iran-setback-in-bid-to-exit-eu-scrutiny-scope-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "076113b3bda20b1221a177b4945f2bb2",
-      "timestamp": "2026-03-09T19:57:20+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Italy Risks Iran Setback in Bid to Exit EU Scrutiny, Scope Says - Italy’s push to shake off fiscal scrutiny by the European Union is in danger of being jolted by an extended Middle East crisis, Scope Ratings said.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/italy-risks-iran-setback-in-bid-to-exit-eu-scrutiny-scope-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4da8e1a8d8fa52a58672624cfaf8b611",
-      "timestamp": "2026-03-09T19:54:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India Farmers Stage Fresh Protest in Delhi Against US Trade Deal - Hundreds of farmers and industrial workers gathered in India’s capital on Monday, asking the government to stop what they called concessions to the US in trade talks and to pass a law guaranteeing min",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/india-farmers-stage-fresh-protest-in-delhi-against-us-trade-deal",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "caa32ffb2781c9e01b30a38fa103c203",
-      "timestamp": "2026-03-09T19:52:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Saudi Arabia Starts Oil Cuts as Hormuz Closure Fills Storage - Saudi Arabia has started reducing oil production as the near-blockage of the critical Strait of Hormuz starts filling storage tanks, according to a person familiar with the matter, even as it rushes t",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/saudi-arabia-starts-oil-output-cuts-as-shut-hormuz-fills-storage",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "967088ed8e1b1e32f22605e49ae7df69",
-      "timestamp": "2026-03-09T19:48:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pakistan Plans Fuel-Saving Steps After Oil Shock Sparks Panic - Pakistan’s government plans to implement fuel-saving measures after oil surged above $100 and gas output from the Middle East was disrupted, triggering panic buying in the import-reliant South Asian n",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/pakistan-plans-fuel-saving-steps-after-oil-shock-sparks-panic",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6c443326bb178a123e71f914f53c3381",
-      "timestamp": "2026-03-09T19:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Mass-Market Insurer IA Financial Looks to US for Deals, Expansion - The head of Canadian insurer and money manager iA Financial Corp. is hunting for a multibillion-dollar acquisition after the firm reached a record valuation at the beginning of the year.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/mass-market-insurer-ia-financial-looks-to-us-for-deals-expansion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b7f45a6a11ad20d987fbfdcfeae75d42",
-      "timestamp": "2026-03-09T19:20:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South African Bonds Plunge as Oil Rise Fuels Inflation Fears - South African government bonds extended their worst selloff since the Covid pandemic as concern mounted that soaring oil prices and a weaker rand will fuel inflation, forcing the central bank to resum",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/south-african-bonds-plunge-as-oil-surge-fuels-inflation-fears",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f4107eeb58b806576026bee031688cec",
-      "timestamp": "2026-03-09T19:16:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Oil Near $120 Sparks ‘Stampede to Sell’ in Stocks and Bonds - <p>Crude pares gain and stocks recover from lows on prospect that governments will release oil reserves.</p>",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-09/oil-near-120-sparks-stampede-to-sell-in-stocks-and-bonds",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e287291727aef38a2e6cb60538df5d02",
-      "timestamp": "2026-03-09T19:11:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Slovenian Opposition Party Narrows Poll Lead Before Election - Slovenia’s center-left party of Prime Minister Robert Golob all but closed the gap behind the country’s nationalist opposition, a new poll showed with just two weeks before a tight parliamentary elect",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/slovenia-s-opposition-party-narrows-poll-lead-before-election",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "90c4e828fbf22b471cd44e1a2b058ff0",
-      "timestamp": "2026-03-09T19:10:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "India E-Commerce Firm Meesho’s Shares Plunge on $163 Million Tax Demand - Shares of SoftBank Group Corp.-backed Indian e-retailer Meesho Ltd. dropped by the daily limit after the platform said it received a $163 million income tax demand.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/india-e-commerce-firm-meesho-s-shares-plunge-on-163-million-tax-demand",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22a9bf87142310ea62d42ee7cbc182b3",
-      "timestamp": "2026-03-09T19:01:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Pakistan Holds Rates at 10.5% as Oil Surge Clouds Outlook - Pakistan’s central bank held its key policy rate citing economic uncertainty after oil prices surged as the Strait of Hormuz remained largely closed and the US threatened to deepen a conflict that has",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/pakistan-holds-rates-at-10-5-as-oil-surge-clouds-outlook",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "94584af20cadbe2dd4d4f21782aab062",
-      "timestamp": "2026-03-09T18:44:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Asia Races to Contain Energy Crunch as War Drives Oil Past $100 - Asia’s energy-importing economies are scrambling to contain the impact of a widening Middle East war that has upended oil and gas markets and is now battering ordinary buyers, from farmers to car manu",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/asia-races-to-contain-energy-crunch-as-war-drives-oil-past-100",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "22a4f0f548fe604652273ebc0fb88a36",
-      "timestamp": "2026-03-09T18:44:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "‘Full-Blown Panic Unwind’ in Momentum Trade Is Signaling a Nadir - It was one of Wall Street’s hottest trades, but a trifecta of troubles has ushered in one of the steepest drawdowns for high-flying momentum stocks in years. To some equity pros, the washout looks lik",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/-full-blown-panic-unwind-in-momentum-trade-is-signaling-a-nadir",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ab05256d4337c49e41c91225fc9970a1",
-      "timestamp": "2026-03-09T18:43:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Farage Invests in Kwarteng’s Bitcoin Treasury Firm Stack BTC - Nigel Farage invested in the Bitcoin treasury firm Stack BTC Plc run by former Chancellor of the Exchequer Kwasi Kwarteng, the latest push by the poll-topping Reform UK leader in support of cryptoasse",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/farage-invests-in-kwarteng-s-bitcoin-treasury-firm-stack-btc",
       "sentiment": "NEUTRAL"
     }
   ]
