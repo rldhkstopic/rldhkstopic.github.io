@@ -1,6 +1,138 @@
 {
-  "last_updated": "2026-03-11T11:57:08.365935+09:00",
+  "last_updated": "2026-03-11T13:35:21.346663+09:00",
   "items": [
+    {
+      "id": "2d6c17e0c9f65067910b30c5969514de",
+      "timestamp": "2026-03-11T13:20:43+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Said to Be Irked by Xi-Trump Summit Planning - Chinese officials are frustrated by what they see as insufficient US preparation for Donald Trump's upcoming meeting with Xi Jinping, according to a person familiar with the matter. Bloomberg's Stephe",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-11/china-said-to-be-irked-by-xi-trump-summit-planning-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "65fbb82879743d3b9add3615f58de638",
+      "timestamp": "2026-03-11T13:00:05+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Can’t Let Trump Have His TACO and Walk Away - <p>Markets are betting on an early end to the war, but both sides need to declare victory.</p>",
+      "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-11/iran-can-t-let-trump-have-his-taco-and-walk-away",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d311352d745cb549d4b2e0e3655f670c",
+      "timestamp": "2026-03-11T12:58:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War Drives Key Japanese Aluminum Fee to Highest Since 2015 - Aluminum is being offered to Japanese buyers at the highest premium in 11 years, as war in the Middle East constricts supply of one of the world’s most widely used materials.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/iran-war-drives-key-japanese-aluminum-fee-to-highest-since-2015",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a23c157bcc63eff07a58ccf1e5b0bd28",
+      "timestamp": "2026-03-11T12:58:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Pakistan Says Will Be There Before It Is Needed for Saudi Arabia - Pakistan will come to the “aid” of Saudi Arabia whenever needed, while the South Asian country makes efforts to ensure stability in the Middle East, Prime Minister’s spokesperson said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/pakistan-says-will-be-there-before-it-is-needed-for-saudi-arabia",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "25718315fddb11df7f126d6e9e642865",
+      "timestamp": "2026-03-11T12:51:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Moves to Curb OpenClaw AI Use at Banks, State Agencies - Chinese authorities moved to restrict state-run enterprises and government agencies from running OpenClaw AI apps on office computers, acting swiftly to defuse potential security risks after companies",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/china-moves-to-limit-use-of-openclaw-ai-at-banks-government-agencies",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f63bd9e547f1f5238fbb04c5c7049e74",
+      "timestamp": "2026-03-11T12:41:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Five-Year Bond Sale Sees Firm Demand as BOJ Path Clouded - Japan’s five-year government bond auction drew solid demand as investors mull the Bank of Japan’s rate-hike path amid ongoing uncertainties surrounding the Iran war.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/japan-5-year-bond-sale-sees-firmer-demand-than-12-month-average-mmlhrslz",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "0d2ecfa13f88195a63ac59336d9b8076",
+      "timestamp": "2026-03-11T12:24:32+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "The Former Academic Guiding OpenAI’s Trillion-Dollar AI Buildout - For months, OpenAI’s Sam Altman has been talking up plans to spend trillions of dollars on an unprecedented buildout of data centers stocked with advanced chips to power AI.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/the-former-academic-guiding-openai-s-trillion-dollar-ai-buildout",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "3252d0e3b039a3d3c7a33c8c9d1d59ef",
+      "timestamp": "2026-03-11T12:18:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Why Is China Embracing OpenClaw? - JPMorgan Asset Management Portfolio Manager Oliver Cox and Bloomberg Intelligence Senior Analyst Robert Lea discuss how China’s embrace of the open-source OpenClaw program is sparking a surge in Chine",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-11/why-is-china-embracing-openclaw-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b920b191fce9e570dfc5054fa111abdc",
+      "timestamp": "2026-03-11T12:12:37+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Emerges as Unlikely Haven as Oil Price Shock Hits Global Markets - As the war in Iran sent oil prices soaring, one market holding up unexpectedly well is that of the world’s largest crude importer: China.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/china-stocks-emerge-as-unlikely-winner-as-oil-prices-spike-on-iran-war",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f05856051a058f9c90d9d3f5f37744ba",
+      "timestamp": "2026-03-11T11:57:48+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prabowo’s Free Meals Plan Draws Court Challenge by Civil Groups - Indonesian President Prabowo Subianto’s flagship free meals is facing a second constitutional challenge from civil groups who are questioning the funding arrangements for the $20 billion initiative.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/prabowo-s-free-meals-plan-draws-court-challenge-by-civil-groups",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "063d8fde1fc173964124cd2795784bf9",
+      "timestamp": "2026-03-11T11:56:53+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Workers Set to Strike at Glencore’s Australian Copper Refinery - Workers at Glencore Plc’s Australian copper refinery have threatened to strike from Friday, after failing to reach an agreement in a pay dispute.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/workers-set-to-strike-at-glencore-s-australian-copper-refinery",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "79f2379d6e8523f13db08f47e18dd731",
+      "timestamp": "2026-03-11T11:50:33+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Aluminum Fluctuates as Iran War Continues to Disrupt Trade Flows - Aluminum edged higher as traders assessed how long the Iran war might continue to disrupt global flows of the industrial metal.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/aluminum-fluctuates-as-iran-war-continues-to-disrupt-trade-flows",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "ee4b4f95b064fc70991a37c262bc8f79",
       "timestamp": "2026-03-11T11:46:29+09:00",
@@ -1040,6 +1172,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "9cfb592cae3fa79bccea33d5bce7f7f7",
+      "timestamp": "2026-03-11T02:33:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian Urea Producers Shut Plants as Iran War Cuts LNG Flows - Some urea companies in India have shut down plants or moved up annual maintenance after Qatari supplies of liquefied natural gas, a key feedstock, were suspended due to the Iran war.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-10/india-urea-producers-shut-plants-as-iran-war-cuts-lng-flows",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "c3d49f14bce7eb9e23b002e5520d1b3c",
       "timestamp": "2026-03-11T02:31:04+09:00",
       "source_type": "NEWS",
@@ -2064,149 +2207,6 @@
       "related_tickers": [],
       "content": "Carlyle Plans Complex Credit Vehicle to Kick-Start Flagship Fund - As private equity firms take longer to sell off companies they’ve bought, pay back investors in their funds, and raise money for new vehicles, Carlyle Group Inc. is turning to a unique solution: a mul",
       "url": "https://www.bloomberg.com/news/articles/2026-03-10/carlyle-plans-complex-credit-vehicle-to-kick-start-flagship-fund",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c1c26b14e06443c6361bdec05b4da536",
-      "timestamp": "2026-03-10T21:04:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Honeywell Aerospace Kicks Off Potential $16 Billion Bond Sale - Honeywell Aerospace Inc. has begun its inaugural US investment-grade bond sale, targeting as much as $16 billion as it prepares for a planned spinoff.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/honeywell-aerospace-kicks-off-potential-16-billion-bond-sale",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f8eb344adfbcc4bec87b7e570d801547",
-      "timestamp": "2026-03-10T21:03:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Markets Are Misreading Fed’s Response to Oil Surge, BofA Says - Investors betting on a hawkish response to rising oil prices could be misreading the Federal Reserve, according to Bank of America Corp., which warns that supply shocks can also result in periods of s",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/markets-are-misreading-fed-s-response-to-oil-surge-bofa-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "69b29c4986367fbaacd0e978fddaf19c",
-      "timestamp": "2026-03-10T21:02:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "China’s Tech Scene Is Buzzing With OpenClaw Hype and Products - Excitement for building open source AI agents is reaching fever pitch",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-10/openclaw-in-china-has-users-and-tech-companies-buzzing-for-open-source-ai-agents",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4281a5652dff990c7dec99794403f4d0",
-      "timestamp": "2026-03-10T21:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Legal AI Startup Legora Raises $550 Million for US Expansion - Swedish legal artificial intelligence startup Legora has raised $550 million in a Series D funding round led by Accel, tripling its valuation from an October round to $5.55 billion as it seeks to expa",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/legal-ai-startup-legora-raises-550-million-for-us-expansion",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5223c7dedd700ff4db89f632f492b3cb",
-      "timestamp": "2026-03-10T20:50:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Amazon Returns to Debt Market With Jumbo Cross-Border Bond Sale - Amazon.com Inc. is returning to the bond market with a jumbo cross-border offering, adding to a borrowing spree among companies spearheading the artificial intelligence boom.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/amazon-kicks-off-11-part-us-high-grade-bond-offering",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "814c39ad465f77faf4218be9b24472ae",
-      "timestamp": "2026-03-10T20:50:51+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Premarket Movers: BioNTech, Kohl’s, Teladoc, Vertex, Zevra - S&amp;P 500 Index futures are down 0.1% as of 7:44 a.m. in New York following Monday’s relief rally that came after President Donald Trump signaled the war in the Middle East could end soon.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/us-stock-futures-today-biontech-kohl-s-teladoc-vertex-zevra",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f5fbe0883d766d49f6fd3fa70cb31e44",
-      "timestamp": "2026-03-10T20:49:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Deepens Rare Earths Ties With Lynas as World Seeks Supply - Lynas Rare Earths Ltd. won a commitment from Japan to pay guaranteed long-term prices for the critical materials, the latest sign of the enduring impact of China’s supply squeeze.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/japan-deepens-rare-earths-ties-with-lynas-as-world-seeks-supply",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f5fbe0883d766d49f6fd3fa70cb31e44",
-      "timestamp": "2026-03-10T20:49:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Japan Deepens Rare Earths Ties With Lynas as World Seeks Supply - Lynas Rare Earths Ltd. won a commitment from Japan to pay guaranteed long-term prices for the critical materials, the latest sign of the enduring impact of China’s supply squeeze.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/japan-deepens-rare-earths-ties-with-lynas-as-world-seeks-supply",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "173f66a87af782ac211d59c3b0218708",
-      "timestamp": "2026-03-10T20:46:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "NATO Eastern Flank Seeks Extension of Critical Cold War Pipelines - Eastern European countries are making a renewed push to extend NATO’s network of Cold War-era underground fuel pipelines in case of a military conflict, according to people familiar with the matter.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/nato-eastern-flank-seeks-extension-of-critical-cold-war-pipelines",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a1fa5b80b744bb901b72e49c7438db62",
-      "timestamp": "2026-03-10T20:40:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UAE Says Drone Attack Causes Fire in Zone That Houses Refinery - The UAE was dealing with a fire in an area where its biggest oil refinery is located, following a drone strike.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/uae-says-drone-attack-causes-fire-in-zone-that-houses-refinery",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c1da54b73428ea58f399ddcbe43f442a",
-      "timestamp": "2026-03-10T20:37:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta Hikes Fees for Advertisers to Cover Europe’s Digital Taxes - Meta Platforms is asking advertisers to cover the costs of digital services taxes, levies imposed by countries on local sales made by technology firms.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-10/meta-hikes-fees-for-advertisers-to-cover-europe-s-digital-taxes",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "86ef28c0f278437fd1c428f530fed728",
-      "timestamp": "2026-03-10T20:28:28+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Aim of Iran War is to 'Cut Off Head of Octopus': Former Israeli PM Bennett - Former Israeli Prime Minister Naftali Bennett has told Bloomberg that the objective of the Iran war is to neutralize Iran’s nuclear and ballistic missile capabilities by, metaphorically, cutting off t",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-10/war-aim-is-to-cut-off-head-of-octopus-ex-israeli-pm-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d56132848e3f4d53700c49a69958b695",
-      "timestamp": "2026-03-10T20:27:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Indian Oil Refiners Avoid Worst Effects of Iran War With Sanctions Reprieve - Russian crude has provided a quick fix to India’s oil-supply shortages after the US waiver gave the country a temporary waiver to resume purchases.",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-03-10/indian-oil-refiners-avoid-worst-effects-of-iran-war-with-sanctions-reprieve",
       "sentiment": "NEUTRAL"
     }
   ]
