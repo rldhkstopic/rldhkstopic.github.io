@@ -1,6 +1,239 @@
 {
-  "last_updated": "2026-03-12T17:14:05.200860+09:00",
+  "last_updated": "2026-03-12T19:15:39.171499+09:00",
   "items": [
+    {
+      "id": "524162434d973ab5e2f38e4b056c4f6b",
+      "timestamp": "2026-03-12T19:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Peru’s Gas Leak Is Revealing That Instability Matters After All - A prolonged natural gas pipeline leak in Peru is suddenly laying bare the costs of its chronic political instability, a phenomenon that’s often shrugged off by investors.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/peru-s-gas-leak-is-revealing-that-instability-matters-after-all",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "53d0096eacb9641aa7d50feae0d7d64d",
+      "timestamp": "2026-03-12T18:45:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "War Spending Sinks Long-Term Government Bonds on Deficit Worries - Investors are growing uneasy about the potential cost of the Iran war, sending long-term government bonds lower amid concerns over how the conflict will add to pressures on budget deficits.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/war-spending-sinks-long-term-government-bonds-on-deficit-worries",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6c50c4e02c63792a1c5f3b93a401542a",
+      "timestamp": "2026-03-12T18:20:26+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Morgan Stanley, Cliffwater Limit Private Credit Redemptions - Morgan Stanley and Cliffwater capped withdrawals from their multibillion-dollar private credit funds after investors sought to redeem vastly more than the vehicles allow. Bloomberg's Sinead Cruise rep",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/morgan-stanley-limits-private-credit-redemptions-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5319d1d7385f91e89d74c403fd15f143",
+      "timestamp": "2026-03-12T18:12:30+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tesla China Shipments Rebound in February Bucking Industry Trend - Tesla Inc.’s China sales recovered in February from a low base last year, as the electric-vehicle maker weathered challenges from a nine-day Lunar New Year lull and gradual phase out of subsidies.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/tesla-china-shipments-rebound-in-february-bucking-industry-trend",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "39f64c97fb1fdabe48f52135af269059",
+      "timestamp": "2026-03-12T18:04:13+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia’s Elite Bet on Foundations to Secure Billions For Heirs - Wealthy Russians are increasingly setting up private foundations at home to protect and pass on their fortunes, taking advantage of the country’s drive to bring back money stashed overseas.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/russia-s-elite-bet-on-foundations-to-secure-billions-for-heirs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "639955896e707a09e71e89b87645027a",
+      "timestamp": "2026-03-12T18:00:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Inside Finland’s Arctic War Games - Bloomberg Opinion columnist Liam Denning went to the Arctic to embed with the Finnish army preparing for war with Russia. Footage: Louie Palu/Agence VU (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/inside-finland-s-arctic-war-games",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "b6f0d1cc1a8752914732583bc702aadf",
+      "timestamp": "2026-03-12T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War Is Causing Biggest-Ever Oil Market Disruption, IEA Says - The Iran war is causing unprecedented turmoil in oil markets, hitting 7.5% of global supply and an even bigger swath of exports, the International Energy Agency said.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/iran-war-is-causing-biggest-ever-oil-market-disruption-iea-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d2d6abfbf6b865e2fade6473f9168d23",
+      "timestamp": "2026-03-12T18:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Russia’s Oil-Export Revenue Sinks to Lowest Since War in Ukraine - Russia’s oil-export revenue shrank in February to the lowest since its invasion of Ukraine after Western sanctions curbed sales and forced deeper price discounts, while Kyiv continued attacks on oil i",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/russia-s-oil-export-revenue-sinks-to-lowest-since-war-in-ukraine",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "56e0ac5fd85c31ff80d9a877ceead258",
+      "timestamp": "2026-03-12T17:59:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Escalates Attacks on Dubai and Shipping, Sending Oil Higher - Iran escalated attacks on parts of Dubai and shipping assets, pushing oil prices above $100 a barrel and causing more concern about the length of the Middle East war and the effective closure of the S",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/iran-escalates-attacks-on-shipping-and-dubai-sending-oil-higher",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "8c95a963f88cb1757bff4d084f5af4d7",
+      "timestamp": "2026-03-12T17:56:46+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "US Trade Probe Into China Paves Way for New Trump Tariffs - President Donald Trump’s administration started the first of several sweeping trade investigations that set the stage for new tariffs, the centerpiece of a push to replace levies struck down by the US",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/us-trade-probe-into-china-paves-way-for-new-trump-levies-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cdda41de292122db5983d9f77a0d9d0d",
+      "timestamp": "2026-03-12T17:53:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Trump Vows to Finish Job in Iran; Brent Hovers Near $100 | Horizons Middle East & Africa 3/12/2026 - Full show description: President Donald Trump says the release of emergency oil reserves would ease energy price pressures as the US seeks to \"finish the job\" in its campaign against Iran. Also on the",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/horizons-middle-east-africa-3-12-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7e3de3202aff59eeec079cdd6013ca41",
+      "timestamp": "2026-03-12T17:46:34+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Funding Rounds Have Never Been Bigger in Europe Thanks to US Cash - Jan Oberhauser’s funding round for his Berlin-based software startup n8n led to a bidding war last summer. The founder and his team received 14 offers, or term sheets. Most were from American investor",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/funding-rounds-have-never-been-bigger-in-europe-thanks-to-us-cash",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "882419b335d986f82c5b2f4ca77a4ddf",
+      "timestamp": "2026-03-12T17:34:58+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India in Talks With Iran to Secure Safe Passage for Tankers - India is in talks with Iran to secure the safe passage of more than 20 tankers through the Strait of Hormuz, according to people familiar with the matter.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/india-in-talks-with-iran-to-secure-safe-passage-for-tankers",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "81568da50a503cb83e0bb324e5253e13",
+      "timestamp": "2026-03-12T17:33:24+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "JPMorgan, UBS Dropped Hedge Fund Embroiled in Hong Kong Probe - JPMorgan Chase &amp; Co. and UBS Group AG cut prime brokerage ties with the investment firm that was raided by authorities during a probe into alleged insider dealing in Hong Kong well before the inve",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/jpmorgan-ubs-dropped-hedge-fund-embroiled-in-hong-kong-probe",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "cece29158fa069d9a1ef298f6fbf0bdc",
+      "timestamp": "2026-03-12T17:22:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "India Plans New $11 Billion Fund to Support Local Chipmaking - India plans to unveil a more than 1 trillion rupee ($10.8 billion) fund aimed at bolstering domestic chipmaking, advancing its ambitious bid to become a global manufacturing hub.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/india-plans-new-11-billion-fund-to-support-local-chipmaking",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "5901ec785da654ade0ad46048ecb05e1",
+      "timestamp": "2026-03-12T17:20:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Yahoo Finance",
+      "category": "WATCHLIST",
+      "related_tickers": [
+        "SOFI"
+      ],
+      "content": "Better Growth Stock: SoFi Technologies vs. Nu Holdings - From San Francisco to São Paulo, these booming fintech enterprises are winning big.",
+      "url": "https://www.fool.com/investing/2026/03/12/better-growth-stock-sofi-technologies-nu-holdings/?.tsrc=rss",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "bb06ce325ece3d28c7556c0cc44a57cf",
+      "timestamp": "2026-03-12T17:19:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Foreigners Sell Most Net Japan Stocks, Futures Since November - Overseas investors sold the most Japanese stock futures and cash equities since November last week on a net basis, part of a broad risk-off move following the outbreak of the Iran war.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/foreigners-sell-most-net-japan-stocks-futures-since-november",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "2fbfb6b108b0ede2344aeb48266c1834",
+      "timestamp": "2026-03-12T17:18:59+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Oil Back Above $100 As Iran War Deepens | Insight with Haslinda Amin 3/12/2026 - Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent l",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/insight-with-haslinda-amin-03-12-2026-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "9aba335f6217410921b6d8e7594a4c15",
+      "timestamp": "2026-03-12T17:12:57+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "UBS Likes Gold, Dollar, Inflation-Protected Bonds Amid Heightened Risk - Mark Andersen, global asset allocation co-head at UBS Wealth Management, weighs the impact of the Middle East conflict on asset allocation and portfolio strategies. Speaking on Bloomberg Television, h",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/ubs-likes-gold-dollar-inflation-protected-bonds-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "eb137123f4325c8b2622607f2bbcb502",
+      "timestamp": "2026-03-12T17:09:51+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Deutsche Bank Ex-Employees Seek $1 Billion Over Paschi Case - Deutsche Bank AG faces almost $1 billion in combined claims from five former managers who say they were wrongfully blamed for the Banca Monte dei Paschi di Siena SpA accounting scandal.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/deutsche-bank-sees-higher-litigation-charges-amid-paschi-lawsuit",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "722f89cf1e9f1390bc39a2a04af3733a",
+      "timestamp": "2026-03-12T17:04:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran War: Tanker Attacks Spike Oil & Trump Trade Probe | Daybreak Europe 03/12/2026 - Bloomberg Daybreak Europe is your essential morning viewing to stay ahead. Live from London, we set the agenda for your day, catching you up with overnight markets news from the US and Asia. And we'll",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/daybreak-europe-3-12-2026-video",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "d0e74ab1a9a579e20c42c554b535bcf4",
       "timestamp": "2026-03-12T17:00:02+09:00",
@@ -1841,6 +2074,17 @@
       "sentiment": "NEUTRAL"
     },
     {
+      "id": "0cf8586c0870f1ef0e97ac0a80ca5d2b",
+      "timestamp": "2026-03-12T01:59:52+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Prime Infra Buys Carlyle’s Colombian Driller Before Election - Philippines’ Prime Infrastructure Capital Inc. agreed to buy Colombia’s biggest independent oil producer from Carlyle Group, ahead of presidential elections that could reshape the country’s energy pol",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-11/prime-infra-buys-carlyle-s-colombian-driller-ahead-of-election",
+      "sentiment": "NEUTRAL"
+    },
+    {
       "id": "95c13cbb861725ba203226f0c5b46ab6",
       "timestamp": "2026-03-12T01:56:40+09:00",
       "source_type": "NEWS",
@@ -1959,248 +2203,6 @@
       "related_tickers": [],
       "content": "Oil Shock Upends Emerging Bond Bets as Rate Hikes in Prospect - Investors are scrambling to reassess interest-rate bets as oil whipsaws, upending one of the best trades in emerging markets.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-11/oil-shock-upends-emerging-bond-bets-as-rate-hikes-in-prospect",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c118474a51792efaf02fd4ae769e4080",
-      "timestamp": "2026-03-12T01:35:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Refiners Hold Off Buying Oil as Prices Surge After Supply Hit - Refiners are beginning to balk at eye-watering premiums on available oil barrels, threatening to slow down the flow of the world’s most traded commodity as the war in the Middle East upends energy mar",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/refiners-hold-off-buying-oil-as-prices-surge-after-supply-hit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "bd2e3cf78b4bd3aa9a7c39f7ee013e3d",
-      "timestamp": "2026-03-12T01:34:08+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "FCC Says Amazon Must Focus on Its Own Buildout, Not SpaceX - The head of the Federal Communications Commission chastised Amazon.com Inc. for filing a petition critical of rival satellite operator SpaceX while Amazon itself is behind on meeting deployment obliga",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/fcc-says-amazon-must-focus-on-its-own-buildout-not-spacex",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4293979c25e58c57e864b865b67f2e41",
-      "timestamp": "2026-03-12T01:33:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SPACs Take Few Companies Public Despite $11.7 Billion IPO Haul - After a flurry of IPOs that raised $11.7 billion this year, a new crop of blank-check firms are joining a long queue: all the other vehicles waiting for the chance to take a company public.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/spacs-take-few-companies-public-despite-11-7-billion-ipo-haul",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4293979c25e58c57e864b865b67f2e41",
-      "timestamp": "2026-03-12T01:33:36+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SPACs Take Few Companies Public Despite $11.7 Billion IPO Haul - After a flurry of IPOs that raised $11.7 billion this year, a new crop of blank-check firms are joining a long queue: all the other vehicles waiting for the chance to take a company public.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/spacs-take-few-companies-public-despite-11-7-billion-ipo-haul",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4f54a29fed8eb620e22285cc81bffdaf",
-      "timestamp": "2026-03-12T01:27:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Morgan Stanley Sees Risks That Oil Shock Will Delay Next Fed Cut - The Federal Reserve will likely resume cutting interest rates as soon as June, though there’s a risk the next move may be delayed by the oil-price shock caused by the Iran war, according to Morgan Sta",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/morgan-stanley-sees-risks-that-oil-shock-will-delay-next-fed-cut",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "474eb1768d2d6becf9658bfa1c878547",
-      "timestamp": "2026-03-12T01:25:11+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Military Warns of Possible Strikes on Iranian Civilian Ports - US Central Command warned that Iran is using civilian ports along the Strait of Hormuz for military operations, making them legitimate targets as the US and Israel wage war against the country.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/us-military-warns-of-possible-strikes-on-iranian-civilian-ports",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "75146006d86bdb988704844e268a9251",
-      "timestamp": "2026-03-12T01:24:58+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Kyiv Rebuffs Hungarian Team Sent to Check Pipeline Damage - Ukrainian authorities dismissed an announcement by Hungarian Prime Minister Viktor Orban’s government that it would send a team to assess damage to a key pipeline, escalating a standoff between the tw",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/kyiv-rebuffs-hungarian-team-sent-to-check-pipeline-damage",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f2bd41bf4fe2ada57bec0113594e2706",
-      "timestamp": "2026-03-12T01:22:30+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "CEOs Gain Confidence in US Economic Outlook Despite Iran War - Confidence among chief executive officers of large US companies grew in the first quarter despite global uncertainty and the war in Iran driving up energy prices and rattling markets.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/ceos-gain-confidence-in-us-economic-outlook-despite-iran-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "cbcdd4a134d24dbd56f51c52ebe995b9",
-      "timestamp": "2026-03-12T01:22:12+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Traders Suffer Losses on Options After U-Turn in ECB Rate Bets - A sharp swing in European money markets from bets on central bank interest-rate cuts to hikes has caught traders off guard, forcing some to exit options at hefty losses.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/traders-suffer-losses-on-options-after-u-turn-in-ecb-rate-bets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c0a1070a9dbf73716694e9e48eb68990",
-      "timestamp": "2026-03-12T01:18:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Manulife’s Thooft Says Dollar Best Bet Amid ‘Pogo Stick’ Markets - The dollar is the best haven bet as market volatility picks up during the Mideast conflict, according to Nathan Thooft of Manulife Investment Management, who says he’s shifted more of his investments ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/manulife-s-thooft-says-dollar-best-bet-amid-pogo-stick-markets",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7578335846db5156f00978d8c167fb0b",
-      "timestamp": "2026-03-12T01:13:32+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Deal With Halkbank Questioned by Judge, Terror Victim Group - A federal judge questioned a deal between the Trump administration and Turkiye Halk Bankasi AS that would let the Turkish state lender avoid criminal liability and financial penalty for allegedly help",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/us-deal-with-halkbank-questioned-by-judge-terror-victim-group",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d49a2c417d2e9147e99506ce4054ad50",
-      "timestamp": "2026-03-12T01:08:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "McAfee Makes Quick Win in Software Rout With Bond Buyback - McAfee bought back about $287 million of unsecured notes at a discount, taking advantage of a software rout that hit its debt stack, according to people familiar with the situation.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/mcafee-makes-quick-win-in-software-rout-with-bond-buyback",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "fb7eb2ba0941b3919df8641d9527d271",
-      "timestamp": "2026-03-12T01:04:27+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Synopsys CEO: We're Using AI Everywhere in Our Products - Sassine Ghazi, CEO of Synopsys, discusses the company’s acquisition and integration of Ansys, how AI can help accelerate the chip manufacturing process, and AI’s role in the recent software selloff. H",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/synopsys-ceo-we-re-using-ai-everywhere-in-our-products-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e2a9d38d7d290395664c4cb725e16177",
-      "timestamp": "2026-03-12T01:04:25+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Putin’s Iran War Dividend Raises Alarm Among Some US Allies - <p>The worry in Europe and the Gulf is that energy market disruption&nbsp;will boost Russia’s hand.&nbsp;</p>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/putin-s-russia-reaps-rewards-as-trump-s-iran-war-sparks-turmoil",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1e295b2cd9311424f0d39c9875743c91",
-      "timestamp": "2026-03-12T01:02:33+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Middle East Fertilizer Firms Continue Loading Despite Hormuz Halt - Fertilizer manufacturers in the Middle East are continuing to load product onto ships to prevent storage capacity from overflowing.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/middle-east-fertlizer-firms-continue-loading-despite-hormuz-halt",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2899ae23420a3afda16f921609fda32c",
-      "timestamp": "2026-03-12T01:00:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wizz Air CEO Sees Middle East Travel Demand Shifting to Europe - The war in Iran will shift more travel demand out of the Middle East and into Europe as passengers remain wary about getting stuck by Gulf airlines hamstrung by airspace restrictions in their region, ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/wizz-air-ceo-sees-middle-east-travel-demand-shifting-to-europe",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "6ccc4ad18c5ed1ed8d588751d8ceeb6a",
-      "timestamp": "2026-03-12T01:00:01+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "US Targets Iranian Minelayer Ships Near Strait of Hormuz - The US says its targeting Iranian minelaying ships as part of Operation Epic Fury. US Central Command says it's destroyed 16 near the Strait of Hormuz, a critical passage for oil tankers. The Strait o",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/us-targets-iranian-minelayer-ships-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "b3a662b8344c5c4e10bce1c64e70452e",
-      "timestamp": "2026-03-12T00:59:10+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Millionaire Tax Advances in Washington State as Legal Duel Looms - Washington state is set to approve a new tax on millionaires, a measure that would shift how the state raises money and set off a likely court fight over a nearly century-old legal ruling.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/millionaire-tax-advances-in-washington-state-as-legal-duel-looms",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9a4ae751ff1b48e957a5e413e14a5183",
-      "timestamp": "2026-03-12T00:51:50+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "ECB’s Schnabel Says New Forecasts Will Partly Reflect Iran War - The European Central Bank’s new quarterly forecasts will partly incorporate the economic impact of the war in Iran, according to Executive Board member Isabel Schnabel.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/ecb-s-schnabel-says-new-forecasts-will-partly-reflect-iran-war",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "4a927f18dcfdc2a10501cdee682cf1d6",
-      "timestamp": "2026-03-12T00:51:38+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "GOP Senator Says ‘Head Prosecutor’ in Powell Probe Was Changed - The top Republican on the Senate Banking Committee said the “head prosecutor” handling the Department of Justice’s criminal investigation into Federal Reserve Chair Jerome Powell had been replaced, a ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/gop-senator-says-head-prosecutor-in-powell-probe-was-changed",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ebb43ceb0d47c5596c5f9bb47d154315",
-      "timestamp": "2026-03-12T00:49:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Macron Says Release of Oil Stocks to Be Organized in Coming Days - The Group of Seven nations and IEA member countries will organize the discharge of a maximum of 400 million barrels from emergency oil reserves in the coming days, French President Emmanuel Macron sai",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/macron-says-release-of-oil-stocks-to-be-organized-in-coming-days",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "aacbe3612ff8cba1a9ceab003d7f1946",
-      "timestamp": "2026-03-12T00:47:13+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Health Tech Firm Stryker Hacked, Pro-Iran Group Takes Credit - Medical technology maker Stryker Corp. was hacked in an attack that’s crippled the company’s global operations, according to a person familiar with the matter and a memo seen by Bloomberg News.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/medical-tech-firm-stryker-hacked-pro-iran-group-claims-credit",
       "sentiment": "NEUTRAL"
     }
   ]
