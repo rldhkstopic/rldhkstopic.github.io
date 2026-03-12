@@ -1,6 +1,303 @@
 {
-  "last_updated": "2026-03-12T15:19:33.169334+09:00",
+  "last_updated": "2026-03-12T17:14:05.200860+09:00",
   "items": [
+    {
+      "id": "d0e74ab1a9a579e20c42c554b535bcf4",
+      "timestamp": "2026-03-12T17:00:02+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Legendary Hacker Matt Suiche on Cyberwar in the Age of AI - <p>The lines between physical and digital are blurring.</p>",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/legendary-hacker-matt-suiche-on-cyberwar-in-the-age-of-ai",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "d7eed6d2950c4ed6099f91db1423faf4",
+      "timestamp": "2026-03-12T17:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "At Rosebank, Simon Peckham Looks to ‘Buy, Improve, Sell’ Faster - The story of London’s capital markets in recent years has been dominated by overseas firms taking advantage of low UK valuations to snap up businesses. Simon Peckham is pushing in the other direction.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/uk-buyout-firm-rosebank-wants-to-buy-improve-sell-faster",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "92e853405b1f8bcb47019bdc8cb99592",
+      "timestamp": "2026-03-12T17:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Odd Lots: Matt Suiche on Cyberwar in the Age of AI (Podcast) - We tend to think of warfare in two distinct arenas: the physical and the digital. Increasingly, however, those lines are blurring. Last week, Iran launched drone strikes on data centers in the UAE and",
+      "url": "https://www.bloomberg.com/news/audio/2026-03-12/odd-lots-matt-suiche-on-cyberwar-in-the-age-of-ai-podcast",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c177a8320727f02e6dd1ec61b48df611",
+      "timestamp": "2026-03-12T16:57:06+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian Rupee Hedging Costs Rise as Importers Brace for More Pain - The Indian rupee’s slide to record lows on the back of soaring crude prices has sent local importers rushing for cover, driving up the cost of protecting against a further drop in the currency.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/indian-rupee-hedging-costs-rise-as-importers-brace-for-more-pain",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e670d05da8452879c922a1a127c6dcd3",
+      "timestamp": "2026-03-12T16:55:50+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Tesla’s Energy Division Gets UK License to Supply Electricity - Tesla Inc.’s energy division has been granted a license to supply electricity in the UK, giving the company access to potential customers in British homes and businesses.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/tesla-s-energy-division-gets-uk-license-to-supply-electricity",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "af0b88b3d242b405b09791061ab3eac0",
+      "timestamp": "2026-03-12T16:50:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Iran Steps Up Attacks On Tankers & Facilities As Oil Surges - Oman's key oil export terminal was evacuated and two crude tankers were hit in Iraqi waters, as risks to global energy supply from the Middle East war deepened. Ships were ordered to leave the port of",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/oil-surges-as-iran-attacks-tankers-facilities-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f6c302837313239085b0616558411c0a",
+      "timestamp": "2026-03-12T16:50:35+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dollar Options Most Bullish Since 2022 as War Keeps Oil Elevated - The dollar is on course for a fresh 2026 high, options markets show, as the Iran war keeps energy prices elevated.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/dollar-options-most-bullish-since-2022-as-war-keeps-oil-elevated",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "06672aa8f024b79c01859e787d8fb95c",
+      "timestamp": "2026-03-12T16:48:39+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Deutsche Bank Raises Bonus Pool 6.6% After Mixed Performance - Deutsche Bank AG raised its bonus pool for last year by 6.6%, less than some of its Wall Street peers, amid a mixed performance by the different business units.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/deutsche-bank-raises-bonus-pool-6-6-after-mixed-performance",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "6bd3ae6e2213f9393aae021a474cdd00",
+      "timestamp": "2026-03-12T16:46:19+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "BMW to See ‘Rather Stable Environment,’ CEO Zipse Says - BMW AG Chief Executive Officer Oliver Zipse says the automaker isn’t currently seeing any supply-chain disruptions due to the conflict in the Middle East. Speaking to Bloomberg’s Oliver Crook, he also",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/bmw-to-see-rather-stable-environment-ceo-zipse-says-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "c837baab32ec476467757857253b2610",
+      "timestamp": "2026-03-12T16:36:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "German 10-Year Yield Climbs to Highest Since 2023 on Inflation Fears - German bonds fell for a second day, lifting government borrowing costs to the highest since October 2023 as rising energy prices on the widening fallout from the war in Iran fuel inflation fears.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/german-10y-yield-climbs-to-highest-since-2023-on-inflation-fears",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f9d87dc00ba4fc7bd20a283244cdac5d",
+      "timestamp": "2026-03-12T16:34:14+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Dubai Drone Incidents Add to Regional Flight Disruptions - Dubai International Airport briefly halted operations on Wednesday after drones smashed down at the facility, resulting in four injuries at the world’s busiest international hub. The widening war with",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/dubai-drone-incidents-add-to-regional-flight-disruptions-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ddc4085f29b53c11508ad8128e425edd",
+      "timestamp": "2026-03-12T16:29:04+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "China Passes Ethnic Unity Law to Advance Xi’s Assimilation Push - China adopted a law cementing President Xi Jinping’s push to assimilate the country’s ethnic minorities, another shift away from Beijing’s long-held policy of giving such groups at least symbolic auto",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/china-passes-ethnic-unity-law-to-advance-xi-s-assimilation-push",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "7cde67871160327be5a31216b1277974",
+      "timestamp": "2026-03-12T16:28:08+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Japan Isn’t Sending Minesweepers to Middle East, Takaichi Says - Japan’s pacifist constitution wouldn’t bar the country from helping with mine clearance around the Strait of Hormuz at the conclusion of the war between the US, Israel and Iran, but Tokyo has no plans",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/japan-isn-t-sending-minesweepers-to-middle-east-takaichi-says",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e8821b501b3b245ac4637c6c0bd71362",
+      "timestamp": "2026-03-12T16:26:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "European Gas Prices Follow Oil Higher as Shipping Crisis Worsens - European natural gas followed oil higher as shipping turmoil expands in the Middle East and markets prepare for disruptions to continue for months.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/european-gas-prices-follow-oil-higher-as-shipping-crisis-worsens",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a33bfe2a31a4681408d43d2a1022b37",
+      "timestamp": "2026-03-12T16:01:01+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "EU Funding for Rwanda’s Mozambique Deployment Set to End in May - The European Union’s financial support for Rwandan troops helping to fight an Islamic State-linked insurgency in Mozambique expires in May and there are no plans to extend it, according to people fami",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/eu-funding-for-rwanda-s-mozambique-deployment-set-to-end-in-may",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ca80d79055a68c8b22907d7cb6716aa1",
+      "timestamp": "2026-03-12T15:49:23+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Honda Warns of $15.7 Billion Charge on Global EV Downturn - Honda Motor Co. expects charges of up to ¥2.5 trillion ($15.7 billion) as it rethinks its electric vehicle strategy, with the Japanese carmaker joining a growing list of global brands battered by the ",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/honda-warns-of-15-7-billion-charge-as-global-ev-downturn-grows",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "380ca1a187ea979523b1cbb6d63f5d84",
+      "timestamp": "2026-03-12T15:47:54+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "AlHasan: Iran Waging War of Economic Attrition - Iran’s strikes on Gulf nations continued even as they laid out demands for a truce. Iranian President Masoud Pezeshkian said the only way to end the war is “recognizing Iran’s legitimate rights, payme",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/alhasan-iran-waging-war-of-economic-attrition-video",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "954918fce22366beb295d7b6187b5b04",
+      "timestamp": "2026-03-12T15:41:42+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Stocks and Pound Under Pressure as Oil Rise Extends",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-03-12/ftse-100-bonds-oil-iran-war-trump-what-s-moving-uk-markets-right-now-markets-today",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ed27eeb83c43578dfc4ed256cec1109e",
+      "timestamp": "2026-03-12T15:39:41+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Marseille Has Become a Target for France's Far Right - France's far-right National Rally is targeting a win in the southern city of Marseille in forthcoming municipal elections. Marine Le Pen's once taboo party sees a victory in the cosmopolitan, diverse ",
+      "url": "https://www.bloomberg.com/news/videos/2026-03-12/embargoed-marseille-elections-pkg-to-run-on-13-march",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "55f6165141fe7c97273584c4918d6486",
+      "timestamp": "2026-03-12T15:34:29+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Daimler Truck Says Higher Orders, Savings to Offset Tariffs - Daimler Truck Holding AG plans deeper cost cuts and is banking on stronger sales to counter rising tariff expenses, with the aim of keeping earnings roughly level with last year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/daimler-truck-says-higher-orders-savings-to-offset-tariffs",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab40c9c004d3dec5c75cec40f78ae105",
+      "timestamp": "2026-03-12T15:30:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Putin Envoy Says He Discussed Energy Crisis With Trump Officials - Russian President Vladimir Putin’s envoy Kirill Dmitriev said he discussed the crisis in global energy markets at talks with US officials in Florida.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/putin-envoy-says-he-discussed-energy-crisis-with-trump-officials",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "ab40c9c004d3dec5c75cec40f78ae105",
+      "timestamp": "2026-03-12T15:30:20+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Putin Envoy Says He Discussed Energy Crisis With Trump Officials - Russian President Vladimir Putin’s envoy Kirill Dmitriev said he discussed the crisis in global energy markets at talks with US officials in Florida.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/putin-envoy-says-he-discussed-energy-crisis-with-trump-officials",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "fec439338a5b317eb6e3a2741a9b000c",
+      "timestamp": "2026-03-12T15:30:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Munich Re’s MEAG Plans Infrastructure Debt Boost to €20 Billion - Munich Re’s asset manager MEAG plans to double investments in infrastructure debt, as it increasingly targets new markets such as Canada and explores smaller financing opportunities.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/munich-re-s-meag-plans-infrastructure-debt-boost-to-20-billion",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "54b3a33bc9ae03270be71808499f83ae",
+      "timestamp": "2026-03-12T15:29:49+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Global Bonds Erase 2026 Gains as War Fuels Inflation Angst - Global bonds have surrendered their year-to-date gains as elevated oil prices stoke fears that inflation will reignite, triggering a selloff across fixed-income markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/global-bonds-erase-2026-gains-as-war-fuels-inflation-angst",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "e264b507603b082b9d78168231e219a0",
+      "timestamp": "2026-03-12T15:28:21+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Indian Assets Crack as Energy Shock Brings Growth Fears to Fore - A sharp energy shock from the Iran war is extending a slide in Indian equities and pushing the rupee to record lows as foreign investors stay on the defensive.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/indian-assets-crack-as-energy-shock-brings-growth-fears-to-fore",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a868aab503a27a8d20c09d413099215e",
+      "timestamp": "2026-03-12T15:16:15+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mali to Introduce Special Mining Brigade to Curb Illegal Output - Mali is establishing a mining task force with judicial powers to oversee gold mining and quarrying sites in the West African nation.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/mali-to-introduce-special-mining-brigade-to-curb-illegal-output",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "a849f08ead9e74e2962c96a938a11098",
+      "timestamp": "2026-03-12T15:08:38+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Standard Bank Profit at Record on Fee Growth, Client Gains - Standard Bank Group Ltd., Africa’s biggest lender by assets, reported record profit as a growing client base bolstered fee and commission income, and as market volatility drove trading revenue.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/standard-bank-profit-rises-to-record-on-fee-growth-client-gains",
+      "sentiment": "NEUTRAL"
+    },
     {
       "id": "73b0dd4ca4fbe79b4eb289711ce4f506",
       "timestamp": "2026-03-12T15:06:54+09:00",
@@ -21,6 +318,28 @@
       "related_tickers": [],
       "content": "Iran War Forces Turkey to Rethink Rates Path and Put Cuts on Ice - Turkey’s cycle of interest-rate cuts will likely end on Thursday as a war-driven spike in global energy prices threatens to reignite the country’s inflation woes.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-12/iran-war-forces-turkey-to-rethink-rates-path-and-put-cuts-on-ice",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f493e59c4af21ed76dfcdd60651b90c5",
+      "timestamp": "2026-03-12T15:00:00+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Satellite Firm Iceye Targets €1 Billion Revenue Next Year - Finnish satellite intelligence company Iceye Oy is on track to grow revenue to more than €1 billion ($1.2 billion) next year as a raft of government orders allows it to ramp up production.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/satellite-firm-iceye-targets-1-billion-revenue-next-year",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "4a56ae9d413877c5812613792bf78d85",
+      "timestamp": "2026-03-12T14:53:36+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Alibaba-Backed Video AI Startup PixVerse Raises $300 Million - PixVerse has raised $300 million in fresh funding, people familiar with the matter said, elevating the startup backed by China’s Alibaba Group Holding Ltd. to unicorn status as the race to dominate AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-12/alibaba-backed-video-ai-startup-pixverse-raises-300-million",
       "sentiment": "NEUTRAL"
     },
     {
@@ -318,6 +637,17 @@
       "related_tickers": [],
       "content": "Indian Firms From FMCG to Airlines Brace for Slide in Rupee - Elara Securities expects the rupee to weaken to 94–95 per dollar.",
       "url": "https://www.bloomberg.com/news/newsletters/2026-03-12/rupee-weakness-ripples-across-india-inc-paint-firms-to-hike-prices",
+      "sentiment": "NEUTRAL"
+    },
+    {
+      "id": "f2635146d0397dd2a781d9c0c941d113",
+      "timestamp": "2026-03-12T11:42:11+09:00",
+      "source_type": "NEWS",
+      "source_name": "Bloomberg",
+      "category": "MARKET",
+      "related_tickers": [],
+      "content": "Mideast Shipping Turmoil Intensifies as More Tankers Hit in Gulf",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-03-12/iran-latest",
       "sentiment": "NEUTRAL"
     },
     {
@@ -1871,340 +2201,6 @@
       "related_tickers": [],
       "content": "Health Tech Firm Stryker Hacked, Pro-Iran Group Takes Credit - Medical technology maker Stryker Corp. was hacked in an attack that’s crippled the company’s global operations, according to a person familiar with the matter and a memo seen by Bloomberg News.",
       "url": "https://www.bloomberg.com/news/articles/2026-03-11/medical-tech-firm-stryker-hacked-pro-iran-group-claims-credit",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0c21f62bc1df8291c23b5cabba90e8d3",
-      "timestamp": "2026-03-12T00:33:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fifth Third CEO: AI Writing 40% of Code - Fifth Third CEO Tim Spence says AI isn’t hype. In fact, it’s already writing 40% of his bank’s code and helping double the company’s size with fewer employees. He’s seeing meaningful, long-term produc",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/fifth-third-ceo-ai-writing-40-of-code-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "ce061eee743357a5a320b598312a25dd",
-      "timestamp": "2026-03-12T00:32:46+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IEA to Release Oil Reserves as Iran War Chokes Supply - The IEA agreed to discharge 400 million barrels from emergency oil reserves, the largest-ever release, as governments seek to contain a price spike driven by the Middle East war. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/iea-to-release-oil-reserves-as-iran-war-chokes-supply-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9876737f062984eb8914c226cbc964a3",
-      "timestamp": "2026-03-12T00:31:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ardagh CDS Holders Set for 66% Payout After Settlement Auction - Holders of Ardagh Group SA’s credit default swaps are set for a payout worth 66% of face value following a debt restructuring that saw unsecured bondholders take over the Irish packaging firm.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/ardagh-cds-holders-set-for-66-payout-after-settlement-auction",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "40511787772f5b91d5396add0d2c96c9",
-      "timestamp": "2026-03-12T00:31:18+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "Mastercard Recruits Binance, Ripple and PayPal for Crypto Partner Program - Over 85 crypto industry firms have signed on for Mastercard’s new initiative, which it said will inform future products and services.",
-      "url": "https://decrypt.co/360715/mastercard-recruits-binance-ripple-paypal-crypto-partner-program?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "1f675e88a310a6c6901c71784f737225",
-      "timestamp": "2026-03-12T00:31:04+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "BNP, Bradesco, Rabobank Named as Some of Raízen Top Creditors - BNP Paribas, Banco Bradesco SA and Coöperatieve Rabobank are among the largest creditors of Brazilian sugar and ethanol company Raízen SA, which is seeking to restructure some $12.6 billion of debt ou",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/bnp-bradesco-rabobank-named-as-some-of-raizen-top-creditors",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5c8b0fb1b237b010177dcac6f83cf002",
-      "timestamp": "2026-03-12T00:26:45+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Chile’s New President to Signal Swift Alignment With Trump - Chile just inaugurated a right-wing president who will quickly signal his intention to bring the copper-rich country into closer alignment with the administration of US head of state Donald Trump.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/chile-s-new-president-to-signal-fast-alignment-with-trump-agenda",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "a42330a5a33e005da878c8fe6f297a06",
-      "timestamp": "2026-03-12T00:26:15+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "South African Government Demarches US Ambassador After Criticism - South Africa demarched the US ambassador to Pretoria over his recent criticism of the country, ratcheting up tensions between the two countries.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/south-african-government-demarches-us-ambassador-after-criticism",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "619e238e002bad3261144b8480e997fa",
-      "timestamp": "2026-03-12T00:24:43+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta Preparing to Deploy Four New Homegrown Chips to Handle AI - Meta plans to deploy four new generations of its in-house artificial intelligence chips by the end of 2027 as the company turns to custom silicon to help power its rapidly expanding AI workloads. Ed L",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/meta-preparing-to-deploy-new-chips-to-handle-ai-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "eef8a196f9d8ae9f6a77d253156f353a",
-      "timestamp": "2026-03-12T00:23:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Hungary Vote Monitors Rebuked for Former Putin Translator’s Role - The international organization monitoring the fairness of elections has drawn criticism over the presence of a Russian staff member in its efforts to oversee Hungary’s pivotal April ballot.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/hungary-vote-monitors-rebuked-for-former-putin-translator-s-role",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "46dbf8773a145f23f4c56da3b23dc390",
-      "timestamp": "2026-03-12T00:14:59+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IEA to Release 400 Million Barrels of Oil From Reserves - The International Energy Agency will release 400 million barrels of oil from reserves as governments try contain energy prices driven higher by the war with Iran. IEA Director Faith Birol made the ann",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/iea-to-release-400-million-barrels-of-oil-from-reserves-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7de07de2c2c8aa6cf8518814e45da72c",
-      "timestamp": "2026-03-12T00:03:16+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Uber and Zoox CEOs on Partnering to Offer Robotaxi Rides - Uber CEO Dara Khosrowshahi and Zoox CEO Aicha Evans discuss their new partnership to offer Zoox’s purpose-built, fully autonomous robotaxis on the Uber app, starting in Las Vegas and expanding to Los ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/uber-and-zoox-ceos-on-partnering-to-offer-robotaxi-rides-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "9413dd1aa407198fe0b9b8d1122876d0",
-      "timestamp": "2026-03-11T23:59:41+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Raízen Firma Acordo Para Reestruturar Dívida de R$ 65 Bilhões - A Raízen, produtora brasileira de açúcar e etanol, controlada conjuntamente pela Shell e Cosan, concordou em iniciar uma reestruturação extrajudicial de dívida no valor de cerca de R$ 65 bilhões.  (So",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/raizen-firma-acordo-para-reestruturar-divida-de-r-65-bi-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e01542cc5fea043d7527580c45c6d922",
-      "timestamp": "2026-03-11T23:59:07+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Natural Gas Boom Will Spur a Shortage of US Fracking Gear, Shale Boss Says - Rising US natural gas exports and soaring domestic demand for the power-plant fuel will lead to a shortage of fracking gear later this decade, according to the head of one the country’s top drilling c",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/gas-boom-will-spur-a-shortage-of-us-fracking-gear-patterson-uti-pten-ceo-says",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "7b216f1376c8250b7b809c14518c33a0",
-      "timestamp": "2026-03-11T23:53:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Coupa CEO on AI-Driven Growth - AI anxiety is sweeping through markets, IT spending is racing toward the trillion-dollar mark, and private equity–backed tech firms are facing a new valuation reality. Coupa CEO Leagh Turner explains ",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/coupa-ceo-on-ai-driven-growth-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "09afd689c96145fe523141d976675fd9",
-      "timestamp": "2026-03-11T23:51:53+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta Will Deploy Four New In-House Chips to Handle AI Workloads - Meta Platforms will deploy  four new generations of its in-house artificial intelligence chips by the end of 2027 as the company turns to custom silicon to help power its rapidly expanding AI workload",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/meta-will-deploy-four-in-house-ai-chips-by-end-of-2027-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f321503cacc6f5ae5129420874d465d7",
-      "timestamp": "2026-03-11T23:50:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Russian Oil Output Fell Further in February, OPEC Data Shows - Russia’s crude output declined for a third consecutive month in February, underlining the impact of US sanctions and as Ukrainian drone strikes curb domestic oil-processing.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/russian-oil-output-fell-further-in-february-opec-data-shows",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "3b0f78286dbb05b6e02efd1bb820d479",
-      "timestamp": "2026-03-11T23:40:29+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "JPM’s Kelly Warns Liquidity Flows Are Offsetting Worrying Fundamentals - David Kelly, chief global strategist at JPMorgan Asset Management, sees a “natural bias upwards in the stock market” amid what he calls an artificial flow of liquidity. (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/jpm-s-kelly-liquidity-offsetting-worrying-fundamentals-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "345e0f78368ac4e0246e13e2e74b03af",
-      "timestamp": "2026-03-11T23:36:54+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "You Can't 'Jawbone' Down Energy Prices, Rubenstein Says - Carlyle Group co-Founder and co-Chairman says higher energy prices likely mean the Federal Reserve will not cut interest rates when it meets later this month. He says the energy shock is also not good",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/you-can-t-jawbone-down-energy-prices-rubenstein-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "67d9d3605dda6cca27c3e0b5d7a22773",
-      "timestamp": "2026-03-11T23:32:48+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "SoftBank-Backed PayPay Is Said to Plan US IPO at $16 Per Share - Japanese digital-wallet provider PayPay Corp. is guiding investors that it will price its US initial public offering at $16 per share, below its marketed range, people familiar with the matter said, a",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/softbank-backed-paypay-is-said-to-plan-us-ipo-at-16-per-share",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "45da76b5572cf3570d87f8f1613f7a67",
-      "timestamp": "2026-03-11T23:30:34+09:00",
-      "source_type": "NEWS",
-      "source_name": "Yahoo Finance",
-      "category": "WATCHLIST",
-      "related_tickers": [
-        "SOFI"
-      ],
-      "content": "BC-Most Active Stocks - Elong Power Holding Ltd. 75,127,963 0.0559",
-      "url": "https://finance.yahoo.com/news/bc-most-active-stocks-143034757.html?.tsrc=rss",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "c100177db6066493e9c43f90d7872d21",
-      "timestamp": "2026-03-11T23:30:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Google Backs Animaj Studio Using AI to Make Content for Kids on YouTube - Google is investing in an artificial intelligence content studio focused on making videos for children on YouTube, part of an effort to seed the platform with high quality viewing for the site’s young",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/google-backs-animaj-studio-using-ai-to-make-content-for-kids-on-youtube",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "5141209e77ec5ed8426145cacad9f669",
-      "timestamp": "2026-03-11T23:27:52+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Fed Rate Cut Getting Harder to Justify, Economist Swonk Says - KPMG Chief Economist Diane Swonk says the recent surge in oil and commodities prices make it \"harder and harder\" to justify a Federal Reserve rate cut on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/it-s-getting-harder-to-justify-fed-cut-diane-swonk-says-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "d2bf58f5230aaa5c009731454d59ae62",
-      "timestamp": "2026-03-11T23:25:21+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Scotiabank Lifts CEO’s Pay 28% as Strategy Gets Traction - Bank of Nova Scotia’s board gave Chief Executive Officer Scott Thomson a raise, with his overall compensation increasing to C$13.2 million ($9.7 million) last year as he exceeded his target bonus.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/scotiabank-lifts-ceo-thomson-s-pay-28-as-strategy-gets-traction",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e9a624845acfc828c2fb756d2b18f8bb",
-      "timestamp": "2026-03-11T23:22:57+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Texas Senate Runoff Tees Up Bitter Republican Showdown - Julie Fine breaks down the May 26 runoff in the Texas Republican Senate primary between incumbent John Cornyn and Texas Attorney General Ken Paxton. Balance of Power panelists Arshi Siddiqui and Leste",
-      "url": "https://www.bloomberg.com/news/videos/2026-03-11/texas-senate-runoff-tees-up-bitter-republican-showdown-video",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "0080fd691da658d82e84ce85dceac0b8",
-      "timestamp": "2026-03-11T23:19:56+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Ukraine Central Bank Chief Slams Hungary Over $82 Million Heist - The two armored trucks set off to Kyiv from Austria loaded with $82 million worth of gold and banknotes for their routine run to replenish Ukraine’s war-torn economy. They never arrived. In a daytime ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/ukraine-central-bank-chief-slams-hungary-over-82-million-heist",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "f9fbc3390604ada7a3e8c317a53c7c95",
-      "timestamp": "2026-03-11T23:18:42+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Sánchez Vows to Cut Online Abuse in Spain With New Social Curbs - Prime Minister Pedro Sánchez vowed to curb social media abuse in Spain and singled out Elon Musk’s X as a particular culprit in amplifying online hate.",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/sanchez-vows-to-cut-online-abuse-in-spain-with-new-social-curbs",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "8fed8d1f93008ac7f04693c0b5bcdfea",
-      "timestamp": "2026-03-11T23:04:23+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "IEA to Release Record 400 Million Barrels of Oil From Stockpiles - The International Energy Agency agreed to discharge 400 million barrels from emergency oil reserves, its largest-ever release, as governments seek to contain a spike in energy prices driven by the Mid",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/iea-confirms-huge-release-of-emergency-oil-stockpiles",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "2f92173f73a4112ff2533e5d334bb4f2",
-      "timestamp": "2026-03-11T23:00:03+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Wealth Fund Bets It Can Turn the New Mexico Desert Into an Advanced Tech Hub - <p>The state’s $70 billion oil fund wants to reap the rewards from venture capital’s bet on defense, nuclear fusion and advanced manufacturing in America.</p>",
-      "url": "https://www.bloomberg.com/news/features/2026-03-11/new-mexico-wealth-fund-bets-on-fusion-and-defense-startups",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "e943be2cf74c911d0413a8703db4af4b",
-      "timestamp": "2026-03-11T23:00:00+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "Meta Preparing to Deploy Four New Homegrown Chips to Handle AI - Meta Platforms Inc. plans to deploy four new generations of its in-house artificial intelligence chips by the end of 2027 as the company turns to custom silicon to help power its rapidly expanding AI ",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/meta-preparing-to-deploy-four-new-homegrown-chips-to-handle-ai",
-      "sentiment": "NEUTRAL"
-    },
-    {
-      "id": "dce87663d6112a00f205ba44ddf17c3f",
-      "timestamp": "2026-03-11T22:55:26+09:00",
-      "source_type": "NEWS",
-      "source_name": "Bloomberg",
-      "category": "MARKET",
-      "related_tickers": [],
-      "content": "UK Releases Trove of Mandelson Papers as Starmer Faces Heat - The UK government has published the first set of documents relating to the controversial appointment of Peter Mandelson as US ambassador in a move that threatens to redouble pressure on Prime Minister",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-11/uk-releases-trove-of-mandelson-papers-as-starmer-faces-heat",
       "sentiment": "NEUTRAL"
     }
   ]
