@@ -1,51 +1,51 @@
-name: Stock Feed Update
+# name: Stock Feed Update
 
-on:
-  schedule:
-    # 매 2시간마다 실행 (UTC 기준)
-    # KST 기준: 홀수 시간 (1시, 3시, 5시, ...)
-    - cron: '0 */2 * * *'
-  workflow_dispatch:  # 수동 실행 가능
+# on:
+#   schedule:
+#     # 매 2시간마다 실행 (UTC 기준)
+#     # KST 기준: 홀수 시간 (1시, 3시, 5시, ...)
+#     - cron: '0 */2 * * *'
+#   workflow_dispatch:  # 수동 실행 가능
 
-jobs:
-  update-feed:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+# jobs:
+#   update-feed:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+#       - name: Set up Python
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          pip install -r automation/scripts/requirements.txt
+#       - name: Install dependencies
+#         run: |
+#           pip install -r automation/scripts/requirements.txt
 
-      - name: Run stock feed agent
-        env:
-          ECONOMIC_NEWS_RSS_FEEDS: ${{ secrets.ECONOMIC_NEWS_RSS_FEEDS }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: |
-          python automation/scripts/stock_feed_agent.py
+#       - name: Run stock feed agent
+#         env:
+#           ECONOMIC_NEWS_RSS_FEEDS: ${{ secrets.ECONOMIC_NEWS_RSS_FEEDS }}
+#           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+#         run: |
+#           python automation/scripts/stock_feed_agent.py
 
-      - name: Generate SoFi auto post
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          python automation/scripts/sofi_auto_post.py || echo "SoFi post generation failed, but continuing..."
+#       - name: Generate SoFi auto post
+#         env:
+#           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+#         run: |
+#           python automation/scripts/sofi_auto_post.py || echo "SoFi post generation failed, but continuing..."
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add assets/data/stock_feed.json _posts/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update stock feed and SoFi post [skip ci]"
-            git push
-          fi
+#       - name: Commit and push changes
+#         run: |
+#           git config --local user.email "action@github.com"
+#           git config --local user.name "GitHub Action"
+#           git add assets/data/stock_feed.json _posts/
+#           if git diff --staged --quiet; then
+#             echo "No changes to commit"
+#           else
+#             git commit -m "Update stock feed and SoFi post [skip ci]"
+#             git push
+#           fi
