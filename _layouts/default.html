@@ -16,6 +16,9 @@
     {% if page.layout == 'dev-wiki' %}
     <link rel="stylesheet" href="{{ '/assets/css/dev-wiki.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     {% endif %}
+    {% if page.layout == 'doc-viewer' %}
+    <link rel="stylesheet" href="{{ '/assets/css/doc-viewer.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    {% endif %}
     {% if page.url == '/stock/' or page.url == '/stock/index.html' %}
     <link rel="stylesheet" href="{{ '/assets/css/stock-feed.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     {% endif %}
@@ -58,7 +61,7 @@
     
     <!-- 로그인/OAuth 기반 관리자 기능은 사용하지 않으므로 기본 레이아웃에서 제외한다. -->
   </head>
-  <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %} layout-lobehub">
+  <body class="{% if page.url == '/' or page.url == '/index.html' %}home-page{% endif %}{% if page.layout == 'doc-viewer' %} layout-doc-viewer{% endif %} layout-lobehub">
     <header class="site-header lobehub-header">
       <div class="header-inner">
         <a class="site-title" href="{{ '/' | relative_url }}">DevLogs</a>
@@ -67,6 +70,7 @@
             <a class="nav-link" href="{{ '/' | relative_url }}">홈</a>
             <a class="nav-link" href="/blog/">블로그</a>
             <a class="nav-link" href="/dev/">개발</a>
+            <a class="nav-link" href="/docs/">Docs</a>
             <a class="nav-link" href="/document/">문서</a>
             <a class="nav-link" href="/daily/">일기</a>
             <a class="nav-link" href="/study/">학습</a>
