@@ -169,22 +169,233 @@
     var openBtn = qs('#docMobileSidebarBtn');
     var closeBtn = qs('#docSidebarCloseBtn');
     var overlay = qs('#docOverlay');
+    var mTbSidebar = qs('#docMTbSidebar');
 
-    function open() {
+    function openSidebar() {
       if (sidebar) sidebar.classList.add('open');
       if (overlay) overlay.classList.add('show');
       document.body.style.overflow = 'hidden';
     }
 
-    function close() {
+    function closeSidebar() {
       if (sidebar) sidebar.classList.remove('open');
       if (overlay) overlay.classList.remove('show');
       document.body.style.overflow = '';
     }
 
-    if (openBtn) openBtn.addEventListener('click', open);
-    if (closeBtn) closeBtn.addEventListener('click', close);
-    if (overlay) overlay.addEventListener('click', close);
+    if (openBtn) openBtn.addEventListener('click', openSidebar);
+    if (mTbSidebar) mTbSidebar.addEventListener('click', openSidebar);
+    if (closeBtn) closeBtn.addEventListener('click', closeSidebar);
+    if (overlay) overlay.addEventListener('click', function () {
+      closeSidebar();
+      closeMobileToc();
+    });
+
+    // Swipe-to-open from left edge
+    var touchStartX = 0;
+    var touchStartY = 0;
+    var swiping = false;
+
+    document.addEventListener('touchstart', function (e) {
+      var x = e.touches[0].clientX;
+      if (x < 24 && !sidebar.classList.contains('open')) {
+        touchStartX = x;
+        touchStartY = e.touches[0].clientY;
+        swiping = true;
+      }
+    }, { passive: true });
+
+    document.addEventListener('touchmove', function (e) {
+      if (!swiping) return;
+      var dx = e.touches[0].clientX - touchStartX;
+      var dy = Math.abs(e.touches[0].clientY - touchStartY);
+      if (dy > 40) { swiping = false; return; }
+      if (dx > 60) {
+        swiping = false;
+        openSidebar();
+      }
+    }, { passive: true });
+
+    document.addEventListener('touchend', function () { swiping = false; }, { passive: true });
+  }
+
+  // ── Mobile TOC Bottom Sheet ────────────────────────────────
+  function initMobileToc() {
+    var sheet = qs('#docMobileTocSheet');
+    var closeBtn = qs('#docMobileTocClose');
+    var tocBtn = qs('#docMTbToc');
+    var overlay = qs('#docOverlay');
+    var mobileTocList = qs('#docMobileTocList');
+
+    if (!sheet) return;
+
+    if (tocBtn) tocBtn.addEventListener('click', openMobileToc);
+    if (closeBtn) closeBtn.addEventListener('click', closeMobileToc);
+
+    var handle = qs('#docMobileTocHandle');
+    if (handle) {
+      var startY = 0;
+      handle.addEventListener('touchstart', function (e) {
+        startY = e.touches[0].clientY;
+      }, { passive: true });
+      handle.addEventListener('touchmove', function (e) {
+        var dy = e.touches[0].clientY - startY;
+        if (dy > 80) closeMobileToc();
+      }, { passive: true });
+    }
+
+    // Populate mobile TOC from the same headings
+    var body = qs('#docArticleBody');
+    if (!body || !mobileTocList) return;
+
+    var headings = qsa('h1, h2, h3, h4', body);
+    if (headings.length === 0) return;
+
+    var minLevel = 6;
+    headings.forEach(function (h) {
+      var lvl = parseInt(h.tagName.charAt(1), 10);
+      if (lvl < minLevel) minLevel = lvl;
+    });
+
+    var filtered = headings.filter(function (h) {
+      return parseInt(h.tagName.charAt(1), 10) <= minLevel + 2;
+    });
+
+    filtered.forEach(function (h, i) {
+      if (!h.id) h.id = 'doc-heading-' + i;
+      var lvl = parseInt(h.tagName.charAt(1), 10);
+      var li = document.createElement('li');
+      li.className = 'toc-h' + lvl;
+      var a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        closeMobileToc();
+        setTimeout(function () {
+          var top = h.getBoundingClientRect().top + window.scrollY - 60;
+          window.scrollTo({ top: top, behavior: 'smooth' });
+        }, 200);
+      });
+      li.appendChild(a);
+      mobileTocList.appendChild(li);
+    });
+
+    // Sync active state with scroll
+    var mobileLinks = qsa('a', mobileTocList);
+    function syncMobileActive() {
+      var scrollPos = window.scrollY + 120;
+      var active = filtered[0];
+      for (var i = filtered.length - 1; i >= 0; i--) {
+        if (filtered[i].getBoundingClientRect().top + window.scrollY <= scrollPos) {
+          active = filtered[i];
+          break;
+        }
+      }
+      mobileLinks.forEach(function (l) {
+        l.classList.toggle('active', l.getAttribute('href') === '#' + active.id);
+      });
+    }
+
+    window.addEventListener('scroll', function () {
+      requestAnimationFrame(syncMobileActive);
+    }, { passive: true });
+  }
+
+  function openMobileToc() {
+    var sheet = qs('#docMobileTocSheet');
+    var overlay = qs('#docOverlay');
+    if (sheet) sheet.classList.add('open');
+    if (overlay) overlay.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMobileToc() {
+    var sheet = qs('#docMobileTocSheet');
+    var overlay = qs('#docOverlay');
+    if (sheet) sheet.classList.remove('open');
+    if (overlay) overlay.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+
+  // ── Mobile: Back to Top ────────────────────────────────────
+  function initBackToTop() {
+    var btn = qs('#docMTbTop');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // ── Mobile: Theme Toggle ───────────────────────────────────
+  function initMobileThemeToggle() {
+    var btn = qs('#docMTbTheme');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var html = document.documentElement;
+      var current = html.getAttribute('data-theme') || 'light';
+      var next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      var themeInput = qs('#themeToggleInput');
+      if (themeInput) themeInput.checked = next === 'dark';
+      var icon = btn.querySelector('svg');
+      if (icon) {
+        icon.innerHTML = next === 'dark'
+          ? '<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>'
+          : '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
+      }
+    });
+  }
+
+  // ── Auto-hide header on scroll ─────────────────────────────
+  function initScrollHeader() {
+    var header = qs('.site-header');
+    var tabBar = qs('.doc-tab-bar');
+    if (!header) return;
+
+    var lastScrollY = 0;
+    var ticking = false;
+    var threshold = 60;
+
+    function onScroll() {
+      var currentY = window.scrollY;
+      if (currentY > lastScrollY && currentY > threshold) {
+        header.classList.add('header-hidden');
+        if (tabBar) tabBar.classList.remove('tab-bar-shifted');
+      } else {
+        header.classList.remove('header-hidden');
+        if (tabBar) tabBar.classList.add('tab-bar-shifted');
+      }
+      lastScrollY = currentY;
+    }
+
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        requestAnimationFrame(function () {
+          onScroll();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+
+    // Initial state
+    if (tabBar) tabBar.classList.add('tab-bar-shifted');
+  }
+
+  // ── Scroll hint for overflowing elements ───────────────────
+  function initScrollHints() {
+    if (window.innerWidth > 768) return;
+    var codeBlocks = qsa('.doc-article-body pre code, .doc-article-body table');
+    codeBlocks.forEach(function (el) {
+      if (el.scrollWidth > el.clientWidth + 8) {
+        var hint = document.createElement('span');
+        hint.className = 'doc-scroll-hint visible';
+        hint.textContent = '← 스크롤 →';
+        el.closest('pre, table')?.parentElement?.style && (el.closest('pre') || el.closest('.doc-article-body')).appendChild(hint);
+      }
+    });
   }
 
   // ── Document Search (sidebar) ──────────────────────────────
@@ -481,11 +692,16 @@
     initToc();
     initTabs();
     initSidebar();
+    initMobileToc();
+    initBackToTop();
+    initMobileThemeToggle();
+    initScrollHeader();
     initSearch();
     initPrint();
     initCopySource();
     initGitHistory();
     initListingSearch();
+    initScrollHints();
   }
 
   if (document.readyState === 'loading') {

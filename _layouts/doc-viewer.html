@@ -298,4 +298,36 @@ layout: default
 <!-- Doc Viewer Overlay (mobile sidebar) -->
 <div class="doc-overlay" id="docOverlay"></div>
 
+<!-- Mobile TOC Bottom Sheet -->
+<div class="doc-m-toc-sheet" id="docMobileTocSheet">
+  <div class="doc-m-toc-handle" id="docMobileTocHandle"><span></span></div>
+  <div class="doc-m-toc-head">
+    <h4>목차</h4>
+    <button class="doc-m-toc-close" id="docMobileTocClose" aria-label="닫기">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <ul class="doc-m-toc-list" id="docMobileTocList"></ul>
+</div>
+
+<!-- Mobile Bottom Toolbar -->
+<div class="doc-m-toolbar" id="docMobileToolbar">
+  <button class="doc-m-tb-btn" id="docMTbSidebar" aria-label="문서 목록">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    <span>목록</span>
+  </button>
+  <button class="doc-m-tb-btn" id="docMTbToc" aria-label="목차">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+    <span>목차</span>
+  </button>
+  <button class="doc-m-tb-btn" id="docMTbTop" aria-label="맨 위로">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+    <span>맨위</span>
+  </button>
+  <button class="doc-m-tb-btn" id="docMTbTheme" aria-label="테마 전환">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    <span>테마</span>
+  </button>
+</div>
+
 <script src="{{ '/assets/js/doc-viewer.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
