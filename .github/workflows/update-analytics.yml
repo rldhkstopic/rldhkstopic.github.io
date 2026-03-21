@@ -1,89 +1,89 @@
-name: Update Analytics Data
+# name: Update Analytics Data
 
-on:
-  schedule:
-    # 매 시간마다 실행
-    - cron: '0 * * * *'
-  workflow_dispatch: # 수동 실행 가능
+# on:
+#   schedule:
+#     # 매 시간마다 실행
+#     - cron: '0 * * * *'
+#   workflow_dispatch: # 수동 실행 가능
 
-jobs:
-  update-analytics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+# jobs:
+#   update-analytics:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+#         with:
+#           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Notify workflow started
-        if: always()
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GITHUB_WORKFLOW: ${{ github.workflow }}
-          GITHUB_SERVER_URL: ${{ github.server_url }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          GITHUB_ACTOR: ${{ github.actor }}
-          GITHUB_REF_NAME: ${{ github.ref_name }}
-          GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
-        run: |
-          pip install requests -q
-          python automation/scripts/workflow_notifier.py started || true
+#       - name: Notify workflow started
+#         if: always()
+#         env:
+#           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+#           GITHUB_WORKFLOW: ${{ github.workflow }}
+#           GITHUB_SERVER_URL: ${{ github.server_url }}
+#           GITHUB_REPOSITORY: ${{ github.repository }}
+#           GITHUB_RUN_ID: ${{ github.run_id }}
+#           GITHUB_ACTOR: ${{ github.actor }}
+#           GITHUB_REF_NAME: ${{ github.ref_name }}
+#           GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+#         run: |
+#           pip install requests -q
+#           python automation/scripts/workflow_notifier.py started || true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: '18'
 
-      - name: Install dependencies
-        run: |
-          npm install @google-analytics/data
+#       - name: Install dependencies
+#         run: |
+#           npm install @google-analytics/data
 
-      - name: Fetch GA4 Data
-        env:
-          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
-          GA4_CREDENTIALS: ${{ secrets.GA4_CREDENTIALS }}
-        run: |
-          node automation/scripts/fetch-analytics.js
+#       - name: Fetch GA4 Data
+#         env:
+#           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+#           GA4_CREDENTIALS: ${{ secrets.GA4_CREDENTIALS }}
+#         run: |
+#           node automation/scripts/fetch-analytics.js
 
-      - name: Commit and push
-        run: |
-          VERSION=$(cat VERSION 2>/dev/null || echo v0.0.0)
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add _data/analytics.json assets/analytics.json
-          git diff --staged --quiet || git commit -m "[$VERSION] Update analytics data [skip ci]"
-          git push origin HEAD:main
+#       - name: Commit and push
+#         run: |
+#           VERSION=$(cat VERSION 2>/dev/null || echo v0.0.0)
+#           git config --local user.email "action@github.com"
+#           git config --local user.name "GitHub Action"
+#           git add _data/analytics.json assets/analytics.json
+#           git diff --staged --quiet || git commit -m "[$VERSION] Update analytics data [skip ci]"
+#           git push origin HEAD:main
       
-      - name: Notify workflow success
-        if: success()
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GITHUB_WORKFLOW: ${{ github.workflow }}
-          GITHUB_SERVER_URL: ${{ github.server_url }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          GITHUB_ACTOR: ${{ github.actor }}
-          GITHUB_REF_NAME: ${{ github.ref_name }}
-          GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
-        run: |
-          pip install requests -q
-          python .github/scripts/workflow_notifier.py success || true
+#       - name: Notify workflow success
+#         if: success()
+#         env:
+#           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+#           GITHUB_WORKFLOW: ${{ github.workflow }}
+#           GITHUB_SERVER_URL: ${{ github.server_url }}
+#           GITHUB_REPOSITORY: ${{ github.repository }}
+#           GITHUB_RUN_ID: ${{ github.run_id }}
+#           GITHUB_ACTOR: ${{ github.actor }}
+#           GITHUB_REF_NAME: ${{ github.ref_name }}
+#           GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+#         run: |
+#           pip install requests -q
+#           python .github/scripts/workflow_notifier.py success || true
       
-      - name: Notify workflow failure
-        if: failure()
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GITHUB_WORKFLOW: ${{ github.workflow }}
-          GITHUB_SERVER_URL: ${{ github.server_url }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          GITHUB_ACTOR: ${{ github.actor }}
-          GITHUB_REF_NAME: ${{ github.ref_name }}
-          GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
-        run: |
-          pip install requests -q
-          python .github/scripts/workflow_notifier.py failure || true
+#       - name: Notify workflow failure
+#         if: failure()
+#         env:
+#           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+#           GITHUB_WORKFLOW: ${{ github.workflow }}
+#           GITHUB_SERVER_URL: ${{ github.server_url }}
+#           GITHUB_REPOSITORY: ${{ github.repository }}
+#           GITHUB_RUN_ID: ${{ github.run_id }}
+#           GITHUB_ACTOR: ${{ github.actor }}
+#           GITHUB_REF_NAME: ${{ github.ref_name }}
+#           GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+#         run: |
+#           pip install requests -q
+#           python .github/scripts/workflow_notifier.py failure || true
 
