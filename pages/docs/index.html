@@ -1,0 +1,95 @@
+---
+layout: default
+title: "Docs"
+permalink: /docs/
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/doc-viewer.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<div class="docs-listing">
+  <div class="docs-listing-header">
+    <h1 class="docs-listing-title">기술 문서</h1>
+    <p class="docs-listing-desc">논문, 기술 분석, 연구 자료 등 장편 문서를 열람할 수 있습니다. 각 문서의 변경 이력과 원본 마크다운을 확인할 수 있습니다.</p>
+    <div class="docs-listing-search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="docsListingSearch" placeholder="문서 제목 또는 설명으로 검색...">
+    </div>
+  </div>
+
+  {% assign all_docs = site.docs | sort: 'date' | reverse %}
+  <p class="docs-listing-stats">총 {{ all_docs.size }}개 문서</p>
+
+  {% if all_docs.size > 0 %}
+    {% assign doc_categories = all_docs | map: 'doc_category' | compact | uniq %}
+
+    {% for cat in doc_categories %}
+    <div class="docs-listing-group">
+      <h3 class="docs-listing-group-title">{{ cat }}</h3>
+      <div class="docs-listing-cards">
+        {% assign cat_docs = all_docs | where: 'doc_category', cat %}
+        {% for doc in cat_docs %}
+        <a href="{{ doc.url | relative_url }}" class="docs-card">
+          <div class="docs-card-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <div class="docs-card-content">
+            <h4 class="docs-card-title">{{ doc.title | escape }}</h4>
+            {% if doc.description %}
+            <p class="docs-card-desc">{{ doc.description }}</p>
+            {% endif %}
+            <div class="docs-card-meta">
+              {% if doc.author %}<span>{{ doc.author }}</span>{% endif %}
+              <span>{{ doc.date | date: "%Y.%m.%d" }}</span>
+              {% if doc.version %}<span>v{{ doc.version }}</span>{% endif %}
+            </div>
+            {% if doc.tags and doc.tags.size > 0 %}
+            <div class="docs-card-tags">
+              {% for tag in doc.tags limit: 4 %}
+              <span class="docs-card-tag">#{{ tag }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+    {% assign uncategorized = all_docs | where: 'doc_category', nil %}
+    {% if uncategorized.size > 0 %}
+    <div class="docs-listing-group">
+      <h3 class="docs-listing-group-title">미분류</h3>
+      <div class="docs-listing-cards">
+        {% for doc in uncategorized %}
+        <a href="{{ doc.url | relative_url }}" class="docs-card">
+          <div class="docs-card-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          </div>
+          <div class="docs-card-content">
+            <h4 class="docs-card-title">{{ doc.title | escape }}</h4>
+            {% if doc.description %}
+            <p class="docs-card-desc">{{ doc.description }}</p>
+            {% endif %}
+            <div class="docs-card-meta">
+              {% if doc.author %}<span>{{ doc.author }}</span>{% endif %}
+              <span>{{ doc.date | date: "%Y.%m.%d" }}</span>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+  {% else %}
+    <div class="docs-empty">
+      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      <p>아직 등록된 문서가 없습니다.</p>
+    </div>
+  {% endif %}
+</div>
+
+<script src="{{ '/assets/js/doc-viewer.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
