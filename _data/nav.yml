@@ -1,0 +1,19 @@
+# 상단 네비게이션 항목
+# 데스크톱 헤더와 모바일 드로어가 이 목록을 함께 사용한다.
+# 메뉴를 추가/변경할 때는 이 파일만 고치면 양쪽에 반영된다.
+- title: 홈
+  url: /
+- title: 블로그
+  url: /blog/
+- title: 개발
+  url: /dev/
+- title: 문서
+  url: /document/
+- title: 일기
+  url: /daily/
+- title: 학습
+  url: /study/
+- title: 주식
+  url: /stock/
+- title: 프로젝트
+  url: /project/

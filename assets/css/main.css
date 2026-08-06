@@ -5737,3 +5737,244 @@ article div[role="doc-endnotes"] {
 .dev-explorer-group + .dev-explorer-group {
   margin-top: 0.15rem;
 }
+
+/* ==========================================================================
+   모바일 대응 (2026-08)
+   1) 홈 히어로 카드가 폰에서 1열로 접히도록 수정
+   2) 모바일 네비게이션 드로어(햄버거) 추가
+   ========================================================================== */
+
+/* --- 1. 홈 히어로 카드 모바일 레이아웃 ---------------------------------- */
+/* 문제: .profile-card-head 가 `1fr auto` 2열 그리드인데, 우측 기여도 차트에
+   width:11rem 고정이 걸려 있어 390px 화면에서 좌측 1fr 이 10px 로 짓눌렸다.
+   제목이 한 줄에 한 글자씩 끊기고, 차트는 height:100% 때문에 세로로 늘어났다. */
+@media (max-width: 768px) {
+  .profile-card-head {
+    grid-template-columns: 1fr;   /* 2열 → 1열 */
+    gap: 0.75rem;
+  }
+
+  .profile-card-head-col2 {
+    align-items: stretch;
+  }
+
+  /* 우측 행: 데스크톱의 세로 늘림(stretch)·우측 정렬 해제 */
+  .profile-head-right-row {
+    min-height: 0;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* 기여도 차트 컨테이너: 11rem 고정폭 해제 */
+  .profile-card-head-col2 .profile-contributions-link.profile-contributions-head {
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    align-self: auto;
+  }
+
+  /* 차트 이미지: height:100% 로 인한 세로 늘어남 차단 */
+  .profile-card-head-col2 .profile-contributions-head .profile-contributions-chart {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  /* 프로필 링크 아이콘: 세로 스택 → 가로 배치 */
+  .profile-card-head-col2 .profile-card-links {
+    flex-direction: row;
+  }
+
+  /* 방문자 통계가 좁은 폭에서 글자 단위로 끊기지 않도록 */
+  .profile-meta-row,
+  .profile-stats-row {
+    flex-wrap: wrap;
+  }
+  .profile-stats-row > * {
+    white-space: nowrap;
+  }
+}
+
+/* --- 2. 모바일 네비게이션 드로어 ---------------------------------------- */
+/* 기존에는 768px 이하에서 .nav-links 를 display:none 으로 숨기기만 하고
+   대체 수단이 없어서, 폰에서 메뉴 8개에 접근할 방법이 아예 없었다. */
+
+/* 햄버거 버튼: 데스크톱에서는 숨김 */
+.nav-menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  cursor: pointer;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.nav-menu-toggle:hover {
+  background: var(--bg-secondary);
+}
+.nav-menu-toggle-bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 18px;
+}
+.nav-menu-toggle-bars > span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+/* 열린 상태: 위/아래 막대를 X 로 */
+.nav-menu-toggle[aria-expanded="true"] .nav-menu-toggle-bars > span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.nav-menu-toggle[aria-expanded="true"] .nav-menu-toggle-bars > span:nth-child(2) {
+  opacity: 0;
+}
+.nav-menu-toggle[aria-expanded="true"] .nav-menu-toggle-bars > span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* 드로어 본체: 기본은 화면 밖 (데스크톱에서는 아예 숨김) */
+.nav-drawer {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  width: min(78vw, 300px);
+  height: 100dvh;
+  padding: 0.75rem;
+  background: var(--bg-primary);
+  border-left: 1px solid var(--border-color);
+  box-shadow: -8px 0 24px rgba(0, 0, 0, 0.10);
+  transform: translateX(100%);
+  /* 닫혀 있을 때 탭 순서에서 빠지도록 visibility 로 감춘다.
+     transform 만으로는 화면 밖 링크에 키보드 포커스가 들어간다. */
+  visibility: hidden;
+  transition: transform 0.24s ease, visibility 0s linear 0.24s;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.nav-drawer.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform 0.24s ease, visibility 0s;
+}
+
+.nav-drawer-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  background: rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  pointer-events: none;   /* 닫혀 있을 때 클릭을 가로채지 않도록 */
+  transition: opacity 0.24s ease;
+}
+.nav-drawer-backdrop.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-drawer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 0.5rem;
+}
+.nav-drawer-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.nav-drawer-close {
+  border: none;
+  background: none;
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0 0.25rem;
+  -webkit-tap-highlight-color: transparent;
+}
+.nav-drawer-close:hover {
+  color: var(--text-primary);
+}
+
+.nav-drawer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+.nav-drawer-link {
+  display: block;
+  padding: 0.85rem 0.75rem;   /* 손가락으로 누를 수 있는 크기 */
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+.nav-drawer-link:hover {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+.nav-drawer-link-active {
+  background: var(--accent-light);
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* 현재 페이지 표시 (데스크톱 상단 네비) */
+.nav-link-active {
+  color: var(--accent-color);
+  background: var(--bg-secondary);
+}
+
+/* 768px 이하에서만 햄버거/드로어 활성화 */
+@media (max-width: 768px) {
+  .nav-menu-toggle {
+    display: inline-flex;
+  }
+  .nav-drawer,
+  .nav-drawer-backdrop {
+    display: block;
+  }
+}
+
+/* 드로어 열렸을 때 본문 스크롤 잠금 */
+body.nav-drawer-open {
+  overflow: hidden;
+}
+
+/* 다크 모드 */
+[data-theme="dark"] .nav-drawer {
+  box-shadow: -8px 0 24px rgba(0, 0, 0, 0.45);
+}
+[data-theme="dark"] .nav-drawer-backdrop {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* 모션 최소화 설정 존중 */
+@media (prefers-reduced-motion: reduce) {
+  .nav-drawer,
+  .nav-drawer-backdrop,
+  .nav-menu-toggle-bars > span {
+    transition: none;
+  }
+}

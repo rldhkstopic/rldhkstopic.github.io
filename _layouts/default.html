@@ -64,15 +64,16 @@
         <a class="site-title" href="{{ '/' | relative_url }}">DevLogs</a>
         <nav class="site-nav">
           <div class="nav-links">
-            <a class="nav-link" href="{{ '/' | relative_url }}">홈</a>
-            <a class="nav-link" href="/blog/">블로그</a>
-            <a class="nav-link" href="/dev/">개발</a>
-            <a class="nav-link" href="/document/">문서</a>
-            <a class="nav-link" href="/daily/">일기</a>
-            <a class="nav-link" href="/study/">학습</a>
-            <a class="nav-link" href="/stock/">주식</a>
-            <a class="nav-link" href="/project/">프로젝트</a>
+            {% for item in site.data.nav %}
+            <a class="nav-link{% if page.url == item.url %} nav-link-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endfor %}
           </div>
+          <button type="button" class="nav-menu-toggle" id="navMenuToggle"
+                  aria-label="메뉴 열기" aria-expanded="false" aria-controls="navDrawer">
+            <span class="nav-menu-toggle-bars" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </span>
+          </button>
           <div class="trigger" style="position: relative;">
             <!-- 라이트/다크 모드 토글 -->
             <label class="switch theme-toggle" aria-label="테마 전환">
@@ -137,6 +138,20 @@
       </div>
     </header>
 
+    <!-- 모바일 네비게이션 드로어 (768px 이하에서만 노출) -->
+    <div class="nav-drawer-backdrop" id="navDrawerBackdrop"></div>
+    <nav class="nav-drawer" id="navDrawer" aria-label="모바일 메뉴" aria-hidden="true">
+      <div class="nav-drawer-head">
+        <span class="nav-drawer-title">메뉴</span>
+        <button type="button" class="nav-drawer-close" id="navDrawerClose" aria-label="메뉴 닫기">&times;</button>
+      </div>
+      <div class="nav-drawer-links">
+        {% for item in site.data.nav %}
+        <a class="nav-drawer-link{% if page.url == item.url %} nav-drawer-link-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endfor %}
+      </div>
+    </nav>
+
     <main class="page-content lobehub-main">
       <div class="wrapper content-wrapper{% if page.url == '/' or page.url == '/index.html' %} content-wrapper-with-hero{% endif %}">
         {{ content }}
@@ -151,6 +166,9 @@
     </footer>
     {% endunless %}
     
+    <!-- 모바일 네비게이션 드로어 -->
+    <script src="{{ '/assets/js/nav-drawer.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+
     <!-- Prism.js for syntax highlighting -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
