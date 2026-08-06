@@ -1,0 +1,47 @@
+{
+  "name": "DevLogs — rldhkstopic",
+  "short_name": "DevLogs",
+  "description": "FPGA·VHDL 개발 노트와 일상 기록",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4285F4",
+  "categories": ["productivity", "education"],
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "개발 위키",
+      "short_name": "개발",
+      "description": "VHDL·C#·Vivado 오류 해결과 문법 레퍼런스",
+      "url": "/dev/?source=pwa-shortcut"
+    },
+    {
+      "name": "일기",
+      "short_name": "일기",
+      "description": "일상 기록",
+      "url": "/daily/?source=pwa-shortcut"
+    }
+  ]
+}

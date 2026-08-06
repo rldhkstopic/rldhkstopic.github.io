@@ -10,6 +10,16 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
     <link rel="alternate icon" href="{{ '/assets/favicon.svg' | relative_url }}">
+
+    <!-- PWA: 홈화면 설치 + 오프라인 열람 -->
+    <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
+    <meta name="theme-color" content="#4285F4" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1A1A1A" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="{{ '/assets/icons/apple-touch-icon.png' | relative_url }}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="DevLogs">
     
     <!-- Cache busting to avoid stale CSS on mobile/CDN -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
@@ -168,6 +178,9 @@
     
     <!-- 모바일 네비게이션 드로어 -->
     <script src="{{ '/assets/js/nav-drawer.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+
+    <!-- PWA 서비스 워커 등록 -->
+    <script src="{{ '/assets/js/pwa.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
     <!-- Prism.js for syntax highlighting -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
