@@ -17,8 +17,9 @@ class TopicCollectorAgent:
     """주제 수집 에이전트"""
     
     def __init__(self):
+        # 경제·주식 뉴스(Bloomberg RSS)는 주제 소스에서 제외한다.
+        # 수집 메서드 자체는 남겨두었으나 기본 파이프라인에서는 호출하지 않는다.
         self.sources = [
-            self._collect_bloomberg_yesterday_digest,
             self._collect_tech_news,
             self._collect_hackernews,
             self._generate_trending_topic,

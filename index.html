@@ -94,656 +94,132 @@ layout: default
     </div>
   </header>
 
-  <div class="tab-panels">
-    <!-- 개요: 카드 그리드 (블로그 소개·빠른이동·최신글) -->
-    <div class="tab-panel active" data-panel="overview" role="tabpanel">
-      <div class="tab-panel-content overview-panel">
-        <div class="overview-layout">
-          <!-- 왼쪽: 메인 (전체글 = 모든 카테고리 최신글 / 카테고리별 문서 목록) -->
-          <section class="overview-main">
-            {% assign all_posts = site.posts %}
-            {% assign doc_total_count = all_posts.size %}
-            <div class="overview-document-section" id="overview-document-section">
-              <header class="overview-document-header">
-                <h2 class="overview-document-title">전체글 {{ doc_total_count }}건</h2>
-                <div class="overview-document-sort" aria-label="정렬 방식">
-                  <label for="document-sort-select" class="overview-document-sort-label">정렬</label>
-                  <select id="document-sort-select" class="overview-document-sort-select" aria-label="정렬 방식 선택">
-                    <option value="date-desc" selected>최신순</option>
-                    <option value="date-asc">오래된순</option>
-                    <option value="title">제목순</option>
-                  </select>
-                </div>
-              </header>
-              <ul class="overview-document-list tab-panel-post-list" id="overview-document-list">
-                {% assign doc_visible_index = 0 %}
-                {% for post in all_posts %}
-                  {% assign doc_visible_index = doc_visible_index | plus: 1 %}
-                  <li class="tab-panel-card js-document-item {% if doc_visible_index > 10 %}overview-document-item-hidden{% endif %}" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                    <article class="overview-doc-card">
-                      <div class="overview-doc-breadcrumb">
-                        <span class="overview-doc-breadcrumb-item">
-                          <a href="{{ '/' | relative_url }}">Home</a>
-                        </span>
-                        <span class="overview-doc-breadcrumb-sep">/</span>
-                        {% assign main_cat = post.category | default: 'document' %}
-                        <span class="overview-doc-breadcrumb-item">
-                          {% case main_cat %}
-                          {% when 'dev' %}Dev
-                          {% when 'daily' %}Daily
-                          {% when 'study' %}Study
-                          {% when 'project' %}Project
-                          {% else %}Document
-                          {% endcase %}
-                        </span>
-                        {% if post.subcategory %}
-                          <span class="overview-doc-breadcrumb-sep">/</span>
-                          <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">{{ post.subcategory }}</span>
-                        {% endif %}
-                      </div>
-                      <div class="overview-doc-main">
-                        <h3 class="overview-doc-title">
-                          <a class="overview-doc-title-link" href="{{ post.url | relative_url }}" data-post-date="{{ post.date | date_to_xmlschema }}">
-                            {{ post.title | escape }}
-                          </a>
-                        </h3>
-                        <p class="overview-doc-excerpt">
-                          {% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}
-                        </p>
-                        <div class="overview-doc-meta-row">
-                          <span class="overview-doc-meta-item">{{ post.subcategory | default: post.category | default: "문서" }}</span>
-                          {% if post.tags and post.tags.size > 0 %}
-                            <div class="overview-doc-tags">
-                              {% for tag in post.tags limit: 2 %}
-                                <span class="overview-doc-tag">#{{ tag }}</span>
-                              {% endfor %}
-                            </div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </article>
-                  </li>
-                {% endfor %}
-                {% if doc_total_count == 0 %}
-                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
-                {% endif %}
-              </ul>
-              {% if doc_total_count > 10 %}
-              {% assign doc_remaining = doc_total_count | minus: 10 %}
-              <div class="overview-document-more-wrap">
-                <button type="button" class="overview-document-more-btn" id="document-more-btn" aria-haspopup="dialog" aria-expanded="false">더보기 ({{ doc_remaining }}건)</button>
-              </div>
-              {% endif %}
-            </div>
-            <!-- 문서 더보기 모달 (JS로 내용 채움) -->
-            <div id="document-more-modal" class="document-more-modal" role="dialog" aria-modal="true" aria-labelledby="document-more-modal-title" aria-hidden="true">
-              <div class="document-more-modal-backdrop"></div>
-              <div class="document-more-modal-content">
-                <div class="document-more-modal-header">
-                  <h3 id="document-more-modal-title" class="document-more-modal-title">문서 전체</h3>
-                  <div class="document-more-modal-sort">
-                    <label for="document-more-sort-select" class="overview-document-sort-label">정렬</label>
-                    <select id="document-more-sort-select" class="overview-document-sort-select" data-modal="1" aria-label="정렬 방식 선택">
-                      <option value="date-desc" selected>최신순</option>
-                      <option value="date-asc">오래된순</option>
-                      <option value="title">제목순</option>
-                    </select>
-                  </div>
-                  <button type="button" class="document-more-modal-close" aria-label="닫기">닫기</button>
-                </div>
-                <div class="document-more-modal-body">
-                  <ul class="overview-document-list tab-panel-post-list" id="document-more-modal-list"></ul>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- 오른쪽: 미니 카드 (Explorer, 경제뉴스) -->
-          <aside class="overview-sidebar">
-            {% include overview-sidebar.html %}
-          </aside>
+  {% comment %}
+    홈 대시보드 — 두 축(개발 / 기록)
+    역순 블로그 목록 대신 "지금 어떤 상태인가"를 먼저 보여준다.
+    기록 카드의 연속일수·이번 달 집계는 아래 JSON 을 읽어 JS 가 계산한다.
+    (Liquid 로는 연속 날짜 판정이 어렵고, 이 데이터가 나중에 게임 레이어의 입력이 된다)
+  {% endcomment %}
+
+  {% assign daily_posts = site.categories.daily | sort: 'date' | reverse %}
+  {% assign dev_posts = site.categories.dev | sort: 'date' | reverse %}
+  {% assign project_posts = site.categories.project | sort: 'date' | reverse %}
+  {% assign study_posts = site.categories.study | sort: 'date' | reverse %}
+
+  <script type="application/json" id="daily-log-dates">
+    [{% for post in daily_posts %}"{{ post.date | date: '%Y-%m-%d' }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
+  </script>
+
+  <div class="home-dash">
+
+    <!-- ── 기록 ─────────────────────────────────────────────── -->
+    <section class="dash-card dash-card-record" aria-labelledby="dash-record-title">
+      <header class="dash-card-head">
+        <h2 class="dash-card-title" id="dash-record-title">
+          <span class="dash-card-icon" aria-hidden="true">🌱</span>기록
+        </h2>
+        <a class="dash-card-more" href="{{ '/daily/' | relative_url }}">전체 보기</a>
+      </header>
+
+      <div class="dash-stats">
+        <div class="dash-stat">
+          <span class="dash-stat-value" id="record-streak">–</span>
+          <span class="dash-stat-label">연속</span>
+        </div>
+        <div class="dash-stat">
+          <span class="dash-stat-value" id="record-month">–</span>
+          <span class="dash-stat-label">이번 달</span>
+        </div>
+        <div class="dash-stat">
+          <span class="dash-stat-value">{{ daily_posts.size }}</span>
+          <span class="dash-stat-label">전체</span>
         </div>
       </div>
-    </div>
 
-    <!-- 일기: overview-main 레이아웃 + 문서형 카드 목록 -->
-    <div class="tab-panel" data-panel="daily" role="tabpanel" hidden>
-      <div class="tab-panel-content overview-panel">
-        <div class="overview-layout">
-          <section class="overview-main">
-            {% assign daily_posts = site.categories.daily %}
-            <div class="overview-document-section" id="category-daily-section">
-              <header class="overview-document-header">
-                <h2 class="overview-document-title">일기 {{ daily_posts.size }}건</h2>
-                <div class="overview-document-sort" aria-label="정렬 방식">
-                  <label for="category-daily-sort" class="overview-document-sort-label">정렬</label>
-                  <select id="category-daily-sort" class="overview-document-sort-select" aria-label="정렬 방식 선택">
-                    <option value="date-desc" selected>최신순</option>
-                    <option value="date-asc">오래된순</option>
-                    <option value="title">제목순</option>
-                  </select>
-                </div>
-              </header>
-              <ul class="overview-document-list tab-panel-post-list" id="category-daily-list">
-                {% for post in daily_posts %}
-                  <li class="tab-panel-card js-document-item" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                    <article class="overview-doc-card">
-                      <div class="overview-doc-breadcrumb">
-                        <span class="overview-doc-breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></span>
-                        <span class="overview-doc-breadcrumb-sep">/</span>
-                        <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">일기</span>
-                      </div>
-                      <div class="overview-doc-main">
-                        <h3 class="overview-doc-title"><a class="overview-doc-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-                        <p class="overview-doc-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}</p>
-                        <div class="overview-doc-meta-row">
-                          <span class="overview-doc-meta-item">일기</span>
-                          {% if post.tags and post.tags.size > 0 %}
-                            <div class="overview-doc-tags">{% for tag in post.tags limit: 2 %}<span class="overview-doc-tag">#{{ tag }}</span>{% endfor %}</div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </article>
-                  </li>
-                {% endfor %}
-                {% if daily_posts.size == 0 %}
-                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
-                {% endif %}
-              </ul>
-            </div>
-          </section>
-          <aside class="overview-sidebar">{% include overview-sidebar.html %}</aside>
-        </div>
-      </div>
-    </div>
+      <p class="dash-nudge" id="record-nudge">기록을 불러오는 중…</p>
 
-    <!-- 개발: overview-main 레이아웃 + 문서형 카드 목록 -->
-    <div class="tab-panel" data-panel="dev" role="tabpanel" hidden>
-      <div class="tab-panel-content overview-panel">
-        <div class="overview-layout">
-          <section class="overview-main">
-            {% assign dev_posts = site.categories.dev %}
-            <div class="overview-document-section" id="category-dev-section">
-              <header class="overview-document-header">
-                <h2 class="overview-document-title">개발 {{ dev_posts.size }}건</h2>
-                <div class="overview-document-sort" aria-label="정렬 방식">
-                  <label for="category-dev-sort" class="overview-document-sort-label">정렬</label>
-                  <select id="category-dev-sort" class="overview-document-sort-select" aria-label="정렬 방식 선택">
-                    <option value="date-desc" selected>최신순</option>
-                    <option value="date-asc">오래된순</option>
-                    <option value="title">제목순</option>
-                  </select>
-                </div>
-              </header>
-              <ul class="overview-document-list tab-panel-post-list" id="category-dev-list">
-                {% for post in dev_posts %}
-                  <li class="tab-panel-card js-document-item" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                    <article class="overview-doc-card">
-                      <div class="overview-doc-breadcrumb">
-                        <span class="overview-doc-breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></span>
-                        <span class="overview-doc-breadcrumb-sep">/</span>
-                        <span class="overview-doc-breadcrumb-item">Dev</span>
-                        {% if post.subcategory %}
-                          <span class="overview-doc-breadcrumb-sep">/</span>
-                          <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">{{ post.subcategory }}</span>
-                        {% endif %}
-                      </div>
-                      <div class="overview-doc-main">
-                        <h3 class="overview-doc-title"><a class="overview-doc-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-                        <p class="overview-doc-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}</p>
-                        <div class="overview-doc-meta-row">
-                          <span class="overview-doc-meta-item">{{ post.subcategory | default: "개발" }}</span>
-                          {% if post.tags and post.tags.size > 0 %}
-                            <div class="overview-doc-tags">{% for tag in post.tags limit: 2 %}<span class="overview-doc-tag">#{{ tag }}</span>{% endfor %}</div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </article>
-                  </li>
-                {% endfor %}
-                {% if dev_posts.size == 0 %}
-                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
-                {% endif %}
-              </ul>
-            </div>
-          </section>
-          <aside class="overview-sidebar">{% include overview-sidebar.html %}</aside>
-        </div>
-      </div>
-    </div>
+      {% if daily_posts.size > 0 %}
+        <ul class="dash-list">
+          {% for post in daily_posts limit: 4 %}
+            <li class="dash-list-item">
+              <a class="dash-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              <span class="dash-list-date">{{ post.date | date: '%m.%d' }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="dash-empty">아직 기록이 없습니다.</p>
+      {% endif %}
+    </section>
 
-    <!-- VHDL: overview-main 레이아웃 + 문서형 카드 목록 -->
-    <div class="tab-panel" data-panel="vhdl" role="tabpanel" hidden>
-      <div class="tab-panel-content overview-panel">
-        <div class="overview-layout">
-          <section class="overview-main">
-            {% assign vhdl_posts = site.posts | where: "category", "dev" | where: "subcategory", "VHDL" %}
-            <div class="overview-document-section" id="category-vhdl-section">
-              <header class="overview-document-header">
-                <h2 class="overview-document-title">VHDL {{ vhdl_posts.size }}건</h2>
-                <div class="overview-document-sort" aria-label="정렬 방식">
-                  <label for="category-vhdl-sort" class="overview-document-sort-label">정렬</label>
-                  <select id="category-vhdl-sort" class="overview-document-sort-select" aria-label="정렬 방식 선택">
-                    <option value="date-desc" selected>최신순</option>
-                    <option value="date-asc">오래된순</option>
-                    <option value="title">제목순</option>
-                  </select>
-                </div>
-              </header>
-              <ul class="overview-document-list tab-panel-post-list" id="category-vhdl-list">
-                {% for post in vhdl_posts %}
-                  <li class="tab-panel-card js-document-item" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                    <article class="overview-doc-card">
-                      <div class="overview-doc-breadcrumb">
-                        <span class="overview-doc-breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></span>
-                        <span class="overview-doc-breadcrumb-sep">/</span>
-                        <span class="overview-doc-breadcrumb-item">Dev</span>
-                        <span class="overview-doc-breadcrumb-sep">/</span>
-                        <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">VHDL</span>
-                      </div>
-                      <div class="overview-doc-main">
-                        <h3 class="overview-doc-title"><a class="overview-doc-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-                        <p class="overview-doc-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}</p>
-                        <div class="overview-doc-meta-row">
-                          <span class="overview-doc-meta-item">VHDL</span>
-                          {% if post.tags and post.tags.size > 0 %}
-                            <div class="overview-doc-tags">{% for tag in post.tags limit: 2 %}<span class="overview-doc-tag">#{{ tag }}</span>{% endfor %}</div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </article>
-                  </li>
-                {% endfor %}
-                {% if vhdl_posts.size == 0 %}
-                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
-                {% endif %}
-              </ul>
-            </div>
-          </section>
-          <aside class="overview-sidebar">{% include overview-sidebar.html %}</aside>
-        </div>
-      </div>
-    </div>
+    <!-- ── 개발 ─────────────────────────────────────────────── -->
+    <section class="dash-card dash-card-dev" aria-labelledby="dash-dev-title">
+      <header class="dash-card-head">
+        <h2 class="dash-card-title" id="dash-dev-title">
+          <span class="dash-card-icon" aria-hidden="true">⚙️</span>개발
+        </h2>
+        <a class="dash-card-more" href="{{ '/dev/' | relative_url }}">전체 보기</a>
+      </header>
 
-    <!-- 문서: overview-main 레이아웃 + 문서형 카드 목록 (경제 제외) -->
-    <div class="tab-panel" data-panel="document" role="tabpanel" hidden>
-      <div class="tab-panel-content overview-panel">
-        <div class="overview-layout">
-          <section class="overview-main">
-            {% assign document_tab_posts = site.categories.document %}
-            {% assign doc_tab_count = 0 %}
-            {% for p in document_tab_posts %}
-              {% assign is_economy = false %}
-              {% if p.title contains "전일 경제" or p.title contains "경제 뉴스" or p.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
-              {% unless is_economy %}{% assign doc_tab_count = doc_tab_count | plus: 1 %}{% endunless %}
+      <nav class="dash-quick" aria-label="개발 문서 바로가기">
+        <a class="dash-quick-link" href="{{ '/dev/vhdl/errors/' | relative_url }}">VHDL 오류 해결</a>
+        <a class="dash-quick-link" href="{{ '/dev/vhdl/syntax/' | relative_url }}">VHDL 문법</a>
+        <a class="dash-quick-link" href="{{ '/dev/vivado/troubleshooting/' | relative_url }}">Vivado</a>
+        <a class="dash-quick-link" href="{{ '/dev/csharp/' | relative_url }}">C#</a>
+      </nav>
+
+      {% if dev_posts.size > 0 %}
+        <ul class="dash-list">
+          {% for post in dev_posts limit: 5 %}
+            <li class="dash-list-item">
+              <a class="dash-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              <span class="dash-list-date">{{ post.date | date: '%m.%d' }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="dash-empty">아직 노트가 없습니다.</p>
+      {% endif %}
+    </section>
+
+    <!-- ── 프로젝트 ─────────────────────────────────────────── -->
+    <section class="dash-card dash-card-project" aria-labelledby="dash-project-title">
+      <header class="dash-card-head">
+        <h2 class="dash-card-title" id="dash-project-title">
+          <span class="dash-card-icon" aria-hidden="true">📁</span>프로젝트
+        </h2>
+        <a class="dash-card-more" href="{{ '/project/' | relative_url }}">전체 보기</a>
+      </header>
+
+      {% if project_posts.size > 0 %}
+        <ul class="dash-list">
+          {% for post in project_posts limit: 5 %}
+            <li class="dash-list-item">
+              <a class="dash-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              <span class="dash-list-date">{{ post.date | date: '%m.%d' }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="dash-empty">아직 프로젝트 문서가 없습니다.</p>
+      {% endif %}
+
+      {% if study_posts.size > 0 %}
+        <div class="dash-sub">
+          <h3 class="dash-sub-title">학습</h3>
+          <ul class="dash-list">
+            {% for post in study_posts limit: 3 %}
+              <li class="dash-list-item">
+                <a class="dash-list-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                <span class="dash-list-date">{{ post.date | date: '%m.%d' }}</span>
+              </li>
             {% endfor %}
-            <div class="overview-document-section" id="category-document-section">
-              <header class="overview-document-header">
-                <h2 class="overview-document-title">문서 {{ doc_tab_count }}건</h2>
-                <div class="overview-document-sort" aria-label="정렬 방식">
-                  <label for="category-document-sort" class="overview-document-sort-label">정렬</label>
-                  <select id="category-document-sort" class="overview-document-sort-select" aria-label="정렬 방식 선택">
-                    <option value="date-desc" selected>최신순</option>
-                    <option value="date-asc">오래된순</option>
-                    <option value="title">제목순</option>
-                  </select>
-                </div>
-              </header>
-              <ul class="overview-document-list tab-panel-post-list" id="category-document-list">
-                {% for post in document_tab_posts %}
-                  {% assign is_economy = false %}
-                  {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
-                  {% unless is_economy %}
-                    <li class="tab-panel-card js-document-item" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                      <article class="overview-doc-card">
-                        <div class="overview-doc-breadcrumb">
-                          <span class="overview-doc-breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></span>
-                          <span class="overview-doc-breadcrumb-sep">/</span>
-                          <span class="overview-doc-breadcrumb-item">Document</span>
-                          {% if post.subcategory %}
-                            <span class="overview-doc-breadcrumb-sep">/</span>
-                            <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">{{ post.subcategory }}</span>
-                          {% endif %}
-                        </div>
-                        <div class="overview-doc-main">
-                          <h3 class="overview-doc-title"><a class="overview-doc-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-                          <p class="overview-doc-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}</p>
-                          <div class="overview-doc-meta-row">
-                            <span class="overview-doc-meta-item">{{ post.subcategory | default: "문서" }}</span>
-                            {% if post.tags and post.tags.size > 0 %}
-                              <div class="overview-doc-tags">{% for tag in post.tags limit: 2 %}<span class="overview-doc-tag">#{{ tag }}</span>{% endfor %}</div>
-                            {% endif %}
-                          </div>
-                        </div>
-                      </article>
-                    </li>
-                  {% endunless %}
-                {% endfor %}
-                {% if doc_tab_count == 0 %}
-                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
-                {% endif %}
-              </ul>
-            </div>
-          </section>
-          <aside class="overview-sidebar">{% include overview-sidebar.html %}</aside>
+          </ul>
         </div>
-      </div>
-    </div>
+      {% endif %}
+    </section>
 
-    <!-- 학습: overview-main 레이아웃 + 문서형 카드 목록 -->
-    <div class="tab-panel" data-panel="study" role="tabpanel" hidden>
-      <div class="tab-panel-content overview-panel">
-        <div class="overview-layout">
-          <section class="overview-main">
-            {% assign study_posts = site.categories.study %}
-            <div class="overview-document-section" id="category-study-section">
-              <header class="overview-document-header">
-                <h2 class="overview-document-title">학습 {{ study_posts.size }}건</h2>
-                <div class="overview-document-sort" aria-label="정렬 방식">
-                  <label for="category-study-sort" class="overview-document-sort-label">정렬</label>
-                  <select id="category-study-sort" class="overview-document-sort-select" aria-label="정렬 방식 선택">
-                    <option value="date-desc" selected>최신순</option>
-                    <option value="date-asc">오래된순</option>
-                    <option value="title">제목순</option>
-                  </select>
-                </div>
-              </header>
-              <ul class="overview-document-list tab-panel-post-list" id="category-study-list">
-                {% for post in study_posts %}
-                  <li class="tab-panel-card js-document-item" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                    <article class="overview-doc-card">
-                      <div class="overview-doc-breadcrumb">
-                        <span class="overview-doc-breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></span>
-                        <span class="overview-doc-breadcrumb-sep">/</span>
-                        <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">학습</span>
-                      </div>
-                      <div class="overview-doc-main">
-                        <h3 class="overview-doc-title"><a class="overview-doc-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-                        <p class="overview-doc-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}</p>
-                        <div class="overview-doc-meta-row">
-                          <span class="overview-doc-meta-item">학습</span>
-                          {% if post.tags and post.tags.size > 0 %}
-                            <div class="overview-doc-tags">{% for tag in post.tags limit: 2 %}<span class="overview-doc-tag">#{{ tag }}</span>{% endfor %}</div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </article>
-                  </li>
-                {% endfor %}
-                {% if study_posts.size == 0 %}
-                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
-                {% endif %}
-              </ul>
-            </div>
-          </section>
-          <aside class="overview-sidebar">{% include overview-sidebar.html %}</aside>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- 프로젝트: overview-main 레이아웃 + 문서형 카드 목록 -->
-    <div class="tab-panel" data-panel="project" role="tabpanel" hidden>
-      <div class="tab-panel-content overview-panel">
-        <div class="overview-layout">
-          <section class="overview-main">
-            {% assign project_posts = site.categories.project %}
-            <div class="overview-document-section" id="category-project-section">
-              <header class="overview-document-header">
-                <h2 class="overview-document-title">프로젝트 {{ project_posts.size }}건</h2>
-                <div class="overview-document-sort" aria-label="정렬 방식">
-                  <label for="category-project-sort" class="overview-document-sort-label">정렬</label>
-                  <select id="category-project-sort" class="overview-document-sort-select" aria-label="정렬 방식 선택">
-                    <option value="date-desc" selected>최신순</option>
-                    <option value="date-asc">오래된순</option>
-                    <option value="title">제목순</option>
-                  </select>
-                </div>
-              </header>
-              <ul class="overview-document-list tab-panel-post-list" id="category-project-list">
-                {% for post in project_posts %}
-                  <li class="tab-panel-card js-document-item" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                    <article class="overview-doc-card">
-                      <div class="overview-doc-breadcrumb">
-                        <span class="overview-doc-breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></span>
-                        <span class="overview-doc-breadcrumb-sep">/</span>
-                        <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">프로젝트</span>
-                      </div>
-                      <div class="overview-doc-main">
-                        <h3 class="overview-doc-title"><a class="overview-doc-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-                        <p class="overview-doc-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}</p>
-                        <div class="overview-doc-meta-row">
-                          <span class="overview-doc-meta-item">프로젝트</span>
-                          {% if post.tags and post.tags.size > 0 %}
-                            <div class="overview-doc-tags">{% for tag in post.tags limit: 2 %}<span class="overview-doc-tag">#{{ tag }}</span>{% endfor %}</div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </article>
-                  </li>
-                {% endfor %}
-                {% if project_posts.size == 0 %}
-                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
-                {% endif %}
-              </ul>
-            </div>
-          </section>
-          <aside class="overview-sidebar">{% include overview-sidebar.html %}</aside>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
-<script>
-  // 카테고리 탭: 같은 페이지에서 탭 전환 시 해당 패널만 표시 (개요만 로컬 전환, 나머지는 링크)
-  (function() {
-    function initCategoryTabs() {
-      var tabs = document.querySelectorAll('.category-tab');
-      var panels = document.querySelectorAll('.tab-panel');
-      if (!tabs.length || !panels.length) return;
-
-      tabs.forEach(function(tab) {
-        var isLink = tab.tagName === 'A';
-        var tabId = tab.getAttribute('data-tab');
-        if (!tabId) return;
-        tab.setAttribute('role', 'tab');
-
-        tab.addEventListener('click', function(e) {
-          if (isLink) e.preventDefault();
-          setActiveTab(tabId);
-          setActivePanel(tabId);
-          history.replaceState({ tab: tabId }, '', tabId === 'overview' ? window.location.pathname : '#' + tabId);
-        });
-      });
-
-      function setActiveTab(id) {
-        tabs.forEach(function(t) {
-          var active = t.getAttribute('data-tab') === id;
-          t.classList.toggle('active', active);
-          t.setAttribute('aria-selected', active ? 'true' : 'false');
-        });
-      }
-      function setActivePanel(id) {
-        panels.forEach(function(p) {
-          var match = p.getAttribute('data-panel') === id;
-          p.classList.toggle('active', match);
-          p.hidden = !match;
-        });
-      }
-
-      // 초기: URL 해시 또는 개요
-      var hash = (window.location.hash || '').replace(/^#/, '');
-      var validIds = ['overview', 'daily', 'dev', 'vhdl', 'document', 'study', 'project'];
-      var initial = validIds.indexOf(hash) >= 0 ? hash : 'overview';
-      setActiveTab(initial);
-      setActivePanel(initial);
-      if (initial !== 'overview') history.replaceState({ tab: initial }, '', '#' + initial);
-
-      window.addEventListener('popstate', function(e) {
-        var tab = e.state && e.state.tab;
-        if (tab && validIds.indexOf(tab) >= 0) {
-          setActiveTab(tab);
-          setActivePanel(tab);
-        }
-      });
-    }
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initCategoryTabs);
-    } else {
-      initCategoryTabs();
-    }
-  })();
-
-  // 상대 시간 및 N 배지
-  (function() {
-    function formatRelativeTime(dateString) {
-      var postDate = new Date(dateString);
-      var now = new Date();
-      var diffMs = now - postDate;
-      var diffSec = Math.floor(diffMs / 1000);
-      var diffMin = Math.floor(diffSec / 60);
-      var diffHour = Math.floor(diffMin / 60);
-      var diffDay = Math.floor(diffHour / 24);
-      if (diffSec < 60) return diffSec + '초 전';
-      if (diffMin < 60) return diffMin + '분 전';
-      if (diffHour < 24) return diffHour + '시간 전';
-      if (diffDay < 7) return diffDay + '일 전';
-      return postDate.toLocaleDateString('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\./g, '.').replace(/\s/g, '');
-    }
-    function updatePostTimes() {
-      document.querySelectorAll('.post-list-item[data-post-date]').forEach(function(item) {
-        var postDateStr = item.getAttribute('data-post-date');
-        if (!postDateStr) return;
-        var postDate = new Date(postDateStr);
-        var now = new Date();
-        var diffHour = Math.floor((now - postDate) / (1000 * 60 * 60));
-        var badge = item.querySelector('.post-new-badge');
-        if (diffHour < 24) {
-          if (!badge) {
-            badge = document.createElement('span');
-            badge.className = 'post-new-badge';
-            badge.textContent = 'N';
-            badge.setAttribute('aria-label', '새 글');
-            var tw = item.querySelector('.post-list-title-wrapper');
-            if (tw) tw.appendChild(badge);
-          }
-        } else if (badge) badge.remove();
-        var dateEl = item.querySelector('.post-list-date[data-post-date]');
-        if (dateEl) dateEl.textContent = formatRelativeTime(postDateStr);
-      });
-    }
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', updatePostTimes);
-    else updatePostTimes();
-    setInterval(updatePostTimes, 60000);
-  })();
-
-  (function() {
-    var DOC_VISIBLE = 10;
-    var listEl = document.getElementById('overview-document-list');
-    var modalEl = document.getElementById('document-more-modal');
-    var modalListEl = document.getElementById('document-more-modal-list');
-    var moreBtn = document.getElementById('document-more-btn');
-
-    function getItems(container) {
-      container = container || listEl;
-      return container ? Array.prototype.slice.call(container.querySelectorAll('.js-document-item')) : [];
-    }
-
-    function sortItems(items, sortType) {
-      if (!items.length) return items;
-      if (sortType === 'date-desc') {
-        return items.sort(function(a, b) {
-          return new Date(b.getAttribute('data-sort-date')) - new Date(a.getAttribute('data-sort-date'));
-        });
-      }
-      if (sortType === 'date-asc') {
-        return items.sort(function(a, b) {
-          return new Date(a.getAttribute('data-sort-date')) - new Date(b.getAttribute('data-sort-date'));
-        });
-      }
-      if (sortType === 'title') {
-        return items.sort(function(a, b) {
-          return (a.getAttribute('data-sort-title') || '').localeCompare(b.getAttribute('data-sort-title') || '', 'ko');
-        });
-      }
-      return items;
-    }
-
-    function applyOrder(container, items) {
-      if (!container || !items.length) return;
-      items.forEach(function(node) { container.appendChild(node); });
-    }
-
-    function updateVisibility(container, visibleCount) {
-      visibleCount = visibleCount != null ? visibleCount : DOC_VISIBLE;
-      getItems(container).forEach(function(node, i) {
-        node.classList.toggle('overview-document-item-hidden', i >= visibleCount);
-      });
-    }
-
-    function applySortToList(container, sortType) {
-      if (!container) return;
-      var items = getItems(container);
-      applyOrder(container, sortItems(items, sortType));
-      if (container === listEl) updateVisibility(listEl);
-    }
-
-    function initDocumentSort() {
-      if (!listEl) return;
-      var section = document.getElementById('overview-document-section');
-      var headerSelect = document.getElementById('document-sort-select');
-      if (headerSelect) {
-        headerSelect.addEventListener('change', function() {
-          var sortType = headerSelect.value;
-          applySortToList(listEl, sortType);
-        });
-      }
-
-      if (modalEl) {
-        var modalSelect = document.getElementById('document-more-sort-select');
-        var modalClose = modalEl.querySelector('.document-more-modal-close');
-        var backdrop = modalEl.querySelector('.document-more-modal-backdrop');
-        if (modalSelect) {
-          modalSelect.addEventListener('change', function() {
-            applySortToList(modalListEl, modalSelect.value);
-          });
-        }
-        function closeModal() {
-          modalEl.classList.remove('is-open');
-          modalEl.setAttribute('aria-hidden', 'true');
-          document.body.style.overflow = '';
-          if (moreBtn) moreBtn.setAttribute('aria-expanded', 'false');
-        }
-        if (modalClose) modalClose.addEventListener('click', closeModal);
-        if (backdrop) backdrop.addEventListener('click', closeModal);
-        modalEl.addEventListener('keydown', function(e) {
-          if (e.key === 'Escape') closeModal();
-        });
-      }
-
-      if (moreBtn && modalListEl) {
-        moreBtn.addEventListener('click', function() {
-          var headerSelect = document.getElementById('document-sort-select');
-          var currentSort = (headerSelect && headerSelect.value) ? headerSelect.value : 'date-desc';
-          var modalSelect = document.getElementById('document-more-sort-select');
-          if (modalSelect) modalSelect.value = currentSort;
-          var items = getItems(listEl);
-          var sorted = sortItems(items.map(function(n) { return n.cloneNode(true); }), currentSort);
-          modalListEl.innerHTML = '';
-          sorted.forEach(function(n) { modalListEl.appendChild(n); });
-          document.body.style.overflow = 'hidden';
-          modalEl.classList.add('is-open');
-          modalEl.setAttribute('aria-hidden', 'false');
-          moreBtn.setAttribute('aria-expanded', 'true');
-          var closeBtn = modalEl.querySelector('.document-more-modal-close');
-          if (closeBtn) closeBtn.focus();
-        });
-      }
-    }
-
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initDocumentSort);
-    else initDocumentSort();
-  })();
-
-  if (typeof lucide !== 'undefined') lucide.createIcons();
-</script>
+<script src="{{ '/assets/js/record-stats.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

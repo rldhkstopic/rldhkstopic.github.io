@@ -67,9 +67,6 @@ def _select_topic(topics: List[Dict], existing_titles: Set[str]) -> Dict:
     """
     def score(topic: Dict) -> int:
         s = 0
-        if topic.get("source") == "bloomberg_rss":
-            # 목표 워크플로우: 전일 Bloomberg 다이제스트를 기본값으로 우선 선택한다.
-            s += 50
         if topic.get("source_url"):
             s += 10
         if topic.get("source") and topic.get("source") != "tech_news":
