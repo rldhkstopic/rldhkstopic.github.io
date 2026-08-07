@@ -49,7 +49,6 @@
                       {% when 'dev' %}Dev
                       {% when 'daily' %}Daily
                       {% when 'study' %}Study
-                      {% when 'stock' %}Stock
                       {% else %}Document
                       {% endcase %}
                     </span>
@@ -115,7 +114,6 @@
         </div>
       </section>
       <aside class="overview-sidebar">
-        {% assign watchlist = site.data.stock_watchlist | first %}
         <div class="overview-mini-cards">
           <div class="overview-mini-card overview-mini-card-lang lang-doc-card">
             <nav class="dev-explorer-nav" aria-label="카테고리 탐색">
@@ -214,45 +212,8 @@
                     </ul>
                   </details>
                 </li>
-                <li>
-                  <details class="dev-explorer-group">
-                    <summary class="dev-explorer-summary">
-                      <span class="dev-explorer-summary-left">
-                        <span class="dev-explorer-chevron" aria-hidden="true">›</span>
-                        <span class="dev-explorer-summary-icon">₩</span>
-                        <span class="dev-explorer-summary-label">경제공부</span>
-                      </span>
-                    </summary>
-                    <ul class="dev-explorer-children">
-                      <li><a class="dev-explorer-leaf-link" href="{{ '/stock/' | relative_url }}">Stocks</a></li>
-                      <li><a class="dev-explorer-leaf-link" href="#">Savings</a></li>
-                    </ul>
-                  </details>
-                </li>
               </ul>
             </nav>
-          </div>
-          <div class="overview-mini-card overview-mini-card-stock stock-job-theme">
-            <div class="stock-card-list-section">
-              <ul class="stock-card-posts">
-                {% for post in site.categories.stock limit: 3 %}
-                  {% assign stock_title = post.title | split: "]" | last | strip %}
-                  <li>
-                    <a href="{{ post.url | relative_url }}" class="stock-card-post-link">{% if stock_title != "" %}{{ stock_title | escape }}{% else %}{{ post.title | escape }}{% endif %}</a>
-                    <span class="stock-card-post-date">{{ post.date | date: "%m.%d" }}</span>
-                  </li>
-                {% endfor %}
-              </ul>
-              {% if site.categories.stock.size == 0 %}
-                <p class="stock-card-empty">최신 소식 없음</p>
-              {% endif %}
-            </div>
-            <div class="stock-card-footer">
-              <span class="stock-card-meta">
-                {% if watchlist %}<img class="stock-card-logo" src="{% if watchlist.logo_url %}{{ watchlist.logo_url }}{% else %}https://www.google.com/s2/favicons?domain={{ watchlist.domain | default: 'sofi.com' }}&sz=128{% endif %}" data-domain="{{ watchlist.domain | default: 'sofi.com' }}" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain='+(this.getAttribute('data-domain')||'sofi.com')+'&sz=128'"/>{% endif %}
-                <span class="stock-card-meta-text">{% if watchlist %}{{ watchlist.name }}{% else %}—{% endif %}</span>
-              </span>
-            </div>
           </div>
           <div class="overview-mini-card overview-mini-card-market">
             <div class="overview-mini-card-header">
@@ -264,7 +225,7 @@
               {% endfor %}
             </div>
             {% for post in site.categories.document limit: 1 %}
-              <a href="{{ post.url | relative_url }}" class="overview-mini-card-body overview-stock-latest">
+              <a href="{{ post.url | relative_url }}" class="overview-mini-card-body">
                 <p class="overview-mini-card-text">{{ post.title | escape }}</p>
               </a>
             {% endfor %}

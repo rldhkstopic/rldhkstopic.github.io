@@ -25,7 +25,6 @@ class PostCreatorAgent:
             "dev": project_root / "_posts_dev",
             "study": project_root / "_posts_study",
             "document": project_root / "_posts_document",
-            "stock": project_root / "_posts_stock",
         }
         
         # 기본 _posts 디렉터리 (하위 호환성)

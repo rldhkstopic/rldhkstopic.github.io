@@ -17,7 +17,6 @@ def main():
     category_mapping = {
         "_posts_daily": "daily",
         "_posts_dev": "dev",
-        "_posts_stock": "stock",
         "_posts_document": "document",
         "_posts_study": "study",
     }

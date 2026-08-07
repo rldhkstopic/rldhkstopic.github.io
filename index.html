@@ -132,7 +132,6 @@ layout: default
                           {% when 'dev' %}Dev
                           {% when 'daily' %}Daily
                           {% when 'study' %}Study
-                          {% when 'stock' %}Stock
                           {% when 'project' %}Project
                           {% else %}Document
                           {% endcase %}
@@ -198,7 +197,7 @@ layout: default
               </div>
             </div>
           </section>
-          <!-- 오른쪽: 미니 카드 (Explorer, 주식, 경제뉴스) -->
+          <!-- 오른쪽: 미니 카드 (Explorer, 경제뉴스) -->
           <aside class="overview-sidebar">
             {% include overview-sidebar.html %}
           </aside>
@@ -374,7 +373,7 @@ layout: default
             {% assign doc_tab_count = 0 %}
             {% for p in document_tab_posts %}
               {% assign is_economy = false %}
-              {% if p.title contains "전일 경제" or p.title contains "경제 뉴스" or p.title contains "다이제스트" or p.title contains "SOFI" or p.title contains "소식 분석" %}{% assign is_economy = true %}{% endif %}
+              {% if p.title contains "전일 경제" or p.title contains "경제 뉴스" or p.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
               {% unless is_economy %}{% assign doc_tab_count = doc_tab_count | plus: 1 %}{% endunless %}
             {% endfor %}
             <div class="overview-document-section" id="category-document-section">
@@ -392,7 +391,7 @@ layout: default
               <ul class="overview-document-list tab-panel-post-list" id="category-document-list">
                 {% for post in document_tab_posts %}
                   {% assign is_economy = false %}
-                  {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" or post.title contains "SOFI" or post.title contains "소식 분석" %}{% assign is_economy = true %}{% endif %}
+                  {% if post.title contains "전일 경제" or post.title contains "경제 뉴스" or post.title contains "다이제스트" %}{% assign is_economy = true %}{% endif %}
                   {% unless is_economy %}
                     <li class="tab-panel-card js-document-item" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
                       <article class="overview-doc-card">
@@ -481,64 +480,6 @@ layout: default
       </div>
     </div>
 
-    <!-- 주식: overview-main 레이아웃 + 문서형 카드 목록 -->
-    <div class="tab-panel" data-panel="stock" role="tabpanel" hidden>
-      <div class="tab-panel-content overview-panel">
-        <div class="overview-layout">
-          <section class="overview-main">
-            {% assign stock_posts = site.categories.stock %}
-            {% if stock_posts.size == 0 %}
-              {% assign stock_posts = "" | split: "" %}
-              {% for post in site.categories.document %}
-                {% if post.tags contains '주식' or post.tags contains 'Stock' or post.title contains '주식' or post.title contains '뉴스' or post.title contains '경제' %}
-                  {% assign stock_posts = stock_posts | push: post %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-            <div class="overview-document-section" id="category-stock-section">
-              <header class="overview-document-header">
-                <h2 class="overview-document-title">주식 {{ stock_posts.size }}건</h2>
-                <div class="overview-document-sort" aria-label="정렬 방식">
-                  <label for="category-stock-sort" class="overview-document-sort-label">정렬</label>
-                  <select id="category-stock-sort" class="overview-document-sort-select" aria-label="정렬 방식 선택">
-                    <option value="date-desc" selected>최신순</option>
-                    <option value="date-asc">오래된순</option>
-                    <option value="title">제목순</option>
-                  </select>
-                </div>
-              </header>
-              <ul class="overview-document-list tab-panel-post-list" id="category-stock-list">
-                {% for post in stock_posts %}
-                  <li class="tab-panel-card js-document-item" data-sort-date="{{ post.date | date_to_xmlschema }}" data-sort-title="{{ post.title | escape | downcase }}">
-                    <article class="overview-doc-card">
-                      <div class="overview-doc-breadcrumb">
-                        <span class="overview-doc-breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></span>
-                        <span class="overview-doc-breadcrumb-sep">/</span>
-                        <span class="overview-doc-breadcrumb-item overview-doc-breadcrumb-current">주식</span>
-                      </div>
-                      <div class="overview-doc-main">
-                        <h3 class="overview-doc-title"><a class="overview-doc-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-                        <p class="overview-doc-excerpt">{% if post.excerpt %}{{ post.excerpt | strip_html | truncate: 140 }}{% else %}{{ post.content | strip_html | truncate: 140 }}{% endif %}</p>
-                        <div class="overview-doc-meta-row">
-                          <span class="overview-doc-meta-item">주식</span>
-                          {% if post.tags and post.tags.size > 0 %}
-                            <div class="overview-doc-tags">{% for tag in post.tags limit: 2 %}<span class="overview-doc-tag">#{{ tag }}</span>{% endfor %}</div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </article>
-                  </li>
-                {% endfor %}
-                {% if stock_posts.size == 0 %}
-                  <li class="tab-panel-post-empty">아직 포스트가 없습니다.</li>
-                {% endif %}
-              </ul>
-            </div>
-          </section>
-          <aside class="overview-sidebar">{% include overview-sidebar.html %}</aside>
-        </div>
-      </div>
-    </div>
 
     <!-- 프로젝트: overview-main 레이아웃 + 문서형 카드 목록 -->
     <div class="tab-panel" data-panel="project" role="tabpanel" hidden>
@@ -632,7 +573,7 @@ layout: default
 
       // 초기: URL 해시 또는 개요
       var hash = (window.location.hash || '').replace(/^#/, '');
-      var validIds = ['overview', 'daily', 'dev', 'vhdl', 'document', 'study', 'stock', 'project'];
+      var validIds = ['overview', 'daily', 'dev', 'vhdl', 'document', 'study', 'project'];
       var initial = validIds.indexOf(hash) >= 0 ? hash : 'overview';
       setActiveTab(initial);
       setActivePanel(initial);

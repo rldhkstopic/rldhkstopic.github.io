@@ -93,9 +93,6 @@ collections:
   posts_document:
     output: true
     permalink: /document/:name/
-  posts_stock:
-    output: true
-    permalink: /stock/:name/
 
 # Default collection for _posts directory (includes subdirectories)
 # Jekyll will recursively scan _posts subdirectories

@@ -811,7 +811,6 @@ body.home-page .site-header {
 .tab-panel-icon.icon-dev { color: #2563eb; }
 .tab-panel-icon.icon-document { color: #8b5cf6; }
 .tab-panel-icon.icon-study { color: #10b981; }
-.tab-panel-icon.icon-stock { color: #ef4444; }
 .tab-panel-more {
   font-size: 0.8125rem;
   color: var(--text-secondary);
@@ -1085,33 +1084,7 @@ body.home-page .site-header {
   align-items: center;
   gap: 0.35rem;
 }
-.overview-mini-card-stock .overview-mini-card-header .overview-stock-info {
-  margin-bottom: 0;
-}
-.overview-stock-info {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.9375rem;
-}
-.overview-stock-logo {
-  width: 1.1em;
-  height: 1.1em;
-  min-width: 18px;
-  min-height: 18px;
-  border-radius: 4px;
-  object-fit: contain;
-  background: var(--bg-primary);
-  vertical-align: middle;
-}
-.overview-stock-name {
-  font-size: 1em;
-  font-weight: 600;
-  color: var(--text-primary);
-}
 /* 관심종목 카드: 헤더(로고+이름 | 날짜), 제목, 구분선, 하단 ⋯ */
-.overview-mini-card-stock .overview-mini-card-header .overview-mini-card-date,
 .overview-mini-card-market .overview-mini-card-header .overview-mini-card-date {
   display: inline-flex;
   align-items: center;
@@ -1210,122 +1183,25 @@ body.home-page .site-header {
 [data-theme="dark"] .lang-doc-link:hover {
   background: rgba(49, 130, 246, 0.15);
 }
-.overview-mini-card-stock .overview-stock-latest,
 .overview-mini-card-market .overview-mini-card-body {
   margin-bottom: 0;
   margin-top: 0.5rem;
 }
-.overview-mini-card-stock .overview-mini-card-text,
 .overview-mini-card-market .overview-mini-card-text {
   -webkit-line-clamp: 2;
   line-clamp: 2;
 }
-.overview-mini-card-stock .overview-mini-card-bottom,
 .overview-mini-card-market .overview-mini-card-bottom {
   margin-top: 0;
   padding-top: 0;
   text-align: right;
 }
-
-/* 주식 카드: 상단 게시글 2~3개 목록 / 구분선 / 하단 로고·종목명 (글래스 느낌 테두리) */
-.stock-job-theme {
-  padding: 0;
-  overflow: hidden;
-  border-radius: 12px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-[data-theme="dark"] .stock-job-theme {
-  border-color: rgba(255, 255, 255, 0.14);
-  background: rgba(30, 41, 59, 0.35);
-}
-.stock-card-list-section {
-  padding: 0.85rem 1.1rem 0.95rem;
-}
-.stock-card-posts {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.stock-card-posts li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.6rem;
-  margin-bottom: 0.4rem;
-  padding: 0.2rem 0;
-}
-.stock-card-posts li:last-child {
-  margin-bottom: 0;
-}
-.stock-card-post-link {
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: var(--text-primary);
-  text-decoration: none;
-  flex: 1;
-  min-width: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 1.35;
-}
-.stock-card-post-link:hover {
-  color: var(--accent-color);
-}
-.stock-card-post-date {
-  font-size: 0.75rem;
-  color: var(--text-secondary);
-  flex-shrink: 0;
-}
-.stock-card-empty {
-  font-size: 0.75rem;
-  color: var(--text-secondary);
-  margin: 0;
-}
-.stock-card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-  padding: 0.7rem 1.1rem 0.9rem;
-  border-top: 1px solid rgb(217 217 217 / 40%);
-}
-[data-theme="dark"] .stock-card-footer {
-  border-top-color: rgba(255, 255, 255, 0.1);
-}
-.stock-card-meta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  min-width: 0;
-  flex: 1;
-}
-.stock-card-logo {
-  width: 24px;
-  height: 24px;
-  border-radius: 6px;
-  object-fit: contain;
-  flex-shrink: 0;
-  background: var(--bg-secondary);
-}
-.stock-card-meta-text {
-  font-size: 0.75rem;
-  color: var(--text-primary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-}
-
 .overview-mini-card-body {
   display: block;
   text-decoration: none;
   color: inherit;
 }
-.overview-mini-card:not(.overview-mini-card-stock):not(.overview-mini-card-market) .overview-mini-card-body {
+.overview-mini-card:not(.overview-mini-card-market) .overview-mini-card-body {
   margin-bottom: 0.5rem;
 }
 .overview-mini-card-body:hover .overview-mini-card-text {
@@ -1818,7 +1694,7 @@ body.home-page .site-header {
   }
 }
 
-/* ========== 탭 콘텐츠 카드 (일기/개발/VHDL/문서/학습/주식) ========== */
+/* ========== 탭 콘텐츠 카드 (일기/개발/VHDL/문서/학습) ========== */
 .tab-content-card {
   background: var(--bg-secondary);
   border-radius: 10px;
@@ -1850,7 +1726,6 @@ body.home-page .site-header {
 .tab-content-card-icon.icon-dev { color: #2563eb; }
 .tab-content-card-icon.icon-document { color: #8b5cf6; }
 .tab-content-card-icon.icon-study { color: #10b981; }
-.tab-content-card-icon.icon-stock { color: #ef4444; }
 .tab-content-card-more {
   font-size: 0.8125rem;
   color: var(--text-secondary);
@@ -2785,11 +2660,6 @@ body.home-page .site-header {
 .sidebar-category-icon-wrapper.icon-study .sidebar-category-icon {
   color: #10b981; /* 초록색 */
 }
-
-.sidebar-category-icon-wrapper.icon-stock .sidebar-category-icon {
-  color: #ef4444; /* 빨간색 */
-}
-
 .sidebar-category-icon-wrapper:hover .sidebar-category-icon {
   transform: scale(1.05);
   opacity: 0.8;
@@ -3340,11 +3210,6 @@ body.home-page .site-header {
 .icon-dev .category-icon {
   color: #2563eb; /* 파란색 */
 }
-
-.icon-stock .category-icon {
-  color: #ef4444; /* 빨간색 */
-}
-
 .icon-study .category-icon {
   color: #10b981; /* 초록색 */
 }
