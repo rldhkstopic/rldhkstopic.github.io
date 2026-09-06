@@ -38,7 +38,7 @@ layout: default
           </time>
         </span>
         {% if page.category %}
-          {% assign category_names = 'daily:일기,dev:개발,document:문서,study:학습,stock:주식,project:프로젝트' | split: ',' %}
+          {% assign category_names = 'daily:일기,dev:개발,document:문서,study:학습,project:프로젝트' | split: ',' %}
           {% assign category_display = page.category %}
           {% for cat_pair in category_names %}
             {% assign cat_data = cat_pair | split: ':' %}

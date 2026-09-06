@@ -36,3 +36,9 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# 로컬 빌드 산출물
+_site/
+.jekyll-cache/
+vendor/
+.bundle/
