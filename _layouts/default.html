@@ -16,9 +16,6 @@
     {% if page.layout == 'dev-wiki' %}
     <link rel="stylesheet" href="{{ '/assets/css/dev-wiki.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     {% endif %}
-    {% if page.url == '/stock/' or page.url == '/stock/index.html' %}
-    <link rel="stylesheet" href="{{ '/assets/css/stock-feed.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-    {% endif %}
     <!-- Pretendard Font (Toss Design System) -->
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <!-- Bootstrap Icons for reference markers -->
@@ -70,7 +67,6 @@
             <a class="nav-link" href="/document/">문서</a>
             <a class="nav-link" href="/daily/">일기</a>
             <a class="nav-link" href="/study/">학습</a>
-            <a class="nav-link" href="/stock/">주식</a>
             <a class="nav-link" href="/project/">프로젝트</a>
           </div>
           <div class="trigger" style="position: relative;">
@@ -264,7 +260,7 @@
             });
           }
 
-          // 카테고리 탭 패널(일기/개발/VHDL/문서/학습/주식) 내 정렬 셀렉트 바인딩
+          // 카테고리 탭 패널(일기/개발/VHDL/문서/학습) 내 정렬 셀렉트 바인딩
           document.querySelectorAll('.overview-document-section').forEach(function(section) {
             if (section.id && section.id.indexOf('category-') === 0) {
               var catList = section.querySelector('ul.overview-document-list');
@@ -627,7 +623,7 @@
         const todayMobileEl = document.getElementById('today-visitors-mobile');
         
         if (!totalEl || !todayEl || !yesterdayEl) {
-          // 방문자 통계 요소가 없는 페이지(예: /stock/)에서는 조용히 종료
+          // 방문자 통계 요소가 없는 페이지에서는 조용히 종료
           return;
         }
         
